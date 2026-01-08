@@ -1,0 +1,221 @@
+---
+title: "Q2x2nn Enero"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("synth_csv.R")
+source("tapho_loader.R")
+```
+
+```{r}
+tapho.load(rnd_taphor_site_data())
+```
+
+```{r}
+new_site_data <- rnd_taphor_site_data()
+new_site_data
+
+```
+
+SUM=1
+
+```{r}
+df = rnd_taphor_data(15)[,-c(5,4:16)]
+tapho.load(df)
+```
+
+```{r}
+rnd_taphor_data <- function(size) {
+  # Generate the initial dataset
+  data <- rnd_taphor_site_data()
+
+  # Loop through the specified size to add additional count columns
+  for (i in 1:(size - 1)) {
+    new_data <- rnd_taphor_site_data()
+    data <- data %>%
+      mutate(!!paste0("count", i + 1) := new_data$count)
+  }
+
+  return(data)
+}
+```
+
+```{r}
+tb15 <- rnd_taphor_data(15)
+tb15
+```
+
+```{r}
+tapho.load.db(tb15)
+```
+
+```{r}
+tapho.load.db <- function(data) {
+  tb <- tapho.load(data[, 1:2])
+
+  for (i in 3:ncol(data)) {
+    one_column <- data[, c(1,i)]
+    one_column <- one_column %>% rename(count = !!paste0("count", i-1))
+    tb_one <- tapho.load(one_column)
+    tb <- tb %>% add_row(tb_one)
+  }
+
+  return(tb)
+}
+```
+
+```{r}
+tb <- tapho.load(tb15[,1:2])
+one_column <- tb15[,c(1,3)]
+one_column <- one_column %>% rename(count = !!paste0("count", 3-1))
+tb_one <- tapho.load(one_column)
+tb %>% add_row(tb_one)
+```
+
+```{r}
+read_excel_sheets <- function(file_path) {
+  # Read the Excel file
+  excel_data <- readxl::read_excel(file_path, sheet = NULL)
+
+  # Process each sheet
+  result_list <- lapply(excel_data, function(sheet) {
+    # Convert the sheet to a data frame
+    sheet_df <- as.data.frame(sheet)
+    print(sheet_df)
+
+    # Process the sheet using tapho.load.db
+    processed_sheet <- tapho.load.db(sheet_df)
+
+    return(processed_sheet)
+  })
+
+  return(result_list)
+}
+```
+
+```{r}
+file_path <- "test_excel_file.xlsx"
+
+# Read and process the Excel file
+processed_sheets <- read_excel_sheets(file_path)
+
+# Print the resulting list of processed sheets to verify
+print(processed_sheets)
+```
+
+```{r}
+
+datasets <- list()
+for (i in 1:3) {
+  datasets[[i]] <- rnd_taphor_data(8)
+}
+
+# Write the datasets to an Excel file with multiple sheets
+writexl::write_xlsx(datasets, "test_excel_file.xlsx")
+```
+
+```{r}
+
+# Example usage
+# Assuming you have an Excel file with multiple sheets
+file_path <- "test_excel_file.xlsx"
+# Define the function to read an Excel file with multiple sheets
+read_excel_sheets <- function(file_path) {
+  # Read the Excel file
+  excel_data <- readxl::read_excel(file_path, sheet = NULL)
+
+  # Process each sheet
+  result_list <- lapply(excel_data, function(sheet) {
+    # Convert the sheet to a data frame
+    sheet_df <- as.data.frame(sheet)
+
+    # Process the sheet using tapho.load.db
+    processed_sheet <- tapho.load.db(sheet_df)
+
+    return(processed_sheet)
+  })
+
+  return(result_list)
+}
+
+# Example usage
+# Assuming you have an Excel file with multiple sheets
+file_path <- "test_excel_file.xlsx"
+
+# Read and process the Excel file
+processed_sheets <- read_excel_sheets(file_path)
+
+# Print the resulting list of processed sheets to verify
+print(processed_sheets)
+
+
+```
+
+```{r}
+
+excel_data <- readxl::read_excel(file_path, sheet = 3)
+i=0
+  result_list <- lapply(excel_data, function(sheet) {
+    # Convert the sheet to a data frame
+     
+    print(as.data.frame(sheet))
+  
+
+    return(i)
+  })
+```
+
+```{r}
+library(readxl)
+library(dplyr)
+
+# Define the function to read an Excel file with multiple sheets
+read_excel_sheets <- function(file_path) {
+  
+  # Get all sheet names in the Excel file
+  sheet_names <- readxl::excel_sheets(file_path)
+  
+  # Read each sheet, process it, and store in a list
+  processed_list <- lapply(sheet_names, function(sname) {
+    
+    # Read the current sheet
+    sheet_data <- readxl::read_excel(file_path, sheet = sname)
+    
+    # Process it using your tapho.load.db() function
+    processed_sheet <- tapho.load.db(sheet_data)
+    
+    # Optionally, you might want to keep track of which sheet it came from
+    # processed_sheet <- processed_sheet %>% 
+    #   mutate(sheet_name = sname)
+    
+    processed_sheet
+  })
+  
+  # Combine all processed sheets into one tibble
+  combined_df <- bind_rows(processed_list)
+  
+  return(combined_df)
+}
+
+# Example usage
+file_path <- "test_excel_file.xlsx"
+
+# Read and process all sheets, then combine
+processed_data <- read_excel_sheets(file_path)
+
+# Inspect the combined tibble
+print(processed_data)
+
+```
+
+tapho.load -\> tapho.load.db -\> read_excel_sheets

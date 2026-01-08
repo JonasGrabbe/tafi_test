@@ -1,0 +1,623 @@
+---
+title: "5Uy4MP Enero"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("meta.R")
+source("NewSiteDataLoader.R")
+source("select_data.R")
+source("data_loader.R")
+
+library(dplyr)
+
+sections_order <- c("Skull", "Hyoid", "Vertebrae", "Thorax", "Shoulder",
+"Arms", "Hands", "Pelvic", "Legs", "Foot")
+
+load("NewSiteData_sum.rda")
+load("NewSiteData_ind.rda")
+
+
+print("### SUM ###")
+print(NewSiteData_sum)
+print("### IND ###")
+print(NewSiteData_ind)
+colnames(NewSiteData_ind)
+```
+
+```{r}
+generate_random_strings <- function(num_strings = 11, string_length = 10) {
+  # Define the character set to use for generating random strings
+  character_set <- c(LETTERS, letters, 0:9)
+
+  # Generate the random strings
+  random_strings <- sapply(1:num_strings, function(i) {
+    paste(sample(character_set, string_length, replace = TRUE), collapse = "")
+  })
+
+  return(random_strings)
+}
+```
+
+```{r}
+# Define the function to generate the vector
+generate_special_vector <- function(seed = 123) {
+  # Set the seed for reproducibility
+  #set.seed(seed)
+
+  # Initialize the vector with length 281
+  vec <- numeric(281)
+
+  # Randomly assign 100 entries as NA
+  na_indices <- sample(1:281, 100)
+  vec[na_indices] <- NA
+
+  # Randomly assign 100 entries as 0
+  zero_indices <- sample(setdiff(1:281, na_indices), 100)
+  vec[zero_indices] <- 0
+
+  # Fill the remaining entries with random integers between 1 and 9
+  remaining_indices <- setdiff(1:281, union(na_indices, zero_indices))
+  vec[remaining_indices] <- sample(1:9, length(remaining_indices), replace = TRUE)
+
+  return(vec)
+}
+
+
+```
+
+```{r}
+generate_dataset_new <- function(n_samples) {
+  # Define the metadata
+  time_range <- c(
+    "Zanclean", "Piacenzian", "Gelasian", "Calabrian", "Chibanian", "Tarantian",
+    "Oldowan", "Acheulean", "Mousterian", "Aterian", "Aurignacian", "Gravettian",
+    "Solutrean", "Magdalenian", "Natufian", "Kebaran", "Azilian", "Maglemosian",
+    "Pre-Pottery Neolithic A", "Pre-Pottery Neolithic B", "Pottery Neolithic",
+    "Chalcolithic", "Early Bronze Age", "Middle Bronze Age", "Late Bronze Age",
+    "Early Iron Age", "Middle Iron Age", "Late Iron Age",
+    "Medieval Period", "Early Modern Period", "Late Modern Period"
+  )
+
+  age_category <- c(
+    "Infant (0-2 years)",
+    "Child (3-7 years)",
+    "Adolescent (8-16 years)",
+    "Subadult",  # General category if specific age is not available
+    "Adult (17+ years)"
+  )
+
+  gender <- c("Male", "Female", "Unknown")
+
+  accumulation_cause <- c(
+    "Cannibalism", "Burial", "Collective burial", "Mass graves",
+    "Secondary position", "Surface disposal", "Disposal", "Scavenged",
+    "Intentional accumulation", "Funerary assemblage", "Cemetery",
+    "Cuevas Sepulcrales", "Transport or accumulation from carnivores",
+    "Possible burial"
+  )
+
+  geological_context <- c(
+    "Cave", "Sepulchral Cave", "Rockshelter", "Open air", "Surface disposal"
+  )
+
+  hominin_species <- c(
+    "Australopithecus anamensis", "Australopithecus afarensis",
+    "Australopithecus africanus", "Paranthropus aethiopicus",
+    "Homo habilis", "Homo rudolfensis", "Paranthropus boisei",
+    "Paranthropus robustus", "Homo ergaster", "Homo erectus",
+    "Homo antecessor", "Homo heidelbergensis",
+    "Neanderthals (Homo neanderthalensis)", "Denisovans",
+    "Homo naledi", "Homo sapiens"
+  )
+
+  # Define site_index
+  site_index <- paste0("Site_", 1:n_samples)
+
+  # Create the dataset
+  dataset <- c(
+    1:n_samples,  # Sample index
+    site_index,  # Site index
+    paste0("Site_", 1:n_samples),  # Site name
+    rep(1, n_samples),  # Sum (set to 1 for all rows)
+    sample(time_range, n_samples, replace = TRUE),
+    sample(geological_context, n_samples, replace = TRUE),
+    sample(1:125, n_samples, replace = TRUE),
+    sample(age_category, n_samples, replace = TRUE),
+    sample(gender, n_samples, replace = TRUE),
+    sample(accumulation_cause, n_samples, replace = TRUE),
+    sample(hominin_species, n_samples, replace = TRUE)
+  )
+  
+
+  return(dataset)
+}
+
+```
+
+```{r}
+
+rnd_taphor_site_data<-function(metas=meta_names,whole=elements_data$ElementsOne){
+
+  vec <- c(2, NA, 0, NA, 0, 6, NA, 0, NA, NA, NA, 0, 0, 0, 0, 0, NA, 0, 3, 0, NA, 7, NA, NA,
+  NA, 0, 3, 0, 0, 0, NA, 0, 0, 7, NA, NA, 0, 7, 0, 7, 0, NA, 7, 0, 8, 0, 8, NA,
+  NA, NA, 0, 0, NA, 1, 5, NA, 9, 1, NA, 6, 0, 9, 0, NA, 0, NA, NA, NA, NA, NA, NA, NA,
+  0, NA, 8, NA, 0, 8, NA, 7, 7, 0, 0, 1, 0, 9, 0, NA, NA, NA, 8, 3, NA, 0, 8, 0,
+  6, 0, 0, 0, NA, 0, 1, 4, NA, NA, 0, NA, NA, NA, NA, NA, 3, 5, 0, 0, 0, 0, NA, NA,
+  0, NA, 0, NA, 0, 7, 0, NA, NA, NA, NA, 2, NA, 8, NA, 0, 0, 0, 0, 0, 0, 8, NA, 4,
+  8, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 2, 0, 1, 9, NA, NA, 3, 0, 0, 0, NA, NA, 0,
+  NA, 5, NA, NA, NA, 0, NA, 5, 9, 0, 4, NA, 3, 3, 6, NA, 4, 0, 0, NA, NA, 7, 0, 0,
+  9, 3, 6, 5, NA, 0, 9, 0, 4, NA, 3, 7, 4, 5, NA, 8, NA, 7, 0, 8, 6, 0, NA, 0,
+  NA, 8, 7, NA, 1, NA, 0, NA, 0, 6, 0, 6, NA, NA, NA, NA, NA, 4, 0, 0, NA, NA, NA, 9,
+  9, NA, NA, 0, 4, 0, 0, NA, 0, 0, 0, NA, 0, NA, 5, 9, NA, 3, NA, NA, NA, 0, NA, NA,
+  NA, NA, 0, 3, 0, 0, 2, 0, 0, 0, NA, 0, 0, 7, NA, 1, 0)
+  
+  
+  random_strings <- generate_dataset_new(1)
+  special_vector <- generate_special_vector()
+  #special_vector <- vec
+
+
+  element_column <- c(metas, whole)
+  count_column <- c(random_strings, special_vector)
+
+
+  tibble <- tibble::tibble(element = element_column,count = count_column)
+
+  return(tibble)
+}
+rnd_taphor_site_data()
+```
+
+end sythetic data
+
+### helper funct for tapho.loader
+
+```{r}
+recal_mne_six <- function(current_mne,  target_levels, skeleton_hierarchy, bone_names, sections_order) {
+    current_levels = c(5,1,3,4,3,3,5,4,3,5)
+
+  
+  # Initialize results list
+  new_mne <- list()
+  
+  # Create initial tibble with bone info
+  current_mne_named <- tibble(count = current_mne, element = bone_names) %>%
+    add_bone_info() %>%
+    mutate(std_element = gsub(" ", ".", element))
+
+  # Process each skeleton section
+  for (part in sections_order) {
+    part_idx <- which(sections_order == part)
+    current_level <- current_levels[part_idx]
+    target_level <- target_levels[part_idx]
+    
+    cat("\nProcessing", part, ": Starting at level", current_level, "-> Target", target_level, "\n")
+    
+    # Initialize working data
+    working_data <- current_mne_named %>%
+      filter(Skeleton_Section == part) %>%
+      select(std_element, count)
+
+    iteration <- 1
+    while(current_level > target_level) {
+      intermediate_level <- max(target_level, current_level - 1)
+      mapping_name <- paste0(part, "_", current_level, "_to_", intermediate_level)
+      
+      if (mapping_name %in% names(category_hierarchy)) {
+        # Create element-category mapping
+        element_map <- stack(category_hierarchy[[mapping_name]]) %>%
+          setNames(c("child", "parent")) %>%
+          mutate(
+            child = gsub(" ", ".", child),
+            parent = gsub(" ", ".", parent)
+          )
+        
+        # Split data into mappable and non-mappable elements
+        mappable <- working_data %>%
+          inner_join(element_map, by = c("std_element" = "child"))
+        
+        non_mappable <- working_data %>%
+          anti_join(element_map, by = c("std_element" = "child"))
+        
+        # Aggregate mappable elements
+        aggregated <- mappable %>%
+          group_by(parent) %>%
+          summarize(count = sum(count, na.rm = TRUE)) %>%
+          rename(std_element = parent)
+        
+        # Combine with non-mappable elements
+        working_data <- bind_rows(non_mappable, aggregated)
+        
+        current_level <- intermediate_level
+        cat("  Step", iteration, "| Level:", current_level, "| Elements:", nrow(working_data), "\n")
+        iteration <- iteration + 1
+      } else {
+        warning(paste("Missing mapping:", mapping_name))
+        break
+      }
+    }
+    
+    # Store final results
+    if(nrow(working_data) > 0) {
+      for(i in seq_len(nrow(working_data))) {
+        element_name <- paste(part, working_data$std_element[i], sep = "_")
+        new_mne[[element_name]] <- working_data$count[i]
+      }
+    }
+  }
+  
+  # Convert to tibble with proper ordering
+  new_mne_df <- tibble(
+    element = names(new_mne),
+    count = unlist(new_mne)
+  )
+  
+  return(new_mne_df)
+}
+```
+
+```{r}
+align_loaded_data <- function(one_skeleton, longer_elements, longer_counts) {
+
+  shorter_elements <- sub(".*\\.", "",one_skeleton)
+  longer_elements <- sub(".*\\_", "", gsub("\\.", " ", longer_elements)) 
+
+  # Find the elements in the longer vector that are not in the shorter vector
+  elements_to_remove <- longer_elements[!longer_elements %in% shorter_elements]
+
+  # Find the positions of these elements in the longer vector
+  positions_to_remove <- which(longer_elements %in% elements_to_remove)
+
+  # Remove these elements and their corresponding counts from both vectors
+  aligned_longer_elements <- longer_elements[-positions_to_remove]
+  aligned_longer_counts <- longer_counts[-positions_to_remove]
+  
+  align_loaded_db <- data.frame(element = aligned_longer_elements, count = aligned_longer_counts)
+  
+  return(align_loaded_db)
+}
+```
+
+```{r}
+
+
+```
+
+```{r}
+library(dplyr)
+library(tibble)
+
+loaded_tapho <- function(meta, level, col_element, col_count) { 
+  # Ensure that level is a 10-element vector
+  if (length(level) != 10) {
+    stop("The level vector must have exactly 10 elements.")
+  }
+
+  # Ensure that col_element and col_count are of the same length
+  if (length(col_element) != length(col_count)) {
+    stop("The length of col_element and col_count must be the same.")
+  }
+
+  # Create the tibble with the specified columns
+  dataset <- tibble::tibble(
+    site_index = meta[1],
+    sample_index = meta[2],
+    site_name = meta[3],
+    sum = meta[4],
+    time_range = meta[5],
+    geological_context = meta[6],
+    number_of_individuals = meta[7],
+    age = meta[8],
+    gender = meta[9],
+    accumulation_cause = meta[10],
+    hominin_species = meta[11],
+    bone.level = list(level),  # Store level as a list
+    element = list(col_element),  # Store col_element as a list
+    count = list(col_count)  # Store col_count as a list
+  )
+
+  return(dataset)
+}
+```
+
+```{r}
+recal_mne_7 <- function(current_mne,target_levels, skeleton_hierarchy, bone_names, sections_order, sum_cat = TRUE) {
+    current_levels = c(5,1,3,4,3,3,5,4,3,5)
+  # Initialize results list
+  new_mne <- list()
+  
+  # Create initial tibble with bone info
+  current_mne_named <- tibble(count = current_mne, element = bone_names) %>%
+    add_bone_info() %>%
+    mutate(std_element = gsub(" ", ".", element))
+
+  # Process each skeleton section
+  for (part in sections_order) {
+    part_idx <- which(sections_order == part)
+    current_level <- current_levels[part_idx]
+    target_level <- target_levels[part_idx]
+    
+    # Initialize working data
+    working_data <- current_mne_named %>%
+      filter(Skeleton_Section == part) %>%
+      select(std_element, count)
+
+    iteration <- 1
+    while(current_level > target_level) {
+      intermediate_level <- max(target_level, current_level - 1)
+      mapping_name <- paste0(part, "_", current_level, "_to_", intermediate_level)
+      
+      if (mapping_name %in% names(category_hierarchy)) {
+        # Create element-category mapping
+        element_map <- stack(category_hierarchy[[mapping_name]]) %>%
+          setNames(c("child", "parent")) %>%
+          mutate(
+            child = gsub(" ", ".", child),
+            parent = gsub(" ", ".", parent)
+          )
+        
+        # Split data
+        mappable <- working_data %>%
+          inner_join(element_map, by = c("std_element" = "child"))
+        
+        non_mappable <- working_data %>%
+          anti_join(element_map, by = c("std_element" = "child"))
+        
+        # Aggregate mappable elements
+        aggregated <- mappable %>%
+          group_by(parent) %>%
+          summarize(count = sum(count, na.rm = TRUE)) %>%
+          rename(std_element = parent)
+        
+        # SPECIAL SUMMATION LOGIC
+        if(sum_cat) {
+          working_data <- non_mappable %>%
+            full_join(aggregated, by = "std_element") %>%
+            mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
+            select(std_element, count)
+        } else {
+          working_data <- bind_rows(non_mappable, aggregated)
+        }
+        
+        current_level <- intermediate_level
+        iteration <- iteration + 1
+      } else {
+        warning(paste("Missing mapping:", mapping_name))
+        break
+      }
+    }
+    
+    # Store final results
+    if(nrow(working_data) > 0) {
+      for(i in seq_len(nrow(working_data))) {
+        element_name <- paste(part, working_data$std_element[i], sep = "_")
+        new_mne[[element_name]] <- working_data$count[i]
+      }
+    }
+  }
+  
+  # Convert to tibble
+  new_mne_df <- tibble(
+    element = names(new_mne),
+    count = unlist(new_mne)
+  )
+  
+  return(new_mne_df)
+}
+
+```
+
+```{r}
+summarize_bone_sections_zero_na <- function(input_df, reference_df = elements_data) {
+  # Filter out rows where input_df$element is 0 or NA
+  input_df <- input_df %>%
+    filter(!is.na(input_df$count) & input_df$count != 0)
+
+
+  # Add bone info using the filtered input_df
+  bone_info_df <- add_bone_info(input_df, reference_df)
+
+  # Define the ordered list of skeleton sections
+  sections_order <- c("Skull", "Hyoid", "Vertebrae", "Thorax", "Shoulder",
+                      "Arms", "Hands", "Pelvic", "Legs", "Foot")
+
+  # Summarize the minimum Level for each section
+  summary_df <- bone_info_df %>%
+    group_by(Skeleton_Section) %>%
+    summarize(min_level = min(Level, na.rm = TRUE)) %>%
+    ungroup()
+
+  # Create a named vector with all sections, initializing with 1 (instead of NA)
+  result_vector <- setNames(rep(1, length(sections_order)), sections_order)
+
+  # Fill in the result_vector with available data
+  for (section in sections_order) {
+    if (section %in% summary_df$Skeleton_Section) {
+      level <- summary_df$min_level[summary_df$Skeleton_Section == section]
+      # If the level is NA, keep it as 1, otherwise use the actual level
+      result_vector[section] <- if(is.na(level)) 1 else level
+    }
+    # If the section is not in summary_df, it will remain 1
+  }
+
+  # Return just the numeric vector without names
+  return(unname(result_vector))
+}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+#test run 
+mne_func <- function(i) {
+  print(i)
+  i <- i + 1
+  return(i)
+}
+
+simulate_levels <- function() {
+  starting_level <- c(5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+  target_level <- c(2, 1, 2, 4, 1, 3, 2, 1, 1, 2)
+  current_levels <- starting_level
+  i <- 1
+  
+  while (!all(current_levels == target_level)) {
+    i <- mne_func(i)
+    current_levels <- ifelse(current_levels > target_level, current_levels - 1, current_levels)
+    print(current_levels)
+  }
+  
+  print("Final levels:")
+  print(current_levels)
+}
+
+# Run the simulation
+simulate_levels()
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+## Taphor - data.loader
+
+#### current data format
+
+```{r}
+load("NewSiteData_sum.rda")
+load("NewSiteData_ind.rda")
+
+
+print("### SUM ###")
+print(NewSiteData_sum)
+print("### IND ###")
+print(NewSiteData_ind)
+```
+
+#### simulated loaded from csv or excel
+
+```{r}
+new_site_data <- rnd_taphor_site_data()
+new_site_data
+```
+
+```{r}
+new_site_meta <- new_site_data[1:11,]
+new_site_raw <- new_site_data[-c(1:11),]
+target_levels <- summarize_bone_sections_zero_na(new_site_raw)
+target_levels 
+```
+
+```{r}
+
+new_site_raw$count[is.na(new_site_raw$count)] <- 0
+recalc_new_site_raw <- recal_mne_six(as.numeric(new_site_raw$count), target_levels, skeleton_hierarchy, new_site_raw$element, sections_order)
+
+recalc_new_site_raw
+```
+
+```{r}
+one_skeleton = get_bones_dataframe(target_levels)
+one_skeleton
+```
+
+```{r}
+data_aligned <- align_loaded_data(one_skeleton$element, recalc_new_site_raw$element, recalc_new_site_raw$count)
+data_aligned
+```
+
+```{r}
+loaded_tapho(new_site_meta$count, target_levels, data_aligned$element, data_aligned$count)
+
+```
+
+### next
+
+```{r}
+new_site_data <- rnd_taphor_site_data()
+new_site_data
+new_site_meta <- new_site_data[1:11,]
+new_site_raw <- new_site_data[-c(1:11),]
+target_levels <- summarize_bone_sections_zero_na(new_site_raw)
+target_levels 
+new_site_raw$count[is.na(new_site_raw$count)] <- 0
+recalc_new_site_raw <- recal_mne_six(as.numeric(new_site_raw$count), target_levels, skeleton_hierarchy, new_site_raw$element, sections_order)
+
+recalc_new_site_raw
+one_skeleton = get_bones_dataframe(target_levels)
+one_skeleton
+
+data_aligned <- align_loaded_data(one_skeleton$element, recalc_new_site_raw$element, recalc_new_site_raw$count)
+data_aligned
+loaded_tapho(new_site_meta$count, target_levels, data_aligned$element, data_aligned$count)
+```
+
+### func
+
+```{r}
+
+
+tapho.load <- function(new_site_data){
+  
+  new_site_meta <- new_site_data[1:11,]
+  new_site_raw <- new_site_data[-c(1:11),]
+  target_levels <- summarize_bone_sections_zero_na(new_site_raw)
+  
+  new_site_raw$count[is.na(new_site_raw$count)] <- 0
+  
+  recalc_new_site_raw <- recal_mne_six(as.numeric(new_site_raw$count), target_levels, skeleton_hierarchy, new_site_raw$element, sections_order)
+  
+  one_skeleton = get_bones_dataframe(target_levels)
+ 
+  data_aligned <- align_loaded_data(one_skeleton$element, recalc_new_site_raw$element, recalc_new_site_raw$count)
+  
+  tapho_loaded <- loaded_tapho(new_site_meta$count, target_levels, data_aligned$element, data_aligned$count)
+
+return(tapho_loaded) 
+
+}
+```
+
+```{r}
+new_site_data <- rnd_taphor_site_data()
+new_site_data
+```
+
+```{r}
+tapho.load(new_site_data) 
+```
+
+tapho.load

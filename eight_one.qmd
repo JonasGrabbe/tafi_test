@@ -1,0 +1,49 @@
+---
+title: "New eight"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(stringr)
+
+#
+source("convertMNEtoVariables.R")
+source("NewSiteDataLoader.R")
+source("data_loader.R")
+source("meta.R")
+source("recalMNE.R")
+source("select_data.R")
+#ls()
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```

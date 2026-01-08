@@ -1,0 +1,388 @@
+---
+title: "New"
+format:
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(stringr)
+
+#
+source("NewSiteDataLoader.R")
+source("data_loader.R")
+source("meta.R")
+source("recalMNE.R")
+source("select_data.R")
+ls()
+```
+
+```{r}
+# Create NewSiteData_sum and NewSiteData_ind datasets
+n_samples <- 1
+NewSiteData_ind <- generate_dataset(n_samples)
+NewSiteData_ind$number_of_individuals <- 24
+NewSiteData_sum <- add_element_count(manipulate_rows(NewSiteData_ind))
+
+NewSiteData_ind <- generate_dataset(n_samples)
+NewSiteData_ind$number_of_individuals <- 7
+NewSiteData_ind <- add_element_count(manipulate_rows(NewSiteData_ind))
+
+# Save NewSiteData_sum and NewSiteData_ind as .rd files
+save(NewSiteData_sum, file = "NewSiteData_sum.rda")
+save(NewSiteData_ind, file = "NewSiteData_ind.rda")
+
+print("### SUM ###")
+print(colnames(NewSiteData_sum))
+```
+
+```{r}
+# Load the datasets
+load("HomininPartAbundance_small.rda")
+load("HomininPartAbundance_large.rda")
+#load("HomininPartAbundance_XL.rda")
+load("NewSiteData_sum.rda")
+load("NewSiteData_ind.rda")
+
+# If they are already tibbles, you don't need to convert them again.
+# You can just start using them as they are
+#print(HomininPartAbundance_small)
+print("### SUM ###")
+print(NewSiteData_sum)
+print("### IND ###")
+print(NewSiteData_ind)
+```
+
+```{r}
+same_data <- select_data(
+  data = HomininPartAbundance_large,
+  #time_range =  "Medieval Period",
+  #geological_context = "Cave",
+  #number_of_individuals = 70,
+  #age = "Adult (17+ years)",
+  #gender = "Female",
+  accumulation_cause = "Cannibalism",
+  #bone_parts = c("Skull", "Arms"),
+  #bone_level = c(2,1,3,4,2,1),
+  #site_name = c("Qafzeh", "Regourdou"),
+  #sum = 1,
+  #hominin_species = "Australopithecus africanus"
+)
+same_data
+```
+
+```{r}
+recalc_data <-recal_mne_selected_data(same_data)
+```
+
+```{r}
+recalc_data$bone.level[[+]]
+
+```
+
+```{r}
+convertMNEtoVariables <- function(MNE, skeleton, individuals = NULL) {
+
+  if (length(MNE) != nrow(skeleton)) {
+    stop("Length of MNE vector must match the number of skeletal elements")
+  }
+
+  # Convert MNE to a data frame if it's not already
+  if (!is.data.frame(MNE)) {
+    MNE <- as.data.frame(MNE)
+  }
+
+  Element <- skeleton$element
+
+  # Calculate MNI and Individuals if not provided
+  if (is.null(individuals)) {
+    MNI <- ceiling(MNE$MNE / skeleton$count)
+    individuals <- max(MNI)
+  }
+
+  # Compute Abundance for each part
+  abundance <- MNE$MNE / (skeleton$count * individuals)
+
+  # Compute Mean Abundance (MA)
+  ma <- sum(MNE$MNE, na.rm = TRUE) / (sum(skeleton$count, na.rm = TRUE) * individuals)
+
+  # Compute Mean Part Abundance (MPA)
+    mpa <- sum(abundance, na.rm = TRUE) / length(abundance)
+
+  # Additional metrics calculations
+  MAU <- abundance
+  MNAU <- abundance
+  PMAU <- MAU / max(MNE$MNE / skeleton$count)
+  PMNAU <- MNAU / individuals
+  ReMNAU <- MNAU / sum(MNAU, na.rm = TRUE)
+
+  # Calculate Accumulative ReMNAU
+  AcReMNAU <- cumsum(ReMNAU)
+
+  # Bone level vector calculation using summarize_bone_sections
+  #bone_info_df <- data.frame(elements = skeleton$Element, counts = MNE$MNE)
+  #bone_level <- c(1,1,2,2,2,2,2,2,2,2,2,2)
+
+  # Return a list of all calculated metrics
+  return(list(
+    MNE = as.vector(MNE$MNE),
+    Elements = Element,
+    abundance = abundance,
+    MNI = individuals,
+    MAU = MAU,
+    MNAU = MNAU,
+    PercentMAU = PMAU,
+    PercentMNAU = PMNAU,
+    ReMNAU = ReMNAU,
+    AcReMNAU = AcReMNAU,
+    MeanAbundance = ma,
+    MeanPartAbundance = mpa
+    #bone_level = bone_level
+  ))
+}
+```
+
+```{r}
+library(dplyr)
+library(purrr)
+
+# Assuming your tibble is called 'recalc_data'
+# Step 1: Create a helper function that applies `convertMNEtoVariables` to each row.
+apply_conversion <- function(count, bone_level, number_of_individuals) {
+  skeleton <- get_bones_dataframe(bone_level)
+  result <- convertMNEtoVariables(count, skeleton, number_of_individuals)
+  
+  # Return the list of computed values you want to add to the dataframe
+  return(result)
+}
+
+# Step 2: Use `pmap` to apply the function to each row and add computed values as new columns
+# Here we assume your 'count', 'bone.level', and 'number_of_individuals' columns contain lists, as in your example.
+recalc_data <- recalc_data %>%
+  mutate(
+    results = pmap(
+      list(count = count, bone_level = bone.level, number_of_individuals = number_of_individuals),
+      apply_conversion
+    )
+  )
+
+# Step 3: Extract specific metrics from the results and add them as new columns
+recalc_data <- recalc_data %>%
+  mutate(
+    MNE = map(results, ~.x$MNE),
+    Elements = map(results, ~.x$Elements),
+    abundance = map(results, ~.x$abundance),
+    MNI = map(results, ~.x$MNI),
+    MAU = map(results, ~.x$MAU),
+    PercentMAU = map(results, ~.x$PercentMAU),
+    AcReMNAU = map(results, ~.x$AcReMNAU),
+    MeanAbundance = map(results, ~.x$MeanAbundance),
+    MeanPartAbundance = map(results, ~.x$MeanPartAbundance)
+  ) %>%
+  select(-results)  # Optionally remove the intermediate 'results' column if you don't need it
+
+```
+
+```{r}
+ result 
+
+```
+
+```{r}
+colnames(recalc_data)
+```
+
+```{r}
+# Example of how to use the function
+# Specify the grouping columns (you can modify these)
+group_cols <- c("geological_context")
+
+# Assuming 'recalc_same_data' is your input tibble/dataframe
+result <- group_and_summarize(recalc_data, group_cols)
+
+# View the result
+print(result)
+```
+
+```{r}
+
+class(grouped_data$count[[1]])
+```
+
+```{r}
+# Load necessary libraries
+library(dplyr)
+library(purrr)
+
+# Define a function to dynamically group and summarize the data
+group_and_summarize <- function(data, group_cols) {
+  
+  # Define the columns to check for mixed values, excluding group_cols
+  check_mixed_cols <- c("sum", "time_range", "geological_context", 
+                        "accumulation_cause", "gender", "age", "hominin_species") %>%
+                      setdiff(group_cols)
+  
+  # Perform the grouping and merging
+  merged_df <- data %>%
+    group_by(across(all_of(group_cols))) %>%
+    summarise(
+      # For specified columns, keep the value if unique, else mark as "mixed"
+      across(all_of(check_mixed_cols), ~ if (n_distinct(.x) == 1) first(.x) else "mixed"),
+      # Sum the number of individuals
+      number_of_individuals = sum(number_of_individuals, na.rm = TRUE),
+      # Keep the first bone.level as a list
+      bone.level = list(first(bone.level)),
+      # Keep the first element as a list
+      element = list(first(element)),
+      # Sum the 'count' lists element-wise across the group
+      count = list(reduce(count, ~ map2(.x, .y, `+`))),
+      .groups = 'drop'  # Ungroup after summarising (optional)
+    )
+  
+  return(merged_df)
+}
+
+# Example of how to use the function
+# Specify the grouping columns (you can modify these)
+group_cols <- c("age", "hominin_species")
+
+# Assuming 'recalc_same_data' is your input tibble/dataframe
+result <- group_and_summarize(recalc_data, group_cols) %>%
+  mutate(count = map(count, ~ as.numeric(.x)))
+
+# View the result
+print(result)
+```
+
+```{r}
+result %>%
+  mutate(count = map(count, ~ as.numeric(.x)))$results
+```
+
+```{r}
+library(plotly)
+library(dplyr)
+
+
+
+# Plotly interactive plot with buttons to toggle metrics
+fig <- plot_ly()
+
+# Add traces for each metric
+# These traces will be controlled by the buttons later
+fig <- fig %>%
+  add_trace(x = unlist(recalc_data$Elements[[1]]), y = unlist(recalc_data$MNE[[1]]),
+            mode = 'lines+markers', name = 'MNE', visible = TRUE) %>%
+  add_trace(x = unlist(recalc_data$Elements[[1]]), y = unlist(recalc_data$MAU[[1]]),
+            mode = 'lines+markers', name = 'MAU', visible = FALSE) %>%
+  add_trace(x = unlist(recalc_data$Elements[[1]]), y = unlist(recalc_data$PercentMAU[[1]]),
+            mode = 'lines+markers', name = 'PercentMAU', visible = FALSE) %>%
+  add_trace(x = unlist(recalc_data$Elements[[1]]), y = unlist(recalc_data$AcReMNAU[[1]]),
+            mode = 'lines+markers', name = 'AcReMNAU', visible = FALSE)
+
+# Add buttons for switching between the metrics
+fig <- fig %>%
+  layout(
+    title = "Hominin Bone Metrics by Element",
+    xaxis = list(title = "Element"),
+    yaxis = list(title = "Value"),
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "right",
+        xanchor = 'center',
+        yanchor = 'top',
+        showactive = TRUE,
+        buttons = list(
+          list(method = "restyle",
+               args = list("visible", list(TRUE, FALSE, FALSE, FALSE)),
+               label = "MNE"),
+          list(method = "restyle",
+               args = list("visible", list(FALSE, TRUE, FALSE, FALSE)),
+               label = "MAU"),
+          list(method = "restyle",
+               args = list("visible", list(FALSE, FALSE, TRUE, FALSE)),
+               label = "PercentMAU"),
+          list(method = "restyle",
+               args = list("visible", list(FALSE, FALSE, FALSE, TRUE)),
+               label = "AcReMNAU")
+        )
+      )
+    )
+  )
+
+# Display the plot
+fig
+
+```
+
+```{r}
+recalc_data <- result
+```
+
+```{r}
+# Plotly interactive plot with buttons to toggle metrics
+fig <- plot_ly()
+
+# Add traces for each metric
+# These traces will be controlled by the buttons later
+fig <- fig %>%
+  add_trace(x = unlist(recalc_data$Elements[[1]]), y = unlist(recalc_data$MNE[[1]]),
+            mode = 'lines+markers', type = 'scatter', name = 'MNE', visible = TRUE) %>%
+  add_trace(x = unlist(recalc_data$Elements[[1]]), y = unlist(recalc_data$MAU[[1]]),
+            mode = 'lines+markers', type = 'scatter', name = 'MAU', visible = FALSE) %>%
+  add_trace(x = unlist(recalc_data$Elements[[1]]), y = unlist(recalc_data$PercentMAU[[1]]),
+            mode = 'lines+markers', type = 'scatter', name = 'PercentMAU', visible = FALSE) %>%
+  add_trace(x = unlist(recalc_data$Elements[[1]]), y = unlist(recalc_data$AcReMNAU[[1]]),
+            mode = 'lines+markers', type = 'scatter', name = 'AcReMNAU', visible = FALSE)
+
+# Add buttons for switching between the metrics
+fig <- fig %>%
+  layout(
+    title = "Hominin Bone Metrics by Element",
+    xaxis = list(title = "Element"),
+    yaxis = list(title = "Value"),
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "right",
+        xanchor = 'center',
+        yanchor = 'top',
+        showactive = TRUE,
+        buttons = list(
+          list(method = "restyle",
+               args = list("visible", list(TRUE, FALSE, FALSE, FALSE)),
+               label = "MNE"),
+          list(method = "restyle",
+               args = list("visible", list(FALSE, TRUE, FALSE, FALSE)),
+               label = "MAU"),
+          list(method = "restyle",
+               args = list("visible", list(FALSE, FALSE, TRUE, FALSE)),
+               label = "PercentMAU"),
+          list(method = "restyle",
+               args = list("visible", list(FALSE, FALSE, FALSE, TRUE)),
+               label = "AcReMNAU")
+        )
+      )
+    )
+  )
+
+# Display the plot
+fig
+
+```
+
+```{r}
+recalc_data
+```
+
+```{r}
+
+```

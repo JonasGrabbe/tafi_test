@@ -1,0 +1,550 @@
+---
+title: "New Six"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+generate_random_vector <- function() {
+  # Maximum values for each index
+  max_values <- c(1, 1, 1, 7, 12, 5, 1, 24, 2, 2, 2, 2, 2, 16, 10, 28, 1, 1, 2, 2, 2, 2, 2, 14, 10, 28)
+  # Generate a random value for each index
+  random_vector <- sapply(max_values, function(max_val) sample(0:max_val, 1))
+  return(random_vector)
+}
+
+# Example usage
+random_vector <- generate_random_vector()
+print(random_vector)
+
+```
+
+```{r}
+
+```
+
+```{r}
+# Load necessary libraries
+library(tibble)
+library(readxl)
+
+# Define the function
+load.tapho.data <- function(file_path) {
+  
+  # Load necessary libraries
+  library(tibble)
+  library(readxl)
+  
+  # Check file extension
+  file_extension <- tools::file_ext(file_path)
+  
+  # Read the data based on file extension
+  if (file_extension == "csv") {
+    data <- read.csv(file_path, stringsAsFactors = FALSE)
+  } else if (file_extension %in% c("xls", "xlsx")) {
+    data <- read_excel(file_path)
+  } else {
+    stop("Unsupported file type. Please provide a CSV or Excel file.")
+  }
+  
+  # Convert the data to a tibble
+  data_tibble <- as_tibble(data)
+  
+  # Rename the first two columns to "element" and "count"
+  colnames(data_tibble)[1:2] <- c("element", "count")
+  
+  # Print the tibble
+  #print(data_tibble)
+  
+  # Return the tibble (optional)
+  return(data_tibble)
+}
+```
+
+```{r}
+file_path = "new_site_data.xlsx"
+new_site_data = load.tapho.data(file_path)
+new_site_data[-c(1:8),]$element
+```
+
+```{r}
+print(new_site_data)
+
+```
+
+```{r}
+# Function to generate a random vector with scaled max_values
+generate_random_vector <- function() {
+  # Original max_values
+  max_values <- c(1, 1, 1, 7, 12, 5, 1, 24, 2, 2, 2, 2, 2, 16, 10, 28, 1, 1, 2, 2, 2, 2, 2, 14, 10, 28)
+  
+  # Generate random scaling factors between 1 and 15
+  nber_individuals <- sample(1:15, 1)
+  
+  random_vector <- sapply(max_values*nber_individuals, function(max_val) sample(0:max_val, 1))
+  return(random_vector)
+}
+
+generate_random_vector()
+```
+
+```{r}
+library(tibble)
+
+# Function to generate a random vector with scaled max_values
+generate_random_vector <- function() {
+  # Original max_values
+  max_values <- c(1, 1, 1, 7, 12, 5, 1, 24, 2, 2, 2, 2, 2, 16, 10, 28, 1, 1, 2, 2, 2, 2, 2, 14, 10, 28)
+  
+  # Generate random scaling factors between 1 and 15
+  nber_individuals <- sample(1:15, 1)
+  
+  random_vector <- sapply(max_values*nber_individuals, function(max_val) sample(0:max_val, 1))
+  return(random_vector)
+}
+
+# Function to generate a dataset of size n
+generate_newdata <- function(n) {
+  feature_names <- c(
+    "Skull", "Mandible", "Hyoid", "Cervical", "Thoracic", "Lumbar", 
+    "Sternum", "Ribs", "Clavicle", "Scapula", "Humerus", "Radius", 
+    "Ulna", "Hand Carpal", "Hand Metacarpal", "Hand Phalanx", "Sacrum", 
+    "Coccyx", "Os Coxae", "Femur", "Tibia", "Fibula", "Patella", 
+    "Foot Tarsal", "Foot Metatarsal", "Foot Phalanx"
+  )
+  
+  # Generate n rows of random data
+  data_list <- replicate(n, generate_random_vector(), simplify = FALSE)
+  
+  # Combine into a matrix and set column names
+  data_matrix <- do.call(rbind, data_list)
+  colnames(data_matrix) <- feature_names
+  
+  # Convert to a tibble
+  dataset <- as_tibble(data_matrix)
+  
+  return(dataset)
+}
+
+# Example usage
+newdata <- generate_newdata(5)
+print(newdata)
+
+```
+
+```{r}
+library(tidyr)
+library(plotly)
+
+# Function to plot the dataset
+plot_newdata <- function(data) {
+  # Reshape the data into long format
+  data_long <- data %>%
+    mutate(Row = row_number()) %>%
+    pivot_longer(-Row, names_to = "Feature", values_to = "Value")
+  
+  # Create the plot
+  fig <- plot_ly(
+    data = data_long,
+    x = ~Feature,
+    y = ~Value,
+    type = 'scatter',
+    mode = 'markers',
+    color = ~factor(Row), # Different color for each row in the original data
+    marker = list(size = 10)
+  ) %>%
+    layout(
+      title = "Feature Values by Data Row",
+      xaxis = list(title = "Features", tickangle = -45),
+      yaxis = list(title = "Values"),
+      legend = list(title = list(text = "Row"))
+    )
+  
+  return(fig)
+}
+
+# Example usage
+fig <- plot_newdata(newdata)
+fig
+
+
+```
+
+```{r}
+
+convertMNEtoVariables <- function(MNE, max_values, individuals = NULL) {
+  # Ensure MNE is a data frame
+  if (!is.data.frame(MNE)) {
+    MNE <- as.data.frame(MNE)
+  }
+
+  
+  # Calculate MNI if individuals are not provided
+  if (is.null(individuals)) {
+    MNI <- ceiling(MNE / matrix(max_values, nrow = nrow(MNE), ncol = length(max_values), byrow = TRUE))
+    individuals <- apply(MNI, 1, max)
+  }
+  
+  # Expand max_values to match the dimensions of MNE
+  max_matrix <- matrix(max_values, nrow = nrow(MNE), ncol = length(max_values), byrow = TRUE)
+  
+  # Expand individuals to match the dimensions of MNE
+  individuals_matrix <- matrix(individuals, nrow = nrow(MNE), ncol = length(max_values), byrow = FALSE)
+  
+  # Compute Abundance for each part
+  abundance <- MNE / (max_matrix * individuals_matrix)
+  
+  # Compute Mean Abundance (MA)
+  ma <- rowSums(MNE, na.rm = TRUE) / (sum(max_values) * individuals)
+  
+  # Compute Mean Part Abundance (MPA)
+  mpa <- rowSums(abundance, na.rm = TRUE) / ncol(abundance)
+  
+  # Compute metrics
+  MAU <- abundance
+  PMAU <- MAU / apply(MAU, 1, max, na.rm = TRUE)
+  ReMAU <- MAU / rowSums(MAU, na.rm = TRUE)
+  AcReMAU <- t(apply(ReMAU, 1, cumsum)) # Cumulative ReMAU
+  
+  # Combine results into a list of tibbles
+  results <- list(
+    MNE = as.data.frame(MNE),
+    MAU = as.data.frame(MAU),
+    PMAU = as.data.frame(PMAU),
+    AcReMAU = as.data.frame(AcReMAU)
+  )
+  
+  return(results)
+}
+
+
+```
+
+```{r}
+convertMNEtoVariables(newdata , max_values)
+```
+
+```{r}
+library(dplyr)
+
+
+# Max values
+max_values <- c(1, 1, 1, 7, 12, 5, 1, 24, 2, 2, 2, 2, 2, 16, 10, 28, 1, 1, 2, 2, 2, 2, 2, 14, 10, 28)
+
+# Apply the function
+results <- convertMNEtoVariables(newdata , max_values)
+
+# Access the results
+MAU <- results$MAU
+PMAU <- results$PMAU
+AcReMAU <- results$AcReMAU
+
+print(MAU)
+print(PMAU)
+print(AcReMAU)
+
+```
+
+```{r}
+add_last_row_to_MNE <- function(MNE, new_site_data) {
+  # Extract the numeric values to add as the new row
+  new_row <- as.numeric(new_site_data[-c(1:8), ]$count)
+  
+  # Ensure the length of new_row matches the number of columns in MNE
+  if (length(new_row) != ncol(MNE)) {
+    stop("Length of new_row does not match the number of columns in MNE")
+  }
+  
+  # Add the new row to MNE
+  MNE <- rbind(MNE, new_row)
+  
+  # Return the updated MNE tibble
+  return(MNE)
+}
+
+```
+
+```{r}
+add_last_row_to_MNE(newdata, new_site_data )
+```
+
+```{r}
+colnames(results$MNE)
+```
+
+```{r}
+library(plotly)
+
+# Function to plot dataframes with switchable buttons
+plot_dataframes <- function(results) {
+  
+# Initialize plot
+fig <- plot_ly()
+
+# Get elements (assuming same for all rows)
+elements <- colnames(results[[1]])
+
+# Ensure elements are factors with levels in the desired order
+elements_factor <- factor(elements, levels = elements)
+
+# Metrics to plot
+metrics <- c("MNE", "MAU", "PMAU", "AcReMNAU")
+
+# Total number of traces
+num_metrics <- length(metrics)
+num_rows <- nrow(results$MNE)
+total_traces <- num_metrics * num_rows
+print(total_traces)
+
+# Initialize visibility matrix
+visibility_matrix <- matrix(FALSE, nrow = num_metrics, ncol = total_traces)
+
+# Initialize trace counter
+trace_counter <- 1
+
+for (metric_index in seq_along(metrics)) {
+  metric <- metrics[metric_index]
+  
+  for (row_index in 1:num_rows) {
+    y_values <- results$metric[row_index,]
+    x_values <- colnames(results$metric)
+    
+    # Ensure x_values have the same order as 'elements'
+    x_values_factor <- factor(x_values, levels = elements)
+    
+    # Add trace with mode = 'lines+markers'
+    fig <- fig %>%
+      add_trace(x = x_values_factor, y = y_values,
+                mode = 'lines+markers',
+                type = 'scatter',
+                name = sample(1:100, 1),
+                visible = ifelse(metric == "MNE", TRUE, FALSE))
+    
+    # Update visibility matrix
+    visibility_matrix[metric_index, trace_counter] <- TRUE
+    
+    trace_counter <- trace_counter + 1
+  }
+}
+
+# Create buttons for each metric
+buttons_list <- list()
+for (metric_index in seq_along(metrics)) {
+  metric <- metrics[metric_index]
+  
+  # Create visibility vector
+  visibility <- as.vector(visibility_matrix[metric_index, ])
+  
+  button <- list(
+    method = "update",
+    args = list(list(visible = visibility)),
+    label = metric
+  )
+  
+  buttons_list[[metric_index]] <- button
+}
+
+# Place buttons at the bottom
+updatemenus <- list(
+  list(
+    type = "buttons",
+    direction = "left",
+    xanchor = 'center',
+    yanchor = 'bottom',
+    x = 0.5,
+    y = -0.2,
+    showactive = TRUE,
+    buttons = buttons_list
+  )
+)
+
+# Final layout
+fig <- fig %>%
+  layout(
+    title = title,
+    xaxis = list(
+      title = "Element",
+      type = 'category',
+      categoryorder = "array",
+      categoryarray = elements
+    ),
+    yaxis = list(title = "Value"),
+    updatemenus = updatemenus
+  )
+
+# Display the plot
+fig
+}
+
+```
+
+```{r}
+plot_dataframes(results) 
+
+```
+
+```{r}
+library(plotly)
+
+# Function to plot dataframes with switchable buttons
+plot_dataframes <- function(results) {
+  # Initialize plot
+  fig <- plot_ly()
+  
+  # Get elements (assuming same for all rows)
+  elements <- colnames(results[[1]])
+
+  # Ensure elements are factors with levels in the desired order
+  elements_factor <- factor(elements, levels = elements)
+
+  # Metrics to plot
+  metrics <- names(results)
+
+  # Total number of traces
+  num_metrics <- length(metrics)
+  num_rows <- nrow(results[[1]])
+  total_traces <- num_metrics * num_rows
+
+  # Initialize visibility matrix
+  visibility_matrix <- matrix(FALSE, nrow = num_metrics, ncol = total_traces)
+
+  # Initialize trace counter
+  trace_counter <- 1
+
+  for (metric_index in seq_along(metrics)) {
+    metric <- metrics[metric_index]
+    
+    for (row_index in 1:num_rows) {
+      # Access the current metric dataframe and row
+      y_values <- as.numeric(results[[metric]][row_index, ])
+      x_values <- elements
+
+      # Ensure x_values have the same order as 'elements'
+      x_values_factor <- factor(x_values, levels = elements)
+
+      # Add trace with mode = 'lines+markers'
+      fig <- fig %>%
+        add_trace(
+          x = x_values_factor,
+          y = y_values,
+          mode = 'lines+markers',
+          type = 'scatter',
+          name = paste(metric, "Row", row_index),
+          visible = ifelse(metric == "MNE", TRUE, FALSE)
+        )
+
+      # Update visibility matrix
+      visibility_matrix[metric_index, trace_counter] <- TRUE
+      
+      trace_counter <- trace_counter + 1
+    }
+  }
+
+  # Create buttons for each metric
+  buttons_list <- list()
+  for (metric_index in seq_along(metrics)) {
+    metric <- metrics[metric_index]
+    
+    # Create visibility vector
+    visibility <- as.vector(visibility_matrix[metric_index, ])
+    
+    button <- list(
+      method = "update",
+      args = list(list(visible = visibility)),
+      label = metric
+    )
+    
+    buttons_list[[metric_index]] <- button
+  }
+
+  # Place buttons at the bottom
+  updatemenus <- list(
+    list(
+      type = "buttons",
+      direction = "left",
+      xanchor = 'center',
+      yanchor = 'bottom',
+      x = 0.5,
+      y = -0.2,
+      showactive = TRUE,
+      buttons = buttons_list
+    )
+  )
+
+  # Final layout
+  fig <- fig %>%
+    layout(
+      title = "Metrics Comparison",
+      xaxis = list(
+        title = "Element",
+        type = 'category',
+        categoryorder = "array",
+        categoryarray = elements
+      ),
+      yaxis = list(title = "Value"),
+      updatemenus = updatemenus
+    )
+
+  # Display the plot
+  return(fig)
+}
+plot_dataframes(results)
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+results
+```
+
+```{r}
+#create r library/package such that we can call
+#library("tafyR")
+#save hpa  <- generate_newdata(5) to the package such that the user can call 
+#data(hpa) 
+#then save this first function: 
+# Load necessary libraries
+#"""library(tibble)
+#library(readxl)
+
+## Define the function
+#load.tapho.data <- function(file_path) { ## code ready to past later
+#  return(data_tibble)
+#}"""
+#such that the user can call the function like thise: 
+# NewSite <- load.tapho.data("path/to/yourfile.xlsx")
+#next would be the function plot.abundance.function(NewSite,hpa){
+## frist we unite the two dataset via 
+##MNE <-  add_last_row_to_MNE(hpa, NewSite){ code ready to be paste here}
+# next we need to create the tibble for the four values MNE, MAU, PMNAU, AcReMNAU
+#results <- convertMNEtoVariables <- function(MNE) {
+# ......
+#  results <- list(
+#    MNE = as.data.frame(MNE),
+#    MAU = as.data.frame(MAU),
+#    PMAU = as.data.frame(PMAU),
+#    AcReMAU = as.data.frame(AcReMAU)  )
+#  return(results)}
+#lastly we add the plot function 
+#library(plotly)
+
+# Function to plot dataframes with switchable buttons
+#plot_dataframes <- function(results) { code ready }
+#such that we have  
+#fig <- plot_dataframes(results)
+#return(fig)}
+```

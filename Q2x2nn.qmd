@@ -1,0 +1,799 @@
+---
+title: "Q2x2nn Enero "
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# remotes::install_version("xfun", version = "0.49")
+
+```{r}
+load("NewSiteData_sum.rda")
+load("NewSiteData_ind.rda")
+
+
+print("### SUM ###")
+print(NewSiteData_sum)
+print("### IND ###")
+print(NewSiteData_ind)
+```
+
+```{r}
+colnames(NewSiteData_ind)
+```
+
+```{r}
+NewSiteData_ind$bone.level[[1]][1:3]
+```
+
+```{r}
+NewSiteData_ind$element[[1]][1:13]
+```
+
+```{r}
+NewSiteData_ind$count[[1]][1:13]
+```
+
+```{r}
+typeof(NewSiteData_ind$element[[1]])
+```
+
+```{r}
+class(NewSiteData_ind$element[[1]])
+```
+
+```{r}
+mode(NewSiteData_ind$element[[1]])
+```
+
+```{r}
+NewSiteData_ind$count[[1]] # mne 
+```
+
+```{r}
+# Assuming tb is already defined and contains the columns count and elements
+# For example:
+# tb <- data.frame(count = c(1, 2, 3), elements = c("A", "B", "C"))
+
+# Create a new DataFrame with the specified columns
+new_df <- data.frame(element = NewSiteData_ind$element[[1]], count = NewSiteData_ind$count[[1]])
+
+# Print the new DataFrame to verify
+print(new_df)
+```
+
+```{r}
+
+# Remove everything before the period in the element column
+new_df$element <- sub(".*\\.", "", new_df$element)
+
+# Print the new DataFrame to verify
+print(new_df)
+```
+
+```{r}
+add_bone_info(new_df)
+```
+
+```{r}
+summarize_bone_sections(new_df)
+```
+
+```{r}
+NewSiteData_ind$bone.level[[1]]
+```
+
+```{r}
+element_whole =  c(
+
+    #Skull
+    "Skull", "Neurocranium bone", "Frontal bone", "Parietal bone", "Parietal bone Right",
+    "Parietal bone Left", "Temporal", "Temporal Right", "Temporal Left", "Occipital",
+    "Sphenoid", "Ethmoid", "Schplancnocranium", "Maxilla", "Palatine bone",
+    "Zygomatic bone", "Zygomatic bone Right", "Zygomatic bone Left", "Nasal bone",
+    "Lacrimal bone", "Vomer bone", "Inferior nasal concha", "Ossicles of the Middle Ear",
+    "Malleus", "Malleus Right", "Malleus Left", "Incus", "Incus Right", "Incus Left",
+    "Stapes", "Stapes Right", "Stapes Left", "Mandible",
+
+    #Hyoid
+    "Hyoid",
+
+    #Vertebrae
+    "Vertebrae",
+    "Cervical", "C1 Atlas", "C2 Axis", "C3", "C4", "C5", "C6", "C7", "Thoracic",
+    "T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12",
+    "Lumbar", "L1", "L2", "L3", "L4", "L5",
+
+    #Thorax
+    "Thorax", "Sternum", "Ribs",
+    "Ribs Right", "Ribs Left", "Rib 1 Right", "Rib 1 Left", "Rib 2 Right",
+    "Rib 2 Left", "Rib 3 Right", "Rib 3 Left", "Rib 4 Right", "Rib 4 Left",
+    "Rib 5 Right", "Rib 5 Left", "Rib 6 Right", "Rib 6 Left", "Rib 7 Right",
+    "Rib 7 Left", "Rib 8 Right", "Rib 8 Left", "Rib 9 Right", "Rib 9 Left",
+    "Rib 10 Right", "Rib 10 Left", "Rib 11 Right", "Rib 11 Left", "Rib 12 Right",
+    "Rib 12 Left",
+
+    #Shoulder
+    "Shoulder", "Clavicle", "Clavicle Right", "Clavicle Left",
+    "Scapula", "Scapula Right", "Scapula Left",
+
+    #Arms
+    "Arms","Humerus", "Radius", "Ulna",
+    "Humerus Right","Humerus Left","Radius Right","Radius Left","Ulna Right", "Ulna Left",
+
+    #Hands
+    "Hands",
+    "Hand Carpal", "Hand Carpal Right", "Hand Carpal Left",
+    "Hand Trapezium Right", "Hand Trapezium Left", "Hand Trapezoid Right", "Hand Trapezoid Left",
+    "Hand Hamate Right", "Hand Hamate Left", "Hand Triquetrum Right", "Hand Triquetrum Left",
+    "Hand Lunate Right", "Hand Lunate Left", "Hand Pisiform Right", "Hand Pisiform Left",
+    "Hand Capitate Right", "Hand Capitate Left", "Hand Scaphoid Right", "Hand Scaphoid Left",
+    "Hand Metacarpal", "Hand Metacarpal Right", "Hand Metacarpal Left", "Hand Metacarpal 1 Right",
+    "Hand Metacarpal 1 Left", "Hand Metacarpal 2 Right", "Hand Metacarpal 2 Left",
+    "Hand Metacarpal 3 Right", "Hand Metacarpal 3 Left", "Hand Metacarpal 4 Right",
+    "Hand Metacarpal 4 Left", "Hand Metacarpal 5 Right", "Hand Metacarpal 5 Left",
+    "Hand Phalanx", "Hand Phalanx Right", "Hand Phalanx Left",
+    "Hand Proximal Right", "Hand Proximal Left", "Hand Middle Right",
+    "Hand Middle Left", "Hand Distal Right", "Hand Distal Left",
+    "Hand Proximal 1 Right", "Hand Proximal 2 Right", "Hand Proximal 3 Right",
+    "Hand Proximal 4 Right", "Hand Proximal 5 Right", "Hand Proximal 1 Left",
+    "Hand Proximal 2 Left", "Hand Proximal 3 Left", "Hand Proximal 4 Left",
+    "Hand Proximal 5 Left", "Hand Middle 2 Right", "Hand Middle 3 Right",
+    "Hand Middle 4 Right", "Hand Middle 5 Right", "Hand Middle 2 Left", "Hand Middle 3 Left",
+    "Hand Middle 4 Left", "Hand Middle 5 Left", "Hand Distal 1 Right", "Hand Distal 2 Right",
+    "Hand Distal 3 Right", "Hand Distal 4 Right", "Hand Distal 5 Right", "Hand Distal 1 Left",
+    "Hand Distal 2 Left", "Hand Distal 3 Left", "Hand Distal 4 Left", "Hand Distal 5 Left",
+
+    #Pelvic
+    "Pelvic", "Sacrum", "S1", "S2", "S3", "S4", "S5", "Coccyx", "Cx1", "Cx2",
+    "Cx3", "Cx4", "Os Coxae", "Ilium", "Ilium Right", "Ilium Left", "Ischium",
+    "Ischium Right", "Ischium Left", "Pubis", "Pubis Right", "Pubis Left",
+
+
+    #Legs
+    "Legs",
+    "Femur", "Femur Left", "Femur Right", "Tibia", "Tibia Left", "Tibia Right",
+    "Fibula", "Fibula Left", "Fibula Right", "Patella", "Patella Left",
+    "Patella Right",
+
+    #Foot
+    "Foot",
+    "Foot Tarsal", "Foot Tarsal Right", "Foot Tarsal Left",
+    "Foot Talus Right", "Foot Talus Left", "Foot Calcaneous Right", "Foot Calcaneous Left",
+    "Foot Cuboid Right", "Foot Cuboid Left", "Foot Navicular Right", "Foot Navicular Left",
+    "Foot Lateral cuneiform Right", "Foot Lateral cuneiform Left",
+    "Foot Intermediate cuneiform Right", "Foot Intermediate cuneiform Left",
+    "Foot Medial cuneiform Right", "Foot Medial cuneiform Left",
+    "Foot Metatarsal", "Foot Metatarsal Right", "Foot Metatarsal Left",
+    "Foot Metatarsal 1 Right", "Foot Metatarsal 1 Left",
+    "Foot Metatarsal 2 Right", "Foot Metatarsal 2 Left",
+    "Foot Metatarsal 3 Right", "Foot Metatarsal 3 Left",
+    "Foot Metatarsal 4 Right", "Foot Metatarsal 4 Left",
+    "Foot Metatarsal 5 Right", "Foot Metatarsal 5 Left",
+    "Foot Phalanx", "Foot Phalanx Right", "Foot Phalanx Left",
+    "Foot Proximal Right", "Foot Proximal Left",
+    "Foot Middle Right", "Foot Middle Left",
+    "Foot Distal Right", "Foot Distal Left",
+    "Foot Proximal 1 Right", "Foot Proximal 2 Right",
+    "Foot Proximal 3 Right", "Foot Proximal 4 Right", "Foot Proximal 5 Right",
+    "Foot Proximal 1 Left", "Foot Proximal 2 Left", "Foot Proximal 3 Left",
+    "Foot Proximal 4 Left", "Foot Proximal 5 Left",
+    "Foot Middle 2 Right", "Foot Middle 3 Right",
+    "Foot Middle 4 Right", "Foot Middle 5 Right",
+    "Foot Middle 2 Left", "Foot Middle 3 Left", "Foot Middle 4 Left",
+    "Foot Middle 5 Left",
+    "Foot Distal 1 Right", "Foot Distal 2 Right", "Foot Distal 3 Right",
+    "Foot Distal 4 Right", "Foot Distal 5 Right",
+    "Foot Distal 1 Left", "Foot Distal 2 Left", "Foot Distal 3 Left",
+    "Foot Distal 4 Left", "Foot Distal 5 Left"
+  ) 
+```
+
+```{r}
+length(element_whole)
+```
+
+```{r}
+
+#set.seed(123)
+
+vec <- numeric(281)
+# Randomly assign 100 entries as NA
+na_indices <- sample(1:281, 100)
+vec[na_indices] <- NA
+
+# Randomly assign 100 entries as 0
+zero_indices <- sample(setdiff(1:281, na_indices), 100)
+vec[zero_indices] <- 0
+
+# Fill the remaining entries with random integers between 1 and 9
+remaining_indices <- setdiff(1:281, union(na_indices, zero_indices))
+vec[remaining_indices] <- sample(1:9, length(remaining_indices), replace = TRUE)
+
+print(vec)
+```
+
+```{r}
+new_df <- data.frame(element = element_whole, count = vec)
+
+# Print the new DataFrame to verify
+print(new_df)
+```
+
+```{r}
+add_bone_info(new_df)
+```
+
+```{r}
+summarize_bone_sections(new_df)
+```
+
+```{r}
+summarize_bone_sections_zero_na <- function(input_df, reference_df = elements_data) {
+  # Filter out rows where input_df$element is 0 or NA
+  input_df <- input_df %>%
+    filter(!is.na(input_df$count) & input_df$count != 0)
+
+
+  # Add bone info using the filtered input_df
+  bone_info_df <- add_bone_info(input_df, reference_df)
+
+  # Define the ordered list of skeleton sections
+  sections_order <- c("Skull", "Hyoid", "Vertebrae", "Thorax", "Shoulder",
+                      "Arms", "Hands", "Pelvic", "Legs", "Foot")
+
+  # Summarize the minimum Level for each section
+  summary_df <- bone_info_df %>%
+    group_by(Skeleton_Section) %>%
+    summarize(min_level = min(Level, na.rm = TRUE)) %>%
+    ungroup()
+
+  # Create a named vector with all sections, initializing with 1 (instead of NA)
+  result_vector <- setNames(rep(1, length(sections_order)), sections_order)
+
+  # Fill in the result_vector with available data
+  for (section in sections_order) {
+    if (section %in% summary_df$Skeleton_Section) {
+      level <- summary_df$min_level[summary_df$Skeleton_Section == section]
+      # If the level is NA, keep it as 1, otherwise use the actual level
+      result_vector[section] <- if(is.na(level)) 1 else level
+    }
+    # If the section is not in summary_df, it will remain 1
+  }
+
+  # Return just the numeric vector without names
+  return(unname(result_vector))
+}
+```
+
+```{r}
+summarize_bone_sections_zero_na(new_df)
+```
+
+```{r}
+wtf<-new_df %>%filter(!is.na(new_df$count) & new_df$count != 0)
+```
+
+```{r}
+add_bone_info(wtf)
+```
+
+```{r}
+recal_mne_first <- function(current_mne, target_levels, skeleton_hierarchy, bone_names, sections_order) {
+  
+  current_levels = c(5,1,3,4,3,3,5,4,3,5)
+  # Initialize an empty list to store new MNE results
+  new_mne <- list()
+  
+  # Create the initial tibble with counts and elements
+  current_mne_named <- tibble(count = current_mne, element = bone_names)
+  
+  # Add bone info to the tibble
+  current_mne_named <- add_bone_info(current_mne_named)
+  
+  # Helper function to standardize names
+  standardize_name <- function(name) {
+    gsub(" ", ".", name)
+  }
+
+  # Loop over each part/section
+  for (part_index in seq_along(sections_order)) {
+    part <- sections_order[part_index]
+    current_level <- current_levels[[part_index]]
+    target_level <- target_levels[[part_index]]
+    
+    # Skip if already at or below target level
+    if (current_level <= target_level) {
+      part_data <- current_mne_named %>% filter(Skeleton_Section == part)
+      for (i in seq_len(nrow(part_data))) {
+        element <- standardize_name(part_data$element[i])
+        count <- part_data$count[i]
+        new_mne[[paste(part, element, sep = "_")]] <- count
+      }
+      next
+    }
+    
+    # Initialize working data for this section
+    working_data <- current_mne_named %>% 
+      filter(Skeleton_Section == part) %>%
+      mutate(std_element = standardize_name(element))
+    
+    # Process hierarchical reductions step-by-step
+    while (current_level > target_level) {
+      intermediate_level <- max(target_level, current_level - 1)
+      mapping_name <- paste0(part, "_", current_level, "_to_", intermediate_level)
+      
+      if (mapping_name %in% names(category_hierarchy)) {
+        # Get the mapping for this step
+        mapping <- category_hierarchy[[mapping_name]]
+        
+        # Create element to category mapping
+        element_to_category <- unlist(lapply(names(mapping), function(category) {
+          std_category <- standardize_name(category)
+          elements <- mapping[[category]]
+          std_elements <- sapply(elements, standardize_name)
+          setNames(rep(std_category, length(std_elements)), std_elements)
+        }))
+        
+        # Map elements to target categories
+        working_data$target_category <- element_to_category[working_data$std_element]
+        
+        # Aggregate counts by target category
+        working_data <- working_data %>%
+          filter(!is.na(target_category)) %>%
+          group_by(target_category) %>%
+          summarize(count = sum(count, na.rm = TRUE)) %>%
+          ungroup() %>%
+          mutate(
+            element = target_category,
+            std_element = standardize_name(target_category)
+          ) %>%
+          select(-target_category)
+        
+        # Update current level for next iteration
+        current_level <- intermediate_level
+      } else {
+        warning(paste("Missing mapping for:", mapping_name))
+        break
+      }
+    }
+    
+    # Store final results for this section
+    for (i in seq_len(nrow(working_data))) {
+      element <- working_data$std_element[i]
+      count <- working_data$count[i]
+      new_mne[[paste(part, element, sep = "_")]] <- count
+    }
+  }
+  
+  # Convert new_mne to data frame
+  new_mne_df <- tibble(element = names(new_mne), count = unlist(new_mne))
+  
+  return(new_mne_df)
+}
+```
+
+```{r}
+new_df$count[is.na(new_df$count)] <- 0
+```
+
+```{r}
+new_df
+```
+
+```{r}
+source("meta.R")
+source("select_data.R")
+
+library(dplyr)
+
+sections_order <- c("Skull", "Hyoid", "Vertebrae", "Thorax", "Shoulder",
+"Arms", "Hands", "Pelvic", "Legs", "Foot")
+
+target_levels <- summarize_bone_sections_zero_na(new_df)
+new_df$count[is.na(new_df$count)] <- 0
+recal_mne_six(new_df$count, target_levels, skeleton_hierarchy, new_df$element, sections_order)
+```
+
+```{r}
+recal_mne_three(new_df$count, target_levels, skeleton_hierarchy, new_df$element, sections_order)
+```
+
+```{r}
+target_levels
+```
+
+```{r}
+new_df$count[1:33]
+```
+
+```{r}
+recal_mne_three <- function(current_mne,  target_levels, skeleton_hierarchy, bone_names, sections_order) {
+  current_levels = c(5,1,3,4,3,3,5,4,3,5)
+  # Initialize results list
+  new_mne <- list()
+  
+  # Create initial tibble with bone info
+  current_mne_named <- tibble(count = current_mne, element = bone_names) %>%
+    add_bone_info() %>%
+    mutate(std_element = gsub(" ", ".", element))
+  
+  # Process each skeleton section
+  for (part in sections_order) {
+    part_idx <- which(sections_order == part)
+    current_level <- current_levels[part_idx]
+    target_level <- target_levels[part_idx]
+    
+    cat("\nProcessing", part, ": Starting at level", current_level, "-> Target", target_level, "\n")
+    
+    # Initialize working data for this section
+    working_data <- current_mne_named %>%
+      filter(Skeleton_Section == part) %>%
+      select(std_element, count)
+    
+    iteration <- 1
+    while(current_level > target_level) {
+      intermediate_level <- max(target_level, current_level - 1)
+      cat("  Step", iteration, ": Reducing from", current_level, "->", intermediate_level, "\n")
+      
+      mapping_name <- paste0(part, "_", current_level, "_to_", intermediate_level)
+      
+      if (mapping_name %in% names(category_hierarchy)) {
+        mapping <- category_hierarchy[[mapping_name]]
+        
+        # Create element to category mapping
+        element_map <- list()
+        for (category in names(mapping)) {
+          std_category <- gsub(" ", ".", category)
+          element_map[[std_category]] <- sapply(mapping[[category]], function(x) gsub(" ", ".", x))
+        }
+        
+        # Map and aggregate
+        working_data <- working_data %>%
+          mutate(target_category = sapply(std_element, function(x) {
+            cats <- names(element_map)[sapply(element_map, function(y) x %in% y)]
+            if(length(cats) > 0) cats[1] else NA_character_
+          })) %>%
+          filter(!is.na(target_category)) %>%
+          group_by(target_category) %>%
+          summarize(count = sum(count, na.rm = TRUE)) %>%
+          rename(std_element = target_category)
+        
+        cat("    Current elements:", paste(working_data$std_element, collapse=", "), "\n")
+        cat("    Current counts:", paste(working_data$count, collapse=", "), "\n")
+        
+        current_level <- intermediate_level
+        iteration <- iteration + 1
+      } else {
+        warning(paste("Missing mapping:", mapping_name))
+        break
+      }
+    }
+    
+    # Special handling for pelvic section
+    if(part == "Pelvic" && nrow(working_data) > 0) {
+      cat("Applying pelvic adjustment\n")
+      working_data <- working_data %>%
+        mutate(count = case_when(
+          std_element == "Os.Coxae" ~ count * 2,  # Bilateral adjustment
+          TRUE ~ count
+        )) %>%
+        group_by(std_element) %>%
+        summarize(count = sum(count))
+      
+      cat("  Final pelvic counts:", sum(working_data$count), "\n")
+    }
+    
+    # Store results with section prefix
+    if(nrow(working_data) > 0) {
+      for(i in seq_len(nrow(working_data))) {
+        element_name <- paste(part, working_data$std_element[i], sep = "_")
+        new_mne[[element_name]] <- working_data$count[i]
+      }
+    }
+  }
+  
+  # Handle empty results case
+  if(length(new_mne) == 0) {
+    return(tibble(element = character(), count = numeric()))
+  }
+  
+  # Create ordered data frame
+  result_df <- tibble(
+    element = names(new_mne),
+    count = unlist(new_mne)
+  ) %>%
+    mutate(element = factor(element, levels = names(new_mne))) %>%
+    arrange(element) %>%
+    mutate(element = as.character(element))
+  
+  cat("\nFinal target levels achieved:", target_levels, "\n")
+  return(result_df)
+}
+```
+
+```{r}
+recal_mne_four <- function(current_mne,  target_levels, skeleton_hierarchy, bone_names, sections_order) {
+  current_levels = c(5,1,3,4,3,3,5,4,3,5)
+
+  # Initialize results list
+  new_mne <- list()
+  
+  # Create initial tibble with bone info
+  current_mne_named <- tibble(count = current_mne, element = bone_names) %>%
+    add_bone_info() %>%
+    mutate(std_element = gsub(" ", ".", element))
+
+  # Process each skeleton section
+  for (part in sections_order) {
+    part_idx <- which(sections_order == part)
+    current_level <- current_levels[part_idx]
+    target_level <- target_levels[part_idx]
+    
+    cat("\nProcessing", part, ": Starting at level", current_level, "-> Target", target_level, "\n")
+    
+    # Initialize working data with explicit columns
+    working_data <- current_mne_named %>%
+      filter(Skeleton_Section == part) %>%
+      select(std_element, count) %>%
+      rename(element = std_element)  # Initial rename here
+
+    iteration <- 1
+    while(current_level > target_level) {
+      intermediate_level <- max(target_level, current_level - 1)
+      mapping_name <- paste0(part, "_", current_level, "_to_", intermediate_level)
+      
+      if (mapping_name %in% names(category_hierarchy)) {
+        # Create element-category mapping with clean names
+        element_map <- stack(category_hierarchy[[mapping_name]]) %>%
+          setNames(c("child", "parent")) %>%
+          mutate(
+            child = gsub(" ", ".", child),
+            parent = gsub(" ", ".", parent)
+          ) %>%
+          distinct()
+
+        # Process through hierarchy level
+        working_data <- working_data %>%
+          left_join(element_map, by = c("element" = "child")) %>%
+          filter(!is.na(parent)) %>%
+          group_by(parent) %>%
+          summarize(count = sum(count, na.rm = TRUE)) %>%
+          rename(element = parent) %>%
+          select(element, count)
+        
+        current_level <- intermediate_level
+        cat("  Step", iteration, "| Level:", current_level, "| Elements:", nrow(working_data), "\n")
+        iteration <- iteration + 1
+      } else {
+        warning(paste("Missing mapping:", mapping_name))
+        break
+      }
+    }
+    
+    # Store final results with section prefix
+    if(nrow(working_data) > 0) {
+      for(i in seq_len(nrow(working_data))) {
+        element_name <- paste(part, working_data$element[i], sep = "_")
+        new_mne[[element_name]] <- working_data$count[i]
+      }
+    }
+  }
+  
+  # Convert to tibble with proper ordering
+  new_mne_df <- tibble(
+    element = names(new_mne),
+    count = unlist(new_mne)
+  )
+  
+  return(new_mne_df)
+} 
+```
+
+```{r}
+recal_mne_six <- function(current_mne,  target_levels, skeleton_hierarchy, bone_names, sections_order) {
+    current_levels = c(5,1,3,4,3,3,5,4,3,5)
+
+  
+  # Initialize results list
+  new_mne <- list()
+  
+  # Create initial tibble with bone info
+  current_mne_named <- tibble(count = current_mne, element = bone_names) %>%
+    add_bone_info() %>%
+    mutate(std_element = gsub(" ", ".", element))
+
+  # Process each skeleton section
+  for (part in sections_order) {
+    part_idx <- which(sections_order == part)
+    current_level <- current_levels[part_idx]
+    target_level <- target_levels[part_idx]
+    
+    cat("\nProcessing", part, ": Starting at level", current_level, "-> Target", target_level, "\n")
+    
+    # Initialize working data
+    working_data <- current_mne_named %>%
+      filter(Skeleton_Section == part) %>%
+      select(std_element, count)
+
+    iteration <- 1
+    while(current_level > target_level) {
+      intermediate_level <- max(target_level, current_level - 1)
+      mapping_name <- paste0(part, "_", current_level, "_to_", intermediate_level)
+      
+      if (mapping_name %in% names(category_hierarchy)) {
+        # Create element-category mapping
+        element_map <- stack(category_hierarchy[[mapping_name]]) %>%
+          setNames(c("child", "parent")) %>%
+          mutate(
+            child = gsub(" ", ".", child),
+            parent = gsub(" ", ".", parent)
+          )
+        
+        # Split data into mappable and non-mappable elements
+        mappable <- working_data %>%
+          inner_join(element_map, by = c("std_element" = "child"))
+        
+        non_mappable <- working_data %>%
+          anti_join(element_map, by = c("std_element" = "child"))
+        
+        # Aggregate mappable elements
+        aggregated <- mappable %>%
+          group_by(parent) %>%
+          summarize(count = sum(count, na.rm = TRUE)) %>%
+          rename(std_element = parent)
+        
+        # Combine with non-mappable elements
+        working_data <- bind_rows(non_mappable, aggregated)
+        
+        current_level <- intermediate_level
+        cat("  Step", iteration, "| Level:", current_level, "| Elements:", nrow(working_data), "\n")
+        iteration <- iteration + 1
+      } else {
+        warning(paste("Missing mapping:", mapping_name))
+        break
+      }
+    }
+    
+    # Store final results
+    if(nrow(working_data) > 0) {
+      for(i in seq_len(nrow(working_data))) {
+        element_name <- paste(part, working_data$std_element[i], sep = "_")
+        new_mne[[element_name]] <- working_data$count[i]
+      }
+    }
+  }
+  
+  # Convert to tibble with proper ordering
+  new_mne_df <- tibble(
+    element = names(new_mne),
+    count = unlist(new_mne)
+  )
+  
+  return(new_mne_df)
+}
+```
+
+```{r}
+one_skeleton = get_bones_dataframe(target_levels)
+```
+
+```{r}
+target_levels
+```
+
+```{r}
+next_df = recal_mne_six(new_df$count, target_levels, skeleton_hierarchy, new_df$element, sections_order)
+```
+
+```{r}
+next_df$element
+```
+
+```{r}
+one_skeleton$element
+```
+
+```{r}
+sub(".*\\.", "",one_skeleton$element)
+```
+
+```{r}
+# Remove everything before the period in the element column
+sub(".*\\_", "", gsub("\\.", " ", next_df$element)) 
+```
+
+```{r}
+ s <- gsub("\\.", " ", s)
+```
+
+```{r}
+align_loaded_data(one_skeleton$element, next_df$element, next_df$count)
+```
+
+```{r}
+align_loaded_data <- function(one_skeleton, longer_elements, longer_counts) {
+
+  shorter_elements <- sub(".*\\.", "",one_skeleton)
+  longer_elements <- sub(".*\\_", "", gsub("\\.", " ", longer_elements)) 
+
+  # Find the elements in the longer vector that are not in the shorter vector
+  elements_to_remove <- longer_elements[!longer_elements %in% shorter_elements]
+
+  # Find the positions of these elements in the longer vector
+  positions_to_remove <- which(longer_elements %in% elements_to_remove)
+
+  # Remove these elements and their corresponding counts from both vectors
+  aligned_longer_elements <- longer_elements[-positions_to_remove]
+  aligned_longer_counts <- longer_counts[-positions_to_remove]
+  
+  align_loaded_db <- tibble(element = aligned_longer_elements, count = aligned_longer_counts)
+  
+  return(align_loaded_db)
+}
+
+
+```
+
+```{r}
+# Define the vectors
+elements <- c("Skull", "Mandible", "Hyoid", "Cervical", "Thoracic", "Lumbar", "Sternum")
+counts <- c(1, 2, 3, 4, 5, 6, 7)
+
+elements2 <- c("Skull", "Mandible", "Hyoid", "Vertebrae", "Cervical", "Thoracic", "Lumbar", "Thorax", "Sternum")
+counts2 <- c(1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+# Function to align vectors by removing extra elements from both vectors
+align_vectors <- function(elements1, elements2, counts2) {
+  # Determine the shorter and longer vectors
+  if (length(elements1) < length(elements2)) {
+    shorter_elements <- elements1
+    longer_elements <- elements2
+    #shorter_counts <- counts1
+    longer_counts <- counts2
+  } else {
+    shorter_elements <- elements2
+    longer_elements <- elements1
+    #shorter_counts <- counts2
+    longer_counts <- counts1
+  }
+
+  # Find the elements in the longer vector that are not in the shorter vector
+  elements_to_remove <- longer_elements[!longer_elements %in% shorter_elements]
+
+  # Find the positions of these elements in the longer vector
+  positions_to_remove <- which(longer_elements %in% elements_to_remove)
+
+  # Remove these elements and their corresponding counts from both vectors
+  aligned_longer_elements <- longer_elements[-positions_to_remove]
+  aligned_longer_counts <- longer_counts[-positions_to_remove]
+
+  return(list(shorter_elements = shorter_elements,aligned_longer_elements = aligned_longer_elements, aligned_longer_counts = aligned_longer_counts))
+}
+
+# Align the vectors
+aligned_vectors <- align_vectors(elements,  elements2, counts2)
+
+# Print the aligned vectors to verify
+print(aligned_vectors$shorter_elements)
+
+print(aligned_vectors$aligned_longer_elements)
+print(aligned_vectors$aligned_longer_counts)
+```
+
+```{r}
+one_skeleton
+```
+
+```{r}
+
+
+
+```

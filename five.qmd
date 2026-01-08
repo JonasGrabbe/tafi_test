@@ -1,0 +1,1677 @@
+---
+title: "New"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+#install.packages("plotly")
+#available.packages()["plotly", "Version"]
+
+# First, remove the existing packages
+#remove.packages(c("htmltools", "plotly"))
+
+# Then install htmltools first
+#install.packages("htmltools")
+
+# Finally install plotly
+#install.packages("plotly")
+
+# Now try loading plotly
+#library(plotly)
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(stringr)
+library(plotly)
+
+#
+source("NewSiteDataLoader.R")
+source("data_loader.R")
+source("meta.R")
+source("recalMNE.R")
+source("select_data.R")
+#ls()
+```
+
+```{r}
+convertMNEtoVariables <- function(MNE, skeleton, individuals = NULL) {
+
+  if (length(MNE) != nrow(skeleton)) {
+    stop("Length of MNE vector must match the number of skeletal elements")
+  }
+
+  # Convert MNE to a data frame if it's not already
+  if (!is.data.frame(MNE)) {
+    MNE <- as.data.frame(MNE)
+  }
+
+  Element <- skeleton$element
+
+  # Calculate MNI and Individuals if not provided
+  if (is.null(individuals)) {
+    MNI <- ceiling(MNE$MNE / skeleton$count)
+    individuals <- max(MNI)
+  }
+
+  # Compute Abundance for each part
+  abundance <- MNE$MNE / (skeleton$count * individuals)
+
+  # Compute Mean Abundance (MA)
+  ma <- sum(MNE$MNE, na.rm = TRUE) / (sum(skeleton$count, na.rm = TRUE) * individuals)
+
+  # Compute Mean Part Abundance (MPA)
+    mpa <- sum(abundance, na.rm = TRUE) / length(abundance)
+
+  # Additional metrics calculations
+  MAU <- abundance
+  MNAU <- abundance
+  PMAU <- MAU / max(MNE$MNE / skeleton$count)
+  PMNAU <- MNAU / individuals
+  ReMNAU <- MNAU / sum(MNAU, na.rm = TRUE)
+
+  # Calculate Accumulative ReMNAU
+  AcReMNAU <- cumsum(ReMNAU)
+
+  # Bone level vector calculation using summarize_bone_sections
+  #bone_info_df <- data.frame(elements = skeleton$Element, counts = MNE$MNE)
+  #bone_level <- c(1,1,2,2,2,2,2,2,2,2,2,2)
+
+  # Return a list of all calculated metrics
+  return(list(
+    MNE = as.vector(MNE$MNE),
+    Elements = Element,
+    abundance = abundance,
+    MNI = individuals,
+    MAU = MAU,
+    MNAU = MNAU,
+    PercentMAU = PMAU,
+    PercentMNAU = PMNAU,
+    ReMNAU = ReMNAU,
+    AcReMNAU = AcReMNAU,
+    MeanAbundance = ma,
+    MeanPartAbundance = mpa
+    #bone_level = bone_level
+  ))
+}
+```
+
+```{r}
+# Create NewSiteData_sum and NewSiteData_ind datasets
+n_samples <- 1
+NewSiteData_ind <- generate_dataset(n_samples)
+NewSiteData_ind$number_of_individuals <- 24
+NewSiteData_sum <- add_element_count(manipulate_rows(NewSiteData_ind))
+
+NewSiteData_ind <- generate_dataset(n_samples)
+NewSiteData_ind$number_of_individuals <- 7
+NewSiteData_ind <- add_element_count(manipulate_rows(NewSiteData_ind))
+
+# Save NewSiteData_sum and NewSiteData_ind as .rd files
+save(NewSiteData_sum, file = "NewSiteData_sum.rda")
+save(NewSiteData_ind, file = "NewSiteData_ind.rda")
+
+print("### SUM ###")
+print(colnames(NewSiteData_sum))
+```
+
+```{r}
+# Load the datasets
+load("HomininPartAbundance_small.rda")
+load("HomininPartAbundance_large.rda")
+#load("HomininPartAbundance_XL.rda")
+load("NewSiteData_sum.rda")
+load("NewSiteData_ind.rda")
+
+# If they are already tibbles, you don't need to convert them again.
+# You can just start using them as they are
+#print(HomininPartAbundance_small)
+print("### SUM ###")
+print(NewSiteData_sum)
+print("### IND ###")
+print(NewSiteData_ind)
+```
+
+```{r}
+same_data <- select_data(
+  data = HomininPartAbundance_large,
+  #time_range =  "Medieval Period",
+  #geological_context = "Cave",
+  #number_of_individuals = 70,
+  #age = "Adult (17+ years)",
+  #gender = "Female",
+  accumulation_cause = "Cannibalism",
+  #bone_parts = c("Skull", "Arms"),
+  #bone_level = c(2,1,3,4,2,1),
+  #site_name = c("Qafzeh", "Regourdou"),
+  #sum = 1,
+  #hominin_species = "Australopithecus africanus"
+)
+same_data
+```
+
+```{r}
+recalc_data <-recal_mne_selected_data(same_data)
+recalc_data
+```
+
+```{r}
+#recalc_data$element
+```
+
+```{r}
+group_cols <- c("geological_context")
+
+grouped_data <- group_and_summarize(recalc_data, group_cols) %>%
+  mutate(count = map(count, ~ as.numeric(.x)))
+
+
+grouped_data
+```
+
+```{r}
+library(dplyr)
+library(purrr)
+
+# Assuming your tibble is called 'recalc_data'
+# Step 1: Create a helper function that applies `convertMNEtoVariables` to each row.
+apply_conversion <- function(count, bone_level, number_of_individuals) {
+  skeleton <- get_bones_dataframe(bone_level)
+  result <- convertMNEtoVariables(count, skeleton, number_of_individuals)
+  
+  # Return the list of computed values you want to add to the dataframe
+  return(result)
+}
+
+# Step 2: Use `pmap` to apply the function to each row and add computed values as new columns
+# Here we assume your 'count', 'bone.level', and 'number_of_individuals' columns contain lists, as in your example.
+recalc_data <- grouped_data %>%
+  mutate(
+    results = pmap(
+      list(count = count, bone_level = bone.level, number_of_individuals = number_of_individuals),
+      apply_conversion
+    )
+  )
+
+# Step 3: Extract specific metrics from the results and add them as new columns
+recalc_data <- recalc_data %>%
+  mutate(
+    MNE = map(results, ~.x$MNE),
+    Elements = map(results, ~.x$Elements),
+    abundance = map(results, ~.x$abundance),
+    MNI = map(results, ~.x$MNI),
+    MAU = map(results, ~.x$MAU),
+    PercentMAU = map(results, ~.x$PercentMAU),
+    AcReMNAU = map(results, ~.x$AcReMNAU),
+    MeanAbundance = map(results, ~.x$MeanAbundance),
+    MeanPartAbundance = map(results, ~.x$MeanPartAbundance)
+  ) %>%
+  select(-results)  # Optionally remove the intermediate 'results' column if you don't need it
+```
+
+```{r}
+recalc_data
+```
+
+```{r}
+library(plotly)
+library(dplyr)
+
+# Assuming 'recalc_data' is your dataframe
+
+# Columns to check for identical entries
+columns_to_check <- c("time_range", "geological_context", "accumulation_cause", 
+                      "gender", "age", "hominin_species")
+
+# Identify columns with identical entries
+identical_entries <- sapply(recalc_data[columns_to_check], function(x) length(unique(x)) == 1)
+identical_columns <- names(identical_entries[identical_entries == TRUE])
+
+# Get unique values of these columns for the title, excluding "mixed"
+title_entries <- sapply(identical_columns, function(col) {
+  val <- unique(recalc_data[[col]])
+  if (val != "mixed") {
+    return(val)
+  } else {
+    return(NULL)
+  }
+})
+# Remove NULL entries
+title_entries <- title_entries[!sapply(title_entries, is.null)]
+
+# Create the title
+if (length(title_entries) > 0) {
+  title <- paste(title_entries, collapse = " ")
+  title <- paste(title, "sites")
+} else {
+  title <- "Sites"
+}
+
+# Get the names of all columns before the 'sum' column
+all_columns <- names(recalc_data)
+sum_index <- which(all_columns == "sum")
+label_columns <- all_columns[1:(sum_index - 1)]
+
+# Create labels by merging entries of columns before 'sum', excluding "mixed"
+labels <- apply(recalc_data[label_columns], 1, function(row) {
+  row <- row[row != "mixed"]
+  paste(row, collapse = " ")
+})
+
+# Initialize plot
+fig <- plot_ly()
+
+# Get elements (assuming same for all rows)
+elements <- recalc_data$Elements[[1]]
+
+# Ensure elements are factors with levels in the desired order
+elements_factor <- factor(elements, levels = elements)
+
+# Metrics to plot
+metrics <- c("MNE", "MAU", "PercentMAU", "AcReMNAU")
+
+# Total number of traces
+num_metrics <- length(metrics)
+num_rows <- nrow(recalc_data)
+total_traces <- num_metrics * num_rows
+
+# Initialize visibility matrix
+visibility_matrix <- matrix(FALSE, nrow = num_metrics, ncol = total_traces)
+
+# Initialize trace counter
+trace_counter <- 1
+
+for (metric_index in seq_along(metrics)) {
+  metric <- metrics[metric_index]
+  
+  for (row_index in 1:num_rows) {
+    y_values <- recalc_data[[metric]][[row_index]]
+    x_values <- recalc_data$Elements[[row_index]]
+    
+    # Ensure x_values have the same order as 'elements'
+    x_values_factor <- factor(x_values, levels = elements)
+    
+    # Add trace with mode = 'lines+markers'
+    fig <- fig %>%
+      add_trace(x = x_values_factor, y = y_values,
+                mode = 'lines+markers',
+                type = 'scatter',
+                name = labels[row_index],
+                visible = ifelse(metric == "MNE", TRUE, FALSE))
+    
+    # Update visibility matrix
+    visibility_matrix[metric_index, trace_counter] <- TRUE
+    
+    trace_counter <- trace_counter + 1
+  }
+}
+
+# Create buttons for each metric
+buttons_list <- list()
+for (metric_index in seq_along(metrics)) {
+  metric <- metrics[metric_index]
+  
+  # Create visibility vector
+  visibility <- as.vector(visibility_matrix[metric_index, ])
+  
+  button <- list(
+    method = "update",
+    args = list(list(visible = visibility)),
+    label = metric
+  )
+  
+  buttons_list[[metric_index]] <- button
+}
+
+# Place buttons at the bottom
+updatemenus <- list(
+  list(
+    type = "buttons",
+    direction = "left",
+    xanchor = 'center',
+    yanchor = 'bottom',
+    x = 0.5,
+    y = -0.2,
+    showactive = TRUE,
+    buttons = buttons_list
+  )
+)
+
+# Final layout
+fig <- fig %>%
+  layout(
+    title = title,
+    xaxis = list(
+      title = "Element",
+      type = 'category',
+      categoryorder = "array",
+      categoryarray = elements
+    ),
+    yaxis = list(title = "Value"),
+    updatemenus = updatemenus
+  )
+
+# Display the plot
+fig
+
+```
+
+```{r}
+data_matrix <- recalc_data %>%
+    select(!!sym(data_column)) %>%
+    unnest(cols = !!sym(data_column)) %>%
+    as.matrix()
+```
+
+```{r}
+library(plotly)
+library(dplyr)
+library(tidyr)
+library(purrr)
+
+# Function to perform PCA and create a plot for a given metric
+perform_pca_and_plot <- function(data_column, metric_name) {
+  # Unnest the column for the metric
+  data_matrix <- recalc_data %>%
+    select({{data_column}}) %>%
+    unnest(cols = {{data_column}}) %>%
+    as.matrix()
+  
+  # Ensure the data has enough rows and columns for PCA
+  if (ncol(data_matrix) > 1) {
+    # Perform PCA
+    pca_result <- prcomp(data_matrix, scale = TRUE)
+    
+    # Extract the first two principal components
+    num_pc <- min(ncol(pca_result$x), 2)  # Check the number of available PCs
+    pca_data <- as_tibble(pca_result$x[, 1:num_pc])
+    colnames(pca_data) <- paste0("PC", 1:num_pc)
+    
+    # Add original labels (like geological context and accumulation cause)
+    pca_data <- pca_data %>%
+      mutate(geological_context = recalc_data$geological_context[rep(1:nrow(recalc_data), each = length(recalc_data[[metric_name]][[1]]))],
+             accumulation_cause = recalc_data$accumulation_cause[rep(1:nrow(recalc_data), each = length(recalc_data[[metric_name]][[1]]))],
+             label = paste(geological_context, accumulation_cause))
+    
+    # Plot the first two PCs using plotly
+    fig <- plot_ly(pca_data, x = ~PC1, y = ~ifelse(num_pc == 2, PC2, 0), type = 'scatter', mode = 'markers', 
+                   color = ~label, text = ~label,
+                   marker = list(size = 10)) %>%
+      layout(title = paste("PCA of", metric_name),
+             xaxis = list(title = "PC1"),
+             yaxis = list(title = ifelse(num_pc == 2, "PC2", "Only PC1 available")))
+    
+    return(fig)
+  } else {
+    return(print(paste("Insufficient data for PCA for", metric_name)))
+  }
+}
+
+# Perform PCA and plot for each metric
+fig_mne <- perform_pca_and_plot(MNE, "MNE")
+fig_mau <- perform_pca_and_plot(MAU, "MAU")
+fig_percentmau <- perform_pca_and_plot(PercentMAU, "PercentMAU")
+fig_acremnau <- perform_pca_and_plot(AcReMNAU, "AcReMNAU")
+
+# Show the plots
+fig_mne  # Plot for MNE
+fig_mau  # Plot for MAU
+fig_percentmau  # Plot for PercentMAU
+fig_acremnau  # Plot for AcReMNAU
+
+```
+
+```{r}
+library(plotly)
+library(dplyr)
+library(tidyr)
+library(purrr)
+
+# Function to perform PCA and prepare a data frame for plotting
+perform_pca <- function(data, label_column) {
+  pca_result <- prcomp(data, scale = TRUE)
+  pca_data <- as_tibble(pca_result$x[, 1:2]) # Take only the first two principal components
+  colnames(pca_data) <- c("PC1", "PC2")
+  
+  # Add label to the PCA data (e.g., geological context, accumulation cause)
+  pca_data <- pca_data %>%
+    mutate(label = label_column)
+  
+  return(pca_data)
+}
+
+# Create PCA data for each metric separately
+
+# PCA for MNE
+mne_data <- recalc_data %>% 
+  select(MNE) %>%
+  unnest(cols = MNE) %>%
+  as.matrix()
+pca_mne <- perform_pca(mne_data, recalc_data$geological_context)
+
+# PCA for MAU
+mau_data <- recalc_data %>% 
+  select(MAU) %>%
+  unnest(cols = MAU) %>%
+  as.matrix()
+pca_mau <- perform_pca(mau_data, recalc_data$geological_context)
+
+# PCA for PercentMAU
+percentmau_data <- recalc_data %>% 
+  select(PercentMAU) %>%
+  unnest(cols = PercentMAU) %>%
+  as.matrix()
+pca_percentmau <- perform_pca(percentmau_data, recalc_data$geological_context)
+
+# PCA for AcReMNAU
+acre_mnau_data <- recalc_data %>% 
+  select(AcReMNAU) %>%
+  unnest(cols = AcReMNAU) %>%
+  as.matrix()
+pca_acre_mnau <- perform_pca(acre_mnau_data, recalc_data$geological_context)
+
+# Initialize plot
+fig <- plot_ly()
+
+# Add traces for MNE PCA
+fig <- fig %>%
+  add_trace(x = pca_mne$PC1, y = pca_mne$PC2, type = 'scatter', mode = 'markers',
+            marker = list(size = 10), name = 'MNE PCA', visible = TRUE,
+            text = ~pca_mne$label)
+
+# Add traces for MAU PCA
+fig <- fig %>%
+  add_trace(x = pca_mau$PC1, y = pca_mau$PC2, type = 'scatter', mode = 'markers',
+            marker = list(size = 10), name = 'MAU PCA', visible = FALSE,
+            text = ~pca_mau$label)
+
+# Add traces for PercentMAU PCA
+fig <- fig %>%
+  add_trace(x = pca_percentmau$PC1, y = pca_percentmau$PC2, type = 'scatter', mode = 'markers',
+            marker = list(size = 10), name = 'PercentMAU PCA', visible = FALSE,
+            text = ~pca_percentmau$label)
+
+# Add traces for AcReMNAU PCA
+fig <- fig %>%
+  add_trace(x = pca_acre_mnau$PC1, y = pca_acre_mnau$PC2, type = 'scatter', mode = 'markers',
+            marker = list(size = 10), name = 'AcReMNAU PCA', visible = FALSE,
+            text = ~pca_acre_mnau$label)
+
+# Create buttons to toggle between different PCA plots
+buttons_list <- list(
+  list(
+    method = "update",
+    args = list(list(visible = c(TRUE, FALSE, FALSE, FALSE))),
+    label = "MNE PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, TRUE, FALSE, FALSE))),
+    label = "MAU PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, FALSE, TRUE, FALSE))),
+    label = "PercentMAU PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, FALSE, FALSE, TRUE))),
+    label = "AcReMNAU PCA"
+  )
+)
+
+# Layout with buttons
+fig <- fig %>%
+  layout(
+    title = "PCA for MNE, MAU, PercentMAU, AcReMNAU",
+    xaxis = list(title = "PC1"),
+    yaxis = list(title = "PC2"),
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "left",
+        xanchor = 'center',
+        yanchor = 'top',
+        x = 0.5,
+        y = 1.15,
+        buttons = buttons_list
+      )
+    )
+  )
+
+# Show the plot
+fig
+
+```
+
+```{r}
+mne_data <- recalc_data %>% 
+  select(MNE) %>%
+  unnest(cols = MNE) %>%
+  as.matrix()
+pca_mne <- perform_pca(mne_data, recalc_data$geological_context)
+```
+
+```{r}
+all_columns <- names(recalc_data)
+sum_index <- which(all_columns == "sum")
+label_columns <- all_columns[1:(sum_index - 1)]
+mne_data <- recalc_data %>% select(MNE) %>% unnest_wider(MNE,names_sep = "_") %>%
+  as.matrix()
+```
+
+```{r}
+# Create labels by merging entries of columns before 'sum', excluding "mixed"
+labels <- apply(recalc_data[label_columns], 1, function(row) {
+  row <- row[row != "mixed"]
+  paste(row, collapse = " ")
+})
+rownames(mne_data) <- labels
+```
+
+```{r}
+mne_data
+```
+
+```{r}
+library(plotly)
+library(dplyr)
+library(tidyr)
+library(purrr)
+
+# Function to perform PCA and prepare a data frame for plotting
+perform_pca <- function(data) {
+  pca_result <- prcomp(data, scale = TRUE)
+  pca_data <- as_tibble(pca_result$x[, 1:2]) # Take only the first two principal components
+  colnames(pca_data) <- c("PC1", "PC2")
+  
+  # Add label to the PCA data (e.g., geological context, accumulation cause)
+  pca_data$label <-rownames(data)
+  print(pca_data$label)
+  
+  return(pca_data)
+}
+```
+
+\
+
+```{r}
+rownames(mne_data)
+```
+
+```{r}
+pca_mne <- perform_pca(mne_data)
+
+mau_data <- recalc_data %>% select(MAU) %>% unnest_wider(MAU,names_sep = "_") %>%
+  as.matrix()
+pca_mau <- perform_pca(mau_data) 
+rownames(pca_mau) <- labels
+
+
+percentmau_data <- recalc_data %>% select(PercentMAU) %>% unnest_wider(PercentMAU,names_sep = "_") %>%
+  as.matrix()
+pca_percentmau <- perform_pca(percentmau_data)
+rownames(pca_percentmau) <- labels
+
+#acre_mnau_data <- recalc_data %>% select(AcReMNAU) %>% unnest_wider(AcReMNAU,names_sep = "_") %>%
+#  as.matrix()
+#pca_acre_mnau <- perform_pca(acre_mnau_data)
+
+
+
+
+
+
+```
+
+```{r}
+# Create the title
+if (length(title_entries) > 0) {
+  title <- paste(title_entries, collapse = " ")
+  title <- paste(title, "PCA")
+} else {
+  title <- "PCA"
+}
+```
+
+```{r}
+# Initialize plot
+fig <- plot_ly()
+
+# Add traces for MNE PCA
+fig <- fig %>%
+  add_trace(x = pca_mne$PC1, y = pca_mne$PC2, 
+            type = 'scatter', 
+            mode = 'markers',
+            marker = list(size = 10), 
+            name = 'MNE PCA', 
+            visible = TRUE,
+            text = ~label)
+
+# Add traces for MAU PCA
+fig <- fig %>%
+  add_trace(x = pca_mau$PC1, y = pca_mau$PC2, type = 'scatter', mode = 'markers',
+            marker = list(size = 10), name = 'MAU PCA', visible = FALSE,
+            text = ~pca_mau$label)
+
+# Add traces for PercentMAU PCA
+fig <- fig %>%
+  add_trace(x = pca_percentmau$PC1, y = pca_percentmau$PC2, type = 'scatter', mode = 'markers',
+            marker = list(size = 10), name = 'PercentMAU PCA', visible = FALSE,
+            text = ~pca_percentmau$label)
+
+
+
+# Create buttons to toggle between different PCA plots
+buttons_list <- list(
+  list(
+    method = "update",
+    args = list(list(visible = c(TRUE, FALSE, FALSE))),
+    label = "MNE PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, TRUE, FALSE))),
+    label = "MAU PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, FALSE, TRUE))),
+    label = "PercentMAU PCA"
+  )
+)
+
+# Layout with buttons
+fig <- fig %>%
+  layout(
+    title = title,
+    xaxis = list(title = "PC1"),
+    yaxis = list(title = "PC2"),
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "left",
+        xanchor = 'center',
+        yanchor = 'top',
+        x = 0.5,
+        y = 1.15,
+        buttons = buttons_list
+      )
+    )
+  )
+
+# Show the plot
+fig
+```
+
+```{r}
+# Initialize plot
+fig <- plot_ly()
+
+# Add traces for MNE PCA
+fig <- fig %>%
+  add_trace(x = pca_mne$PC1, y = pca_mne$PC2, 
+            type = 'scatter', 
+            mode = 'markers',
+            marker = list(size = 10), 
+            name = 'MNE PCA', 
+            visible = TRUE)
+            # Remove text parameter if you don't have labels
+
+# Add traces for MAU PCA
+fig <- fig %>%
+  add_trace(x = pca_mau$PC1, y = pca_mau$PC2, 
+            type = 'scatter', 
+            mode = 'markers',
+            marker = list(size = 10), 
+            name = 'MAU PCA', 
+            visible = FALSE)
+
+# Add traces for PercentMAU PCA
+fig <- fig %>%
+  add_trace(x = pca_percentmau$PC1, y = pca_percentmau$PC2, 
+            type = 'scatter', 
+            mode = 'markers',
+            marker = list(size = 10), 
+            name = 'PercentMAU PCA', 
+            visible = FALSE)
+
+# Rest of your code remains the same
+buttons_list <- list(
+  list(
+    method = "update",
+    args = list(list(visible = c(TRUE, FALSE, FALSE))),
+    label = "MNE PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, TRUE, FALSE))),
+    label = "MAU PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, FALSE, TRUE))),
+    label = "PercentMAU PCA"
+  )
+)
+
+# Layout with buttons
+fig <- fig %>%
+  layout(
+    title = title,
+    xaxis = list(title = "PC1"),
+    yaxis = list(title = "PC2"),
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "left",
+        xanchor = 'left',
+        yanchor = 'bottom',
+        x = 0.5,
+        y = 1.15,
+        buttons = buttons_list
+      )
+    )
+  )
+
+# Show the plot
+fig
+```
+
+```{r}
+pca_percentmau$label
+```
+
+```{r}
+
+```
+
+```{r}
+# Load necessary libraries
+library(plotly)
+library(dplyr)
+library(tidyr)
+library(purrr)
+
+# Perform PCA and prepare a data frame for plotting
+perform_pca <- function(data) {
+  pca_result <- prcomp(data, scale = TRUE)
+  pca_data <- as_tibble(pca_result$x[, 1:2]) # Take only the first two principal components
+  colnames(pca_data) <- c("PC1", "PC2")
+  
+  # Add label to the PCA data (e.g., geological context, accumulation cause)
+  pca_data$label <- rownames(data)
+  
+  return(pca_data)
+}
+
+# Process MNE, MAU, and PercentMAU data
+mne_data <- recalc_data %>%
+  select(MNE) %>%
+  unnest_wider(MNE, names_sep = "_") %>%
+  as.matrix()
+
+mau_data <- recalc_data %>%
+  select(MAU) %>%
+  unnest_wider(MAU, names_sep = "_") %>%
+  as.matrix()
+
+percentmau_data <- recalc_data %>%
+  select(PercentMAU) %>%
+  unnest_wider(PercentMAU, names_sep = "_") %>%
+  as.matrix()
+
+# Generate labels
+all_columns <- names(recalc_data)
+sum_index <- which(all_columns == "sum")
+label_columns <- all_columns[1:(sum_index - 1)]
+labels <- apply(recalc_data[label_columns], 1, function(row) {
+  row <- row[row != "mixed"]
+  paste(row, collapse = " ")
+})
+
+# Assign row names to each data matrix
+rownames(mne_data) <- labels
+rownames(mau_data) <- labels
+rownames(percentmau_data) <- labels
+
+# Perform PCA
+pca_mne <- perform_pca(mne_data)
+pca_mau <- perform_pca(mau_data)
+pca_percentmau <- perform_pca(percentmau_data)
+
+# Columns to check for identical entries
+columns_to_check <- c("time_range", "geological_context", "accumulation_cause", 
+                      "gender", "age", "hominin_species")
+
+# Identify columns with identical entries
+identical_entries <- sapply(recalc_data[columns_to_check], function(x) length(unique(x)) == 1)
+identical_columns <- names(identical_entries[identical_entries == TRUE])
+
+# Get unique values of these columns for the title, excluding "mixed"
+title_entries <- sapply(identical_columns, function(col) {
+  val <- unique(recalc_data[[col]])
+  if (val != "mixed") {
+    return(val)
+  } else {
+    return(NULL)
+  }
+})
+# Remove NULL entries
+title_entries <- title_entries[!sapply(title_entries, is.null)]
+
+# Create the title
+if (length(title_entries) > 0) {
+  title <- paste(title_entries, collapse = " ")
+  title <- paste(title, "sites")
+} else {
+  title <- "Sites"
+}
+
+# Initialize plot
+fig <- plot_ly()
+
+# Add traces for MNE PCA
+fig <- fig %>%
+  add_trace(x = pca_mne$PC1, y = pca_mne$PC2, 
+            type = 'scatter', 
+            mode = 'markers',
+            marker = list(size = 10), 
+            name = 'MNE PCA', 
+            visible = TRUE,
+            text = ~pca_mne$label)
+
+# Add traces for MAU PCA
+fig <- fig %>%
+  add_trace(x = pca_mau$PC1, y = pca_mau$PC2, 
+            type = 'scatter', 
+            mode = 'markers',
+            marker = list(size = 10), 
+            name = 'MAU PCA', 
+            visible = FALSE,
+            text = ~pca_mau$label)
+
+# Add traces for PercentMAU PCA
+fig <- fig %>%
+  add_trace(x = pca_percentmau$PC1, y = pca_percentmau$PC2, 
+            type = 'scatter', 
+            mode = 'markers',
+            marker = list(size = 10), 
+            name = 'PercentMAU PCA', 
+            visible = FALSE,
+            text = ~pca_percentmau$label)
+
+# Create buttons to toggle between different PCA plots
+buttons_list <- list(
+  list(
+    method = "update",
+    args = list(list(visible = c(TRUE, FALSE, FALSE))),
+    label = "MNE PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, TRUE, FALSE))),
+    label = "MAU PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, FALSE, TRUE))),
+    label = "PercentMAU PCA"
+  )
+)
+
+# Layout with buttons
+fig <- fig %>%
+  layout(
+    title = title,
+    xaxis = list(title = "PC1"),
+    yaxis = list(title = "PC2"),
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "left",
+        xanchor = 'right',
+        yanchor = 'bottom',
+        x = 0.15,
+        y = 1.15,
+        buttons = buttons_list
+      )
+    )
+  )
+
+# Show the plot
+fig
+
+```
+
+```{r}
+# Load necessary libraries
+library(plotly)
+library(dplyr)
+library(tidyr)
+library(purrr)
+
+# Perform PCA and prepare a data frame for plotting
+perform_pca <- function(data) {
+  pca_result <- prcomp(data, scale = TRUE)
+  pca_data <- as_tibble(pca_result$x[, 1:2]) # Take only the first two principal components
+  colnames(pca_data) <- c("PC1", "PC2")
+  
+  # Add label to the PCA data (e.g., geological context, accumulation cause)
+  pca_data$label <- rownames(data)
+  
+  return(pca_data)
+}
+
+# Process MNE, MAU, and PercentMAU data
+mne_data <- recalc_data %>%
+  select(MNE) %>%
+  unnest_wider(MNE, names_sep = "_") %>%
+  as.matrix()
+
+mau_data <- recalc_data %>%
+  select(MAU) %>%
+  unnest_wider(MAU, names_sep = "_") %>%
+  as.matrix()
+
+percentmau_data <- recalc_data %>%
+  select(PercentMAU) %>%
+  unnest_wider(PercentMAU, names_sep = "_") %>%
+  as.matrix()
+
+# Generate labels
+all_columns <- names(recalc_data)
+sum_index <- which(all_columns == "sum")
+label_columns <- all_columns[1:(sum_index - 1)]
+labels <- apply(recalc_data[label_columns], 1, function(row) {
+  row <- row[row != "mixed"]
+  paste(row, collapse = " ")
+})
+# Columns to check for identical entries
+columns_to_check <- c("time_range", "geological_context", "accumulation_cause", 
+                      "gender", "age", "hominin_species")
+
+# Identify columns with identical entries
+identical_entries <- sapply(recalc_data[columns_to_check], function(x) length(unique(x)) == 1)
+identical_columns <- names(identical_entries[identical_entries == TRUE])
+
+# Get unique values of these columns for the title, excluding "mixed"
+title_entries <- sapply(identical_columns, function(col) {
+  val <- unique(recalc_data[[col]])
+  if (val != "mixed") {
+    return(val)
+  } else {
+    return(NULL)
+  }
+})
+# Remove NULL entries
+title_entries <- title_entries[!sapply(title_entries, is.null)]
+
+# Create the title
+if (length(title_entries) > 0) {
+  title <- paste(title_entries, collapse = " ")
+  title <- paste(title, "sites")
+} else {
+  title <- "Sites"
+}
+# Assign row names to each data matrix
+rownames(mne_data) <- labels
+rownames(mau_data) <- labels
+rownames(percentmau_data) <- labels
+
+# Perform PCA
+pca_mne <- perform_pca(mne_data)
+pca_mau <- perform_pca(mau_data)
+pca_percentmau <- perform_pca(percentmau_data)
+
+# Columns to check for identical entries
+columns_to_check <- c("time_range", "geological_context", "accumulation_cause", 
+                      "gender", "age", "hominin_species")
+
+# Identify columns with identical entries
+identical_entries <- sapply(recalc_data[columns_to_check], function(x) length(unique(x)) == 1)
+identical_columns <- names(identical_entries[identical_entries == TRUE])
+
+# Get unique values of these columns for the title, excluding "mixed"
+title_entries <- sapply(identical_columns, function(col) {
+  val <- unique(recalc_data[[col]])
+  if (val != "mixed") {
+    return(val)
+  } else {
+    return(NULL)
+  }
+})
+# Remove NULL entries
+title_entries <- title_entries[!sapply(title_entries, is.null)]
+
+# Create the title
+if (length(title_entries) > 0) {
+  title <- paste(title_entries, collapse = " ")
+  title <- paste(title, "sites")
+} else {
+  title <- "Sites"
+}
+
+# Initialize plot
+fig <- plot_ly()
+
+# Add traces for MNE PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_mne$PC1, y = pca_mne$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_mne$label,
+            textposition = "right",
+            name = 'MNE PCA', 
+            visible = TRUE,
+            showlegend = FALSE) # Remove legend
+
+# Add traces for MAU PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_mau$PC1, y = pca_mau$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_mau$label,
+            textposition = "right",
+            name = 'MAU PCA', 
+            visible = FALSE,
+            showlegend = FALSE) # Remove legend
+
+# Add traces for PercentMAU PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_percentmau$PC1, y = pca_percentmau$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_percentmau$label,
+            textposition = "right",
+            name = 'PercentMAU PCA', 
+            visible = FALSE,
+            showlegend = FALSE) # Remove legend
+
+# Create buttons to toggle between different PCA plots
+buttons_list <- list(
+  list(
+    method = "update",
+    args = list(list(visible = c(TRUE, FALSE, FALSE))),
+    label = "MNE PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, TRUE, FALSE))),
+    label = "MAU PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, FALSE, TRUE))),
+    label = "PercentMAU PCA"
+  )
+)
+
+# Layout with buttons at the bottom
+fig <- fig %>%
+  layout(
+    title = title,
+    xaxis = list(title = "PC1"),
+    yaxis = list(title = "PC2"),
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "left",
+        xanchor = 'left',
+        yanchor = 'bottom',
+        x = 0.5,
+        y = -0.2,  # Adjusted y position for bottom placement
+        buttons = buttons_list
+      )
+    )
+  )
+
+# Show the plot
+fig
+
+```
+
+```{r}
+# Load necessary libraries
+library(plotly)
+library(dplyr)
+library(tidyr)
+library(purrr)
+
+# Perform PCA and prepare a data frame for plotting
+perform_pca <- function(data) {
+  pca_result <- prcomp(data, scale = TRUE)
+  pca_data <- as_tibble(pca_result$x[, 1:2]) # Take only the first two principal components
+  colnames(pca_data) <- c("PC1", "PC2")
+  
+  # Add label to the PCA data (e.g., geological context, accumulation cause)
+  pca_data$label <- rownames(data)
+  
+  return(pca_data)
+}
+
+# Process MNE, MAU, and PercentMAU data
+mne_data <- recalc_data %>%
+  select(MNE) %>%
+  unnest_wider(MNE, names_sep = "_") %>%
+  as.matrix()
+
+mau_data <- recalc_data %>%
+  select(MAU) %>%
+  unnest_wider(MAU, names_sep = "_") %>%
+  as.matrix()
+
+percentmau_data <- recalc_data %>%
+  select(PercentMAU) %>%
+  unnest_wider(PercentMAU, names_sep = "_") %>%
+  as.matrix()
+
+# Generate labels
+all_columns <- names(recalc_data)
+sum_index <- which(all_columns == "sum")
+label_columns <- all_columns[1:(sum_index - 1)]
+labels <- apply(recalc_data[label_columns], 1, function(row) {
+  row <- row[row != "mixed"]
+  paste(row, collapse = " ")
+})
+# Columns to check for identical entries
+columns_to_check <- c("time_range", "geological_context", "accumulation_cause", 
+                      "gender", "age", "hominin_species")
+
+# Identify columns with identical entries
+identical_entries <- sapply(recalc_data[columns_to_check], function(x) length(unique(x)) == 1)
+identical_columns <- names(identical_entries[identical_entries == TRUE])
+
+# Get unique values of these columns for the title, excluding "mixed"
+title_entries <- sapply(identical_columns, function(col) {
+  val <- unique(recalc_data[[col]])
+  if (val != "mixed") {
+    return(val)
+  } else {
+    return(NULL)
+  }
+})
+# Remove NULL entries
+title_entries <- title_entries[!sapply(title_entries, is.null)]
+
+# Create the title
+if (length(title_entries) > 0) {
+  title <- paste(title_entries, collapse = " ")
+  title <- paste(title, "sites")
+} else {
+  title <- "Sites"
+}
+# Assign row names to each data matrix
+rownames(mne_data) <- labels # redo
+rownames(mau_data) <- labels
+rownames(percentmau_data) <- labels
+
+# Perform PCA
+pca_mne <- perform_pca(mne_data)
+pca_mau <- perform_pca(mau_data)
+pca_percentmau <- perform_pca(percentmau_data)
+
+# Columns to check for identical entries
+columns_to_check <- c("time_range", "geological_context", "accumulation_cause", 
+                      "gender", "age", "hominin_species")
+
+# Identify columns with identical entries
+identical_entries <- sapply(recalc_data[columns_to_check], function(x) length(unique(x)) == 1)
+identical_columns <- names(identical_entries[identical_entries == TRUE])
+
+# Get unique values of these columns for the title, excluding "mixed"
+title_entries <- sapply(identical_columns, function(col) {
+  val <- unique(recalc_data[[col]])
+  if (val != "mixed") {
+    return(val)
+  } else {
+    return(NULL)
+  }
+})
+# Remove NULL entries
+title_entries <- title_entries[!sapply(title_entries, is.null)]
+
+# Create the title
+if (length(title_entries) > 0) {
+  title <- paste(title_entries, collapse = " ")
+  title <- paste(title, "sites")
+} else {
+  title <- "Sites"
+}
+
+# Initialize plot
+fig <- plot_ly()
+
+# Add traces for MNE PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_mne$PC1, y = pca_mne$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_mne$label,
+            textposition = "right",
+            name = 'MNE PCA', 
+            visible = TRUE,
+            showlegend = FALSE) # Remove legend
+
+# Add traces for MAU PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_mau$PC1, y = pca_mau$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_mau$label,
+            textposition = "right",
+            name = 'MAU PCA', 
+            visible = FALSE,
+            showlegend = FALSE) # Remove legend
+
+# Add traces for PercentMAU PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_percentmau$PC1, y = pca_percentmau$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_percentmau$label,
+            textposition = "right",
+            name = 'PercentMAU PCA', 
+            visible = FALSE,
+            showlegend = FALSE) # Remove legend
+
+# Create buttons to toggle between different PCA plots
+buttons_list <- list(
+  list(
+    method = "update",
+    args = list(list(visible = c(TRUE, FALSE, FALSE))),
+    label = "MNE PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, TRUE, FALSE))),
+    label = "MAU PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, FALSE, TRUE))),
+    label = "PercentMAU PCA"
+  )
+)
+
+# Layout with buttons at the bottom
+fig <- fig %>%
+  layout(
+    title = title,
+    xaxis = list(title = "PC1"),
+    yaxis = list(title = "PC2"),
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "left",
+        xanchor = 'right',
+        yanchor = 'bottom',
+        x = 0.4,
+        y = -0.2,  # Adjusted y position for bottom placement
+        buttons = buttons_list
+      )
+    )
+  )
+
+# Show the plot
+fig
+```
+
+```{r}
+# Initialize plot with size specifications
+fig <- plot_ly(width = "400", height = "300")
+
+# Add traces for MNE PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_mne$PC1, y = pca_mne$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_mne$label,
+            textposition = "right",
+            name = 'MNE PCA', 
+            visible = TRUE,
+            showlegend = FALSE)
+
+# Add traces for MAU PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_mau$PC1, y = pca_mau$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_mau$label,
+            textposition = "right",
+            name = 'MAU PCA', 
+            visible = FALSE,
+            showlegend = FALSE)
+
+# Add traces for PercentMAU PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_percentmau$PC1, y = pca_percentmau$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_percentmau$label,
+            textposition = "right",
+            name = 'PercentMAU PCA', 
+            visible = FALSE,
+            showlegend = FALSE)
+
+# Create buttons to toggle between different PCA plots
+buttons_list <- list(
+  list(
+    method = "update",
+    args = list(list(visible = c(TRUE, FALSE, FALSE))),
+    label = "MNE PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, TRUE, FALSE))),
+    label = "MAU PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, FALSE, TRUE))),
+    label = "PercentMAU PCA"
+  )
+)
+
+# Layout with adjusted margins and title
+fig <- fig %>%
+   layout(
+    title = list(
+      text = toupper(title), # Force uppercase using R
+      font = list(
+        weight = '1000',
+        size = 16 # Add size control
+      ),
+      y = 0.95
+    ),
+    xaxis = list(title = "PC1"),
+    yaxis = list(title = "PC2"),
+    margin = list(
+      l = 50,
+      r = 50,
+      b = 100,
+      t = 100
+    ),
+    autosize = TRUE,
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "left",
+        xanchor = 'right',
+        yanchor = 'bottom',
+        x = 0.4,
+        y = -0.25,
+        buttons = buttons_list
+      )
+    )
+  )
+
+# Show the plot
+fig
+```
+
+```{r}
+# Initialize plot with size specifications
+fig <- plot_ly(width = 650, height = 400)
+
+# Add traces for MNE PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_mne$PC1, y = pca_mne$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_mne$label,
+            textposition = "right",
+            name = 'MNE PCA', 
+            visible = TRUE,
+            showlegend = FALSE)
+
+# Add traces for MAU PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_mau$PC1, y = pca_mau$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_mau$label,
+            textposition = "right",
+            name = 'MAU PCA', 
+            visible = FALSE,
+            showlegend = FALSE)
+
+# Add traces for PercentMAU PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_percentmau$PC1, y = pca_percentmau$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_percentmau$label,
+            textposition = "right",
+            name = 'PercentMAU PCA', 
+            visible = FALSE,
+            showlegend = FALSE)
+
+# Create buttons to toggle between different PCA plots
+buttons_list <- list(
+  list(
+    method = "update",
+    args = list(list(visible = c(TRUE, FALSE, FALSE))),
+    label = "MNE PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, TRUE, FALSE))),
+    label = "MAU PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, FALSE, TRUE))),
+    label = "PercentMAU PCA"
+  )
+)
+
+# Layout with adjusted margins and title
+fig <- fig %>%
+  layout(
+    title = list(
+      text = title,
+      font = list(weight = 'bold'),
+      y = 0.95
+    ),
+    xaxis = list(title = "PC1"),
+    yaxis = list(title = "PC2"),
+    margin = list(
+      l = 50,
+      r = 50,
+      b = 50,
+      t = 50
+    ),
+    autosize = TRUE,
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "left",
+        xanchor = 'right',
+        yanchor = 'bottom',
+        x = 0.4,
+        y = -0.25,
+        buttons = buttons_list
+      )
+    )
+  )
+
+# Show the plot
+fig
+```
+
+## next
+
+```{r}
+# Initialize plot with size specifications
+fig <- plot_ly(
+  width = NULL, height = NULL
+  )
+
+# Add traces for MNE PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_mne$PC1, y = pca_mne$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_mne$label,
+            textposition = "right",
+            name = 'MNE PCA', 
+            visible = TRUE,
+            showlegend = FALSE)
+
+# Add traces for MAU PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_mau$PC1, y = pca_mau$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_mau$label,
+            textposition = "right",
+            name = 'MAU PCA', 
+            visible = FALSE,
+            showlegend = FALSE)
+
+# Add traces for PercentMAU PCA with permanent text labels
+fig <- fig %>%
+  add_trace(x = pca_percentmau$PC1, y = pca_percentmau$PC2, 
+            type = 'scatter', 
+            mode = 'markers+text',
+            marker = list(size = 10), 
+            text = pca_percentmau$label,
+            textposition = "right",
+            name = 'PercentMAU PCA', 
+            visible = FALSE,
+            showlegend = FALSE)
+
+# Create buttons to toggle between different PCA plots
+buttons_list <- list(
+  list(
+    method = "update",
+    args = list(list(visible = c(TRUE, FALSE, FALSE))),
+    label = "MNE PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, TRUE, FALSE))),
+    label = "MAU PCA"
+  ),
+  list(
+    method = "update",
+    args = list(list(visible = c(FALSE, FALSE, TRUE))),
+    label = "PercentMAU PCA"
+  )
+)
+
+
+# Layout with adjusted margins and title
+fig <- fig %>%
+  layout(
+    #title = list(
+    #  text = title,
+    #  font = list( size = 35, color = "black",weight = 'bold'),
+    #  #font = list(family = "Arial", size = 18, color = "black"),
+    #  y = 0.95
+    #), 
+    #template = "simple_white" # ask how 
+    xaxis = list(title = "PC1"),
+    yaxis = list(title = "PC2"),
+    margin = list(
+      l = 50,
+      r = 50,
+      b = 50,
+      t = 75
+    ),
+    autosize = TRUE,
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "left",
+        xanchor = 'right',
+        yanchor = 'bottom',
+        x = 0.3,
+        y = -0.2,
+        buttons = buttons_list
+      )
+    )
+  )
+
+# Show the plot
+fig
+```
+
+```{r}
+# Add expanded axis limits to the layout with bold styling and no background gridlines
+fig <- fig %>%
+  layout(
+    xaxis = list(
+      title = list(
+        text = "PC1",
+        font = list(size = 14, weight = "bold")  # Bold axis title
+      ),
+      range = c(min(c(pca_mne$PC1, pca_mau$PC1, pca_percentmau$PC1)) - 1, 
+                max(c(pca_mne$PC1, pca_mau$PC1, pca_percentmau$PC1)) + 1),
+      showgrid = TRUE,  # Remove gridlines
+      zeroline = TRUE,  # Remove zero line
+      tickfont = list(size = 14, weight = "bold")  # Bold tick numbers
+    ),
+    yaxis = list(
+      title = list(
+        text = "PC2",
+        font = list(size = 14, weight = "bold")  # Bold axis title
+      ),
+      range = c(min(c(pca_mne$PC2, pca_mau$PC2, pca_percentmau$PC2)) - 1, 
+                max(c(pca_mne$PC2, pca_mau$PC2, pca_percentmau$PC2)) + 1),
+      showgrid = TRUE,  # Remove gridlines
+      zeroline =TRUE,  # Remove zero line
+      tickfont = list(size = 14, weight = "bold")  # Bold tick numbers
+    ),
+    margin = list(
+      l = 50,
+      r = 50,
+      b = 50,
+      t = 75
+    ),
+    autosize = TRUE,
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "left",
+        xanchor = 'right',
+        yanchor = 'bottom',
+        x = 0.3,
+        y = -0.2,
+        buttons = buttons_list
+      )
+    )
+  )
+
+
+
+
+fig
+```

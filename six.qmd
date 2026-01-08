@@ -1,0 +1,369 @@
+---
+title: "New Six"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+#lm([target] ~ [predictor], data = [data source])
+```
+
+```{r}
+# load excel or csv and similar (check)
+# check if number of columes is bigger then 2 
+  # if bigger then 2 check if how many non numerical columns there are 
+  # if non numerical == 1 
+  # 
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(stringr)
+
+#
+source("convertMNEtoVariables.R")
+source("NewSiteDataLoader.R")
+source("data_loader.R")
+source("meta.R")
+source("recalMNE.R")
+source("select_data.R")
+#ls()
+```
+
+```{r}
+load("NewSiteData_sum.rda")
+load("NewSiteData_ind.rda")
+
+# If they are already tibbles, you don't need to convert them again.
+# You can just start using them as they are
+#print(HomininPartAbundance_small)
+print("### SUM ###")
+print(NewSiteData_sum)
+print("### IND ###")
+print(NewSiteData_ind)
+```
+
+```{r}
+colnames(NewSiteData_sum)
+```
+
+```{r}
+# Load necessary libraries
+library(tibble)
+library(readxl)
+
+# Define the function
+load.tapho.data <- function(file_path) {
+  # Check file extension
+  file_extension <- tools::file_ext(file_path)
+  
+  # Read the data based on file extension
+  if (file_extension == "csv") {
+    data <- read.csv(file_path, stringsAsFactors = FALSE)
+  } else if (file_extension %in% c("xls", "xlsx")) {
+    data <- read_excel(file_path)
+  } else {
+    stop("Unsupported file type. Please provide a CSV or Excel file.")
+  }
+  
+  # Convert the data to a tibble
+  data_tibble <- as_tibble(data)
+  
+  # Rename the first two columns to "element" and "count"
+  colnames(data_tibble)[1:2] <- c("element", "count")
+  
+  # Print the tibble
+  #print(data_tibble)
+  
+  # Return the tibble (optional)
+  return(data_tibble)
+}
+
+# Example usage:
+# tibble_data <- load.tapho.data("path_to_your_file.csv")
+# tibble_data <- load.tapho.data("path_to_your_file.xlsx")
+
+```
+
+```{r}
+file_path = "new_site_data.xlsx"
+new_site_data = load.tapho.data(file_path)
+new_site_data[-c(1:8),]$element
+```
+
+```{r}
+# Load necessary libraries
+library(tibble)
+library(readxl)
+
+# Define the function
+load.tapho.data <- function(file_path) {
+  # Check file extension
+  file_extension <- tools::file_ext(file_path)
+
+  # Read the data based on file extension
+  if (file_extension == "csv") {
+    data <- read.csv(file_path, stringsAsFactors = FALSE)
+  } else if (file_extension %in% c("xls", "xlsx")) {
+    data <- read_excel(file_path)
+  } else {
+    stop("Unsupported file type. Please provide a CSV or Excel file.")
+  }
+
+  # Convert the data to a tibble
+  data_tibble <- as_tibble(data)
+
+  # Rename the first two columns to "element" and "count"
+  colnames(data_tibble)[1:2] <- c("element", "count")
+
+  # Ensure 'count' is numeric (if not already)
+  data_tibble$count <- as.numeric(data_tibble$count)
+
+  # Create the dataset tibble with specified structure
+  dataset <- tibble(
+    site_index = ifelse(
+      !is.na(data_tibble$count[data_tibble$element == "site_index"]),
+      data_tibble$count[data_tibble$element == "site_index"],
+      sample(1:1000, 1)
+    ),
+    sample_index = paste0(
+      site_index,
+      "_",
+      seq_along(data_tibble$element[data_tibble$element == "sample_index"])
+    ),
+    site_name = data_tibble$count[data_tibble$element == "site_name"],
+    sum = data_tibble$count[data_tibble$element == "sum"],
+    time_range = data_tibble$count[data_tibble$element == "time_range"],
+    geological_context = data_tibble$count[data_tibble$element == "geological_context"],
+    number_of_individuals = data_tibble$count[data_tibble$element == "number_of_individuals"],
+    age = data_tibble$count[data_tibble$element == "age"],
+    gender = data_tibble$count[data_tibble$element == "gender"],
+    accumulation_cause = data_tibble$count[data_tibble$element == "accumulation_cause"],
+    hominin_species = data_tibble$count[data_tibble$element == "hominin_species"],
+    bone_level = summarize_bone_sections(data_tibble[-c(1:8),]),
+    element = data_tibble[-c(1:8), ]$element,
+    count = data_tibble[-c(1:8), ]$count
+  )
+
+  # Return the dataset tibble
+  return(dataset)
+}
+
+
+```
+
+```{r}
+# TWO 
+# Load necessary libraries
+library(tibble)
+library(readxl)
+
+# Define the function
+load.tapho.data <- function(file_path) {
+  # Check file extension
+  file_extension <- tools::file_ext(file_path)
+
+  # Read the data based on file extension
+  if (file_extension == "csv") {
+    data <- read.csv(file_path, stringsAsFactors = FALSE)
+  } else if (file_extension %in% c("xls", "xlsx")) {
+    data <- read_excel(file_path)
+  } else {
+    stop("Unsupported file type. Please provide a CSV or Excel file.")
+  }
+
+  # Convert the data to a tibble
+  data_tibble <- as_tibble(data)
+
+  # Rename the first two columns to "element" and "count"
+  colnames(data_tibble)[1:2] <- c("element", "count")
+
+  # Ensure 'count' is numeric (if not already)
+  data_tibble$count <- as.numeric(data_tibble$count)
+
+  # Handle missing or empty data
+  site_index_value <- ifelse(
+    "site_index" %in% data_tibble$element,
+    data_tibble$count[data_tibble$element == "site_index"],
+    sample(1:1000, 1)
+  )
+
+  # Create sample indices
+  sample_indices <- if ("sample_index" %in% data_tibble$element) {
+    paste0(site_index_value, "_", seq_along(data_tibble$element[data_tibble$element == "sample_index"]))
+  } else {
+    paste0(site_index_value, "_", 1:10) # Default to 10 samples if missing
+  }
+
+  # Extract other fields or assign defaults
+  extract_field <- function(field_name, default = NA) {
+    if (field_name %in% data_tibble$element) {
+      return(data_tibble$count[data_tibble$element == field_name])
+    } else {
+      return(default)
+    }
+  }
+
+  # Define dataset tibble
+  dataset <- tibble(
+    site_index = site_index_value,
+    sample_index = sample_indices,
+    site_name = extract_field("site_name"),
+    sum = extract_field("sum", 0),
+    time_range = extract_field("time_range"),
+    geological_context = extract_field("geological_context"),
+    number_of_individuals = extract_field("number_of_individuals", 0),
+    age = extract_field("age"),
+    gender = extract_field("gender"),
+    accumulation_cause = extract_field("accumulation_cause"),
+    hominin_species = extract_field("hominin_species"),
+    bone_level = summarize_bone_sections(data_tibble[-c(1:8), ]),
+    element = data_tibble[-c(1:8), ]$element,
+    count = data_tibble[-c(1:8), ]$count
+  )
+
+  # Return the dataset tibble
+  return(dataset)
+}
+
+
+
+```
+
+```{r}
+file_path = "new_site_data.xlsx"
+load.tapho.data(file_path)
+```
+
+```{r}
+#  dataset <- tibble::tibble(
+#    site_index = # random number if NA or NULL or not in data_tibble$element
+#    sample_index = #same (# random number if NA or NULL or not in data_tibble$element) plus paste0(site_index, 1:n_samples),
+ #   site_name = # data_tibble$count where data_tibble$element == site_name
+#    sum = 1,  # data_tibble$count where data_tibble$element == sum
+#    time_range = # data_tibble$count where data_tibble$element ==  time_range
+#    geological_context = # data_tibble$count where data_tibble$element == geological_context
+#    number_of_individuals = # data_tibble$count where data_tibble$element == number_of_individuals
+#    age = # data_tibble$count where data_tibble$element == age
+#    gender =# data_tibble$count where data_tibble$element == gender
+#    accumulation_cause = # data_tibble$count where data_tibble$element == accumalation_cause 
+#    hominin_species = # data_tibble$count where data_tibble$element == homini_species 
+    #  bone.level = summarize_bone_sections(data_tibble[-c(1:8),])
+    #  element = data_tibble[-c(1:8),]$element
+    #  count = data_tibble[-c(1:8),]$count
+#  )
+```
+
+```{r}
+load("NewSiteData_ind.rda")
+print(NewSiteData_sum)
+```
+
+```{r}
+blevel = summarize_bone_sections(new_site_data[-c(1:8),])
+blevel
+```
+
+```{r}
+add_bone_info(new_site_data[-c(1:8),])
+```
+
+```{r}
+new_site_data[-c(1:8),]
+```
+
+```{r}
+add_bone_info(new_site_data[-c(1:8),])
+```
+
+```{r}
+one_skeleton  = get_bones_dataframe(blevel)
+```
+
+```{r}
+convertMNEtoVariables(new_site_data[-c(1:8),], one_skeleton$count)
+```
+
+```{r}
+one_skeleton
+```
+
+```{r}
+blevel
+```
+
+#map MNE -\> one_skeleton
+
+#sum up and inconsistencies
+
+```{r}
+fill_missing_bones <- function(new_skeleton, complete_skeleton) {
+  # Initialize a dataframe with the complete list of bones
+  complete_bones <- data.frame(
+    element = complete_skeleton$element,
+    count = rep(NA, length(complete_skeleton$element))
+  )
+  
+  # Iterate through the complete skeleton and fill in the corresponding values from the new skeleton
+  for (i in 1:nrow(complete_bones)) {
+    element_name <- complete_bones$element[i]
+    
+    if (element_name %in% new_skeleton$element) {
+      complete_bones$count[i] <- new_skeleton$count[new_skeleton$element == element_name]
+    }
+  }
+  
+  return(complete_bones)
+}
+```
+
+```{r}
+one_skeleton$element
+```
+
+```{r}
+fill_missing_bones(new_site_data[-c(1:8),], one_skeleton)
+```
+
+```{r}
+summarize_bone_sections(new_site_data[-c(1:8),]) #what happens with NA 
+```
+
+```{r}
+mne$count[is.na(mne$count)] <- 0
+mne$count <- as.numeric(mne$count)
+mne
+
+```
+
+```{r}
+one_skeleton$element
+```
+
+```{r}
+source("convertMNEtoVariables.R")
+convertMNEtoVariables(mne$count, one_skeleton)
+#df$count <- as.numeric(df$count)
+```
+
+```{r}
+length(mne$count) 
+```
+
+```{r}
+nrow(one_skeleton)
+```
+
+```{r}
+
+```
