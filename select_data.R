@@ -1,4 +1,4 @@
-#source("recalMNE.R")
+source("recalMNE.R")
 
 process_data <- function(data) {
 

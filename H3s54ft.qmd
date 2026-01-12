@@ -1,0 +1,106 @@
+---
+title: "H3s54ft Enero"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("meta.R")
+source("data_loader.R")     # optional now, but still used elsewhere in your project
+source("tapho_loader.R")    # must define tapho.load()
+source("select_data.R")     # must define select_data()
+source("workflow_max_level.R")  # NEW (file I prepared)
+
+
+```
+
+
+```{r}
+data_all <- read_excel_sheets_tapho(
+  file_path = "test_excel_file.xlsx",
+  # optional:
+  # sheets = c("Sheet1","Sheet2"),
+  # element_col = 1,
+  # count_prefix = "^count"
+)
+
+
+```
+
+
+
+```{r}
+data_all$bone.level
+
+```
+
+we do not want to recal unlease necesary for recalc. 
+
+```{r}
+data_sel <- select_data(
+  data_all,
+  
+  geological_context_filter = c("Cave")
+)
+
+
+```
+ 
+
+
+```{r}
+
+new <- recal_mne_selected_data(data_sel)
+```
+
+
+```{r}
+new$element
+```
+
+
+```{r}
+new
+```
+
+```{r}
+data_max <- recal_mne_selected_data_max(
+  selected_data = data_sel,
+  elements_data = elements_data,
+  skeleton_hierarchy = skeleton_hierarchy,
+  integer_allocation = TRUE,
+  keep_unmapped = TRUE
+)
+
+
+```
+
+
+```{r}
+recalculate_counts(data_sel)
+
+
+```
+
+
+
+```{r}
+
+recal_mne_selected_data(data_sel)
+```
+
+
+```{r}
+
+
+```
+
+
