@@ -199,7 +199,8 @@ skeleton_hierarchy <- list(
       Ribs = c("Ribs Left" = 12, "Ribs Right" = 12)
     ),
     "Level 4" = list(
-      Sternum = c("Sternum" = 1),
+      Sternum = c("Sternum
+      " = 1),
       Ribs = c(
         "Rib 1 Left" = 1, "Rib 1 Right" = 1,
         "Rib 2 Left" = 1, "Rib 2 Right" = 1,

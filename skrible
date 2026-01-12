@@ -1,0 +1,400 @@
+# --- VERTEBRAE --------------------------------------------------------
+vertebrae <- list(
+  "Level 1" = list(
+    vertebrae = 24
+  ),
+
+  "Level 2" = list(
+    vertebrae_indet = 0,
+    cervical = 7,
+    thoracic = 12,
+    lumbar   = 5
+  ),
+
+  "Level 3" = list(
+    cervical = c(
+      cervical_indet = 0,
+      c1_atlas = 1,
+      c2_axis  = 1,
+      c3 = 1,
+      c4 = 1,
+      c5 = 1,
+      c6 = 1,
+      c7 = 1
+    ),
+
+    thoracic = c(
+      thoracic_indet = 0,
+      t1  = 1,
+      t2  = 1,
+      t3  = 1,
+      t4  = 1,
+      t5  = 1,
+      t6  = 1,
+      t7  = 1,
+      t8  = 1,
+      t9  = 1,
+      t10 = 1,
+      t11 = 1,
+      t12 = 1
+    ),
+
+    lumbar = c(
+      lumbar_indet = 0,
+      l1 = 1,
+      l2 = 1,
+      l3 = 1,
+      l4 = 1,
+      l5 = 1
+    )
+  )
+)
+,
+# --- THORAX -----------------------------------------------------------
+thorax <- list(
+  "Level 1" = list(
+    thorax = 25
+  ),
+
+  "Level 2" = list(
+    thorax_indet = 0,
+    sternum = 1,
+    ribs    = 24
+  ),
+
+  "Level 3" = list(
+    sternum = c(
+      sternum = 1
+    ),
+
+    ribs = c(
+      rib_indet      = 0,
+      rib_fragments  = 0,
+      ribs_right     = 12,
+      ribs_left      = 12
+    )
+  ),
+
+  "Level 4" = list(
+    sternum = c(
+      sternum = 1
+    ),
+
+    ribs = c(
+      rib_1_indet  = 0, rib_1_right  = 1, rib_1_left  = 1,
+      rib_2_indet  = 0, rib_2_right  = 1, rib_2_left  = 1,
+      rib_3_indet  = 0, rib_3_right  = 1, rib_3_left  = 1,
+      rib_4_indet  = 0, rib_4_right  = 1, rib_4_left  = 1,
+      rib_5_indet  = 0, rib_5_right  = 1, rib_5_left  = 1,
+      rib_6_indet  = 0, rib_6_right  = 1, rib_6_left  = 1,
+      rib_7_indet  = 0, rib_7_right  = 1, rib_7_left  = 1,
+      rib_8_indet  = 0, rib_8_right  = 1, rib_8_left  = 1,
+      rib_9_indet  = 0, rib_9_right  = 1, rib_9_left  = 1,
+      rib_10_indet = 0, rib_10_right = 1, rib_10_left = 1,
+      rib_11_indet = 0, rib_11_right = 1, rib_11_left = 1,
+      rib_12_indet = 0, rib_12_right = 1, rib_12_left = 1
+    )
+  )
+)
+    ElementsOne	Level	Bone_Count	Skeleton_Section
+    vertebrae	1	24	vertebrae
+    vertebrae_indet	2	N/A	vertebrae
+    cervical	2	7	vertebrae
+    cervical_indet	3	N/A	vertebrae
+    c1_atlas	3	1	vertebrae
+    c2_axis	3	1	vertebrae
+    c3	3	1	vertebrae
+    c4	3	1	vertebrae
+    c5	3	1	vertebrae
+    c6	3	1	vertebrae
+    c7	3	1	vertebrae
+    thoracic	2	12	vertebrae
+    thoracic_indet	3	N/A	vertebrae
+    t1	3	1	vertebrae
+    t2	3	1	vertebrae
+    t3	3	1	vertebrae
+    t4	3	1	vertebrae
+    t5	3	1	vertebrae
+    t6	3	1	vertebrae
+    t7	3	1	vertebrae
+    t8	3	1	vertebrae
+    t9	3	1	vertebrae
+    t10	3	1	vertebrae
+    t11	3	1	vertebrae
+    t12	3	1	vertebrae
+    lumbar	2	5	vertebrae
+    lumbar_indet	3	N/A	vertebrae
+    l1	3	1	vertebrae
+    l2	3	1	vertebrae
+    l3	3	1	vertebrae
+    l4	3	1	vertebrae
+    l5	3	1	vertebrae
+    thorax	1	25	thorax
+    thorax_indet	2	N/A	thorax
+    sternum	2	1	thorax
+    ribs	2	24	thorax
+    rib_indet	3	N/A	thorax
+    rib_fragments	3	N/A	thorax
+    ribs_right	3	12	thorax
+    ribs_left	3	12	thorax
+    rib_1_indet	4	N/A	thorax
+    rib_1_right	4	1	thorax
+    rib_1_left	4	1	thorax
+    rib_2_indet	4	N/A	thorax
+    rib_2_right	4	1	thorax
+    rib_2_left	4	1	thorax
+    rib_3_indet	4	N/A	thorax
+    rib_3_right	4	1	thorax
+    rib_3_left	4	1	thorax
+    rib_4_indet	4	N/A	thorax
+    rib_4_right	4	1	thorax
+    rib_4_left	4	1	thorax
+    rib_5_indet	4	N/A	thorax
+    rib_5_right	4	1	thorax
+    rib_5_left	4	1	thorax
+    rib_6_indet	4	N/A	thorax
+    rib_6_right	4	1	thorax
+    rib_6_left	4	1	thorax
+    rib_7_indet	4	N/A	thorax
+    rib_7_right	4	1	thorax
+    rib_7_left	4	1	thorax
+    rib_8_indet	4	N/A	thorax
+    rib_8_right	4	1	thorax
+    rib_8_left	4	1	thorax
+    rib_9_indet	4	N/A	thorax
+    rib_9_right	4	1	thorax
+    rib_9_left	4	1	thorax
+    rib_10_indet	4	N/A	thorax
+    rib_10_right	4	1	thorax
+    rib_10_left	4	1	thorax
+    rib_11_indet	4	N/A	thorax
+    rib_11_right	4	1	thorax
+    rib_11_left	4	1	thorax
+    rib_12_indet	4	N/A	thorax
+    rib_12_right	4	1	thorax
+    rib_12_left	4	1	thorax
+
+old: 
+#### Vertebrae 3
+category_mappings_vertebrae_2_to_1 <- list(
+  Vertebrae = c("Cervical", "Thoracic", "Lumbar")
+),
+category_mappings_vertebrae_3_to_1 <- list(
+  Vertebrae = c(
+    "C1 Atlas", "C2 Axis", "C3", "C4", "C5", "C6", "C7",
+    "T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12",
+    "L1", "L2", "L3", "L4", "L5"
+  )
+),
+category_mappings_vertebrae_3_to_2 <- list(
+  Cervical = c("C1 Atlas", "C2 Axis", "C3", "C4", "C5", "C6", "C7"),
+  Thoracic = c("T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12"),
+  Lumbar = c("L1", "L2", "L3", "L4", "L5")
+),
+
+### thorax 4
+# Thorax hierarchical mappings based on levels
+category_mappings_thorax_4_to_3 <- list(
+
+  Sternum = c("Sternum"),
+  Ribs.Left = c("Rib 1 Left",  "Rib 2 Left",
+                "Rib 3 Left", "Rib 4 Left",
+                "Rib 5 Left", "Rib 6 Left",
+                "Rib 7 Left",  "Rib 8 Left",
+                "Rib 9 Left", "Rib 10 Left",
+                "Rib 11 Left", "Rib 12 Left"),
+
+  Ribs.Right = c( "Rib 1 Right", "Rib 2 Right", "Rib 3 Right",  "Rib 4 Right",
+                  "Rib 5 Right",  "Rib 6 Right","Rib 7 Right", "Rib 8 Right",
+                  "Rib 9 Right",  "Rib 10 Right", "Rib 11 Right", "Rib 12 Right"
+                )
+
+
+),
+
+category_mappings_thorax_4_to_2 <- list(
+  Sternum = c("Sternum"),
+  Ribs = c(
+    "Rib 1 Left", "Rib 1 Right", "Rib 2 Left", "Rib 2 Right",
+    "Rib 3 Left", "Rib 3 Right", "Rib 4 Left", "Rib 4 Right",
+    "Rib 5 Left", "Rib 5 Right", "Rib 6 Left", "Rib 6 Right",
+    "Rib 7 Left", "Rib 7 Right", "Rib 8 Left", "Rib 8 Right",
+    "Rib 9 Left", "Rib 9 Right", "Rib 10 Left", "Rib 10 Right",
+    "Rib 11 Left", "Rib 11 Right", "Rib 12 Left", "Rib 12 Right"
+  )
+
+),
+
+category_mappings_thorax_4_to_1 <- list(
+  Thorax = c(
+    "Sternum", "Rib 1 Left", "Rib 1 Right", "Rib 2 Left", "Rib 2 Right",
+    "Rib 3 Left", "Rib 3 Right", "Rib 4 Left", "Rib 4 Right",
+    "Rib 5 Left", "Rib 5 Right", "Rib 6 Left", "Rib 6 Right",
+    "Rib 7 Left", "Rib 7 Right", "Rib 8 Left", "Rib 8 Right",
+    "Rib 9 Left", "Rib 9 Right", "Rib 10 Left", "Rib 10 Right",
+    "Rib 11 Left", "Rib 11 Right", "Rib 12 Left", "Rib 12 Right"
+  )
+),
+
+category_mappings_thorax_3_to_2 <- list(
+  Sternum = "Sternum",
+  Ribs = c("Ribs Left", "Ribs Right")
+),
+
+category_mappings_thorax_3_to_1 <- list(
+  Thorax = c("Sternum", "Ribs Left", "Ribs Right")
+)
+,
+category_mappings_thorax_2_to_1 <- list(
+  Thorax = c("Sternum", "Ribs")
+)
+  AND
+
+  #Vertebrae 3  3 3
+    "Vertebrae_2_to_1" = category_mappings_vertebrae_2_to_1,
+    "Vertebrae_3_to_1" = category_mappings_vertebrae_3_to_1,
+    "Vertebrae_3_to_2" = category_mappings_vertebrae_3_to_2,
+
+    #Thorax 4  6 6
+
+    "Thorax_4_to_3" = catego
+    ry_mappings_thorax_4_to_3,
+    "Thorax_4_to_2" = category_mappings_thorax_4_to_2,
+    "Thorax_4_to_1" = category_mappings_thorax_4_to_1,
+    "Thorax_3_to_2" = category_mappings_thorax_3_to_2,
+    "Thorax_3_to_1" = category_mappings_thorax_3_to_1,
+    "Thorax_2_to_1" = category_mappings_thorax_2_to_1,
+
+
+
+    ----------------------------------------------------------------------------------------------------------
+
+    # --- SHOULDER ---------------------------------------------------------
+shoulder <- list(
+  "Level 1" = list(
+    shoulder = 4
+  ),
+
+  "Level 2" = list(
+    shoulder_indet = 0,
+    clavicle = 2,
+    scapula  = 2
+  ),
+
+  "Level 3" = list(
+    clavicle = c(
+      clavicle_indet = 0,
+      clavicle_right = 1,
+      clavicle_left  = 1
+    ),
+
+    scapula = c(
+      scapula_indet = 0,
+      scapula_right = 1,
+      scapula_left  = 1
+    )
+  )
+)
+,
+# --- ARMS -------------------------------------------------------------
+arms <- list(
+  "Level 1" = list(
+    arms = 6
+  ),
+
+  "Level 2" = list(
+    arms_indet = 0,
+    humerus = 2,
+    radius  = 2,
+    ulna    = 2
+  ),
+
+  "Level 3" = list(
+    humerus = c(
+      humerus_indet = 0,
+      humerus_right = 1,
+      humerus_left  = 1
+    ),
+
+    radius = c(
+      radius_indet = 0,
+      radius_right = 1,
+      radius_left  = 1
+    ),
+
+    ulna = c(
+      ulna_indet = 0,
+      ulna_right = 1,
+      ulna_left  = 1
+    )
+  )
+)
+ElementsOne	Level	Bone_Count	Skeleton_Section
+shoulder	1	4	shoulder
+shoulder_indet	2	N/A	shoulder
+clavicle	2	2	shoulder
+clavicle_indet	3	N/A	shoulder
+clavicle_right	3	1	shoulder
+clavicle_left	3	1	shoulder
+scapula	2	2	shoulder
+scapula_indet	3	N/A	shoulder
+scapula_right	3	1	shoulder
+scapula_left	3	1	shoulder
+arms	1	6	arms
+arms_indet	2	N/A	arms
+humerus	2	2	arms
+humerus_indet	3	N/A	arms
+humerus_right	3	1	arms
+humerus_left	3	1	arms
+radius	2	2	arms
+radius_indet	3	N/A	arms
+radius_right	3	1	arms
+radius_left	3	1	arms
+ulna	2	2	arms
+ulna_indet	3	N/A	arms
+ulna_right	3	1	arms
+ulna_left	3	1	arms
+
+
+old: 
+
+
+#Shoulder 3
+category_mappings_shoulder_2_to_1 <- list(
+  Shoulder = c("Clavicle", "Scapula")
+),
+category_mappings_shoulder_3_to_1 <- list(
+  Shoulder = c("Clavicle Right", "Clavicle Left", "Scapula Right", "Scapula Left")
+),
+category_mappings_shoulder_3_to_2 <- list(
+  Clavicle = c("Clavicle Right", "Clavicle Left"),
+  Scapula = c("Scapula Right", "Scapula Left")
+),
+
+#Arms 3
+category_mappings_arms_2_to_1 <- list(
+  Arms = c("Humerus", "Radius", "Ulna")
+),
+category_mappings_arms_3_to_1 <- list(
+  Arms = c("Humerus Right", "Humerus Left", "Radius Right", "Radius Left", "Ulna Right", "Ulna Left")
+),
+
+category_mappings_arms_3_to_2 <- list(
+  Humerus = c("Humerus Right", "Humerus Left"),
+  Radius = c("Radius Right", "Radius Left"),
+  Ulna = c("Ulna Right", "Ulna Left")
+),
+
+
+
+
+
+#Shoulder 3 3 3
+"Shoulder_2_to_1" = category_mappings_shoulder_2_to_1,
+"Shoulder_3_to_1" = category_mappings_shoulder_3_to_1,
+"Shoulder_3_to_2" = category_mappings_shoulder_3_to_2,
+
+#Arms 3 3 3
+"Arms_2_to_1" = category_mappings_arms_2_to_1,
+"Arms_3_to_1" = category_mappings_arms_3_to_1,
+"Arms_3_to_2" = category_mappings_arms_3_to_2,

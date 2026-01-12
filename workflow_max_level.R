@@ -14,7 +14,10 @@
 #
 # Optional: if you don't have select_data(), you can still filter with dplyr manually.
 # ------------------------------------------------------------
-
+source("meta.R")
+source("data_loader.R")     
+source("tapho_loader.R")    
+source("select_data.R")     
 
 # ---------- helpers ----------
 

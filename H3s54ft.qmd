@@ -13,10 +13,10 @@ editor:
 ---
 
 ```{r}
-source("meta.R")
-source("data_loader.R")     # optional now, but still used elsewhere in your project
-source("tapho_loader.R")    # must define tapho.load()
-source("select_data.R")     # must define select_data()
+#source("meta.R")
+#source("data_loader.R")     # optional now, but still used elsewhere in your project
+#source("tapho_loader.R")    # must define tapho.load()
+#source("select_data.R")     # must define select_data()
 source("workflow_max_level.R")  # NEW (file I prepared)
 
 
@@ -38,7 +38,7 @@ data_all <- read_excel_sheets_tapho(
 
 
 ```{r}
-data_all$bone.level
+data_all
 
 ```
 
@@ -99,8 +99,96 @@ recal_mne_selected_data(data_sel)
 
 
 ```{r}
+source("meta_new.R")
+elements <- c()
+counts <- c()
+bones_at_level <- skeleton_hierarchy[["Hands"]][["Level 3"]]
 
+# If the result is a list, unlist it; otherwise, just use it as is
+if (is.list(bones_at_level)) {
+  bones_flat <- unlist(bones_at_level)
+} else {
+  bones_flat <- bones_at_level
+}
 
+# Append names (elements) and counts to the vectors
+elements <- c(elements, names(bones_flat))
+counts <- c(counts, as.numeric(bones_flat))
+```
+
+```{r}
+length(elements)
 ```
 
 
+```{r}
+counts
+```
+
+
+
+```{r}
+source("data_loader.R")    
+```
+
+
+```{r}
+get_bones_dataframe(c(2,1,2,3,2,2,2,4,3,2))
+```
+
+
+
+```{r}
+source("meta_new.R")
+# Function to look up bones and return a dataframe with correct element-count mapping
+get_bones_dataframe_ <- function(levels_vector) {
+
+  # Ensure the levels_vector has exactly 11 elements
+  if (length(levels_vector) != 11) {
+    stop("The input vector must have exactly 11 elements.")
+  }
+
+  # Sections in the skeleton hierarchy
+  sections <-  c("cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
+                    "arms", "hands", "pelvic", "legs", "foot")
+
+  # Initialize a list to store the elements and counts
+  elements <- c()
+  counts <- c()
+
+  # Loop through each section and level
+  for (i in seq_along(sections)) {
+    section <- i
+    level <- paste0("Level ", levels_vector[i])
+
+    # Extract the corresponding bones and counts at the specified level
+    bones_at_level <- skeleton_hierarchy[[section]][[level]]
+
+    # If the result is a list, unlist it; otherwise, just use it as is
+    if (is.list(bones_at_level)) {
+      bones_flat <- unlist(bones_at_level)
+    } else {
+      bones_flat <- bones_at_level
+    }
+
+    # Append names (elements) and counts to the vectors
+    elements <- c(elements, names(bones_flat))
+    counts <- c(counts, as.numeric(bones_flat))
+  }
+
+  # Convert the vectors to a dataframe
+  df <- data.frame(
+    element = elements,
+    count = counts,
+    stringsAsFactors = FALSE
+  )
+
+  return(df)
+}
+get_bones_dataframe_(c(1,1,1,1,1,1,1,2,1,1,1))
+```
+
+
+```{r}
+skeleton_hierarchy[[3]][["Level 2"]]
+```
