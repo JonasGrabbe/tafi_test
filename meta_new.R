@@ -161,7 +161,7 @@ skeleton_hierarchy <- list(
     ),
   
     "Level 3" = list(
-      neurocranium_bone = c(
+      #neurocranium_bone = c(
         neurocranium_bone_indet = 0,
         frontal_bone  = 1,
         parietal_bone = 2,
@@ -169,9 +169,10 @@ skeleton_hierarchy <- list(
         occipital     = 1,
         sphenoid      = 1,
         ethmoid       = 1
-      ),
+      #)
+      ,
   
-      splanchnocranium = c(
+      #splanchnocranium = c(
         splanchnocranium_indet = 0,
         maxilla               = 2,
         palatine_bone         = 2,
@@ -180,14 +181,17 @@ skeleton_hierarchy <- list(
         lacrimal_bone         = 2,
         vomer_bone            = 1,
         inferior_nasal_concha = 2
-      ),
+      #)
+      ,
   
       ossicles_of_the_middle_ear = 6,
       mandible = 1
-    ),
+    #
+    )
+    ,
   
     "Level 4" = list(
-      neurocranium_bone = c(
+      #neurocranium_bone = c(
         frontal_bone = 1,
   
         parietal_bone_indet = 0,
@@ -201,9 +205,10 @@ skeleton_hierarchy <- list(
         occipital = 1,
         sphenoid  = 1,
         ethmoid   = 1
-      ),
+      #)
+      ,
   
-      splanchnocranium = c(
+      #splanchnocranium = c(
         maxilla       = 2,
         palatine_bone = 2,
   
@@ -215,20 +220,22 @@ skeleton_hierarchy <- list(
         lacrimal_bone = 2,
         vomer_bone    = 1,
         inferior_nasal_concha = 2
-      ),
+      #)
+      ,
   
-      ossicles_of_the_middle_ear = c(
+      #ossicles_of_the_middle_ear = c(
         ossicles_of_the_middle_ear_indet = 0,
         malleus = 2,
         incus   = 2,
         stapes  = 2
-      ),
+      #)
+      ,
   
       mandible = 1
     ),
   
     "Level 5" = list(
-      neurocranium_bone = c(
+      #neurocranium_bone = c(
         frontal_bone = 1,
   
         parietal_bone_indet = 0,
@@ -242,9 +249,10 @@ skeleton_hierarchy <- list(
         occipital = 1,
         sphenoid  = 1,
         ethmoid   = 1
-      ),
+      #)
+      ,
   
-      splanchnocranium = c(
+      #splanchnocranium = c(
         maxilla       = 2,
         palatine_bone = 2,
   
@@ -256,9 +264,10 @@ skeleton_hierarchy <- list(
         lacrimal_bone = 2,
         vomer_bone    = 1,
         inferior_nasal_concha = 2
-      ),
+      #)
+      ,
   
-      ossicles_of_the_middle_ear = c(
+      #ossicles_of_the_middle_ear = c(
         ossicles_of_the_middle_ear_indet = 0,
   
         malleus_indet = 0,
@@ -272,12 +281,13 @@ skeleton_hierarchy <- list(
         stapes_indet = 0,
         stapes_right = 1,
         stapes_left  = 1
-      ),
+     #)
+      ,
   
       mandible = 1
     )
   )
-  ,
+      ,
   teeth <- list(
     "Level 1" = list(
       teeth = 32
@@ -289,15 +299,16 @@ skeleton_hierarchy <- list(
     ),
   
     "Level 3" = list(
-      deciduous_indet = c(
+      #deciduous_indet = c(
         di1 = 4,
         di2 = 4,
         dc  = 4,
         dm1 = 4,
         dm2 = 4
-      ),
+      #)
+      ,
   
-      permanent = c(
+      #permanent = c(
         i1  = 4,
         i2  = 4,
         c   = 4,
@@ -306,11 +317,11 @@ skeleton_hierarchy <- list(
         m1  = 4,
         m2  = 4,
         m3  = 4
-      )
+      #)
     ),
   
     "Level 4" = list(
-      deciduous_indet = c(
+      #deciduous_indet = c(
         dl1_indet = 0,
         di1_superior = 2,
         dl1_inferior = 2,
@@ -330,9 +341,10 @@ skeleton_hierarchy <- list(
         dm2_indet = 0,
         dm2_superior = 2,
         dm2_inferior = 2
-      ),
+      #)
+      ,
   
-      permanent = c(
+      #permanent = c(
         i1_indet = 0,
         i1_superior = 2,
         i1_inferior = 2,
@@ -364,11 +376,11 @@ skeleton_hierarchy <- list(
         m3_indet = 0,
         m3_superior = 2,
         m3_inferior = 2
-      )
+      #)
     ),
   
     "Level 5" = list(
-      deciduous_indet = c(
+      #deciduous_indet = c(
         di1_superior_indet = 0,
         di1_superior_right = 1,
         di1_superior_left  = 1,
@@ -403,9 +415,10 @@ skeleton_hierarchy <- list(
         dm2_inferior_indet = 0,
         dm2_inferior_right = 1,
         dm2_inferior_left  = 1
-      ),
+      #)
+      ,
   
-      permanent = c(
+      #permanent = c(
         i1_superior_indet = 0,
         i1_superior_right = 1,
         i1_superior_left  = 1,
@@ -461,7 +474,7 @@ skeleton_hierarchy <- list(
         m3_inferior_indet = 0,
         m3_inferior_right = 1,
         m3_inferior_left  = 1
-      )
+      #)
     )
   )
   
@@ -487,7 +500,7 @@ vertebrae <- list(
   ),
 
   "Level 3" = list(
-    cervical = c(
+    #cervical = c(
       cervical_indet = 0,
       c1_atlas = 1,
       c2_axis  = 1,
@@ -496,9 +509,10 @@ vertebrae <- list(
       c5 = 1,
       c6 = 1,
       c7 = 1
-    ),
+    #)
+    ,
 
-    thoracic = c(
+    #thoracic = c(
       thoracic_indet = 0,
       t1  = 1,
       t2  = 1,
@@ -512,16 +526,17 @@ vertebrae <- list(
       t10 = 1,
       t11 = 1,
       t12 = 1
-    ),
+    #)
+    ,
 
-    lumbar = c(
+    #lumbar = c(
       lumbar_indet = 0,
       l1 = 1,
       l2 = 1,
       l3 = 1,
       l4 = 1,
       l5 = 1
-    )
+    #)
   )
 )
 ,
@@ -538,24 +553,26 @@ thorax <- list(
   ),
 
   "Level 3" = list(
-    sternum = c(
+    #sternum = c(
       sternum = 1
-    ),
+    #)
+    ,
 
-    ribs = c(
+    #ribs = c(
       rib_indet      = 0,
       rib_fragments  = 0,
       ribs_right     = 12,
       ribs_left      = 12
-    )
+    #)
   ),
 
   "Level 4" = list(
-    sternum = c(
+    #sternum = c(
       sternum = 1
-    ),
+    #)
+    ,
 
-    ribs = c(
+    #ribs = c(
       rib_1_indet  = 0, rib_1_right  = 1, rib_1_left  = 1,
       rib_2_indet  = 0, rib_2_right  = 1, rib_2_left  = 1,
       rib_3_indet  = 0, rib_3_right  = 1, rib_3_left  = 1,
@@ -568,7 +585,7 @@ thorax <- list(
       rib_10_indet = 0, rib_10_right = 1, rib_10_left = 1,
       rib_11_indet = 0, rib_11_right = 1, rib_11_left = 1,
       rib_12_indet = 0, rib_12_right = 1, rib_12_left = 1
-    )
+    #)
   )
 )
 ,
@@ -585,17 +602,18 @@ shoulder <- list(
   ),
 
   "Level 3" = list(
-    clavicle = c(
+    #clavicle = c(
       clavicle_indet = 0,
       clavicle_right = 1,
       clavicle_left  = 1
-    ),
+    #)
+    ,
 
-    scapula = c(
+    #scapula = c(
       scapula_indet = 0,
       scapula_right = 1,
       scapula_left  = 1
-    )
+    #)
   )
 )
 ,
@@ -613,28 +631,30 @@ arms <- list(
   ),
 
   "Level 3" = list(
-    humerus = c(
+    #humerus = c(
       humerus_indet = 0,
       humerus_right = 1,
       humerus_left  = 1
-    ),
+    #)
+    ,
 
-    radius = c(
+    #radius = c(
       radius_indet = 0,
       radius_right = 1,
       radius_left  = 1
-    ),
+    #)
+    ,
 
-    ulna = c(
+    #ulna = c(
       ulna_indet = 0,
       ulna_right = 1,
       ulna_left  = 1
-    )
+    #)
   )
-)
-,
-# --- HANDS ------------------------------------------------------------
-hands <- list(
+  )
+  ,
+  # --- HANDS ------------------------------------------------------------
+  hands <- list(
   "Level 1" = list(
     hands = 54
   ),
@@ -647,29 +667,31 @@ hands <- list(
   ),
 
   "Level 3" = list(
-    carpal = c(
+    #carpal = c(
       carpal_indet = 0,
       carpal_right = 8,
       carpal_left  = 8
-    ),
+    #)
+    ,
 
-    metacarpal = c(
+    #metacarpal = c(
       metacarpal_indet = 0,
       metacarpal_right = 5,
       metacarpal_left  = 5
-    ),
+    #)
+    ,
 
-    hand_phalanx = c(
+    #hand_phalanx = c(
       hand_phalanx_indet     = 0,
       hand_phalanx_proximal  = 10,
       hand_phalanx_middle    = 8,
       hand_phalanx_distal    = 10
-    )
+    #)
   ),
 
   "Level 4" = list(
-    carpal = list(
-      carpal_right = c(
+    #carpal = list(
+      #carpal_right = c(
         carpal_right_indet = 0,
         trapezium_right   = 1,
         trapezoid_right   = 1,
@@ -679,8 +701,9 @@ hands <- list(
         pisiform_right    = 1,
         capitate_right    = 1,
         scaphoid_right    = 1
-      ),
-      carpal_left = c(
+      #)
+      ,
+      #carpal_left = c(
         carpal_left_indet = 0,
         trapezium_left   = 1,
         trapezoid_left   = 1,
@@ -690,50 +713,55 @@ hands <- list(
         pisiform_left    = 1,
         capitate_left    = 1,
         scaphoid_left    = 1
-      )
-    ),
+      #)
+    #)
+    ,
 
-    metacarpal = list(
-      metacarpal_right = c(
+    #metacarpal = list(
+      #metacarpal_right = c(
         metacarpal_right_indet = 0,
         metacarpal_1_right = 1,
         metacarpal_2_right = 1,
         metacarpal_3_right = 1,
         metacarpal_4_right = 1,
         metacarpal_5_right = 1
-      ),
-      metacarpal_left = c(
+      #)
+      ,
+      #metacarpal_left = c(
         metacarpal_left_indet = 0,
         metacarpal_1_left = 1,
         metacarpal_2_left = 1,
         metacarpal_3_left = 1,
         metacarpal_4_left = 1,
         metacarpal_5_left = 1
-      )
-    ),
+      #)
+    #)
+    ,
 
-    hand_phalanx = list(
-      hand_phalanx_proximal = c(
+    #hand_phalanx = list(
+      #hand_phalanx_proximal = c(
         hand_phalanx_proximal_indet = 0,
         hand_phalanx_right = 5,
         hand_phalanx_left  = 5
-      ),
-      hand_phalanx_middle = c(
+      #)
+      ,
+      #hand_phalanx_middle = c(
         hand_phalanx_middle_indet = 0,
         hand_middle_right = 4,
         hand_middle_left  = 4
-      ),
-      hand_phalanx_distal = c(
+      #)
+      ,
+      #hand_phalanx_distal = c(
         hand_phalanx_distal_indet = 0,
         hand_phalanx_distal_right = 5,
         hand_distal_left          = 5
-      )
-    )
+      #)
+    #)
   ),
 
   "Level 5" = list(
-    hand_phalanx = list(
-      hand_phalanx_proximal = c(
+    #hand_phalanx = list(
+     # hand_phalanx_proximal = c(
         hand_phalanx_proximal_right_indet = 0,
         hand_phalanx_proximal_1_right = 1,
         hand_phalanx_proximal_2_right = 1,
@@ -747,9 +775,10 @@ hands <- list(
         hand_phalanx_proximal_3_left = 1,
         hand_phalanx_proximal_4_left = 1,
         hand_phalanx_proximal_5_left = 1
-      ),
+      #)
+      ,
 
-      hand_phalanx_middle = c(
+      #hand_phalanx_middle = c(
         hand_phalanx_middle_right_indet = 0,
         hand_phalanx_middle_2_right = 1,
         hand_phalanx_middle_3_right = 1,
@@ -761,9 +790,10 @@ hands <- list(
         hand_phalanx_middle_3_left = 1,
         hand_phalanx_middle_4_left = 1,
         hand_phalanx_middle_5_left = 1
-      ),
+      #)
+      ,
 
-      hand_phalanx_distal = c(
+      #hand_phalanx_distal = c(
         hand_phalanx_distal_right_indet = 0,
         hand_phalanx_distal_right_1 = 1,
         hand_phalanx_distal_right_2 = 1,
@@ -777,10 +807,10 @@ hands <- list(
         hand_phalanx_distal_left_3 = 1,
         hand_phalanx_distal_left_4 = 1,
         hand_phalanx_distal_left_5 = 1
-      )
-    )
+      #)
+    #)
   )
-)
+  )
 
 
   ,
@@ -798,38 +828,41 @@ pelvic <- list(
   ),
 
   "Level 3" = list(
-    sacrum = c(
+    #sacrum = c(
       sacrum_indet = 0,
       s1 = 1, s2 = 1, s3 = 1, s4 = 1, s5 = 1
-    ),
+    #)
+    ,
 
-    coccyx = c(
+    #coccyx = c(
       coccyx_indet = 0,
       cx1 = 1, cx2 = 1, cx3 = 1, cx4 = 1
-    ),
+    #)
+    ,
 
-    os_coxae = c(
+    #os_coxae = c(
       os_coxae_indet = 0,
       os_coxae_right = 1,
       os_coxae_left  = 1
-    )
+    #)
   ),
 
   "Level 4" = list(
-    os_coxae = list(
-      os_coxae_right = c(
+    #os_coxae = list(
+      #os_coxae_right = c(
         os_coxae_right_indet = 0,
         ilium_right   = 1,
         ischium_right = 1,
         pubis_right   = 1
-      ),
-      os_coxae_left = c(
+      #)
+      ,
+      #os_coxae_left = c(
         os_coxae_left_indet = 0,
         ilium_left   = 1,
         ischium_left = 1,
         pubis_left   = 1
-      )
-    )
+      #)
+    #)
   )
 )
 ,
@@ -848,29 +881,32 @@ legs <- list(
   ),
 
   "Level 3" = list(
-    femur = c(
+    #femur = c(
       femur_indet  = 0,
       femur_right  = 1,
       femur_left   = 1
-    ),
+    #)
+    ,
 
-    tibia = c(
+    #tibia = c(
       tibia_indet  = 0,
       tibia_right  = 1,
       tibia_left   = 1
-    ),
+    #)
+    ,
 
-    fibula = c(
+    #fibula = c(
       fibula_indet = 0,
       fibula_right = 1,
       fibula_left  = 1
-    ),
+    #)
+    ,
 
-    patella = c(
+    #patella = c(
       patella_indet = 0,
       patella_right = 1,
       patella_left  = 1
-    )
+    #)
   )
 )
 ,
@@ -888,29 +924,31 @@ foot <- list(
   ),
 
   "Level 3" = list(
-    tarsal = c(
+    #tarsal = c(
       tarsal_indet = 0,
       tarsal_right = 7,
       tarsal_left  = 7
-    ),
+    #)
+    ,
 
-    metatarsal = c(
+    #metatarsal = c(
       metatarsal_indet = 0,
       metatarsal_right = 5,
       metatarsal_left  = 5
-    ),
+    #)
+    ,
 
-    foot_phalanx = c(
+    #foot_phalanx = c(
       foot_phalanx_indet    = 0,
       foot_phalanx_proximal = 10,
       foot_phalanx_middle   = 8,
       foot_phalanx_distal   = 10
-    )
+    #)
   ),
 
   "Level 4" = list(
-    tarsal = list(
-      tarsal_right = c(
+    #tarsal = list(
+      #tarsal_right = c(
         tarsal_right_indet = 0,
         talus_right = 1,
         calcaneous_right = 1,
@@ -919,8 +957,9 @@ foot <- list(
         lateral_cuneiform_right = 1,
         intermediate_cuneiform_right = 1,
         medial_cuneiform_right = 1
-      ),
-      tarsal_left = c(
+      #)
+      ,
+      #tarsal_left = c(
         tarsal_left_indet = 0,
         talus_left = 1,
         calcaneous_left = 1,
@@ -929,50 +968,55 @@ foot <- list(
         lateral_cuneiform_left = 1,
         intermediate_cuneiform_left = 1,
         medial_cuneiform_left = 1
-      )
-    ),
+      #)
+    #)
+    ,
 
-    metatarsal = list(
-      metatarsal_right = c(
+    #metatarsal = list(
+      #metatarsal_right = c(
         metatarsal_right_indet = 0,
         metatarsal_1_right = 1,
         metatarsal_2_right = 1,
         metatarsal_3_right = 1,
         metatarsal_4_right = 1,
         metatarsal_5_right = 1
-      ),
-      metatarsal_left = c(
+      #)
+      ,
+      #metatarsal_left = c(
         metatarsal_left_indet = 0,
         metatarsal_1_left = 1,
         metatarsal_2_left = 1,
         metatarsal_3_left = 1,
         metatarsal_4_left = 1,
         metatarsal_5_left = 1
-      )
-    ),
+      #)
+    #)
+    ,
 
-    foot_phalanx = list(
-      foot_phalanx_proximal = c(
+    #foot_phalanx = list(
+      #foot_phalanx_proximal = c(
         foot_phalanx_proximal_indet = 0,
         foot_proximal_right = 5,
         foot_phalanx_left   = 5
-      ),
-      foot_phalanx_middle = c(
+      #)
+      ,
+      #foot_phalanx_middle = c(
         foot_phalanx_middle_indet = 0,
         foot_middle_right = 4,
         foot_middle_left  = 4
-      ),
-      foot_phalanx_distal = c(
+      #)
+      ,
+      #foot_phalanx_distal = c(
         foot_phalanx_distal_indet = 0,
         foot_phalanx_distal_right = 5,
         foot_distal_left          = 5
-      )
-    )
+      #)
+    #)
   ),
 
   "Level 5" = list(
-    foot_phalanx = list(
-      foot_phalanx_proximal = c(
+    #foot_phalanx = list(
+      #foot_phalanx_proximal = c(
         foot_phalanx_proximal_right_indet = 0,
         foot_phalanx_proximal_1_right = 1,
         foot_phalanx_proximal_2_right = 1,
@@ -986,9 +1030,10 @@ foot <- list(
         foot_phalanx_proximal_3_left = 1,
         foot_phalanx_proximal_4_left = 1,
         foot_phalanx_proximal_5_left = 1
-      ),
+      #)
+      ,
 
-      foot_phalanx_middle = c(
+      #foot_phalanx_middle = c(
         foot_phalanx_middle_right_indet = 0,
         foot_phalanx_middle_2_right = 1,
         foot_phalanx_middle_3_right = 1,
@@ -1000,9 +1045,10 @@ foot <- list(
         foot_phalanx_middle_3_left = 1,
         foot_phalanx_middle_4_left = 1,
         foot_phalanx_middle_5_left = 1
-      ),
+      #)
+      ,
 
-      foot_phalanx_distal = c(
+      #foot_phalanx_distal = c(
         foot_phalanx_distal_right_indet = 0,
         foot_phalanx_distal_right_1 = 1,
         foot_phalanx_distal_right_2 = 1,
@@ -1016,211 +1062,2014 @@ foot <- list(
         foot_phalanx_distal_left_3 = 1,
         foot_phalanx_distal_left_4 = 1,
         foot_phalanx_distal_left_5 = 1
-      )
-    )
+      #)
+    #)
   )
 )
 
 )
 ############################################################################################
+# Auto-generated from elements_data.xlsx (sheet: elements_data)
 elements_data <- data.frame(
   ElementsOne = c(
-
-    #Skull
-    "Skull", "Neurocranium bone", "Frontal bone", "Parietal bone", "Parietal bone Right",
-    "Parietal bone Left", "Temporal", "Temporal Right", "Temporal Left", "Occipital",
-    "Sphenoid", "Ethmoid", "Schplancnocranium", "Maxilla", "Palatine bone",
-    "Zygomatic bone", "Zygomatic bone Right", "Zygomatic bone Left", "Nasal bone",
-    "Lacrimal bone", "Vomer bone", "Inferior nasal concha", "Ossicles of the Middle Ear",
-    "Malleus", "Malleus Right", "Malleus Left", "Incus", "Incus Right", "Incus Left",
-    "Stapes", "Stapes Right", "Stapes Left", "Mandible",
-
-    #Hyoid
-    "Hyoid",
-
-    #Vertebrae
-    "Vertebrae",
-    "Cervical", "C1 Atlas", "C2 Axis", "C3", "C4", "C5", "C6", "C7", "Thoracic",
-    "T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12",
-    "Lumbar", "L1", "L2", "L3", "L4", "L5",
-
-    #Thorax
-    "Thorax", "Sternum", "Ribs",
-    "Ribs Right", "Ribs Left", "Rib 1 Right", "Rib 1 Left", "Rib 2 Right",
-    "Rib 2 Left", "Rib 3 Right", "Rib 3 Left", "Rib 4 Right", "Rib 4 Left",
-    "Rib 5 Right", "Rib 5 Left", "Rib 6 Right", "Rib 6 Left", "Rib 7 Right",
-    "Rib 7 Left", "Rib 8 Right", "Rib 8 Left", "Rib 9 Right", "Rib 9 Left",
-    "Rib 10 Right", "Rib 10 Left", "Rib 11 Right", "Rib 11 Left", "Rib 12 Right",
-    "Rib 12 Left",
-
-    #Shoulder
-    "Shoulder", "Clavicle", "Clavicle Right", "Clavicle Left",
-    "Scapula", "Scapula Right", "Scapula Left",
-
-    #Arms
-    "Arms","Humerus", "Radius", "Ulna",
-    "Humerus Right","Humerus Left","Radius Right","Radius Left","Ulna Right", "Ulna Left",
-
-    #Hands
-    "Hands",
-    "Hand Carpal", "Hand Carpal Right", "Hand Carpal Left",
-    "Hand Trapezium Right", "Hand Trapezium Left", "Hand Trapezoid Right", "Hand Trapezoid Left",
-    "Hand Hamate Right", "Hand Hamate Left", "Hand Triquetrum Right", "Hand Triquetrum Left",
-    "Hand Lunate Right", "Hand Lunate Left", "Hand Pisiform Right", "Hand Pisiform Left",
-    "Hand Capitate Right", "Hand Capitate Left", "Hand Scaphoid Right", "Hand Scaphoid Left",
-    "Hand Metacarpal", "Hand Metacarpal Right", "Hand Metacarpal Left", "Hand Metacarpal 1 Right",
-    "Hand Metacarpal 1 Left", "Hand Metacarpal 2 Right", "Hand Metacarpal 2 Left",
-    "Hand Metacarpal 3 Right", "Hand Metacarpal 3 Left", "Hand Metacarpal 4 Right",
-    "Hand Metacarpal 4 Left", "Hand Metacarpal 5 Right", "Hand Metacarpal 5 Left",
-    "Hand Phalanx", "Hand Phalanx Right", "Hand Phalanx Left",
-    "Hand Proximal Right", "Hand Proximal Left", "Hand Middle Right",
-    "Hand Middle Left", "Hand Distal Right", "Hand Distal Left",
-    "Hand Proximal 1 Right", "Hand Proximal 2 Right", "Hand Proximal 3 Right",
-    "Hand Proximal 4 Right", "Hand Proximal 5 Right", "Hand Proximal 1 Left",
-    "Hand Proximal 2 Left", "Hand Proximal 3 Left", "Hand Proximal 4 Left",
-    "Hand Proximal 5 Left", "Hand Middle 2 Right", "Hand Middle 3 Right",
-    "Hand Middle 4 Right", "Hand Middle 5 Right", "Hand Middle 2 Left", "Hand Middle 3 Left",
-    "Hand Middle 4 Left", "Hand Middle 5 Left", "Hand Distal 1 Right", "Hand Distal 2 Right",
-    "Hand Distal 3 Right", "Hand Distal 4 Right", "Hand Distal 5 Right", "Hand Distal 1 Left",
-    "Hand Distal 2 Left", "Hand Distal 3 Left", "Hand Distal 4 Left", "Hand Distal 5 Left",
-
-    #Pelvic
-    "Pelvic", "Sacrum", "S1", "S2", "S3", "S4", "S5", "Coccyx", "Cx1", "Cx2",
-    "Cx3", "Cx4", "Os Coxae", "Ilium", "Ilium Right", "Ilium Left", "Ischium",
-    "Ischium Right", "Ischium Left", "Pubis", "Pubis Right", "Pubis Left",
-
-
-    #Legs
-    "Legs",
-    "Femur", "Femur Left", "Femur Right", "Tibia", "Tibia Left", "Tibia Right",
-    "Fibula", "Fibula Left", "Fibula Right", "Patella", "Patella Left",
-    "Patella Right",
-
-    #Foot
-    "Foot",
-    "Foot Tarsal", "Foot Tarsal Right", "Foot Tarsal Left",
-    "Foot Talus Right", "Foot Talus Left", "Foot Calcaneous Right", "Foot Calcaneous Left",
-    "Foot Cuboid Right", "Foot Cuboid Left", "Foot Navicular Right", "Foot Navicular Left",
-    "Foot Lateral cuneiform Right", "Foot Lateral cuneiform Left",
-    "Foot Intermediate cuneiform Right", "Foot Intermediate cuneiform Left",
-    "Foot Medial cuneiform Right", "Foot Medial cuneiform Left",
-    "Foot Metatarsal", "Foot Metatarsal Right", "Foot Metatarsal Left",
-    "Foot Metatarsal 1 Right", "Foot Metatarsal 1 Left",
-    "Foot Metatarsal 2 Right", "Foot Metatarsal 2 Left",
-    "Foot Metatarsal 3 Right", "Foot Metatarsal 3 Left",
-    "Foot Metatarsal 4 Right", "Foot Metatarsal 4 Left",
-    "Foot Metatarsal 5 Right", "Foot Metatarsal 5 Left",
-    "Foot Phalanx", "Foot Phalanx Right", "Foot Phalanx Left",
-    "Foot Proximal Right", "Foot Proximal Left",
-    "Foot Middle Right", "Foot Middle Left",
-    "Foot Distal Right", "Foot Distal Left",
-    "Foot Proximal 1 Right", "Foot Proximal 2 Right",
-    "Foot Proximal 3 Right", "Foot Proximal 4 Right", "Foot Proximal 5 Right",
-    "Foot Proximal 1 Left", "Foot Proximal 2 Left", "Foot Proximal 3 Left",
-    "Foot Proximal 4 Left", "Foot Proximal 5 Left",
-    "Foot Middle 2 Right", "Foot Middle 3 Right",
-    "Foot Middle 4 Right", "Foot Middle 5 Right",
-    "Foot Middle 2 Left", "Foot Middle 3 Left", "Foot Middle 4 Left",
-    "Foot Middle 5 Left",
-    "Foot Distal 1 Right", "Foot Distal 2 Right", "Foot Distal 3 Right",
-    "Foot Distal 4 Right", "Foot Distal 5 Right",
-    "Foot Distal 1 Left", "Foot Distal 2 Left", "Foot Distal 3 Left",
-    "Foot Distal 4 Left", "Foot Distal 5 Left"
+    "cranium",
+    "neurocranium_bone",
+    "neurocranium_bone_indet",
+    "frontal_bone",
+    "parietal_bone",
+    "parietal_bone_indet",
+    "parietal_bone_right",
+    "parietal_bone_left",
+    "temporal",
+    "temporal_bone_indet",
+    "temporal_right",
+    "temporal_left",
+    "occipital",
+    "sphenoid",
+    "ethmoid",
+    "splanchnocranium",
+    "splanchnocranium_indet",
+    "maxilla",
+    "palatine_bone",
+    "zygomatic_bone",
+    "zygomatic_bone_indet",
+    "zygomatic_bone_right",
+    "zygomatic_bone_left",
+    "nasal_bone",
+    "lacrimal_bone",
+    "vomer_bone",
+    "inferior_nasal_concha",
+    "ossicles_of_the_middle_ear",
+    "ossicles_of_the_middle_ear_indet",
+    "malleus",
+    "malleus_indet",
+    "malleus_right",
+    "malleus_left",
+    "incus",
+    "incus_indet",
+    "incus_right",
+    "incus_left",
+    "stapes",
+    "stapes_indet",
+    "stapes_right",
+    "stapes_left",
+    "mandible",
+    "teeth",
+    "deciduous_indet",
+    "di1",
+    "dl1_indet",
+    "di1_superior",
+    "di1_superior_indet",
+    "di1_superior_right",
+    "di1_superior_left",
+    "dl1_inferior",
+    "dl1_inferior_indet",
+    "dl1_inferior_right",
+    "dl1_inferior_left",
+    "di2",
+    "dl2_indet",
+    "di2_superior",
+    "di2_superior_indet",
+    "di2_superior_right",
+    "di2_superior_left",
+    "dl2_inferior",
+    "di2_inferior_indet",
+    "di2_inferior_right",
+    "di2_inferior_left",
+    "dc",
+    "dc_indet",
+    "dc_superior",
+    "dc_superior_indet",
+    "dc_superior_right",
+    "dc_superior_left",
+    "dc_inferior",
+    "dc_inferior_indet",
+    "dc_inferior_right",
+    "dc_inferior_left",
+    "dm1",
+    "dm1_indet",
+    "dm1_superior",
+    "dm1_superior_indet",
+    "dm1_superior_left",
+    "dm1_superior_right",
+    "dm1_inferior",
+    "dm1_inferior_indet",
+    "dm1_inferior_right",
+    "dm1_inferior_left",
+    "dm2",
+    "dm2_indet",
+    "dm2_superior",
+    "dm2_superior_indet",
+    "dm2_superior_right",
+    "dm2_superior_left",
+    "dm2_inferior",
+    "dm2_inferior_indet",
+    "dm2_inferior_right",
+    "dm2_inferior_left",
+    "permanent",
+    "i1",
+    "i1_indet",
+    "i1_superior",
+    "i1_superior_indet",
+    "i1_superior_right",
+    "i1_superior_left",
+    "i1_inferior",
+    "i1_inferior_indet",
+    "i1_inferior_right",
+    "i1_inferior_left",
+    "i2",
+    "i2_indet",
+    "i2_superior",
+    "i2_superior_indet",
+    "i2_superior_right",
+    "i2_superior_left",
+    "i2_inferior",
+    "i2_inferior_indet",
+    "i2_inferior_right",
+    "i2_inferior_left",
+    "c",
+    "c_indet",
+    "c_superior",
+    "c_superior_indet",
+    "c_superior_right",
+    "c_superior_left",
+    "c_inferior",
+    "c_inferior_indet",
+    "c_inferior_right",
+    "c_inferior_left",
+    "pm3",
+    "pm3_indet",
+    "pm3_superior",
+    "pm3_superior_indet",
+    "pm3_superior_right",
+    "pm3_superior_left",
+    "pm3_inferior",
+    "pm3_inferior_indet",
+    "pm3_inferior_right",
+    "pm3_inferior_left",
+    "pm4",
+    "pm4_indet",
+    "pm4_superior",
+    "pm4_superior_indet",
+    "pm4_superior_right",
+    "pm4_superior_left",
+    "pm4_inferior",
+    "pm4_inferior_indet",
+    "pm4_inferior_right",
+    "pm4_inferior_left",
+    "m1",
+    "m1_indet",
+    "m1_superior",
+    "m1_superior_indet",
+    "m1_superior_right",
+    "m1_superior_left",
+    "m1_inferior",
+    "m1_inferior_indet",
+    "m1_inferior_right",
+    "m1_inferior_left",
+    "m2",
+    "m2_indet",
+    "m2_superior",
+    "m2_superior_indet",
+    "m2_superior_right",
+    "m2_superior_left",
+    "m2_inferior",
+    "m2_inferior_indet",
+    "m2_inferior_right",
+    "m2_inferior_left",
+    "m3",
+    "m3_indet",
+    "m3_superior",
+    "m3_superior_indet",
+    "m3_superior_right",
+    "m3_superior_left",
+    "m3_inferior",
+    "m3_inferior_indet",
+    "m3_inferior_right",
+    "m3_inferior_left",
+    "hyoid",
+    "vertebrae",
+    "vertebrae_indet",
+    "cervical",
+    "cervical_indet",
+    "c1_atlas",
+    "c2_axis",
+    "c3",
+    "c4",
+    "c5",
+    "c6",
+    "c7",
+    "thoracic",
+    "thoracic_indet",
+    "t1",
+    "t2",
+    "t3",
+    "t4",
+    "t5",
+    "t6",
+    "t7",
+    "t8",
+    "t9",
+    "t10",
+    "t11",
+    "t12",
+    "lumbar",
+    "lumbar_indet",
+    "l1",
+    "l2",
+    "l3",
+    "l4",
+    "l5",
+    "thorax",
+    "thorax_indet",
+    "sternum",
+    "ribs",
+    "rib_indet",
+    "rib_fragments",
+    "ribs_right",
+    "ribs_left",
+    "rib_1_indet",
+    "rib_1_right",
+    "rib_1_left",
+    "rib_2_indet",
+    "rib_2_right",
+    "rib_2_left",
+    "rib_3_indet",
+    "rib_3_right",
+    "rib_3_left",
+    "rib_4_indet",
+    "rib_4_right",
+    "rib_4_left",
+    "rib_5_indet",
+    "rib_5_right",
+    "rib_5_left",
+    "rib_6_indet",
+    "rib_6_right",
+    "rib_6_left",
+    "rib_7_indet",
+    "rib_7_right",
+    "rib_7_left",
+    "rib_8_indet",
+    "rib_8_right",
+    "rib_8_left",
+    "rib_9_indet",
+    "rib_9_right",
+    "rib_9_left",
+    "rib_10_indet",
+    "rib_10_right",
+    "rib_10_left",
+    "rib_11_indet",
+    "rib_11_right",
+    "rib_11_left",
+    "rib_12_indet",
+    "rib_12_right",
+    "rib_12_left",
+    "shoulder",
+    "shoulder_indet",
+    "clavicle",
+    "clavicle_indet",
+    "clavicle_right",
+    "clavicle_left",
+    "scapula",
+    "scapula_indet",
+    "scapula_right",
+    "scapula_left",
+    "arms",
+    "arms_indet",
+    "humerus",
+    "humerus_indet",
+    "humerus_right",
+    "humerus_left",
+    "radius",
+    "radius_indet",
+    "radius_right",
+    "radius_left",
+    "ulna",
+    "ulna_indet",
+    "ulna_right",
+    "ulna_left",
+    "hands",
+    "hands_indet",
+    "carpal",
+    "carpal_indet",
+    "carpal_right",
+    "carpal_right_indet",
+    "trapezium_right",
+    "trapezoid_right",
+    "hamate_right",
+    "triquetrum_right",
+    "lunate_right",
+    "pisiform_right",
+    "capitate_right",
+    "scaphoid_right",
+    "carpal_left",
+    "carpal_left_indet",
+    "trapezium_left",
+    "trapezoid_left",
+    "hamate_left",
+    "triquetrum_left",
+    "lunate_left",
+    "pisiform_left",
+    "capitate_left",
+    "scaphoid_left",
+    "metacarpal",
+    "metacarpal_indet",
+    "metacarpal_right",
+    "metacarpal_right_indet",
+    "metacarpal_1_right",
+    "metacarpal_2_right",
+    "metacarpal_3_right",
+    "metacarpal_4_right",
+    "metacarpal_5_right",
+    "metacarpal_left",
+    "metacarpal_left_indet",
+    "metacarpal_1_left",
+    "metacarpal_2_left",
+    "metacarpal_3_left",
+    "metacarpal_4_left",
+    "metacarpal_5_left",
+    "hand_phalanx",
+    "hand_phalanx_indet",
+    "hand_phalanx_proximal ",
+    "hand_phalanx_proximal_indet",
+    "hand_phalanx_right",
+    "hand_phalanx_proximal_right_indet",
+    "hand_phalanx_proximal_1_right",
+    "hand_phalanx_proximal_2_right",
+    "hand_phalanx_proximal_3_right",
+    "hand_phalanx_proximal_4_right",
+    "hand_phalanx_proximal_5_right",
+    "hand_phalanx_left",
+    "hand_phalanx_proximal_left_indet",
+    "hand_phalanx_proximal_1_left",
+    "hand_phalanx_proximal_2_left",
+    "hand_phalanx_proximal_3_left",
+    "hand_phalanx_proximal_4_left",
+    "hand_phalanx_proximal_5_left",
+    "hand_phalanx_middle ",
+    "hand_phalanx_middle_indet",
+    "hand_middle_right",
+    "hand_phalanx_middle_right_indet",
+    "hand_phalanx_middle_2_right",
+    "hand_phalanx_middle_3_right",
+    "hand_phalanx_middle_4_right",
+    "hand_phalanx_middle_5_right",
+    "hand_middle_left",
+    "hand_phalanx_middle_left_indet",
+    "hand_phalanx_middle_2_left",
+    "hand_phalanx_middle_3_left",
+    "hand_phalanx_middle_4_left",
+    "hand_phalanx_middle_5_left",
+    "hand_phalanx_distal",
+    "hand_phalanx_distal_indet",
+    "hand_phalanx_distal_right",
+    "hand_phalanx_distal_right_indet",
+    "hand_phalanx_distal_right_1",
+    "hand_phalanx_distal_right_2",
+    "hand_phalanx_distal_right_3",
+    "hand_phalanx_distal_right_4",
+    "hand_phalanx_distal_right_5",
+    "hand_distal_left",
+    "hand_phalanx_distal_left_indet",
+    "hand_phalanx_distal_left_1",
+    "hand_phalanx_distal_left_2",
+    "hand_phalanx_distal_left_3",
+    "hand_phalanx_distal_left_4",
+    "hand_phalanx_distal_left_5",
+    "pelvic",
+    "pelvic_indet",
+    "sacrum",
+    "sacrum_indet",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "coccyx",
+    "coccyx_indet",
+    "cx1",
+    "cx2",
+    "cx3",
+    "cx4",
+    "os_coxae",
+    "os_coxae_indet",
+    "os_coxae_right",
+    "os_coxae_right_indet",
+    "ilium_right",
+    "ischium_right",
+    "pubis_right",
+    "os_coxae_left",
+    "os_coxae_left_indet",
+    "ilium_left",
+    "ischium_left",
+    "pubis_left",
+    "legs",
+    "legs_indet",
+    "femur",
+    "femur_indet",
+    "femur_right",
+    "femur_left",
+    "tibia",
+    "tibia_indet",
+    "tibia_right",
+    "tibia_left",
+    "fibula",
+    "fibula_indet",
+    "fibula_right",
+    "fibula_left",
+    "patella",
+    "patella_indet",
+    "patella_right",
+    "patella_left",
+    "foot",
+    "foot_indet",
+    "tarsal",
+    "tarsal_indet",
+    "tarsal_right",
+    "tarsal_right_indet",
+    "talus_right",
+    "calcaneous_right",
+    "cuboid_right",
+    "navicular_right",
+    "lateral_cuneiform_right",
+    "intermediate_cuneiform_right",
+    "medial_cuneiform_right",
+    "tarsal_left",
+    "tarsal_left_indet",
+    "talus_left",
+    "calcaneous_left",
+    "cuboid_left",
+    "navicular_left",
+    "lateral_cuneiform_left",
+    "intermediate_cuneiform_left",
+    "medial_cuneiform_left",
+    "metatarsal",
+    "metatarsal_indet",
+    "metatarsal_right",
+    "metatarsal_right_indet",
+    "metatarsal_1_right",
+    "metatarsal_2_right",
+    "metatarsal_3_right",
+    "metatarsal_4_right",
+    "metatarsal_5_right",
+    "metatarsal_left",
+    "metatarsal_left_indet",
+    "metatarsal_1_left",
+    "metatarsal_2_left",
+    "metatarsal_3_left",
+    "metatarsal_4_left",
+    "metatarsal_5_left",
+    "foot_phalanx",
+    "foot_phalanx_indet",
+    "foot_phalanx_proximal ",
+    "foot_phalanx_proximal_indet",
+    "foot_proximal_right",
+    "foot_phalanx_proximal_right_indet",
+    "foot_phalanx_proximal_1_right",
+    "foot_phalanx_proximal_2_right",
+    "foot_phalanx_proximal_3_right",
+    "foot_phalanx_proximal_4_right",
+    "foot_phalanx_proximal_5_right",
+    "foot_phalanx_left",
+    "foot_phalanx_proximal_left_indet",
+    "foot_phalanx_proximal_1_left",
+    "foot_phalanx_proximal_2_left",
+    "foot_phalanx_proximal_3_left",
+    "foot_phalanx_proximal_4_left",
+    "foot_phalanx_proximal_5_left",
+    "foot_phalanx_middle ",
+    "foot_phalanx_middle_indet",
+    "foot_middle_right",
+    "foot_phalanx_middle_right_indet",
+    "foot_phalanx_middle_2_right",
+    "foot_phalanx_middle_3_right",
+    "foot_phalanx_middle_4_right",
+    "foot_phalanx_middle_5_right",
+    "foot_middle_left",
+    "foot_phalanx_middle_left_indet",
+    "foot_phalanx_middle_2_left",
+    "foot_phalanx_middle_3_left",
+    "foot_phalanx_middle_4_left",
+    "foot_phalanx_middle_5_left",
+    "foot_phalanx_distal",
+    "foot_phalanx_distal_indet",
+    "foot_phalanx_distal_right",
+    "foot_phalanx_distal_right_indet",
+    "foot_phalanx_distal_right_1",
+    "foot_phalanx_distal_right_2",
+    "foot_phalanx_distal_right_3",
+    "foot_phalanx_distal_right_4",
+    "foot_phalanx_distal_right_5",
+    "foot_distal_left",
+    "foot_phalanx_distal_left_indet",
+    "foot_phalanx_distal_left_1",
+    "foot_phalanx_distal_left_2",
+    "foot_phalanx_distal_left_3",
+    "foot_phalanx_distal_left_4",
+    "foot_phalanx_distal_left_5"
   ),
-  #Level = c( 1, 2, 3, 3, 4, 4, 3, 4, 4, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 1, 1, 2, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 2, 3, 3, 2, 3, 3, 1, 2, 3, 3, 2, 3, 3, 2, 3, 3, 1,2,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,4,4,4,4,2,3,3,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5, 1, 2, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 1, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 1, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 2, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 ),
   Level = c(
-    #Cranium
-    #1, 2, 4, 3, 4, 4, 3, 4, 4, 4, 4, 4, 2, 4, 4, 3, 4, 4, 4, 4, 4, 4, 2, 3, 4, 4, 3, 4, 4, 3, 4, 4, 4,
-    2, 3 ,5, 4, 5, 5, 4, 5, 5, 5, 5, 5, 3, 5, 5, 4, 5, 5, 5, 5, 5, 5, 3, 4, 5, 5, 4, 5, 5, 4, 5, 5, 5,
-
-    #Hyoid
     1,
-    #Vertebrae
-    1, 2, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3,
-    #Thorax
-    1, 4, 2, 3, 3, 4,4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
-
-    #Shoulder
-    1, 2, 3, 3, 2, 3, 3,
-
-    #Arms
-    1,  # Arms
-    2,  # Humerus
-    2,  # Radius
-    2,  # Ulna
-    3,  # Humerus Right
-    3,  # Humerus Left
-    3,  # Radius Right
-    3,  # Radius Left
-    3,  # Ulna Right
-    3,   # Ulna Left
-
-    #Hands
+    2,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
     1,
-    2,3,3,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5, # Hand Carpal
-    2,3,3,5,5,5,5,5,5,5,5,5,5, # Hand Metacarpal
-    2,3,3,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5, #Hand Phalanx
-    #Pelvic
-    1,2,4,4,4,4,4,2,4,4,4,4, 2, 3, 4, 4, 3, 4, 4,3,4,4,
-    #Leg
-    1, 2, 3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3,
-    #Foot
-    1, 2, 3, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
-    2, 3, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
-    2, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+    2,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    2,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    1,
+    2,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    4,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
   ),
-
   Bone_Count = c(
-    #Cranium
-    1,8,1,2,1,1,2,1,1,1,1,1,14,2,2,2,1,1,2,2, 1,2,6,2,1,1,2,1,1,2,1,1,1,
-    #Hyoid
     1,
-    #Vertebrae
-    19,7,1,1, 1,1,1,1,1,12,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,
-    #Thorax
-    25,1,24,1,12,12,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
-    #Shoulder
-    4, 2, 1, 1, 2, 1, 1,
-    #Arms
-    6,  # Arms
-    2,  # Humerus
-    2,  # Radius
-    2,  # Ulna
-    1,  # Humerus Right
-    1,  # Humerus Left
-    1,  # Radius Right
-    1,  # Radius Left
-    1,  # Ulna Right
-    1,   # Ulna Left
-    #Hands
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    2,
+    2,
+    2,
+    0,
+    1,
+    1,
+    2,
+    2,
+    1,
+    2,
+    6,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    32,
+    20,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    32,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    1,
+    24,
+    0,
+    7,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    12,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    25,
+    0,
+    1,
+    24,
+    0,
+    0,
+    12,
+    12,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    4,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    6,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
     54,
-    16,8,8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1, # Hand Carpal
-    10,5,5,1,1,1,1,1,1,1,1,1,1, # Hand Metacarpal
-    28,14,14,5,5,4,4,5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1, #Hand Phalanx
-    #Pelvic
-    4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 2,1, 1,2,1,1,
-    #Leg
-    8, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1,
-    #Foot
+    0,
+    16,
+    0,
+    8,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    8,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    10,
+    0,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    28,
+    0,
+    10,
+    0,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    8,
+    0,
+    4,
+    0,
+    1,
+    1,
+    1,
+    1,
+    4,
+    0,
+    1,
+    1,
+    1,
+    1,
+    10,
+    0,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    4,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    8,
+    0,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
     52,
-    14, 7, 7, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-    10, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-    28, 14, 14, 5, 5, 4, 4, 5, 5, 1,1,1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1
-
-
-
+    0,
+    14,
+    0,
+    7,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    7,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    10,
+    0,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    28,
+    0,
+    10,
+    0,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    8,
+    0,
+    4,
+    0,
+    1,
+    1,
+    1,
+    1,
+    4,
+    0,
+    1,
+    1,
+    1,
+    1,
+    10,
+    0,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    5,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
   ),
   Skeleton_Section = c(
-    "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull", "Skull",
-    "Hyoid",
-    "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae", "Vertebrae",
-    "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax", "Thorax",
-    "Shoulder", "Shoulder", "Shoulder", "Shoulder", "Shoulder", "Shoulder", "Shoulder",
-    "Arms", "Arms", "Arms", "Arms", "Arms", "Arms", "Arms", "Arms", "Arms", "Arms",
-    "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Hands", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic","Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic", "Pelvic",
-    "Legs", "Legs", "Legs", "Legs", "Legs", "Legs", "Legs", "Legs", "Legs", "Legs", "Legs", "Legs", "Legs",
-    "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot", "Foot")
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "cranium",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "teeth",
+    "hyoid",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "vertebrae",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "thorax",
+    "shoulder",
+    "shoulder",
+    "shoulder",
+    "shoulder",
+    "shoulder",
+    "shoulder",
+    "shoulder",
+    "shoulder",
+    "shoulder",
+    "shoulder",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "arms",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "hands",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "pelvic",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "legs",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot",
+    "foot"
+  )
 )
+
+# Ensure types
+elements_data$Level <- as.integer(elements_data$Level)
+elements_data$Bone_Count <- as.integer(elements_data$Bone_Count)
+elements_data$ElementsOne <- as.character(elements_data$ElementsOne)
+elements_data$Skeleton_Section <- as.character(elements_data$Skeleton_Section)
+
+# Section order (xlsx includes teeth)
+sections_order <- c("cranium","teeth","hyoid","vertebrae","thorax","shoulder","arms","hands","pelvic","legs","foot")
+elements_data$Skeleton_Section <- factor(elements_data$Skeleton_Section, levels = sections_order)
 
 
 
@@ -1229,740 +3078,986 @@ category_mappings = list(
 
 
 
-  #### Skull 4
-  category_mappings_skull_3_to_1 <- list(
-    Skull = c("Neurocranium bone", "Schplancnocranium", "Ossicles of the Middle Ear", "Mandible")
+#### CRANIUM 
+# Level 2 -> Level 1
+category_mappings_cranium_2_to_1 <- list(
+  cranium = c("neurocranium_bone", "splanchnocranium")
+)
+
+# Level 3 -> Level 1
+category_mappings_cranium_3_to_1 <- list(
+  cranium = c(
+    # neurocranium (L3)
+    "neurocranium_bone_indet",
+    "frontal_bone", "parietal_bone", "temporal", "occipital", "sphenoid", "ethmoid",
+
+    # splanchnocranium (L3)
+    "splanchnocranium_indet",
+    "maxilla", "palatine_bone", "zygomatic_bone", "nasal_bone", "lacrimal_bone",
+    "vomer_bone", "inferior_nasal_concha",
+
+    # other L3
+    "ossicles_of_the_middle_ear",
+    "mandible"
+  )
+)
+
+# Level 4 -> Level 1
+category_mappings_cranium_4_to_1 <- list(
+  cranium = c(
+    "neurocranium_bone_indet","frontal_bone",
+    "parietal_bone_indet", "parietal_bone_right", "parietal_bone_left",
+    "temporal_bone_indet", "temporal_right", "temporal_left",
+    "occipital", "sphenoid", "ethmoid",
+    "splanchnocranium_indet",    
+    "maxilla", "palatine_bone",
+    "zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left",
+    "nasal_bone", "lacrimal_bone", "vomer_bone", "inferior_nasal_concha",
+
+    "ossicles_of_the_middle_ear_indet",
+    "malleus", "incus", "stapes",
+
+    "mandible"
+  )
+)
+
+# Level 5 -> Level 1
+category_mappings_cranium_5_to_1 <- list(
+  cranium = c("neurocranium_bone_indet",
+    "frontal_bone",
+    "parietal_bone_indet", "parietal_bone_right", "parietal_bone_left",
+    "temporal_bone_indet", "temporal_right", "temporal_left",
+    "occipital", "sphenoid", "ethmoid",
+    "splanchnocranium_indet",
+    "maxilla", "palatine_bone",
+    "zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left",
+    "nasal_bone", "lacrimal_bone", "vomer_bone", "inferior_nasal_concha",
+
+    "ossicles_of_the_middle_ear_indet",
+    "malleus_indet", "malleus_right", "malleus_left",
+    "incus_indet", "incus_right", "incus_left",
+    "stapes_indet", "stapes_right", "stapes_left",
+
+    "mandible"
+  )
+)
+
+# Level 3 -> Level 2  (ONLY things that actually belong to L2 groups)
+category_mappings_cranium_3_to_2 <- list(
+  neurocranium_bone = c(
+    "neurocranium_bone_indet",
+    "frontal_bone", "parietal_bone", "temporal", "occipital", "sphenoid", "ethmoid"
+  ),
+  splanchnocranium = c(
+    "splanchnocranium_indet",
+    "maxilla", "palatine_bone", "zygomatic_bone", "nasal_bone", "lacrimal_bone",
+    "vomer_bone", "inferior_nasal_concha",
+    "ossicles_of_the_middle_ear","mandible"
+
+  )
+)
+
+# Level 4 -> Level 2
+category_mappings_cranium_4_to_2 <- list(
+  neurocranium_bone = c("neurocranium_bone_indet",
+    "frontal_bone",
+    "parietal_bone_indet", "parietal_bone_right", "parietal_bone_left",
+    "temporal_bone_indet", "temporal_right", "temporal_left",
+    "occipital", "sphenoid", "ethmoid"
+  ),
+  splanchnocranium = c("splanchnocranium_indet",
+    "maxilla", "palatine_bone",
+    "zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left",
+    "nasal_bone", "lacrimal_bone", "vomer_bone", "inferior_nasal_concha",
+    "ossicles_of_the_middle_ear_indet","malleus","incus","stapes","mandible"
+  )
+)
+
+# Level 5 -> Level 2
+category_mappings_cranium_5_to_2 <- list(
+    neurocranium_bone = c("neurocranium_bone_indet",
+      "frontal_bone",
+      "parietal_bone_indet", "parietal_bone_right", "parietal_bone_left",
+      "temporal_bone_indet", "temporal_right", "temporal_left",
+      "occipital", "sphenoid", "ethmoid"
     ),
+    splanchnocranium = c("splanchnocranium_indet",
+      "maxilla", "palatine_bone",
+      "zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left",
+      "nasal_bone", "lacrimal_bone", "vomer_bone", "inferior_nasal_concha",
+      "ossicles_of_the_middle_ear_indet","malleus_indet","malleus_right",
+      "malleus_left","incus_indet","incus_right","incus_left","stapes_indet",
+      "stapes_right","stapes_left",      
+      "mandible"
+    )
+  )
 
+# Level 4 -> Level 3
+category_mappings_cranium_4_to_3 <- list(
+    neurocranium_bone_indet  = c("neurocranium_bone_indet"),  
+  frontal_bone  = c("frontal_bone"),
+  parietal_bone = c("parietal_bone_indet", "parietal_bone_right", "parietal_bone_left"),
+  temporal      = c("temporal_bone_indet", "temporal_right", "temporal_left"),
+  occipital     = c("occipital"),
+  sphenoid      = c("sphenoid"),
+  ethmoid       = c("ethmoid"),
 
-  category_mappings_skull_4_to_1 <- list(
-    Skull = c( "Frontal bone" , "Parietal bone", "Temporal" , "Occipital" , "Sphenoid" , "Ethmoid",
-        "Maxilla" , "Palatine bone" , "Zygomatic bone" , "Nasal bone", "Lacrimal bone" , "Vomer bone" , "Inferior nasal concha" ,
-        "Malleus" , "Incus" , "Stapes" , "Mandible")
-    ),
+  splanchnocranium_indet  = c("splanchnocranium_indet"), 
+  maxilla       = c("maxilla"),
+  palatine_bone = c("palatine_bone"),
+  zygomatic_bone = c("zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left"),
+  nasal_bone    = c("nasal_bone"),
+  lacrimal_bone = c("lacrimal_bone"),
+  vomer_bone    = c("vomer_bone"),
+  inferior_nasal_concha = c("inferior_nasal_concha"),
 
-    category_mappings_skull_5_to_1 <- list(
-    Skull = c( "Frontal bone" , "Parietal bone Right" , "Parietal bone Left" , "Temporal Right" , "Temporal Left" , "Occipital" , "Sphenoid" , "Ethmoid" ,  "Maxilla" , "Palatine bone" , "Zygomatic bone Right" , "Zygomatic bone Left" , "Nasal bone" , "Lacrimal bone" , "Vomer bone" , "Inferior nasal concha","Malleus Right" , "Malleus Left" , "Incus Right" , "Incus Left" , "Stapes Right" , "Stapes Left" ,      "Mandible")),
+  ossicles_of_the_middle_ear = c("ossicles_of_the_middle_ear_indet", "malleus", "incus", "stapes"),
+  mandible = c("mandible")
+)
 
+# Level 5 -> Level 3
+category_mappings_cranium_5_to_3 <- list(
+    neurocranium_bone_indet  = c("neurocranium_bone_indet"),  
+  frontal_bone  = c("frontal_bone"),
+  parietal_bone = c("parietal_bone_indet", "parietal_bone_right", "parietal_bone_left"),
+  temporal      = c("temporal_bone_indet", "temporal_right", "temporal_left"),
+  occipital     = c("occipital"),
+  sphenoid      = c("sphenoid"),
+  ethmoid       = c("ethmoid"),
 
-  category_mappings_skull_4_to_3 <- list(
-    Neurocranium.bone = c("Frontal bone" , "Parietal bone", "Temporal" , "Occipital" , "Sphenoid", "Ethmoid" ),
-    Schplancnocranium = c("Maxilla" , "Palatine bone" , "Zygomatic bone", "Nasal bone", "Lacrimal bone" , "Vomer bone" , "Inferior nasal concha" ),
-    Ossicles.of.the.Middle.Ear = c("Malleus", "Incus" , "Stapes"),
-    Mandible = c("Mandible") ),
+  splanchnocranium_indet  = c("splanchnocranium_indet"), 
+  maxilla       = c("maxilla"),
+  palatine_bone = c("palatine_bone"),
+  zygomatic_bone = c("zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left"),
+  nasal_bone    = c("nasal_bone"),
+  lacrimal_bone = c("lacrimal_bone"),
+  vomer_bone    = c("vomer_bone"),
+  inferior_nasal_concha = c("inferior_nasal_concha"),
 
-
-  category_mappings_skull_5_to_3 <- list(
-      Neurocranium.bone = c("Frontal bone", "Parietal bone Right" , "Parietal bone Left" , "Temporal Right" , "Temporal Left", "Occipital" , "Sphenoid" , "Ethmoid" ),
-      Schplancnocranium = c("Maxilla" , "Palatine bone" , "Zygomatic bone Right", "Zygomatic bone Left" , "Nasal bone", "Lacrimal bone" , "Vomer bone" , "Inferior nasal concha" ),
-      Ossicles.of.the.Middle_Ear = c("Malleus Right", "Malleus Left", "Incus Right" , "Incus Left" , "Stapes Right" , "Stapes Left"),
-      Mandible = c("Mandible") ),
-
-
-
-  # Skull level 4 to 3 mapping, now 5 -> 4
-  category_mappings_skull_5_to_4 <- list(
-    Frontal.bone = c("Frontal bone"),
-    Parietal.bone = c("Parietal bone Right", "Parietal bone Left"),
-    Temporal = c("Temporal Right", "Temporal Left"),
-    Occipital = c("Occipital"),
-    Sphenoid = c("Sphenoid"),
-    Ethmoid = c("Ethmoid"),
-    Maxilla = c("Maxilla"),
-    Palatine.bone = c("Palatine bone"),
-    Zygomatic.bone = c("Zygomatic bone Right", "Zygomatic bone Left"),
-    Nasal.bone = c("Nasal bone"),
-    Lacrimal.bone = c("Lacrimal bone"),
-    Vomer.bone = c("Vomer bone"),
-    Inferior.nasal.concha = c("Inferior nasal concha"),
-    Malleus = c("Malleus Right", "Malleus Left"),
-    Incus = c("Incus Right", "Incus Left"),
-    Stapes = c("Stapes Right", "Stapes Left"),
-    Mandible = c("Mandible")
+  ossicles_of_the_middle_ear = c(
+    "ossicles_of_the_middle_ear_indet",
+    "malleus_indet", "malleus_right", "malleus_left",
+    "incus_indet", "incus_right", "incus_left",
+    "stapes_indet", "stapes_right", "stapes_left"
   ),
+  mandible = c("mandible")
+)
 
-  category_mappings_skull_2_to_1 <- list(
-    Skull = c("Skull","Mandible")
-  ),
+# Level 5 -> Level 4
+category_mappings_cranium_5_to_4 <- list(
+    neurocranium_bone_indet  = c("neurocranium_bone_indet"),
+  frontal_bone = c("frontal_bone"),
+  parietal_bone_indet = c("parietal_bone_indet"),
+  parietal_bone_right = c("parietal_bone_right"),
+  parietal_bone_left  = c("parietal_bone_left"),
+  temporal_bone_indet = c("temporal_bone_indet"),
+  temporal_right      = c("temporal_right"),
+  temporal_left       = c("temporal_left"),
+  occipital = c("occipital"),
+  sphenoid  = c("sphenoid"),
+  ethmoid   = c("ethmoid"),
 
-  category_mappings_skull_3_to_2 <- list(
-    Skull = c("Neurocranium bone", "Schplancnocranium", "Ossicles of the Middle Ear"),
-    Mandible = c("Mandible")
-  ),
+  splanchnocranium_indet  = c("splanchnocranium_indet"), 
+  maxilla       = c("maxilla"),
+  palatine_bone = c("palatine_bone"),
+  zygomatic_bone_indet = c("zygomatic_bone_indet"),
+  zygomatic_bone_right = c("zygomatic_bone_right"),
+  zygomatic_bone_left  = c("zygomatic_bone_left"),
+  nasal_bone    = c("nasal_bone"),
+  lacrimal_bone = c("lacrimal_bone"),
+  vomer_bone    = c("vomer_bone"),
+  inferior_nasal_concha = c("inferior_nasal_concha"),
 
-  category_mappings_skull_4_to_2 <- list(
-    Skull = c( "Frontal bone" , "Parietal bone", "Temporal" , "Occipital" , "Sphenoid" , "Ethmoid",
-    "Maxilla" , "Palatine bone" , "Zygomatic bone" , "Nasal bone", "Lacrimal bone" , "Vomer bone" , "Inferior nasal concha" ,
-    "Malleus" , "Incus" , "Stapes"),
-    Mandible = c("Mandible")
-  ),
-
-  category_mappings_skull_5_to_2 <- list(
-    Skull = c("Frontal bone" , "Parietal bone Right" , "Parietal bone Left" , "Temporal Right" , "Temporal Left" ,
-              "Occipital" , "Sphenoid" , "Ethmoid" ,  "Maxilla" , "Palatine bone" , "Zygomatic bone Right" , "Zygomatic bone Left" ,
-              "Nasal bone" , "Lacrimal bone" , "Vomer bone" , "Inferior nasal concha", "Malleus Right" , "Malleus Left" , "Incus Right" ,
-              "Incus Left" , "Stapes Right" , "Stapes Left" ),
-    Mandible = c("Mandible")
-  ),
+  ossicles_of_the_middle_ear_indet = c("ossicles_of_the_middle_ear_indet"),
+  malleus = c("malleus_indet", "malleus_right", "malleus_left"),
+  incus   = c("incus_indet", "incus_right", "incus_left"),
+  stapes  = c("stapes_indet", "stapes_right", "stapes_left"),
+  
+  mandible = c("mandible")
+),
 
 
 
   #Hyoid 1
 
 
-  #### Vertebrae 3
-  category_mappings_vertebrae_2_to_1 <- list(
-    Vertebrae = c("Cervical", "Thoracic", "Lumbar")
-  ),
-  category_mappings_vertebrae_3_to_1 <- list(
-    Vertebrae = c(
-      "C1 Atlas", "C2 Axis", "C3", "C4", "C5", "C6", "C7",
-      "T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12",
-      "L1", "L2", "L3", "L4", "L5"
-    )
-  ),
-  category_mappings_vertebrae_3_to_2 <- list(
-    Cervical = c("C1 Atlas", "C2 Axis", "C3", "C4", "C5", "C6", "C7"),
-    Thoracic = c("T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12"),
-    Lumbar = c("L1", "L2", "L3", "L4", "L5")
-  ),
+#### TEETH
 
-  #Shoulder 3
-  category_mappings_shoulder_2_to_1 <- list(
-    Shoulder = c("Clavicle", "Scapula")
-  ),
-  category_mappings_shoulder_3_to_1 <- list(
-    Shoulder = c("Clavicle Right", "Clavicle Left", "Scapula Right", "Scapula Left")
-  ),
-  category_mappings_shoulder_3_to_2 <- list(
-    Clavicle = c("Clavicle Right", "Clavicle Left"),
-    Scapula = c("Scapula Right", "Scapula Left")
-  ),
-
-  #Arms 3
-  category_mappings_arms_2_to_1 <- list(
-    Arms = c("Humerus", "Radius", "Ulna")
-  ),
-  category_mappings_arms_3_to_1 <- list(
-    Arms = c("Humerus Right", "Humerus Left", "Radius Right", "Radius Left", "Ulna Right", "Ulna Left")
-  ),
-
-  category_mappings_arms_3_to_2 <- list(
-    Humerus = c("Humerus Right", "Humerus Left"),
-    Radius = c("Radius Right", "Radius Left"),
-    Ulna = c("Ulna Right", "Ulna Left")
-  ),
-
-  #Hands 5
-  category_mappings_hands_2_to_1 <- list(
-    Hands = c("Hand Carpal", "Hand Metacarpal", "Hand Phalanx")
-  ),
-
-  category_mappings_hands_3_to_1 <- list(
-    Hands = c(
-      "Hand Carpal Right", "Hand Carpal Left",
-      "Hand Metacarpal Right", "Hand Metacarpal Left",
-      "Hand Phalanx Right", "Hand Phalanx Left"
-    )
-  ),
-
-
-  category_mappings_hands_4_to_1 <- list(
-    Hands = c(
-      "Hand Trapezium Right", "Hand Trapezium Left",
-      "Hand Trapezoid Right", "Hand Trapezoid Left",
-      "Hand Hamate Right", "Hand Hamate Left",
-      "Hand Triquetrum Right", "Hand Triquetrum Left",
-      "Hand Lunate Right", "Hand Lunate Left",
-      "Hand Pisiform Right", "Hand Pisiform Left",
-      "Hand Capitate Right", "Hand Capitate Left",
-      "Hand Scaphoid Right", "Hand Scaphoid Left",
-      "Hand Metacarpal 1 Right", "Hand Metacarpal 1 Left",
-      "Hand Metacarpal 2 Right", "Hand Metacarpal 2 Left",
-      "Hand Metacarpal 3 Right", "Hand Metacarpal 3 Left",
-      "Hand Metacarpal 4 Right", "Hand Metacarpal 4 Left",
-      "Hand Metacarpal 5 Right", "Hand Metacarpal 5 Left",
-      "Hand Proximal Right",
-      "Hand Proximal Left",
-      "Hand Middle Right",
-      "Hand Middle Left",
-      "Hand Distal Right",
-      "Hand Distal Left"
-    )
-  ),
-
-
-  category_mappings_hands_3_to_2 <- list(
-    Hand.Carpal = c("Hand Carpal Right", "Hand Carpal Left"),
-    Hand.Metacarpal = c("Hand Metacarpal Right", "Hand Metacarpal Left"),
-    Hand.Phalanx = c("Hand Phalanx Right", "Hand Phalanx Left")
-  )
-  ,
-
-  category_mappings_hands_4_to_2 <- list(
-    Hand.Carpal = c(
-      "Hand Trapezium Right", "Hand Trapezium Left",
-      "Hand Trapezoid Right", "Hand Trapezoid Left",
-      "Hand Hamate Right", "Hand Hamate Left",
-      "Hand Triquetrum Right", "Hand Triquetrum Left",
-      "Hand Lunate Right", "Hand Lunate Left",
-      "Hand Pisiform Right", "Hand Pisiform Left",
-      "Hand Capitate Right", "Hand Capitate Left",
-      "Hand Scaphoid Right", "Hand Scaphoid Left"
-    ),
-    Hand.Metacarpal = c(
-      "Hand Metacarpal 1 Right", "Hand Metacarpal 1 Left",
-      "Hand Metacarpal 2 Right", "Hand Metacarpal 2 Left",
-      "Hand Metacarpal 3 Right", "Hand Metacarpal 3 Left",
-      "Hand Metacarpal 4 Right", "Hand Metacarpal 4 Left",
-      "Hand Metacarpal 5 Right", "Hand Metacarpal 5 Left"
-    ),
-    Hand.Phalanx = c(
-      "Hand Proximal Right",
-      "Hand Proximal Left",
-      "Hand Middle Right",
-      "Hand Middle Left",
-      "Hand Distal Right",
-      "Hand Distal Left"
-    )
-  ),
-  category_mappings_hands_4_to_3 <- list(
-    Hand.Carpal.Right = c(
-      "Hand Trapezium Right", "Hand Trapezoid Right", "Hand Hamate Right",
-      "Hand Triquetrum Right", "Hand Lunate Right", "Hand Pisiform Right",
-      "Hand Capitate Right", "Hand Scaphoid Right"
-    ),
-    Hand.Carpal.Left = c(
-      "Hand Trapezium Left", "Hand Trapezoid Left", "Hand Hamate Left",
-      "Hand Triquetrum Left", "Hand Lunate Left", "Hand Pisiform Left",
-      "Hand Capitate Left", "Hand Scaphoid Left"
-    ),
-    Hand.Metacarpal.Right = c(
-      "Hand Metacarpal 1 Right", "Hand Metacarpal 2 Right", "Hand Metacarpal 3 Right",
-      "Hand Metacarpal 4 Right", "Hand Metacarpal 5 Right"
-    ),
-    Hand.Metacarpal.Left = c(
-      "Hand Metacarpal 1 Left", "Hand Metacarpal 2 Left", "Hand Metacarpal 3 Left",
-      "Hand Metacarpal 4 Left", "Hand Metacarpal 5 Left"
-    ),
-    Hand.Phalanx.Right = c(
-      "Hand Proximal Right", "Hand Middle Right", "Hand Distal Right"
-    ),
-    Hand.Phalanx.Left = c(
-      "Hand Proximal Left", "Hand Middle Left", "Hand Distal Left"
-    )
-  )
-
-  ,
-  #Pelvic 4 only upto 3
-  category_mappings_pelvic_2_to_1 <- list(
-    Pelvic = c("Sacrum", "Coccyx", "Os Coxae (Innominate)")
-  ),
-  category_mappings_pelvic_3_to_1 <- list(
-    Pelvic = c("S1", "S2", "S3", "S4", "S5", "Cx1", "Cx2", "Cx3", "Cx4", "Ilium Right", "Ilium Left", "Ischium Right", "Ischium Left", "Pubis Right", "Pubis Left")
-  ),
-  category_mappings_pelvic_3_to_2 <- list(
-    Sacrum = c("S1", "S2", "S3", "S4", "S5"),
-    Coccyx = c("Cx1", "Cx2", "Cx3", "Cx4"),
-    Os.Coxae = c("Ilium Right", "Ilium Left", "Ischium Right", "Ischium Left", "Pubis Right", "Pubis Left")
-  ),
-
-
-
-
-  category_mappings_legs_2_to_1 <- list(
-    Legs = c("Femur", "Tibia", "Fibula", "Patella")
-  ),
-
-
-  category_mappings_legs_3_to_1 <- list(
-    Legs = c("Femur Left", "Femur Right", "Tibia Left", "Tibia Right", "Fibula Left", "Fibula Right", "Patella Left", "Patella Right")
-  ),
-  category_mappings_legs_3_to_2 <- list(
-    Femur = c("Femur Left", "Femur Right"),
-    Tibia = c("Tibia Left", "Tibia Right"),
-    Fibula = c("Fibula Left", "Fibula Right"),
-    Patella = c("Patella Left", "Patella Right")
-  ),
-  ### thorax 4
-  # Thorax hierarchical mappings based on levels
-  category_mappings_thorax_4_to_3 <- list(
-
-    Sternum = c("Sternum"),
-    Ribs.Left = c("Rib 1 Left",  "Rib 2 Left",
-                  "Rib 3 Left", "Rib 4 Left",
-                  "Rib 5 Left", "Rib 6 Left",
-                  "Rib 7 Left",  "Rib 8 Left",
-                  "Rib 9 Left", "Rib 10 Left",
-                  "Rib 11 Left", "Rib 12 Left"),
-
-    Ribs.Right = c( "Rib 1 Right", "Rib 2 Right", "Rib 3 Right",  "Rib 4 Right",
-                    "Rib 5 Right",  "Rib 6 Right","Rib 7 Right", "Rib 8 Right",
-                    "Rib 9 Right",  "Rib 10 Right", "Rib 11 Right", "Rib 12 Right"
-                  )
-
-
-  ),
-
-  category_mappings_thorax_4_to_2 <- list(
-    Sternum = c("Sternum"),
-    Ribs = c(
-      "Rib 1 Left", "Rib 1 Right", "Rib 2 Left", "Rib 2 Right",
-      "Rib 3 Left", "Rib 3 Right", "Rib 4 Left", "Rib 4 Right",
-      "Rib 5 Left", "Rib 5 Right", "Rib 6 Left", "Rib 6 Right",
-      "Rib 7 Left", "Rib 7 Right", "Rib 8 Left", "Rib 8 Right",
-      "Rib 9 Left", "Rib 9 Right", "Rib 10 Left", "Rib 10 Right",
-      "Rib 11 Left", "Rib 11 Right", "Rib 12 Left", "Rib 12 Right"
-    )
-
-  ),
-
-  category_mappings_thorax_4_to_1 <- list(
-    Thorax = c(
-      "Sternum", "Rib 1 Left", "Rib 1 Right", "Rib 2 Left", "Rib 2 Right",
-      "Rib 3 Left", "Rib 3 Right", "Rib 4 Left", "Rib 4 Right",
-      "Rib 5 Left", "Rib 5 Right", "Rib 6 Left", "Rib 6 Right",
-      "Rib 7 Left", "Rib 7 Right", "Rib 8 Left", "Rib 8 Right",
-      "Rib 9 Left", "Rib 9 Right", "Rib 10 Left", "Rib 10 Right",
-      "Rib 11 Left", "Rib 11 Right", "Rib 12 Left", "Rib 12 Right"
-    )
-  ),
-
-  category_mappings_thorax_3_to_2 <- list(
-    Sternum = "Sternum",
-    Ribs = c("Ribs Left", "Ribs Right")
-  ),
-
-  category_mappings_thorax_3_to_1 <- list(
-    Thorax = c("Sternum", "Ribs Left", "Ribs Right")
-  )
-  ,
-  category_mappings_thorax_2_to_1 <- list(
-    Thorax = c("Sternum", "Ribs")
-  )
-  ,
-
-  category_mappings_hands_5_to_1 <- list(
-    Hands = c(
-      "Hand Trapezium Right", "Hand Trapezium Left",
-      "Hand Trapezoid Right", "Hand Trapezoid Left",
-      "Hand Hamate Right", "Hand Hamate Left",
-      "Hand Triquetrum Right", "Hand Triquetrum Left",
-      "Hand Lunate Right", "Hand Lunate Left",
-      "Hand Pisiform Right", "Hand Pisiform Left",
-      "Hand Capitate Right", "Hand Capitate Left",
-      "Hand Scaphoid Right", "Hand Scaphoid Left",
-      "Hand Metacarpal 1 Right", "Hand Metacarpal 1 Left",
-      "Hand Metacarpal 2 Right", "Hand Metacarpal 2 Left",
-      "Hand Metacarpal 3 Right", "Hand Metacarpal 3 Left",
-      "Hand Metacarpal 4 Right", "Hand Metacarpal 4 Left",
-      "Hand Metacarpal 5 Right", "Hand Metacarpal 5 Left",
-      "Hand Proximal 1 Right", "Hand Proximal 2 Right", "Hand Proximal 3 Right", "Hand Proximal 4 Right", "Hand Proximal 5 Right",
-      "Hand Proximal 1 Left", "Hand Proximal 2 Left", "Hand Proximal 3 Left", "Hand Proximal 4 Left", "Hand Proximal 5 Left",
-      "Hand Middle 2 Right", "Hand Middle 3 Right", "Hand Middle 4 Right", "Hand Middle 5 Right",
-      "Hand Middle 2 Left", "Hand Middle 3 Left", "Hand Middle 4 Left", "Hand Middle 5 Left",
-      "Hand Distal 1 Right", "Hand Distal 2 Right", "Hand Distal 3 Right", "Hand Distal 4 Right", "Hand Distal 5 Right",
-      "Hand Distal 1 Left", "Hand Distal 2 Left", "Hand Distal 3 Left", "Hand Distal 4 Left", "Hand Distal 5 Left"
-    )
-  ),
-
-
-  category_mappings_hands_5_to_2 <- list(
-    Hand.Carpal = c(
-      "Hand Trapezium Right", "Hand Trapezium Left",
-      "Hand Trapezoid Right", "Hand Trapezoid Left",
-      "Hand Hamate Right", "Hand Hamate Left",
-      "Hand Triquetrum Right", "Hand Triquetrum Left",
-      "Hand Lunate Right", "Hand Lunate Left",
-      "Hand Pisiform Right", "Hand Pisiform Left",
-      "Hand Capitate Right", "Hand Capitate Left",
-      "Hand Scaphoid Right", "Hand Scaphoid Left"
-    ),
-    Hand.Metacarpal = c(
-      "Hand Metacarpal 1 Right", "Hand Metacarpal 1 Left",
-      "Hand Metacarpal 2 Right", "Hand Metacarpal 2 Left",
-      "Hand Metacarpal 3 Right", "Hand Metacarpal 3 Left",
-      "Hand Metacarpal 4 Right", "Hand Metacarpal 4 Left",
-      "Hand Metacarpal 5 Right", "Hand Metacarpal 5 Left"
-    ),
-    Hand.Phalanx = c(
-      "Hand Proximal 1 Right", "Hand Proximal 2 Right", "Hand Proximal 3 Right", "Hand Proximal 4 Right", "Hand Proximal 5 Right",
-      "Hand Proximal 1 Left", "Hand Proximal 2 Left", "Hand Proximal 3 Left", "Hand Proximal 4 Left", "Hand Proximal 5 Left",
-      "Hand Middle 2 Right", "Hand Middle 3 Right", "Hand Middle 4 Right", "Hand Middle 5 Right",
-      "Hand Middle 2 Left", "Hand Middle 3 Left", "Hand Middle 4 Left", "Hand Middle 5 Left",
-      "Hand Distal 1 Right", "Hand Distal 2 Right", "Hand Distal 3 Right", "Hand Distal 4 Right", "Hand Distal 5 Right",
-      "Hand Distal 1 Left", "Hand Distal 2 Left", "Hand Distal 3 Left", "Hand Distal 4 Left", "Hand Distal 5 Left"
-    )
-  ),
-  category_mappings_hands_5_to_4 <- list(
-    Hand.Trapezium.Right = c("Hand Trapezium Right"),
-    Hand.Trapezium.Left = c("Hand Trapezium Left"),
-    Hand.Trapezoid.Right = c("Hand Trapezoid Right"),
-    Hand.Trapezoid.Left = c("Hand Trapezoid Left"),
-    Hand.Hamate.Right = c("Hand Hamate Right"),
-    Hand.Hamate.Left = c("Hand Hamate Left"),
-    Hand.Triquetrum.Right = c("Hand Triquetrum Right"),
-    Hand.Triquetrum.Left = c("Hand Triquetrum Left"),
-    Hand.Lunate.Right = c("Hand Lunate Right"),
-    Hand.Lunate.Left = c("Hand Lunate Left"),
-    Hand.Pisiform.Right = c("Hand Pisiform Right"),
-    Hand.Pisiform.Left = c("Hand Pisiform Left"),
-    Hand.Capitate.Right = c("Hand Capitate Right"),
-    Hand.Capitate.Left = c("Hand Capitate Left"),
-    Hand.Scaphoid.Right = c("Hand Scaphoid Right"),
-    Hand.Scaphoid.Left = c("Hand Scaphoid Left"),
-
-    Hand.Metacarpal.1.Right = c("Hand Metacarpal 1 Right"),
-    Hand.Metacarpal.1.Left = c("Hand Metacarpal 1 Left"),
-    Hand.Metacarpal.2.Right = c("Hand Metacarpal 2 Right"),
-    Hand.Metacarpal.2.Left = c("Hand Metacarpal 2 Left"),
-    Hand.Metacarpal.3.Right = c("Hand Metacarpal 3 Right"),
-    Hand.Metacarpal.3.Left = c("Hand Metacarpal 3 Left"),
-    Hand.Metacarpal.4.Right = c("Hand Metacarpal 4 Right"),
-    Hand.Metacarpal.4.Left = c("Hand Metacarpal 4 Left"),
-    Hand.Metacarpal.5.Right = c("Hand Metacarpal 5 Right"),
-    Hand.Metacarpal.5.Left = c("Hand Metacarpal 5 Left"),
-
-    Hand.Proximal.Right = c(
-      "Hand Proximal 1 Right", "Hand Proximal 2 Right", "Hand Proximal 3 Right",
-      "Hand Proximal 4 Right", "Hand Proximal 5 Right"
-    ),
-    Hand.Proximal.Left = c(
-      "Hand Proximal 1 Left", "Hand Proximal 2 Left", "Hand Proximal 3 Left",
-      "Hand Proximal 4 Left", "Hand Proximal 5 Left"
-    ),
-    Hand.Middle.Right = c(
-      "Hand Middle 2 Right", "Hand Middle 3 Right", "Hand Middle 4 Right",
-      "Hand Middle 5 Right"
-    ),
-    Hand.Middle.Left = c(
-      "Hand Middle 2 Left", "Hand Middle 3 Left", "Hand Middle 4 Left",
-      "Hand Middle 5 Left"
-    ),
-    Hand.Distal.Right = c(
-      "Hand Distal 1 Right", "Hand Distal 2 Right", "Hand Distal 3 Right",
-      "Hand Distal 4 Right", "Hand Distal 5 Right"
-    ),
-    Hand.Distal.Left = c(
-      "Hand Distal 1 Left", "Hand Distal 2 Left", "Hand Distal 3 Left",
-      "Hand Distal 4 Left", "Hand Distal 5 Left"
-    )
-  )
-,
-category_mappings_hands_5_to_3 <- list(
-  Hand.Carpal.Right = c(
-    "Hand Trapezium Right", "Hand Trapezoid Right", "Hand Hamate Right",
-    "Hand Triquetrum Right", "Hand Lunate Right", "Hand Pisiform Right",
-    "Hand Capitate Right", "Hand Scaphoid Right"
-  ),
-  Hand.Carpal.Left = c(
-    "Hand Trapezium Left", "Hand Trapezoid Left", "Hand Hamate Left",
-    "Hand Triquetrum Left", "Hand Lunate Left", "Hand Pisiform Left",
-    "Hand Capitate Left", "Hand Scaphoid Left"
-  ),
-  Hand.Metacarpal.Right = c(
-    "Hand Metacarpal 1 Right", "Hand Metacarpal 2 Right", "Hand Metacarpal 3 Right",
-    "Hand Metacarpal 4 Right", "Hand Metacarpal 5 Right"
-  ),
-  Hand.Metacarpal.Left = c(
-    "Hand Metacarpal 1 Left", "Hand Metacarpal 2 Left", "Hand Metacarpal 3 Left",
-    "Hand Metacarpal 4 Left", "Hand Metacarpal 5 Left"
-  ),
-  Hand.Phalanx.Right = c(
-    "Hand Proximal 1 Right", "Hand Proximal 2 Right", "Hand Proximal 3 Right",
-    "Hand Proximal 4 Right", "Hand Proximal 5 Right", "Hand Middle 2 Right",
-    "Hand Middle 3 Right", "Hand Middle 4 Right", "Hand Middle 5 Right",
-    "Hand Distal 1 Right", "Hand Distal 2 Right", "Hand Distal 3 Right",
-    "Hand Distal 4 Right", "Hand Distal 5 Right"
-  ),
-  Hand.Phalanx.Left = c(
-    "Hand Proximal 1 Left", "Hand Proximal 2 Left", "Hand Proximal 3 Left",
-    "Hand Proximal 4 Left", "Hand Proximal 5 Left", "Hand Middle 2 Left",
-    "Hand Middle 3 Left", "Hand Middle 4 Left", "Hand Middle 5 Left",
-    "Hand Distal 1 Left", "Hand Distal 2 Left", "Hand Distal 3 Left",
-    "Hand Distal 4 Left", "Hand Distal 5 Left"
-  )
+# Level 2 -> Level 1
+category_mappings_teeth_2_to_1 <- list(
+  teeth = c("deciduous_indet", "permanent")
 )
 
-,
-  category_mappings_pelvic_2_to_1 <- list(
-    Pelvic = c("Sacrum", "Coccyx", "Os Coxae")
-  ),
-
-  category_mappings_pelvic_3_to_1 <- list(
-    Pelvic = c("S1", "S2", "S3", "S4", "S5", "Cx1", "Cx2", "Cx3", "Cx4", "Ilium", "Ischium", "Pubis")
-  ),
-
-  category_mappings_pelvic_4_to_1 <- list(
-    Pelvic = c(
-      "S1", "S2", "S3", "S4", "S5",
-      "Cx1", "Cx2", "Cx3", "Cx4",
-      "Ilium Right", "Ilium Left", "Ischium Right", "Ischium Left", "Pubis Right", "Pubis Left"
+# Level 3 -> Level 1
+category_mappings_teeth_3_to_1 <- list(
+  teeth = c(
+      "di1", "di2", "dc", "dm1", "dm2", "i1", "i2", "c",
+      "pm3", "pm4", "m1", "m2", "m3"
     )
-  )
-  ,
+)
+
+# Level 4 -> Level 1
+category_mappings_teeth_4_to_1 <- list(
+  teeth = c(
+      "dl1_indet", "di1_superior", "dl1_inferior", "dl2_indet", "di2_superior", "dl2_inferior", "dc_indet", "dc_superior",
+      "dc_inferior", "dm1_indet", "dm1_superior", "dm1_inferior", "dm2_indet", "dm2_superior", "dm2_inferior", "i1_indet",
+      "i1_superior", "i1_inferior", "i2_indet", "i2_superior", "i2_inferior", "c_indet", "c_superior", "c_inferior",
+      "pm3_indet", "pm3_superior", "pm3_inferior", "pm4_indet", "pm4_superior", "pm4_inferior", "m1_indet", "m1_superior",
+      "m1_inferior", "m2_indet", "m2_superior", "m2_inferior", "m3_indet", "m3_superior", "m3_inferior"
+    )
+)
+
+# Level 5 -> Level 1
+category_mappings_teeth_5_to_1 <- list(
+  teeth = c(
+      "dl1_indet", "di1_superior_indet", "di1_superior_right", "di1_superior_left", "dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left", "dl2_indet",
+      "di2_superior_indet", "di2_superior_right", "di2_superior_left", "di2_inferior_indet", "di2_inferior_right", "di2_inferior_left", "dc_indet", "dc_superior_indet",
+      "dc_superior_right", "dc_superior_left", "dc_inferior_indet", "dc_inferior_right", "dc_inferior_left", "dm1_indet", "dm1_superior_indet", "dm1_superior_left",
+      "dm1_superior_right", "dm1_inferior_indet", "dm1_inferior_right", "dm1_inferior_left", "dm2_indet", "dm2_superior_indet", "dm2_superior_right", "dm2_superior_left",
+      "dm2_inferior_indet", "dm2_inferior_right", "dm2_inferior_left", "i1_indet", "i1_superior_indet", "i1_superior_right", "i1_superior_left", "i1_inferior_indet",
+      "i1_inferior_right", "i1_inferior_left", "i2_indet", "i2_superior_indet", "i2_superior_right", "i2_superior_left", "i2_inferior_indet", "i2_inferior_right",
+      "i2_inferior_left", "c_indet", "c_superior_indet", "c_superior_right", "c_superior_left", "c_inferior_indet", "c_inferior_right", "c_inferior_left",
+      "pm3_indet", "pm3_superior_indet", "pm3_superior_right", "pm3_superior_left", "pm3_inferior_indet", "pm3_inferior_right", "pm3_inferior_left", "pm4_indet",
+      "pm4_superior_indet", "pm4_superior_right", "pm4_superior_left", "pm4_inferior_indet", "pm4_inferior_right", "pm4_inferior_left", "m1_indet", "m1_superior_indet",
+      "m1_superior_right", "m1_superior_left", "m1_inferior_indet", "m1_inferior_right", "m1_inferior_left", "m2_indet", "m2_superior_indet", "m2_superior_right",
+      "m2_superior_left", "m2_inferior_indet", "m2_inferior_right", "m2_inferior_left", "m3_indet", "m3_superior_indet", "m3_superior_right", "m3_superior_left",
+      "m3_inferior_indet", "m3_inferior_right", "m3_inferior_left"
+    )
+)
+
+# Level 3 -> Level 2
+category_mappings_teeth_3_to_2 <- list(
+  deciduous_indet = c("di1", "di2", "dc", "dm1", "dm2"),
+  permanent = c("i1", "i2", "c", "pm3", "pm4", "m1", "m2", "m3")
+)
+
+# Level 4 -> Level 2
+category_mappings_teeth_4_to_2 <- list(
+  deciduous_indet = c(
+      "dl1_indet", "di1_superior", "dl1_inferior", "dl2_indet", "di2_superior", "dl2_inferior", "dc_indet", "dc_superior",
+      "dc_inferior", "dm1_indet", "dm1_superior", "dm1_inferior", "dm2_indet", "dm2_superior", "dm2_inferior"
+    ),
+  permanent = c(
+      "i1_indet", "i1_superior", "i1_inferior", "i2_indet", "i2_superior", "i2_inferior", "c_indet", "c_superior",
+      "c_inferior", "pm3_indet", "pm3_superior", "pm3_inferior", "pm4_indet", "pm4_superior", "pm4_inferior", "m1_indet",
+      "m1_superior", "m1_inferior", "m2_indet", "m2_superior", "m2_inferior", "m3_indet", "m3_superior", "m3_inferior"
+    )
+)
+
+# Level 5 -> Level 2
+category_mappings_teeth_5_to_2 <- list(
+  deciduous_indet = c(
+      "dl1_indet", "di1_superior_indet", "di1_superior_right", "di1_superior_left", "dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left", "dl2_indet",
+      "di2_superior_indet", "di2_superior_right", "di2_superior_left", "di2_inferior_indet", "di2_inferior_right", "di2_inferior_left", "dc_indet", "dc_superior_indet",
+      "dc_superior_right", "dc_superior_left", "dc_inferior_indet", "dc_inferior_right", "dc_inferior_left", "dm1_indet", "dm1_superior_indet", "dm1_superior_left",
+      "dm1_superior_right", "dm1_inferior_indet", "dm1_inferior_right", "dm1_inferior_left", "dm2_indet", "dm2_superior_indet", "dm2_superior_right", "dm2_superior_left",
+      "dm2_inferior_indet", "dm2_inferior_right", "dm2_inferior_left"
+    ),
+  permanent = c(
+      "i1_indet", "i1_superior_indet", "i1_superior_right", "i1_superior_left", "i1_inferior_indet", "i1_inferior_right", "i1_inferior_left", "i2_indet",
+      "i2_superior_indet", "i2_superior_right", "i2_superior_left", "i2_inferior_indet", "i2_inferior_right", "i2_inferior_left", "c_indet", "c_superior_indet",
+      "c_superior_right", "c_superior_left", "c_inferior_indet", "c_inferior_right", "c_inferior_left", "pm3_indet", "pm3_superior_indet", "pm3_superior_right",
+      "pm3_superior_left", "pm3_inferior_indet", "pm3_inferior_right", "pm3_inferior_left", "pm4_indet", "pm4_superior_indet", "pm4_superior_right", "pm4_superior_left",
+      "pm4_inferior_indet", "pm4_inferior_right", "pm4_inferior_left", "m1_indet", "m1_superior_indet", "m1_superior_right", "m1_superior_left", "m1_inferior_indet",
+      "m1_inferior_right", "m1_inferior_left", "m2_indet", "m2_superior_indet", "m2_superior_right", "m2_superior_left", "m2_inferior_indet", "m2_inferior_right",
+      "m2_inferior_left", "m3_indet", "m3_superior_indet", "m3_superior_right", "m3_superior_left", "m3_inferior_indet", "m3_inferior_right", "m3_inferior_left"
+    )
+)
+
+# Level 4 -> Level 3
+category_mappings_teeth_4_to_3 <- list(
+  di1 = c("dl1_indet", "di1_superior", "dl1_inferior"),
+  di2 = c("dl2_indet", "di2_superior", "dl2_inferior"),
+  dc = c("dc_indet", "dc_superior", "dc_inferior"),
+  dm1 = c("dm1_indet", "dm1_superior", "dm1_inferior"),
+  dm2 = c("dm2_indet", "dm2_superior", "dm2_inferior"),
+  i1 = c("i1_indet", "i1_superior", "i1_inferior"),
+  i2 = c("i2_indet", "i2_superior", "i2_inferior"),
+  c = c("c_indet", "c_superior", "c_inferior"),
+  pm3 = c("pm3_indet", "pm3_superior", "pm3_inferior"),
+  pm4 = c("pm4_indet", "pm4_superior", "pm4_inferior"),
+  m1 = c("m1_indet", "m1_superior", "m1_inferior"),
+  m2 = c("m2_indet", "m2_superior", "m2_inferior"),
+  m3 = c("m3_indet", "m3_superior", "m3_inferior")
+)
+
+# Level 5 -> Level 3
+category_mappings_teeth_5_to_3 <- list(
+  di1 = c(
+      "dl1_indet", "di1_superior_indet", "di1_superior_right", "di1_superior_left", "dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left"
+    ),
+  di2 = c(
+      "dl2_indet", "di2_superior_indet", "di2_superior_right", "di2_superior_left", "di2_inferior_indet", "di2_inferior_right", "di2_inferior_left"
+    ),
+  dc = c(
+      "dc_indet", "dc_superior_indet", "dc_superior_right", "dc_superior_left", "dc_inferior_indet", "dc_inferior_right", "dc_inferior_left"
+    ),
+  dm1 = c(
+      "dm1_indet", "dm1_superior_indet", "dm1_superior_left", "dm1_superior_right", "dm1_inferior_indet", "dm1_inferior_right", "dm1_inferior_left"
+    ),
+  dm2 = c(
+      "dm2_indet", "dm2_superior_indet", "dm2_superior_right", "dm2_superior_left", "dm2_inferior_indet", "dm2_inferior_right", "dm2_inferior_left"
+    ),
+  i1 = c(
+      "i1_indet", "i1_superior_indet", "i1_superior_right", "i1_superior_left", "i1_inferior_indet", "i1_inferior_right", "i1_inferior_left"
+    ),
+  i2 = c(
+      "i2_indet", "i2_superior_indet", "i2_superior_right", "i2_superior_left", "i2_inferior_indet", "i2_inferior_right", "i2_inferior_left"
+    ),
+  c = c(
+      "c_indet", "c_superior_indet", "c_superior_right", "c_superior_left", "c_inferior_indet", "c_inferior_right", "c_inferior_left"
+    ),
+  pm3 = c(
+      "pm3_indet", "pm3_superior_indet", "pm3_superior_right", "pm3_superior_left", "pm3_inferior_indet", "pm3_inferior_right", "pm3_inferior_left"
+    ),
+  pm4 = c(
+      "pm4_indet", "pm4_superior_indet", "pm4_superior_right", "pm4_superior_left", "pm4_inferior_indet", "pm4_inferior_right", "pm4_inferior_left"
+    ),
+  m1 = c(
+      "m1_indet", "m1_superior_indet", "m1_superior_right", "m1_superior_left", "m1_inferior_indet", "m1_inferior_right", "m1_inferior_left"
+    ),
+  m2 = c(
+      "m2_indet", "m2_superior_indet", "m2_superior_right", "m2_superior_left", "m2_inferior_indet", "m2_inferior_right", "m2_inferior_left"
+    ),
+  m3 = c(
+      "m3_indet", "m3_superior_indet", "m3_superior_right", "m3_superior_left", "m3_inferior_indet", "m3_inferior_right", "m3_inferior_left"
+    )
+)
+
+# Level 5 -> Level 4
+category_mappings_teeth_5_to_4 <- list(
+  dl1_indet = c("dl1_indet"),
+  di1_superior = c("di1_superior_indet", "di1_superior_right", "di1_superior_left"),
+  dl1_inferior = c("dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left"),
+  dl2_indet = c("dl2_indet"),
+  di2_superior = c("di2_superior_indet", "di2_superior_right", "di2_superior_left"),
+  dl2_inferior = c("di2_inferior_indet", "di2_inferior_right", "di2_inferior_left"),
+  dc_indet = c("dc_indet"),
+  dc_superior = c("dc_superior_indet", "dc_superior_right", "dc_superior_left"),
+  dc_inferior = c("dc_inferior_indet", "dc_inferior_right", "dc_inferior_left"),
+  dm1_indet = c("dm1_indet"),
+  dm1_superior = c("dm1_superior_indet", "dm1_superior_left", "dm1_superior_right"),
+  dm1_inferior = c("dm1_inferior_indet", "dm1_inferior_right", "dm1_inferior_left"),
+  dm2_indet = c("dm2_indet"),
+  dm2_superior = c("dm2_superior_indet", "dm2_superior_right", "dm2_superior_left"),
+  dm2_inferior = c("dm2_inferior_indet", "dm2_inferior_right", "dm2_inferior_left"),
+  i1_indet = c("i1_indet"),
+  i1_superior = c("i1_superior_indet", "i1_superior_right", "i1_superior_left"),
+  i1_inferior = c("i1_inferior_indet", "i1_inferior_right", "i1_inferior_left"),
+  i2_indet = c("i2_indet"),
+  i2_superior = c("i2_superior_indet", "i2_superior_right", "i2_superior_left"),
+  i2_inferior = c("i2_inferior_indet", "i2_inferior_right", "i2_inferior_left"),
+  c_indet = c("c_indet"),
+  c_superior = c("c_superior_indet", "c_superior_right", "c_superior_left"),
+  c_inferior = c("c_inferior_indet", "c_inferior_right", "c_inferior_left"),
+  pm3_indet = c("pm3_indet"),
+  pm3_superior = c("pm3_superior_indet", "pm3_superior_right", "pm3_superior_left"),
+  pm3_inferior = c("pm3_inferior_indet", "pm3_inferior_right", "pm3_inferior_left"),
+  pm4_indet = c("pm4_indet"),
+  pm4_superior = c("pm4_superior_indet", "pm4_superior_right", "pm4_superior_left"),
+  pm4_inferior = c("pm4_inferior_indet", "pm4_inferior_right", "pm4_inferior_left"),
+  m1_indet = c("m1_indet"),
+  m1_superior = c("m1_superior_indet", "m1_superior_right", "m1_superior_left"),
+  m1_inferior = c("m1_inferior_indet", "m1_inferior_right", "m1_inferior_left"),
+  m2_indet = c("m2_indet"),
+  m2_superior = c("m2_superior_indet", "m2_superior_right", "m2_superior_left"),
+  m2_inferior = c("m2_inferior_indet", "m2_inferior_right", "m2_inferior_left"),
+  m3_indet = c("m3_indet"),
+  m3_superior = c("m3_superior_indet", "m3_superior_right", "m3_superior_left"),
+  m3_inferior = c("m3_inferior_indet", "m3_inferior_right", "m3_inferior_left")
+)
 
 
-  category_mappings_pelvic_3_to_2 <- list(
-    Sacrum = c("S1", "S2", "S3", "S4", "S5"),
-    Coccyx = c("Cx1", "Cx2", "Cx3", "Cx4"),
-    Os.Coxae = c("Ilium", "Ischium", "Pubis")
+#### HYOID
+
+
+#### VERTEBRAE
+
+# Level 2 -> Level 1
+category_mappings_vertebrae_2_to_1 <- list(
+  vertebrae = c("vertebrae_indet", "cervical", "thoracic", "lumbar")
+)
+
+# Level 3 -> Level 1
+category_mappings_vertebrae_3_to_1 <- list(
+  vertebrae = c(
+      "vertebrae_indet", "cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6",
+      "c7", "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6",
+      "t7", "t8", "t9", "t10", "t11", "t12", "lumbar_indet", "l1",
+      "l2", "l3", "l4", "l5"
+    )
+)
+
+# Level 3 -> Level 2
+category_mappings_vertebrae_3_to_2 <- list(
+  vertebrae_indet = c("vertebrae_indet"),
+  cervical = c("cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7"),
+  thoracic = c(
+      "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6", "t7",
+      "t8", "t9", "t10", "t11", "t12"
+    ),
+  lumbar = c("lumbar_indet", "l1", "l2", "l3", "l4", "l5")
+)
+
+
+#### THORAX
+
+# Level 2 -> Level 1
+category_mappings_thorax_2_to_1 <- list(
+  thorax = c("thorax_indet", "sternum", "ribs")
+)
+
+# Level 3 -> Level 1
+category_mappings_thorax_3_to_1 <- list(
+  thorax = c("thorax_indet", "sternum", "rib_indet", "rib_fragments", "ribs_right", "ribs_left")
+)
+
+# Level 4 -> Level 1
+category_mappings_thorax_4_to_1 <- list(
+  thorax = c(
+      "thorax_indet", "sternum", "rib_indet", "rib_fragments", "rib_1_indet", "rib_1_right", "rib_1_left",
+      "rib_2_indet", "rib_2_right", "rib_2_left", "rib_3_indet", "rib_3_right", "rib_3_left", "rib_4_indet", "rib_4_right",
+      "rib_4_left", "rib_5_indet", "rib_5_right", "rib_5_left", "rib_6_indet", "rib_6_right", "rib_6_left", "rib_7_indet",
+      "rib_7_right", "rib_7_left", "rib_8_indet", "rib_8_right", "rib_8_left", "rib_9_indet", "rib_9_right", "rib_9_left",
+      "rib_10_indet", "rib_10_right", "rib_10_left", "rib_11_indet", "rib_11_right", "rib_11_left", "rib_12_indet", "rib_12_right",
+      "rib_12_left"
+    )
+)
+
+# Level 3 -> Level 2
+category_mappings_thorax_3_to_2 <- list(
+  thorax_indet = c("thorax_indet"),
+  sternum = c("sternum"),
+  ribs = c("rib_indet", "rib_fragments", "ribs_right", "ribs_left")
+)
+
+# Level 4 -> Level 2
+category_mappings_thorax_4_to_2 <- list(
+  thorax_indet = c("thorax_indet"),
+  sternum = c("sternum"),
+  ribs = c(
+      "rib_indet", "rib_fragments", "ribs_right", "rib_1_indet", "rib_1_right", "rib_1_left", "rib_2_indet", "rib_2_right",
+      "rib_2_left", "rib_3_indet", "rib_3_right", "rib_3_left", "rib_4_indet", "rib_4_right", "rib_4_left", "rib_5_indet",
+      "rib_5_right", "rib_5_left", "rib_6_indet", "rib_6_right", "rib_6_left", "rib_7_indet", "rib_7_right", "rib_7_left",
+      "rib_8_indet", "rib_8_right", "rib_8_left", "rib_9_indet", "rib_9_right", "rib_9_left", "rib_10_indet", "rib_10_right",
+      "rib_10_left", "rib_11_indet", "rib_11_right", "rib_11_left", "rib_12_indet", "rib_12_right", "rib_12_left"
+    )
+)
+
+# Level 4 -> Level 3
+category_mappings_thorax_4_to_3 <- list(
+  thorax_indet = c("thorax_indet"),
+  sternum = c("sternum"),
+  rib_indet = c("rib_indet"),
+  rib_fragments = c("rib_fragments"),
+  ribs_right = c(
+    "rib_1_indet", "rib_1_right", "rib_1_left", "rib_2_indet", "rib_2_right", "rib_2_left", "rib_3_indet", "rib_3_right",
+    "rib_3_left", "rib_4_indet", "rib_4_right", "rib_4_left", "rib_5_indet", "rib_5_right", "rib_5_left", "rib_6_indet",
+    "rib_6_right", "rib_6_left", "rib_7_indet", "rib_7_right", "rib_7_left", "rib_8_indet", "rib_8_right", "rib_8_left",
+    "rib_9_indet", "rib_9_right", "rib_9_left", "rib_10_indet", "rib_10_right", "rib_10_left", "rib_11_indet", "rib_11_right",
+    "rib_11_left", "rib_12_indet", "rib_12_right", "rib_12_left"
   ),
-  category_mappings_pelvic_4_to_2 <- list(
-    Sacrum = c("S1", "S2", "S3", "S4", "S5"),
-    Coccyx = c("Cx1", "Cx2", "Cx3", "Cx4"),
-    Os.Coxae = c("Ilium Right", "Ilium Left", "Ischium Right", "Ischium Left", "Pubis Right", "Pubis Left")
-  )
-  ,
-
-  category_mappings_pelvic_4_to_3 <- list(
-    Ilium = c("Ilium Right", "Ilium Left"),
-    Ischium = c("Ischium Right", "Ischium Left"),
-    Pubis = c("Pubis Right", "Pubis Left")
-  )
-  ,
-
-
-  category_mappings_foot_4_to_3 <- list(
-    Foot.Tarsal.Right = c(
-      "Foot Talus Right", "Foot Calcaneous Right", "Foot Cuboid Right",
-      "Foot Navicular Right", "Foot Lateral cuneiform Right",
-      "Foot Intermediate cuneiform Right", "Foot Medial cuneiform Right"
-    ),
-    Foot.Tarsal.Left = c(
-      "Foot Talus Left", "Foot Calcaneous Left", "Foot Cuboid Left",
-      "Foot Navicular Left", "Foot Lateral cuneiform Left",
-      "Foot Intermediate cuneiform Left", "Foot Medial cuneiform Left"
-    ),
-    Foot.Metatarsal.Right = c(
-      "Foot Metatarsal 1 Right", "Foot Metatarsal 2 Right", "Foot Metatarsal 3 Right",
-      "Foot Metatarsal 4 Right", "Foot Metatarsal 5 Right"
-    ),
-    Foot.Metatarsal.Left = c(
-      "Foot Metatarsal 1 Left", "Foot Metatarsal 2 Left", "Foot Metatarsal 3 Left",
-      "Foot Metatarsal 4 Left", "Foot Metatarsal 5 Left"
-    ),
-    Foot.Phalanx.Right = c(
-      "Foot Proximal Right", "Foot Middle Right", "Foot Distal Right"
-    ),
-    Foot.Phalanx.Left = c(
-      "Foot Proximal Left", "Foot Middle Left", "Foot Distal Left"
+  ribs_left = c(
+      "rib_1_indet", "rib_1_right", "rib_1_left", "rib_2_indet", "rib_2_right", "rib_2_left", "rib_3_indet", "rib_3_right",
+      "rib_3_left", "rib_4_indet", "rib_4_right", "rib_4_left", "rib_5_indet", "rib_5_right", "rib_5_left", "rib_6_indet",
+      "rib_6_right", "rib_6_left", "rib_7_indet", "rib_7_right", "rib_7_left", "rib_8_indet", "rib_8_right", "rib_8_left",
+      "rib_9_indet", "rib_9_right", "rib_9_left", "rib_10_indet", "rib_10_right", "rib_10_left", "rib_11_indet", "rib_11_right",
+      "rib_11_left", "rib_12_indet", "rib_12_right", "rib_12_left"
     )
-  )
-  ,
+)
 
 
+#### SHOULDER
 
-  category_mappings_foot_5_to_3 <- list(
-    Foot.Tarsal.Right = c(
-      "Foot Talus Right", "Foot Calcaneous Right", "Foot Cuboid Right",
-      "Foot Navicular Right", "Foot Lateral cuneiform Right",
-      "Foot Intermediate cuneiform Right", "Foot Medial cuneiform Right"
-    ),
-    Foot.Tarsal.Left = c(
-      "Foot Talus Left", "Foot Calcaneous Left", "Foot Cuboid Left",
-      "Foot Navicular Left", "Foot Lateral cuneiform Left",
-      "Foot Intermediate cuneiform Left", "Foot Medial cuneiform Left"
-    ),
-    Foot.Metatarsal.Right = c(
-      "Foot Metatarsal 1 Right", "Foot Metatarsal 2 Right", "Foot Metatarsal 3 Right",
-      "Foot Metatarsal 4 Right", "Foot Metatarsal 5 Right"
-    ),
-    Foot.Metatarsal.Left = c(
-      "Foot Metatarsal 1 Left", "Foot Metatarsal 2 Left", "Foot Metatarsal 3 Left",
-      "Foot Metatarsal 4 Left", "Foot Metatarsal 5 Left"
-    ),
-    Foot.Phalanx.Right = c(
-      "Foot Proximal 1 Right", "Foot Proximal 2 Right", "Foot Proximal 3 Right",
-      "Foot Proximal 4 Right", "Foot Proximal 5 Right", "Foot Middle 2 Right",
-      "Foot Middle 3 Right", "Foot Middle 4 Right", "Foot Middle 5 Right",
-      "Foot Distal 1 Right", "Foot Distal 2 Right", "Foot Distal 3 Right",
-      "Foot Distal 4 Right", "Foot Distal 5 Right"
-    ),
-    Foot.Phalanx.Left = c(
-      "Foot Proximal 1 Left", "Foot Proximal 2 Left", "Foot Proximal 3 Left",
-      "Foot Proximal 4 Left", "Foot Proximal 5 Left", "Foot Middle 2 Left",
-      "Foot Middle 3 Left", "Foot Middle 4 Left", "Foot Middle 5 Left",
-      "Foot Distal 1 Left", "Foot Distal 2 Left", "Foot Distal 3 Left",
-      "Foot Distal 4 Left", "Foot Distal 5 Left"
+# Level 2 -> Level 1
+category_mappings_shoulder_2_to_1 <- list(
+  shoulder = c("shoulder_indet", "clavicle", "scapula")
+)
+
+# Level 3 -> Level 1
+category_mappings_shoulder_3_to_1 <- list(
+  shoulder = c(
+      "shoulder_indet", "clavicle_indet", "clavicle_right", "clavicle_left", "scapula_indet", "scapula_right", "scapula_left"
     )
-  )
+)
 
-  ,
+# Level 3 -> Level 2
+category_mappings_shoulder_3_to_2 <- list(
+  shoulder_indet = c("shoulder_indet"),
+  clavicle = c("clavicle_indet", "clavicle_right", "clavicle_left"),
+  scapula = c("scapula_indet", "scapula_right", "scapula_left")
+)
 
 
-  category_mappings_foot_5_to_4 <- list(
-    Foot.Talus.Right = c("Foot Talus Right"),
-    Foot.Talus.Left = c("Foot Talus Left"),
-    Foot.Calcaneous.Right = c("Foot Calcaneous Right"),
-    Foot.Calcaneous.Left = c("Foot Calcaneous Left"),
-    Foot.Cuboid.Right = c("Foot Cuboid Right"),
-    Foot.Cuboid.Left = c("Foot Cuboid Left"),
-    Foot.Navicular.Right = c("Foot Navicular Right"),
-    Foot.Navicular.Left = c("Foot Navicular Left"),
-    Foot.Lateral.cuneiform.Right = c("Foot Lateral cuneiform Right"),
-    Foot.Lateral.cuneiform.Left = c("Foot Lateral cuneiform Left"),
-    Foot.Intermediate.cuneiform.Right = c("Foot Intermediate cuneiform Right"),
-    Foot.Intermediate.cuneiform.Left = c("Foot Intermediate cuneiform Left"),
-    Foot.Medial.cuneiform.Right = c("Foot Medial cuneiform Right"),
-    Foot.Medial.cuneiform.Left = c("Foot Medial cuneiform Left"),
+#### ARMS
 
-    Foot.Metatarsal.1.Right = c("Foot Metatarsal 1 Right"),
-    Foot.Metatarsal.1.Left = c("Foot Metatarsal 1 Left"),
-    Foot.Metatarsal.2.Right = c("Foot Metatarsal 2 Right"),
-    Foot.Metatarsal.2.Left = c("Foot Metatarsal 2 Left"),
-    Foot.Metatarsal.3.Right = c("Foot Metatarsal 3 Right"),
-    Foot.Metatarsal.3.Left = c("Foot Metatarsal 3 Left"),
-    Foot.Metatarsal.4.Right = c("Foot Metatarsal 4 Right"),
-    Foot.Metatarsal.4.Left = c("Foot Metatarsal 4 Left"),
-    Foot.Metatarsal.5.Right = c("Foot Metatarsal 5 Right"),
-    Foot.Metatarsal.5.Left = c("Foot Metatarsal 5 Left"),
+# Level 2 -> Level 1
+category_mappings_arms_2_to_1 <- list(
+  arms = c("arms_indet", "humerus", "radius", "ulna")
+)
 
-    Foot.Proximal.Right = c(
-      "Foot Proximal 1 Right", "Foot Proximal 2 Right", "Foot Proximal 3 Right",
-      "Foot Proximal 4 Right", "Foot Proximal 5 Right"
-    ),
-    Foot.Proximal.Left = c(
-      "Foot Proximal 1 Left", "Foot Proximal 2 Left", "Foot Proximal 3 Left",
-      "Foot Proximal 4 Left", "Foot Proximal 5 Left"
-    ),
-    Foot.Middle.Right = c(
-      "Foot Middle 2 Right", "Foot Middle 3 Right", "Foot Middle 4 Right",
-      "Foot Middle 5 Right"
-    ),
-    Foot.Middle.Left = c(
-      "Foot Middle 2 Left", "Foot Middle 3 Left", "Foot Middle 4 Left",
-      "Foot Middle 5 Left"
-    ),
-    Foot.Distal.Right = c(
-      "Foot Distal 1 Right", "Foot Distal 2 Right", "Foot Distal 3 Right",
-      "Foot Distal 4 Right", "Foot Distal 5 Right"
-    ),
-    Foot.Distal.Left = c(
-      "Foot Distal 1 Left", "Foot Distal 2 Left", "Foot Distal 3 Left",
-      "Foot Distal 4 Left", "Foot Distal 5 Left"
+# Level 3 -> Level 1
+category_mappings_arms_3_to_1 <- list(
+  arms = c(
+      "arms_indet", "humerus_indet", "humerus_right", "humerus_left", "radius_indet", "radius_right", "radius_left", "ulna_indet",
+      "ulna_right", "ulna_left"
     )
-  )
-  ,
+)
+
+# Level 3 -> Level 2
+category_mappings_arms_3_to_2 <- list(
+  arms_indet = c("arms_indet"),
+  humerus = c("humerus_indet", "humerus_right", "humerus_left"),
+  radius = c("radius_indet", "radius_right", "radius_left"),
+  ulna = c("ulna_indet", "ulna_right", "ulna_left")
+)
 
 
-  category_mappings_foot_2_to_1 <- list(
-    Foot = c("Foot Tarsal", "Foot Metatarsal", "Foot Phalanx")
-  ),
+#### HANDS
 
-  category_mappings_foot_3_to_1 <- list(
-    Foot = c(
-      "Foot Tarsal Right", "Foot Tarsal Left",
-      "Foot Metatarsal Right", "Foot Metatarsal Left",
-      "Foot Phalanx Right", "Foot Phalanx Left"
+# Level 2 -> Level 1
+category_mappings_hands_2_to_1 <- list(
+  hands = c("hands_indet", "carpal", "metacarpal", "hand_phalanx")
+)
+
+# Level 3 -> Level 1
+category_mappings_hands_3_to_1 <- list(
+  hands = c(
+      "hands_indet", "carpal_indet", "scaphoid", "lunate", "triquetrum", "pisiform", "trapezium", "trapezoid", "capitate",
+      "hamate", "metacarpal_indet", "hand_phalanx_indet"
     )
-  ),
+)
 
-  category_mappings_foot_4_to_1 <- list(
-    Foot = c(
-      "Foot Talus Right", "Foot Talus Left",
-      "Foot Calcaneous Right", "Foot Calcaneous Left",
-      "Foot Cuboid Right", "Foot Cuboid Left",
-      "Foot Navicular Right", "Foot Navicular Left",
-      "Foot Lateral cuneiform Right", "Foot Lateral cuneiform Left",
-      "Foot Intermediate cuneiform Right", "Foot Intermediate cuneiform Left",
-      "Foot Medial cuneiform Right", "Foot Medial cuneiform Left",
-      "Foot Metatarsal 1 Right", "Foot Metatarsal 1 Left",
-      "Foot Metatarsal 2 Right", "Foot Metatarsal 2 Left",
-      "Foot Metatarsal 3 Right", "Foot Metatarsal 3 Left",
-      "Foot Metatarsal 4 Right", "Foot Metatarsal 4 Left",
-      "Foot Metatarsal 5 Right", "Foot Metatarsal 5 Left",
-      "Foot Proximal Right",
-      "Foot Proximal Left",
-      "Foot Middle Right",
-      "Foot Middle Left",
-      "Foot Distal Right",
-      "Foot Distal Left"
+# Level 4 -> Level 1
+category_mappings_hands_4_to_1 <- list(
+  hands = c(
+      "hands_indet", "carpal_indet", "scaphoid_indet", "scaphoid_right", "scaphoid_left", "lunate_indet", "lunate_right", "lunate_left",
+      "triquetrum_indet", "triquetrum_right", "triquetrum_left", "pisiform_indet", "pisiform_right", "pisiform_left", "trapezium_indet", "trapezium_right",
+      "trapezium_left", "trapezoid_indet", "trapezoid_right", "trapezoid_left", "capitate_indet", "capitate_right", "capitate_left", "hamate_indet",
+      "hamate_right", "hamate_left", "metacarpal_indet", "mc1", "mc2", "mc3", "mc4", "mc5",
+      "hand_phalanx_indet", "hand_proximal_phalanx", "hand_intermediate_phalanx", "hand_distal_phalanx", "hand_proximal_phalanx_pollex", "hand_distal_phalanx_pollex", "hand_intermediate_phalanx_d2", "hand_intermediate_phalanx_d3",
+      "hand_intermediate_phalanx_d4", "hand_intermediate_phalanx_d5"
     )
-  ),
+)
 
-  category_mappings_foot_3_to_2 <- list(
-    Foot.Tarsal = c("Foot Tarsal Right", "Foot Tarsal Left"),
-    Foot.Metatarsal = c("Foot Metatarsal Right", "Foot Metatarsal Left"),
-    Foot.Phalanx = c("Foot Phalanx Right", "Foot Phalanx Left")
-  ),
+# Level 5 -> Level 1
+category_mappings_hands_5_to_1 <- list(
+  hands = c(
+      "hands_indet", "carpal_indet", "scaphoid_indet", "scaphoid_right", "scaphoid_left", "lunate_indet", "lunate_right", "lunate_left",
+      "triquetrum_indet", "triquetrum_right", "triquetrum_left", "pisiform_indet", "pisiform_right", "pisiform_left", "trapezium_indet", "trapezium_right",
+      "trapezium_left", "trapezoid_indet", "trapezoid_right", "trapezoid_left", "capitate_indet", "capitate_right", "capitate_left", "hamate_indet",
+      "hamate_right", "hamate_left", "metacarpal_indet", "mc1_indet", "mc1_right", "mc1_left", "mc2_indet", "mc2_right",
+      "mc2_left", "mc3_indet", "mc3_right", "mc3_left", "mc4_indet", "mc4_right", "mc4_left",
+      "mc5_indet", "mc5_right", "mc5_left", "hand_phalanx_indet", "hand_proximal_phalanx_indet", "hand_proximal_phalanx_right", "hand_proximal_phalanx_left", "hand_intermediate_phalanx_indet",
+      "hand_intermediate_phalanx_right", "hand_intermediate_phalanx_left", "hand_distal_phalanx_indet", "hand_distal_phalanx_right", "hand_distal_phalanx_left", "hand_proximal_phalanx_pollex_indet", "hand_proximal_phalanx_pollex_right", "hand_proximal_phalanx_pollex_left",
+      "hand_distal_phalanx_pollex_indet", "hand_distal_phalanx_pollex_right", "hand_distal_phalanx_pollex_left", "hand_intermediate_phalanx_d2_indet", "hand_intermediate_phalanx_d2_right", "hand_intermediate_phalanx_d2_left", "hand_intermediate_phalanx_d3_indet", "hand_intermediate_phalanx_d3_right",
+      "hand_intermediate_phalanx_d3_left", "hand_intermediate_phalanx_d4_indet", "hand_intermediate_phalanx_d4_right", "hand_intermediate_phalanx_d4_left", "hand_intermediate_phalanx_d5_indet", "hand_intermediate_phalanx_d5_right", "hand_intermediate_phalanx_d5_left"
+    )
+)
 
-  category_mappings_foot_4_to_2 <- list(
-    Foot.Tarsal = c(
-      "Foot Talus Right", "Foot Talus Left",
-      "Foot Calcaneous Right", "Foot Calcaneous Left",
-      "Foot Cuboid Right", "Foot Cuboid Left",
-      "Foot Navicular Right", "Foot Navicular Left",
-      "Foot Lateral cuneiform Right", "Foot Lateral cuneiform Left",
-      "Foot Intermediate cuneiform Right", "Foot Intermediate cuneiform Left",
-      "Foot Medial cuneiform Right", "Foot Medial cuneiform Left"
+# Level 3 -> Level 2
+category_mappings_hands_3_to_2 <- list(
+  hands_indet = c("hands_indet"),
+  carpal = c("carpal_indet", "scaphoid", "lunate", "triquetrum", "pisiform", "trapezium", "trapezoid", "capitate", "hamate"),
+  metacarpal = c("metacarpal_indet"),
+  hand_phalanx = c("hand_phalanx_indet")
+)
+
+# Level 4 -> Level 2
+category_mappings_hands_4_to_2 <- list(
+  hands_indet = c("hands_indet"),
+  carpal = c(
+      "carpal_indet", "scaphoid_indet", "scaphoid_right", "scaphoid_left", "lunate_indet", "lunate_right", "lunate_left", "triquetrum_indet",
+      "triquetrum_right", "triquetrum_left", "pisiform_indet", "pisiform_right", "pisiform_left", "trapezium_indet", "trapezium_right", "trapezium_left",
+      "trapezoid_indet", "trapezoid_right", "trapezoid_left", "capitate_indet", "capitate_right", "capitate_left", "hamate_indet", "hamate_right",
+      "hamate_left"
     ),
-    Foot.Metatarsal = c(
-      "Foot Metatarsal 1 Right", "Foot Metatarsal 1 Left",
-      "Foot Metatarsal 2 Right", "Foot Metatarsal 2 Left",
-      "Foot Metatarsal 3 Right", "Foot Metatarsal 3 Left",
-      "Foot Metatarsal 4 Right", "Foot Metatarsal 4 Left",
-      "Foot Metatarsal 5 Right", "Foot Metatarsal 5 Left"
-    ),
-    Foot.Phalanx = c(
-      "Foot Proximal Right",
-      "Foot Proximal Left",
-      "Foot Middle Right",
-      "Foot Middle Left",
-      "Foot Distal Right",
-      "Foot Distal Left"
+  metacarpal = c("metacarpal_indet", "mc1", "mc2", "mc3", "mc4", "mc5"),
+  hand_phalanx = c(
+      "hand_phalanx_indet", "hand_proximal_phalanx", "hand_intermediate_phalanx", "hand_distal_phalanx", "hand_proximal_phalanx_pollex", "hand_distal_phalanx_pollex", "hand_intermediate_phalanx_d2", "hand_intermediate_phalanx_d3",
+      "hand_intermediate_phalanx_d4", "hand_intermediate_phalanx_d5"
     )
-  ),
+)
+
+# Level 5 -> Level 2
+category_mappings_hands_5_to_2 <- list(
+  hands_indet = c("hands_indet"),
+  carpal = c(
+      "carpal_indet", "scaphoid_indet", "scaphoid_right", "scaphoid_left", "lunate_indet", "lunate_right", "lunate_left", "triquetrum_indet",
+      "triquetrum_right", "triquetrum_left", "pisiform_indet", "pisiform_right", "pisiform_left", "trapezium_indet", "trapezium_right", "trapezium_left",
+      "trapezoid_indet", "trapezoid_right", "trapezoid_left", "capitate_indet", "capitate_right", "capitate_left", "hamate_indet", "hamate_right",
+      "hamate_left"
+    ),
+  metacarpal = c(
+      "metacarpal_indet", "mc1_indet", "mc1_right", "mc1_left", "mc2_indet", "mc2_right", "mc2_left", "mc3_indet",
+      "mc3_right", "mc3_left", "mc4_indet", "mc4_right", "mc4_left", "mc5_indet", "mc5_right", "mc5_left"
+    ),
+  hand_phalanx = c(
+      "hand_phalanx_indet", "hand_proximal_phalanx_indet", "hand_proximal_phalanx_right", "hand_proximal_phalanx_left", "hand_intermediate_phalanx_indet", "hand_intermediate_phalanx_right", "hand_intermediate_phalanx_left", "hand_distal_phalanx_indet",
+      "hand_distal_phalanx_right", "hand_distal_phalanx_left", "hand_proximal_phalanx_pollex_indet", "hand_proximal_phalanx_pollex_right", "hand_proximal_phalanx_pollex_left", "hand_distal_phalanx_pollex_indet", "hand_distal_phalanx_pollex_right", "hand_distal_phalanx_pollex_left",
+      "hand_intermediate_phalanx_d2_indet", "hand_intermediate_phalanx_d2_right", "hand_intermediate_phalanx_d2_left", "hand_intermediate_phalanx_d3_indet", "hand_intermediate_phalanx_d3_right", "hand_intermediate_phalanx_d3_left", "hand_intermediate_phalanx_d4_indet", "hand_intermediate_phalanx_d4_right",
+      "hand_intermediate_phalanx_d4_left", "hand_intermediate_phalanx_d5_indet", "hand_intermediate_phalanx_d5_right", "hand_intermediate_phalanx_d5_left"
+    )
+)
+
+# Level 4 -> Level 3
+category_mappings_hands_4_to_3 <- list(
+  hands_indet = c("hands_indet"),
+  carpal_indet = c("carpal_indet"),
+  scaphoid = c("scaphoid_indet", "scaphoid_right", "scaphoid_left"),
+  lunate = c("lunate_indet", "lunate_right", "lunate_left"),
+  triquetrum = c("triquetrum_indet", "triquetrum_right", "triquetrum_left"),
+  pisiform = c("pisiform_indet", "pisiform_right", "pisiform_left"),
+  trapezium = c("trapezium_indet", "trapezium_right", "trapezium_left"),
+  trapezoid = c("trapezoid_indet", "trapezoid_right", "trapezoid_left"),
+  capitate = c("capitate_indet", "capitate_right", "capitate_left"),
+  hamate = c("hamate_indet", "hamate_right", "hamate_left"),
+  metacarpal_indet = c("metacarpal_indet", "mc1", "mc2", "mc3", "mc4", "mc5"),
+  hand_phalanx_indet = c(
+      "hand_phalanx_indet", "hand_proximal_phalanx", "hand_intermediate_phalanx", "hand_distal_phalanx", "hand_proximal_phalanx_pollex", "hand_distal_phalanx_pollex", "hand_intermediate_phalanx_d2", "hand_intermediate_phalanx_d3",
+      "hand_intermediate_phalanx_d4", "hand_intermediate_phalanx_d5"
+    )
+)
+
+# Level 5 -> Level 3
+category_mappings_hands_5_to_3 <- list(
+  hands_indet = c("hands_indet"),
+  carpal_indet = c("carpal_indet"),
+  scaphoid = c("scaphoid_indet", "scaphoid_right", "scaphoid_left"),
+  lunate = c("lunate_indet", "lunate_right", "lunate_left"),
+  triquetrum = c("triquetrum_indet", "triquetrum_right", "triquetrum_left"),
+  pisiform = c("pisiform_indet", "pisiform_right", "pisiform_left"),
+  trapezium = c("trapezium_indet", "trapezium_right", "trapezium_left"),
+  trapezoid = c("trapezoid_indet", "trapezoid_right", "trapezoid_left"),
+  capitate = c("capitate_indet", "capitate_right", "capitate_left"),
+  hamate = c("hamate_indet", "hamate_right", "hamate_left"),
+  metacarpal_indet = c(
+      "metacarpal_indet", "mc1_indet", "mc1_right", "mc1_left", "mc2_indet", "mc2_right", "mc2_left", "mc3_indet",
+      "mc3_right", "mc3_left", "mc4_indet", "mc4_right", "mc4_left", "mc5_indet", "mc5_right", "mc5_left"
+    ),
+  hand_phalanx_indet = c(
+      "hand_phalanx_indet", "hand_proximal_phalanx_indet", "hand_proximal_phalanx_right", "hand_proximal_phalanx_left", "hand_intermediate_phalanx_indet", "hand_intermediate_phalanx_right", "hand_intermediate_phalanx_left", "hand_distal_phalanx_indet",
+      "hand_distal_phalanx_right", "hand_distal_phalanx_left", "hand_proximal_phalanx_pollex_indet", "hand_proximal_phalanx_pollex_right", "hand_proximal_phalanx_pollex_left", "hand_distal_phalanx_pollex_indet", "hand_distal_phalanx_pollex_right", "hand_distal_phalanx_pollex_left",
+      "hand_intermediate_phalanx_d2_indet", "hand_intermediate_phalanx_d2_right", "hand_intermediate_phalanx_d2_left", "hand_intermediate_phalanx_d3_indet", "hand_intermediate_phalanx_d3_right", "hand_intermediate_phalanx_d3_left", "hand_intermediate_phalanx_d4_indet", "hand_intermediate_phalanx_d4_right",
+      "hand_intermediate_phalanx_d4_left", "hand_intermediate_phalanx_d5_indet", "hand_intermediate_phalanx_d5_right", "hand_intermediate_phalanx_d5_left"
+    )
+)
+
+# Level 5 -> Level 4
+category_mappings_hands_5_to_4 <- list(
+  hands_indet = c("hands_indet"),
+  carpal_indet = c("carpal_indet"),
+  scaphoid_indet = c("scaphoid_indet"),
+  scaphoid_right = c("scaphoid_right"),
+  scaphoid_left = c("scaphoid_left"),
+  lunate_indet = c("lunate_indet"),
+  lunate_right = c("lunate_right"),
+  lunate_left = c("lunate_left"),
+  triquetrum_indet = c("triquetrum_indet"),
+  triquetrum_right = c("triquetrum_right"),
+  triquetrum_left = c("triquetrum_left"),
+  pisiform_indet = c("pisiform_indet"),
+  pisiform_right = c("pisiform_right"),
+  pisiform_left = c("pisiform_left"),
+  trapezium_indet = c("trapezium_indet"),
+  trapezium_right = c("trapezium_right"),
+  trapezium_left = c("trapezium_left"),
+  trapezoid_indet = c("trapezoid_indet"),
+  trapezoid_right = c("trapezoid_right"),
+  trapezoid_left = c("trapezoid_left"),
+  capitate_indet = c("capitate_indet"),
+  capitate_right = c("capitate_right"),
+  capitate_left = c("capitate_left"),
+  hamate_indet = c("hamate_indet"),
+  hamate_right = c("hamate_right"),
+  hamate_left = c("hamate_left"),
+  metacarpal_indet = c("metacarpal_indet"),
+  mc1 = c("mc1_indet", "mc1_right", "mc1_left"),
+  mc2 = c("mc2_indet", "mc2_right", "mc2_left"),
+  mc3 = c("mc3_indet", "mc3_right", "mc3_left"),
+  mc4 = c("mc4_indet", "mc4_right", "mc4_left"),
+  mc5 = c("mc5_indet", "mc5_right", "mc5_left"),
+  hand_phalanx_indet = c("hand_phalanx_indet"),
+  hand_proximal_phalanx = c("hand_proximal_phalanx_indet", "hand_proximal_phalanx_right", "hand_proximal_phalanx_left"),
+  hand_intermediate_phalanx = c("hand_intermediate_phalanx_indet", "hand_intermediate_phalanx_right", "hand_intermediate_phalanx_left"),
+  hand_distal_phalanx = c("hand_distal_phalanx_indet", "hand_distal_phalanx_right", "hand_distal_phalanx_left"),
+  hand_proximal_phalanx_pollex = c("hand_proximal_phalanx_pollex_indet", "hand_proximal_phalanx_pollex_right", "hand_proximal_phalanx_pollex_left"),
+  hand_distal_phalanx_pollex = c("hand_distal_phalanx_pollex_indet", "hand_distal_phalanx_pollex_right", "hand_distal_phalanx_pollex_left"),
+  hand_intermediate_phalanx_d2 = c("hand_intermediate_phalanx_d2_indet", "hand_intermediate_phalanx_d2_right", "hand_intermediate_phalanx_d2_left"),
+  hand_intermediate_phalanx_d3 = c("hand_intermediate_phalanx_d3_indet", "hand_intermediate_phalanx_d3_right", "hand_intermediate_phalanx_d3_left"),
+  hand_intermediate_phalanx_d4 = c("hand_intermediate_phalanx_d4_indet", "hand_intermediate_phalanx_d4_right", "hand_intermediate_phalanx_d4_left"),
+  hand_intermediate_phalanx_d5 = c("hand_intermediate_phalanx_d5_indet", "hand_intermediate_phalanx_d5_right", "hand_intermediate_phalanx_d5_left")
+)
 
 
-  category_mappings_foot_5_to_1 <- list(
-    Foot = c(
-      "Foot Talus Right", "Foot Talus Left",
-      "Foot Calcaneous Right", "Foot Calcaneous Left",
-      "Foot Cuboid Right", "Foot Cuboid Left",
-      "Foot Navicular Right", "Foot Navicular Left",
-      "Foot Lateral cuneiform Right", "Foot Lateral cuneiform Left",
-      "Foot Intermediate cuneiform Right", "Foot Intermediate cuneiform Left",
-      "Foot Medial cuneiform Right", "Foot Medial cuneiform Left",
-      "Foot Metatarsal 1 Right", "Foot Metatarsal 1 Left",
-      "Foot Metatarsal 2 Right", "Foot Metatarsal 2 Left",
-      "Foot Metatarsal 3 Right", "Foot Metatarsal 3 Left",
-      "Foot Metatarsal 4 Right", "Foot Metatarsal 4 Left",
-      "Foot Metatarsal 5 Right", "Foot Metatarsal 5 Left",
-      "Foot Proximal 1 Right", "Foot Proximal 2 Right", "Foot Proximal 3 Right", "Foot Proximal 4 Right", "Foot Proximal 5 Right",
-      "Foot Proximal 1 Left", "Foot Proximal 2 Left", "Foot Proximal 3 Left", "Foot Proximal 4 Left", "Foot Proximal 5 Left",
-      "Foot Middle 2 Right", "Foot Middle 3 Right", "Foot Middle 4 Right", "Foot Middle 5 Right",
-      "Foot Middle 2 Left", "Foot Middle 3 Left", "Foot Middle 4 Left", "Foot Middle 5 Left",
-      "Foot Distal 1 Right", "Foot Distal 2 Right", "Foot Distal 3 Right", "Foot Distal 4 Right", "Foot Distal 5 Right",
-      "Foot Distal 1 Left", "Foot Distal 2 Left", "Foot Distal 3 Left", "Foot Distal 4 Left", "Foot Distal 5 Left"
+#### PELVIC
+
+# Level 2 -> Level 1
+category_mappings_pelvic_2_to_1 <- list(
+  pelvic = c("pelvic_indet", "sacrum", "coccyx", "os_coxae")
+)
+
+# Level 3 -> Level 1
+category_mappings_pelvic_3_to_1 <- list(
+  pelvic = c(
+      "pelvic_indet", "sacrum_indet", "coccyx_indet", "os_coxae_indet", "ilium", "ischium", "pubis", "acetabulum",
+      "foramen_obturatum", "symphysis_pubis", "iliac_crest", "ischial_tuberosity", "greater_sciatic_notch", "lesser_sciatic_notch", "auricular_surface"
     )
-  ),
-  category_mappings_foot_5_to_2 <- list(
-    Foot.Tarsal = c(
-      "Foot Talus Right", "Foot Talus Left",
-      "Foot Calcaneous Right", "Foot Calcaneous Left",
-      "Foot Cuboid Right", "Foot Cuboid Left",
-      "Foot Navicular Right", "Foot Navicular Left",
-      "Foot Lateral cuneiform Right", "Foot Lateral cuneiform Left",
-      "Foot Intermediate cuneiform Right", "Foot Intermediate cuneiform Left",
-      "Foot Medial cuneiform Right", "Foot Medial cuneiform Left"
-    ),
-    Foot.Metatarsal = c(
-      "Foot Metatarsal 1 Right", "Foot Metatarsal 1 Left",
-      "Foot Metatarsal 2 Right", "Foot Metatarsal 2 Left",
-      "Foot Metatarsal 3 Right", "Foot Metatarsal 3 Left",
-      "Foot Metatarsal 4 Right", "Foot Metatarsal 4 Left",
-      "Foot Metatarsal 5 Right", "Foot Metatarsal 5 Left"
-    ),
-    Foot.Phalanx = c(
-      "Foot Proximal 1 Right", "Foot Proximal 2 Right", "Foot Proximal 3 Right", "Foot Proximal 4 Right", "Foot Proximal 5 Right",
-      "Foot Proximal 1 Left", "Foot Proximal 2 Left", "Foot Proximal 3 Left", "Foot Proximal 4 Left", "Foot Proximal 5 Left",
-      "Foot Middle 2 Right", "Foot Middle 3 Right", "Foot Middle 4 Right", "Foot Middle 5 Right",
-      "Foot Middle 2 Left", "Foot Middle 3 Left", "Foot Middle 4 Left", "Foot Middle 5 Left",
-      "Foot Distal 1 Right", "Foot Distal 2 Right", "Foot Distal 3 Right", "Foot Distal 4 Right", "Foot Distal 5 Right",
-      "Foot Distal 1 Left", "Foot Distal 2 Left", "Foot Distal 3 Left", "Foot Distal 4 Left", "Foot Distal 5 Left"
+)
+
+# Level 4 -> Level 1
+category_mappings_pelvic_4_to_1 <- list(
+  pelvic = c(
+      "pelvic_indet", "sacrum_indet", "sacrum_right", "sacrum_left", "coccyx_indet", "os_coxae_indet", "os_coxae_right", "os_coxae_left",
+      "ilium_indet", "ilium_right", "ilium_left", "ischium_indet", "ischium_right", "ischium_left", "pubis_indet", "pubis_right",
+      "pubis_left", "acetabulum_indet", "acetabulum_right", "acetabulum_left", "foramen_obturatum_indet", "foramen_obturatum_right", "foramen_obturatum_left",
+      "symphysis_pubis", "iliac_crest", "ischial_tuberosity", "greater_sciatic_notch", "lesser_sciatic_notch", "auricular_surface"
     )
-  )
+)
+
+# Level 3 -> Level 2
+category_mappings_pelvic_3_to_2 <- list(
+  pelvic_indet = c("pelvic_indet"),
+  sacrum = c("sacrum_indet"),
+  coccyx = c("coccyx_indet"),
+  os_coxae = c(
+      "os_coxae_indet", "ilium", "ischium", "pubis", "acetabulum", "foramen_obturatum", "symphysis_pubis", "iliac_crest",
+      "ischial_tuberosity", "greater_sciatic_notch", "lesser_sciatic_notch", "auricular_surface"
+    )
+)
+
+# Level 4 -> Level 2
+category_mappings_pelvic_4_to_2 <- list(
+  pelvic_indet = c("pelvic_indet"),
+  sacrum = c("sacrum_indet", "sacrum_right", "sacrum_left"),
+  coccyx = c("coccyx_indet"),
+  os_coxae = c(
+      "os_coxae_indet", "os_coxae_right", "os_coxae_left", "ilium_indet", "ilium_right", "ilium_left", "ischium_indet", "ischium_right",
+      "ischium_left", "pubis_indet", "pubis_right", "pubis_left", "acetabulum_indet", "acetabulum_right", "acetabulum_left", "foramen_obturatum_indet",
+      "foramen_obturatum_right", "foramen_obturatum_left", "symphysis_pubis", "iliac_crest", "ischial_tuberosity", "greater_sciatic_notch", "lesser_sciatic_notch",
+      "auricular_surface"
+    )
+)
+
+# Level 4 -> Level 3
+category_mappings_pelvic_4_to_3 <- list(
+  pelvic_indet = c("pelvic_indet"),
+  sacrum_indet = c("sacrum_indet", "sacrum_right", "sacrum_left"),
+  coccyx_indet = c("coccyx_indet"),
+  os_coxae_indet = c("os_coxae_indet", "os_coxae_right", "os_coxae_left"),
+  ilium = c("ilium_indet", "ilium_right", "ilium_left"),
+  ischium = c("ischium_indet", "ischium_right", "ischium_left"),
+  pubis = c("pubis_indet", "pubis_right", "pubis_left"),
+  acetabulum = c("acetabulum_indet", "acetabulum_right", "acetabulum_left"),
+  foramen_obturatum = c("foramen_obturatum_indet", "foramen_obturatum_right", "foramen_obturatum_left"),
+  symphysis_pubis = c("symphysis_pubis"),
+  iliac_crest = c("iliac_crest"),
+  ischial_tuberosity = c("ischial_tuberosity"),
+  greater_sciatic_notch = c("greater_sciatic_notch"),
+  lesser_sciatic_notch = c("lesser_sciatic_notch"),
+  auricular_surface = c("auricular_surface")
+)
+
+
+#### LEGS
+
+# Level 2 -> Level 1
+category_mappings_legs_2_to_1 <- list(
+  legs = c("legs_indet", "femur", "tibia", "fibula", "patella")
+)
+
+# Level 3 -> Level 1
+category_mappings_legs_3_to_1 <- list(
+  legs = c(
+      "legs_indet", "femur_indet", "femur_right", "femur_left", "tibia_indet", "tibia_right", "tibia_left", "fibula_indet",
+      "fibula_right", "fibula_left", "patella_indet", "patella_right", "patella_left"
+    )
+)
+
+# Level 3 -> Level 2
+category_mappings_legs_3_to_2 <- list(
+  legs_indet = c("legs_indet"),
+  femur = c("femur_indet", "femur_right", "femur_left"),
+  tibia = c("tibia_indet", "tibia_right", "tibia_left"),
+  fibula = c("fibula_indet", "fibula_right", "fibula_left"),
+  patella = c("patella_indet", "patella_right", "patella_left")
+)
+
+
+#### FOOT
+
+# Level 2 -> Level 1
+category_mappings_foot_2_to_1 <- list(
+  foot = c("foot_indet", "tarsal", "metatarsal", "foot_phalanx")
+)
+
+# Level 3 -> Level 1
+category_mappings_foot_3_to_1 <- list(
+  foot = c(
+      "foot_indet", "tarsal_indet", "talus", "calcaneus", "navicular", "cuboid", "cuneiform", "metatarsal_indet", "foot_phalanx_indet",
+      "hallux", "tarsal_1st_distal_phalanx"
+    )
+)
+
+# Level 4 -> Level 1
+category_mappings_foot_4_to_1 <- list(
+  foot = c(
+      "foot_indet", "tarsal_indet", "talus_indet", "talus_right", "talus_left", "calcaneus_indet", "calcaneus_right", "calcaneus_left",
+      "navicular_indet", "navicular_right", "navicular_left", "cuboid_indet", "cuboid_right", "cuboid_left", "cuneiform_indet", "cuneiform_medial",
+      "cuneiform_intermediate", "cuneiform_lateral", "metatarsal_indet", "mt1", "mt2", "mt3", "mt4", "mt5",
+      "foot_phalanx_indet", "foot_proximal_phalanx", "foot_intermediate_phalanx", "foot_distal_phalanx", "hallux_indet", "hallux_right", "hallux_left",
+      "tarsal_1st_distal_phalanx"
+    )
+)
+
+# Level 5 -> Level 1
+category_mappings_foot_5_to_1 <- list(
+  foot = c(
+      "foot_indet", "tarsal_indet", "talus_indet", "talus_right", "talus_left", "calcaneus_indet", "calcaneus_right", "calcaneus_left",
+      "navicular_indet", "navicular_right", "navicular_left", "cuboid_indet", "cuboid_right", "cuboid_left", "cuneiform_indet", "cuneiform_medial",
+      "cuneiform_intermediate", "cuneiform_lateral", "metatarsal_indet", "mt1_indet", "mt1_right", "mt1_left", "mt2_indet", "mt2_right",
+      "mt2_left", "mt3_indet", "mt3_right", "mt3_left", "mt4_indet", "mt4_right", "mt4_left",
+      "mt5_indet", "mt5_right", "mt5_left", "foot_phalanx_indet", "foot_proximal_phalanx_indet", "foot_proximal_phalanx_right", "foot_proximal_phalanx_left", "foot_intermediate_phalanx_indet",
+      "foot_intermediate_phalanx_right", "foot_intermediate_phalanx_left", "foot_distal_phalanx_indet", "foot_distal_phalanx_right", "foot_distal_phalanx_left", "hallux_indet", "hallux_right", "hallux_left",
+      "tarsal_1st_distal_phalanx_indet", "tarsal_1st_distal_phalanx_right", "tarsal_1st_distal_phalanx_left", "foot_intermediate_phalanx_d2_indet", "foot_intermediate_phalanx_d2_right", "foot_intermediate_phalanx_d2_left", "foot_intermediate_phalanx_d3_indet", "foot_intermediate_phalanx_d3_right",
+      "foot_intermediate_phalanx_d3_left", "foot_intermediate_phalanx_d4_indet", "foot_intermediate_phalanx_d4_right", "foot_intermediate_phalanx_d4_left", "foot_intermediate_phalanx_d5_indet", "foot_intermediate_phalanx_d5_right", "foot_intermediate_phalanx_d5_left",
+      "foot_distal_phalanx_d2_indet", "foot_distal_phalanx_d2_right", "foot_distal_phalanx_d2_left", "foot_distal_phalanx_d3_indet", "foot_distal_phalanx_d3_right", "foot_distal_phalanx_d3_left", "foot_distal_phalanx_d4_indet", "foot_distal_phalanx_d4_right",
+      "foot_distal_phalanx_d4_left", "foot_distal_phalanx_d5_indet", "foot_distal_phalanx_d5_right", "foot_distal_phalanx_d5_left"
+    )
+)
+
+# Level 3 -> Level 2
+category_mappings_foot_3_to_2 <- list(
+  foot_indet = c("foot_indet"),
+  tarsal = c("tarsal_indet", "talus", "calcaneus", "navicular", "cuboid", "cuneiform"),
+  metatarsal = c("metatarsal_indet"),
+  foot_phalanx = c("foot_phalanx_indet", "hallux", "tarsal_1st_distal_phalanx")
+)
+
+# Level 4 -> Level 2
+category_mappings_foot_4_to_2 <- list(
+  foot_indet = c("foot_indet"),
+  tarsal = c(
+      "tarsal_indet", "talus_indet", "talus_right", "talus_left", "calcaneus_indet", "calcaneus_right", "calcaneus_left", "navicular_indet",
+      "navicular_right", "navicular_left", "cuboid_indet", "cuboid_right", "cuboid_left", "cuneiform_indet", "cuneiform_medial", "cuneiform_intermediate",
+      "cuneiform_lateral"
+    ),
+  metatarsal = c("metatarsal_indet", "mt1", "mt2", "mt3", "mt4", "mt5"),
+  foot_phalanx = c(
+      "foot_phalanx_indet", "foot_proximal_phalanx", "foot_intermediate_phalanx", "foot_distal_phalanx", "hallux_indet", "hallux_right", "hallux_left",
+      "tarsal_1st_distal_phalanx"
+    )
+)
+
+# Level 5 -> Level 2
+category_mappings_foot_5_to_2 <- list(
+  foot_indet = c("foot_indet"),
+  tarsal = c(
+      "tarsal_indet", "talus_indet", "talus_right", "talus_left", "calcaneus_indet", "calcaneus_right", "calcaneus_left", "navicular_indet",
+      "navicular_right", "navicular_left", "cuboid_indet", "cuboid_right", "cuboid_left", "cuneiform_indet", "cuneiform_medial", "cuneiform_intermediate",
+      "cuneiform_lateral"
+    ),
+  metatarsal = c(
+      "metatarsal_indet", "mt1_indet", "mt1_right", "mt1_left", "mt2_indet", "mt2_right", "mt2_left", "mt3_indet",
+      "mt3_right", "mt3_left", "mt4_indet", "mt4_right", "mt4_left", "mt5_indet", "mt5_right", "mt5_left"
+    ),
+  foot_phalanx = c(
+      "foot_phalanx_indet", "foot_proximal_phalanx_indet", "foot_proximal_phalanx_right", "foot_proximal_phalanx_left", "foot_intermediate_phalanx_indet", "foot_intermediate_phalanx_right", "foot_intermediate_phalanx_left", "foot_distal_phalanx_indet",
+      "foot_distal_phalanx_right", "foot_distal_phalanx_left", "hallux_indet", "hallux_right", "hallux_left", "tarsal_1st_distal_phalanx_indet", "tarsal_1st_distal_phalanx_right", "tarsal_1st_distal_phalanx_left",
+      "foot_intermediate_phalanx_d2_indet", "foot_intermediate_phalanx_d2_right", "foot_intermediate_phalanx_d2_left", "foot_intermediate_phalanx_d3_indet", "foot_intermediate_phalanx_d3_right", "foot_intermediate_phalanx_d3_left", "foot_intermediate_phalanx_d4_indet", "foot_intermediate_phalanx_d4_right",
+      "foot_intermediate_phalanx_d4_left", "foot_intermediate_phalanx_d5_indet", "foot_intermediate_phalanx_d5_right", "foot_intermediate_phalanx_d5_left", "foot_distal_phalanx_d2_indet", "foot_distal_phalanx_d2_right", "foot_distal_phalanx_d2_left",
+      "foot_distal_phalanx_d3_indet", "foot_distal_phalanx_d3_right", "foot_distal_phalanx_d3_left", "foot_distal_phalanx_d4_indet", "foot_distal_phalanx_d4_right", "foot_distal_phalanx_d4_left", "foot_distal_phalanx_d5_indet", "foot_distal_phalanx_d5_right",
+      "foot_distal_phalanx_d5_left"
+    )
+)
+
+# Level 4 -> Level 3
+category_mappings_foot_4_to_3 <- list(
+  foot_indet = c("foot_indet"),
+  tarsal_indet = c("tarsal_indet"),
+  talus = c("talus_indet", "talus_right", "talus_left"),
+  calcaneus = c("calcaneus_indet", "calcaneus_right", "calcaneus_left"),
+  navicular = c("navicular_indet", "navicular_right", "navicular_left"),
+  cuboid = c("cuboid_indet", "cuboid_right", "cuboid_left"),
+  cuneiform = c("cuneiform_indet", "cuneiform_medial", "cuneiform_intermediate", "cuneiform_lateral"),
+  metatarsal_indet = c("metatarsal_indet", "mt1", "mt2", "mt3", "mt4", "mt5"),
+  foot_phalanx_indet = c(
+      "foot_phalanx_indet", "foot_proximal_phalanx", "foot_intermediate_phalanx", "foot_distal_phalanx", "hallux_indet", "hallux_right", "hallux_left",
+      "tarsal_1st_distal_phalanx"
+    ),
+  hallux = c("hallux_indet", "hallux_right", "hallux_left"),
+  tarsal_1st_distal_phalanx = c("tarsal_1st_distal_phalanx")
+)
+
+# Level 5 -> Level 3
+category_mappings_foot_5_to_3 <- list(
+  foot_indet = c("foot_indet"),
+  tarsal_indet = c("tarsal_indet"),
+  talus = c("talus_indet", "talus_right", "talus_left"),
+  calcaneus = c("calcaneus_indet", "calcaneus_right", "calcaneus_left"),
+  navicular = c("navicular_indet", "navicular_right", "navicular_left"),
+  cuboid = c("cuboid_indet", "cuboid_right", "cuboid_left"),
+  cuneiform = c("cuneiform_indet", "cuneiform_medial", "cuneiform_intermediate", "cuneiform_lateral"),
+  metatarsal_indet = c(
+      "metatarsal_indet", "mt1_indet", "mt1_right", "mt1_left", "mt2_indet", "mt2_right", "mt2_left", "mt3_indet",
+      "mt3_right", "mt3_left", "mt4_indet", "mt4_right", "mt4_left", "mt5_indet", "mt5_right", "mt5_left"
+    ),
+  foot_phalanx_indet = c(
+      "foot_phalanx_indet", "foot_proximal_phalanx_indet", "foot_proximal_phalanx_right", "foot_proximal_phalanx_left", "foot_intermediate_phalanx_indet", "foot_intermediate_phalanx_right", "foot_intermediate_phalanx_left", "foot_distal_phalanx_indet",
+      "foot_distal_phalanx_right", "foot_distal_phalanx_left", "hallux_indet", "hallux_right", "hallux_left", "tarsal_1st_distal_phalanx_indet", "tarsal_1st_distal_phalanx_right", "tarsal_1st_distal_phalanx_left",
+      "foot_intermediate_phalanx_d2_indet", "foot_intermediate_phalanx_d2_right", "foot_intermediate_phalanx_d2_left", "foot_intermediate_phalanx_d3_indet", "foot_intermediate_phalanx_d3_right", "foot_intermediate_phalanx_d3_left", "foot_intermediate_phalanx_d4_indet", "foot_intermediate_phalanx_d4_right",
+      "foot_intermediate_phalanx_d4_left", "foot_intermediate_phalanx_d5_indet", "foot_intermediate_phalanx_d5_right", "foot_intermediate_phalanx_d5_left", "foot_distal_phalanx_d2_indet", "foot_distal_phalanx_d2_right", "foot_distal_phalanx_d2_left",
+      "foot_distal_phalanx_d3_indet", "foot_distal_phalanx_d3_right", "foot_distal_phalanx_d3_left", "foot_distal_phalanx_d4_indet", "foot_distal_phalanx_d4_right", "foot_distal_phalanx_d4_left", "foot_distal_phalanx_d5_indet", "foot_distal_phalanx_d5_right",
+      "foot_distal_phalanx_d5_left"
+    ),
+  hallux = c("hallux_indet", "hallux_right", "hallux_left"),
+  tarsal_1st_distal_phalanx = c("tarsal_1st_distal_phalanx_indet", "tarsal_1st_distal_phalanx_right", "tarsal_1st_distal_phalanx_left")
+)
+
+# Level 5 -> Level 4
+category_mappings_foot_5_to_4 <- list(
+  foot_indet = c("foot_indet"),
+  tarsal_indet = c("tarsal_indet"),
+  talus_indet = c("talus_indet"),
+  talus_right = c("talus_right"),
+  talus_left = c("talus_left"),
+  calcaneus_indet = c("calcaneus_indet"),
+  calcaneus_right = c("calcaneus_right"),
+  calcaneus_left = c("calcaneus_left"),
+  navicular_indet = c("navicular_indet"),
+  navicular_right = c("navicular_right"),
+  navicular_left = c("navicular_left"),
+  cuboid_indet = c("cuboid_indet"),
+  cuboid_right = c("cuboid_right"),
+  cuboid_left = c("cuboid_left"),
+  cuneiform_indet = c("cuneiform_indet"),
+  cuneiform_medial = c("cuneiform_medial"),
+  cuneiform_intermediate = c("cuneiform_intermediate"),
+  cuneiform_lateral = c("cuneiform_lateral"),
+  metatarsal_indet = c("metatarsal_indet"),
+  mt1 = c("mt1_indet", "mt1_right", "mt1_left"),
+  mt2 = c("mt2_indet", "mt2_right", "mt2_left"),
+  mt3 = c("mt3_indet", "mt3_right", "mt3_left"),
+  mt4 = c("mt4_indet", "mt4_right", "mt4_left"),
+  mt5 = c("mt5_indet", "mt5_right", "mt5_left"),
+  foot_phalanx_indet = c("foot_phalanx_indet"),
+  foot_proximal_phalanx = c("foot_proximal_phalanx_indet", "foot_proximal_phalanx_right", "foot_proximal_phalanx_left"),
+  foot_intermediate_phalanx = c("foot_intermediate_phalanx_indet", "foot_intermediate_phalanx_right", "foot_intermediate_phalanx_left"),
+  foot_distal_phalanx = c("foot_distal_phalanx_indet", "foot_distal_phalanx_right", "foot_distal_phalanx_left"),
+  hallux_indet = c("hallux_indet"),
+  hallux_right = c("hallux_right"),
+  hallux_left = c("hallux_left"),
+  tarsal_1st_distal_phalanx = c("tarsal_1st_distal_phalanx_indet", "tarsal_1st_distal_phalanx_right", "tarsal_1st_distal_phalanx_left"),
+  foot_intermediate_phalanx_d2 = c("foot_intermediate_phalanx_d2_indet", "foot_intermediate_phalanx_d2_right", "foot_intermediate_phalanx_d2_left"),
+  foot_intermediate_phalanx_d3 = c("foot_intermediate_phalanx_d3_indet", "foot_intermediate_phalanx_d3_right", "foot_intermediate_phalanx_d3_left"),
+  foot_intermediate_phalanx_d4 = c("foot_intermediate_phalanx_d4_indet", "foot_intermediate_phalanx_d4_right", "foot_intermediate_phalanx_d4_left"),
+  foot_intermediate_phalanx_d5 = c("foot_intermediate_phalanx_d5_indet", "foot_intermediate_phalanx_d5_right", "foot_intermediate_phalanx_d5_left"),
+  foot_distal_phalanx_d2 = c("foot_distal_phalanx_d2_indet", "foot_distal_phalanx_d2_right", "foot_distal_phalanx_d2_left"),
+  foot_distal_phalanx_d3 = c("foot_distal_phalanx_d3_indet", "foot_distal_phalanx_d3_right", "foot_distal_phalanx_d3_left"),
+  foot_distal_phalanx_d4 = c("foot_distal_phalanx_d4_indet", "foot_distal_phalanx_d4_right", "foot_distal_phalanx_d4_left"),
+  foot_distal_phalanx_d5 = c("foot_distal_phalanx_d5_indet", "foot_distal_phalanx_d5_right", "foot_distal_phalanx_d5_left")
+)
+
 
 
   )
@@ -1971,7 +4066,7 @@ category_mappings_hands_5_to_3 <- list(
 
   category_hierarchy <- list(
 
-    #Skull 4 6 6
+    #Skull 4 10 10
     "Skull_4_to_2" = category_mappings_skull_4_to_2, # 5_3
     "Skull_4_to_1" = category_mappings_skull_4_to_1, # 5_1
     "Skull_3_to_2" = category_mappings_skull_3_to_2, # 4_3

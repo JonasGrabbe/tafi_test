@@ -1,3 +1,330 @@
+
+
+
+
+
+
+
+
+
+
+####### mappings ####
+category_mappings = list(
+
+#### CRANIUM 
+# Level 2 -> Level 1
+category_mappings_cranium_2_to_1 <- list(
+  cranium = c("neurocranium_bone", "splanchnocranium")
+)
+
+# Level 3 -> Level 1
+category_mappings_cranium_3_to_1 <- list(
+  cranium = c(
+    # neurocranium (L3)
+    "neurocranium_bone_indet",
+    "frontal_bone", "parietal_bone", "temporal", "occipital", "sphenoid", "ethmoid",
+
+    # splanchnocranium (L3)
+    "splanchnocranium_indet",
+    "maxilla", "palatine_bone", "zygomatic_bone", "nasal_bone", "lacrimal_bone",
+    "vomer_bone", "inferior_nasal_concha",
+
+    # other L3
+    "ossicles_of_the_middle_ear",
+    "mandible"
+  )
+)
+
+# Level 4 -> Level 1
+category_mappings_cranium_4_to_1 <- list(
+  cranium = c(
+    "neurocranium_bone_indet","frontal_bone",
+    "parietal_bone_indet", "parietal_bone_right", "parietal_bone_left",
+    "temporal_bone_indet", "temporal_right", "temporal_left",
+    "occipital", "sphenoid", "ethmoid",
+    "splanchnocranium_indet",    
+    "maxilla", "palatine_bone",
+    "zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left",
+    "nasal_bone", "lacrimal_bone", "vomer_bone", "inferior_nasal_concha",
+
+    "ossicles_of_the_middle_ear_indet",
+    "malleus", "incus", "stapes",
+
+    "mandible"
+  )
+)
+
+# Level 5 -> Level 1
+category_mappings_cranium_5_to_1 <- list(
+  cranium = c("neurocranium_bone_indet",
+    "frontal_bone",
+    "parietal_bone_indet", "parietal_bone_right", "parietal_bone_left",
+    "temporal_bone_indet", "temporal_right", "temporal_left",
+    "occipital", "sphenoid", "ethmoid",
+    "splanchnocranium_indet",
+    "maxilla", "palatine_bone",
+    "zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left",
+    "nasal_bone", "lacrimal_bone", "vomer_bone", "inferior_nasal_concha",
+
+    "ossicles_of_the_middle_ear_indet",
+    "malleus_indet", "malleus_right", "malleus_left",
+    "incus_indet", "incus_right", "incus_left",
+    "stapes_indet", "stapes_right", "stapes_left",
+
+    "mandible"
+  )
+)
+
+# Level 3 -> Level 2  (ONLY things that actually belong to L2 groups)
+category_mappings_cranium_3_to_2 <- list(
+  neurocranium_bone = c(
+    "neurocranium_bone_indet",
+    "frontal_bone", "parietal_bone", "temporal", "occipital", "sphenoid", "ethmoid"
+  ),
+  splanchnocranium = c(
+    "splanchnocranium_indet",
+    "maxilla", "palatine_bone", "zygomatic_bone", "nasal_bone", "lacrimal_bone",
+    "vomer_bone", "inferior_nasal_concha",
+    "ossicles_of_the_middle_ear","mandible"
+
+  )
+)
+
+# Level 4 -> Level 2
+category_mappings_cranium_4_to_2 <- list(
+  neurocranium_bone = c("neurocranium_bone_indet",
+    "frontal_bone",
+    "parietal_bone_indet", "parietal_bone_right", "parietal_bone_left",
+    "temporal_bone_indet", "temporal_right", "temporal_left",
+    "occipital", "sphenoid", "ethmoid"
+  ),
+  splanchnocranium = c("splanchnocranium_indet",
+    "maxilla", "palatine_bone",
+    "zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left",
+    "nasal_bone", "lacrimal_bone", "vomer_bone", "inferior_nasal_concha",
+    "ossicles_of_the_middle_ear_indet","malleus","incus","stapes","mandible"
+  )
+)
+
+# Level 5 -> Level 2
+category_mappings_cranium_5_to_2 <- list(
+    neurocranium_bone = c("neurocranium_bone_indet",
+      "frontal_bone",
+      "parietal_bone_indet", "parietal_bone_right", "parietal_bone_left",
+      "temporal_bone_indet", "temporal_right", "temporal_left",
+      "occipital", "sphenoid", "ethmoid"
+    ),
+    splanchnocranium = c("splanchnocranium_indet",
+      "maxilla", "palatine_bone",
+      "zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left",
+      "nasal_bone", "lacrimal_bone", "vomer_bone", "inferior_nasal_concha",
+      "ossicles_of_the_middle_ear_indet","malleus_indet","malleus_right",
+      "malleus_left","incus_indet","incus_right","incus_left","stapes_indet",
+      "stapes_right","stapes_left",      
+      "mandible"
+    )
+  )
+
+# Level 4 -> Level 3
+category_mappings_cranium_4_to_3 <- list(
+    neurocranium_bone_indet  = c("neurocranium_bone_indet"),  
+  frontal_bone  = c("frontal_bone"),
+  parietal_bone = c("parietal_bone_indet", "parietal_bone_right", "parietal_bone_left"),
+  temporal      = c("temporal_bone_indet", "temporal_right", "temporal_left"),
+  occipital     = c("occipital"),
+  sphenoid      = c("sphenoid"),
+  ethmoid       = c("ethmoid"),
+
+  splanchnocranium_indet  = c("splanchnocranium_indet"), 
+  maxilla       = c("maxilla"),
+  palatine_bone = c("palatine_bone"),
+  zygomatic_bone = c("zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left"),
+  nasal_bone    = c("nasal_bone"),
+  lacrimal_bone = c("lacrimal_bone"),
+  vomer_bone    = c("vomer_bone"),
+  inferior_nasal_concha = c("inferior_nasal_concha"),
+
+  ossicles_of_the_middle_ear = c("ossicles_of_the_middle_ear_indet", "malleus", "incus", "stapes"),
+  mandible = c("mandible")
+)
+
+# Level 5 -> Level 3
+category_mappings_cranium_5_to_3 <- list(
+    neurocranium_bone_indet  = c("neurocranium_bone_indet"),  
+  frontal_bone  = c("frontal_bone"),
+  parietal_bone = c("parietal_bone_indet", "parietal_bone_right", "parietal_bone_left"),
+  temporal      = c("temporal_bone_indet", "temporal_right", "temporal_left"),
+  occipital     = c("occipital"),
+  sphenoid      = c("sphenoid"),
+  ethmoid       = c("ethmoid"),
+
+  splanchnocranium_indet  = c("splanchnocranium_indet"), 
+  maxilla       = c("maxilla"),
+  palatine_bone = c("palatine_bone"),
+  zygomatic_bone = c("zygomatic_bone_indet", "zygomatic_bone_right", "zygomatic_bone_left"),
+  nasal_bone    = c("nasal_bone"),
+  lacrimal_bone = c("lacrimal_bone"),
+  vomer_bone    = c("vomer_bone"),
+  inferior_nasal_concha = c("inferior_nasal_concha"),
+
+  ossicles_of_the_middle_ear = c(
+    "ossicles_of_the_middle_ear_indet",
+    "malleus_indet", "malleus_right", "malleus_left",
+    "incus_indet", "incus_right", "incus_left",
+    "stapes_indet", "stapes_right", "stapes_left"
+  ),
+  mandible = c("mandible")
+)
+
+# Level 5 -> Level 4
+category_mappings_cranium_5_to_4 <- list(
+    neurocranium_bone_indet  = c("neurocranium_bone_indet"),
+  frontal_bone = c("frontal_bone"),
+  parietal_bone_indet = c("parietal_bone_indet"),
+  parietal_bone_right = c("parietal_bone_right"),
+  parietal_bone_left  = c("parietal_bone_left"),
+  temporal_bone_indet = c("temporal_bone_indet"),
+  temporal_right      = c("temporal_right"),
+  temporal_left       = c("temporal_left"),
+  occipital = c("occipital"),
+  sphenoid  = c("sphenoid"),
+  ethmoid   = c("ethmoid"),
+
+  splanchnocranium_indet  = c("splanchnocranium_indet"), 
+  maxilla       = c("maxilla"),
+  palatine_bone = c("palatine_bone"),
+  zygomatic_bone_indet = c("zygomatic_bone_indet"),
+  zygomatic_bone_right = c("zygomatic_bone_right"),
+  zygomatic_bone_left  = c("zygomatic_bone_left"),
+  nasal_bone    = c("nasal_bone"),
+  lacrimal_bone = c("lacrimal_bone"),
+  vomer_bone    = c("vomer_bone"),
+  inferior_nasal_concha = c("inferior_nasal_concha"),
+
+  ossicles_of_the_middle_ear_indet = c("ossicles_of_the_middle_ear_indet"),
+  malleus = c("malleus_indet", "malleus_right", "malleus_left"),
+  incus   = c("incus_indet", "incus_right", "incus_left"),
+  stapes  = c("stapes_indet", "stapes_right", "stapes_left")
+  
+  mandible = c("mandible")
+),
+
+#Hyoid 0
+
+#### Vertebrae 3
+
+
+#Thorax   6
+
+...... )
+
+
+######### recal MNE ########
+
+  category_hierarchy <- list(
+
+    #Skull 4 6 6
+    "Skull_4_to_2" = category_mappings_skull_4_to_2, # 5_3
+    "Skull_4_to_1" = category_mappings_skull_4_to_1, # 5_1
+    "Skull_3_to_2" = category_mappings_skull_3_to_2, # 4_3
+    "Skull_3_to_1" = category_mappings_skull_3_to_1, # 4_1
+    "Skull_2_to_1" = category_mappings_skull_2_to_1, # 3_1
+    "Skull_4_to_3" = category_mappings_skull_4_to_3, # 5_4
+    "Skull_5_to_1" = category_mappings_skull_5_to_1, # 2_1
+    "Skull_5_to_2" = category_mappings_skull_5_to_2, # 3_2
+    "Skull_5_to_3" = category_mappings_skull_5_to_3, # 4_2
+    "Skull_5_to_4" = category_mappings_skull_5_to_4, # 5_2
+
+
+  #Vertebrae 3  3 3
+    "Vertebrae_2_to_1" = category_mappings_vertebrae_2_to_1,
+    "Vertebrae_3_to_1" = category_mappings_vertebrae_3_to_1,
+    "Vertebrae_3_to_2" = category_mappings_vertebrae_3_to_2,
+
+    #Thorax 4  6 6
+
+    "Thorax_4_to_3" = category_mappings_thorax_4_to_3,
+    "Thorax_4_to_2" = category_mappings_thorax_4_to_2,
+    "Thorax_4_to_1" = category_mappings_thorax_4_to_1,
+    "Thorax_3_to_2" = category_mappings_thorax_3_to_2,
+    "Thorax_3_to_1" = category_mappings_thorax_3_to_1,
+    "Thorax_2_to_1" = category_mappings_thorax_2_to_1,
+
+
+
+
+    #Shoulder 3 3 3
+    "Shoulder_2_to_1" = category_mappings_shoulder_2_to_1,
+    "Shoulder_3_to_1" = category_mappings_shoulder_3_to_1,
+    "Shoulder_3_to_2" = category_mappings_shoulder_3_to_2,
+
+    #Arms 3 3 3
+    "Arms_2_to_1" = category_mappings_arms_2_to_1,
+    "Arms_3_to_1" = category_mappings_arms_3_to_1,
+    "Arms_3_to_2" = category_mappings_arms_3_to_2,
+
+    #Hands 5 10 10
+    "Hands_2_to_1" = category_mappings_hands_2_to_1,
+    "Hands_3_to_1" = category_mappings_hands_3_to_1,
+    "Hands_4_to_1" = category_mappings_hands_4_to_1,
+    "Hands_3_to_2" = category_mappings_hands_3_to_2,
+    "Hands_4_to_2" = category_mappings_hands_4_to_2,
+    "Hands_5_to_1" = category_mappings_hands_5_to_1,
+    "Hands_5_to_2" = category_mappings_hands_5_to_2,
+    "Hands_4_to_3" = category_mappings_hands_4_to_3,
+    "Hands_5_to_3" = category_mappings_hands_5_to_3,
+    "Hands_5_to_4" = category_mappings_hands_5_to_4,
+
+    #Pelvic 4 6 6
+    "Pelvic_2_to_1" = category_mappings_pelvic_2_to_1,
+    "Pelvic_3_to_1" = category_mappings_pelvic_3_to_1,
+    "Pelvic_3_to_2" = category_mappings_pelvic_3_to_2,
+    "Pelvic_4_to_1" = category_mappings_pelvic_4_to_1,
+    "Pelvic_4_to_2" = category_mappings_pelvic_4_to_2,
+    "Pelvic_4_to_3" = category_mappings_pelvic_4_to_3,
+
+    #Leg 3 3 3
+    "Legs_2_to_1" = category_mappings_legs_2_to_1,
+    "Legs_3_to_1" = category_mappings_legs_3_to_1,
+    "Legs_3_to_2" = category_mappings_legs_3_to_2,
+
+    #Foot 5 10 10
+    "Foot_2_to_1" = category_mappings_foot_2_to_1,
+    "Foot_3_to_1" = category_mappings_foot_3_to_1,
+    "Foot_4_to_1" = category_mappings_foot_4_to_1,
+    "Foot_3_to_2" = category_mappings_foot_3_to_2,
+    "Foot_4_to_2" = category_mappings_foot_4_to_2,
+    "Foot_5_to_1" = category_mappings_foot_5_to_1,
+    "Foot_5_to_2" = category_mappings_foot_5_to_2,
+    "Foot_4_to_3" = category_mappings_foot_4_to_3,
+    "Foot_5_to_3" = category_mappings_foot_5_to_3,
+    "Foot_5_to_4" = category_mappings_foot_5_to_4
+
+  )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # --- VERTEBRAE --------------------------------------------------------
 vertebrae <- list(
   "Level 1" = list(
@@ -257,8 +584,7 @@ category_mappings_thorax_2_to_1 <- list(
 
     #Thorax 4  6 6
 
-    "Thorax_4_to_3" = catego
-    ry_mappings_thorax_4_to_3,
+    "Thorax_4_to_3" = category_mappings_thorax_4_to_3,
     "Thorax_4_to_2" = category_mappings_thorax_4_to_2,
     "Thorax_4_to_1" = category_mappings_thorax_4_to_1,
     "Thorax_3_to_2" = category_mappings_thorax_3_to_2,

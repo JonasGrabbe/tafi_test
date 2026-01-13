@@ -185,10 +185,47 @@ get_bones_dataframe_ <- function(levels_vector) {
 
   return(df)
 }
-get_bones_dataframe_(c(1,1,1,1,1,1,1,2,1,1,1))
+get_bones_dataframe_(c(2,2,2,2,2,2,2,2,2,2,2))
 ```
 
 
 ```{r}
 skeleton_hierarchy[[3]][["Level 2"]]
+
+```
+
+```{r}
+source("elements_data_updated.R")
+ed <- elements_data
+
+```
+
+```{r}
+elements_data$ElementsOne[195]
+```
+
+```{r}
+elements_data$Level[195]
+```
+
+```{r}
+elements_data$Bone_Count[195]
+```
+
+
+```{r}
+elements_data$Skeleton_Section[195]
+```
+
+```{r}
+length(
+
+  
+ c(
+      "pelvic_indet", "sacrum_indet", "coccyx_indet", "os_coxae_indet", "ilium", "ischium", "pubis", "acetabulum",
+      "foramen_obturatum", "symphysis_pubis", "iliac_crest", "ischial_tuberosity", "greater_sciatic_notch", "lesser_sciatic_notch", "auricular_surface"
+    )
+
+
+  )
 ```

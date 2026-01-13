@@ -415,6 +415,7 @@ skeleton_hierarchy <- list(
 ############################################################################################
 elements_data <- data.frame(
   ElementsOne = c(
+    
 
     #Skull
     "Skull", "Neurocranium bone", "Frontal bone", "Parietal bone", "Parietal bone Right",
