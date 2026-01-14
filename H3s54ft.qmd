@@ -190,11 +190,37 @@ get_bones_dataframe_(c(2,2,2,2,2,2,2,2,2,2,2))
 
 
 ```{r}
-skeleton_hierarchy[[3]][["Level 2"]]
+source("meta_new.R")
+  # Sections in the skeleton hierarchy
+  sections <-  c("cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
+                    "arms", "hands", "pelvic", "legs", "foot")
+
+  # Initialize a list to store the elements and counts
+  elements <- c()
+  counts <- c()
+
+  # Loop through each section and level
+  for (i in seq_along(sections)) {
+    section <- i
+
+      for (j in seq_along(skeleton_hierarchy[[section]])) {
+
+          level <- paste0("Level ", j)
+          pout <- paste0(sections[i],": ",level)
+          print(pout)
+          #print(level)
+          print(length(skeleton_hierarchy[[section]][[level]]))
+  }}
+```
+
+```{r}
+
+print(length(skeleton_hierarchy[[1]]))
 
 ```
 
 ```{r}
+
 source("elements_data_updated.R")
 ed <- elements_data
 
@@ -226,4 +252,34 @@ c(
       )
 
   )
+```
+
+```{r}
+source("elements_data_subvectors_updated.R")
+elements_data$ElementsOne[392:495]
+```
+
+```{r}
+
+length(elements_data$ElementsOne)
+```
+
+```{r}
+elements_data$Bone_Count[392:495]
+```
+
+```{r}
+length(elements_data$Bone_Count)
+```
+
+```{r}
+elements_data$Level[392:495]
+```
+
+```{r}
+length(elements_data$Level)
+```
+
+```{r}
+length(elements_data$Skeleton_Section)
 ```
