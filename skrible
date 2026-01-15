@@ -1649,3 +1649,160 @@ category_mappings_arms_3_to_2 <- list(
 "Arms_2_to_1" = category_mappings_arms_2_to_1,
 "Arms_3_to_1" = category_mappings_arms_3_to_1,
 "Arms_3_to_2" = category_mappings_arms_3_to_2,
+
+
+loaded_tapho <- function(ind_name, meta, level, col_element, col_count, strict = FALSE) {
+
+  # strict/warn helper
+  issues <- character(0)
+  add_issue <- function(x) issues <<- c(issues, x)
+  warn_or_stop <- function(x) {
+    if (isTRUE(strict)) stop(x, call. = FALSE)
+    add_issue(x)
+  }
+
+  # ----- Validate level -----
+  if (length(level) != 11) {
+    warn_or_stop(sprintf("loaded_tapho(): level must have length 11 (got %d). Padding/truncating.", length(level)))
+    if (length(level) < 11) level <- c(level, rep(NA_real_, 11 - length(level)))
+    if (length(level) > 11) level <- level[1:11]
+  }
+
+  # ----- Validate skeletal vectors -----
+  if (length(col_element) != length(col_count)) {
+    stop("loaded_tapho(): col_element and col_count must have the same length.", call. = FALSE)
+  }
+
+  col_element <- trimws(as.character(col_element))
+
+  col_count_num <- suppressWarnings(as.numeric(col_count))
+  if (any(is.na(col_count_num) & !is.na(col_count))) {
+    warn_or_stop("loaded_tapho(): Non-numeric skeletal counts found; coerced to NA then set to 0.")
+  }
+  col_count_num[is.na(col_count_num)] <- 0
+
+  non_int <- abs(col_count_num - round(col_count_num)) > 1e-9
+  if (any(non_int)) {
+    warn_or_stop("loaded_tapho(): Non-integer skeletal counts detected; rounded to nearest integer.")
+    col_count_num <- round(col_count_num)
+  }
+
+  if (any(col_count_num < 0, na.rm = TRUE)) {
+    warn_or_stop("loaded_tapho(): Negative skeletal counts detected; set to 0.")
+    col_count_num[col_count_num < 0] <- 0
+  }
+
+  col_count_num <- as.integer(col_count_num)
+
+  # ----- Parse meta (two-column block: element + count) -----
+  if (!is.data.frame(meta) || !all(c("element", "count") %in% colnames(meta))) {
+    stop("loaded_tapho(): meta must be a data.frame with columns element + count.", call. = FALSE)
+  }
+
+  meta_keys <- trimws(as.character(meta$element))
+  meta_vals <- meta$count
+  meta_named <- stats::setNames(as.list(meta_vals), meta_keys)
+
+  get_meta <- function(k) {
+    if (!is.null(meta_named[[k]])) return(meta_named[[k]])
+    NA
+  }
+
+  # coercers
+  parse_int <- function(x) suppressWarnings(as.integer(as.numeric(x)))
+  parse_chr <- function(x) if (is.na(x)) NA_character_ else as.character(x)
+
+  site_index <- parse_int(get_meta("site_id"))
+  sample_index <- parse_chr(get_meta("individual_id"))
+  site_name <- parse_chr(get_meta("site_name"))
+
+  sum_meta <- suppressWarnings(as.numeric(get_meta("sum")))
+  if (is.na(sum_meta)) sum_meta <- sum(col_count_num, na.rm = TRUE)
+
+  time_range <- parse_chr(get_meta("cultural_period"))
+  geological_context <- parse_chr(get_meta("geological_period"))
+
+  number_of_individuals <- parse_int(get_meta("mni"))
+  age <- parse_chr(get_meta("age_class"))
+  gender <- parse_chr(get_meta("gender"))
+  accumulation_cause <- parse_chr(get_meta("taphonomic_context"))
+  hominin_species <- parse_chr(get_meta("hominin_species"))
+
+  # ----- Emit aggregated warnings -----
+  if (length(issues) > 0 && !isTRUE(strict)) {
+    warning(paste0("loaded_tapho validation:\n- ", paste(unique(issues), collapse = "\n- ")), call. = FALSE)
+  }
+
+  dataset <- tibble::tibble(
+    ind_name = ind_name,
+    site_index = site_index,
+    sample_index = sample_index,
+    site_name = site_name,
+    sum = sum_meta,
+    time_range = time_range,
+    geological_context = geological_context,
+    number_of_individuals = number_of_individuals,
+    age = age,
+    gender = gender,
+    accumulation_cause = accumulation_cause,
+    hominin_species = hominin_species,
+    bone.level = list(level),
+    element = list(col_element),
+    count = list(col_count_num),
+
+    # for debugging / traceability
+    meta_raw = list(meta_named)
+  )
+
+  attr(dataset, "validation_issues") <- unique(issues)
+  return(dataset)
+}
+
+
+########################################### tapho-r loader function sum=0 ##############
+tapho.load <- function(new_site_data, strict = FALSE) {
+
+  # 1) Validate & coerce first (warn now, not later)
+  new_site_data <- archo_preload_site_table(new_site_data, strict = strict)
+
+  # 2) Now safe to continue
+  ind_name <- colnames(new_site_data)[2]
+
+  colnames(new_site_data) <- c("element", "count")
+
+  new_site_meta <- new_site_data[1:31, , drop = FALSE]
+  new_site_raw  <- new_site_data[-c(1:31), , drop = FALSE]
+
+  target_levels <- summarize_bone_sections_zero_na(new_site_raw)
+
+  # NA skeletal values are already set to 0 by validator, but keep this safe:
+  new_site_raw$count[is.na(new_site_raw$count)] <- 0
+
+  recalc_new_site_raw <- recal_mne_six(
+    as.numeric(new_site_raw$count),
+    target_levels,
+    skeleton_hierarchy,
+    new_site_raw$element,
+    sections_order
+  )
+
+  one_skeleton <- get_bones_dataframe(target_levels)
+
+  data_aligned <- align_loaded_data(
+    one_skeleton$element,
+    recalc_new_site_raw$element,
+    recalc_new_site_raw$count
+  )
+
+  # ✅ FIXED CALL SIGNATURE: pass meta DF, not meta$count
+  tapho_loaded <- loaded_tapho(
+    ind_name     = ind_name,
+    meta         = new_site_meta,
+    level        = target_levels,
+    col_element  = data_aligned$element,
+    col_count    = data_aligned$count,
+    strict       = strict
+  )
+
+  return(tapho_loaded)
+}
