@@ -1,0 +1,158 @@
+---
+title: "r1b one Enero"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("meta_new.R")
+source("tapho_loader_new.R")
+elements_data= elements_data
+
+```
+
+```{r}
+library(readxl)
+
+excel_path <- "hspa_one.xlsx"
+df_one <- readxl::read_excel(excel_path)
+df_one[3:33,]
+```
+
+
+```{r}
+
+source("archology_loader_hardcoded.R")
+
+df <- archo_preload(df_one)
+df
+
+
+```
+
+
+```{r}
+
+library(dplyr)
+
+elements_data = elements_data
+
+library(dplyr)
+library(tidyr)
+library(stringr)
+
+add_bone_info <- function(input_df, reference_df = elements_data) {
+  # Step 1: Ensure correct input structure
+  if (!all(c("element", "count") %in% names(input_df))) {
+    stop("Input dataframe must have 'element' and 'count' columns")
+  }
+  
+  # Step 2: Unnest and clean the element names
+  input_df <- input_df %>%
+    unnest(element) %>%    # Unnest 'element' if it is a list column
+    mutate(element = as.character(element), # Ensure 'element' is a character column
+           element = str_replace(element, "^[^.]+\\.", "")) # Clean 'element'
+  
+  # Step 3: Prepare reference dataframe
+  reference_df <- reference_df %>%
+    select(ElementsOne, Level, Skeleton_Section) %>%
+    distinct()
+  
+  # Step 4: Match bone names and add information
+  result_df <- input_df %>%
+    left_join(reference_df, by = c("element" = "ElementsOne"))
+  
+  # Step 5: Handle unmatched bones
+  unmatched <- is.na(result_df$Level) | is.na(result_df$Skeleton_Section)
+  if (any(unmatched)) {
+    warning(paste("Unmatched bones:",
+                  paste(result_df$element[unmatched], collapse = ", ")))
+  }
+  
+  # Step 6: Ensure consistent column order
+  result_df <- result_df %>%
+    select(element, count, Level, Skeleton_Section)
+  
+  return(result_df)
+}
+
+```
+
+
+```{r}
+summarize_bone_sections_zero_na <- function(input_df, reference_df = elements_data) {
+  colnames(input_df) <- c("element", "count")
+  # Filter out rows where input_df$element is 0 or NA
+
+  input_df <- input_df %>%
+    filter(!is.na(input_df$count) & input_df$count != 0)
+
+
+  # Add bone info using the filtered input_df
+  bone_info_df <- add_bone_info(input_df, reference_df)
+
+  # Define the ordered list of skeleton sections
+    sections_order <- c("cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
+    "arms", "hands", "pelvic", "legs", "foot")
+
+  # Summarize the minimum Level for each section
+  summary_df <- bone_info_df %>%
+    group_by(Skeleton_Section) %>%
+    summarize(min_level = min(Level, na.rm = TRUE)) %>%
+    ungroup()
+
+  # Create a named vector with all sections, initializing with 1 (instead of NA)
+  result_vector <- setNames(rep(1, length(sections_order)), sections_order)
+
+  # Fill in the result_vector with available data
+  for (section in sections_order) {
+    if (section %in% summary_df$Skeleton_Section) {
+      level <- summary_df$min_level[summary_df$Skeleton_Section == section]
+      # If the level is NA, keep it as 1, otherwise use the actual level
+      result_vector[section] <- if(is.na(level)) 1 else level
+    }
+    # If the section is not in summary_df, it will remain 1
+  }
+
+  # Return just the numeric vector without names
+  return(unname(result_vector))
+}
+
+```
+
+
+```{r}
+
+summarize_bone_sections_zero_na(df[-c(1:31),])
+
+
+```
+
+
+```{r}
+input_df <- df[-c(1:31),]
+input_df <- input_df %>%
+    filter(!is.na(input_df[2]) & input_df[2]!= 0)
+
+```
+
+
+```{r}
+
+input_df
+```
+
+
+```{r}
+
+colnames(input_df) <- c("element", "count")
+
+```
