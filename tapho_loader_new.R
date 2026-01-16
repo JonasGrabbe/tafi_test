@@ -2,7 +2,7 @@ source("meta_new.R")
 source("NewSiteDataLoader_new.R")
 source("select_data_new.R")
 source("data_loader_new.R")
-source("archo_preload.R")
+source("archo_preload_2.R")
 
 library(dplyr)
 library(tibble)
@@ -25,7 +25,7 @@ summarize_bone_sections_zero_na <- function(input_df, reference_df = elements_da
   # Summarize the minimum Level for each section
   summary_df <- bone_info_df %>%
     group_by(Skeleton_Section) %>%
-    summarize(min_level = min(Level, na.rm = TRUE)) %>%
+    summarize(min_level = min(max_Level, na.rm = TRUE)) %>%
     ungroup()
 
   # Create a named vector with all sections, initializing with 1 (instead of NA)
@@ -83,7 +83,7 @@ recal_mne_six <- function(current_mne,  target_levels, skeleton_hierarchy, bone_
             child = gsub(" ", ".", child),
             parent = gsub(" ", ".", parent)
           )
-
+          
         # Split data into mappable and non-mappable elements
         mappable <- working_data %>%
           inner_join(element_map, by = c("std_element" = "child"))
@@ -97,9 +97,10 @@ recal_mne_six <- function(current_mne,  target_levels, skeleton_hierarchy, bone_
           summarize(count = sum(count, na.rm = TRUE)) %>%
           rename(std_element = parent)
 
+       
         # Combine with non-mappable elements
         working_data <- bind_rows(non_mappable, aggregated)
-
+       
         current_level <- intermediate_level
         cat("  Step", iteration, "| Level:", current_level, "| Elements:", nrow(working_data), "\n")
         iteration <- iteration + 1
@@ -108,11 +109,12 @@ recal_mne_six <- function(current_mne,  target_levels, skeleton_hierarchy, bone_
         break
       }
     }
-
+ 
     # Store final results
     if(nrow(working_data) > 0) {
       for(i in seq_len(nrow(working_data))) {
-        element_name <- paste(part, working_data$std_element[i], sep = "_")
+        #element_name <- paste(part, working_data$std_element[i], sep = "_")
+        element_name <-  working_data$std_element[i]
         new_mne[[element_name]] <- working_data$count[i]
       }
     }
@@ -129,27 +131,84 @@ recal_mne_six <- function(current_mne,  target_levels, skeleton_hierarchy, bone_
 
 
 
-align_loaded_data <- function(one_skeleton, longer_elements, longer_counts) {
+align_counts_to_skeleton <- function(one_skeleton_element,
+  recalc_element,
+  recalc_count,
+  fill_value = NA,
+  aggregate = c("sum", "first")) {
+aggregate <- match.arg(aggregate)
 
-  shorter_elements <- sub(".*\\.", "",one_skeleton)
-  longer_elements <- sub(".*\\_", "", gsub("\\.", " ", longer_elements))
+# Build a lookup table (handle duplicate elements in recalc data)
+recalc_df <- data.frame(element = recalc_element, count = recalc_count)
 
-  # Find the elements in the longer vector that are not in the shorter vector
-  elements_to_remove <- longer_elements[!longer_elements %in% shorter_elements]
-
-  # Find the positions of these elements in the longer vector
-  positions_to_remove <- which(longer_elements %in% elements_to_remove)
-
-  # Remove these elements and their corresponding counts from both vectors
-  aligned_longer_elements <- longer_elements[-positions_to_remove]
-  aligned_longer_counts <- longer_counts[-positions_to_remove]
-
-  align_loaded_db <- data.frame(element = aligned_longer_elements, count = aligned_longer_counts)
-
-  return(align_loaded_db)
+if (aggregate == "sum") {
+recalc_df <- aggregate(count ~ element, data = recalc_df, FUN = sum)
+} else if (aggregate == "first") {
+recalc_df <- recalc_df[!duplicated(recalc_df$element), ]
 }
 
+# Match skeleton elements to recalc counts
+aligned_counts <- recalc_df$count[match(one_skeleton_element, recalc_df$element)]
 
+# Fill missing matches if requested
+aligned_counts[is.na(aligned_counts)] <- fill_value
+
+# Output aligned dataframe
+align_loaded_db <- data.frame(
+element = one_skeleton_element,
+count = aligned_counts
+)
+
+return(align_loaded_db)
+}
+
+########################################### tapho-r loader function sum=0 ##############
+tapho.load <- function(new_site_data, strict = FALSE) {
+
+  # 1) Validate & coerce first (warn now, not later)
+  new_site_data <- archo_preload_site_table(new_site_data, strict = strict)
+
+  # 2) Now safe to continue
+  ind_name <- colnames(new_site_data)[2]
+
+  colnames(new_site_data) <- c("element", "count")
+
+  new_site_meta <- new_site_data[1:31, , drop = FALSE]
+  new_site_raw  <- new_site_data[-c(1:31), , drop = FALSE]
+
+  target_levels <- summarize_bone_sections_zero_na(new_site_raw)
+
+  # NA skeletal values are already set to 0 by validator, but keep this safe:
+  new_site_raw$count[is.na(new_site_raw$count)] <- 0
+
+  recalc_new_site_raw <- recal_mne_six(
+    as.numeric(new_site_raw$count),
+    target_levels,
+    skeleton_hierarchy,
+    new_site_raw$element,
+    sections_order
+  )
+
+  one_skeleton <- get_bones_dataframe(target_levels)
+
+  data_aligned <- align_counts_to_skeleton(
+    one_skeleton$element,
+    recalc_new_site_raw$element,
+    recalc_new_site_raw$count
+  )
+
+  # ✅ FIXED CALL SIGNATURE: pass meta DF, not meta$count
+  tapho_loaded <- loaded_tapho(
+    ind_name     = ind_name,
+    meta         = new_site_meta,
+    level        = target_levels,
+    col_element  = data_aligned$element,
+    col_count    = data_aligned$count,
+    strict       = strict
+  )
+
+  return(tapho_loaded)
+}
 
 
 

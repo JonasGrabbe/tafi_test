@@ -21,7 +21,7 @@ add_bone_info <- function(input_df, reference_df = elements_data) {
   
   # Step 3: Prepare reference dataframe
   reference_df <- reference_df %>%
-    select(ElementsOne, Level, Skeleton_Section) %>%
+    select(ElementsOne, max_Level, Skeleton_Section) %>%
     distinct()
   
   # Step 4: Match bone names and add information
@@ -29,7 +29,7 @@ add_bone_info <- function(input_df, reference_df = elements_data) {
     left_join(reference_df, by = c("element" = "ElementsOne"))
   
   # Step 5: Handle unmatched bones
-  unmatched <- is.na(result_df$Level) | is.na(result_df$Skeleton_Section)
+  unmatched <- is.na(result_df$max_Level) | is.na(result_df$Skeleton_Section)
   if (any(unmatched)) {
     warning(paste("Unmatched bones:",
                   paste(result_df$element[unmatched], collapse = ", ")))
@@ -37,7 +37,7 @@ add_bone_info <- function(input_df, reference_df = elements_data) {
   
   # Step 6: Ensure consistent column order
   result_df <- result_df %>%
-    select(element, count, Level, Skeleton_Section)
+    select(element, count, max_Level, Skeleton_Section)
   
   return(result_df)
 }

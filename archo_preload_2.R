@@ -330,8 +330,8 @@ loaded_tapho <- function(ind_name, meta, level, col_element, col_count, strict =
     ind_name = ind_name,
 
     # Common identifiers
-    site_index = site_id,
-    sample_index = individual_id,
+    #site_index = site_id,
+    #sample_index = individual_id,
 
     # Meta columns (1:31) as explicit fields
     site_id = site_id,
@@ -367,12 +367,12 @@ loaded_tapho <- function(ind_name, meta, level, col_element, col_count, strict =
     reference = reference,
 
     # derived numeric parts for easy later calculations
-    sample_site_id = parsed_id$site_id,
-    sample_no = parsed_id$sample_no,
-    individual_no = parsed_id$individual_no,
+    #sample_site_id = parsed_id$site_id,
+    #sample_no = parsed_id$sample_no,
+    #individual_no = parsed_id$individual_no,
 
     # summary
-    sum = sum_count,
+    sum_count = sum_count,
 
     # list-cols for analysis
     bone.level = list(level),

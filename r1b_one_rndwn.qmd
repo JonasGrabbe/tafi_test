@@ -69,18 +69,134 @@ tapho.load <- function(new_site_data){
 ```{r}
 source("meta_new.R")
 source("tapho_loader_new.R")
-source("archo_preload_2.R")
+#source("archo_preload_2.R")
 excel_path <- "hspa_one.xlsx"
 df_one <- readxl::read_excel(excel_path)
-tb <- tapho.load(df_one)
-tb
+#tb <- tapho.load(df_one)
+#tb
 ```
 
 
 ```{r}
 
-tb$element
 
+
+loaded_tapho <- function(meta, level, col_element, col_count) {
+  # Ensure that level is a 10-element vector
+  if (length(level) != 11) {
+    stop("The level vector must have exactly 11 elements.")
+  }
+
+  # Ensure that col_element and col_count are of the same length
+  if (length(col_element) != length(col_count)) {
+    stop("The length of col_element and col_count must be the same.")
+  }
+
+  # Create the tibble with the specified columns
+  dataset <- tibble::tibble(
+    site_index = meta[1],
+    sample_index = meta[2],
+    site_name = meta[3],
+    sum = meta[4],
+    time_range = meta[5],
+    geological_context = meta[6],
+    number_of_individuals = meta[7],
+    age = meta[8],
+    gender = meta[9],
+    accumulation_cause = meta[10],
+    hominin_species = meta[11],
+    bone.level = list(level),  # Store level as a list
+    element = list(col_element),  # Store col_element as a list
+    count = list(col_count)  # Store col_count as a list
+  )
+
+  return(dataset)
+}
+
+```
+
+
+```{r}
+new_site_data <- df_one
+colnames(new_site_data) <- c("element", "count")
+
+new_site_meta <- new_site_data[1:31, , drop = FALSE]
+new_site_raw  <- new_site_data[-c(1:31), , drop = FALSE]
+target_levels <- summarize_bone_sections_zero_na(new_site_raw)
+
+new_site_raw$count[is.na(new_site_raw$count)] <- 0
+
+recalc_new_site_raw <- recal_mne_six(as.numeric(new_site_raw$count), target_levels, skeleton_hierarchy, new_site_raw$element, sections_order)
+
+one_skeleton = get_bones_dataframe(target_levels)
+data_aligned = align_counts_to_skeleton(one_skeleton$element, recalc_new_site_raw$element, recalc_new_site_raw$count)
+tapho_loaded <- loaded_tapho(new_site_meta$count, target_levels, data_aligned$element, data_aligned$count)
+```
+
+
+```{r}
+
+new_site_data <- df_one
+tapho_loaded <- tapho.load(new_site_data)
+
+tapho_loaded$count
+```
+
+
+```{r}
+tapho_loaded
+```
+
+
+```{r}
+source("meta_new.R")
+source("tapho_loader_new.R")
+summarize_bone_sections_zero_na(new_site_raw)
+
+```
+
+
+```{r}
+elements_data %>% select(ElementsOne, Level, Skeleton_Section) %>%
+    distinct()
+```
+
+
+```{r}
+
+ tb <- recal_mne_six(as.numeric(new_site_raw$count), target_levels, skeleton_hierarchy, new_site_raw$element, sections_order)
+print(tb$count)
+tb$element
+```
+
+
+```{r}
+
+#target_levels
+level <- paste0("Level ", target_level)
+names(skeleton_hierarchy$part$`Level 3`) 
+```
+
+
+```{r}
+#tapho_loaded$count
+shorter_elements <- one_skeleton$element 
+longer_elements <- recalc_new_site_raw$element
+longer_counts <-  recalc_new_site_raw$count
+
+# Find the elements in the longer vector that are not in the shorter vector
+elements_to_remove <- longer_elements[!longer_elements %in% shorter_elements]
+
+# Find the positions of these elements in the longer vector
+which(longer_elements %in% elements_to_remove)
+
+
+```
+
+
+```{r}
+
+tapho_loaded$count
 ```
 
 
@@ -98,7 +214,51 @@ colnames(df[20:32,])[2]
 
 
 ```{r}
+source("data_loader_new.R")
 
-colnames(input_df) <- c("element", "count")
+add_bone_info(new_site_raw, elements_data)
+```
+
+
+```{r}
+
+
+
+```
+
+
+```{r}
+
+
+
+```
+
+
+
+```{r}
+
+
+```
+
+
+
+```{r}
+
+
+
+```
+
+
+
+```{r}
+
+
+
+```
+
+
+
+```{r}
+
 
 ```
