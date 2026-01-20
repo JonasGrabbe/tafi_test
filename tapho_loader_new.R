@@ -29,7 +29,9 @@ summarize_bone_sections_zero_na <- function(input_df, reference_df = elements_da
     ungroup()
 
   # Create a named vector with all sections, initializing with 1 (instead of NA)
-  result_vector <- setNames(rep(1, length(sections_order)), sections_order)
+  #result_vector <- setNames(rep(1, length(sections_order)), sections_order)
+  most_detailed_level <- c(5,5,1,3,4,3,3,5,4,3,5)
+  result_vector <- setNames(most_detailed_level, sections_order)
 
   # Fill in the result_vector with available data
   for (section in sections_order) {
@@ -37,9 +39,10 @@ summarize_bone_sections_zero_na <- function(input_df, reference_df = elements_da
       level <- summary_df$min_level[summary_df$Skeleton_Section == section]
       # If the level is NA, keep it as 1, otherwise use the actual level
       result_vector[section] <- if(is.na(level)) 1 else level
-    }
+    }else {
+      print(section)
     # If the section is not in summary_df, it will remain 1
-  }
+  }}
 
   # Return just the numeric vector without names
   return(unname(result_vector))

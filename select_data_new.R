@@ -50,6 +50,7 @@ process_data <- function(data) {
   } else {
 
     data_combined <- data_sum1
+    
   }
   return(data_combined)
   }
@@ -149,8 +150,8 @@ select_data <- function(
           return(x)
         } else if (is.numeric(x)) {
           # Create named list with standard bone categories
-          bone_categories <- c("Skull", "Hyoid", "Vertebrae", "Thorax",
-                             "Shoulder", "Arms", "Hands", "Pelvic", "Leg", "Foot")
+          bone_categories <- c("cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
+          "arms", "hands", "pelvic", "legs", "foot")
           return(setNames(as.list(x), bone_categories))
         } else {
           return(x)
@@ -174,7 +175,7 @@ get_min <- function(selected_data) {
     # Select only the 'bone.level' column to simplify
     select(bone.level) %>%
     # Unnest the 'bone.level' list into wider format
-    unnest_wider(bone.level)
+    unnest_wider(bone.level, names_sep = "_")
 
   # Calculate the minimum for each bone section
   min_bone_level <- bone_levels_df %>%

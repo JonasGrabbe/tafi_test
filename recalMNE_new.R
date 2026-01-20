@@ -5,8 +5,8 @@ source("meta_new.R")
 
 library(dplyr)
 
-sections_order <- c("Skull", "Hyoid", "Vertebrae", "Thorax", "Shoulder",
-"Arms", "Hands", "Pelvic", "Legs", "Foot")
+sections_order <- c("cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
+"arms", "hands", "pelvic", "legs", "foot")
 
 recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hierarchy, bone_names, sections_order) {
   

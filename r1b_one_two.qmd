@@ -1,0 +1,341 @@
+---
+title: "r2b two Enero"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+
+```{r}
+source("meta_new.R")
+source("tapho_loader_new.R")
+elements_data= elements_data
+library(readxl)
+
+excel_path <- "hspa_one.xlsx"
+df_one <- readxl::read_excel(excel_path)
+
+```
+
+
+
+```{r}
+new_site_data <- df_one
+tapho_loaded <- tapho.load(new_site_data)
+
+tapho_loaded$sum_count
+
+
+```
+
+
+
+```{r}
+
+readxl::excel_sheets("hspa-test.xlsx")
+
+```
+
+
+
+```{r}
+
+library(readxl)
+library(dplyr)
+
+# Define the function to read an Excel file with multiple sheets
+read_excel_sheets <- function(file_path) {
+  
+  # Get all sheet names in the Excel file
+  sheet_names <- readxl::excel_sheets(file_path)
+  print(sheet_names)
+  # Read each sheet, process it, and store in a list
+  processed_list <- lapply(sheet_names, function(sname) {
+    
+    # Read the current sheet
+    sheet_data <- readxl::read_excel(file_path, sheet = sname)
+    
+    # Process it using your tapho.load.db() function
+    processed_sheet <- tapho.load.db(sheet_data)
+    
+    # Optionally, you might want to keep track of which sheet it came from
+    # processed_sheet <- processed_sheet %>% 
+    #   mutate(sheet_name = sname)
+    
+    processed_sheet
+  })
+  
+  # Combine all processed sheets into one tibble
+  combined_df <- bind_rows(processed_list)
+  
+  return(combined_df)
+}
+
+```
+
+
+
+```{r}
+tapho.load.db <- function(data) {
+  tb <- tapho.load(data[, 1:2])
+
+  if (tb$count_type == FALSE) { 
+  for (i in 3:ncol(data)) {
+    one_column <- data[, c(1,i)]
+    #one_column <- one_column %>% rename(count = !!paste0("count", i-1))
+    tb_one <- tapho.load(one_column)
+    tb <- tb %>% add_row(tb_one)
+  }}
+
+  return(tb)
+}
+
+
+```
+
+
+
+```{r}
+
+excel_path <- "hspa_two.xlsx"
+new_data <- readxl::read_excel(excel_path)
+tapho.load.db(new_data)$bone.level
+```
+
+
+
+```{r}
+excel_path <- "hspa-test.xlsx"
+tapho_db <- read_excel_sheets(excel_path)
+tapho_db 
+```
+
+
+```{r}
+sheet_names <- readxl::excel_sheets(excel_path)
+
+for (i in 1:length(sheet_names)){
+    sheet_data <- readxl::read_excel(excel_path, sheet = sheet_names[i])
+    print(ncol(sheet_data))
+
+}
+
+```
+
+
+```{r}
+
+sheet_names <- readxl::excel_sheets(excel_path)
+tapho_db <- length(sheet_names)
+tapho_db
+
+
+```
+
+
+```{r}
+source("select_data_new.R")
+get_min(tapho_db)
+```
+
+
+```{r}
+tapho_db %>%   select(bone.level) %>%
+    # Unnest the 'bone.level' list into wider format
+    unnest_wider(bone.level)
+
+```
+
+
+```{r}
+
+readxl::read_excel(excel_path, sheet = sheet_names[3])[[2,2]]
+```
+
+
+```{r}
+
+if (readxl::read_excel(excel_path, sheet = sheet_names[2])[[5,2]] == TRUE) {
+    print("wtf")
+}
+
+```
+
+
+```{r}
+tapho_loaded$count_type
+```
+
+
+```{r}
+
+
+
+```
+
+## looks good 
+
+```{r}
+excel_path <- "hspa-test.xlsx"
+tapho_db <- read_excel_sheets(excel_path)
+tapho_db 
+```
+
+
+```{r}
+tapho_db[20:30,]
+
+```
+
+
+```{r}
+
+tapho_db$count
+```
+
+
+
+```{r}
+
+
+min(4,5, na.rm = FALSE)
+```
+
+
+
+```{r}
+
+# Ein Vektor mit einem fehlenden Wert
+mein_vektor <- c(NA, NA, NA, NA, NA)
+
+# Mit na.rm = FALSE (Standard): Ergebnis ist NA
+min(mein_vektor)
+# [1] NA
+
+
+
+```
+
+
+```{r}
+# Mit na.rm = TRUE: Ignoriert NA und findet das Minimum der gültigen Werte (5)
+min(mein_vektor, na.rm = TRUE)
+# [1] 5
+
+```
+
+
+```{r}
+ sections_order <- c("cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
+    "arms", "hands", "pelvic", "legs", "foot")
+setNames(c(5,5,1,3,4,3,3,5,4,3,5), sections_order)
+
+```
+
+### recalcMNE
+
+```{r}
+source("select_data_new.R")
+
+#min_bone_level <- get_min(tapho_db)
+min_bone_level <- c(1,1,1,1,1,1,1,1,1,1,1)
+
+pmap(
+    list(tapho_db$count, tapho_db$bone.level, tapho_db$element),
+    function(count_i, bone_level_i, element_i) {
+      recal_mne(
+        current_mne = unlist(count_i),
+        current_levels = bone_level_i,
+        target_levels = min_bone_level,
+        skeleton_hierarchy = skeleton_hierarchy,
+        bone_names = unlist(element_i),
+        sections_order = sections_order
+      )
+    }
+  )
+
+
+
+
+```
+
+
+```{r}
+
+check_mixed_cols <- c("geological_period", "cultural_period", "taphonomic_context")
+
+tapho_db %>% group_by(site_id)  %>%
+    
+summarise( 
+
+across(all_of(check_mixed_cols), ~ if (n_distinct(.x) == 1) first(.x) else "mixed"), 
+count_type = FALSE, 
+      
+    
+    
+      ) 
+
+```
+
+
+```{r}
+tapho_db
+```
+
+
+```{r}
+# internal summeration   -> need different for external summeration 
+# data_summarized <- data %>% ...
+
+tapho_db %>% 
+    group_by(site_id) %>%
+      summarise(
+      # sheet_name 
+      ind_name = NULL, #'sum' of string, ie "ind_name1" + "ind_name2" = "ind_name1 ind_name2"
+      site_id = first(site_id), 
+      individual_id = NULL, # sum of string 
+      site_name = first(site_name), 
+      across(layer_name, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"), # change "mixed" to else add to sum of string if different 
+      count_type = TRUE, 
+      geological_period = first(geological_period), 
+      cultural_period = first(cultural_period),
+      culture_period_2 = first(culture_period_2), 
+      start_date_cal_bp = first(start_date_cal_bp),
+      end_date_cal_bp = first(end_date_cal_bp), 
+      karstic_system = first(karstic_system), 
+      karstic_system_2 = first(karstic_system_2), 
+      open_air_site = first(open_air_site), 
+      region = first(region), 
+      country = first(country), 
+      mni = NULL, # sum of integer of mni column, 
+      across(age_category, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
+      mis_stage = first(mis_stage), 
+      mis_stage = first(mis_stage), 
+      mis_stage = first(mis_stage), 
+      n_infant <int>, n_juvenil <int>, n_subadult <int>, n_adult <int>, 
+      across(gender, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
+      taphonomic_context <chr>, funerary_context <chr>, discovery_context <chr>, degree_of_excavation <chr>, hominin_species <chr>,
+       observation <chr>, reference <chr>, sum_count <int>, bone.level 
+
+
+
+
+
+      ) 
+mis_stage = first(mis_stage), 
+
+
+
+```
+
+
+
+

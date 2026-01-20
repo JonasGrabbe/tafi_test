@@ -43,7 +43,7 @@ df
 tapho.load <- function(new_site_data){
   # check restiction first and throuw wanring s befor starting to calcualte 
   new_site_data_checked <- archo_preload(new_site_data)
-  sheet_name <- # complete
+  #sheet_name <- # complete
   ind_name <- colnames(new_site_data)[2]
   colnames(new_site_data) <- c("element", "count")
   new_site_meta <- new_site_data[1:31,]
@@ -144,7 +144,7 @@ tapho_loaded$count
 
 
 ```{r}
-tapho_loaded
+tapho_loaded$bone.level
 ```
 
 
