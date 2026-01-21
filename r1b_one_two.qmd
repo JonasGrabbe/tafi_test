@@ -31,7 +31,7 @@ df_one <- readxl::read_excel(excel_path)
 new_site_data <- df_one
 tapho_loaded <- tapho.load(new_site_data)
 
-tapho_loaded$sum_count
+tapho_loaded$age_category
 
 
 ```
@@ -310,6 +310,7 @@ tapho_db %>%
       culture_period_2 = first(culture_period_2), 
       start_date_cal_bp = first(start_date_cal_bp),
       end_date_cal_bp = first(end_date_cal_bp), 
+      mis_stage = first(mis_stage),
       karstic_system = first(karstic_system), 
       karstic_system_2 = first(karstic_system_2), 
       open_air_site = first(open_air_site), 
@@ -317,25 +318,476 @@ tapho_db %>%
       country = first(country), 
       mni = NULL, # sum of integer of mni column, 
       across(age_category, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
-      mis_stage = first(mis_stage), 
-      mis_stage = first(mis_stage), 
-      mis_stage = first(mis_stage), 
-      n_infant <int>, n_juvenil <int>, n_subadult <int>, n_adult <int>, 
-      across(gender, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
-      taphonomic_context <chr>, funerary_context <chr>, discovery_context <chr>, degree_of_excavation <chr>, hominin_species <chr>,
-       observation <chr>, reference <chr>, sum_count <int>, bone.level 
-
-
-
-
-
+      n_infant = NULL,  # sum over column if one NA reult NA
+      n_juvenil =  NULL,  # sum over column if one NA reult NA
+      n_subadult = NULL,  # sum over column if one NA reult NA 
+      n_adult  = NULL,  # sum over column if one NA reult NA
+      across(gender, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"), # elseif exist one Indet set to Indet else "Mixed"  
+      taphonomic_context = first(taphonomic_context),   
+      funerary_context = first(funerary_context),   
+      discovery_context = first(discovery_context),  
+      degree_of_excavation = first(degree_of_excavation), 
+      hominin_species = first(hominin_species),
+      observation = NULL, # sum of strings but \sum_i "ind_name_i" + "individual_id_i" + "observation_i"
+      reference = first(reference), 
+      sum_count = NULL, # sum of integers 
+      bone.level = list(first(bone.level)), 
+      element = list(first(element)),
+      count = NULL # elementwise sumation of each element in the list through the column. 
       ) 
-mis_stage = first(mis_stage), 
+ 
+
+```
+
+
+```{r}
+tb <- tapho_db %>% 
+  group_by(site_id) %>%
+  summarise(
+    # 'sum' of string: concatenates all names separated by a space
+    ind_name = paste(ind_name, collapse = " "),
+    
+    site_id = first(site_id), 
+    
+    # 'sum' of string
+    individual_id = paste(individual_id, collapse = " "), 
+    
+    site_name = first(site_name), 
+    
+    # Change "mixed" to: add to sum of string if different
+    layer_name = if (n_distinct(layer_name) == 1) first(layer_name) else paste(unique(layer_name), collapse = ", "),
+    
+    count_type = TRUE, 
+    geological_period = first(geological_period), 
+    cultural_period = first(cultural_period),
+    culture_period_2 = first(culture_period_2), 
+    start_date_cal_bp = first(start_date_cal_bp),
+    end_date_cal_bp = first(end_date_cal_bp), 
+    mis_stage = first(mis_stage),
+    karstic_system = first(karstic_system), 
+    karstic_system_2 = first(karstic_system_2), 
+    open_air_site = first(open_air_site), 
+    region = first(region), 
+    country = first(country), 
+    
+    # Sum of integer (assuming you want to ignore NAs here to get a total count)
+    mni = sum(mni, na.rm = TRUE), 
+    
+    across(age_category, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
+    
+    # Sum over column, if one NA result NA (Standard sum behavior preserves NA)
+    n_infant = sum(n_infant),  
+    n_juvenil = sum(n_juvenil),  
+    n_subadult = sum(n_subadult),   
+    n_adult  = sum(n_adult),  
+    
+    across(gender, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
+    
+    taphonomic_context = first(taphonomic_context), 
+    funerary_context = first(funerary_context), 
+    discovery_context = first(discovery_context), 
+    degree_of_excavation = first(degree_of_excavation), 
+    hominin_species = first(hominin_species),
+    
+    # Composite string sum: (ind + id + obs) per row, then collapsed
+    observation = paste(ind_name, individual_id, observation, sep = " ", collapse = "; "),
+    
+    reference = first(reference), 
+    
+    # Sum of integers
+    sum_count = sum(sum_count, na.rm = TRUE), 
+    
+    bone.level = list(first(bone.level)), 
+    element = list(first(element)),
+    
+    # Elementwise summation of the list column
+    count = list(Reduce(`+`, count)) 
+  )
+
+
+```
+
+```{r}
+library(dplyr)
+library(purrr)
+library(stringr)
+
+# helper: "sum of strings" = concatenate unique values (ignoring NA/empty)
+sum_chr <- function(x) {
+  x <- unique(x[!is.na(x) & x != ""])
+  out <- paste(x, collapse = " ")
+  if (out == "") NA_character_ else str_squish(out)
+}
+
+# helper: strict sum = if any NA in group -> NA, else sum
+sum_int_strict <- function(x) {
+  if (any(is.na(x))) NA_integer_ else sum(x)
+}
+
+# helper: elementwise sum for list-column of numeric vectors (assumes same structure)
+sum_list_vec <- function(x) {
+  # x is a list of numeric vectors
+  if (length(x) == 0) return(NULL)
+  reduce(x, `+`)
+}
+
+tapho_db_grouped <-
+  tapho_db %>%
+  group_by(site_id) %>%
+  summarise(
+    # --- IDs / names
+    ind_name = sum_chr(ind_name),                  # "sum" of string: "a" + "b" -> "a b"
+    site_id = first(site_id),
+    individual_id = sum_chr(individual_id),        # sum of string
+    site_name = first(site_name),
+
+    # --- layer_name: if 1 unique -> keep, else concatenate distinct values (NOT "Mixed")
+    layer_name = if (n_distinct(layer_name) == 1) first(layer_name) else sum_chr(layer_name),
+
+    # --- misc site info
+    count_type = first(count_type),                # keep original logical (or force TRUE if you prefer)
+    geological_period = first(geological_period),
+    cultural_period = first(cultural_period),
+    culture_period_2 = first(culture_period_2),
+    start_date_cal_bp = first(start_date_cal_bp),
+    end_date_cal_bp = first(end_date_cal_bp),
+    mis_stage = first(mis_stage),
+    karstic_system = first(karstic_system),
+    karstic_system_2 = first(karstic_system_2),
+    open_air_site = first(open_air_site),
+    open_air_site_2 = first(open_air_site_2),
+    region = first(region),
+    country = first(country),
+
+    # --- numeric sums
+    mni = sum(mni, na.rm = FALSE),                  # sum integer (if any NA -> NA, because na.rm=FALSE)
+
+    # --- categories
+    age_category = if (n_distinct(age_category) == 1) first(age_category) else "Mixed",
+
+    # --- strict sums: if one NA -> NA
+    n_infant   = sum_int_strict(n_infant),          # strict sum
+    n_juvenil  = sum_int_strict(n_juvenil),         # strict sum
+    n_subadult = sum_int_strict(n_subadult),        # strict sum
+    n_adult    = sum_int_strict(n_adult),           # strict sum
+
+    gender = if (n_distinct(gender) == 1) first(gender) else "Mixed",
+
+    # --- contexts
+    taphonomic_context = first(taphonomic_context),
+    funerary_context = first(funerary_context),
+    discovery_context = first(discovery_context),
+    degree_of_excavation = first(degree_of_excavation),
+    hominin_species = first(hominin_species),
+
+    # --- observation: combine per-row "ind_name + individual_id + observation", then paste all rows
+    observation =
+      paste(
+        paste0(ind_name, " [", individual_id, "]: ", observation),
+        collapse = " ; "
+      ),
+
+    reference = first(reference),
+
+    sum_count = sum(sum_count, na.rm = FALSE),      # sum integers (NA propagates)
+
+    bone.level = list(first(bone.level)),
+    element    = list(first(element)),
+
+    # --- list-column elementwise sum
+    count = list(sum_list_vec(count)),              # elementwise sum across the list vectors
+
+    .groups = "drop"
+  )
 
 
 
 ```
 
+```{r}
+
+tb <- tapho_db %>% 
+    # [FIX] Create the composite string here (Row-wise) so it is ready for collapsing later
+    mutate(obs_temp = paste(ind_name, individual_id, observation, sep = " ")) %>%
+    
+    group_by(site_id) %>%
+    summarise(
+      # 'sum' of string: Collapse all names with a space
+      ind_name = paste(ind_name, collapse = " "),
+      
+      site_id = first(site_id), 
+      
+      # 'sum' of string: Collapse all IDs with a space
+      individual_id = paste(individual_id, collapse = " "), 
+      
+      site_name = first(site_name), 
+      
+      # Change "mixed" to: join distinct values with comma if different
+      layer_name = if (n_distinct(layer_name) == 1) first(layer_name) else paste(unique(layer_name), collapse = ", "),
+      
+      count_type = TRUE, 
+      geological_period = first(geological_period), 
+      cultural_period = first(cultural_period),
+      culture_period_2 = first(culture_period_2), 
+      start_date_cal_bp = first(start_date_cal_bp),
+      end_date_cal_bp = first(end_date_cal_bp), 
+      mis_stage = first(mis_stage),
+      karstic_system = first(karstic_system), 
+      karstic_system_2 = first(karstic_system_2), 
+      open_air_site = first(open_air_site), 
+      region = first(region), 
+      country = first(country), 
+      
+      # Sum of integer (using na.rm=TRUE to get valid totals, remove if you prefer NA)
+      mni = sum(mni, na.rm = TRUE), 
+      
+      across(age_category, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
+      
+      # Sum over column, return NA if any NA exists (default sum behavior)
+      n_infant = sum(n_infant),  
+      n_juvenil = sum(n_juvenil),  
+      n_subadult = sum(n_subadult), 
+      n_adult  = sum(n_adult),  
+      
+      across(gender, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
+      
+      taphonomic_context = first(taphonomic_context), 
+      funerary_context = first(funerary_context), 
+      discovery_context = first(discovery_context), 
+      degree_of_excavation = first(degree_of_excavation), 
+      hominin_species = first(hominin_species),
+      
+      # [FIX] Collapse the pre-calculated row strings
+      observation = paste(obs_temp, collapse = "; "),
+      
+      reference = first(reference), 
+      
+      # Sum of integers
+      sum_count = sum(sum_count, na.rm = TRUE), 
+      
+      bone.level = list(first(bone.level)), 
+      element = list(first(element)),
+      
+      # Elementwise summation of the list column
+      count = list(Reduce(`+`, count)) 
+    )
+
+```
+
+```{r}
+min_bone_level <- get_min(tapho_db)
+print(min_bone_level)
+recalc_tapho_db <- recal_mne_selected_data(tapho_db)
+```
+
+```{r}
+```
+
+```{r}
+
+
+tapho_db$count
+```
+
+```{r}
+
+length(recalc_tapho_db$count[[27]])
+```
+
+```{r}
+
+
+```
+
+```{r}
+# all whole dataset to 
+sumby_site <- function(data){   
+    # merging all ind to one sum=0 but need to calculcate min bone.level firest then recal all column first
+    recalc_data <- data %>%
+    group_by(site_id) %>%
+    group_modify(~ recal_mne_selected_data(.x)) %>%  # apply function to each site_id subset
+    ungroup()
+    # check that all bone.level are the same  otherwise throuh error 
+    sumby_data <- recalc_data %>% 
+    # Create the composite string (Row-wise) before grouping
+    mutate(obs_temp = paste(ind_name, individual_id, observation, sep = " ")) %>%
+    
+    group_by(site_id) %>%
+    summarise(
+        ind_name = paste(ind_name, collapse = " "),
+        site_id = first(site_id), 
+        individual_id = paste(individual_id, collapse = " "), 
+        site_name = first(site_name), 
+        
+        # Layer logic: Unique or list of unique
+        layer_name = if (n_distinct(layer_name) == 1) first(layer_name) else paste(unique(layer_name), collapse = ", "),
+        
+        count_type = TRUE, 
+        geological_period = first(geological_period), 
+        cultural_period = first(cultural_period),
+        culture_period_2 = first(culture_period_2), 
+        start_date_cal_bp = first(start_date_cal_bp),
+        end_date_cal_bp = first(end_date_cal_bp), 
+        mis_stage = first(mis_stage),
+        karstic_system = first(karstic_system), 
+        karstic_system_2 = first(karstic_system_2), 
+        open_air_site = first(open_air_site), 
+        open_air_site_2 = first(open_air_site_2), 
+        region = first(region), 
+        country = first(country), 
+        mni = sum(mni, na.rm = TRUE), 
+        
+    # across(age_category, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
+    # [UPDATED] Gender Logic: Uniform -> Indet presence -> Mixed
+        across(age_category, ~ case_when(
+        n_distinct(.x) == 1 ~ first(.x),       # All same? Keep it.
+        "Indet" %in% .x     ~ "Indet",         # Any Indet? Force Indet.
+        TRUE                ~ "Mixed"          # Diff values, no Indet? Mixed.
+        )),
+
+        n_infant = sum(n_infant),  
+        n_juvenil = sum(n_juvenil),  
+        n_subadult = sum(n_subadult),   
+        n_adult  = sum(n_adult),  
+        
+        # [UPDATED] Gender Logic: Uniform -> Indet presence -> Mixed
+        across(gender, ~ case_when(
+        n_distinct(.x) == 1 ~ first(.x),       # All same? Keep it.
+        "Indet" %in% .x     ~ "Indet",         # Any Indet? Force Indet.
+        TRUE                ~ "Mixed"          # Diff values, no Indet? Mixed.
+        )),
+        
+        taphonomic_context = first(taphonomic_context), 
+        funerary_context = first(funerary_context), 
+        discovery_context = first(discovery_context), 
+        degree_of_excavation = first(degree_of_excavation), 
+        hominin_species = first(hominin_species),
+        
+        # Collapse the pre-calculated row strings
+        observation = paste(obs_temp, collapse = "; "),
+        
+        reference = first(reference), 
+        sum_count = sum(sum_count, na.rm = TRUE), 
+        bone.level = list(first(bone.level)), 
+        element = list(first(element)),
+        count = list(Reduce(`+`, count)) 
+    )
+    
+    return(sumby_data)
+    
+    }
+
+
+```
+
+```{r}
+tb <- sumby_site(tapho_db)
+tb[, c(35:36)]     
+```
+
+```{r}
+
+colnames(tapho_db)
+
+```
+
+```{r}
+print(n=26,colnames(tapho_db))
+
+```
+
+```{r}
+
+library(dplyr)
+
+tapho_db_recal <- tapho_db %>%
+  group_by(site_id) %>%
+  group_modify(~ recal_mne_selected_data(.x)) %>%  # apply function to each site_id subset
+  ungroup()
+```
+
+```{r}
+recalculate_counts(tapho_db)
+```
+
+#### SELECT TAPHO DB fucntion 
+
+
+```{r}
+
+select.tapho.db(
+
+        ind_name = c("Amud I", "DV 16", "Ochoz II"), #sting
+        site_id = c(2,5,16:21)),  #int
+        individual_id = c("11_2","2_15","42_1"),  #sting int_int
+        site_name = c("Kiik-Koba", "Deposit K","Layer IV"),  # sting 
+        layer_name = c("Layer B", "Deposit K","Layer IV"),  # sting        
+        count_type = "sum"/"ind", # ie TRUE / FALSE goupby_site() yes no .
+        geological_period = c("Late Pleistocene","Neolithic": "Iron Age","Holocene"), 
+        cultural_period = c("Late Pleistocene","Neolithic":"Iron Age","Holocene"), 
+        culture_period_2 = c("Calabrian", , ), 
+        start_date_cal_bp = ,
+        end_date_cal_bp = first(end_date_cal_bp), 
+        mis_stage = first(mis_stage),
+        karstic_system = first(karstic_system), 
+        karstic_system_2 = first(karstic_system_2), 
+        open_air_site = first(open_air_site), 
+        open_air_site_2 = first(open_air_site_2), 
+        region = first(region), 
+        country = first(country), 
+        mni = sum(mni, na.rm = TRUE), 
+        age_category,
+        n_infant = sum(n_infant),  
+        n_juvenil = sum(n_juvenil),  
+        n_subadult = sum(n_subadult),   
+        n_adult  = sum(n_adult),  
+        gender
+        taphonomic_context = first(taphonomic_context), 
+        funerary_context = first(funerary_context), 
+        discovery_context = first(discovery_context), 
+        degree_of_excavation = first(degree_of_excavation), 
+        hominin_species = first(hominin_species),
+        
+        groupby = NULL,  # all meta data from id to hominin_specei c(in order ?)      
+        bone.level = c() # or high low lowest ? 
+        immputation = "proportional" , #delet feature, knn, eauqliy, random dist, level up.
+        indet = FALSE, # TRUE = level up or proportionaly or random ass. 
+
+    )
+
+# next calc derived variables like  %mau remnau etc
+#---> convertMNEtoVariables
+## ---> tb$ReMNAU input for ml workflow 
+### autoML function 
+
+```
+
+```{r}
+
+print(n=25, tapho_db)
+```
+
+```{r}
+
+
+```
+
+```{r}
+
+
+```
+
+```{r}
+
+
+```
+
+```{r}
+
+
+
+
+```
 
 
 
