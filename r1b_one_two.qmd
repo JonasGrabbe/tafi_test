@@ -637,8 +637,8 @@ sumby_site <- function(data){
         country = first(country), 
         mni = sum(mni, na.rm = TRUE), 
         
-    # across(age_category, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
-    # [UPDATED] Gender Logic: Uniform -> Indet presence -> Mixed
+        # across(age_category, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
+        # [UPDATED] Gender Logic: Uniform -> Indet presence -> Mixed
         across(age_category, ~ case_when(
         n_distinct(.x) == 1 ~ first(.x),       # All same? Keep it.
         "Indet" %in% .x     ~ "Indet",         # Any Indet? Force Indet.
@@ -716,7 +716,6 @@ recalculate_counts(tapho_db)
 ```{r}
 
 select.tapho.db(
-
         ind_name = c("Amud I", "DV 16", "Ochoz II"), #sting
         site_id = c(2,5,16:21)),  #int
         individual_id = c("11_2","2_15","42_1"),  #sting int_int
@@ -741,7 +740,7 @@ select.tapho.db(
         n_juvenil = sum(n_juvenil),  
         n_subadult = sum(n_subadult),   
         n_adult  = sum(n_adult),  
-        gender
+        gender = , 
         taphonomic_context = first(taphonomic_context), 
         funerary_context = first(funerary_context), 
         discovery_context = first(discovery_context), 
@@ -752,7 +751,6 @@ select.tapho.db(
         bone.level = c() # or high low lowest ? 
         immputation = "proportional" , #delet feature, knn, eauqliy, random dist, level up.
         indet = FALSE, # TRUE = level up or proportionaly or random ass. 
-
     )
 
 # next calc derived variables like  %mau remnau etc
@@ -763,12 +761,7 @@ select.tapho.db(
 ```
 
 ```{r}
-
 print(n=25, tapho_db)
-```
-
-```{r}
-
 
 ```
 
@@ -785,6 +778,9 @@ print(n=25, tapho_db)
 ```{r}
 
 
+```
+
+```{r}
 
 
 ```
