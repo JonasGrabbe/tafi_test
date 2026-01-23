@@ -50,7 +50,7 @@ process_data <- function(data) {
   } else {
 
     data_combined <- data_sum1
-    
+
   }
   return(data_combined)
   }
@@ -293,3 +293,83 @@ group_and_summarize <- function(data, group_cols){
 
   return(merged_df)
 }
+
+
+
+#### new ind -> to whole site data
+
+sumby_site <- function(data){   
+  # merging all ind to one sum=0 but need to calculcate min bone.level firest then recal all column first
+  recalc_data <- data %>%
+  group_by(site_id) %>%
+  group_modify(~ recal_mne_selected_data(.x)) %>%  # apply function to each site_id subset
+  ungroup()
+  # check that all bone.level are the same  otherwise throuh error 
+  sumby_data <- recalc_data %>% 
+  # Create the composite string (Row-wise) before grouping
+  mutate(obs_temp = paste(ind_name, individual_id, observation, sep = " ")) %>%
+  
+  group_by(site_id) %>%
+  summarise(
+      ind_name = paste(ind_name, collapse = " "),
+      site_id = first(site_id), 
+      individual_id = paste(individual_id, collapse = " "), 
+      site_name = first(site_name), 
+      
+      # Layer logic: Unique or list of unique
+      layer_name = if (n_distinct(layer_name) == 1) first(layer_name) else paste(unique(layer_name), collapse = ", "),
+      
+      count_type = TRUE, 
+      geological_period = first(geological_period), 
+      cultural_period = first(cultural_period),
+      culture_period_2 = first(culture_period_2), 
+      start_date_cal_bp = first(start_date_cal_bp),
+      end_date_cal_bp = first(end_date_cal_bp), 
+      mis_stage = first(mis_stage),
+      karstic_system = first(karstic_system), 
+      karstic_system_2 = first(karstic_system_2), 
+      open_air_site = first(open_air_site), 
+      open_air_site_2 = first(open_air_site_2), 
+      region = first(region), 
+      country = first(country), 
+      mni = sum(mni, na.rm = TRUE), 
+      
+      # across(age_category, ~ if (n_distinct(.x) == 1) first(.x) else "Mixed"),
+      # [UPDATED] Gender Logic: Uniform -> Indet presence -> Mixed
+      across(age_category, ~ case_when(
+      n_distinct(.x) == 1 ~ first(.x),       # All same? Keep it.
+      "Indet" %in% .x     ~ "Indet",         # Any Indet? Force Indet.
+      TRUE                ~ "Mixed"          # Diff values, no Indet? Mixed.
+      )),
+
+      n_infant = sum(n_infant),  
+      n_juvenil = sum(n_juvenil),  
+      n_subadult = sum(n_subadult),   
+      n_adult  = sum(n_adult),  
+      
+      # [UPDATED] Gender Logic: Uniform -> Indet presence -> Mixed
+      across(gender, ~ case_when(
+      n_distinct(.x) == 1 ~ first(.x),       # All same? Keep it.
+      "Indet" %in% .x     ~ "Indet",         # Any Indet? Force Indet.
+      TRUE                ~ "Mixed"          # Diff values, no Indet? Mixed.
+      )),
+      
+      taphonomic_context = first(taphonomic_context), 
+      funerary_context = first(funerary_context), 
+      discovery_context = first(discovery_context), 
+      degree_of_excavation = first(degree_of_excavation), 
+      hominin_species = first(hominin_species),
+      
+      # Collapse the pre-calculated row strings
+      observation = paste(obs_temp, collapse = "; "),
+      
+      reference = first(reference), 
+      sum_count = sum(sum_count, na.rm = TRUE), 
+      bone.level = list(first(bone.level)), 
+      element = list(first(element)),
+      count = list(Reduce(`+`, count)) 
+  )
+  
+  return(sumby_data)
+  
+  }

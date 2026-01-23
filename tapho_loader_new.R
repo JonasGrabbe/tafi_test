@@ -6,6 +6,7 @@ source("archo_preload_2.R")
 
 library(dplyr)
 library(tibble)
+library(readxl)
 
 summarize_bone_sections_zero_na <- function(input_df, reference_df = elements_data) {
   
@@ -164,7 +165,6 @@ count = aligned_counts
 
 return(align_loaded_db)
 }
-
 ########################################### tapho-r loader function sum=0 ##############
 tapho.load <- function(new_site_data, strict = FALSE) {
 
@@ -213,6 +213,49 @@ tapho.load <- function(new_site_data, strict = FALSE) {
   return(tapho_loaded)
 }
 
+########################################### tapho-r loader function sum=False, ie db and sheets ##############
+tapho.load.db <- function(data) {
+  tb <- tapho.load(data[, 1:2])
+
+  if (tb$count_type == FALSE) { 
+  for (i in 3:ncol(data)) {
+    one_column <- data[, c(1,i)]
+    #one_column <- one_column %>% rename(count = !!paste0("count", i-1))
+    tb_one <- tapho.load(one_column)
+    tb <- tb %>% add_row(tb_one)
+  }}
+
+  return(tb)
+}
 
 
 
+library(dplyr)
+
+# Define the function to read an Excel file with multiple sheets
+read_excel_sheets <- function(file_path) {
+  
+  # Get all sheet names in the Excel file
+  sheet_names <- readxl::excel_sheets(file_path)
+  print(sheet_names)
+  # Read each sheet, process it, and store in a list
+  processed_list <- lapply(sheet_names, function(sname) {
+    
+    # Read the current sheet
+    sheet_data <- readxl::read_excel(file_path, sheet = sname)
+    
+    # Process it using your tapho.load.db() function
+    processed_sheet <- tapho.load.db(sheet_data)
+    
+    # Optionally, you might want to keep track of which sheet it came from
+    # processed_sheet <- processed_sheet %>% 
+    #   mutate(sheet_name = sname)
+    
+    processed_sheet
+  })
+  
+  # Combine all processed sheets into one tibble
+  combined_df <- bind_rows(processed_list)
+  
+  return(combined_df)
+}
