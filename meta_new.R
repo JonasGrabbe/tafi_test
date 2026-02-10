@@ -279,13 +279,13 @@ skeleton_hierarchy <- list(
     ),
 
     "Level 2" = list(
-      deciduous = 1,
+      deciduous_indet = 1, #deciduous = 1,
       permanent = 1
     ),
 
     "Level 3" = list(
-      deciduous_indet = 0,
-      permanent_indet = 0,
+      #deciduous_indet = 0,
+      #permanent_indet = 0,
 
       di1 = 4,
       di2 = 4,
@@ -304,8 +304,8 @@ skeleton_hierarchy <- list(
     ),
 
     "Level 4" = list(
-      deciduous_indet = 0,
-      permanent_indet = 0,
+      #deciduous_indet = 0,
+      #permanent_indet = 0,
 
       dl1_indet     = 0,
       di1_superior  = 2,
@@ -361,8 +361,8 @@ skeleton_hierarchy <- list(
     ),
 
     "Level 5" = list(
-      deciduous_indet = 0,
-      permanent_indet = 0,
+      #deciduous_indet = 0,
+      #permanent_indet = 0,
 
       dl1_indet = 0,
       di1_superior_indet = 0,
@@ -531,7 +531,7 @@ skeleton_hierarchy <- list(
     "Level 2" = list(
       thorax_indet = 0,
       sternum = 1,
-      rib = 24
+      ribs = 24
     ),
 
     "Level 3" = list(
@@ -539,21 +539,25 @@ skeleton_hierarchy <- list(
       thorax_indet = 0,
       sternum = 1,
 
-      rib_fragments = 0,
       rib_indet     = 0,
+      rib_fragments = 0,
+      
 
-      rib_1  = 2,
-      rib_2  = 2,
-      rib_3  = 2,
-      rib_4  = 2,
-      rib_5  = 2,
-      rib_6  = 2,
-      rib_7  = 2,
-      rib_8  = 2,
-      rib_9  = 2,
-      rib_10 = 2,
-      rib_11 = 2,
-      rib_12 = 2
+      ribs_right = 12,
+      ribs_left = 12,
+
+      rib_1_indet  = 2,
+      rib_2_indet  = 2,
+      rib_3_indet  = 2,
+      rib_4_indet  = 2,
+      rib_5_indet  = 2,
+      rib_6_indet  = 2,
+      rib_7_indet  = 2,
+      rib_8_indet = 2,
+      rib_9_indet  = 2,
+      rib_10_indet = 2,
+      rib_11_indet = 2,
+      rib_12_indet = 2
     ),
 
     "Level 4" = list(
@@ -562,31 +566,57 @@ skeleton_hierarchy <- list(
       sternum = 1,
 
       # carried down (min=3 max=4)
-      rib_fragments = 0,
       rib_indet     = 0,
+      rib_fragments = 0,
+      
+      ribs_right = 12,
+      ribs_left = 12,
 
+      #rib_1_indet  = 0, 
       rib_1_right  = 1,
       rib_1_left   = 1,
+      
+      #rib_2_indet = 0,
       rib_2_right  = 1,
       rib_2_left   = 1,
+
+      #rib_3_indet = 0,
       rib_3_right  = 1,
       rib_3_left   = 1,
+
+      #rib_4_indet = 0,
       rib_4_right  = 1,
       rib_4_left   = 1,
+
+      #rib_5_indet = 0,
       rib_5_right  = 1,
       rib_5_left   = 1,
+
+      #rib_6_indet = 0,
       rib_6_right  = 1,
       rib_6_left   = 1,
+
+      #rib_7_indet = 0,
       rib_7_right  = 1,
       rib_7_left   = 1,
+
+      #rib_8_indet = 0,
       rib_8_right  = 1,
       rib_8_left   = 1,
+
+      #rib_9_indet = 0,
       rib_9_right  = 1,
       rib_9_left   = 1,
+
+      #rib_10_indet = 0,
       rib_10_right = 1,
       rib_10_left  = 1,
+
+      #rib_11_indet = 0,
       rib_11_right = 1,
       rib_11_left  = 1,
+
+      #rib_12_indet = 0,
       rib_12_right = 1,
       rib_12_left  = 1
     )
@@ -854,13 +884,13 @@ skeleton_hierarchy <- list(
       s3 = 1,
       s4 = 1,
       s5 = 1,
-      s6 = 1,
+      
 
       coccyx_indet = 0,
       cx2 = 1,
       cx3 = 1,
       cx4 = 1,
-      cx5 = 1,
+      
 
       os_coxae_indet = 0,
       os_coxae_right_indet = 0,
@@ -1124,12 +1154,12 @@ ElementsOne <- c(
   "thorax", 
   "thorax_indet", 
   "sternum", 
-  "rib", "rib_fragments", "rib_indet", 
-  "rib_1", "rib_1_right", "rib_1_left", "rib_2", "rib_2_right", "rib_2_left", "rib_3", "rib_3_right",
-  "rib_3_left", "rib_4", "rib_4_right", "rib_4_left", "rib_5", "rib_5_right", "rib_5_left", "rib_6",
-  "rib_6_right", "rib_6_left", "rib_7", "rib_7_right", "rib_7_left", "rib_8", "rib_8_right", "rib_8_left",
-  "rib_9", "rib_9_right", "rib_9_left", "rib_10", "rib_10_right", "rib_10_left", "rib_11",
-  "rib_11_right", "rib_11_left", "rib_12", "rib_12_right", "rib_12_left", 
+  "ribs", "rib_indet", "rib_fragments", "ribs_right", "ribs_left",
+  "rib_1_indet", "rib_1_right", "rib_1_left", "rib_2_indet", "rib_2_right", "rib_2_left", "rib_3_indet", "rib_3_right",
+  "rib_3_left", "rib_4_indet", "rib_4_right", "rib_4_left", "rib_5_indet", "rib_5_right", "rib_5_left", "rib_6_indet",
+  "rib_6_right", "rib_6_left", "rib_7_indet", "rib_7_right", "rib_7_left", "rib_8_indet", "rib_8_right", "rib_8_left",
+  "rib_9_indet", "rib_9_right", "rib_9_left", "rib_10_indet", "rib_10_right", "rib_10_left", "rib_11_indet",
+  "rib_11_right", "rib_11_left", "rib_12_indet", "rib_12_right", "rib_12_left", 
   
   "shoulder", "shoulder_indet",
   "clavicle", "clavicle_indet", "clavicle_right", "clavicle_left", "scapula", "scapula_indet", "scapula_right",
@@ -1206,73 +1236,104 @@ ElementsOne <- c(
   "foot_phalanx_distal_left_3", "foot_phalanx_distal_left_4", "foot_phalanx_distal_left_5"
 )
 Level <- c(
+  #cranium
   1, 2, 3, 3, 3, 4, 4, 4, 3, 4, 4, 4, 3, 3, 3, 
   2, 3, 3, 3, 3, 4, 4, 4, 3, 3, 3, 3, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 4, 5,
   5, 5, 
   3, 
   
-  1, 2, 3, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5,
+  #teeth
+  1, 2, 3, #3, 
+  4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5,
   5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 
-  2, 3, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4,
+  2, 3, #3, 
+  4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4,
   4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 3,
   4, 4, 5, 5, 5, 4, 5, 5, 5, 3, 4, 4, 5, 5, 5, 4, 5, 5, 5, 
   
+  #hyoid
   1, 
   
+  #vertebrae
   1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3,
   3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 
   
-  1, 2, 2, 2, 3, 3, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 
+  #thorax
+  1, 2, 2, 2, 3, 3, 3, 3, 
+  3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 
   3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4,  
   
+  #shoulder
   1, 2, 2, 3, 3, 3, 2, 3, 3, 3, 
   
+  #arms
   1, 2, 2, 3, 3, 3, 2, 3, 3, 3, 2, 3, 3, 3, 
   
+  #hands
   1, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 2, 3, 3, 4, 4, 4, 4, 4, 4, 3, 4, 4,
   4, 4, 4, 4, 2, 3, 3, 4, 4, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 3, 4, 4, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 3, 4, 4,
-  5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 
+  5, 5,  5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 
   
-  1, 2, 2, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 2, 3, 3, 4, 4, 4, 4, 3, 4, 4, 4,4, 
+  #pelvic
+  1, 2, 2, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 
+  2, 3, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4, 
   
+  #legs
   1, 2, 2, 3, 3, 3, 2, 3, 3, 3, 2, 3, 3, 3, 2, 3, 3, 3, 
   
+  #foot
   1, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4,
   4, 4, 2, 3, 3, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 4, 2, 3, 3, 4, 4, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 3, 4, 4,
   5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 3, 4, 4, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5
 )
 
 max_Level <- c(
+  #cranium
   1, 2, 5, 5, 3, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 2, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 4, 5, 5,
   5, 5, 
   
-  1, 2, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5,
-  5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 2, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4,
+  #teeth
+  1, 2, #5, 
+  3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5,
+  5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 
+  2, #5, 
+  3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4,
   5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 3, 5, 4,
   5, 5, 5, 4, 5, 5, 5, 3, 5, 4, 5, 5, 5, 4, 5, 5, 5, 
   
+  #hyoid
   1, 
   
+ #vertebrae
   1, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
   3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 
   
-  1, 4, 4, 2, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4,
-  3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 
+  #thorax
+  1, 4, 4, 2, 4, 4, 4, 4, 
+  3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 
+  3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 
   
+  #shoulder
   1, 3, 2, 3, 3, 3, 2, 3, 3, 3, 
   
+  #arms
   1, 3, 2, 3, 3, 3, 2, 3, 3, 3, 2, 3, 3, 3, 
   
+  #hands
   1, 5, 2, 5,
   3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 2, 5, 3, 5, 5, 5, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 2, 5, 3, 5,
   4, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 3, 5, 4, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 3, 5, 4, 5, 5, 5, 5, 5, 5, 4, 5, 5,
   5, 5, 5, 5, 
   
-  1, 4, 2, 4, 4, 4, 4, 4, 4, 2, 4, 4, 4, 4, 4, 2, 4, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4, 
+  #pelvic
+  1, 4, 2, 4, 4, 4, 4, 4, 4, 2, 4, 4, 4, 4, 4, 
+  2, 4, 3, 4, 4, 4, 4, 3, 4, 4, 4, 4, 
   
+  #legs
   1, 3, 2, 3, 3, 3, 2, 3, 3,
   3, 2, 3, 3, 3, 2, 3, 3, 3, 
   
+  #foot
   1, 5, 2, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 5, 2, 5, 3, 5, 5, 5, 5, 5, 5,
   3, 5, 5, 5, 5, 5, 5, 2, 5, 3, 5, 4, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 3, 5, 4, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 3,
   5, 4, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5
@@ -1280,38 +1341,52 @@ max_Level <- c(
 
 
 Bone_Count <- c(
+  #cranium
   1, 1, 0, 1, 2, 0, 1, 1, 2, 0, 1, 1, 1, 1, 1, 
   1, 0, 2, 2, 2, 0, 1, 1, 2, 2, 1, 2, 6, 0, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 
   1, 
   
+  #teeth
   1, #32 (or +20) 
-  20, 0, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2,
+  20, #0, 
+  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2,
   0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
-  32, 0, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4,
+  32, #0, 
+  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4,
   0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1,
   4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
   
+  #hyoid
   1, 
   
+  #vertebrae
   24, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 12, 0, 1, 1, 1, 1,
   1, 1, 1, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 
   
-  25, 0, 1, 24, 0, 0, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1,
-  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 
+  #thorax
+  25, 0, 1, 24, 0, 0,12,12, 
+  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 
+  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1
   
+  #shoulder
   4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
 
+  #arms
   6, 0, 2, 0, 1, 1, 2, 0,1, 1, 2, 0, 1, 1, 
   
+  #hands
   54, 0, 16, 0, 8, 0, 1, 1, 1, 1, 1, 1, 1, 1, 8, 0, 1, 1, 1, 1, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1,
   1, 5, 0, 1, 1, 1, 1, 1, 28, 0, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 8, 0, 4, 0, 1, 1, 1, 1, 4, 0, 1, 1,
   1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 
   
-  4, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 2, 0, 1, 0, 1, 1,
-  1, 1, 0, 1, 1, 1, 
+  #pelvic
+  1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 
+  2, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 
   
+  #legs
   8, 0, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 
   
+  #foot
   52, 0, 14, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 7,
   0, 1, 1, 1, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 28, 0, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1,
   1, 1, 1, 1, 8, 0, 4, 0, 1, 1, 1, 1, 4, 0, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1
@@ -1323,7 +1398,7 @@ Skeleton_Section <- c(
   "cranium", "cranium", "cranium", "cranium", "cranium", "cranium", "cranium", "cranium", "cranium", "cranium",
   "cranium", "cranium", 
   
-  "teeth", "teeth",
+  #"teeth", "teeth",
   "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth",
   "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth",
   "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth",
@@ -1344,7 +1419,7 @@ Skeleton_Section <- c(
   "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae",
   "vertebrae", 
   
-  "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax",
+  "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", 
   "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax",
   "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax",
   "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax",
@@ -1614,13 +1689,17 @@ category_mappings_cranium_5_to_4 <- list(
 #### TEETH
 # Level 2 -> Level 1
 category_mappings_teeth_2_to_1 <- list(
-  teeth = c("deciduous", "permanent")
+  #teeth = c("deciduous", "permanent")
+  teeth = c("deciduous_indet", "permanent")
 ),
 
 # Level 3 -> Level 1
 category_mappings_teeth_3_to_1 <- list(
   teeth = c(
-      "deciduous_indet", "di1", "di2", "dc", "dm1", "dm2", "permanent_indet", "i1", "i2", "c", "pm3", "pm4",
+      #"deciduous_indet", 
+      "di1", "di2", "dc", "dm1", "dm2", 
+      #"permanent_indet", 
+      "i1", "i2", "c", "pm3", "pm4",
       "m1", "m2", "m3"
     )
 )
@@ -1628,9 +1707,12 @@ category_mappings_teeth_3_to_1 <- list(
 # Level 4 -> Level 1
 category_mappings_teeth_4_to_1 <- list(
   teeth = c(
-      "deciduous_indet", "dl1_indet", "di1_superior", "dl1_inferior", "dl2_indet", "di2_superior",
+      #"deciduous_indet", 
+      "dl1_indet", "di1_superior", "dl1_inferior", "dl2_indet", "di2_superior",
       "dl2_inferior", "dc_indet", "dc_superior", "dc_inferior", "dm1_indet", "dm1_superior", "dm1_inferior",
-      "dm2_indet", "dm2_superior", "dm2_inferior", "permanent_indet", "i1_indet", "i1_superior",
+      "dm2_indet", "dm2_superior", "dm2_inferior", 
+      #"permanent_indet", 
+      "i1_indet", "i1_superior",
       "i1_inferior", "i2_indet", "i2_superior", "i2_inferior", "c_indet", "c_superior", "c_inferior",
       "pm3_indet", "pm3_superior", "pm3_inferior", "pm4_indet", "pm4_superior", "pm4_inferior", "m1_indet",
       "m1_superior", "m1_inferior", "m2_indet", "m2_superior", "m2_inferior", "m3_indet", "m3_superior",
@@ -1641,14 +1723,17 @@ category_mappings_teeth_4_to_1 <- list(
 # Level 5 -> Level 1
 category_mappings_teeth_5_to_1 <- list(
   teeth = c(
-      "deciduous_indet", "dl1_indet", "di1_superior_indet", "di1_superior_right", "di1_superior_left",
+      #"deciduous_indet", 
+      "dl1_indet", "di1_superior_indet", "di1_superior_right", "di1_superior_left",
       "dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left", "dl2_indet", "di2_superior_indet",
       "di2_superior_right", "di2_superior_left", "di2_inferior_indet", "di2_inferior_right",
       "di2_inferior_left", "dc_indet", "dc_superior_indet", "dc_superior_right", "dc_superior_left",
       "dc_inferior_indet", "dc_inferior_right", "dc_inferior_left", "dm1_indet", "dm1_superior_indet",
       "dm1_superior_left", "dm1_superior_right", "dm1_inferior_indet", "dm1_inferior_right",
       "dm1_inferior_left", "dm2_indet", "dm2_superior_indet", "dm2_superior_right", "dm2_superior_left",
-      "dm2_inferior_indet", "dm2_inferior_right", "dm2_inferior_left", "permanent_indet", "i1_indet",
+      "dm2_inferior_indet", "dm2_inferior_right", "dm2_inferior_left", 
+      #"permanent_indet", 
+      "i1_indet",
       "i1_superior_indet", "i1_superior_right", "i1_superior_left", "i1_inferior_indet", "i1_inferior_right",
       "i1_inferior_left", "i2_indet", "i2_superior_indet", "i2_superior_right", "i2_superior_left",
       "i2_inferior_indet", "i2_inferior_right", "i2_inferior_left", "c_indet", "c_superior_indet",
@@ -1665,19 +1750,23 @@ category_mappings_teeth_5_to_1 <- list(
 
 # Level 3 -> Level 2
 category_mappings_teeth_3_to_2 <- list(
-  deciduous = c("deciduous_indet", "di1", "di2", "dc", "dm1", "dm2"),
-  permanent = c("permanent_indet", "i1", "i2", "c", "pm3", "pm4", "m1", "m2", "m3")
+  #deciduous = c("deciduous_indet", "di1", "di2", "dc", "dm1", "dm2"),
+  deciduous_indet = c("di1", "di2", "dc", "dm1", "dm2"),
+  permanent = c( #"permanent_indet", 
+                "i1", "i2", "c", "pm3", "pm4", "m1", "m2", "m3")
 ),
 
 # Level 4 -> Level 2
 category_mappings_teeth_4_to_2 <- list(
-  deciduous = c(
-        "deciduous_indet", "dl1_indet", "di1_superior", "dl1_inferior", "dl2_indet", "di2_superior",
+  deciduous_indet = c( 
+        #"deciduous_indet", 
+        "dl1_indet", "di1_superior", "dl1_inferior", "dl2_indet", "di2_superior",
         "dl2_inferior", "dc_indet", "dc_superior", "dc_inferior", "dm1_indet", "dm1_superior", "dm1_inferior",
         "dm2_indet", "dm2_superior", "dm2_inferior"
       ),
   permanent = c(
-        "permanent_indet", "i1_indet", "i1_superior", "i1_inferior", "i2_indet", "i2_superior", "i2_inferior",
+        #"permanent_indet", 
+        "i1_indet", "i1_superior", "i1_inferior", "i2_indet", "i2_superior", "i2_inferior",
         "c_indet", "c_superior", "c_inferior", "pm3_indet", "pm3_superior", "pm3_inferior", "pm4_indet",
         "pm4_superior", "pm4_inferior", "m1_indet", "m1_superior", "m1_inferior", "m2_indet", "m2_superior",
         "m2_inferior", "m3_indet", "m3_superior", "m3_inferior"
@@ -1686,8 +1775,9 @@ category_mappings_teeth_4_to_2 <- list(
 
 # Level 5 -> Level 2
 category_mappings_teeth_5_to_2 <- list(
-  deciduous = c(
-        "deciduous_indet", "dl1_indet", "di1_superior_indet", "di1_superior_right", "di1_superior_left",
+  deciduous_indet = c(
+        #"deciduous_indet", 
+        "dl1_indet", "di1_superior_indet", "di1_superior_right", "di1_superior_left",
         "dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left", "dl2_indet", "di2_superior_indet",
         "di2_superior_right", "di2_superior_left", "di2_inferior_indet", "di2_inferior_right",
         "di2_inferior_left", "dc_indet", "dc_superior_indet", "dc_superior_right", "dc_superior_left",
@@ -1697,7 +1787,8 @@ category_mappings_teeth_5_to_2 <- list(
         "dm2_inferior_indet", "dm2_inferior_right", "dm2_inferior_left"
       ),
   permanent = c(
-        "permanent_indet", "i1_indet", "i1_superior_indet", "i1_superior_right", "i1_superior_left",
+        #"permanent_indet", 
+        "i1_indet", "i1_superior_indet", "i1_superior_right", "i1_superior_left",
         "i1_inferior_indet", "i1_inferior_right", "i1_inferior_left", "i2_indet", "i2_superior_indet",
         "i2_superior_right", "i2_superior_left", "i2_inferior_indet", "i2_inferior_right", "i2_inferior_left",
         "c_indet", "c_superior_indet", "c_superior_right", "c_superior_left", "c_inferior_indet",
@@ -1872,31 +1963,37 @@ category_mappings_vertebrae_3_to_2 <- list(
 
 # Level 2 -> Level 1
 category_mappings_thorax_2_to_1 <- list(
-  thorax = c("thorax_indet", "sternum", "ribs")
+  thorax = c("thorax_indet", "sternum", "ribs" )
 ),
 
 # Level 3 -> Level 1
 category_mappings_thorax_3_to_1 <- list(
-  thorax = c("thorax_indet", "sternum", "rib_indet", "rib_fragments", "ribs_right", "ribs_left")
+  thorax = c( "thorax_indet", "sternum", "rib_indet", "rib_fragments", "ribs_right", "ribs_left",  
+  "rib_1_indet",  "rib_2_indet", "rib_3_indet", "rib_4_indet", "rib_5_indet",  "rib_6_indet", "rib_7_indet",  
+  "rib_8_indet", "rib_9_indet", "rib_10_indet", "rib_11_indet", "rib_12_indet"
+)
 ),
 
 # Level 4 -> Level 1
 category_mappings_thorax_4_to_1 <- list(
   thorax = c(
-      "thorax_indet", "sternum", "rib_indet", "rib_fragments", "rib_1_indet", "rib_1_right", "rib_1_left",
-      "rib_2_indet", "rib_2_right", "rib_2_left", "rib_3_indet", "rib_3_right", "rib_3_left", "rib_4_indet", "rib_4_right",
-      "rib_4_left", "rib_5_indet", "rib_5_right", "rib_5_left", "rib_6_indet", "rib_6_right", "rib_6_left", "rib_7_indet",
-      "rib_7_right", "rib_7_left", "rib_8_indet", "rib_8_right", "rib_8_left", "rib_9_indet", "rib_9_right", "rib_9_left",
-      "rib_10_indet", "rib_10_right", "rib_10_left", "rib_11_indet", "rib_11_right", "rib_11_left", "rib_12_indet", "rib_12_right",
-      "rib_12_left"
-    )
+    "thorax_indet", "sternum", "rib_indet", "rib_fragments", "ribs_right", "ribs_left", 
+     "rib_1_right", "rib_1_left",
+     "rib_2_right", "rib_2_left",  "rib_3_right", "rib_3_left", "rib_4_right",
+     "rib_4_left",  "rib_5_right", "rib_5_left",  
+     "rib_6_right", "rib_6_left", 
+     "rib_7_right", "rib_7_left", "rib_8_right", "rib_8_left",  "rib_9_right", "rib_9_left",
+     "rib_10_right", "rib_10_left",  "rib_11_right", "rib_11_left", "rib_12_right", "rib_12_left"
+  )
 ),
 
 # Level 3 -> Level 2
 category_mappings_thorax_3_to_2 <- list(
   thorax_indet = c("thorax_indet"),
   sternum = c("sternum"),
-  ribs = c("rib_indet", "rib_fragments", "ribs_right", "ribs_left")
+  ribs = c("rib_indet", "rib_fragments", "ribs_right", "ribs_left",  
+  "rib_1_indet",  "rib_2_indet", "rib_3_indet", "rib_4_indet", "rib_5_indet",  "rib_6_indet", "rib_7_indet",  
+  "rib_8_indet", "rib_9_indet", "rib_10_indet", "rib_11_indet", "rib_12_indet")
 ),
 
 # Level 4 -> Level 2
@@ -1904,11 +2001,14 @@ category_mappings_thorax_4_to_2 <- list(
   thorax_indet = c("thorax_indet"),
   sternum = c("sternum"),
   ribs = c(
-      "rib_indet", "rib_fragments", "ribs_right", "rib_1_indet", "rib_1_right", "rib_1_left", "rib_2_indet", "rib_2_right",
-      "rib_2_left", "rib_3_indet", "rib_3_right", "rib_3_left", "rib_4_indet", "rib_4_right", "rib_4_left", "rib_5_indet",
-      "rib_5_right", "rib_5_left", "rib_6_indet", "rib_6_right", "rib_6_left", "rib_7_indet", "rib_7_right", "rib_7_left",
-      "rib_8_indet", "rib_8_right", "rib_8_left", "rib_9_indet", "rib_9_right", "rib_9_left", "rib_10_indet", "rib_10_right",
-      "rib_10_left", "rib_11_indet", "rib_11_right", "rib_11_left", "rib_12_indet", "rib_12_right", "rib_12_left"
+      "rib_indet", "rib_fragments", 
+    "ribs_right", "ribs_left", 
+     "rib_1_right", "rib_1_left",
+     "rib_2_right", "rib_2_left",  "rib_3_right", "rib_3_left", "rib_4_right",
+     "rib_4_left",  "rib_5_right", "rib_5_left",  
+     "rib_6_right", "rib_6_left", 
+     "rib_7_right", "rib_7_left", "rib_8_right", "rib_8_left",  "rib_9_right", "rib_9_left",
+     "rib_10_right", "rib_10_left",  "rib_11_right", "rib_11_left", "rib_12_right", "rib_12_left"
     )
 ),
 
@@ -1918,20 +2018,20 @@ category_mappings_thorax_4_to_3 <- list(
   sternum = c("sternum"),
   rib_indet = c("rib_indet"),
   rib_fragments = c("rib_fragments"),
-  ribs_right = c(
-    "rib_1_indet", "rib_1_right", "rib_1_left", "rib_2_indet", "rib_2_right", "rib_2_left", "rib_3_indet", "rib_3_right",
-    "rib_3_left", "rib_4_indet", "rib_4_right", "rib_4_left", "rib_5_indet", "rib_5_right", "rib_5_left", "rib_6_indet",
-    "rib_6_right", "rib_6_left", "rib_7_indet", "rib_7_right", "rib_7_left", "rib_8_indet", "rib_8_right", "rib_8_left",
-    "rib_9_indet", "rib_9_right", "rib_9_left", "rib_10_indet", "rib_10_right", "rib_10_left", "rib_11_indet", "rib_11_right",
-    "rib_11_left", "rib_12_indet", "rib_12_right", "rib_12_left"
-  ),
-  ribs_left = c(
-      "rib_1_indet", "rib_1_right", "rib_1_left", "rib_2_indet", "rib_2_right", "rib_2_left", "rib_3_indet", "rib_3_right",
-      "rib_3_left", "rib_4_indet", "rib_4_right", "rib_4_left", "rib_5_indet", "rib_5_right", "rib_5_left", "rib_6_indet",
-      "rib_6_right", "rib_6_left", "rib_7_indet", "rib_7_right", "rib_7_left", "rib_8_indet", "rib_8_right", "rib_8_left",
-      "rib_9_indet", "rib_9_right", "rib_9_left", "rib_10_indet", "rib_10_right", "rib_10_left", "rib_11_indet", "rib_11_right",
-      "rib_11_left", "rib_12_indet", "rib_12_right", "rib_12_left"
-    )
+  ribs_right = c("ribs_right"),
+  ribs_left = c( "ribs_left" ),
+  rib_1_indet = c("rib_1_right", "rib_1_left"),
+  rib_2_indet = c("rib_2_right", "rib_2_left"),
+  rib_3_indet = c("rib_3_right", "rib_3_left"),
+  rib_4_indet = c("rib_4_right", "rib_4_left"),
+  rib_5_indet = c("rib_5_right", "rib_5_left"),
+  rib_6_indet = c("rib_6_right", "rib_6_left"),
+  rib_7_indet = c("rib_7_right", "rib_7_left"),
+  rib_8_indet = c("rib_8_right", "rib_8_left"),
+  rib_9_indet = c("rib_9_right", "rib_9_left"),
+  rib_10_indet = c("rib_10_right", "rib_10_left"),
+  rib_11_indet = c("rib_11_right", "rib_11_left"),
+  rib_12_indet = c("rib_12_right", "rib_12_left")  
 ),
 
 
@@ -2299,8 +2399,8 @@ category_mappings_pelvic_3_to_1 <- list(
 category_mappings_pelvic_4_to_1 <- list(
   pelvic = c(
     "pelvic_indet",
-    "sacrum_indet", "s2", "s3", "s4", "s5", "s6",
-    "coccyx_indet", "cx2", "cx3", "cx4", "cx5",
+    "sacrum_indet", "s2", "s3", "s4", "s5", 
+    "coccyx_indet", "cx2", "cx3", "cx4",
     "os_coxae_indet",
     "os_coxae_right_indet", "ilium_right", "ischium_right", "pubis_right",
     "os_coxae_left_indet",  "ilium_left",  "ischium_left",  "pubis_left"
@@ -2318,8 +2418,8 @@ category_mappings_pelvic_3_to_2 <- list(
 # Level 4 -> Level 2
 category_mappings_pelvic_4_to_2 <- list(
   pelvic_indet = c("pelvic_indet"),
-  sacrum       = c("sacrum_indet", "s2", "s3", "s4", "s5", "s6"),
-  coccyx       = c("coccyx_indet", "cx2", "cx3", "cx4", "cx5"),
+  sacrum       = c("sacrum_indet", "s2", "s3", "s4", "s5"),
+  coccyx       = c("coccyx_indet", "cx2", "cx3", "cx4"),
   os_coxae     = c(
     "os_coxae_indet",
     "os_coxae_right_indet", "ilium_right", "ischium_right", "pubis_right",
@@ -2332,17 +2432,17 @@ category_mappings_pelvic_4_to_3 <- list(
   pelvic_indet = c("pelvic_indet"),
 
   sacrum_indet = c("sacrum_indet"),
-  s1 = c("s2"),
-  s2 = c("s3"),
-  s3 = c("s4"),
-  s4 = c("s5"),
-  s5 = c("s6"),
+  s1 = c("s1"),
+  s2 = c("s2"),
+  s3 = c("s3"),
+  s4 = c("s4"),
+  s5 = c("s5"),
 
   coccyx_indet = c("coccyx_indet"),
-  cx1 = c("cx2"),
-  cx2 = c("cx3"),
-  cx3 = c("cx4"),
-  cx4 = c("cx5"),
+  cx1 = c("cx1"),
+  cx2 = c("cx2"),
+  cx3 = c("cx3"),
+  cx4 = c("cx4"),
 
   os_coxae_indet = c("os_coxae_indet"),
   os_coxae_right = c("os_coxae_right_indet", "ilium_right", "ischium_right", "pubis_right"),

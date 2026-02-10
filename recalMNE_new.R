@@ -29,7 +29,8 @@ recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hiera
     part <- sections_order[part_index]
     current_level <- current_levels[[part_index]]
     target_level <- target_levels[[part_index]]
-    
+    print(part_index)
+
     # If current level matches target level, no aggregation is needed; just copy the original counts
     if (current_level == target_level) {
       # Extract counts for this part and add directly to new_mne
