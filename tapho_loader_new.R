@@ -87,7 +87,7 @@ recal_mne_six <- function(current_mne,  target_levels, skeleton_hierarchy, bone_
             child = gsub(" ", ".", child),
             parent = gsub(" ", ".", parent)
           )
-          
+        
         # Split data into mappable and non-mappable elements
         mappable <- working_data %>%
           inner_join(element_map, by = c("std_element" = "child"))

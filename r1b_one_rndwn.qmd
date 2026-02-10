@@ -179,10 +179,8 @@ names(skeleton_hierarchy$part$`Level 3`)
 
 
 ```{r}
-#tapho_loaded$count
-shorter_elements <- one_skeleton$element 
-longer_elements <- recalc_new_site_raw$element
-longer_counts <-  recalc_new_site_raw$count
+#tapho_loaded
+
 
 # Find the elements in the longer vector that are not in the shorter vector
 elements_to_remove <- longer_elements[!longer_elements %in% shorter_elements]
