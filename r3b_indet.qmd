@@ -1,0 +1,228 @@
+---
+title: "r2b indet febrero"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+
+
+```{r}
+distribute_indet <- function(counts, max_count, n_indet, 
+                              method = c("uniform", "adjacent")) {
+  method <- match.arg(method)
+  
+  if (n_indet == 0) return(counts)
+  
+  open_slots <- max_count - counts
+  
+  if (sum(open_slots) < n_indet) {
+    stop("Not enough open slots to place all indeterminate specimens.")
+  }
+  
+  new_counts <- counts
+  n <- length(counts)
+  
+  if (method == "uniform") {
+    # --- Uniform: weight proportional to open slots only ---
+    slot_pool <- rep(seq_len(n), times = open_slots)
+    chosen    <- sample(slot_pool, size = n_indet, replace = FALSE)
+    
+    for (i in chosen) new_counts[i] <- new_counts[i] + 1
+    
+  } else if (method == "adjacent") {
+    # --- Adjacent: place indets one at a time, updating weights each step ---
+    # This is sequential so weights update after each placement
+    
+    current_counts <- new_counts
+    
+    for (k in seq_len(n_indet)) {
+      
+      open_now <- max_count - current_counts
+      eligible  <- which(open_now > 0)
+      
+      # Adjacency weights: for each eligible position,
+      # count how many of its direct neighbors are already filled (count > 0)
+      adj_weight <- sapply(eligible, function(i) {
+        neighbors <- c(i - 1, i + 1)                      # direct neighbors
+        neighbors <- neighbors[neighbors >= 1 & neighbors <= n]
+        filled_neighbors <- sum(current_counts[neighbors] > 0)
+        base <- 1                                           # baseline so isolated slots still eligible
+        base + filled_neighbors                            # 1, 2, or 3
+      })
+      
+      # Scale by open slots (so a position with 2 open slots still gets double weight)
+      final_weights <- open_now[eligible] * adj_weight
+      
+      # Sample one position
+      chosen_pos <- sample(eligible, size = 1, prob = final_weights)
+      current_counts[chosen_pos] <- current_counts[chosen_pos] + 1
+    }
+    
+    new_counts <- current_counts
+  }
+  
+  return(new_counts)
+}
+```
+
+```{r}
+
+#counts <- c(c1=1, c2=0, c3=2, c4=0, c5=0, c6=0, c7=1)
+counts <- c(1, 0, 2, 0, 0, 0, 1)
+max_counts <- c(2, 2, 2,2,2,2,2)
+
+# Quick uniform assignment
+distribute_indet(counts, max_count = 2, n_indet = 2, method = "uniform")
+
+
+```
+
+```{r}
+# Biologically informed assignment
+distribute_indet(counts, max_count = max_counts, n_indet = 2, method = "adjacent")
+
+```
+
+```{r}
+max_counts <- c(c1=2, c2=2, c3=2, c4=2, c5=2, c6=2, c7=2)
+c(c1=2, c2=2, c3=2, c4=2, c5=2, c6=2, c7=2)*6
+
+
+```
+
+```{r}
+
+ux <- unique(counts)
+ux[which.max(tabulate(match(counts, ux)))]
+```
+
+
+
+
+```{r}
+match(counts, max_counts)
+```
+
+```{r}
+
+one_skeleton_element <- c("A","C", "D")
+recalc_element <- c("A","B","C")
+recalc_count <- c(10, 10,30)
+
+
+```
+
+```{r}
+align_counts_to_skeleton <- function(one_skeleton_element, recalc_element, recalc_count) {
+  
+  recalc_df <- data.frame(element = recalc_element, count = recalc_count)
+  
+  # Check if any dropped elements have non-zero counts
+  dropped_mask <- !recalc_df$element %in% one_skeleton_element
+  dropped_df <- recalc_df[dropped_mask, ]
+  
+  nonzero_dropped <- dropped_df[!is.na(dropped_df$count) & dropped_df$count != 0, ]
+  if (nrow(nonzero_dropped) > 0) {
+    warning(paste0(
+      "Some elements in recalc_element are not in one_skeleton_element ",
+      "but have non-zero counts:\n",
+      paste(sprintf("  %s: %s", nonzero_dropped$element, nonzero_dropped$count), collapse = "\n")
+    ))
+  }
+  
+  # Align counts to skeleton order
+  aligned_counts <- recalc_df$count[match(one_skeleton_element, recalc_df$element)]
+  
+  # Warn about skeleton elements missing from recalc_element (filled with 0)
+  missing_mask <- is.na(aligned_counts)
+  if (any(missing_mask)) {
+    warning(paste0(
+      "Some elements in one_skeleton_element were not found in recalc_element ",
+      "and have been set to 0:\n",
+      paste(sprintf("  %s", one_skeleton_element[missing_mask]), collapse = "\n")
+    ))
+  }
+  
+  aligned_counts <- replace(aligned_counts, is.na(aligned_counts), 0)
+  
+  data.frame(element = one_skeleton_element, count = aligned_counts)
+}
+```
+
+```{r}
+align_counts_to_skeleton(one_skeleton_element, recalc_element, recalc_count)
+```
+
+```{r}
+recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
+                           bone_names, sections_order) {
+
+  current_levels <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+
+  # Prep input data
+  working_base <- tibble(count = current_mne, element = bone_names) %>%
+    add_bone_info() %>%
+    mutate(std_element = gsub(" ", ".", element))
+
+  collapse_to_target <- function(data, part, from_level, to_level) {
+    while (from_level > to_level) {
+      next_level  <- from_level - 1
+      mapping_key <- paste0(part, "_", from_level, "_to_", next_level)
+
+      if (!mapping_key %in% names(category_hierarchy))
+        stop("Missing mapping: ", mapping_key)
+
+      element_map <- stack(category_hierarchy[[mapping_key]]) %>%
+        setNames(c("child", "parent")) %>%
+        mutate(across(everything(), \(x) gsub(" ", ".", x)))
+
+      mappable     <- inner_join(data, element_map, by = c("std_element" = "child"))
+      non_mappable <- anti_join(data, element_map, by = c("std_element" = "child"))
+
+      aggregated <- mappable %>%
+        group_by(std_element = parent) %>%
+        summarise(count = sum(count, na.rm = TRUE), .groups = "drop")
+
+      data <- full_join(non_mappable, aggregated, by = "std_element") %>%
+        mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
+        select(std_element, count)
+
+      from_level <- next_level
+    }
+    data
+  }
+
+  purrr::imap(sections_order, \(part, i) {
+    section_data <- working_base %>%
+      filter(Skeleton_Section == part) %>%
+      select(std_element, count)
+
+    collapse_to_target(section_data, part, current_levels[i], target_levels[i])
+  }) %>%
+    bind_rows() %>%
+    rename(element = std_element)
+}
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+
+```
+

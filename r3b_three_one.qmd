@@ -1,0 +1,296 @@
+---
+title: "r2b three febrero"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r}
+skeleton_hierarchy <- list(
+    vertebrae = list(
+    "Level 1" = list(
+      vertebrae = 1
+    ),
+
+    "Level 2" = list(
+      vertebrae_indet = 0,
+      cervical = 7,
+      thoracic = 12,
+      lumbar   = 5
+    ),
+
+    "Level 3" = list(
+      vertebrae_indet = 0,
+
+      cervical_indet = 0,
+      c1_atlas = 1,
+      c2_axis  = 1,
+      c3 = 1,
+      c4 = 1,
+      c5 = 1,
+      c6 = 1,
+      c7 = 1,
+
+      thoracic_indet = 0,
+      t1  = 1,
+      t2  = 1,
+      t3  = 1,
+      t4  = 1,
+      t5  = 1,
+      t6  = 1,
+      t7  = 1,
+      t8  = 1,
+      t9  = 1,
+      t10 = 1,
+      t11 = 1,
+      t12 = 1,
+
+      lumbar_indet = 0,
+      l1 = 1,
+      l2 = 1,
+      l3 = 1,
+      l4 = 1,
+      l5 = 1
+    )
+  )
+
+)
+
+
+
+
+ElementsOne <- c(  "vertebrae", "vertebrae_indet", "cervical",
+                    "cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7", "thoracic", "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11", "t12", "lumbar", "lumbar_indet", "l1", "l2", "l3", "l4", "l5")
+Level <- c( #vertebrae 
+1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3,
+  3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3 
+            )
+max_Level  <- c( #vertebrae
+  1, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+  3, 3, 3, 2, 3, 3, 3, 3, 3, 3 
+             )
+Bone_Count <- c(#vertebrae
+  24, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 12, 0, 1, 1, 1, 1,
+  1, 1, 1, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1)
+Skeleton_Section <- c( "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae") 
+
+
+
+
+
+
+elements_data <- data.frame(
+  ElementsOne = ElementsOne,
+  Level = Level,
+  max_Level = max_Level,
+  Bone_Count = Bone_Count,
+  Skeleton_Section = Skeleton_Section,
+  stringsAsFactors = FALSE
+)
+
+
+# Ensure types
+elements_data$Level <- as.integer(elements_data$Level)
+elements_data$Bone_Count <- as.integer(elements_data$Bone_Count)
+elements_data$ElementsOne <- as.character(elements_data$ElementsOne)
+elements_data$Skeleton_Section <- as.character(elements_data$Skeleton_Section)
+
+
+
+#### VERTEBRAE
+category_mappings = list(
+# Level 2 -> Level 1
+category_mappings_vertebrae_2_to_1 <- list(
+  vertebrae = c("vertebrae_indet", "cervical", "thoracic", "lumbar")
+),
+
+# Level 3 -> Level 1
+category_mappings_vertebrae_3_to_1 <- list(
+  vertebrae = c(
+      "vertebrae_indet", "cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6",
+      "c7", "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6",
+      "t7", "t8", "t9", "t10", "t11", "t12", "lumbar_indet", "l1",
+      "l2", "l3", "l4", "l5"
+    )
+),
+category_mappings = list(
+# Level 3 -> Level 2
+category_mappings_vertebrae_3_to_2 <- list(
+  vertebrae_indet = c("vertebrae_indet"),
+  cervical = c("cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7"),
+  thoracic = c(
+      "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6", "t7",
+      "t8", "t9", "t10", "t11", "t12"
+    ),
+  lumbar = c("lumbar_indet", "l1", "l2", "l3", "l4", "l5")
+)))
+category_hierarchy <- list(
+    #Vertebrae 3  3 3
+    "vertebrae_2_to_1" = category_mappings_vertebrae_2_to_1,
+    "vertebrae_3_to_1" = category_mappings_vertebrae_3_to_1,
+    "vertebrae_3_to_2" = category_mappings_vertebrae_3_to_2)
+```
+
+
+
+```{r}
+skeleton_hierarchy$vertebrae$`Level 3`$
+
+```
+
+
+
+```{r}
+new_site_raw <-readxl::read_excel("vertebrae.xlsx")
+
+```
+
+
+```{r}
+
+new_site_raw <-readxl::read_excel("vertebrae.xlsx")
+new_site_raw$count[is.na(new_site_raw$count)] <- 0
+
+current_mne_named <- tibble(
+    element = new_site_raw$element,
+    count = new_site_raw$count,
+    max_Level = new_site_raw$max_Level, 
+    Skeleton_Section = new_site_raw$Skeleton_Section)  %>%
+    mutate(std_element = gsub(" ", ".", element))
+
+# Initialize results list
+new_mne <- list()
+
+sections_order <- c("vertebrae")
+
+for (part in sections_order) {
+    part_idx <- which(sections_order == part)
+    current_level <- 3
+
+    target_level <- 2
+
+    cat("\nProcessing", part, ": Starting at level", current_level, "-> Target", target_level, "\n")
+
+    # Initialize working data
+    working_data <- current_mne_named %>%
+      filter(Skeleton_Section == part) %>%
+      select(std_element, count)
+
+
+iteration <- 1
+    while(current_level > target_level) {
+      intermediate_level <- max(target_level, current_level - 1)
+      mapping_name <- paste0(part, "_", current_level, "_to_", intermediate_level)
+
+      if (mapping_name %in% names(category_hierarchy)) {
+        # Create element-category mapping
+        element_map <- stack(category_hierarchy[[mapping_name]]) %>%
+          setNames(c("child", "parent")) %>%
+          mutate(
+            child = gsub(" ", ".", child),
+            parent = gsub(" ", ".", parent)
+          )
+         
+        print("########################################## element_map: ##############")
+        print(element_map)
+        # Split data into mappable and non-mappable elements
+        mappable <- working_data %>%
+          inner_join(element_map, by = c("std_element" = "child"))
+        print("########################################### mappable: ##############")
+        print(mappable) 
+      
+        non_mappable <- working_data %>%
+          anti_join(element_map, by = c("std_element" = "child"))
+
+        print("########################################## non_mappable: ##############")
+        print(non_mappable)  
+        # Aggregate mappable elements
+        aggregated <- mappable %>%
+          group_by(parent) %>%
+          summarize(count = sum(count, na.rm = TRUE)) %>%
+          rename(std_element = parent)
+        print("########################################### aggregated: ##############")
+        print(aggregated)
+
+        # Combine with non-mappable elements
+        #working_data <- bind_rows(non_mappable, aggregated)
+                # SPECIAL SUMMATION LOGIC
+
+                  working_data <- non_mappable %>%
+                    full_join(aggregated, by = "std_element") %>%
+                    mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
+                    select(std_element, count)
+
+        
+        print("########################################## working_data: ##############")
+        print(working_data)
+        current_level <- intermediate_level
+        cat("  Step", iteration, "| Level:", current_level, "| Elements:", nrow(working_data), "\n")
+        iteration <- iteration + 1
+      } else {
+        warning(paste("Missing mapping:", mapping_name))
+        break
+      }
+    }
+ 
+    # Store final results
+    if(nrow(working_data) > 0) {
+      for(i in seq_len(nrow(working_data))) {
+        #element_name <- paste(part, working_data$std_element[i], sep = "_")
+        element_name <-  working_data$std_element[i]
+        new_mne[[element_name]] <- working_data$count[i]
+      }
+    }
+  }
+
+  # Convert to tibble with proper ordering
+  new_mne_df <- tibble(
+    element = names(new_mne),
+    count = unlist(new_mne)
+  )
+
+
+new_mne_df
+
+
+
+```
+
+```{r}
+print(n= 34, new_site_raw)
+```
+
+```{r}
+
+
+
+```
+
+```{r}
+
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+
+
+
+```
+

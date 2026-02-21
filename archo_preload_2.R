@@ -47,7 +47,7 @@ archo_preload_site_table <- function(x, strict = FALSE) {
     warn_or_stop("Non-numeric skeletal values found; coerced to NA then set to 0.")
   }
 
-  # NA -> 0 (your rule)
+  # NA -> 0 
   if (any(is.na(raw_num))) {
     warn_or_stop("NA skeletal counts replaced with 0 (NA = not identified).")
     raw_num[is.na(raw_num)] <- 0
@@ -100,10 +100,10 @@ parse_individual_id <- function(id) {
 
 
 }
+# not used
+tapho.load_2 <- function(new_site_data, strict = FALSE) {
 
-tapho.load <- function(new_site_data, strict = FALSE) {
-
-  # ✅ 1) Validate first (warn early)
+  #  1) Validate first 
   new_site_data <- archo_preload(new_site_data, strict = strict)
 
   ind_name <- colnames(new_site_data)[2]
@@ -127,6 +127,7 @@ tapho.load <- function(new_site_data, strict = FALSE) {
 
   one_skeleton <- get_bones_dataframe(target_levels)
 
+  #old func
   data_aligned <- align_loaded_data(
     one_skeleton$element,
     recalc_new_site_raw$element,
@@ -325,7 +326,7 @@ loaded_tapho <- function(ind_name, meta, level, col_element, col_count, strict =
     warning(paste0("loaded_tapho validation:\n- ", paste(unique(issues), collapse = "\n- ")), call. = FALSE)
   }
 
-  # ✅ UPDATED OUTPUT: include ALL meta columns (site_id ... reference)
+  #  UPDATED OUTPUT: include ALL meta columns (site_id ... reference)
   dataset <- tibble::tibble(
     ind_name = ind_name,
 

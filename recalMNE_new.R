@@ -38,8 +38,8 @@ recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hiera
       for (i in seq_len(nrow(part_data))) {
         element <- standardize_name(part_data$element[i])
         count <- part_data$count[i]
-        new_mne[[paste(part, element, sep = "_")]] <- count
-        #new_mne[[category]] <- count
+        #new_mne[[paste(part, element, sep = "_")]] <- count
+        new_mne[[element]] <- count
       }
       next
     }
@@ -60,7 +60,10 @@ recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hiera
         std_elements <- sapply(elements, standardize_name)
         setNames(rep(std_category, length(std_elements)), std_elements)
       }))
-  
+      
+      print("element_to_category:")
+      print(element_to_category)
+
       # Filter data for this part
       part_data <- current_mne_named %>% filter(Skeleton_Section == part)
       
@@ -72,24 +75,34 @@ recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hiera
       
       # Handle elements not in mapping (optional)
       # For now, exclude them
-      part_data <- part_data %>% filter(!is.na(target_category))
-    
+      #part_data <- part_data %>% filter(!is.na(target_category))   ##   <---
+      
+      print("part data: ")
+      print(part_data)
+
 
       # Aggregate counts by target category
       aggregated_counts <- part_data %>%
         group_by(target_category) %>%
         summarize(total_count = sum(count, na.rm = TRUE))
 
-      aggregated_counts$target_category <- factor( aggregated_counts$target_category, levels = names(mapping))
+      print("aggregated_counts: ")
+      print(aggregated_counts)
+
+
+      aggregated_counts$target_category <- factor(aggregated_counts$target_category, levels = names(mapping))
       aggregated_counts <- aggregated_counts %>%
       arrange(target_category)
+      
+    print("aggregated_counts: ")
+    print(aggregated_counts)
       
       # Store the counts in new_mne
       for (i in seq_len(nrow(aggregated_counts))) {
         category <- aggregated_counts$target_category[i]
         total_count <- aggregated_counts$total_count[i]
-        new_mne[[paste(part, category, sep = "_")]] <- total_count
-        #new_mne[[category]] <- total_count
+        #new_mne[[paste(part, category, sep = "_")]] <- total_count
+        new_mne[[category]] <- total_count
       }
     } else {
       # Mapping not found, handle accordingly
@@ -98,7 +111,7 @@ recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hiera
   }
   
   # Convert new_mne to data frame
-  new_mne_df <- tibble(element = names(new_mne), count = unlist(new_mne))
+  new_mne_df <- tibble(element = names(new_mne),  count = unname(as.numeric(new_mne)) )
   
   # Return the new MNE results
   return(new_mne_df)
@@ -110,8 +123,8 @@ recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hiera
 recal_mne_selected_data <- function(selected_data) {
 
 
-  #calc min bone level
-  min_bone_level <- get_min(selected_data)
+#calc min bone level
+min_bone_level <- get_min(selected_data)
 print(min_bone_level)
   # Recalculate counts and elements for each row
   recalculated_list <- pmap(

@@ -304,6 +304,9 @@ sumby_site <- function(data){
   group_by(site_id) %>%
   group_modify(~ recal_mne_selected_data(.x)) %>%  # apply function to each site_id subset
   ungroup()
+  
+  print("recalc_data[,34:36]:")
+  print(recalc_data[,34:36])
   # check that all bone.level are the same  otherwise throuh error 
   sumby_data <- recalc_data %>% 
   # Create the composite string (Row-wise) before grouping
@@ -367,9 +370,9 @@ sumby_site <- function(data){
       sum_count = sum(sum_count, na.rm = TRUE), 
       bone.level = list(first(bone.level)), 
       element = list(first(element)),
-      count = list(Reduce(`+`, count)) 
+      count = list(first(element)) 
   )
   
   return(sumby_data)
   
-  }
+}

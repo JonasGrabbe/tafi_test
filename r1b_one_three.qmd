@@ -1,0 +1,69 @@
+---
+title: "r2b three febrero"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("tapho_loader_new.R")
+source("select_data_new.R")
+source("recalMNE_new.R")
+
+```
+
+
+```{r}
+
+excel_path <- "hspa-test.xlsx"
+tapho_db <- read_excel_sheets(excel_path)
+tapho_db 
+
+```
+
+
+```{r}
+tapho_db[,34:36]
+
+```
+
+
+```{r}
+site_tb <- sumby_site(tapho_db)
+site_tb
+```
+
+
+```{r}
+site_tb[,34:36]
+
+```
+
+```{r}
+recal_tb <- recal_mne_selected_data(site_tb)
+recal_tb[,34:36]
+```
+
+
+```{r}
+
+source("recalMNE_new_fixed.R")
+
+tibb <- recal_mne_selected_data_fixed(site_tb[-c(3,6,8),])
+print(tibb$count)
+tibb[-c(5,6),34:36]
+
+```
+
+
+```{r}
+site_tb[3,34:36]$element
+```
+

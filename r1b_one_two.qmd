@@ -191,7 +191,8 @@ tapho_db
 
 
 ```{r}
-tapho_db[20:30,]
+tapho_db[,34:36]
+
 
 ```
 
@@ -1010,7 +1011,11 @@ rerecal_mne <- function(current_mne, current_levels, target_levels, skeleton_hie
   return(new_mne_df)
 }
 
-rerecal_mne(current_mne, current, target_levels, skeleton_hierarchy, bone_names, sections_order)
+```
+
+```{r}
+
+recal_mne_six(current_mne, target_levels, skeleton_hierarchy, bone_names, sections_order)
 
 
 
@@ -1113,4 +1118,71 @@ length(c(
     )
 )
 
+
 ```
+
+```{r}
+source("select_data_new.R")
+source("recalMNE_new.R")
+
+site_tb <- sumby_site(tapho_db)
+
+recal_tb <- recal_mne_selected_data(site_tb[-c(3,6,8),])
+
+recal_tb[,34:36]
+
+```
+
+```{r}
+
+site_tb[-c(3,6,8),34:36]
+
+
+```
+
+```{r}
+recal_tb[-c(5,6),34:36]
+```
+
+```{r}
+
+source("recalMNE_new_fixed.R")
+
+tibb <- recal_mne_selected_data_fixed(site_tb[-c(3,6,8),])
+
+```
+
+```{r}
+print(tibb$count)
+tibb[-c(5,6),34:36]
+
+```
+
+# 
+
+```{r}
+
+tapho_db$element
+
+```
+
+```{r}
+
+source("meta_new.R")
+source("tapho_loader_new.R")
+elements_data= elements_data
+library(readxl)
+
+excel_path <- "hspa_one.xlsx"
+df_one <- readxl::read_excel(excel_path)
+
+```
+
+```{r}
+
+new_site_data <- df_one
+tapho_loaded <- tapho.load(new_site_data)
+tapho_loaded 
+```
+
+

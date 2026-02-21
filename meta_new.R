@@ -1118,7 +1118,8 @@ ElementsOne <- c(
   
   
   "teeth", 
-  "deciduous","deciduous_indet", 
+  #"deciduous",
+  "deciduous_indet", 
   "di1", "dl1_indet", "di1_superior", "di1_superior_indet", "di1_superior_right",
   "di1_superior_left", "dl1_inferior", "dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left", "di2",
   "dl2_indet", "di2_superior", "di2_superior_indet", "di2_superior_right", "di2_superior_left", "dl2_inferior",
@@ -1129,7 +1130,8 @@ ElementsOne <- c(
   "dm1_inferior_left", "dm2", "dm2_indet", "dm2_superior", "dm2_superior_indet", "dm2_superior_right",
   "dm2_superior_left", "dm2_inferior", "dm2_inferior_indet", "dm2_inferior_right", "dm2_inferior_left", 
   
-  "permanent", "permanent_indet",
+  "permanent", 
+  #"permanent_indet",
   "i1", "i1_indet", "i1_superior", "i1_superior_indet", "i1_superior_right", "i1_superior_left", "i1_inferior",
   "i1_inferior_indet", "i1_inferior_right", "i1_inferior_left", "i2", "i2_indet", "i2_superior", "i2_superior_indet",
   "i2_superior_right", "i2_superior_left", "i2_inferior", "i2_inferior_indet", "i2_inferior_right", "i2_inferior_left",
@@ -1366,7 +1368,7 @@ Bone_Count <- c(
   #thorax
   25, 0, 1, 24, 0, 0,12,12, 
   2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 
-  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1
+  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1,
   
   #shoulder
   4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
@@ -1805,13 +1807,13 @@ category_mappings_teeth_5_to_2 <- list(
 
 # Level 4 -> Level 3
 category_mappings_teeth_4_to_3 <- list(
-  deciduous_indet = c("deciduous_indet"),
+  #deciduous_indet = c("deciduous_indet"),
   di1 = c("dl1_indet", "di1_superior", "dl1_inferior"),
   di2 = c("dl2_indet", "di2_superior", "dl2_inferior"),
   dc = c("dc_indet", "dc_superior", "dc_inferior"),
   dm1 = c("dm1_indet", "dm1_superior", "dm1_inferior"),
   dm2 = c("dm2_indet", "dm2_superior", "dm2_inferior"),
-  permanent_indet = c("permanent_indet"),
+  #permanent_indet = c("permanent_indet"),
   i1 = c("i1_indet", "i1_superior", "i1_inferior"),
   i2 = c("i2_indet", "i2_superior", "i2_inferior"),
   c = c("c_indet", "c_superior", "c_inferior"),
@@ -1824,7 +1826,7 @@ category_mappings_teeth_4_to_3 <- list(
 
 # Level 5 -> Level 3
 category_mappings_teeth_5_to_3 <- list(
-  deciduous_indet = c("deciduous_indet"),
+  #deciduous_indet = c("deciduous_indet"),
   di1 = c(
         "dl1_indet", "di1_superior_indet", "di1_superior_right", "di1_superior_left", "dl1_inferior_indet",
         "dl1_inferior_right", "dl1_inferior_left"
@@ -1845,7 +1847,7 @@ category_mappings_teeth_5_to_3 <- list(
         "dm2_indet", "dm2_superior_indet", "dm2_superior_right", "dm2_superior_left", "dm2_inferior_indet",
         "dm2_inferior_right", "dm2_inferior_left"
       ),
-  permanent_indet = c("permanent_indet"),
+  #permanent_indet = c("permanent_indet"),
   i1 = c(
         "i1_indet", "i1_superior_indet", "i1_superior_right", "i1_superior_left", "i1_inferior_indet",
         "i1_inferior_right", "i1_inferior_left"
@@ -1882,7 +1884,7 @@ category_mappings_teeth_5_to_3 <- list(
 
 # Level 5 -> Level 4
 category_mappings_teeth_5_to_4 <- list(
-  deciduous_indet = c("deciduous_indet"),
+  #deciduous_indet = c("deciduous_indet"),
   dl1_indet = c("dl1_indet"),
   di1_superior = c("di1_superior_indet", "di1_superior_right", "di1_superior_left"),
   dl1_inferior = c("dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left"),
@@ -1898,7 +1900,7 @@ category_mappings_teeth_5_to_4 <- list(
   dm2_indet = c("dm2_indet"),
   dm2_superior = c("dm2_superior_indet", "dm2_superior_right", "dm2_superior_left"),
   dm2_inferior = c("dm2_inferior_indet", "dm2_inferior_right", "dm2_inferior_left"),
-  permanent_indet = c("permanent_indet"),
+  #permanent_indet = c("permanent_indet"),
   i1_indet = c("i1_indet"),
   i1_superior = c("i1_superior_indet", "i1_superior_right", "i1_superior_left"),
   i1_inferior = c("i1_inferior_indet", "i1_inferior_right", "i1_inferior_left"),

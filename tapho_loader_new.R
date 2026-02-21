@@ -8,7 +8,7 @@ library(dplyr)
 library(tibble)
 library(readxl)
 
-summarize_bone_sections_zero_na <- function(input_df, reference_df = elements_data) {
+summarize_bone_sections_zero_na <- function(input_df, method = min  ,reference_df = elements_data) {
   
   # Filter out rows where input_df$element is 0 or NA
 
@@ -24,11 +24,31 @@ summarize_bone_sections_zero_na <- function(input_df, reference_df = elements_da
     "arms", "hands", "pelvic", "legs", "foot")
 
   # Summarize the minimum Level for each section
+  # old
+  #summary_df <- bone_info_df %>%
+  #  group_by(Skeleton_Section) %>%
+  #  summarize(min_level = min(max_Level, na.rm = TRUE)) %>%
+  #  ungroup()
+  
+  # Summarize the minimum Level for each section
+  stat_mode <- function(x) {
+    x <- x[!is.na(x)]
+    ux <- unique(x)
+    ux[which.max(tabulate(match(x, ux)))]
+  }
+  
+  stat_fn <- switch(method,
+    "min"  = function(x) min(x, na.rm = TRUE),
+    "max"  = function(x) max(x, na.rm = TRUE),
+    "mode" = stat_mode,
+    stop("method in 'summariz_bone_sections_zero_na' must be 'min', 'max', or 'mode'")
+  )
+  
   summary_df <- bone_info_df %>%
     group_by(Skeleton_Section) %>%
-    summarize(min_level = min(max_Level, na.rm = TRUE)) %>%
+    summarize(min_level = stat_fn(max_Level)) %>%
     ungroup()
-
+  
   # Create a named vector with all sections, initializing with 1 (instead of NA)
   #result_vector <- setNames(rep(1, length(sections_order)), sections_order)
   most_detailed_level <- c(5,5,1,3,4,3,3,5,4,3,5)
@@ -59,7 +79,7 @@ recal_mne_six <- function(current_mne,  target_levels, skeleton_hierarchy, bone_
   # Create initial tibble with bone info
   current_mne_named <- tibble(count = current_mne, element = bone_names) %>%
     add_bone_info() %>%
-    mutate(std_element = gsub(" ", ".", element))
+    mutate(std_element = gsub(" ", ".", element)) ## not needed anymore
 
   # Process each skeleton section
   for (part in sections_order) {
@@ -87,24 +107,40 @@ recal_mne_six <- function(current_mne,  target_levels, skeleton_hierarchy, bone_
             child = gsub(" ", ".", child),
             parent = gsub(" ", ".", parent)
           )
-        
+         
+        print("########################################### element_map: ##############")
+        print(element_map)
         # Split data into mappable and non-mappable elements
         mappable <- working_data %>%
           inner_join(element_map, by = c("std_element" = "child"))
-
+        print("########################################### mappable: ##############")
+        print(mappable) 
+      
         non_mappable <- working_data %>%
           anti_join(element_map, by = c("std_element" = "child"))
 
+        print("########################################### non_mappable: ##############")
+        print(non_mappable)  
         # Aggregate mappable elements
         aggregated <- mappable %>%
           group_by(parent) %>%
           summarize(count = sum(count, na.rm = TRUE)) %>%
           rename(std_element = parent)
+        print("########################################### aggregated: ##############")
+        print(aggregated)
 
-       
         # Combine with non-mappable elements
-        working_data <- bind_rows(non_mappable, aggregated)
-       
+        #working_data <- bind_rows(non_mappable, aggregated)
+                # SPECIAL SUMMATION LOGIC
+
+                  working_data <- non_mappable %>%
+                    full_join(aggregated, by = "std_element") %>%
+                    mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
+                    select(std_element, count)
+
+        
+        print("########################################### working_data: ##############")
+        print(working_data)
         current_level <- intermediate_level
         cat("  Step", iteration, "| Level:", current_level, "| Elements:", nrow(working_data), "\n")
         iteration <- iteration + 1
@@ -168,10 +204,9 @@ return(align_loaded_db)
 ########################################### tapho-r loader function sum=0 ##############
 tapho.load <- function(new_site_data, strict = FALSE) {
 
-  # 1) Validate & coerce first (warn now, not later)
+  # Validate & coerce first (warn now, not later)
   new_site_data <- archo_preload_site_table(new_site_data, strict = strict)
 
-  # 2) Now safe to continue
   ind_name <- colnames(new_site_data)[2]
 
   colnames(new_site_data) <- c("element", "count")
@@ -183,6 +218,10 @@ tapho.load <- function(new_site_data, strict = FALSE) {
 
   # NA skeletal values are already set to 0 by validator, but keep this safe:
   new_site_raw$count[is.na(new_site_raw$count)] <- 0
+  print("########################################### tapho-r loader function sum=0 ##############")
+  print(new_site_raw$count)
+  print("########################################### tapho-r loader function sum=0 ##############")
+
 
   recalc_new_site_raw <- recal_mne_six(
     as.numeric(new_site_raw$count),
@@ -192,6 +231,10 @@ tapho.load <- function(new_site_data, strict = FALSE) {
     sections_order
   )
 
+  print("########################################### tapho-r loader function sum=0 ##############")
+  print(recalc_new_site_raw)
+  print("########################################### tapho-r loader function sum=0 ##############")
+
   one_skeleton <- get_bones_dataframe(target_levels)
 
   data_aligned <- align_counts_to_skeleton(
@@ -200,7 +243,7 @@ tapho.load <- function(new_site_data, strict = FALSE) {
     recalc_new_site_raw$count
   )
 
-  # ✅ FIXED CALL SIGNATURE: pass meta DF, not meta$count
+  #  FIXED CALL SIGNATURE: pass meta DF, not meta$count
   tapho_loaded <- loaded_tapho(
     ind_name     = ind_name,
     meta         = new_site_meta,
