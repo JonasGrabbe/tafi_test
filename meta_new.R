@@ -279,7 +279,8 @@ skeleton_hierarchy <- list(
     ),
 
     "Level 2" = list(
-      deciduous_indet = 1, #deciduous = 1,
+      #deciduous_indet = 1, #
+      deciduous = 1,
       permanent = 1
     ),
 
@@ -546,18 +547,18 @@ skeleton_hierarchy <- list(
       ribs_right = 12,
       ribs_left = 12,
 
-      rib_1_indet  = 2,
-      rib_2_indet  = 2,
-      rib_3_indet  = 2,
-      rib_4_indet  = 2,
-      rib_5_indet  = 2,
-      rib_6_indet  = 2,
-      rib_7_indet  = 2,
-      rib_8_indet = 2,
-      rib_9_indet  = 2,
-      rib_10_indet = 2,
-      rib_11_indet = 2,
-      rib_12_indet = 2
+      rib_1  = 2,
+      rib_2  = 2,
+      rib_3  = 2,
+      rib_4  = 2,
+      rib_5  = 2,
+      rib_6  = 2,
+      rib_7  = 2,
+      rib_8  = 2,
+      rib_9  = 2,
+      rib_10 = 2,
+      rib_11 = 2,
+      rib_12 = 2
     ),
 
     "Level 4" = list(
@@ -1118,8 +1119,8 @@ ElementsOne <- c(
   
   
   "teeth", 
-  #"deciduous",
-  "deciduous_indet", 
+  "deciduous",
+ #"deciduous_indet", 
   "di1", "dl1_indet", "di1_superior", "di1_superior_indet", "di1_superior_right",
   "di1_superior_left", "dl1_inferior", "dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left", "di2",
   "dl2_indet", "di2_superior", "di2_superior_indet", "di2_superior_right", "di2_superior_left", "dl2_inferior",
@@ -1691,8 +1692,8 @@ category_mappings_cranium_5_to_4 <- list(
 #### TEETH
 # Level 2 -> Level 1
 category_mappings_teeth_2_to_1 <- list(
-  #teeth = c("deciduous", "permanent")
-  teeth = c("deciduous_indet", "permanent")
+  teeth = c("deciduous", "permanent")
+  #teeth = c("deciduous_indet", "permanent")
 ),
 
 # Level 3 -> Level 1
@@ -1753,14 +1754,14 @@ category_mappings_teeth_5_to_1 <- list(
 # Level 3 -> Level 2
 category_mappings_teeth_3_to_2 <- list(
   #deciduous = c("deciduous_indet", "di1", "di2", "dc", "dm1", "dm2"),
-  deciduous_indet = c("di1", "di2", "dc", "dm1", "dm2"),
+  deciduous = c("di1", "di2", "dc", "dm1", "dm2"),
   permanent = c( #"permanent_indet", 
                 "i1", "i2", "c", "pm3", "pm4", "m1", "m2", "m3")
 ),
 
 # Level 4 -> Level 2
 category_mappings_teeth_4_to_2 <- list(
-  deciduous_indet = c( 
+  deciduous = c( 
         #"deciduous_indet", 
         "dl1_indet", "di1_superior", "dl1_inferior", "dl2_indet", "di2_superior",
         "dl2_inferior", "dc_indet", "dc_superior", "dc_inferior", "dm1_indet", "dm1_superior", "dm1_inferior",
@@ -1777,7 +1778,7 @@ category_mappings_teeth_4_to_2 <- list(
 
 # Level 5 -> Level 2
 category_mappings_teeth_5_to_2 <- list(
-  deciduous_indet = c(
+  deciduous = c(
         #"deciduous_indet", 
         "dl1_indet", "di1_superior_indet", "di1_superior_right", "di1_superior_left",
         "dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left", "dl2_indet", "di2_superior_indet",

@@ -1062,6 +1062,7 @@ skeleton_hierarchy <- list(
       foot_phalanx_proximal_indet = 0,
       foot_phalanx_proximal_right_indet = 0,
       foot_phalanx_proximal_left_indet  = 0,
+     
       foot_phalanx_proximal_1_right = 1,
       foot_phalanx_proximal_2_right = 1,
       foot_phalanx_proximal_3_right = 1,

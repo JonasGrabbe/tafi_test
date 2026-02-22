@@ -214,15 +214,216 @@ recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
 ```
 
 ```{r}
+# ── Helpers (standalone, reusable) ────────────────────────────────────────────
 
+distribute_surplus <- function(counts, max_counts, n_indet) {
+  if (n_indet == 0) return(counts)
+  open_slots <- max_counts - counts
+  if (sum(open_slots) < n_indet)
+    stop("Not enough open slots to place all indeterminate specimens.")
+  slot_pool <- rep(seq_along(counts), times = open_slots)
+  chosen    <- sample(slot_pool, size = n_indet, replace = FALSE)
+  for (i in chosen) counts[i] <- counts[i] + 1
+  counts
+}
+
+# Single-step rollup: level N -> level N-1
+collapse_up_step <- function(data, part, current_level, taget_level) {
+  key <- paste0(part, "_", from_level, "_to_", taget_level)
+  if (!key %in% names(category_hierarchy)) stop("Missing mapping: ", key)
+
+  element_map <- stack(category_hierarchy[[key]]) %>%
+    setNames(c("child", "parent")) %>%
+    mutate(across(everything(), \(x) gsub(" ", ".", x)))
+
+  mappable     <- inner_join(data, element_map, by = c("std_element" = "child"))
+  non_mappable <- anti_join(data, element_map, by = c("std_element" = "child"))
+
+  aggregated <- mappable %>%
+    group_by(std_element = parent) %>%
+    summarise(count = sum(count, na.rm = TRUE), .groups = "drop")
+
+  full_join(non_mappable, aggregated, by = "std_element") %>%
+    mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
+    select(std_element, count)
+}
+
+# Single-step rolldown: level N -> level N+1
+collapse_down_step <- function(data, part, current_level, taget_level,section_name, MNI) {
+  key         <- paste0(part, "_", taget_level, "_to_", current_level)
+  if (!key %in% names(category_hierarchy)) stop("Missing mapping: ", key)
+
+  mapping      <- category_hierarchy[[key]]
+  level_label  <- paste0("Level ", taget_level)
+  level_maxima <- skeleton_hierarchy[[section_name]][[level_label]]
+
+  new_rows <- purrr::map_dfr(names(mapping), function(parent_elem) {
+    parent_clean <- gsub(" ", ".", parent_elem)
+    children     <- gsub(" ", ".", mapping[[parent_elem]])
+    real_children <- children[!grepl("_indet$", children)]
+
+    parent_count <- data %>%
+      filter(std_element == parent_clean) %>%
+      pull(count) %>%
+      { if (length(.) == 0) 0L else . }
+
+    existing_counts <- purrr::map_int(real_children, \(ch) {
+      val <- data %>% filter(std_element == ch) %>% pull(count)
+      if (length(val) == 0) 0L else as.integer(val)
+    })
+
+    max_counts <- purrr::map_int(real_children, \(ch) {
+      base <- level_maxima[[ch]]
+      if (is.null(base)) 0L else as.integer(base * MNI)
+    })
+
+    surplus      <- max(0L, parent_count - sum(existing_counts))
+    final_counts <- distribute_surplus(existing_counts, max_counts, surplus)
+
+    tibble(std_element = real_children, count = final_counts)
+  })
+
+  parent_names <- gsub(" ", ".", names(mapping))
+  data %>%
+    filter(!std_element %in% parent_names) %>%
+    bind_rows(new_rows)
+}
+
+
+# ── Main function ─────────────────────────────────────────────────────────────
+
+recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
+                           bone_names, sections_order, MNI) {
+
+  max_levels <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+  min_levels <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
+
+
+  working_base <- tibble(count = current_mne, element = bone_names) %>%
+    add_bone_info() %>%
+    mutate(std_element = gsub(" ", ".", element))
+
+  purrr::imap(sections_order, \(part, i) {
+    data <- working_base %>%
+      filter(Skeleton_Section == part) %>%
+      select(std_element, count)
+
+    max <- max_levels[i]
+    min <- min_levels[i]
+    tgt <- target_levels[i]
+
+    
+    while (max > tgt) {
+      minus_one <- max - 1
+      data <- collapse_up_step(data, part, max, minus_one)
+      max  <- max - 1
+    }
+    while (min < tgt) {
+      plus_one <- min +1  
+      data <- collapse_down_step(data, part, min,plus_one ,section_name = part, MNI = MNI)
+      min  <- min + 1
+    }
+    
+
+    data
+  }) %>%
+    bind_rows() %>%
+    rename(element = std_element)
+}
 ```
 
 ```{r}
+# ── Main function ─────────────────────────────────────────────────────────────
 
+recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
+                           bone_names, sections_order, MNI) {
+
+  max_levels <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+  min_levels <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
+
+  working_base <- tibble(count = current_mne, element = bone_names) %>%
+    add_bone_info() %>%
+    mutate(std_element = gsub(" ", ".", element))
+
+  purrr::imap(sections_order, \(part, i) {
+    data <- working_base %>%
+      filter(Skeleton_Section == part) %>%
+      select(std_element, count)
+
+
+    max <- max_levels[i]
+    min <- min_levels[i]
+    tgt <- target_levels[i]
+
+
+      # Roll up step by step: cur -> cur-1 -> ... -> tgt
+      while (max > tgt) {
+        data <- collapse_up_step(data, part,
+                                 current_level = max,
+                                 target_level  = max - 1)
+        max <- max - 1
+      }
+
+
+      # Roll down step by step: cur -> cur+1 -> ... -> tgt
+      while (min < tgt) {
+        data <- collapse_down_step(data, part,
+                                   current_level = min,
+                                   target_level  = min + 1,
+                                   section_name  = part,
+                                   MNI           = MNI)
+        min <- min + 1
+      }
+    
+
+    data
+  }) %>%
+    bind_rows() %>%
+    rename(element = std_element)
+}
 ```
 
 ```{r}
+recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hierarchy,
+                           bone_names, sections_order, MNI) {
 
+  working_base <- tibble(count = current_mne, element = bone_names) %>%
+    add_bone_info() %>%
+    mutate(std_element = gsub(" ", ".", element))
+
+  purrr::imap(sections_order, \(part, i) {
+    data <- working_base %>%
+      filter(Skeleton_Section == part) %>%
+      select(std_element, count)
+
+
+    cur <- current_levels[i]
+    tgt <- target_levels[i]
+
+
+    if (cur > tgt) {
+      
+        data <- collapse_up_step(data, part,
+                                 current_level = cur,
+                                 target_level  = tgt)
+      
+      
+    } else if (cur < tgt) {
+
+        data <- collapse_down_step(data, part,
+                                   current_level = cur,
+                                   target_level  = tgt,
+                                   section_name  = part,
+                                   MNI           = MNI)
+    
+      }
+    
+
+    data
+  }) %>%
+    bind_rows() %>%
+    rename(element = std_element)
+}
 
 ```
 
