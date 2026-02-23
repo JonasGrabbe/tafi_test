@@ -226,41 +226,69 @@ distribute_surplus <- function(counts, max_counts, n_indet) {
   for (i in chosen) counts[i] <- counts[i] + 1
   counts
 }
+```
 
+```{r}
 # Single-step rollup: level N -> level N-1
-collapse_up_step <- function(data, part, current_level, taget_level) {
-  key <- paste0(part, "_", from_level, "_to_", taget_level)
+collapse_up_step <- function(data, part, current_level, target_level) {
+  key <- paste0(part, "_", current_level, "_to_", target_level)
   if (!key %in% names(category_hierarchy)) stop("Missing mapping: ", key)
-
+print("key")
+print(key)
   element_map <- stack(category_hierarchy[[key]]) %>%
     setNames(c("child", "parent")) %>%
     mutate(across(everything(), \(x) gsub(" ", ".", x)))
-
+print("element_map")
+print(element_map)
   mappable     <- inner_join(data, element_map, by = c("std_element" = "child"))
   non_mappable <- anti_join(data, element_map, by = c("std_element" = "child"))
-
+print("mappable")
+print(mappable)
+print("non_mappable")
+print(non_mappable)
   aggregated <- mappable %>%
     group_by(std_element = parent) %>%
     summarise(count = sum(count, na.rm = TRUE), .groups = "drop")
+
+data <-  full_join(non_mappable, aggregated, by = "std_element") %>%
+    mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
+    select(std_element, count)
+print("data")
+print(data)
 
   full_join(non_mappable, aggregated, by = "std_element") %>%
     mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
     select(std_element, count)
 }
+```
+
+```{r}
+
+drop_indet_if_possible <- function(x) {
+  x <- gsub(" ", ".", x)
+  if (length(x) > 1) {
+    tmp <- x[!grepl("_indet$", x)]
+    if (length(tmp) > 0) return(tmp)
+  }
+  x
+}
+
+
 
 # Single-step rolldown: level N -> level N+1
-collapse_down_step <- function(data, part, current_level, taget_level,section_name, MNI) {
-  key         <- paste0(part, "_", taget_level, "_to_", current_level)
+collapse_down_step <- function(data, part, current_level, target_level,section_name, MNI) {
+  key         <- paste0(part, "_", target_level, "_to_", current_level)
   if (!key %in% names(category_hierarchy)) stop("Missing mapping: ", key)
 
   mapping      <- category_hierarchy[[key]]
-  level_label  <- paste0("Level ", taget_level)
+  level_label  <- paste0("Level ", target_level)
   level_maxima <- skeleton_hierarchy[[section_name]][[level_label]]
 
   new_rows <- purrr::map_dfr(names(mapping), function(parent_elem) {
+
     parent_clean <- gsub(" ", ".", parent_elem)
     children     <- gsub(" ", ".", mapping[[parent_elem]])
-    real_children <- children[!grepl("_indet$", children)]
+    real_children <- drop_indet_if_possible(children)
 
     parent_count <- data %>%
       filter(std_element == parent_clean) %>%
@@ -277,19 +305,31 @@ collapse_down_step <- function(data, part, current_level, taget_level,section_na
       if (is.null(base)) 0L else as.integer(base * MNI)
     })
 
-    surplus      <- max(0L, parent_count - sum(existing_counts))
+
+  if (length(real_children) == 1 && real_children[1] == parent_clean) {
+            return(tibble(std_element = real_children, count = as.integer(parent_count)))
+      }
+
+    surplus      <- max(0L, parent_count) # no double - sum(existing_counts))
     final_counts <- distribute_surplus(existing_counts, max_counts, surplus)
+
 
     tibble(std_element = real_children, count = final_counts)
   })
 
   parent_names <- gsub(" ", ".", names(mapping))
+  child_names <- unique(gsub(" ", ".", unlist(mapping)))
+  child_names <- drop_indet_if_possible(child_names)
+
   data %>%
-    filter(!std_element %in% parent_names) %>%
+    filter(!std_element %in% c(parent_names, child_names)) %>%
     bind_rows(new_rows)
+
 }
 
+```
 
+```{r}
 # ── Main function ─────────────────────────────────────────────────────────────
 
 recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
@@ -333,14 +373,10 @@ recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
 ```
 
 ```{r}
-# ── Main function ─────────────────────────────────────────────────────────────
-
 recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
                            bone_names, sections_order, MNI) {
-
-  max_levels <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+  max_levels <- c(3, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
   min_levels <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
-
   working_base <- tibble(count = current_mne, element = bone_names) %>%
     add_bone_info() %>%
     mutate(std_element = gsub(" ", ".", element))
@@ -350,31 +386,28 @@ recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
       filter(Skeleton_Section == part) %>%
       select(std_element, count)
 
-
-    max <- max_levels[i]
-    min <- min_levels[i]
+    current_max <- max_levels[i]
+    current_min <- min_levels[i]
     tgt <- target_levels[i]
 
+    # Pass 1 — collapse from finest detail down to target
+    while (current_max > tgt) {
+      step_up_level <- current_max - 1
+      data <- collapse_up_step(data, part,
+                               current_level = current_max,
+                               target_level  = step_up_level)
+      current_max <- current_max - 1
+    }
 
-      # Roll up step by step: cur -> cur-1 -> ... -> tgt
-      while (max > tgt) {
-        data <- collapse_up_step(data, part,
-                                 current_level = max,
-                                 target_level  = max - 1)
-        max <- max - 1
-      }
-
-
-      # Roll down step by step: cur -> cur+1 -> ... -> tgt
-      while (min < tgt) {
-        data <- collapse_down_step(data, part,
-                                   current_level = min,
-                                   target_level  = min + 1,
-                                   section_name  = part,
-                                   MNI           = MNI)
-        min <- min + 1
-      }
-    
+    # Pass 2 — expand from coarsest detail up to target
+    while (current_min < tgt) {
+      data <- collapse_down_step(data, part,
+                                 current_level = current_min,
+                                 target_level  = current_min + 1,
+                                 section_name  = part,
+                                 MNI           = MNI)
+      current_min <- current_min + 1
+    }
 
     data
   }) %>%
@@ -425,5 +458,222 @@ recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hiera
     rename(element = std_element)
 }
 
+
+```
+
+```{r}
+
+# ── Skeleton hierarchy (vertebrae only) ──────────────────────────────────────
+
+skeleton_hierarchy <- list(
+  vertebrae = list(
+    "Level 1" = list(
+      vertebrae = 1
+    ),
+    "Level 2" = list(
+      vertebrae_indet = 24,
+      cervical  = 7,
+      thoracic  = 12,
+      lumbar    = 5
+    ),
+    "Level 3" = list(
+      vertebrae_indet = 24,
+      cervical_indet  = 24,
+      c1_atlas = 1, c2_axis = 1, c3 = 1, c4 = 1, c5 = 1, c6 = 1, c7 = 1,
+      thoracic_indet  = 24,
+      t1  = 1, t2  = 1, t3  = 1, t4  = 1, t5  = 1, t6  = 1,
+      t7  = 1, t8  = 1, t9  = 1, t10 = 1, t11 = 1, t12 = 1,
+      lumbar_indet = 24,
+      l1 = 1, l2 = 1, l3 = 1, l4 = 1, l5 = 1
+    )
+  )
+)
+
+# ── Category mappings ─────────────────────────────────────────────────────────
+
+category_mappings_vertebrae_2_to_1 <- list(
+  vertebrae = c("vertebrae_indet", "cervical", "thoracic", "lumbar")
+)
+
+category_mappings_vertebrae_3_to_1 <- list(
+  vertebrae = c(
+    "vertebrae_indet",
+    "cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7",
+    "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6",
+    "t7", "t8", "t9", "t10", "t11", "t12",
+    "lumbar_indet", "l1", "l2", "l3", "l4", "l5"
+  )
+)
+
+category_mappings_vertebrae_3_to_2 <- list(
+  vertebrae_indet = c("vertebrae_indet"),
+  cervical        = c("cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7"),
+  thoracic        = c("thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6",
+                      "t7", "t8", "t9", "t10", "t11", "t12"),
+  lumbar          = c("lumbar_indet", "l1", "l2", "l3", "l4", "l5")
+)
+
+category_hierarchy <- list(
+  "vertebrae_2_to_1" = category_mappings_vertebrae_2_to_1,
+  "vertebrae_3_to_1" = category_mappings_vertebrae_3_to_1,
+  "vertebrae_3_to_2" = category_mappings_vertebrae_3_to_2
+)
+```
+
+```{r}
+# ── Shared settings ───────────────────────────────────────────────────────────
+
+MNI            <- 1
+sections_order_vert <- c("vertebrae")
+
+# ── TEST A — Rollup: level 3 → level 1 ───────────────────────────────────────
+# Start with fully identified level-3 counts, collapse all the way up to a
+# single "vertebrae" total.
+#
+# Input counts (level 3, 24 real bones + indet placeholders at 0):
+#   cervical group  : c1=1, c2=1, c3=1, c4=1, c5=1, c6=1, c7=1  → sum = 7
+#   thoracic group  : t1=1, t2=1, t3=1, t4=0, t5=0, t6=0,
+#                     t7=0, t8=0, t9=0, t10=0, t11=0, t12=0      → sum = 3
+#   lumbar group    : l1=1, l2=1, l3=1, l4=0, l5=0               → sum = 3
+#   all _indet      : 0
+#
+# Expected output (level 1):
+#   vertebrae = 13  (7 + 3 + 3)
+```
+
+```{r}
+source("data_loader_new.R")
+bone_names_rollup <- c(
+  "vertebrae", "vertebrae_indet",
+  "cervical","cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7",
+  "thoracic","thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6",
+  "t7", "t8", "t9", "t10", "t11", "t12",
+  "lumbar","lumbar_indet", "l1", "l2", "l3", "l4", "l5"
+)
+
+current_mne_rollup <- c(
+  0,9,               # vertebrae_indet
+  0,0, 1, 0, 0, 0, 1, 1, 1,   # cervical_indet, c1–c7
+  0,1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,  # thoracic_indet, t1–t12
+  0,0, 1, 0, 0, 0, 0           # lumbar_indet, l1–l5
+)
+```
+
+```{r}
+# Call:
+recal_mne_six(
+   current_mne    = current_mne_rollup,
+   target_levels  = c(1),          # collapse to level 1
+   skeleton_hierarchy = skeleton_hierarchy,
+   bone_names     = bone_names_rollup,
+   sections_order = sections_order_vert,
+   MNI            = MNI
+ )
+#
+# Expected result:
+#   element    count
+#   vertebrae     13
+```
+
+```{r}
+# ── TEST B — Rolldown: level 1 → level 2 ─────────────────────────────────────
+# Start with a single vertebrae count and fan it out into cervical/thoracic/
+# lumbar slots. With MNI=1 the max slots are: cervical=7, thoracic=12, lumbar=5.
+#
+# Input: vertebrae = 6
+# Surplus to distribute = 6 - 0 (no children yet) = 6
+# Randomly placed across 24 real child slots (cervical x7, thoracic x12, lumbar x5)
+# _indet children stay 0.
+#
+# Expected output (level 2, _indet excluded from counts):
+#   cervical + thoracic + lumbar counts must sum to 6
+#   each value >= 0 and <= MNI * hierarchy_max for that element
+#   vertebrae_indet = 0 (excluded)
+
+```
+
+```{r}
+print(sections_order)
+args(recal_mne_six)
+collapse_up_step
+formals(collapse_up_step)
+environmentName(environment(collapse_up_step))
+getAnywhere("collapse_up_step")
+```
+
+```{r}
+bone_names_rolldown <- c(
+  "vertebrae", "vertebrae_indet",
+  "cervical","cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7",
+  "thoracic","thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6",
+  "t7", "t8", "t9", "t10", "t11", "t12",
+  "lumbar","lumbar_indet", "l1", "l2", "l3", "l4", "l5"
+)
+
+current_mne_rolldown <- c(
+  2,1,               # vertebrae_indet
+  0,0, 1, 0, 0, 0, 0, 0, 0,   # cervical_indet, c1–c7
+  0,0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  # thoracic_indet, t1–t12
+  0,0, 0, 0, 0, 0, 0           # lumbar_indet, l1–l5
+)
+
+# Call:
+# set.seed(42)   # for reproducibility during testing
+recal_mne_six(
+   current_mne    = current_mne_rolldown,
+   target_levels  = c(1),          # expand to level 2
+   skeleton_hierarchy = skeleton_hierarchy,
+   bone_names     = bone_names_rolldown,
+   sections_order = sections_order_vert,
+   MNI            = MNI
+ )
+#
+# Verifiable invariants (since rolldown is random):
+#   sum(result$count) == 6
+#   all(result$count >= 0)
+#   all(result$count <= 1)          # MNI=1, all level-2 maxima >= 1
+#   "vertebrae_indet" %in% result$element  →  result[result$element=="vertebrae_indet","count"] == 0
+#   nrow(result) == 4               # vertebrae_indet, cervical, thoracic, lumbar
+
+```
+
+```{r}
+
+bone_names <- c(
+   "vertebrae"
+
+)
+
+current_mne <- c(
+  20
+)
+
+bone_names_3 <- c(
+  "vertebrae_indet",
+  "cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7",
+  "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6",
+  "t7", "t8", "t9", "t10", "t11", "t12",
+"lumbar_indet", "l1", "l2", "l3", "l4", "l5"
+)
+
+current_mne_3 <- c( 1, 0, 1, 0, 0, 0, 1, 0, 0,   # cervical_indet, c1–c7
+  0, 1, 0, 0, 1, 0, 0, 0,  0, 0, 0, 0,  # thoracic_indet, t1–t12
+  0,0, 0, 0, 0, 1, 0           # lumbar_indet, l1–l5
+)
+
+
+```
+
+```{r}
+
+recal_mne(
+   current_mne    = current_mne_3,
+  current_levels = c(3),
+   target_levels  = c(1),          # collapse to level 1
+   skeleton_hierarchy = skeleton_hierarchy,
+   bone_names     = bone_names_3,
+   sections_order = sections_order_vert,
+   MNI            = MNI
+ )
 ```
 

@@ -483,16 +483,16 @@ skeleton_hierarchy <- list(
     ),
 
     "Level 2" = list(
-      vertebrae_indet = 0,
+      vertebrae_indet = 24,
       cervical = 7,
       thoracic = 12,
       lumbar   = 5
     ),
 
     "Level 3" = list(
-      vertebrae_indet = 0,
+      vertebrae_indet = 24,
 
-      cervical_indet = 0,
+      cervical_indet = 7,
       c1_atlas = 1,
       c2_axis  = 1,
       c3 = 1,
@@ -501,7 +501,7 @@ skeleton_hierarchy <- list(
       c6 = 1,
       c7 = 1,
 
-      thoracic_indet = 0,
+      thoracic_indet = 12,
       t1  = 1,
       t2  = 1,
       t3  = 1,
@@ -515,7 +515,7 @@ skeleton_hierarchy <- list(
       t11 = 1,
       t12 = 1,
 
-      lumbar_indet = 0,
+      lumbar_indet = 5,
       l1 = 1,
       l2 = 1,
       l3 = 1,
