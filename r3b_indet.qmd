@@ -675,5 +675,330 @@ recal_mne(
    sections_order = sections_order_vert,
    MNI            = MNI
  )
+
 ```
 
+```{r}
+
+
+Bone_Count <- c(
+  #cranium
+  1, 1, 0, 1, 2, 0, 1, 1, 2, 0, 1, 1, 1, 1, 1, 
+  1, 0, 2, 2, 2, 0, 1, 1, 2, 2, 1, 2, 6, 0, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 
+  1, 
+  
+  #teeth
+  1, #32 (or +20) 
+  20, #0, 
+  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2,
+  0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
+  32, #0, 
+  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4,
+  0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1,
+  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
+  
+  #hyoid
+  1, 
+  
+  #vertebrae
+  24, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 12, 0, 1, 1, 1, 1,
+  1, 1, 1, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 
+  
+  #thorax
+  25, 0, 1, 24, 0, 0,12,12, 
+  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 
+  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1,
+  
+  #shoulder
+  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
+
+  #arms
+  6, 0, 2, 0, 1, 1, 2, 0,1, 1, 2, 0, 1, 1, 
+  
+  #hands
+  54, 0, 16, 0, 8, 0, 1, 1, 1, 1, 1, 1, 1, 1, 8, 0, 1, 1, 1, 1, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1,
+  1, 5, 0, 1, 1, 1, 1, 1, 28, 0, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 8, 0, 4, 0, 1, 1, 1, 1, 4, 0, 1, 1,
+  1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 
+  
+  #pelvic
+  1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 
+  2, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 
+  
+  #legs
+  8, 0, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 
+  
+  #foot
+  52, 0, 14, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 7,
+  0, 1, 1, 1, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 28, 0, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1,
+  1, 1, 1, 1, 8, 0, 4, 0, 1, 1, 1, 1, 4, 0, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1
+)
+
+
+c(
+  #cranium
+  1, 1, 1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 2, 2, 1, 2, 6, 2, 1, 1, 2, 1, 1, 2, 1, 1, 1, 1, 20, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 32, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 1, 24, 7, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 25, 1, 24, 12, 12, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 4, 2, 1, 1, 2, 1, 1, 6, 2, 1, 1, 2, 1, 1, 2, 1, 1, 54, 16, 8, 1, 1, 1, 1, 1, 1, 1, 1, 8, 1, 1, 1, 1, 1, 1, 1, 1, 10, 5, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 28, 10, 5, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 8, 4, 1, 1, 1, 1, 4, 1, 1, 1, 1, 10, 5, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 8, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 52, 14, 7, 1, 1, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 10, 5, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 28, 10, 5, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 8, 4, 1, 1, 1, 1, 4, 1, 1, 1, 1, 10, 5, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1
+)
+
+
+
+```
+
+```{r}
+source("meta_new.R")
+
+zero_idx <- which(Bone_Count != 0)
+zero_idx
+
+```
+
+```{r}
+Bone_Count_no0 <- Bone_Count[zero_idx]
+cat(
+  "c(\n  #cranium\n  ",
+  paste(Bone_Count_no0, collapse = ", "),
+  "\n)\n",
+  sep = ""
+)
+
+```
+
+```{r}
+
+Bone_Count_2 <- c(
+  #cranium
+  1, 1, 0, 1, 2, 0, 1, 1, 2, 0, 1, 1, 1, 1, 1, 
+  1, 0, 2, 2, 2, 0, 1, 1, 2, 2, 1, 2, 6, 0, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 
+  1, 
+  
+  #teeth
+  1, #32 (or +20) 
+  20, #0, 
+  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2,
+  0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
+  32, #0, 
+  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4,
+  0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1,
+  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
+  
+  #hyoid
+  1, 
+  
+  #vertebrae
+  24, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 12, 0, 1, 1, 1, 1,
+  1, 1, 1, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 
+  
+  #thorax
+  25, 25, 1, 24, 72, 24,12,12, 
+  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 
+  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1,
+  
+  #shoulder
+  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
+
+  #arms
+  6, 0, 2, 0, 1, 1, 2, 0,1, 1, 2, 0, 1, 1, 
+  
+  #hands
+  54, 0, 16, 0, 8, 0, 1, 1, 1, 1, 1, 1, 1, 1, 8, 0, 1, 1, 1, 1, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1,
+  1, 5, 0, 1, 1, 1, 1, 1, 28, 0, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 8, 0, 4, 0, 1, 1, 1, 1, 4, 0, 1, 1,
+  1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 
+  
+  #pelvic
+  1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 
+  2, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 
+  
+  #legs
+  8, 0, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 
+  
+  #foot
+  52, 0, 14, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 7,
+  0, 1, 1, 1, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 28, 0, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1,
+  1, 1, 1, 1, 8, 0, 4, 0, 1, 1, 1, 1, 4, 0, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1
+)
+
+
+
+```
+
+```{r}
+
+Bone_Count_filled <- Bone_Count_2
+zero_idx <- which(Bone_Count_filled == 0)
+
+# replace 0s with previous value
+Bone_Count_filled[zero_idx] <- Bone_Count_filled[zero_idx - 1]
+Bone_Count_filled
+
+```
+
+```{r}
+
+cat(
+  "c(\n  #cranium\n  ",
+  paste(Bone_Count_filled, collapse = ", "),
+  "\n)\n",
+  sep = ""
+)
+```
+
+```{r}
+source("meta_new_indet.R")
+ElementsOne
+
+```
+
+```{r}
+
+stopifnot(length(ElementsOne) == length(Bone_Count))
+stopifnot(length(Bone_Count_filled) == length(Bone_Count))
+
+#zero_idx <- which(Bone_Count == 0)
+
+pairs_zero <- data.frame(
+  element = ElementsOne[zero_idx],
+  count   = Bone_Count_filled[zero_idx],
+  stringsAsFactors = FALSE
+)
+
+pairs_zero
+
+```
+
+```{r}
+cat(paste0(pairs_zero$element, " = ", pairs_zero$count, collapse = "\n"), "\n")
+
+```
+
+
+
+neurocranium_bone_indet = 1
+parietal_bone_indet = 2
+temporal_bone_indet = 2
+splanchnocranium_indet = 1
+zygomatic_bone_indet = 2
+ossicles_of_the_middle_ear_indet = 6
+malleus_indet = 2
+incus_indet = 2
+stapes_indet = 2
+dl1_indet = 4
+di1_superior_indet = 2
+dl1_inferior_indet = 2
+dl2_indet = 4
+di2_superior_indet = 2
+di2_inferior_indet = 2
+dc_indet = 4
+dc_superior_indet = 2
+dc_inferior_indet = 2
+dm1_indet = 4
+dm1_superior_indet = 2
+dm1_inferior_indet = 2
+dm2_indet = 4
+dm2_superior_indet = 2
+dm2_inferior_indet = 2
+i1_indet = 4
+i1_superior_indet = 2
+i1_inferior_indet = 2
+i2_indet = 4
+i2_superior_indet = 2
+i2_inferior_indet = 2
+c_indet = 4
+c_superior_indet = 2
+c_inferior_indet = 2
+pm3_indet = 4
+pm3_superior_indet = 2
+pm3_inferior_indet = 2
+pm4_indet = 4
+pm4_superior_indet = 2
+pm4_inferior_indet = 2
+m1_indet = 4
+m1_superior_indet = 2
+m1_inferior_indet = 2
+m2_indet = 4
+m2_superior_indet = 2
+m2_inferior_indet = 2
+m3_indet = 4
+m3_superior_indet = 2
+m3_inferior_indet = 2
+
+
+
+
+
+
+vertebrae_indet = 24
+cervical_indet = 7
+thoracic_indet = 12
+lumbar_indet = 5
+
+shoulder_indet = 4
+clavicle_indet = 2
+scapula_indet = 2
+arms_indet = 6
+humerus_indet = 2
+radius_indet = 2
+ulna_indet = 2
+
+hands_indet = 54
+carpal_indet = 16
+carpal_right_indet = 8
+carpal_left_indet = 8
+metacarpal_indet = 10
+metacarpal_right_indet = 5
+metacarpal_left_indet = 5
+
+
+
+
+hand_phalanx_indet = 28
+hand_phalanx_proximal_indet = 10
+hand_phalanx_proximal_right_indet = 5
+hand_phalanx_proximal_left_indet = 5
+hand_phalanx_middle_indet = 8
+hand_phalanx_middle_right_indet = 4
+hand_phalanx_middle_left_indet = 4
+hand_phalanx_distal_indet = 10
+hand_phalanx_distal_right_indet = 5
+hand_phalanx_distal_left_indet = 5
+
+
+
+
+pelvic_indet = 1
+sacrum_indet = 1
+coccyx_indet = 1
+
+
+os_coxae_indet = 2
+os_coxae_right_indet = 1
+os_coxae_left_indet = 1
+
+
+legs_indet = 8
+femur_indet = 2
+tibia_indet = 2
+fibula_indet = 2
+patella_indet = 2
+
+foot_indet = 52
+
+tarsal_indet = 14
+tarsal_right_indet = 7
+tarsal_left_indet = 7
+
+metatarsal_indet = 10
+metatarsal_right_indet = 5
+metatarsal_left_indet = 5
+
+foot_phalanx_indet = 28
+
+foot_phalanx_proximal_indet = 10
+foot_phalanx_proximal_right_indet = 5
+foot_phalanx_proximal_left_indet = 5
+
+foot_phalanx_middle_indet = 8
+foot_phalanx_middle_right_indet = 4
+foot_phalanx_middle_left_indet = 4
+
+foot_phalanx_distal_indet = 10
+foot_phalanx_distal_right_indet = 5
+foot_phalanx_distal_left_indet = 5 

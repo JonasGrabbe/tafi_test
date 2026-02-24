@@ -1,4 +1,4 @@
-source("meta_new.R")
+source("meta_new_indet.R", echo = TRUE)
 source("NewSiteDataLoader_new.R")
 source("select_data_new.R")
 source("data_loader_new.R")
@@ -8,165 +8,208 @@ library(dplyr)
 library(tibble)
 library(readxl)
 
-summarize_bone_sections_zero_na <- function(input_df, method = min  ,reference_df = elements_data) {
-  
-  # Filter out rows where input_df$element is 0 or NA
+summarize_bone_sections_zero_na <- function(input_df,
+  method = "min",
+  reference_df = elements_data) {
 
-  input_df <- input_df %>%
-    filter(!is.na(input_df$count) & input_df$count != 0)
+    # Ensure method is a single string
+    method <- as.character(method)
+    if (length(method) != 1) {
+    stop("'method' must be a single value: 'min', 'max', or 'mode'. Got length = ", length(method))
+    }
 
+    input_df <- input_df %>%
+    dplyr::filter(!is.na(count) & count != 0)
 
-  # Add bone info using the filtered input_df
-  bone_info_df <- add_bone_info(input_df, reference_df)
+    bone_info_df <- add_bone_info(input_df, reference_df)
 
-  # Define the ordered list of skeleton sections
-    sections_order <- c("cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
-    "arms", "hands", "pelvic", "legs", "foot")
+    sections_order <- c(
+    "cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
+    "arms", "hands", "pelvic", "legs", "foot"
+    )
 
-  # Summarize the minimum Level for each section
-  # old
-  #summary_df <- bone_info_df %>%
-  #  group_by(Skeleton_Section) %>%
-  #  summarize(min_level = min(max_Level, na.rm = TRUE)) %>%
-  #  ungroup()
-  
-  # Summarize the minimum Level for each section
-  stat_mode <- function(x) {
+    stat_mode <- function(x) {
     x <- x[!is.na(x)]
+    if (length(x) == 0) return(NA_real_)
     ux <- unique(x)
     ux[which.max(tabulate(match(x, ux)))]
-  }
-  
-  stat_fn <- switch(method,
+    }
+
+    stat_fn <- switch(method,
     "min"  = function(x) min(x, na.rm = TRUE),
     "max"  = function(x) max(x, na.rm = TRUE),
     "mode" = stat_mode,
-    stop("method in 'summariz_bone_sections_zero_na' must be 'min', 'max', or 'mode'")
-  )
-  
-  summary_df <- bone_info_df %>%
-    group_by(Skeleton_Section) %>%
-    summarize(min_level = stat_fn(max_Level)) %>%
-    ungroup()
-  
-  # Create a named vector with all sections, initializing with 1 (instead of NA)
-  #result_vector <- setNames(rep(1, length(sections_order)), sections_order)
-  most_detailed_level <- c(5,5,1,3,4,3,3,5,4,3,5)
-  result_vector <- setNames(most_detailed_level, sections_order)
+    stop("method must be 'min', 'max', or 'mode'. Got: ", method)
+    )
 
-  # Fill in the result_vector with available data
-  for (section in sections_order) {
+    summary_df <- bone_info_df %>%
+    dplyr::group_by(Skeleton_Section) %>%
+    dplyr::summarize(min_level = stat_fn(max_Level), .groups = "drop")
+
+    most_detailed_level <- c(5,5,1,3,4,3,3,5,4,3,5)
+    result_vector <- stats::setNames(most_detailed_level, sections_order)
+
+    for (section in sections_order) {
     if (section %in% summary_df$Skeleton_Section) {
-      level <- summary_df$min_level[summary_df$Skeleton_Section == section]
-      # If the level is NA, keep it as 1, otherwise use the actual level
-      result_vector[section] <- if(is.na(level)) 1 else level
-    }else {
-      print(section)
-    # If the section is not in summary_df, it will remain 1
-  }}
+    level <- summary_df$min_level[summary_df$Skeleton_Section == section]
+    result_vector[section] <- if (is.na(level)) 1 else level
+    }
+    }
 
-  # Return just the numeric vector without names
-  return(unname(result_vector))
+    unname(result_vector)
 }
 
-recal_mne_six <- function(current_mne,  target_levels, skeleton_hierarchy, bone_names, sections_order) {
-  current_levels = c(5,5,1,3,4,3,3,5,4,3,5)
+
+distribute_surplus <- function(counts, max_counts, n_indet) {
+  if (n_indet == 0) return(counts)
+  open_slots <- max_counts - counts
+  if (sum(open_slots) < n_indet)
+    stop("Not enough open slots to place all indeterminate specimens.")
+  slot_pool <- rep(seq_along(counts), times = open_slots)
+  chosen    <- sample(slot_pool, size = n_indet, replace = FALSE)
+  for (i in chosen) counts[i] <- counts[i] + 1
+  counts
+}
+
+collapse_up_step <- function(data, part, current_level, target_level) {
+  key <- paste0(part, "_", current_level, "_to_", target_level)
+  if (!key %in% names(category_hierarchy)) stop("Missing mapping: ", key)
+print("key")
+print(key)
+  element_map <- stack(category_hierarchy[[key]]) %>%
+    setNames(c("child", "parent")) %>%
+    mutate(across(everything(), \(x) gsub(" ", ".", x)))
+print("element_map")
+print(element_map)
+  mappable     <- inner_join(data, element_map, by = c("std_element" = "child"))
+  non_mappable <- anti_join(data, element_map, by = c("std_element" = "child"))
+print("mappable")
+print(mappable)
+print("non_mappable")
+print(non_mappable)
+  aggregated <- mappable %>%
+    group_by(std_element = parent) %>%
+    summarise(count = sum(count, na.rm = TRUE), .groups = "drop")
+
+data <-  full_join(non_mappable, aggregated, by = "std_element") %>%
+    mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
+    select(std_element, count)
+print("data")
+print(data)
+
+  full_join(non_mappable, aggregated, by = "std_element") %>%
+    mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
+    select(std_element, count)
+}
 
 
-  # Initialize results list
-  new_mne <- list()
 
-  # Create initial tibble with bone info
-  current_mne_named <- tibble(count = current_mne, element = bone_names) %>%
-    add_bone_info() %>%
-    mutate(std_element = gsub(" ", ".", element)) ## not needed anymore
-
-  # Process each skeleton section
-  for (part in sections_order) {
-    part_idx <- which(sections_order == part)
-    current_level <- current_levels[part_idx]
-    target_level <- target_levels[part_idx]
-
-    cat("\nProcessing", part, ": Starting at level", current_level, "-> Target", target_level, "\n")
-
-    # Initialize working data
-    working_data <- current_mne_named %>%
-      filter(Skeleton_Section == part) %>%
-      select(std_element, count)
-
-    iteration <- 1
-    while(current_level > target_level) {
-      intermediate_level <- max(target_level, current_level - 1)
-      mapping_name <- paste0(part, "_", current_level, "_to_", intermediate_level)
-
-      if (mapping_name %in% names(category_hierarchy)) {
-        # Create element-category mapping
-        element_map <- stack(category_hierarchy[[mapping_name]]) %>%
-          setNames(c("child", "parent")) %>%
-          mutate(
-            child = gsub(" ", ".", child),
-            parent = gsub(" ", ".", parent)
-          )
-         
-        print("########################################### element_map: ##############")
-        print(element_map)
-        # Split data into mappable and non-mappable elements
-        mappable <- working_data %>%
-          inner_join(element_map, by = c("std_element" = "child"))
-        print("########################################### mappable: ##############")
-        print(mappable) 
-      
-        non_mappable <- working_data %>%
-          anti_join(element_map, by = c("std_element" = "child"))
-
-        print("########################################### non_mappable: ##############")
-        print(non_mappable)  
-        # Aggregate mappable elements
-        aggregated <- mappable %>%
-          group_by(parent) %>%
-          summarize(count = sum(count, na.rm = TRUE)) %>%
-          rename(std_element = parent)
-        print("########################################### aggregated: ##############")
-        print(aggregated)
-
-        # Combine with non-mappable elements
-        #working_data <- bind_rows(non_mappable, aggregated)
-                # SPECIAL SUMMATION LOGIC
-
-                  working_data <- non_mappable %>%
-                    full_join(aggregated, by = "std_element") %>%
-                    mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
-                    select(std_element, count)
-
-        
-        print("########################################### working_data: ##############")
-        print(working_data)
-        current_level <- intermediate_level
-        cat("  Step", iteration, "| Level:", current_level, "| Elements:", nrow(working_data), "\n")
-        iteration <- iteration + 1
-      } else {
-        warning(paste("Missing mapping:", mapping_name))
-        break
-      }
-    }
- 
-    # Store final results
-    if(nrow(working_data) > 0) {
-      for(i in seq_len(nrow(working_data))) {
-        #element_name <- paste(part, working_data$std_element[i], sep = "_")
-        element_name <-  working_data$std_element[i]
-        new_mne[[element_name]] <- working_data$count[i]
-      }
-    }
+drop_indet_if_possible <- function(x) {
+  x <- gsub(" ", ".", x)
+  if (length(x) > 1) {
+    tmp <- x[!grepl("_indet$", x)]
+    if (length(tmp) > 0) return(tmp)
   }
+  x
+}
 
-  # Convert to tibble with proper ordering
-  new_mne_df <- tibble(
-    element = names(new_mne),
-    count = unlist(new_mne)
-  )
 
-  return(new_mne_df)
+
+# Single-step rolldown: level N -> level N+1
+collapse_down_step <- function(data, part, current_level, target_level,section_name, MNI) {
+  key         <- paste0(part, "_", target_level, "_to_", current_level)
+  if (!key %in% names(category_hierarchy)) stop("Missing mapping: ", key)
+
+  mapping      <- category_hierarchy[[key]]
+  level_label  <- paste0("Level ", target_level)
+  level_maxima <- skeleton_hierarchy[[section_name]][[level_label]]
+
+  new_rows <- purrr::map_dfr(names(mapping), function(parent_elem) {
+
+    parent_clean <- gsub(" ", ".", parent_elem)
+    children     <- gsub(" ", ".", mapping[[parent_elem]])
+    real_children <- drop_indet_if_possible(children)
+
+    parent_count <- data %>%
+      filter(std_element == parent_clean) %>%
+      pull(count) %>%
+      { if (length(.) == 0) 0L else . }
+
+    existing_counts <- purrr::map_int(real_children, \(ch) {
+      val <- data %>% filter(std_element == ch) %>% pull(count)
+      if (length(val) == 0) 0L else as.integer(val)
+    })
+    print(str(base))
+print(str(MNI))
+    max_counts <- purrr::map_int(real_children, \(ch) {
+      base <- level_maxima[[ch]]
+      if (is.null(base)) 0L else as.integer(base * MNI)
+    })
+
+
+  if (length(real_children) == 1 && real_children[1] == parent_clean) {
+            return(tibble(std_element = real_children, count = as.integer(parent_count)))
+      }
+
+    surplus      <- max(0L, parent_count) # no double - sum(existing_counts))
+    final_counts <- distribute_surplus(existing_counts, max_counts, surplus)
+
+
+    tibble(std_element = real_children, count = final_counts)
+  })
+
+  parent_names <- gsub(" ", ".", names(mapping))
+  child_names <- unique(gsub(" ", ".", unlist(mapping)))
+  child_names <- drop_indet_if_possible(child_names)
+
+  data %>%
+    filter(!std_element %in% c(parent_names, child_names)) %>%
+    bind_rows(new_rows)
+
+}
+
+
+
+recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
+  bone_names, sections_order, MNI) {
+    max_levels <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+    min_levels <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
+    working_base <- tibble(count = current_mne, element = bone_names) %>%
+    add_bone_info() %>%
+    mutate(std_element = gsub(" ", ".", element))
+
+    purrr::imap(sections_order, \(part, i) {
+    data <- working_base %>%
+    filter(Skeleton_Section == part) %>%
+    select(std_element, count)
+
+    current_max <- max_levels[i]
+    current_min <- min_levels[i]
+    tgt <- target_levels[i]
+
+    # Pass 1 — collapse from finest detail down to target
+    while (current_max > tgt) {
+    step_up_level <- current_max - 1
+    data <- collapse_up_step(data, part,
+          current_level = current_max,
+          target_level  = step_up_level)
+    current_max <- current_max - 1
+    }
+
+    # Pass 2 — expand from coarsest detail up to target
+    while (current_min < tgt) {
+    data <- collapse_down_step(data, part,
+            current_level = current_min,
+            target_level  = current_min + 1,
+            section_name  = part,
+            MNI           = MNI)
+    current_min <- current_min + 1
+    }
+
+    data
+    }) %>%
+    bind_rows() %>%
+    rename(element = std_element)
 }
 
 
@@ -214,6 +257,7 @@ tapho.load <- function(new_site_data, strict = FALSE) {
   new_site_meta <- new_site_data[1:31, , drop = FALSE]
   new_site_raw  <- new_site_data[-c(1:31), , drop = FALSE]
 
+print(new_site_raw) 
   target_levels <- summarize_bone_sections_zero_na(new_site_raw)
 
   # NA skeletal values are already set to 0 by validator, but keep this safe:
@@ -222,13 +266,15 @@ tapho.load <- function(new_site_data, strict = FALSE) {
   print(new_site_raw$count)
   print("########################################### tapho-r loader function sum=0 ##############")
 
+  mni <- new_site_data[18,2]
 
   recalc_new_site_raw <- recal_mne_six(
     as.numeric(new_site_raw$count),
     target_levels,
     skeleton_hierarchy,
     new_site_raw$element,
-    sections_order
+    sections_order,
+    mni
   )
 
   print("########################################### tapho-r loader function sum=0 ##############")

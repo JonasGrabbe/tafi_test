@@ -113,6 +113,8 @@ tapho.load.db(new_data)$bone.level
 
 
 ```{r}
+source("tapho_loader_new.R", echo = TRUE)
+source("meta_new_indet.R", echo = TRUE)
 excel_path <- "hspa-test.xlsx"
 tapho_db <- read_excel_sheets(excel_path)
 tapho_db 

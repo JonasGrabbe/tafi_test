@@ -162,7 +162,7 @@ skeleton_hierarchy <- list(
     ),
 
     "Level 3" = list(
-      neurocranium_bone_indet = 0,
+      neurocranium_bone_indet = 1,
       frontal_bone  = 1,
       parietal_bone = 2,
       temporal      = 2,
@@ -170,7 +170,7 @@ skeleton_hierarchy <- list(
       sphenoid      = 1,
       ethmoid       = 1,
 
-      splanchnocranium_indet = 0,
+      splanchnocranium_indet = 1,
       maxilla               = 2,
       palatine_bone         = 2,
       zygomatic_bone        = 2,
@@ -185,16 +185,16 @@ skeleton_hierarchy <- list(
 
     "Level 4" = list(
       # carried down (min=3 max=5 in levels_down (1).xlsx)
-      neurocranium_bone_indet = 0,
+      neurocranium_bone_indet = 1,
       
 
       frontal_bone = 1,
 
-      parietal_bone_indet = 0,
+      parietal_bone_indet = 2,
       parietal_bone_right = 1,
       parietal_bone_left  = 1,
 
-      temporal_bone_indet = 0,
+      temporal_bone_indet = 2,
       temporal_right      = 1,
       temporal_left       = 1,
 
@@ -202,11 +202,11 @@ skeleton_hierarchy <- list(
       sphenoid  = 1,
       ethmoid   = 1,
 
-      splanchnocranium_indet  = 0,
+      splanchnocranium_indet  = 1,
       maxilla       = 2,
       palatine_bone = 2,
 
-      zygomatic_bone_indet = 0,
+      zygomatic_bone_indet = 2,
       zygomatic_bone_right = 1,
       zygomatic_bone_left  = 1,
 
@@ -215,7 +215,7 @@ skeleton_hierarchy <- list(
       vomer_bone    = 1,
       inferior_nasal_concha = 2,
 
-      ossicles_of_the_middle_ear_indet = 0,
+      ossicles_of_the_middle_ear_indet = 6,
       malleus = 2,
       incus   = 2,
       stapes  = 2,
@@ -225,16 +225,16 @@ skeleton_hierarchy <- list(
 
     "Level 5" = list(
       # carried down (min=3 max=5 in levels_down (1).xlsx)
-      neurocranium_bone_indet = 0,
+      neurocranium_bone_indet = 1,
       
 
       frontal_bone = 1,
 
-      parietal_bone_indet = 0,
+      parietal_bone_indet = 2,
       parietal_bone_right = 1,
       parietal_bone_left  = 1,
 
-      temporal_bone_indet = 0,
+      temporal_bone_indet = 2,
       temporal_right      = 1,
       temporal_left       = 1,
 
@@ -242,11 +242,11 @@ skeleton_hierarchy <- list(
       sphenoid  = 1,
       ethmoid   = 1,
 
-      splanchnocranium_indet  = 0,
+      splanchnocranium_indet  = 1,
       maxilla       = 2,
       palatine_bone = 2,
 
-      zygomatic_bone_indet = 0,
+      zygomatic_bone_indet = 2,
       zygomatic_bone_right = 1,
       zygomatic_bone_left  = 1,
 
@@ -255,17 +255,17 @@ skeleton_hierarchy <- list(
       vomer_bone    = 1,
       inferior_nasal_concha = 2,
 
-      ossicles_of_the_middle_ear_indet = 0,
+      ossicles_of_the_middle_ear_indet = 6,
 
-      malleus_indet = 0,
+      malleus_indet = 2,
       malleus_right = 1,
       malleus_left  = 1,
 
-      incus_indet = 0,
+      incus_indet = 2,
       incus_right = 1,
       incus_left  = 1,
 
-      stapes_indet = 0,
+      stapes_indet = 2,
       stapes_right = 1,
       stapes_left  = 1,
 
@@ -279,8 +279,9 @@ skeleton_hierarchy <- list(
     ),
 
     "Level 2" = list(
-      deciduous_indet = 1, #deciduous = 1,
-      permanent = 1
+      #deciduous_indet = 1, 
+      deciduous = 20,
+      permanent = 32
     ),
 
     "Level 3" = list(
@@ -307,55 +308,55 @@ skeleton_hierarchy <- list(
       #deciduous_indet = 0,
       #permanent_indet = 0,
 
-      dl1_indet     = 0,
+      dl1_indet     = 4,
       di1_superior  = 2,
       dl1_inferior  = 2,
 
-      dl2_indet     = 0,
+      dl2_indet     = 4,
       di2_superior  = 2,
       dl2_inferior  = 2,
 
-      dc_indet      = 0,
+      dc_indet      = 4,
       dc_superior   = 2,
       dc_inferior   = 2,
 
-      dm1_indet     = 0,
+      dm1_indet     = 4,
       dm1_superior  = 2,
       dm1_inferior  = 2,
 
-      dm2_indet     = 0,
+      dm2_indet     = 4,
       dm2_superior  = 2,
       dm2_inferior  = 2,
 
-      i1_indet      = 0,
+      i1_indet      = 4,
       i1_superior   = 2,
       i1_inferior   = 2,
 
-      i2_indet      = 0,
+      i2_indet      = 4,
       i2_superior   = 2,
       i2_inferior   = 2,
 
-      c_indet       = 0,
+      c_indet       = 4,
       c_superior    = 2,
       c_inferior    = 2,
 
-      pm3_indet     = 0,
+      pm3_indet     = 4,
       pm3_superior  = 2,
       pm3_inferior  = 2,
 
-      pm4_indet     = 0,
+      pm4_indet     = 4,
       pm4_superior  = 2,
       pm4_inferior  = 2,
 
-      m1_indet      = 0,
+      m1_indet      = 4,
       m1_superior   = 2,
       m1_inferior   = 2,
 
-      m2_indet      = 0,
+      m2_indet      = 4,
       m2_superior   = 2,
       m2_inferior   = 2,
 
-      m3_indet      = 0,
+      m3_indet      = 4,
       m3_superior   = 2,
       m3_inferior   = 2
     ),
@@ -364,107 +365,107 @@ skeleton_hierarchy <- list(
       #deciduous_indet = 0,
       #permanent_indet = 0,
 
-      dl1_indet = 0,
-      di1_superior_indet = 0,
+      dl1_indet = 4,
+      di1_superior_indet = 2,
       di1_superior_right = 1,
       di1_superior_left  = 1,
-      dl1_inferior_indet = 0,
+      dl1_inferior_indet = 2,
       dl1_inferior_right = 1,
       dl1_inferior_left  = 1,
 
-      dl2_indet = 0,
-      di2_superior_indet = 0,
+      dl2_indet = 4,
+      di2_superior_indet = 2,
       di2_superior_right = 1,
       di2_superior_left  = 1,
-      di2_inferior_indet = 0,
+      di2_inferior_indet = 2,
       di2_inferior_right = 1,
       di2_inferior_left  = 1,
 
-      dc_indet = 0,
-      dc_superior_indet = 0,
+      dc_indet = 4,
+      dc_superior_indet = 2,
       dc_superior_right = 1,
       dc_superior_left  = 1,
-      dc_inferior_indet = 0,
+      dc_inferior_indet = 2,
       dc_inferior_right = 1,
       dc_inferior_left  = 1,
 
-      dm1_indet = 0,
-      dm1_superior_indet = 0,
+      dm1_indet = 4,
+      dm1_superior_indet = 2,
       dm1_superior_right = 1,
       dm1_superior_left  = 1,
-      dm1_inferior_indet = 0,
+      dm1_inferior_indet = 2,
       dm1_inferior_right = 1,
       dm1_inferior_left  = 1,
 
-      dm2_indet = 0,
-      dm2_superior_indet = 0,
+      dm2_indet = 4,
+      dm2_superior_indet = 2,
       dm2_superior_right = 1,
       dm2_superior_left  = 1,
-      dm2_inferior_indet = 0,
+      dm2_inferior_indet = 2,
       dm2_inferior_right = 1,
       dm2_inferior_left  = 1,
 
-      i1_indet = 0,
-      i1_superior_indet = 0,
+      i1_indet = 4,
+      i1_superior_indet = 2,
       i1_superior_right = 1,
       i1_superior_left  = 1,
-      i1_inferior_indet = 0,
+      i1_inferior_indet = 2,
       i1_inferior_right = 1,
       i1_inferior_left  = 1,
 
-      i2_indet = 0,
-      i2_superior_indet = 0,
+      i2_indet = 4,
+      i2_superior_indet = 2,
       i2_superior_right = 1,
       i2_superior_left  = 1,
-      i2_inferior_indet = 0,
+      i2_inferior_indet = 2,
       i2_inferior_right = 1,
       i2_inferior_left  = 1,
 
-      c_indet = 0,
-      c_superior_indet = 0,
+      c_indet = 4,
+      c_superior_indet = 2,
       c_superior_right = 1,
       c_superior_left  = 1,
-      c_inferior_indet = 0,
+      c_inferior_indet = 2,
       c_inferior_right = 1,
       c_inferior_left  = 1,
 
-      pm3_indet = 0,
-      pm3_superior_indet = 0,
+      pm3_indet = 4,
+      pm3_superior_indet = 2,
       pm3_superior_right = 1,
       pm3_superior_left  = 1,
-      pm3_inferior_indet = 0,
+      pm3_inferior_indet = 2,
       pm3_inferior_right = 1,
       pm3_inferior_left  = 1,
 
-      pm4_indet = 0,
-      pm4_superior_indet = 0,
+      pm4_indet = 4,
+      pm4_superior_indet = 2,
       pm4_superior_right = 1,
       pm4_superior_left  = 1,
-      pm4_inferior_indet = 0,
+      pm4_inferior_indet = 2,
       pm4_inferior_right = 1,
       pm4_inferior_left  = 1,
 
-      m1_indet = 0,
-      m1_superior_indet = 0,
+      m1_indet = 4,
+      m1_superior_indet = 2,
       m1_superior_right = 1,
       m1_superior_left  = 1,
-      m1_inferior_indet = 0,
+      m1_inferior_indet = 2,
       m1_inferior_right = 1,
       m1_inferior_left  = 1,
 
-      m2_indet = 0,
-      m2_superior_indet = 0,
+      m2_indet = 4,
+      m2_superior_indet = 2,
       m2_superior_right = 1,
       m2_superior_left  = 1,
-      m2_inferior_indet = 0,
+      m2_inferior_indet = 2,
       m2_inferior_right = 1,
       m2_inferior_left  = 1,
 
-      m3_indet = 0,
-      m3_superior_indet = 0,
+      m3_indet = 4,
+      m3_superior_indet = 2,
       m3_superior_right = 1,
       m3_superior_left  = 1,
-      m3_inferior_indet = 0,
+      m3_inferior_indet = 2,
       m3_inferior_right = 1,
       m3_inferior_left  = 1
     )
@@ -478,20 +479,20 @@ skeleton_hierarchy <- list(
 
   vertebrae = list(
     "Level 1" = list(
-      vertebrae = 1
+      vertebrae = 24
     ),
 
     "Level 2" = list(
-      vertebrae_indet = 0,
+      vertebrae_indet = 24,
       cervical = 7,
       thoracic = 12,
       lumbar   = 5
     ),
 
     "Level 3" = list(
-      vertebrae_indet = 0,
+      vertebrae_indet = 24,
 
-      cervical_indet = 0,
+      cervical_indet = 7,
       c1_atlas = 1,
       c2_axis  = 1,
       c3 = 1,
@@ -500,7 +501,7 @@ skeleton_hierarchy <- list(
       c6 = 1,
       c7 = 1,
 
-      thoracic_indet = 0,
+      thoracic_indet = 12,
       t1  = 1,
       t2  = 1,
       t3  = 1,
@@ -514,7 +515,7 @@ skeleton_hierarchy <- list(
       t11 = 1,
       t12 = 1,
 
-      lumbar_indet = 0,
+      lumbar_indet = 5,
       l1 = 1,
       l2 = 1,
       l3 = 1,
@@ -525,49 +526,49 @@ skeleton_hierarchy <- list(
 
   thorax = list(
     "Level 1" = list(
-      thorax = 1
+      thorax = 25
     ),
 
     "Level 2" = list(
-      thorax_indet = 0,
+      thorax_indet = 25,
       sternum = 1,
       ribs = 24
     ),
 
     "Level 3" = list(
       # carried down (min=2 max=4)
-      thorax_indet = 0,
+      thorax_indet = 25,
       sternum = 1,
 
-      rib_indet     = 0,
-      rib_fragments = 0,
+      rib_indet     = 24,
+      rib_fragments = 72,
       
 
       ribs_right = 12,
       ribs_left = 12,
 
-      rib_1_indet  = 2,
-      rib_2_indet  = 2,
-      rib_3_indet  = 2,
-      rib_4_indet  = 2,
-      rib_5_indet  = 2,
-      rib_6_indet  = 2,
-      rib_7_indet  = 2,
-      rib_8_indet = 2,
-      rib_9_indet  = 2,
-      rib_10_indet = 2,
-      rib_11_indet = 2,
-      rib_12_indet = 2
+      rib_1  = 2,
+      rib_2  = 2,
+      rib_3  = 2,
+      rib_4  = 2,
+      rib_5  = 2,
+      rib_6  = 2,
+      rib_7  = 2,
+      rib_8 = 2,
+      rib_9  = 2,
+      rib_10 = 2,
+      rib_11 = 2,
+      rib_12 = 2
     ),
 
     "Level 4" = list(
       # carried down (min=2 max=4)
-      thorax_indet = 0,
+      thorax_indet = 25,
       sternum = 1,
 
       # carried down (min=3 max=4)
-      rib_indet     = 0,
-      rib_fragments = 0,
+      rib_indet     = 24,
+      rib_fragments = 72,
       
       ribs_right = 12,
       ribs_left = 12,
@@ -624,24 +625,24 @@ skeleton_hierarchy <- list(
 
   shoulder = list(
     "Level 1" = list(
-      shoulder = 1
+      shoulder = 4
     ),
 
     "Level 2" = list(
-      shoulder_indet = 0,
+      shoulder_indet = 4,
       clavicle = 2,
       scapula  = 2
     ),
 
     "Level 3" = list(
       # carried down (min=2 max=3)
-      shoulder_indet = 0,
+      shoulder_indet = 4,
 
-      clavicle_indet = 0,
+      clavicle_indet = 2,
       clavicle_right = 1,
       clavicle_left  = 1,
 
-      scapula_indet = 0,
+      scapula_indet = 2,
       scapula_right = 1,
       scapula_left  = 1
     )
@@ -649,11 +650,11 @@ skeleton_hierarchy <- list(
 
   arms = list(
     "Level 1" = list(
-      arms = 1
+      arms = 6
     ),
 
     "Level 2" = list(
-      arms_indet = 0,
+      arms_indet = 6,
       humerus = 2,
       radius  = 2,
       ulna    = 2
@@ -661,17 +662,17 @@ skeleton_hierarchy <- list(
 
     "Level 3" = list(
       # carried down (min=2 max=3)
-      arms_indet = 0,
+      arms_indet = 6,
 
-      humerus_indet = 0,
+      humerus_indet = 2,
       humerus_right = 1,
       humerus_left  = 1,
 
-      radius_indet = 0,
+      radius_indet = 2,
       radius_right = 1,
       radius_left  = 1,
 
-      ulna_indet = 0,
+      ulna_indet = 2,
       ulna_right = 1,
       ulna_left  = 1
     )
@@ -679,28 +680,28 @@ skeleton_hierarchy <- list(
 
   hands = list(
     "Level 1" = list(
-      hands = 1
+      hands = 54
     ),
 
     "Level 2" = list(
-      hands_indet  = 0,
+      hands_indet  = 54,
       carpal       = 16,
       metacarpal   = 10,
       hand_phalanx = 28
     ),
 
     "Level 3" = list(
-      hands_indet = 0,
+      hands_indet = 54,
 
-      carpal_indet = 0,
+      carpal_indet = 16,
       carpal_right = 8,
       carpal_left  = 8,
 
-      metacarpal_indet = 0,
+      metacarpal_indet = 10,
       metacarpal_right = 5,
       metacarpal_left  = 5,
 
-      hand_phalanx_indet = 0,
+      hand_phalanx_indet = 28,
       hand_phalanx_proximal = 10,
       hand_phalanx_middle   = 8,
       hand_phalanx_distal      = 10
@@ -708,12 +709,12 @@ skeleton_hierarchy <- list(
 
     "Level 4" = list(
       # carried down (min<=3 max=5)
-      hands_indet = 0,
-      carpal_indet = 0,
-      metacarpal_indet = 0,
-      hand_phalanx_indet = 0,
+      hands_indet = 54,
+      carpal_indet = 16,
+      metacarpal_indet = 10,
+      hand_phalanx_indet = 28,
 
-      carpal_right_indet = 0,
+      carpal_right_indet = 8,
       scaphoid_right   = 1,
       lunate_right     = 1,
       triquetrum_right = 1,
@@ -723,7 +724,7 @@ skeleton_hierarchy <- list(
       capitate_right   = 1,
       hamate_right     = 1,
 
-      carpal_left_indet = 0,
+      carpal_left_indet = 8,
       scaphoid_left   = 1,
       lunate_left     = 1,
       triquetrum_left = 1,
@@ -733,41 +734,41 @@ skeleton_hierarchy <- list(
       capitate_left   = 1,
       hamate_left     = 1,
 
-      metacarpal_right_indet = 0,
+      metacarpal_right_indet = 5,
       metacarpal_1_right = 1,
       metacarpal_2_right = 1,
       metacarpal_3_right = 1,
       metacarpal_4_right = 1,
       metacarpal_5_right = 1,
 
-      metacarpal_left_indet = 0,
+      metacarpal_left_indet = 5,
       metacarpal_1_left = 1,
       metacarpal_2_left = 1,
       metacarpal_3_left = 1,
       metacarpal_4_left = 1,
       metacarpal_5_left = 1,
 
-      hand_phalanx_proximal_indet = 0,
+      hand_phalanx_proximal_indet = 10,
       hand_phalanx_right = 5,
       hand_phalanx_left  = 5,
 
-      hand_phalanx_middle_indet = 0,
+      hand_phalanx_middle_indet = 8,
       hand_middle_right = 4,
       hand_middle_left  = 4,
 
-      hand_phalanx_distal_indet = 0,
+      hand_phalanx_distal_indet = 10,
       hand_phalanx_distal_right = 5,
       hand_distal_left          = 5
     ),
 
     "Level 5" = list(
       # carry down Level 4 (min<=4 max=5) + add Level 5 specifics
-      hands_indet = 0,
-      carpal_indet = 0,
-      metacarpal_indet = 0,
-      hand_phalanx_indet = 0,
+      hands_indet = 54,
+      carpal_indet = 16,
+      metacarpal_indet = 10,
+      hand_phalanx_indet = 28,
 
-      carpal_right_indet = 0,
+      carpal_right_indet = 8,
       scaphoid_right   = 1,
       lunate_right     = 1,
       triquetrum_right = 1,
@@ -777,7 +778,7 @@ skeleton_hierarchy <- list(
       capitate_right   = 1,
       hamate_right     = 1,
 
-      carpal_left_indet = 0,
+      carpal_left_indet = 8,
       scaphoid_left   = 1,
       lunate_left     = 1,
       triquetrum_left = 1,
@@ -787,23 +788,23 @@ skeleton_hierarchy <- list(
       capitate_left   = 1,
       hamate_left     = 1,
 
-      metacarpal_right_indet = 0,
+      metacarpal_right_indet = 5,
       metacarpal_1_right = 1,
       metacarpal_2_right = 1,
       metacarpal_3_right = 1,
       metacarpal_4_right = 1,
       metacarpal_5_right = 1,
 
-      metacarpal_left_indet = 0,
+      metacarpal_left_indet = 5,
       metacarpal_1_left = 1,
       metacarpal_2_left = 1,
       metacarpal_3_left = 1,
       metacarpal_4_left = 1,
       metacarpal_5_left = 1,
 
-      hand_phalanx_proximal_indet = 0,
-      hand_phalanx_proximal_right_indet = 0,
-      hand_phalanx_proximal_left_indet  = 0,
+      hand_phalanx_proximal_indet = 10,
+      hand_phalanx_proximal_right_indet = 5,
+      hand_phalanx_proximal_left_indet  = 5,
       hand_phalanx_proximal_1_right = 1,
       hand_phalanx_proximal_2_right = 1,
       hand_phalanx_proximal_3_right = 1,
@@ -815,9 +816,9 @@ skeleton_hierarchy <- list(
       hand_phalanx_proximal_4_left = 1,
       hand_phalanx_proximal_5_left = 1,
 
-      hand_phalanx_middle_indet = 0,
-      hand_phalanx_middle_right_indet = 0,
-      hand_phalanx_middle_left_indet  = 0,
+      hand_phalanx_middle_indet = 8,
+      hand_phalanx_middle_right_indet = 4,
+      hand_phalanx_middle_left_indet  = 4,
       hand_phalanx_middle_2_right = 1,
       hand_phalanx_middle_3_right = 1,
       hand_phalanx_middle_4_right = 1,
@@ -827,9 +828,9 @@ skeleton_hierarchy <- list(
       hand_phalanx_middle_4_left = 1,
       hand_phalanx_middle_5_left = 1,
 
-      hand_phalanx_distal_indet = 0,
-      hand_phalanx_distal_right_indet = 0,
-      hand_phalanx_distal_left_indet  = 0,
+      hand_phalanx_distal_indet = 10,
+      hand_phalanx_distal_right_indet = 5,
+      hand_phalanx_distal_left_indet  = 5,
       hand_phalanx_distal_right_1 = 1,
       hand_phalanx_distal_right_2 = 1,
       hand_phalanx_distal_right_3 = 1,
@@ -849,56 +850,56 @@ skeleton_hierarchy <- list(
     ),
 
     "Level 2" = list(
-      pelvic_indet = 0,
+      pelvic_indet = 1,
       sacrum  = 1,
       coccyx  = 1,
       os_coxae = 2
     ),
 
     "Level 3" = list(
-      pelvic_indet = 0,
+      pelvic_indet = 1,
 
-      sacrum_indet = 0,
+      sacrum_indet = 1,
       s1 = 1,
       s2 = 1,
       s3 = 1,
       s4 = 1,
       s5 = 1,
 
-      coccyx_indet = 0,
+      coccyx_indet = 1,
       cx1 = 1,
       cx2 = 1,
       cx3 = 1,
       cx4 = 1,
 
-      os_coxae_indet = 0,
+      os_coxae_indet = 2,
       os_coxae_right = 1,
       os_coxae_left  = 1
     ),
 
     "Level 4" = list(
-      pelvic_indet = 0,
+      pelvic_indet = 1,
 
-      sacrum_indet = 0,
+      sacrum_indet = 1,
       s2 = 1,
       s3 = 1,
       s4 = 1,
       s5 = 1,
       
 
-      coccyx_indet = 0,
+      coccyx_indet = 1,
       cx2 = 1,
       cx3 = 1,
       cx4 = 1,
       
 
-      os_coxae_indet = 0,
-      os_coxae_right_indet = 0,
+      os_coxae_indet = 2,
+      os_coxae_right_indet = 1,
       ilium_right   = 1,
       ischium_right = 1,
       pubis_right   = 1,
 
-      os_coxae_left_indet = 0,
+      os_coxae_left_indet = 1,
       ilium_left   = 1,
       ischium_left = 1,
       pubis_left   = 1
@@ -906,11 +907,11 @@ skeleton_hierarchy <- list(
   ),
   legs = list(
     "Level 1" = list(
-      legs = 1
+      legs = 8
     ),
 
     "Level 2" = list(
-      legs_indet = 0,
+      legs_indet = 8,
       femur   = 2,
       tibia   = 2,
       fibula  = 2,
@@ -918,21 +919,21 @@ skeleton_hierarchy <- list(
     ),
 
     "Level 3" = list(
-      legs_indet = 0,
+      legs_indet = 8,
 
-      femur_indet = 0,
+      femur_indet = 2,
       femur_right = 1,
       femur_left  = 1,
 
-      tibia_indet = 0,
+      tibia_indet = 2,
       tibia_right = 1,
       tibia_left  = 1,
 
-      fibula_indet = 0,
+      fibula_indet = 2,
       fibula_right = 1,
       fibula_left  = 1,
 
-      patella_indet = 0,
+      patella_indet = 2,
       patella_right = 1,
       patella_left  = 1
     )
@@ -940,28 +941,28 @@ skeleton_hierarchy <- list(
 
   foot = list(
     "Level 1" = list(
-      foot = 1
+      foot = 52
     ),
 
     "Level 2" = list(
-      foot_indet    = 0,
+      foot_indet    = 52,
       tarsal        = 14,
       metatarsal    = 10,
       foot_phalanx  = 28
     ),
 
     "Level 3" = list(
-      foot_indet = 0,
+      foot_indet = 52,
 
-      tarsal_indet = 0,
+      tarsal_indet = 14,
       tarsal_right = 7,
       tarsal_left  = 7,
 
-      metatarsal_indet = 0,
+      metatarsal_indet = 10,
       metatarsal_right = 5,
       metatarsal_left  = 5,
 
-      foot_phalanx_indet = 0,
+      foot_phalanx_indet = 28,
       foot_phalanx_proximal = 10,
       foot_phalanx_middle   = 8,
       foot_phalanx_distal      = 10
@@ -969,10 +970,10 @@ skeleton_hierarchy <- list(
 
     "Level 4" = list(
       # carry-down (min<=4<=max)
-      foot_indet = 0,
+      foot_indet = 52,
 
-      tarsal_indet = 0,
-      tarsal_right_indet = 0,
+      tarsal_indet = 14,
+      tarsal_right_indet = 7,
       talus_right        = 1,
       calcaneous_right   = 1,
       cuboid_right       = 1,
@@ -981,7 +982,7 @@ skeleton_hierarchy <- list(
       intermediate_cuneiform_right  = 1,
       medial_cuneiform_right        = 1,
 
-      tarsal_left_indet = 0,
+      tarsal_left_indet = 7,
       talus_left        = 1,
       calcaneous_left   = 1,
       cuboid_left       = 1,
@@ -990,41 +991,41 @@ skeleton_hierarchy <- list(
       intermediate_cuneiform_left  = 1,
       medial_cuneiform_left        = 1,
 
-      metatarsal_indet = 0,
-      metatarsal_right_indet = 0,
+      metatarsal_indet = 10,
+      metatarsal_right_indet = 5,
       metatarsal_1_right = 1,
       metatarsal_2_right = 1,
       metatarsal_3_right = 1,
       metatarsal_4_right = 1,
       metatarsal_5_right = 1,
 
-      metatarsal_left_indet = 0,
+      metatarsal_left_indet = 5,
       metatarsal_1_left = 1,
       metatarsal_2_left = 1,
       metatarsal_3_left = 1,
       metatarsal_4_left = 1,
       metatarsal_5_left = 1,
 
-      foot_phalanx_indet = 0,
+      foot_phalanx_indet = 28,
 
-      foot_phalanx_proximal_indet = 0,
+      foot_phalanx_proximal_indet = 10,
       foot_proximal_right = 5,
       foot_phalanx_left   = 5,
 
-      foot_phalanx_middle_indet = 0,
+      foot_phalanx_middle_indet = 8,
       foot_middle_right = 4,
       foot_middle_left  = 4,
 
-      foot_phalanx_distal_indet = 0,
+      foot_phalanx_distal_indet = 10,
       foot_phalanx_distal_right = 5,
       foot_distal_left          = 5
     ),
 
     "Level 5" = list(
-      foot_indet = 0,
+      foot_indet = 52,
 
-      tarsal_indet = 0,
-      tarsal_right_indet = 0,
+      tarsal_indet = 14,
+      tarsal_right_indet = 7,
       talus_right        = 1,
       calcaneous_right   = 1,
       cuboid_right       = 1,
@@ -1033,7 +1034,7 @@ skeleton_hierarchy <- list(
       intermediate_cuneiform_right  = 1,
       medial_cuneiform_right        = 1,
 
-      tarsal_left_indet = 0,
+      tarsal_left_indet = 7,
       talus_left        = 1,
       calcaneous_left   = 1,
       cuboid_left       = 1,
@@ -1042,26 +1043,26 @@ skeleton_hierarchy <- list(
       intermediate_cuneiform_left  = 1,
       medial_cuneiform_left        = 1,
 
-      metatarsal_indet = 0,
-      metatarsal_right_indet = 0,
+      metatarsal_indet = 10,
+      metatarsal_right_indet = 5,
       metatarsal_1_right = 1,
       metatarsal_2_right = 1,
       metatarsal_3_right = 1,
       metatarsal_4_right = 1,
       metatarsal_5_right = 1,
 
-      metatarsal_left_indet = 0,
+      metatarsal_left_indet = 5,
       metatarsal_1_left = 1,
       metatarsal_2_left = 1,
       metatarsal_3_left = 1,
       metatarsal_4_left = 1,
       metatarsal_5_left = 1,
 
-      foot_phalanx_indet = 0,
+      foot_phalanx_indet = 28,
 
-      foot_phalanx_proximal_indet = 0,
-      foot_phalanx_proximal_right_indet = 0,
-      foot_phalanx_proximal_left_indet  = 0,
+      foot_phalanx_proximal_indet = 10,
+      foot_phalanx_proximal_right_indet = 5,
+      foot_phalanx_proximal_left_indet  = 5,
      
       foot_phalanx_proximal_1_right = 1,
       foot_phalanx_proximal_2_right = 1,
@@ -1074,9 +1075,9 @@ skeleton_hierarchy <- list(
       foot_phalanx_proximal_4_left = 1,
       foot_phalanx_proximal_5_left = 1,
 
-      foot_phalanx_middle_indet = 0,
-      foot_phalanx_middle_right_indet = 0,
-      foot_phalanx_middle_left_indet  = 0,
+      foot_phalanx_middle_indet = 8,
+      foot_phalanx_middle_right_indet = 4,
+      foot_phalanx_middle_left_indet  = 4,
       foot_phalanx_middle_2_right = 1,
       foot_phalanx_middle_3_right = 1,
       foot_phalanx_middle_4_right = 1,
@@ -1086,9 +1087,9 @@ skeleton_hierarchy <- list(
       foot_phalanx_middle_4_left = 1,
       foot_phalanx_middle_5_left = 1,
 
-      foot_phalanx_distal_indet = 0,
-      foot_phalanx_distal_right_indet = 0,
-      foot_phalanx_distal_left_indet  = 0,
+      foot_phalanx_distal_indet = 10,
+      foot_phalanx_distal_right_indet = 5,
+      foot_phalanx_distal_left_indet  = 5,
       foot_phalanx_distal_right_1 = 1,
       foot_phalanx_distal_right_2 = 1,
       foot_phalanx_distal_right_3 = 1,
@@ -1119,8 +1120,8 @@ ElementsOne <- c(
   
   
   "teeth", 
-  #"deciduous",
-  "deciduous_indet", 
+  "deciduous",
+  #"deciduous_indet", 
   "di1", "dl1_indet", "di1_superior", "di1_superior_indet", "di1_superior_right",
   "di1_superior_left", "dl1_inferior", "dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left", "di2",
   "dl2_indet", "di2_superior", "di2_superior_indet", "di2_superior_right", "di2_superior_left", "dl2_inferior",
@@ -1158,11 +1159,11 @@ ElementsOne <- c(
   "thorax_indet", 
   "sternum", 
   "ribs", "rib_indet", "rib_fragments", "ribs_right", "ribs_left",
-  "rib_1_indet", "rib_1_right", "rib_1_left", "rib_2_indet", "rib_2_right", "rib_2_left", "rib_3_indet", "rib_3_right",
-  "rib_3_left", "rib_4_indet", "rib_4_right", "rib_4_left", "rib_5_indet", "rib_5_right", "rib_5_left", "rib_6_indet",
-  "rib_6_right", "rib_6_left", "rib_7_indet", "rib_7_right", "rib_7_left", "rib_8_indet", "rib_8_right", "rib_8_left",
-  "rib_9_indet", "rib_9_right", "rib_9_left", "rib_10_indet", "rib_10_right", "rib_10_left", "rib_11_indet",
-  "rib_11_right", "rib_11_left", "rib_12_indet", "rib_12_right", "rib_12_left", 
+  "rib_1", "rib_1_right", "rib_1_left", "rib_2", "rib_2_right", "rib_2_left", "rib_3", "rib_3_right",
+  "rib_3_left", "rib_4", "rib_4_right", "rib_4_left", "rib_5", "rib_5_right", "rib_5_left", "rib_6",
+  "rib_6_right", "rib_6_left", "rib_7", "rib_7_right", "rib_7_left", "rib_8", "rib_8_right", "rib_8_left",
+  "rib_9", "rib_9_right", "rib_9_left", "rib_10", "rib_10_right", "rib_10_left", "rib_11",
+  "rib_11_right", "rib_11_left", "rib_12", "rib_12_right", "rib_12_left", 
   
   "shoulder", "shoulder_indet",
   "clavicle", "clavicle_indet", "clavicle_right", "clavicle_left", "scapula", "scapula_indet", "scapula_right",
@@ -1345,54 +1346,39 @@ max_Level <- c(
 
 Bone_Count <- c(
   #cranium
-  1, 1, 0, 1, 2, 0, 1, 1, 2, 0, 1, 1, 1, 1, 1, 
-  1, 0, 2, 2, 2, 0, 1, 1, 2, 2, 1, 2, 6, 0, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 
-  1, 
-  
+  1, 1, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 2, 2, 1, 2, 
+  6, 6, 2, 2, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 1, 
   #teeth
-  1, #32 (or +20) 
-  20, #0, 
-  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2,
-  0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
-  32, #0, 
-  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4,
-  0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1,
-  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
-  
+  1, 20, 4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 
+  4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 
+  32, 4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 
+  4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 
+  4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 
   #hyoid
   1, 
-  
   #vertebrae
-  24, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 12, 0, 1, 1, 1, 1,
-  1, 1, 1, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 
-  
+  24, 24, 7, 7, 1, 1, 1, 1, 1, 1, 1, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 1, 1, 1, 1, 1, 
   #thorax
-  25, 0, 1, 24, 0, 0,12,12, 
-  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 
-  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1,
-  
+  25, 25, 1, 24, 72, 24, 12, 12, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 
+  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 
   #shoulder
-  4, 0, 2, 0, 1, 1, 2, 0, 1, 1, 
-
+  4, 4, 2, 2, 1, 1, 2, 2, 1, 1, 
   #arms
-  6, 0, 2, 0, 1, 1, 2, 0,1, 1, 2, 0, 1, 1, 
-  
+  6, 6, 2, 2, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 
   #hands
-  54, 0, 16, 0, 8, 0, 1, 1, 1, 1, 1, 1, 1, 1, 8, 0, 1, 1, 1, 1, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1,
-  1, 5, 0, 1, 1, 1, 1, 1, 28, 0, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 8, 0, 4, 0, 1, 1, 1, 1, 4, 0, 1, 1,
-  1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 
-  
-  #pelvic
-  1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 
-  2, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 
-  
-  #legs
-  8, 0, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 2, 0, 1, 1, 
-  
-  #foot
-  52, 0, 14, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 7,
-  0, 1, 1, 1, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1, 28, 0, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1,
-  1, 1, 1, 1, 8, 0, 4, 0, 1, 1, 1, 1, 4, 0, 1, 1, 1, 1, 10, 0, 5, 0, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1
+  54, 54, 16, 16, 8, 8, 1, 1, 1, 1, 1, 1, 1, 1, 8, 8, 1, 1, 1, 1, 1, 1, 1, 1, 
+  10, 10, 5, 5, 1, 1, 1, 1, 1, 5, 5, 1, 1, 1, 1, 1, 
+  8, 28, 10, 10, 5, 5, 1, 1, 1, 1, 1, 5, 5, 1, 1, 1, 1, 1, 8, 8, 4, 4, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 
+  10, 10, 5, 5, 1, 1, 1, 1, 1, 5, 5, 1, 1, 1, 1, 1, 
+   #pelvic
+  1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+    #legs
+  8, 8, 2, 2, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 2, 2, 1, 1, 
+    #foot
+  52, 52, 14, 14, 7, 7, 1, 1, 1, 1, 1, 1, 1, 7, 7, 1, 1, 1, 1, 1, 1, 1, 
+  10, 10, 5, 5, 1, 1, 1, 1, 1, 5, 5, 1, 1, 1, 1, 1, 
+  28, 28, 10, 10, 5, 5, 1, 1, 1, 1, 1, 5, 5, 1, 1, 1, 1, 1, 8, 8, 4, 4, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 
+  10, 10, 5, 5, 1, 1, 1, 1, 1, 5, 5, 1, 1, 1, 1, 1
 )
 Skeleton_Section <- c(
   "cranium", "cranium", "cranium", "cranium", "cranium", "cranium", "cranium", "cranium", "cranium", "cranium",
@@ -1692,8 +1678,8 @@ category_mappings_cranium_5_to_4 <- list(
 #### TEETH
 # Level 2 -> Level 1
 category_mappings_teeth_2_to_1 <- list(
-  #teeth = c("deciduous", "permanent")
-  teeth = c("deciduous_indet", "permanent")
+  teeth = c("deciduous", "permanent")
+  #teeth = c("deciduous_indet", "permanent")
 ),
 
 # Level 3 -> Level 1
@@ -1754,14 +1740,14 @@ category_mappings_teeth_5_to_1 <- list(
 # Level 3 -> Level 2
 category_mappings_teeth_3_to_2 <- list(
   #deciduous = c("deciduous_indet", "di1", "di2", "dc", "dm1", "dm2"),
-  deciduous_indet = c("di1", "di2", "dc", "dm1", "dm2"),
+  deciduous = c("di1", "di2", "dc", "dm1", "dm2"),
   permanent = c( #"permanent_indet", 
                 "i1", "i2", "c", "pm3", "pm4", "m1", "m2", "m3")
 ),
 
 # Level 4 -> Level 2
 category_mappings_teeth_4_to_2 <- list(
-  deciduous_indet = c( 
+  deciduous = c( 
         #"deciduous_indet", 
         "dl1_indet", "di1_superior", "dl1_inferior", "dl2_indet", "di2_superior",
         "dl2_inferior", "dc_indet", "dc_superior", "dc_inferior", "dm1_indet", "dm1_superior", "dm1_inferior",
@@ -1778,7 +1764,7 @@ category_mappings_teeth_4_to_2 <- list(
 
 # Level 5 -> Level 2
 category_mappings_teeth_5_to_2 <- list(
-  deciduous_indet = c(
+  deciduous = c(
         #"deciduous_indet", 
         "dl1_indet", "di1_superior_indet", "di1_superior_right", "di1_superior_left",
         "dl1_inferior_indet", "dl1_inferior_right", "dl1_inferior_left", "dl2_indet", "di2_superior_indet",
@@ -1972,8 +1958,8 @@ category_mappings_thorax_2_to_1 <- list(
 # Level 3 -> Level 1
 category_mappings_thorax_3_to_1 <- list(
   thorax = c( "thorax_indet", "sternum", "rib_indet", "rib_fragments", "ribs_right", "ribs_left",  
-  "rib_1_indet",  "rib_2_indet", "rib_3_indet", "rib_4_indet", "rib_5_indet",  "rib_6_indet", "rib_7_indet",  
-  "rib_8_indet", "rib_9_indet", "rib_10_indet", "rib_11_indet", "rib_12_indet"
+  "rib_1",  "rib_2", "rib_3", "rib_4", "rib_5",  "rib_6", "rib_7",  
+  "rib_8", "rib_9", "rib_10", "rib_11", "rib_12"
 )
 ),
 
@@ -1995,8 +1981,8 @@ category_mappings_thorax_3_to_2 <- list(
   thorax_indet = c("thorax_indet"),
   sternum = c("sternum"),
   ribs = c("rib_indet", "rib_fragments", "ribs_right", "ribs_left",  
-  "rib_1_indet",  "rib_2_indet", "rib_3_indet", "rib_4_indet", "rib_5_indet",  "rib_6_indet", "rib_7_indet",  
-  "rib_8_indet", "rib_9_indet", "rib_10_indet", "rib_11_indet", "rib_12_indet")
+  "rib_1",  "rib_2", "rib_3", "rib_4", "rib_5",  "rib_6", "rib_7",  
+  "rib_8", "rib_9", "rib_10", "rib_11", "rib_12")
 ),
 
 # Level 4 -> Level 2
@@ -2023,18 +2009,18 @@ category_mappings_thorax_4_to_3 <- list(
   rib_fragments = c("rib_fragments"),
   ribs_right = c("ribs_right"),
   ribs_left = c( "ribs_left" ),
-  rib_1_indet = c("rib_1_right", "rib_1_left"),
-  rib_2_indet = c("rib_2_right", "rib_2_left"),
-  rib_3_indet = c("rib_3_right", "rib_3_left"),
-  rib_4_indet = c("rib_4_right", "rib_4_left"),
-  rib_5_indet = c("rib_5_right", "rib_5_left"),
-  rib_6_indet = c("rib_6_right", "rib_6_left"),
-  rib_7_indet = c("rib_7_right", "rib_7_left"),
-  rib_8_indet = c("rib_8_right", "rib_8_left"),
-  rib_9_indet = c("rib_9_right", "rib_9_left"),
-  rib_10_indet = c("rib_10_right", "rib_10_left"),
-  rib_11_indet = c("rib_11_right", "rib_11_left"),
-  rib_12_indet = c("rib_12_right", "rib_12_left")  
+  rib_1 = c("rib_1_right", "rib_1_left"),
+  rib_2 = c("rib_2_right", "rib_2_left"),
+  rib_3 = c("rib_3_right", "rib_3_left"),
+  rib_4 = c("rib_4_right", "rib_4_left"),
+  rib_5 = c("rib_5_right", "rib_5_left"),
+  rib_6 = c("rib_6_right", "rib_6_left"),
+  rib_7 = c("rib_7_right", "rib_7_left"),
+  rib_8 = c("rib_8_right", "rib_8_left"),
+  rib_9 = c("rib_9_right", "rib_9_left"),
+  rib_10 = c("rib_10_right", "rib_10_left"),
+  rib_11 = c("rib_11_right", "rib_11_left"),
+  rib_12 = c("rib_12_right", "rib_12_left")  
 ),
 
 
