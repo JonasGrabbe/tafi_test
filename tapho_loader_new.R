@@ -1,8 +1,8 @@
 source("meta_new_indet.R", echo = TRUE)
-source("NewSiteDataLoader_new.R")
-source("select_data_new.R")
-source("data_loader_new.R")
-source("archo_preload_2.R")
+source("NewSiteDataLoader_new.R", echo = TRUE)
+source("select_data_new.R", echo = TRUE)
+source("data_loader_new.R", echo = TRUE)
+source("archo_preload_2.R", echo = TRUE)
 
 library(dplyr)
 library(tibble)
@@ -123,7 +123,7 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
   mapping      <- category_hierarchy[[key]]
   level_label  <- paste0("Level ", target_level)
   level_maxima <- skeleton_hierarchy[[section_name]][[level_label]]
-
+print(level_maxima)
   new_rows <- purrr::map_dfr(names(mapping), function(parent_elem) {
 
     parent_clean <- gsub(" ", ".", parent_elem)
@@ -139,10 +139,17 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
       val <- data %>% filter(std_element == ch) %>% pull(count)
       if (length(val) == 0) 0L else as.integer(val)
     })
-    print(str(base))
-print(str(MNI))
+
     max_counts <- purrr::map_int(real_children, \(ch) {
       base <- level_maxima[[ch]]
+      print("###############################    WTF      ########################################")
+      print("base :")
+      print(str(base))
+      print(base)
+      print("MNI : ")
+      print(str(MNI))
+      print(MNI)
+  print("#######################################################################")
       if (is.null(base)) 0L else as.integer(base * MNI)
     })
 
@@ -266,7 +273,8 @@ print(new_site_raw)
   print(new_site_raw$count)
   print("########################################### tapho-r loader function sum=0 ##############")
 
-  mni <- new_site_data[18,2]
+  #mni <- new_site_data[18,2]
+  mni <- suppressWarnings(as.numeric(new_site_data$count[18]))
 
   recalc_new_site_raw <- recal_mne_six(
     as.numeric(new_site_raw$count),

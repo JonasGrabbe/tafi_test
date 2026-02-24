@@ -1,4 +1,4 @@
-source("recalMNE_new.R")
+source("recalMNE_new.R", echo = TRUE)
 
 process_data <- function(data) {
 
@@ -368,9 +368,11 @@ sumby_site <- function(data){
       
       reference = first(reference), 
       sum_count = sum(sum_count, na.rm = TRUE), 
-      bone.level = list(first(bone.level)), 
+      bone.level = 
+        
+        (first(bone.level)), 
       element = list(first(element)),
-      count = list(first(element)) 
+      count = list(first(count)) 
   )
   
   return(sumby_data)

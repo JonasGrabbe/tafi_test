@@ -15,13 +15,13 @@ editor:
 
 
 ```{r}
-source("meta_new.R")
-source("tapho_loader_new.R")
+#source("meta_new_indet.R", echo = TRUE)
+source("tapho_loader_new.R",echo = TRUE)
 elements_data= elements_data
-library(readxl)
+#library(readxl)
 
-excel_path <- "hspa_one.xlsx"
-df_one <- readxl::read_excel(excel_path)
+#excel_path <- "hspa_one.xlsx"
+#df_one <- readxl::read_excel(excel_path)
 
 ```
 
@@ -186,6 +186,8 @@ tapho_loaded$count_type
 ## looks good 
 
 ```{r}
+source("meta_new_indet.R", echo = TRUE)
+source("tapho_loader_new.R",echo = TRUE)
 excel_path <- "hspa-test.xlsx"
 tapho_db <- read_excel_sheets(excel_path)
 tapho_db 
@@ -193,7 +195,23 @@ tapho_db
 
 
 ```{r}
-tapho_db[,34:36]
+source("select_data_new.R")
+tb <- sumby_site(tapho_db)
+```
+
+```{r}
+tb[1,c(35:36)]$count
+```
+
+
+```{r}
+print(tapho_db[3,34:36]$bone.level)
+tapho_db[3,34:36]$element
+```
+
+
+```{r}
+sum(tapho_db[3,34:36]$count[[1]])
 
 
 ```
