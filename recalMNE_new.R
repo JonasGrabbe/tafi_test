@@ -1,157 +1,132 @@
 #source("NewSiteDataLoader_new.R")
-#source("data_loader_new.R")
+source("data_loader_new.R")
 source("meta_new_indet.R", echo = TRUE)
 #source("select_data_new.R")
 
 library(dplyr)
 
+
 sections_order <- c("cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
 "arms", "hands", "pelvic", "legs", "foot")
 
-recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hierarchy, bone_names, sections_order) {
+recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hierarchy,
+  bone_names, sections_order, MNI) {
+
+working_base <- tibble(count = current_mne, element = bone_names) %>%
+add_bone_info() %>%
+mutate(std_element = gsub(" ", ".", element))
+
+purrr::imap(sections_order, \(part, i) {
+data <- working_base %>%
+filter(Skeleton_Section == part) %>%
+select(std_element, count)
+
+
+cur <- current_levels[i]
+tgt <- target_levels[i]
+
+if (cur > tgt) {
+
+data <- collapse_up_step(data, part,
+        current_level = cur,
+        target_level  = tgt)
+
+
+} else if (cur < tgt) {
+
+data <- collapse_down_step(data, part,
+          current_level = cur,
+          target_level  = tgt,
+          section_name  = part,
+          MNI           = MNI)
+
+}
   
-  # Initialize an empty list to store new MNE results
-  new_mne <- list()
-  
-  # Create the initial tibble with counts and elements
-  current_mne_named <- tibble(count = current_mne, element = bone_names)
-  
-  # Add bone info to the tibble (assuming add_bone_info function exists)
-  current_mne_named <- add_bone_info(current_mne_named)
-  
-  # Helper function to standardize names
-  standardize_name <- function(name) {
-    gsub(" ", ".", name)
-  }
- 
-  # Loop over each part/section
-  for (part_index in seq_along(sections_order)) {
-    part <- sections_order[part_index]
-    current_level <- current_levels[[part_index]]
-    target_level <- target_levels[[part_index]]
-    print(part_index)
-
-    # If current level matches target level, no aggregation is needed; just copy the original counts
-    if (current_level == target_level) {
-      # Extract counts for this part and add directly to new_mne
-      part_data <- current_mne_named %>% filter(Skeleton_Section == part)
-      for (i in seq_len(nrow(part_data))) {
-        element <- standardize_name(part_data$element[i])
-        count <- part_data$count[i]
-        #new_mne[[paste(part, element, sep = "_")]] <- count
-        new_mne[[element]] <- count
-      }
-      next
-    }
-    
-
-    # Create the appropriate mapping name for this part and level transition
-    mapping_name <- paste0(part, "_", current_level, "_to_", target_level)
-   
-    # Check if the mapping exists in the hierarchy
-    if (mapping_name %in% names(category_hierarchy)) {
-      # Get the mapping
-      mapping <- category_hierarchy[[mapping_name]]
-      
-      # Build a lookup from elements to target categories
-      element_to_category <- unlist(lapply(names(mapping), function(category) {
-        std_category <- standardize_name(category)
-        elements <- mapping[[category]]
-        std_elements <- sapply(elements, standardize_name)
-        setNames(rep(std_category, length(std_elements)), std_elements)
-      }))
-      
-      print("element_to_category:")
-      print(element_to_category)
-
-      # Filter data for this part
-      part_data <- current_mne_named %>% filter(Skeleton_Section == part)
-      
-      # Standardize element names
-      part_data$std_element <- standardize_name(part_data$element)
-      
-      # Map elements to target categories
-      part_data$target_category <- element_to_category[part_data$std_element]
-      
-      # Handle elements not in mapping (optional)
-      # For now, exclude them
-      #part_data <- part_data %>% filter(!is.na(target_category))   ##   <---
-      
-      print("part data: ")
-      print(part_data)
+ # after collapse_up/down (or even if no collapse happened)
+level_label <- paste0("Level ", tgt)
+expected <- names(skeleton_hierarchy[[part]][[level_label]])
+expected <- gsub(" ", ".", expected) 
+if (part == "pelvic") {
+  print("#######################  level_label ##################################")
+  print(part)
+  print(level_label)
+  cat("pelvic cur/tgt:", cur, tgt, "\n")
+  print(setdiff(expected, data$std_element))
+  print("#######################  level_label  ##################################")
+}
 
 
-      # Aggregate counts by target category
-      aggregated_counts <- part_data %>%
-        group_by(target_category) %>%
-        summarize(total_count = sum(count, na.rm = TRUE))
-
-      print("aggregated_counts: ")
-      print(aggregated_counts)
-
-
-      aggregated_counts$target_category <- factor(aggregated_counts$target_category, levels = names(mapping))
-      aggregated_counts <- aggregated_counts %>%
-      arrange(target_category)
-      
-    print("aggregated_counts: ")
-    print(aggregated_counts)
-      
-      # Store the counts in new_mne
-      for (i in seq_len(nrow(aggregated_counts))) {
-        category <- aggregated_counts$target_category[i]
-        total_count <- aggregated_counts$total_count[i]
-        #new_mne[[paste(part, category, sep = "_")]] <- total_count
-        new_mne[[category]] <- total_count
-      }
-    } else {
-      # Mapping not found, handle accordingly
-      warning(paste("Mapping not found for", mapping_name))
-    }
-  }
-  
-  # Convert new_mne to data frame
-  new_mne_df <- tibble(element = names(new_mne),  count = unname(as.numeric(new_mne)) )
-  
-  # Return the new MNE results
-  return(new_mne_df)
+data
+}) %>%
+bind_rows() %>%
+rename(element = std_element)
 }
 
 
 
 
-recal_mne_selected_data <- function(selected_data) {
+recal_mne_selected_data <- function(selected_data, 
+  method = c("min", "filter", "direct"), 
+  target_level = NULL) {
 
+method <- match.arg(method)
 
-#calc min bone level
+# --- Determine target level based on method ---
+if (method == "min") {
+# Original behaviour: compute minimum across all rows
 min_bone_level <- get_min(selected_data)
-print(min_bone_level)
-  # Recalculate counts and elements for each row
-  recalculated_list <- pmap(
-    list(selected_data$count, selected_data$bone.level, selected_data$element),
-    function(count_i, bone_level_i, element_i) {
-      recal_mne(
-        current_mne = count_i,
-        current_levels = bone_level_i,
-        target_levels = min_bone_level,
-        skeleton_hierarchy = skeleton_hierarchy,
-        bone_names = element_i,
-        sections_order = sections_order
-      )
-    }
-  )
-#print(recalculated_list)
-  data_recalculated <- selected_data %>%
-    mutate(
-      recalculated = recalculated_list,
-      bone.level = list(min_bone_level),
-      element = map(recalculated, "element"),
-      count = map(recalculated, "count")
-    ) %>%
-    select(-recalculated)
+target_levels_vec <- min_bone_level
 
+} else if (method == "filter") {
+# Given a target level, filter out rows where any element-wise 
+# bone level is NOT <= target_level, then recalculate on survivors
+if (is.null(target_level)) stop("'target_level' must be provided for method = 'filter'")
 
+# Keep only rows where every bone level value <= corresponding target
+selected_data <- selected_data %>%
+  dplyr::filter(purrr::map_lgl(bone.level, function(bl) {
+    bl_vec <- as.numeric(unlist(bl))
+    tgt <- target_level[seq_along(bl_vec)]
+    all(is.na(bl_vec) | (bl_vec >= tgt))
+  }))
 
-  return(data_recalculated)
+if (nrow(selected_data) == 0) {
+warning("No rows remain after filtering. Consider a less strict target_level.")
+return(selected_data)
+}
 
+target_levels_vec <- target_level
+
+} else if (method == "direct") {
+# Use the provided target level directly, no filtering, no min calculation
+if (is.null(target_level)) stop("'target_level' must be provided for method = 'direct'")
+target_levels_vec <- target_level
+}
+
+# --- Recalculate MNE for each row using the resolved target level ---
+recalculated_list <- pmap(
+list(selected_data$count, selected_data$bone.level, selected_data$element, selected_data$mni),
+function(count_i, bone_level_i, element_i, mni) {
+recal_mne(
+current_mne     = count_i,
+current_levels  = bone_level_i,
+target_levels   = target_levels_vec,
+skeleton_hierarchy = skeleton_hierarchy,
+bone_names      = element_i,
+sections_order  = sections_order,
+MNI             = mni
+)
+}
+)
+
+data_recalculated <- selected_data %>%
+mutate(
+recalculated = recalculated_list,
+bone.level   = list(target_levels_vec),
+element      = map(recalculated, "element"),
+count        = map(recalculated, "count")
+) %>%
+select(-recalculated)
+
+return(data_recalculated)
 }

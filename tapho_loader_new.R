@@ -74,19 +74,14 @@ distribute_surplus <- function(counts, max_counts, n_indet) {
 collapse_up_step <- function(data, part, current_level, target_level) {
   key <- paste0(part, "_", current_level, "_to_", target_level)
   if (!key %in% names(category_hierarchy)) stop("Missing mapping: ", key)
-print("key")
-print(key)
+
   element_map <- stack(category_hierarchy[[key]]) %>%
     setNames(c("child", "parent")) %>%
     mutate(across(everything(), \(x) gsub(" ", ".", x)))
-print("element_map")
-print(element_map)
+
   mappable     <- inner_join(data, element_map, by = c("std_element" = "child"))
   non_mappable <- anti_join(data, element_map, by = c("std_element" = "child"))
-print("mappable")
-print(mappable)
-print("non_mappable")
-print(non_mappable)
+
   aggregated <- mappable %>%
     group_by(std_element = parent) %>%
     summarise(count = sum(count, na.rm = TRUE), .groups = "drop")
@@ -94,13 +89,27 @@ print(non_mappable)
 data <-  full_join(non_mappable, aggregated, by = "std_element") %>%
     mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
     select(std_element, count)
-print("data")
-print(data)
+
+  #if (part == "pelvic") {
+  #          print("key")
+  #          print(key)
+#
+#            print("element_map")
+#            print(element_map)
+#
+#            print("mappable")
+#            print(mappable)
+#            print("non_mappable")
+#            print(non_mappable)
+
+#            print("data")
+#            print(data)
+#  }
 
   full_join(non_mappable, aggregated, by = "std_element") %>%
     mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
     select(std_element, count)
-}
+  }
 
 
 
@@ -123,7 +132,7 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
   mapping      <- category_hierarchy[[key]]
   level_label  <- paste0("Level ", target_level)
   level_maxima <- skeleton_hierarchy[[section_name]][[level_label]]
-print(level_maxima)
+#print(level_maxima)
   new_rows <- purrr::map_dfr(names(mapping), function(parent_elem) {
 
     parent_clean <- gsub(" ", ".", parent_elem)
@@ -142,25 +151,27 @@ print(level_maxima)
 
     max_counts <- purrr::map_int(real_children, \(ch) {
       base <- level_maxima[[ch]]
-      print("###############################    WTF      ########################################")
-      print("base :")
-      print(str(base))
-      print(base)
-      print("MNI : ")
-      print(str(MNI))
-      print(MNI)
-  print("#######################################################################")
+     # print("###############################    WTF      ########################################")
+     # print("base :")
+     # print(str(base))
+     # print(base)
+     # print("MNI : ")
+     # print(str(MNI))
+     # print(MNI)
+  #print("#######################################################################")
       if (is.null(base)) 0L else as.integer(base * MNI)
     })
 
 
   if (length(real_children) == 1 && real_children[1] == parent_clean) {
+    #if (part == "pelvic") {print("Pelvic: length(real_children) == 1 && real_children[1] == parent_clean") 
+     # print(real_children)}
             return(tibble(std_element = real_children, count = as.integer(parent_count)))
       }
 
     surplus      <- max(0L, parent_count) # no double - sum(existing_counts))
     final_counts <- distribute_surplus(existing_counts, max_counts, surplus)
-
+    if (part == "pelvic") {}
 
     tibble(std_element = real_children, count = final_counts)
   })
@@ -168,7 +179,10 @@ print(level_maxima)
   parent_names <- gsub(" ", ".", names(mapping))
   child_names <- unique(gsub(" ", ".", unlist(mapping)))
   child_names <- drop_indet_if_possible(child_names)
-
+  #if (part == "pelvic") {print("Pelvic: child_names & parent_names ") 
+  #print(parent_names)
+  #  print(child_names)
+  #}
   data %>%
     filter(!std_element %in% c(parent_names, child_names)) %>%
     bind_rows(new_rows)
@@ -205,12 +219,14 @@ recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
 
     # Pass 2 — expand from coarsest detail up to target
     while (current_min < tgt) {
+      
     data <- collapse_down_step(data, part,
             current_level = current_min,
             target_level  = current_min + 1,
             section_name  = part,
             MNI           = MNI)
     current_min <- current_min + 1
+   # if (part == "pelvic") { print(data$)}
     }
 
     data
@@ -264,14 +280,14 @@ tapho.load <- function(new_site_data, strict = FALSE) {
   new_site_meta <- new_site_data[1:31, , drop = FALSE]
   new_site_raw  <- new_site_data[-c(1:31), , drop = FALSE]
 
-print(new_site_raw) 
+#print(new_site_raw) 
   target_levels <- summarize_bone_sections_zero_na(new_site_raw)
 
   # NA skeletal values are already set to 0 by validator, but keep this safe:
   new_site_raw$count[is.na(new_site_raw$count)] <- 0
-  print("########################################### tapho-r loader function sum=0 ##############")
-  print(new_site_raw$count)
-  print("########################################### tapho-r loader function sum=0 ##############")
+  #print("########################################### tapho-r loader function sum=0 ##############")
+  #print(new_site_raw$count)
+  #print("########################################### tapho-r loader function sum=0 ##############")
 
   #mni <- new_site_data[18,2]
   mni <- suppressWarnings(as.numeric(new_site_data$count[18]))
@@ -285,12 +301,13 @@ print(new_site_raw)
     mni
   )
 
-  print("########################################### tapho-r loader function sum=0 ##############")
-  print(recalc_new_site_raw)
-  print("########################################### tapho-r loader function sum=0 ##############")
+  #print("########################################### tapho-r loader function sum=0 ##############")
+  #print(recalc_new_site_raw)
+  #print("########################################### tapho-r loader function sum=0 ##############")
 
   one_skeleton <- get_bones_dataframe(target_levels)
-
+print(one_skeleton)
+  print(recalc_new_site_raw)
   data_aligned <- align_counts_to_skeleton(
     one_skeleton$element,
     recalc_new_site_raw$element,

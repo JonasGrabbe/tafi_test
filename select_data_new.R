@@ -1,4 +1,4 @@
-source("recalMNE_new.R", echo = TRUE)
+source("recalMNE_new.R")
 
 process_data <- function(data) {
 
@@ -305,8 +305,10 @@ sumby_site <- function(data){
   group_modify(~ recal_mne_selected_data(.x)) %>%  # apply function to each site_id subset
   ungroup()
   
-  print("recalc_data[,34:36]:")
-  print(recalc_data[,34:36])
+  print("recalc_data[,c(1:5,34:36)]:")
+  print(recalc_data[,c(1:5,34:36)], n=26)
+  print(recalc_data[19,34:36]$element)
+  print(recalc_data[20,34:36]$element)
   # check that all bone.level are the same  otherwise throuh error 
   sumby_data <- recalc_data %>% 
   # Create the composite string (Row-wise) before grouping
@@ -368,13 +370,105 @@ sumby_site <- function(data){
       
       reference = first(reference), 
       sum_count = sum(sum_count, na.rm = TRUE), 
-      bone.level = 
-        
-        (first(bone.level)), 
+      bone.level = list(first(bone.level)), 
       element = list(first(element)),
-      count = list(first(count)) 
+      count = list(Reduce("+", count)) 
   )
   
   return(sumby_data)
   
+}
+
+
+
+sumby_feature <- function(data, group_by_col, filters = NULL) {
+  
+  group_sym <- rlang::sym(group_by_col)
+  
+  # Step 1: Apply filters if provided
+  if (!is.null(filters)) {
+    for (col in names(filters)) {
+      col_sym <- rlang::sym(col)
+      vals    <- filters[[col]]
+      data    <- data %>% dplyr::filter(!!col_sym %in% vals)
+    }
+    
+    if (nrow(data) == 0) {
+      warning("No rows remain after filtering. Check your filter values.")
+      return(tibble())
+    }
+  }
+  
+  # Step 2: Recalculate MNE within each group
+  recalc_data <- data %>%
+    group_by(!!group_sym) %>%
+    group_modify(~ recal_mne_selected_data(.x)) %>%
+    ungroup()
+  
+  # Step 3: Summarise by group
+  sumby_data <- recalc_data %>%
+    mutate(obs_temp = paste(ind_name, individual_id, observation, sep = " ")) %>%
+    group_by(!!group_sym) %>%
+    summarise(
+      ind_name             = paste(ind_name, collapse = " "),
+      site_id              = if (n_distinct(site_id) == 1) first(site_id) 
+                             else paste(unique(site_id), collapse = ", "),
+      individual_id        = paste(individual_id, collapse = " "),
+      site_name            = if (n_distinct(site_name) == 1) first(site_name)
+                             else paste(unique(site_name), collapse = ", "),
+      layer_name           = if (n_distinct(layer_name) == 1) first(layer_name)
+                             else paste(unique(layer_name), collapse = ", "),
+      count_type           = TRUE,
+      geological_period    = if (n_distinct(geological_period) == 1) first(geological_period)
+                             else paste(unique(geological_period), collapse = ", "),
+      cultural_period      = if (n_distinct(cultural_period) == 1) first(cultural_period)
+                             else paste(unique(cultural_period), collapse = ", "),
+      culture_period_2     = first(culture_period_2),
+      start_date_cal_bp    = first(start_date_cal_bp),
+      end_date_cal_bp      = first(end_date_cal_bp),
+      mis_stage            = if (n_distinct(mis_stage) == 1) first(mis_stage)
+                             else paste(unique(mis_stage), collapse = ", "),
+      karstic_system       = first(karstic_system),
+      karstic_system_2     = first(karstic_system_2),
+      open_air_site        = first(open_air_site),
+      open_air_site_2      = first(open_air_site_2),
+      region               = if (n_distinct(region) == 1) first(region)
+                             else paste(unique(region), collapse = ", "),
+      country              = if (n_distinct(country) == 1) first(country)
+                             else paste(unique(country), collapse = ", "),
+      mni                  = sum(mni, na.rm = TRUE),
+      
+      age_category = case_when(
+        n_distinct(age_category) == 1 ~ first(age_category),
+        "Indet" %in% age_category     ~ "Indet",
+        TRUE                          ~ "Mixed"
+      ),
+      
+      n_infant   = sum(n_infant,   na.rm = TRUE),
+      n_juvenil  = sum(n_juvenil,  na.rm = TRUE),
+      n_subadult = sum(n_subadult, na.rm = TRUE),
+      n_adult    = sum(n_adult,    na.rm = TRUE),
+      
+      gender = case_when(
+        n_distinct(gender) == 1 ~ first(gender),
+        "Indet" %in% gender     ~ "Indet",
+        TRUE                    ~ "Mixed"
+      ),
+      
+      taphonomic_context   = first(taphonomic_context),
+      funerary_context     = first(funerary_context),
+      discovery_context    = first(discovery_context),
+      degree_of_excavation = first(degree_of_excavation),
+      hominin_species      = if (n_distinct(hominin_species) == 1) first(hominin_species)
+                             else paste(unique(hominin_species), collapse = ", "),
+      observation          = paste(obs_temp, collapse = "; "),
+      reference            = first(reference),
+      sum_count            = sum(sum_count, na.rm = TRUE),
+      bone.level           = list(first(bone.level)),
+      element              = list(first(element)),
+      count                = list(Reduce("+", count)),
+      .groups = "drop"
+    )
+  
+  return(sumby_data)
 }

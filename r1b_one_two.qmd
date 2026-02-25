@@ -193,26 +193,115 @@ tapho_db <- read_excel_sheets(excel_path)
 tapho_db 
 ```
 
+```{r}
+#tapho_db$element
+print(tapho_db[,c(1:5,34:36)], n=26)
+```
 
 ```{r}
 source("select_data_new.R")
-tb <- sumby_site(tapho_db)
-```
-
-```{r}
-tb[1,c(35:36)]$count
+source("meta_new_indet.R", echo = TRUE)
+source("tapho_loader_new.R",echo = TRUE)
+source("recalMNE_new.R")
 ```
 
 
 ```{r}
-print(tapho_db[3,34:36]$bone.level)
-tapho_db[3,34:36]$element
+
+#tb <- sumby_site(tapho_db)
+#get_min(tb)
+#tb[,c(1:5,33:36)]
+my_level_vec <- c(1, 1, 1, 3, 1, 1, 3, 3, 2, 3, 1)
+recal_tb <- recal_mne_selected_data(tb, method = "filter", target_level = my_level_vec)
+print(recal_tb[,c(1:5,33:36)])
+recal_tb$bone.level
+```
+
+```{r}
+my_level_vec <- c(1, 1, 1, 3, 1, 3, 3, 3, 2, 2, 4)
+ tb %>%
+  dplyr::filter(purrr::map_lgl(bone.level, function(bl) {
+    bl_vec <- as.numeric(unlist(bl))
+    tgt <- my_level_vec[seq_along(bl_vec)]
+    all(is.na(bl_vec) | (bl_vec >= tgt))
+  }))
+```
+
+```{r}
+
+length(c( "pelvic_indet","sacrum_indet","s1",
+"s2" , "s3" ,"s4" ,"s5" ,"coccyx_indet"  ,"cx1","cx2","cx3",    "cx4", "os_coxae_indet" , "os_coxae_right","os_coxae_left"  ))
+```
+
+```{r}
+length(c("coccyx_indet" ,"cx2" , "cx3",  "cx4" , "os_coxae_indet","os_coxae_left" ,"os_coxae_right" ,"pelvic_indet", "s2", "s3","s4",  "s5" ,"sacrum_indet"  ))
+```
+
+```{r}
+tb[,c(34:36)]$bone.level
+```
+
+
+```{r}
+print(tb[3,34:36]$bone.level)
+#tapho_db[3,34:36]$element
 ```
 
 
 ```{r}
 sum(tapho_db[3,34:36]$count[[1]])
 
+```
+
+
+```{r}
+exists("age_category")
+exists("gender")
+```
+
+
+```{r}
+
+# Your original use case — no filter
+select <- sumby_feature(tapho_db, "gender",
+  
+)
+print(select)
+print(select[,c(1:5,33:36)])
+select$bone.level
+```
+
+
+```{r}
+
+# Single filter
+sumby_feature(data, "gender",
+  filters = list(mis_stage = "2")
+)
+
+# Multiple filters, stacked (AND logic)
+sumby_feature(data, "gender",
+  filters = list(
+    mis_stage  = "2",
+    country    = "France"
+  )
+)
+
+# Multiple allowed values per filter (OR within a column)
+sumby_feature(data, "cultural_period",
+  filters = list(
+    mis_stage  = c("2", "3"),
+    region     = c("Southwest France", "Iberia")
+  )
+)
+
+# Filter and group by the same column (perfectly valid)
+sumby_feature(data, "hominin_species",
+  filters = list(
+    mis_stage     = "3",
+    funerary_context = "yes"
+  )
+)
 
 ```
 

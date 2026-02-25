@@ -881,6 +881,7 @@ skeleton_hierarchy <- list(
       #pelvic_indet = 0,
 
       #sacrum_indet = 0,
+      s1 = 1, 
       s2 = 1,
       s3 = 1,
       s4 = 1,
@@ -888,6 +889,7 @@ skeleton_hierarchy <- list(
       
 
       #coccyx_indet = 0,
+      cx2 = 1, 
       cx2 = 1,
       cx3 = 1,
       cx4 = 1,
@@ -2861,9 +2863,9 @@ category_mappings_pelvic_4_to_1 <- list(
   pelvic = c(
     #"pelvic_indet",
     #"sacrum_indet", 
-    "s2", "s3", "s4", "s5", 
+    "s1","s2", "s3", "s4", "s5", 
     #"coccyx_indet", 
-    "cx2", "cx3", "cx4",
+    "cx1","cx2", "cx3", "cx4",
     #"os_coxae_indet",
     #"os_coxae_right_indet", 
     "ilium_right", "ischium_right", "pubis_right",
@@ -2891,10 +2893,10 @@ category_mappings_pelvic_4_to_2 <- list(
   #pelvic_indet = c("pelvic_indet"),
   sacrum       = c(
     #"sacrum_indet", 
-    "s2", "s3", "s4", "s5"),
+    "s1","s2", "s3", "s4", "s5"),
   coccyx       = c(
     #"coccyx_indet", 
-    "cx2", "cx3", "cx4"),
+    "cx1","cx2", "cx3", "cx4"),
   os_coxae     = c(
     #"os_coxae_indet",
     #"os_coxae_right_indet", 
