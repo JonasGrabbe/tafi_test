@@ -211,8 +211,8 @@ source("recalMNE_new.R")
 #tb <- sumby_site(tapho_db)
 #get_min(tb)
 #tb[,c(1:5,33:36)]
-my_level_vec <- c(1, 1, 1, 3, 1, 1, 3, 3, 2, 3, 1)
-recal_tb <- recal_mne_selected_data(tb, method = "filter", target_level = my_level_vec)
+#my_level_vec <- c(1, 1, 1, 3, 1, 1, 3, 3, 2, 3, 1)
+recal_tb <- recal_mne_selected_data(tb) #, method = "filter", target_level = my_level_vec)
 print(recal_tb[,c(1:5,33:36)])
 recal_tb$bone.level
 ```
