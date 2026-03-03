@@ -1,6 +1,7 @@
 #source("NewSiteDataLoader_new.R")
 source("data_loader_new.R")
-source("meta_new_indet.R", echo = TRUE)
+source("meta_new_indet.R")
+source("collapse_down_step.R")
 #source("select_data_new.R")
 
 library(dplyr)
@@ -8,6 +9,8 @@ library(dplyr)
 
 sections_order <- c("cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
 "arms", "hands", "pelvic", "legs", "foot")
+
+is_special <- function(part) part %in% c("pelvic", "cranium")
 
 recal_mne <- function(current_mne, current_levels, target_levels, skeleton_hierarchy,
   bone_names, sections_order, MNI) {
@@ -26,19 +29,26 @@ cur <- current_levels[i]
 tgt <- target_levels[i]
 
 if (cur > tgt) {
-
+  if (is_special(part)){
+    data <- collapse_up_step_special(data, part,
+      current_level = cur,
+      target_level  = tgt)}
+  else{
 data <- collapse_up_step(data, part,
         current_level = cur,
-        target_level  = tgt)
+        target_level  = tgt)}
 
 
 } else if (cur < tgt) {
-
-data <- collapse_down_step(data, part,
-          current_level = cur,
-          target_level  = tgt,
-          section_name  = part,
-          MNI           = MNI)
+  if (is_special(part)){
+    data <- collapse_down_step_direct_special(data, part,
+              current_level = cur,
+              target_level  = tgt,
+              section_name  = part,
+              MNI           = MNI)}
+  else{data <- collapse_down_step(data, part,
+    current_level = cur,
+    target_level  = tgt)}
 
 }
   

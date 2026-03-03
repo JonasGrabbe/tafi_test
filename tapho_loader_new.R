@@ -1,8 +1,9 @@
-source("meta_new_indet.R", echo = TRUE)
-source("NewSiteDataLoader_new.R", echo = TRUE)
-source("select_data_new.R", echo = TRUE)
-source("data_loader_new.R", echo = TRUE)
-source("archo_preload_2.R", echo = TRUE)
+source("meta_new_indet.R")
+source("NewSiteDataLoader_new.R")
+source("select_data_new.R")
+source("data_loader_new.R")
+source("archo_preload_2.R")
+source("collapse_down_step.R")
 
 library(dplyr)
 library(tibble)
@@ -113,6 +114,7 @@ collapse_up_step <- function(data, part, current_level, target_level) {
 
 
 
+
 drop_indet_if_possible <- function(x) {
   x <- gsub(" ", ".", x)
   if (length(x) > 1) {
@@ -124,7 +126,6 @@ drop_indet_if_possible <- function(x) {
 
 
 
-# Single-step rolldown: level N -> level N+1
 collapse_down_step <- function(data, part, current_level, target_level,section_name, MNI) {
   key         <- paste0(part, "_", target_level, "_to_", current_level)
   if (!key %in% names(category_hierarchy)) stop("Missing mapping: ", key)
@@ -189,7 +190,7 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
 
 }
 
-
+is_special <- function(part) part %in% c("pelvic", "cranium")
 
 recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
   bone_names, sections_order, MNI) {
@@ -211,21 +212,42 @@ recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
     # Pass 1 — collapse from finest detail down to target
     while (current_max > tgt) {
     step_up_level <- current_max - 1
-    data <- collapse_up_step(data, part,
+    print("up: from to ")
+    print(current_max)
+    print(step_up_level)
+      if (is_special(part)){
+        data <- collapse_up_step_special(data, part,
           current_level = current_max,
           target_level  = step_up_level)
+      } 
+      else{
+          data <- collapse_up_step(data, part,
+                current_level = current_max,
+                target_level  = step_up_level)}
     current_max <- current_max - 1
+    print(data, n=42)
     }
 
     # Pass 2 — expand from coarsest detail up to target
     while (current_min < tgt) {
-      
-    data <- collapse_down_step(data, part,
-            current_level = current_min,
-            target_level  = current_min + 1,
-            section_name  = part,
-            MNI           = MNI)
+      print("down: from to ")
+          print(current_min)
+    print(current_min + 1)
+    if (is_special(part)){   
+          data <- collapse_down_step_special(data, part,
+                        current_level = current_min,
+                        target_level  = current_min + 1,
+                        section_name  = part,
+          MNI           = MNI)}
+      else{
+        data <- collapse_down_step(data, part,
+                current_level = current_min,
+                target_level  = current_min + 1,
+                section_name  = part,
+                MNI           = MNI)}
     current_min <- current_min + 1
+    
+    print(data, n=42)
    # if (part == "pelvic") { print(data$)}
     }
 
@@ -234,7 +256,6 @@ recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
     bind_rows() %>%
     rename(element = std_element)
 }
-
 
 
 align_counts_to_skeleton <- function(one_skeleton_element,
@@ -306,8 +327,8 @@ tapho.load <- function(new_site_data, strict = FALSE) {
   #print("########################################### tapho-r loader function sum=0 ##############")
 
   one_skeleton <- get_bones_dataframe(target_levels)
-print(one_skeleton)
-  print(recalc_new_site_raw)
+#(one_skeleton)
+#  print(recalc_new_site_raw)
   data_aligned <- align_counts_to_skeleton(
     one_skeleton$element,
     recalc_new_site_raw$element,
