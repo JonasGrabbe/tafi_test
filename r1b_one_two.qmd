@@ -194,8 +194,8 @@ tapho_db
 ```
 
 ```{r}
-#tapho_db$element
-print(tapho_db[,c(1:5,34:36)], n=26)
+tapho_db$count
+#print(tapho_db[,c(1:5,33:36)], n=26)
 ```
 
 ```{r}
@@ -208,9 +208,9 @@ source("recalMNE_new.R")
 
 ```{r}
 
-#tb <- sumby_site(tapho_db)
-#get_min(tb)
-#tb[,c(1:5,33:36)]
+tb <- sumby_site(tapho_db)
+print(get_min(tb))
+print(tb[,c(1:5,33:36)])
 #my_level_vec <- c(1, 1, 1, 3, 1, 1, 3, 3, 2, 3, 1)
 recal_tb <- recal_mne_selected_data(tb) #, method = "filter", target_level = my_level_vec)
 print(recal_tb[,c(1:5,33:36)])
@@ -267,7 +267,7 @@ select <- sumby_feature(tapho_db, "gender",
   
 )
 print(select)
-print(select[,c(1:5,33:36)])
+print(select[,c(1:2,35:36)])
 select$bone.level
 ```
 

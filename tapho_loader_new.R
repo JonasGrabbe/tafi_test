@@ -86,7 +86,7 @@ collapse_up_step <- function(data, part, current_level, target_level) {
     group_by(std_element = parent) %>%
     summarise(count = sum(count, na.rm = TRUE), .groups = "drop")
 
-data <-  full_join(non_mappable, aggregated, by = "std_element") %>%
+ data <-  full_join(non_mappable, aggregated, by = "std_element") %>%
     mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
     select(std_element, count)
 
