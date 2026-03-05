@@ -648,7 +648,7 @@ print(length(current_mne_mne))
 ```{r}
 tb_mne <- recal_mne(
    current_mne    = current_mne_mne,
-  current_levels = c(3),
+   current_levels = c(3),
    target_levels  = c(5),          # collapse to level 1
    skeleton_hierarchy = skeleton_hierarchy,
    bone_names     = bone_names_mne,

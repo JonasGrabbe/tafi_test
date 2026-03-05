@@ -4,6 +4,7 @@ source("select_data_new.R")
 source("data_loader_new.R")
 source("archo_preload_2.R")
 source("collapse_down_step.R")
+source("indet.R")
 
 library(dplyr)
 library(tibble)
@@ -64,7 +65,7 @@ summarize_bone_sections_zero_na <- function(input_df,
 distribute_surplus <- function(counts, max_counts, n_indet) {
   if (n_indet == 0) return(counts)
   open_slots <- max_counts - counts
-  if (sum(open_slots) < n_indet)
+  if (sum(open_slots, na.rm=TRUE) < as.numeric(n_indet))
     stop("Not enough open slots to place all indeterminate specimens.")
   slot_pool <- rep(seq_along(counts), times = open_slots)
   chosen    <- sample(slot_pool, size = n_indet, replace = FALSE)
@@ -91,21 +92,6 @@ collapse_up_step <- function(data, part, current_level, target_level) {
     mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
     select(std_element, count)
 
-  #if (part == "pelvic") {
-  #          print("key")
-  #          print(key)
-#
-#            print("element_map")
-#            print(element_map)
-#
-#            print("mappable")
-#            print(mappable)
-#            print("non_mappable")
-#            print(non_mappable)
-
-#            print("data")
-#            print(data)
-#  }
 
   full_join(non_mappable, aggregated, by = "std_element") %>%
     mutate(count = coalesce(count.x, 0) + coalesce(count.y, 0)) %>%
@@ -291,7 +277,7 @@ return(align_loaded_db)
 ########################################### tapho-r loader function sum=0 ##############
 tapho.load <- function(new_site_data, strict = FALSE) {
 
-  # Validate & coerce first (warn now, not later)
+  #Validate & coerce first (warn now, not later)
   new_site_data <- archo_preload_site_table(new_site_data, strict = strict)
 
   ind_name <- colnames(new_site_data)[2]
@@ -301,11 +287,20 @@ tapho.load <- function(new_site_data, strict = FALSE) {
   new_site_meta <- new_site_data[1:31, , drop = FALSE]
   new_site_raw  <- new_site_data[-c(1:31), , drop = FALSE]
 
-#print(new_site_raw) 
+  # NA skeletal values
+  new_site_raw$count <- as.numeric(new_site_raw$count)
+  new_site_raw$count[is.na(new_site_raw$count)] <- 0
+  #MNI
+  MNI <- as.numeric(new_site_meta[18,]$count)
+
+
+  #_indet/_fragments out/in
+  new_site_raw <- resolve_indeterminate(new_site_raw, MNI, indet = FALSE,  indet_method = "up")
+
+  #print(new_site_raw) 
   target_levels <- summarize_bone_sections_zero_na(new_site_raw)
 
-  # NA skeletal values are already set to 0 by validator, but keep this safe:
-  new_site_raw$count[is.na(new_site_raw$count)] <- 0
+
   #print("########################################### tapho-r loader function sum=0 ##############")
   #print(new_site_raw$count)
   #print("########################################### tapho-r loader function sum=0 ##############")
@@ -327,8 +322,8 @@ tapho.load <- function(new_site_data, strict = FALSE) {
   #print("########################################### tapho-r loader function sum=0 ##############")
 
   one_skeleton <- get_bones_dataframe(target_levels)
-#(one_skeleton)
-#  print(recalc_new_site_raw)
+  #(one_skeleton)
+  # print(recalc_new_site_raw)
   data_aligned <- align_counts_to_skeleton(
     one_skeleton$element,
     recalc_new_site_raw$element,

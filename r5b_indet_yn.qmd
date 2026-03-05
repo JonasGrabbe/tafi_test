@@ -1,0 +1,898 @@
+---
+title: "r2b indet marzo"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+# ── Skeleton hierarchy (vertebrae only) ──────────────────────────────────────
+
+skeleton_hierarchy_indet <- list(
+  vertebrae = list(
+    "Level 1" = list(
+      vertebrae = 1
+    ),
+    "Level 2" = list(
+      vertebrae_indet = 24,
+      cervical  = 7,
+      thoracic  = 12,
+      lumbar    = 5
+    ),
+    "Level 3" = list(
+      vertebrae_indet = 24,
+      cervical_indet  = 24,
+      c1_atlas = 1, c2_axis = 1, c3 = 1, c4 = 1, c5 = 1, c6 = 1, c7 = 1,
+      thoracic_indet  = 24,
+      t1  = 1, t2  = 1, t3  = 1, t4  = 1, t5  = 1, t6  = 1,
+      t7  = 1, t8  = 1, t9  = 1, t10 = 1, t11 = 1, t12 = 1,
+      lumbar_indet = 24,
+      l1 = 1, l2 = 1, l3 = 1, l4 = 1, l5 = 1
+    )
+  )
+)
+
+# ── Category mappings ─────────────────────────────────────────────────────────
+
+category_mappings_vertebrae_2_to_1_indet <- list(
+  vertebrae = c("vertebrae_indet", "cervical", "thoracic", "lumbar")
+)
+
+category_mappings_vertebrae_3_to_1_indet <- list(
+  vertebrae = c(
+    "vertebrae_indet",
+    "cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7",
+    "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6",
+    "t7", "t8", "t9", "t10", "t11", "t12",
+    "lumbar_indet", "l1", "l2", "l3", "l4", "l5"
+  )
+)
+
+category_mappings_vertebrae_3_to_2_indet <- list(
+  vertebrae_indet = c("vertebrae_indet"),
+  cervical        = c("cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7"),
+  thoracic        = c("thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6",
+                      "t7", "t8", "t9", "t10", "t11", "t12"),
+  lumbar          = c("lumbar_indet", "l1", "l2", "l3", "l4", "l5")
+)
+
+category_hierarchy_indet <- list(
+  "vertebrae_2_to_1_indet" = category_mappings_vertebrae_2_to_1_indet,
+  "vertebrae_3_to_1_indet" = category_mappings_vertebrae_3_to_1_indet,
+  "vertebrae_3_to_2_indet" = category_mappings_vertebrae_3_to_2_indet
+)
+```
+
+
+```{r}
+# ── Skeleton hierarchy (vertebrae only) ──────────────────────────────────────
+
+skeleton_hierarchy <- list(
+  vertebrae = list(
+    "Level 1" = list(
+      vertebrae = 1
+    ),
+    "Level 2" = list(
+      #vertebrae_indet = 24,
+      cervical  = 7,
+      thoracic  = 12,
+      lumbar    = 5
+    ),
+    "Level 3" = list(
+      #vertebrae_indet = 24,
+      cervical_indet  = 24,
+      c1_atlas = 1, c2_axis = 1, c3 = 1, c4 = 1, c5 = 1, c6 = 1, c7 = 1,
+      #thoracic_indet  = 24,
+      t1  = 1, t2  = 1, t3  = 1, t4  = 1, t5  = 1, t6  = 1,
+      t7  = 1, t8  = 1, t9  = 1, t10 = 1, t11 = 1, t12 = 1,
+      #lumbar_indet = 24,
+      l1 = 1, l2 = 1, l3 = 1, l4 = 1, l5 = 1
+    )
+  )
+)
+
+# ── Category mappings ─────────────────────────────────────────────────────────
+
+category_mappings_vertebrae_2_to_1 <- list(
+  vertebrae = c(
+    #"vertebrae_indet", 
+    "cervical", "thoracic", "lumbar")
+)
+
+# Level 3 -> Level 1
+category_mappings_vertebrae_3_to_1 <- list(
+  vertebrae = c(
+      #"vertebrae_indet", "cervical_indet", 
+      "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6",
+      "c7", 
+      #"thoracic_indet", 
+      "t1", "t2", "t3", "t4", "t5", "t6",
+      "t7", "t8", "t9", "t10", "t11", "t12", 
+      #"lumbar_indet", 
+      "l1","l2", "l3", "l4", "l5"
+    )
+)
+
+# Level 3 -> Level 2
+category_mappings_vertebrae_3_to_2 <- list(
+  #vertebrae_indet = c("vertebrae_indet"),
+  cervical = c(
+    #"cervical_indet", 
+    "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7"),
+  thoracic = c(
+      #"thoracic_indet", 
+      "t1", "t2", "t3", "t4", "t5", "t6", "t7",
+      "t8", "t9", "t10", "t11", "t12"
+    ),
+  lumbar = c(
+    #"lumbar_indet", 
+    "l1", "l2", "l3", "l4", "l5")
+)
+
+category_hierarchy <- list(
+  "vertebrae_2_to_1" = category_mappings_vertebrae_2_to_1,
+  "vertebrae_3_to_1" = category_mappings_vertebrae_3_to_1,
+  "vertebrae_3_to_2" = category_mappings_vertebrae_3_to_2
+)
+
+```
+
+
+```{r}
+ElementsOne <- c(  "vertebrae", "vertebrae_indet", "cervical",
+                    "cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7", "thoracic", "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11", "t12", "lumbar", "lumbar_indet", "l1", "l2", "l3", "l4", "l5")
+Level <- c( #vertebrae 
+1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3,
+  3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3 
+            )
+max_Level  <- c( #vertebrae
+  1, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+  3, 3, 3, 2, 3, 3, 3, 3, 3, 3 
+             )
+Bone_Count <- c(#vertebrae
+  24, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 12, 0, 1, 1, 1, 1,
+  1, 1, 1, 1, 1, 1, 1, 1, 5, 0, 1, 1, 1, 1, 1)
+Skeleton_Section <- c( "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae") 
+
+elements_data_indet <- data.frame(
+  ElementsOne = ElementsOne,
+  Level = Level,
+  max_Level = max_Level,
+  Bone_Count = Bone_Count,
+  Skeleton_Section = Skeleton_Section,
+  stringsAsFactors = FALSE
+)
+
+
+# Ensure types
+elements_data_indet$Level <- as.integer(elements_data_indet$Level)
+elements_data_indet$Bone_Count <- as.integer(elements_data_indet$Bone_Count)
+elements_data_indet$ElementsOne <- as.character(elements_data_indet$ElementsOne)
+elements_data_indet$Skeleton_Section <- as.character(elements_data_indet$Skeleton_Section)
+
+```
+
+
+```{r}
+ElementsOne <- c(  "vertebrae", 
+                    #"vertebrae_indet", 
+                    "cervical",
+                     #"cervical_indet", 
+                     "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7", "thoracic", 
+                     #"thoracic_indet", 
+                     "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11", "t12", "lumbar", 
+                     #"lumbar_indet", 
+                     "l1", "l2", "l3", "l4", "l5")
+Level <- c(  #vertebrae
+  1, 2, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 
+
+            )
+max_Level  <- c( #vertebrae 
+  1, 2, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 
+             )
+Bone_Count <- c(#vertebrae
+  24, 7, 1, 1, 1, 1, 1, 1, 1, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, )
+Skeleton_Section <- c( #"vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae",
+  "vertebrae") 
+
+elements_data <- data.frame(
+  ElementsOne = ElementsOne,
+  Level = Level,
+  max_Level = max_Level,
+  Bone_Count = Bone_Count,
+  Skeleton_Section = Skeleton_Section,
+  stringsAsFactors = FALSE
+)
+
+
+# Ensure types
+elements_data$Level <- as.integer(elements_data$Level)
+elements_data$Bone_Count <- as.integer(elements_data$Bone_Count)
+elements_data$ElementsOne <- as.character(elements_data$ElementsOne)
+elements_data$Skeleton_Section <- as.character(elements_data$Skeleton_Section)
+
+```
+
+
+```{r}
+elements <- c("vertebrae", "vertebrae_indet", 
+                    "cervical", "cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7", 
+                    "thoracic", "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11", "t12", 
+                    "lumbar", "lumbar_indet", "l1", "l2", "l3", "l4", "l5")
+count <- c(0,0,
+0,3,0,1,0,1,0,1,0,
+0,0,0,0,1,0,0,1,0,0,0,0,0,0,
+0,2,0,1,0,0,0)
+
+MNI  <- 1
+part <- c("vertebrae")
+print(length(elements))
+print(length(count))
+```
+
+
+```{r}
+count_out_up <- c(0,
+3,0,1,0,1,0,1,0,
+0,0,0,1,0,0,1,0,0,0,0,0,0,
+2,0,1,0,0,0)
+count_out_dis <- c(0,
+0,1,1,1,1,0,1,1,
+0,0,0,1,0,0,1,0,0,0,0,0,0,
+0,0,1,1,0,1)
+elements_out <- c("vertebrae", "cervical", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7", 
+                    "thoracic",  "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11", "t12", 
+                    "lumbar",  "l1", "l2", "l3", "l4", "l5")
+
+
+```
+
+
+```{r}
+# ── Helper: find which parent a _indet element belongs to ────────────────────
+# Uses category_hierarchy mappings (e.g. "vertebrae_3_to_2") to find parent
+
+
+# ── Helper: find non-indet siblings of a _indet element ─────────────────────
+# ie for thoracic_indet -> t1 ... t12
+
+get_indet_siblings <- function(indet_elem, part, current_level, section_name, MNI) {
+  # Step 1: find parent
+  parent_elem <- get_indet_parent(indet_elem, part, current_level)
+  if (length(parent_elem) == 0) stop("No parent found for: ", indet_elem)
+  
+  # Step 2: get all children of that parent at current level
+  key_down <- paste0(part, "_", current_level, "_to_", current_level - 1)
+  mapping  <- category_hierarchy_indet[[key_down]]
+  
+  # find the entry in mapping whose key is the parent
+  parent_key <- names(mapping)[gsub(" ", ".", names(mapping)) == parent_elem]
+  if (length(parent_key) == 0) stop("Parent not found in mapping: ", parent_elem)
+  
+  children <- gsub(" ", ".", mapping[[parent_key]])
+    if(indet_elem == "lumbar_indet" ){print(children)}
+  # Step 3: drop _indet siblings (only keep real elements)
+  drop_indet_if_possible(children)
+}
+```
+
+```{r}
+# ── Function 1: collapse _indet UP to parent ─────────────────────────────────
+collapse_indet_up <- function(data, part) {
+  data <- add_bone_info_indet(data)
+  
+  indet_rows <- data %>% filter(grepl("_indet$", element), count > 0)
+  if (nrow(indet_rows) == 0) {
+    return(data %>% filter(!grepl("_indet$", element)) %>% select(element, count))
+  }
+  
+  result <- data
+
+  for (i in seq_len(nrow(indet_rows))) {
+    indet_elem    <- indet_rows$element[i]
+    indet_count   <- indet_rows$count[i]
+    current_level <- indet_rows$Level[i]           # ← straight from add_bone_info_indet
+    section       <- indet_rows$Skeleton_Section[i]
+    print(current_level)
+    parent_elem <- get_indet_parent(indet_elem, part, current_level)
+    if (length(parent_elem) == 0) stop("No parent found for: ", indet_elem)
+    
+    result <- result %>%
+      mutate(count = case_when(
+        element == parent_elem ~ count + indet_count,
+        TRUE ~ count
+      ))
+  }
+  
+  result %>%
+    filter(!grepl("_indet$", element)) %>%
+    select(element, count)
+}
+```
+
+```{r}
+# ── Function 2: distribute _indet randomly among siblings ────────────────────
+distribute_indet <- function(data, part, MNI) {
+  data <- add_bone_info_indet(data)
+  
+  indet_rows <- data %>% filter(grepl("_indet$", element), count > 0)
+  if (nrow(indet_rows) == 0) {
+    return(data %>% filter(!grepl("_indet$", element)) %>% select(element, count))
+  }
+  
+  result <- data
+  
+  for (i in seq_len(nrow(indet_rows))) {
+    indet_elem    <- indet_rows$element[i]
+    indet_count   <- indet_rows$count[i]
+    current_level <- indet_rows$Level[i]           # ← straight from add_bone_info_indet
+    section       <- indet_rows$Skeleton_Section[i]
+    
+    siblings <- get_indet_siblings(indet_elem, part, current_level, section, MNI)
+    
+    level_label  <- paste0("Level ", current_level)
+    level_maxima <- skeleton_hierarchy_indet[[section]][[level_label]]
+    
+    existing_counts <- purrr::map_int(siblings, \(ch) {
+      val <- result %>% filter(element == ch) %>% pull(count)
+      if (length(val) == 0) 0L else as.integer(val)
+    })
+    
+    max_counts <- purrr::map_int(siblings, \(ch) {
+      base <- level_maxima[[ch]]
+      if (is.null(base)) 0L else as.integer(base * MNI)
+    })
+    
+    final_counts <- distribute_surplus(existing_counts, max_counts, indet_count)
+    
+    for (j in seq_along(siblings)) {
+      sib <- siblings[j]
+      result <- result %>%
+        mutate(count = if_else(element == sib, as.integer(final_counts[j]), count))
+    }
+  }
+  
+  result %>%
+    filter(!grepl("_indet$", element)) %>%
+    select(element, count)
+}
+```
+
+The flow is now:
+```
+data_in
+  └─► add_bone_info_indet()   # enriches with Level + Skeleton_Section
+        └─► collapse_indet_up()   OR   distribute_indet()
+              └─► get_indet_parent() / get_indet_siblings()  # use Level directly
+                    └─► drop _indet rows, return clean tibble
+```
+
+
+```{r}
+data_in <- tibble(
+  element = c("vertebrae", "vertebrae_indet", 
+                  "cervical", "cervical_indet", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7", 
+                  "thoracic", "thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11", "t12", 
+                  "lumbar", "lumbar_indet", "l1", "l2", "l3", "l4", "l5"),
+  count = c(0, 1,
+            1, 3, 0, 1, 0, 1, 0, 1, 0,
+            1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0,
+            1, 3, 0, 1, 0, 0, 0)
+)
+
+# Option 1: collapse _indet UP to parent
+result_up  <- collapse_indet_up(data_in, part = part)
+print(result_up, n=32)
+# Option 2: distribute _indet among siblings
+result_dis <- distribute_indet(data_in, part = part, MNI = 1)
+print(result_dis, n=32)
+```
+
+
+```{r}
+# ── Add bone info from elements_data_indet ───────────────────────────────────
+add_bone_info_indet <- function(data) {
+  data %>%
+    left_join(
+      elements_data_indet %>% select(ElementsOne, Level, Skeleton_Section),
+      by = c("element" = "ElementsOne")   # adjust "element" to your col name if different
+    ) %>%
+    mutate(Level = as.integer(Level))
+}
+```
+
+
+```{r}
+print(add_bone_info_indet(data_in), n=32)
+
+```
+
+
+```{r}
+get_indet_parent <- function(indet_elem, part, current_level) {
+  key <- paste0(part, "_", current_level, "_to_", current_level - 1,"_indet")
+  #print(key)
+  if (!key %in% names(category_hierarchy_indet)) stop("Missing mapping: ", key)
+  
+  element_map <- stack(category_hierarchy_indet[[key]]) %>%
+    setNames(c("child", "parent")) %>%
+    mutate(across(everything(), \(x) gsub(" ", ".", x)))
+  #print(element_map)
+  element_map %>% filter(child == indet_elem) %>% pull(parent)
+}
+
+get_indet_parent("cervical_indet", part, 3)
+```
+
+## rib fragments
+
+
+```{r}
+# ── Skeleton hierarchy (vertebrae only) ──────────────────────────────────────
+
+skeleton_hierarchy_indet <- list(
+thorax = list(
+    "Level 1" = list(
+      thorax = 25
+    ),
+
+    "Level 2" = list(
+      thorax_indet = 25,
+      sternum = 1,
+      ribs = 24
+    ),
+
+    "Level 3" = list(
+      # carried down (min=2 max=4)
+      thorax_indet = 25,
+      sternum = 1,
+
+      rib_indet     = 24,
+      rib_fragments = 72,
+      
+
+      ribs_right = 12,
+      ribs_left = 12,
+
+      rib_1  = 2,
+      rib_2  = 2,
+      rib_3  = 2,
+      rib_4  = 2,
+      rib_5  = 2,
+      rib_6  = 2,
+      rib_7  = 2,
+      rib_8 = 2,
+      rib_9  = 2,
+      rib_10 = 2,
+      rib_11 = 2,
+      rib_12 = 2
+    ),
+
+    "Level 4" = list(
+      # carried down (min=2 max=4)
+      thorax_indet = 25,
+      sternum = 1,
+
+      # carried down (min=3 max=4)
+      rib_indet     = 24,
+      rib_fragments = 72,
+      
+      ribs_right = 12,
+      ribs_left = 12,
+
+      #rib_1_indet  = 0, 
+      rib_1_right  = 1,
+      rib_1_left   = 1,
+      
+      #rib_2_indet = 0,
+      rib_2_right  = 1,
+      rib_2_left   = 1,
+
+      #rib_3_indet = 0,
+      rib_3_right  = 1,
+      rib_3_left   = 1,
+
+      #rib_4_indet = 0,
+      rib_4_right  = 1,
+      rib_4_left   = 1,
+
+      #rib_5_indet = 0,
+      rib_5_right  = 1,
+      rib_5_left   = 1,
+
+      #rib_6_indet = 0,
+      rib_6_right  = 1,
+      rib_6_left   = 1,
+
+      #rib_7_indet = 0,
+      rib_7_right  = 1,
+      rib_7_left   = 1,
+
+      #rib_8_indet = 0,
+      rib_8_right  = 1,
+      rib_8_left   = 1,
+
+      #rib_9_indet = 0,
+      rib_9_right  = 1,
+      rib_9_left   = 1,
+
+      #rib_10_indet = 0,
+      rib_10_right = 1,
+      rib_10_left  = 1,
+
+      #rib_11_indet = 0,
+      rib_11_right = 1,
+      rib_11_left  = 1,
+
+      #rib_12_indet = 0,
+      rib_12_right = 1,
+      rib_12_left  = 1
+    )
+  )
+)
+```
+
+
+```{r}
+# ── Category mappings ─────────────────────────────────────────────────────────
+
+#### THORAX
+
+# Level 2 -> Level 1
+category_mappings_thorax_2_to_1_indet <- list(
+  thorax = c("thorax_indet", "sternum", "ribs" )
+)
+
+# Level 3 -> Level 1
+category_mappings_thorax_3_to_1_indet <- list(
+  thorax = c( "thorax_indet", "sternum", "rib_indet", "rib_fragments", "ribs_right", "ribs_left",  
+  "rib_1",  "rib_2", "rib_3", "rib_4", "rib_5",  "rib_6", "rib_7",  
+  "rib_8", "rib_9", "rib_10", "rib_11", "rib_12"
+)
+)
+
+# Level 4 -> Level 1
+category_mappings_thorax_4_to_1_indet <- list(
+  thorax = c(
+    "thorax_indet", "sternum", "rib_indet", "rib_fragments", "ribs_right", "ribs_left", 
+     "rib_1_right", "rib_1_left",
+     "rib_2_right", "rib_2_left",  "rib_3_right", "rib_3_left", "rib_4_right",
+     "rib_4_left",  "rib_5_right", "rib_5_left",  
+     "rib_6_right", "rib_6_left", 
+     "rib_7_right", "rib_7_left", "rib_8_right", "rib_8_left",  "rib_9_right", "rib_9_left",
+     "rib_10_right", "rib_10_left",  "rib_11_right", "rib_11_left", "rib_12_right", "rib_12_left"
+  )
+)
+
+# Level 3 -> Level 2
+category_mappings_thorax_3_to_2_indet <- list(
+  thorax_indet = c("thorax_indet"),
+  sternum = c("sternum"),
+  ribs = c("rib_indet", "rib_fragments", "ribs_right", "ribs_left",  
+  "rib_1",  "rib_2", "rib_3", "rib_4", "rib_5",  "rib_6", "rib_7",  
+  "rib_8", "rib_9", "rib_10", "rib_11", "rib_12")
+)
+
+# Level 4 -> Level 2
+category_mappings_thorax_4_to_2_indet <- list(
+  thorax_indet = c("thorax_indet"),
+  sternum = c("sternum"),
+  ribs = c(
+      "rib_indet", "rib_fragments", 
+    "ribs_right", "ribs_left", 
+     "rib_1_right", "rib_1_left",
+     "rib_2_right", "rib_2_left",  "rib_3_right", "rib_3_left", "rib_4_right",
+     "rib_4_left",  "rib_5_right", "rib_5_left",  
+     "rib_6_right", "rib_6_left", 
+     "rib_7_right", "rib_7_left", "rib_8_right", "rib_8_left",  "rib_9_right", "rib_9_left",
+     "rib_10_right", "rib_10_left",  "rib_11_right", "rib_11_left", "rib_12_right", "rib_12_left"
+    )
+)
+
+# Level 4 -> Level 3
+category_mappings_thorax_4_to_3_indet <- list(
+  thorax_indet = c("thorax_indet"),
+  sternum = c("sternum"),
+  rib_indet = c("rib_indet"),
+  rib_fragments = c("rib_fragments"),
+  ribs_right = c("ribs_right"),
+  ribs_left = c( "ribs_left" ),
+  rib_1 = c("rib_1_right", "rib_1_left"),
+  rib_2 = c("rib_2_right", "rib_2_left"),
+  rib_3 = c("rib_3_right", "rib_3_left"),
+  rib_4 = c("rib_4_right", "rib_4_left"),
+  rib_5 = c("rib_5_right", "rib_5_left"),
+  rib_6 = c("rib_6_right", "rib_6_left"),
+  rib_7 = c("rib_7_right", "rib_7_left"),
+  rib_8 = c("rib_8_right", "rib_8_left"),
+  rib_9 = c("rib_9_right", "rib_9_left"),
+  rib_10 = c("rib_10_right", "rib_10_left"),
+  rib_11 = c("rib_11_right", "rib_11_left"),
+  rib_12 = c("rib_12_right", "rib_12_left")  
+)
+```
+
+
+```{r}
+category_hierarchy_indet <- list(
+    "thorax_4_to_3_indet" = category_mappings_thorax_4_to_3_indet,
+    "thorax_4_to_2_indet" = category_mappings_thorax_4_to_2_indet,
+    "thorax_4_to_1_indet" = category_mappings_thorax_4_to_1_indet,
+    "thorax_3_to_2_indet" = category_mappings_thorax_3_to_2_indet,
+    "thorax_3_to_1_indet" = category_mappings_thorax_3_to_1_indet,
+    "thorax_2_to_1_indet" = category_mappings_thorax_2_to_1_indet
+)
+```
+
+```{r}
+ElementsOne <- c("thorax", 
+  "thorax_indet", 
+  "sternum", 
+  "ribs", "rib_indet", "rib_fragments", "ribs_right", "ribs_left",
+  "rib_1", "rib_1_right", "rib_1_left", "rib_2", "rib_2_right", "rib_2_left", "rib_3", "rib_3_right",
+  "rib_3_left", "rib_4", "rib_4_right", "rib_4_left", "rib_5", "rib_5_right", "rib_5_left", "rib_6",
+  "rib_6_right", "rib_6_left", "rib_7", "rib_7_right", "rib_7_left", "rib_8", "rib_8_right", "rib_8_left",
+  "rib_9", "rib_9_right", "rib_9_left", "rib_10", "rib_10_right", "rib_10_left", "rib_11",
+  "rib_11_right", "rib_11_left", "rib_12", "rib_12_right", "rib_12_left")
+Level <- c(   #thorax
+  1, 2, 2, 2, 3, 3, 3, 3, 
+  3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 
+  3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4
+            )
+max_Level  <- c(   #thorax
+  1, 4, 4, 2, 4, 4, 4, 4, 
+  3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 
+  3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4, 3, 4, 4 
+             )
+Bone_Count <- c(  #thorax
+  25, 25, 1, 24, 72, 24, 12, 12, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 
+  2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1)
+
+Skeleton_Section <- c(   "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", 
+  "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax",
+  "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax",
+  "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax",
+  "thorax") 
+
+elements_data_indet <- data.frame(
+  ElementsOne = ElementsOne,
+  Level = Level,
+  max_Level = max_Level,
+  Bone_Count = Bone_Count,
+  Skeleton_Section = Skeleton_Section,
+  stringsAsFactors = FALSE
+)
+
+
+# Ensure types
+elements_data_indet$Level <- as.integer(elements_data_indet$Level)
+elements_data_indet$Bone_Count <- as.integer(elements_data_indet$Bone_Count)
+elements_data_indet$ElementsOne <- as.character(elements_data_indet$ElementsOne)
+elements_data_indet$Skeleton_Section <- as.character(elements_data_indet$Skeleton_Section)
+
+
+```
+
+```{r}
+# ── Helper: convert rib_fragments count to estimated whole bones ─────────────
+convert_fragments <- function(count, fragments_per_bone = 3) {
+  as.integer(floor(count / fragments_per_bone))
+}
+
+# ── Function 1: collapse rib_fragments UP to parent ──────────────────────────
+collapse_fragments_up <- function(data, part, fragments_per_bone = 3) {
+  data <- add_bone_info_indet(data)
+ 
+  frag_rows <- data %>% filter(element == "rib_fragments", count > 0)
+  if (nrow(frag_rows) == 0) {
+    return(data %>% filter(element != "rib_fragments") %>% select(element, count))
+  }
+  
+  result <- data
+  print("frag_rows: ")
+   print(frag_rows)
+  for (i in seq_len(nrow(frag_rows))) {
+    frag_count    <- frag_rows$count[i]
+    current_level <- frag_rows$Level[i]
+    section       <- frag_rows$Skeleton_Section[i]
+    
+    # Convert fragments → estimated whole bones
+    whole_count <- convert_fragments(frag_count, fragments_per_bone)
+        print("whole_count: ")
+    print(whole_count)
+    # Find parent (same logic as _indet: use category_hierarchy mapping)
+    parent_elem <- get_indet_parent("rib_fragments", part, current_level)
+        print("parent_elem : ")
+    print(parent_elem )
+    if (length(parent_elem) == 0) stop("No parent found for rib_fragments")
+    
+    result <- result %>%
+      mutate(count = case_when(
+        element == parent_elem ~ count + whole_count,
+        TRUE ~ count
+      ))
+  }
+  
+  result %>%
+    filter(element != "rib_fragments") %>%
+    select(element, count)
+}
+```
+
+```{r}
+# ── Function 2: distribute rib_fragments randomly among siblings ──────────────
+distribute_fragments <- function(data, part, MNI, fragments_per_bone = 3) {
+  data <- add_bone_info_indet(data)
+  
+  frag_rows <- data %>% filter(element == "rib_fragments", count > 0)
+  if (nrow(frag_rows) == 0) {
+    return(data %>% filter(element != "rib_fragments") %>% select(element, count))
+  }
+  
+  result <- data
+  
+  for (i in seq_len(nrow(frag_rows))) {
+    frag_count    <- frag_rows$count[i]
+    current_level <- frag_rows$Level[i]
+    section       <- frag_rows$Skeleton_Section[i]
+    
+    # Convert fragments → estimated whole bones
+    whole_count <- convert_fragments(frag_count, fragments_per_bone)
+    print("whole_count: ")
+    print(whole_count)
+    # Get siblings (excludes rib_fragments itself via drop_indet_if_possible equivalent)
+    siblings <- get_indet_siblings("rib_fragments", part, current_level, section, MNI)
+    print("siblings: ")
+    print(siblings)
+    level_label  <- paste0("Level ", current_level)
+    level_maxima <- skeleton_hierarchy_indet[[section]][[level_label]]
+    
+    existing_counts <- purrr::map_int(siblings, \(ch) {
+      val <- result %>% filter(element == ch) %>% pull(count)
+      if (length(val) == 0) 0L else as.integer(val)
+    })
+    
+    max_counts <- purrr::map_int(siblings, \(ch) {
+      base <- level_maxima[[ch]]
+      if (is.null(base)) 0L else as.integer(base * MNI)
+    })
+    
+    final_counts <- distribute_surplus(existing_counts, max_counts, whole_count)
+    
+    for (j in seq_along(siblings)) {
+      sib <- siblings[j]
+      result <- result %>%
+        mutate(count = if_else(element == sib, as.integer(final_counts[j]), count))
+    }
+  }
+  
+  result %>%
+    filter(element != "rib_fragments") %>%
+    select(element, count)
+}
+```
+
+```{r}
+# ── Extended sibling helper that also excludes specific element names ─────────
+get_siblings_excluding <- function(elem, part, current_level, section_name, MNI, 
+                                   exclude = NULL) {
+  parent_elem <- get_indet_parent(elem, part, current_level)
+  if (length(parent_elem) == 0) stop("No parent found for: ", elem)
+  
+  key_down <- paste0(part, "_", current_level, "_to_", current_level - 1,"_indet")
+  mapping  <- category_hierarchy_indet[[key_down]]
+  
+  parent_key <- names(mapping)[gsub(" ", ".", names(mapping)) == parent_elem]
+  children   <- gsub(" ", ".", mapping[[parent_key]])
+  
+  # Drop _indet AND any explicitly excluded elements (eg rib_fragments itself)
+  children <- drop_indet_if_possible(children)
+  children <- children[!children %in% c(elem, exclude)]
+  children
+}
+```
+
+
+```{r}
+siblings <- get_siblings_excluding("rib_fragments", "thorax", 3, "thorax", MNI)
+siblings
+```
+
+
+```{r}
+data_rib <- tibble(
+  element = c("thorax", 
+  "thorax_indet", 
+  "sternum", 
+  "ribs", "rib_indet", "rib_fragments", "ribs_right", "ribs_left",
+  "rib_1", "rib_1_right", "rib_1_left", "rib_2", "rib_2_right", "rib_2_left", "rib_3", "rib_3_right",
+  "rib_3_left", "rib_4", "rib_4_right", "rib_4_left", "rib_5", "rib_5_right", "rib_5_left", "rib_6",
+  "rib_6_right", "rib_6_left", "rib_7", "rib_7_right", "rib_7_left", "rib_8", "rib_8_right", "rib_8_left",
+  "rib_9", "rib_9_right", "rib_9_left", "rib_10", "rib_10_right", "rib_10_left", "rib_11",
+  "rib_11_right", "rib_11_left", "rib_12", "rib_12_right", "rib_12_left"),
+  count = c(  0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0,  0, 0, 0, 0,
+  0, 1,  0, 0, 0, 0,  0, 0, 0, 0,  0, 0, 0, 0,  0, 0, 0, 0, 0, 1, 1)
+)
+data_rib
+```
+
+
+```{r}
+
+# Option 1: collapse _indet UP to parent
+result_up  <- collapse_fragments_up(data_rib, part = "thorax")
+print(result_up, n=43)
+# Option 2: distribute _indet among siblings
+result_dis <- distribute_fragments(data_rib, part = "thorax", MNI = 1)
+print(result_dis, n=32)
+```
+
+
+```{r}
+data_rib %>% filter(element == "rib_fragments", count > 0)
+```
+
+## resolve_indeterminate
+
+```{r}
+data_path <- "hspa-test.xlsx"
+data  <- readxl::read_excel(data_path)
+data[,1:2]
+```
+
+
+```{r}
+
+new_site_data <- data[, 1:2]
+new_site_meta <- new_site_data[1:31, , drop = FALSE]
+new_site_raw  <- new_site_data[-c(1:31), , drop = FALSE]
+new_site_meta[18,]
+#df <- data.frame(element = ElementsOne, count =  )
+
+```
+
+
+```{r}
+source("indet.R")
+source("tapho_loader_new.R")
+new_site_raw$count[is.na(new_site_raw$count)] <- 0
+print(resolve_indeterminate(new_site_raw, MNI, indet = FALSE,  indet_method = "delet"), n= 500)
+```
+
+
+```{r}
+df = data.frame(element , count )
+length(ElementsOne,new_site_meta[18,], indet = FALSE, indet_method = "up")
+```
+```{r}
+colnames(new_site_raw) <- c("element", "count")
+new_site_raw
+```
+
+```{r}
+MNI <- as.numeric(new_site_meta[18,]$'Amud I')
+
+```
+
+```{r}
+
+ new_site_raw %>%
+    filter(
+      !grepl("_indet$",     element),
+      !grepl("_fragments$", element)
+    )
+```

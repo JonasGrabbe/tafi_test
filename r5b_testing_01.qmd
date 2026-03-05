@@ -1,0 +1,66 @@
+---
+title: "r2b indet marzo"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+
+```{r}
+data_path <- "hspa-test.xlsx"
+data  <- readxl::read_excel(data_path)
+data[,1:2]
+```
+
+
+```{r}
+new_site_data <- data[, 1:2]
+new_site_meta <- new_site_data[1:31, , drop = FALSE]
+new_site_raw  <- new_site_data[-c(1:31), , drop = FALSE]
+new_site_meta[18,]
+#df <- data.frame(element = ElementsOne, count =  )
+
+```
+
+
+```{r}
+source("indet.R")
+source("tapho_loader_new.R")
+
+print(resolve_indeterminate(new_site_raw, MNI, indet = FALSE,  indet_method = "delet"), n= 500)
+
+```
+
+
+```{r}
+df = data.frame(element , count )
+length(ElementsOne, new_site_meta[18,], indet = FALSE, indet_method = "up")
+```
+
+```{r}
+colnames(new_site_raw) <- c("element", "count")
+new_site_raw$count <- as.numeric(new_site_raw$count)  # converts "NaN", "1", "2" etc; non-numeric → NA
+new_site_raw$count[is.na(new_site_raw$count)] <- 0
+print(new_site_raw, n=500)
+```
+
+```{r}
+MNI <- as.numeric(new_site_meta[18,]$'Amud I')
+MNI
+```
+
+```{r}
+
+ new_site_raw %>%
+    filter(
+      !grepl("_indet$",     element),
+      !grepl("_fragments$", element)
+    )
