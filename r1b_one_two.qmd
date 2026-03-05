@@ -190,7 +190,7 @@ source("meta_new_indet.R")
 source("tapho_loader_new.R")
 excel_path <- "hspa-test.xlsx"
 tapho_db <- read_excel_sheets(excel_path)
-tapho_db 
+tapho_db  
 ```
 
 ```{r}
@@ -205,6 +205,7 @@ source("tapho_loader_new.R")
 source("recalMNE_new.R")
 source("collapse_down_step.R")
 ```
+
 
 ```{r}
 tb <- sumby_site(tapho_db)
@@ -228,6 +229,7 @@ print(recal_tb$count)
 print(recal_tb$bone.level)
 ```
 
+
 ```{r}
 my_level_vec <- c(1, 1, 1, 3, 1, 3, 3, 3, 2, 2, 4)
  tb %>%
@@ -236,6 +238,7 @@ my_level_vec <- c(1, 1, 1, 3, 1, 3, 3, 3, 2, 2, 4)
     tgt <- my_level_vec[seq_along(bl_vec)]
     all(is.na(bl_vec) | (bl_vec >= tgt))
   }))
+
 ```
 
 ```{r}

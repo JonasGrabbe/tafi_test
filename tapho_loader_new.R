@@ -145,7 +145,7 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
      # print("MNI : ")
      # print(str(MNI))
      # print(MNI)
-  #print("#######################################################################")
+     # print("#######################################################################")
       if (is.null(base)) 0L else as.integer(base * MNI)
     })
 
@@ -158,7 +158,7 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
 
     surplus      <- max(0L, parent_count) # no double - sum(existing_counts))
     final_counts <- distribute_surplus(existing_counts, max_counts, surplus)
-    if (part == "pelvic") {}
+    #if (part == "pelvic") {}
 
     tibble(std_element = real_children, count = final_counts)
   })
@@ -306,7 +306,7 @@ tapho.load <- function(new_site_data, strict = FALSE) {
   #print("########################################### tapho-r loader function sum=0 ##############")
 
   #mni <- new_site_data[18,2]
-  mni <- suppressWarnings(as.numeric(new_site_data$count[18]))
+  #mni <- suppressWarnings(as.numeric(new_site_data$count[18]))
 
   recalc_new_site_raw <- recal_mne_six(
     as.numeric(new_site_raw$count),
@@ -314,7 +314,7 @@ tapho.load <- function(new_site_data, strict = FALSE) {
     skeleton_hierarchy,
     new_site_raw$element,
     sections_order,
-    mni
+    MNI
   )
 
   #print("########################################### tapho-r loader function sum=0 ##############")
