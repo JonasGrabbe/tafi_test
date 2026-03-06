@@ -38,12 +38,12 @@ skeleton_hierarchy_indet <- list(
     )
   )
 )
-
+category_mappings = list(
 # ── Category mappings ─────────────────────────────────────────────────────────
 
 category_mappings_vertebrae_2_to_1_indet <- list(
   vertebrae = c("vertebrae_indet", "cervical", "thoracic", "lumbar")
-)
+),
 
 category_mappings_vertebrae_3_to_1_indet <- list(
   vertebrae = c(
@@ -53,7 +53,7 @@ category_mappings_vertebrae_3_to_1_indet <- list(
     "t7", "t8", "t9", "t10", "t11", "t12",
     "lumbar_indet", "l1", "l2", "l3", "l4", "l5"
   )
-)
+),
 
 category_mappings_vertebrae_3_to_2_indet <- list(
   vertebrae_indet = c("vertebrae_indet"),
@@ -61,7 +61,7 @@ category_mappings_vertebrae_3_to_2_indet <- list(
   thoracic        = c("thoracic_indet", "t1", "t2", "t3", "t4", "t5", "t6",
                       "t7", "t8", "t9", "t10", "t11", "t12"),
   lumbar          = c("lumbar_indet", "l1", "l2", "l3", "l4", "l5")
-)
+))
 
 category_hierarchy_indet <- list(
   "vertebrae_2_to_1_indet" = category_mappings_vertebrae_2_to_1_indet,
@@ -99,12 +99,12 @@ skeleton_hierarchy <- list(
 )
 
 # ── Category mappings ─────────────────────────────────────────────────────────
-
+category_mappings = list(
 category_mappings_vertebrae_2_to_1 <- list(
   vertebrae = c(
     #"vertebrae_indet", 
     "cervical", "thoracic", "lumbar")
-)
+),
 
 # Level 3 -> Level 1
 category_mappings_vertebrae_3_to_1 <- list(
@@ -118,7 +118,7 @@ category_mappings_vertebrae_3_to_1 <- list(
       #"lumbar_indet", 
       "l1","l2", "l3", "l4", "l5"
     )
-)
+),
 
 # Level 3 -> Level 2
 category_mappings_vertebrae_3_to_2 <- list(
@@ -134,7 +134,7 @@ category_mappings_vertebrae_3_to_2 <- list(
   lumbar = c(
     #"lumbar_indet", 
     "l1", "l2", "l3", "l4", "l5")
-)
+))
 
 category_hierarchy <- list(
   "vertebrae_2_to_1" = category_mappings_vertebrae_2_to_1,
@@ -257,8 +257,7 @@ count_out_dis <- c(0,
 elements_out <- c("vertebrae", "cervical", "c1_atlas", "c2_axis", "c3", "c4", "c5", "c6", "c7", 
                     "thoracic",  "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11", "t12", 
                     "lumbar",  "l1", "l2", "l3", "l4", "l5")
-
-
+                    
 ```
 
 

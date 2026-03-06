@@ -472,3 +472,212 @@ sumby_feature <- function(data, group_by_col, filters = NULL) {
   
   return(sumby_data)
 }
+
+
+
+select_and_group_by <- function(data, 
+                                group_by = NULL, 
+                                select = NULL, 
+                                level = NULL, 
+                                sum = TRUE, 
+                                indet = TRUE) {
+  
+  # ── Step 1: Apply filters (select) if provided ──────────────────────────────
+  if (!is.null(select)) {
+    for (col in names(select)) {
+      col_sym <- rlang::sym(col)
+      vals    <- select[[col]]
+      data    <- data %>% dplyr::filter(!!col_sym %in% vals)
+    }
+    
+    if (nrow(data) == 0) {
+      warning("No rows remain after filtering. Check your select values.")
+      return(tibble::tibble())
+    }
+  }
+  
+  # ── Step 2: Group and summarise ─────────────────────────────────────────────
+  if (!sum) {
+    # No summarisation requested — return filtered data as-is
+    return(data)
+  }
+  
+  if (is.null(group_by)) {
+    # Default: group by site_id
+    db <- sumby_site(data)
+    
+  } else if (length(group_by) == 1) {
+    # Single grouping variable
+    db <- sumby_feature(data, group_by_col = group_by)
+    
+  } else {
+    # Multiple grouping variables: create a composite key, group, then drop it
+    composite_col <- paste(group_by, collapse = "__x__")
+    
+    data <- data %>%
+      dplyr::mutate(
+        !!composite_col := paste(!!!rlang::syms(group_by), sep = " | ")
+      )
+    
+    db <- sumby_feature(data, group_by_col = composite_col)
+    
+    # Split composite key back into individual columns
+    db <- db %>%
+      tidyr::separate(
+        col  = !!composite_col,
+        into = group_by,
+        sep  = " \\| ",
+        extra = "merge",
+        fill  = "right"
+      )
+  }
+  
+  return(db)
+}
+
+
+select_and_group_by <- function(data,
+  group_by = NULL,
+  select   = NULL,
+  method = c("min", "filter", "direct"), 
+  level    = NULL, 
+  unique_level= TRUE) {
+
+# ── Step 1: Filter rows (select) ────────────────────────────────────────────
+# Only `select` → filter, no aggregation
+# Both NULL     → data passes through unchanged
+if (!is.null(select)) {
+for (col in names(select)) {
+col_sym <- rlang::sym(col)
+vals    <- select[[col]]
+data    <- data %>% dplyr::filter(!!col_sym %in% vals)
+}
+if (nrow(data) == 0) {
+warning("No rows remain after filtering. Check your select values.")
+return(tibble::tibble())
+}
+}
+
+# ── Step 2: Group and summarise ─────────────────────────────────────────────
+# NULL group_by → return filtered (or unchanged) data as-is
+if (is.null(group_by)) {
+
+  if (unique_level) {
+    return (recal_mne_selected_data(data, method = method, target_level = level))}
+  else{
+return(data)}
+}
+
+# Single or multiple group_by columns → create composite key if needed
+if (length(group_by) > 1) {
+composite_col <- paste(group_by, collapse = "__x__")
+data <- data %>%
+dplyr::mutate(
+!!composite_col := paste(!!!rlang::syms(group_by), sep = " | ")
+)
+group_col <- composite_col
+} else {
+group_col <- group_by
+}
+
+group_sym <- rlang::sym(group_col)
+
+# ── Step 3: Recalculate MNE within each group ───────────────────────────────
+
+# if unique_level = TRUE get method level
+  
+# level and indet are passed down to recal_mne_selected_data()
+if (unique_level) {
+  # Apply recal_mne_selected_data to the whole dataset at once
+  recalc_data <- recal_mne_selected_data(data, method = method, target_level = level)
+  
+} else {
+
+    recalc_data <- data %>%
+      dplyr::group_by(!!group_sym) %>%
+      dplyr::group_modify(~ recal_mne_selected_data(.x, method = method, target_level = level)) %>%
+      dplyr::ungroup()
+  
+}
+
+# ── Step 4: Summarise ───────────────────────────────────────────────────────
+sumby_data <- recalc_data %>%
+dplyr::mutate(obs_temp = paste(ind_name, individual_id, observation, sep = " ")) %>%
+dplyr::group_by(!!group_sym) %>%
+dplyr::summarise(
+
+ind_name          = paste(ind_name, collapse = " "),
+site_id           = if (n_distinct(site_id) == 1) first(site_id)
+else paste(unique(site_id), collapse = ", "),
+individual_id     = paste(individual_id, collapse = " "),
+site_name         = if (n_distinct(site_name) == 1) first(site_name)
+else paste(unique(site_name), collapse = ", "),
+layer_name        = if (n_distinct(layer_name) == 1) first(layer_name)
+else paste(unique(layer_name), collapse = ", "),
+count_type        = TRUE,
+geological_period = if (n_distinct(geological_period) == 1) first(geological_period)
+else paste(unique(geological_period), collapse = ", "),
+cultural_period   = if (n_distinct(cultural_period) == 1) first(cultural_period)
+else paste(unique(cultural_period), collapse = ", "),
+culture_period_2  = first(culture_period_2),
+start_date_cal_bp = first(start_date_cal_bp),
+end_date_cal_bp   = first(end_date_cal_bp),
+mis_stage         = if (n_distinct(mis_stage) == 1) first(mis_stage)
+else paste(unique(mis_stage), collapse = ", "),
+karstic_system    = first(karstic_system),
+karstic_system_2  = first(karstic_system_2),
+open_air_site     = first(open_air_site),
+open_air_site_2   = first(open_air_site_2),
+region            = if (n_distinct(region) == 1) first(region)
+else paste(unique(region), collapse = ", "),
+country           = if (n_distinct(country) == 1) first(country)
+else paste(unique(country), collapse = ", "),
+mni               = sum(mni, na.rm = TRUE),
+
+age_category = dplyr::case_when(
+n_distinct(age_category) == 1 ~ first(age_category),
+"Indet" %in% age_category     ~ "Indet",
+TRUE                          ~ "Mixed"
+),
+
+n_infant   = sum(n_infant,   na.rm = TRUE),
+n_juvenil  = sum(n_juvenil,  na.rm = TRUE),
+n_subadult = sum(n_subadult, na.rm = TRUE),
+n_adult    = sum(n_adult,    na.rm = TRUE),
+
+gender = dplyr::case_when(
+n_distinct(gender) == 1 ~ first(gender),
+"Indet" %in% gender     ~ "Indet",
+TRUE                    ~ "Mixed"
+),
+
+taphonomic_context   = first(taphonomic_context),
+funerary_context     = first(funerary_context),
+discovery_context    = first(discovery_context),
+degree_of_excavation = first(degree_of_excavation),
+hominin_species      = if (n_distinct(hominin_species) == 1) first(hominin_species)
+else paste(unique(hominin_species), collapse = ", "),
+observation          = paste(obs_temp, collapse = "; "),
+reference            = first(reference),
+sum_count            = sum(Reduce("+", count), na.rm = TRUE) ,
+bone.level           = list(first(bone.level)),
+element              = list(first(element)),
+count                = list(Reduce("+", count)),
+
+.groups = "drop"
+)
+
+# ── Step 5: Restore multiple group_by columns from composite key ─────────────
+if (length(group_by) > 1) {
+sumby_data <- sumby_data %>%
+tidyr::separate(
+col   = !!composite_col,
+into  = group_by,
+sep   = " \\| ",
+extra = "merge",
+fill  = "right"
+)
+}
+
+return(sumby_data)
+}

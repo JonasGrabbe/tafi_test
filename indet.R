@@ -1,5 +1,3 @@
-source("meta_new_indet.R")
-
 
 add_bone_info_indet <- function(data) {
   data %>%

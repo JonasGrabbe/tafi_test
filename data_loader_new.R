@@ -1,8 +1,3 @@
-source("meta_new_indet.R", echo = TRUE)
-library(dplyr)
-
-elements_data = elements_data
-
 library(dplyr)
 library(tidyr)
 library(stringr)
@@ -38,7 +33,7 @@ add_bone_info <- function(input_df, reference_df = elements_data) {
   # Step 6: Ensure consistent column order
   result_df <- result_df %>%
     select(element, count, max_Level, Skeleton_Section)
-  
+ 
   return(result_df)
 }
 

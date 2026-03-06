@@ -755,14 +755,14 @@ elements_data$Bone_Count <- as.integer(elements_data$Bone_Count)
 elements_data$ElementsOne <- as.character(elements_data$ElementsOne)
 elements_data$Skeleton_Section <- as.character(elements_data$Skeleton_Section)
 
-
+category_mappings = list(
 
 #### VERTEBRAE
 
 # Level 2 -> Level 1
 category_mappings_vertebrae_2_to_1 <- list(
   vertebrae = c("vertebrae_indet", "cervical", "thoracic", "lumbar")
-)
+),
 
 # Level 3 -> Level 1
 category_mappings_vertebrae_3_to_1 <- list(
@@ -772,7 +772,7 @@ category_mappings_vertebrae_3_to_1 <- list(
       "t7", "t8", "t9", "t10", "t11", "t12", "lumbar_indet", "l1",
       "l2", "l3", "l4", "l5"
     )
-)
+),
 category_mappings = list(
 # Level 3 -> Level 2
 category_mappings_vertebrae_3_to_2 <- list(
@@ -783,7 +783,7 @@ category_mappings_vertebrae_3_to_2 <- list(
       "t8", "t9", "t10", "t11", "t12"
     ),
   lumbar = c("lumbar_indet", "l1", "l2", "l3", "l4", "l5")
-))
+)))
 category_hierarchy <- list(
     #Vertebrae 3  3 3
     "vertebrae_2_to_1" = category_mappings_vertebrae_2_to_1,

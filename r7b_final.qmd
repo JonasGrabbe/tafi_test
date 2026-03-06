@@ -1,0 +1,58 @@
+---
+title: "r7b final marzo"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("tapho_loader_new.R")
+excel_path <- "hspa-test.xlsx"
+tapho_db <- tapho.loader(excel_path ) #, level        = c(1,1,1,1,1,1,1,1,1,1,1))
+tapho_db 
+```
+
+
+```{r}
+#tapho_db$count
+print(tapho_db[,c(1:5,33:36)], n=26)
+```
+
+
+```{r}
+tapho_db$bone.level
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```

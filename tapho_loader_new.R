@@ -1,18 +1,22 @@
-source("meta_new_indet.R")
-source("NewSiteDataLoader_new.R")
+
 source("select_data_new.R")
 source("data_loader_new.R")
 source("archo_preload_2.R")
 source("collapse_down_step.R")
 source("indet.R")
 
+source("convertMNEtovariables_new.R")
+
 library(dplyr)
 library(tibble)
 library(readxl)
+library(purrr)
 
 summarize_bone_sections_zero_na <- function(input_df,
   method = "min",
-  reference_df = elements_data) {
+  meta) {
+  
+    list2env(meta, envir = environment())
 
     # Ensure method is a single string
     method <- as.character(method)
@@ -23,8 +27,8 @@ summarize_bone_sections_zero_na <- function(input_df,
     input_df <- input_df %>%
     dplyr::filter(!is.na(count) & count != 0)
 
-    bone_info_df <- add_bone_info(input_df, reference_df)
-
+    bone_info_df <- add_bone_info(input_df)
+    
     sections_order <- c(
     "cranium","teeth","hyoid", "vertebrae", "thorax", "shoulder",
     "arms", "hands", "pelvic", "legs", "foot"
@@ -178,9 +182,9 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
 
 is_special <- function(part) part %in% c("pelvic", "cranium")
 
-recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
-  bone_names, sections_order, MNI) {
-    max_levels <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+recal_mne_six <- function(current_mne, bone_names, target_levels, MNI) {
+
+     max_levels <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
     min_levels <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
     working_base <- tibble(count = current_mne, element = bone_names) %>%
     add_bone_info() %>%
@@ -244,11 +248,11 @@ recal_mne_six <- function(current_mne, target_levels, skeleton_hierarchy,
 }
 
 
-align_counts_to_skeleton <- function(one_skeleton_element,
-  recalc_element,
-  recalc_count,
-  fill_value = NA,
-  aggregate = c("sum", "first")) {
+align_counts_to_skeleton <- function( one_skeleton_element,
+                                      recalc_element,
+                                      recalc_count,
+                                      fill_value = NA,
+                                      aggregate = c("sum", "first")) {
 aggregate <- match.arg(aggregate)
 
 # Build a lookup table (handle duplicate elements in recalc data)
@@ -275,10 +279,18 @@ count = aligned_counts
 return(align_loaded_db)
 }
 ########################################### tapho-r loader function sum=0 ##############
-tapho.load <- function(new_site_data, strict = FALSE) {
+tapho.load <- function( data, 
+                        target_levels        = NULL,
+                        calc_level   = c("min", "max", "mode"),
+                        indet        = TRUE,
+                        indet_method = c("up", "dist", "delet"),
+                        fragments_per_bone        = 3,
+                        meta,
+                        strict = FALSE) {
 
+    
   #Validate & coerce first (warn now, not later)
-  new_site_data <- archo_preload_site_table(new_site_data, strict = strict)
+  new_site_data <- archo_preload_site_table(data, strict = strict)
 
   ind_name <- colnames(new_site_data)[2]
 
@@ -295,10 +307,22 @@ tapho.load <- function(new_site_data, strict = FALSE) {
 
 
   #_indet/_fragments out/in
-  new_site_raw <- resolve_indeterminate(new_site_raw, MNI, indet = FALSE,  indet_method = "up")
+  new_site_raw <- resolve_indeterminate(new_site_raw         = new_site_raw, 
+                                        MNI          = MNI,
+                                        indet        = indet,
+                                        indet_method = indet_method,
+                                        fragments_per_bone = fragments_per_bone)
 
-  #print(new_site_raw) 
-  target_levels <- summarize_bone_sections_zero_na(new_site_raw)
+  print(new_site_raw)
+
+  # Step 3: Resolve level — compute or use provided
+  if (is.null(target_levels)) {
+    target_levels <- summarize_bone_sections_zero_na(
+      input_df       = new_site_raw,
+      method = calc_level,
+      meta
+    )
+  }
 
 
   #print("########################################### tapho-r loader function sum=0 ##############")
@@ -309,12 +333,10 @@ tapho.load <- function(new_site_data, strict = FALSE) {
   #mni <- suppressWarnings(as.numeric(new_site_data$count[18]))
 
   recalc_new_site_raw <- recal_mne_six(
-    as.numeric(new_site_raw$count),
-    target_levels,
-    skeleton_hierarchy,
-    new_site_raw$element,
-    sections_order,
-    MNI
+    current_mne = as.numeric(new_site_raw$count),
+    bone_names = new_site_raw$element,
+    target_levels = target_levels,
+    MNI = MNI
   )
 
   #print("########################################### tapho-r loader function sum=0 ##############")
@@ -344,14 +366,36 @@ tapho.load <- function(new_site_data, strict = FALSE) {
 }
 
 ########################################### tapho-r loader function sum=False, ie db and sheets ##############
-tapho.load.db <- function(data) {
-  tb <- tapho.load(data[, 1:2])
+tapho.load.db <- function(data,
+                          level        = NULL,
+                          calc_level   = c("min", "max", "mode"),
+                          indet        = TRUE,
+                          indet_method = c("up", "dist", "delet"),
+                          fragments_per_bone        = 3,
+                          meta
+) {
+  tb <- tapho.load( data         = data[, 1:2],
+                    target_levels        = level,
+                    calc_level   = calc_level,
+                    indet        = indet,
+                    indet_method = indet_method,
+                    fragments_per_bone        = fragments_per_bone,
+                    meta
+  
+  )
 
   if (tb$count_type == FALSE) { 
   for (i in 3:ncol(data)) {
     one_column <- data[, c(1,i)]
     #one_column <- one_column %>% rename(count = !!paste0("count", i-1))
-    tb_one <- tapho.load(one_column)
+    tb_one <- tapho.load( data         = one_column,
+                          target_levels        = level,
+                          calc_level   = calc_level,
+                          indet        = indet,
+                          indet_method = indet_method,
+                          fragments_per_bone        = fragments_per_bone, 
+                          meta
+    )
     tb <- tb %>% add_row(tb_one)
   }}
 
@@ -363,7 +407,14 @@ tapho.load.db <- function(data) {
 library(dplyr)
 
 # Define the function to read an Excel file with multiple sheets
-read_excel_sheets <- function(file_path) {
+read_excel_sheets <- function(file_path, 
+                              level        = NULL,
+                              calc_level   = c("min", "max", "mode"),
+                              indet        = TRUE,
+                              indet_method = c("up", "dist", "delet"),
+                              fragments_per_bone = 3,
+                              meta
+) {
   
   # Get all sheet names in the Excel file
   sheet_names <- readxl::excel_sheets(file_path)
@@ -375,7 +426,17 @@ read_excel_sheets <- function(file_path) {
     sheet_data <- readxl::read_excel(file_path, sheet = sname)
     
     # Process it using your tapho.load.db() function
-    processed_sheet <- tapho.load.db(sheet_data)
+    processed_sheet <- tapho.load.db(
+                                        data         = sheet_data,
+                                        level        = level,
+                                        calc_level   = calc_level,
+                                        indet        = indet,
+                                        indet_method = indet_method,
+                                        fragments_per_bone = fragments_per_bone,
+                                        meta
+    )
+      
+    
     
     # Optionally, you might want to keep track of which sheet it came from
     # processed_sheet <- processed_sheet %>% 
@@ -388,4 +449,119 @@ read_excel_sheets <- function(file_path) {
   combined_df <- bind_rows(processed_list)
   
   return(combined_df)
+}
+
+
+#tapho.loader <- function(
+  # 1. DATA INPUT — always first, it's the primary required argument
+#  data,
+
+  # 2. LEVEL CONFIGURATION — core processing logic, used deepest in the call stack
+#  level        = NULL,
+#  calc_level   = c("min", "max", "mode"),
+
+  # 3. INDETERMINATE HANDLING — another core processing group
+#  indet        = TRUE,
+#  indet_method = c("up", "dist", "delet"),
+
+  # 4. FILTERING / SELECTION — applied after data is loaded
+# group_by     = NULL,
+#  select       = NULL,
+
+  # 5. OUTPUT OPTIONS — last, as it affects the final result shape
+#  sum          = TRUE
+#){
+  
+  
+  #1 read_excel_sheets(data, calc_level, level, indet, indet_method)
+
+  #2 elect & group_by(data, group_by, select, level, sum, indet)
+
+  #3 convertMNEtovariables(data, indet)
+
+  # return data
+#}
+
+tapho.loader <- function(
+  data,
+  sum          = TRUE,
+  unique_level= TRUE,
+  level        = NULL,
+  calc_level   = c("min", "max", "mode"),
+  recalc_method =  c("min", "filter", "direct"), 
+  indet        = TRUE,
+  indet_method = c("up", "dist", "delet"),
+  group_by     = NULL,
+  select       = NULL,
+  fragments_per_bone = 3
+) {
+
+#_________________________________   META ENV   _____________________________________
+  
+  
+meta_file <- paste0("meta_indet_", toupper(indet), ".R")
+source(file.path("meta", meta_file), local = TRUE)  
+
+meta <- list(
+  skeleton_hierarchy = skeleton_hierarchy,
+  elements_data      = elements_data,
+  category_hierarchy = category_hierarchy,
+  category_mappings  = category_mappings
+)
+meta_env <- list2env(meta, parent = emptyenv())
+
+# Attach ONCE — all functions in the session can see meta objects
+attach(meta_env, name = "meta_env", warn.conflicts = FALSE)
+on.exit(detach("meta_env"), add = TRUE) 
+#_______________________________________________________________________________________
+
+
+
+  calc_level   <- match.arg(calc_level)
+  indet_method <- match.arg(indet_method)
+
+  # Step 1: Load and process all sheets
+  db <- read_excel_sheets(
+    file_path    = data,
+    level        = level,
+    calc_level   = calc_level,
+    indet        = indet,
+    indet_method = indet_method,
+    fragments_per_bone = fragments_per_bone,
+    meta
+  )
+  print(db[,c(1:5,33:36)], n=26)
+  # If sum = TRUE and "site_id" not already in group_by, prepend it
+if (sum) {
+  if (is.null(group_by)) {
+    group_by <- "site_id"
+  } else if (!"site_id" %in% group_by) {
+    group_by <- c("site_id", group_by)
+  }
+}
+
+  # Step 2: Apply grouping and selection
+  db <- select_and_group_by(
+    data     = db,
+    group_by = group_by,
+    select   = select,
+    method =  recalc_method,
+    level    = level,
+    unique_level= unique_level
+  )
+
+  #regroup / ratio. 
+
+ #need count , element, OneElement-count, -> vie add_bone_info()$oneelement?
+
+  # Step 3: Convert MNE to variables
+  var_db <- convertMNEtoVariables_v3(
+    MNE = db$count, 
+    skeleton = db$element, 
+    individuals = MNI
+  )
+
+  #tb db plus append var_db 
+
+  return(db)
 }
