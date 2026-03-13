@@ -1523,46 +1523,48 @@ Bone_Count <-c(
 )
 Skeleton_Section <- c(
   #cranium
-  cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, 
-  cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, cranium, 
-  cranium, cranium, cranium, cranium, cranium, cranium, cranium, 
-  
-  teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, 
-  teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, 
-  teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, 
-  teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, 
-  teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth,
-   teeth, teeth, teeth, teeth, teeth, teeth, teeth, teeth,
+  "cranium", "cranium", "cranium", "cranium", "cranium", "cranium","cranium", "cranium", 
+  "cranium", "cranium", "cranium", "cranium","cranium", "cranium", "cranium", "cranium", "cranium", "cranium","cranium", 
+  "cranium", "cranium", "cranium", "cranium", "cranium","cranium", "cranium", "cranium", 
+  "cranium", "cranium", "cranium","cranium", "cranium", "cranium", 
+    
+  "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", 
+  "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", 
+  "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", 
+  "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", 
+  "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", 
+  "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", 
+  "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth", "teeth" ,
    
-   hyoid, 
+   "hyoid", 
    
-   vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, 
-   vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, 
-   vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, vertebrae, 
+   "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", 
+   "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", 
+   "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", "vertebrae", 
    
-   thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, 
-   thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, 
-   thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, thorax, 
+   "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", 
+   "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", 
+   "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", "thorax", 
    
-   shoulder, shoulder, shoulder, shoulder, shoulder, shoulder, shoulder, 
+   "shoulder", "shoulder", "shoulder", "shoulder", "shoulder", "shoulder", "shoulder", 
    
-   arms, arms, arms, arms, arms, arms, arms, arms, arms, arms, 
+   "arms", "arms", "arms", "arms", "arms", "arms", "arms", "arms", "arms", "arms", 
    
-   hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, 
-   hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, 
-   hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, 
-   hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, hands, 
-   hands, hands, hands, 
+   "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands",
+   "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", 
+   "hands", "hands", "hands", "hands", "hands", "hands",  "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", 
+   "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", "hands", 
+   "hands", "hands", "hands", "hands", "hands", "hands",
    
-   pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, 
-   pelvic, pelvic, pelvic, pelvic, pelvic, pelvic, 
+   "pelvic","pelvic", "pelvic","pelvic","pelvic", "pelvic","pelvic","pelvic", "pelvic","pelvic","pelvic", "pelvic","pelvic","pelvic", 
+   "pelvic","pelvic", "pelvic","pelvic","pelvic", "pelvic","pelvic", 
    
-   legs, legs, legs, legs, legs, legs, legs, legs, legs, legs, legs, legs, legs, 
+   "legs", "legs", "legs", "legs", "legs", "legs", "legs", "legs", "legs", "legs", "legs", "legs", "legs", 
    
-   foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, 
-   foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, 
-   foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, foot, 
-   foot, foot, foot, foot, foot, foot, foot, foot, foot
+  "foot","foot", "foot","foot","foot","foot","foot", "foot","foot","foot","foot","foot", "foot","foot","foot","foot","foot", "foot","foot","foot","foot","foot", 
+  "foot","foot","foot","foot","foot", "foot","foot","foot","foot","foot", "foot","foot","foot","foot","foot", "foot","foot","foot","foot","foot", "foot","foot",
+  "foot","foot","foot", "foot","foot","foot", "foot","foot", "foot","foot","foot","foot","foot", "foot","foot","foot",  "foot","foot", "foot","foot",
+  "foot", "foot","foot", "foot","foot"
 )
 
 elements_data <- data.frame(
@@ -1584,7 +1586,6 @@ elements_data$Skeleton_Section <- as.character(elements_data$Skeleton_Section)
 # Section order (xlsx includes teeth)
 sections_order <- c("cranium","teeth","hyoid","vertebrae","thorax","shoulder","arms","hands","pelvic","legs","foot")
 elements_data$Skeleton_Section <- factor(elements_data$Skeleton_Section, levels = sections_order)
-
 
 
 ####### mappings ####
@@ -2547,7 +2548,7 @@ category_mappings_hands_4_to_1 <- list(
     "metacarpal_2_left", "metacarpal_2_right",
     "metacarpal_3_left", "metacarpal_3_right",
     "metacarpal_4_left", "metacarpal_4_right",
-    "metacarpal_5_left", "metacarpal_5_right",
+    "metacarpal_5_left", "metacarpal_5_right"
     #"metacarpal_indet", "metacarpal_left_indet", "metacarpal_right_indet"
     
 
@@ -3412,7 +3413,7 @@ category_mappings_foot_5_to_4 <- list(
 
 
   )
-
+  
   ######### recal MNE ########
 
   category_hierarchy <- list(

@@ -13,9 +13,9 @@ editor:
 ---
 
 ```{r}
-source("tapho_loader_new.R")
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
 excel_path <- "hspa-test.xlsx"
-tapho_db <- tapho.loader(excel_path ) #, level        = c(1,1,1,1,1,1,1,1,1,1,1))
+tapho_db <- tapho.loader(excel_path , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = FALSE, indet_method = "dist")
 tapho_db 
 ```
 
@@ -27,29 +27,58 @@ print(tapho_db[,c(1:5,33:36)], n=26)
 
 
 ```{r}
-tapho_db$bone.level
+tapho_db[1,]$element[[1]]
+```
+
+
+```{r}
+tapho_db$element
 ```
 
 
 ```{r}
 
+c(3,0,0,3,...,3)
+
+c(2,0,0,2,2,2,2,2,2,2,2)
+
+c(1,0,0,1,...,1)
+
+lvl_-1 <-c("cranium",
+            "teeth", out
+            "hyoid", out  
+            "vertebrae", "thorax", "pelvic",
+            "shoulder", "arms", "legs", 
+            "hands", 
+            "foot" )
+
+add element_ratios, count_ratios: 
+---
+
+level -1
+neurocranium_bone,splanchnocranium  vs extrimities. 
+neurocranium_bone,splanchnocranium  vs post_cranium.
+cranium vs post cranium. 
+cranium vs extrimities.
+ratios.->others.
+
+---
+
+all at the same time + RFE vs 20k out of 60k then sum (c()) vs accuracy. 
+
+
 ```
 
 
-
 ```{r}
+df <- data.frame(element = tapho_db[1,]$element[[1]], count = tapho_db[1,]$count[[1]])
+add_bone_info_indet(df)
 
 ```
 
 
 ```{r}
-
-```
-
-
-
-```{r}
-
+ls(envir = globalenv())
 ```
 
 

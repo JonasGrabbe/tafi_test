@@ -498,7 +498,7 @@ tapho.loader <- function(
 
 #_________________________________   META ENV   _____________________________________
   
-  
+
 meta_file <- paste0("meta_indet_", toupper(indet), ".R")
 source(file.path("meta", meta_file), local = TRUE)  
 
@@ -550,18 +550,50 @@ if (sum) {
     unique_level= unique_level
   )
 
-  #regroup / ratio. 
+  # regroup / ratio. 
+  # get section info then get one element sum up count and one_element and rename to ... -> feature engineering. 
+  # updata $count  $ elemet $bone.level 
+  # select bone section or eliminate eg -c("teeth") take section 
+  # eliminate each features corresponding to section named in slote
+  # for each site_i -> take element count add skeleton_section via add_bone_info.
+  # add to db[sit_i, ] <- skeleton_section 
+  # eliminate each section in elimininate_section eg -c("teeth")
+  # feature creation. sum "element" (def). sum AND one_skeleton. 
+  # -> function(element, count , one_skeleton, skeleton_section)
+  # -> 1. add "vertebrae", "thorax", "pelvic", and "shoulder", "arms", "legs", 
+  # -> 2. add extrimities / post-cranium. 
+  # -> 3. add ratios. list. + same * bone denity * onehot-metas  
+  # replace elemtent count, one-skeleton count. 
+  #-> add convertMNEtoVar. AND one_skeleton, skeleton_section  
+  input_df <- data.frame(element = db[1,]$element[[1]] , count = db[1,]$count[[1]])
+  print(input_df)
+  print(add_bone_info(input_df = input_df)$Skeleton_Section)
+  # take index of teeth and delet in list element and list count and list one_skeleton
+  
 
- #need count , element, OneElement-count, -> vie add_bone_info()$oneelement?
+  # need count , element, OneElement-count, -> vie add_bone_info()$one_element?
+  # ...  
 
+
+  
   # Step 3: Convert MNE to variables
-  var_db <- convertMNEtoVariables_v3(
-    MNE = db$count, 
-    skeleton = db$element, 
-    individuals = MNI
-  )
+  # for each site_i take mne, one_skeleton ->  
+  # var_db <- convertMNEtoVariables_v3(
+  # MNE = db$count, 
+  # skeleton = db$element, 
+  # individuals = MNI
+  # )
 
-  #tb db plus append var_db 
+  #tb db-plus append var_db. 
 
   return(db)
 }
+
+# plot mne vs desity (need fuente). 
+# plot mne vs %
+# plot pca -> mda
+# -> ml pipeline -> level 1,2,3, -1,-2 + ratios. -> recursive feature eleimination.
+#
+
+
+# select feature count , and label ie mne and/or ratios
