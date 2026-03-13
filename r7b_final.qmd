@@ -15,7 +15,7 @@ editor:
 ```{r}
 source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
 excel_path <- "hspa-test.xlsx"
-tapho_db <- tapho.loader(excel_path , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = FALSE, indet_method = "dist")
+tapho_db <- tapho.loader(excel_path , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "dist")
 tapho_db 
 ```
 
@@ -79,6 +79,7 @@ add_bone_info_indet(df)
 
 ```{r}
 ls(envir = globalenv())
+
 ```
 
 

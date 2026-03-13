@@ -550,6 +550,8 @@ if (sum) {
     unique_level= unique_level
   )
 
+  # dist down via pesos
+
   # regroup / ratio. 
   # get section info then get one element sum up count and one_element and rename to ... -> feature engineering. 
   # updata $count  $ elemet $bone.level 
@@ -564,17 +566,14 @@ if (sum) {
   # -> 2. add extrimities / post-cranium. 
   # -> 3. add ratios. list. + same * bone denity * onehot-metas  
   # replace elemtent count, one-skeleton count. 
-  #-> add convertMNEtoVar. AND one_skeleton, skeleton_section  
+  # -> add convertMNEtoVar. AND one_skeleton, skeleton_section  
   input_df <- data.frame(element = db[1,]$element[[1]] , count = db[1,]$count[[1]])
   print(input_df)
   print(add_bone_info(input_df = input_df)$Skeleton_Section)
   # take index of teeth and delet in list element and list count and list one_skeleton
   
-
-  # need count , element, OneElement-count, -> vie add_bone_info()$one_element?
+  # need count, element, OneElement-count, -> vie add_bone_info()$one_element?
   # ...  
-
-
   
   # Step 3: Convert MNE to variables
   # for each site_i take mne, one_skeleton ->  
