@@ -472,7 +472,6 @@ read_excel_sheets <- function(file_path,
 #  sum          = TRUE
 #){
   
-  
   #1 read_excel_sheets(data, calc_level, level, indet, indet_method)
 
   #2 elect & group_by(data, group_by, select, level, sum, indet)
@@ -493,7 +492,8 @@ tapho.loader <- function(
   indet_method = c("up", "dist", "delet"),
   group_by     = NULL,
   select       = NULL,
-  fragments_per_bone = 3
+  fragments_per_bone = 3, # all_levels = FALSE /TRUE, 
+  exclude_sections = c("teeth") 
 ) {
 
 #_________________________________   META ENV   _____________________________________
@@ -550,41 +550,60 @@ if (sum) {
     unique_level= unique_level
   )
 
-  # dist down via pesos
+  # need one_skeleton element at all times 
 
-  # regroup / ratio. 
+  # dist down via pesos/solve indet TRUE -> del.
+
+  # regroup / ratio. /
+
   # get section info then get one element sum up count and one_element and rename to ... -> feature engineering. 
-  # updata $count  $ elemet $bone.level 
+  # updata $count $elemet $bone.level 
   # select bone section or eliminate eg -c("teeth") take section 
   # eliminate each features corresponding to section named in slote
   # for each site_i -> take element count add skeleton_section via add_bone_info.
   # add to db[sit_i, ] <- skeleton_section 
   # eliminate each section in elimininate_section eg -c("teeth")
+
   # feature creation. sum "element" (def). sum AND one_skeleton. 
   # -> function(element, count , one_skeleton, skeleton_section)
   # -> 1. add "vertebrae", "thorax", "pelvic", and "shoulder", "arms", "legs", 
   # -> 2. add extrimities / post-cranium. 
   # -> 3. add ratios. list. + same * bone denity * onehot-metas  
+
   # replace elemtent count, one-skeleton count. 
-  # -> add convertMNEtoVar. AND one_skeleton, skeleton_section  
+  # -> add convertMNEtoVar. AND one_skeleton, skeleton_section 
+  
   input_df <- data.frame(element = db[1,]$element[[1]] , count = db[1,]$count[[1]])
-  print(input_df)
-  print(add_bone_info(input_df = input_df)$Skeleton_Section)
+  data <- input_df %>%
+    left_join(
+      elements_data %>% select(ElementsOne, Bone_Count, Skeleton_Section),   
+      by = c("element" = "ElementsOne")  
+    ) 
+  
+ data <- data %>%
+  filter(!Skeleton_Section %in% exclude_sections)
+  print(data)
+  #print(input_df)
+  #print(add_bone_info(input_df = input_df))
+
+  #
+
   # take index of teeth and delet in list element and list count and list one_skeleton
   
   # need count, element, OneElement-count, -> vie add_bone_info()$one_element?
   # ...  
-  
+  MNI = 2
+  skeleton <- data.frame(element = data$element , count = data$Bone_Count)
   # Step 3: Convert MNE to variables
   # for each site_i take mne, one_skeleton ->  
-  # var_db <- convertMNEtoVariables_v3(
-  # MNE = db$count, 
-  # skeleton = db$element, 
-  # individuals = MNI
-  # )
-
+   var_db <- convertMNEtoVariables_v3(
+   MNE = data$count, 
+   skeleton = skeleton, 
+   individuals = MNI
+   )
+  
   #tb db-plus append var_db. 
-
+   print(var_db)
   return(db)
 }
 
@@ -592,7 +611,13 @@ if (sum) {
 # plot mne vs %
 # plot pca -> mda
 # -> ml pipeline -> level 1,2,3, -1,-2 + ratios. -> recursive feature eleimination.
-#
-
 
 # select feature count , and label ie mne and/or ratios
+
+# smote ind -sum
+# delet section,eg -c(teeth)
+# how to add ratios and bone desities /  same * bone denity * onehot-metas  
+# need one_skeleton$count and $element 
+# all level at once ? -> $element $count + one_skeleton$element $count + ratios + bone_desity --- outside: onehot_metas.
+#   after  ->
+# ....

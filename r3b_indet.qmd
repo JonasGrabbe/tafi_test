@@ -575,8 +575,7 @@ current_mne_rollup <- c(
   0,1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0  # thoracic_indet, t1–t12
            # lumbar_indet, l1–l5
 )
-print(length(bone_names_rollup))
-print(length(current_mne_rollup))
+ 
 ```
 
 ```{r}
