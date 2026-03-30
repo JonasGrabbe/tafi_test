@@ -4,6 +4,7 @@ source("data_loader_new.R")
 source("archo_preload_2.R")
 source("collapse_down_step.R")
 source("indet.R")
+source("meta/meta_set.R")
 
 source("convertMNEtovariables_new.R")
 
@@ -202,9 +203,9 @@ recal_mne_six <- function(current_mne, bone_names, target_levels, MNI) {
     # Pass 1 — collapse from finest detail down to target
     while (current_max > tgt) {
     step_up_level <- current_max - 1
-    print("up: from to ")
-    print(current_max)
-    print(step_up_level)
+    #print("up: from to ")
+    #print(current_max)
+    #print(step_up_level)
       if (is_special(part)){
         data <- collapse_up_step_special(data, part,
           current_level = current_max,
@@ -215,14 +216,14 @@ recal_mne_six <- function(current_mne, bone_names, target_levels, MNI) {
                 current_level = current_max,
                 target_level  = step_up_level)}
     current_max <- current_max - 1
-    print(data, n=42)
+    #print(data, n=42)
     }
 
     # Pass 2 — expand from coarsest detail up to target
     while (current_min < tgt) {
-      print("down: from to ")
-          print(current_min)
-    print(current_min + 1)
+      #print("down: from to ")
+       #   print(current_min)
+    #print(current_min + 1)
     if (is_special(part)){   
           data <- collapse_down_step_special(data, part,
                         current_level = current_min,
@@ -237,7 +238,7 @@ recal_mne_six <- function(current_mne, bone_names, target_levels, MNI) {
                 MNI           = MNI)}
     current_min <- current_min + 1
     
-    print(data, n=42)
+    #print(data, n=42)
    # if (part == "pelvic") { print(data$)}
     }
 
@@ -313,7 +314,7 @@ tapho.load <- function( data,
                                         indet_method = indet_method,
                                         fragments_per_bone = fragments_per_bone)
 
-  print(new_site_raw)
+  #print(new_site_raw)
 
   # Step 3: Resolve level — compute or use provided
   if (is.null(target_levels)) {
@@ -418,7 +419,7 @@ read_excel_sheets <- function(file_path,
   
   # Get all sheet names in the Excel file
   sheet_names <- readxl::excel_sheets(file_path)
-  print(sheet_names)
+  #print(sheet_names)
   # Read each sheet, process it, and store in a list
   processed_list <- lapply(sheet_names, function(sname) {
     
@@ -498,21 +499,9 @@ tapho.loader <- function(
 
 #_________________________________   META ENV   _____________________________________
   
-
-meta_file <- paste0("meta_indet_", toupper(indet), ".R")
-source(file.path("meta", meta_file), local = TRUE)  
-
-meta <- list(
-  skeleton_hierarchy = skeleton_hierarchy,
-  elements_data      = elements_data,
-  category_hierarchy = category_hierarchy,
-  category_mappings  = category_mappings
-)
-meta_env <- list2env(meta, parent = emptyenv())
-
-# Attach ONCE — all functions in the session can see meta objects
-attach(meta_env, name = "meta_env", warn.conflicts = FALSE)
-on.exit(detach("meta_env"), add = TRUE) 
+meta_set(indet)          # initial load
+on.exit(detach("meta_env"), add = TRUE)  # keep this for cleanup
+ 
 #_______________________________________________________________________________________
 
 
@@ -530,7 +519,7 @@ on.exit(detach("meta_env"), add = TRUE)
     fragments_per_bone = fragments_per_bone,
     meta
   )
-  print(db[,c(1:5,33:36)], n=26)
+  #print(db[,c(1:5,33:36)], n=26)
   # If sum = TRUE and "site_id" not already in group_by, prepend it
 if (sum) {
   if (is.null(group_by)) {
@@ -606,7 +595,7 @@ if (sum) {
    print(var_db)
   return(db)
 }
-
+# --- > time calculator  sum over 
 # plot mne vs desity (need fuente). 
 # plot mne vs %
 # plot pca -> mda

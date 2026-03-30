@@ -57,12 +57,12 @@ level_label <- paste0("Level ", tgt)
 expected <- names(skeleton_hierarchy[[part]][[level_label]])
 expected <- gsub(" ", ".", expected) 
 if (part == "pelvic") {
-  print("#######################  level_label ##################################")
-  print(part)
-  print(level_label)
-  cat("pelvic cur/tgt:", cur, tgt, "\n")
-  print(setdiff(expected, data$std_element))
-  print("#######################  level_label  ##################################")
+  #print("#######################  level_label ##################################")
+  #print(part)
+  #print(level_label)
+  #cat("pelvic cur/tgt:", cur, tgt, "\n")
+  #print(setdiff(expected, data$std_element))
+  #print("#######################  level_label  ##################################")
 }
 
 

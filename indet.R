@@ -1,3 +1,5 @@
+source("meta/meta_set.R")
+
 
 add_bone_info_indet <- function(data) {
   data %>%
@@ -23,7 +25,8 @@ get_indet_siblings <- function(indet_elem, part, current_level, section_name, MN
   if (length(parent_key) == 0) stop("Parent not found in mapping: ", parent_elem)
   
   children <- gsub(" ", ".", mapping[[parent_key]])
-    if(indet_elem == "lumbar_indet" ){print(children)}
+    if(indet_elem == "lumbar_indet" ){ #print(children)
+    }
   # Step 3: drop _indet siblings (only keep real elements)
   drop_indet_if_possible(children)
 }
@@ -71,15 +74,19 @@ distribute_indet <- function(data, part, MNI) {
       base <- level_maxima[[ch]]
       if (is.null(base)) 0L else as.integer(base * MNI)
     })
-    
+    #print(siblings)
+    #print(existing_counts)
+    #print(max_counts)
+    #print(indet_count)
+
     final_counts <- distribute_surplus(existing_counts, max_counts, indet_count)
-    print("final_counts[j]: ")
+    #print("final_counts[j]: ")
     for (j in seq_along(siblings)) {
       sib <- siblings[j]
-      cat("sib: ")
-      print(sib)
-      cat("final_counts[j]: ", as.integer(final_counts[j]))
-      cat("count: ", typeof(count))
+      #cat("sib: ")
+      #print(sib)
+      #cat("final_counts[j]: ", as.integer(final_counts[j]))
+      #cat("count: ", typeof(count))
       result <- result %>%
         mutate(count = if_else(element == sib, as.double(final_counts[j]), count))
     }
@@ -106,6 +113,8 @@ collapse_indet_up <- function(data, part) {
     indet_count   <- indet_rows$count[i]
     current_level <- indet_rows$Level[i]           # ← straight from add_bone_info_indet
     section       <- indet_rows$Skeleton_Section[i]
+    print(indet_elem)
+    print(part)
     print(current_level)
     parent_elem <- get_indet_parent(indet_elem, part, current_level)
     if (length(parent_elem) == 0) stop("No parent found for: ", indet_elem)
@@ -137,8 +146,8 @@ collapse_fragments_up <- function(data, part, fragments_per_bone = 3) {
   }
   
   result <- data
-  print("frag_rows: ")
-   print(frag_rows)
+  #print("frag_rows: ")
+   #print(frag_rows)
   for (i in seq_len(nrow(frag_rows))) {
     frag_count    <- frag_rows$count[i]
     current_level <- frag_rows$Level[i]
@@ -146,12 +155,12 @@ collapse_fragments_up <- function(data, part, fragments_per_bone = 3) {
     
     # Convert fragments → estimated whole bones
     whole_count <- convert_fragments(frag_count, fragments_per_bone)
-        print("whole_count: ")
-    print(whole_count)
+        #print("whole_count: ")
+    #print(whole_count)
     # Find parent (same logic as _indet: use category_hierarchy mapping)
     parent_elem <- get_indet_parent("rib_fragments", part, current_level)
-        print("parent_elem : ")
-    print(parent_elem )
+        #print("parent_elem : ")
+    #print(parent_elem )
     if (length(parent_elem) == 0) stop("No parent found for rib_fragments")
     
     result <- result %>%
@@ -184,12 +193,12 @@ distribute_fragments <- function(data, part, MNI, fragments_per_bone = 3) {
     
     # Convert fragments → estimated whole bones
     whole_count <- convert_fragments(frag_count, fragments_per_bone)
-    print("whole_count: ")
-    print(whole_count)
+    #print("whole_count: ")
+    #print(whole_count)
     # Get siblings (excludes rib_fragments itself via drop_indet_if_possible equivalent)
     siblings <- get_indet_siblings("rib_fragments", part, current_level, section, MNI)
-    print("siblings: ")
-    print(siblings)
+    #print("siblings: ")
+    #print(siblings)
     level_label  <- paste0("Level ", current_level)
     level_maxima <- skeleton_hierarchy[[section]][[level_label]]  #skeleton_hierarchy_indet
     
@@ -204,12 +213,12 @@ distribute_fragments <- function(data, part, MNI, fragments_per_bone = 3) {
     })
     
     final_counts <- distribute_surplus(existing_counts, max_counts, whole_count)
-    paste("final_counts[j]: ",final_counts)
+    #paste("final_counts[j]: ",final_counts)
     for (j in seq_along(siblings)) {
       sib <- siblings[j]
-      paste("sib: ", sib)
-      paste("final_counts[j]: ",final_counts[j])
-      paste("count: ", count)
+      #paste("sib: ", sib)
+      #paste("final_counts[j]: ",final_counts[j])
+      #paste("count: ", count)
       result <- result %>%
         mutate(count = if_else(element == sib, as.integer(final_counts[j]), count))
     }
@@ -256,8 +265,13 @@ sections_order <- c(
   "arms", "hands", "pelvic", "legs", "foot"
 )
 
+meta_set(!indet)  #  < ─────reset ENV──────────
+  
 # ── Enrich with bone info to get Skeleton_Section per element ───────────────
 data_enriched <- add_bone_info_indet(new_site_raw)
+
+  
+  
 
 # ── Final cleanup applied to ALL methods ────────────────────────────────────
 clean_indet_fragments <- function(df) {
@@ -277,7 +291,9 @@ if (indet_method == "delet") {
 result <- new_site_raw
 
 for (section in sections_order) {
-  
+   #print(data_enriched)
+  #print("section: ")
+  #print(section)
   section_elements <- data_enriched %>%
     filter(Skeleton_Section == section) %>%
     pull(element)
@@ -302,8 +318,8 @@ for (section in sections_order) {
   } else if (indet_method == "dist") {
     
     if (has_indet) {
-      print(section)
-      print(MNI)
+      #print(section)
+      #print(MNI)
       section_data <- distribute_indet(section_data, part = section, MNI = MNI)
     }
     if (has_fragments && section == "thorax") {
@@ -312,6 +328,8 @@ for (section in sections_order) {
     }
   }
   
+  meta_set(!indet)  #  < ─────reset ENV──────────
+
   result <- result %>%
     filter(!element %in% section_elements) %>%
     bind_rows(section_data) %>%
