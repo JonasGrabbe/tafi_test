@@ -60,7 +60,7 @@ neurocranium_bone,splanchnocranium  vs extrimities.
 neurocranium_bone,splanchnocranium  vs post_cranium.
 cranium vs post cranium. 
 cranium vs extrimities.
-ratios.->others.
+ratios. -> others.
 
 ---
 

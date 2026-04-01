@@ -541,7 +541,7 @@ if (sum) {
 
   # need one_skeleton element at all times 
 
-  # dist down via pesos/solve indet TRUE -> del.
+  # dist down via pesos!!   /solve indet TRUE -> del.(check)
 
   # regroup / ratio. /
 
@@ -596,7 +596,7 @@ if (sum) {
   return(db)
 }
 # --- > time calculator  sum over 
-# plot mne vs desity (need fuente). 
+# plot mne vs desity (need fuente). ->
 # plot mne vs %
 # plot pca -> mda
 # -> ml pipeline -> level 1,2,3, -1,-2 + ratios. -> recursive feature eleimination.
