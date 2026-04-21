@@ -3,6 +3,9 @@ library(tidyr)
 library(stringr)
 
 add_bone_info <- function(input_df, reference_df = elements_data) {
+  print(names(elements_data))
+
+
   # Step 1: Ensure correct input structure
   if (!all(c("element", "count") %in% names(input_df))) {
     stop("Input dataframe must have 'element' and 'count' columns")
@@ -15,6 +18,7 @@ add_bone_info <- function(input_df, reference_df = elements_data) {
            element = str_replace(element, "^[^.]+\\.", "")) # Clean 'element'
   
   # Step 3: Prepare reference dataframe
+
   reference_df <- reference_df %>%
     select(ElementsOne, max_Level, Skeleton_Section) %>%
     distinct()

@@ -184,8 +184,9 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
 is_special <- function(part) part %in% c("pelvic", "cranium")
 
 recal_mne_six <- function(current_mne, bone_names, target_levels, MNI) {
-
-     max_levels <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+  print("six")
+  print(names(elements_data))
+    max_levels <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
     min_levels <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
     working_base <- tibble(count = current_mne, element = bone_names) %>%
     add_bone_info() %>%
@@ -497,12 +498,15 @@ tapho.loader <- function(
   exclude_sections = c("teeth") 
 ) {
 
+
+
 #_________________________________   META ENV   _____________________________________
   
 meta_set(indet)          # initial load
 on.exit(detach("meta_env"), add = TRUE)  # keep this for cleanup
  
 #_______________________________________________________________________________________
+
 
 
 
@@ -543,7 +547,7 @@ if (sum) {
 
   # dist down via pesos!!   /solve indet TRUE -> del.(check)
 
-  # regroup / ratio. /
+  # regroup / ratio. /...
 
   # get section info then get one element sum up count and one_element and rename to ... -> feature engineering. 
   # updata $count $elemet $bone.level 
@@ -592,10 +596,10 @@ if (sum) {
    )
   
   #tb db-plus append var_db. 
-   print(var_db)
+   print(colnames(var_db))
   return(db)
 }
-# --- > time calculator  sum over 
+# --- > time calculator sum over 
 # plot mne vs desity (need fuente). ->
 # plot mne vs %
 # plot pca -> mda
@@ -607,6 +611,6 @@ if (sum) {
 # delet section,eg -c(teeth)
 # how to add ratios and bone desities /  same * bone denity * onehot-metas  
 # need one_skeleton$count and $element 
-# all level at once ? -> $element $count + one_skeleton$element $count + ratios + bone_desity --- outside: onehot_metas.
-#   after  ->
+# all level at once ? -> $element $count + one_skeleton$element $count + ratios + bone_desity --- outside: one_hot_metas.
+#  -> after  ->
 # ....
