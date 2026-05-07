@@ -453,6 +453,12 @@ read_excel_sheets <- function(file_path,
   return(combined_df)
 }
 
+#______ append mne derived var data __________
+
+# ... inside 
+#___________________________________________
+
+
 
 #tapho.loader <- function(
   # 1. DATA INPUT — always first, it's the primary required argument
@@ -483,7 +489,7 @@ read_excel_sheets <- function(file_path,
   # return data
 #}
 
-tapho.loader <- function(
+tapho.loader.v1 <- function(
   data,
   sum          = TRUE,
   unique_level= TRUE,
@@ -573,32 +579,88 @@ if (sum) {
       by = c("element" = "ElementsOne")  
     ) 
   
- data <- data %>%
+ db <- data %>%
   filter(!Skeleton_Section %in% exclude_sections)
-  print(data)
+  #print(data)
   #print(input_df)
   #print(add_bone_info(input_df = input_df))
-
+  #print(length(db$element[1]))
+  #print(length(db$count[1]))
   #
 
   # take index of teeth and delet in list element and list count and list one_skeleton
   
   # need count, element, OneElement-count, -> vie add_bone_info()$one_element?
   # ...  
-  MNI = 2
-  skeleton <- data.frame(element = data$element , count = data$Bone_Count)
+  #MNI = 2
+  #skeleton <- data.frame(element = data$element , count = data$Bone_Count)
   # Step 3: Convert MNE to variables
   # for each site_i take mne, one_skeleton ->  
-   var_db <- convertMNEtoVariables_v3(
-   MNE = data$count, 
-   skeleton = skeleton, 
-   individuals = MNI
-   )
+   #var_db <- convertMNEtoVariables_v3(
+   #MNE = data$count, 
+   #skeleton = skeleton, 
+   #individuals = MNI
+   #)
   
   #tb db-plus append var_db. 
-   print(colnames(var_db))
+   #print(colnames(var_db))
+  
+   results_list <- lapply(seq_len(nrow(db)), function(i) {
+  
+    # Build input_df for this row
+    input_df <- data.frame(
+      element = db[i, ]$element[[1]],
+      count   = db[i, ]$count[[1]]
+    )
+    #print(length(input_df$element))
+    #print(length(input_df$count))
+    # Join bone info
+    data <- input_df %>%
+      left_join(
+        elements_data %>% select(ElementsOne, Bone_Count, Skeleton_Section),
+        by = c("element" = "ElementsOne")
+      ) #%>%
+      #filter(!Skeleton_Section %in% exclude_sections)
+    
+    # Guard: if data is empty after filtering, return NULL
+    if (nrow(data) == 0) return(NULL)
+     
+    MNI      <- db[i, ]$mni  # use real MNI from db instead of hardcoded 2
+    skeleton <- data.frame(element = data$element, count = data$Bone_Count)
+    
+    var_db <- convertMNEtoVariables_v3(
+      MNE        = data$count,
+      skeleton   = skeleton,
+      individuals = MNI
+    )
+    print("test lenght elemen & count : ")
+    print(length(var_db$MNE[[1]]))
+     print(length(data$element))
+    var_db
+   })
+  db <- db %>%
+  mutate(mne_features = results_list)
+  db <- db %>%
+    mutate(
+      MNE                               = lapply(mne_features, `[[`, "MNE"),
+      MNAU                              = lapply(mne_features, `[[`, "MNAU"),
+      MAU                               = lapply(mne_features, `[[`, "MAU"),
+      PercentMAU                        = lapply(mne_features, `[[`, "PercentMAU"),
+      PercentMNAU                       = lapply(mne_features, `[[`, "PercentMNAU"),
+      ReMNAU                            = lapply(mne_features, `[[`, "ReMNAU"),
+      AcReMNAU                          = lapply(mne_features, `[[`, "AcReMNAU"),
+      CumulativeReMNAU                  = lapply(mne_features, `[[`, "CumulativeReMNAU"),
+      ProportionalRep_MNIbased          = lapply(mne_features, `[[`, "ProportionalRep_MNIbased"),
+      MNI_used_assemblage               = lapply(mne_features, `[[`, "MNI_used_assemblage"),
+      Mean_MNAU_assemblage              = lapply(mne_features, `[[`, "Mean_MNAU_assemblage"),
+      Mean_part_abundance               = lapply(mne_features, `[[`, "Mean_part_abundance"),
+      OverallProportionalRep_assemblage = lapply(mne_features, `[[`, "OverallProportionalRep_assemblage")
+    ) %>%
+    select(-mne_features)  # drop the nested tibble column
+#print(results_list)
   return(db)
 }
+
 # --- > time calculator sum over 
 # plot mne vs desity (need fuente). ->
 # plot mne vs %
@@ -614,3 +676,107 @@ if (sum) {
 # all level at once ? -> $element $count + one_skeleton$element $count + ratios + bone_desity --- outside: one_hot_metas.
 #  -> after  ->
 # ....
+
+
+
+
+
+
+tapho.loader <- function(
+  data,
+  sum               = TRUE,
+  unique_level      = TRUE,
+  level             = NULL,
+  calc_level        = c("min", "max", "mode"),
+  recalc_method     = c("min", "filter", "direct"),
+  indet             = TRUE,
+  indet_method      = c("up", "dist", "delet"),
+  group_by          = NULL,
+  select            = NULL,
+  fragments_per_bone = 3,
+  exclude_sections  = c("teeth")
+) {
+
+  # ── Setup ──────────────────────────────────────────────────────────────────
+  meta_set(indet)
+  on.exit(detach("meta_env"), add = TRUE)
+
+  calc_level   <- match.arg(calc_level)
+  indet_method <- match.arg(indet_method)
+
+  # ── Stage 1: Load and parse all Excel sheets ───────────────────────────────
+  db <- read_excel_sheets(
+    file_path          = data,
+    level              = level,
+    calc_level         = calc_level,
+    indet              = indet,
+    indet_method       = indet_method,
+    fragments_per_bone = fragments_per_bone,
+    meta               = meta
+  )
+print(db)
+  # ── Stage 2: Group and aggregate by site (and optional extra variables) ────
+  if (sum) {
+    group_by <- if (is.null(group_by)) "site_id" else union("site_id", group_by)
+  }
+
+  db <- select_and_group_by(
+    data         = db,
+    group_by     = group_by,
+    select       = select,
+    method       = recalc_method,
+    level        = level,
+    unique_level = unique_level
+  )
+
+  # ── Stage 3: Compute MNE-derived variables for each site row ──────────────
+  results_list <- lapply(seq_len(nrow(db)), function(i) {
+
+    input_df <- data.frame(
+      element = db$element[[i]],
+      count   = db$count[[i]]
+    )
+  
+    # Build bone_data as its own pipeline — no chain into the if
+    bone_data <- input_df %>%
+      left_join(
+        elements_data %>% select(ElementsOne, Bone_Count, Skeleton_Section),
+        by = c("element" = "ElementsOne")
+      ) %>%
+      filter(!Skeleton_Section %in% exclude_sections)
+  
+    # Guard is now a plain if, not part of the pipe
+    if (nrow(bone_data) == 0) return(NULL)
+  
+    skeleton <- data.frame(element = bone_data$element, count = bone_data$Bone_Count)
+    MNI      <- db$mni[[i]]
+  
+    convertMNEtoVariables_v3(
+      MNE         = bone_data$count,
+      skeleton    = skeleton,
+      individuals = MNI
+    )
+  })
+
+  # ── Stage 4: Unpack results into top-level columns and return ──────────────
+  db %>% select(-c(count,element)) %>%
+    mutate(mne_features = results_list) %>%
+    mutate(
+      # update sum_count /bone.level / 
+      element                           = lapply(mne_features, `[[`, "element_2"),
+      MNE                               = lapply(mne_features, `[[`, "MNE"),
+      MNAU                              = lapply(mne_features, `[[`, "MNAU"),
+      MAU                               = lapply(mne_features, `[[`, "MAU"),
+      PercentMAU                        = lapply(mne_features, `[[`, "PercentMAU"),
+      PercentMNAU                       = lapply(mne_features, `[[`, "PercentMNAU"),
+      ReMNAU                            = lapply(mne_features, `[[`, "ReMNAU"),
+      AcReMNAU                          = lapply(mne_features, `[[`, "AcReMNAU"),
+      CumulativeReMNAU                  = lapply(mne_features, `[[`, "CumulativeReMNAU"),
+      ProportionalRep_MNIbased          = lapply(mne_features, `[[`, "ProportionalRep_MNIbased"),
+      MNI_used_assemblage               = lapply(mne_features, `[[`, "MNI_used_assemblage"),
+      Mean_MNAU_assemblage              = lapply(mne_features, `[[`, "Mean_MNAU_assemblage"),
+      Mean_part_abundance               = lapply(mne_features, `[[`, "Mean_part_abundance"),
+      OverallProportionalRep_assemblage = lapply(mne_features, `[[`, "OverallProportionalRep_assemblage")
+    ) %>%
+    select(-mne_features)
+}

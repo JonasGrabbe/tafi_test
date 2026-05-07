@@ -457,11 +457,74 @@ summarize_bone_sections_zero_na <- function(input_df, reference_df = elements_da
 ```
 
 ```{r}
+prepare_tuning_input_from_tibble <- function(
+  tapho_db,
+  feature_col = "CumulativeReMNAU"
+) {
+  stopifnot(feature_col %in% names(tapho_db))
+  stopifnot("site_id" %in% names(tapho_db))
+  stopifnot("taphonomic_context" %in% names(tapho_db))
+  stopifnot("element" %in% names(tapho_db))
 
+  # use the first row's element labels as predictor names
+  feature_names <- as.character(unlist(tapho_db$element[[1]], use.names = FALSE))
+
+  # validate that every row has the same element labels in the same order
+  same_structure <- vapply(seq_len(nrow(tapho_db)), function(i) {
+    this_names <- as.character(unlist(tapho_db$element[[i]], use.names = FALSE))
+    identical(this_names, feature_names)
+  }, logical(1))
+
+  if (!all(same_structure)) {
+    bad_rows <- which(!same_structure)
+    stop(
+      paste0(
+        "element labels/order are not identical across rows. ",
+        "Problem rows: ", paste(bad_rows, collapse = ", ")
+      )
+    )
+  }
+
+  # validate that each feature vector matches the element length
+  vec_lengths <- vapply(seq_len(nrow(tapho_db)), function(i) {
+    length(unlist(tapho_db[[feature_col]][[i]], use.names = FALSE))
+  }, integer(1))
+
+  if (!all(vec_lengths == length(feature_names))) {
+    stop(
+      paste0(
+        "Length mismatch between element names (", length(feature_names),
+        ") and ", feature_col, " vectors: found lengths ",
+        paste(unique(vec_lengths), collapse = ", ")
+      )
+    )
+  }
+
+  feature_mat <- do.call(
+    rbind,
+    lapply(tapho_db[[feature_col]], function(x) {
+      as.numeric(unlist(x, use.names = FALSE))
+    })
+  )
+
+  feature_df <- tibble::as_tibble(feature_mat)
+  names(feature_df) <- make.names(feature_names, unique = TRUE)
+
+  input_df <- tibble::tibble(
+    site_name = as.character(tapho_db$site_id),
+    taphonomic_context = tapho_db$taphonomic_context
+  ) %>%
+    dplyr::bind_cols(feature_df)
+
+  input_df
+}
 ```
 
 ```{r}
-
+input_df <- prepare_tuning_input_from_tibble(
+  tapho_db,
+  feature_col = "CumulativeReMNAU"
+)
 ```
 
 ```{r}

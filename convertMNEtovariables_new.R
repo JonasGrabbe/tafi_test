@@ -45,7 +45,7 @@ convertMNEtoVariables_v3 <- function(MNE, skeleton, individuals = NULL) {
     sum(MNE, na.rm = TRUE) / (sum(c_i, na.rm = TRUE) * MNI_used)
 
   tibble::tibble(
-    element = elnm,
+    element_2 = elnm,
     MNE = MNE,
     MNAU = MNAU,
     MAU = MAU,

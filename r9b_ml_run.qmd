@@ -1,0 +1,246 @@
+---
+title: "r8b ml_run april"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa-test.xlsx"
+tapho_db <- tapho.loader(excel_path , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet" , exclude_sections = c("arms","legs","cranium","shoulder","hands"))
+tapho_db
+```
+
+
+```{r}
+#tapho_db$count
+#print(tapho_db[,c(1:4,40:44)], n=26)
+print(tapho_db[,c(35:44)], n=26)
+```
+
+```{r}
+tb <- tapho_db[,c(4,26,35,43)] %>%
+  unnest_wider(CumulativeReMNAU, names_sep = "_")
+tb
+```
+
+```{r}
+tb <- tapho_db[, c(4, 26, 41)] %>%
+  mutate(ReMNAU = lapply(ReMNAU, function(vec) 
+    setNames(vec, tapho_db$element[[1]])
+  )) %>%
+  unnest_wider(ReMNAU)
+tb
+```
+
+```{r}
+# -----------------------------------------------------------
+# 1) Helper: expand a tibble list-column into a model-ready flat df
+# -----------------------------------------------------------
+prepare_tuning_input_from_tibble <- function(
+  tapho_db,
+  feature_col,
+  feature_names,
+  target_variable = "taphonomic_context",
+  site_name_col   = "site_name",
+  site_id_col     = "site_id"
+) {
+  stopifnot(feature_col %in% names(tapho_db))
+  stopifnot(target_variable %in% names(tapho_db))
+
+  # fallback if site_name is absent
+  id_vec <- if (site_name_col %in% names(tapho_db)) {
+    tapho_db[[site_name_col]]
+  } else if (site_id_col %in% names(tapho_db)) {
+    as.character(tapho_db[[site_id_col]])
+  } else {
+    as.character(seq_len(nrow(tapho_db)))
+  }
+
+  # validate list-column lengths
+  vec_lengths <- purrr::map_int(
+    tapho_db[[feature_col]],
+    ~ length(as.numeric(unlist(.x, use.names = FALSE)))
+  )
+
+  expected_len <- length(feature_names)
+  if (!all(vec_lengths == expected_len)) {
+    stop(
+      sprintf(
+        "Column '%s' contains vectors of length {%s}, but expected %d.",
+        feature_col,
+        paste(sort(unique(vec_lengths)), collapse = ", "),
+        expected_len
+      )
+    )
+  }
+
+  # build numeric feature matrix
+  feature_mat <- do.call(
+    rbind,
+    lapply(
+      tapho_db[[feature_col]],
+      function(x) as.numeric(unlist(x, use.names = FALSE))
+    )
+  )
+
+  feature_df <- tibble::as_tibble(feature_mat)
+  names(feature_df) <- feature_names
+
+  # IMPORTANT: only keep ID + target + numeric features
+  out <- tibble::tibble(
+    !!site_name_col   := id_vec,
+    !!target_variable := tapho_db[[target_variable]]
+  ) %>%
+    dplyr::bind_cols(feature_df)
+
+  out
+}
+```
+
+
+```{r}
+prepare_tuning_input_from_tibble(
+    tapho_db,
+    tapho_db$element[[1]])
+```
+
+```{r}
+tapho_db$element[[1]]
+```
+
+
+```{r}
+run_tuning_from_tibble(
+  tapho_db,
+  feature_col = "ProportionalRep_MNIbased",
+)
+```
+
+```{r}
+run_tuning_from_tibble <- function(
+  tapho_db,
+  feature_col = "CumulativeReMNAU",
+  tasks = c("4class", "cannibalism_vs_fc", "fc_vs_rest"),
+  models_vec = c("SVM_RBF", "SVM_Linear", "RandomForest",
+                 "XGBoost", "DecisionTree", "KNN", "MLP"),
+  n_iterations_global = 30
+) {
+  vec_len <- length(tapho_db[[feature_col]][[1]])
+  feature_names <- paste0("x", seq_len(vec_len))
+
+  input_df <- tibble::tibble(
+    site_name = as.character(tapho_db$site_id),
+    taphonomic_context = tapho_db$taphonomic_context
+  ) %>%
+    dplyr::bind_cols(
+      tibble::as_tibble(do.call(
+        rbind,
+        lapply(tapho_db[[feature_col]], unlist)
+      )) %>%
+      stats::setNames(feature_names)
+    )
+
+  input_df
+}
+```
+
+
+```{r}
+tapho_db
+```
+
+```{r}
+prepare_tuning_input_from_tibble <- function(
+  tapho_db,
+  feature_col = "CumulativeReMNAU"
+) {
+  feature_names <- make.names(as.character(tapho_db$element[[1]]), unique = TRUE)
+
+  feature_df <- tibble::as_tibble(do.call(
+    rbind,
+    lapply(tapho_db[[feature_col]], unlist)
+  ))
+  names(feature_df) <- feature_names
+
+  tibble::tibble(
+    site_name = as.character(tapho_db$site_id),
+    taphonomic_context = tapho_db$taphonomic_context
+  ) %>%
+    dplyr::bind_cols(feature_df)
+}
+```
+
+
+```{r}
+prepare_tuning_input_from_tibble(
+  tapho_db,
+  feature_col = "ProportionalRep_MNIbased",
+)
+```
+
+```{r}
+path = "C:/Users/jonas.grabbe/Documents/hpa_modeling/hpa_modelilng_post_eshe/post/pmnau_tb_level_2
+```
+
+
+```{r}
+source("modeling/run_tuning.R")
+
+# example: if you want to use the CumulativeReMNAU list-column
+run_tuning_from_tibble(
+  tapho_db = tb,
+  tasks = c("4class", "cannibalism_vs_fc", "fc_vs_rest"),
+  variants = c("ReMNAU"),
+  levels_vec = 1,   # or whatever representation actually matches your feature vector
+  models_vec = c("SVM_RBF", "SVM_Linear", "RandomForest",
+                 "XGBoost", "DecisionTree", "KNN", "MLP"),
+  n_iterations_global = 30,
+  variant_feature_col = c(cremnau = "CumulativeReMNAU"),
+  feature_names_by_level = list(
+    "1" = paste0("feat_", 1:17)   # replace with real names if your vectors are length 17
+  ),
+  target_variable = "taphonomic_context",
+  site_name_col = "site_name",
+  site_id_col = "site_id"
+)
+```
+
+
+```{r}
+packageVersion("rlang")
+library(tidymodels)
+```
+
+
+```{r}
+packageVersion("tidymodels")
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+install.packages("tidymodels")
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```

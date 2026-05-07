@@ -16,18 +16,19 @@ editor:
 source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
 excel_path <- "hspa-test.xlsx"
 tapho_db <- tapho.loader(excel_path , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet" , exclude_sections = c("arms","legs","cranium","shoulder","hands"))
-tapho_db 
+print( tapho_db , n=26)
 ```
 
 
 ```{r}
 #tapho_db$count
-print(tapho_db[,c(1:5,33:36)], n=26)
+#print(tapho_db[,c(1:4,40:44)], n=26)
+print(tapho_db[,c(1,26:27,44)], n=26)
 ```
 
 
 ```{r}
-tapho_db[1,]$element[[1]]
+tapho_db[1,]$AcReMNAU
 ```
 
 
