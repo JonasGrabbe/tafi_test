@@ -487,8 +487,8 @@ tune_single_model_combo <- function(
   model_spec <- get_model_spec(model_name)
 
   wf <- workflows::workflow() %>%
-    workflows::add_recipe(recipe_obj) %>%
-    workflows::add_model(model_spec)
+        workflows::add_recipe(recipe_obj) %>%
+        workflows::add_model(model_spec)
 
   param_set <- dials::parameters(wf)
 
