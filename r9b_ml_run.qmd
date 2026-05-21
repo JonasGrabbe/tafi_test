@@ -15,10 +15,16 @@ editor:
 ```{r}
 source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
 excel_path <- "hspa-test.xlsx"
-tapho_db <- tapho.loader(excel_path, sum=FALSE , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet" , exclude_sections = c("arms","legs","cranium","shoulder","hands"))
+tapho_db <- tapho.loader(excel_path, sum=FALSE , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet", 
+group_by = c("mis_stage") ,
+#select = c("gender"="Indet") , 
+exclude_sections = c("arms","legs","cranium","shoulder","hands"))
 tapho_db
 ```
 
+```{r}
+tapho_db$cultural_period
+```
 
 ```{r}
 #tapho_db$count
@@ -448,8 +454,9 @@ samples <- sample_nonzero_normal(100, sd = 5)
 sum(samples > 0)
 ```
 
-```{r}
 
+```{r}
+samples
 ```
 
 
@@ -457,39 +464,53 @@ sum(samples > 0)
 
 ```
 
-```{r}
-
-```
 
 ```{r}
-
-```
-
-```{r}
-
+samples_needed <- c(20,15,75,48,88,42458)
+ for (i in seq_along(samples_needed)) { 
+  print(samples_needed[i])
+ }
 ```
 
 
-
 ```{r}
-
-```
-
-```{r}
+tapho_db$mni
 
 ```
 
 
-
 ```{r}
+
 
 ```
 
+
 ```{r}
+
 
 ```
 
+
 ```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
 
 ```
 

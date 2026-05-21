@@ -607,7 +607,7 @@ dplyr::group_by(!!group_sym) %>%
 dplyr::summarise(
 
 ind_name          = paste(ind_name, collapse = " "),
-site_id           = if (n_distinct(site_id) == 1) first(site_id)
+site_id           = if (n_distinct(site_id) == 1) first(site_id)   
 else paste(unique(site_id), collapse = ", "),
 individual_id     = paste(individual_id, collapse = " "),
 site_name         = if (n_distinct(site_name) == 1) first(site_name)

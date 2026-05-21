@@ -596,11 +596,11 @@ if (sum) {
   #skeleton <- data.frame(element = data$element , count = data$Bone_Count)
   # Step 3: Convert MNE to variables
   # for each site_i take mne, one_skeleton ->  
-   #var_db <- convertMNEtoVariables_v3(
-   #MNE = data$count, 
-   #skeleton = skeleton, 
-   #individuals = MNI
-   #)
+  #var_db <- convertMNEtoVariables_v3(
+  # MNE = data$count, 
+  #skeleton = skeleton, 
+  #individuals = MNI
+  #)
   
   #tb db-plus append var_db. 
    #print(colnames(var_db))
@@ -719,7 +719,7 @@ print(db)
   if (sum) {
     group_by <- if (is.null(group_by)) "site_id" else union("site_id", group_by)
   }
-
+  print(db$site_id)
   db <- select_and_group_by(
     data         = db,
     group_by     = group_by,

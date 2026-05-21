@@ -1,0 +1,321 @@
+---
+title: "SMOTE Function Testing"
+format: html
+---
+
+# Setup — paste your SMOTE source here first
+
+```{r setup}
+library(RANN)
+library(dplyr)
+
+# Paste your smote(), smote_impl(), smote_data() definitions here
+# (all three functions)
+```
+
+---
+```{r}
+smote <- function(df, var, k = 5, over_ratio = 1) {
+  #check_data_frame(df)
+  #check_var(var, df)
+  #check_number_whole(k, min = 1)
+  #check_number_decimal(over_ratio)
+
+  predictors <- setdiff(colnames(df), var)
+
+  #check_numeric(df[, predictors])
+  #check_na(select(df, -all_of(var)))
+
+  smote_impl(df, var, k, over_ratio)
+}
+
+```
+
+
+```{r}
+
+smote_impl <- function(df, var, k, over_ratio, call = caller_env()) {
+  data <- split(df, df[[var]])
+  majority_count <- max(table(df[[var]]))
+  ratio_target <- majority_count * over_ratio
+  which_upsample <- which(table(df[[var]]) < ratio_target)
+  samples_needed <- ratio_target - table(df[[var]])[which_upsample]
+  min_names <- names(samples_needed)
+
+  out_dfs <- list()
+
+  for (i in seq_along(samples_needed)) {
+    minority_df <- data[[min_names[i]]]
+    minority <- as.matrix(minority_df[names(minority_df) != var])
+
+    if (nrow(minority) <= k) {
+      cli::cli_abort("Not enough observations of {.val {min_names[i]}} to perform SMOTE.", call = call)
+    }
+
+    synthetic <- smote_data(minority, k = k, n_samples = samples_needed[i])
+    out_df <- as.data.frame(synthetic)
+    names(out_df) <- setdiff(names(df), var)
+    out_df_nrow <- min(nrow(out_df), 1)
+    out_df[var] <- data[[names(samples_needed)[i]]][[var]][out_df_nrow]
+    out_df <- out_df[names(df)]
+    out_dfs[[i]] <- out_df
+  }
+
+  final <- rbind(df, do.call(rbind, out_dfs))
+  final[[var]] <- factor(final[[var]], levels = levels(df[[var]]))
+  rownames(final) <- NULL
+  final
+}
+
+```
+
+
+```{r}
+smote_data <- function(data, k, n_samples, smote_ids = seq_len(nrow(data))) {
+  ids <- RANN::nn2(data, k = k + 1, searchtype = "priority")$nn.idx
+  indexes <- rep(sample(smote_ids), length.out = n_samples)
+  index_len <- tabulate(indexes, NROW(data))
+  out <- matrix(0, nrow = n_samples, ncol = ncol(data))
+  sampleids <- sample.int(k, n_samples, TRUE)
+  runif_ids <- stats::runif(n_samples)
+
+  iii <- 0
+  for (row_num in smote_ids) {
+    index_selection <- iii + seq_len(index_len[row_num])
+    # removes itself as nearest neighbour
+    id_knn <- ids[row_num, ids[row_num, ] != row_num]
+    dif <- data[id_knn[sampleids[index_selection]], ] -
+      data[rep(row_num, index_len[row_num]), ]
+    gap <- dif * runif_ids[index_selection]
+    out[index_selection, ] <- data[rep(row_num, index_len[row_num]), ] + gap
+    iii <- iii + index_len[row_num]
+  }
+
+  out
+}
+
+```
+
+---
+
+# Synthetic Data
+
+```{r make-data}
+set.seed(42)
+
+# 100 majority rows (class = "cat"), 20 minority rows (class = "dog")
+# All numeric predictors, no NAs, factor class column — passes all checks
+df <- data.frame(
+  x     = c(rnorm(100, mean = 0), rnorm(20, mean = 5)),
+  y     = c(rnorm(100, mean = 0), rnorm(20, mean = 5)),
+  class = factor(c(rep("cat", 100), rep("dog", 20)))
+)
+
+cat("Shape:", nrow(df), "rows x", ncol(df), "cols\n")
+table(df$class)   # cat=100, dog=20
+```
+
+---
+
+# Test `smote_data()` — the geometry core
+
+```{r test-smote-data}
+# Inputs:
+#   data     : numeric matrix [20 x 2]  (just the dog rows, no label)
+#   k        : 5 nearest neighbors
+#   n_samples: 80  (we want 80 synthetic points)
+
+minority_matrix <- as.matrix(df[df$class == "dog", c("x", "y")])
+cat("minority_matrix shape:", nrow(minority_matrix), "x", ncol(minority_matrix), "\n")
+# [20 x 2] — rows=minority points, cols=x,y
+
+synthetic_matrix <- smote_data(
+  data      = minority_matrix,
+  k         = 5,
+  n_samples = 80
+)
+
+cat("synthetic_matrix shape:", nrow(synthetic_matrix), "x", ncol(synthetic_matrix), "\n")
+# Expected: [80 x 2] — 80 new synthetic points, same 2 features
+
+# Sanity check: synthetic points should fall between real dog points
+cat("Real dog x range    :", range(minority_matrix[, 1]), "\n")
+cat("Synthetic x range   :", range(synthetic_matrix[, 1]), "\n")
+# Synthetic range should be *inside* real range (interpolation, not extrapolation)
+```
+
+---
+
+# Test `smote_impl()` — the orchestrator
+
+```{r test-smote-impl}
+# smote_impl() takes the full df, balances it
+# over_ratio = 1 means: bring minority up to majority count (100)
+# so it needs to generate 100 - 20 = 80 synthetic "dog" rows
+
+result_impl <- smote_impl(
+  df         = df,
+  var        = "class",
+  k          = 5,
+  over_ratio = 1
+)
+
+cat("Original shape :", nrow(df),          "rows\n")
+cat("Balanced shape :", nrow(result_impl), "rows\n")
+# Expected: 100 (original) + 80 (synthetic dog) = 180 rows
+
+table(result_impl$class)
+# Expected: cat=100, dog=100
+
+# Check no NAs were introduced
+cat("NAs in result:", sum(is.na(result_impl)), "\n")
+
+# Check factor levels preserved
+cat("Factor levels:", levels(result_impl$class), "\n")
+```
+
+---
+
+# Test `smote()` — the full public function (with checks)
+
+```{r test-smote}
+# smote() is the same as smote_impl() but validates inputs first.
+# Our df was designed to pass all checks:
+#   check_data_frame : df is a data.frame         ✓
+#   check_var        : "class" exists in df       ✓
+#   check_number_whole(k=5, min=1)                ✓
+#   check_number_decimal(over_ratio=1)            ✓
+#   check_numeric    : x and y are numeric        ✓
+#   check_na         : no missing values          ✓
+
+result_smote <- smote(df, var = "class", k = 5, over_ratio = 1)
+
+cat("smote() output shape:", nrow(result_smote), "rows\n")
+table(result_smote$class)
+# Same as smote_impl() result: cat=100, dog=100
+```
+
+---
+
+# Extra: test edge cases
+
+```{r test-edge-cases}
+# --- over_ratio = 0.5: bring dog up to 50% of cat (50 rows) ---
+result_half <- smote(df, var = "class", k = 5, over_ratio = 0.5)
+cat("over_ratio=0.5 :", "\n")
+print(table(result_half$class))
+# Expected: cat=100, dog=50
+
+# --- k = 10: more neighbors used for interpolation ---
+result_k10 <- smote(df, var = "class", k = 10, over_ratio = 1)
+cat("k=10 result    :", "\n")
+print(table(result_k10$class))
+# Same counts, different synthetic point positions
+
+# --- three-class imbalance ---
+df3 <- data.frame(
+  x     = c(rnorm(100), rnorm(30, 5), rnorm(10, -5)),
+  y     = c(rnorm(100), rnorm(30, 5), rnorm(10, -5)),
+  class = factor(c(rep("cat", 100), rep("dog", 30), rep("bird", 10)))
+)
+result3 <- smote(df3, var = "class", k = 5, over_ratio = 1)
+cat("Three-class result:\n")
+print(table(result3$class))
+# Expected: cat=100, dog=100, bird=100
+```
+
+---
+
+# Visualise before vs after
+
+```{r plot, fig.width=10, fig.height=4}
+par(mfrow = c(1, 2))
+
+# Before
+plot(df$x, df$y,
+     col  = ifelse(df$class == "cat", "steelblue", "tomato"),
+     pch  = 16, main = "Before SMOTE",
+     xlab = "x", ylab = "y")
+legend("topright", legend = c("cat (100)", "dog (20)"),
+       col = c("steelblue", "tomato"), pch = 16)
+
+# After
+plot(result_smote$x, result_smote$y,
+     col  = ifelse(result_smote$class == "cat", "steelblue", "tomato"),
+     pch  = 16, main = "After SMOTE",
+     xlab = "x", ylab = "y")
+legend("topright", legend = c("cat (100)", "dog (100)"),
+       col = c("steelblue", "tomato"), pch = 16)
+```
+
+```{r}
+df
+```
+
+```{r}
+mni <- c(1 , 1 , 1 , 1 , 1 , 1 , 1  ,1  ,1 , 2 , 1 , 1 , 1 , 1 , 1 , 1 , 2 ,13  ,7 , 2 , 1 , 1 , 1 , 1 , 1 , 1)
+mni 
+```
+
+```{r}
+minority_matrix <- as.matrix(mni)
+cat("minority_matrix shape:", nrow(minority_matrix), "x", ncol(minority_matrix), "\n")
+# [20 x 2] — rows=minority points, cols=x,y
+
+synthetic_int <- smote_data(
+  data      = minority_matrix,
+  k         = 3,
+  n_samples = 50
+)
+round(synthetic_int)
+```
+
+```{r}
+# U-shaped distribution on [0,1] ("inverse bell curve")
+
+# --- Parameters for U-shape ---
+a <- 1.   # shape1 < 1
+b <- 1.   # shape2 < 1
+
+# Generate sample
+n <- 10000
+set.seed(123)
+x_u <- rbeta(n, a, b)
+
+# Plot density of the U-shaped distribution
+curve(dbeta(x, a, b), from = 0, to = 1, n = 1001,
+      main = "Beta(0.5, 0.5) – U-shaped (inverse bell curve)",
+      ylab = "Density", col = "blue", lwd = 2)
+rug(x_u, col = "lightblue")
+```
+
+```{r}
+
+
+# --- How to make the same function uniform? ---
+# Option 1: Change the Beta parameters to (1, 1)
+x_unif1 <- rbeta(n, 1, 1)   # Beta(1,1) = Uniform(0,1)
+
+# Option 2: Probability integral transform:
+# If X ~ Beta(0.5,0.5), then F(X) ~ Uniform(0,1) where F = pbeta
+x_unif2 <- pbeta(x_u, a, b)
+
+# Check: both should look uniform in histogram
+par(mfrow = c(1, 2))
+hist(x_unif1, breaks = 30, probability = TRUE, main = "Beta(1,1)",
+     xlab = "x", col = "gray80")
+curve(dunif(x, 0, 1), add = TRUE, col = "red", lwd = 2)
+
+hist(x_unif2, breaks = 30, probability = TRUE, main = "pbeta(X) where X ~ Beta(0.5,0.5)",
+     xlab = "x", col = "gray80")
+curve(dunif(x, 0, 1), add = TRUE, col = "red", lwd = 2)
+par(mfrow = c(1, 1))
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
