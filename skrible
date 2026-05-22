@@ -1806,3 +1806,162 @@ tapho.load <- function(new_site_data, strict = FALSE) {
 
   return(tapho_loaded)
 }
+## 20/5/26 plan 
+
+
+1) toothpit 
+	landmark predictions
+	redo with new depth images from image to 3d 
+	improvements if we use different graduality image processing + add one. 
+2) meta study
+	the reproducibility problem ml for taphonomy
+	(noise vs proclaimed | corrected vs own )
+3) tapho_r
+	loading 	
+	eda * desnity linreg
+	modeling vs pikl -> conformal prediction
+	(extran tabfpn, kan, splines, cosine similarity.)
+	(shiny app)
+3) SPR- ML paper
+4) db - paper
+5) (-> take taphor packacer flow -> sh, feldhofer,.. )
+6) ( package.report card.)
+7) bone sim+bite / sima sim/ palaeo
+
+--- 	
+Q1: linerar interpolation with knn k= 5, 10, 20 or more. 
+Q2: 
+Q3: 
+---
+
+simple self destilation
+hirachical leraning
+engram - mHC
+tiny reccurent learner. 
+orthogonal attention
+
+
+## 22/5/26
+
+need done: 
+tapho_r:  eda (ml wkfl+ pikl)
+write up tapho_db.
+db + write up db. 
+supervised ml solution + write up  
+xAI on "other" + write up
+unsup.ml +write up 
+prep. meeting. (4 seperate write ups / )
+prep. questions, re-runs etc.
+xtr: landmark prediction+ meta study. plan2paper 
+
+V: sort/groupby + smote + step_augment 
+S: data clean. (_as_is_) +  load.db (clean loader.) 
+D: implement featrues + density to loader.db
+M: ml run implement. + eval plots. -> test split where, what hyperpara. runs = 5  -> run(levels vs rfe) 
+D: eval + conformal + xAI + clustering 
+X: Implement clustering + smote-> eval
+J:  
+V: (+ examen.)
+S: 
+D: write up ml run + clustering + write up Xai - first 
+-> L: EDA. collect functions.
+-> M: EDA imple. functions. 
+->(sent) X: create r package
+-> J: DB new + clean + email + write up.db
+-> V: landmark setting + prep meeting + upload r package.
+-> S: 
+-> D: final 4+2 paper proposals .plot, results, yt what sections
+--> L
+
+mdd: email, examen smwol, examen friday 17h30., mod V. esheBcp, 
+
+--> based on clustering or ML need 2d (simple 3d) representation + evolution
+
+----
+
+what function in selcet_data_new 
+  need sumby_and_goupby -> all possible (which are good possibles? -> combination.  )
+
+
+
+implemetn smote step 
+smote = linear interpolation on k= 5, ratio = 1.2
+if sum 
+  sum.append(ind)
+  sum.append(smote(sum,ind,groupby(ind+sum),select(ind+sum), k=5 or nothing?))
+
+if ind 
+  ind.append(sum)
+  sum.append(smote(sum,ind,groupby(ind+sum),select, k=5))
+
+
+ie need tapho.loader for sum and ind. ie need metarestrictions-> (  data, sum , unique_level,level,calc_level,recalc_method, indet, indet_method, 
+group_by, select,fragments_per_bone,exclude_sections  = c("teeth"))  
+-> need raw data. but what data. 
+
+
+---- tapho_db ----
+
+after eg. delet c("teeth")
+avisa and delet all zero 
+
+-> 
+  plan db structure 
+  library 
+  data
+  newSite. 
+  tapho.load
+  plot.any.function.eda
+  plik.data(superv.)
+  wfl.data(unsuperv.)
+
+---
+EDA:   
+-implement functions
+-get information from db. (how to evaluate stats.)
+---
+cluster: 
+run
+plot 
+evaluate distance etc. 
+formula? -> later.
+
+---
+
+
+
+---
+SH: 4 check. 
+3d/ two interpretation. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bones found until 1998  3) table three only bones found until 2002 4) table four only bones found until 2016.
+take the 1992, 1998, 2002,1996 as more or less timeline, a bit before or after it ok but only MNE found until that date and no NISP. give the respective paper as citations 
+
+
+
+
+
+
+
+
+
+
+
+

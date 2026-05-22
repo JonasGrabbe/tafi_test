@@ -411,31 +411,85 @@ sumby_feature <- function(data, group_by_col, filters = NULL) {
     group_by(!!group_sym) %>%
     summarise(
       ind_name             = paste(ind_name, collapse = " "),
-      site_id              = if (n_distinct(site_id) == 1) first(site_id) 
-                             else paste(unique(site_id), collapse = ", "),
+      #site_id              = if (n_distinct(site_id) == 1) first(site_id) 
+      #                       else paste(unique(site_id), collapse = ", "),
+      
+      site_id               = if (n_distinct(site_id, na.rm = TRUE) == 1) {
+                                as.character(first(na.omit(site_id)))
+                              } else {
+                                paste(unique(na.omit(as.character(site_id))), collapse = ", ")
+                              },
+
       individual_id        = paste(individual_id, collapse = " "),
-      site_name            = if (n_distinct(site_name) == 1) first(site_name)
-                             else paste(unique(site_name), collapse = ", "),
-      layer_name           = if (n_distinct(layer_name) == 1) first(layer_name)
-                             else paste(unique(layer_name), collapse = ", "),
-      count_type           = TRUE,
-      geological_period    = if (n_distinct(geological_period) == 1) first(geological_period)
-                             else paste(unique(geological_period), collapse = ", "),
-      cultural_period      = if (n_distinct(cultural_period) == 1) first(cultural_period)
-                             else paste(unique(cultural_period), collapse = ", "),
-      culture_period_2     = first(culture_period_2),
+     # site_name            = if (n_distinct(site_name) == 1) first(site_name)
+     #                        else paste(unique(site_name), collapse = ", "),
+     # layer_name           = if (n_distinct(layer_name) == 1) first(layer_name)
+     #                        else paste(unique(layer_name), collapse = ", "),
+     
+     site_name              = if (n_distinct(site_name, na.rm = TRUE) == 1) {
+                              as.character(first(na.omit(site_name)))
+                            } else {
+                              paste(unique(na.omit(as.character(site_name))), collapse = ", ")
+                            },
+
+    layer_name             =  if (n_distinct(layer_name, na.rm = TRUE) == 1) {
+                              as.character(first(na.omit(layer_name)))
+                            } else {
+                              paste(unique(na.omit(as.character(layer_name))), collapse = ", ")
+                            },
+     
+     
+     count_type           = TRUE,
+     # geological_period    = if (n_distinct(geological_period) == 1) first(geological_period)
+     #                        else paste(unique(geological_period), collapse = ", "),
+     # cultural_period      = if (n_distinct(cultural_period) == 1) first(cultural_period)
+     #                        else paste(unique(cultural_period), collapse = ", "),
+     geological_period = if (n_distinct(geological_period, na.rm = TRUE) == 1) {
+      as.character(first(na.omit(geological_period)))
+    } else {
+      paste(unique(na.omit(as.character(geological_period))), collapse = ", ")
+    },
+
+    cultural_period = if (n_distinct(cultural_period, na.rm = TRUE) == 1) {
+      as.character(first(na.omit(cultural_period)))
+    } else {
+      paste(unique(na.omit(as.character(cultural_period))), collapse = ", ")
+    },
+     
+     
+     culture_period_2     = first(culture_period_2),
       start_date_cal_bp    = first(start_date_cal_bp),
       end_date_cal_bp      = first(end_date_cal_bp),
-      mis_stage            = if (n_distinct(mis_stage) == 1) first(mis_stage)
-                             else paste(unique(mis_stage), collapse = ", "),
+      #mis_stage            = if (n_distinct(mis_stage) == 1) first(mis_stage)
+      #                       else paste(unique(mis_stage), collapse = ", "),
+      mis_stage = if (n_distinct(mis_stage, na.rm = TRUE) == 1) {
+        as.character(first(na.omit(mis_stage)))
+      } else {
+        paste(unique(na.omit(as.character(mis_stage))), collapse = ", ")
+      },
+      
+      
       karstic_system       = first(karstic_system),
       karstic_system_2     = first(karstic_system_2),
       open_air_site        = first(open_air_site),
       open_air_site_2      = first(open_air_site_2),
-      region               = if (n_distinct(region) == 1) first(region)
-                             else paste(unique(region), collapse = ", "),
-      country              = if (n_distinct(country) == 1) first(country)
-                             else paste(unique(country), collapse = ", "),
+      #region               = if (n_distinct(region) == 1) first(region)
+      #                       else paste(unique(region), collapse = ", "),
+      #country              = if (n_distinct(country) == 1) first(country)
+      #                       else paste(unique(country), collapse = ", "),
+
+     region                = if (n_distinct(region, na.rm = TRUE) == 1) {
+                              as.character(first(na.omit(region)))
+                            } else {
+                              paste(unique(na.omit(as.character(region))), collapse = ", ")
+                            },
+                        
+    country                 = if (n_distinct(country, na.rm = TRUE) == 1) {
+                              as.character(first(na.omit(country)))
+                            } else {
+                              paste(unique(na.omit(as.character(country))), collapse = ", ")
+                            },
+
       mni                  = sum(mni, na.rm = TRUE),
       
       age_category = case_when(
@@ -459,8 +513,16 @@ sumby_feature <- function(data, group_by_col, filters = NULL) {
       funerary_context     = first(funerary_context),
       discovery_context    = first(discovery_context),
       degree_of_excavation = first(degree_of_excavation),
-      hominin_species      = if (n_distinct(hominin_species) == 1) first(hominin_species)
-                             else paste(unique(hominin_species), collapse = ", "),
+      #hominin_species      = if (n_distinct(hominin_species) == 1) first(hominin_species)
+      #                       else paste(unique(hominin_species), collapse = ", "),
+      
+      
+    hominin_species = if (n_distinct(hominin_species, na.rm = TRUE) == 1) {
+                      as.character(first(na.omit(hominin_species)))
+                    } else {
+                      paste(unique(na.omit(as.character(hominin_species))), collapse = ", ")
+                    },
+      
       observation          = paste(obs_temp, collapse = "; "),
       reference            = first(reference),
       sum_count            = sum(sum_count, na.rm = TRUE),
@@ -475,7 +537,7 @@ sumby_feature <- function(data, group_by_col, filters = NULL) {
 
 
 
-select_and_group_by <- function(data, 
+select_and_group_by.v1 <- function(data, 
                                 group_by = NULL, 
                                 select = NULL, 
                                 level = NULL, 
@@ -607,31 +669,86 @@ dplyr::group_by(!!group_sym) %>%
 dplyr::summarise(
 
 ind_name          = paste(ind_name, collapse = " "),
-site_id           = if (n_distinct(site_id) == 1) first(site_id)   
-else paste(unique(site_id), collapse = ", "),
+#site_id           = if (n_distinct(site_id) == 1) first(site_id)   
+#else paste(unique(site_id), collapse = ", "),
+
+site_id = if (n_distinct(site_id, na.rm = TRUE) == 1) {
+  as.character(first(na.omit(site_id)))
+} else {
+  paste(unique(na.omit(as.character(site_id))), collapse = ", ")
+},
+
 individual_id     = paste(individual_id, collapse = " "),
-site_name         = if (n_distinct(site_name) == 1) first(site_name)
-else paste(unique(site_name), collapse = ", "),
-layer_name        = if (n_distinct(layer_name) == 1) first(layer_name)
-else paste(unique(layer_name), collapse = ", "),
+#site_name         = if (n_distinct(site_name) == 1) first(site_name)
+#else paste(unique(site_name), collapse = ", "),
+#layer_name        = if (n_distinct(layer_name) == 1) first(layer_name)
+#else paste(unique(layer_name), collapse = ", "),
+
+
+site_name = if (n_distinct(site_name, na.rm = TRUE) == 1) {
+  as.character(first(na.omit(site_name)))
+} else {
+  paste(unique(na.omit(as.character(site_name))), collapse = ", ")
+},
+
+layer_name = if (n_distinct(layer_name, na.rm = TRUE) == 1) {
+  as.character(first(na.omit(layer_name)))
+} else {
+  paste(unique(na.omit(as.character(layer_name))), collapse = ", ")
+},
+
 count_type        = TRUE,
-geological_period = if (n_distinct(geological_period) == 1) first(geological_period)
-else paste(unique(geological_period), collapse = ", "),
-cultural_period   = if (n_distinct(cultural_period) == 1) first(cultural_period)
-else paste(unique(cultural_period), collapse = ", "),
+#geological_period = if (n_distinct(geological_period) == 1) first(geological_period)
+#else paste(unique(geological_period), collapse = ", "),
+#cultural_period   = if (n_distinct(cultural_period) == 1) first(cultural_period)
+#else paste(unique(cultural_period), collapse = ", "),
+
+geological_period = if (n_distinct(geological_period, na.rm = TRUE) == 1) {
+  as.character(first(na.omit(geological_period)))
+} else {
+  paste(unique(na.omit(as.character(geological_period))), collapse = ", ")
+},
+
+cultural_period = if (n_distinct(cultural_period, na.rm = TRUE) == 1) {
+  as.character(first(na.omit(cultural_period)))
+} else {
+  paste(unique(na.omit(as.character(cultural_period))), collapse = ", ")
+},
+
 culture_period_2  = first(culture_period_2),
 start_date_cal_bp = first(start_date_cal_bp),
 end_date_cal_bp   = first(end_date_cal_bp),
-mis_stage         = if (n_distinct(mis_stage) == 1) first(mis_stage)
-else paste(unique(mis_stage), collapse = ", "),
+#mis_stage         = if (n_distinct(mis_stage) == 1) first(mis_stage)
+#else paste(unique(mis_stage), collapse = ", "),
+
+mis_stage = if (n_distinct(mis_stage, na.rm = TRUE) == 1) {
+  as.character(first(na.omit(mis_stage)))
+} else {
+  paste(unique(na.omit(as.character(mis_stage))), collapse = ", ")
+},
+
 karstic_system    = first(karstic_system),
 karstic_system_2  = first(karstic_system_2),
 open_air_site     = first(open_air_site),
 open_air_site_2   = first(open_air_site_2),
-region            = if (n_distinct(region) == 1) first(region)
-else paste(unique(region), collapse = ", "),
-country           = if (n_distinct(country) == 1) first(country)
-else paste(unique(country), collapse = ", "),
+#region            = if (n_distinct(region) == 1) first(region)
+#else paste(unique(region), collapse = ", "),
+#country           = if (n_distinct(country) == 1) first(country)
+#else paste(unique(country), collapse = ", "),
+
+
+region = if (n_distinct(region, na.rm = TRUE) == 1) {
+  as.character(first(na.omit(region)))
+} else {
+  paste(unique(na.omit(as.character(region))), collapse = ", ")
+},
+
+country = if (n_distinct(country, na.rm = TRUE) == 1) {
+  as.character(first(na.omit(country)))
+} else {
+  paste(unique(na.omit(as.character(country))), collapse = ", ")
+},
+
 mni               = sum(mni, na.rm = TRUE),
 
 age_category = dplyr::case_when(
@@ -655,8 +772,15 @@ taphonomic_context   = first(taphonomic_context),
 funerary_context     = first(funerary_context),
 discovery_context    = first(discovery_context),
 degree_of_excavation = first(degree_of_excavation),
-hominin_species      = if (n_distinct(hominin_species) == 1) first(hominin_species)
-else paste(unique(hominin_species), collapse = ", "),
+#hominin_species      = if (n_distinct(hominin_species) == 1) first(hominin_species)
+#else paste(unique(hominin_species), collapse = ", "),
+
+hominin_species = if (n_distinct(hominin_species, na.rm = TRUE) == 1) {
+  as.character(first(na.omit(hominin_species)))
+} else {
+  paste(unique(na.omit(as.character(hominin_species))), collapse = ", ")
+},
+
 observation          = paste(obs_temp, collapse = "; "),
 reference            = first(reference),
 sum_count            = sum(Reduce("+", count), na.rm = TRUE) ,

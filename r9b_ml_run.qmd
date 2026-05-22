@@ -16,14 +16,14 @@ editor:
 source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
 excel_path <- "hspa-test.xlsx"
 tapho_db <- tapho.loader(excel_path, sum=FALSE , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet", 
-group_by = c("mis_stage") ,
+group_by = c( "cultural_period", "geological_period") ,
 #select = c("gender"="Indet") , 
 exclude_sections = c("arms","legs","cranium","shoulder","hands"))
 tapho_db
 ```
 
 ```{r}
-tapho_db$cultural_period
+tapho_db$geological_period
 ```
 
 ```{r}
