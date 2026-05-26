@@ -1860,7 +1860,7 @@ D: implement featrues + density to loader.db
 M: ml run implement. + eval plots. -> test split where, what hyperpara. runs = 5  -> run(levels vs rfe) 
 D: eval + conformal + xAI + clustering 
 X: Implement clustering + smote-> eval
-J:  
+J:  -->> how to run git in parallel on three machines.
 V: (+ examen.)
 S: 
 D: write up ml run + clustering + write up Xai - first 
@@ -1879,9 +1879,15 @@ mdd: email, examen smwol, examen friday 17h30., mod V. esheBcp,
 
 ----
 
-what function in selcet_data_new 
-  need sumby_and_goupby -> all possible (which are good possibles? -> combination.  )
+groupby, smote, feature / loader. (pca^2, fuzzy_set level 0.) + 2 pipes w/ eval. & plots
 
+
+what function in selcet_data_new 
+  need sumby_and_goupby -> all possible (which are good possibles? -> combination (how to do the combination).)
+  smote input meta plut one_skeleton.
+    - 1 dim smote 
+    - smote knn =  5 -> back to mne 
+    - -> tapho.loader   
 
 
 implemetn smote step 
@@ -1895,7 +1901,7 @@ if ind
   sum.append(smote(sum,ind,groupby(ind+sum),select, k=5))
 
 
-ie need tapho.loader for sum and ind. ie need metarestrictions-> (  data, sum , unique_level,level,calc_level,recalc_method, indet, indet_method, 
+ie need tapho.loader for sum and ind. ie need metarestrictions-> (data, sum , unique_level,level,calc_level,recalc_method, indet, indet_method, 
 group_by, select,fragments_per_bone,exclude_sections  = c("teeth"))  
 -> need raw data. but what data. 
 
