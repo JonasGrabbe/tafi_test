@@ -17,7 +17,7 @@ source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,
 excel_path <- "hspa-test.xlsx"
 
 system.time({
-tapho_db <- tapho.loader(excel_path, sum=TRUE , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet", 
+tapho_db <- tapho.loader(excel_path, sum=FALSE , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet", 
 #group_by = c( "cultural_period", "mis_stage","gender") ,
 #select = c("gender"="Indet") , 
 exclude_sections = c("arms","legs","cranium","shoulder","hands"))})

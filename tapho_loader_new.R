@@ -162,6 +162,35 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
       }
 
     surplus      <- max(0L, parent_count) # no double - sum(existing_counts))
+    if (part == "legs") {
+        print(part)
+        print(existing_counts) 
+        print(max_counts) 
+        print(surplus)
+    }
+
+    open_slots <- max_counts - existing_counts
+
+if (sum(open_slots, na.rm = TRUE) < surplus) {
+  stop(
+    "\nCannot distribute surplus.",
+    "\nkey: ", key,
+    "\npart: ", part,
+    "\ncurrent_level: ", current_level,
+    "\ntarget_level: ", target_level,
+    "\nparent_elem: ", parent_elem,
+    "\nparent_clean: ", parent_clean,
+    "\nchildren: ", paste(real_children, collapse = ", "),
+    "\nparent_count: ", parent_count,
+    "\nexisting_counts: ", paste(existing_counts, collapse = ", "),
+    "\nmax_counts: ", paste(max_counts, collapse = ", "),
+    "\nopen_slots: ", paste(open_slots, collapse = ", "),
+    "\nsurplus: ", surplus,
+    call. = FALSE
+  )
+}
+
+    #print(part)
     final_counts <- distribute_surplus(existing_counts, max_counts, surplus)
     #if (part == "pelvic") {}
 
@@ -683,6 +712,107 @@ if (sum) {
 
 
 tapho.loader <- function(
+  data,
+  sum               = TRUE,
+  unique_level      = TRUE,
+  level             = NULL,
+  calc_level        = c("min", "max", "mode"),
+  recalc_method     = c("min", "filter", "direct"),
+  indet             = TRUE,
+  indet_method      = c("up", "dist", "delet"),
+  group_by          = NULL,
+  select            = NULL,
+  fragments_per_bone = 3,
+  exclude_sections  = c("teeth")
+) {
+
+  # ── Setup ──────────────────────────────────────────────────────────────────
+  meta_set(indet)
+  on.exit(detach("meta_env"), add = TRUE)
+
+  calc_level   <- match.arg(calc_level)
+  indet_method <- match.arg(indet_method)
+
+  # ── Stage 1: Load and parse all Excel sheets ───────────────────────────────
+  db <- read_excel_sheets(
+    file_path          = data,
+    level              = level,
+    calc_level         = calc_level,
+    indet              = indet,
+    indet_method       = indet_method,
+    fragments_per_bone = fragments_per_bone,
+    meta               = meta
+  )
+print(db)
+  # ── Stage 2: Group and aggregate by site (and optional extra variables) ────
+  if (sum) {
+    group_by <- if (is.null(group_by)) "site_id" else union("site_id", group_by)
+  }
+  print(db$site_id)
+  db <- select_and_group_by(
+    data         = db,
+    group_by     = group_by,
+    select       = select,
+    method       = recalc_method,
+    level        = level,
+    unique_level = unique_level
+  )
+
+  # ── Stage 3: Compute MNE-derived variables for each site row ──────────────
+  results_list <- lapply(seq_len(nrow(db)), function(i) {
+
+    input_df <- data.frame(
+      element = db$element[[i]],
+      count   = db$count[[i]]
+    )
+  
+    # Build bone_data as its own pipeline — no chain into the if
+    bone_data <- input_df %>%
+      left_join(
+        elements_data %>% select(ElementsOne, Bone_Count, Skeleton_Section),
+        by = c("element" = "ElementsOne")
+      ) %>%
+      filter(!Skeleton_Section %in% exclude_sections)
+  
+    # Guard is now a plain if, not part of the pipe
+    if (nrow(bone_data) == 0) return(NULL)
+  
+    skeleton <- data.frame(element = bone_data$element, count = bone_data$Bone_Count)
+    MNI      <- db$mni[[i]]
+  
+    convertMNEtoVariables_v3(
+      MNE         = bone_data$count,
+      skeleton    = skeleton,
+      individuals = MNI
+    )
+  })
+
+  # ── Stage 4: Unpack results into top-level columns and return ──────────────
+  db %>% select(-c(count,element)) %>%
+    mutate(mne_features = results_list) %>%
+    mutate(
+      # update sum_count /bone.level / 
+      element                           = lapply(mne_features, `[[`, "element_2"),
+      MNE                               = lapply(mne_features, `[[`, "MNE"),
+      MNAU                              = lapply(mne_features, `[[`, "MNAU"),
+      MAU                               = lapply(mne_features, `[[`, "MAU"),
+      PercentMAU                        = lapply(mne_features, `[[`, "PercentMAU"),
+      PercentMNAU                       = lapply(mne_features, `[[`, "PercentMNAU"),
+      ReMNAU                            = lapply(mne_features, `[[`, "ReMNAU"),
+      AcReMNAU                          = lapply(mne_features, `[[`, "AcReMNAU"),
+      CumulativeReMNAU                  = lapply(mne_features, `[[`, "CumulativeReMNAU"),
+      ProportionalRep_MNIbased          = lapply(mne_features, `[[`, "ProportionalRep_MNIbased"),
+      MNI_used_assemblage               = lapply(mne_features, `[[`, "MNI_used_assemblage"),
+      Mean_MNAU_assemblage              = lapply(mne_features, `[[`, "Mean_MNAU_assemblage"),
+      Mean_part_abundance               = lapply(mne_features, `[[`, "Mean_part_abundance"),
+      OverallProportionalRep_assemblage = lapply(mne_features, `[[`, "OverallProportionalRep_assemblage")
+    ) %>%
+    select(-mne_features)
+}
+
+# __________________ tapho_loader_ml_wfl ____________________
+
+tapho.loader.wfl <- function(
   data,
   sum               = TRUE,
   unique_level      = TRUE,

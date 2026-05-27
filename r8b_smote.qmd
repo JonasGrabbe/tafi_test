@@ -65,7 +65,7 @@ POSITION_MAX <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
 
 excel_path <- "hspa-test.xlsx"
 
-results <- random_vectors(n = 3)  # however many you need
+results <- random_vectors(n = 27)  # however many you need
 
 tapho_results <- lapply(results, function(vec) {
     print(vec)
@@ -99,6 +99,7 @@ tapho_db
 ```{r}
 
 
+tapho_results 
 ```
 
 
