@@ -1961,10 +1961,17 @@ bones found until 1998  3) table three only bones found until 2002 4) table four
 take the 1992, 1998, 2002,1996 as more or less timeline, a bit before or after it ok but only MNE found until that date and no NISP. give the respective paper as citations 
 
 
+path
+db <- read_excel_sheets
+gouby_sum T/F # seperatly ? 
+db <- select_and_group_by
+db<- add_derived_var
+db<- add_ratios+desity+pca,mdd # one_two more ? 
 
+wfl_level <- 
+wfl_rfe <- 
 
-
-
+use_pickle_new_site <- 
 
 
 
