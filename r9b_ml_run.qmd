@@ -205,10 +205,16 @@ prepare_tuning_input_from_tibble(
 path = "C:/Users/jonas.grabbe/Documents/hpa_modeling/hpa_modelilng_post_eshe/post/pmnau_tb_level_2
 ```
 
+```{r}
+colnames(tb)[-c(1,2)]
+```
+
 
 ```{r}
 source("modeling/run_tuning.R")
+```
 
+```{r}
 # example: if you want to use the CumulativeReMNAU list-column
 run_tuning_from_tibble(
   tapho_db = tb,
@@ -217,11 +223,11 @@ run_tuning_from_tibble(
   levels_vec = 1,   # or whatever representation actually matches your feature vector
   models_vec = c("SVM_RBF", "SVM_Linear", "RandomForest",
                  "XGBoost", "DecisionTree", "KNN", "MLP"),
-  n_iterations_global = 30,
-  variant_feature_col = c(cremnau = "CumulativeReMNAU"),
-  feature_names_by_level = list(
-    "1" = paste0("feat_", 1:17)   # replace with real names if your vectors are length 17
-  ),
+  n_iterations_global = 5, #30,
+  variant_feature_col = c(remnau = "ReMNAU"),
+  feature_names_by_level = colnames(tb)[-c(1,2)],
+    #list("1" = paste0("feat_", 1:17)   # replace with real names if your vectors are length 17),
+
   target_variable = "taphonomic_context",
   site_name_col = "site_name",
   site_id_col = "site_id"

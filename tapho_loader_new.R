@@ -732,7 +732,7 @@ tapho.loader <- function(
 
   calc_level   <- match.arg(calc_level)
   indet_method <- match.arg(indet_method)
-
+print(meta)
   # ── Stage 1: Load and parse all Excel sheets ───────────────────────────────
   db <- read_excel_sheets(
     file_path          = data,

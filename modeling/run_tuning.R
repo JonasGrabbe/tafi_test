@@ -9,8 +9,8 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-source("hpa_sdk.R")                # has compute_classification_report_from_confmats()
-source("hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
+source("modeling/hpa_sdk.R")                # has compute_classification_report_from_confmats()
+source("modeling/hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
                                    # get_model_spec, tune_single_model_combo, etc.
 
 
@@ -858,9 +858,10 @@ run_tuning_from_tibble <- function(
 ) {
   for (task_name in tasks) {
     for (variant in variants) {
-      if (!variant %in% names(variant_feature_col)) {
-        stop("No feature column mapping defined for variant: ", variant)
-      }
+      #if (!variant %in% names(variant_feature_col)) {
+      #  print(variant_feature_col)
+      #  stop("No feature column mapping defined for variant: ", variant)
+      #}
 
       feature_col <- unname(variant_feature_col[[variant]])
 

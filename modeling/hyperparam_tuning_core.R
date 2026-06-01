@@ -400,7 +400,7 @@ tune_single_model_combo <- function(
   # -------------------------------------------------------
   # 2. Save skeleton metadata for this level
   # -------------------------------------------------------
-  skel_info <- skeleton_info_for_level(level)
+  skel_info <- skeleton_info_for_level(level)     # tapho_db$count[1], $element[1]
   readr::write_csv(
     skel_info$skeleton_df,
     file.path(
