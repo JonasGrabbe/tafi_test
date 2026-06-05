@@ -1968,13 +1968,60 @@ db <- select_and_group_by
 db<- add_derived_var
 db<- add_ratios+desity+pca,mdd # one_two more ? 
 
+-> ratios needs skeleton_section and one_bone element but at the moment we have tribble 
+
+1) check  derived_feature function (what if c(teeth) missing, what if NA ste to 0 .)
+2) do not add 100 add 2 one feature names, one values. 
+3) how worklfow
+.
+----
+meta all 
+smote.
+step_smote
+--
+flow_1
+flow_2
+--
+clean haspa
+load haspa
+---
+run all "light"
+---
+all meta eda
+---
+pca, cluster, mdr + interpred
+sh4
+pretty plot
+--
+tapho_R. 
+----
+
+
 wfl_level <- 
 wfl_rfe <- 
 
 use_pickle_new_site <- 
 
 
+-> 1k levels + db = There were 50 or more warnings (use warnings() to see the first 50)
+user   system  elapsed 
+23722.22   384.48 24674.75 
 
 
-
-
+- ratio features get bone info(pca, mdd, fuzzy, - neg.lvl's) -> merge (4)
+- add density (5)
+- smote (2)
+- meta selection (1) 
+- bucle 1k levels (3)
+- rfe. (1h each.) - 18h send.24 run -> write_up (6)
+prep: 
+- xAI (feture importance, conformal, %acc % plot)
+- cluster - mdd.
+- eda. one_day. _> 8h + write up. 
+----> write up * 4
+- tapho_R -> one day at least. viernes. 
+- db-paper. sabado. 
+- landmark_pred -> one_day. viernes. 
+------>
+-
+-
