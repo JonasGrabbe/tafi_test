@@ -30,7 +30,7 @@ tapho_db
 
 
 ```{r}
-tapho_db$One_Skeleton_count
+tapho_db$mnau_appendicular_sum
 
 system.time({
   # Ihr R-Code hier
@@ -42,18 +42,18 @@ system.time({
 
 ```{r}
 
-tapho_db[c(130:135)]
+tapho_db[c(170:178)]
 ```
 
 
 ```{r}
 
-
+colnames(tapho_db)
 ```
 
 
 ```{r}
-
+tapho_db$MNE
 
 ```
 
