@@ -18,9 +18,10 @@ excel_path <- "hspa-test.xlsx"
 
 system.time({
 tapho_db <- tapho.loader(excel_path
-, sum=FALSE , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet"#, 
+, sum=FALSE , level = c(1,1,1,1,1,1,1,1,1,1,1) , indet = TRUE, indet_method = "delet"#, 
 #group_by = c( "cultural_period", "mis_stage","gender") ,
 #select = c("gender"="Indet") , 
+
 #exclude_sections = c("arms","legs","cranium","shoulder","hands")
 )
 })
@@ -53,13 +54,13 @@ colnames(tapho_db)
 
 
 ```{r}
-tapho_db$MNE
+print(tapho_db[c(62:72)], n=26)
 
 ```
 
 
 ```{r}
-
+tapho_db$PercentMNAU
 
 ```
 

@@ -27,13 +27,18 @@ source("hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_reco
 
 tidymodels_prefer()
 
+
+
+
+
+
 # -----------------------------------------------------------------
 # Global settings
 # -----------------------------------------------------------------
 
 tasks        <- c("4class", "cannibalism_vs_fc", "fc_vs_rest")
 variants     <- c("pmnau", "remnau")
-levels_vec   <- 1:4
+levels_vec   <- 1:4  
 models_vec   <- c("SVM_RBF", "SVM_Linear", "RandomForest",
                   "XGBoost", "DecisionTree", "KNN", "MLP")
 

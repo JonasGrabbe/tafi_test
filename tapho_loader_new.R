@@ -6,7 +6,7 @@ source("collapse_down_step.R")
 source("indet.R")
 source("meta/meta_set.R")
 source("derived_features.R")
-source("density_features.R")
+source("density_features_fixed.R")
 
 source("convertMNEtovariables_new.R")
 
