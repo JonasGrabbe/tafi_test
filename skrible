@@ -1939,6 +1939,7 @@ formula? -> later.
 ---
 SH: 4 check. 
 3d/ two interpretation. 
+---
 
 
 
@@ -1995,6 +1996,18 @@ pretty plot
 --
 tapho_R. 
 ----
+check policy for exclude_section
+for derived features and density features. (how to delet NA (set to zero imput knn ? ))
+-> cgpt -> debugging derived features.
+----
+tb <- tapho_db[, c(1:4, 26, 43)] %>%
+  mutate(ReMNAU = lapply(ReMNAU, function(vec) 
+    setNames(vec, tapho_db$element[[1]])
+  )) %>%
+  unnest_wider(ReMNAU)
+tb
+what "id" used what input in smote , what used 1... site_indiv "_"...
+---
 
 
 wfl_level <- 
@@ -2025,3 +2038,5 @@ prep:
 ------>
 -
 -
+----
+id

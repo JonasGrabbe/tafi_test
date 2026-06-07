@@ -54,18 +54,27 @@ colnames(tapho_db)
 
 
 ```{r}
+<<<<<<< HEAD
 print(tapho_db[c(62:72)], n=26)
+=======
+tapho_db$element
+>>>>>>> 93d8dfe1311c40556dbddfabd37dc7615bb7ea5d
 
 ```
 
 
 ```{r}
+<<<<<<< HEAD
 tapho_db$PercentMNAU
 
+=======
+
+tapho_db$mni
+>>>>>>> 93d8dfe1311c40556dbddfabd37dc7615bb7ea5d
 ```
 
 ```{r}
-
+tapho_db
 ```
 
 
