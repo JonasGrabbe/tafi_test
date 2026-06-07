@@ -20,7 +20,7 @@ c(5,5,1,3,4,3,3,5,4,3,5)
 
 
 ```{r}
-POSITION_MAX <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+POSITION_MAX <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)
 
 random_vectors <- function(n) {
   # Total number of unique combinations possible
@@ -114,6 +114,12 @@ prod(c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5))
 
 ```{r}
 
+
+
+levels_vec <- random_vectors(n = 10)
+for (lvl in levels_vec){
+  print(lvl)
+}
 
 ```
 

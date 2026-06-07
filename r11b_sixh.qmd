@@ -53,18 +53,18 @@ colnames(tapho_db)
 
 
 ```{r}
-tapho_db$MNE
+tapho_db$element
 
 ```
 
 
 ```{r}
 
-
+tapho_db$mni
 ```
 
 ```{r}
-
+tapho_db
 ```
 
 

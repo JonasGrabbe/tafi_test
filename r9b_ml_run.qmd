@@ -31,7 +31,7 @@ system.time({
   # Ihr R-Code hier
   Sys.sleep(1) # Simuliert einen Prozess
 })
-
+tapho_db[, c(1:4, 26, 41)]
 ```
 
 ```{r}
@@ -47,7 +47,7 @@ tb
 ```
 
 ```{r}
-tb <- tapho_db[, c(4, 26, 41)] %>%
+tb <- tapho_db[, c(1:4, 26, 43)] %>%
   mutate(ReMNAU = lapply(ReMNAU, function(vec) 
     setNames(vec, tapho_db$element[[1]])
   )) %>%
