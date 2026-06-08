@@ -826,7 +826,8 @@ tapho.loader.wfl <- function(
   group_by          = NULL,
   select            = NULL,
   fragments_per_bone = 3,
-  exclude_sections  = c("teeth")
+  exclude_sections  = c("teeth"),
+  data_variant        = "ProportionalRep_MNIbased"   # <-- new parameter
 ) {
 
   # ── Setup ──────────────────────────────────────────────────────────────────
@@ -846,71 +847,89 @@ tapho.loader.wfl <- function(
     fragments_per_bone = fragments_per_bone,
     meta               = meta
   )
-print(db)
-  # ── Stage 2: Group and aggregate by site (and optional extra variables) ────
-  if (sum) {
-    group_by <- if (is.null(group_by)) "site_id" else union("site_id", group_by)
-  }
-  print(db$site_id)
-  db <- select_and_group_by(
-    data         = db,
-    group_by     = group_by,
-    select       = select,
-    method       = recalc_method,
-    level        = level,
-    unique_level = unique_level
-  )
 
-  # ── Stage 3: Compute MNE-derived variables for each site row ──────────────
-  results_list <- lapply(seq_len(nrow(db)), function(i) {
+  # ── Stage 2: Define group_by variants ─────────────────────────────────────
+  group_by_sum <- if (is.null(group_by)) "site_id" else union("site_id", group_by)
+  group_by_id  <- if ("site_id" %in% group_by) setdiff(group_by, "site_id") else group_by
 
-    input_df <- data.frame(
-      element = db$element[[i]],
-      count   = db$count[[i]]
+  # ── Stage 3: Helper — aggregate + MNE pipeline for a given grouping ────────
+  process_db <- function(grp) {
+    d <- select_and_group_by(
+      data         = db,
+      group_by     = grp,
+      select       = select,
+      method       = recalc_method,
+      level        = level,
+      unique_level = unique_level
     )
-  
-    # Build bone_data as its own pipeline — no chain into the if
-    bone_data <- input_df %>%
-      left_join(
-        elements_data %>% select(ElementsOne, Bone_Count, Skeleton_Section),
-        by = c("element" = "ElementsOne")
+
+    results_list <- lapply(seq_len(nrow(d)), function(i) {
+      input_df <- data.frame(
+        element = d$element[[i]],
+        count   = d$count[[i]]
+      )
+
+      bone_data <- input_df %>%
+        left_join(
+          elements_data %>% select(ElementsOne, Bone_Count, Skeleton_Section),
+          by = c("element" = "ElementsOne")
+        ) %>%
+        filter(!Skeleton_Section %in% exclude_sections)
+
+      if (nrow(bone_data) == 0) return(NULL)
+
+      skeleton <- data.frame(element = bone_data$element, count = bone_data$Bone_Count)
+      MNI      <- d$mni[[i]]
+
+      convertMNEtoVariables_v3(
+        MNE         = bone_data$count,
+        skeleton    = skeleton,
+        individuals = MNI
+      )
+    })
+
+    # Find task_name column index dynamically
+    #task_col <- which(names(d) == "task_name")
+
+    d %>%
+      select(-c(count, element)) %>%
+      mutate(mne_features = results_list) %>%
+      mutate(
+        element                           = lapply(mne_features, `[[`, "element_2"),
+        MNE                               = lapply(mne_features, `[[`, "MNE"),
+        MNAU                              = lapply(mne_features, `[[`, "MNAU"),
+        MAU                               = lapply(mne_features, `[[`, "MAU"),
+        PercentMAU                        = lapply(mne_features, `[[`, "PercentMAU"),
+        PercentMNAU                       = lapply(mne_features, `[[`, "PercentMNAU"),
+        ReMNAU                            = lapply(mne_features, `[[`, "ReMNAU"),
+        AcReMNAU                          = lapply(mne_features, `[[`, "AcReMNAU"),
+        CumulativeReMNAU                  = lapply(mne_features, `[[`, "CumulativeReMNAU"),
+        ProportionalRep_MNIbased          = lapply(mne_features, `[[`, "ProportionalRep_MNIbased"),
+        MNI_used_assemblage               = lapply(mne_features, `[[`, "MNI_used_assemblage"),
+        Mean_MNAU_assemblage              = lapply(mne_features, `[[`, "Mean_MNAU_assemblage"),
+        Mean_part_abundance               = lapply(mne_features, `[[`, "Mean_part_abundance"),
+        OverallProportionalRep_assemblage = lapply(mne_features, `[[`, "OverallProportionalRep_assemblage")
       ) %>%
-      filter(!Skeleton_Section %in% exclude_sections)
-  
-    # Guard is now a plain if, not part of the pipe
-    if (nrow(bone_data) == 0) return(NULL)
-  
-    skeleton <- data.frame(element = bone_data$element, count = bone_data$Bone_Count)
-    MNI      <- db$mni[[i]]
-  
-    convertMNEtoVariables_v3(
-      MNE         = bone_data$count,
-      skeleton    = skeleton,
-      individuals = MNI
-    )
-  })
+      select(-mne_features) %>%
+      # ── Stage 4: Unnest task_name using dynamic column position ─────────────
+    {
+      tbl <- .
+      task_col_final <- which(names(tbl) == data_variant)
+      tbl %>%
+        select(1:35,task_col_final) %>%
+        mutate(!!data_variant := lapply(seq_along(.data[[data_variant]]), function(i)
+          setNames(.data[[data_variant]][[i]], tbl$element[[i]])
+        )) %>%
+        unnest_wider(!!sym(data_variant))
+    }
+  }
 
-  # ── Stage 4: Unpack results into top-level columns and return ──────────────
-  db %>% select(-c(count,element)) %>%
-    mutate(mne_features = results_list) %>%
-    mutate(
-      # update sum_count /bone.level / 
-      element                           = lapply(mne_features, `[[`, "element_2"),
-      MNE                               = lapply(mne_features, `[[`, "MNE"),
-      MNAU                              = lapply(mne_features, `[[`, "MNAU"),
-      MAU                               = lapply(mne_features, `[[`, "MAU"),
-      PercentMAU                        = lapply(mne_features, `[[`, "PercentMAU"),
-      PercentMNAU                       = lapply(mne_features, `[[`, "PercentMNAU"),
-      ReMNAU                            = lapply(mne_features, `[[`, "ReMNAU"),
-      AcReMNAU                          = lapply(mne_features, `[[`, "AcReMNAU"),
-      CumulativeReMNAU                  = lapply(mne_features, `[[`, "CumulativeReMNAU"),
-      ProportionalRep_MNIbased          = lapply(mne_features, `[[`, "ProportionalRep_MNIbased"),
-      MNI_used_assemblage               = lapply(mne_features, `[[`, "MNI_used_assemblage"),
-      Mean_MNAU_assemblage              = lapply(mne_features, `[[`, "Mean_MNAU_assemblage"),
-      Mean_part_abundance               = lapply(mne_features, `[[`, "Mean_part_abundance"),
-      OverallProportionalRep_assemblage = lapply(mne_features, `[[`, "OverallProportionalRep_assemblage")
-    ) %>%
-    select(-mne_features)
+  # ── Stage 4: Run pipeline for both groupings ───────────────────────────────
+  db_sum <- process_db(group_by_sum)
+  db_id  <- process_db(group_by_id)
+
+  # ── Stage 5: Return both as a named list ──────────────────────────────────
+  list(db_id = db_id, db_sum = db_sum)
 }
 
 

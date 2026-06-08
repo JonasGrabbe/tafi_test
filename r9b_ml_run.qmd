@@ -47,11 +47,11 @@ tb
 ```
 
 ```{r}
-tb <- tapho_db[, c(1:4, 26, 43)] %>%
-  mutate(ReMNAU = lapply(ReMNAU, function(vec) 
+tb <- tapho_db[, c(1:30,46)] %>%
+  mutate(ProportionalRep_MNIbased = lapply(ProportionalRep_MNIbased, function(vec) 
     setNames(vec, tapho_db$element[[1]])
   )) %>%
-  unnest_wider(ReMNAU)
+  unnest_wider(ProportionalRep_MNIbased)
 tb
 ```
 

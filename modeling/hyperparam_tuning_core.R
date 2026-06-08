@@ -342,6 +342,7 @@ get_model_spec <- function(model_name) {
 tune_single_model_combo <- function(
   dataset_path,
   level,
+  sum, 
   data_variant,
   task_name,
   model_name,
@@ -351,10 +352,13 @@ tune_single_model_combo <- function(
   site_name_col   = "site_name"
 ) {
 
+  level_str <- paste(lvl, collapse = "_")
+
+
   cat("\n=====================================================\n")
   cat("TUNING START\n",
       "variant =", data_variant, "\n",
-      "level   =", level, "\n",
+      "level   =", level_str, "\n",
       "task    =", task_name, "\n",
       "model   =", model_name, "\n")
   cat("=====================================================\n")
@@ -366,7 +370,7 @@ tune_single_model_combo <- function(
     "results_tuning_",
     task_name, "_",
     data_variant, "_L",
-    level, "_",
+    level_str, "_",
     model_name
   )
   dir.create(RESULTS_DIR, showWarnings = FALSE, recursive = TRUE)
@@ -374,18 +378,36 @@ tune_single_model_combo <- function(
   # -------------------------------------------------------
   # 1. Load & recode data for this task
   # -------------------------------------------------------
-  raw_df <- readr::read_csv(dataset_path, show_col_types = FALSE)
+  
+  source("../tapho_loader_new.R")
+  result        <- tapho.loader.wfl(excel_path, level = level, data_variant = data_variant )
+  raw_df_id  <- result$db_id
+  raw_df_sum <- result$db_sum
+
+
+  raw_df_train <- if (sum) raw_df_sum else raw_df_id
+  raw_df_smote <- if (sum) raw_df_id  else raw_df_sum
 
   task_out <- task_recode_data(
-    raw_df         = raw_df,
+    raw_df         = raw_df_train,
     task_name      = task_name,
     target_variable= target_variable
   )
+  
 
   df             <- task_out$df
   class_levels   <- task_out$class_levels
+  # smote always 
   use_downsample <- task_out$use_downsample
+  # accuracy always
   is_binary      <- (length(class_levels) == 2)
+
+  task_out_smote <- task_recode_data(
+    raw_df         = raw_df_smote,
+    task_name      = task_name,
+    target_variable= target_variable
+  )
+smote_df <- task_out_smote$df
 
   # snapshot processed data
   saveRDS(
@@ -393,23 +415,23 @@ tune_single_model_combo <- function(
     file = file.path(
       RESULTS_DIR,
       paste0("processed_", data_variant,
-             "_L", level, "_", task_name, ".rds")
+             "_L", level_str, "_", task_name, ".rds")
     )
   )
 
   # -------------------------------------------------------
   # 2. Save skeleton metadata for this level
   # -------------------------------------------------------
-  skel_info <- skeleton_info_for_level(level)     # tapho_db$count[1], $element[1]
+  skel_info <- skeleton_info_for_level(level)     # df$count[1], $element[1] need update der.wfl
   readr::write_csv(
     skel_info$skeleton_df,
     file.path(
       RESULTS_DIR,
-      paste0("feature_reference_L", level, "_",
+      paste0("feature_reference_L", level_str, "_",
              data_variant, "_", task_name, ".csv")
     )
   )
-  cat("Level", level, ": documented",
+  cat("Level", level_str, ": documented",
       skel_info$n_features, "features.\n")
 
   # -------------------------------------------------------
@@ -417,7 +439,7 @@ tune_single_model_combo <- function(
   # -------------------------------------------------------
   set.seed(42)
   cv_folds <- vfold_cv(
-    df,
+    df, # [,-c(1:35)] +1
     v        = 3,
     repeats  = n_iterations,
     strata   = !!sym(target_variable)
@@ -430,10 +452,10 @@ tune_single_model_combo <- function(
   # 4. Recipe
   # -------------------------------------------------------
   recipe_obj <- build_recipe_for_task(
-    df              = df,
+    df              = df,  # [,-c(1:35)] +1
     target_variable = target_variable,
-    site_name_col   = site_name_col,
-    use_downsample  = use_downsample
+    site_name_col   = site_name_col, 
+    use_downsample  = use_downsample # delete
   )
 
   # -------------------------------------------------------
@@ -475,7 +497,7 @@ tune_single_model_combo <- function(
   # -------------------------------------------------------
   # 8. Metrics / ranking metric
   # -------------------------------------------------------
-  if (is_binary) {
+  if (is_binary) {  # always false
     metrics <- metric_set(accuracy, f_meas, recall, precision, roc_auc)
     ranking_metric <- "roc_auc"
   } else {
@@ -549,7 +571,7 @@ tune_single_model_combo <- function(
       "Top 10 hyperparameter combos for ",
       model_name,
       " (task ", task_name,
-      ", ", data_variant, " L", level, ") ranked by ",
+      ", ", data_variant, " L", level_str, ") ranked by ",
       ranking_metric
     )
   )
@@ -588,7 +610,7 @@ tune_single_model_combo <- function(
     labs(
       title = paste0("Accuracy by hyperparameter combo (",
                      model_name, ", ", task_name,
-                     ", ", data_variant, " L", level, ")"),
+                     ", ", data_variant, " L", level_str, ")"),
       x = "Hyperparameter combo (ranked by accuracy)",
       y = "Mean CV Accuracy"
     ) +
@@ -688,7 +710,7 @@ tune_single_model_combo <- function(
     caption = paste0(
       "Classification report for BEST hyperparameter combo (",
       model_name, ", ", task_name,
-      ", ", data_variant, " L", level, ")\n",
+      ", ", data_variant, " L", level_str, ")\n",
       "Best .config = ", best_config_id
     )
   )

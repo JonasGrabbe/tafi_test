@@ -38,30 +38,135 @@ system.time({
 
 
 ```{r}
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa-test.xlsx"
+level <-  c(1,1,1,2,2,2,2,2,2,2,2)
+system.time({
 
+result        <- tapho.loader.wfl(excel_path, level = level)
+raw_df_id  <- result$db_id
+raw_df_sum <- result$db_sum
 
+})
+raw_df_id
 ```
 
 
 ```{r}
 
+raw_df_sum[, c(1:3,28:37)] 
+```
+
+
+```{r}
+# -----------------------------------------------------------
+# 2. Task-specific class recode (4class / cannibalism_vs_fc / fc_vs_rest)
+# -----------------------------------------------------------
+task_recode_data <- function(raw_df,
+                             task_name,
+                             target_variable = "taphonomic_context") {
+
+  tvsym <- rlang::sym(target_variable)
+
+  if (task_name == "4class") {
+
+    class_levels <- c(
+      "Cannibalism",
+      "Carnivore",
+      "Funerary Context",
+      "Geological transport"
+    )
+
+    df <- raw_df %>%
+      dplyr::filter(.data[[target_variable]] %in% class_levels) %>%
+      dplyr::mutate(
+        !!tvsym := factor(.data[[target_variable]],
+                          levels = class_levels)
+      )
+
+    message("Class distribution (4class):")
+    print(table(df[[target_variable]], useNA = "ifany"))
+
+    # downsampling with themis is typically binary; turn it off
+    use_downsample <- FALSE
+
+  } else if (task_name == "cannibalism_vs_fc") {
+
+    class_levels <- c("Cannibalism", "Funerary Context")
+
+    df <- raw_df %>%
+      dplyr::filter(.data[[target_variable]] %in% class_levels) %>%
+      dplyr::mutate(
+        !!tvsym := factor(.data[[target_variable]],
+                          levels = class_levels)
+      )
+
+    message("Class distribution (cannibalism_vs_fc):")
+    print(table(df[[target_variable]], useNA = "ifany"))
+
+    use_downsample <- TRUE
+
+  } else if (task_name == "fc_vs_rest") {
+
+    rest_classes <- c("Cannibalism", "Carnivore", "Geological transport")
+
+    class_levels <- c("Funerary Context", "rest")
+
+    df <- raw_df %>%
+      dplyr::mutate(
+        !!tvsym := dplyr::case_when(
+          .data[[target_variable]] %in% rest_classes ~ "rest",
+          .data[[target_variable]] == "Funerary Context" ~ "Funerary Context",
+          TRUE ~ NA_character_
+        )
+      ) %>%
+      dplyr::filter(!is.na(.data[[target_variable]])) %>%
+      dplyr::mutate(
+        !!tvsym := factor(.data[[target_variable]],
+                          levels = class_levels)
+      )
+
+    message("Class distribution (fc_vs_rest):")
+    print(table(df[[target_variable]], useNA = "ifany"))
+
+    use_downsample <- TRUE
+
+  } else {
+    stop("Unknown task_name: ", task_name)
+  }
+
+  # helpful check
+  missing_classes <- setdiff(levels(df[[target_variable]]),
+                             unique(df[[target_variable]]))
+  if (length(missing_classes)) {
+    warning("Some expected classes missing: ",
+            paste(missing_classes, collapse = ", "))
+  }
+
+  list(
+    df              = df,
+    class_levels    = levels(df[[target_variable]]),
+    use_downsample  = use_downsample
+  )
+}
 
 ```
 
 
 ```{r}
+# -----------------------------------------------------------
+# 2. Task-specific class recode (4class / cannibalism_vs_fc / fc_vs_rest)
+# -----------------------------------------------------------
+task_name = "cannibalism_vs_fc"
+tb <- task_recode_data(raw_df_id,
+                             task_name,
+                             target_variable = "taphonomic_context")
 
-
+tb$df$
 ```
 
-
 ```{r}
-
-
-```
-
-```{r}
-
+raw_df_id[,-c(1:35)]
 ```
 
 

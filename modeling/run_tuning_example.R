@@ -2,7 +2,7 @@
 # Master tuning sweep across:
 #   tasks:       c("4class", "cannibalism_vs_fc", "fc_vs_rest")
 #   variants:    c("pmnau", "remnau")
-#   levels:      1:4
+#   levels:      random_vectors(n= 500)
 #   models:      all 7
 #
 # For each (task, variant, level):
@@ -28,17 +28,45 @@ source("hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_reco
 tidymodels_prefer()
 
 
+# -----------------------------------------------------------------
+# lvl vec start -> outsource
+# -----------------------------------------------------------------
+POSITION_MAX <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)
 
+random_vectors <- function(n) {
+  # Total number of unique combinations possible
+  max_combinations <- prod(POSITION_MAX + 1)
+  if (n > max_combinations) stop(paste("n exceeds total unique combinations:", max_combinations))
+  
+  seen <- list()
+  result <- list()
+  
+  while (length(result) < n) {
+    candidate <- mapply(function(mx) sample(1:mx, size = 1), POSITION_MAX)
+    key <- paste(candidate, collapse = "-")
+    
+    if (!key %in% seen) {
+      seen <- c(seen, key)
+      result <- c(result, list(candidate))
+    }
+  }
+  
+  result
+}
+# -----------------------------------------------------------------
+# lvl vec end -> outsource
+# -----------------------------------------------------------------
 
-
+# data path 
+excel_path <- "hspa-test.xlsx"
 
 # -----------------------------------------------------------------
 # Global settings
 # -----------------------------------------------------------------
-
+sum <- TRUE #  or FALSE
 tasks        <- c("4class", "cannibalism_vs_fc", "fc_vs_rest")
 variants     <- c("pmnau", "remnau")
-levels_vec   <- 1:4  
+levels_vec   <- random_vectors(n= 1000)  
 models_vec   <- c("SVM_RBF", "SVM_Linear", "RandomForest",
                   "XGBoost", "DecisionTree", "KNN", "MLP")
 
@@ -65,11 +93,14 @@ for (task_name in tasks) {
   for (variant in variants) {
     for (lvl in levels_vec) {
 
-      dataset_path <- sprintf("%s_tb_level_%d.csv", variant, lvl)
+      dataset_path <-  excel_path   #sprintf("%s_tb_level_%d.csv", variant, lvl)
+
+      lvl_str <- paste(lvl, collapse = "_")
+
       cat("\n\n>>> GLOBAL RUN START:",
           "task =", task_name,
           "| variant =", variant,
-          "| level =", lvl, "\n")
+          "| level =", lvl_str, "\n")
 
       # collect per-model best summary for this combo
       combo_best_list <- list()
@@ -84,6 +115,7 @@ for (task_name in tasks) {
         res <- tune_single_model_combo(
           dataset_path    = dataset_path,
           level           = lvl,
+          sum = sum, 
           data_variant    = variant,
           task_name       = task_name,
           model_name      = model_name,
@@ -118,7 +150,7 @@ for (task_name in tasks) {
         "results_tuning_summary_",
         task_name, "_",
         variant, "_L",
-        lvl
+        lvl_str
       )
       dir.create(SUMMARY_DIR, showWarnings = FALSE, recursive = TRUE)
 
@@ -138,7 +170,7 @@ for (task_name in tasks) {
         labs(
           title = paste0("Best ", best_metric_label,
                          " per model (task ", task_name,
-                         ", ", variant, " L", lvl, ")"),
+                         ", ", variant, " L", lvl_str, ")"),
           x     = "Model",
           y     = paste0("Best CV ", best_metric_label)
         ) +
@@ -165,7 +197,7 @@ for (task_name in tasks) {
         align   = "c",
         caption = paste0(
           "Best tuned performance per model for task ",
-          task_name, " (", variant, " L", lvl, "). ",
+          task_name, " (", variant, " L", lvl_str, "). ",
           "Models ranked by ", best_metric_label, "."
         )
       )
@@ -179,7 +211,7 @@ for (task_name in tasks) {
       cat("<<< GLOBAL RUN END:",
           "task =", task_name,
           "| variant =", variant,
-          "| level =", lvl, "\n",
+          "| level =", lvl_str, "\n",
           "Summary written to: ", SUMMARY_DIR, "\n\n")
     }
   }
