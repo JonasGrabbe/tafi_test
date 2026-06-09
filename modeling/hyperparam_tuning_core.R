@@ -130,39 +130,190 @@ task_recode_data <- function(raw_df,
     use_downsample  = use_downsample
   )
 }
+# -----------------------------------------------------------
+# -. ppasst Build recipe for tuning
+# -----------------------------------------------------------
+library(recipes)
+library(dplyr)
+library(rlang)
+library(themis)
 
+identity_aug <- function(x) x
+
+default_smote_fun <- function(df, target_col, neighbors, over_ratio) {
+  themis::smote(
+    df,
+    var = target_col,
+    k = neighbors,
+    over_ratio = over_ratio
+  )
+}
+
+make_smote_train_sum_id <- function(model_df_train,
+                                    raw_df_id,
+                                    raw_df_sum,
+                                    site_id_col,
+                                    target_col,
+                                    mni_col,
+                                    feature_cols,
+                                    augment_fun = identity_aug,
+                                    smote_fun   = default_smote_fun,
+                                    neighbors   = 1,
+                                    over_ratio  = 5) {
+
+  # Drop legacy site_id column if a renamed site_name column already exists
+  # (both raw tables have both columns; site_id causes a type clash in bind_rows)
+  if ("site_id" %in% names(raw_df_id)  && site_id_col != "site_id")
+    raw_df_id  <- dplyr::select(raw_df_id,  -site_id)
+  if ("site_id" %in% names(raw_df_sum) && site_id_col != "site_id")
+    raw_df_sum <- dplyr::select(raw_df_sum, -site_id)
+
+  # Cast site col to character in all three tables
+  model_df_train[[site_id_col]] <- as.character(model_df_train[[site_id_col]])
+  raw_df_id[[site_id_col]]      <- as.character(raw_df_id[[site_id_col]])
+  raw_df_sum[[site_id_col]]     <- as.character(raw_df_sum[[site_id_col]])
+
+  train_site_ids <- unique(model_df_train[[site_id_col]])
+
+  target_levels            <- levels(factor(model_df_train[[target_col]]))
+  raw_df_id[[target_col]]  <- factor(raw_df_id[[target_col]],  levels = target_levels)
+  raw_df_sum[[target_col]] <- factor(raw_df_sum[[target_col]], levels = target_levels)
+
+  dplyr::bind_rows(
+    dplyr::filter(raw_df_id,  .data[[site_id_col]] %in% train_site_ids),
+    dplyr::filter(raw_df_sum, .data[[site_id_col]] %in% train_site_ids)
+  ) |>
+    augment_fun() |>
+    dplyr::select(dplyr::all_of(c(target_col, mni_col, feature_cols))) |>
+    smote_fun(target_col = target_col, neighbors = neighbors, over_ratio = over_ratio) |>
+    dplyr::select(-dplyr::all_of(mni_col))
+}
 
 # -----------------------------------------------------------
 # 3. Build recipe for tuning
 # -----------------------------------------------------------
 build_recipe_for_task <- function(df,
-                                  target_variable = "taphonomic_context",
-                                  site_name_col   = "site_name") {
+  target_variable = "taphonomic_context",
+  site_name_col   = "site_name",
+  raw_df_id       = NULL,
+  raw_df_sum      = NULL,
+  site_id_col     = "site_name",
+  mni_col         = "mni",
+  feature_cols    = NULL,
+  use_smote       = FALSE,
+  use_downsample  = FALSE) {
 
-  # NOTE: if step_mutate_at() is deprecated in your recipes version,
-  # replace with:
-  #   step_mutate(across(all_numeric_predictors(), ~ .x / 100))
+rec <- recipes::recipe(
+as.formula(paste(target_variable, "~ .")),
+data = df
+) %>%
+recipes::update_role(!!rlang::sym(site_name_col), new_role = "ID") %>%
+# Scale BEFORE SMOTE so synthetic points are generated in scaled space.
+# If you want raw-space SMOTE, move this step after step_meta_smote.
+recipes::step_mutate(
+dplyr::across(recipes::all_numeric_predictors(), ~ .x / 100)
+)
 
-  rec <- recipe(
-    as.formula(paste(target_variable, "~ .")),
-    data = df
-  ) %>%
-    update_role(!!sym(site_name_col), new_role = "ID") %>%
-    step_mutate_at(all_numeric_predictors(), fn = ~ . / 100) 
-
-  if (use_downsample) {
-    rec <- rec %>%
-      themis::step_downsample(
-        !!sym(target_variable),
-        under_ratio = 1,
-        skip        = TRUE,
-        seed        = sample.int(10^5, 1)
-      )
-  }
-
-  rec
+if (use_smote && !is.null(raw_df_id) && !is.null(raw_df_sum)) {
+rec <- rec %>%
+step_meta_smote(
+raw_df_id    = raw_df_id,
+raw_df_sum   = raw_df_sum,
+site_id_col  = site_id_col,
+target_col   = target_variable,
+mni_col      = mni_col,
+feature_cols = feature_cols,
+neighbors    = 1,
+over_ratio   = 1,
+skip         = TRUE
+)
 }
 
+if (use_downsample) {
+rec <- rec %>%
+themis::step_downsample(
+!!rlang::sym(target_variable),
+under_ratio = 1,
+skip        = TRUE,
+seed        = sample.int(10^5, 1)
+)
+}
+
+rec
+}
+# -----------------------------------------------------------
+# --. paasssgt  Model spec + tunable parameters for each classifier
+# -----------------------------------------------------------
+
+step_meta_smote <- function(recipe,
+  raw_df_id,
+  raw_df_sum,
+  site_id_col = "site_name",
+  target_col,
+  mni_col     = "mni",
+  feature_cols,
+  augment_fun = identity_aug,
+  smote_fun   = default_smote_fun,
+  neighbors   = 1,
+  over_ratio  = 1,
+  skip        = TRUE,
+  id          = recipes::rand_id("meta_smote")) {
+
+recipes::add_step(recipe,
+structure(
+list(raw_df_id    = raw_df_id,
+raw_df_sum   = raw_df_sum,
+site_id_col  = site_id_col,
+target_col   = target_col,
+mni_col      = mni_col,
+feature_cols = feature_cols,
+augment_fun  = augment_fun,
+smote_fun    = smote_fun,
+neighbors    = neighbors,
+over_ratio   = over_ratio,
+role         = NA,        # required by recipes internals
+trained      = FALSE,
+skip         = skip,
+id           = id),
+class = c("step_meta_smote", "step")
+)
+)
+}
+
+prep.step_meta_smote <- function(x, training, info = NULL, ...) {
+x$trained <- TRUE
+x
+}
+
+bake.step_meta_smote <- function(object, new_data, ...) {
+augmented <- make_smote_train_sum_id(
+model_df_train = new_data,
+raw_df_id      = object$raw_df_id,
+raw_df_sum     = object$raw_df_sum,
+site_id_col    = object$site_id_col,
+target_col     = object$target_col,
+mni_col        = object$mni_col,
+feature_cols   = object$feature_cols,
+augment_fun    = object$augment_fun,
+smote_fun      = object$smote_fun,
+neighbors      = object$neighbors,
+over_ratio     = object$over_ratio
+)
+
+# Keep original training rows + synthetic rows
+# Drop site_id and mni from new_data to match augmented columns
+original <- new_data %>%
+dplyr::select(dplyr::all_of(names(augmented)))
+
+dplyr::bind_rows(original, augmented) |>
+tibble::as_tibble()
+}
+
+print.step_meta_smote <- function(x, ...) {
+cat("Meta SMOTE augmentation [",
+if (x$trained) "trained" else "untrained", "]\n")
+invisible(x)
+}
 
 # -----------------------------------------------------------
 # 4. Model spec + tunable parameters for each classifier
@@ -413,37 +564,45 @@ tune_single_model_combo <- function(
 
 
 # -------------------------------------------------------
-# 4. Recipe
+# 4. Recipe + workflow
 # -------------------------------------------------------
 recipe_obj <- build_recipe_for_task(
-  df              = model_df,
+  df             = model_df,
   target_variable = target_variable,
-  site_name_col   = site_name_col
-) %>%
-  step_meta_smote(
-    raw_df_id    = raw_df_id,
-    raw_df_sum   = raw_df_sum,
-    site_id_col  = site_id_col,
-    target_col   = target_variable,
-    mni_col      = mni_col,
-    feature_cols = feature_cols,
-    neighbors    = 1,
-    over_ratio   = 1,
-    skip         = TRUE
-  )
+  site_name_col  = site_name_col,
+  raw_df_id      = raw_df_id,
+  raw_df_sum     = raw_df_sum,
+  site_id_col    = site_id_col,
+  mni_col        = mni_col,
+  feature_cols   = feature_cols,
+  use_smote      = TRUE,
+  use_downsample = use_downsample
+)
 
 # -------------------------------------------------------
-# 5. Model spec
+# 5. Verify baking before wiring into workflow
+# -------------------------------------------------------
+prepped <- recipes::prep(recipe_obj, training = model_df)
+
+# Should contain original + synthetic rows, no site_name, no mni
+augmented_train <- recipes::bake(prepped, new_data = NULL)
+cat("Train rows after augmentation:", nrow(augmented_train), "\n")
+cat("Columns:", paste(names(augmented_train), collapse = ", "), "\n")
+cat("Class balance:\n")
+print(table(augmented_train[[target_variable]]))
+
+# Test bake — skip = TRUE means SMOTE is bypassed, original rows only
+processed_test <- recipes::bake(prepped, new_data = model_df)
+cat("Test rows (should equal nrow(model_df)):", nrow(processed_test), "\n")
+
+# -------------------------------------------------------
+# 6. Model spec + workflow
 # -------------------------------------------------------
 model_spec <- get_model_spec(model_name)
 
-# -------------------------------------------------------
-# 6. Workflow
-# -------------------------------------------------------
 wf <- workflows::workflow() %>%
   workflows::add_recipe(recipe_obj) %>%
   workflows::add_model(model_spec)
-  
 
   # -------------------------------------------------------
   # 7. Parameter space + grid
