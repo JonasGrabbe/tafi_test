@@ -849,8 +849,8 @@ tapho.loader.wfl <- function(
   )
 
   # ── Stage 2: Define group_by variants ─────────────────────────────────────
-  group_by_sum <- if (is.null(group_by)) "site_id" else union("site_id", group_by)
-  group_by_id  <- if ("site_id" %in% group_by) setdiff(group_by, "site_id") else group_by
+  group_by_sum <- if (is.null(group_by)) "site_name" else union("site_name", group_by)
+  group_by_id  <- if ("site_name" %in% group_by) setdiff(group_by, "site_name") else group_by
 
   # ── Stage 3: Helper — aggregate + MNE pipeline for a given grouping ────────
   process_db <- function(grp) {
