@@ -174,7 +174,7 @@ raw_df_id #[,-c(1:35)]
 
 ```{r}
 
-id_cols <- "site_id"
+id_cols <- "site_name"
 target_variable = "taphonomic_context"
 
 feature_cols <- setdiff(
@@ -201,18 +201,19 @@ model_df
 ```
 
 ```{r}
+site_id_col <- "site_name"
+target_col <- "taphonomic_context"
+mni_col <- "mni"
 feature_cols <- setdiff(
   colnames(model_df),
   c(site_id_col, target_col, mni_col)
 )
-site_id_col <- "site_id"
-target_col <- "taphonomic_context"
-mni_col <- "mni"
+
 feature_cols
 ```
 
 ```{r}
-raw_df_id
+raw_df_id$site_name
 ```
 
 ```{r}
@@ -246,6 +247,7 @@ combos         <- generate_combos(buckets)
 my_augment_fun <- make_augment_fun(
   combos         = combos,
   feature_cols   = feature_cols,
+  target_col     = target_col,     # <-- new
   integer_cols   = c("mni"),          # ✅ rounded, stays integer
   required_cols  = c("mni"),          # ✅ drop synthetic rows where mni is NA
   min_group_size = 2L
