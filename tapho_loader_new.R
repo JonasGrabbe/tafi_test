@@ -454,7 +454,7 @@ read_excel_sheets <- function(file_path,
   #print(sheet_names)
   # Read each sheet, process it, and store in a list
   processed_list <- lapply(sheet_names, function(sname) {
-    
+    print(sname)
     # Read the current sheet
     sheet_data <- readxl::read_excel(file_path, sheet = sname)
     
@@ -854,6 +854,7 @@ tapho.loader.wfl <- function(
 
   # ── Stage 3: Helper — aggregate + MNE pipeline for a given grouping ────────
   process_db <- function(grp) {
+
     d <- select_and_group_by(
       data         = db,
       group_by     = grp,
@@ -863,29 +864,66 @@ tapho.loader.wfl <- function(
       unique_level = unique_level
     )
 
+    element_lookup <- elements_data %>%
+      dplyr::transmute(
+        element_key        = gsub(" ", ".", ElementsOne),
+        One_Skeleton_count = Bone_Count,
+        Skeleton_Section   = .data$Skeleton_Section
+      )
+
     results_list <- lapply(seq_len(nrow(d)), function(i) {
+
       input_df <- data.frame(
         element = d$element[[i]],
         count   = d$count[[i]]
       )
 
       bone_data <- input_df %>%
-        left_join(
-          elements_data %>% select(ElementsOne, Bone_Count, Skeleton_Section),
+        dplyr::left_join(
+          elements_data %>%
+            dplyr::select(ElementsOne, Bone_Count, Skeleton_Section),
           by = c("element" = "ElementsOne")
         ) %>%
-        filter(!Skeleton_Section %in% exclude_sections)
+        dplyr::filter(!Skeleton_Section %in% exclude_sections)
 
-      if (nrow(bone_data) == 0) return(NULL)
+      if (nrow(bone_data) == 0) {
+        return(NULL)
+      }
 
-      skeleton <- data.frame(element = bone_data$element, count = bone_data$Bone_Count)
-      MNI      <- d$mni[[i]]
+      skeleton <- data.frame(
+        element = bone_data$element,
+        count   = bone_data$Bone_Count
+      )
 
-      convertMNEtoVariables_v3(
+      MNI <- d$mni[[i]]
+
+      var_db <- convertMNEtoVariables_v3(
         MNE         = bone_data$count,
         skeleton    = skeleton,
         individuals = MNI
       )
+
+      out_elements <- var_db$element_2
+
+      if (is.list(out_elements)) {
+        out_elements <- out_elements[[1]]
+      }
+
+      out_keys <- gsub(" ", ".", out_elements)
+
+      out_one_skeleton_count <- element_lookup$One_Skeleton_count[
+        match(out_keys, element_lookup$element_key)
+      ]
+
+      out_sections <- element_lookup$Skeleton_Section[
+        match(out_keys, element_lookup$element_key)
+      ]
+
+      var_db %>%
+        dplyr::mutate(
+          One_Skeleton_count = as.numeric(out_one_skeleton_count),
+          Skeleton_Section   = as.character(out_sections)
+        )
     })
 
     # Find task_name column index dynamically
@@ -896,6 +934,8 @@ tapho.loader.wfl <- function(
       mutate(mne_features = results_list) %>%
       mutate(
         element                           = lapply(mne_features, `[[`, "element_2"),
+        One_Skeleton_count                = lapply(mne_features, `[[`, "One_Skeleton_count"),   # new
+        Skeleton_Section                  = lapply(mne_features, `[[`, "Skeleton_Section"),     # new
         MNE                               = lapply(mne_features, `[[`, "MNE"),
         MNAU                              = lapply(mne_features, `[[`, "MNAU"),
         MAU                               = lapply(mne_features, `[[`, "MAU"),
@@ -916,7 +956,7 @@ tapho.loader.wfl <- function(
       tbl <- .
       task_col_final <- which(names(tbl) == data_variant)
       tbl %>%
-        select(1:35,task_col_final) %>%
+        select(1:37,task_col_final) %>%
         mutate(!!data_variant := lapply(seq_along(.data[[data_variant]]), function(i)
           setNames(.data[[data_variant]][[i]], tbl$element[[i]])
         )) %>%

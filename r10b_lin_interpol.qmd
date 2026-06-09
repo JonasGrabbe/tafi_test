@@ -54,7 +54,7 @@ raw_df_id
 
 ```{r}
 
-raw_df_sum[, c(1:3,28:37)] 
+raw_df_sum[, c(1:3,33:42)] 
 ```
 
 
@@ -162,77 +162,284 @@ tb <- task_recode_data(raw_df_id,
                              task_name,
                              target_variable = "taphonomic_context")
 
-tb$df$
+length(tb$df$element[[1]])
+tb$df$bone.level[[1]]
 ```
 
 ```{r}
-raw_df_id[,-c(1:35)]
-```
-
-
-```{r}
-
-```
-
-```{r}
+raw_df_id #[,-c(1:35)]
 
 ```
 
 
 ```{r}
 
+id_cols <- "site_id"
+target_variable = "taphonomic_context"
+
+feature_cols <- setdiff(
+  names(raw_df_sum),
+  c(
+    id_cols,
+    target_variable,
+
+    # metadata / non-feature columns
+    names(raw_df_sum)[1:37]
+  )
+)
+
+model_df <- raw_df_sum %>%
+  dplyr::select(
+    dplyr::all_of(id_cols),
+    dplyr::all_of(target_variable),
+    dplyr::all_of(feature_cols)
+  )
 ```
 
 ```{r}
-
-```
-
-
-```{r}
-
+model_df
 ```
 
 ```{r}
-
+feature_cols <- setdiff(
+  colnames(model_df),
+  c(site_id_col, target_col, mni_col)
+)
+site_id_col <- "site_id"
+target_col <- "taphonomic_context"
+mni_col <- "mni"
+feature_cols
 ```
 
-
 ```{r}
-
+raw_df_id
 ```
 
 ```{r}
-
-```
-
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
-```
-
-
-```{r}
-
-
+raw_df_id  <- raw_df_id  %>% dplyr::filter(site_id %in% model_df$site_id)
+raw_df_sum <- raw_df_sum %>% dplyr::filter(site_id %in% model_df$site_id)
 ```
 
 
 ```{r}
+raw_df_id  %>% dplyr::count(taphonomic_context)
+raw_df_sum %>% dplyr::count(taphonomic_context)
+```
 
+```{r}
+class(model_df$taphonomic_context)
+class(raw_df_id$taphonomic_context)
+class(raw_df_sum$taphonomic_context)
+```
+
+
+
+```{r}
+library(recipes)
+library(dplyr)
+library(rlang)
+library(themis)
+
+source("modeling/augment_metadata_combinations.R")
+combos         <- generate_combos(buckets)
+
+my_augment_fun <- make_augment_fun(
+  combos         = combos,
+  feature_cols   = feature_cols,
+  integer_cols   = c("mni"),          # ✅ rounded, stays integer
+  required_cols  = c("mni"),          # ✅ drop synthetic rows where mni is NA
+  min_group_size = 2L
+)
+
+default_smote_fun <- function(df, target_col, neighbors, over_ratio) {
+  themis::smote(
+    df,
+    var = target_col,
+    k = neighbors,
+    over_ratio = over_ratio
+  )
+}
+
+make_smote_train_sum_id <- function(model_df_train,
+                                    raw_df_id,
+                                    raw_df_sum,
+                                    site_id_col,
+                                    target_col,
+                                    mni_col,
+                                    feature_cols,
+                                    augment_fun = my_augment_fun,
+                                    smote_fun   = default_smote_fun,
+                                    neighbors   = 1,
+                                    over_ratio  = 5) {
+
+  train_site_ids <- unique(model_df_train[[site_id_col]])
+
+  raw_df_id[[site_id_col]]  <- as.character(raw_df_id[[site_id_col]])
+  raw_df_sum[[site_id_col]] <- as.character(raw_df_sum[[site_id_col]])
+
+  target_levels            <- levels(factor(model_df_train[[target_col]]))
+  raw_df_id[[target_col]]  <- factor(raw_df_id[[target_col]],  levels = target_levels)
+  raw_df_sum[[target_col]] <- factor(raw_df_sum[[target_col]], levels = target_levels)
+
+  dplyr::bind_rows(
+    dplyr::filter(raw_df_id,  .data[[site_id_col]] %in% train_site_ids),
+    dplyr::filter(raw_df_sum, .data[[site_id_col]] %in% train_site_ids)
+  ) |>
+    augment_fun() |>                                                      # ✅ full data
+    dplyr::select(dplyr::all_of(c(target_col, mni_col, feature_cols))) |> # ✅ trim after
+    smote_fun(target_col = target_col, neighbors = neighbors, over_ratio = over_ratio) |>
+    dplyr::select(-dplyr::all_of(mni_col))
+}
+```
+
+
+```{r}
+step_meta_smote <- function(recipe,
+                             raw_df_id,
+                             raw_df_sum,
+                             site_id_col  = "site_id",
+                             target_col,
+                             mni_col      = "mni",
+                             feature_cols,
+                             augment_fun  = my_augment_fun,  # ✅ fixed default
+                             smote_fun    = default_smote_fun,
+                             neighbors    = 1,
+                             over_ratio   = 1,
+                             skip         = TRUE,
+                             id           = recipes::rand_id("meta_smote")) {
+
+  recipes::add_step(recipe,
+    structure(
+      list(raw_df_id    = raw_df_id,
+           raw_df_sum   = raw_df_sum,
+           site_id_col  = site_id_col,
+           target_col   = target_col,
+           mni_col      = mni_col,
+           feature_cols = feature_cols,
+           augment_fun  = augment_fun,
+           smote_fun    = smote_fun,
+           neighbors    = neighbors,
+           over_ratio   = over_ratio,
+           role         = NA,        # required by recipes internals
+           trained      = FALSE,
+           skip         = skip,
+           id           = id),
+      class = c("step_meta_smote", "step")
+    )
+  )
+}
+
+prep.step_meta_smote <- function(x, training, info = NULL, ...) {
+  x$trained <- TRUE
+  x
+}
+
+bake.step_meta_smote <- function(object, new_data, ...) {
+  augmented <- make_smote_train_sum_id(
+    model_df_train = new_data,
+    raw_df_id      = object$raw_df_id,
+    raw_df_sum     = object$raw_df_sum,
+    site_id_col    = object$site_id_col,
+    target_col     = object$target_col,
+    mni_col        = object$mni_col,
+    feature_cols   = object$feature_cols,
+    augment_fun    = object$augment_fun,
+    smote_fun      = object$smote_fun,
+    neighbors      = object$neighbors,
+    over_ratio     = object$over_ratio
+  )
+
+  # Keep original training rows + synthetic rows
+  # Drop site_id and mni from new_data to match augmented columns
+  original <- new_data %>%
+    dplyr::select(dplyr::all_of(names(augmented)))
+
+  dplyr::bind_rows(original, augmented) |>
+    tibble::as_tibble()
+}
+
+print.step_meta_smote <- function(x, ...) {
+  cat("Meta SMOTE augmentation [",
+      if (x$trained) "trained" else "untrained", "]\n")
+  invisible(x)
+}
+
+```
+
+
+```{r}
+rec <- recipes::recipe(
+  taphonomic_context ~ .,
+  data = model_df
+) %>%
+  recipes::update_role(site_id, new_role = "id") %>%
+  step_meta_smote(
+    raw_df_id    = raw_df_id,
+    raw_df_sum   = raw_df_sum,
+    site_id_col  = site_id_col,
+    target_col   = target_col,
+    mni_col      = mni_col,
+    feature_cols = feature_cols,
+    neighbors    = 1,
+    over_ratio   = 1,
+    skip         = TRUE
+  )
+
+# Check manually
+prepped         <- prep(rec, training = model_df)
+augmented_train <- bake(prepped, new_data = NULL)
+processed_test  <- bake(prepped, new_data = model_df)
+```
+
+```{r}
+processed_test
+```
+
+```{r}
+raw_df_sum
+```
+
+
+```{r}
+processed_test$taphonomic_context
+
+```
+
+
+```{r}
+make_smote_train_sum_id(model_df,
+                                    raw_df_id,
+                                    raw_df_sum,
+                                    site_id_col,
+                                    target_col,
+                                    mni_col,
+                                    feature_cols)
+```
+
+
+```{r}
+processed_test
+```
+
+
+```{r}
+my_augment_fun <- make_augment_fun(
+  combos         = combos,
+  feature_cols   = feature_cols,
+  integer_cols   = c("mni"),
+  required_cols  = c("mni"),
+  min_group_size = 2L
+)
+
+# ✅ Wrap with a diagnostic shim to see what columns actually arrive
+debug_augment_fun <- function(x) {
+  message("Columns arriving at augment_fun: ", paste(names(x), collapse = ", "))
+  message("Bucket cols present: ",
+    paste(intersect(unlist(buckets), names(x)), collapse = ", "))
+  message("Bucket cols MISSING: ",
+    paste(setdiff(unlist(buckets), names(x)), collapse = ", "))
+  my_augment_fun(x)
+}
 
 ```
 

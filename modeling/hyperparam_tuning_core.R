@@ -22,87 +22,20 @@ tidymodels_prefer()
 # -----------------------------------------------------------
 # 1. Skeleton feature metadata, same idea as before
 # -----------------------------------------------------------
-skeleton_info_for_level <- function(level) {
+skeleton_info_for_level <- function(df) {
 
-  if (level == 1) {
-    feature_names <- c(
-      "cranium", "mandible", "hyoid","vertebrae_indet", "cervical",
-      "thoracic", "lumbar", "sternum", "rib", "clavicle", "scapula",
-      "humerus", "radius", "ulna", "carpal", "metacarpal", "hand_phalanx",
-      "sacrum", "coccyx", "os_coxae", "femur", "tibia", "fibula",
-      "patella", "tarsal", "metatarsal", "foot_phalanx"
-    )
 
     skeleton_df <- data.frame(
-      element = feature_names,
-      count = c(
-        1,1,1,24,7,12,5,1,24,2,2,2,2,2,16,10,28,1,1,2,2,2,2,2,14,10,28
-      )
+      element = df$element[[1]],
+      count = df$One_Skeleton_count[[1]]
     )
 
-  } else if (level == 2) {
-
-    feature_names <- c(
-      "cranium_2", "vertebrae_2", "thorax_2",
-      "shoulder_2", "arms_2", "hands_2",
-      "pelvic_2", "legs_2", "foot_2"
-    )
-
-    skeleton_df <- data.frame(
-      element = feature_names,
-      count = c(
-        2,   # cranium_2
-        25,  # vertebrae_2
-        25,  # thorax_2
-        4,   # shoulder_2
-        6,   # arms_2
-        54,  # hands_2
-        4,   # pelvic_2
-        8,   # legs_2
-        52   # foot_2
-      )
-    )
-
-  } else if (level == 3) {
-
-    feature_names <- c(
-      "cranium_3","column_3","long_bones_3","hand_3","foot_3"
-    )
-
-    skeleton_df <- data.frame(
-      element = feature_names,
-      count = c(
-        2,   # cranium_3
-        54,  # column_3
-        18,  # long_bones_3
-        54,  # hand_3
-        52   # foot_3
-      )
-    )
-
-  } else if (level == 4) {
-
-    feature_names <- c(
-      "cranium_4", "mandibula_4", "post_cranium_4"
-    )
-
-    skeleton_df <- data.frame(
-      element = feature_names,
-      count = c(
-        1,   # cranium_4
-        1,   # mandibula_4
-        178  # post_cranium_4
-      )
-    )
-
-  } else {
-    stop("Unsupported level: ", level)
-  }
 
   list(
-    feature_names = feature_names,
+    feature_names = df$element[[1]],
     skeleton_df   = skeleton_df,
-    n_features    = length(feature_names)
+    n_features    = length(df$element[[1]]), 
+    level = df$bone.level[[1]]
   )
 }
 
@@ -204,8 +137,7 @@ task_recode_data <- function(raw_df,
 # -----------------------------------------------------------
 build_recipe_for_task <- function(df,
                                   target_variable = "taphonomic_context",
-                                  site_name_col   = "site_name",
-                                  use_downsample  = TRUE) {
+                                  site_name_col   = "site_name") {
 
   # NOTE: if step_mutate_at() is deprecated in your recipes version,
   # replace with:
@@ -349,7 +281,7 @@ tune_single_model_combo <- function(
   grid_size     = 25,
   n_iterations  = 5,
   target_variable = "taphonomic_context",
-  site_name_col   = "site_name"
+  site_name_col   = "site_name"  # "site_id"
 ) {
 
   level_str <- paste(lvl, collapse = "_")
@@ -380,7 +312,7 @@ tune_single_model_combo <- function(
   # -------------------------------------------------------
   
   source("../tapho_loader_new.R")
-  result        <- tapho.loader.wfl(excel_path, level = level, data_variant = data_variant )
+  result        <- tapho.loader.wfl(dataset_path, level = level, data_variant = data_variant )
   raw_df_id  <- result$db_id
   raw_df_sum <- result$db_sum
 
@@ -407,7 +339,7 @@ tune_single_model_combo <- function(
     task_name      = task_name,
     target_variable= target_variable
   )
-smote_df <- task_out_smote$df
+  smote_df <- task_out_smote$df
 
   # snapshot processed data
   saveRDS(
@@ -422,7 +354,7 @@ smote_df <- task_out_smote$df
   # -------------------------------------------------------
   # 2. Save skeleton metadata for this level
   # -------------------------------------------------------
-  skel_info <- skeleton_info_for_level(level)     # df$count[1], $element[1] need update der.wfl
+  skel_info <- skeleton_info_for_level(df)    
   readr::write_csv(
     skel_info$skeleton_df,
     file.path(
@@ -435,75 +367,121 @@ smote_df <- task_out_smote$df
       skel_info$n_features, "features.\n")
 
   # -------------------------------------------------------
+  # 2/3. Keep only ID, target, and feature columns
+  # -------------------------------------------------------
+
+  id_cols <- site_name_col
+
+  feature_cols <- setdiff(
+    names(df),
+    c(
+      id_cols,
+      target_variable,
+
+      # metadata / non-feature columns
+      names(df)[1:37]
+    )
+  )
+
+  model_df <- df %>%
+    dplyr::select(
+      dplyr::all_of(id_cols),
+      dplyr::all_of(target_variable),
+      dplyr::all_of(feature_cols)
+    )
+    
+    
+  # -------------------------------------------------------
   # 3. CV folds
   # -------------------------------------------------------
+
   set.seed(42)
-  cv_folds <- vfold_cv(
-    df, # [,-c(1:35)] +1
-    v        = 3,
-    repeats  = n_iterations,
-    strata   = !!sym(target_variable)
+
+  cv_folds <- rsample::vfold_cv(
+    model_df,
+    v       = 3,
+    repeats = n_iterations,
+    strata  = !!rlang::sym(target_variable)
   )
-  saveRDS(cv_folds,
-          file.path(RESULTS_DIR, "cv_folds_tuning.rds"))
+
+  saveRDS(
+    cv_folds,
+    file.path(RESULTS_DIR, "cv_folds_tuning.rds")
+  )
+
   cat("CV folds:", nrow(cv_folds), "resamples.\n")
 
-  # -------------------------------------------------------
-  # 4. Recipe
-  # -------------------------------------------------------
-  recipe_obj <- build_recipe_for_task(
-    df              = df,  # [,-c(1:35)] +1
-    target_variable = target_variable,
-    site_name_col   = site_name_col, 
-    use_downsample  = use_downsample # delete
+
+# -------------------------------------------------------
+# 4. Recipe
+# -------------------------------------------------------
+recipe_obj <- build_recipe_for_task(
+  df              = model_df,
+  target_variable = target_variable,
+  site_name_col   = site_name_col
+) %>%
+  step_meta_smote(
+    raw_df_id    = raw_df_id,
+    raw_df_sum   = raw_df_sum,
+    site_id_col  = site_id_col,
+    target_col   = target_variable,
+    mni_col      = mni_col,
+    feature_cols = feature_cols,
+    neighbors    = 1,
+    over_ratio   = 1,
+    skip         = TRUE
   )
 
-  # -------------------------------------------------------
-  # 5. Model spec with tunable params
-  # -------------------------------------------------------
-  model_spec <- get_model_spec(model_name)
+# -------------------------------------------------------
+# 5. Model spec
+# -------------------------------------------------------
+model_spec <- get_model_spec(model_name)
 
-  # -------------------------------------------------------
-  # 6. Workflow
-  # -------------------------------------------------------
-  wf <- workflow() %>%
-    add_recipe(recipe_obj) %>%
-    add_model(model_spec)
+# -------------------------------------------------------
+# 6. Workflow
+# -------------------------------------------------------
+wf <- workflows::workflow() %>%
+  workflows::add_recipe(recipe_obj) %>%
+  workflows::add_model(model_spec)
+  
 
   # -------------------------------------------------------
   # 7. Parameter space + grid
   # -------------------------------------------------------
-  param_set <- parameters(wf)
+  param_set <- dials::parameters(wf)
 
   # keep only predictor columns, drop outcome + site_name,
   # and keep only numeric columns (what SVM etc. expect)
-  predictor_df <- df %>%
+  # Keep only real predictor columns for parameter finalization.
+  # Drop outcome + ID/site columns, then keep numeric predictors only.
+  predictor_df <- model_df %>%
     dplyr::select(
-      -all_of(target_variable),
-      -all_of(site_name_col)
+      -dplyr::all_of(target_variable),
+      -dplyr::all_of(site_name_col)
     ) %>%
     dplyr::select(where(is.numeric))
-  
-  param_set_final <- finalize(param_set, predictor_df)
-  
-  grid <- grid_latin_hypercube(
+
+  param_set_final <- dials::finalize(
+    param_set,
+    predictor_df
+  )
+
+  grid <- dials::grid_latin_hypercube(
     param_set_final,
     size = grid_size
   )
-  
 
   cat("Grid size:", nrow(grid), "hyperparameter combos.\n")
-
   # -------------------------------------------------------
   # 8. Metrics / ranking metric
   # -------------------------------------------------------
-  if (is_binary) {  # always false
-    metrics <- metric_set(accuracy, f_meas, recall, precision, roc_auc)
-    ranking_metric <- "roc_auc"
-  } else {
+  #if (is_binary) {  # always false
+  #  metrics <- metric_set(accuracy, f_meas, recall, precision, roc_auc)
+  #  ranking_metric <- "roc_auc"
+  #} else {
     metrics <- metric_set(accuracy, f_meas, recall, precision)
     ranking_metric <- "accuracy"
-  }
+  #}
 
   options(yardstick.event_first = "first")
 

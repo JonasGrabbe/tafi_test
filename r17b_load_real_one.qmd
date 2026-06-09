@@ -1,0 +1,52 @@
+---
+title: "r8b ml_run april"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
+
+system.time({
+tapho_db <- tapho.loader(excel_path, sum=FALSE , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet", 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+exclude_sections = c("arms","legs","cranium","shoulder","hands"))})
+tapho_db
+
+```
+
+
+```{r}
+tapho_db$mni
+
+system.time({
+  # Ihr R-Code hier
+  Sys.sleep(1) # Simuliert einen Prozess
+})
+
+```
+
+
+```{r}
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa-test.xlsx"
+level <-  c(1,1,1,2,2,2,2,2,2,2,2)
+system.time({
+
+result        <- tapho.loader.wfl(excel_path, level = level)
+raw_df_id  <- result$db_id
+raw_df_sum <- result$db_sum
+
+})
+raw_df_id
+```
