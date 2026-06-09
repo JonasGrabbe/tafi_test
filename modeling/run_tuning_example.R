@@ -21,8 +21,8 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-source("hpa_sdk.R")                # has compute_classification_report_from_confmats()
-source("hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
+source("c:/Users/Usuario/tafi_test/modeling/hpa_sdk.R")            # has compute_classification_report_from_confmats()
+source("c:/Users/Usuario/tafi_test/modeling/hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
                                    # get_model_spec, tune_single_model_combo, etc.
 
 tidymodels_prefer()
@@ -58,12 +58,12 @@ random_vectors <- function(n) {
 # -----------------------------------------------------------------
 
 # data path 
-excel_path <- "../hspa.xlsx"
+excel_path <- "c:/Users/Usuario/tafi_test/hspa.xlsx"
 
 # -----------------------------------------------------------------
 # Global settings
 # -----------------------------------------------------------------
-sum <- TRUE #  or FALSE
+sum_setting <- TRUE #  or FALSE
 tasks        <- c("fc_vs_rest") # "4class", "cannibalism_vs_fc", 
 variants     <-  c("ProportionalRep_MNIbased")  # c("pmnau", "remnau") # other
 levels_vec   <- random_vectors(n= 1)  
@@ -114,7 +114,7 @@ for (task_name in tasks) {
         res <- tune_single_model_combo(
           dataset_path    = dataset_path,
           level           = lvl,
-          sum = sum, 
+          sum = sum_setting, 
           data_variant    = variant,
           task_name       = task_name,
           model_name      = model_name,

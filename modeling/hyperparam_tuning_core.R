@@ -191,6 +191,9 @@ make_smote_train_sum_id <- function(model_df_train,
 
 # -----------------------------------------------------------
 # 3. Build recipe for tuning
+site_id_col <- "site_name"
+target_col <- "taphonomic_context"
+mni_col <- "mni"
 # -----------------------------------------------------------
 build_recipe_for_task <- function(df,
   target_variable = "taphonomic_context",
@@ -462,7 +465,7 @@ tune_single_model_combo <- function(
   # 1. Load & recode data for this task
   # -------------------------------------------------------
   
-  source("../tapho_loader_new.R")
+  source("c:/Users/Usuario/tafi_test/tapho_loader_new.R")
   result        <- tapho.loader.wfl(dataset_path, level = level, data_variant = data_variant )
   raw_df_id  <- result$db_id
   raw_df_sum <- result$db_sum
