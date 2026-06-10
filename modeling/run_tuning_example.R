@@ -59,7 +59,7 @@ random_vectors <- function(n) {
 # -----------------------------------------------------------------
 
 # data path 
-excel_path <- "c:/Users/Usuario/tafi_test/hspa.xlsx"
+excel_path <- "c:/Users/Usuario/tafi_test-1/hspa-test.xlsx"
 
 # -----------------------------------------------------------------
 # Global settings
