@@ -22,8 +22,8 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-source("c:/Users/Usuario/tafi_test-1/modeling/hpa_sdk.R")            # has compute_classification_report_from_confmats()
-source("c:/Users/Usuario/tafi_test-1/modeling/hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
+source("c:/Users/Usuario/tafi_test/modeling/hpa_sdk.R")            # has compute_classification_report_from_confmats()
+source("c:/Users/Usuario/tafi_test/modeling/hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
                                    # get_model_spec, tune_single_model_combo, etc.
 
 tidymodels_prefer()
@@ -59,7 +59,7 @@ random_vectors <- function(n) {
 # -----------------------------------------------------------------
 
 # data path 
-excel_path <- "c:/Users/Usuario/tafi_test-1/hspa-test.xlsx"
+excel_path <- "c:/Users/Usuario/tafi_test/hspa-test.xlsx"
 
 # -----------------------------------------------------------------
 # Global settings
