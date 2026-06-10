@@ -14,10 +14,10 @@ editor:
 
 ```{r}
 source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
-excel_path <- "hspa-test.xlsx"
+excel_path <- "hspa.xlsx"
 
 system.time({
-tapho_db <- tapho.loader.wfl(excel_path, sum=FALSE , level =  c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4) #, indet = TRUE , indet_method = "delet"#, 
+tapho_db <- tapho.loader(excel_path, sum=FALSE , level =  c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4) #, indet = TRUE , indet_method = "delet"#, 
 #group_by = c( "cultural_period", "mis_stage","gender") ,
 #select = c("gender"="Indet") , 
 
@@ -117,16 +117,11 @@ tapho_db
 
 ```
 
-
-
 ```{r}
-
 
 ```
 
-
 ```{r}
-
 
 ```
 

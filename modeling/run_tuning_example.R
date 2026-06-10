@@ -9,6 +9,7 @@
 #   - tune each model over its grid
 #   - collect each model's best score (AUC if binary, Accuracy if 4-class)
 #   - save a final summary + bar plot comparing model winners
+run <- function(){
 
 suppressPackageStartupMessages({
   library(tidyverse)
@@ -21,8 +22,8 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-source("c:/Users/Usuario/tafi_test/modeling/hpa_sdk.R")            # has compute_classification_report_from_confmats()
-source("c:/Users/Usuario/tafi_test/modeling/hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
+source("c:/Users/Usuario/tafi_test-1/modeling/hpa_sdk.R")            # has compute_classification_report_from_confmats()
+source("c:/Users/Usuario/tafi_test-1/modeling/hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
                                    # get_model_spec, tune_single_model_combo, etc.
 
 tidymodels_prefer()
@@ -64,10 +65,10 @@ excel_path <- "c:/Users/Usuario/tafi_test/hspa.xlsx"
 # Global settings
 # -----------------------------------------------------------------
 sum_setting <- TRUE #  or FALSE
-tasks        <- c("fc_vs_rest") # "4class", "cannibalism_vs_fc", 
+tasks        <- c("fc_vs_rest", "4class", "cannibalism_vs_fc") 
 variants     <-  c("ProportionalRep_MNIbased")  # c("pmnau", "remnau") # other
-levels_vec   <- random_vectors(n= 1)  
-models_vec   <- c("RandomForest") #c("SVM_RBF", "SVM_Linear", "RandomForest", # just RF  "XGBoost", "DecisionTree", "KNN", "MLP")
+levels_vec   <- random_vectors(n= 10000)  
+models_vec   <- c("SVM_RBF", "SVM_Linear", "RandomForest", "XGBoost", "DecisionTree", "KNN", "MLP")
 
 # repeated CV repeats (3-fold * n_iterations_global)
 n_iterations_global <- 1 #30 # 1
@@ -75,13 +76,13 @@ n_iterations_global <- 1 #30 # 1
 # per-model hyperparameter grid sizes
 # (rough guidance: higher for more complex models / bigger search space)
 grid_sizes <- list(
-  SVM_RBF      = 1, #200,  # (cost, rbf_sigma)
-  SVM_Linear   = 5, #00,  # (cost)
-  RandomForest = 1, #500,  # (mtry, min_n, trees)
-  XGBoost      = 1, #500,  # (trees, depth, lr, etc.) <- huge space
-  DecisionTree = 5, #00,  # (depth, min_n, cost_complexity)
-  KNN          = 5, #00,  # (neighbors, weight_func, dist_power)
-  MLP          = 1 #500   # (hidden_units, penalty, epochs) - can behave messy
+  SVM_RBF      = 200,  # (cost, rbf_sigma)
+  SVM_Linear   = 200,  # (cost)
+  RandomForest = 500,  # (mtry, min_n, trees)
+  XGBoost      = 500,  # (trees, depth, lr, etc.) <- huge space
+  DecisionTree = 500,  # (depth, min_n, cost_complexity)
+  KNN          = 500,  # (neighbors, weight_func, dist_power)
+  MLP          = 500   # (hidden_units, penalty, epochs) - can behave messy
 )
 
 # -----------------------------------------------------------------
@@ -217,3 +218,4 @@ for (task_name in tasks) {
 }
 
 cat("\nALL DONE.\n")
+}
