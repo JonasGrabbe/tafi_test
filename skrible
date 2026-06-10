@@ -1911,21 +1911,22 @@ group_by, select,fragments_per_bone,exclude_sections  = c("teeth"))
 after eg. delet c("teeth")
 avisa and delet all zero 
 
--> 
+->|<-. ->|<-. ->|<-. 
   plan db structure 
   library 
   data
   newSite. 
   tapho.load
-  plot.any.function.eda
-  plik.data(superv.)
-  wfl.data(unsuperv.)
+  plot.any.function.eda->.
+  plik.data(superv.) ->.
+  wfl.data(unsuperv.) ->.
 
 ---
 EDA:   
 -implement functions
 -get information from db. (how to evaluate stats.)
 ---
+
 cluster: 
 run
 plot 
@@ -1933,21 +1934,30 @@ evaluate distance etc.
 formula? -> later.
 
 ---
-
-
-
 ---
+---
+
 SH: 4 check. 
 3d/ two interpretation. 
+
+---
 ---
 
 
+1. ) clean db  (site_id / ind_id) count down. 
+2. ) load. 
+|| load every level (bugs?)
+3. ) donwe clean db subir to dataset. 
+
+2wfl explain. 
+method. 
 
 
-
-
-
-
+solution for each other and all toether. 
+.finsh. 
+orden of publ. db.pub/tapho_R/rsp.pub/sh/feld and other others. 
+wkl.f one plus wkl-2 plus pikle. 
+. 
 
 
 

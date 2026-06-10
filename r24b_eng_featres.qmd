@@ -1,0 +1,43 @@
+---
+title: "r8b ml_run april"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa-test.xlsx"
+level <-  c(2,1,1,2,2,2,2,2,2,2,2)
+system.time({
+
+result        <- tapho.loader(excel_path, level = level)
+raw_df_id  <- result$db_id
+raw_df_sum <- result$db_sum
+
+})
+raw_df_id
+```
+
+```{r}
+result
+```
+
+
+
+```{r}
+tapho_db$mni
+
+system.time({
+  # Ihr R-Code hier
+  Sys.sleep(1) # Simuliert einen Prozess
+})
+
+```

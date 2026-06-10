@@ -1,0 +1,136 @@
+---
+title: "r7b final marzo"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+
+```{r}
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Part 0: Setup - Load Libraries and Define Parameters
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# General Data Science & Tidymodels
+library(tidyverse)
+library(tidymodels)
+library(themis)      # For SMOTE: install.packages("themis")
+library(vip)         # For variable importance plots
+library(doParallel)  # For parallel processing
+
+# Specific Model Engines (if needed beyond defaults)
+library(kernlab)     # For svm_linear via kernlab engine
+library(xgboost)     # For xgboost engine
+# library(discrim)   # Might be needed for step_lda, step_mca if used later
+
+# Potentially TaphonomyR (Commented out as it's custom)
+# library(TaphonomyR)
+library(tictoc)
+library(tidyverse)
+library(yardstick)
+
+# Optional, recommended:
+tidymodels_prefer()
+
+cat("\nlibraries loaded...\n")
+```
+
+
+```{r}
+source("modeling/run_tuning_example.R")
+run()
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```

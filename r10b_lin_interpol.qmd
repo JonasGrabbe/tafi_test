@@ -29,6 +29,13 @@ tapho_db
 
 
 ```{r}
+colnames(tapho_db)
+
+
+```
+
+
+```{r}
 tapho_db$mni
 
 system.time({

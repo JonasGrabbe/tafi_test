@@ -39,11 +39,11 @@ system.time({
 
 ```{r}
 source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
-excel_path <- "hspa.xlsx"
-level <-  c(1,1,1,2,2,2,2,2,2,2,2)
+excel_path <- "hspa-test.xlsx"
+level <-  c(2,1,1,2,2,2,2,2,2,2,2)
 system.time({
 
-result        <- tapho.loader.wfl(excel_path, level = level)
+result     <- tapho.loader.wfl(excel_path, level = level)
 raw_df_id  <- result$db_id
 raw_df_sum <- result$db_sum
 
@@ -51,8 +51,50 @@ raw_df_sum <- result$db_sum
 raw_df_id
 ```
 
+```{r}
+raw_df_id
+
+```
 
 ```{r}
-raw_df_sum$sacrum
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+
 
 ```
