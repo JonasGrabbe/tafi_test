@@ -158,8 +158,8 @@ make_smote_train_sum_id <- function(model_df_train,
                                     feature_cols,
                                     augment_fun = identity_aug,
                                     smote_fun   = default_smote_fun,
-                                    neighbors   = 1,
-                                    over_ratio  = 5) {
+                                    neighbors   = 2,
+                                    over_ratio  = 3) {
 
   # Drop legacy site_id column if a renamed site_name column already exists
   # (both raw tables have both columns; site_id causes a type clash in bind_rows)
@@ -226,21 +226,21 @@ site_id_col  = site_id_col,
 target_col   = target_variable,
 mni_col      = mni_col,
 feature_cols = feature_cols,
-neighbors    = 1,
-over_ratio   = 1,
+neighbors    = 5,
+over_ratio   = 3,
 skip         = TRUE
 )
 }
 
-if (use_downsample) {
-rec <- rec %>%
-themis::step_downsample(
-!!rlang::sym(target_variable),
-under_ratio = 1,
-skip        = TRUE,
-seed        = sample.int(10^5, 1)
-)
-}
+#if (use_downsample) {
+#rec <- rec %>%
+#themis::step_downsample(
+#!!rlang::sym(target_variable),
+#under_ratio = 1,
+#skip        = TRUE,
+#seed        = sample.int(10^5, 1)
+#)
+#}
 
 rec
 }
