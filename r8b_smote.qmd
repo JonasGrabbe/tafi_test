@@ -138,11 +138,50 @@ res
 
 ```{r}
 
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
 
+system.time({
+levels_vec <- random_vectors(n = 2)
+for (lvl in levels_vec){
+ 
+
+tapho_db <- tapho.loader(excel_path,# sum=TRUE , 
+level = lvl #, indet = FALSE#, indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+#exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+print(tapho_db)
+ print(lvl)
+}
+})
 ```
 
 
 ```{r}
 
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
+
+#system.time({
+levels_vec <- random_vectors(n = 5)
+for (lvl in levels_vec){
+  print(lvl)
+
+tapho_db <- tapho.loader(excel_path, sum= FALSE , 
+level = lvl #, indet = FALSE#, indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+#exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+print(tapho_db)
+
+}
+#})
+```
+
+```{r}
+tapho_db$element
 
 ```
