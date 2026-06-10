@@ -9,7 +9,7 @@
 #   - tune each model over its grid
 #   - collect each model's best score (AUC if binary, Accuracy if 4-class)
 #   - save a final summary + bar plot comparing model winners
-run <- function(){
+#run <- function(){
 
 suppressPackageStartupMessages({
   library(tidyverse)
@@ -59,13 +59,13 @@ random_vectors <- function(n) {
 # -----------------------------------------------------------------
 
 # data path 
-excel_path <- "c:/Users/Usuario/tafi_test/hspa-test.xlsx"
+excel_path <- "c:/Users/Usuario/tafi_test/hspa.xlsx"
 
 # -----------------------------------------------------------------
 # Global settings
 # -----------------------------------------------------------------
 sum_setting <- TRUE #  or FALSE
-tasks        <- c("fc_vs_rest", "4class", "cannibalism_vs_fc") 
+tasks        <- c( "4class", "cannibalism_vs_fc") #"fc_vs_rest",
 variants     <-  c("ProportionalRep_MNIbased")  # c("pmnau", "remnau") # other
 levels_vec   <- random_vectors(n= 10000)  
 models_vec   <- c("SVM_RBF", "SVM_Linear", "RandomForest", "XGBoost", "DecisionTree", "KNN", "MLP")
@@ -122,7 +122,7 @@ for (task_name in tasks) {
           grid_size       = this_grid_size,
           n_iterations    = n_iterations_global,
           target_variable = "taphonomic_context",
-          site_name_col   = "site_name"
+          site_name_col   = "site_id"
         )
 
         combo_best_list[[model_name]] <- res
@@ -218,4 +218,4 @@ for (task_name in tasks) {
 }
 
 cat("\nALL DONE.\n")
-}
+#}

@@ -150,48 +150,41 @@ default_smote_fun <- function(df, target_col, neighbors, over_ratio) {
 }
 
 make_smote_train_sum_id <- function(model_df_train,
-                                    raw_df_id,
-                                    raw_df_sum,
-                                    site_id_col,
-                                    target_col,
-                                    mni_col,
-                                    feature_cols,
-                                    augment_fun = identity_aug,
-                                    smote_fun   = default_smote_fun,
-                                    neighbors   = 2,
-                                    over_ratio  = 3) {
+  raw_df_id,
+  raw_df_sum,
+  site_id_col,
+  target_col,
+  mni_col,
+  feature_cols,
+  augment_fun = my_augment_fun,
+  smote_fun   = default_smote_fun,
+  neighbors   = 1,
+  over_ratio  = 5) {
 
-  # Drop legacy site_id column if a renamed site_name column already exists
-  # (both raw tables have both columns; site_id causes a type clash in bind_rows)
-  if ("site_id" %in% names(raw_df_id)  && site_id_col != "site_id")
-    raw_df_id  <- dplyr::select(raw_df_id,  -site_id)
-  if ("site_id" %in% names(raw_df_sum) && site_id_col != "site_id")
-    raw_df_sum <- dplyr::select(raw_df_sum, -site_id)
+# Cast ALL three tables to character first so bind_rows never sees a type clash
+model_df_train[[site_id_col]] <- as.character(model_df_train[[site_id_col]])  # <-- add
+raw_df_id[[site_id_col]]      <- as.character(raw_df_id[[site_id_col]])
+raw_df_sum[[site_id_col]]     <- as.character(raw_df_sum[[site_id_col]])
 
-  # Cast site col to character in all three tables
-  model_df_train[[site_id_col]] <- as.character(model_df_train[[site_id_col]])
-  raw_df_id[[site_id_col]]      <- as.character(raw_df_id[[site_id_col]])
-  raw_df_sum[[site_id_col]]     <- as.character(raw_df_sum[[site_id_col]])
+train_site_ids <- unique(model_df_train[[site_id_col]])   # now always character
 
-  train_site_ids <- unique(model_df_train[[site_id_col]])
+target_levels            <- levels(factor(model_df_train[[target_col]]))
+raw_df_id[[target_col]]  <- factor(raw_df_id[[target_col]],  levels = target_levels)
+raw_df_sum[[target_col]] <- factor(raw_df_sum[[target_col]], levels = target_levels)
 
-  target_levels            <- levels(factor(model_df_train[[target_col]]))
-  raw_df_id[[target_col]]  <- factor(raw_df_id[[target_col]],  levels = target_levels)
-  raw_df_sum[[target_col]] <- factor(raw_df_sum[[target_col]], levels = target_levels)
-
-  dplyr::bind_rows(
-    dplyr::filter(raw_df_id,  .data[[site_id_col]] %in% train_site_ids),
-    dplyr::filter(raw_df_sum, .data[[site_id_col]] %in% train_site_ids)
-  ) |>
-    augment_fun() |>
-    dplyr::select(dplyr::all_of(c(target_col, mni_col, feature_cols))) |>
-    smote_fun(target_col = target_col, neighbors = neighbors, over_ratio = over_ratio) |>
-    dplyr::select(-dplyr::all_of(mni_col))
+dplyr::bind_rows(
+dplyr::filter(raw_df_id,  .data[[site_id_col]] %in% train_site_ids),
+dplyr::filter(raw_df_sum, .data[[site_id_col]] %in% train_site_ids)
+) |>
+augment_fun() |>
+dplyr::select(dplyr::all_of(c(target_col, mni_col, feature_cols))) |>
+smote_fun(target_col = target_col, neighbors = neighbors, over_ratio = over_ratio) |>
+dplyr::select(-dplyr::all_of(mni_col))
 }
 
 # -----------------------------------------------------------
 # 3. Build recipe for tuning
-site_id_col <- "site_name"
+site_id_col <- "site_id"
 target_col <- "taphonomic_context"
 mni_col <- "mni"
 # -----------------------------------------------------------
@@ -200,7 +193,7 @@ build_recipe_for_task <- function(df,
   site_name_col   = "site_name",
   raw_df_id       = NULL,
   raw_df_sum      = NULL,
-  site_id_col     = "site_name",
+  site_id_col     = "site_id",
   mni_col         = "mni",
   feature_cols    = NULL,
   use_smote       = FALSE,
@@ -251,7 +244,7 @@ rec
 step_meta_smote <- function(recipe,
   raw_df_id,
   raw_df_sum,
-  site_id_col = "site_name",
+  site_id_col = "site_id",
   target_col,
   mni_col     = "mni",
   feature_cols,
@@ -435,7 +428,7 @@ tune_single_model_combo <- function(
   grid_size     = 25,
   n_iterations  = 5,
   target_variable = "taphonomic_context",
-  site_name_col   = "site_name"  # "site_id"
+  site_name_col   = "site_id"  # "site_id"
 ) {
 
   level_str <- paste(lvl, collapse = "_")
