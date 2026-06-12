@@ -1,0 +1,9 @@
+task,variant,level_str,model,best_accuracy,pos1,pos2,pos3,pos4,pos5,pos6,pos7,pos8,pos9,pos10,pos11,sum_level
+fc_vs_rest,ProportionalRep_MNIbased,1_1_1_2_4_2_2_4_2_3_1,RandomForest,0.8211550993809058,1,1,1,2,4,2,2,4,2,3,1,23
+fc_vs_rest,ProportionalRep_MNIbased,4_1_1_3_3_3_1_4_2_2_2,RandomForest,0.8426604757249918,4,1,1,3,3,3,1,4,2,2,2,26
+fc_vs_rest,ProportionalRep_MNIbased,3_1_1_3_3_3_2_5_3_1_4,RandomForest,0.8214911208862822,3,1,1,3,3,3,2,5,3,1,4,29
+fc_vs_rest,ProportionalRep_MNIbased,1_1_1_1_3_3_2_1_3_2_4,RandomForest,0.8218067774519388,1,1,1,1,3,3,2,1,3,2,4,22
+fc_vs_rest,ProportionalRep_MNIbased,5_1_1_1_1_1_1_1_2_1_1,RandomForest,0.8429761322906484,5,1,1,1,1,1,1,1,2,1,1,16
+fc_vs_rest,ProportionalRep_MNIbased,5_1_1_3_2_3_3_1_1_3_2,RandomForest,0.8319077875529488,5,1,1,3,2,3,3,1,1,3,2,25
+fc_vs_rest,ProportionalRep_MNIbased,3_1_1_1_3_2_2_2_3_2_4,RandomForest,0.8113901107852721,3,1,1,1,3,2,2,2,3,2,4,24
+fc_vs_rest,ProportionalRep_MNIbased,2_1_1_1_3_3_2_2_2_1_2,RandomForest,0.8530771423916585,2,1,1,1,3,3,2,2,2,1,2,20

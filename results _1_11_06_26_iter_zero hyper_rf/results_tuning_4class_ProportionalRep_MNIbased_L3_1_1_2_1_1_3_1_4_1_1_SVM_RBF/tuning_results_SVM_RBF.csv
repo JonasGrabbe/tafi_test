@@ -1,0 +1,2 @@
+rank,cost,rbf_sigma,.metric,.estimator,mean,n,std_err,.config
+1,0.993409396878374,0.18512514509535147,accuracy,multiclass,0.5848856209150327,3,0.024247094244612147,Preprocessor1_Model1

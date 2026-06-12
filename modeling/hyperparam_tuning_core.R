@@ -172,14 +172,23 @@ target_levels            <- levels(factor(model_df_train[[target_col]]))
 raw_df_id[[target_col]]  <- factor(raw_df_id[[target_col]],  levels = target_levels)
 raw_df_sum[[target_col]] <- factor(raw_df_sum[[target_col]], levels = target_levels)
 
-dplyr::bind_rows(
-dplyr::filter(raw_df_id,  .data[[site_id_col]] %in% train_site_ids),
-dplyr::filter(raw_df_sum, .data[[site_id_col]] %in% train_site_ids)
+smote_input <- dplyr::bind_rows(
+  dplyr::filter(raw_df_id,  .data[[site_id_col]] %in% train_site_ids),
+  dplyr::filter(raw_df_sum, .data[[site_id_col]] %in% train_site_ids)
 ) |>
-augment_fun() |>
-dplyr::select(dplyr::all_of(c(target_col, mni_col, feature_cols))) |>
-smote_fun(target_col = target_col, neighbors = neighbors, over_ratio = over_ratio) |>
-dplyr::select(-dplyr::all_of(mni_col))
+  augment_fun() |>
+  dplyr::select(dplyr::all_of(c(target_col, mni_col, feature_cols)))
+
+cat("\nSMOTE input class balance:\n")
+print(table(smote_input[[target_col]], useNA = "ifany"))
+
+smote_input |>
+  smote_fun(
+    target_col = target_col,
+    neighbors  = neighbors,
+    over_ratio = over_ratio
+  ) |>
+  dplyr::select(-dplyr::all_of(mni_col))
 }
 
 # -----------------------------------------------------------
@@ -486,7 +495,15 @@ tune_single_model_combo <- function(
     task_name      = task_name,
     target_variable= target_variable
   )
-  smote_df <- task_out_smote$df
+  df <- task_out$df
+
+  if (sum) {
+    raw_df_sum_recoded <- task_out$df
+    raw_df_id_recoded  <- task_out_smote$df
+  } else {
+    raw_df_id_recoded  <- task_out$df
+    raw_df_sum_recoded <- task_out_smote$df
+  }
 
   # snapshot processed data
   saveRDS(
@@ -571,7 +588,7 @@ recipe_obj <- build_recipe_for_task(
   site_id_col    = site_id_col,
   mni_col        = mni_col,
   feature_cols   = feature_cols,
-  use_smote      = TRUE,
+  use_smote      = FALSE,
   use_downsample = use_downsample
 )
 

@@ -1,0 +1,12 @@
+Table: Classification report for BEST hyperparameter combo (SVM_RBF, 4class, ProportionalRep_MNIbased L3_1_1_2_1_1_3_1_4_1_1)
+Best .config = Preprocessor1_Model1
+
+|        Class         |   Precision   |    Recall     |      F1       |  Support  |
+|:--------------------:|:-------------:|:-------------:|:-------------:|:---------:|
+|     Cannibalism      | 0.356 (0.038) | 0.911 (0.078) | 0.509 (0.032) | 7.333333  |
+|      Carnivore       |   NaN (NA)    | 0.000 (0.000) |   NaN (NA)    | 4.666667  |
+|   Funerary Context   | 0.930 (0.067) | 0.768 (0.091) | 0.836 (0.027) | 15.666667 |
+| Geological transport |   NaN (NA)    | 0.000 (0.000) |   NaN (NA)    | 4.333333  |
+|       accuracy       |               |               | 0.585 (0.042) | 32.000000 |
+|      macro_avg       | 0.643 (0.053) | 0.420 (0.042) | 0.673 (0.030) | 32.000000 |
+|     weighted_avg     | 0.747 (0.058) | 0.585 (0.062) | 0.732 (0.029) | 32.000000 |
