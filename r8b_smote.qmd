@@ -142,9 +142,9 @@ source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,
 excel_path <- "hspa.xlsx"
 
 system.time({
-levels_vec <- random_vectors(n = 2)
+levels_vec <- random_vectors(n = 1)
 for (lvl in levels_vec){
- 
+  lvl= c(2,1,1,2,2,2,2,2,2,2,2)
 
 tapho_db <- tapho.loader(excel_path,# sum=TRUE , 
 level = lvl #, indet = FALSE#, indet_method = "delet"#, 
@@ -160,28 +160,115 @@ print(tapho_db)
 
 
 ```{r}
+source("tapho_loader_wfl_features.R")
+  #tapho_loader_wfl_features
 
 source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
-excel_path <- "hspa.xlsx"
 
-#system.time({
-levels_vec <- random_vectors(n = 5)
-for (lvl in levels_vec){
-  print(lvl)
+excel_path <- "hspa-test.xlsx"
 
-tapho_db <- tapho.loader(excel_path, sum= FALSE , 
+system.time({
+levels_vec <- random_vectors(n = 1)
+#for (lvl in levels_vec){
+ lvl= c(2,1,1,2,2,2,2,2,2,2,2)
+ print(lvl)
+
+ result        <- tapho.loader.wfl.features(excel_path,# sum= FALSE , 
 level = lvl #, indet = FALSE#, indet_method = "delet"#, 
 #group_by = c( "cultural_period", "mis_stage","gender") ,
 #select = c("gender"="Indet") , 
 #exclude_sections = c("arms","legs","cranium","shoulder","hands")
 )
-print(tapho_db)
-
-}
-#})
+  raw_df_id  <- result$db_id
+  raw_df_sum <- result$db_sum
+print( raw_df_id)
+print( raw_df_sum)
+#}
+})
 ```
 
 ```{r}
-tapho_db$element
+#sum(tapho_db$mni)
+#colnames(raw_df_id)
+
+
+tb <- tapho_db %>%
+  # keep metadata + the two list-cols we want; drop site_id & taphonomic_context,
+  # and (by not selecting them) every other list-col and everything
+  # after OverallProportionalRep_assemblage
+  dplyr::select(site_name:sum_count, ReMNAU, ProportionalRep_MNIbased,
+                -site_id, -taphonomic_context) %>%
+  # name each row's vector by that row's own element names
+  dplyr::mutate(
+    ReMNAU = lapply(seq_along(ReMNAU), function(i)
+      setNames(ReMNAU[[i]], tapho_db$element[[i]])),
+    ProportionalRep_MNIbased = lapply(seq_along(ProportionalRep_MNIbased), function(i)
+      setNames(ProportionalRep_MNIbased[[i]], tapho_db$element[[i]]))
+  ) %>%
+  # spread both wide; names_sep prefixes so the shared element names don't clash
+  tidyr::unnest_wider(c(ReMNAU, ProportionalRep_MNIbased), names_sep = "_")
+
+colnames(tb)
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+
+# the OTHER list-columns to remove (keep ReMNAU & ProportionalRep_MNIbased)
+list_cols_drop <- c(
+  "bone.level", "element", "One_Skeleton_count", "Skeleton_Section",
+  "MNE", "MNAU", "MAU", "PercentMAU", "PercentMNAU", "AcReMNAU",
+  "CumulativeReMNAU", "MNI_used_assemblage", "Mean_MNAU_assemblage",
+  "Mean_part_abundance", "OverallProportionalRep_assemblage"
+)
+
+# name a row's value vector by its element labels,
+# dropping slots whose label is missing/empty/purely numeric
+name_by_element <- function(vec, elems) {
+  v  <- setNames(vec, elems)
+  nm <- names(v)
+  v[!is.na(nm) & nm != "" & !grepl("^[0-9]+$", nm)]
+}
+
+tb <- tapho_db %>%
+  mutate(
+    ReMNAU = lapply(seq_along(ReMNAU),
+                    \(i) name_by_element(ReMNAU[[i]], element[[i]])),
+    ProportionalRep_MNIbased = lapply(seq_along(ProportionalRep_MNIbased),
+                    \(i) name_by_element(ProportionalRep_MNIbased[[i]], element[[i]]))
+  ) %>%
+  select(-all_of(list_cols_drop)) %>%       # drop other list-cols, keep engineered features
+  unnest_wider(c(ReMNAU, ProportionalRep_MNIbased), names_sep = "_")
+tb
+```
+
+```{r}
+source("rfe_randomforest_taphonomy.R")
+source("pca_funerary_surface.R")
+colnames(tb)
+res <- run_rfe(tb, task_name = "fc_vs_rest")
+focus_sites <- c(
+  "Kleine Feldhofer Grotte", "Bilzingsleben", "Weimar-Ehringsdorf",
+  "Scladina Cave", "Engis / Schmerling Cave", "Trou de la Naulette",
+  "Bolomor Cave", "Cova de les Malladetes (Barx, Valencia, Spain)",
+  "Cova del Parpalló (Parpalló Cave)", "Saint-Césaire",
+  "Steinheim an der Murr", "Ochoz 1, Ochoz 2", "Peștera Muierii",
+ "Sima de los Huesos 89"                                                           
+, "Sima de los Huesos 90"                                                           
+, "Sima de los Huesos 95"                                                           
+,"Sima de los Huesos 16"                                                           
+, "Sima de los Huesos 26"
+)
+pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites)
+```
+
+```{r}
+source("eda_taphonomy.R")
+source("clean_metadata.R")
+tb  <- clean_metadata(tb)
+run_eda(tb)
 
 ```
+
