@@ -1,0 +1,2 @@
+rank_by_accuracy,.config,mean,std_err,n,trees,min_n,tree_depth,learn_rate,loss_reduction,sample_size,.metric,.estimator
+1,Preprocessor1_Model1,0.22912581699346404,0.005218695638204086,3,1557,38,3,0.009774390250434412,0.07050530229443186,0.7620582620846108,accuracy,multiclass

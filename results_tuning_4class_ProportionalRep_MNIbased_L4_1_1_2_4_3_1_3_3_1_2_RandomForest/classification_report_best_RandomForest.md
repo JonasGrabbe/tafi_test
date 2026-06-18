@@ -1,0 +1,12 @@
+Table: Classification report for BEST hyperparameter combo (RandomForest, 4class, ProportionalRep_MNIbased L4_1_1_2_4_3_1_3_3_1_2)
+Best .config = Preprocessor1_Model1
+
+|        Class         |   Precision   |    Recall     |      F1       |  Support  |
+|:--------------------:|:-------------:|:-------------:|:-------------:|:---------:|
+|     Cannibalism      | 0.724 (0.278) | 0.714 (0.247) | 0.690 (0.174) | 7.333333  |
+|      Carnivore       | 0.724 (0.240) | 0.717 (0.104) | 0.694 (0.048) | 4.666667  |
+|   Funerary Context   | 0.865 (0.132) | 0.811 (0.106) | 0.827 (0.029) | 15.666667 |
+| Geological transport | 0.750 (0.250) | 0.617 (0.126) | 0.644 (0.038) | 4.333333  |
+|       accuracy       |               |               | 0.749 (0.055) | 32.000000 |
+|      macro_avg       | 0.766 (0.225) | 0.715 (0.146) | 0.714 (0.072) | 32.000000 |
+|     weighted_avg     | 0.796 (0.197) | 0.749 (0.141) | 0.751 (0.066) | 32.000000 |

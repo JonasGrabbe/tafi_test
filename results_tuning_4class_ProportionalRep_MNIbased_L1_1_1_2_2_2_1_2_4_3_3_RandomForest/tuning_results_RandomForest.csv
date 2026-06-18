@@ -1,0 +1,2 @@
+rank,mtry,trees,min_n,.metric,.estimator,mean,n,std_err,.config
+1,48,1904,8,accuracy,multiclass,0.7514297385620915,3,0.05154874305476194,Preprocessor1_Model1

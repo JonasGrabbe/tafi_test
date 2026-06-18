@@ -1,0 +1,2 @@
+rank,trees,min_n,tree_depth,learn_rate,loss_reduction,sample_size,.metric,.estimator,mean,n,std_err,.config
+1,1020,30,8,0.03012423420856564,1.581297396885956e-6,0.27145779100246725,accuracy,binary,0.48957315086347347,3,0.0052210558354389225,Preprocessor1_Model1

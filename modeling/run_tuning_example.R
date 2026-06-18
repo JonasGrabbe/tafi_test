@@ -67,29 +67,30 @@ excel_path <- "c:/Users/Usuario/tafi_test/hspa.xlsx"
 sum_setting <- TRUE #  or FALSE
 tasks        <- c("fc_vs_rest", "4class", "cannibalism_vs_fc") #
 variants     <-  c("ProportionalRep_MNIbased")  # c("pmnau", "remnau") # other
-levels_vec   <- random_vectors(n= 50)  
-models_vec   <- c("SVM_RBF",
- "SVM_Linear", 
+levels_vec   <- random_vectors(n= 75)  
+models_vec   <- c(#"SVM_RBF",
+ #"SVM_Linear", 
 "RandomForest"
 , "XGBoost"
-, "DecisionTree", "KNN", "MLP"
+#, "DecisionTree", "KNN", "MLP"
 )
 
 # repeated CV repeats (3-fold * n_iterations_global)
-n_iterations_global <- 5 #30 # 1
+n_iterations_global <- 1 #30 # 1
 
 # per-model hyperparameter grid sizes
 # (rough guidance: higher for more complex models / bigger search space)
 grid_sizes <- list(
-  SVM_RBF      = 5,#1,#00,  # (cost, rbf_sigma)
-  SVM_Linear   = 5,#200,  # (cost)
-  RandomForest = 5,# #100#,  # (mtry, min_n, trees)
-  XGBoost      = 5,# 1,#500,  # (trees, depth, lr, etc.) <- huge space
-  DecisionTree = 5,#1,#500,  # (depth, min_n, cost_complexity)
-  KNN          = 5,#500,  # (neighbors, weight_func, dist_power)
-  MLP          = 5#500   # (hidden_units, penalty, epochs) - can behave messy
+  SVM_RBF      = 1,#5,#1,#00,  # (cost, rbf_sigma)
+  SVM_Linear   = 1,#5,#200,  # (cost)
+  RandomForest = 1,#5,# #100#,  # (mtry, min_n, trees)
+  XGBoost      = 1,#5,# 1,#500,  # (trees, depth, lr, etc.) <- huge space
+  DecisionTree = 1,#5,#1,#500,  # (depth, min_n, cost_complexity)
+  KNN          = 1,#5,#500,  # (neighbors, weight_func, dist_power)
+  MLP          = 1 #55#500   # (hidden_units, penalty, epochs) - can behave messy
 )
 
+system.time({
 # -----------------------------------------------------------------
 # Loop all combos
 # -----------------------------------------------------------------
@@ -224,3 +225,5 @@ for (task_name in tasks) {
 
 cat("\nALL DONE.\n")
 #}
+  
+})

@@ -1,0 +1,5 @@
+.metric,mean,std_err,std_dev,n
+accuracy,0.5104268491365266,0.0052210558354389225,0.009043133976134184,3
+recall,0,0,0,3
+f_meas,NA,NA,NA,3
+precision,NA,NA,NA,3
