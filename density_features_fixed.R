@@ -28,7 +28,23 @@ make_tapho_density_features <- function(
     "density_adjusted_limb_trunk_contrast",
     "density_adjusted_appendicular_axial_contrast",
     "density_adjusted_distal_proximal_contrast",
-    "density_corrected_marrow_proxy_contrast"
+    "density_corrected_marrow_proxy_contrast",
+    "high_minus_low_density_survival",
+    "high_to_low_density_logratio",
+    "low_density_to_postcranial_ratio",
+    "low_density_deficit_from_appendicular",
+    "low_density_axial_survival",
+    "fragile_survival_fraction",
+    "low_density_presence_050",
+    "vertebrae_thorax_low_density_balance",
+    "density_representation_r2",
+    "density_residual_sd",
+    "density_residual_appendicular",
+    "density_residual_cranial",
+    "density_residual_axial",
+    "dominant_low_density_flag",
+    "mnau_dominant_section_density",
+    "mnau_low_density_dominance"
   )
 
   empty_density_features <- function() {
@@ -261,6 +277,83 @@ make_tapho_density_features <- function(
     safe_mean(residuals[section_names])
   }
 
+  # ---- NEW density features -----------------------------------------------
+  # Reuse section_rep (section MNAU proportions), section_density, the
+  # regression residuals, and the low/mid/high density bins already computed.
+
+  high_mean_rep        <- safe_mean(section_rep[high_sections])
+  low_mean_rep         <- safe_mean(section_rep[low_sections])
+  postcranial_mean_rep <- safe_mean(section_rep[groups$postcranial_total])
+  appendicular_mean_rep <- safe_mean(section_rep[groups$appendicular])
+
+  high_minus_low_density_survival <-
+    if (is.na(high_mean_rep) || is.na(low_mean_rep)) NA_real_ else high_mean_rep - low_mean_rep
+
+  high_to_low_density_logratio <-
+    if (is.na(high_mean_rep) || is.na(low_mean_rep)) NA_real_ else
+      log((high_mean_rep + epsilon) / (low_mean_rep + epsilon))
+
+  low_density_to_postcranial_ratio <-
+    if (is.na(low_mean_rep) || is.na(postcranial_mean_rep)) NA_real_ else
+      (low_mean_rep + epsilon) / (postcranial_mean_rep + epsilon)
+
+  low_density_deficit_from_appendicular <-
+    if (is.na(appendicular_mean_rep) || is.na(low_mean_rep)) NA_real_ else
+      appendicular_mean_rep - low_mean_rep
+
+  low_density_axial_survival <-
+    safe_mean(section_rep[c("vertebrae", "thorax", "hyoid")])
+
+  fragile_survival_fraction <- {
+    v <- section_rep[low_sections]
+    if (all(is.na(v))) NA_real_ else sum(v > fragile_threshold, na.rm = TRUE) / length(low_sections)
+  }
+
+  low_density_presence_050 <-
+    sum(section_rep[low_sections] >= 0.50, na.rm = TRUE)
+
+  vertebrae_thorax_low_density_balance <- {
+    xv <- unname(section_rep["vertebrae"]); xt <- unname(section_rep["thorax"])
+    if (is.na(xv) || is.na(xt)) NA_real_ else 1 - abs(xv - xt) / (xv + xt + epsilon)
+  }
+
+  density_representation_r2 <- {
+    ok <- regression_ok & is.finite(residuals)
+    if (sum(ok) < 2) {
+      NA_real_
+    } else {
+      ss_res <- sum(residuals[ok]^2)
+      ss_tot <- sum((r[ok] - mean(r[ok]))^2)
+      if (!is.finite(ss_tot) || ss_tot <= epsilon) NA_real_ else 1 - ss_res / ss_tot
+    }
+  }
+
+  density_residual_sd <- {
+    rr <- residuals[is.finite(residuals)]
+    if (length(rr) < 2) NA_real_ else stats::sd(rr)
+  }
+
+  density_residual_appendicular <- resid_mean(groups$appendicular)
+  density_residual_cranial      <- resid_mean(groups$cranial_complex)
+  density_residual_axial        <- resid_mean(groups$axial_main)
+
+  dom_section_rep <- {
+    v <- section_rep[is.finite(section_rep)]
+    if (length(v) == 0) NA_character_ else names(v)[which.max(v)]
+  }
+
+  dominant_low_density_flag <-
+    if (is.na(dom_section_rep)) NA_real_ else as.numeric(dom_section_rep %in% low_sections)
+
+  mnau_dominant_section_density <-
+    if (is.na(dom_section_rep)) NA_real_ else unname(section_density[dom_section_rep])
+
+  mnau_low_density_dominance <- {
+    v <- section_rep[low_sections]; v <- v[is.finite(v)]
+    tot <- sum(v)
+    if (length(v) == 0 || !is.finite(tot) || tot <= 0) NA_real_ else max(v / tot)
+  }
+
   tibble::tibble(
     density_weighted_mean_mnau =
       safe_weighted_density(section_rep),
@@ -314,6 +407,23 @@ make_tapho_density_features <- function(
 
     density_corrected_marrow_proxy_contrast =
       resid_mean(groups$limb_shaft_proxy) -
-      resid_mean(c("hands", "foot", "thorax"))
+      resid_mean(c("hands", "foot", "thorax")),
+
+    high_minus_low_density_survival       = high_minus_low_density_survival,
+    high_to_low_density_logratio          = high_to_low_density_logratio,
+    low_density_to_postcranial_ratio      = low_density_to_postcranial_ratio,
+    low_density_deficit_from_appendicular = low_density_deficit_from_appendicular,
+    low_density_axial_survival            = low_density_axial_survival,
+    fragile_survival_fraction             = fragile_survival_fraction,
+    low_density_presence_050              = low_density_presence_050,
+    vertebrae_thorax_low_density_balance  = vertebrae_thorax_low_density_balance,
+    density_representation_r2             = density_representation_r2,
+    density_residual_sd                   = density_residual_sd,
+    density_residual_appendicular         = density_residual_appendicular,
+    density_residual_cranial              = density_residual_cranial,
+    density_residual_axial                = density_residual_axial,
+    dominant_low_density_flag             = dominant_low_density_flag,
+    mnau_dominant_section_density         = mnau_dominant_section_density,
+    mnau_low_density_dominance            = mnau_low_density_dominance
   )
 }

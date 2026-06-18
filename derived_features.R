@@ -101,6 +101,156 @@ make_tapho_derived_features <- function(
     sum(x > 0, na.rm = TRUE)
   }
 
+  # ---- NEW helpers (engineered feature expansion) -------------------------
+
+  # Signed difference of two scalars, NA-safe.
+  safe_diff <- function(a, b) {
+    a <- as.numeric(a); b <- as.numeric(b)
+    if (length(a) == 0 || length(b) == 0) return(NA_real_)
+    if (is.na(a) || is.na(b)) return(NA_real_)
+    a - b
+  }
+
+  # log( (num+eps)/(den+eps) ), NA-safe. Stable alternative to plain ratios.
+  safe_logratio <- function(num, den) {
+    num <- as.numeric(num); den <- as.numeric(den)
+    if (length(num) == 0 || length(den) == 0) return(NA_real_)
+    if (is.na(num) || is.na(den)) return(NA_real_)
+    log((num + epsilon) / (den + epsilon))
+  }
+
+  max_finite <- function(x) {
+    x <- suppressWarnings(as.numeric(x)); x <- x[is.finite(x)]
+    if (length(x) == 0) return(NA_real_)
+    max(x)
+  }
+
+  sum_finite <- function(x) {
+    x <- suppressWarnings(as.numeric(x)); x <- x[is.finite(x)]
+    if (length(x) == 0) return(NA_real_)
+    sum(x)
+  }
+
+  # Proportional shares p_i = x_i / sum(x); NULL if no usable total.
+  proportions <- function(x) {
+    x <- suppressWarnings(as.numeric(x)); x <- x[is.finite(x)]
+    total <- sum(x)
+    if (length(x) == 0 || !is.finite(total) || total <= 0) return(NULL)
+    x / total
+  }
+
+  # Berger-Parker gap: largest share minus second-largest share.
+  dominance_gap <- function(x) {
+    p <- proportions(x)
+    if (is.null(p) || length(p) < 2) return(NA_real_)
+    ps <- sort(p, decreasing = TRUE)
+    ps[1] - ps[2]
+  }
+
+  # McNaughton two-section dominance: sum of two largest shares.
+  top2_share <- function(x) {
+    p <- proportions(x)
+    if (is.null(p)) return(NA_real_)
+    ps <- sort(p, decreasing = TRUE)
+    sum(ps[seq_len(min(2, length(ps)))])
+  }
+
+  # Simpson dominance lambda = sum(p^2).
+  simpson_dominance <- function(x) {
+    p <- proportions(x)
+    if (is.null(p)) return(NA_real_)
+    sum(p^2)
+  }
+
+  # Inverse Simpson = 1 / lambda  (effective number of sections, Simpson).
+  inverse_simpson <- function(x) {
+    d <- simpson_dominance(x)
+    if (is.na(d) || d <= 0) return(NA_real_)
+    1 / d
+  }
+
+  # Hill number of order 1 = exp(Shannon H)  (effective number of sections).
+  hill1 <- function(x) {
+    p <- proportions(x)
+    if (is.null(p)) return(NA_real_)
+    p <- p[p > 0]
+    if (length(p) < 1) return(NA_real_)
+    exp(-sum(p * log(p)))
+  }
+
+  # Gini coefficient of inequality (0 = perfectly even, ->1 = concentrated).
+  gini <- function(x) {
+    x <- suppressWarnings(as.numeric(x)); x <- x[is.finite(x)]
+    n <- length(x)
+    if (n < 2 || sum(x) <= 0) return(NA_real_)
+    x <- sort(x)
+    sum((2 * seq_len(n) - n - 1) * x) / (n * sum(x))
+  }
+
+  # Name of the section holding the maximum value.
+  dominant_section <- function(v) {
+    v <- v[is.finite(v)]
+    if (length(v) == 0) return(NA_character_)
+    names(v)[which.max(v)]
+  }
+
+  # Smith & Wilson Evar evenness (independent of richness).
+  evar_smith_wilson <- function(x) {
+    x <- suppressWarnings(as.numeric(x)); x <- x[is.finite(x) & x > 0]
+    S <- length(x)
+    if (S < 2) return(NA_real_)
+    lx <- log(x)
+    v <- sum((lx - mean(lx))^2) / S
+    1 - (2 / pi) * atan(v)
+  }
+
+  # Heip evenness = (exp(H) - 1) / (k - 1).
+  heip_evenness <- function(x) {
+    x <- suppressWarnings(as.numeric(x)); x <- x[is.finite(x)]
+    total <- sum(x)
+    k <- length(x)
+    if (k < 2 || !is.finite(total) || total <= 0) return(NA_real_)
+    p <- x / total; p <- p[p > 0]
+    H <- -sum(p * log(p))
+    (exp(H) - 1) / (k - 1)
+  }
+
+  # Simpson evenness = (1 / lambda) / k.
+  simpson_evenness <- function(x) {
+    x <- suppressWarnings(as.numeric(x)); x <- x[is.finite(x)]
+    total <- sum(x); k <- length(x)
+    if (k < 1 || !is.finite(total) || total <= 0) return(NA_real_)
+    p <- x / total
+    D <- sum(p^2)
+    if (D <= 0) return(NA_real_)
+    (1 / D) / k
+  }
+
+  # Pielou evenness using only present (>0) sections as k.
+  evenness_present_only <- function(x) {
+    x <- suppressWarnings(as.numeric(x)); x <- x[is.finite(x) & x > 0]
+    kp <- length(x)
+    if (kp < 2) return(NA_real_)
+    p <- x / sum(x)
+    H <- -sum(p * log(p))
+    H / log(kp)
+  }
+
+  # Coefficient of variation.
+  cv <- function(x) {
+    x <- suppressWarnings(as.numeric(x)); x <- x[is.finite(x)]
+    if (length(x) < 2) return(NA_real_)
+    m <- mean(x)
+    if (m == 0) return(NA_real_)
+    stats::sd(x) / m
+  }
+
+  # Count of sections at or above a representation threshold.
+  completeness_count <- function(x, thr) {
+    x <- suppressWarnings(as.numeric(x))
+    sum(x >= thr, na.rm = TRUE)
+  }
+
   MNI_used <- as_first_number(MNI_used)
 
   df <- tibble::tibble(
@@ -385,6 +535,166 @@ make_tapho_derived_features <- function(
       presence_count(mne_section[c("cranium", "teeth", "hyoid")])
   )
 
+  # ---- NEW: MNAU contrast features (differences + log-ratios) -------------
+  # Built on the regions that survived feature elimination. Differences and
+  # log-ratios are used because every plain ratio was eliminated in the RFE run;
+  # contrasts on the surviving MNAU scale behave more stably. The three named
+  # plain ratios are kept because they were explicitly proposed.
+
+  get_mnau <- function(key) {
+    if (key %in% names(composite_mnau)) return(unname(composite_mnau[key]))
+    if (key %in% names(mnau_section))   return(unname(mnau_section[key]))
+    NA_real_
+  }
+
+  contrast_pairs <- list(
+    lower_upper_appendicular   = c("lower_appendicular",   "upper_appendicular"),
+    proximal_distal_appendicular = c("proximal_appendicular", "distal_appendicular"),
+    legs_appendicular          = c("legs",                 "appendicular"),
+    legs_postcranial           = c("legs",                 "postcranial_total"),
+    girdle_appendicular        = c("girdle",               "appendicular"),
+    appendicular_axial_main    = c("appendicular",         "axial_main"),
+    postcranial_cranial        = c("postcranial_total",    "cranial_complex"),
+    limb_shaft_axial_main      = c("limb_shaft_proxy",     "axial_main"),
+    arms_legs                  = c("arms",                 "legs")
+  )
+
+  contrast_features <- list()
+  for (nm in names(contrast_pairs)) {
+    a <- get_mnau(contrast_pairs[[nm]][1])
+    b <- get_mnau(contrast_pairs[[nm]][2])
+    contrast_features[[paste0("mnau_", nm, "_diff")]]     <- safe_diff(a, b)
+    contrast_features[[paste0("mnau_", nm, "_logratio")]] <- safe_logratio(a, b)
+  }
+  contrast_features$mnau_legs_to_appendicular_ratio <-
+    safe_ratio(mnau_section["legs"], composite_mnau["appendicular"])
+  contrast_features$mnau_legs_to_postcranial_ratio <-
+    safe_ratio(mnau_section["legs"], composite_mnau["postcranial_total"])
+  contrast_features$mnau_girdle_to_appendicular_ratio <-
+    safe_ratio(composite_mnau["girdle"], composite_mnau["appendicular"])
+
+  # ---- NEW: dominance / concentration features ----------------------------
+
+  dom_argmax <- dominant_section(mnau_section[sections_order])
+
+  dominance_features_new <- list(
+    dominance_gap_all =
+      dominance_gap(mnau_section[sections_order]),
+
+    mnau_top2_share_mcnaughton =
+      top2_share(mnau_section[sections_order]),
+
+    mnau_simpson_dominance =
+      simpson_dominance(mnau_section[sections_order]),
+
+    mnau_inverse_simpson =
+      inverse_simpson(mnau_section[sections_order]),
+
+    mnau_gini =
+      gini(mnau_section[sections_order]),
+
+    dominant_section_is_legs =
+      if (is.na(dom_argmax)) NA_real_ else as.numeric(dom_argmax == "legs"),
+
+    dominant_section_is_appendicular =
+      if (is.na(dom_argmax)) NA_real_ else as.numeric(dom_argmax %in% groups$appendicular),
+
+    dominant_section_is_axial =
+      if (is.na(dom_argmax)) NA_real_ else as.numeric(dom_argmax %in% groups$full_axial),
+
+    appendicular_dominance_refined =
+      dominance(mnau_section[groups$appendicular]),
+
+    postcranial_dominance_refined =
+      dominance(mnau_section[groups$postcranial_total]),
+
+    lower_appendicular_dominance =
+      dominance(mnau_section[groups$lower_appendicular]),
+
+    upper_appendicular_dominance =
+      dominance(mnau_section[groups$upper_appendicular]),
+
+    dominant_appendicular_share =
+      safe_ratio(max_finite(mnau_section[groups$appendicular]),
+                 sum_finite(mnau_section[sections_order])),
+
+    dominant_axial_share =
+      safe_ratio(max_finite(mnau_section[groups$full_axial]),
+                 sum_finite(mnau_section[sections_order])),
+
+    mnau_dominance_of_region_means =
+      dominance(composite_mnau)
+  )
+
+  # ---- NEW: diversity / evenness features ---------------------------------
+
+  diversity_evenness_features_new <- list(
+    mnau_evar_smith_wilson =
+      evar_smith_wilson(mnau_section[sections_order]),
+
+    mnau_heip_evenness =
+      heip_evenness(mnau_section[sections_order]),
+
+    mnau_simpson_evenness =
+      simpson_evenness(mnau_section[sections_order]),
+
+    mnau_evenness_present_only =
+      evenness_present_only(mnau_section[sections_order]),
+
+    appendicular_evenness_refined =
+      evenness(mnau_section[groups$appendicular]),
+
+    postcranial_evenness_refined =
+      evenness(mnau_section[groups$postcranial_total]),
+
+    lower_appendicular_evenness_refined =
+      evenness(mnau_section[groups$lower_appendicular]),
+
+    upper_appendicular_evenness_refined =
+      evenness(mnau_section[groups$upper_appendicular]),
+
+    upper_lower_evenness =
+      evenness(c(composite_mnau["upper_appendicular"], composite_mnau["lower_appendicular"])),
+
+    proximal_distal_evenness =
+      evenness(c(composite_mnau["proximal_appendicular"], composite_mnau["distal_appendicular"])),
+
+    axial_appendicular_evenness =
+      evenness(c(composite_mnau["axial_main"], composite_mnau["appendicular"])),
+
+    mnau_region_mean_evenness =
+      evenness(composite_mnau),
+
+    effective_sections_hill1 =
+      hill1(mnau_section[sections_order]),
+
+    mnau_cv =
+      cv(mnau_section[sections_order]),
+
+    mnau_evenness_minus_dominance =
+      safe_diff(evenness(mnau_section[sections_order]),
+                dominance(mnau_section[sections_order]))
+  )
+
+  # ---- NEW: completeness features (graded replacement for richness) -------
+
+  completeness_features <- list(
+    section_completeness_025_all =
+      completeness_count(mnau_section[sections_order], 0.25),
+
+    section_completeness_050_all =
+      completeness_count(mnau_section[sections_order], 0.50),
+
+    section_completeness_075_all =
+      completeness_count(mnau_section[sections_order], 0.75),
+
+    postcranial_completeness_050 =
+      completeness_count(mnau_section[groups$postcranial_total], 0.50),
+
+    appendicular_completeness_050 =
+      completeness_count(mnau_section[groups$appendicular], 0.50)
+  )
+
   tibble::as_tibble(
     c(
       section_mne_features,
@@ -396,7 +706,11 @@ make_tapho_derived_features <- function(
       evenness_features,
       dominance_features,
       share_features,
-      richness_features
+      richness_features,
+      contrast_features,
+      dominance_features_new,
+      diversity_evenness_features_new,
+      completeness_features
     )
   )
 }

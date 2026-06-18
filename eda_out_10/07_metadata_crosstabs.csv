@@ -1,0 +1,205 @@
+variable,level,.class,n
+geological_period,Holocene,Cannibalism,10
+geological_period,Holocene,Carnivore,1
+geological_period,Holocene,Funerary Context,12
+geological_period,Holocene,Sepulchral Cave,25
+geological_period,Late Middle Pleistocene,Cannibalism,1
+geological_period,Late Pleistocene,Cannibalism,12
+geological_period,Late Pleistocene,Carnivore,16
+geological_period,Late Pleistocene,Funerary Context,36
+geological_period,Late Pleistocene,Geological transport,8
+geological_period,Late Pleistocene,Unknown,14
+geological_period,Lower Pleistocene,Cannibalism,1
+geological_period,Lower Pleistocene,Geological transport,1
+geological_period,Middle Pleistocene,Cannibalism,1
+geological_period,Middle Pleistocene,Geological transport,4
+geological_period,Middle Pleistocene,Unknown,9
+cultural_period,Bronze Age,Cannibalism,1
+cultural_period,Bronze Age,Funerary Context,2
+cultural_period,Bronze Age,Sepulchral Cave,24
+cultural_period,Chalcolithic,Funerary Context,3
+cultural_period,Chalcolithic,Sepulchral Cave,1
+cultural_period,Late Bronze Age,Funerary Context,1
+cultural_period,Lower Paleolithic,Cannibalism,2
+cultural_period,Lower Paleolithic,Geological transport,1
+cultural_period,Lower Paleolithic,Unknown,7
+cultural_period,Mesolithic,Cannibalism,2
+cultural_period,Middle Paleolithic,Cannibalism,9
+cultural_period,Middle Paleolithic,Carnivore,11
+cultural_period,Middle Paleolithic,Funerary Context,15
+cultural_period,Middle Paleolithic,Geological transport,5
+cultural_period,Middle Paleolithic,Unknown,7
+cultural_period,NA,Cannibalism,3
+cultural_period,NA,Carnivore,5
+cultural_period,NA,Funerary Context,2
+cultural_period,NA,Geological transport,5
+cultural_period,NA,Unknown,4
+cultural_period,Neolithic,Cannibalism,4
+cultural_period,Neolithic,Funerary Context,4
+cultural_period,Upper Paleolithic,Cannibalism,4
+cultural_period,Upper Paleolithic,Carnivore,1
+cultural_period,Upper Paleolithic,Funerary Context,21
+cultural_period,Upper Paleolithic,Geological transport,2
+cultural_period,Upper Paleolithic,Unknown,5
+mis_stage,1,Cannibalism,11
+mis_stage,1,Carnivore,1
+mis_stage,1,Funerary Context,13
+mis_stage,1,Geological transport,1
+mis_stage,1,Sepulchral Cave,25
+mis_stage,1,Unknown,7
+mis_stage,2,Cannibalism,5
+mis_stage,2,Carnivore,1
+mis_stage,2,Funerary Context,11
+mis_stage,2,Unknown,2
+mis_stage,3,Cannibalism,6
+mis_stage,3,Carnivore,8
+mis_stage,3,Funerary Context,14
+mis_stage,3,Geological transport,3
+mis_stage,3,Unknown,7
+mis_stage,4,Cannibalism,1
+mis_stage,4,Carnivore,3
+mis_stage,4,Funerary Context,6
+mis_stage,4,Geological transport,6
+mis_stage,4,Unknown,1
+mis_stage,5,Cannibalism,2
+mis_stage,5,Carnivore,4
+mis_stage,5,Funerary Context,3
+mis_stage,5,Geological transport,2
+mis_stage,5,Unknown,4
+mis_stage,7,Unknown,1
+mis_stage,9,Unknown,1
+mis_stage,NA,Funerary Context,1
+mis_stage,NA,Geological transport,1
+region,"Central Anatolia, West Asia",Funerary Context,1
+region,Central Asia,Funerary Context,1
+region,Central Europe,Cannibalism,5
+region,Central Europe,Funerary Context,6
+region,Central Europe,Unknown,1
+region,East Africa,Carnivore,1
+region,East Asia,Geological transport,1
+region,Eastern Europe,Funerary Context,2
+region,Eastern Europe,Unknown,1
+region,Europe,Funerary Context,1
+region,Europe,Unknown,5
+region,North America,Cannibalism,2
+region,North America,Funerary Context,1
+region,Oceania (South Pacific),Cannibalism,1
+region,South America,Funerary Context,1
+region,South Asia,Geological transport,1
+region,South Europe,Carnivore,1
+region,Southeast Asia,Geological transport,5
+region,West Asia,Funerary Context,6
+region,West Asia,Unknown,1
+region,West Europe,Cannibalism,17
+region,West Europe,Carnivore,15
+region,West Europe,Funerary Context,29
+region,West Europe,Geological transport,6
+region,West Europe,Sepulchral Cave,25
+region,West Europe,Unknown,15
+country,Belgium,Cannibalism,1
+country,Belgium,Carnivore,1
+country,Belgium,Unknown,4
+country,China,Geological transport,1
+country,Crimea,Funerary Context,1
+country,Croatia,Cannibalism,4
+country,Czech Republic,Funerary Context,6
+country,Czech Republic,Unknown,1
+country,Ecuador,Funerary Context,1
+country,Fiji,Cannibalism,1
+country,France,Cannibalism,7
+country,France,Carnivore,5
+country,France,Funerary Context,12
+country,France,Geological transport,1
+country,France,Unknown,1
+country,Germany,Cannibalism,2
+country,Germany,Carnivore,1
+country,Germany,Funerary Context,1
+country,Germany,Geological transport,3
+country,Germany,Unknown,4
+country,Greece,Carnivore,1
+country,India,Geological transport,2
+country,Indonesia,Geological transport,1
+country,Indonesia (Java),Geological transport,3
+country,Iraq,Funerary Context,1
+country,Italy,Carnivore,1
+country,Italy,Funerary Context,3
+country,Italy,Geological transport,2
+country,Italy,Unknown,2
+country,Kenya,Carnivore,1
+country,Levant,Funerary Context,5
+country,Levant,Unknown,1
+country,Malta,Funerary Context,1
+country,Poland,Cannibalism,1
+country,Portugal,Carnivore,1
+country,Portugal,Funerary Context,1
+country,Romania,Unknown,1
+country,Russia,Funerary Context,1
+country,South Dakota,Funerary Context,1
+country,Spain,Cannibalism,6
+country,Spain,Carnivore,6
+country,Spain,Funerary Context,11
+country,Spain,Sepulchral Cave,25
+country,Spain,Unknown,9
+country,Turkey,Funerary Context,1
+country,USA,Cannibalism,2
+country,United Kingdom,Cannibalism,1
+country,Uzbekistan,Funerary Context,1
+country,Wales,Funerary Context,1
+hominin_species,H. antecessor,Cannibalism,1
+hominin_species,H. erectus,Geological transport,4
+hominin_species,H. erectus,Unknown,1
+hominin_species,H. neanderthalensis,Cannibalism,8
+hominin_species,H. neanderthalensis,Carnivore,15
+hominin_species,H. neanderthalensis,Funerary Context,13
+hominin_species,H. neanderthalensis,Geological transport,3
+hominin_species,H. neanderthalensis,Unknown,11
+hominin_species,H. sapiens,Cannibalism,13
+hominin_species,H. sapiens,Carnivore,1
+hominin_species,H. sapiens,Funerary Context,35
+hominin_species,H. sapiens,Geological transport,1
+hominin_species,H. sapiens,Sepulchral Cave,25
+hominin_species,H. sapiens,Unknown,4
+hominin_species,Homo neanderthalensis,Cannibalism,1
+hominin_species,Homo sapiens,Cannibalism,1
+hominin_species,Middle Pleistocene hominin,Cannibalism,1
+hominin_species,Middle Pleistocene hominin,Carnivore,1
+hominin_species,Middle Pleistocene hominin,Geological transport,5
+hominin_species,Middle Pleistocene hominin,Unknown,7
+age_category,Adult,Cannibalism,1
+age_category,Adult,Carnivore,8
+age_category,Adult,Funerary Context,21
+age_category,Adult,Geological transport,9
+age_category,Adult,Sepulchral Cave,6
+age_category,Adult,Unknown,8
+age_category,Indet,Cannibalism,6
+age_category,Indet,Carnivore,3
+age_category,Indet,Funerary Context,5
+age_category,Indet,Sepulchral Cave,7
+age_category,Indet,Unknown,6
+age_category,Infant,Funerary Context,1
+age_category,Infant,Geological transport,3
+age_category,Infant,Unknown,1
+age_category,Juvenile,Cannibalism,1
+age_category,Juvenile,Funerary Context,2
+age_category,Juvenile,Unknown,3
+age_category,Mixed,Cannibalism,17
+age_category,Mixed,Carnivore,5
+age_category,Mixed,Funerary Context,16
+age_category,Mixed,Geological transport,1
+age_category,Mixed,Sepulchral Cave,12
+age_category,Mixed,Unknown,4
+age_category,Subadult,Carnivore,1
+age_category,Subadult,Funerary Context,3
+age_category,Subadult,Unknown,1
+open_air_site,NA,Cannibalism,23
+open_air_site,NA,Carnivore,17
+open_air_site,NA,Funerary Context,40
+open_air_site,NA,Geological transport,1
+open_air_site,NA,Sepulchral Cave,25
+open_air_site,NA,Unknown,19
+open_air_site,Open Air,Cannibalism,2
+open_air_site,Open Air,Funerary Context,2
+open_air_site,Open air,Funerary Context,5
+open_air_site,Open air,Geological transport,12
+open_air_site,Open air,Unknown,4
+open_air_site,Open-air,Funerary Context,1
