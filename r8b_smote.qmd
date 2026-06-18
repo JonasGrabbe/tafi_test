@@ -142,9 +142,9 @@ source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,
 excel_path <- "hspa.xlsx"
 
 system.time({
-levels_vec <- random_vectors(n = 2)
+levels_vec <- random_vectors(n = 1)
 for (lvl in levels_vec){
- 
+  lvl= c(2,1,1,2,2,2,2,2,2,2,2)
 
 tapho_db <- tapho.loader(excel_path,# sum=TRUE , 
 level = lvl #, indet = FALSE#, indet_method = "delet"#, 
@@ -160,28 +160,576 @@ print(tapho_db)
 
 
 ```{r}
+source("tapho_loader_wfl_features.R")
+  #tapho_loader_wfl_features
 
 source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
-excel_path <- "hspa.xlsx"
 
-#system.time({
-levels_vec <- random_vectors(n = 5)
-for (lvl in levels_vec){
-  print(lvl)
+excel_path <- "hspa-test.xlsx"
 
-tapho_db <- tapho.loader(excel_path, sum= FALSE , 
+system.time({
+levels_vec <- random_vectors(n = 1)
+#for (lvl in levels_vec){
+ lvl= c(2,1,1,2,2,2,2,2,2,2,2)
+ print(lvl)
+
+ result        <- tapho.loader.wfl.features(excel_path,# sum= FALSE , 
 level = lvl #, indet = FALSE#, indet_method = "delet"#, 
 #group_by = c( "cultural_period", "mis_stage","gender") ,
 #select = c("gender"="Indet") , 
 #exclude_sections = c("arms","legs","cranium","shoulder","hands")
 )
-print(tapho_db)
-
-}
-#})
+  raw_df_id  <- result$db_id
+  raw_df_sum <- result$db_sum
+print( raw_df_id)
+print( raw_df_sum)
+#}
+})
 ```
 
 ```{r}
-tapho_db$element
+#sum(tapho_db$mni)
+#colnames(raw_df_id)
+
+
+tb <- tapho_db %>%
+  # keep metadata + the two list-cols we want; drop site_id & taphonomic_context,
+  # and (by not selecting them) every other list-col and everything
+  # after OverallProportionalRep_assemblage
+  dplyr::select(site_name:sum_count, ReMNAU, ProportionalRep_MNIbased,
+                -site_id, -taphonomic_context) %>%
+  # name each row's vector by that row's own element names
+  dplyr::mutate(
+    ReMNAU = lapply(seq_along(ReMNAU), function(i)
+      setNames(ReMNAU[[i]], tapho_db$element[[i]])),
+    ProportionalRep_MNIbased = lapply(seq_along(ProportionalRep_MNIbased), function(i)
+      setNames(ProportionalRep_MNIbased[[i]], tapho_db$element[[i]]))
+  ) %>%
+  # spread both wide; names_sep prefixes so the shared element names don't clash
+  tidyr::unnest_wider(c(ReMNAU, ProportionalRep_MNIbased), names_sep = "_")
+
+colnames(tb)
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+
+# the OTHER list-columns to remove (keep ReMNAU & ProportionalRep_MNIbased)
+list_cols_drop <- c(
+  "bone.level", "element", "One_Skeleton_count", "Skeleton_Section",
+  "MNE", "MNAU", "MAU", "PercentMAU", "PercentMNAU", "AcReMNAU",
+  "CumulativeReMNAU", "MNI_used_assemblage", "Mean_MNAU_assemblage",
+  "Mean_part_abundance", "OverallProportionalRep_assemblage"
+)
+
+# name a row's value vector by its element labels,
+# dropping slots whose label is missing/empty/purely numeric
+name_by_element <- function(vec, elems) {
+  v  <- setNames(vec, elems)
+  nm <- names(v)
+  v[!is.na(nm) & nm != "" & !grepl("^[0-9]+$", nm)]
+}
+
+tb <- tapho_db %>%
+  mutate(
+    ReMNAU = lapply(seq_along(ReMNAU),
+                    \(i) name_by_element(ReMNAU[[i]], element[[i]])),
+    ProportionalRep_MNIbased = lapply(seq_along(ProportionalRep_MNIbased),
+                    \(i) name_by_element(ProportionalRep_MNIbased[[i]], element[[i]]))
+  ) %>%
+  select(-all_of(list_cols_drop)) %>%       # drop other list-cols, keep engineered features
+  unnest_wider(c(ReMNAU, ProportionalRep_MNIbased), names_sep = "_")
+tb
+```
+
+```{r}
+source("rfe_randomforest_taphonomy.R")
+source("pca_funerary_surface_color.R")
+#colnames(tb)
+#res <- run_rfe(tb, task_name = "fc_vs_rest")
+focus_sites <- c(
+  "Kleine Feldhofer Grotte", "Bilzingsleben", "Weimar-Ehringsdorf",
+  "Scladina Cave", "Engis / Schmerling Cave", "Trou de la Naulette",
+  "Bolomor Cave", "Cova de les Malladetes (Barx, Valencia, Spain)",
+  "Cova del Parpalló (Parpalló Cave)", "Saint-Césaire",
+  "Steinheim an der Murr", "Ochoz 1, Ochoz 2", "Peștera Muierii",
+ "Sima de los Huesos 89"                                                           
+, "Sima de los Huesos 90"                                                           
+, "Sima de los Huesos 95"                                                           
+,"Sima de los Huesos 16"                                                           
+, "Sima de los Huesos 26"
+)
+
+res <- run_rfe(tb, task_name = "fc_vs_rest", unknown_sites = focus_sites)  # just these
+
+res$unknown_all_features$table     # site, predicted, p_model1..3, p_focus_mean
+res$unknown_all_features$mean_acc  # == step-1 mean CV accuracy
+pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites)
 
 ```
+
+
+```{r}
+source("pca_funerary_surface_featset1.R")
+pr1 <- pca_surface_featset1(tb, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites)
+
+```
+
+```{r}
+source("pca_funerary_surface_featset2.R")
+pr2 <- pca_surface_featset2(tb, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites)
+```
+
+```{r}
+source("eda_taphonomy.R")
+source("clean_metadata.R")
+tb  <- clean_metadata(tb)
+run_eda(tb)
+
+```
+
+
+```{r}
+source("eda_taphonomy_sites.R")
+source("clean_metadata.R")
+tb  <- clean_metadata(tb)
+sites_plot <- c("Sima de los Huesos 95","Sima de los Huesos 16",
+"San Juan ante Portam Latinam","Crow Creek","Mugharet es-Skhul","Tepecik-Çiftlik","Mancos 5MT-10010 Feature 3","Yellow Jacket 5MT-3","Grotte des Perrats"
+)
+
+run_eda(tb, sites_plot)
+```
+
+
+```{r}
+tb_v %>%
+  filter(site_name %in% sites_plot) %>%
+  select(any_of(c("site_name", "ind_name", "individual_id")),
+         all_of(intersect(important_features, names(tb)))) %>%
+  print(width = Inf)   
+```
+
+
+```{r}
+important_features
+```
+
+
+```{r}
+
+
+library(dplyr)
+library(knitr)   # install.packages("knitr") if you don't have it
+
+# ---- site lists ------------------------------------------------------
+sites_up <- c("Abri Pataud","Předmostí","La Ferrassie","Xemxija tombs",
+              "Regourdou","Kiik-Koba","El Espinoso Cave","Atxuri-I Cave",
+              "Mladeč Caves")
+
+sites_down <- c("Ojo Guareña","Kebara Cave","Abri de Raymonden (Chancelade)",
+                "Vado all'Arancio","Abrigo do Lagar Velho","Roc de Marsal",
+                "Roc-de-Cave (Saint-Cirq-Madelon, Lot)","Sima de las Palomas",
+                "Le Moustier II")
+
+sites_plot <- c("Sima de los Huesos 95","Sima de los Huesos 16",
+                "San Juan ante Portam Latinam","Crow Creek","Mugharet es-Skhul",
+                "Tepecik-Çiftlik","Mancos 5MT-10010 Feature 3",
+                "Yellow Jacket 5MT-3","Grotte des Perrats")
+
+# ---- column sets -----------------------------------------------------
+meta_print <- c(
+  "site_id","ind_name","individual_id","site_name","layer_name","count_type",
+  "geological_period","cultural_period","culture_period_2",
+  "start_date_cal_bp","end_date_cal_bp","mis_stage",
+  "karstic_system","karstic_system_2","open_air_site","open_air_site_2",
+  "region","country","mni","age_category",
+  "n_infant","n_juvenil","n_subadult","n_adult","gender",
+  "taphonomic_context","funerary_context","discovery_context",
+  "degree_of_excavation","hominin_species"
+)
+
+feature_print <- c(
+  "ProportionalRep_MNIbased_os_coxae","mnau_shoulder",
+  "ProportionalRep_MNIbased_femur","mnau_arms",
+  "density_adjusted_appendicular_axial_contrast","mnau_column_trunk_mean",
+  "mne_vertebrae_to_thorax_ratio","ReMNAU_cervical",
+  "ProportionalRep_MNIbased_metacarpal","mne_arms_to_legs_ratio",
+  "mnau_legs","mnau_postcranial_total_mean","mnau_appendicular_mean",
+  "mnau_upper_appendicular_mean","mnau_lower_appendicular_mean",
+  "mnau_girdle_mean","mnau_distal_appendicular_mean",
+  "mnau_proximal_appendicular_mean","all_sections_dominance",
+  "low_density_survival_index"
+)
+
+# ---- helpers: build the two views for a given site list --------------
+meta_tbl <- function(sites)
+  tb %>% filter(site_name %in% sites) %>% select(any_of(meta_print))
+
+feat_tbl <- function(sites)
+  tb %>% filter(site_name %in% sites) %>%
+         select(any_of(c("site_name", feature_print)))
+
+site_groups <- list(sites_up   = sites_up,
+                     sites_down = sites_down,
+                     sites_plot = sites_plot)
+
+# ---- print all 6 tibbles to the console ------------------------------
+for (nm in names(site_groups)) {
+  cat("\n================", nm, "- metadata ================\n")
+  print(meta_tbl(site_groups[[nm]]), width = Inf)
+  cat("\n================", nm, "- features ================\n")
+  print(feat_tbl(site_groups[[nm]]), width = Inf)
+}
+```
+
+
+```{r}
+# ---- write all 6 tibbles into one .md file ---------------------------
+out_file <- "site_tables.md"
+con <- file(out_file, open = "wt", encoding = "UTF-8")
+writeLines("# Site tables\n", con)
+for (nm in names(site_groups)) {
+  writeLines(sprintf("\n## %s (%d site_name matches)\n",
+                     nm, sum(tb$site_name %in% site_groups[[nm]])), con)
+  writeLines("### Metadata\n", con)
+  writeLines(knitr::kable(meta_tbl(site_groups[[nm]]), format = "pipe"), con)
+  writeLines("\n### site_name + 20 important features\n", con)
+  writeLines(knitr::kable(feat_tbl(site_groups[[nm]]), format = "pipe"), con)
+}
+close(con)
+message("wrote ", normalizePath(out_file))
+
+```
+
+
+```{r}
+
+library(dplyr)
+library(plotly)
+
+# ---- site groups -----------------------------------------------------
+sites_up <- c("Abri Pataud","Předmostí","La Ferrassie","Xemxija tombs",
+              "Regourdou","Kiik-Koba","El Espinoso Cave","Atxuri-I Cave",
+              "Mladeč Caves")
+
+sites_down <- c("Ojo Guareña","Kebara Cave","Abri de Raymonden (Chancelade)",
+                "Vado all'Arancio","Abrigo do Lagar Velho","Roc de Marsal",
+                "Roc-de-Cave (Saint-Cirq-Madelon, Lot)","Sima de las Palomas",
+                "Le Moustier II")
+
+sites_plot <- c("Sima de los Huesos 95","Sima de los Huesos 16",
+                "San Juan ante Portam Latinam","Crow Creek","Mugharet es-Skhul",
+                "Tepecik-Çiftlik","Mancos 5MT-10010 Feature 3",
+                "Yellow Jacket 5MT-3","Grotte des Perrats")
+
+all_sites <- c(sites_up, sites_down, sites_plot)
+
+# ---- build plotting dataframe ---------------------------------------
+plot_df <- tb %>%
+  filter(site_name %in% all_sites) %>%
+  mutate(
+    group = case_when(
+      site_name %in% sites_up   ~ "sites_up",
+      site_name %in% sites_down ~ "sites_down",
+      site_name %in% sites_plot ~ "sites_plot",
+      TRUE ~ NA_character_
+    ),
+
+    # Composite axis for pelvic/femoral/proximal emphasis
+    pelvic_femoral_proximal_emphasis = rowMeans(
+      across(c(
+        ProportionalRep_MNIbased_os_coxae,
+        ProportionalRep_MNIbased_femur,
+        mnau_proximal_appendicular_mean
+      )),
+      na.rm = TRUE
+    ),
+
+    # Higher values = stronger reduction of distal/metacarpal/cervical elements
+    distal_metacarpal_cervical_reduction = -rowMeans(
+      across(c(
+        #main
+        #mnau_distal_appendicular_mean,
+        #ProportionalRep_MNIbased_metacarpal,
+        #ReMNAU_cervical
+        #other
+        mnau_distal_appendicular_mean,
+        mnau_proximal_appendicular_mean
+
+      )),
+      na.rm = TRUE
+    )
+  )
+```
+
+
+```{r}
+
+# ---- choose your three axes here ------------------------------------
+# Default interpretation:
+# x = overall postcranial representation
+# y = pelvic/femoral/proximal emphasis
+# z = reduced distal/metacarpal/cervical representation
+
+#other best 1 
+#x_feature <- "ProportionalRep_MNIbased_metacarpal"
+#y_feature <- "ProportionalRep_MNIbased_os_coxae"
+#z_feature <- "density_adjusted_appendicular_axial_contrast"
+
+#other best4 
+x_feature <- "ProportionalRep_MNIbased_os_coxae"
+y_feature <- "mnau_proximal_appendicular_mean"
+z_feature <- "ProportionalRep_MNIbased_metacarpal"
+
+
+# other best 3 
+#x_feature <- "mnau_postcranial_total_mean"
+#y_feature <- "mnau_proximal_appendicular_mean"
+#z_feature <- "ProportionalRep_MNIbased_metacarpal"
+
+
+  #"mnau_girdle_mean","mnau_distal_appendicular_mean",
+  #"mnau_proximal_appendicular_mean","all_sections_dominance",
+  #"low_density_survival_index"
+
+# main
+#x_feature <- "mnau_postcranial_total_mean"
+#y_feature <- "pelvic_femoral_proximal_emphasis"
+#z_feature <- "distal_metacarpal_cervical_reduction"
+
+# You can replace these with any three feature names, for example:
+# x_feature <- "ProportionalRep_MNIbased_os_coxae"
+# y_feature <- "ProportionalRep_MNIbased_femur"
+# z_feature <- "mnau_distal_appendicular_mean"
+
+# ---- safety check ----------------------------------------------------
+needed_cols <- c("site_name", "group", x_feature, y_feature, z_feature)
+
+missing_cols <- setdiff(needed_cols, names(plot_df))
+
+if (length(missing_cols) > 0) {
+  stop(
+    "These columns are missing from plot_df: ",
+    paste(missing_cols, collapse = ", ")
+  )
+}
+
+# ---- 3D Plotly plot --------------------------------------------------
+p <- plot_ly(
+  data = plot_df,
+  x = ~.data[[x_feature]],
+  y = ~.data[[y_feature]],
+  z = ~.data[[z_feature]],
+  color = ~group,
+  colors = c(
+    "sites_up" = "#D55E00",
+    "sites_down" = "#0072B2",
+    "sites_plot" = "#009E73"
+  ),
+  type = "scatter3d",
+  mode = "markers+text",
+  text = ~site_name,
+  textposition = "top center",
+  marker = list(
+    size = 6,
+    opacity = 0.85
+  ),
+  hoverinfo = "text",
+  hovertext = ~paste0(
+    "<b>", site_name, "</b>",
+    "<br>Group: ", group,
+    "<br>", x_feature, ": ", round(.data[[x_feature]], 4),
+    "<br>", y_feature, ": ", round(.data[[y_feature]], 4),
+    "<br>", z_feature, ": ", round(.data[[z_feature]], 4)
+  )
+) %>%
+  layout(
+    scene = list(
+      xaxis = list(title = x_feature),
+      yaxis = list(title = y_feature),
+      zaxis = list(title = z_feature)
+    ),
+    legend = list(title = list(text = "Site group")),
+    title = paste(
+      "3D feature plot:",
+      x_feature, "vs", y_feature, "vs", z_feature
+    )
+  )
+
+p
+```
+
+
+```{r}
+
+```
+
+
+
+```{r}
+core_features <- c(
+  "mnau_girdle_mean",
+  "mnau_shoulder",
+  "mnau_proximal_appendicular_mean",
+  "mnau_postcranial_total_mean",
+  "ProportionalRep_MNIbased_os_coxae",
+  "ProportionalRep_MNIbased_metacarpal"
+)
+
+```
+
+
+```{r}
+library(dplyr)
+library(plotly)
+library(knitr)
+
+# ---- group definition ------------------------------------------------
+sites_up <- c("Abri Pataud","Předmostí","La Ferrassie","Xemxija tombs",
+              "Regourdou","Kiik-Koba","El Espinoso Cave","Atxuri-I Cave",
+              "Mladeč Caves")
+
+sites_down <- c("Ojo Guareña","Kebara Cave","Abri de Raymonden (Chancelade)",
+                "Vado all'Arancio","Abrigo do Lagar Velho","Roc de Marsal",
+                "Roc-de-Cave (Saint-Cirq-Madelon, Lot)","Sima de las Palomas",
+                "Le Moustier II")
+
+sites_plot <- c("Sima de los Huesos 95","Sima de los Huesos 16",
+                "San Juan ante Portam Latinam","Crow Creek","Mugharet es-Skhul",
+                "Tepecik-Çiftlik","Mancos 5MT-10010 Feature 3",
+                "Yellow Jacket 5MT-3","Grotte des Perrats")
+
+all_sites <- c(sites_up, sites_down, sites_plot)
+
+plot_df <- tb %>%
+  filter(site_name %in% all_sites) %>%
+  mutate(
+    group = case_when(
+      site_name %in% sites_up   ~ "sites_up",
+      site_name %in% sites_down ~ "sites_down",
+      site_name %in% sites_plot ~ "sites_plot",
+      TRUE ~ NA_character_
+    )
+  )
+```
+
+
+
+
+```{r}
+# ---- PCA feature set -------------------------------------------------
+pca_features <- c(
+  "mnau_girdle_mean",
+  "mnau_shoulder",
+  "mnau_proximal_appendicular_mean",
+  "mnau_postcranial_total_mean",
+  "mnau_appendicular_mean",
+  "mnau_column_trunk_mean",
+  "mnau_arms",
+  "ProportionalRep_MNIbased_os_coxae",
+  "low_density_survival_index",
+  "ProportionalRep_MNIbased_metacarpal",
+  "density_adjusted_appendicular_axial_contrast"
+)
+
+pca_df <- plot_df %>%
+  select(site_name, group, all_of(pca_features)) %>%
+  tidyr::drop_na()
+
+pca_mat <- pca_df %>%
+  select(all_of(pca_features)) %>%
+  scale()
+
+pca <- prcomp(pca_mat, center = FALSE, scale. = FALSE)
+
+pca_scores <- as.data.frame(pca$x[, 1:3]) %>%
+  bind_cols(pca_df %>% select(site_name, group), .)
+
+pca_var <- summary(pca)$importance[2, 1:3] * 100
+
+plot_ly(
+  data = pca_scores,
+  x = ~PC1,
+  y = ~PC2,
+  z = ~PC3,
+  color = ~group,
+  colors = c(
+    "sites_up" = "#D55E00",
+    "sites_down" = "#0072B2",
+    "sites_plot" = "#009E73"
+  ),
+  type = "scatter3d",
+  mode = "markers+text",
+  text = ~site_name,
+  textposition = "top center",
+  marker = list(size = 6, opacity = 0.85),
+  hoverinfo = "text",
+  hovertext = ~paste0(
+    "<b>", site_name, "</b>",
+    "<br>Group: ", group,
+    "<br>PC1: ", round(PC1, 3),
+    "<br>PC2: ", round(PC2, 3),
+    "<br>PC3: ", round(PC3, 3)
+  )
+) %>%
+  layout(
+    title = "PCA of significant skeletal-representation features",
+    scene = list(
+      xaxis = list(title = paste0("PC1 (", round(pca_var[1], 1), "%)")),
+      yaxis = list(title = paste0("PC2 (", round(pca_var[2], 1), "%)")),
+      zaxis = list(title = paste0("PC3 (", round(pca_var[3], 1), "%)"))
+    )
+  )
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
