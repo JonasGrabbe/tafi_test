@@ -2050,3 +2050,9 @@ prep:
 -
 ----
 id
+-----
+
+pca with smote and ind and sum  
+clean rstudio and run best level / all level with svm RF 5k each 
+-  
+
