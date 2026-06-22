@@ -234,11 +234,11 @@ cv_unknown_report <- function(X, y, unknown_df,
 # 4. The RFE loop — now driven by K-fold CV mean importance.
 # ---------------------------------------------------------------------
 rfe_rf <- function(X, y,
-                   big_step        = 40,
-                   small_threshold = 40,
-                   small_step      = 5,     # <- smaller steps, set from run_rfe()
-                   min_features    = 10,
-                   ntree           = 500,
+                   big_step        = 15,
+                   small_threshold = 50,
+                   small_step      = 1,     # <- smaller steps, set from run_rfe()
+                   min_features    = 20,
+                   ntree           = 1500,
                    cv_folds        = 3,     # <- 3-fold CV by default
                    guard_overshoot = TRUE,  # avoid skipping the small-step phase
                    seed            = 42) {
@@ -330,12 +330,12 @@ run_rfe <- function(tapho_db,
                     out_csv       = "feature_elimination_ranking.csv",
                     out_plot      = "feature_elimination_curve.png",
                     cv_folds      = 3,    # 3-fold cross-validation
-                    small_step    = 5,    # <- n: fine elimination step size (external control)
+                    small_step    = 1,    # <- n: fine elimination step size (external control)
                     seed          = 42,
                     unknown_sites = NULL, # restrict the report to these site_names (NULL = all unknown)
                     focus_class   = "Funerary Context",
                     report_unknown = TRUE,
-                    ntree         = 500) {
+                    ntree         = 1500) {
 
   # row id lets us recover the UNKNOWN rows (those task_recode_data drops)
   db   <- tapho_db %>% dplyr::mutate(.row_id = dplyr::row_number())
