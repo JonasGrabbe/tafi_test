@@ -1,0 +1,190 @@
+"feature","group","shapiro_p"
+"ProportionalRep_MNIbased_carpal","Late Pleistocene",1.68402056942837e-14
+"ProportionalRep_MNIbased_carpal","Holocene",2.1263736128146e-11
+"ProportionalRep_MNIbased_carpal","Middle Pleistocene",2.28810227817418e-05
+"ProportionalRep_MNIbased_cervical","Late Pleistocene",9.51217282288267e-13
+"ProportionalRep_MNIbased_cervical","Holocene",3.88585568466836e-08
+"ProportionalRep_MNIbased_cervical","Middle Pleistocene",2.61760887480366e-06
+"ProportionalRep_MNIbased_clavicle","Late Pleistocene",3.03843722106346e-11
+"ProportionalRep_MNIbased_clavicle","Holocene",4.89991024626579e-06
+"ProportionalRep_MNIbased_clavicle","Middle Pleistocene",0.000603039940054363
+"ProportionalRep_MNIbased_femur","Late Pleistocene",7.98175899488137e-10
+"ProportionalRep_MNIbased_femur","Holocene",0.00694943237549352
+"ProportionalRep_MNIbased_femur","Middle Pleistocene",0.000395719323728437
+"ProportionalRep_MNIbased_fibula","Late Pleistocene",5.07731721284768e-12
+"ProportionalRep_MNIbased_fibula","Holocene",0.000215541970122385
+"ProportionalRep_MNIbased_fibula","Middle Pleistocene",0.000193955892804972
+"ProportionalRep_MNIbased_humerus","Late Pleistocene",1.04933972717336e-10
+"ProportionalRep_MNIbased_humerus","Holocene",0.129156712103499
+"ProportionalRep_MNIbased_humerus","Middle Pleistocene",0.00381275051167683
+"ProportionalRep_MNIbased_metacarpal","Late Pleistocene",2.17299538182048e-12
+"ProportionalRep_MNIbased_metacarpal","Holocene",2.07506269784239e-06
+"ProportionalRep_MNIbased_metacarpal","Middle Pleistocene",2.23040650417363e-05
+"ProportionalRep_MNIbased_os_coxae","Late Pleistocene",2.26648028443068e-11
+"ProportionalRep_MNIbased_os_coxae","Holocene",1.12933894805837e-05
+"ProportionalRep_MNIbased_os_coxae","Middle Pleistocene",1.25798887511179e-05
+"ProportionalRep_MNIbased_radius","Late Pleistocene",1.99201923991304e-11
+"ProportionalRep_MNIbased_radius","Holocene",1.02363530035442e-05
+"ProportionalRep_MNIbased_radius","Middle Pleistocene",0.000235574935063899
+"ProportionalRep_MNIbased_tibia","Late Pleistocene",1.84149395555431e-10
+"ProportionalRep_MNIbased_tibia","Holocene",0.00306426343329099
+"ProportionalRep_MNIbased_tibia","Middle Pleistocene",0.000103612181695547
+"ReMNAU_cervical","Late Pleistocene",2.8935865082425e-11
+"ReMNAU_cervical","Holocene",3.08977758504705e-06
+"ReMNAU_cervical","Middle Pleistocene",1.2973545811207e-05
+"ReMNAU_radius","Late Pleistocene",3.35805134705393e-12
+"ReMNAU_radius","Holocene",0.000152098690325808
+"ReMNAU_radius","Middle Pleistocene",0.00595574176840811
+"ReMNAU_ulna","Late Pleistocene",4.79274414589772e-17
+"ReMNAU_ulna","Holocene",2.7087605525377e-06
+"ReMNAU_ulna","Middle Pleistocene",0.00267403433949809
+"all_sections_dominance","Late Pleistocene",1.52730880024541e-08
+"all_sections_dominance","Holocene",0.00569442191015361
+"all_sections_dominance","Middle Pleistocene",0.0367061468554176
+"appendicular_dominance","Late Pleistocene",1.89986194803288e-07
+"appendicular_dominance","Holocene",0.000956428550797878
+"appendicular_dominance","Middle Pleistocene",0.0614204177219573
+"appendicular_dominance_refined","Late Pleistocene",1.89986194803288e-07
+"appendicular_dominance_refined","Holocene",0.000956428550797878
+"appendicular_dominance_refined","Middle Pleistocene",0.0614204177219573
+"density_adjusted_appendicular_axial_contrast","Late Pleistocene",0.170542991139324
+"density_adjusted_appendicular_axial_contrast","Holocene",3.69122057454054e-08
+"density_adjusted_appendicular_axial_contrast","Middle Pleistocene",0.554150942562339
+"density_evenness","Late Pleistocene",6.99090762357862e-09
+"density_evenness","Holocene",3.16779723325945e-06
+"density_evenness","Middle Pleistocene",0.0165283274416015
+"distal_appendicular_continuity_hm","Late Pleistocene",1.69101513170891e-13
+"distal_appendicular_continuity_hm","Holocene",1.86713333681765e-07
+"distal_appendicular_continuity_hm","Middle Pleistocene",3.42057645006672e-05
+"dominance_gap_all","Late Pleistocene",1.61196822600979e-08
+"dominance_gap_all","Holocene",0.000621874966616388
+"dominance_gap_all","Middle Pleistocene",0.0132197187936369
+"dominant_axial_share","Late Pleistocene",2.46370486143047e-07
+"dominant_axial_share","Holocene",0.0597770692308342
+"dominant_axial_share","Middle Pleistocene",0.0772301151329934
+"effective_sections_hill1","Late Pleistocene",2.78965259808786e-08
+"effective_sections_hill1","Holocene",0.529283798142636
+"effective_sections_hill1","Middle Pleistocene",0.00740618176717426
+"low_density_axial_survival","Late Pleistocene",3.14228213300829e-14
+"low_density_axial_survival","Holocene",9.02994725642323e-12
+"low_density_axial_survival","Middle Pleistocene",0.000163165983736016
+"low_density_share","Late Pleistocene",1.03967694925156e-08
+"low_density_share","Holocene",0.0311604164043057
+"low_density_share","Middle Pleistocene",0.00850302054050457
+"low_density_survival_index","Late Pleistocene",6.84662023486535e-12
+"low_density_survival_index","Holocene",2.66907295526231e-10
+"low_density_survival_index","Middle Pleistocene",0.000844759484961602
+"lower_appendicular_continuity_hm","Late Pleistocene",5.06259268758535e-13
+"lower_appendicular_continuity_hm","Holocene",2.58508574372515e-07
+"lower_appendicular_continuity_hm","Middle Pleistocene",1.65980654406533e-05
+"lower_appendicular_evenness","Late Pleistocene",7.02564336452327e-07
+"lower_appendicular_evenness","Holocene",0.000192068711800085
+"lower_appendicular_evenness","Middle Pleistocene",0.0347321573866744
+"lower_appendicular_evenness_refined","Late Pleistocene",7.02564336452327e-07
+"lower_appendicular_evenness_refined","Holocene",0.000192068711800085
+"lower_appendicular_evenness_refined","Middle Pleistocene",0.0347321573866744
+"mnau_appendicular_mean","Late Pleistocene",4.94622371087709e-09
+"mnau_appendicular_mean","Holocene",0.000239620708580597
+"mnau_appendicular_mean","Middle Pleistocene",0.000152790936510645
+"mnau_arms","Late Pleistocene",2.17756545580016e-10
+"mnau_arms","Holocene",0.000462521990934939
+"mnau_arms","Middle Pleistocene",0.00164866953632007
+"mnau_arms_legs_diff","Late Pleistocene",4.66234441435954e-08
+"mnau_arms_legs_diff","Holocene",0.327519543423682
+"mnau_arms_legs_diff","Middle Pleistocene",0.190892031900129
+"mnau_arms_legs_logratio","Late Pleistocene",3.63640072745969e-12
+"mnau_arms_legs_logratio","Holocene",2.56498608482926e-12
+"mnau_arms_legs_logratio","Middle Pleistocene",0.00165932208966855
+"mnau_arms_to_legs_ratio","Late Pleistocene",3.51470817849591e-20
+"mnau_arms_to_legs_ratio","Holocene",1.0878479873094e-14
+"mnau_arms_to_legs_ratio","Middle Pleistocene",2.41712354980853e-05
+"mnau_axial_main_mean","Late Pleistocene",2.36727477559809e-12
+"mnau_axial_main_mean","Holocene",1.03895308962464e-08
+"mnau_axial_main_mean","Middle Pleistocene",0.000163165983736017
+"mnau_column_trunk_mean","Late Pleistocene",6.83896850862721e-11
+"mnau_column_trunk_mean","Holocene",4.538768382604e-08
+"mnau_column_trunk_mean","Middle Pleistocene",3.76697108105473e-05
+"mnau_cv","Late Pleistocene",2.00147734229862e-08
+"mnau_cv","Holocene",0.0124747294249233
+"mnau_cv","Middle Pleistocene",0.0361636950553202
+"mnau_distal_appendicular_mean","Late Pleistocene",4.47947040386979e-12
+"mnau_distal_appendicular_mean","Holocene",3.92645995494621e-07
+"mnau_distal_appendicular_mean","Middle Pleistocene",3.38014091594763e-05
+"mnau_dominance_of_region_means","Late Pleistocene",3.95801648321279e-08
+"mnau_dominance_of_region_means","Holocene",3.00208853806868e-06
+"mnau_dominance_of_region_means","Middle Pleistocene",0.0212440114145414
+"mnau_evenness_minus_dominance","Late Pleistocene",1.4311440317156e-08
+"mnau_evenness_minus_dominance","Holocene",0.00248943258896982
+"mnau_evenness_minus_dominance","Middle Pleistocene",0.0321505325478555
+"mnau_foot","Late Pleistocene",2.90868327713633e-13
+"mnau_foot","Holocene",1.0229549374148e-06
+"mnau_foot","Middle Pleistocene",4.04294714206054e-05
+"mnau_gini","Late Pleistocene",4.30715744679566e-08
+"mnau_gini","Holocene",0.543805603432076
+"mnau_gini","Middle Pleistocene",0.00609881799041706
+"mnau_girdle_mean","Late Pleistocene",9.64794931074998e-10
+"mnau_girdle_mean","Holocene",2.64049891098667e-05
+"mnau_girdle_mean","Middle Pleistocene",0.000212723701911318
+"mnau_hands","Late Pleistocene",7.56872295040659e-13
+"mnau_hands","Holocene",2.3140041820291e-07
+"mnau_hands","Middle Pleistocene",2.97167046008384e-05
+"mnau_heip_evenness","Late Pleistocene",2.78965259808781e-08
+"mnau_heip_evenness","Holocene",0.529283798142656
+"mnau_heip_evenness","Middle Pleistocene",0.00740618176717426
+"mnau_inverse_simpson","Late Pleistocene",3.25291459149416e-08
+"mnau_inverse_simpson","Holocene",0.2678602013313
+"mnau_inverse_simpson","Middle Pleistocene",0.00294051327472836
+"mnau_legs","Late Pleistocene",3.17211611527496e-09
+"mnau_legs","Holocene",0.0187030894348665
+"mnau_legs","Middle Pleistocene",0.000474724616341305
+"mnau_limb_shaft_proxy_mean","Late Pleistocene",4.98972076111354e-09
+"mnau_limb_shaft_proxy_mean","Holocene",0.00171201293791391
+"mnau_limb_shaft_proxy_mean","Middle Pleistocene",0.00118392585219057
+"mnau_lower_appendicular_mean","Late Pleistocene",2.81490284220642e-09
+"mnau_lower_appendicular_mean","Holocene",0.000314576417542468
+"mnau_lower_appendicular_mean","Middle Pleistocene",7.11239623899147e-05
+"mnau_pelvic","Late Pleistocene",1.06311143172465e-11
+"mnau_pelvic","Holocene",3.04524599084485e-07
+"mnau_pelvic","Middle Pleistocene",1.53874776181713e-05
+"mnau_postcranial_total_mean","Late Pleistocene",1.75165793023707e-09
+"mnau_postcranial_total_mean","Holocene",8.12265508958e-06
+"mnau_postcranial_total_mean","Middle Pleistocene",0.000133374341920167
+"mnau_proximal_appendicular_mean","Late Pleistocene",5.79873989272215e-09
+"mnau_proximal_appendicular_mean","Holocene",0.00129152935008558
+"mnau_proximal_appendicular_mean","Middle Pleistocene",0.000415022321483194
+"mnau_region_mean_evenness","Late Pleistocene",1.7488493525161e-08
+"mnau_region_mean_evenness","Holocene",1.71174948337719e-08
+"mnau_region_mean_evenness","Middle Pleistocene",0.00724171143019426
+"mnau_shoulder","Late Pleistocene",1.55258910890369e-10
+"mnau_shoulder","Holocene",0.000449785952212605
+"mnau_shoulder","Middle Pleistocene",0.000617445765134866
+"mnau_simpson_dominance","Late Pleistocene",2.17081310057534e-09
+"mnau_simpson_dominance","Holocene",3.66960539156508e-06
+"mnau_simpson_dominance","Middle Pleistocene",0.0175564267247029
+"mnau_simpson_evenness","Late Pleistocene",3.25291459149416e-08
+"mnau_simpson_evenness","Holocene",0.2678602013313
+"mnau_simpson_evenness","Middle Pleistocene",0.00294051327472839
+"mnau_top2_share_mcnaughton","Late Pleistocene",1.12550945184869e-08
+"mnau_top2_share_mcnaughton","Holocene",0.211451265636875
+"mnau_top2_share_mcnaughton","Middle Pleistocene",0.00357036956555898
+"mnau_upper_appendicular_mean","Late Pleistocene",1.89185779016015e-09
+"mnau_upper_appendicular_mean","Holocene",0.000381318214037658
+"mnau_upper_appendicular_mean","Middle Pleistocene",0.000516190913312412
+"mnau_vertebrae_to_thorax_ratio","Late Pleistocene",3.07841475044548e-19
+"mnau_vertebrae_to_thorax_ratio","Holocene",8.89517928510603e-15
+"mnau_vertebrae_to_thorax_ratio","Middle Pleistocene",8.44693027901832e-07
+"mne_arms","Late Pleistocene",5.95723070031262e-16
+"mne_arms","Holocene",2.41701833690966e-13
+"mne_arms","Middle Pleistocene",0.000367628900288892
+"mne_arms_to_legs_ratio","Late Pleistocene",1.11491286812986e-19
+"mne_arms_to_legs_ratio","Holocene",1.00246998516396e-14
+"mne_arms_to_legs_ratio","Middle Pleistocene",7.43782555297216e-05
+"mne_cranial_share","Late Pleistocene",1.63501002536651e-11
+"mne_cranial_share","Holocene",1.54204933246317e-11
+"mne_cranial_share","Middle Pleistocene",0.000744601372591789
+"mne_vertebrae_to_thorax_ratio","Late Pleistocene",2.37712571352491e-20
+"mne_vertebrae_to_thorax_ratio","Holocene",1.42385763287329e-14
+"mne_vertebrae_to_thorax_ratio","Middle Pleistocene",1.59578386440845e-06
+"postcranial_dominance_refined","Late Pleistocene",9.44789606993305e-08
+"postcranial_dominance_refined","Holocene",2.31494126085172e-05
+"postcranial_dominance_refined","Middle Pleistocene",0.0487456804864226

@@ -1,0 +1,4 @@
+term,df,sumsq,R2,F,p,note
+NA,NA,NA,NA,NA,NA,"[1m[22m[36mℹ[39m In argument: `group = .data[[list(""hominin_species"")]]`.
+[1mCaused by error in `.data[[<list: ""hominin_species"">]]`:[22m
+[1m[22m[33m![39m Must subset the data pronoun with a string, not a list."

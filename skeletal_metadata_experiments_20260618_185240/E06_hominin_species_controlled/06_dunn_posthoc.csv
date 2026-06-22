@@ -1,0 +1,561 @@
+feature,.y.,group1,group2,n1,n2,statistic,p,p.adj,p.adj.signif
+mnau_top2_share_mcnaughton,value,H. erectus,H. neanderthalensis,5,48,-2.159968595748654,0.030775100769986203,0.0769377519249655,ns
+mnau_top2_share_mcnaughton,value,H. erectus,H. sapiens,5,79,-3.7534812946171003,1.7439555160024222e-4,8.719777580012111e-4,***
+mnau_top2_share_mcnaughton,value,H. erectus,Middle Pleistocene hominin,5,14,-1.349395268597013,0.17721003973410598,0.29317991386348013,ns
+mnau_top2_share_mcnaughton,value,H. erectus,Other_small_groups,5,3,-1.2668024392432027,0.2052259397044361,0.29317991386348013,ns
+mnau_top2_share_mcnaughton,value,H. neanderthalensis,H. sapiens,48,79,-3.9117706655905877,9.162189566587457e-5,8.719777580012111e-4,***
+mnau_top2_share_mcnaughton,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,1.0272159605208304,0.3043187842614973,0.3803984803268716,ns
+mnau_top2_share_mcnaughton,value,H. neanderthalensis,Other_small_groups,48,3,0.1510459890394174,0.8799394380333461,0.8799394380333461,ns
+mnau_top2_share_mcnaughton,value,H. sapiens,Middle Pleistocene hominin,79,14,3.54474236361197,3.9299701502683066e-4,0.0013099900500894357,**
+mnau_top2_share_mcnaughton,value,H. sapiens,Other_small_groups,79,3,1.3698697736924421,0.17072755663521574,0.29317991386348013,ns
+mnau_top2_share_mcnaughton,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.34913503668380774,0.7269879341065315,0.8077643712294795,ns
+density_evenness,value,H. erectus,H. neanderthalensis,5,48,1.8033167773878331,0.07133847923260414,0.17834619808151037,ns
+density_evenness,value,H. erectus,H. sapiens,5,79,3.525591396282567,4.2253834825883813e-4,0.002112691741294191,**
+density_evenness,value,H. erectus,Middle Pleistocene hominin,5,14,1.242137713719092,0.2141857558607592,0.356976259767932,ns
+density_evenness,value,H. erectus,Other_small_groups,5,3,1.112936231209676,0.26573581799741586,0.3796225971391655,ns
+density_evenness,value,H. neanderthalensis,H. sapiens,48,79,4.253341769071686,2.106037692556416e-5,2.106037692556416e-4,***
+density_evenness,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,-0.6594053994527593,0.5096354757878833,0.637044344734854,ns
+density_evenness,value,H. neanderthalensis,Other_small_groups,48,3,-0.05823587154319237,0.9535607478359868,0.9535607478359868,ns
+density_evenness,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.375035080656302,7.380628194596846e-4,0.0024602093981989487,**
+density_evenness,value,H. sapiens,Other_small_groups,79,3,-1.3822409143365195,0.16689774131418852,0.33379548262837705,ns
+density_evenness,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.26034647353249407,0.7945965274804923,0.8828850305338803,ns
+dominance_gap_all,value,H. erectus,H. neanderthalensis,5,48,-2.0485027294186935,0.04051076492924382,0.10127691232310955,ns
+dominance_gap_all,value,H. erectus,H. sapiens,5,79,-3.592001573838121,3.281478676422696e-4,0.001640739338211348,**
+dominance_gap_all,value,H. erectus,Middle Pleistocene hominin,5,14,-1.2796403230680446,0.20067166155771365,0.3344527692628561,ns
+dominance_gap_all,value,H. erectus,Other_small_groups,5,3,-0.9037930656398979,0.3661051394015081,0.4576314242518851,ns
+dominance_gap_all,value,H. neanderthalensis,H. sapiens,48,79,-3.791091507583819,1.4998667640386994e-4,0.0014998667640386994,**
+dominance_gap_all,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,0.9744102184466864,0.32985289781169574,0.4576314242518851,ns
+dominance_gap_all,value,H. neanderthalensis,Other_small_groups,48,3,0.5084929859953307,0.611107656760505,0.6790085075116723,ns
+dominance_gap_all,value,H. sapiens,Middle Pleistocene hominin,79,14,3.413267606903006,6.418887774181374e-4,0.002139629258060458,**
+dominance_gap_all,value,H. sapiens,Other_small_groups,79,3,1.6939686980385322,0.09027123130050765,0.1805424626010153,ns
+dominance_gap_all,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.01043715586105897,0.9916725056715624,0.9916725056715624,ns
+all_sections_dominance,value,H. erectus,H. neanderthalensis,5,48,-2.069195377657194,0.0385277563082485,0.09631939077062125,ns
+all_sections_dominance,value,H. erectus,H. sapiens,5,79,-3.597266961597441,3.2157838732725983e-4,0.001607891936636299,**
+all_sections_dominance,value,H. erectus,Middle Pleistocene hominin,5,14,-1.2566882450736772,0.20886654630764856,0.3481109105127476,ns
+all_sections_dominance,value,H. erectus,Other_small_groups,5,3,-0.9950128337068612,0.31973002257459127,0.3996625282182391,ns
+all_sections_dominance,value,H. neanderthalensis,H. sapiens,48,79,-3.7512244545405875,1.7597307522786696e-4,0.001607891936636299,**
+all_sections_dominance,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,1.0457915827338269,0.2956572682259315,0.3996625282182391,ns
+all_sections_dominance,value,H. neanderthalensis,Other_small_groups,48,3,0.41289291418474267,0.679685072783756,0.7552056364263956,ns
+all_sections_dominance,value,H. sapiens,Middle Pleistocene hominin,79,14,3.4628780046779224,5.344306461277772e-4,0.0017814354870925907,**
+all_sections_dominance,value,H. sapiens,Other_small_groups,79,3,1.584842160652263,0.113002200598095,0.22600440119619,ns
+all_sections_dominance,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.11306826004209745,0.909976438404909,0.909976438404909,ns
+low_density_axial_survival,value,H. erectus,H. neanderthalensis,5,50,1.8295783243189492,0.067313017401297,0.1682825435032425,ns
+low_density_axial_survival,value,H. erectus,H. sapiens,5,79,3.4951003041024453,4.738836308024323e-4,0.0023694181540121614,**
+low_density_axial_survival,value,H. erectus,Middle Pleistocene hominin,5,14,1.2478449768456727,0.21208783399856082,0.3534797233309347,ns
+low_density_axial_survival,value,H. erectus,Other_small_groups,5,3,1.3564998035648672,0.17494019782790193,0.34988039565580387,ns
+low_density_axial_survival,value,H. neanderthalensis,H. sapiens,50,79,4.170154127810517,3.043937041062431e-5,3.043937041062431e-4,***
+low_density_axial_survival,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.688014239835666,0.49144381415339605,0.614304767691745,ns
+low_density_axial_survival,value,H. neanderthalensis,Other_small_groups,50,3,0.22290539742206006,0.8236091355365038,0.8236091355365038,ns
+low_density_axial_survival,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.316291342600679,9.122067756344121e-4,0.003040689252114707,**
+low_density_axial_survival,value,H. sapiens,Other_small_groups,79,3,-1.0559383010862113,0.29099640408016786,0.4157091486859541,ns
+low_density_axial_survival,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.535256550012053,0.5924724672073626,0.658302741341514,ns
+low_density_share,value,H. erectus,H. neanderthalensis,5,48,2.0472564917262703,0.04063290736255095,0.10158226840637738,ns
+low_density_share,value,H. erectus,H. sapiens,5,79,3.6378129390925515,2.7496300548467617e-4,0.0013748150274233808,**
+low_density_share,value,H. erectus,Middle Pleistocene hominin,5,14,1.3624225467820361,0.17306457221038157,0.2921596421703015,ns
+low_density_share,value,H. erectus,Other_small_groups,5,3,1.355382302077789,0.17529578530218087,0.2921596421703015,ns
+low_density_share,value,H. neanderthalensis,H. sapiens,48,79,3.9097290477823705,9.239970545231135e-5,9.239970545231134e-4,***
+low_density_share,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,-0.8304934920478696,0.40625982584395626,0.5078247823049453,ns
+low_density_share,value,H. neanderthalensis,Other_small_groups,48,3,0.046656105523803025,0.9627873149385494,0.9627873149385494,ns
+low_density_share,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.337390291523307,8.456910115355359e-4,0.002818970038451786,**
+low_density_share,value,H. sapiens,Other_small_groups,79,3,-1.1692104595019537,0.24231884809034843,0.34616978298621204,ns
+low_density_share,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.4401468392041845,0.6598307595612491,0.7331452884013879,ns
+mnau_postcranial_total_mean,value,H. erectus,H. neanderthalensis,5,50,2.159530000547932,0.030809072443823984,0.07702268110955995,ns
+mnau_postcranial_total_mean,value,H. erectus,H. sapiens,5,79,3.7162124258289313,2.022315752807317e-4,0.0010111578764036586,**
+mnau_postcranial_total_mean,value,H. erectus,Middle Pleistocene hominin,5,14,1.4929841774662596,0.13544132870364814,0.22573554783941358,ns
+mnau_postcranial_total_mean,value,H. erectus,Other_small_groups,5,3,1.0538814427327066,0.29193720003261026,0.41705314290372897,ns
+mnau_postcranial_total_mean,value,H. neanderthalensis,H. sapiens,50,79,3.8780078987400057,1.0531529884161339e-4,0.0010111578764036586,**
+mnau_postcranial_total_mean,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.7774619809040063,0.4368862568195621,0.5461078210244527,ns
+mnau_postcranial_total_mean,value,H. neanderthalensis,Other_small_groups,50,3,-0.4092456344524781,0.6823594079768094,0.7581771199742326,ns
+mnau_postcranial_total_mean,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.227494693835615,0.0012487935713789231,0.004162645237929744,**
+mnau_postcranial_total_mean,value,H. sapiens,Other_small_groups,79,3,-1.6050050219648822,0.10849269948610975,0.2169853989722195,ns
+mnau_postcranial_total_mean,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.01285860918958586,0.9897405969765094,0.9897405969765094,ns
+mnau_appendicular_mean,value,H. erectus,H. neanderthalensis,5,50,2.161483442429929,0.030658014613304013,0.07664503653326003,ns
+mnau_appendicular_mean,value,H. erectus,H. sapiens,5,79,3.711182360282331,2.0629341605323323e-4,0.0010314670802661662,**
+mnau_appendicular_mean,value,H. erectus,Middle Pleistocene hominin,5,14,1.549512816915971,0.12125849287066623,0.20209748811777706,ns
+mnau_appendicular_mean,value,H. erectus,Other_small_groups,5,3,0.9284193662169081,0.353190076632923,0.5045572523327472,ns
+mnau_appendicular_mean,value,H. neanderthalensis,H. sapiens,50,79,3.860102143657326,1.1333963811154516e-4,0.0010314670802661662,**
+mnau_appendicular_mean,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.6830929876762366,0.4945480861799893,0.6181851077249866,ns
+mnau_appendicular_mean,value,H. neanderthalensis,Other_small_groups,50,3,-0.5649285311745131,0.5721223765333654,0.6356915294815171,ns
+mnau_appendicular_mean,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.1179331443358724,0.0018212411160804577,0.006070803720268193,**
+mnau_appendicular_mean,value,H. sapiens,Other_small_groups,79,3,-1.7568298213399385,0.07894682041578653,0.15789364083157306,ns
+mnau_appendicular_mean,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.2031660251954584,0.8390052669879018,0.8390052669879018,ns
+low_density_survival_index,value,H. erectus,H. neanderthalensis,5,50,1.9835780813502726,0.04730289467666048,0.11825723669165121,ns
+low_density_survival_index,value,H. erectus,H. sapiens,5,79,3.6170843905147247,2.9794018628850454e-4,0.0014897009314425228,**
+low_density_survival_index,value,H. erectus,Middle Pleistocene hominin,5,14,1.4852111664051653,0.13748789495031208,0.27497578990062416,ns
+low_density_survival_index,value,H. erectus,Other_small_groups,5,3,1.2334922417112424,0.21739216948587564,0.3105602421226795,ns
+low_density_survival_index,value,H. neanderthalensis,H. sapiens,50,79,4.081730949831683,4.470152740348443e-5,4.470152740348443e-4,***
+low_density_survival_index,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.5179166895025,0.6045163970580806,0.7556454963226007,ns
+low_density_survival_index,value,H. neanderthalensis,Other_small_groups,50,3,-0.049738060191887146,0.9603311263325884,0.9603311263325884,ns
+low_density_survival_index,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.083817452498505,0.0020436294960091994,0.006812098320030665,**
+low_density_survival_index,value,H. sapiens,Other_small_groups,79,3,-1.304293005854145,0.19213369910439335,0.3105602421226795,ns
+low_density_survival_index,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.19967976330451853,0.8417310415783121,0.9352567128647913,ns
+mnau_cv,value,H. erectus,H. neanderthalensis,5,48,-2.1344078183760575,0.03280941214865671,0.08202353037164177,ns
+mnau_cv,value,H. erectus,H. sapiens,5,79,-3.631452416685163,2.8183062588803525e-4,0.0014091531294401763,**
+mnau_cv,value,H. erectus,Middle Pleistocene hominin,5,14,-1.3832232324046336,0.16659642823787196,0.2776607137297866,ns
+mnau_cv,value,H. erectus,Other_small_groups,5,3,-1.1112539562265888,0.26645905229990396,0.3806557889998628,ns
+mnau_cv,value,H. neanderthalensis,H. sapiens,48,79,-3.6699125924484073,2.4263342006276446e-4,0.0014091531294401763,**
+mnau_cv,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,0.9296486696426587,0.3525530193975923,0.4406912742469904,ns
+mnau_cv,value,H. neanderthalensis,Other_small_groups,48,3,0.32174259270256717,0.7476477078074093,0.8307196753415659,ns
+mnau_cv,value,H. sapiens,Middle Pleistocene hominin,79,14,3.289903611192115,0.0010022170787858714,0.003340723595952905,**
+mnau_cv,value,H. sapiens,Other_small_groups,79,3,1.4673231189348892,0.14228817751292727,0.2776607137297866,ns
+mnau_cv,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.14288125198331308,0.8863839653910052,0.8863839653910052,ns
+mnau_column_trunk_mean,value,H. erectus,H. neanderthalensis,5,50,1.9473997654205684,0.05148682617249534,0.12871706543123834,ns
+mnau_column_trunk_mean,value,H. erectus,H. sapiens,5,79,3.538754921095871,4.020189046889896e-4,0.002010094523444948,**
+mnau_column_trunk_mean,value,H. erectus,Middle Pleistocene hominin,5,14,1.3396029061612464,0.180374478500599,0.31462060942837133,ns
+mnau_column_trunk_mean,value,H. erectus,Other_small_groups,5,3,1.2259050011043318,0.22023442659985992,0.31462060942837133,ns
+mnau_column_trunk_mean,value,H. neanderthalensis,H. sapiens,50,79,3.97575018070182,7.015774455986835e-5,7.015774455986835e-4,***
+mnau_column_trunk_mean,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.7126804725225052,0.476043502728331,0.5950543784104138,ns
+mnau_column_trunk_mean,value,H. neanderthalensis,Other_small_groups,50,3,-0.0305122158848221,0.9756585510507094,0.9756585510507094,ns
+mnau_column_trunk_mean,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.220857949391819,0.001278074788054337,0.0042602492935144565,**
+mnau_column_trunk_mean,value,H. sapiens,Other_small_groups,79,3,-1.2523037840962132,0.21045919054251325,0.31462060942837133,ns
+mnau_column_trunk_mean,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.3102082666202052,0.7564025845539792,0.840447316171088,ns
+mnau_simpson_dominance,value,H. erectus,H. neanderthalensis,5,48,-2.069708650243579,0.038479636210334484,0.09619909052583621,ns
+mnau_simpson_dominance,value,H. erectus,H. sapiens,5,79,-3.5797204085004295,3.439620276182272e-4,0.0017198101380911362,**
+mnau_simpson_dominance,value,H. erectus,Middle Pleistocene hominin,5,14,-1.3267862774329782,0.1845793910886091,0.3076323184810152,ns
+mnau_simpson_dominance,value,H. erectus,Other_small_groups,5,3,-1.0480509411270011,0.29461513740893397,0.4208787677270485,ns
+mnau_simpson_dominance,value,H. neanderthalensis,H. sapiens,48,79,-3.7056919123229726,2.1081443226731963e-4,0.0017198101380911362,**
+mnau_simpson_dominance,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,0.9263530271283505,0.35426254677175334,0.44282818346469166,ns
+mnau_simpson_dominance,value,H. neanderthalensis,Other_small_groups,48,3,0.34821281978099333,0.7276803607555882,0.8085337341728758,ns
+mnau_simpson_dominance,value,H. sapiens,Middle Pleistocene hominin,79,14,3.3090320993932925,9.361910305178934e-4,0.003120636768392978,**
+mnau_simpson_dominance,value,H. sapiens,Other_small_groups,79,3,1.5052360819382098,0.13226339168412943,0.26452678336825886,ns
+mnau_simpson_dominance,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.11654717709385407,0.9072188989040412,0.9072188989040412,ns
+mnau_inverse_simpson,value,H. erectus,H. neanderthalensis,5,48,2.0697086502435793,0.03847963621033444,0.09619909052583611,ns
+mnau_inverse_simpson,value,H. erectus,H. sapiens,5,79,3.5797204085004304,3.439620276182261e-4,0.0017198101380911303,**
+mnau_inverse_simpson,value,H. erectus,Middle Pleistocene hominin,5,14,1.3267862774329788,0.18457939108860882,0.30763231848101474,ns
+mnau_inverse_simpson,value,H. erectus,Other_small_groups,5,3,1.0480509411270016,0.2946151374089337,0.42087876772704813,ns
+mnau_inverse_simpson,value,H. neanderthalensis,H. sapiens,48,79,3.7056919123229726,2.1081443226731963e-4,0.0017198101380911303,**
+mnau_inverse_simpson,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,-0.92635302712835,0.35426254677175356,0.44282818346469194,ns
+mnau_inverse_simpson,value,H. neanderthalensis,Other_small_groups,48,3,-0.34821281978099305,0.7276803607555884,0.808533734172876,ns
+mnau_inverse_simpson,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.309032099393292,9.361910305178947e-4,0.0031206367683929825,**
+mnau_inverse_simpson,value,H. sapiens,Other_small_groups,79,3,-1.5052360819382096,0.1322633916841295,0.264526783368259,ns
+mnau_inverse_simpson,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.11654717709385407,0.9072188989040412,0.9072188989040412,ns
+mnau_simpson_evenness,value,H. erectus,H. neanderthalensis,5,48,2.0697086502435793,0.03847963621033444,0.09619909052583611,ns
+mnau_simpson_evenness,value,H. erectus,H. sapiens,5,79,3.5797204085004304,3.439620276182261e-4,0.0017198101380911303,**
+mnau_simpson_evenness,value,H. erectus,Middle Pleistocene hominin,5,14,1.3267862774329788,0.18457939108860882,0.30763231848101474,ns
+mnau_simpson_evenness,value,H. erectus,Other_small_groups,5,3,1.0480509411270016,0.2946151374089337,0.42087876772704813,ns
+mnau_simpson_evenness,value,H. neanderthalensis,H. sapiens,48,79,3.7056919123229726,2.1081443226731963e-4,0.0017198101380911303,**
+mnau_simpson_evenness,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,-0.92635302712835,0.35426254677175356,0.44282818346469194,ns
+mnau_simpson_evenness,value,H. neanderthalensis,Other_small_groups,48,3,-0.34821281978099305,0.7276803607555884,0.808533734172876,ns
+mnau_simpson_evenness,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.309032099393292,9.361910305178947e-4,0.0031206367683929825,**
+mnau_simpson_evenness,value,H. sapiens,Other_small_groups,79,3,-1.5052360819382096,0.1322633916841295,0.264526783368259,ns
+mnau_simpson_evenness,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.11654717709385407,0.9072188989040412,0.9072188989040412,ns
+mnau_evenness_minus_dominance,value,H. erectus,H. neanderthalensis,5,48,2.075890575722204,0.03790407254581893,0.09476018136454732,ns
+mnau_evenness_minus_dominance,value,H. erectus,H. sapiens,5,79,3.5771686599824135,3.473360759352516e-4,0.0017366803796762579,**
+mnau_evenness_minus_dominance,value,H. erectus,Middle Pleistocene hominin,5,14,1.304481993230215,0.19206929512046317,0.32011549186743865,ns
+mnau_evenness_minus_dominance,value,H. erectus,Other_small_groups,5,3,1.1010899563662222,0.270857507828859,0.38693929689837,ns
+mnau_evenness_minus_dominance,value,H. neanderthalensis,H. sapiens,48,79,3.6833878345511564,2.3015458119387912e-4,0.0017366803796762579,**
+mnau_evenness_minus_dominance,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,-0.9741736111246512,0.32997034493026955,0.41246293116283694,ns
+mnau_evenness_minus_dominance,value,H. neanderthalensis,Other_small_groups,48,3,-0.288007799538485,0.7733407683497401,0.8448489866877469,ns
+mnau_evenness_minus_dominance,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.345047099248725,8.226859854024706e-4,0.0027422866180082358,**
+mnau_evenness_minus_dominance,value,H. sapiens,Other_small_groups,79,3,-1.4373845939164078,0.15060874387602094,0.3012174877520419,ns
+mnau_evenness_minus_dominance,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.19569488691132206,0.8448489866877469,0.8448489866877469,ns
+mnau_axial_main_mean,value,H. erectus,H. neanderthalensis,5,50,1.85037231215177,0.06425990681169465,0.1606497670292366,ns
+mnau_axial_main_mean,value,H. erectus,H. sapiens,5,79,3.4728001057585822,5.150588151598188e-4,0.0025752940757990937,**
+mnau_axial_main_mean,value,H. erectus,Middle Pleistocene hominin,5,14,1.2796800564090312,0.20065768146728274,0.33442946911213794,ns
+mnau_axial_main_mean,value,H. erectus,Other_small_groups,5,3,1.3988929361895677,0.16184509115612655,0.3236901823122531,ns
+mnau_axial_main_mean,value,H. neanderthalensis,H. sapiens,50,79,4.059278673681277,4.9224539653593305e-5,4.922453965359331e-4,***
+mnau_axial_main_mean,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.6654180290951668,0.505783156575603,0.6322289457195038,ns
+mnau_axial_main_mean,value,H. neanderthalensis,Other_small_groups,50,3,0.258581141811223,0.7959584351421511,0.7959584351421511,ns
+mnau_axial_main_mean,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.223630943457043,0.0012657641358219925,0.004219213786073308,**
+mnau_axial_main_mean,value,H. sapiens,Other_small_groups,79,3,-0.9858217721396932,0.32422057983830144,0.4631722569118592,ns
+mnau_axial_main_mean,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.5578495496895965,0.5769471241661718,0.6410523601846353,ns
+mnau_lower_appendicular_mean,value,H. erectus,H. neanderthalensis,5,50,1.918598391198313,0.05503517936552726,0.13758794841381813,ns
+mnau_lower_appendicular_mean,value,H. erectus,H. sapiens,5,79,3.49110954620646,4.8101898229146225e-4,0.002405094911457311,**
+mnau_lower_appendicular_mean,value,H. erectus,Middle Pleistocene hominin,5,14,1.3315949694168119,0.1829933188978129,0.3049888648296882,ns
+mnau_lower_appendicular_mean,value,H. erectus,Other_small_groups,5,3,0.9297569969103417,0.35249691625269886,0.5035670232181413,ns
+mnau_lower_appendicular_mean,value,H. neanderthalensis,H. sapiens,50,79,3.9289221636419858,8.532745029281266e-5,8.532745029281266e-4,***
+mnau_lower_appendicular_mean,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.6818012395018423,0.4953646404139343,0.6192058005174179,ns
+mnau_lower_appendicular_mean,value,H. neanderthalensis,Other_small_groups,50,3,-0.3716302778862067,0.7101681426495642,0.7890757140550714,ns
+mnau_lower_appendicular_mean,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.1594753091517065,0.0015805349207933747,0.0052684497359779155,**
+mnau_lower_appendicular_mean,value,H. sapiens,Other_small_groups,79,3,-1.5826350577969006,0.11350466810332312,0.22700933620664623,ns
+mnau_lower_appendicular_mean,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.023178843676951194,0.9815076143738565,0.9815076143738565,ns
+mnau_gini,value,H. erectus,H. neanderthalensis,5,48,-2.1970603772411734,0.02801613443124633,0.07004033607811583,ns
+mnau_gini,value,H. erectus,H. sapiens,5,79,-3.683618504281233,2.2994630748927677e-4,0.0013606385013288592,**
+mnau_gini,value,H. erectus,Middle Pleistocene hominin,5,14,-1.465681403736513,0.1427351026769414,0.2602872110678663,ns
+mnau_gini,value,H. erectus,Other_small_groups,5,3,-1.4180631567032262,0.15617232664071976,0.2602872110678663,ns
+mnau_gini,value,H. neanderthalensis,H. sapiens,48,79,-3.640482409030392,2.7212770026577185e-4,0.0013606385013288592,**
+mnau_gini,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,0.8851462074125556,0.37607778054271707,0.47009722567839635,ns
+mnau_gini,value,H. neanderthalensis,Other_small_groups,48,3,-0.005283580833765073,0.9957843320412509,0.9957843320412509,ns
+mnau_gini,value,H. sapiens,Middle Pleistocene hominin,79,14,3.224714376365202,0.0012609840699169701,0.004203280233056567,**
+mnau_gini,value,H. sapiens,Other_small_groups,79,3,1.1272995397030512,0.2596158569525599,0.37087979564651413,ns
+mnau_gini,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.42753933334481814,0.6689865425383934,0.743318380598215,ns
+mnau_heip_evenness,value,H. erectus,H. neanderthalensis,5,48,2.0748602548090997,0.03799948821721007,0.09499872054302516,ns
+mnau_heip_evenness,value,H. erectus,H. sapiens,5,79,3.5580305460972834,3.7364587005618506e-4,0.0018682293502809253,**
+mnau_heip_evenness,value,H. erectus,Middle Pleistocene hominin,5,14,1.3459042353210617,0.17833340276779203,0.3272443551853633,ns
+mnau_heip_evenness,value,H. erectus,Other_small_groups,5,3,1.2920304112274168,0.19634661311121798,0.3272443551853633,ns
+mnau_heip_evenness,value,H. neanderthalensis,H. sapiens,48,79,3.6378084804258664,2.749677642122598e-4,0.0018682293502809253,**
+mnau_heip_evenness,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,-0.9015318668636033,0.36730559835936477,0.45913199794920595,ns
+mnau_heip_evenness,value,H. neanderthalensis,Other_small_groups,48,3,-0.05288278805085167,0.9578252983506098,0.9578252983506098,ns
+mnau_heip_evenness,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.240190550373854,0.001194498466430628,0.0039816615547687605,**
+mnau_heip_evenness,value,H. sapiens,Other_small_groups,79,3,-1.1853171494717767,0.23589207539770696,0.33698867913958136,ns
+mnau_heip_evenness,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.3809527131873739,0.7032383368676833,0.7813759298529815,ns
+effective_sections_hill1,value,H. erectus,H. neanderthalensis,5,48,2.0748602548090997,0.03799948821721007,0.09499872054302516,ns
+effective_sections_hill1,value,H. erectus,H. sapiens,5,79,3.5580305460972834,3.7364587005618506e-4,0.0018682293502809253,**
+effective_sections_hill1,value,H. erectus,Middle Pleistocene hominin,5,14,1.3459042353210617,0.17833340276779203,0.3272443551853633,ns
+effective_sections_hill1,value,H. erectus,Other_small_groups,5,3,1.2920304112274168,0.19634661311121798,0.3272443551853633,ns
+effective_sections_hill1,value,H. neanderthalensis,H. sapiens,48,79,3.6378084804258664,2.749677642122598e-4,0.0018682293502809253,**
+effective_sections_hill1,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,-0.9015318668636033,0.36730559835936477,0.45913199794920595,ns
+effective_sections_hill1,value,H. neanderthalensis,Other_small_groups,48,3,-0.05288278805085167,0.9578252983506098,0.9578252983506098,ns
+effective_sections_hill1,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.240190550373854,0.001194498466430628,0.0039816615547687605,**
+effective_sections_hill1,value,H. sapiens,Other_small_groups,79,3,-1.1853171494717767,0.23589207539770696,0.33698867913958136,ns
+effective_sections_hill1,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.3809527131873739,0.7032383368676833,0.7813759298529815,ns
+lower_appendicular_continuity_hm,value,H. erectus,H. neanderthalensis,5,50,1.8853403802098045,0.05938389770652398,0.14845974426630995,ns
+lower_appendicular_continuity_hm,value,H. erectus,H. sapiens,5,79,3.5244786516572955,4.2431700449283e-4,0.00212158502246415,**
+lower_appendicular_continuity_hm,value,H. erectus,Middle Pleistocene hominin,5,14,1.5926289587399347,0.11124345310274131,0.22248690620548262,ns
+lower_appendicular_continuity_hm,value,H. erectus,Other_small_groups,5,3,1.4427973177007811,0.14907757499834084,0.24846262499723476,ns
+lower_appendicular_continuity_hm,value,H. neanderthalensis,H. sapiens,50,79,4.100393060074232,4.1244899950759144e-5,4.1244899950759143e-4,***
+lower_appendicular_continuity_hm,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.180447952343756,0.8568009115917125,0.8568009115917125,ns
+lower_appendicular_continuity_hm,value,H. neanderthalensis,Other_small_groups,50,3,0.28492916012496905,0.775698415002305,0.8568009115917125,ns
+lower_appendicular_continuity_hm,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.743554832660529,0.0060777896840730995,0.020259298946910333,*
+lower_appendicular_continuity_hm,value,H. sapiens,Other_small_groups,79,3,-0.9718272461987119,0.33113649875990236,0.4730521410855748,ns
+lower_appendicular_continuity_hm,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.35197472492886517,0.7248572177011972,0.8568009115917125,ns
+mnau_region_mean_evenness,value,H. erectus,H. neanderthalensis,5,48,2.3134505699290298,0.02069787946545874,0.05174469866364685,ns
+mnau_region_mean_evenness,value,H. erectus,H. sapiens,5,79,3.7456265065519503,1.7994414004662357e-4,0.0017994414004662358,**
+mnau_region_mean_evenness,value,H. erectus,Middle Pleistocene hominin,5,14,1.6135672115777766,0.10662133365709814,0.21324266731419628,ns
+mnau_region_mean_evenness,value,H. erectus,Other_small_groups,5,3,1.317538738196515,0.18765810501102168,0.27622058058318144,ns
+mnau_region_mean_evenness,value,H. neanderthalensis,H. sapiens,48,79,3.4978637168308793,4.690007240670529e-4,0.0023450036203352645,**
+mnau_region_mean_evenness,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,-0.8115598107314902,0.4170442600178165,0.5213053250222707,ns
+mnau_region_mean_evenness,value,H. neanderthalensis,Other_small_groups,48,3,-0.20998056480925706,0.8336828419167224,0.8484898099964692,ns
+mnau_region_mean_evenness,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.057626002752609,0.002230978252761895,0.007436594175872983,**
+mnau_region_mean_evenness,value,H. sapiens,Other_small_groups,79,3,-1.3007197297573256,0.19335440640822701,0.27622058058318144,ns
+mnau_region_mean_evenness,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.19104567328815064,0.8484898099964692,0.8484898099964692,ns
+mnau_proximal_appendicular_mean,value,H. erectus,H. neanderthalensis,5,50,2.000479660411877,0.04544849407577707,0.11362123518944267,ns
+mnau_proximal_appendicular_mean,value,H. erectus,H. sapiens,5,79,3.5059311690200667,4.5501287067321254e-4,0.002275064353366063,**
+mnau_proximal_appendicular_mean,value,H. erectus,Middle Pleistocene hominin,5,14,1.4613635546362342,0.143915696906012,0.23985949484335334,ns
+mnau_proximal_appendicular_mean,value,H. erectus,Other_small_groups,5,3,0.8274368199410973,0.4079895184147907,0.5828421691639867,ns
+mnau_proximal_appendicular_mean,value,H. neanderthalensis,H. sapiens,50,79,3.7542239219579363,1.7387937245621712e-4,0.0017387937245621713,**
+mnau_proximal_appendicular_mean,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.5852241549400364,0.558397005162923,0.6379442202338689,ns
+mnau_proximal_appendicular_mean,value,H. neanderthalensis,Other_small_groups,50,3,-0.561950422271342,0.574149798210482,0.6379442202338689,ns
+mnau_proximal_appendicular_mean,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.9498970972800294,0.0031787978388647985,0.010595992796215996,*
+mnau_proximal_appendicular_mean,value,H. sapiens,Other_small_groups,79,3,-1.7212913202346998,0.08519797373893785,0.1703959474778757,ns
+mnau_proximal_appendicular_mean,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.24689773915159297,0.8049873660701458,0.8049873660701458,ns
+mnau_dominance_of_region_means,value,H. erectus,H. neanderthalensis,5,48,-2.4641802382215947,0.013732703572779944,0.03433175893194986,*
+mnau_dominance_of_region_means,value,H. erectus,H. sapiens,5,79,-3.7077659399689176,2.0909578246610083e-4,0.0020909578246610084,**
+mnau_dominance_of_region_means,value,H. erectus,Middle Pleistocene hominin,5,14,-1.4004325568001605,0.16138382641754181,0.23054832345363116,ns
+mnau_dominance_of_region_means,value,H. erectus,Other_small_groups,5,3,-1.1057268523057096,0.2688447638541167,0.3360559548176459,ns
+mnau_dominance_of_region_means,value,H. neanderthalensis,H. sapiens,48,79,-3.0154143584399145,0.002566284006499491,0.00855428002166497,**
+mnau_dominance_of_region_means,value,H. neanderthalensis,Middle Pleistocene hominin,48,14,1.4103252194320295,0.1584436751019267,0.23054832345363116,ns
+mnau_dominance_of_region_means,value,H. neanderthalensis,Other_small_groups,48,3,0.5889262381575602,0.5559107557305367,0.6176786174783742,ns
+mnau_dominance_of_region_means,value,H. sapiens,Middle Pleistocene hominin,79,14,3.3803453231522003,7.239481011032435e-4,0.003619740505516217,**
+mnau_dominance_of_region_means,value,H. sapiens,Other_small_groups,79,3,1.5340140713167645,0.12502619108703686,0.23054832345363116,ns
+mnau_dominance_of_region_means,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.12244413379573552,0.9025472877274059,0.9025472877274059,ns
+mnau_upper_appendicular_mean,value,H. erectus,H. neanderthalensis,5,50,2.198439208134911,0.02791782223257835,0.06979455558144587,ns
+mnau_upper_appendicular_mean,value,H. erectus,H. sapiens,5,79,3.659254522863088,2.529500148290975e-4,0.0014079331993734413,**
+mnau_upper_appendicular_mean,value,H. erectus,Middle Pleistocene hominin,5,14,1.7659931454599758,0.07739699885148627,0.15479399770297253,ns
+mnau_upper_appendicular_mean,value,H. erectus,Other_small_groups,5,3,0.9772531269201041,0.32844385228597317,0.46920550326567595,ns
+mnau_upper_appendicular_mean,value,H. neanderthalensis,H. sapiens,50,79,3.6316758864317906,2.8158663987468824e-4,0.0014079331993734413,**
+mnau_upper_appendicular_mean,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.36742218632841844,0.713304124846242,0.7456466594673388,ns
+mnau_upper_appendicular_mean,value,H. neanderthalensis,Other_small_groups,50,3,-0.5340927709609605,0.5932773509938594,0.7415966887423242,ns
+mnau_upper_appendicular_mean,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.6464129312270623,0.008135044445425598,0.027116814818085328,*
+mnau_upper_appendicular_mean,value,H. sapiens,Other_small_groups,79,3,-1.6554892303742046,0.09782529921977977,0.16304216536629962,ns
+mnau_upper_appendicular_mean,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.32438488785818326,0.7456466594673388,0.7456466594673388,ns
+mnau_limb_shaft_proxy_mean,value,H. erectus,H. neanderthalensis,5,50,1.9928253867437742,0.04628057084598818,0.11570142711497046,ns
+mnau_limb_shaft_proxy_mean,value,H. erectus,H. sapiens,5,79,3.4107932365342686,6.477419088701267e-4,0.0032387095443506334,**
+mnau_limb_shaft_proxy_mean,value,H. erectus,Middle Pleistocene hominin,5,14,1.2547542860550753,0.20956797221571755,0.3492799536928626,ns
+mnau_limb_shaft_proxy_mean,value,H. erectus,Other_small_groups,5,3,0.8752901376110718,0.38141605896977204,0.476770073712215,ns
+mnau_limb_shaft_proxy_mean,value,H. neanderthalensis,H. sapiens,50,79,3.5313183701573485,4.1349372999434364e-4,0.0032387095443506334,**
+mnau_limb_shaft_proxy_mean,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.929339804007304,0.3527130132231074,0.476770073712215,ns
+mnau_limb_shaft_proxy_mean,value,H. neanderthalensis,Other_small_groups,50,3,-0.4971184970924451,0.6191054914784107,0.6878949905315674,ns
+mnau_limb_shaft_proxy_mean,value,H. sapiens,Middle Pleistocene hominin,79,14,-3.169804770260293,0.0015254139175505475,0.005084713058501825,**
+mnau_limb_shaft_proxy_mean,value,H. sapiens,Other_small_groups,79,3,-1.5872918927384865,0.11244655056191498,0.22489310112382996,ns
+mnau_limb_shaft_proxy_mean,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.022776288031288946,0.9818287225275368,0.9818287225275368,ns
+mnau_distal_appendicular_mean,value,H. erectus,H. neanderthalensis,5,50,2.0427625719205174,0.04107594730972691,0.10268986827431728,ns
+mnau_distal_appendicular_mean,value,H. erectus,H. sapiens,5,79,3.5196110853677385,4.321800125238809e-4,0.0021609000626194048,**
+mnau_distal_appendicular_mean,value,H. erectus,Middle Pleistocene hominin,5,14,1.537059289357721,0.12427879109417685,0.2485575821883537,ns
+mnau_distal_appendicular_mean,value,H. erectus,Other_small_groups,5,3,1.3188460162500601,0.18722059676179165,0.3120343279363194,ns
+mnau_distal_appendicular_mean,value,H. neanderthalensis,H. sapiens,50,79,3.679388403568088,2.3379396778141278e-4,0.0021609000626194048,**
+mnau_distal_appendicular_mean,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.5203895843023211,0.6027920681782911,0.7534900852228639,ns
+mnau_distal_appendicular_mean,value,H. neanderthalensis,Other_small_groups,50,3,0.008425670943438344,0.9932773667820382,0.9932773667820382,ns
+mnau_distal_appendicular_mean,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.835653311078861,0.004573205962552203,0.01524401987517401,*
+mnau_distal_appendicular_mean,value,H. sapiens,Other_small_groups,79,3,-1.121903729593881,0.2619033747463969,0.37414767820913847,ns
+mnau_distal_appendicular_mean,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.255198200453038,0.798570020897126,0.887300023219029,ns
+distal_appendicular_continuity_hm,value,H. erectus,H. neanderthalensis,5,50,1.9658817610110841,0.04931227037798603,0.12328067594496507,ns
+distal_appendicular_continuity_hm,value,H. erectus,H. sapiens,5,79,3.5170730568223134,4.363336694456863e-4,0.0021816683472284312,**
+distal_appendicular_continuity_hm,value,H. erectus,Middle Pleistocene hominin,5,14,1.743056926075766,0.08132367162680502,0.16264734325361005,ns
+distal_appendicular_continuity_hm,value,H. erectus,Other_small_groups,5,3,1.4982090744600682,0.13407893871236054,0.22346489785393425,ns
+distal_appendicular_continuity_hm,value,H. neanderthalensis,H. sapiens,50,79,3.8724532777089746,1.0774533488584466e-4,0.0010774533488584466,**
+distal_appendicular_continuity_hm,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.04619617925705821,0.9631538877366496,0.9631538877366496,ns
+distal_appendicular_continuity_hm,value,H. neanderthalensis,Other_small_groups,50,3,0.28945420333381944,0.7722338209832729,0.8580375788703032,ns
+distal_appendicular_continuity_hm,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.4615111170974573,0.013835310994366655,0.046117703314555517,*
+distal_appendicular_continuity_hm,value,H. sapiens,Other_small_groups,79,3,-0.8972245168241929,0.36959912536216716,0.5279987505173817,ns
+distal_appendicular_continuity_hm,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.2923965822139894,0.769983421109372,0.8580375788703032,ns
+mne_arms,value,H. erectus,H. neanderthalensis,5,50,1.7858264208310093,0.07412736740745131,0.18531841851862826,ns
+mne_arms,value,H. erectus,H. sapiens,5,79,3.4351513700316207,5.922229278356074e-4,0.002961114639178037,**
+mne_arms,value,H. erectus,Middle Pleistocene hominin,5,14,2.1107096393082863,0.03479727695449629,0.1159909231816543,ns
+mne_arms,value,H. erectus,Other_small_groups,5,3,1.493282159103702,0.13536334365002803,0.22560557275004672,ns
+mne_arms,value,H. neanderthalensis,H. sapiens,50,79,4.130733584428353,3.6160745848297104e-5,3.6160745848297105e-4,***
+mne_arms,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,0.8665751873539294,0.3861748136066972,0.5017552016688842,ns
+mne_arms,value,H. neanderthalensis,Other_small_groups,50,3,0.42547845653106514,0.6704879231819896,0.7449865813133217,ns
+mne_arms,value,H. sapiens,Middle Pleistocene hominin,79,14,-1.6706877836530691,0.09478336309328884,0.1895667261865777,ns
+mne_arms,value,H. sapiens,Other_small_groups,79,3,-0.8391161016718346,0.40140416133510737,0.5017552016688842,ns
+mne_arms,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.014327757446972896,0.9885684946622006,0.9885684946622006,ns
+mnau_girdle_mean,value,H. erectus,H. neanderthalensis,5,50,1.8330568251423822,0.06679412087792976,0.16698530219482438,ns
+mnau_girdle_mean,value,H. erectus,H. sapiens,5,79,3.328095431239149,8.744190733638229e-4,0.0043720953668191145,**
+mnau_girdle_mean,value,H. erectus,Middle Pleistocene hominin,5,14,1.580857071976755,0.11391072162559286,0.20064818544605362,ns
+mnau_girdle_mean,value,H. erectus,Other_small_groups,5,3,0.8505749570618043,0.3950055056143283,0.5642935794490405,ns
+mnau_girdle_mean,value,H. neanderthalensis,H. sapiens,50,79,3.734964579749294,1.8774160932759053e-4,0.0018774160932759053,**
+mnau_girdle_mean,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.11962825304486273,0.9047776377459904,0.9047776377459904,ns
+mnau_girdle_mean,value,H. neanderthalensis,Other_small_groups,50,3,-0.4014137307461293,0.6881155418450937,0.8337117384243418,ns
+mnau_girdle_mean,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.4523979244705294,0.014190763520555604,0.047302545068518685,*
+mnau_girdle_mean,value,H. sapiens,Other_small_groups,79,3,-1.5531432677183292,0.12038891126763217,0.20064818544605362,ns
+mnau_girdle_mean,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.3181903337654564,0.7503405645819076,0.8337117384243418,ns
+mnau_legs,value,H. erectus,H. neanderthalensis,5,50,1.6936897399120385,0.09032425514074392,0.2258106378518598,ns
+mnau_legs,value,H. erectus,H. sapiens,5,79,3.162730828542766,0.0015629677226441825,0.007814838613220913,**
+mnau_legs,value,H. erectus,Middle Pleistocene hominin,5,14,1.17283815465708,0.2408607143030819,0.40143452383846984,ns
+mnau_legs,value,H. erectus,Other_small_groups,5,3,0.9388211023661546,0.3478226025222457,0.49688943217463677,ns
+mnau_legs,value,H. neanderthalensis,H. sapiens,50,79,3.6747112516549834,2.3811855623456307e-4,0.0023811855623456306,**
+mnau_legs,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.6064598284708509,0.544209450186808,0.68026181273351,ns
+mnau_legs,value,H. neanderthalensis,Other_small_groups,50,3,-0.1830241054846284,0.8547791046373237,0.9066771439571497,ns
+mnau_legs,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.9224875744987804,0.003472474761026793,0.01157491587008931,*
+mnau_legs,value,H. sapiens,Other_small_groups,79,3,-1.3139371176679144,0.18886736644251415,0.3777347328850283,ns
+mnau_legs,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.11723082064830805,0.9066771439571497,0.9066771439571497,ns
+ProportionalRep_MNIbased_humerus,value,H. erectus,H. neanderthalensis,5,50,2.0262601076021305,0.0427381369514748,0.106845342378687,ns
+ProportionalRep_MNIbased_humerus,value,H. erectus,H. sapiens,5,79,3.3516400255667538,8.033440140044919e-4,0.004945776620655131,**
+ProportionalRep_MNIbased_humerus,value,H. erectus,Middle Pleistocene hominin,5,14,1.3528524356203224,0.1761027772917809,0.29350462881963485,ns
+ProportionalRep_MNIbased_humerus,value,H. erectus,Other_small_groups,5,3,0.7763455550104147,0.43754498211018267,0.5469312276377283,ns
+ProportionalRep_MNIbased_humerus,value,H. neanderthalensis,H. sapiens,50,79,3.2935932286878615,9.891553241310263e-4,0.004945776620655131,**
+ProportionalRep_MNIbased_humerus,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.8121803412822792,0.4166881581017664,0.5469312276377283,ns
+ProportionalRep_MNIbased_humerus,value,H. neanderthalensis,Other_small_groups,50,3,-0.645063392941872,0.518886105428334,0.5765401171425933,ns
+ProportionalRep_MNIbased_humerus,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.8994856270424627,0.0037377548134437796,0.012459182711479265,*
+ProportionalRep_MNIbased_humerus,value,H. sapiens,Other_small_groups,79,3,-1.6637619241941684,0.09616001583242328,0.19232003166484657,ns
+ProportionalRep_MNIbased_humerus,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.21668563273471325,0.8284533454210898,0.8284533454210898,ns
+mnau_foot,value,H. erectus,H. neanderthalensis,5,50,1.5328416849147264,0.1253148670450332,0.25084472932189406,ns
+mnau_foot,value,H. erectus,H. sapiens,5,79,3.1347109497201817,0.00172023521262205,0.00860117606311025,**
+mnau_foot,value,H. erectus,Middle Pleistocene hominin,5,14,1.532405647670179,0.12542236466094703,0.25084472932189406,ns
+mnau_foot,value,H. erectus,Other_small_groups,5,3,1.1247264024657102,0.26070498997239255,0.4123116248863459,ns
+mnau_foot,value,H. neanderthalensis,H. sapiens,50,79,4.020685787602262,5.802896303836929e-5,5.802896303836929e-4,***
+mnau_foot,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,0.2625861368377052,0.7928695863986871,0.9591140926958936,ns
+mnau_foot,value,H. neanderthalensis,Other_small_groups,50,3,0.17229872912191377,0.8632026834263042,0.9591140926958936,ns
+mnau_foot,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.231910240161104,0.02562089595953368,0.08540298653177894,ns
+mnau_foot,value,H. sapiens,Other_small_groups,79,3,-1.0611579241919897,0.2886181374204421,0.4123116248863459,ns
+mnau_foot,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.03618145013693072,0.9711376769506589,0.9711376769506589,ns
+mnau_arms,value,H. erectus,H. neanderthalensis,5,50,2.126626168395289,0.03345115643835457,0.08362789109588642,ns
+mnau_arms,value,H. erectus,H. sapiens,5,79,3.379695631093922,7.256614298468181e-4,0.007256614298468181,**
+mnau_arms,value,H. erectus,Middle Pleistocene hominin,5,14,1.457862534953881,0.14487843715783338,0.2414640619297223,ns
+mnau_arms,value,H. erectus,Other_small_groups,5,3,0.8997696884358682,0.3682428284161698,0.5260611834516712,ns
+mnau_arms,value,H. neanderthalensis,H. sapiens,50,79,3.10468870690631,0.00190479378331284,0.0095239689165642,**
+mnau_arms,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.7869360576449252,0.4313192983592589,0.5391491229490737,ns
+mnau_arms,value,H. neanderthalensis,Other_small_groups,50,3,-0.5726221944130886,0.5669005288257576,0.629889476473064,ns
+mnau_arms,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.7554357004414225,0.005861402406736322,0.019538008022454405,*
+mnau_arms,value,H. sapiens,Other_small_groups,79,3,-1.5325190494536438,0.12539440045476993,0.2414640619297223,ns
+mnau_arms,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.16100073532052336,0.872092821494863,0.872092821494863,ns
+mne_cranial_share,value,H. erectus,H. neanderthalensis,5,50,-2.6059484427872395,0.009162025151817847,0.030540083839392825,*
+mne_cranial_share,value,H. erectus,H. sapiens,5,79,-3.5414950735518813,3.9786628827959413e-4,0.003978662882795941,**
+mne_cranial_share,value,H. erectus,Middle Pleistocene hominin,5,14,-1.412932828302797,0.1576754754851711,0.22525067926453016,ns
+mne_cranial_share,value,H. erectus,Other_small_groups,5,3,-1.0277659795229543,0.30405992290163714,0.38007490362704643,ns
+mne_cranial_share,value,H. neanderthalensis,H. sapiens,50,79,-2.273502994655982,0.022995885867558578,0.05748971466889644,ns
+mne_cranial_share,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,1.6078793405641547,0.10786160735069941,0.21572321470139882,ns
+mne_cranial_share,value,H. neanderthalensis,Other_small_groups,50,3,0.7935890790668495,0.42743469224640357,0.47492743582933733,ns
+mne_cranial_share,value,H. sapiens,Middle Pleistocene hominin,79,14,3.093467272734007,0.001978323717482795,0.009891618587413976,**
+mne_cranial_share,value,H. sapiens,Other_small_groups,79,3,1.5004528851553567,0.13349712918688633,0.22249521531147723,ns
+mne_cranial_share,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.02271737289049341,0.9818757178490759,0.9818757178490759,ns
+dominant_axial_share,value,H. erectus,H. neanderthalensis,5,50,-2.7172352816772847,0.00658297922573274,0.0219432640857758,*
+dominant_axial_share,value,H. erectus,H. sapiens,5,79,-3.4642031125513713,5.318048030937369e-4,0.005318048030937369,**
+dominant_axial_share,value,H. erectus,Middle Pleistocene hominin,5,14,-1.3931156961799855,0.16358480736768727,0.23369258195383896,ns
+dominant_axial_share,value,H. erectus,Other_small_groups,5,3,-0.8698696364884578,0.38437165045439114,0.4270796116159902,ns
+dominant_axial_share,value,H. neanderthalensis,H. sapiens,50,79,-1.7874292068405064,0.07386814457225808,0.14773628914451617,ns
+dominant_axial_share,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,1.8146535489425135,0.06957716770365226,0.14773628914451617,ns
+dominant_axial_share,value,H. neanderthalensis,Other_small_groups,50,3,1.07539279832868,0.2821989047123496,0.352748630890437,ns
+dominant_axial_share,value,H. sapiens,Middle Pleistocene hominin,79,14,3.0061548799274593,0.002645741996656703,0.013228709983283515,*
+dominant_axial_share,value,H. sapiens,Other_small_groups,79,3,1.6358943514462025,0.10186170038397249,0.16976950063995416,ns
+dominant_axial_share,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.14230181725731395,0.886841611170988,0.886841611170988,ns
+mnau_shoulder,value,H. erectus,H. neanderthalensis,5,50,1.7254557324978796,0.0844453748916242,0.173011969126828,ns
+mnau_shoulder,value,H. erectus,H. sapiens,5,79,3.0391849985076607,0.0023721913469083367,0.011860956734541683,*
+mnau_shoulder,value,H. erectus,Middle Pleistocene hominin,5,14,1.5802645364625663,0.11404629774536555,0.19007716290894258,ns
+mnau_shoulder,value,H. erectus,Other_small_groups,5,3,0.5384810541332913,0.590244981505898,0.6558277572287756,ns
+mnau_shoulder,value,H. neanderthalensis,H. sapiens,50,79,3.277000847385262,0.0010491605453803437,0.010491605453803437,*
+mnau_shoulder,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,0.0462626101120608,0.9631009401919379,0.9631009401919379,ns
+mnau_shoulder,value,H. neanderthalensis,Other_small_groups,50,3,-0.6999437728425136,0.48396241943934293,0.623837327693033,ns
+mnau_shoulder,value,H. sapiens,Middle Pleistocene hominin,79,14,-1.9940102262926225,0.046150936963563365,0.15383645654521122,ns
+mnau_shoulder,value,H. sapiens,Other_small_groups,79,3,-1.7141238385014905,0.086505984563414,0.173011969126828,ns
+mnau_shoulder,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.6759539826792857,0.4990698621544264,0.623837327693033,ns
+ReMNAU_cervical,value,H. erectus,H. neanderthalensis,5,50,1.3271339970542466,0.18446436102495276,0.3689287220499055,ns
+ReMNAU_cervical,value,H. erectus,H. sapiens,5,79,2.5029896243355245,0.012314915428881624,0.04104971809627208,*
+ReMNAU_cervical,value,H. erectus,Middle Pleistocene hominin,5,14,0.659801153664006,0.5093814428990253,0.6367268036237816,ns
+ReMNAU_cervical,value,H. erectus,Other_small_groups,5,3,0,1,1,ns
+ReMNAU_cervical,value,H. neanderthalensis,H. sapiens,50,79,2.9425730860189345,0.0032549694357415218,0.025945489893790828,*
+ReMNAU_cervical,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.9218210648940699,0.356621917866061,0.5094598826658014,ns
+ReMNAU_cervical,value,H. neanderthalensis,Other_small_groups,50,3,-1.0472100699543125,0.29500270190519684,0.49167116984199477,ns
+ReMNAU_cervical,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.7950544171699794,0.005189097978758166,0.025945489893790828,*
+ReMNAU_cervical,value,H. sapiens,Other_small_groups,79,3,-1.9623089802961564,0.049726522317407415,0.12431630579351854,ns
+ReMNAU_cervical,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.5403075491895349,0.5889849530521747,0.6544277256135275,ns
+ProportionalRep_MNIbased_femur,value,H. erectus,H. neanderthalensis,5,50,2.04803764319615,0.040556311079867284,0.10139077769966821,ns
+ProportionalRep_MNIbased_femur,value,H. erectus,H. sapiens,5,79,3.1839677931891206,0.001452711746609072,0.01452711746609072,*
+ProportionalRep_MNIbased_femur,value,H. erectus,Middle Pleistocene hominin,5,14,1.4530237600725449,0.1462171571470703,0.2918304529779222,ns
+ProportionalRep_MNIbased_femur,value,H. erectus,Other_small_groups,5,3,0.9183498569887777,0.3584357332534324,0.5120510475049035,ns
+ProportionalRep_MNIbased_femur,value,H. neanderthalensis,H. sapiens,50,79,2.809206231286866,0.004966382127861888,0.024831910639309437,*
+ProportionalRep_MNIbased_femur,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.6733660524978851,0.5007144401671735,0.6258930502089668,ns
+ProportionalRep_MNIbased_femur,value,H. neanderthalensis,Other_small_groups,50,3,-0.48778243301254104,0.6257039556769938,0.695226617418882,ns
+ProportionalRep_MNIbased_femur,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.452864655974588,0.014172365138581815,0.04724121712860605,*
+ProportionalRep_MNIbased_femur,value,H. sapiens,Other_small_groups,79,3,-1.3560028169122829,0.1750982717867533,0.2918304529779222,ns
+ProportionalRep_MNIbased_femur,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.1357103349609006,0.8920502771964993,0.8920502771964993,ns
+ProportionalRep_MNIbased_fibula,value,H. erectus,H. neanderthalensis,5,50,1.4270296189816432,0.1535713573827597,0.3839283934568993,ns
+ProportionalRep_MNIbased_fibula,value,H. erectus,H. sapiens,5,79,2.7864579248610153,0.005328753534429208,0.02664376767214604,*
+ProportionalRep_MNIbased_fibula,value,H. erectus,Middle Pleistocene hominin,5,14,1.1752727462555355,0.23988561439018594,0.42218315231390036,ns
+ProportionalRep_MNIbased_fibula,value,H. erectus,Other_small_groups,5,3,1.142346809356894,0.2533098913883402,0.42218315231390036,ns
+ProportionalRep_MNIbased_fibula,value,H. neanderthalensis,H. sapiens,50,79,3.406648917360921,6.576566272522607e-4,0.006576566272522608,**
+ProportionalRep_MNIbased_fibula,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.1886193779169513,0.8503911440485721,0.8503911440485721,ns
+ProportionalRep_MNIbased_fibula,value,H. neanderthalensis,Other_small_groups,50,3,0.2774407892766441,0.7814416650715026,0.8503911440485721,ns
+ProportionalRep_MNIbased_fibula,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.319729245649078,0.020355528719685167,0.06785176239895056,ns
+ProportionalRep_MNIbased_fibula,value,H. sapiens,Other_small_groups,79,3,-0.7662556695504652,0.4435241899694686,0.6336059856706694,ns
+ProportionalRep_MNIbased_fibula,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.3488618812534001,0.7271930037524784,0.8503911440485721,ns
+ProportionalRep_MNIbased_tibia,value,H. erectus,H. neanderthalensis,5,50,0.978258327555348,0.327946574919403,0.655893149838806,ns
+ProportionalRep_MNIbased_tibia,value,H. erectus,H. sapiens,5,79,2.3163572437415665,0.020538771210473074,0.06846257070157692,ns
+ProportionalRep_MNIbased_tibia,value,H. erectus,Middle Pleistocene hominin,5,14,0.5338963267498756,0.593413263594261,0.7417665794928263,ns
+ProportionalRep_MNIbased_tibia,value,H. erectus,Other_small_groups,5,3,0.666131467403415,0.5053270727605975,0.7417665794928263,ns
+ProportionalRep_MNIbased_tibia,value,H. neanderthalensis,H. sapiens,50,79,3.3718208906240554,7.467299311708175e-4,0.007467299311708175,**
+ProportionalRep_MNIbased_tibia,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.5975766987440646,0.5501224157790929,0.7417665794928263,ns
+ProportionalRep_MNIbased_tibia,value,H. neanderthalensis,Other_small_groups,50,3,0.0464820902802488,0.9629260085419009,0.9629260085419009,ns
+ProportionalRep_MNIbased_tibia,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.7244613327112033,0.0064406471630978,0.032203235815489,*
+ProportionalRep_MNIbased_tibia,value,H. sapiens,Other_small_groups,79,3,-0.988951707961363,0.32268676981696626,0.655893149838806,ns
+ProportionalRep_MNIbased_tibia,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.32743959902998293,0.743335419992077,0.8259282444356412,ns
+ProportionalRep_MNIbased_cervical,value,H. erectus,H. neanderthalensis,5,50,1.3615330164109476,0.17334530704851311,0.34669061409702623,ns
+ProportionalRep_MNIbased_cervical,value,H. erectus,H. sapiens,5,79,2.4638673386148873,0.013744697307980516,0.04581565769326839,*
+ProportionalRep_MNIbased_cervical,value,H. erectus,Middle Pleistocene hominin,5,14,0.7459967528661707,0.45566937656738044,0.5695867207092256,ns
+ProportionalRep_MNIbased_cervical,value,H. erectus,Other_small_groups,5,3,0,1,1,ns
+ProportionalRep_MNIbased_cervical,value,H. neanderthalensis,H. sapiens,50,79,2.753459840245575,0.005896900450289483,0.04581565769326839,*
+ProportionalRep_MNIbased_cervical,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.8266655976866343,0.4084266255773723,0.5695867207092256,ns
+ProportionalRep_MNIbased_cervical,value,H. neanderthalensis,Other_small_groups,50,3,-1.0743535230998493,0.2826642647369057,0.47110710789484284,ns
+ProportionalRep_MNIbased_cervical,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.5779750530895833,0.009938117246776639,0.04581565769326839,*
+ProportionalRep_MNIbased_cervical,value,H. sapiens,Other_small_groups,79,3,-1.931637653554361,0.0534042449612253,0.13351061240306325,ns
+ProportionalRep_MNIbased_cervical,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.6108926530457812,0.5412706490213173,0.6014118322459081,ns
+mnau_hands,value,H. erectus,H. neanderthalensis,5,50,1.8463302604486809,0.06484426652631256,0.16211066631578142,ns
+mnau_hands,value,H. erectus,H. sapiens,5,79,3.0236756621700995,0.002497240047584943,0.017294964145275565,*
+mnau_hands,value,H. erectus,Middle Pleistocene hominin,5,14,1.435796858385337,0.15106015404313916,0.3021203080862783,ns
+mnau_hands,value,H. erectus,Other_small_groups,5,3,1.3250963124966513,0.1851392090369858,0.30856534839497635,ns
+mnau_hands,value,H. neanderthalensis,H. sapiens,50,79,2.9236987881839056,0.0034589928290551133,0.017294964145275565,*
+mnau_hands,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.3901577601004953,0.6964198939639741,0.810968650208321,ns
+mnau_hands,value,H. neanderthalensis,Other_small_groups,50,3,0.17110481812851436,0.864141347425146,0.864141347425146,ns
+mnau_hands,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.2289039208406662,0.025820298194145865,0.08606766064715289,ns
+mnau_hands,value,H. sapiens,Other_small_groups,79,3,-0.7253371717336683,0.46824520681585374,0.6689217240226483,ns
+mnau_hands,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.34529609088115987,0.7298717851874889,0.810968650208321,ns
+mnau_pelvic,value,H. erectus,H. neanderthalensis,5,50,1.5778169278266134,0.11460767377366388,0.2865191844341597,ns
+mnau_pelvic,value,H. erectus,H. sapiens,5,79,2.741887554332818,0.00610872496970555,0.030543624848527746,*
+mnau_pelvic,value,H. erectus,Middle Pleistocene hominin,5,14,1.1856211558770258,0.23577194367091053,0.47154388734182107,ns
+mnau_pelvic,value,H. erectus,Other_small_groups,5,3,0.9028296844676199,0.3666162939926242,0.523737562846606,ns
+mnau_pelvic,value,H. neanderthalensis,H. sapiens,50,79,2.9015516760151616,0.0037131953048327115,0.030543624848527746,*
+mnau_pelvic,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.4046916666662124,0.6857041684345744,0.8571302105432179,ns
+mnau_pelvic,value,H. neanderthalensis,Other_small_groups,50,3,-0.13581031267492716,0.8919712382665228,0.9478166935033341,ns
+mnau_pelvic,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.2302568045797297,0.02573039905645858,0.08576799685486193,ns
+mnau_pelvic,value,H. sapiens,Other_small_groups,79,3,-1.028687247625418,0.3036266643103967,0.5060444405173279,ns
+mnau_pelvic,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.06544877117976848,0.9478166935033341,0.9478166935033341,ns
+ProportionalRep_MNIbased_metacarpal,value,H. erectus,H. neanderthalensis,5,50,1.5873704312973387,0.11242877209077878,0.281071930226947,ns
+ProportionalRep_MNIbased_metacarpal,value,H. erectus,H. sapiens,5,79,2.592174308805524,0.009537143618766683,0.04201893946846119,*
+ProportionalRep_MNIbased_metacarpal,value,H. erectus,Middle Pleistocene hominin,5,14,0.8316878638518524,0.4055851526540107,0.579407360934301,ns
+ProportionalRep_MNIbased_metacarpal,value,H. erectus,Other_small_groups,5,3,1.0696468132989008,0.2847783151039011,0.5055329334669525,ns
+ProportionalRep_MNIbased_metacarpal,value,H. neanderthalensis,H. sapiens,50,79,2.4947192635853708,0.012605681840538356,0.04201893946846119,*
+ProportionalRep_MNIbased_metacarpal,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-1.0293403682300022,0.3033197600801715,0.5055329334669525,ns
+ProportionalRep_MNIbased_metacarpal,value,H. neanderthalensis,Other_small_groups,50,3,0.061601138826235476,0.950880470014701,0.950880470014701,ns
+ProportionalRep_MNIbased_metacarpal,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.628063674996132,0.00858724399957426,0.04201893946846119,*
+ProportionalRep_MNIbased_metacarpal,value,H. sapiens,Other_small_groups,79,3,-0.7042012005568999,0.48130748348676194,0.6016343543584525,ns
+ProportionalRep_MNIbased_metacarpal,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.5467701993403254,0.5845366190655473,0.6494851322950526,ns
+ProportionalRep_MNIbased_clavicle,value,H. erectus,H. neanderthalensis,5,50,1.6014951459530546,0.10926729426693506,0.21990106260865988,ns
+ProportionalRep_MNIbased_clavicle,value,H. erectus,H. sapiens,5,79,2.7221119275740597,0.00648661686522288,0.0324330843261144,*
+ProportionalRep_MNIbased_clavicle,value,H. erectus,Middle Pleistocene hominin,5,14,1.5381988191325453,0.12400000964320347,0.21990106260865988,ns
+ProportionalRep_MNIbased_clavicle,value,H. erectus,Other_small_groups,5,3,0.5054981680956363,0.613208984791195,0.6813433164346612,ns
+ProportionalRep_MNIbased_clavicle,value,H. neanderthalensis,H. sapiens,50,79,2.7896324799832284,0.005276790309856894,0.0324330843261144,*
+ProportionalRep_MNIbased_clavicle,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,0.16607192580183872,0.8681003472997582,0.8681003472997582,ns
+ProportionalRep_MNIbased_clavicle,value,H. neanderthalensis,Other_small_groups,50,3,-0.6426518555013775,0.5204500272763533,0.6505625340954415,ns
+ProportionalRep_MNIbased_clavicle,value,H. sapiens,Middle Pleistocene hominin,79,14,-1.5653485365613746,0.11750120828538246,0.21990106260865988,ns
+ProportionalRep_MNIbased_clavicle,value,H. sapiens,Other_small_groups,79,3,-1.5064930981964109,0.13194063756519592,0.21990106260865988,ns
+ProportionalRep_MNIbased_clavicle,value,Middle Pleistocene hominin,Other_small_groups,14,3,-0.6793672592040088,0.4969051895805919,0.6505625340954415,ns
+appendicular_dominance_refined,value,H. erectus,H. neanderthalensis,2,39,-1.7049302170543492,0.08820743997821713,0.22051859994554282,ns
+appendicular_dominance_refined,value,H. erectus,H. sapiens,2,77,-2.4558542544907933,0.01405501469146834,0.0702750734573417,ns
+appendicular_dominance_refined,value,H. erectus,Middle Pleistocene hominin,2,8,-2.1768852780579078,0.029489128126403332,0.09829709375467778,ns
+appendicular_dominance_refined,value,H. erectus,Other_small_groups,2,2,-1.402403978627626,0.16079464595534768,0.32158929191069535,ns
+appendicular_dominance_refined,value,H. neanderthalensis,H. sapiens,39,77,-2.660351744656969,0.007805908395272192,0.0702750734573417,ns
+appendicular_dominance_refined,value,H. neanderthalensis,Middle Pleistocene hominin,39,8,-1.2493028132049702,0.21155433938139503,0.3525905656356584,ns
+appendicular_dominance_refined,value,H. neanderthalensis,Other_small_groups,39,2,-0.2293906110218581,0.8185653329482577,0.9095170366091753,ns
+appendicular_dominance_refined,value,H. sapiens,Middle Pleistocene hominin,77,8,0.10224438242901,0.9185627002362536,0.9185627002362536,ns
+appendicular_dominance_refined,value,H. sapiens,Other_small_groups,77,2,0.4978215115634464,0.6186098524455297,0.8587138156944891,ns
+appendicular_dominance_refined,value,Middle Pleistocene hominin,Other_small_groups,8,2,0.40296896919974984,0.6869710525555913,0.8587138156944891,ns
+appendicular_dominance,value,H. erectus,H. neanderthalensis,2,39,-1.7049302170543492,0.08820743997821713,0.22051859994554282,ns
+appendicular_dominance,value,H. erectus,H. sapiens,2,77,-2.4558542544907933,0.01405501469146834,0.0702750734573417,ns
+appendicular_dominance,value,H. erectus,Middle Pleistocene hominin,2,8,-2.1768852780579078,0.029489128126403332,0.09829709375467778,ns
+appendicular_dominance,value,H. erectus,Other_small_groups,2,2,-1.402403978627626,0.16079464595534768,0.32158929191069535,ns
+appendicular_dominance,value,H. neanderthalensis,H. sapiens,39,77,-2.660351744656969,0.007805908395272192,0.0702750734573417,ns
+appendicular_dominance,value,H. neanderthalensis,Middle Pleistocene hominin,39,8,-1.2493028132049702,0.21155433938139503,0.3525905656356584,ns
+appendicular_dominance,value,H. neanderthalensis,Other_small_groups,39,2,-0.2293906110218581,0.8185653329482577,0.9095170366091753,ns
+appendicular_dominance,value,H. sapiens,Middle Pleistocene hominin,77,8,0.10224438242901,0.9185627002362536,0.9185627002362536,ns
+appendicular_dominance,value,H. sapiens,Other_small_groups,77,2,0.4978215115634464,0.6186098524455297,0.8587138156944891,ns
+appendicular_dominance,value,Middle Pleistocene hominin,Other_small_groups,8,2,0.40296896919974984,0.6869710525555913,0.8587138156944891,ns
+ProportionalRep_MNIbased_os_coxae,value,H. erectus,H. neanderthalensis,5,50,1.488905233213772,0.13651232531903626,0.34128081329759064,ns
+ProportionalRep_MNIbased_os_coxae,value,H. erectus,H. sapiens,5,79,2.5899612521010025,0.009598673544574584,0.047993367722872916,*
+ProportionalRep_MNIbased_os_coxae,value,H. erectus,Middle Pleistocene hominin,5,14,1.2278623909465292,0.21949862973796858,0.43899725947593715,ns
+ProportionalRep_MNIbased_os_coxae,value,H. erectus,Other_small_groups,5,3,0.994017009303788,0.3202145866253304,0.5336909777088841,ns
+ProportionalRep_MNIbased_os_coxae,value,H. neanderthalensis,H. sapiens,50,79,2.744634900267908,0.00605782510685252,0.047993367722872916,*
+ProportionalRep_MNIbased_os_coxae,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.1939891220407243,0.846184399466953,0.963007647376986,ns
+ProportionalRep_MNIbased_os_coxae,value,H. neanderthalensis,Other_small_groups,50,3,0.04637966082346944,0.963007647376986,0.963007647376986,ns
+ProportionalRep_MNIbased_os_coxae,value,H. sapiens,Middle Pleistocene hominin,79,14,-1.9127566662001456,0.05577921107575846,0.18593070358586153,ns
+ProportionalRep_MNIbased_os_coxae,value,H. sapiens,Other_small_groups,79,3,-0.7963648962459864,0.42581997557346635,0.6083142508192376,ns
+ProportionalRep_MNIbased_os_coxae,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.13553049905991943,0.8921924519516662,0.963007647376986,ns
+ReMNAU_ulna,value,H. erectus,H. neanderthalensis,5,50,1.6996325025269525,0.08920007270954346,0.22300018177385864,ns
+ReMNAU_ulna,value,H. erectus,H. sapiens,5,79,2.6475525197121694,0.008107676493361296,0.08107676493361296,ns
+ReMNAU_ulna,value,H. erectus,Middle Pleistocene hominin,5,14,1.255801523765905,0.2091879390263155,0.34864656504385916,ns
+ReMNAU_ulna,value,H. erectus,Other_small_groups,5,3,1.5362406870981253,0.12447936051324224,0.24895872102648448,ns
+ReMNAU_ulna,value,H. neanderthalensis,H. sapiens,50,79,2.3446606014681812,0.019044406653635392,0.09522203326817696,ns
+ReMNAU_ulna,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.4727319059924729,0.6364044605004013,0.7071160672226682,ns
+ReMNAU_ulna,value,H. neanderthalensis,Other_small_groups,50,3,0.5462704681981548,0.5848800330395074,0.7071160672226682,ns
+ReMNAU_ulna,value,H. sapiens,Middle Pleistocene hominin,79,14,-1.9541467759511526,0.050683861600583996,0.16894620533528,ns
+ReMNAU_ulna,value,H. sapiens,Other_small_groups,79,3,-0.16831412535967985,0.8663361619610316,0.8663361619610316,ns
+ReMNAU_ulna,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.7350633961798929,0.4623008854670973,0.6604298363815676,ns
+postcranial_dominance_refined,value,H. erectus,H. neanderthalensis,2,39,-1.7867862322014731,0.0739720454105563,0.16394521380808783,ns
+postcranial_dominance_refined,value,H. erectus,H. sapiens,2,77,-2.453907297414601,0.014131340611156468,0.09353959643459482,ns
+postcranial_dominance_refined,value,H. erectus,Middle Pleistocene hominin,2,8,-1.9912006205132204,0.046458835683693425,0.15486278561231143,ns
+postcranial_dominance_refined,value,H. erectus,Other_small_groups,2,2,-1.7393534729163722,0.08197260690404391,0.16394521380808783,ns
+postcranial_dominance_refined,value,H. neanderthalensis,H. sapiens,39,77,-2.3513004868819682,0.018707919286918964,0.09353959643459482,ns
+postcranial_dominance_refined,value,H. neanderthalensis,Middle Pleistocene hominin,39,8,-0.7181772224667085,0.4726480204268167,0.7719270356344035,ns
+postcranial_dominance_refined,value,H. neanderthalensis,Other_small_groups,39,2,-0.6122854342531873,0.5403489249440824,0.7719270356344035,ns
+postcranial_dominance_refined,value,H. sapiens,Middle Pleistocene hominin,77,8,0.4936722043564655,0.6215376984919296,0.776922123114912,ns
+postcranial_dominance_refined,value,H. sapiens,Other_small_groups,77,2,0.025426557629881247,0.9797147280276004,0.9797147280276004,ns
+postcranial_dominance_refined,value,Middle Pleistocene hominin,Other_small_groups,8,2,-0.20892683170267196,0.8345053576859268,0.9272281752065854,ns
+lower_appendicular_evenness_refined,value,H. erectus,H. neanderthalensis,2,35,1.4678721243316861,0.1421389614199059,0.2368982690331765,ns
+lower_appendicular_evenness_refined,value,H. erectus,H. sapiens,2,77,2.116607943730578,0.03429313537874086,0.11431045126246954,ns
+lower_appendicular_evenness_refined,value,H. erectus,Middle Pleistocene hominin,2,7,2.1832253502303014,0.029019218788921008,0.11431045126246954,ns
+lower_appendicular_evenness_refined,value,H. erectus,Other_small_groups,2,2,1.7182819199295216,0.08574520553995507,0.19776360626606407,ns
+lower_appendicular_evenness_refined,value,H. neanderthalensis,H. sapiens,35,77,2.2014965081376503,0.02770089362375472,0.11431045126246954,ns
+lower_appendicular_evenness_refined,value,H. neanderthalensis,Middle Pleistocene hominin,35,7,1.6502989686593976,0.09888180313303203,0.19776360626606407,ns
+lower_appendicular_evenness_refined,value,H. neanderthalensis,Other_small_groups,35,2,0.8955569747996486,0.37048942352371717,0.5292706050338817,ns
+lower_appendicular_evenness_refined,value,H. sapiens,Middle Pleistocene hominin,77,7,0.5940002520892652,0.5525119443667684,0.6906399304584605,ns
+lower_appendicular_evenness_refined,value,H. sapiens,Other_small_groups,77,2,0.2824527492478307,0.7775963727120974,0.8639959696801082,ns
+lower_appendicular_evenness_refined,value,Middle Pleistocene hominin,Other_small_groups,7,2,-0.04015127080883299,0.9679725265354969,0.9679725265354969,ns
+lower_appendicular_evenness,value,H. erectus,H. neanderthalensis,2,35,1.4678721243316861,0.1421389614199059,0.2368982690331765,ns
+lower_appendicular_evenness,value,H. erectus,H. sapiens,2,77,2.116607943730578,0.03429313537874086,0.11431045126246954,ns
+lower_appendicular_evenness,value,H. erectus,Middle Pleistocene hominin,2,7,2.1832253502303014,0.029019218788921008,0.11431045126246954,ns
+lower_appendicular_evenness,value,H. erectus,Other_small_groups,2,2,1.7182819199295216,0.08574520553995507,0.19776360626606407,ns
+lower_appendicular_evenness,value,H. neanderthalensis,H. sapiens,35,77,2.2014965081376503,0.02770089362375472,0.11431045126246954,ns
+lower_appendicular_evenness,value,H. neanderthalensis,Middle Pleistocene hominin,35,7,1.6502989686593976,0.09888180313303203,0.19776360626606407,ns
+lower_appendicular_evenness,value,H. neanderthalensis,Other_small_groups,35,2,0.8955569747996486,0.37048942352371717,0.5292706050338817,ns
+lower_appendicular_evenness,value,H. sapiens,Middle Pleistocene hominin,77,7,0.5940002520892652,0.5525119443667684,0.6906399304584605,ns
+lower_appendicular_evenness,value,H. sapiens,Other_small_groups,77,2,0.2824527492478307,0.7775963727120974,0.8639959696801082,ns
+lower_appendicular_evenness,value,Middle Pleistocene hominin,Other_small_groups,7,2,-0.04015127080883299,0.9679725265354969,0.9679725265354969,ns
+ProportionalRep_MNIbased_radius,value,H. erectus,H. neanderthalensis,5,50,1.8079986013968417,0.07060671825693543,0.17651679564233858,ns
+ProportionalRep_MNIbased_radius,value,H. erectus,H. sapiens,5,79,2.62964741531689,0.008547346520273953,0.08547346520273953,ns
+ProportionalRep_MNIbased_radius,value,H. erectus,Middle Pleistocene hominin,5,14,1.181138270166727,0.23754779899723152,0.47509559799446305,ns
+ProportionalRep_MNIbased_radius,value,H. erectus,Other_small_groups,5,3,0.9885426732481712,0.3228869460551619,0.5381449100919365,ns
+ProportionalRep_MNIbased_radius,value,H. neanderthalensis,H. sapiens,50,79,2.01771022645492,0.04362144915303511,0.14540483051011704,ns
+ProportionalRep_MNIbased_radius,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.7694756371006297,0.44161100204481973,0.5520137525560247,ns
+ProportionalRep_MNIbased_radius,value,H. neanderthalensis,Other_small_groups,50,3,-0.2121350899774437,0.8320016447834294,0.8669698023282713,ns
+ProportionalRep_MNIbased_radius,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.059816265736974,0.03941610898248291,0.14540483051011704,ns
+ProportionalRep_MNIbased_radius,value,H. sapiens,Other_small_groups,79,3,-0.8342749945204095,0.40412603932416885,0.5520137525560247,ns
+ProportionalRep_MNIbased_radius,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.16750870039094753,0.8669698023282713,0.8669698023282713,ns
+ReMNAU_radius,value,H. erectus,H. neanderthalensis,5,50,1.8185452710994054,0.06898083398375691,0.1724520849593923,ns
+ReMNAU_radius,value,H. erectus,H. sapiens,5,79,2.6171967330953305,0.008865522825865644,0.08865522825865643,ns
+ReMNAU_radius,value,H. erectus,Middle Pleistocene hominin,5,14,1.1404391790630004,0.2541033780867037,0.42350563014450615,ns
+ReMNAU_radius,value,H. erectus,Other_small_groups,5,3,1.1521805153235938,0.24924690269219807,0.42350563014450615,ns
+ReMNAU_radius,value,H. neanderthalensis,H. sapiens,50,79,1.9585652075293833,0.05016372751795512,0.1672124250598504,ns
+ReMNAU_radius,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,-0.8559605102256798,0.3920196228561402,0.5600280326516289,ns
+ReMNAU_radius,value,H. neanderthalensis,Other_small_groups,50,3,-0.019413363134386696,0.9845113501782099,0.9845113501782099,ns
+ReMNAU_radius,value,H. sapiens,Middle Pleistocene hominin,79,14,-2.113138118610726,0.034588947904393916,0.1672124250598504,ns
+ReMNAU_radius,value,H. sapiens,Other_small_groups,79,3,-0.6213481492530002,0.53437057982396,0.66796322477995,ns
+ReMNAU_radius,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.38867489247210973,0.6975166577510836,0.7750185086123151,ns
+ProportionalRep_MNIbased_carpal,value,H. erectus,H. neanderthalensis,5,50,1.0331282272549358,0.30154389520963026,0.5025731586827171,ns
+ProportionalRep_MNIbased_carpal,value,H. erectus,H. sapiens,5,79,2.121306830794052,0.033895989916105804,0.16947994958052903,ns
+ProportionalRep_MNIbased_carpal,value,H. erectus,Middle Pleistocene hominin,5,14,1.158867882679804,0.24651004218761297,0.49302008437522593,ns
+ProportionalRep_MNIbased_carpal,value,H. erectus,Other_small_groups,5,3,1.3718882588715549,0.17009822600946328,0.49139705997048,ns
+ProportionalRep_MNIbased_carpal,value,H. neanderthalensis,H. sapiens,50,79,2.7316805044933137,0.00630122134607126,0.0630122134607126,ns
+ProportionalRep_MNIbased_carpal,value,H. neanderthalensis,Middle Pleistocene hominin,50,14,0.39413840717439486,0.6934788564459987,0.7705320627177764,ns
+ProportionalRep_MNIbased_carpal,value,H. neanderthalensis,Other_small_groups,50,3,0.870271450632717,0.38415207697724146,0.5487886813960593,ns
+ProportionalRep_MNIbased_carpal,value,H. sapiens,Middle Pleistocene hominin,79,14,-1.2914178508943308,0.196558823988192,0.49139705997048,ns
+ProportionalRep_MNIbased_carpal,value,H. sapiens,Other_small_groups,79,3,0.04020227698462692,0.9679318623281135,0.9679318623281135,ns
+ProportionalRep_MNIbased_carpal,value,Middle Pleistocene hominin,Other_small_groups,14,3,0.6257836293663166,0.5314568709329415,0.6643210886661768,ns

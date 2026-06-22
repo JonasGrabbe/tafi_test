@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <title>Skeletal Representation Metadata Experiments</title>
+  <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 32px;
+          line-height: 1.45;
+        }
+        table {
+          border-collapse: collapse;
+          font-size: 12px;
+          margin-bottom: 24px;
+        }
+        th, td {
+          padding: 5px 8px;
+          border: 1px solid #BBBBBB;
+        }
+        h1, h2, h3 {
+          color: #1f4e5f;
+        }
+        iframe {
+          margin-bottom: 28px;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h1>Automated skeletal-representation metadata experiments</h1>
+    <p>This report runs eight hypothesis-driven metadata experiments using the 63 selected skeletal-representation features.</p>
+    <p>For each experiment, the workflow saves group sizes, descriptives, assumption checks, Kruskal-Wallis tests, BH-FDR adjusted p-values, epsilon-squared effect sizes, Dunn post-hoc tests, PERMANOVA, PCA variance/loadings/scores, and three interactive Plotly plots.</p>
+    <h2>Master summary</h2>
+    <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E01 </td>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:left;"> character(0) </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E02 </td>
+   <td style="text-align:left;"> karstic_system_open_air_site </td>
+   <td style="text-align:left;"> c("karstic_system", "open_air_site") </td>
+   <td style="text-align:left;"> character(0) </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E03 </td>
+   <td style="text-align:left;"> funerary_context_cultural_period </td>
+   <td style="text-align:left;"> c("funerary_context", "cultural_period") </td>
+   <td style="text-align:left;"> c("degree_of_excavation", "discovery_context") </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E04 </td>
+   <td style="text-align:left;"> age_category </td>
+   <td style="text-align:left;"> age_category </td>
+   <td style="text-align:left;"> c("mni", "degree_of_excavation") </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E05 </td>
+   <td style="text-align:left;"> geological_period_mis_date </td>
+   <td style="text-align:left;"> c("geological_period", "date_bin") </td>
+   <td style="text-align:left;"> c("mis_stage", "karstic_system", "open_air_site", "taphonomic_context") </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E06 </td>
+   <td style="text-align:left;"> hominin_species_controlled </td>
+   <td style="text-align:left;"> hominin_species </td>
+   <td style="text-align:left;"> c("geological_period", "date_bin", "taphonomic_context", "karstic_system", "open_air_site") </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E07 </td>
+   <td style="text-align:left;"> region_country </td>
+   <td style="text-align:left;"> region </td>
+   <td style="text-align:left;"> c("country", "karstic_system", "degree_of_excavation") </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E08 </td>
+   <td style="text-align:left;"> degree_of_excavation_discovery_context </td>
+   <td style="text-align:left;"> c("degree_of_excavation", "discovery_context") </td>
+   <td style="text-align:left;"> count_type </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+</tbody>
+</table>
+    <section>
+      <hr/>
+      <h2>E01 - taphonomic_context</h2>
+      <h3>Hypothesis</h3>
+      <p>Different accumulation causes produce different body-part profiles.</p>
+      <h3>Expected pattern</h3>
+      <p>Funerary contexts should be more anatomically balanced; carnivore/geological transport should lose small, fragile, axial, or low-density elements; cannibalism may show selective absence or overrepresentation of processed parts.</p>
+      <h3>Why this experiment matters</h3>
+      <p>This is the strongest direct taphonomic hypothesis because accumulation cause is directly linked to skeletal survival, transport, human handling, and carnivore behavior.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E01 </td>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:left;"> character(0) </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> [1m[22m[36mℹ[39m In argument: `group = .data[[list("taphonomic_context")]]`.
+[1mCaused by error in `.data[[&lt;list: "taphonomic_context"&gt;]]`:[22m
+[1m[22m[33m![39m Must subset the data pronoun with a string, not a list. </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <p>Plot not available: E01_taphonomic_context/plots/01_best_features_3d.html</p>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <p>Plot not available: E01_taphonomic_context/plots/02_composite_3d.html</p>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <p>Plot not available: E01_taphonomic_context/plots/03_pca_3d.html</p>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E01_taphonomic_context
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E02 - karstic_system_open_air_site</h2>
+      <h3>Hypothesis</h3>
+      <p>Depositional environment filters the skeleton before excavation.</p>
+      <h3>Expected pattern</h3>
+      <p>Cave interiors may preserve more small elements; cave entrances and rockshelters may show disturbance or carnivore activity; fluvial/open-air contexts may preferentially preserve dense or large elements.</p>
+      <h3>Why this experiment matters</h3>
+      <p>This tests whether site formation, rather than species or culture, explains skeletal-part differences.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E02 </td>
+   <td style="text-align:left;"> karstic_system_open_air_site </td>
+   <td style="text-align:left;"> c("karstic_system", "open_air_site") </td>
+   <td style="text-align:left;"> character(0) </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> None of the requested grouping variables exist in tb. </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <p>Plot not available: E02_karstic_system_open_air_site/plots/01_best_features_3d.html</p>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <p>Plot not available: E02_karstic_system_open_air_site/plots/02_composite_3d.html</p>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <p>Plot not available: E02_karstic_system_open_air_site/plots/03_pca_3d.html</p>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E02_karstic_system_open_air_site
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E03 - funerary_context_cultural_period</h2>
+      <h3>Hypothesis</h3>
+      <p>Mortuary practice changes skeletal completeness and element selection through time.</p>
+      <h3>Expected pattern</h3>
+      <p>Single inhumations should approach complete skeletons; collective burials may overrepresent crania, long bones, or curated elements; non-inhumation contexts may be more fragmentary.</p>
+      <h3>Why this experiment matters</h3>
+      <p>This separates intentional mortuary behavior from preservation and recovery loss.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E03 </td>
+   <td style="text-align:left;"> funerary_context_cultural_period </td>
+   <td style="text-align:left;"> c("funerary_context", "cultural_period") </td>
+   <td style="text-align:left;"> c("degree_of_excavation", "discovery_context") </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> None of the requested grouping variables exist in tb. </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <p>Plot not available: E03_funerary_context_cultural_period/plots/01_best_features_3d.html</p>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <p>Plot not available: E03_funerary_context_cultural_period/plots/02_composite_3d.html</p>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <p>Plot not available: E03_funerary_context_cultural_period/plots/03_pca_3d.html</p>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E03_funerary_context_cultural_period
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E04 - age_category</h2>
+      <h3>Hypothesis</h3>
+      <p>Age affects preservation because infant and juvenile bones are smaller, less fused, and more fragile.</p>
+      <h3>Expected pattern</h3>
+      <p>Infants and juveniles should show lower representation of small unfused bones, axial elements, ribs, vertebrae, hands, feet, and pelvis.</p>
+      <h3>Why this experiment matters</h3>
+      <p>This is a biological/taphonomic control that should be tested before interpreting cultural or species differences.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E04 </td>
+   <td style="text-align:left;"> age_category </td>
+   <td style="text-align:left;"> age_category </td>
+   <td style="text-align:left;"> c("mni", "degree_of_excavation") </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> [1m[22m[36mℹ[39m In argument: `group = .data[[list("age_category")]]`.
+[1mCaused by error in `.data[[&lt;list: "age_category"&gt;]]`:[22m
+[1m[22m[33m![39m Must subset the data pronoun with a string, not a list. </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <p>Plot not available: E04_age_category/plots/01_best_features_3d.html</p>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <p>Plot not available: E04_age_category/plots/02_composite_3d.html</p>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <p>Plot not available: E04_age_category/plots/03_pca_3d.html</p>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E04_age_category
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E05 - geological_period_mis_date</h2>
+      <h3>Hypothesis</h3>
+      <p>Older assemblages are more altered by long-term attrition and recovery bias.</p>
+      <h3>Expected pattern</h3>
+      <p>Earlier Pleistocene contexts may show stronger loss of fragile elements and more dominance of durable cranial, dental, shaft, or dense long-bone remains.</p>
+      <h3>Why this experiment matters</h3>
+      <p>This tests time-depth and preservation intensity, while retaining depositional and contextual covariates for PERMANOVA.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E05 </td>
+   <td style="text-align:left;"> geological_period_mis_date </td>
+   <td style="text-align:left;"> c("geological_period", "date_bin") </td>
+   <td style="text-align:left;"> c("mis_stage", "karstic_system", "open_air_site", "taphonomic_context") </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> None of the requested grouping variables exist in tb. </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <p>Plot not available: E05_geological_period_mis_date/plots/01_best_features_3d.html</p>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <p>Plot not available: E05_geological_period_mis_date/plots/02_composite_3d.html</p>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <p>Plot not available: E05_geological_period_mis_date/plots/03_pca_3d.html</p>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E05_geological_period_mis_date
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E06 - hominin_species_controlled</h2>
+      <h3>Hypothesis</h3>
+      <p>Species-level differences may reflect different depositional histories rather than species anatomy alone.</p>
+      <h3>Expected pattern</h3>
+      <p>Species may differ descriptively, but many differences may weaken after controlling for period, site type, and taphonomic context.</p>
+      <h3>Why this experiment matters</h3>
+      <p>This is interpretively interesting but risky; the script reports both group effects and PERMANOVA with covariates.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E06 </td>
+   <td style="text-align:left;"> hominin_species_controlled </td>
+   <td style="text-align:left;"> hominin_species </td>
+   <td style="text-align:left;"> c("geological_period", "date_bin", "taphonomic_context", "karstic_system", "open_air_site") </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> [1m[22m[36mℹ[39m In argument: `group = .data[[list("hominin_species")]]`.
+[1mCaused by error in `.data[[&lt;list: "hominin_species"&gt;]]`:[22m
+[1m[22m[33m![39m Must subset the data pronoun with a string, not a list. </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <p>Plot not available: E06_hominin_species_controlled/plots/01_best_features_3d.html</p>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <p>Plot not available: E06_hominin_species_controlled/plots/02_composite_3d.html</p>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <p>Plot not available: E06_hominin_species_controlled/plots/03_pca_3d.html</p>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E06_hominin_species_controlled
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E07 - region_country</h2>
+      <h3>Hypothesis</h3>
+      <p>Regional research history, geology, climate, and excavation tradition affect recovery.</p>
+      <h3>Expected pattern</h3>
+      <p>Some regions may have more complete profiles because of cave preservation or modern excavation, whereas others may be biased toward diagnostic cranial or dental material.</p>
+      <h3>Why this experiment matters</h3>
+      <p>This is a bias-detection analysis rather than a strong behavioral model.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E07 </td>
+   <td style="text-align:left;"> region_country </td>
+   <td style="text-align:left;"> region </td>
+   <td style="text-align:left;"> c("country", "karstic_system", "degree_of_excavation") </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> [1m[22m[36mℹ[39m In argument: `group = .data[[list("region")]]`.
+[1mCaused by error in `.data[[&lt;list: "region"&gt;]]`:[22m
+[1m[22m[33m![39m Must subset the data pronoun with a string, not a list. </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <p>Plot not available: E07_region_country/plots/01_best_features_3d.html</p>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <p>Plot not available: E07_region_country/plots/02_composite_3d.html</p>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <p>Plot not available: E07_region_country/plots/03_pca_3d.html</p>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E07_region_country
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E08 - degree_of_excavation_discovery_context</h2>
+      <h3>Hypothesis</h3>
+      <p>Recovery method affects what bones enter the dataset.</p>
+      <h3>Expected pattern</h3>
+      <p>Formal and complete excavations should recover more small bones; quarry, casual, and partial discoveries should overrepresent large, visible, diagnostic elements.</p>
+      <h3>Why this experiment matters</h3>
+      <p>This is essential as a recovery-bias control because it can explain patterns that otherwise look biological, cultural, or taphonomic.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E08 </td>
+   <td style="text-align:left;"> degree_of_excavation_discovery_context </td>
+   <td style="text-align:left;"> c("degree_of_excavation", "discovery_context") </td>
+   <td style="text-align:left;"> count_type </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+<tbody>
+  <tr>
+
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> None of the requested grouping variables exist in tb. </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <p>Plot not available: E08_degree_of_excavation_discovery_context/plots/01_best_features_3d.html</p>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <p>Plot not available: E08_degree_of_excavation_discovery_context/plots/02_composite_3d.html</p>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <p>Plot not available: E08_degree_of_excavation_discovery_context/plots/03_pca_3d.html</p>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E08_degree_of_excavation_discovery_context
+      </p>
+    </section>
+  </body>
+</html>
+</html>

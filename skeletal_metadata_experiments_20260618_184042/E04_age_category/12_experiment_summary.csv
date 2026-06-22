@@ -1,0 +1,2 @@
+experiment_id,experiment_name,group_vars,covariates,n_records,n_groups,n_features_tested,n_fdr_significant,max_eps2,top_feature,top_feature_eps2,top_feature_p_fdr,permanova_group_R2,permanova_group_p
+E04,age_category,age_category,"c(""mni"", ""degree_of_excavation"")",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

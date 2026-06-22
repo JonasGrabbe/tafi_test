@@ -125,6 +125,13 @@ tb
 
 ```
 
+```{r}
+colnames(tb)
+
+
+
+```
+
 
 ```{r}
 source("rfe_randomforest_taphonomy.R")
@@ -176,8 +183,616 @@ run_eda(tb)
 
 ```{r}
 
+source("automated_skeletal_workflow.R")
+run_workflow(tb)
 ```
 
+
+
+
+```{r}
+source("automated_skeletal_workflow.R")
+out <- run_all_experiments(tb)
+
+```
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(stringr)
+library(plotly)
+library(rstatix)
+library(vegan)
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 1. Feature set: same 20-feature logic as the statistical report
+# ------------------------------------------------------------
+
+report_features <- c(
+  "ProportionalRep_MNIbased_os_coxae",
+  "mnau_shoulder",
+  "ProportionalRep_MNIbased_femur",
+  "mnau_arms",
+  "density_adjusted_appendicular_axial_contrast",
+  "mnau_column_trunk_mean",
+  "mne_vertebrae_to_thorax_ratio",
+  "ReMNAU_cervical",
+  "ProportionalRep_MNIbased_metacarpal",
+  "mne_arms_to_legs_ratio",
+  "mnau_legs",
+  "mnau_postcranial_total_mean",
+  "mnau_appendicular_mean",
+  "mnau_upper_appendicular_mean",
+  "mnau_lower_appendicular_mean",
+  "mnau_girdle_mean",
+  "mnau_distal_appendicular_mean",
+  "mnau_proximal_appendicular_mean",
+  "all_sections_dominance",
+  "low_density_survival_index"
+)
+
+feature_cols <- intersect(report_features, names(tb))
+
+# Variables that should not dominate PCA/distances
+bad_pca_features <- c(
+  "mne_vertebrae_to_thorax_ratio",
+  "mnau_vertebrae_to_thorax_ratio"
+)
+
+log1p_pca_features <- c(
+  "mne_arms_to_legs_ratio",
+  "mnau_arms_to_legs_ratio"
+)
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 2. Hypothesis-driven metadata groupings
+# ------------------------------------------------------------
+
+candidate_groupings <- list(
+  taphonomic_context      = c("taphonomic_context"),
+  depositional_context    = c("karstic_system", "open_air_site"),
+  funerary_context        = c("funerary_context"),
+  funerary_by_period      = c("funerary_context", "cultural_period"),
+  age_category            = c("age_category"),
+  excavation_bias         = c("degree_of_excavation", "count_type"),
+  species_by_context      = c("hominin_species", "taphonomic_context")
+)
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 3. Build group labels automatically from metadata
+# ------------------------------------------------------------
+
+make_grouped_df <- function(df, group_vars, min_group_n = 5,
+                            small_groups = c("drop", "other")) {
+  small_groups <- match.arg(small_groups)
+
+  group_vars <- intersect(group_vars, names(df))
+  if (length(group_vars) == 0) {
+    stop("None of the requested grouping variables exist in the dataframe.")
+  }
+
+  out <- df %>%
+    mutate(across(all_of(group_vars), \(x) {
+      x <- as.character(x)
+      x[is.na(x) | str_trim(x) == ""] <- "missing"
+      x
+    }))
+
+  if (length(group_vars) == 1) {
+    out <- out %>% mutate(group = .data[[group_vars[1]]])
+  } else {
+    out <- out %>%
+      unite("group", all_of(group_vars), sep = " | ", remove = FALSE)
+  }
+
+  group_tab <- table(out$group)
+  large_groups <- names(group_tab[group_tab >= min_group_n])
+
+  if (small_groups == "drop") {
+    out <- out %>% filter(group %in% large_groups)
+  } else {
+    out <- out %>%
+      mutate(group = if_else(group %in% large_groups, group, "Other_small"))
+  }
+
+  out %>%
+    mutate(group = factor(group)) %>%
+    droplevels()
+}
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 4. Kruskal-Wallis + epsilon-squared + BH-FDR
+# ------------------------------------------------------------
+
+run_kw_fdr <- function(df, feature_cols) {
+  map_dfr(feature_cols, function(f) {
+    dat <- df %>%
+      transmute(group, value = suppressWarnings(as.numeric(.data[[f]]))) %>%
+      filter(!is.na(group), is.finite(value))
+
+    if (n_distinct(dat$group) < 2 || nrow(dat) < 6 ||
+        length(unique(dat$value)) < 2) {
+      return(tibble(
+        feature = f,
+        n = nrow(dat),
+        n_groups = n_distinct(dat$group),
+        H = NA_real_,
+        p = NA_real_,
+        eps2 = NA_real_
+      ))
+    }
+
+    kt <- kruskal.test(value ~ group, data = dat)
+
+    tibble(
+      feature = f,
+      n = nrow(dat),
+      n_groups = n_distinct(dat$group),
+      H = unname(kt$statistic),
+      p = kt$p.value,
+      eps2 = unname(kt$statistic) / (nrow(dat) - 1)
+    )
+  }) %>%
+    mutate(
+      p_fdr = p.adjust(p, method = "BH"),
+      significant = !is.na(p_fdr) & p_fdr < 0.05
+    ) %>%
+    arrange(desc(significant), desc(eps2))
+}
+
+run_dunn_posthoc <- function(df, kw_tbl) {
+  sig_features <- kw_tbl %>%
+    filter(significant) %>%
+    pull(feature)
+
+  if (length(sig_features) == 0) {
+    return(tibble())
+  }
+
+  map_dfr(sig_features, function(f) {
+    dat <- df %>%
+      transmute(group, value = suppressWarnings(as.numeric(.data[[f]]))) %>%
+      filter(!is.na(group), is.finite(value))
+
+    if (n_distinct(dat$group) < 2) return(tibble())
+
+    rstatix::dunn_test(
+      dat,
+      value ~ group,
+      p.adjust.method = "BH"
+    ) %>%
+      mutate(feature = f, .before = 1)
+  })
+}
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 5. PCA / PERMANOVA cleaning
+# ------------------------------------------------------------
+
+clean_pca_matrix <- function(df, features, min_nonmissing = 5) {
+  features <- intersect(features, names(df))
+  features <- setdiff(features, bad_pca_features)
+
+  x <- df[, features, drop = FALSE]
+
+  x <- as.data.frame(lapply(x, function(v) {
+    v <- suppressWarnings(as.numeric(v))
+    v[!is.finite(v)] <- NA_real_
+    v
+  }))
+
+  for (f in intersect(log1p_pca_features, names(x))) {
+    x[[f]] <- log1p(x[[f]])
+  }
+
+  keep <- names(x)[vapply(x, function(v) {
+    sum(!is.na(v)) >= min_nonmissing && sd(v, na.rm = TRUE) > 0
+  }, logical(1))]
+
+  x <- x[, keep, drop = FALSE]
+
+  for (f in names(x)) {
+    med <- median(x[[f]], na.rm = TRUE)
+    x[[f]][is.na(x[[f]])] <- med
+  }
+
+  list(
+    mat = scale(x),
+    features = names(x)
+  )
+}
+
+run_permanova <- function(df, features, permutations = 9999) {
+  pca_ready <- clean_pca_matrix(df, features)
+
+  if (ncol(pca_ready$mat) < 2 || n_distinct(df$group) < 2) {
+    return(NULL)
+  }
+
+  vegan::adonis2(
+    pca_ready$mat ~ group,
+    data = df,
+    method = "euclidean",
+    permutations = permutations
+  )
+}
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 6. Generic Plotly 3D helper
+# ------------------------------------------------------------
+
+plot_3d <- function(df, x, y, z, title) {
+  d <- df %>%
+    filter(
+      is.finite(.data[[x]]),
+      is.finite(.data[[y]]),
+      is.finite(.data[[z]])
+    )
+
+  plot_ly(
+    data = d,
+    x = d[[x]],
+    y = d[[y]],
+    z = d[[z]],
+    color = ~group,
+    type = "scatter3d",
+    mode = "markers+text",
+    text = ~site_name,
+    textposition = "top center",
+    marker = list(size = 6, opacity = 0.85),
+    hoverinfo = "text",
+    hovertext = paste0(
+      "<b>", d$site_name, "</b>",
+      "<br>Group: ", d$group,
+      "<br>", x, ": ", round(d[[x]], 4),
+      "<br>", y, ": ", round(d[[y]], 4),
+      "<br>", z, ": ", round(d[[z]], 4)
+    )
+  ) %>%
+    layout(
+      title = title,
+      legend = list(title = list(text = "Metadata group")),
+      scene = list(
+        xaxis = list(title = x),
+        yaxis = list(title = y),
+        zaxis = list(title = z)
+      )
+    )
+}
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 7. Plot 1: automatically selected best 3 features
+# ------------------------------------------------------------
+
+make_best_feature_plot <- function(df, kw_tbl) {
+  top3 <- kw_tbl %>%
+    filter(!feature %in% bad_pca_features, !is.na(eps2)) %>%
+    arrange(desc(significant), desc(eps2)) %>%
+    slice_head(n = 3) %>%
+    pull(feature)
+
+  if (length(top3) < 3) {
+    stop("Fewer than 3 usable features were available for the best-feature plot.")
+  }
+
+  plot_3d(
+    df,
+    top3[1], top3[2], top3[3],
+    paste("Best 3 differential features:",
+          paste(top3, collapse = " / "))
+  )
+}
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 8. Plot 2: mean composite axes
+# ------------------------------------------------------------
+
+row_mean_safe <- function(df, cols) {
+  cols <- intersect(cols, names(df))
+  if (length(cols) == 0) return(rep(NA_real_, nrow(df)))
+
+  x <- df[, cols, drop = FALSE]
+  x <- as.data.frame(lapply(x, \(v) suppressWarnings(as.numeric(v))))
+  m <- rowMeans(x, na.rm = TRUE)
+  m[is.nan(m)] <- NA_real_
+  m
+}
+
+make_composite_df <- function(df) {
+  df %>%
+    mutate(
+      completeness_axis = row_mean_safe(cur_data(), c(
+        "mnau_girdle_mean",
+        "mnau_shoulder",
+        "mnau_proximal_appendicular_mean",
+        "mnau_postcranial_total_mean",
+        "mnau_appendicular_mean",
+        "mnau_column_trunk_mean",
+        "mnau_arms"
+      )),
+
+      pelvis_femur_proximal_axis = row_mean_safe(cur_data(), c(
+        "ProportionalRep_MNIbased_os_coxae",
+        "ProportionalRep_MNIbased_femur",
+        "mnau_proximal_appendicular_mean",
+        "mnau_girdle_mean"
+      )),
+
+      fragile_distal_survival_axis = row_mean_safe(cur_data(), c(
+        "low_density_survival_index",
+        "ProportionalRep_MNIbased_metacarpal",
+        "mnau_distal_appendicular_mean",
+        "ReMNAU_cervical"
+      ))
+    )
+}
+
+make_composite_plot <- function(df) {
+  comp_df <- make_composite_df(df)
+
+  plot_3d(
+    comp_df,
+    "completeness_axis",
+    "pelvis_femur_proximal_axis",
+    "fragile_distal_survival_axis",
+    "3D composite plot: completeness / pelvis-femur-proximal / fragile-distal survival"
+  )
+}
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 9. Plot 3: 3D PCA plot
+# ------------------------------------------------------------
+
+make_pca_plot <- function(df, kw_tbl) {
+  pca_features <- kw_tbl %>%
+    filter(significant, !feature %in% bad_pca_features) %>%
+    arrange(desc(eps2)) %>%
+    pull(feature)
+
+  if (length(pca_features) < 3) {
+    pca_features <- kw_tbl %>%
+      filter(!is.na(eps2), !feature %in% bad_pca_features) %>%
+      arrange(desc(eps2)) %>%
+      slice_head(n = 8) %>%
+      pull(feature)
+  }
+
+  pca_ready <- clean_pca_matrix(df, pca_features)
+
+  if (ncol(pca_ready$mat) < 3) {
+    stop("PCA needs at least 3 usable features after cleaning.")
+  }
+
+  pca <- prcomp(pca_ready$mat, center = FALSE, scale. = FALSE)
+
+  scores <- as.data.frame(pca$x[, 1:3, drop = FALSE]) %>%
+    bind_cols(df %>% select(site_name, group), .)
+
+  pca_var <- summary(pca)$importance[2, 1:3] * 100
+
+  plot_ly(
+    data = scores,
+    x = ~PC1,
+    y = ~PC2,
+    z = ~PC3,
+    color = ~group,
+    type = "scatter3d",
+    mode = "markers+text",
+    text = ~site_name,
+    textposition = "top center",
+    marker = list(size = 6, opacity = 0.85),
+    hoverinfo = "text",
+    hovertext = ~paste0(
+      "<b>", site_name, "</b>",
+      "<br>Group: ", group,
+      "<br>PC1: ", round(PC1, 3),
+      "<br>PC2: ", round(PC2, 3),
+      "<br>PC3: ", round(PC3, 3)
+    )
+  ) %>%
+    layout(
+      title = "3D PCA of automatically selected skeletal-representation features",
+      scene = list(
+        xaxis = list(title = paste0("PC1 (", round(pca_var[1], 1), "%)")),
+        yaxis = list(title = paste0("PC2 (", round(pca_var[2], 1), "%)")),
+        zaxis = list(title = paste0("PC3 (", round(pca_var[3], 1), "%)"))
+      )
+    )
+}
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 10. Full analysis for one grouping
+# ------------------------------------------------------------
+
+analyse_grouping <- function(tb, group_vars, feature_cols,
+                             min_group_n = 5,
+                             small_groups = "drop") {
+  grouped_df <- make_grouped_df(
+    tb,
+    group_vars = group_vars,
+    min_group_n = min_group_n,
+    small_groups = small_groups
+  )
+
+  if (n_distinct(grouped_df$group) < 2) {
+    stop("This grouping leaves fewer than two usable groups.")
+  }
+
+  kw_tbl <- run_kw_fdr(grouped_df, feature_cols)
+  dunn_tbl <- run_dunn_posthoc(grouped_df, kw_tbl)
+
+  p_best <- make_best_feature_plot(grouped_df, kw_tbl)
+  p_comp <- make_composite_plot(grouped_df)
+  p_pca  <- make_pca_plot(grouped_df, kw_tbl)
+
+  permanova_tbl <- run_permanova(
+    grouped_df,
+    kw_tbl %>%
+      filter(significant) %>%
+      pull(feature)
+  )
+
+  list(
+    grouped_data = grouped_df,
+    kw_results = kw_tbl,
+    dunn_results = dunn_tbl,
+    permanova = permanova_tbl,
+    plots = list(
+      best_features_3d = p_best,
+      composite_3d = p_comp,
+      pca_3d = p_pca
+    )
+  )
+}
+
+```
+
+```{r}
+# ------------------------------------------------------------
+# 11. Screen candidate groupings, then choose one
+# ------------------------------------------------------------
+
+max_or_na <- function(x) {
+  if (all(is.na(x))) NA_real_ else max(x, na.rm = TRUE)
+}
+
+screen_groupings <- function(tb, candidate_groupings, feature_cols,
+                             min_group_n = 5) {
+  imap_dfr(candidate_groupings, function(vars, nm) {
+    tryCatch({
+      grouped_df <- make_grouped_df(
+        tb,
+        group_vars = vars,
+        min_group_n = min_group_n,
+        small_groups = "drop"
+      )
+
+      if (n_distinct(grouped_df$group) < 2) {
+        stop("fewer than two usable groups")
+      }
+
+      kw_tbl <- run_kw_fdr(grouped_df, feature_cols)
+
+      perm <- tryCatch(
+        run_permanova(
+          grouped_df,
+          kw_tbl %>%
+            filter(significant) %>%
+            pull(feature)
+        ),
+        error = function(e) NULL
+      )
+
+      tibble(
+        hypothesis = nm,
+        group_vars = paste(vars, collapse = " + "),
+        n_rows = nrow(grouped_df),
+        n_groups = n_distinct(grouped_df$group),
+        n_significant_features = sum(kw_tbl$significant, na.rm = TRUE),
+        max_eps2 = max_or_na(kw_tbl$eps2),
+        top_3_features = paste(
+          kw_tbl %>%
+            filter(!is.na(eps2)) %>%
+            arrange(desc(eps2)) %>%
+            slice_head(n = 3) %>%
+            pull(feature),
+          collapse = ", "
+        ),
+        permanova_R2 = if (!is.null(perm)) perm$R2[1] else NA_real_,
+        permanova_p = if (!is.null(perm)) perm$`Pr(>F)`[1] else NA_real_,
+        error = NA_character_
+      )
+    }, error = function(e) {
+      tibble(
+        hypothesis = nm,
+        group_vars = paste(vars, collapse = " + "),
+        n_rows = NA_integer_,
+        n_groups = NA_integer_,
+        n_significant_features = NA_integer_,
+        max_eps2 = NA_real_,
+        top_3_features = NA_character_,
+        permanova_R2 = NA_real_,
+        permanova_p = NA_real_,
+        error = conditionMessage(e)
+      )
+    })
+  }) %>%
+    arrange(desc(n_significant_features), desc(max_eps2))
+}
+```
+
+
+
+
+```{r}
+
+screen <- screen_groupings(
+  tb,
+  candidate_groupings,
+  feature_cols,
+  min_group_n = 5
+)
+
+screen
+```
+
+
+```{r}
+res <- analyse_grouping(
+  tb,
+  group_vars = candidate_groupings$taphonomic_context,
+  feature_cols = feature_cols,
+  min_group_n = 5,
+  small_groups = "drop"
+)
+
+res$kw_results
+res$dunn_results
+res$permanova
+
+res$plots$best_features_3d
+res$plots$composite_3d
+res$plots$pca_3d
+```
+
+
+
+```{r}
+
+candidate_groupings
+```
 
 
 
@@ -194,46 +809,29 @@ run_eda(tb)
 
 
 
-```{r}
-
-
-```
-
-
-```{r}
-
-```
 
 
 
 
 ```{r}
+source("skeletal_metadata_experiments_runner_v3.R")
 
-
-```
-
-
-```{r}
-
-```
-
-
-
-
-
-
-
-
-```{r}
-
+out_all <- run_skeletal_metadata_experiments(
+  tb,
+  install_missing = TRUE,
+  open_report = TRUE
+)
 ```
 
 
 
 
 ```{r}
-
-
+out_all <- run_skeletal_metadata_experiments(
+  tb,
+  install_missing = TRUE,
+  open_report = TRUE
+)
 ```
 
 

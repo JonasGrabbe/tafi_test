@@ -1,0 +1,4 @@
+term,df,sumsq,R2,F,p,note
+NA,NA,NA,NA,NA,NA,"[1m[22m`n` must be a constant.
+[1mCaused by error in `dplyr::n()` at ]8;line = 905:col = 3;file://C:\Users\jonas.grabbe\tafi_test-1\skeletal_metadata_experiments_runner_fixed.Rskeletal_metadata_experiments_runner_fixed.R:905:3]8;;:[22m
+[1m[22m[33m![39m Must only be used inside data-masking verbs like `mutate()`, `filter()`, and `group_by()`."

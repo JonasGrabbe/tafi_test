@@ -1,0 +1,10 @@
+plot,error
+best_features_3d,"[1m[22m[36mℹ[39m In argument: `group = .data[[list(""taphonomic_context"")]]`.
+[1mCaused by error in `.data[[<list: ""taphonomic_context"">]]`:[22m
+[1m[22m[33m![39m Must subset the data pronoun with a string, not a list."
+composite_3d,"[1m[22m[36mℹ[39m In argument: `group = .data[[list(""taphonomic_context"")]]`.
+[1mCaused by error in `.data[[<list: ""taphonomic_context"">]]`:[22m
+[1m[22m[33m![39m Must subset the data pronoun with a string, not a list."
+pca_3d,"[1m[22m[36mℹ[39m In argument: `group = .data[[list(""taphonomic_context"")]]`.
+[1mCaused by error in `.data[[<list: ""taphonomic_context"">]]`:[22m
+[1m[22m[33m![39m Must subset the data pronoun with a string, not a list."

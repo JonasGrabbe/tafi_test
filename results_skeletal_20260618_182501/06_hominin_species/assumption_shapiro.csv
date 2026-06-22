@@ -1,0 +1,253 @@
+"feature","group","shapiro_p"
+"ProportionalRep_MNIbased_carpal","H. sapiens",5.26421264168412e-13
+"ProportionalRep_MNIbased_carpal","H. neanderthalensis",6.50172151688605e-13
+"ProportionalRep_MNIbased_carpal","Middle Pleistocene hominin",2.28810227817418e-05
+"ProportionalRep_MNIbased_carpal","H. erectus",NA
+"ProportionalRep_MNIbased_cervical","H. sapiens",5.3041429949222e-11
+"ProportionalRep_MNIbased_cervical","H. neanderthalensis",8.44011083459224e-11
+"ProportionalRep_MNIbased_cervical","Middle Pleistocene hominin",2.61760887480366e-06
+"ProportionalRep_MNIbased_cervical","H. erectus",NA
+"ProportionalRep_MNIbased_clavicle","H. sapiens",4.64814635673803e-08
+"ProportionalRep_MNIbased_clavicle","H. neanderthalensis",1.25537077700916e-09
+"ProportionalRep_MNIbased_clavicle","Middle Pleistocene hominin",0.000336241517581377
+"ProportionalRep_MNIbased_clavicle","H. erectus",NA
+"ProportionalRep_MNIbased_femur","H. sapiens",7.05694284649118e-06
+"ProportionalRep_MNIbased_femur","H. neanderthalensis",1.96973043926677e-07
+"ProportionalRep_MNIbased_femur","Middle Pleistocene hominin",0.000295958416359291
+"ProportionalRep_MNIbased_femur","H. erectus",NA
+"ProportionalRep_MNIbased_fibula","H. sapiens",1.65278405118425e-08
+"ProportionalRep_MNIbased_fibula","H. neanderthalensis",4.9408819065046e-10
+"ProportionalRep_MNIbased_fibula","Middle Pleistocene hominin",0.000193955892804972
+"ProportionalRep_MNIbased_fibula","H. erectus",NA
+"ProportionalRep_MNIbased_humerus","H. sapiens",3.03793765249271e-05
+"ProportionalRep_MNIbased_humerus","H. neanderthalensis",1.23274818780834e-08
+"ProportionalRep_MNIbased_humerus","Middle Pleistocene hominin",0.00223919998007597
+"ProportionalRep_MNIbased_humerus","H. erectus",NA
+"ProportionalRep_MNIbased_metacarpal","H. sapiens",1.59312609282133e-10
+"ProportionalRep_MNIbased_metacarpal","H. neanderthalensis",4.68891406915384e-10
+"ProportionalRep_MNIbased_metacarpal","Middle Pleistocene hominin",2.23040650417363e-05
+"ProportionalRep_MNIbased_metacarpal","H. erectus",NA
+"ProportionalRep_MNIbased_os_coxae","H. sapiens",1.20377720500546e-07
+"ProportionalRep_MNIbased_os_coxae","H. neanderthalensis",1.68870371071243e-09
+"ProportionalRep_MNIbased_os_coxae","Middle Pleistocene hominin",1.25798887511179e-05
+"ProportionalRep_MNIbased_os_coxae","H. erectus",NA
+"ProportionalRep_MNIbased_radius","H. sapiens",1.05621156574067e-08
+"ProportionalRep_MNIbased_radius","H. neanderthalensis",3.39784577119086e-09
+"ProportionalRep_MNIbased_radius","Middle Pleistocene hominin",8.27525677431568e-05
+"ProportionalRep_MNIbased_radius","H. erectus",NA
+"ProportionalRep_MNIbased_tibia","H. sapiens",1.90766119131799e-06
+"ProportionalRep_MNIbased_tibia","H. neanderthalensis",1.19175132344197e-08
+"ProportionalRep_MNIbased_tibia","Middle Pleistocene hominin",0.000103612181695547
+"ProportionalRep_MNIbased_tibia","H. erectus",0.0479759917612355
+"ReMNAU_cervical","H. sapiens",7.82873658779442e-08
+"ReMNAU_cervical","H. neanderthalensis",1.13583157323336e-09
+"ReMNAU_cervical","Middle Pleistocene hominin",1.2973545811207e-05
+"ReMNAU_cervical","H. erectus",NA
+"ReMNAU_radius","H. sapiens",1.2939878666494e-10
+"ReMNAU_radius","H. neanderthalensis",8.683899887972e-08
+"ReMNAU_radius","Middle Pleistocene hominin",0.000819997198516773
+"ReMNAU_radius","H. erectus",NA
+"ReMNAU_ulna","H. sapiens",3.26473937859576e-07
+"ReMNAU_ulna","H. neanderthalensis",2.28825494173411e-13
+"ReMNAU_ulna","Middle Pleistocene hominin",0.000798607151569006
+"ReMNAU_ulna","H. erectus",NA
+"all_sections_dominance","H. sapiens",2.55632716159868e-06
+"all_sections_dominance","H. neanderthalensis",2.61586467867294e-06
+"all_sections_dominance","Middle Pleistocene hominin",0.0108891914241265
+"all_sections_dominance","H. erectus",0.0467272483065591
+"appendicular_dominance","H. sapiens",5.84018221351361e-06
+"appendicular_dominance","H. neanderthalensis",0.00010985715308178
+"appendicular_dominance","Middle Pleistocene hominin",0.0447830135771224
+"appendicular_dominance","H. erectus",NA
+"appendicular_dominance_refined","H. sapiens",5.84018221351361e-06
+"appendicular_dominance_refined","H. neanderthalensis",0.00010985715308178
+"appendicular_dominance_refined","Middle Pleistocene hominin",0.0447830135771224
+"appendicular_dominance_refined","H. erectus",NA
+"density_adjusted_appendicular_axial_contrast","H. sapiens",2.40588698246369e-08
+"density_adjusted_appendicular_axial_contrast","H. neanderthalensis",0.00551216377685179
+"density_adjusted_appendicular_axial_contrast","Middle Pleistocene hominin",0.502926161915264
+"density_adjusted_appendicular_axial_contrast","H. erectus",0.460309649771622
+"density_evenness","H. sapiens",4.56425490663847e-09
+"density_evenness","H. neanderthalensis",2.46757129045458e-06
+"density_evenness","Middle Pleistocene hominin",0.00567833795735364
+"density_evenness","H. erectus",0.0479072395759079
+"distal_appendicular_continuity_hm","H. sapiens",1.48652309371392e-10
+"distal_appendicular_continuity_hm","H. neanderthalensis",6.3519198956589e-11
+"distal_appendicular_continuity_hm","Middle Pleistocene hominin",3.42046943115568e-05
+"distal_appendicular_continuity_hm","H. erectus",NA
+"dominance_gap_all","H. sapiens",2.51931446028968e-07
+"dominance_gap_all","H. neanderthalensis",5.79148314889006e-06
+"dominance_gap_all","Middle Pleistocene hominin",0.00388547989356809
+"dominance_gap_all","H. erectus",0.0467272483065591
+"dominant_axial_share","H. sapiens",0.000508439760874691
+"dominant_axial_share","H. neanderthalensis",1.69529736806399e-05
+"dominant_axial_share","Middle Pleistocene hominin",0.0263513844571131
+"dominant_axial_share","H. erectus",0.0467272522268788
+"effective_sections_hill1","H. sapiens",0.0142408978379363
+"effective_sections_hill1","H. neanderthalensis",4.91254258902382e-07
+"effective_sections_hill1","Middle Pleistocene hominin",0.00335761218721713
+"effective_sections_hill1","H. erectus",0.0484540218036135
+"low_density_axial_survival","H. sapiens",1.36573769623793e-12
+"low_density_axial_survival","H. neanderthalensis",7.65209955017422e-12
+"low_density_axial_survival","Middle Pleistocene hominin",4.94322879048147e-05
+"low_density_axial_survival","H. erectus",NA
+"low_density_share","H. sapiens",0.0331500410337721
+"low_density_share","H. neanderthalensis",6.36471325542887e-08
+"low_density_share","Middle Pleistocene hominin",0.00232243607841608
+"low_density_share","H. erectus",NA
+"low_density_survival_index","H. sapiens",8.62910058105401e-10
+"low_density_survival_index","H. neanderthalensis",8.53402257263597e-11
+"low_density_survival_index","Middle Pleistocene hominin",0.000362244024983279
+"low_density_survival_index","H. erectus",NA
+"lower_appendicular_continuity_hm","H. sapiens",2.10623721998319e-10
+"lower_appendicular_continuity_hm","H. neanderthalensis",6.76634573978166e-11
+"lower_appendicular_continuity_hm","Middle Pleistocene hominin",1.65978779954134e-05
+"lower_appendicular_continuity_hm","H. erectus",0.00647144965312183
+"lower_appendicular_evenness","H. sapiens",4.38323140964564e-07
+"lower_appendicular_evenness","H. neanderthalensis",0.000197354026115152
+"lower_appendicular_evenness","Middle Pleistocene hominin",0.0446975465124903
+"lower_appendicular_evenness","H. erectus",NA
+"lower_appendicular_evenness_refined","H. sapiens",4.38323140964564e-07
+"lower_appendicular_evenness_refined","H. neanderthalensis",0.000197354026115152
+"lower_appendicular_evenness_refined","Middle Pleistocene hominin",0.0446975465124903
+"lower_appendicular_evenness_refined","H. erectus",NA
+"mnau_appendicular_mean","H. sapiens",4.07854021614478e-06
+"mnau_appendicular_mean","H. neanderthalensis",2.86147811548533e-08
+"mnau_appendicular_mean","Middle Pleistocene hominin",0.000139954473735784
+"mnau_appendicular_mean","H. erectus",0.0479759917612355
+"mnau_arms","H. sapiens",4.10886992105223e-06
+"mnau_arms","H. neanderthalensis",1.45131631577487e-08
+"mnau_arms","Middle Pleistocene hominin",0.000811851841085649
+"mnau_arms","H. erectus",NA
+"mnau_arms_legs_diff","H. sapiens",0.00470358690731461
+"mnau_arms_legs_diff","H. neanderthalensis",2.11873871901845e-08
+"mnau_arms_legs_diff","Middle Pleistocene hominin",0.0593128894658008
+"mnau_arms_legs_diff","H. erectus",0.0479759917612355
+"mnau_arms_legs_logratio","H. sapiens",3.25982023168028e-14
+"mnau_arms_legs_logratio","H. neanderthalensis",1.68518415103764e-08
+"mnau_arms_legs_logratio","Middle Pleistocene hominin",0.000988152736655853
+"mnau_arms_legs_logratio","H. erectus",0.0106335746598987
+"mnau_arms_to_legs_ratio","H. sapiens",2.95427438431996e-19
+"mnau_arms_to_legs_ratio","H. neanderthalensis",4.26227684586967e-15
+"mnau_arms_to_legs_ratio","Middle Pleistocene hominin",5.14403529364672e-06
+"mnau_arms_to_legs_ratio","H. erectus",0.00647289918479304
+"mnau_axial_main_mean","H. sapiens",2.37166534885312e-10
+"mnau_axial_main_mean","H. neanderthalensis",2.60655531701347e-10
+"mnau_axial_main_mean","Middle Pleistocene hominin",4.94322879048147e-05
+"mnau_axial_main_mean","H. erectus",NA
+"mnau_column_trunk_mean","H. sapiens",1.96753583242378e-08
+"mnau_column_trunk_mean","H. neanderthalensis",9.39028620269646e-10
+"mnau_column_trunk_mean","Middle Pleistocene hominin",2.49494405066652e-05
+"mnau_column_trunk_mean","H. erectus",NA
+"mnau_cv","H. sapiens",5.79629178747647e-06
+"mnau_cv","H. neanderthalensis",3.09342312748661e-06
+"mnau_cv","Middle Pleistocene hominin",0.0123160327676523
+"mnau_cv","H. erectus",0.0470472328918842
+"mnau_distal_appendicular_mean","H. sapiens",4.23480449067911e-10
+"mnau_distal_appendicular_mean","H. neanderthalensis",8.41669643647204e-10
+"mnau_distal_appendicular_mean","Middle Pleistocene hominin",3.33836149225841e-05
+"mnau_distal_appendicular_mean","H. erectus",NA
+"mnau_dominance_of_region_means","H. sapiens",5.22363332539023e-09
+"mnau_dominance_of_region_means","H. neanderthalensis",8.10602879079185e-05
+"mnau_dominance_of_region_means","Middle Pleistocene hominin",0.00674803125521163
+"mnau_dominance_of_region_means","H. erectus",0.0472504152604268
+"mnau_evenness_minus_dominance","H. sapiens",8.22453343908945e-07
+"mnau_evenness_minus_dominance","H. neanderthalensis",3.42578852359886e-06
+"mnau_evenness_minus_dominance","Middle Pleistocene hominin",0.0116210489073733
+"mnau_evenness_minus_dominance","H. erectus",0.0485275371844699
+"mnau_foot","H. sapiens",4.90844816252251e-10
+"mnau_foot","H. neanderthalensis",1.4328252506928e-11
+"mnau_foot","Middle Pleistocene hominin",4.04294714206054e-05
+"mnau_foot","H. erectus",NA
+"mnau_gini","H. sapiens",0.0365309084271071
+"mnau_gini","H. neanderthalensis",4.93698273844495e-07
+"mnau_gini","Middle Pleistocene hominin",0.00294425989268011
+"mnau_gini","H. erectus",0.04672724830657
+"mnau_girdle_mean","H. sapiens",1.59700047531994e-06
+"mnau_girdle_mean","H. neanderthalensis",1.26921662371101e-08
+"mnau_girdle_mean","Middle Pleistocene hominin",0.000181620366330437
+"mnau_girdle_mean","H. erectus",NA
+"mnau_hands","H. sapiens",8.21631348588227e-11
+"mnau_hands","H. neanderthalensis",1.2953057646846e-10
+"mnau_hands","Middle Pleistocene hominin",2.90627998796894e-05
+"mnau_hands","H. erectus",NA
+"mnau_heip_evenness","H. sapiens",0.0142408978379377
+"mnau_heip_evenness","H. neanderthalensis",4.91254258902389e-07
+"mnau_heip_evenness","Middle Pleistocene hominin",0.0033576121872171
+"mnau_heip_evenness","H. erectus",0.0484540218036137
+"mnau_inverse_simpson","H. sapiens",0.0355771320615382
+"mnau_inverse_simpson","H. neanderthalensis",2.34585470073439e-07
+"mnau_inverse_simpson","Middle Pleistocene hominin",0.00195289911790859
+"mnau_inverse_simpson","H. erectus",0.0460075524653178
+"mnau_legs","H. sapiens",1.24639430062375e-05
+"mnau_legs","H. neanderthalensis",6.12000779952488e-08
+"mnau_legs","Middle Pleistocene hominin",0.000430498322652935
+"mnau_legs","H. erectus",0.0479759917612355
+"mnau_limb_shaft_proxy_mean","H. sapiens",8.49596773948602e-06
+"mnau_limb_shaft_proxy_mean","H. neanderthalensis",1.07383353568138e-07
+"mnau_limb_shaft_proxy_mean","Middle Pleistocene hominin",0.000835488698041987
+"mnau_limb_shaft_proxy_mean","H. erectus",0.0479759917612355
+"mnau_lower_appendicular_mean","H. sapiens",1.86987114574803e-06
+"mnau_lower_appendicular_mean","H. neanderthalensis",5.10147597945401e-08
+"mnau_lower_appendicular_mean","Middle Pleistocene hominin",6.93496772072609e-05
+"mnau_lower_appendicular_mean","H. erectus",0.0479759917612355
+"mnau_pelvic","H. sapiens",6.68650875010519e-08
+"mnau_pelvic","H. neanderthalensis",8.11209416251129e-10
+"mnau_pelvic","Middle Pleistocene hominin",1.53874776181713e-05
+"mnau_pelvic","H. erectus",NA
+"mnau_postcranial_total_mean","H. sapiens",1.09807015961047e-06
+"mnau_postcranial_total_mean","H. neanderthalensis",1.54836564705968e-08
+"mnau_postcranial_total_mean","Middle Pleistocene hominin",0.000115695221478701
+"mnau_postcranial_total_mean","H. erectus",0.0479759917612355
+"mnau_proximal_appendicular_mean","H. sapiens",1.21305932811501e-05
+"mnau_proximal_appendicular_mean","H. neanderthalensis",2.76660364646172e-08
+"mnau_proximal_appendicular_mean","Middle Pleistocene hominin",0.000358934914982367
+"mnau_proximal_appendicular_mean","H. erectus",0.0479759917612355
+"mnau_region_mean_evenness","H. sapiens",2.34300296468959e-11
+"mnau_region_mean_evenness","H. neanderthalensis",8.43310339228509e-05
+"mnau_region_mean_evenness","Middle Pleistocene hominin",0.00355589334427877
+"mnau_region_mean_evenness","H. erectus",0.0477623512469138
+"mnau_shoulder","H. sapiens",2.09860561933619e-07
+"mnau_shoulder","H. neanderthalensis",1.00194143918124e-08
+"mnau_shoulder","Middle Pleistocene hominin",0.000376153299892002
+"mnau_shoulder","H. erectus",NA
+"mnau_simpson_dominance","H. sapiens",7.4261607686056e-10
+"mnau_simpson_dominance","H. neanderthalensis",2.75869336540839e-06
+"mnau_simpson_dominance","Middle Pleistocene hominin",0.00635177876173276
+"mnau_simpson_dominance","H. erectus",0.0473771350292383
+"mnau_simpson_evenness","H. sapiens",0.0355771320615364
+"mnau_simpson_evenness","H. neanderthalensis",2.34585470073445e-07
+"mnau_simpson_evenness","Middle Pleistocene hominin",0.00195289911790859
+"mnau_simpson_evenness","H. erectus",0.0460075524653178
+"mnau_top2_share_mcnaughton","H. sapiens",0.000688396864882086
+"mnau_top2_share_mcnaughton","H. neanderthalensis",3.86825802392231e-07
+"mnau_top2_share_mcnaughton","Middle Pleistocene hominin",0.00109495650030145
+"mnau_top2_share_mcnaughton","H. erectus",NA
+"mnau_upper_appendicular_mean","H. sapiens",2.12841174661928e-06
+"mnau_upper_appendicular_mean","H. neanderthalensis",2.74626919016104e-08
+"mnau_upper_appendicular_mean","Middle Pleistocene hominin",0.000385307350624294
+"mnau_upper_appendicular_mean","H. erectus",NA
+"mnau_vertebrae_to_thorax_ratio","H. sapiens",6.31894945973605e-18
+"mnau_vertebrae_to_thorax_ratio","H. neanderthalensis",3.8198275468745e-15
+"mnau_vertebrae_to_thorax_ratio","Middle Pleistocene hominin",8.44202441915294e-07
+"mnau_vertebrae_to_thorax_ratio","H. erectus",NA
+"mne_arms","H. sapiens",7.73498787073017e-18
+"mne_arms","H. neanderthalensis",9.26244256567171e-12
+"mne_arms","Middle Pleistocene hominin",0.000285449236891715
+"mne_arms","H. erectus",NA
+"mne_arms_to_legs_ratio","H. sapiens",2.67782474753651e-19
+"mne_arms_to_legs_ratio","H. neanderthalensis",1.66007430540654e-14
+"mne_arms_to_legs_ratio","Middle Pleistocene hominin",2.36715462740604e-05
+"mne_arms_to_legs_ratio","H. erectus",0.0064700266288183
+"mne_cranial_share","H. sapiens",2.07409645620864e-14
+"mne_cranial_share","H. neanderthalensis",6.7095911159925e-08
+"mne_cranial_share","Middle Pleistocene hominin",0.000716201747430105
+"mne_cranial_share","H. erectus",0.0484724503818662
+"mne_vertebrae_to_thorax_ratio","H. sapiens",1.88842033265011e-19
+"mne_vertebrae_to_thorax_ratio","H. neanderthalensis",1.90681968152561e-15
+"mne_vertebrae_to_thorax_ratio","Middle Pleistocene hominin",1.59578260696101e-06
+"mne_vertebrae_to_thorax_ratio","H. erectus",NA
+"postcranial_dominance_refined","H. sapiens",2.52152457897505e-07
+"postcranial_dominance_refined","H. neanderthalensis",7.78222577859452e-05
+"postcranial_dominance_refined","Middle Pleistocene hominin",0.0889007799444175
+"postcranial_dominance_refined","H. erectus",NA

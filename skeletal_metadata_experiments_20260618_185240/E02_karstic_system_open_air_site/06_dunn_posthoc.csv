@@ -1,0 +1,307 @@
+feature,.y.,group1,group2,n1,n2,statistic,p,p.adj,p.adj.signif
+mnau_limb_shaft_proxy_mean,value,Cave | NA,NA | Open air,104,21,-2.406780973411855,0.016093818734461602,0.01931258248135392,*
+mnau_limb_shaft_proxy_mean,value,Cave | NA,Other_small_groups,104,9,2.460294968685529,0.013882286728344718,0.01931258248135392,*
+mnau_limb_shaft_proxy_mean,value,Cave | NA,Rockshelter | NA,104,17,2.5484308809641787,0.01082087274488459,0.01931258248135392,*
+mnau_limb_shaft_proxy_mean,value,NA | Open air,Other_small_groups,21,9,3.5908745828685595,3.29570205708239e-4,9.88710617124717e-4,***
+mnau_limb_shaft_proxy_mean,value,NA | Open air,Rockshelter | NA,21,17,3.808311804947056,1.399187740263419e-4,8.395126441580515e-4,***
+mnau_limb_shaft_proxy_mean,value,Other_small_groups,Rockshelter | NA,9,17,-0.4564341464964357,0.6480778157862617,0.6480778157862617,ns
+mnau_appendicular_mean,value,Cave | NA,NA | Open air,104,21,-2.5540963323152073,0.010646379703471733,0.01714701638300303,*
+mnau_appendicular_mean,value,Cave | NA,Other_small_groups,104,9,2.2345849120294794,0.025444612290466087,0.030533534748559302,*
+mnau_appendicular_mean,value,Cave | NA,Rockshelter | NA,104,17,2.529228915027392,0.011431344255335353,0.01714701638300303,*
+mnau_appendicular_mean,value,NA | Open air,Other_small_groups,21,9,3.48249045845021,4.967729237535365e-4,0.0014903187712606094,**
+mnau_appendicular_mean,value,NA | Open air,Rockshelter | NA,21,17,3.900938377385326,9.582054186798801e-5,5.74923251207928e-4,***
+mnau_appendicular_mean,value,Other_small_groups,Rockshelter | NA,9,17,-0.27837588688908355,0.7807238277198045,0.7807238277198045,ns
+mnau_region_mean_evenness,value,Cave | NA,NA | Open air,102,21,-2.938945476581849,0.003293310036957231,0.006586620073914462,**
+mnau_region_mean_evenness,value,Cave | NA,Other_small_groups,102,9,2.246479827227787,0.02467329024077933,0.037009935361169,*
+mnau_region_mean_evenness,value,Cave | NA,Rockshelter | NA,102,17,1.9134960958656366,0.05568457283792817,0.0668214874055138,ns
+mnau_region_mean_evenness,value,NA | Open air,Other_small_groups,21,9,3.7283920974199454,1.927053874465972e-4,6.59469048132898e-4,***
+mnau_region_mean_evenness,value,NA | Open air,Rockshelter | NA,21,17,3.695073698874082,2.1982301604429934e-4,6.59469048132898e-4,***
+mnau_region_mean_evenness,value,Other_small_groups,Rockshelter | NA,9,17,-0.6789617235709927,0.49716211483004963,0.49716211483004963,ns
+ReMNAU_ulna,value,Cave | NA,NA | Open air,104,21,-2.049555750796428,0.04040780218716543,0.04848936262459851,*
+ReMNAU_ulna,value,Cave | NA,Other_small_groups,104,9,3.1070965982754926,0.0018893465047282595,0.003778693009456519,**
+ReMNAU_ulna,value,Cave | NA,Rockshelter | NA,104,17,2.1398227451867284,0.032369094328343645,0.04848936262459851,*
+ReMNAU_ulna,value,NA | Open air,Other_small_groups,21,9,3.9404503414833325,8.13287857184048e-5,4.8797271431042877e-4,***
+ReMNAU_ulna,value,NA | Open air,Rockshelter | NA,21,17,3.2187220092713664,0.0012876325045539311,0.003778693009456519,**
+ReMNAU_ulna,value,Other_small_groups,Rockshelter | NA,9,17,-1.2609125218916737,0.20734036619051713,0.20734036619051713,ns
+mnau_arms,value,Cave | NA,NA | Open air,104,21,-2.22847286212601,0.025848999052055156,0.031018798862466185,*
+mnau_arms,value,Cave | NA,Other_small_groups,104,9,2.630944270355751,0.00851479974274012,0.01702959948548024,*
+mnau_arms,value,Cave | NA,Rockshelter | NA,104,17,2.439194159413128,0.01472005696647577,0.022080085449713654,*
+mnau_arms,value,NA | Open air,Other_small_groups,21,9,3.6326290926218094,2.80548142855011e-4,9.921477924911737e-4,***
+mnau_arms,value,NA | Open air,Rockshelter | NA,21,17,3.589970071456267,3.307159308303912e-4,9.921477924911737e-4,***
+mnau_arms,value,Other_small_groups,Rockshelter | NA,9,17,-0.669592542137132,0.5031175695478013,0.5031175695478013,ns
+mnau_upper_appendicular_mean,value,Cave | NA,NA | Open air,104,21,-2.3490290666336113,0.018822437394543222,0.022586924873451864,*
+mnau_upper_appendicular_mean,value,Cave | NA,Other_small_groups,104,9,2.4612022402347526,0.013847228555199206,0.022586924873451864,*
+mnau_upper_appendicular_mean,value,Cave | NA,Rockshelter | NA,104,17,2.426230670708914,0.015256569734600968,0.022586924873451864,*
+mnau_upper_appendicular_mean,value,NA | Open air,Other_small_groups,21,9,3.5569869257247166,3.751328185775744e-4,0.0011253984557327232,**
+mnau_upper_appendicular_mean,value,NA | Open air,Rockshelter | NA,21,17,3.6679769701681244,2.4447719825954664e-4,0.0011253984557327232,**
+mnau_upper_appendicular_mean,value,Other_small_groups,Rockshelter | NA,9,17,-0.5347489914447482,0.5928234393186065,0.5928234393186065,ns
+mnau_postcranial_total_mean,value,Cave | NA,NA | Open air,104,21,-2.517709134419213,0.011812082173052478,0.023624164346104957,*
+mnau_postcranial_total_mean,value,Cave | NA,Other_small_groups,104,9,2.286846018824301,0.022204812354988925,0.02664577482598671,*
+mnau_postcranial_total_mean,value,Cave | NA,Rockshelter | NA,104,17,2.376595133957803,0.017473254965161125,0.026209882447741688,*
+mnau_postcranial_total_mean,value,NA | Open air,Other_small_groups,21,9,3.5062181188065273,4.545225833951253e-4,0.0013635677501853758,**
+mnau_postcranial_total_mean,value,NA | Open air,Rockshelter | NA,21,17,3.7518666983221265,1.7552278829928073e-4,0.0010531367297956845,**
+mnau_postcranial_total_mean,value,Other_small_groups,Rockshelter | NA,9,17,-0.4192889255230894,0.6750049891565635,0.6750049891565635,ns
+ProportionalRep_MNIbased_radius,value,Cave | NA,NA | Open air,104,21,-1.4527414197473756,0.14629556216356115,0.17555467459627339,ns
+ProportionalRep_MNIbased_radius,value,Cave | NA,Other_small_groups,104,9,2.5071750034007287,0.012170044043107042,0.018255066064660562,*
+ProportionalRep_MNIbased_radius,value,Cave | NA,Rockshelter | NA,104,17,3.173908980762181,0.0015040084653632458,0.004443367849159968,**
+ProportionalRep_MNIbased_radius,value,NA | Open air,Other_small_groups,21,9,3.058876937284099,0.002221683924579984,0.004443367849159968,**
+ProportionalRep_MNIbased_radius,value,NA | Open air,Rockshelter | NA,21,17,3.610272272075027,3.058757536347013e-4,0.001835254521808208,**
+ProportionalRep_MNIbased_radius,value,Other_small_groups,Rockshelter | NA,9,17,-0.099009873046472,0.9211304310671351,0.9211304310671351,ns
+mnau_top2_share_mcnaughton,value,Cave | NA,NA | Open air,102,21,2.9777865435481328,0.0029033810992902427,0.005806762198580485,**
+mnau_top2_share_mcnaughton,value,Cave | NA,Other_small_groups,102,9,-1.755055284946785,0.0792498517691408,0.09509982212296895,ns
+mnau_top2_share_mcnaughton,value,Cave | NA,Rockshelter | NA,102,17,-2.0014165977899254,0.04534751346790281,0.06802127020185422,ns
+mnau_top2_share_mcnaughton,value,NA | Open air,Other_small_groups,21,9,-3.3228427070909548,8.910514309886251e-4,0.002673154292965875,**
+mnau_top2_share_mcnaughton,value,NA | Open air,Rockshelter | NA,21,17,-3.79419823719931,1.4812130095268443e-4,8.887278057161066e-4,***
+mnau_top2_share_mcnaughton,value,Other_small_groups,Rockshelter | NA,9,17,0.2085591570417078,0.8347923973179207,0.8347923973179207,ns
+mnau_gini,value,Cave | NA,NA | Open air,102,21,2.9507235533688507,0.0031703052817569294,0.006340610563513859,**
+mnau_gini,value,Cave | NA,Other_small_groups,102,9,-1.971526531012585,0.04866368140653216,0.07299552210979825,ns
+mnau_gini,value,Cave | NA,Rockshelter | NA,102,17,-1.8383322351442342,0.0660134638785109,0.07921615665421307,ns
+mnau_gini,value,NA | Open air,Other_small_groups,21,9,-3.4954993899021973,4.7317553462995955e-4,0.0014195266038898786,**
+mnau_gini,value,NA | Open air,Rockshelter | NA,21,17,-3.6433713605149256,2.690901659615035e-4,0.0014195266038898786,**
+mnau_gini,value,Other_small_groups,Rockshelter | NA,9,17,0.4947968864826653,0.6207435023707072,0.6207435023707072,ns
+lower_appendicular_continuity_hm,value,Cave | NA,NA | Open air,104,21,-2.999132017081644,0.002707499625217547,0.005414999250435094,**
+lower_appendicular_continuity_hm,value,Cave | NA,Other_small_groups,104,9,1.9784482972705026,0.04787815580460337,0.07181723370690506,ns
+lower_appendicular_continuity_hm,value,Cave | NA,Rockshelter | NA,104,17,1.7984098688681465,0.07211208000031794,0.08653449600038152,ns
+lower_appendicular_continuity_hm,value,NA | Open air,Other_small_groups,21,9,3.5263462827525087,4.213356733615091e-4,0.0012640070200845273,**
+lower_appendicular_continuity_hm,value,NA | Open air,Rockshelter | NA,21,17,3.6412667768920928,2.7129982834170834e-4,0.0012640070200845273,**
+lower_appendicular_continuity_hm,value,Other_small_groups,Rockshelter | NA,9,17,-0.5262751565300996,0.598697041691733,0.598697041691733,ns
+mnau_proximal_appendicular_mean,value,Cave | NA,NA | Open air,104,21,-2.157450147204186,0.030970607513656802,0.03716472901638816,*
+mnau_proximal_appendicular_mean,value,Cave | NA,Other_small_groups,104,9,2.3439635397792338,0.01908003648010869,0.028620054720163036,*
+mnau_proximal_appendicular_mean,value,Cave | NA,Rockshelter | NA,104,17,2.5570485190748546,0.010556449226513841,0.021112898453027683,*
+mnau_proximal_appendicular_mean,value,NA | Open air,Other_small_groups,21,9,3.339702390648402,8.386821437449883e-4,0.002516046431234965,**
+mnau_proximal_appendicular_mean,value,NA | Open air,Rockshelter | NA,21,17,3.63239207339852,2.808060342729967e-4,0.00168483620563798,**
+mnau_proximal_appendicular_mean,value,Other_small_groups,Rockshelter | NA,9,17,-0.35291304745218927,0.7241536289676356,0.7241536289676356,ns
+mnau_distal_appendicular_mean,value,Cave | NA,NA | Open air,104,21,-3.217968171204155,0.001291021433373294,0.002582042866746588,**
+mnau_distal_appendicular_mean,value,Cave | NA,Other_small_groups,104,9,1.5045881478211707,0.1324299953032102,0.15891599436385223,ns
+mnau_distal_appendicular_mean,value,Cave | NA,Rockshelter | NA,104,17,1.7962012599303518,0.07246251442954779,0.10869377164432169,ns
+mnau_distal_appendicular_mean,value,NA | Open air,Other_small_groups,21,9,3.244494676904613,0.0011765921651468133,0.002582042866746588,**
+mnau_distal_appendicular_mean,value,NA | Open air,Rockshelter | NA,21,17,3.799964404294299,1.447168733696684e-4,8.683012402180103e-4,***
+mnau_distal_appendicular_mean,value,Other_small_groups,Rockshelter | NA,9,17,-0.12827450648955635,0.8979317392901287,0.8979317392901287,ns
+mnau_heip_evenness,value,Cave | NA,NA | Open air,102,21,-2.9108994442937717,0.0036038998116067773,0.0072077996232135545,**
+mnau_heip_evenness,value,Cave | NA,Other_small_groups,102,9,1.9574443804462633,0.05029524497130106,0.0754428674569516,ns
+mnau_heip_evenness,value,Cave | NA,Rockshelter | NA,102,17,1.7916954090547723,0.07318177035175874,0.08781812442211048,ns
+mnau_heip_evenness,value,NA | Open air,Other_small_groups,21,9,3.459255652262837,5.416705055288256e-4,0.0016250115165864767,**
+mnau_heip_evenness,value,NA | Open air,Rockshelter | NA,21,17,3.57667372560638,3.479940770444912e-4,0.0016250115165864767,**
+mnau_heip_evenness,value,Other_small_groups,Rockshelter | NA,9,17,-0.5125553924825739,0.6082623633509566,0.6082623633509566,ns
+effective_sections_hill1,value,Cave | NA,NA | Open air,102,21,-2.9108994442937717,0.0036038998116067773,0.0072077996232135545,**
+effective_sections_hill1,value,Cave | NA,Other_small_groups,102,9,1.9574443804462633,0.05029524497130106,0.0754428674569516,ns
+effective_sections_hill1,value,Cave | NA,Rockshelter | NA,102,17,1.7916954090547723,0.07318177035175874,0.08781812442211048,ns
+effective_sections_hill1,value,NA | Open air,Other_small_groups,21,9,3.459255652262837,5.416705055288256e-4,0.0016250115165864767,**
+effective_sections_hill1,value,NA | Open air,Rockshelter | NA,21,17,3.57667372560638,3.479940770444912e-4,0.0016250115165864767,**
+effective_sections_hill1,value,Other_small_groups,Rockshelter | NA,9,17,-0.5125553924825739,0.6082623633509566,0.6082623633509566,ns
+mnau_lower_appendicular_mean,value,Cave | NA,NA | Open air,104,21,-2.5367465616191955,0.01118879219372252,0.021875299509342527,*
+mnau_lower_appendicular_mean,value,Cave | NA,Other_small_groups,104,9,1.8105785524247968,0.07020611466204936,0.08424733759445922,ns
+mnau_lower_appendicular_mean,value,Cave | NA,Rockshelter | NA,104,17,2.4425593126034792,0.01458353300622835,0.021875299509342527,*
+mnau_lower_appendicular_mean,value,NA | Open air,Other_small_groups,21,9,3.1022918115149225,0.0019202856384546772,0.005760856915364032,**
+mnau_lower_appendicular_mean,value,NA | Open air,Rockshelter | NA,21,17,3.8187199658845787,1.3414593752611348e-4,8.048756251566808e-4,***
+mnau_lower_appendicular_mean,value,Other_small_groups,Rockshelter | NA,9,17,0.024004278364249357,0.980849196050321,0.980849196050321,ns
+mnau_simpson_dominance,value,Cave | NA,NA | Open air,102,21,2.790687311386634,0.005259625710840293,0.010519251421680587,*
+mnau_simpson_dominance,value,Cave | NA,Other_small_groups,102,9,-1.8270500158929917,0.06769224959690069,0.08123069951628083,ns
+mnau_simpson_dominance,value,Cave | NA,Rockshelter | NA,102,17,-2.044794129460081,0.04087515878085838,0.06131273817128757,ns
+mnau_simpson_dominance,value,NA | Open air,Other_small_groups,21,9,-3.2731447352112233,0.0010635800031032153,0.003190740009309646,**
+mnau_simpson_dominance,value,NA | Open air,Rockshelter | NA,21,17,-3.691606170010802,2.2284233870187967e-4,0.001337054032211278,**
+mnau_simpson_dominance,value,Other_small_groups,Rockshelter | NA,9,17,0.2417227444058729,0.8089950046090577,0.8089950046090577,ns
+mnau_inverse_simpson,value,Cave | NA,NA | Open air,102,21,-2.790687311386634,0.005259625710840293,0.010519251421680587,*
+mnau_inverse_simpson,value,Cave | NA,Other_small_groups,102,9,1.8270500158929917,0.06769224959690069,0.08123069951628083,ns
+mnau_inverse_simpson,value,Cave | NA,Rockshelter | NA,102,17,2.0447941294600818,0.04087515878085828,0.06131273817128742,ns
+mnau_inverse_simpson,value,NA | Open air,Other_small_groups,21,9,3.2731447352112233,0.0010635800031032153,0.003190740009309646,**
+mnau_inverse_simpson,value,NA | Open air,Rockshelter | NA,21,17,3.6916061700108025,2.2284233870187918e-4,0.0013370540322112752,**
+mnau_inverse_simpson,value,Other_small_groups,Rockshelter | NA,9,17,-0.24172274440587252,0.8089950046090579,0.8089950046090579,ns
+mnau_simpson_evenness,value,Cave | NA,NA | Open air,102,21,-2.790687311386634,0.005259625710840293,0.010519251421680587,*
+mnau_simpson_evenness,value,Cave | NA,Other_small_groups,102,9,1.8270500158929917,0.06769224959690069,0.08123069951628083,ns
+mnau_simpson_evenness,value,Cave | NA,Rockshelter | NA,102,17,2.0447941294600818,0.04087515878085828,0.06131273817128742,ns
+mnau_simpson_evenness,value,NA | Open air,Other_small_groups,21,9,3.2731447352112233,0.0010635800031032153,0.003190740009309646,**
+mnau_simpson_evenness,value,NA | Open air,Rockshelter | NA,21,17,3.6916061700108025,2.2284233870187918e-4,0.0013370540322112752,**
+mnau_simpson_evenness,value,Other_small_groups,Rockshelter | NA,9,17,-0.24172274440587252,0.8089950046090579,0.8089950046090579,ns
+mnau_evenness_minus_dominance,value,Cave | NA,NA | Open air,102,21,-2.813099742945591,0.0049066428802549125,0.009813285760509825,**
+mnau_evenness_minus_dominance,value,Cave | NA,Other_small_groups,102,9,1.8063004938954026,0.07087141474758357,0.08504569769710028,ns
+mnau_evenness_minus_dominance,value,Cave | NA,Rockshelter | NA,102,17,2.0160922127130885,0.043790334203360065,0.0656855013050401,ns
+mnau_evenness_minus_dominance,value,NA | Open air,Other_small_groups,21,9,3.268515110408944,0.0010811340448807487,0.0032434021346422464,**
+mnau_evenness_minus_dominance,value,NA | Open air,Rockshelter | NA,21,17,3.6850214987167997,2.286833365220878e-4,0.0013721000191325267,**
+mnau_evenness_minus_dominance,value,Other_small_groups,Rockshelter | NA,9,17,-0.24245970399247538,0.8084239769767505,0.8084239769767505,ns
+ReMNAU_radius,value,Cave | NA,NA | Open air,104,21,-1.8636215107423617,0.06237487469682116,0.07484984963618539,ns
+ReMNAU_radius,value,Cave | NA,Other_small_groups,104,9,2.4267908789680748,0.015233033525525928,0.022849550288288892,*
+ReMNAU_radius,value,Cave | NA,Rockshelter | NA,104,17,2.6357430913737305,0.008395326741313764,0.016790653482627527,*
+ReMNAU_radius,value,NA | Open air,Other_small_groups,21,9,3.2354986031917106,0.0012143047957130575,0.003642914387139173,**
+ReMNAU_radius,value,NA | Open air,Rockshelter | NA,21,17,3.480034184706633,5.013498081731289e-4,0.003008098849038773,**
+ReMNAU_radius,value,Other_small_groups,Rockshelter | NA,9,17,-0.3727848991566073,0.7093085427741834,0.7093085427741834,ns
+mnau_dominance_of_region_means,value,Cave | NA,NA | Open air,102,21,2.809795877422806,0.0049572929610204736,0.009914585922040947,**
+mnau_dominance_of_region_means,value,Cave | NA,Other_small_groups,102,9,-1.5400474941613793,0.1235487769041678,0.14825853228500135,ns
+mnau_dominance_of_region_means,value,Cave | NA,Rockshelter | NA,102,17,-2.1536273178256997,0.03126941017393455,0.046904115260901824,*
+mnau_dominance_of_region_means,value,NA | Open air,Other_small_groups,21,9,-3.034144628630525,0.002412187588991257,0.007236562766973771,**
+mnau_dominance_of_region_means,value,NA | Open air,Rockshelter | NA,21,17,-3.7930293565013242,1.488205547554194e-4,8.929233285325164e-4,***
+mnau_dominance_of_region_means,value,Other_small_groups,Rockshelter | NA,9,17,-0.06953402850053206,0.9445645473653504,0.9445645473653504,ns
+mnau_legs,value,Cave | NA,NA | Open air,104,21,-2.0715681694418704,0.03830573095408571,0.04596687714490285,*
+mnau_legs,value,Cave | NA,Other_small_groups,104,9,2.299590244253512,0.021471445318167314,0.03220716797725097,*
+mnau_legs,value,Cave | NA,Rockshelter | NA,104,17,2.479055020623293,0.013173098395379404,0.026346196790758808,*
+mnau_legs,value,NA | Open air,Other_small_groups,21,9,3.24943350910083,0.001156351076698281,0.003469053230094843,**
+mnau_legs,value,NA | Open air,Rockshelter | NA,21,17,3.506877176631036,4.533983718677032e-4,0.002720390231206219,**
+mnau_legs,value,Other_small_groups,Rockshelter | NA,9,17,-0.3650080240550247,0.715105416562448,0.715105416562448,ns
+all_sections_dominance,value,Cave | NA,NA | Open air,102,21,2.8157510538616908,0.004866335886553947,0.009732671773107894,**
+all_sections_dominance,value,Cave | NA,Other_small_groups,102,9,-1.456508565093833,0.145252083620311,0.1743025003443732,ns
+all_sections_dominance,value,Cave | NA,Rockshelter | NA,102,17,-2.1696059590385492,0.030036709568544432,0.04505506435281665,*
+all_sections_dominance,value,NA | Open air,Other_small_groups,21,9,-2.964814428384865,0.003028655632269199,0.009085966896807598,**
+all_sections_dominance,value,NA | Open air,Rockshelter | NA,21,17,-3.810233497389497,1.3883560262810423e-4,8.330136157686254e-4,***
+all_sections_dominance,value,Other_small_groups,Rockshelter | NA,9,17,-0.15015565276781148,0.8806418130942032,0.8806418130942032,ns
+mne_arms,value,Cave | NA,NA | Open air,104,21,-2.2911241957416624,0.021956231612138288,0.03293434741820743,*
+mne_arms,value,Cave | NA,Other_small_groups,104,9,2.855351629990118,0.004298920388677057,0.009168026666811388,**
+mne_arms,value,Cave | NA,Rockshelter | NA,104,17,1.4402410858800505,0.14979920290719817,0.14979920290719817,ns
+mne_arms,value,NA | Open air,Other_small_groups,21,9,3.8659580417668113,1.106539621576903e-4,6.639237729461418e-4,***
+mne_arms,value,NA | Open air,Rockshelter | NA,21,17,2.8348992936905897,0.004584013333405694,0.009168026666811388,**
+mne_arms,value,Other_small_groups,Rockshelter | NA,9,17,-1.4926896501283868,0.13551844383003173,0.14979920290719817,ns
+mnau_cv,value,Cave | NA,NA | Open air,102,21,2.7194962859439813,0.006538142924780704,0.013076285849561407,*
+mnau_cv,value,Cave | NA,Other_small_groups,102,9,-1.8265427106097045,0.06776855388636108,0.08132226466363329,ns
+mnau_cv,value,Cave | NA,Rockshelter | NA,102,17,-1.987308842175197,0.04688818240853397,0.07033227361280095,ns
+mnau_cv,value,NA | Open air,Other_small_groups,21,9,-3.2298827835945527,0.0012384097966842557,0.003715229390052767,**
+mnau_cv,value,NA | Open air,Rockshelter | NA,21,17,-3.5931590618522677,3.2669302161345096e-4,0.001960158129680706,**
+mnau_cv,value,Other_small_groups,Rockshelter | NA,9,17,0.27782608102076545,0.7811458692855955,0.7811458692855955,ns
+distal_appendicular_continuity_hm,value,Cave | NA,NA | Open air,104,21,-3.100376015863916,0.00193275110621425,0.0038655022124285,**
+distal_appendicular_continuity_hm,value,Cave | NA,Other_small_groups,104,9,1.7048824247212835,0.08821635485202832,0.13232453227804247,ns
+distal_appendicular_continuity_hm,value,Cave | NA,Rockshelter | NA,104,17,1.3565029061270588,0.17493921134672263,0.20992705361606714,ns
+distal_appendicular_continuity_hm,value,NA | Open air,Other_small_groups,21,9,3.3485616364533555,8.123220991046186e-4,0.002436966297313856,**
+distal_appendicular_continuity_hm,value,NA | Open air,Rockshelter | NA,21,17,3.3611634799774506,7.7614871854627e-4,0.002436966297313856,**
+distal_appendicular_continuity_hm,value,Other_small_groups,Rockshelter | NA,9,17,-0.5761357834330929,0.5645234063340732,0.5645234063340732,ns
+dominant_axial_share,value,Cave | NA,NA | Open air,104,21,3.12631516531282,0.001770117376145798,0.0053103521284373935,**
+dominant_axial_share,value,Cave | NA,Other_small_groups,104,9,-0.5042981097414593,0.61405190558864,0.61405190558864,ns
+dominant_axial_share,value,Cave | NA,Rockshelter | NA,104,17,-2.040397884770964,0.041310712419120155,0.06196606862868023,ns
+dominant_axial_share,value,NA | Open air,Other_small_groups,21,9,-2.31709526776198,0.02049854274479514,0.04099708548959028,*
+dominant_axial_share,value,NA | Open air,Rockshelter | NA,21,17,-3.928566301951388,8.545379204130389e-5,5.127227522478233e-4,***
+dominant_axial_share,value,Other_small_groups,Rockshelter | NA,9,17,-0.8698103927878813,0.3844040309831128,0.46128483717973534,ns
+ProportionalRep_MNIbased_femur,value,Cave | NA,NA | Open air,104,21,-1.5396806984603277,0.12363820393168035,0.14836584471801642,ns
+ProportionalRep_MNIbased_femur,value,Cave | NA,Other_small_groups,104,9,2.2365257671704497,0.025317351380801486,0.03797602707120223,*
+ProportionalRep_MNIbased_femur,value,Cave | NA,Rockshelter | NA,104,17,2.8094287910275297,0.0049629496864658194,0.009925899372931639,**
+ProportionalRep_MNIbased_femur,value,NA | Open air,Other_small_groups,21,9,2.8750462139181683,0.004039683654759354,0.009925899372931639,**
+ProportionalRep_MNIbased_femur,value,NA | Open air,Rockshelter | NA,21,17,3.381764344466424,7.20219003311165e-4,0.00432131401986699,**
+ProportionalRep_MNIbased_femur,value,Other_small_groups,Rockshelter | NA,9,17,-0.10219262241437575,0.9186037835591023,0.9186037835591023,ns
+mne_cranial_share,value,Cave | NA,NA | Open air,104,21,3.3807295552737746,7.229365965533601e-4,0.0021688097896600802,**
+mne_cranial_share,value,Cave | NA,Other_small_groups,104,9,-0.5389984680783129,0.5898879115934343,0.5898879115934343,ns
+mne_cranial_share,value,Cave | NA,Rockshelter | NA,104,17,-1.5891940828871332,0.11201658195715512,0.16802487293573268,ns
+mne_cranial_share,value,NA | Open air,Other_small_groups,21,9,-2.5001287181997673,0.01241481895495647,0.02482963790991294,*
+mne_cranial_share,value,NA | Open air,Rockshelter | NA,21,17,-3.7533254062918475,1.7450408798619021e-4,0.0010470245279171413,**
+mne_cranial_share,value,Other_small_groups,Rockshelter | NA,9,17,-0.5542216448331628,0.5794271668789048,0.5898879115934343,ns
+ProportionalRep_MNIbased_humerus,value,Cave | NA,NA | Open air,104,21,-1.987688124040034,0.046846193177131734,0.05621543181255808,ns
+ProportionalRep_MNIbased_humerus,value,Cave | NA,Other_small_groups,104,9,2.4169947543983747,0.015649242646571467,0.031298485293142934,*
+ProportionalRep_MNIbased_humerus,value,Cave | NA,Rockshelter | NA,104,17,2.1623413777784197,0.030591872552135663,0.045887808828203494,*
+ProportionalRep_MNIbased_humerus,value,NA | Open air,Other_small_groups,21,9,3.301454890489038,9.618480013334424e-4,0.004247374168327076,**
+ProportionalRep_MNIbased_humerus,value,NA | Open air,Rockshelter | NA,21,17,3.1914121907569175,0.0014157913894423586,0.004247374168327076,**
+ProportionalRep_MNIbased_humerus,value,Other_small_groups,Rockshelter | NA,9,17,-0.6649560550891717,0.5060786008881097,0.5060786008881097,ns
+mnau_hands,value,Cave | NA,NA | Open air,104,21,-2.800426987510719,0.0051035051022854175,0.010207010204570835,*
+mnau_hands,value,Cave | NA,Other_small_groups,104,9,1.7031564502341592,0.08853879413608745,0.13280819120413118,ns
+mnau_hands,value,Cave | NA,Rockshelter | NA,104,17,1.528526340040629,0.12638190886145756,0.15165829063374905,ns
+mnau_hands,value,NA | Open air,Other_small_groups,21,9,3.1669428302367644,0.0015405060030415389,0.004621518009124617,**
+mnau_hands,value,NA | Open air,Rockshelter | NA,21,17,3.2791534919923637,0.0010411898799685118,0.004621518009124617,**
+mnau_hands,value,Other_small_groups,Rockshelter | NA,9,17,-0.4655122945041441,0.6415646346148536,0.6415646346148536,ns
+low_density_survival_index,value,Cave | NA,NA | Open air,104,21,-2.0984342397875313,0.03586680329063611,0.053800204935954166,ns
+low_density_survival_index,value,Cave | NA,Other_small_groups,104,9,2.468837705648776,0.013555268084482885,0.02711053616896577,*
+low_density_survival_index,value,Cave | NA,Rockshelter | NA,104,17,1.7015868079275662,0.08883285221720408,0.10659942266064489,ns
+low_density_survival_index,value,NA | Open air,Other_small_groups,21,9,3.4131685699953462,6.421221013273184e-4,0.0038527326079639103,**
+low_density_survival_index,value,NA | Open air,Rockshelter | NA,21,17,2.9031636455707175,0.0036941355031689877,0.011082406509506964,*
+low_density_survival_index,value,Other_small_groups,Rockshelter | NA,9,17,-1.0010548360489342,0.3168002982126107,0.3168002982126107,ns
+dominance_gap_all,value,Cave | NA,NA | Open air,102,21,2.693591350230374,0.007068677206286725,0.015921728301303232,*
+dominance_gap_all,value,Cave | NA,Other_small_groups,102,9,-1.1842624709003804,0.23630917979627064,0.28357101575552474,ns
+dominance_gap_all,value,Cave | NA,Rockshelter | NA,102,17,-1.906520470620065,0.05658271237159584,0.08487406855739375,ns
+dominance_gap_all,value,NA | Open air,Other_small_groups,21,9,-2.6537251485370796,0.007960864150651616,0.015921728301303232,*
+dominance_gap_all,value,NA | Open air,Rockshelter | NA,21,17,-3.5092627462807995,4.49350759684616e-4,0.002696104558107696,**
+dominance_gap_all,value,Other_small_groups,Rockshelter | NA,9,17,-0.2126147805748176,0.8316274417991523,0.8316274417991523,ns
+ProportionalRep_MNIbased_metacarpal,value,Cave | NA,NA | Open air,104,21,-1.9535754036545505,0.050751451807997595,0.06090174216959711,ns
+ProportionalRep_MNIbased_metacarpal,value,Cave | NA,Other_small_groups,104,9,2.118663469214908,0.03411891769513688,0.051178376542705316,ns
+ProportionalRep_MNIbased_metacarpal,value,Cave | NA,Rockshelter | NA,104,17,2.135729512569302,0.03270146740368377,0.051178376542705316,ns
+ProportionalRep_MNIbased_metacarpal,value,NA | Open air,Other_small_groups,21,9,3.020792984175683,0.0025211366505104673,0.007563409951531402,**
+ProportionalRep_MNIbased_metacarpal,value,NA | Open air,Rockshelter | NA,21,17,3.1450591883416084,0.0016605323091399978,0.007563409951531402,**
+ProportionalRep_MNIbased_metacarpal,value,Other_small_groups,Rockshelter | NA,9,17,-0.4303900129779356,0.6669119589375261,0.6669119589375261,ns
+mnau_column_trunk_mean,value,Cave | NA,NA | Open air,104,21,-2.175337924461497,0.029604802551293725,0.05920960510258745,ns
+mnau_column_trunk_mean,value,Cave | NA,Other_small_groups,104,9,1.9165732485003495,0.055292169285383747,0.07906163343288913,ns
+mnau_column_trunk_mean,value,Cave | NA,Rockshelter | NA,104,17,1.8392073466178631,0.06588469452740761,0.07906163343288913,ns
+mnau_column_trunk_mean,value,NA | Open air,Other_small_groups,21,9,2.977712044101883,0.0029040868486727507,0.008712260546018253,**
+mnau_column_trunk_mean,value,NA | Open air,Rockshelter | NA,21,17,3.0699069447027627,0.0021412547498010598,0.008712260546018253,**
+mnau_column_trunk_mean,value,Other_small_groups,Rockshelter | NA,9,17,-0.44823185807532073,0.6539858729264441,0.6539858729264441,ns
+low_density_axial_survival,value,Cave | NA,NA | Open air,104,21,-2.0491438077524324,0.04044805486405144,0.06067208229607716,ns
+low_density_axial_survival,value,Cave | NA,Other_small_groups,104,9,2.28135074104862,0.022527700403820013,0.04505540080764003,*
+low_density_axial_survival,value,Cave | NA,Rockshelter | NA,104,17,1.521787951488769,0.12806222139109014,0.15367466566930815,ns
+low_density_axial_survival,value,NA | Open air,Other_small_groups,21,9,3.2200612511205375,0.0012816320989864605,0.007689792593918763,**
+low_density_axial_survival,value,NA | Open air,Rockshelter | NA,21,17,2.7228479053703225,0.006472184687259314,0.019416554061777943,*
+low_density_axial_survival,value,Other_small_groups,Rockshelter | NA,9,17,-0.9571309123663478,0.33850118270333096,0.33850118270333096,ns
+ProportionalRep_MNIbased_carpal,value,Cave | NA,NA | Open air,104,21,-1.2709298164246055,0.2037536179267857,0.24450434151214284,ns
+ProportionalRep_MNIbased_carpal,value,Cave | NA,Other_small_groups,104,9,2.3603621913272232,0.01825710022073564,0.03482093723018145,*
+ProportionalRep_MNIbased_carpal,value,Cave | NA,Rockshelter | NA,104,17,2.2698949408630718,0.023213958153454298,0.03482093723018145,*
+ProportionalRep_MNIbased_carpal,value,NA | Open air,Other_small_groups,21,9,2.821665589174896,0.004777496625434729,0.017766054558429143,*
+ProportionalRep_MNIbased_carpal,value,NA | Open air,Rockshelter | NA,21,17,2.7520682256428017,0.005922018186143047,0.017766054558429143,*
+ProportionalRep_MNIbased_carpal,value,Other_small_groups,Rockshelter | NA,9,17,-0.5489670491641836,0.5830280630263565,0.5830280630263565,ns
+mnau_axial_main_mean,value,Cave | NA,NA | Open air,104,21,-2.025240102721651,0.04284271563376564,0.06426407345064847,ns
+mnau_axial_main_mean,value,Cave | NA,Other_small_groups,104,9,2.3800196000611065,0.017311717223013834,0.03462343444602767,*
+mnau_axial_main_mean,value,Cave | NA,Rockshelter | NA,104,17,1.3192868553939332,0.18707323057172087,0.22448787668606504,ns
+mnau_axial_main_mean,value,NA | Open air,Other_small_groups,21,9,3.291757699754237,9.956335205341552e-4,0.0059738011232049314,**
+mnau_axial_main_mean,value,NA | Open air,Rockshelter | NA,21,17,2.5429439725315723,0.010992285347974558,0.032976856043923676,*
+mnau_axial_main_mean,value,Other_small_groups,Rockshelter | NA,9,17,-1.1688061952141124,0.24248172377794225,0.24248172377794225,ns
+ProportionalRep_MNIbased_fibula,value,Cave | NA,NA | Open air,104,21,-1.4275414684741659,0.15342388111461253,0.18410865733753504,ns
+ProportionalRep_MNIbased_fibula,value,Cave | NA,Other_small_groups,104,9,2.3499034547769777,0.01877828101943078,0.03755656203886156,*
+ProportionalRep_MNIbased_fibula,value,Cave | NA,Rockshelter | NA,104,17,2.048398269841315,0.0405209909354271,0.06078148640314064,ns
+ProportionalRep_MNIbased_fibula,value,NA | Open air,Other_small_groups,21,9,2.9065866691717224,0.0036539566035711226,0.0214805266450976,*
+ProportionalRep_MNIbased_fibula,value,NA | Open air,Rockshelter | NA,21,17,2.689301319803348,0.007160175548365867,0.0214805266450976,*
+ProportionalRep_MNIbased_fibula,value,Other_small_groups,Rockshelter | NA,9,17,-0.6807168941886192,0.49605064433868984,0.49605064433868984,ns
+mnau_girdle_mean,value,Cave | NA,NA | Open air,104,21,-1.7527285334188953,0.07964861549704681,0.09557833859645617,ns
+mnau_girdle_mean,value,Cave | NA,Other_small_groups,104,9,2.0292504276916583,0.04243278965431033,0.06364918448146549,ns
+mnau_girdle_mean,value,Cave | NA,Rockshelter | NA,104,17,2.0398675125233283,0.041363523291426826,0.06364918448146549,ns
+mnau_girdle_mean,value,NA | Open air,Other_small_groups,21,9,2.8222102771505586,0.004769389405674423,0.014308168217023267,*
+mnau_girdle_mean,value,NA | Open air,Rockshelter | NA,21,17,2.9209147280601253,0.0034900533722315346,0.014308168217023267,*
+mnau_girdle_mean,value,Other_small_groups,Rockshelter | NA,9,17,-0.415861987402141,0.6775109965301112,0.6775109965301112,ns
+ProportionalRep_MNIbased_clavicle,value,Cave | NA,NA | Open air,104,21,-0.995900849940497,0.3192983223127758,0.3831579867753309,ns
+ProportionalRep_MNIbased_clavicle,value,Cave | NA,Other_small_groups,104,9,2.5231498352726387,0.011630883146753684,0.02879327395907913,*
+ProportionalRep_MNIbased_clavicle,value,Cave | NA,Rockshelter | NA,104,17,2.1412139256887093,0.03225679054938855,0.04838518582408283,*
+ProportionalRep_MNIbased_clavicle,value,NA | Open air,Other_small_groups,21,9,2.798484868867541,0.005134297496401138,0.02879327395907913,*
+ProportionalRep_MNIbased_clavicle,value,NA | Open air,Rockshelter | NA,21,17,2.447211401037974,0.014396636979539565,0.02879327395907913,*
+ProportionalRep_MNIbased_clavicle,value,Other_small_groups,Rockshelter | NA,9,17,-0.7678387411652883,0.4425829951096385,0.4425829951096385,ns
+mnau_foot,value,Cave | NA,NA | Open air,104,21,-2.5642458367854353,0.0103400278441012,0.0206800556882024,*
+mnau_foot,value,Cave | NA,Other_small_groups,104,9,1.5237502835696204,0.12757110318304296,0.19135665477456443,ns
+mnau_foot,value,Cave | NA,Rockshelter | NA,104,17,1.297977825694046,0.19429495481022266,0.23315394577226717,ns
+mnau_foot,value,NA | Open air,Other_small_groups,21,9,2.868658614459445,0.004122164544691921,0.012366493634075763,*
+mnau_foot,value,NA | Open air,Rockshelter | NA,21,17,2.9211004780669287,0.0034879731646868554,0.012366493634075763,*
+mnau_foot,value,Other_small_groups,Rockshelter | NA,9,17,-0.46060594260965315,0.6450813472979553,0.6450813472979553,ns
+ProportionalRep_MNIbased_cervical,value,Cave | NA,NA | Open air,104,21,-1.4890847317534044,0.1364650578314931,0.16375806939779172,ns
+ProportionalRep_MNIbased_cervical,value,Cave | NA,Other_small_groups,104,9,2.113137188281102,0.03458902750902207,0.062273618921938736,ns
+ProportionalRep_MNIbased_cervical,value,Cave | NA,Rockshelter | NA,104,17,2.038341963853725,0.041515745947959155,0.062273618921938736,ns
+ProportionalRep_MNIbased_cervical,value,NA | Open air,Other_small_groups,21,9,2.7370558293502283,0.0061991771414154975,0.01921077145550431,*
+ProportionalRep_MNIbased_cervical,value,NA | Open air,Rockshelter | NA,21,17,2.726366221840462,0.006403590485168103,0.01921077145550431,*
+ProportionalRep_MNIbased_cervical,value,Other_small_groups,Rockshelter | NA,9,17,-0.4875357160151123,0.6258787386201548,0.6258787386201548,ns
+ProportionalRep_MNIbased_tibia,value,Cave | NA,NA | Open air,104,21,-1.705061382625181,0.0881829769302046,0.10581957231624552,ns
+ProportionalRep_MNIbased_tibia,value,Cave | NA,Other_small_groups,104,9,1.7647160442157226,0.07761150073176773,0.10581957231624552,ns
+ProportionalRep_MNIbased_tibia,value,Cave | NA,Rockshelter | NA,104,17,2.1269981817255132,0.03342023427024461,0.06684046854048922,ns
+ProportionalRep_MNIbased_tibia,value,NA | Open air,Other_small_groups,21,9,2.5628838353478387,0.010380677374591757,0.031142032123775268,*
+ProportionalRep_MNIbased_tibia,value,NA | Open air,Rockshelter | NA,21,17,2.9558271111207355,0.0031183183378970464,0.01870991002738228,*
+ProportionalRep_MNIbased_tibia,value,Other_small_groups,Rockshelter | NA,9,17,-0.13759956071317767,0.8905569027264417,0.8905569027264417,ns
+mnau_shoulder,value,Cave | NA,NA | Open air,104,21,-1.3508042867165426,0.17675813455265785,0.2121097614631894,ns
+mnau_shoulder,value,Cave | NA,Other_small_groups,104,9,2.44159785067095,0.014622425058251993,0.034758437287220924,*
+mnau_shoulder,value,Cave | NA,Rockshelter | NA,104,17,1.7310749942129606,0.08343838964156251,0.12515758446234376,ns
+mnau_shoulder,value,NA | Open air,Other_small_groups,21,9,2.9404751379150618,0.0032770929946075917,0.01966255796764555,*
+mnau_shoulder,value,NA | Open air,Rockshelter | NA,21,17,2.378585232093928,0.017379218643610462,0.034758437287220924,*
+mnau_shoulder,value,Other_small_groups,Rockshelter | NA,9,17,-0.9593815364217365,0.33736657305452944,0.33736657305452944,ns
+density_evenness,value,Cave | NA,NA | Open air,102,21,-2.3613663511793472,0.018207733561172373,0.036415467122344745,*
+density_evenness,value,Cave | NA,Other_small_groups,102,9,1.4829476739249154,0.1380883136748654,0.2071324705122981,ns
+density_evenness,value,Cave | NA,Rockshelter | NA,102,17,1.3208882954809145,0.18653861299518454,0.22384633559422143,ns
+density_evenness,value,NA | Open air,Other_small_groups,21,9,2.714592035827785,0.006635745905792731,0.019907237717378193,*
+density_evenness,value,NA | Open air,Rockshelter | NA,21,17,2.795010907647793,0.00518979641224401,0.019907237717378193,*
+density_evenness,value,Other_small_groups,Rockshelter | NA,9,17,-0.411497122078652,0.6807080510949814,0.6807080510949814,ns
+low_density_share,value,Cave | NA,NA | Open air,102,21,-2.432390379709944,0.014999531101321024,0.02999906220264205,*
+low_density_share,value,Cave | NA,Other_small_groups,102,9,1.610064685714953,0.10738373552341383,0.16107560328512074,ns
+low_density_share,value,Cave | NA,Rockshelter | NA,102,17,0.9651728899447619,0.3344582232008376,0.4013498678410051,ns
+low_density_share,value,NA | Open air,Other_small_groups,21,9,2.8682573981582347,0.0041273959697324565,0.02476437581839474,*
+low_density_share,value,NA | Open air,Rockshelter | NA,21,17,2.561553767829877,0.010420511001360764,0.02999906220264205,*
+low_density_share,value,Other_small_groups,Rockshelter | NA,9,17,-0.7447769986353896,0.4564065421144019,0.4564065421144019,ns
+ReMNAU_cervical,value,Cave | NA,NA | Open air,104,21,-1.7939973410530405,0.07281359323330251,0.12442940325249732,ns
+ReMNAU_cervical,value,Cave | NA,Other_small_groups,104,9,1.3323649426756836,0.18274029621241014,0.21928835545489217,ns
+ReMNAU_cervical,value,Cave | NA,Rockshelter | NA,104,17,1.733803606721698,0.08295293550166488,0.12442940325249732,ns
+ReMNAU_cervical,value,NA | Open air,Other_small_groups,21,9,2.2392301663261382,0.025140943994567067,0.0754228319837012,ns
+ReMNAU_cervical,value,NA | Open air,Rockshelter | NA,21,17,2.705758644137518,0.006814855597183052,0.040889133583098314,*
+ReMNAU_cervical,value,Other_small_groups,Rockshelter | NA,9,17,-0.02271133036491669,0.9818805378433633,0.9818805378433633,ns
+mnau_pelvic,value,Cave | NA,NA | Open air,104,21,-1.591490509042893,0.11149922968377234,0.1672488445256585,ns
+mnau_pelvic,value,Cave | NA,Other_small_groups,104,9,0.9296250450105341,0.35256525544384,0.423078306532608,ns
+mnau_pelvic,value,Cave | NA,Rockshelter | NA,104,17,2.101007191740067,0.0356403349442902,0.10692100483287059,ns
+mnau_pelvic,value,NA | Open air,Other_small_groups,21,9,1.7663950076000756,0.07732960208792676,0.15465920417585352,ns
+mnau_pelvic,value,NA | Open air,Rockshelter | NA,21,17,2.851706728228497,0.00434851999544853,0.02609111997269118,*
+mnau_pelvic,value,Other_small_groups,Rockshelter | NA,9,17,0.5497788901613039,0.5824710393182669,0.5824710393182669,ns
+ProportionalRep_MNIbased_os_coxae,value,Cave | NA,NA | Open air,104,21,-1.4021279534799094,0.16087704103376016,0.24131556155064024,ns
+ProportionalRep_MNIbased_os_coxae,value,Cave | NA,Other_small_groups,104,9,1.1495503564159348,0.2503291150016949,0.3003949380020339,ns
+ProportionalRep_MNIbased_os_coxae,value,Cave | NA,Rockshelter | NA,104,17,2.1057216557178555,0.03522853758866984,0.10568561276600952,ns
+ProportionalRep_MNIbased_os_coxae,value,NA | Open air,Other_small_groups,21,9,1.8444856693842646,0.06511239241295642,0.13022478482591285,ns
+ProportionalRep_MNIbased_os_coxae,value,NA | Open air,Rockshelter | NA,21,17,2.7166308821176965,0.006595011367629966,0.039570068205779796,*
+ProportionalRep_MNIbased_os_coxae,value,Other_small_groups,Rockshelter | NA,9,17,0.3674024242633481,0.713318863549975,0.713318863549975,ns

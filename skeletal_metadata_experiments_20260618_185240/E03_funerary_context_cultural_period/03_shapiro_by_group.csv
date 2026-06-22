@@ -1,0 +1,505 @@
+feature,group,n,shapiro_p
+density_evenness,Inhumation single | Middle Paleolithic,10,0.2776001727446701
+density_evenness,Inhumation single | Upper Paleolithic,13,0.02154401486386133
+density_evenness,NA | Bronze Age,25,0.03150758284774032
+density_evenness,NA | Lower Paleolithic,10,0.13032168031631902
+density_evenness,NA | Middle Paleolithic,23,3.7426272632917453e-4
+density_evenness,NA | NA,11,1.9810071849709205e-7
+density_evenness,NA | Upper Paleolithic,11,0.28080402787843306
+density_evenness,Other_small_groups,46,1.3451881153407332e-7
+lower_appendicular_evenness_refined,Inhumation single | Middle Paleolithic,10,0.006510736714126801
+lower_appendicular_evenness_refined,Inhumation single | Upper Paleolithic,13,0.001260775865103881
+lower_appendicular_evenness_refined,NA | Bronze Age,25,0.027248828518994635
+lower_appendicular_evenness_refined,NA | Lower Paleolithic,9,0.01752143720972922
+lower_appendicular_evenness_refined,NA | Middle Paleolithic,13,0.006924224150773927
+lower_appendicular_evenness_refined,NA | NA,3,NA
+lower_appendicular_evenness_refined,NA | Upper Paleolithic,8,0.15742860338510262
+lower_appendicular_evenness_refined,Other_small_groups,42,9.203319821201575e-6
+ProportionalRep_MNIbased_humerus,Inhumation single | Middle Paleolithic,10,0.01053905489400986
+ProportionalRep_MNIbased_humerus,Inhumation single | Upper Paleolithic,13,6.877114881680548e-4
+ProportionalRep_MNIbased_humerus,NA | Bronze Age,25,0.027035884773222038
+ProportionalRep_MNIbased_humerus,NA | Lower Paleolithic,10,0.2621472815411029
+ProportionalRep_MNIbased_humerus,NA | Middle Paleolithic,23,3.5236322613629736e-7
+ProportionalRep_MNIbased_humerus,NA | NA,11,NA
+ProportionalRep_MNIbased_humerus,NA | Upper Paleolithic,11,6.488534361631509e-4
+ProportionalRep_MNIbased_humerus,Other_small_groups,48,1.6862596869615863e-4
+mnau_heip_evenness,Inhumation single | Middle Paleolithic,10,0.02257722260986545
+mnau_heip_evenness,Inhumation single | Upper Paleolithic,13,0.2460655543362315
+mnau_heip_evenness,NA | Bronze Age,25,0.8821785261489724
+mnau_heip_evenness,NA | Lower Paleolithic,10,0.4147800553713383
+mnau_heip_evenness,NA | Middle Paleolithic,23,3.856154578366548e-5
+mnau_heip_evenness,NA | NA,11,1.6731044555215093e-7
+mnau_heip_evenness,NA | Upper Paleolithic,11,0.009396912880935146
+mnau_heip_evenness,Other_small_groups,46,1.075645434185576e-4
+dominant_axial_share,Inhumation single | Middle Paleolithic,10,0.25101275183770677
+dominant_axial_share,Inhumation single | Upper Paleolithic,13,0.017791411739761252
+dominant_axial_share,NA | Bronze Age,25,0.5841216736516892
+dominant_axial_share,NA | Lower Paleolithic,10,0.8933603574412585
+dominant_axial_share,NA | Middle Paleolithic,23,4.0935750383658205e-4
+dominant_axial_share,NA | NA,11,3.5971388858066425e-5
+dominant_axial_share,NA | Upper Paleolithic,11,0.06072598011802274
+dominant_axial_share,Other_small_groups,48,8.568045318553466e-5
+ReMNAU_ulna,Inhumation single | Middle Paleolithic,10,0.28064177948404845
+ReMNAU_ulna,Inhumation single | Upper Paleolithic,13,0.9669056681480719
+ReMNAU_ulna,NA | Bronze Age,25,2.9243086226449193e-5
+ReMNAU_ulna,NA | Lower Paleolithic,10,0.09020224532279769
+ReMNAU_ulna,NA | Middle Paleolithic,23,3.7235914151986567e-7
+ReMNAU_ulna,NA | NA,11,6.241786121311592e-8
+ReMNAU_ulna,NA | Upper Paleolithic,11,5.8406703629432446e-5
+ReMNAU_ulna,Other_small_groups,48,6.731598963727742e-5
+mne_cranial_share,Inhumation single | Middle Paleolithic,10,0.001868176590990528
+mne_cranial_share,Inhumation single | Upper Paleolithic,13,1.326725067559159e-5
+mne_cranial_share,NA | Bronze Age,25,0.0033635003108134207
+mne_cranial_share,NA | Lower Paleolithic,10,4.343437713938886e-5
+mne_cranial_share,NA | Middle Paleolithic,23,3.4481811009027445e-4
+mne_cranial_share,NA | NA,11,8.96931275733225e-5
+mne_cranial_share,NA | Upper Paleolithic,11,0.13397538596444775
+mne_cranial_share,Other_small_groups,48,1.508129377476111e-10
+ProportionalRep_MNIbased_tibia,Inhumation single | Middle Paleolithic,10,0.060791075893842896
+ProportionalRep_MNIbased_tibia,Inhumation single | Upper Paleolithic,13,3.476944863679712e-5
+ProportionalRep_MNIbased_tibia,NA | Bronze Age,25,0.017880277674084885
+ProportionalRep_MNIbased_tibia,NA | Lower Paleolithic,10,0.006170406280195781
+ProportionalRep_MNIbased_tibia,NA | Middle Paleolithic,23,3.5422993363797597e-6
+ProportionalRep_MNIbased_tibia,NA | NA,11,6.25806941679729e-7
+ProportionalRep_MNIbased_tibia,NA | Upper Paleolithic,11,0.0019042758893083093
+ProportionalRep_MNIbased_tibia,Other_small_groups,48,5.2330110038554544e-5
+ProportionalRep_MNIbased_fibula,Inhumation single | Middle Paleolithic,10,0.06918070502359044
+ProportionalRep_MNIbased_fibula,Inhumation single | Upper Paleolithic,13,2.4484596356474323e-4
+ProportionalRep_MNIbased_fibula,NA | Bronze Age,25,3.3633852430187063e-4
+ProportionalRep_MNIbased_fibula,NA | Lower Paleolithic,10,0.02554457120463572
+ProportionalRep_MNIbased_fibula,NA | Middle Paleolithic,23,9.455305401593637e-9
+ProportionalRep_MNIbased_fibula,NA | NA,11,NA
+ProportionalRep_MNIbased_fibula,NA | Upper Paleolithic,11,2.7490852754585437e-5
+ProportionalRep_MNIbased_fibula,Other_small_groups,48,1.5794791807054803e-5
+mnau_arms_legs_diff,Inhumation single | Middle Paleolithic,10,0.001257577175234797
+mnau_arms_legs_diff,Inhumation single | Upper Paleolithic,13,0.501009964939053
+mnau_arms_legs_diff,NA | Bronze Age,25,0.527753085007932
+mnau_arms_legs_diff,NA | Lower Paleolithic,10,0.6661528825193656
+mnau_arms_legs_diff,NA | Middle Paleolithic,23,9.882260592308492e-7
+mnau_arms_legs_diff,NA | NA,11,0.004822849027174911
+mnau_arms_legs_diff,NA | Upper Paleolithic,11,0.06620210748795724
+mnau_arms_legs_diff,Other_small_groups,48,2.673733542572108e-4
+distal_appendicular_continuity_hm,Inhumation single | Middle Paleolithic,10,0.43555328250542014
+distal_appendicular_continuity_hm,Inhumation single | Upper Paleolithic,13,0.033542432161320156
+distal_appendicular_continuity_hm,NA | Bronze Age,25,6.332439249550354e-7
+distal_appendicular_continuity_hm,NA | Lower Paleolithic,10,0.0011994645017449326
+distal_appendicular_continuity_hm,NA | Middle Paleolithic,23,5.0121369529111007e-8
+distal_appendicular_continuity_hm,NA | NA,11,2.247629208617537e-8
+distal_appendicular_continuity_hm,NA | Upper Paleolithic,11,6.044005468275284e-6
+distal_appendicular_continuity_hm,Other_small_groups,48,1.3520724126446613e-6
+ReMNAU_cervical,Inhumation single | Middle Paleolithic,10,0.585117259060875
+ReMNAU_cervical,Inhumation single | Upper Paleolithic,13,0.26171654678470724
+ReMNAU_cervical,NA | Bronze Age,25,4.876213326155749e-4
+ReMNAU_cervical,NA | Lower Paleolithic,10,2.0135061643608232e-4
+ReMNAU_cervical,NA | Middle Paleolithic,23,1.6923298568699398e-8
+ReMNAU_cervical,NA | NA,11,NA
+ReMNAU_cervical,NA | Upper Paleolithic,11,6.24871747163023e-6
+ReMNAU_cervical,Other_small_groups,48,2.5079534093641396e-7
+low_density_share,Inhumation single | Middle Paleolithic,10,0.4785825546745023
+low_density_share,Inhumation single | Upper Paleolithic,13,0.8753110426573624
+low_density_share,NA | Bronze Age,25,0.006921626448749801
+low_density_share,NA | Lower Paleolithic,10,0.2662212059921194
+low_density_share,NA | Middle Paleolithic,23,3.968963547587645e-6
+low_density_share,NA | NA,11,NA
+low_density_share,NA | Upper Paleolithic,11,6.864935464129476e-4
+low_density_share,Other_small_groups,46,4.7824122327105444e-5
+ProportionalRep_MNIbased_cervical,Inhumation single | Middle Paleolithic,10,0.10808168274236464
+ProportionalRep_MNIbased_cervical,Inhumation single | Upper Paleolithic,13,0.06976297838576322
+ProportionalRep_MNIbased_cervical,NA | Bronze Age,25,0.0010439341987037206
+ProportionalRep_MNIbased_cervical,NA | Lower Paleolithic,10,1.1950437474490318e-5
+ProportionalRep_MNIbased_cervical,NA | Middle Paleolithic,23,2.3679237578815917e-9
+ProportionalRep_MNIbased_cervical,NA | NA,11,NA
+ProportionalRep_MNIbased_cervical,NA | Upper Paleolithic,11,5.487554443970872e-6
+ProportionalRep_MNIbased_cervical,Other_small_groups,48,2.9314336107522387e-8
+appendicular_dominance_refined,Inhumation single | Middle Paleolithic,10,0.007061412859119943
+appendicular_dominance_refined,Inhumation single | Upper Paleolithic,13,0.05764435394353816
+appendicular_dominance_refined,NA | Bronze Age,25,0.06523345701303887
+appendicular_dominance_refined,NA | Lower Paleolithic,9,0.2296266543908184
+appendicular_dominance_refined,NA | Middle Paleolithic,15,0.0033237100446017118
+appendicular_dominance_refined,NA | NA,4,0.07766296278490753
+appendicular_dominance_refined,NA | Upper Paleolithic,8,0.4948950246454753
+appendicular_dominance_refined,Other_small_groups,44,2.2832200070707277e-7
+appendicular_dominance,Inhumation single | Middle Paleolithic,10,0.007061412859119943
+appendicular_dominance,Inhumation single | Upper Paleolithic,13,0.05764435394353816
+appendicular_dominance,NA | Bronze Age,25,0.06523345701303887
+appendicular_dominance,NA | Lower Paleolithic,9,0.2296266543908184
+appendicular_dominance,NA | Middle Paleolithic,15,0.0033237100446017118
+appendicular_dominance,NA | NA,4,0.07766296278490753
+appendicular_dominance,NA | Upper Paleolithic,8,0.4948950246454753
+appendicular_dominance,Other_small_groups,44,2.2832200070707277e-7
+density_adjusted_appendicular_axial_contrast,Inhumation single | Middle Paleolithic,10,0.9975786343705093
+density_adjusted_appendicular_axial_contrast,Inhumation single | Upper Paleolithic,13,0.708419138442705
+density_adjusted_appendicular_axial_contrast,NA | Bronze Age,25,0.6069928630230246
+density_adjusted_appendicular_axial_contrast,NA | Lower Paleolithic,10,0.835603884195569
+density_adjusted_appendicular_axial_contrast,NA | Middle Paleolithic,23,0.10984128030477285
+density_adjusted_appendicular_axial_contrast,NA | NA,11,0.049805299251253134
+density_adjusted_appendicular_axial_contrast,NA | Upper Paleolithic,11,0.5616297126616874
+density_adjusted_appendicular_axial_contrast,Other_small_groups,48,2.4634651236738363e-7
+effective_sections_hill1,Inhumation single | Middle Paleolithic,10,0.02257722260986545
+effective_sections_hill1,Inhumation single | Upper Paleolithic,13,0.2460655543362315
+effective_sections_hill1,NA | Bronze Age,25,0.8821785261489795
+effective_sections_hill1,NA | Lower Paleolithic,10,0.4147800553713383
+effective_sections_hill1,NA | Middle Paleolithic,23,3.856154578366548e-5
+effective_sections_hill1,NA | NA,11,1.6731044555214857e-7
+effective_sections_hill1,NA | Upper Paleolithic,11,0.009396912880935146
+effective_sections_hill1,Other_small_groups,46,1.0756454341856042e-4
+mnau_axial_main_mean,Inhumation single | Middle Paleolithic,10,0.5243572470263482
+mnau_axial_main_mean,Inhumation single | Upper Paleolithic,13,0.0242555548261579
+mnau_axial_main_mean,NA | Bronze Age,25,2.3650655528408194e-4
+mnau_axial_main_mean,NA | Lower Paleolithic,10,0.017509507087706298
+mnau_axial_main_mean,NA | Middle Paleolithic,23,2.1649954189744277e-9
+mnau_axial_main_mean,NA | NA,11,NA
+mnau_axial_main_mean,NA | Upper Paleolithic,11,4.04781680594695e-4
+mnau_axial_main_mean,Other_small_groups,48,7.539391468402633e-8
+postcranial_dominance_refined,Inhumation single | Middle Paleolithic,10,0.0014301125978605572
+postcranial_dominance_refined,Inhumation single | Upper Paleolithic,13,0.07599974347652068
+postcranial_dominance_refined,NA | Bronze Age,25,0.024117905433701674
+postcranial_dominance_refined,NA | Lower Paleolithic,9,0.1332833750258737
+postcranial_dominance_refined,NA | Middle Paleolithic,15,0.007086725564705858
+postcranial_dominance_refined,NA | NA,4,0.04388148593979471
+postcranial_dominance_refined,NA | Upper Paleolithic,8,0.4267146617920784
+postcranial_dominance_refined,Other_small_groups,44,1.38038829571659e-7
+mnau_arms,Inhumation single | Middle Paleolithic,10,0.0766173351721955
+mnau_arms,Inhumation single | Upper Paleolithic,13,0.007232800063494524
+mnau_arms,NA | Bronze Age,25,0.0367107648544643
+mnau_arms,NA | Lower Paleolithic,10,0.0654346474416149
+mnau_arms,NA | Middle Paleolithic,23,1.1221768940050111e-7
+mnau_arms,NA | NA,11,1.7986683699979846e-6
+mnau_arms,NA | Upper Paleolithic,11,1.2740139335307388e-4
+mnau_arms,Other_small_groups,48,1.3458276806874544e-4
+lower_appendicular_continuity_hm,Inhumation single | Middle Paleolithic,10,0.39304347498056286
+lower_appendicular_continuity_hm,Inhumation single | Upper Paleolithic,13,0.028103103404237006
+lower_appendicular_continuity_hm,NA | Bronze Age,25,1.0900465049099459e-7
+lower_appendicular_continuity_hm,NA | Lower Paleolithic,10,3.102593248380477e-4
+lower_appendicular_continuity_hm,NA | Middle Paleolithic,23,1.4296400490828264e-7
+lower_appendicular_continuity_hm,NA | NA,11,2.246764185188546e-8
+lower_appendicular_continuity_hm,NA | Upper Paleolithic,11,2.258516542898113e-8
+lower_appendicular_continuity_hm,Other_small_groups,48,5.705727662310679e-6
+mnau_arms_legs_logratio,Inhumation single | Middle Paleolithic,10,0.0010988414207279303
+mnau_arms_legs_logratio,Inhumation single | Upper Paleolithic,13,2.050298375356811e-6
+mnau_arms_legs_logratio,NA | Bronze Age,25,5.6230204925175026e-8
+mnau_arms_legs_logratio,NA | Lower Paleolithic,10,0.046210183733547856
+mnau_arms_legs_logratio,NA | Middle Paleolithic,23,1.1496750939950635e-5
+mnau_arms_legs_logratio,NA | NA,11,0.0023789032601801365
+mnau_arms_legs_logratio,NA | Upper Paleolithic,11,1.4964948968185872e-4
+mnau_arms_legs_logratio,Other_small_groups,48,1.832542396485655e-10
+lower_appendicular_evenness,Inhumation single | Middle Paleolithic,10,0.006510736714126801
+lower_appendicular_evenness,Inhumation single | Upper Paleolithic,13,0.001260775865103881
+lower_appendicular_evenness,NA | Bronze Age,25,0.027248828518994635
+lower_appendicular_evenness,NA | Lower Paleolithic,9,0.01752143720972922
+lower_appendicular_evenness,NA | Middle Paleolithic,13,0.006924224150773927
+lower_appendicular_evenness,NA | NA,3,NA
+lower_appendicular_evenness,NA | Upper Paleolithic,8,0.15742860338510262
+lower_appendicular_evenness,Other_small_groups,42,9.203319821201575e-6
+ProportionalRep_MNIbased_metacarpal,Inhumation single | Middle Paleolithic,10,0.5276829829851056
+ProportionalRep_MNIbased_metacarpal,Inhumation single | Upper Paleolithic,13,0.03783999514121015
+ProportionalRep_MNIbased_metacarpal,NA | Bronze Age,25,2.8959732711986782e-5
+ProportionalRep_MNIbased_metacarpal,NA | Lower Paleolithic,10,8.009731337486865e-4
+ProportionalRep_MNIbased_metacarpal,NA | Middle Paleolithic,23,1.242874347570888e-8
+ProportionalRep_MNIbased_metacarpal,NA | NA,11,1.7986683699979846e-6
+ProportionalRep_MNIbased_metacarpal,NA | Upper Paleolithic,11,NA
+ProportionalRep_MNIbased_metacarpal,Other_small_groups,48,1.3827801989505978e-6
+ProportionalRep_MNIbased_radius,Inhumation single | Middle Paleolithic,10,0.008488972796995845
+ProportionalRep_MNIbased_radius,Inhumation single | Upper Paleolithic,13,0.002134318922324545
+ProportionalRep_MNIbased_radius,NA | Bronze Age,25,9.286172350538027e-6
+ProportionalRep_MNIbased_radius,NA | Lower Paleolithic,10,0.013650430289863983
+ProportionalRep_MNIbased_radius,NA | Middle Paleolithic,23,7.866576682826803e-8
+ProportionalRep_MNIbased_radius,NA | NA,11,NA
+ProportionalRep_MNIbased_radius,NA | Upper Paleolithic,11,3.4771147761411196e-5
+ProportionalRep_MNIbased_radius,Other_small_groups,48,7.648405275476802e-6
+mnau_hands,Inhumation single | Middle Paleolithic,10,0.04478130282264312
+mnau_hands,Inhumation single | Upper Paleolithic,13,0.25331378502909585
+mnau_hands,NA | Bronze Age,25,8.273617411552582e-6
+mnau_hands,NA | Lower Paleolithic,10,0.0012284414875778679
+mnau_hands,NA | Middle Paleolithic,23,4.528296035603924e-8
+mnau_hands,NA | NA,11,1.6873226950792253e-6
+mnau_hands,NA | Upper Paleolithic,11,1.080992798449882e-7
+mnau_hands,Other_small_groups,48,8.0403348810062e-7
+mne_arms,Inhumation single | Middle Paleolithic,10,1.6989815589694806e-5
+mne_arms,Inhumation single | Upper Paleolithic,13,0.054410423773122926
+mne_arms,NA | Bronze Age,25,3.809786690896175e-7
+mne_arms,NA | Lower Paleolithic,10,0.02232122319935142
+mne_arms,NA | Middle Paleolithic,23,1.0488855579581853e-8
+mne_arms,NA | NA,11,3.722156478860649e-7
+mne_arms,NA | Upper Paleolithic,11,3.2258950384059884e-5
+mne_arms,Other_small_groups,48,3.9071532040397793e-13
+mnau_pelvic,Inhumation single | Middle Paleolithic,10,0.4100007450131617
+mnau_pelvic,Inhumation single | Upper Paleolithic,13,4.253422456382704e-4
+mnau_pelvic,NA | Bronze Age,25,4.012802728598831e-5
+mnau_pelvic,NA | Lower Paleolithic,10,1.983440067225509e-4
+mnau_pelvic,NA | Middle Paleolithic,23,3.4337351748818386e-8
+mnau_pelvic,NA | NA,11,NA
+mnau_pelvic,NA | Upper Paleolithic,11,1.7485789681935655e-6
+mnau_pelvic,Other_small_groups,48,1.5063388484991415e-5
+ProportionalRep_MNIbased_clavicle,Inhumation single | Middle Paleolithic,10,4.102031708628269e-4
+ProportionalRep_MNIbased_clavicle,Inhumation single | Upper Paleolithic,13,0.005225997080424671
+ProportionalRep_MNIbased_clavicle,NA | Bronze Age,25,1.1786555725340539e-5
+ProportionalRep_MNIbased_clavicle,NA | Lower Paleolithic,10,0.11741283615146936
+ProportionalRep_MNIbased_clavicle,NA | Middle Paleolithic,23,3.012434821825152e-8
+ProportionalRep_MNIbased_clavicle,NA | NA,11,NA
+ProportionalRep_MNIbased_clavicle,NA | Upper Paleolithic,11,5.4434649415950135e-5
+ProportionalRep_MNIbased_clavicle,Other_small_groups,48,7.715942567187561e-6
+mnau_cv,Inhumation single | Middle Paleolithic,10,0.054609041663669596
+mnau_cv,Inhumation single | Upper Paleolithic,13,0.007069264727309919
+mnau_cv,NA | Bronze Age,25,0.3569469176705583
+mnau_cv,NA | Lower Paleolithic,10,0.5545666776473971
+mnau_cv,NA | Middle Paleolithic,23,1.919245348937769e-4
+mnau_cv,NA | NA,11,8.848554307013916e-7
+mnau_cv,NA | Upper Paleolithic,11,0.11138626709351472
+mnau_cv,Other_small_groups,46,3.2154561039160772e-6
+mnau_region_mean_evenness,Inhumation single | Middle Paleolithic,10,0.006278362360655353
+mnau_region_mean_evenness,Inhumation single | Upper Paleolithic,13,8.99072202553982e-4
+mnau_region_mean_evenness,NA | Bronze Age,25,3.0680576579549066e-4
+mnau_region_mean_evenness,NA | Lower Paleolithic,10,0.02024248765523983
+mnau_region_mean_evenness,NA | Middle Paleolithic,23,0.0010538644683642836
+mnau_region_mean_evenness,NA | NA,11,3.8110871561158676e-4
+mnau_region_mean_evenness,NA | Upper Paleolithic,11,0.11504830059524437
+mnau_region_mean_evenness,Other_small_groups,46,2.0407276636106622e-7
+mnau_limb_shaft_proxy_mean,Inhumation single | Middle Paleolithic,10,0.24042126599944214
+mnau_limb_shaft_proxy_mean,Inhumation single | Upper Paleolithic,13,0.05012874349096907
+mnau_limb_shaft_proxy_mean,NA | Bronze Age,25,0.15800528718816675
+mnau_limb_shaft_proxy_mean,NA | Lower Paleolithic,10,0.058900670896081045
+mnau_limb_shaft_proxy_mean,NA | Middle Paleolithic,23,5.555445243983444e-7
+mnau_limb_shaft_proxy_mean,NA | NA,11,4.1472898799172227e-5
+mnau_limb_shaft_proxy_mean,NA | Upper Paleolithic,11,0.028246462264927167
+mnau_limb_shaft_proxy_mean,Other_small_groups,48,7.049793389500151e-4
+ProportionalRep_MNIbased_os_coxae,Inhumation single | Middle Paleolithic,10,0.016619230132468767
+ProportionalRep_MNIbased_os_coxae,Inhumation single | Upper Paleolithic,13,NA
+ProportionalRep_MNIbased_os_coxae,NA | Bronze Age,25,6.2328589177559464e-6
+ProportionalRep_MNIbased_os_coxae,NA | Lower Paleolithic,10,1.8419798498337133e-4
+ProportionalRep_MNIbased_os_coxae,NA | Middle Paleolithic,23,5.06366540184175e-9
+ProportionalRep_MNIbased_os_coxae,NA | NA,11,NA
+ProportionalRep_MNIbased_os_coxae,NA | Upper Paleolithic,11,5.681951755560564e-7
+ProportionalRep_MNIbased_os_coxae,Other_small_groups,48,6.59954981203727e-5
+ProportionalRep_MNIbased_carpal,Inhumation single | Middle Paleolithic,10,0.005753440589746146
+ProportionalRep_MNIbased_carpal,Inhumation single | Upper Paleolithic,13,0.13246901781340872
+ProportionalRep_MNIbased_carpal,NA | Bronze Age,25,2.654220249801573e-8
+ProportionalRep_MNIbased_carpal,NA | Lower Paleolithic,10,8.331067669297325e-4
+ProportionalRep_MNIbased_carpal,NA | Middle Paleolithic,23,5.984440155473208e-10
+ProportionalRep_MNIbased_carpal,NA | NA,11,NA
+ProportionalRep_MNIbased_carpal,NA | Upper Paleolithic,11,NA
+ProportionalRep_MNIbased_carpal,Other_small_groups,48,6.824437926036748e-9
+mnau_arms_to_legs_ratio,Inhumation single | Middle Paleolithic,10,1.2226082901955422e-6
+mnau_arms_to_legs_ratio,Inhumation single | Upper Paleolithic,13,0.0570029099078821
+mnau_arms_to_legs_ratio,NA | Bronze Age,25,7.521434411767762e-10
+mnau_arms_to_legs_ratio,NA | Lower Paleolithic,10,3.907675742487394e-4
+mnau_arms_to_legs_ratio,NA | Middle Paleolithic,23,4.0175521969372973e-10
+mnau_arms_to_legs_ratio,NA | NA,11,2.2441684170779023e-8
+mnau_arms_to_legs_ratio,NA | Upper Paleolithic,11,0.09526288743793862
+mnau_arms_to_legs_ratio,Other_small_groups,48,2.451372899390308e-15
+ReMNAU_radius,Inhumation single | Middle Paleolithic,10,0.05457478532057265
+ReMNAU_radius,Inhumation single | Upper Paleolithic,13,0.4801075958907736
+ReMNAU_radius,NA | Bronze Age,25,1.850917915964816e-5
+ReMNAU_radius,NA | Lower Paleolithic,10,0.1934387379302597
+ReMNAU_radius,NA | Middle Paleolithic,23,8.078398909856466e-7
+ReMNAU_radius,NA | NA,11,NA
+ReMNAU_radius,NA | Upper Paleolithic,11,3.501031517606691e-4
+ReMNAU_radius,Other_small_groups,48,2.417382898811582e-9
+mne_arms_to_legs_ratio,Inhumation single | Middle Paleolithic,10,1.2225756494795655e-6
+mne_arms_to_legs_ratio,Inhumation single | Upper Paleolithic,13,0.05699985906349993
+mne_arms_to_legs_ratio,NA | Bronze Age,25,7.464569793596735e-10
+mne_arms_to_legs_ratio,NA | Lower Paleolithic,10,5.973897870589697e-4
+mne_arms_to_legs_ratio,NA | Middle Paleolithic,23,3.994808558099322e-10
+mne_arms_to_legs_ratio,NA | NA,11,2.2434672876212154e-8
+mne_arms_to_legs_ratio,NA | Upper Paleolithic,11,0.057136811877372885
+mne_arms_to_legs_ratio,Other_small_groups,48,2.4391561497170804e-15
+mnau_simpson_dominance,Inhumation single | Middle Paleolithic,10,7.896474039435626e-4
+mnau_simpson_dominance,Inhumation single | Upper Paleolithic,13,1.2800071796749348e-4
+mnau_simpson_dominance,NA | Bronze Age,25,0.009496521131208732
+mnau_simpson_dominance,NA | Lower Paleolithic,10,0.1479647592131224
+mnau_simpson_dominance,NA | Middle Paleolithic,23,2.3941923671945702e-4
+mnau_simpson_dominance,NA | NA,11,2.0583198088400552e-06
+mnau_simpson_dominance,NA | Upper Paleolithic,11,0.17316920089897447
+mnau_simpson_dominance,Other_small_groups,46,9.300635113440193e-8
+mnau_gini,Inhumation single | Middle Paleolithic,10,0.22814360145072826
+mnau_gini,Inhumation single | Upper Paleolithic,13,0.6134102835438835
+mnau_gini,NA | Bronze Age,25,0.8262763748369891
+mnau_gini,NA | Lower Paleolithic,10,0.4083490864389097
+mnau_gini,NA | Middle Paleolithic,23,2.824624163721448e-5
+mnau_gini,NA | NA,11,9.311774494773471e-8
+mnau_gini,NA | Upper Paleolithic,11,0.003806071858928526
+mnau_gini,Other_small_groups,46,2.463637928869998e-4
+mnau_dominance_of_region_means,Inhumation single | Middle Paleolithic,10,0.011930403103170272
+mnau_dominance_of_region_means,Inhumation single | Upper Paleolithic,13,2.0757254717066658e-4
+mnau_dominance_of_region_means,NA | Bronze Age,25,0.011008686344140869
+mnau_dominance_of_region_means,NA | Lower Paleolithic,10,0.238030931099795
+mnau_dominance_of_region_means,NA | Middle Paleolithic,23,5.823413204693289e-4
+mnau_dominance_of_region_means,NA | NA,11,1.2069619666453834e-4
+mnau_dominance_of_region_means,NA | Upper Paleolithic,11,0.12190348995292892
+mnau_dominance_of_region_means,Other_small_groups,46,1.7520213803967443e-6
+mnau_inverse_simpson,Inhumation single | Middle Paleolithic,10,0.66271222794547
+mnau_inverse_simpson,Inhumation single | Upper Paleolithic,13,0.5229492672223266
+mnau_inverse_simpson,NA | Bronze Age,25,0.34165639582066376
+mnau_inverse_simpson,NA | Lower Paleolithic,10,0.11972810645544321
+mnau_inverse_simpson,NA | Middle Paleolithic,23,1.1733259968802468e-5
+mnau_inverse_simpson,NA | NA,11,1.4582099169023914e-7
+mnau_inverse_simpson,NA | Upper Paleolithic,11,9.101039246921692e-4
+mnau_inverse_simpson,Other_small_groups,46,9.399397226194128e-4
+mnau_shoulder,Inhumation single | Middle Paleolithic,10,0.0033678603715066664
+mnau_shoulder,Inhumation single | Upper Paleolithic,13,0.06191894568372637
+mnau_shoulder,NA | Bronze Age,25,4.193283918084228e-4
+mnau_shoulder,NA | Lower Paleolithic,10,0.018568756919009485
+mnau_shoulder,NA | Middle Paleolithic,23,3.485663333124341e-7
+mnau_shoulder,NA | NA,11,NA
+mnau_shoulder,NA | Upper Paleolithic,11,5.649834139422368e-4
+mnau_shoulder,Other_small_groups,48,5.084438403956434e-5
+ProportionalRep_MNIbased_femur,Inhumation single | Middle Paleolithic,10,0.004756255484659343
+ProportionalRep_MNIbased_femur,Inhumation single | Upper Paleolithic,13,3.476944863679712e-5
+ProportionalRep_MNIbased_femur,NA | Bronze Age,25,0.009581476488745279
+ProportionalRep_MNIbased_femur,NA | Lower Paleolithic,10,0.02122736405567272
+ProportionalRep_MNIbased_femur,NA | Middle Paleolithic,23,2.888298627182285e-6
+ProportionalRep_MNIbased_femur,NA | NA,11,2.055370997650125e-6
+ProportionalRep_MNIbased_femur,NA | Upper Paleolithic,11,0.0013425363417876794
+ProportionalRep_MNIbased_femur,Other_small_groups,48,4.144788772362106e-4
+mnau_vertebrae_to_thorax_ratio,Inhumation single | Middle Paleolithic,10,0.5573547790992767
+mnau_vertebrae_to_thorax_ratio,Inhumation single | Upper Paleolithic,13,8.942224271396381e-6
+mnau_vertebrae_to_thorax_ratio,NA | Bronze Age,25,2.707690557501772e-10
+mnau_vertebrae_to_thorax_ratio,NA | Lower Paleolithic,10,1.6398466108065207e-6
+mnau_vertebrae_to_thorax_ratio,NA | Middle Paleolithic,23,4.945025564926507e-6
+mnau_vertebrae_to_thorax_ratio,NA | NA,11,NA
+mnau_vertebrae_to_thorax_ratio,NA | Upper Paleolithic,11,4.9069757355435784e-8
+mnau_vertebrae_to_thorax_ratio,Other_small_groups,48,1.1362523452934367e-14
+mne_vertebrae_to_thorax_ratio,Inhumation single | Middle Paleolithic,10,0.5573583894135308
+mne_vertebrae_to_thorax_ratio,Inhumation single | Upper Paleolithic,13,8.939654920849569e-6
+mne_vertebrae_to_thorax_ratio,NA | Bronze Age,25,2.0930274580389506e-10
+mne_vertebrae_to_thorax_ratio,NA | Lower Paleolithic,10,5.608941678654376e-6
+mne_vertebrae_to_thorax_ratio,NA | Middle Paleolithic,23,4.214919255068793e-6
+mne_vertebrae_to_thorax_ratio,NA | NA,11,NA
+mne_vertebrae_to_thorax_ratio,NA | Upper Paleolithic,11,1.6873473894045853e-6
+mne_vertebrae_to_thorax_ratio,Other_small_groups,48,3.808876116780414e-15
+all_sections_dominance,Inhumation single | Middle Paleolithic,10,0.14070938397171548
+all_sections_dominance,Inhumation single | Upper Paleolithic,13,0.0011740985901022318
+all_sections_dominance,NA | Bronze Age,25,0.4695238906976809
+all_sections_dominance,NA | Lower Paleolithic,10,0.4882526661625388
+all_sections_dominance,NA | Middle Paleolithic,23,1.3869528547462507e-4
+all_sections_dominance,NA | NA,11,8.751358081948839e-7
+all_sections_dominance,NA | Upper Paleolithic,11,0.07931816094488957
+all_sections_dominance,Other_small_groups,46,2.779677110538621e-6
+mnau_evenness_minus_dominance,Inhumation single | Middle Paleolithic,10,0.02736625854813078
+mnau_evenness_minus_dominance,Inhumation single | Upper Paleolithic,13,0.0024044723080291846
+mnau_evenness_minus_dominance,NA | Bronze Age,25,0.24793232971594364
+mnau_evenness_minus_dominance,NA | Lower Paleolithic,10,0.421319204461868
+mnau_evenness_minus_dominance,NA | Middle Paleolithic,23,2.2838368377421138e-4
+mnau_evenness_minus_dominance,NA | NA,11,9.967549788767427e-7
+mnau_evenness_minus_dominance,NA | Upper Paleolithic,11,0.13309408458328356
+mnau_evenness_minus_dominance,Other_small_groups,46,1.4551392334417063e-6
+dominance_gap_all,Inhumation single | Middle Paleolithic,10,0.12435356681604913
+dominance_gap_all,Inhumation single | Upper Paleolithic,13,0.0011683431721192389
+dominance_gap_all,NA | Bronze Age,25,0.3148006396431873
+dominance_gap_all,NA | Lower Paleolithic,10,0.2706818427755143
+dominance_gap_all,NA | Middle Paleolithic,23,1.8689279288969373e-4
+dominance_gap_all,NA | NA,11,3.3676405367577627e-6
+dominance_gap_all,NA | Upper Paleolithic,11,0.07233647575116074
+dominance_gap_all,Other_small_groups,46,2.88936458581344e-6
+low_density_axial_survival,Inhumation single | Middle Paleolithic,10,0.0032815179631805105
+low_density_axial_survival,Inhumation single | Upper Paleolithic,13,0.024255554826157898
+low_density_axial_survival,NA | Bronze Age,25,2.3650655528408235e-4
+low_density_axial_survival,NA | Lower Paleolithic,10,0.017509507087706298
+low_density_axial_survival,NA | Middle Paleolithic,23,2.1649954189744277e-9
+low_density_axial_survival,NA | NA,11,NA
+low_density_axial_survival,NA | Upper Paleolithic,11,4.047816805946884e-4
+low_density_axial_survival,Other_small_groups,48,1.1056807723270487e-9
+mnau_top2_share_mcnaughton,Inhumation single | Middle Paleolithic,10,0.23672939876877408
+mnau_top2_share_mcnaughton,Inhumation single | Upper Paleolithic,13,0.04467742242442854
+mnau_top2_share_mcnaughton,NA | Bronze Age,25,0.8364584348618724
+mnau_top2_share_mcnaughton,NA | Lower Paleolithic,10,0.34227055627832437
+mnau_top2_share_mcnaughton,NA | Middle Paleolithic,23,1.3390916737593295e-5
+mnau_top2_share_mcnaughton,NA | NA,11,NA
+mnau_top2_share_mcnaughton,NA | Upper Paleolithic,11,0.0069233634739248534
+mnau_top2_share_mcnaughton,Other_small_groups,46,1.2285188652934222e-5
+mnau_legs,Inhumation single | Middle Paleolithic,10,0.5348332706643474
+mnau_legs,Inhumation single | Upper Paleolithic,13,0.027193983174132318
+mnau_legs,NA | Bronze Age,25,0.1792118510406647
+mnau_legs,NA | Lower Paleolithic,10,0.031533910637078645
+mnau_legs,NA | Middle Paleolithic,23,8.994323004693155e-6
+mnau_legs,NA | NA,11,5.254975260022714e-6
+mnau_legs,NA | Upper Paleolithic,11,0.004289331352285304
+mnau_legs,Other_small_groups,48,4.242119956867067e-4
+mnau_simpson_evenness,Inhumation single | Middle Paleolithic,10,0.6627122279454678
+mnau_simpson_evenness,Inhumation single | Upper Paleolithic,13,0.5229492672223269
+mnau_simpson_evenness,NA | Bronze Age,25,0.34165639582065777
+mnau_simpson_evenness,NA | Lower Paleolithic,10,0.119728106455444
+mnau_simpson_evenness,NA | Middle Paleolithic,23,1.1733259968802283e-5
+mnau_simpson_evenness,NA | NA,11,1.4582099169023914e-7
+mnau_simpson_evenness,NA | Upper Paleolithic,11,9.101039246921626e-4
+mnau_simpson_evenness,Other_small_groups,46,9.399397226194128e-4
+mnau_foot,Inhumation single | Middle Paleolithic,10,0.1062091505579964
+mnau_foot,Inhumation single | Upper Paleolithic,13,0.12810533565290194
+mnau_foot,NA | Bronze Age,25,1.0207264478267695e-5
+mnau_foot,NA | Lower Paleolithic,10,0.0013900423977765022
+mnau_foot,NA | Middle Paleolithic,23,1.536216822708978e-8
+mnau_foot,NA | NA,11,NA
+mnau_foot,NA | Upper Paleolithic,11,4.850932093201753e-5
+mnau_foot,Other_small_groups,48,1.0176645288158276e-5
+mnau_postcranial_total_mean,Inhumation single | Middle Paleolithic,10,0.8303997852156407
+mnau_postcranial_total_mean,Inhumation single | Upper Paleolithic,13,0.38253141250305267
+mnau_postcranial_total_mean,NA | Bronze Age,25,0.3062764880377059
+mnau_postcranial_total_mean,NA | Lower Paleolithic,10,0.001472486677687409
+mnau_postcranial_total_mean,NA | Middle Paleolithic,23,2.6579326577852094e-7
+mnau_postcranial_total_mean,NA | NA,11,2.8067934182171047e-6
+mnau_postcranial_total_mean,NA | Upper Paleolithic,11,0.051394426391654514
+mnau_postcranial_total_mean,Other_small_groups,48,2.213499924543199e-4
+mnau_column_trunk_mean,Inhumation single | Middle Paleolithic,10,0.6406890148418724
+mnau_column_trunk_mean,Inhumation single | Upper Paleolithic,13,0.22793022432459684
+mnau_column_trunk_mean,NA | Bronze Age,25,7.671872754977691e-4
+mnau_column_trunk_mean,NA | Lower Paleolithic,10,0.0011451819347176272
+mnau_column_trunk_mean,NA | Middle Paleolithic,23,1.5870130049122737e-8
+mnau_column_trunk_mean,NA | NA,11,NA
+mnau_column_trunk_mean,NA | Upper Paleolithic,11,3.106415220355138e-5
+mnau_column_trunk_mean,Other_small_groups,48,1.9822490038640484e-6
+mnau_appendicular_mean,Inhumation single | Middle Paleolithic,10,0.8989206037243829
+mnau_appendicular_mean,Inhumation single | Upper Paleolithic,13,0.6081729667333293
+mnau_appendicular_mean,NA | Bronze Age,25,0.32443812659093396
+mnau_appendicular_mean,NA | Lower Paleolithic,10,0.001638272297574755
+mnau_appendicular_mean,NA | Middle Paleolithic,23,6.898114913253766e-7
+mnau_appendicular_mean,NA | NA,11,1.2957684598052975e-5
+mnau_appendicular_mean,NA | Upper Paleolithic,11,0.04013603846144904
+mnau_appendicular_mean,Other_small_groups,48,7.863145555796044e-4
+mnau_upper_appendicular_mean,Inhumation single | Middle Paleolithic,10,0.047146758313483875
+mnau_upper_appendicular_mean,Inhumation single | Upper Paleolithic,13,0.5440709924571324
+mnau_upper_appendicular_mean,NA | Bronze Age,25,0.12424915651990585
+mnau_upper_appendicular_mean,NA | Lower Paleolithic,10,0.0032850133778834605
+mnau_upper_appendicular_mean,NA | Middle Paleolithic,23,3.382303518409297e-7
+mnau_upper_appendicular_mean,NA | NA,11,1.22884771130621e-6
+mnau_upper_appendicular_mean,NA | Upper Paleolithic,11,0.0038168325739875355
+mnau_upper_appendicular_mean,Other_small_groups,48,3.135605083339379e-4
+mnau_lower_appendicular_mean,Inhumation single | Middle Paleolithic,10,0.8903391145882322
+mnau_lower_appendicular_mean,Inhumation single | Upper Paleolithic,13,0.05972613007037685
+mnau_lower_appendicular_mean,NA | Bronze Age,25,0.38316425872292387
+mnau_lower_appendicular_mean,NA | Lower Paleolithic,10,0.0016463619774813002
+mnau_lower_appendicular_mean,NA | Middle Paleolithic,23,2.7374450135598557e-6
+mnau_lower_appendicular_mean,NA | NA,11,1.902973406814015e-6
+mnau_lower_appendicular_mean,NA | Upper Paleolithic,11,6.689339366052742e-5
+mnau_lower_appendicular_mean,Other_small_groups,48,9.726915590818302e-4
+mnau_girdle_mean,Inhumation single | Middle Paleolithic,10,0.23720238414860842
+mnau_girdle_mean,Inhumation single | Upper Paleolithic,13,0.18058361170510634
+mnau_girdle_mean,NA | Bronze Age,25,0.00210722187882506
+mnau_girdle_mean,NA | Lower Paleolithic,10,0.0010440695561859785
+mnau_girdle_mean,NA | Middle Paleolithic,23,4.1497207648754124e-7
+mnau_girdle_mean,NA | NA,11,NA
+mnau_girdle_mean,NA | Upper Paleolithic,11,2.0797874923144635e-4
+mnau_girdle_mean,Other_small_groups,48,9.547064864197525e-5
+mnau_distal_appendicular_mean,Inhumation single | Middle Paleolithic,10,0.7239178855312773
+mnau_distal_appendicular_mean,Inhumation single | Upper Paleolithic,13,0.032207577983130044
+mnau_distal_appendicular_mean,NA | Bronze Age,25,4.731103929255158e-6
+mnau_distal_appendicular_mean,NA | Lower Paleolithic,10,0.0012413337918474189
+mnau_distal_appendicular_mean,NA | Middle Paleolithic,23,9.645168708932891e-8
+mnau_distal_appendicular_mean,NA | NA,11,8.247299475897251e-7
+mnau_distal_appendicular_mean,NA | Upper Paleolithic,11,8.923466572480136e-7
+mnau_distal_appendicular_mean,Other_small_groups,48,9.600692667082416e-6
+mnau_proximal_appendicular_mean,Inhumation single | Middle Paleolithic,10,0.07962437292381744
+mnau_proximal_appendicular_mean,Inhumation single | Upper Paleolithic,13,0.5206939060063546
+mnau_proximal_appendicular_mean,NA | Bronze Age,25,0.5468835005986934
+mnau_proximal_appendicular_mean,NA | Lower Paleolithic,10,0.004748573646577683
+mnau_proximal_appendicular_mean,NA | Middle Paleolithic,23,9.163686056176112e-7
+mnau_proximal_appendicular_mean,NA | NA,11,1.6958902306571056e-5
+mnau_proximal_appendicular_mean,NA | Upper Paleolithic,11,0.02917180997932195
+mnau_proximal_appendicular_mean,Other_small_groups,48,6.855421486323453e-4
+low_density_survival_index,Inhumation single | Middle Paleolithic,10,0.001520743991606781
+low_density_survival_index,Inhumation single | Upper Paleolithic,13,0.454324569193663
+low_density_survival_index,NA | Bronze Age,25,0.0017888938074032104
+low_density_survival_index,NA | Lower Paleolithic,10,0.014099393498734554
+low_density_survival_index,NA | Middle Paleolithic,23,1.8585456774474934e-8
+low_density_survival_index,NA | NA,11,NA
+low_density_survival_index,NA | Upper Paleolithic,11,0.009497894823607272
+low_density_survival_index,Other_small_groups,48,1.030826159960621e-7

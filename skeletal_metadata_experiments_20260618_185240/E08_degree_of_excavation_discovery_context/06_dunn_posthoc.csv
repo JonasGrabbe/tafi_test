@@ -1,0 +1,261 @@
+feature,.y.,group1,group2,n1,n2,statistic,p,p.adj,p.adj.signif
+ProportionalRep_MNIbased_radius,value,NA | Casual,NA | Formal excavation,13,35,3.490689517257551,4.8177578142521635e-4,0.002408878907126082,**
+ProportionalRep_MNIbased_radius,value,NA | Casual,NA | NA,13,51,0.24375030551306467,0.8074242099844908,0.8074242099844908,ns
+ProportionalRep_MNIbased_radius,value,NA | Casual,Other_small_groups,13,16,2.326152618379742,0.020010410327401144,0.04002082065480229,*
+ProportionalRep_MNIbased_radius,value,NA | Casual,Partial | Formal excavation,13,36,1.4636450597247737,0.14329095407116113,0.20470136295880162,ns
+ProportionalRep_MNIbased_radius,value,NA | Formal excavation,NA | NA,35,51,-4.820282484056535,1.433550854307822e-6,1.433550854307822e-5,****
+ProportionalRep_MNIbased_radius,value,NA | Formal excavation,Other_small_groups,35,16,-0.8787901139528511,0.37951508751514285,0.42168343057238095,ns
+ProportionalRep_MNIbased_radius,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.7810864660130514,0.005417730521159402,0.01414815211788348,*
+ProportionalRep_MNIbased_radius,value,NA | NA,Other_small_groups,51,16,2.7668971369730246,0.005659260847153392,0.01414815211788348,*
+ProportionalRep_MNIbased_radius,value,NA | NA,Partial | Formal excavation,51,36,1.8277422742891627,0.06758824036647346,0.11264706727745577,ns
+ProportionalRep_MNIbased_radius,value,Other_small_groups,Partial | Formal excavation,16,36,-1.3145472933400206,0.1886620937558592,0.235827617194824,ns
+ReMNAU_radius,value,NA | Casual,NA | Formal excavation,13,35,3.0885810725996157,0.0020111481178003965,0.006703827059334655,**
+ReMNAU_radius,value,NA | Casual,NA | NA,13,51,0.34989418387937365,0.7264181120748132,0.8071312356386814,ns
+ReMNAU_radius,value,NA | Casual,Other_small_groups,13,16,2.873798485117898,0.004055676435465969,0.010139191088664923,*
+ReMNAU_radius,value,NA | Casual,Partial | Formal excavation,13,36,1.7002796245314973,0.08907834115865822,0.11134792644832277,ns
+ReMNAU_radius,value,NA | Formal excavation,NA | NA,35,51,-4.0750230491946535,4.600978973447219e-5,4.600978973447219e-4,***
+ReMNAU_radius,value,NA | Formal excavation,Other_small_groups,35,16,0.2315939154258752,0.8168534338305014,0.8168534338305014,ns
+ReMNAU_radius,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.9083353704320285,0.05634788423367472,0.09391314038945787,ns
+ReMNAU_radius,value,NA | NA,Other_small_groups,51,16,3.3654404316078543,7.642156635182754e-4,0.003821078317591377,**
+ReMNAU_radius,value,NA | NA,Partial | Formal excavation,51,36,2.0279916564614813,0.04256109956268618,0.08512219912537236,ns
+ReMNAU_radius,value,Other_small_groups,Partial | Formal excavation,16,36,-1.7402862039322384,0.08180877530834134,0.11134792644832277,ns
+ProportionalRep_MNIbased_fibula,value,NA | Casual,NA | Formal excavation,13,35,3.8119915088242244,1.3785161335574643e-4,6.892580667787322e-4,***
+ProportionalRep_MNIbased_fibula,value,NA | Casual,NA | NA,13,51,0.9374186827096715,0.34854323446185614,0.4356790430773202,ns
+ProportionalRep_MNIbased_fibula,value,NA | Casual,Other_small_groups,13,16,1.419440418834474,0.15577065567735052,0.22252950811050073,ns
+ProportionalRep_MNIbased_fibula,value,NA | Casual,Partial | Formal excavation,13,36,2.0287659383837076,0.042482136159043546,0.08496427231808709,ns
+ProportionalRep_MNIbased_fibula,value,NA | Formal excavation,NA | NA,35,51,-4.313852936394973,1.604336896596759e-5,1.604336896596759e-4,***
+ProportionalRep_MNIbased_fibula,value,NA | Formal excavation,Other_small_groups,35,16,-2.3464781053756503,0.01895177963931537,0.04737944909828842,*
+ProportionalRep_MNIbased_fibula,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.450391079089539,0.014270112952830698,0.04737944909828842,*
+ProportionalRep_MNIbased_fibula,value,NA | NA,Other_small_groups,51,16,0.8332381093805024,0.40471045358373475,0.4496782817597053,ns
+ProportionalRep_MNIbased_fibula,value,NA | NA,Partial | Formal excavation,51,36,1.677708423006232,0.0934040343053082,0.15567339050884701,ns
+ProportionalRep_MNIbased_fibula,value,Other_small_groups,Partial | Formal excavation,16,36,0.42084318225976103,0.6738695968132162,0.6738695968132162,ns
+mnau_arms,value,NA | Casual,NA | Formal excavation,13,35,3.5918985883265653,3.282776033745612e-4,0.0016413880168728062,**
+mnau_arms,value,NA | Casual,NA | NA,13,51,0.9221396899112955,0.3564557165742001,0.3960619073046668,ns
+mnau_arms,value,NA | Casual,Other_small_groups,13,16,2.101607683402405,0.03558765625573769,0.08896914063934422,ns
+mnau_arms,value,NA | Casual,Partial | Formal excavation,13,36,1.3660059617164841,0.17193709218051745,0.2865618203008624,ns
+mnau_arms,value,NA | Formal excavation,NA | NA,35,51,-4.009800172079998,6.0770154691184256e-5,6.077015469118425e-4,***
+mnau_arms,value,NA | Formal excavation,Other_small_groups,35,16,-1.2655492996001512,0.20567448757756068,0.29382069653937243,ns
+mnau_arms,value,NA | Formal excavation,Partial | Formal excavation,35,36,-3.0526604761517175,0.0022682241477044087,0.007560747159014696,**
+mnau_arms,value,NA | NA,Other_small_groups,51,16,1.738731358621509,0.08208202740290171,0.16416405480580343,ns
+mnau_arms,value,NA | NA,Partial | Formal excavation,51,36,0.7143528458430255,0.4750090222511865,0.4750090222511865,ns
+mnau_arms,value,Other_small_groups,Partial | Formal excavation,16,36,-1.1406482877811948,0.25401631413345266,0.3175203926668158,ns
+mnau_limb_shaft_proxy_mean,value,NA | Casual,NA | Formal excavation,13,35,3.0312941482141946,0.0024350789777779352,0.011572249119334384,*
+mnau_limb_shaft_proxy_mean,value,NA | Casual,NA | NA,13,51,0.0719116314583031,0.942672233451634,0.942672233451634,ns
+mnau_limb_shaft_proxy_mean,value,NA | Casual,Other_small_groups,13,16,1.2191828548366497,0.22277479786903656,0.3182497112414808,ns
+mnau_limb_shaft_proxy_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.8987250747911786,0.36879911749774363,0.46099889687217954,ns
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavation,NA | NA,35,51,-4.383731587040254,1.1666350256814093e-5,1.1666350256814093e-4,***
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavation,Other_small_groups,35,16,-1.7540112993268733,0.07942857102997934,0.19857142757494836,ns
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.9225593290292706,0.0034716747358003153,0.011572249119334384,*
+mnau_limb_shaft_proxy_mean,value,NA | NA,Other_small_groups,51,16,1.5107349263693515,0.13085600006054313,0.26171200012108625,ns
+mnau_limb_shaft_proxy_mean,value,NA | NA,Partial | Formal excavation,51,36,1.2332763521113117,0.21747267755379662,0.3182497112414808,ns
+mnau_limb_shaft_proxy_mean,value,Other_small_groups,Partial | Formal excavation,16,36,-0.547257750992908,0.58420166522439,0.6491129613604334,ns
+mnau_legs,value,NA | Casual,NA | Formal excavation,13,35,2.511554001534865,0.012020089377807215,0.04103948106800177,*
+mnau_legs,value,NA | Casual,NA | NA,13,51,-0.4131613561135158,0.6794883987813192,0.7549871097570213,ns
+mnau_legs,value,NA | Casual,Other_small_groups,13,16,0.64651384529943845,0.5179466335522167,0.6474332919402709,ns
+mnau_legs,value,NA | Casual,Partial | Formal excavation,13,36,0.6847570729076835,0.4934972277060786,0.6474332919402709,ns
+mnau_legs,value,NA | Formal excavation,NA | NA,35,51,-4.301262496856014,1.6982773472074774e-5,1.6982773472074773e-4,***
+mnau_legs,value,NA | Formal excavation,Other_small_groups,35,16,-1.9031926038540503,0.05701541789555951,0.14253854473889876,ns
+mnau_legs,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.5030778959790685,0.01231184432040053,0.04103948106800177,*
+mnau_legs,value,NA | NA,Other_small_groups,51,16,1.290448917436778,0.19689483707583666,0.3281580617930611,ns
+mnau_legs,value,NA | NA,Partial | Formal excavation,51,36,1.6075586791758598,0.1079318681587785,0.215863736317557,ns
+mnau_legs,value,Other_small_groups,Partial | Formal excavation,16,36,-0.0660116769528956,0.9473685288693442,0.9473685288693442,ns
+mnau_upper_appendicular_mean,value,NA | Casual,NA | Formal excavation,13,35,3.1542822639564676,0.0016089338781669928,0.008044669390834964,**
+mnau_upper_appendicular_mean,value,NA | Casual,NA | NA,13,51,0.47275742124718195,0.6363862546792571,0.6363862546792571,ns
+mnau_upper_appendicular_mean,value,NA | Casual,Other_small_groups,13,16,1.4830116930437063,0.13807130410623025,0.2593948569867033,ns
+mnau_upper_appendicular_mean,value,NA | Casual,Partial | Formal excavation,13,36,1.2226857252247925,0.22144842059562045,0.3163548865651721,ns
+mnau_upper_appendicular_mean,value,NA | Formal excavation,NA | NA,35,51,-3.9983333908664584,6.379005902137512e-5,6.379005902137512e-4,***
+mnau_upper_appendicular_mean,value,NA | Formal excavation,Other_small_groups,35,16,-1.559944157879479,0.11877307807220784,0.2593948569867033,ns
+mnau_upper_appendicular_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.6492456582494843,0.008067166864046134,0.026890556213487113,*
+mnau_upper_appendicular_mean,value,NA | NA,Other_small_groups,51,16,1.419899593893638,0.15563691419202197,0.2593948569867033,ns
+mnau_upper_appendicular_mean,value,NA | NA,Partial | Formal excavation,51,36,1.1427091735749293,0.2531593597360085,0.3164491996700106,ns
+mnau_upper_appendicular_mean,value,Other_small_groups,Partial | Formal excavation,16,36,-0.5262451523612833,0.5987178857744371,0.6363862546792571,ns
+ProportionalRep_MNIbased_tibia,value,NA | Casual,NA | Formal excavation,13,35,2.722363754658655,0.006481675399895266,0.03240837699947633,*
+ProportionalRep_MNIbased_tibia,value,NA | Casual,NA | NA,13,51,-0.11624741311377458,0.90745646120537,0.90745646120537,ns
+ProportionalRep_MNIbased_tibia,value,NA | Casual,Other_small_groups,13,16,1.1206186410122292,0.2624502267864418,0.3749288954092026,ns
+ProportionalRep_MNIbased_tibia,value,NA | Casual,Partial | Formal excavation,13,36,0.9061957108610684,0.3648322728446853,0.4560403410558566,ns
+ProportionalRep_MNIbased_tibia,value,NA | Formal excavation,NA | NA,35,51,-4.192930545312242,2.7537377391185997e-5,2.7537377391186e-4,***
+ProportionalRep_MNIbased_tibia,value,NA | Formal excavation,Other_small_groups,35,16,-1.5434706368434037,0.1227166265549935,0.2171593416359397,ns
+ProportionalRep_MNIbased_tibia,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.489676598877678,0.012785937980202874,0.042619793267342915,*
+ProportionalRep_MNIbased_tibia,value,NA | NA,Other_small_groups,51,16,1.586313540493225,0.1126682022221112,0.2171593416359397,ns
+ProportionalRep_MNIbased_tibia,value,NA | NA,Partial | Formal excavation,51,36,1.5129372257938374,0.1302956049815638,0.2171593416359397,ns
+ProportionalRep_MNIbased_tibia,value,Other_small_groups,Partial | Formal excavation,16,36,-0.4167237116414536,0.6768805085665044,0.7520894539627827,ns
+ProportionalRep_MNIbased_humerus,value,NA | Casual,NA | Formal excavation,13,35,3.457838850835604,5.445269912841058e-4,0.0027226349564205294,**
+ProportionalRep_MNIbased_humerus,value,NA | Casual,NA | NA,13,51,1.0973494900747702,0.2724886443911811,0.3197407150361705,ns
+ProportionalRep_MNIbased_humerus,value,NA | Casual,Other_small_groups,13,16,1.972204124277577,0.04858630905733845,0.12146577264334613,ns
+ProportionalRep_MNIbased_humerus,value,NA | Casual,Partial | Formal excavation,13,36,1.2887495643090103,0.19748516522697926,0.285802608800711,ns
+ProportionalRep_MNIbased_humerus,value,NA | Formal excavation,NA | NA,35,51,-3.5634212860136936,3.660524947722878e-4,0.0027226349564205294,**
+ProportionalRep_MNIbased_humerus,value,NA | Formal excavation,Other_small_groups,35,16,-1.2813754408403983,0.2000618261604977,0.285802608800711,ns
+ProportionalRep_MNIbased_humerus,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.974539933783307,0.0029342826036736977,0.00978094201224566,**
+ProportionalRep_MNIbased_humerus,value,NA | NA,Other_small_groups,51,16,1.380130399612965,0.16754649884839384,0.285802608800711,ns
+ProportionalRep_MNIbased_humerus,value,NA | NA,Partial | Formal excavation,51,36,0.3494407937765565,0.7267584121738349,0.7267584121738349,ns
+ProportionalRep_MNIbased_humerus,value,Other_small_groups,Partial | Formal excavation,16,36,-1.0630337559468657,0.28776664353255343,0.3197407150361705,ns
+mne_arms,value,NA | Casual,NA | Formal excavation,13,35,3.3960461616717343,6.83668285412869e-4,0.00683668285412869,**
+mne_arms,value,NA | Casual,NA | NA,13,51,1.5331008031139597,0.1252510198558745,0.178930028365535,ns
+mne_arms,value,NA | Casual,Other_small_groups,13,16,2.948246974080918,0.0031958163529456464,0.010752842518048299,*
+mne_arms,value,NA | Casual,Partial | Formal excavation,13,36,2.875066141509818,0.004039428697683649,0.010752842518048299,*
+mne_arms,value,NA | Formal excavation,NA | NA,35,51,-2.8551879264755997,0.00430113700721932,0.010752842518048299,*
+mne_arms,value,NA | Formal excavation,Other_small_groups,35,16,-0.007208146160548134,0.9942487812695656,0.9942487812695656,ns
+mne_arms,value,NA | Formal excavation,Partial | Formal excavation,35,36,-0.7276654819536567,0.46681838533629916,0.583522981670374,ns
+mne_arms,value,NA | NA,Other_small_groups,51,16,2.1795279872155913,0.029292467893069107,0.058584935786138215,ns
+mne_arms,value,NA | NA,Partial | Formal excavation,51,36,2.085489109284775,0.03702492571277794,0.06170820952129657,ns
+mne_arms,value,Other_small_groups,Partial | Formal excavation,16,36,-0.5676508893497386,0.5702720448700418,0.6336356054111576,ns
+mnau_appendicular_mean,value,NA | Casual,NA | Formal excavation,13,35,2.668442081307171,0.007620391594524706,0.028298086051066172,*
+mnau_appendicular_mean,value,NA | Casual,NA | NA,13,51,-0.12637888888367524,0.8994320123851992,0.8994320123851992,ns
+mnau_appendicular_mean,value,NA | Casual,Other_small_groups,13,16,0.9921496067476703,0.32112455073050744,0.4587493581864392,ns
+mnau_appendicular_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.7476898546811128,0.4546472519956969,0.5683090649946211,ns
+mnau_appendicular_mean,value,NA | Formal excavation,NA | NA,35,51,-4.127481480749073,3.667579577599545e-5,3.667579577599545e-4,***
+mnau_appendicular_mean,value,NA | Formal excavation,Other_small_groups,35,16,-1.644391199978209,0.10009542168607302,0.25023855421518254,ns
+mnau_appendicular_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.6319583952277616,0.008489425815319852,0.028298086051066172,*
+mnau_appendicular_mean,value,NA | NA,Other_small_groups,51,16,1.4298919390450566,0.15274803594737107,0.30549607189474215,ns
+mnau_appendicular_mean,value,NA | NA,Partial | Formal excavation,51,36,1.2917858489766985,0.1964313173141131,0.3273855288568552,ns
+mnau_appendicular_mean,value,Other_small_groups,Partial | Formal excavation,16,36,-0.42776995934416134,0.6688186101001415,0.7431317890001573,ns
+mnau_proximal_appendicular_mean,value,NA | Casual,NA | Formal excavation,13,35,2.368567658904667,0.01785711390983783,0.059523713032792774,ns
+mnau_proximal_appendicular_mean,value,NA | Casual,NA | NA,13,51,-0.4520574818201036,0.6512275728553982,0.6661118325799267,ns
+mnau_proximal_appendicular_mean,value,NA | Casual,Other_small_groups,13,16,0.8698322572557267,0.3843920804376233,0.549131543482319,ns
+mnau_proximal_appendicular_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.4314903984057788,0.6661118325799267,0.6661118325799267,ns
+mnau_proximal_appendicular_mean,value,NA | Formal excavation,NA | NA,35,51,-4.1447367909383255,3.402042502848064e-5,3.4020425028480643e-4,***
+mnau_proximal_appendicular_mean,value,NA | Formal excavation,Other_small_groups,35,16,-1.472987105109092,0.14075451283094867,0.28150902566189734,ns
+mnau_proximal_appendicular_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.652664908570256,0.007985910737025367,0.03992955368512684,*
+mnau_proximal_appendicular_mean,value,NA | NA,Other_small_groups,51,16,1.6236275453671667,0.10445532296353152,0.2611383074088288,ns
+mnau_proximal_appendicular_mean,value,NA | NA,Partial | Formal excavation,51,36,1.2866048717947307,0.19823204478331974,0.3303867413055329,ns
+mnau_proximal_appendicular_mean,value,Other_small_groups,Partial | Formal excavation,16,36,-0.6162849693823703,0.5377064572466962,0.6661118325799267,ns
+ProportionalRep_MNIbased_metacarpal,value,NA | Casual,NA | Formal excavation,13,35,3.6232734279939662,2.908980247622462e-4,0.002908980247622462,**
+ProportionalRep_MNIbased_metacarpal,value,NA | Casual,NA | NA,13,51,1.463676694572444,0.14328230617257753,0.20468900881796792,ns
+ProportionalRep_MNIbased_metacarpal,value,NA | Casual,Other_small_groups,13,16,1.8827208980147656,0.05973820180990845,0.14934550452477113,ns
+ProportionalRep_MNIbased_metacarpal,value,NA | Casual,Partial | Formal excavation,13,36,1.552288922430846,0.12059310730181125,0.2009885121696854,ns
+ProportionalRep_MNIbased_metacarpal,value,NA | Formal excavation,NA | NA,35,51,-3.289693024845064,0.0010029673788609747,0.005014836894304873,**
+ProportionalRep_MNIbased_metacarpal,value,NA | Formal excavation,Other_small_groups,35,16,-1.5701466966212525,0.11638098696339282,0.2009885121696854,ns
+ProportionalRep_MNIbased_metacarpal,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.841665303739609,0.004487857923381882,0.01495952641127294,*
+ProportionalRep_MNIbased_metacarpal,value,NA | NA,Other_small_groups,51,16,0.8663247802130835,0.3863120807551918,0.48289010094398976,ns
+ProportionalRep_MNIbased_metacarpal,value,NA | NA,Partial | Formal excavation,51,36,0.21832784291934054,0.8271736821704322,0.8271736821704322,ns
+ProportionalRep_MNIbased_metacarpal,value,Other_small_groups,Partial | Formal excavation,16,36,-0.6680186193004242,0.5041217073479618,0.5601352303866243,ns
+distal_appendicular_continuity_hm,value,NA | Casual,NA | Formal excavation,13,35,3.874008347356543,1.0705974303116712e-4,0.0010705974303116712,**
+distal_appendicular_continuity_hm,value,NA | Casual,NA | NA,13,51,2.0050339797049017,0.04495941452034378,0.08991882904068756,ns
+distal_appendicular_continuity_hm,value,NA | Casual,Other_small_groups,13,16,2.2720934342397725,0.02308086759852827,0.05770216899632068,ns
+distal_appendicular_continuity_hm,value,NA | Casual,Partial | Formal excavation,13,36,2.687398649614839,0.007201095195079339,0.024003650650264465,*
+distal_appendicular_continuity_hm,value,NA | Formal excavation,NA | NA,35,51,-2.8944356959790722,0.0037984070090799123,0.018992035045399563,*
+distal_appendicular_continuity_hm,value,NA | Formal excavation,Other_small_groups,35,16,-1.3582347715768817,0.17438920046029213,0.24912742922898876,ns
+distal_appendicular_continuity_hm,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.6374572337735125,0.10153496780522948,0.16922494634204915,ns
+distal_appendicular_continuity_hm,value,NA | NA,Other_small_groups,51,16,0.7867307977314745,0.4314394713473064,0.47937719038589605,ns
+distal_appendicular_continuity_hm,value,NA | NA,Partial | Formal excavation,51,36,1.1329478346433748,0.25723616044720543,0.3215452005590068,ns
+distal_appendicular_continuity_hm,value,Other_small_groups,Partial | Formal excavation,16,36,0.07052217637227355,0.9437780502981173,0.9437780502981173,ns
+mnau_postcranial_total_mean,value,NA | Casual,NA | Formal excavation,13,35,2.6825468808772777,0.007306391040942872,0.03487840319817674,*
+mnau_postcranial_total_mean,value,NA | Casual,NA | NA,13,51,0.0037252026199759286,0.9970277252181032,0.9970277252181032,ns
+mnau_postcranial_total_mean,value,NA | Casual,Other_small_groups,13,16,1.0688317998970145,0.285145467445288,0.4073506677789829,ns
+mnau_postcranial_total_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.8145478186238705,0.4153311898557222,0.5191639873196527,ns
+mnau_postcranial_total_mean,value,NA | Formal excavation,NA | NA,35,51,-3.96419341531331,7.364452584147129e-5,7.364452584147129e-4,***
+mnau_postcranial_total_mean,value,NA | Formal excavation,Other_small_groups,35,16,-1.5646927145193248,0.11765497757641147,0.2941374439410287,ns
+mnau_postcranial_total_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.560122710567372,0.010463520959453023,0.03487840319817674,*
+mnau_postcranial_total_mean,value,NA | NA,Other_small_groups,51,16,1.3887467887025706,0.16490976105095373,0.32981952210190746,ns
+mnau_postcranial_total_mean,value,NA | NA,Partial | Formal excavation,51,36,1.2054719269500374,0.22802116911390055,0.38003528185650093,ns
+mnau_postcranial_total_mean,value,Other_small_groups,Partial | Formal excavation,16,36,-0.4510643630708237,0.6519431613149708,0.7243812903499676,ns
+mnau_hands,value,NA | Casual,NA | Formal excavation,13,35,3.8593159815057216,1.1370484000420611e-4,0.001137048400042061,**
+mnau_hands,value,NA | Casual,NA | NA,13,51,2.0004894777766884,0.04544743500475568,0.09089487000951137,ns
+mnau_hands,value,NA | Casual,Other_small_groups,13,16,2.0819206923560594,0.03734971437562637,0.09089487000951137,ns
+mnau_hands,value,NA | Casual,Partial | Formal excavation,13,36,2.664550451413066,0.007709130168719643,0.025697100562398812,*
+mnau_hands,value,NA | Formal excavation,NA | NA,35,51,-2.8791274872673656,0.003987770945526924,0.019938854727634618,*
+mnau_hands,value,NA | Formal excavation,Other_small_groups,35,16,-1.577723131448024,0.11462922980733647,0.16375604258190926,ns
+mnau_hands,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.6484987762767676,0.09925036160579974,0.16375604258190926,ns
+mnau_hands,value,NA | NA,Other_small_groups,51,16,0.5438457649230077,0.5865476130101935,0.6517195700113262,ns
+mnau_hands,value,NA | NA,Partial | Formal excavation,51,36,1.1054712995225164,0.2689554239125792,0.33619427989072403,ns
+mnau_hands,value,Other_small_groups,Partial | Formal excavation,16,36,0.28224986066308205,0.7777519285107202,0.7777519285107202,ns
+ProportionalRep_MNIbased_carpal,value,NA | Casual,NA | Formal excavation,13,35,3.1188534339969496,0.0018155624913882829,0.009077812456941415,**
+ProportionalRep_MNIbased_carpal,value,NA | Casual,NA | NA,13,51,0.8938257904245712,0.3714151079187966,0.41268345324310735,ns
+ProportionalRep_MNIbased_carpal,value,NA | Casual,Other_small_groups,13,16,1.5175728416257184,0.12912211763345957,0.23187811520323895,ns
+ProportionalRep_MNIbased_carpal,value,NA | Casual,Partial | Formal excavation,13,36,2.435159449762101,0.014885228780635336,0.047693696520827875,*
+ProportionalRep_MNIbased_carpal,value,NA | Formal excavation,NA | NA,35,51,-3.349895016893147,8.084219417767306e-4,0.008084219417767307,**
+ProportionalRep_MNIbased_carpal,value,NA | Formal excavation,Other_small_groups,35,16,-1.4790503101905177,0.13912686912194336,0.23187811520323895,ns
+ProportionalRep_MNIbased_carpal,value,NA | Formal excavation,Partial | Formal excavation,35,36,-0.9480333108071906,0.3431124964880685,0.41268345324310735,ns
+ProportionalRep_MNIbased_carpal,value,NA | NA,Other_small_groups,51,16,1.0083805059175412,0.3132718277876353,0.41268345324310735,ns
+ProportionalRep_MNIbased_carpal,value,NA | NA,Partial | Formal excavation,51,36,2.344013544032659,0.01907747860833115,0.047693696520827875,*
+ProportionalRep_MNIbased_carpal,value,Other_small_groups,Partial | Formal excavation,16,36,0.7365455938239728,0.4613987311055247,0.4613987311055247,ns
+mnau_shoulder,value,NA | Casual,NA | Formal excavation,13,35,2.0180160652646064,0.04358958820631491,0.1530543237090809,ns
+mnau_shoulder,value,NA | Casual,NA | NA,13,51,-0.6429956248671915,0.5202269387998706,0.6384868824267353,ns
+mnau_shoulder,value,NA | Casual,Other_small_groups,13,16,0.8310498869615657,0.4059454478193339,0.5799220683133341,ns
+mnau_shoulder,value,NA | Casual,Partial | Formal excavation,13,36,0.5612337556977371,0.5746381941840618,0.6384868824267353,ns
+mnau_shoulder,value,NA | Formal excavation,NA | NA,35,51,-3.8962810335294367,9.76810380918485e-5,9.76810380918485e-4,***
+mnau_shoulder,value,NA | Formal excavation,Other_small_groups,35,16,-1.1436822374301057,0.25275544243518944,0.42125907072531577,ns
+mnau_shoulder,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.9961619549422385,0.04591629711272427,0.1530543237090809,ns
+mnau_shoulder,value,NA | NA,Other_small_groups,51,16,1.7801207062572812,0.07505620856993696,0.15955269647230072,ns
+mnau_shoulder,value,NA | NA,Partial | Formal excavation,51,36,1.751985226732048,0.07977634823615036,0.15955269647230072,ns
+mnau_shoulder,value,Other_small_groups,Partial | Formal excavation,16,36,-0.4283653256113287,0.6683851652911347,0.6683851652911347,ns
+mnau_distal_appendicular_mean,value,NA | Casual,NA | Formal excavation,13,35,3.5040868881257676,4.581758386591314e-4,0.0045817583865913145,**
+mnau_distal_appendicular_mean,value,NA | Casual,NA | NA,13,51,1.5189107279863268,0.12878496828896552,0.1839785261270936,ns
+mnau_distal_appendicular_mean,value,NA | Casual,Other_small_groups,13,16,1.7601729853411072,0.07837848090394256,0.16499301302653677,ns
+mnau_distal_appendicular_mean,value,NA | Casual,Partial | Formal excavation,13,36,2.243505816518366,0.024864215202277416,0.08288071734092473,ns
+mnau_distal_appendicular_mean,value,NA | Formal excavation,NA | NA,35,51,-3.0351456253494367,0.002404195717446814,0.012020978587234069,*
+mnau_distal_appendicular_mean,value,NA | Formal excavation,Other_small_groups,35,16,-1.5934979948510242,0.11104851779382739,0.1839785261270936,ns
+mnau_distal_appendicular_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.7363809038256701,0.08249650651326838,0.16499301302653677,ns
+mnau_distal_appendicular_mean,value,NA | NA,Other_small_groups,51,16,0.6467445185673921,0.517797305395032,0.5753303393278133,ns
+mnau_distal_appendicular_mean,value,NA | NA,Partial | Formal excavation,51,36,1.1669562235843507,0.24322804867356243,0.30403506084195303,ns
+mnau_distal_appendicular_mean,value,Other_small_groups,Partial | Formal excavation,16,36,0.22866281429797716,0.8191309989452255,0.8191309989452255,ns
+mnau_girdle_mean,value,NA | Casual,NA | Formal excavation,13,35,1.67552214087412,0.09383183068321094,0.18766366136642187,ns
+mnau_girdle_mean,value,NA | Casual,NA | NA,13,51,-0.9247909660473538,0.35507465068693655,0.5016566316010279,ns
+mnau_girdle_mean,value,NA | Casual,Other_small_groups,13,16,0.8489374967921011,0.39591607262866274,0.5016566316010279,ns
+mnau_girdle_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.2674988005795693,0.7890851375351031,0.7890851375351031,ns
+mnau_girdle_mean,value,NA | Formal excavation,NA | NA,35,51,-3.7883548751572973,1.51648133997276e-4,0.00151648133997276,**
+mnau_girdle_mean,value,NA | Formal excavation,Other_small_groups,35,16,-0.7529316823162439,0.45149096844092507,0.5016566316010279,ns
+mnau_girdle_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.9279319800156671,0.053863587314370485,0.17954529104790162,ns
+mnau_girdle_mean,value,NA | NA,Other_small_groups,51,16,2.1089745720183863,0.03494677655196445,0.17473388275982227,ns
+mnau_girdle_mean,value,NA | NA,Partial | Formal excavation,51,36,1.7175629277767621,0.08587636717340268,0.18766366136642187,ns
+mnau_girdle_mean,value,Other_small_groups,Partial | Formal excavation,16,36,-0.7669247527254677,0.44312625573821784,0.5016566316010279,ns
+mnau_lower_appendicular_mean,value,NA | Casual,NA | Formal excavation,13,35,2.3842738955141383,0.017112860405663708,0.08556430202831854,ns
+mnau_lower_appendicular_mean,value,NA | Casual,NA | NA,13,51,-0.1870852888422647,0.8515937623183145,0.8515937623183145,ns
+mnau_lower_appendicular_mean,value,NA | Casual,Other_small_groups,13,16,0.8972928587102229,0.369562666122506,0.5245749872297905,ns
+mnau_lower_appendicular_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.8070112706462386,0.4196599897838324,0.5245749872297905,ns
+mnau_lower_appendicular_mean,value,NA | Formal excavation,NA | NA,35,51,-3.7929156092785288,1.488887668881376e-4,0.001488887668881376,**
+mnau_lower_appendicular_mean,value,NA | Formal excavation,Other_small_groups,35,16,-1.4559142585065505,0.14541632351842002,0.2833832700716043,ns
+mnau_lower_appendicular_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.162278623064741,0.03059670643510736,0.10198902145035788,ns
+mnau_lower_appendicular_mean,value,NA | NA,Other_small_groups,51,16,1.3721075417372572,0.17002996204296256,0.2833832700716043,ns
+mnau_lower_appendicular_mean,value,NA | NA,Partial | Formal excavation,51,36,1.4666096575109548,0.14248227137150948,0.2833832700716043,ns
+mnau_lower_appendicular_mean,value,Other_small_groups,Partial | Formal excavation,16,36,-0.24600399878545195,0.8056791370282934,0.8515937623183145,ns
+lower_appendicular_continuity_hm,value,NA | Casual,NA | Formal excavation,13,35,2.6634367301380713,0.007734695577642202,0.03867347788821101,*
+lower_appendicular_continuity_hm,value,NA | Casual,NA | NA,13,51,0.3412633124105477,0.7329053643312968,0.814339293701441,ns
+lower_appendicular_continuity_hm,value,NA | Casual,Other_small_groups,13,16,1.5754298587461617,0.1151572568260558,0.19192876137675968,ns
+lower_appendicular_continuity_hm,value,NA | Casual,Partial | Formal excavation,13,36,1.7096808480693517,0.08732490617611469,0.18478688954837455,ns
+lower_appendicular_continuity_hm,value,NA | Formal excavation,NA | NA,35,51,-3.458137649924175,5.439234019838588e-4,0.0054392340198385885,**
+lower_appendicular_continuity_hm,value,NA | Formal excavation,Other_small_groups,35,16,-0.9173093352664998,0.358980566936206,0.4487257086702575,ns
+lower_appendicular_continuity_hm,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.3138092633876395,0.18891039949347788,0.269871999276397,ns
+lower_appendicular_continuity_hm,value,NA | NA,Other_small_groups,51,16,1.6829052001117057,0.09239344477418727,0.18478688954837455,ns
+lower_appendicular_continuity_hm,value,NA | NA,Partial | Formal excavation,51,36,2.05428484574435,0.039948130595225596,0.13316043531741867,ns
+lower_appendicular_continuity_hm,value,Other_small_groups,Partial | Formal excavation,16,36,-0.11663972471655476,0.9071455567903516,0.9071455567903516,ns
+ProportionalRep_MNIbased_clavicle,value,NA | Casual,NA | Formal excavation,13,35,1.951862068187014,0.05095458280493903,0.1698486093497968,ns
+ProportionalRep_MNIbased_clavicle,value,NA | Casual,NA | NA,13,51,-0.6143732393992339,0.5389687152482108,0.6578350669111154,ns
+ProportionalRep_MNIbased_clavicle,value,NA | Casual,Other_small_groups,13,16,0.7517327126817658,0.4522118137636373,0.6460168768051961,ns
+ProportionalRep_MNIbased_clavicle,value,NA | Casual,Partial | Formal excavation,13,36,0.36988307835301204,0.7114696102093014,0.7114696102093014,ns
+ProportionalRep_MNIbased_clavicle,value,NA | Formal excavation,NA | NA,35,51,-3.757876099696834,1.713616895426152e-4,0.001713616895426152,**
+ProportionalRep_MNIbased_clavicle,value,NA | Formal excavation,Other_small_groups,35,16,-1.1706216678002324,0.2417508838580173,0.40291813976336216,ns
+ProportionalRep_MNIbased_clavicle,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.166477795923725,0.030274694798285703,0.1513734739914285,ns
+ProportionalRep_MNIbased_clavicle,value,NA | NA,Other_small_groups,51,16,1.6457285063484448,0.09981966731416254,0.24954916828540635,ns
+ProportionalRep_MNIbased_clavicle,value,NA | NA,Partial | Formal excavation,51,36,1.4266987874028634,0.15366673532567154,0.3073334706513431,ns
+ProportionalRep_MNIbased_clavicle,value,Other_small_groups,Partial | Formal excavation,16,36,-0.5358654268595868,0.5920515602200038,0.6578350669111154,ns
+mnau_foot,value,NA | Casual,NA | Formal excavation,13,35,3.135041187133621,0.0017182998464675258,0.0152511442074904,*
+mnau_foot,value,NA | Casual,NA | NA,13,51,1.1843414830464936,0.2362779140024727,0.33753987714638956,ns
+mnau_foot,value,NA | Casual,Other_small_groups,13,16,1.6556024089204902,0.09780236203701799,0.19560472407403598,ns
+mnau_foot,value,NA | Casual,Partial | Formal excavation,13,36,1.710606351538947,0.08715380568846808,0.19560472407403598,ns
+mnau_foot,value,NA | Formal excavation,NA | NA,35,51,-2.9626300930733915,0.00305022884149808,0.0152511442074904,*
+mnau_foot,value,NA | Formal excavation,Other_small_groups,35,16,-1.325688335190668,0.18494295278351172,0.3082382546391862,ns
+mnau_foot,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.9578287614103882,0.05025010932365492,0.16750036441218308,ns
+mnau_foot,value,NA | NA,Other_small_groups,51,16,0.8732457432556735,0.3825291467946018,0.4377999318557913,ns
+mnau_foot,value,NA | NA,Partial | Formal excavation,51,36,0.8523498627371598,0.3940199386702122,0.4377999318557913,ns
+mnau_foot,value,Other_small_groups,Partial | Formal excavation,16,36,-0.21527588921784133,0.8295522265523696,0.8295522265523696,ns
+ProportionalRep_MNIbased_femur,value,NA | Casual,NA | Formal excavation,13,35,1.4360948277025811,0.15097535969102585,0.3774383992275646,ns
+ProportionalRep_MNIbased_femur,value,NA | Casual,NA | NA,13,51,-0.9684558835769885,0.33281674153668867,0.5024604346080046,ns
+ProportionalRep_MNIbased_femur,value,NA | Casual,Other_small_groups,13,16,0.5042606942085115,0.6140781944605235,0.6823091049561372,ns
+ProportionalRep_MNIbased_femur,value,NA | Casual,Partial | Formal excavation,13,36,-0.3660716330420848,0.7143116241098343,0.7143116241098343,ns
+ProportionalRep_MNIbased_femur,value,NA | Formal excavation,NA | NA,35,51,-3.495871927182918,4.725154341968434e-4,0.004725154341968434,**
+ProportionalRep_MNIbased_femur,value,NA | Formal excavation,Other_small_groups,35,16,-0.9217115281982213,0.3566790657126517,0.5024604346080046,ns
+ProportionalRep_MNIbased_femur,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.4639581692943415,0.013741214730316883,0.06870607365158442,ns
+ProportionalRep_MNIbased_femur,value,NA | NA,Other_small_groups,51,16,1.7071739966317554,0.08778971670528984,0.29263238901763283,ns
+ProportionalRep_MNIbased_femur,value,NA | NA,Partial | Formal excavation,51,36,0.8381110318130349,0.4019683476864037,0.5024604346080046,ns
+ProportionalRep_MNIbased_femur,value,Other_small_groups,Partial | Formal excavation,16,36,-1.0208910534467581,0.3073060582994985,0.5024604346080046,ns
+ReMNAU_ulna,value,NA | Casual,NA | Formal excavation,13,35,2.1832848717665354,0.02901483792735927,0.09671612642453091,ns
+ReMNAU_ulna,value,NA | Casual,NA | NA,13,51,0.18638459361419543,0.8521431732569402,0.9468257480632669,ns
+ReMNAU_ulna,value,NA | Casual,Other_small_groups,13,16,1.90121394825443,0.057273994844831026,0.14318498711207756,ns
+ReMNAU_ulna,value,NA | Casual,Partial | Formal excavation,13,36,1.0516015156766234,0.29298241210957837,0.36622801513697295,ns
+ReMNAU_ulna,value,NA | Formal excavation,NA | NA,35,51,-2.966866145796843,0.0030085190496046835,0.030085190496046833,*
+ReMNAU_ulna,value,NA | Formal excavation,Other_small_groups,35,16,0.0025606206865269716,0.9979569225208156,0.9979569225208156,ns
+ReMNAU_ulna,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.553868224294161,0.12021585264702794,0.2404317052940559,ns
+ReMNAU_ulna,value,NA | NA,Other_small_groups,51,16,2.27536345935115,0.022884135494841206,0.09671612642453091,ns
+ReMNAU_ulna,value,NA | NA,Partial | Formal excavation,51,36,1.2971350797868957,0.194584713302602,0.3123162180307449,ns
+ReMNAU_ulna,value,Other_small_groups,Partial | Formal excavation,16,36,-1.2302023165727891,0.2186213526215214,0.3123162180307449,ns

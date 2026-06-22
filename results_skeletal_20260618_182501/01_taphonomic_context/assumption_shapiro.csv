@@ -1,0 +1,316 @@
+"feature","group","shapiro_p"
+"ProportionalRep_MNIbased_carpal","Funerary Context",5.69273457682132e-06
+"ProportionalRep_MNIbased_carpal","Cannibalism",3.61266601393276e-08
+"ProportionalRep_MNIbased_carpal","Cuevas Sepulcrales",3.42874344641981e-08
+"ProportionalRep_MNIbased_carpal","Carnivore",NA
+"ProportionalRep_MNIbased_carpal","Geological transport",NA
+"ProportionalRep_MNIbased_cervical","Funerary Context",2.56341183688928e-05
+"ProportionalRep_MNIbased_cervical","Cannibalism",7.87692747144989e-08
+"ProportionalRep_MNIbased_cervical","Cuevas Sepulcrales",0.0011791166835518
+"ProportionalRep_MNIbased_cervical","Carnivore",NA
+"ProportionalRep_MNIbased_cervical","Geological transport",NA
+"ProportionalRep_MNIbased_clavicle","Funerary Context",0.000179219480932698
+"ProportionalRep_MNIbased_clavicle","Cannibalism",1.23777128808095e-05
+"ProportionalRep_MNIbased_clavicle","Cuevas Sepulcrales",2.44077755866528e-05
+"ProportionalRep_MNIbased_clavicle","Carnivore",NA
+"ProportionalRep_MNIbased_clavicle","Geological transport",NA
+"ProportionalRep_MNIbased_femur","Funerary Context",9.88377560995213e-05
+"ProportionalRep_MNIbased_femur","Cannibalism",0.000531555500179235
+"ProportionalRep_MNIbased_femur","Cuevas Sepulcrales",0.00994932763499184
+"ProportionalRep_MNIbased_femur","Carnivore",2.24732157683024e-05
+"ProportionalRep_MNIbased_femur","Geological transport",NA
+"ProportionalRep_MNIbased_fibula","Funerary Context",0.000127521715966966
+"ProportionalRep_MNIbased_fibula","Cannibalism",0.00111578367268458
+"ProportionalRep_MNIbased_fibula","Cuevas Sepulcrales",0.000232775304327963
+"ProportionalRep_MNIbased_fibula","Carnivore",NA
+"ProportionalRep_MNIbased_fibula","Geological transport",NA
+"ProportionalRep_MNIbased_humerus","Funerary Context",3.10381636974218e-05
+"ProportionalRep_MNIbased_humerus","Cannibalism",0.00125995157463935
+"ProportionalRep_MNIbased_humerus","Cuevas Sepulcrales",0.0199396639874211
+"ProportionalRep_MNIbased_humerus","Carnivore",1.47604121398762e-06
+"ProportionalRep_MNIbased_humerus","Geological transport",4.92093516998329e-06
+"ProportionalRep_MNIbased_metacarpal","Funerary Context",0.000147774928351127
+"ProportionalRep_MNIbased_metacarpal","Cannibalism",1.47703988108289e-07
+"ProportionalRep_MNIbased_metacarpal","Cuevas Sepulcrales",5.28560953682432e-05
+"ProportionalRep_MNIbased_metacarpal","Carnivore",NA
+"ProportionalRep_MNIbased_metacarpal","Geological transport",NA
+"ProportionalRep_MNIbased_os_coxae","Funerary Context",0.000216174410000896
+"ProportionalRep_MNIbased_os_coxae","Cannibalism",0.000452921195179518
+"ProportionalRep_MNIbased_os_coxae","Cuevas Sepulcrales",1.28651807276458e-05
+"ProportionalRep_MNIbased_os_coxae","Carnivore",NA
+"ProportionalRep_MNIbased_os_coxae","Geological transport",NA
+"ProportionalRep_MNIbased_radius","Funerary Context",2.49544491445356e-05
+"ProportionalRep_MNIbased_radius","Cannibalism",3.09413674157386e-05
+"ProportionalRep_MNIbased_radius","Cuevas Sepulcrales",1.95574977673221e-05
+"ProportionalRep_MNIbased_radius","Carnivore",NA
+"ProportionalRep_MNIbased_radius","Geological transport",NA
+"ProportionalRep_MNIbased_tibia","Funerary Context",5.58642825831717e-05
+"ProportionalRep_MNIbased_tibia","Cannibalism",0.00486315015668138
+"ProportionalRep_MNIbased_tibia","Cuevas Sepulcrales",0.0156290522933039
+"ProportionalRep_MNIbased_tibia","Carnivore",NA
+"ProportionalRep_MNIbased_tibia","Geological transport",4.64423670337701e-06
+"ReMNAU_cervical","Funerary Context",0.000902770984656054
+"ReMNAU_cervical","Cannibalism",5.14044004611924e-05
+"ReMNAU_cervical","Cuevas Sepulcrales",0.000457796828748333
+"ReMNAU_cervical","Carnivore",NA
+"ReMNAU_cervical","Geological transport",NA
+"ReMNAU_radius","Funerary Context",1.55019306752784e-09
+"ReMNAU_radius","Cannibalism",0.00443365215626852
+"ReMNAU_radius","Cuevas Sepulcrales",3.89222017323271e-05
+"ReMNAU_radius","Carnivore",NA
+"ReMNAU_radius","Geological transport",NA
+"ReMNAU_ulna","Funerary Context",0.0517417521354572
+"ReMNAU_ulna","Cannibalism",0.000598841764375455
+"ReMNAU_ulna","Cuevas Sepulcrales",3.01860312166252e-05
+"ReMNAU_ulna","Carnivore",NA
+"ReMNAU_ulna","Geological transport",NA
+"all_sections_dominance","Funerary Context",2.22412053366328e-06
+"all_sections_dominance","Cannibalism",0.0503225967785493
+"all_sections_dominance","Cuevas Sepulcrales",0.425082811136209
+"all_sections_dominance","Carnivore",0.00732896966480576
+"all_sections_dominance","Geological transport",7.11629795162254e-05
+"appendicular_dominance","Funerary Context",3.76808553310745e-06
+"appendicular_dominance","Cannibalism",0.160251236910669
+"appendicular_dominance","Cuevas Sepulcrales",0.0833000441275124
+"appendicular_dominance","Carnivore",0.0271116568707044
+"appendicular_dominance","Geological transport",0.0484132315320108
+"appendicular_dominance_refined","Funerary Context",3.76808553310745e-06
+"appendicular_dominance_refined","Cannibalism",0.160251236910669
+"appendicular_dominance_refined","Cuevas Sepulcrales",0.0833000441275124
+"appendicular_dominance_refined","Carnivore",0.0271116568707044
+"appendicular_dominance_refined","Geological transport",0.0484132315320108
+"density_adjusted_appendicular_axial_contrast","Funerary Context",0.674951563941652
+"density_adjusted_appendicular_axial_contrast","Cannibalism",4.13833584207462e-05
+"density_adjusted_appendicular_axial_contrast","Cuevas Sepulcrales",0.737433664148011
+"density_adjusted_appendicular_axial_contrast","Carnivore",0.00066163958424445
+"density_adjusted_appendicular_axial_contrast","Geological transport",0.001779868117965
+"density_evenness","Funerary Context",3.88583027243882e-09
+"density_evenness","Cannibalism",0.00593846395271519
+"density_evenness","Cuevas Sepulcrales",0.0207696672428524
+"density_evenness","Carnivore",0.00167293149864713
+"density_evenness","Geological transport",0.000197386160601379
+"distal_appendicular_continuity_hm","Funerary Context",0.000563191374166192
+"distal_appendicular_continuity_hm","Cannibalism",3.16970876534688e-07
+"distal_appendicular_continuity_hm","Cuevas Sepulcrales",1.13768313080852e-06
+"distal_appendicular_continuity_hm","Carnivore",2.21653511202089e-07
+"distal_appendicular_continuity_hm","Geological transport",NA
+"dominance_gap_all","Funerary Context",4.14648863620106e-07
+"dominance_gap_all","Cannibalism",0.0609796615632729
+"dominance_gap_all","Cuevas Sepulcrales",0.279713356669514
+"dominance_gap_all","Carnivore",0.00927487779697082
+"dominance_gap_all","Geological transport",5.8289379946585e-05
+"dominant_axial_share","Funerary Context",3.02462579130658e-05
+"dominant_axial_share","Cannibalism",0.44231266932398
+"dominant_axial_share","Cuevas Sepulcrales",0.58687465540894
+"dominant_axial_share","Carnivore",0.00026582193986077
+"dominant_axial_share","Geological transport",4.81984880971311e-05
+"effective_sections_hill1","Funerary Context",0.000863604297536732
+"effective_sections_hill1","Cannibalism",0.142842366663948
+"effective_sections_hill1","Cuevas Sepulcrales",0.968387067831688
+"effective_sections_hill1","Carnivore",0.00963048009298633
+"effective_sections_hill1","Geological transport",4.27673819746271e-06
+"low_density_axial_survival","Funerary Context",1.06258898822011e-08
+"low_density_axial_survival","Cannibalism",4.19453209780631e-07
+"low_density_axial_survival","Cuevas Sepulcrales",0.00041915930811528
+"low_density_axial_survival","Carnivore",NA
+"low_density_axial_survival","Geological transport",5.86443241045384e-07
+"low_density_share","Funerary Context",0.0937897450550084
+"low_density_share","Cannibalism",0.0800456251756663
+"low_density_share","Cuevas Sepulcrales",0.0108018445056357
+"low_density_share","Carnivore",1.57900157716808e-06
+"low_density_share","Geological transport",4.32148084552758e-06
+"low_density_survival_index","Funerary Context",1.03309241745599e-06
+"low_density_survival_index","Cannibalism",5.12609559858908e-06
+"low_density_survival_index","Cuevas Sepulcrales",0.00248148479171028
+"low_density_survival_index","Carnivore",3.20968408694479e-07
+"low_density_survival_index","Geological transport",1.86671211814677e-06
+"lower_appendicular_continuity_hm","Funerary Context",0.00177476597370035
+"lower_appendicular_continuity_hm","Cannibalism",2.80254674455613e-06
+"lower_appendicular_continuity_hm","Cuevas Sepulcrales",2.15066123435952e-07
+"lower_appendicular_continuity_hm","Carnivore",0.00453674513258169
+"lower_appendicular_continuity_hm","Geological transport",5.04576023071526e-07
+"lower_appendicular_evenness","Funerary Context",9.97168223029245e-08
+"lower_appendicular_evenness","Cannibalism",0.0335739366019194
+"lower_appendicular_evenness","Cuevas Sepulcrales",0.0199371642805434
+"lower_appendicular_evenness","Carnivore",0.000177800115765617
+"lower_appendicular_evenness","Geological transport",NA
+"lower_appendicular_evenness_refined","Funerary Context",9.97168223029245e-08
+"lower_appendicular_evenness_refined","Cannibalism",0.0335739366019194
+"lower_appendicular_evenness_refined","Cuevas Sepulcrales",0.0199371642805434
+"lower_appendicular_evenness_refined","Carnivore",0.000177800115765617
+"lower_appendicular_evenness_refined","Geological transport",NA
+"mnau_appendicular_mean","Funerary Context",0.669657224069035
+"mnau_appendicular_mean","Cannibalism",0.000351722862797769
+"mnau_appendicular_mean","Cuevas Sepulcrales",0.38280947702935
+"mnau_appendicular_mean","Carnivore",0.0136359539117457
+"mnau_appendicular_mean","Geological transport",3.25365420135182e-06
+"mnau_arms","Funerary Context",0.00124054670138559
+"mnau_arms","Cannibalism",0.000119559089879625
+"mnau_arms","Cuevas Sepulcrales",0.043439521044308
+"mnau_arms","Carnivore",8.9502435748861e-07
+"mnau_arms","Geological transport",2.13925165079959e-06
+"mnau_arms_legs_diff","Funerary Context",0.000999745694965639
+"mnau_arms_legs_diff","Cannibalism",0.000110809908509441
+"mnau_arms_legs_diff","Cuevas Sepulcrales",0.488843920322582
+"mnau_arms_legs_diff","Carnivore",0.0125879529418076
+"mnau_arms_legs_diff","Geological transport",4.62161496949329e-06
+"mnau_arms_legs_logratio","Funerary Context",8.99455538930681e-13
+"mnau_arms_legs_logratio","Cannibalism",1.8899949402629e-08
+"mnau_arms_legs_logratio","Cuevas Sepulcrales",1.00250663878639e-07
+"mnau_arms_legs_logratio","Carnivore",0.00874068012608115
+"mnau_arms_legs_logratio","Geological transport",1.30043192658619e-05
+"mnau_arms_to_legs_ratio","Funerary Context",1.8609780444378e-11
+"mnau_arms_to_legs_ratio","Cannibalism",1.21888239367183e-10
+"mnau_arms_to_legs_ratio","Cuevas Sepulcrales",1.38092391270923e-09
+"mnau_arms_to_legs_ratio","Carnivore",2.19389845434585e-07
+"mnau_arms_to_legs_ratio","Geological transport",0.00053859199454113
+"mnau_axial_main_mean","Funerary Context",0.000211800422220992
+"mnau_axial_main_mean","Cannibalism",2.90095403532624e-07
+"mnau_axial_main_mean","Cuevas Sepulcrales",0.00041915930811528
+"mnau_axial_main_mean","Carnivore",NA
+"mnau_axial_main_mean","Geological transport",5.86443241045384e-07
+"mnau_column_trunk_mean","Funerary Context",0.00770005529130874
+"mnau_column_trunk_mean","Cannibalism",3.27633817216372e-06
+"mnau_column_trunk_mean","Cuevas Sepulcrales",0.0014391324854051
+"mnau_column_trunk_mean","Carnivore",3.01360651478137e-07
+"mnau_column_trunk_mean","Geological transport",5.58650347514993e-07
+"mnau_cv","Funerary Context",1.5268471171646e-06
+"mnau_cv","Cannibalism",0.0530575852872356
+"mnau_cv","Cuevas Sepulcrales",0.301973760541315
+"mnau_cv","Carnivore",0.00898964252681248
+"mnau_cv","Geological transport",5.01158771185708e-05
+"mnau_distal_appendicular_mean","Funerary Context",0.00462891872319359
+"mnau_distal_appendicular_mean","Cannibalism",3.91599555133693e-07
+"mnau_distal_appendicular_mean","Cuevas Sepulcrales",8.97353401217641e-06
+"mnau_distal_appendicular_mean","Carnivore",0.00014821929858609
+"mnau_distal_appendicular_mean","Geological transport",NA
+"mnau_dominance_of_region_means","Funerary Context",3.91722195443831e-09
+"mnau_dominance_of_region_means","Cannibalism",0.00740253022077215
+"mnau_dominance_of_region_means","Cuevas Sepulcrales",0.00625042137543808
+"mnau_dominance_of_region_means","Carnivore",0.0927723704104322
+"mnau_dominance_of_region_means","Geological transport",9.88961749843266e-05
+"mnau_evenness_minus_dominance","Funerary Context",2.85236536141764e-07
+"mnau_evenness_minus_dominance","Cannibalism",0.0335471178059588
+"mnau_evenness_minus_dominance","Cuevas Sepulcrales",0.223473776433184
+"mnau_evenness_minus_dominance","Carnivore",0.0122982435076709
+"mnau_evenness_minus_dominance","Geological transport",6.07640736587119e-05
+"mnau_foot","Funerary Context",0.000409441150641712
+"mnau_foot","Cannibalism",2.10144017785225e-07
+"mnau_foot","Cuevas Sepulcrales",1.87912234789468e-05
+"mnau_foot","Carnivore",3.45206238264226e-06
+"mnau_foot","Geological transport",NA
+"mnau_gini","Funerary Context",0.0203901873135697
+"mnau_gini","Cannibalism",0.190706575276702
+"mnau_gini","Cuevas Sepulcrales",0.910041268128711
+"mnau_gini","Carnivore",0.00577450276667864
+"mnau_gini","Geological transport",3.56125448756423e-06
+"mnau_girdle_mean","Funerary Context",0.0435341777883789
+"mnau_girdle_mean","Cannibalism",0.000228490248348466
+"mnau_girdle_mean","Cuevas Sepulcrales",0.0034598267981146
+"mnau_girdle_mean","Carnivore",2.14657003508934e-06
+"mnau_girdle_mean","Geological transport",2.94746825354441e-06
+"mnau_hands","Funerary Context",0.000252590914127074
+"mnau_hands","Cannibalism",1.43848244662207e-07
+"mnau_hands","Cuevas Sepulcrales",1.59073228095287e-05
+"mnau_hands","Carnivore",6.59497090119212e-06
+"mnau_hands","Geological transport",NA
+"mnau_heip_evenness","Funerary Context",0.000863604297536752
+"mnau_heip_evenness","Cannibalism",0.14284236666395
+"mnau_heip_evenness","Cuevas Sepulcrales",0.968387067831684
+"mnau_heip_evenness","Carnivore",0.00963048009298632
+"mnau_heip_evenness","Geological transport",4.27673819746271e-06
+"mnau_inverse_simpson","Funerary Context",0.145028464524375
+"mnau_inverse_simpson","Cannibalism",0.0396628827799944
+"mnau_inverse_simpson","Cuevas Sepulcrales",0.460724441184292
+"mnau_inverse_simpson","Carnivore",0.00399881706090939
+"mnau_inverse_simpson","Geological transport",4.40833963819735e-06
+"mnau_legs","Funerary Context",0.0245895789538647
+"mnau_legs","Cannibalism",0.0163708683244084
+"mnau_legs","Cuevas Sepulcrales",0.153882386342335
+"mnau_legs","Carnivore",0.000132835439818398
+"mnau_legs","Geological transport",1.0438939579598e-05
+"mnau_limb_shaft_proxy_mean","Funerary Context",0.0364630979134766
+"mnau_limb_shaft_proxy_mean","Cannibalism",0.00208086182856763
+"mnau_limb_shaft_proxy_mean","Cuevas Sepulcrales",0.167731895392172
+"mnau_limb_shaft_proxy_mean","Carnivore",0.000906366693537573
+"mnau_limb_shaft_proxy_mean","Geological transport",6.24104503861661e-06
+"mnau_lower_appendicular_mean","Funerary Context",0.183423987565388
+"mnau_lower_appendicular_mean","Cannibalism",0.00286470003920922
+"mnau_lower_appendicular_mean","Cuevas Sepulcrales",0.419924790611495
+"mnau_lower_appendicular_mean","Carnivore",0.000373814467070585
+"mnau_lower_appendicular_mean","Geological transport",2.31229189411252e-06
+"mnau_pelvic","Funerary Context",0.00182381568331813
+"mnau_pelvic","Cannibalism",0.000564214393149754
+"mnau_pelvic","Cuevas Sepulcrales",8.37801099724017e-05
+"mnau_pelvic","Carnivore",NA
+"mnau_pelvic","Geological transport",NA
+"mnau_postcranial_total_mean","Funerary Context",0.218193949723732
+"mnau_postcranial_total_mean","Cannibalism",0.000100754657006176
+"mnau_postcranial_total_mean","Cuevas Sepulcrales",0.458814502438044
+"mnau_postcranial_total_mean","Carnivore",0.0157305379442629
+"mnau_postcranial_total_mean","Geological transport",1.74823906631368e-06
+"mnau_proximal_appendicular_mean","Funerary Context",0.255572331808293
+"mnau_proximal_appendicular_mean","Cannibalism",0.000687958145180802
+"mnau_proximal_appendicular_mean","Cuevas Sepulcrales",0.564999384745761
+"mnau_proximal_appendicular_mean","Carnivore",0.00721994232183717
+"mnau_proximal_appendicular_mean","Geological transport",4.64202198697179e-06
+"mnau_region_mean_evenness","Funerary Context",6.55530036053588e-11
+"mnau_region_mean_evenness","Cannibalism",0.000284119470517149
+"mnau_region_mean_evenness","Cuevas Sepulcrales",0.000136055393455071
+"mnau_region_mean_evenness","Carnivore",0.113199720155059
+"mnau_region_mean_evenness","Geological transport",0.000242843425447087
+"mnau_shoulder","Funerary Context",0.000476374899338624
+"mnau_shoulder","Cannibalism",0.000309675176657358
+"mnau_shoulder","Cuevas Sepulcrales",0.00045873772094696
+"mnau_shoulder","Carnivore",NA
+"mnau_shoulder","Geological transport",5.67952849228892e-06
+"mnau_simpson_dominance","Funerary Context",2.29174046923619e-10
+"mnau_simpson_dominance","Cannibalism",0.00366429788642377
+"mnau_simpson_dominance","Cuevas Sepulcrales",0.00497870729394439
+"mnau_simpson_dominance","Carnivore",0.010959276055104
+"mnau_simpson_dominance","Geological transport",9.80939600755774e-05
+"mnau_simpson_evenness","Funerary Context",0.145028464524378
+"mnau_simpson_evenness","Cannibalism",0.0396628827799948
+"mnau_simpson_evenness","Cuevas Sepulcrales",0.460724441184292
+"mnau_simpson_evenness","Carnivore",0.00399881706090942
+"mnau_simpson_evenness","Geological transport",4.40833963819735e-06
+"mnau_top2_share_mcnaughton","Funerary Context",0.000229591285384789
+"mnau_top2_share_mcnaughton","Cannibalism",0.163489637370293
+"mnau_top2_share_mcnaughton","Cuevas Sepulcrales",0.842146651896221
+"mnau_top2_share_mcnaughton","Carnivore",0.000274929381570376
+"mnau_top2_share_mcnaughton","Geological transport",6.75451461386959e-07
+"mnau_upper_appendicular_mean","Funerary Context",0.219158833509809
+"mnau_upper_appendicular_mean","Cannibalism",7.16688065850234e-05
+"mnau_upper_appendicular_mean","Cuevas Sepulcrales",0.193569535589583
+"mnau_upper_appendicular_mean","Carnivore",9.40158331718448e-06
+"mnau_upper_appendicular_mean","Geological transport",4.2782794454989e-06
+"mnau_vertebrae_to_thorax_ratio","Funerary Context",9.53279059027803e-14
+"mnau_vertebrae_to_thorax_ratio","Cannibalism",3.735169673559e-10
+"mnau_vertebrae_to_thorax_ratio","Cuevas Sepulcrales",4.93697383620322e-10
+"mnau_vertebrae_to_thorax_ratio","Carnivore",NA
+"mnau_vertebrae_to_thorax_ratio","Geological transport",2.65683132426746e-06
+"mne_arms","Funerary Context",1.7534197621706e-13
+"mne_arms","Cannibalism",6.58543410111356e-07
+"mne_arms","Cuevas Sepulcrales",5.94606182671175e-07
+"mne_arms","Carnivore",1.27458998078825e-06
+"mne_arms","Geological transport",2.13925165079959e-06
+"mne_arms_to_legs_ratio","Funerary Context",1.86030094066204e-11
+"mne_arms_to_legs_ratio","Cannibalism",1.21358537211233e-10
+"mne_arms_to_legs_ratio","Cuevas Sepulcrales",1.38131033648697e-09
+"mne_arms_to_legs_ratio","Carnivore",2.18991814593744e-07
+"mne_arms_to_legs_ratio","Geological transport",0.00211655625990774
+"mne_cranial_share","Funerary Context",3.85600596945556e-12
+"mne_cranial_share","Cannibalism",3.24230944086635e-05
+"mne_cranial_share","Cuevas Sepulcrales",0.00261012905853649
+"mne_cranial_share","Carnivore",0.0021454714605144
+"mne_cranial_share","Geological transport",0.000199282405046556
+"mne_vertebrae_to_thorax_ratio","Funerary Context",5.14830055283231e-15
+"mne_vertebrae_to_thorax_ratio","Cannibalism",2.29398129852801e-09
+"mne_vertebrae_to_thorax_ratio","Cuevas Sepulcrales",3.80115312979735e-10
+"mne_vertebrae_to_thorax_ratio","Carnivore",NA
+"mne_vertebrae_to_thorax_ratio","Geological transport",1.82939605934981e-06
+"postcranial_dominance_refined","Funerary Context",9.16463804399853e-06
+"postcranial_dominance_refined","Cannibalism",0.69300293237633
+"postcranial_dominance_refined","Cuevas Sepulcrales",0.0395861336303282
+"postcranial_dominance_refined","Carnivore",0.0171875690710669
+"postcranial_dominance_refined","Geological transport",0.118113750665794
