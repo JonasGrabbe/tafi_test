@@ -144,9 +144,9 @@ excel_path <- "hspa.xlsx"
 system.time({
 levels_vec <- random_vectors(n = 1)
 for (lvl in levels_vec){
-  lvl= c(2,1,1,2,2,2,2,2,2,2,2)
+  lvl=  c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5) #c(2,1,1,1,3,3,2,2,3,1,2)
 
-tapho_db <- tapho.loader(excel_path,# sum=TRUE , 
+tapho_db <- tapho.loader(excel_path, sum=FALSE , 
 level = lvl #, indet = FALSE#, indet_method = "delet"#, 
 #group_by = c( "cultural_period", "mis_stage","gender") ,
 #select = c("gender"="Indet") , 
@@ -261,12 +261,81 @@ focus_sites <- c(
 , "Sima de los Huesos 26"
 )
 
+
+
 res <- run_rfe(tb, task_name = "fc_vs_rest", unknown_sites = focus_sites)  # just these
 
 res$unknown_all_features$table     # site, predicted, p_model1..3, p_focus_mean
 res$unknown_all_features$mean_acc  # == step-1 mean CV accuracy
 pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites, pc2_min     = NULL)
+```
+
+
+```{r}
+source("pca_funerary_surface_color.R")
+pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
                        unknown_sites = focus_sites)
+```
+
+
+```{r}
+source("pca_funerary_surface_color.R")
+
+pr3 <- pca_surface_plotly(
+  tapho_db,
+  res,
+  task_name = "fc_vs_rest",
+  focus_class = "Funerary Context",
+  cv_folds = 3,
+  unknown_sites = focus_sites,
+  #pc1_min = -2,
+  #pc1_max =  2,
+  #pc2_min = -2,
+  pc2_max =  2,
+  #pc3_min = -2,
+  #pc3_max =  2,
+  out_html = "pca_funerary_3d_plotly.html"
+)
+```
+
+
+```{r}
+source("pca_funerary_surface_color.R")
+
+focus_sites_ind <- c("Bilzingsleben", "Bolomor IV-VI", "Carihuela", "CdF Adult",
+  "CdF Juvenil", "Ceprano", "Engis 2", "Feldhofer Grotte",
+  "La Naulette", "Malladetes", 
+  #"Mancos 5MT-10010 Feature 3","Mancos Yellow Jacket 5MT-3", 
+  "PM I", "PM II", "Ochoz I", "Ochoz II",
+  "Saint-Césaire", "Scladina", "SH-89", "SH-90", "SH-95", "SH-98",
+  "SH-98", "Steinheim", "WE A", "WE B", "WE C", "WE D",
+  "WE E", "WE F", "WE G", "WE H")
+
+pr3_ind <- pca_surface_plotly_ind(
+  tapho_db,
+  res,
+  n_features = 20,
+  task_name = "fc_vs_rest",
+  focus_class = "Funerary Context",
+  unknown_sites = focus_sites_ind,
+  label_var = "ind_name",
+  pc1_min = -4,
+  pc1_max =  4,
+  pc2_min = -2,
+  pc2_max =  2,
+  pc3_min = -4,
+  pc3_max =  4,
+  iso_probs = c(0.25, 0.5, 0.75),
+  out_html = "pca_funerary_3d_ind.html"
+)
+
+
+```
+
+
+```{r}
+tb$ind_name[tb$taphonomic_context == "Unknown"]
 
 ```
 
