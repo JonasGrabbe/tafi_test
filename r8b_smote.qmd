@@ -326,7 +326,7 @@ pr3_ind <- pca_surface_plotly_ind(
   pc2_max =  2,
   pc3_min = -4,
   pc3_max =  4,
-  iso_probs = c(0.25, 0.5, 0.75),
+  #iso_probs = c(0.25, 0.5, 0.75),
   out_html = "pca_funerary_3d_ind.html"
 )
 

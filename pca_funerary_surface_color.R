@@ -356,9 +356,9 @@ known_df   <- rec$df
 unknown_df <- db %>% dplyr::filter(!(.row_id %in% known_df$.row_id))
 
 if (!is.null(unknown_sites)) {
-unknown_df <- unknown_df %>% dplyr::filter(site_name %in% unknown_sites)
+unknown_df <- unknown_df %>% dplyr::filter(label_var %in% unknown_sites)
 
-missing_sites <- setdiff(unknown_sites, unique(db$site_name))
+missing_sites <- setdiff(unknown_sites, unique(db$label_var))
 if (length(missing_sites)) {
 warning(
 "site_name(s) not found in data: ",
@@ -843,20 +843,20 @@ known_df <- rec$df
 
 unknown_df <- db %>%
 dplyr::filter(!(.row_id %in% known_df$.row_id))
+print(unknown_df)
+#if (!is.null(unknown_sites)) {
+#unknown_df <- unknown_df %>%
+#dplyr::filter(site_name %in% unknown_sites)
 
-if (!is.null(unknown_sites)) {
-unknown_df <- unknown_df %>%
-dplyr::filter(site_name %in% unknown_sites)
+#missing_sites <- setdiff(unknown_sites, unique(db$site_name))
 
-missing_sites <- setdiff(unknown_sites, unique(db$site_name))
-
-if (length(missing_sites)) {
-warning(
-"site_name(s) not found in data: ",
-paste(missing_sites, collapse = ", ")
-)
-}
-}
+#if (length(missing_sites)) {
+#warning(
+#"site_name(s) not found in data: ",
+#paste(missing_sites, collapse = ", ")
+#)
+#}
+#}
 
 message(nrow(known_df), " known / ", nrow(unknown_df), " unknown instances")
 
