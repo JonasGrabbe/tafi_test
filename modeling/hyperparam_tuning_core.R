@@ -467,7 +467,7 @@ tune_single_model_combo <- function(
   # 1. Load & recode data for this task
   # -------------------------------------------------------
   
-  source("c:/Users/Usuario/tafi_test/tapho_loader_new.R")
+  source("c:/Users/jonas.grabbe/tafi_test-2/tapho_loader_new.R")
   result        <- tapho.loader.wfl(dataset_path, level = level, data_variant = data_variant )
   raw_df_id  <- result$db_id
   raw_df_sum <- result$db_sum
@@ -620,7 +620,7 @@ wf <- workflows::workflow() %>%
   # -------------------------------------------------------
   # 7. Parameter space + grid
   # -------------------------------------------------------
-  param_set <- dials::parameters(wf)
+  param_set <- hardhat::extract_parameter_set_dials(wf)
 
   # keep only predictor columns, drop outcome + site_name,
   # and keep only numeric columns (what SVM etc. expect)

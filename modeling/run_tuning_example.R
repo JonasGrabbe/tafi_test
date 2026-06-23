@@ -22,8 +22,8 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-source("c:/Users/Usuario/tafi_test/modeling/hpa_sdk.R")            # has compute_classification_report_from_confmats()
-source("c:/Users/Usuario/tafi_test/modeling/hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
+source("c:/Users/jonas.grabbe/tafi_test-2/modeling/hpa_sdk.R")            # has compute_classification_report_from_confmats()
+source("c:/Users/jonas.grabbe/tafi_test-2/modeling/hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
                                    # get_model_spec, tune_single_model_combo, etc.
 
 tidymodels_prefer()
@@ -59,7 +59,8 @@ random_vectors <- function(n) {
 # -----------------------------------------------------------------
 
 # data path 
-excel_path <- "c:/Users/Usuario/tafi_test/hspa.xlsx"
+excel_path <- "c:/Users/jonas.grabbe/tafi_test-2/hspa.xlsx"
+# "c:/Users/Usuario/tafi_test/hspa.xlsx"
 
 # -----------------------------------------------------------------
 # Global settings
@@ -67,11 +68,11 @@ excel_path <- "c:/Users/Usuario/tafi_test/hspa.xlsx"
 sum_setting <- TRUE #  or FALSE
 tasks        <- c("fc_vs_rest", "4class", "cannibalism_vs_fc") #
 variants     <-  c("ProportionalRep_MNIbased")  # c("pmnau", "remnau") # other
-levels_vec   <- random_vectors(n= 75)  
-models_vec   <- c(#"SVM_RBF",
+levels_vec   <- random_vectors(n= 10)  
+models_vec   <- c("SVM_RBF",
  #"SVM_Linear", 
 "RandomForest"
-, "XGBoost"
+#, "XGBoost"
 #, "DecisionTree", "KNN", "MLP"
 )
 
