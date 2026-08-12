@@ -68,8 +68,8 @@ excel_path <- "c:/Users/jonas.grabbe/tafi_test-2/hspa.xlsx"
 sum_setting <- TRUE #  or FALSE
 tasks        <- c("fc_vs_rest", "4class", "cannibalism_vs_fc") #
 variants     <-  c("ProportionalRep_MNIbased")  # c("pmnau", "remnau") # other
-levels_vec   <- random_vectors(n= 10)  
-models_vec   <- c("SVM_RBF",
+levels_vec   <- random_vectors(n= 1000)  
+models_vec   <- c(#"SVM_RBF",
  #"SVM_Linear", 
 "RandomForest"
 #, "XGBoost"

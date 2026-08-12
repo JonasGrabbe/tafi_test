@@ -1,0 +1,2 @@
+model,ranking_metric,best_score,best_config_id,results_dir
+RandomForest,accuracy,0.7415458937198067,pre0_mod1_post0,results_tuning_cannibalism_vs_fc_ProportionalRep_MNIbased_L4_1_1_1_4_3_2_5_4_1_5_RandomForest

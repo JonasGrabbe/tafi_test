@@ -1,0 +1,2 @@
+rank,mtry,trees,min_n,.metric,.estimator,mean,n,std_err,.config
+1,52,370,9,accuracy,multiclass,0.7925729064841968,3,0.10253473978017157,pre0_mod1_post0

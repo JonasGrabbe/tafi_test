@@ -1,0 +1,2 @@
+model,ranking_metric,best_score,best_config_id,results_dir
+RandomForest,accuracy,0.7391047572499185,pre0_mod1_post0,results_tuning_4class_ProportionalRep_MNIbased_L4_1_1_1_4_1_1_4_2_2_2_RandomForest

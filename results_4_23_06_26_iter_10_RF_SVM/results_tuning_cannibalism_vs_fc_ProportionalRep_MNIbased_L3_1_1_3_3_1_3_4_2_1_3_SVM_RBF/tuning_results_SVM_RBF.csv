@@ -1,0 +1,2 @@
+rank,cost,rbf_sigma,.metric,.estimator,mean,n,std_err,.config
+1,0.29460489645342985,0.43139126902232106,accuracy,binary,0.6859903381642511,3,0.02689741238082135,pre0_mod1_post0

@@ -1,0 +1,10 @@
+Table: Classification report for BEST hyperparameter combo (RandomForest, fc_vs_rest, ProportionalRep_MNIbased L5_1_1_3_3_2_2_4_3_1_1)
+Best .config = pre0_mod1_post0
+
+|      Class       |   Precision   |    Recall     |      F1       | Support |
+|:----------------:|:-------------:|:-------------:|:-------------:|:-------:|
+| Funerary Context | 0.816 (0.098) | 0.792 (0.157) | 0.797 (0.094) |   16    |
+|       rest       | 0.811 (0.118) | 0.812 (0.125) | 0.804 (0.071) |   16    |
+|     accuracy     |               |               | 0.802 (0.079) |   32    |
+|    macro_avg     | 0.814 (0.108) | 0.802 (0.141) | 0.800 (0.083) |   32    |
+|   weighted_avg   | 0.814 (0.108) | 0.802 (0.141) | 0.800 (0.083) |   32    |
