@@ -1,0 +1,191 @@
+---
+title: "r11b ml_run_6h june"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
+
+system.time({
+tapho_db <- tapho.loader(excel_path, sum=FALSE , level =  c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4) #, indet = TRUE , indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+
+#exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+})
+tapho_db
+
+```
+
+
+```{r}
+tapho_db$element
+```
+
+
+```{r}
+tapho_db$mnau_appendicular_sum
+
+system.time({
+  # Ihr R-Code hier
+  Sys.sleep(1) # Simuliert einen Prozess
+})
+
+```
+
+
+```{r}
+
+tapho_db[c(170:178)]
+```
+
+
+```{r}
+
+colnames(tapho_db)
+```
+
+
+```{r}
+<<<<<<< HEAD
+print(tapho_db[c(62:72)], n=26)
+=======
+tapho_db$element
+>>>>>>> 93d8dfe1311c40556dbddfabd37dc7615bb7ea5d
+
+```
+
+
+```{r}
+<<<<<<< HEAD
+tapho_db$PercentMNAU
+
+=======
+
+tapho_db$mni
+>>>>>>> 93d8dfe1311c40556dbddfabd37dc7615bb7ea5d
+```
+
+```{r}
+tapho_db
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+

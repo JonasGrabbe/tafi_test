@@ -1,0 +1,133 @@
+---
+title: "r123b smote pca "
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+
+```{r}
+POSITION_MAX <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+
+random_vectors <- function(n) {
+  # Total number of unique combinations possible
+  max_combinations <- prod(POSITION_MAX + 1)
+  if (n > max_combinations) stop(paste("n exceeds total unique combinations:", max_combinations))
+  
+  seen <- list()
+  result <- list()
+  
+  while (length(result) < n) {
+    candidate <- mapply(function(mx) sample(1:mx, size = 1), POSITION_MAX)
+    key <- paste(candidate, collapse = "-")
+    
+    if (!key %in% seen) {
+      seen <- c(seen, key)
+      result <- c(result, list(candidate))
+    }
+  }
+  
+  result
+}
+```
+
+
+
+
+```{r}
+
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
+
+system.time({
+levels_vec <- random_vectors(n = 1)
+for (lvl in levels_vec){
+  lvl= c(2,1,1,2,2,2,2,2,2,2,2)
+
+tapho_db <- tapho.loader(excel_path,# sum=TRUE , 
+level = lvl #, indet = FALSE#, indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+#exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+print(tapho_db)
+ print(lvl)
+}
+})
+```
+
+
+```{r}
+#sum(tapho_db$mni)
+#colnames(raw_df_id)
+
+
+tb <- tapho_db %>%
+  # keep metadata + the two list-cols we want; drop site_id & taphonomic_context,
+  # and (by not selecting them) every other list-col and everything
+  # after OverallProportionalRep_assemblage
+  dplyr::select(site_name:sum_count, ReMNAU, ProportionalRep_MNIbased,
+                -site_id, -taphonomic_context) %>%
+  # name each row's vector by that row's own element names
+  dplyr::mutate(
+    ReMNAU = lapply(seq_along(ReMNAU), function(i)
+      setNames(ReMNAU[[i]], tapho_db$element[[i]])),
+    ProportionalRep_MNIbased = lapply(seq_along(ProportionalRep_MNIbased), function(i)
+      setNames(ProportionalRep_MNIbased[[i]], tapho_db$element[[i]]))
+  ) %>%
+  # spread both wide; names_sep prefixes so the shared element names don't clash
+  tidyr::unnest_wider(c(ReMNAU, ProportionalRep_MNIbased), names_sep = "_")
+
+colnames(tb)
+```
+
+
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+
+# the OTHER list-columns to remove (keep ReMNAU & ProportionalRep_MNIbased)
+list_cols_drop <- c(
+  "bone.level", "element", "One_Skeleton_count", "Skeleton_Section",
+  "MNE", "MNAU", "MAU", "PercentMAU", "PercentMNAU", "AcReMNAU",
+  "CumulativeReMNAU", "MNI_used_assemblage", "Mean_MNAU_assemblage",
+  "Mean_part_abundance", "OverallProportionalRep_assemblage"
+)
+
+# name a row's value vector by its element labels,
+# dropping slots whose label is missing/empty/purely numeric
+name_by_element <- function(vec, elems) {
+  v  <- setNames(vec, elems)
+  nm <- names(v)
+  v[!is.na(nm) & nm != "" & !grepl("^[0-9]+$", nm)]
+}
+
+tb <- tapho_db %>%
+  mutate(
+    ReMNAU = lapply(seq_along(ReMNAU),
+                    \(i) name_by_element(ReMNAU[[i]], element[[i]])),
+    ProportionalRep_MNIbased = lapply(seq_along(ProportionalRep_MNIbased),
+                    \(i) name_by_element(ProportionalRep_MNIbased[[i]], element[[i]]))
+  ) %>%
+  select(-all_of(list_cols_drop)) %>%       # drop other list-cols, keep engineered features
+  unnest_wider(c(ReMNAU, ProportionalRep_MNIbased), names_sep = "_")
+tb
+
+```
+
+```{r}
+colnames(tb)
+
+
+
+```

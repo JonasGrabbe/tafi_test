@@ -1,0 +1,569 @@
+---
+title: "r8b ml_run april"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa-test.xlsx"
+
+system.time({
+tapho_db <- tapho.loader(excel_path, sum=FALSE , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet", 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+exclude_sections = c("arms","legs","cranium","shoulder","hands"))})
+tapho_db
+```
+
+```{r}
+tapho_db$mni
+
+system.time({
+  # Ihr R-Code hier
+  Sys.sleep(1) # Simuliert einen Prozess
+})
+tapho_db[, c(1:4, 26, 41)]
+```
+
+```{r}
+#tapho_db$count
+#print(tapho_db[,c(1:4,40:44)], n=26)
+print(tapho_db[,c(35:44)], n=26)
+```
+
+```{r}
+tb <- tapho_db[,c(4,26,35,43)] %>%
+  unnest_wider(CumulativeReMNAU, names_sep = "_")
+tb
+```
+
+```{r}
+tb <- tapho_db[, c(1:30,46)] %>%
+  mutate(ProportionalRep_MNIbased = lapply(ProportionalRep_MNIbased, function(vec) 
+    setNames(vec, tapho_db$element[[1]])
+  )) %>%
+  unnest_wider(ProportionalRep_MNIbased)
+tb
+```
+
+```{r}
+# -----------------------------------------------------------
+# 1) Helper: expand a tibble list-column into a model-ready flat df
+# -----------------------------------------------------------
+prepare_tuning_input_from_tibble <- function(
+  tapho_db,
+  feature_col,
+  feature_names,
+  target_variable = "taphonomic_context",
+  site_name_col   = "site_name",
+  site_id_col     = "site_id"
+) {
+  stopifnot(feature_col %in% names(tapho_db))
+  stopifnot(target_variable %in% names(tapho_db))
+
+  # fallback if site_name is absent
+  id_vec <- if (site_name_col %in% names(tapho_db)) {
+    tapho_db[[site_name_col]]
+  } else if (site_id_col %in% names(tapho_db)) {
+    as.character(tapho_db[[site_id_col]])
+  } else {
+    as.character(seq_len(nrow(tapho_db)))
+  }
+
+  # validate list-column lengths
+  vec_lengths <- purrr::map_int(
+    tapho_db[[feature_col]],
+    ~ length(as.numeric(unlist(.x, use.names = FALSE)))
+  )
+
+  expected_len <- length(feature_names)
+  if (!all(vec_lengths == expected_len)) {
+    stop(
+      sprintf(
+        "Column '%s' contains vectors of length {%s}, but expected %d.",
+        feature_col,
+        paste(sort(unique(vec_lengths)), collapse = ", "),
+        expected_len
+      )
+    )
+  }
+
+  # build numeric feature matrix
+  feature_mat <- do.call(
+    rbind,
+    lapply(
+      tapho_db[[feature_col]],
+      function(x) as.numeric(unlist(x, use.names = FALSE))
+    )
+  )
+
+  feature_df <- tibble::as_tibble(feature_mat)
+  names(feature_df) <- feature_names
+
+  # IMPORTANT: only keep ID + target + numeric features
+  out <- tibble::tibble(
+    !!site_name_col   := id_vec,
+    !!target_variable := tapho_db[[target_variable]]
+  ) %>%
+    dplyr::bind_cols(feature_df)
+
+  out
+}
+```
+
+
+```{r}
+prepare_tuning_input_from_tibble(
+    tapho_db,
+    tapho_db$element[[1]])
+```
+
+```{r}
+tapho_db$element[[1]]
+```
+
+
+```{r}
+run_tuning_from_tibble(
+  tapho_db,
+  feature_col = "ProportionalRep_MNIbased",
+)
+```
+
+```{r}
+run_tuning_from_tibble <- function(
+  tapho_db,
+  feature_col = "CumulativeReMNAU",
+  tasks = c("4class", "cannibalism_vs_fc", "fc_vs_rest"),
+  models_vec = c("SVM_RBF", "SVM_Linear", "RandomForest",
+                 "XGBoost", "DecisionTree", "KNN", "MLP"),
+  n_iterations_global = 30
+) {
+  vec_len <- length(tapho_db[[feature_col]][[1]])
+  feature_names <- paste0("x", seq_len(vec_len))
+
+  input_df <- tibble::tibble(
+    site_name = as.character(tapho_db$site_id),
+    taphonomic_context = tapho_db$taphonomic_context
+  ) %>%
+    dplyr::bind_cols(
+      tibble::as_tibble(do.call(
+        rbind,
+        lapply(tapho_db[[feature_col]], unlist)
+      )) %>%
+      stats::setNames(feature_names)
+    )
+
+  input_df
+}
+```
+
+
+```{r}
+tapho_db
+```
+
+```{r}
+prepare_tuning_input_from_tibble <- function(
+  tapho_db,
+  feature_col = "CumulativeReMNAU"
+) {
+  feature_names <- make.names(as.character(tapho_db$element[[1]]), unique = TRUE)
+
+  feature_df <- tibble::as_tibble(do.call(
+    rbind,
+    lapply(tapho_db[[feature_col]], unlist)
+  ))
+  names(feature_df) <- feature_names
+
+  tibble::tibble(
+    site_name = as.character(tapho_db$site_id),
+    taphonomic_context = tapho_db$taphonomic_context
+  ) %>%
+    dplyr::bind_cols(feature_df)
+}
+```
+
+
+```{r}
+prepare_tuning_input_from_tibble(
+  tapho_db,
+  feature_col = "ProportionalRep_MNIbased",
+)
+```
+
+```{r}
+path = "C:/Users/jonas.grabbe/Documents/hpa_modeling/hpa_modelilng_post_eshe/post/pmnau_tb_level_2
+```
+
+```{r}
+colnames(tb)[-c(1,2)]
+```
+
+
+```{r}
+source("modeling/run_tuning.R")
+```
+
+```{r}
+# example: if you want to use the CumulativeReMNAU list-column
+run_tuning_from_tibble(
+  tapho_db = tb,
+  tasks = c("4class", "cannibalism_vs_fc", "fc_vs_rest"),
+  variants = c("ReMNAU"),
+  levels_vec = 1,   # or whatever representation actually matches your feature vector
+  models_vec = c("SVM_RBF", "SVM_Linear", "RandomForest",
+                 "XGBoost", "DecisionTree", "KNN", "MLP"),
+  n_iterations_global = 5, #30,
+  variant_feature_col = c(remnau = "ReMNAU"),
+  feature_names_by_level = colnames(tb)[-c(1,2)],
+    #list("1" = paste0("feat_", 1:17)   # replace with real names if your vectors are length 17),
+
+  target_variable = "taphonomic_context",
+  site_name_col = "site_name",
+  site_id_col = "site_id"
+)
+```
+
+
+```{r}
+packageVersion("rlang")
+library(tidymodels)
+```
+
+
+```{r}
+packageVersion("tidymodels")
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+install.packages("tidymodels")
+```
+
+
+```{r}
+library(dplyr)
+
+site_counts <- tapho_db |>
+  count(site_id, name = "n_individuals")  # counts rows per site_id
+
+site_counts
+```
+
+
+```{r}
+sampled_sites <- sample(
+  site_counts$site_id,
+  size = 10,                          # your desired n
+  replace = TRUE,
+  prob = site_counts$n_individuals   # weights
+)
+
+site_size_dist <- site_counts %>%
+  count(n_individuals, name = "n_sites") %>%
+  mutate(prob = n_sites / sum(n_sites))
+
+site_size_dist
+```
+
+
+
+```{r}
+library(dplyr)
+
+site_counts <- tapho_db %>%
+  count(site_id, name = "n_individuals")
+
+site_size_dist <- site_counts %>%
+  count(n_individuals, name = "n_sites") %>%
+  mutate(prob = n_sites / sum(n_sites))
+
+site_size_dist
+
+```
+
+
+
+
+```{r}
+
+
+site_size_dist <- tapho_db %>%
+  count(site_id, name = "n_individuals") %>%
+  count(n_individuals, name = "n_sites") %>%
+  mutate(prob = n_sites / sum(n_sites))
+
+sampled_n <- sample(
+  site_size_dist$n_individuals,
+  size = 10,
+  replace = TRUE,
+  prob = site_size_dist$prob
+)
+
+sampled_n
+```
+
+
+
+```{r}
+site_counts <- tapho_db |>
+   count(site_id, name = "n_individuals")  # counts rows per site_id
+counts_vector <- site_counts$n_individuals
+counts_vector 
+
+```
+
+
+
+```{r}
+n=10
+# Estimate density on a fine grid of positive integers (counts >= 1)
+dens <- density(counts_vector, from = 0.5, to = max(counts_vector) + 1, n = 512)
+
+# Create a function that gives approximate probability for each integer
+# by integrating the KDE around that integer
+probs <- numeric(max(counts_vector))
+for (k in 1:max(counts_vector)) {
+  # Probability of being in [k-0.5, k+0.5] under the KDE
+  idx <- which(dens$x >= k - 0.5 & dens$x < k + 0.5)
+  probs[k] <- sum(dens$y[idx]) * mean(diff(dens$x))
+}
+probs <- probs / sum(probs)  # Normalize
+
+# Sample integers using these smoothed probabilities
+sampled_smooth <- sample(1:max(counts_vector), size = n, replace = TRUE, prob = probs)
+sampled_smooth
+
+```
+
+
+```{r}
+dens
+```
+
+
+```{r}
+library(dplyr)
+library(ggplot2)
+
+# 1. Counts per site
+site_counts <- tapho_db %>% count(site_id, name = "n_individuals")
+counts <- site_counts$n_individuals
+
+# 2. Empirical discrete distribution
+emp_tab <- table(counts)
+
+# 3. Smooth via KDE and integer sampling
+dens <- density(counts, from = 0.5, to = max(counts) + 1, n = 512)
+probs <- numeric(max(counts))
+for (k in 1:max(counts)) {
+  idx <- which(dens$x >= k - 0.5 & dens$x < k + 0.5)
+  probs[k] <- sum(dens$y[idx]) * mean(diff(dens$x))
+}
+probs <- probs / sum(probs)
+
+# 4. Sample n integers from smoothed distribution
+set.seed(1)
+n_samples <- 1000
+smooth_sample <- sample(1:max(counts), size = n_samples, replace = TRUE, prob = probs)
+
+# 5. Compare distributions
+data.frame(
+  value = c(counts, smooth_sample),
+  type = rep(c("Empirical", "Smoothed"), c(length(counts), length(smooth_sample)))
+) %>%
+  ggplot(aes(x = value, fill = type)) +
+  geom_histogram(binwidth = 1, position = "identity", alpha = 0.6) +
+  labs(title = "Discrete distribution of individuals per site",
+       x = "Number of individuals at a site", y = "Count") +
+  theme_minimal()
+```
+
+
+
+```{r}
+#install.packages("themis")
+library("themis")
+tb <- tb[-c(10,23,24),]
+df <- tb[,-c(1)]
+var <- "taphonomic_context"
+
+new_db <- smote(df, var, k = 5, over_ratio = 2) 
+new_db
+```
+
+
+```{r}
+tapho_db$element[[1]]
+```
+
+```{r}
+#tb$taphonomic_context[-c(22,23) ]
+
+print(tb[-c(10,23,24),], n=26)
+```
+
+```{r}
+print(df, n=28)
+
+df |>
+  count(taphonomic_context, name = "label_count")
+```
+
+```{r}
+
+
+circle_numeric <- circle_example[, c("x", "y", "class")]
+
+res <- smote(circle_numeric, var = "class")
+
+res <- smote(circle_numeric, var = "class", k = 10)
+
+res <- smote(circle_numeric, var = "class", over_ratio = 0.8)
+res
+```
+
+```{r}
+df
+```
+
+```{r}
+idx <- sample(
+  1:18,
+  size = 10,
+  replace = TRUE
+)
+#idx <- 3
+#tb[idx,]
+print(tb[idx,], n=50)
+```
+
+
+```{r}
+sample_nonzero_normal <- function(n, sd = 1) {
+  x <- integer(0)
+  while (length(x) < n) {
+    candidates <- abs(round(rnorm(n * 2, mean = 0, sd = sd)))
+    x <- c(x, candidates[candidates != 0])
+  }
+  x[1:n]
+}
+
+samples <- sample_nonzero_normal(100, sd = 5) 
+sum(samples > 0)
+```
+
+
+```{r}
+samples
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+samples_needed <- c(20,15,75,48,88,42458)
+ for (i in seq_along(samples_needed)) { 
+  print(samples_needed[i])
+ }
+```
+
+
+```{r}
+tapho_db$mni
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+```

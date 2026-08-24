@@ -1,0 +1,294 @@
+---
+title: "r7b final marzo"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa-test.xlsx"
+tapho_db <- tapho.loader(excel_path , level = c(1,1,1,2,2,2,2,2,2,2,2) , indet = TRUE, indet_method = "delet" , exclude_sections = c("arms","legs","cranium","shoulder","hands"))
+print( tapho_db , n=26)
+```
+
+
+```{r}
+#tapho_db$count
+#print(tapho_db[,c(1:4,40:44)], n=26)
+print(tapho_db[,c(1,26:27,44)], n=26)
+```
+
+
+```{r}
+tapho_db[1,]$AcReMNAU
+```
+
+
+```{r}
+tapho_db$element
+```
+
+
+```{r}
+
+c(3,0,0,3,...,3)
+
+c(2,0,0,2,2,2,2,2,2,2,2)
+
+c(1,0,0,1,...,1)
+
+lvl_-1 <-c("cranium",
+            "teeth", out
+            "hyoid", out  
+            "vertebrae", "thorax", "pelvic",
+            "shoulder", "arms", "legs", 
+            "hands", 
+            "foot" )
+
+add element_ratios, count_ratios: 
+---
+
+level -1
+neurocranium_bone,splanchnocranium  vs extrimities. 
+neurocranium_bone,splanchnocranium  vs post_cranium.
+cranium vs post cranium. 
+cranium vs extrimities.
+ratios. -> others.
+
+---
+
+all at the same time + RFE vs 20k out of 60k then sum (c()) vs accuracy. 
+
+
+```
+
+
+```{r}
+df <- data.frame(element = tapho_db[1,]$element[[1]], count = tapho_db[1,]$count[[1]])
+add_bone_info_indet(df)
+
+```
+
+
+```{r}
+ls(envir = globalenv())
+
+```
+
+# function rations density check set up 
+
+```{r}
+# Load required libraries
+library(dplyr)
+library(tidyr)
+
+# ==========================================
+# 1. CREATE MOCK METADATA (elements_data)
+# ==========================================
+# This maps the specific bone elements to their broad anatomical sections.
+elements_data <- tibble::tribble(
+  ~ElementsOne, ~Skeleton_Section,
+  "cranium",    "cranium",
+  "mandible",   "cranium",
+  "isolated_t", "teeth",
+  "cervical",   "vertebrae",
+  "thoracic",   "vertebrae",
+  "rib",        "thorax",
+  "scapula",    "shoulder",
+  "humerus",    "arms",
+  "radius",     "arms",
+  "carpal",     "hands",
+  "pelvis",     "pelvic",
+  "femur",      "legs",
+  "tibia",      "legs",
+  "tarsal",     "foot"
+)
+
+# ==========================================
+# 2. CREATE MOCK WIDE DATA (taph_wide_df)
+# ==========================================
+# Rows are sites, columns are bone abundances (e.g., %MAU from 0 to 100)
+taph_wide_df <- tibble::tribble(
+  ~site_id, ~cranium, ~mandible, ~isolated_t, ~cervical, ~thoracic, ~rib, ~scapula, ~humerus, ~radius, ~carpal, ~pelvis, ~femur, ~tibia, ~tarsal,
+  "Site_A",      100,       100,         100,       100,       100,  100,      100,      100,     100,     100,     100,    100,    100,     100,
+  "Site_B",       90,        85,          95,        60,        50,   80,       20,       15,       5,       0,      10,      5,      0,       0,
+  "Site_C",       10,        10,           5,        10,        10,   10,       80,       90,      85,       0,      95,     90,     80,      10
+)
+```
+
+
+
+```{r}
+# ==========================================
+# 3. THE FUNCTIONS
+# ==========================================
+
+# Helper Function
+build_taphonomic_groups <- function(elements_data, exclude_sections = c()) {
+  valid_elements <- elements_data %>% filter(!Skeleton_Section %in% exclude_sections)
+  ALL_COLUMNS <- unique(valid_elements$ElementsOne)
+  GROUPS <- split(valid_elements$ElementsOne, valid_elements$Skeleton_Section)
+  return(list(columns = ALL_COLUMNS, groups = GROUPS))
+}
+
+# The Main Feature Engineering Function
+compute_engineered_features_simple <- function(taph_wide_df, elements_data, exclude_sections = c()) {
+  
+  schema <- build_taphonomic_groups(elements_data, exclude_sections)
+  ALL_COLUMNS <- schema$columns
+  GROUPS <- schema$groups
+  
+  available_cols <- intersect(ALL_COLUMNS, names(taph_wide_df))
+  base_df <- taph_wide_df %>% select(site_id, all_of(available_cols))
+  
+  # Helper for standard arithmetic mean
+  mean_abundance <- function(df, cols) {
+    valid_cols <- intersect(cols, names(df))
+    if(length(valid_cols) == 0) return(rep(NA, nrow(df)))
+    rowMeans(df[, valid_cols, drop = FALSE], na.rm = TRUE)
+  }
+  
+  # Helper for Harmonic mean (Chain continuity)
+  harmonic_mean_row <- function(df, cols) {
+    valid_cols <- intersect(cols, names(df))
+    if(length(valid_cols) == 0) return(rep(NA, nrow(df)))
+    
+    apply(df[, valid_cols, drop = FALSE], 1, function(x) {
+      x <- x[!is.na(x) & x > 0] 
+      if(length(x) == 0) return(0)
+      length(x) / sum(1/x)
+    })
+  }
+
+  out <- data.frame(site_id = base_df$site_id)
+  epsilon <- 0.01 # Prevent division by zero
+  
+  # 1. Regional Composite Means 
+  for (section_name in names(GROUPS)) {
+    out[[paste0(section_name, "_Composite_Mean")]] <- mean_abundance(base_df, GROUPS[[section_name]])
+  }
+  
+  # 2. Macro-Regions 
+  axial_sections <- c("cranium", "teeth", "hyoid", "vertebrae", "thorax")
+  appendicular_sections <- c("shoulder", "arms", "hands", "pelvic", "legs", "foot")
+  
+  axial_cols <- unlist(GROUPS[names(GROUPS) %in% axial_sections])
+  appendicular_cols <- unlist(GROUPS[names(GROUPS) %in% appendicular_sections])
+  
+  out$Axial_Mean <- mean_abundance(base_df, axial_cols)
+  out$Appendicular_Mean <- mean_abundance(base_df, appendicular_cols)
+  out$Appendicular_to_Axial_Ratio <- (out$Appendicular_Mean + epsilon) / (out$Axial_Mean + epsilon)
+  
+  # 3. Chain Continuity
+  upper_chain_cols <- unlist(GROUPS[names(GROUPS) %in% c("shoulder", "arms", "hands")])
+  lower_chain_cols <- unlist(GROUPS[names(GROUPS) %in% c("pelvic", "legs", "foot")])
+  
+  out$Upper_Chain_Continuity <- harmonic_mean_row(base_df, upper_chain_cols)
+  out$Lower_Chain_Continuity <- harmonic_mean_row(base_df, lower_chain_cols)
+
+  return(out)
+}
+```
+
+
+
+```{r}
+# ==========================================
+# 4. RUN THE TEST
+# ==========================================
+
+# Test 1: Include everything
+cat("\n--- TEST 1: All Elements Included ---\n")
+results_all <- compute_engineered_features_simple(
+  taph_wide_df = taph_wide_df, 
+  elements_data = elements_data, 
+  exclude_sections = c()
+)
+glimpse(results_all)
+
+# Test 2: Exclude teeth
+cat("\n--- TEST 2: Exclude 'teeth' section ---\n")
+results_no_teeth <- compute_engineered_features_simple(
+  taph_wide_df = taph_wide_df, 
+  elements_data = elements_data, 
+  exclude_sections = c("teeth")
+)
+
+# Notice how "teeth_Composite_Mean" disappears from the output!
+glimpse(results_no_teeth)
+
+```
+
+
+
+```{r}
+
+
+```
+
+
+
+```{r}
+
+
+```
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+
+```{r}
+
+
+```
+
+
+
+```{r}
+
+
+```
+
+
+
+```{r}
+
+
+```
