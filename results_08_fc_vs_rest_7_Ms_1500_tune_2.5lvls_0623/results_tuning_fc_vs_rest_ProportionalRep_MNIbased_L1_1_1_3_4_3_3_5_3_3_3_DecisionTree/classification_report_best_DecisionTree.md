@@ -1,0 +1,10 @@
+Table: Classification report for BEST hyperparameter combo (DecisionTree, fc_vs_rest, ProportionalRep_MNIbased L1_1_1_3_4_3_3_5_3_3_3)
+Best .config = pre0_mod0114_post0
+
+|      Class       |   Precision   |    Recall     |      F1       | Support |
+|:----------------:|:-------------:|:-------------:|:-------------:|:-------:|
+| Funerary Context | 0.810 (0.015) | 0.729 (0.026) | 0.767 (0.017) |   48    |
+|       rest       | 0.754 (0.017) | 0.829 (0.017) | 0.790 (0.012) |   48    |
+|     accuracy     |               |               | 0.779 (0.071) |   96    |
+|    macro_avg     | 0.782 (0.016) | 0.779 (0.021) | 0.779 (0.014) |   96    |
+|   weighted_avg   | 0.782 (0.016) | 0.779 (0.021) | 0.779 (0.014) |   96    |

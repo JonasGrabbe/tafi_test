@@ -1,0 +1,10 @@
+Table: Classification report for BEST hyperparameter combo (XGBoost, fc_vs_rest, ProportionalRep_MNIbased L2_1_1_3_3_3_2_4_3_2_1)
+Best .config = pre0_mod0848_post0
+
+|      Class       |   Precision   |    Recall     |      F1       | Support |
+|:----------------:|:-------------:|:-------------:|:-------------:|:-------:|
+| Funerary Context | 0.849 (0.027) | 0.800 (0.043) | 0.824 (0.035) |   48    |
+|       rest       | 0.812 (0.036) | 0.858 (0.023) | 0.834 (0.029) |   48    |
+|     accuracy     |               |               | 0.829 (0.063) |   96    |
+|    macro_avg     | 0.830 (0.031) | 0.829 (0.033) | 0.829 (0.032) |   96    |
+|   weighted_avg   | 0.830 (0.031) | 0.829 (0.033) | 0.829 (0.032) |   96    |

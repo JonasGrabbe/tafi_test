@@ -292,10 +292,10 @@ pr3 <- pca_surface_plotly(
   #pc1_min = -2,
   #pc1_max =  2,
   #pc2_min = -2,
-  pc2_max =  2,
+  #pc2_max =  2,
   #pc3_min = -2,
   #pc3_max =  2,
-  out_html = "pca_funerary_3d_plotly.html"
+  out_html = "pca_funerary_3d_plotly_.html"
 )
 ```
 
@@ -320,14 +320,14 @@ pr3_ind <- pca_surface_plotly_ind(
   focus_class = "Funerary Context",
   unknown_sites = focus_sites_ind,
   label_var = "ind_name",
-  pc1_min = -4,
-  pc1_max =  4,
-  pc2_min = -2,
-  pc2_max =  2,
-  pc3_min = -4,
-  pc3_max =  4,
+  #pc1_min = -4,
+  #pc1_max =  4,
+  #pc2_min = -1,
+  #pc2_max =  1,
+  #pc3_min = -2,
+  #pc3_max =  2,
   #iso_probs = c(0.25, 0.5, 0.75),
-  out_html = "pca_funerary_3d_ind.html"
+  out_html = "pca_funerary_3d_ind_.html"
 )
 
 
@@ -766,12 +766,12 @@ plot_ly(
 
 ```{r}
 
-
+res
 ```
 
 
 ```{r}
-
+tb
 ```
 
 

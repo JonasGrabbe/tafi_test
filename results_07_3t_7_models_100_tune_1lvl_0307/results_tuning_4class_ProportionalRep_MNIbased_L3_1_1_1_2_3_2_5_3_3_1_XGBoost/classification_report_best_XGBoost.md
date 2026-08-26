@@ -1,0 +1,12 @@
+Table: Classification report for BEST hyperparameter combo (XGBoost, 4class, ProportionalRep_MNIbased L3_1_1_1_2_3_2_5_3_3_1)
+Best .config = pre0_mod093_post0
+
+|        Class         |   Precision   |    Recall     |      F1       | Support |
+|:--------------------:|:-------------:|:-------------:|:-------------:|:-------:|
+|     Cannibalism      | 0.718 (0.061) | 0.591 (0.045) | 0.647 (0.038) |   22    |
+|      Carnivore       | 0.606 (0.043) | 0.757 (0.064) | 0.671 (0.027) |   14    |
+|   Funerary Context   | 0.843 (0.018) | 0.850 (0.045) | 0.846 (0.027) |   48    |
+| Geological transport | 0.681 (0.047) | 0.667 (0.000) | 0.673 (0.023) |   12    |
+|       accuracy       |               |               | 0.754 (0.070) |   96    |
+|      macro_avg       | 0.712 (0.042) | 0.716 (0.039) | 0.709 (0.029) |   96    |
+|     weighted_avg     | 0.759 (0.035) | 0.754 (0.042) | 0.753 (0.029) |   96    |

@@ -1,0 +1,349 @@
+---
+title: "r124b meta merge june"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r}
+
+```
+
+
+
+```{r}
+POSITION_MAX <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+
+random_vectors <- function(n) {
+  # Total number of unique combinations possible
+  max_combinations <- prod(POSITION_MAX + 1)
+  if (n > max_combinations) stop(paste("n exceeds total unique combinations:", max_combinations))
+  
+  seen <- list()
+  result <- list()
+  
+  while (length(result) < n) {
+    candidate <- mapply(function(mx) sample(1:mx, size = 1), POSITION_MAX)
+    key <- paste(candidate, collapse = "-")
+    
+    if (!key %in% seen) {
+      seen <- c(seen, key)
+      result <- c(result, list(candidate))
+    }
+  }
+  
+  result
+}
+
+```
+
+
+```{r}
+
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
+
+system.time({
+levels_vec <- random_vectors(n = 1)
+for (lvl in levels_vec){
+  lvl=  c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5) #c(2,1,1,1,3,3,2,2,3,1,2)
+
+tapho_db <- tapho.loader(excel_path, #sum=FALSE , 
+level = lvl #, indet = FALSE#, indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+#exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+print(tapho_db)
+ print(lvl)
+}
+})
+```
+
+```{r}
+
+library(writexl)
+
+tapho_db  |>
+  dplyr::select(site_name:reference) |>
+  write_xlsx("haspa_meta.xlsx")
+```
+
+
+```{r}
+tapho_db
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+
+

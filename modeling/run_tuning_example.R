@@ -22,8 +22,8 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-source("c:/Users/jonas.grabbe/tafi_test-2/modeling/hpa_sdk.R")            # has compute_classification_report_from_confmats()
-source("c:/Users/jonas.grabbe/tafi_test-2/modeling/hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
+source("c:/Users/jonas.grabbe/tafi_test-1/modeling/hpa_sdk.R")            # has compute_classification_report_from_confmats()
+source("c:/Users/jonas.grabbe/tafi_test-1/modeling/hyperparam_tuning_core.R") # includes skeleton_info_for_level, task_recode_data, build_recipe_for_task,
                                    # get_model_spec, tune_single_model_combo, etc.
 
 tidymodels_prefer()
@@ -59,36 +59,40 @@ random_vectors <- function(n) {
 # -----------------------------------------------------------------
 
 # data path 
-excel_path <- "c:/Users/jonas.grabbe/tafi_test-2/hspa.xlsx"
+excel_path <- "c:/Users/jonas.grabbe/tafi_test-1/hspa.xlsx"
 # "c:/Users/Usuario/tafi_test/hspa.xlsx"
 
 # -----------------------------------------------------------------
 # Global settings
 # -----------------------------------------------------------------
-sum_setting <- TRUE #  or FALSE
-tasks        <- c("fc_vs_rest", "4class", "cannibalism_vs_fc") #
-variants     <-  c("ProportionalRep_MNIbased")  # c("pmnau", "remnau") # other
-levels_vec   <- random_vectors(n= 1000)  
-models_vec   <- c(#"SVM_RBF",
- #"SVM_Linear", 
-"RandomForest"
-#, "XGBoost"
-#, "DecisionTree", "KNN", "MLP"
+sum_setting <- TRUE # or FALSE
+tasks        <- c("fc_vs_rest", "4class", "cannibalism_vs_fc")
+variants     <- c("ProportionalRep_MNIbased")  # c("pmnau", "remnau") # other
+
+levels_vec   <- random_vectors(n = 5)
+models_vec   <- c(
+  "SVM_RBF",
+  "SVM_Linear",
+  "RandomForest",
+  "XGBoost",
+  "DecisionTree",
+  "KNN",
+  "MLP"
 )
 
 # repeated CV repeats (3-fold * n_iterations_global)
-n_iterations_global <- 1 #30 # 1
+n_iterations_global <- 5 #30 # 1
 
 # per-model hyperparameter grid sizes
 # (rough guidance: higher for more complex models / bigger search space)
 grid_sizes <- list(
-  SVM_RBF      = 1,#5,#1,#00,  # (cost, rbf_sigma)
-  SVM_Linear   = 1,#5,#200,  # (cost)
-  RandomForest = 1,#5,# #100#,  # (mtry, min_n, trees)
-  XGBoost      = 1,#5,# 1,#500,  # (trees, depth, lr, etc.) <- huge space
-  DecisionTree = 1,#5,#1,#500,  # (depth, min_n, cost_complexity)
-  KNN          = 1,#5,#500,  # (neighbors, weight_func, dist_power)
-  MLP          = 1 #55#500   # (hidden_units, penalty, epochs) - can behave messy
+  SVM_RBF      = 1500,#5,#1,#00,  # (cost, rbf_sigma)
+  SVM_Linear   = 1500,#5,#200,  # (cost)
+  RandomForest = 1500,#5,# #100#,  # (mtry, min_n, trees)
+  XGBoost      = 1500,#5,# 1,#500,  # (trees, depth, lr, etc.) <- huge space
+  DecisionTree = 1500,#5,#1,#500,  # (depth, min_n, cost_complexity)
+  KNN          = 1500,#5,#500,  # (neighbors, weight_func, dist_power)
+  MLP          = 1500 #55#500   # (hidden_units, penalty, epochs) - can behave messy
 )
 
 system.time({

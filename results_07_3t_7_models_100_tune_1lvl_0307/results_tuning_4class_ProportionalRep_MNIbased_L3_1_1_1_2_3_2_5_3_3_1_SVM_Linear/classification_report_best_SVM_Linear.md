@@ -1,0 +1,12 @@
+Table: Classification report for BEST hyperparameter combo (SVM_Linear, 4class, ProportionalRep_MNIbased L3_1_1_1_2_3_2_5_3_3_1)
+Best .config = pre0_mod073_post0
+
+|        Class         |   Precision   |    Recall     |      F1       | Support |
+|:--------------------:|:-------------:|:-------------:|:-------------:|:-------:|
+|     Cannibalism      | 0.508 (0.026) | 0.573 (0.083) | 0.536 (0.042) |   22    |
+|      Carnivore       | 0.505 (0.043) | 0.714 (0.087) | 0.591 (0.055) |   14    |
+|   Funerary Context   | 0.949 (0.017) | 0.767 (0.027) | 0.848 (0.015) |   48    |
+| Geological transport | 0.595 (0.089) | 0.617 (0.046) | 0.604 (0.061) |   12    |
+|       accuracy       |               |               | 0.696 (0.047) |   96    |
+|      macro_avg       | 0.639 (0.044) | 0.668 (0.061) | 0.645 (0.043) |   96    |
+|     weighted_avg     | 0.739 (0.032) | 0.696 (0.051) | 0.708 (0.033) |   96    |

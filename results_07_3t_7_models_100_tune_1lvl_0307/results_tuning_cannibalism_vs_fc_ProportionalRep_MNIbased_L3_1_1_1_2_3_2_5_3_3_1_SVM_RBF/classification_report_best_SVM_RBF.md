@@ -1,0 +1,10 @@
+Table: Classification report for BEST hyperparameter combo (SVM_RBF, cannibalism_vs_fc, ProportionalRep_MNIbased L3_1_1_1_2_3_2_5_3_3_1)
+Best .config = pre0_mod067_post0
+
+|      Class       |   Precision   |    Recall     |      F1       | Support |
+|:----------------:|:-------------:|:-------------:|:-------------:|:-------:|
+|   Cannibalism    | 0.674 (0.020) | 0.773 (0.056) | 0.720 (0.035) |   22    |
+| Funerary Context | 0.889 (0.024) | 0.829 (0.009) | 0.858 (0.013) |   48    |
+|     accuracy     |               |               | 0.811 (0.096) |   70    |
+|    macro_avg     | 0.782 (0.022) | 0.801 (0.032) | 0.789 (0.024) |   70    |
+|   weighted_avg   | 0.821 (0.023) | 0.811 (0.024) | 0.814 (0.019) |   70    |

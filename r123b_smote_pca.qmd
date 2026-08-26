@@ -66,6 +66,61 @@ print(tapho_db)
 
 
 ```{r}
+source("tapho_loader_wfl_features.R")
+  #tapho_loader_wfl_features
+
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+
+excel_path <- "hspa.xlsx"
+
+system.time({
+levels_vec <- random_vectors(n = 1)
+#for (lvl in levels_vec){
+ lvl= c(2,1,1,1,3,3,2,2,3,1,2)
+ print(lvl)
+
+ result        <- tapho.loader.wfl.features(excel_path,# sum= FALSE , 
+level = lvl #, indet = FALSE#, indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+#exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+  raw_df_id  <- result$db_id
+  raw_df_sum <- result$db_sum
+print( raw_df_id)
+print( raw_df_sum)
+#}
+})
+
+```
+
+
+```{r}
+appended <- filter(result$db_id, count_type == FALSE) |>
+  mutate(site_id = as.character(site_id))
+
+ind_sum_db <- bind_rows(result$db_sum, appended)
+```
+
+
+```{r}
+
+dim(raw_df_id)
+dim(appended)
+dim(raw_df_sum)
+nrow(ind_sum_db)   # 33
+dim(ind_sum_db)    # 33 252
+print(ind_sum_db$site_name)
+```
+
+
+```{r}
+tapho_db  <- ind_sum_db
+
+```
+
+
+```{r}
 #sum(tapho_db$mni)
 #colnames(raw_df_id)
 
@@ -90,6 +145,10 @@ colnames(tb)
 ```
 
 
+```{r}
+tb
+
+```
 
 
 ```{r}
@@ -125,9 +184,367 @@ tb
 
 ```
 
+
+```{r}
+library(dplyr)
+library(tidyr)
+k <- 1
+# list-columns to keep, name by element, and widen
+feature_cols <- c(
+  "MNE", "MNAU", "MAU", "PercentMAU", "PercentMNAU",
+  "ReMNAU", "AcReMNAU", "CumulativeReMNAU",
+  "ProportionalRep_MNIbased"
+)
+
+# other list-columns to remove
+list_cols_drop <- c(
+  "bone.level", "element", "One_Skeleton_count", "Skeleton_Section",
+  "MNI_used_assemblage", "Mean_MNAU_assemblage",
+  "Mean_part_abundance", "OverallProportionalRep_assemblage"
+)
+
+# name a row's value vector by its element labels,
+# dropping slots whose label is missing/empty/purely numeric
+name_by_element <- function(vec, elems) {
+  v  <- setNames(vec, elems)
+  nm <- names(v)
+
+  v[!is.na(nm) & nm != "" & !grepl("^[0-9]+$", nm)]
+}
+
+tb <- tapho_db %>%
+  mutate(
+    across(
+      all_of(feature_cols),
+      ~ Map(name_by_element, .x, element)
+    )
+  ) %>%
+  select(-any_of(list_cols_drop)) %>%
+  unnest_wider(
+    all_of(feature_cols),
+    names_sep = "_"
+  )
+
+print(tb)
+
+#tail(colnames(tb), 220)
+colnames(tb)
+#  (sum_count:mne_cranium) all between exluding the listes names      
+
+```
+
+
+
 ```{r}
 colnames(tb)
 
+source("rfe_randomforest_taphonomy.R")
+source("pca_funerary_surface_color.R")
+#colnames(tb)
+#res <- run_rfe(tb, task_name = "fc_vs_rest")
+focus_sites <- c(
+  "Kleine Feldhofer Grotte", "Bilzingsleben", "Weimar-Ehringsdorf",
+  "Scladina Cave", "Engis / Schmerling Cave", "Trou de la Naulette",
+  "Bolomor Cave", "Cova de les Malladetes (Barx, Valencia, Spain)",
+  "Cova del Parpalló (Parpalló Cave)", "Saint-Césaire",
+  "Steinheim an der Murr", "Ochoz 1, Ochoz 2", "Peștera Muierii",
+ "Sima de los Huesos 89"                                                           
+, "Sima de los Huesos 90"                                                           
+, "Sima de los Huesos 95"                                                           
+,"Sima de los Huesos 16"                                                           
+, "Sima de los Huesos 26"
+)
+
+
+
+res <- run_rfe(tb, task_name = "fc_vs_rest", unknown_sites = focus_sites)  # just these
+
+res$unknown_all_features$table     # site, predicted, p_model1..3, p_focus_mean
+res$unknown_all_features$mean_acc  # == step-1 mean CV accuracy
+pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites, pc2_min     = NULL)
+
+```
+
+
+
+```{r}
+source("pca_funerary_surface_color.R")
+pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites)
+```
+
+
+```{r}
+source("pca_funerary_surface_color.R")
+
+pr3 <- pca_surface_plotly(
+  tapho_db,
+  res,
+  task_name = "fc_vs_rest",
+  focus_class = "Funerary Context",
+  cv_folds = 3,
+  unknown_sites = focus_sites,
+  #pc1_min = -2,
+  #pc1_max =  2,
+  #pc2_min = -2,
+  pc2_max =  2,
+  #pc3_min = -2,
+  #pc3_max =  2,
+  out_html = "pca_funerary_3d_plotly.html"
+)
+```
+
+
+```{r}
+source("pca_funerary_surface_color.R")
+
+focus_sites_ind <- c("Bilzingsleben", "Bolomor IV-VI", "Carihuela", "CdF Adult",
+  "CdF Juvenil", "Ceprano", "Engis 2", "Feldhofer Grotte",
+  "La Naulette", "Malladetes", 
+  #"Mancos 5MT-10010 Feature 3","Mancos Yellow Jacket 5MT-3", 
+  "PM I", "PM II", "Ochoz I", "Ochoz II",
+  "Saint-Césaire", "Scladina", "SH-89", "SH-90", "SH-95", "SH-98",
+  "SH-98", "Steinheim", "WE A", "WE B", "WE C", "WE D",
+  "WE E", "WE F", "WE G", "WE H")
+
+pr3_ind <- pca_surface_plotly_ind(
+  tapho_db,
+  res,
+  n_features = 20,
+  task_name = "fc_vs_rest",
+  focus_class = "Funerary Context",
+  unknown_sites = focus_sites_ind,
+  label_var = "ind_name",
+  pc1_min = -4,
+  pc1_max =  4,
+  pc2_min = -2,
+  pc2_max =  2,
+  pc3_min = -4,
+  pc3_max =  4,
+  #iso_probs = c(0.25, 0.5, 0.75),
+  out_html = "pca_funerary_3d_ind.html"
+)
 
 
 ```
+
+
+```{r}
+colnames(tapho_db)
+c("MNE", "MNAU", "MAU", "PercentMAU", "PercentMNAU", "ReMNAU",
+  "AcReMNAU", "CumulativeReMNAU", "ProportionalRep_MNIbased",
+  "MNI_used_assemblage",  "OverallProportionalRep_assemblage")
+ take_first <-  c("Mean_MNAU_assemblage", "Mean_part_abundance")
+
+
+```
+
+
+```{r}
+tapho_db  |>
+  dplyr::select(site_id, ind_name ,sum_count:OverallProportionalRep_assemblage)
+```
+
+
+```{r}
+
+tapho_db$Mean_part_abundance[[1]]
+```
+
+
+```{r}
+#length(c(1,1,1,1,1,1,1,1,1,1,1))
+#POSITION_MAX <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+
+steps <- lapply(1:5, function(k) pmin(k, POSITION_MAX))
+# steps[[1]] ... steps[[5]] are your five vectors
+
+# or as a 5 x 11 matrix:
+do.call(rbind, steps)
+```
+
+
+```{r}
+
+v1 <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
+v2 <- c(2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2)
+v3 <- c(3, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3)
+v4 <- c(4, 1, 1, 3, 4, 3, 3, 4, 4, 3, 4)
+v5 <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)   # == POSITION_MAX
+```
+
+
+```{r}
+source("tapho_loader_new.R")
+source("tapho_loader_wfl_features.R")
+
+excel_path   <- "hspa-test.xlsx"
+POSITION_MAX <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+
+elementwise_cols <- c("MNE", "MNAU", "MAU", "PercentMAU", "PercentMNAU",
+                      "ReMNAU", "AcReMNAU", "CumulativeReMNAU",
+                      "ProportionalRep_MNIbased")            # the 9-col block
+firstentry_cols  <- c("Mean_MNAU_assemblage", "Mean_part_abundance",
+                      "OverallProportionalRep_assemblage")   # repeated-value lists
+
+# pull the single value out of a cell whether it's a list-col or already atomic
+first_val <- function(x) {
+  if (is.list(x)) vapply(x, function(e) as.numeric(e[[1]]), numeric(1))
+  else as.numeric(x)
+}
+
+tb_by_level <- vector("list", 5)
+
+system.time({
+  for (k in 1:5) {
+    lvl <- pmin(k, POSITION_MAX)
+    cat("Step", k, ":", lvl, "\n")
+
+    result <- tapho.loader.wfl.features(excel_path, level = lvl)
+
+    # ---- assemble tapho_db exactly as before ----
+    appended <- dplyr::filter(result$db_id, count_type == FALSE) |>
+      dplyr::mutate(site_id = as.character(site_id))
+    tapho_db <- dplyr::bind_rows(result$db_sum, appended)
+
+    # ---- piece 1: metadata (46 x 7), no suffix ----
+    meta <- tapho_db %>%
+      dplyr::select(site_name:sum_count, -site_id, -taphonomic_context)
+
+    # ---- piece 2: the 9 feature cols, one value per row, suffixed _lvl_k ----
+    feat <- tapho_db %>%
+      dplyr::transmute(dplyr::across(dplyr::all_of(elementwise_cols), first_val)) %>%
+      dplyr::rename_with(~ paste0(.x, "_lvl_", k))
+
+    # ---- piece 3: the 3 repeated-value cols, first entry only, suffixed _lvl_k ----
+    firsts <- tapho_db %>%
+      dplyr::transmute(dplyr::across(dplyr::all_of(firstentry_cols), first_val)) %>%
+      dplyr::rename_with(~ paste0(.x, "_lvl_", k))
+
+    # ---- 46 x 3  +  46 x 7  +  46 x 9  ->  46 x 19 ----
+    tb_by_level[[k]] <- dplyr::bind_cols(meta, feat, firsts)
+  }
+})
+
+# horizontal append across all k: keep metadata once, add each level's columns
+tb <- purrr::reduce(seq_along(tb_by_level), function(acc, k) {
+  if (k == 1) return(tb_by_level[[k]])
+  dplyr::bind_cols(acc, dplyr::select(tb_by_level[[k]], dplyr::ends_with(paste0("_lvl_", k))))
+}, .init = NULL)
+```
+
+
+```{r}
+
+tb
+```
+
+
+```{r}
+tapho_db$Mean_MNAU_assemblage
+
+```
+
+
+```{r}
+tapho_db$first_assemblage <- purrr::map_dbl(tapho_db$Mean_MNAU_assemblage, 1)
+```
+
+
+```{r}
+
+tapho_db$Mean_MNAU_assemblage_value        <- purrr::map_dbl(tapho_db$Mean_MNAU_assemblage, 1)
+tapho_db$Mean_part_abundance_value         <- purrr::map_dbl(tapho_db$Mean_part_abundance, 1)
+tapho_db$OverallProportionalRep_assemblage_value <- purrr::map_dbl(tapho_db$OverallProportionalRep_assemblage, 1)
+```
+
+
+```{r}
+colnames(tapho_db)
+
+```
+
+
+```{r}
+source("mulitilevel_tapho_db.R")
+system.time({
+  tb <- build_multilevel_tapho_features(
+    excel_path = "hspa.xlsx",
+    position_max = c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5),
+    levels = 1:5
+  )
+})
+
+```
+
+
+```{r}
+
+tail(tb)
+names(tb)
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+
+
