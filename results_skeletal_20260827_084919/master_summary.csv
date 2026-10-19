@@ -1,0 +1,9 @@
+"experiment","label","status","grouping","groups","n","n_sig","top_feature","top_eps2","permF","permP","disp_p"
+"01_taphonomic_context","Accumulation process","ok","taphonomic_context",5,128,59,"mnau_upper_appendicular_mean",0.65,14.51,1e-04,0.011
+"02_depositional_environment","Depositional environment","ok","karstic_system",2,122,0,"ProportionalRep_MNIbased_radius",0.076,2.63,0.0496,0.046
+"03_funerary_x_cultural_period","Mortuary practice through time","ok","funerary_context × cultural_period",5,34,49,"mne_arms",0.584,5.72,1e-04,0.059
+"04_age_category","Age-related preservation","ok","age_category",5,124,1,"mne_arms",0.141,2.73,0.0034,0
+"05_chronology_attrition","Time depth / attrition","ok","geological_period",3,149,1,"mne_arms",0.101,1.64,0.1317,0
+"06_hominin_species","Species (context-controlled)","ok","hominin_species",4,149,56,"density_evenness",0.183,2.57,0.0101,0.002
+"07_region_country","Research-history / sampling bias","ok","region",5,138,40,"mnau_distal_appendicular_mean",0.164,2.13,0.0205,0.081
+"08_recovery_method","Recovery / excavation bias","ok","discovery_context",3,95,0,"distal_appendicular_continuity_hm",0.101,0.79,0.539,0.677

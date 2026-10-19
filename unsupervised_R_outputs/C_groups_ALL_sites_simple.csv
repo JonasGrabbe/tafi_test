@@ -1,0 +1,127 @@
+Dataset,Group,site_name
+Held-out labelled test,C0,Grotta Guattari
+Held-out labelled test,C0,La Quina
+Reference fit,C0,Archi
+Reference fit,C0,Combe Grenal
+Reference fit,C0,Cova del Gegant
+Reference fit,C0,Dali Tianshuigou
+Reference fit,C0,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)"
+Reference fit,C0,Grotte du Bison (Arcy-sur-Cure)
+Reference fit,C0,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga"
+Reference fit,C0,Hahnöfersand
+Reference fit,C0,Hathnora
+Reference fit,C0,Hohlenstein-Stadel
+Reference fit,C0,Jarama VI rockshelter
+Reference fit,C0,Kajiado
+Reference fit,C0,Kalamakia
+Reference fit,C0,Le Placard
+Reference fit,C0,Les Pradelles (Marillac-le-Franc)
+Reference fit,C0,Les Rochers-de-Villeneuve
+Reference fit,C0,Los Moros de Gabasa
+Reference fit,C0,Mauer
+Reference fit,C0,Mojokerto
+Reference fit,C0,Netankheri
+Reference fit,C0,Ngandong
+Reference fit,C0,Ngawi
+Reference fit,C0,Première Caverne du Bay-Bonnet (Fonds-de-Forêt)
+Reference fit,C0,Reilingen
+Reference fit,C0,Saccopastore
+Reference fit,C0,Sambungmacan
+Reference fit,C0,Valdegoba Cave
+Reference fit,C0,Vindija
+Reference fit,C0,Vindija
+Reference fit,C0,Vindija
+Unknown projection,C0,Bilzingsleben
+Unknown projection,C0,Bolomor Cave
+Unknown projection,C0,"Caverna delle Fate (Finale Ligure, Liguria, Italy)"
+Unknown projection,C0,Ceprano
+Unknown projection,C0,"Cova de les Malladetes (Barx, Valencia, Spain)"
+Unknown projection,C0,Cova del Parpalló (Parpalló Cave)
+Unknown projection,C0,Cueva de la Carigüela
+Unknown projection,C0,Engis / Schmerling Cave
+Unknown projection,C0,"Ochoz 1, Ochoz 2"
+Unknown projection,C0,Peștera Muierii
+Unknown projection,C0,Scladina Cave
+Unknown projection,C0,Steinheim an der Murr
+Unknown projection,C0,Trou de la Naulette
+Held-out labelled test,C1,Brno II
+Held-out labelled test,C1,Cro-Magnon I
+Held-out labelled test,C1,Crow Creek
+Held-out labelled test,C1,Cueva de los Torrejones
+Held-out labelled test,C1,Goat’s Hole (Paviland Cave)
+Held-out labelled test,C1,Grotte de Fontbrégoua
+Held-out labelled test,C1,Grotte de Fontbrégoua
+Held-out labelled test,C1,Krapina
+Held-out labelled test,C1,La Ferrassie
+Held-out labelled test,C1,Mancos 5MT-10010 Feature 3
+Held-out labelled test,C1,Mladeč Caves
+Held-out labelled test,C1,Moula-Guercy
+Held-out labelled test,C1,Qafzeh Cave
+Held-out labelled test,C1,Teshik-Tash Cave
+Held-out labelled test,C1,Yellow Jacket 5MT-3
+Reference fit,C1,Abri Pataud
+Reference fit,C1,Arago
+Reference fit,C1,Atxuri-I Cave
+Reference fit,C1,Boquete de Zafarraya
+Reference fit,C1,Brillenhöhle
+Reference fit,C1,Cova Foradada
+Reference fit,C1,Cova Foradada
+Reference fit,C1,Coves de Santa Maira
+Reference fit,C1,Cueva de la Buena Pinta
+Reference fit,C1,Cueva del Camino
+Reference fit,C1,El Espinoso Cave
+Reference fit,C1,El Mirador
+Reference fit,C1,Gough's Cave
+Reference fit,C1,Gran Dolina
+Reference fit,C1,Grotte des Perrats
+Reference fit,C1,Herxheim
+Reference fit,C1,Kiik-Koba
+Reference fit,C1,La Tolita Cama de Huesos
+Reference fit,C1,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France"
+Reference fit,C1,Maszycka Cave
+Reference fit,C1,Předmostí
+Reference fit,C1,Roc de les Orenetes
+Reference fit,C1,Troisième caverne of Goyet
+Reference fit,C1,Vunda Locus
+Reference fit,C1,Xemxija tombs
+Unknown projection,C1,Kleine Feldhofer Grotte
+Unknown projection,C1,Saint-Césaire
+Unknown projection,C1,Sima de los Huesos 15
+Unknown projection,C1,Sima de los Huesos 24
+Unknown projection,C1,Sima de los Huesos 89
+Unknown projection,C1,Sima de los Huesos 90
+Unknown projection,C1,Sima de los Huesos 95
+Unknown projection,C1,Sima de los Huesos PNAS
+Unknown projection,C1,Weimar-Ehringsdorf
+Held-out labelled test,C2,Cova Gran de Santa Linya
+Held-out labelled test,C2,El Sidrón J1
+Held-out labelled test,C2,Kebara Cave
+Held-out labelled test,C2,La Chapelle-aux-Saints
+Held-out labelled test,C2,Mugharet es-Skhul
+Held-out labelled test,C2,Regourdou
+Held-out labelled test,C2,Roc de Marsal
+Held-out labelled test,C2,Shanidar Cave
+Held-out labelled test,C2,Sima de las Palomas
+Held-out labelled test,C2,Tabun Cave (Mugharet et-Tabun)
+Reference fit,C2,Abri de Raymonden (Chancelade)
+Reference fit,C2,Abrigo do Lagar Velho
+Reference fit,C2,Amud Cave
+Reference fit,C2,Baousso da Torre (Bausu da Ture)
+Reference fit,C2,Cueva de Malalmuerzo
+Reference fit,C2,Dame du Cavillon
+Reference fit,C2,Dolní Věstonice I
+Reference fit,C2,Dolní Věstonice II
+Reference fit,C2,El Mirón Cave
+Reference fit,C2,Grotte des Hoteaux
+Reference fit,C2,Le Moustier I
+Reference fit,C2,Le Moustier II
+Reference fit,C2,Oberkassel
+Reference fit,C2,Ojo Guareña
+Reference fit,C2,Pavlov I
+Reference fit,C2,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)"
+Reference fit,C2,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”)
+Reference fit,C2,San Juan ante Portam Latinam
+Reference fit,C2,Sunghir
+Reference fit,C2,Tepecik-Çiftlik
+Reference fit,C2,Vado all'Arancio
+Unknown projection,C2,Spy cave

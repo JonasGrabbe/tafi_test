@@ -65,6 +65,16 @@ print(tapho_db)
 ```
 
 
+
+
+```{r}
+
+
+tapho_db$CumulativeReMNAU
+
+```
+
+
 ```{r}
 #sum(tapho_db$mni)
 #colnames(raw_df_id)
@@ -127,7 +137,9 @@ tb
 
 ```{r}
 colnames(tb)
+```
 
-
-
+```{r}
+source("tapho_loader_new.R")
+tapho.loader.wfl(excel_path,level = lvl  )
 ```

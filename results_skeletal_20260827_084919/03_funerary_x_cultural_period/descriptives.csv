@@ -1,0 +1,316 @@
+"feature","group","n","median","iqr","mean","sd"
+"ProportionalRep_MNIbased_carpal","Inhumation single | Upper Paleolithic",13,0.375,0.5,0.372596153846154,0.32134906932956
+"ProportionalRep_MNIbased_carpal","Inhumation single | Middle Paleolithic",11,0.125,0.260416666666667,0.209848484848485,0.306673588731166
+"ProportionalRep_MNIbased_carpal","Collective burial | Neolithic",4,0.170572916666667,0.280181412623066,0.186398448488045,0.173773791570752
+"ProportionalRep_MNIbased_carpal","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_carpal","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_cervical","Inhumation single | Upper Paleolithic",13,0.428571428571429,0.428571428571429,0.406593406593407,0.372736496838387
+"ProportionalRep_MNIbased_cervical","Inhumation single | Middle Paleolithic",11,0.333333333333333,0.614285714285714,0.457575757575758,0.380120845717517
+"ProportionalRep_MNIbased_cervical","Collective burial | Neolithic",4,0.16376582278481,0.173794992680617,0.197529169895806,0.19541229005328
+"ProportionalRep_MNIbased_cervical","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_cervical","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_clavicle","Inhumation single | Upper Paleolithic",13,0.5,0.5,0.653846153846154,0.375533808099405
+"ProportionalRep_MNIbased_clavicle","Inhumation single | Middle Paleolithic",11,0.5,0.5,0.672727272727273,0.261116483933547
+"ProportionalRep_MNIbased_clavicle","Collective burial | Neolithic",4,0.379464285714286,0.196463105284308,0.326423422744625,0.213478939958348
+"ProportionalRep_MNIbased_clavicle","Carnivore den(transport) | Middle Paleolithic",3,0,0.0833333333333333,0.0555555555555556,0.0962250448649376
+"ProportionalRep_MNIbased_clavicle","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_femur","Inhumation single | Upper Paleolithic",13,1,0,0.846153846153846,0.315212585978058
+"ProportionalRep_MNIbased_femur","Inhumation single | Middle Paleolithic",11,0.666666666666667,0.5,0.66969696969697,0.316387436699073
+"ProportionalRep_MNIbased_femur","Collective burial | Neolithic",4,0.49875678119349,0.4882145368696,0.553941882660237,0.431695588583944
+"ProportionalRep_MNIbased_femur","Carnivore den(transport) | Middle Paleolithic",3,0,0.0625,0.0416666666666667,0.0721687836487032
+"ProportionalRep_MNIbased_femur","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.25,0.166666666666667,0.288675134594813
+"ProportionalRep_MNIbased_fibula","Inhumation single | Upper Paleolithic",13,1,0.5,0.788461538461538,0.351279711764622
+"ProportionalRep_MNIbased_fibula","Inhumation single | Middle Paleolithic",11,0.5,0.275,0.571212121212121,0.312169016639216
+"ProportionalRep_MNIbased_fibula","Collective burial | Neolithic",4,0.305775316455696,0.371857419127989,0.37510988045007,0.341407070725949
+"ProportionalRep_MNIbased_fibula","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_fibula","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.03125,0.0208333333333333,0.0360843918243516
+"ProportionalRep_MNIbased_humerus","Inhumation single | Upper Paleolithic",13,1,0.5,0.769230769230769,0.330112645886762
+"ProportionalRep_MNIbased_humerus","Inhumation single | Middle Paleolithic",11,1,0.5,0.759090909090909,0.28880632075682
+"ProportionalRep_MNIbased_humerus","Collective burial | Neolithic",4,0.476237567811935,0.408056748543299,0.531769577556761,0.328688386414367
+"ProportionalRep_MNIbased_humerus","Carnivore den(transport) | Middle Paleolithic",3,0,0.0625,0.0416666666666667,0.0721687836487032
+"ProportionalRep_MNIbased_humerus","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_metacarpal","Inhumation single | Upper Paleolithic",13,0.45,0.8,0.542307692307692,0.406123007764763
+"ProportionalRep_MNIbased_metacarpal","Inhumation single | Middle Paleolithic",11,0.4,0.313333333333333,0.402121212121212,0.289106949558167
+"ProportionalRep_MNIbased_metacarpal","Collective burial | Neolithic",4,0.310714285714286,0.16372061482821,0.346993670886076,0.135228766963671
+"ProportionalRep_MNIbased_metacarpal","Carnivore den(transport) | Middle Paleolithic",3,0,0.0166666666666667,0.0111111111111111,0.0192450089729875
+"ProportionalRep_MNIbased_metacarpal","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_os_coxae","Inhumation single | Upper Paleolithic",13,0.5,0,0.384615384615385,0.219264504826757
+"ProportionalRep_MNIbased_os_coxae","Inhumation single | Middle Paleolithic",11,0.5,0.225,0.375757575757576,0.16522100289606
+"ProportionalRep_MNIbased_os_coxae","Collective burial | Neolithic",4,0.208333333333333,0.138180944846293,0.208865468655817,0.128185020181571
+"ProportionalRep_MNIbased_os_coxae","Carnivore den(transport) | Middle Paleolithic",3,0,0.0625,0.0416666666666667,0.0721687836487032
+"ProportionalRep_MNIbased_os_coxae","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_radius","Inhumation single | Upper Paleolithic",13,1,0.5,0.692307692307692,0.383973823894152
+"ProportionalRep_MNIbased_radius","Inhumation single | Middle Paleolithic",11,0.5,0.5,0.681818181818182,0.337099931231621
+"ProportionalRep_MNIbased_radius","Collective burial | Neolithic",4,0.407747513562387,0.392623254470565,0.47569915360659,0.374297460936608
+"ProportionalRep_MNIbased_radius","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_radius","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_tibia","Inhumation single | Upper Paleolithic",13,1,0,0.846153846153846,0.315212585978058
+"ProportionalRep_MNIbased_tibia","Inhumation single | Middle Paleolithic",11,0.65,0.5,0.672727272727273,0.317303983873222
+"ProportionalRep_MNIbased_tibia","Collective burial | Neolithic",4,0.408312613019892,0.445058205244123,0.486894401748041,0.418971384847068
+"ProportionalRep_MNIbased_tibia","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"ProportionalRep_MNIbased_tibia","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"ReMNAU_cervical","Inhumation single | Upper Paleolithic",13,0.022452288886117,0.0356035638943102,0.0252463430120824,0.0225039219423676
+"ReMNAU_cervical","Inhumation single | Middle Paleolithic",11,0.0343684791947956,0.032323130225761,0.0338701993853603,0.0223568743880811
+"ReMNAU_cervical","Collective burial | Neolithic",4,0.0215211814962883,0.00948378087989389,0.0194552885807563,0.0144037875325787
+"ReMNAU_cervical","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"ReMNAU_cervical","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"ReMNAU_radius","Inhumation single | Upper Paleolithic",13,0.0523886740676063,0.0235840518862481,0.0494754783747534,0.0282347232972477
+"ReMNAU_radius","Inhumation single | Middle Paleolithic",11,0.0548542770010383,0.015721984903343,0.0537716279753943,0.0230280105574131
+"ReMNAU_radius","Collective burial | Neolithic",4,0.052961853135423,0.0201790994529079,0.0493333177063127,0.0232498257389663
+"ReMNAU_radius","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"ReMNAU_radius","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"ReMNAU_ulna","Inhumation single | Upper Paleolithic",13,0.0536141694590713,0.0266168432096664,0.0622654748032193,0.0317019914801752
+"ReMNAU_ulna","Inhumation single | Middle Paleolithic",11,0.0533333333333333,0.0282669194574796,0.0463609418479724,0.0280181892056006
+"ReMNAU_ulna","Collective burial | Neolithic",4,0.057308684281629,0.0222041899587201,0.0481287171936248,0.0301774022156288
+"ReMNAU_ulna","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"ReMNAU_ulna","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"all_sections_dominance","Inhumation single | Upper Paleolithic",13,0.278491859468723,0.0995307651328651,0.323072814541292,0.136750680376599
+"all_sections_dominance","Inhumation single | Middle Paleolithic",11,0.301848027609596,0.110758207478568,0.307026070373925,0.131894716511362
+"all_sections_dominance","Collective burial | Neolithic",4,0.230241315255721,0.0606373387094132,0.257621090411467,0.0768591794434664
+"all_sections_dominance","Carnivore den(transport) | Middle Paleolithic",3,0.923076923076923,0.0420393559928445,0.899821109123435,0.0466147199312894
+"all_sections_dominance","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,0.0783783783783784,0.947747747747748,0.0905035557108062
+"appendicular_dominance","Inhumation single | Upper Paleolithic",13,0.237086161338791,0.11763466180717,0.281106832891616,0.0869712694582807
+"appendicular_dominance","Inhumation single | Middle Paleolithic",11,0.267878049922727,0.0457624351979667,0.284051673816742,0.0738687130842502
+"appendicular_dominance","Collective burial | Neolithic",4,0.273921005471262,0.0695288857249769,0.283044222218482,0.0647873260171263
+"appendicular_dominance","Carnivore den(transport) | Middle Paleolithic",3,0.846153846153846,0.119047619047619,0.869352869352869,0.120731030016929
+"appendicular_dominance","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,0.0666666666666667,0.955555555555556,0.0769800358919501
+"appendicular_dominance_refined","Inhumation single | Upper Paleolithic",13,0.237086161338791,0.11763466180717,0.281106832891616,0.0869712694582807
+"appendicular_dominance_refined","Inhumation single | Middle Paleolithic",11,0.267878049922727,0.0457624351979667,0.284051673816742,0.0738687130842502
+"appendicular_dominance_refined","Collective burial | Neolithic",4,0.273921005471262,0.0695288857249769,0.283044222218482,0.0647873260171263
+"appendicular_dominance_refined","Carnivore den(transport) | Middle Paleolithic",3,0.846153846153846,0.119047619047619,0.869352869352869,0.120731030016929
+"appendicular_dominance_refined","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,0.0666666666666667,0.955555555555556,0.0769800358919501
+"density_adjusted_appendicular_axial_contrast","Inhumation single | Upper Paleolithic",13,-0.0640903977586915,0.0996882862923339,-0.0689898080410698,0.112016860805419
+"density_adjusted_appendicular_axial_contrast","Inhumation single | Middle Paleolithic",11,-0.143015286292662,0.116980538440043,-0.139083752675983,0.101784026328434
+"density_adjusted_appendicular_axial_contrast","Collective burial | Neolithic",4,-0.034481552796398,0.0908380584845273,-0.0303896421048807,0.0642428149175611
+"density_adjusted_appendicular_axial_contrast","Carnivore den(transport) | Middle Paleolithic",3,-0.0619770572329189,0.110014468663165,-0.0848856288720915,0.111789021402591
+"density_adjusted_appendicular_axial_contrast","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.000931619480948791,0.0114032543533158,-0.0023812614939436,0.0117586391692138
+"density_evenness","Inhumation single | Upper Paleolithic",13,0.877377632104207,0.152758477984837,0.850088885401661,0.144751991157215
+"density_evenness","Inhumation single | Middle Paleolithic",11,0.936102583748888,0.0765282533829987,0.912255811741117,0.0708606602686026
+"density_evenness","Collective burial | Neolithic",4,0.954220163260206,0.0221126889610409,0.953869998911155,0.0293464198159098
+"density_evenness","Carnivore den(transport) | Middle Paleolithic",3,0.230324180839727,0.19539332772761,0.207036945431649,0.196431346836962
+"density_evenness","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.235598158545925,0.157065439030617,0.27204532051414
+"distal_appendicular_continuity_hm","Inhumation single | Upper Paleolithic",13,0.122487843834052,0.254236391855916,0.144065829909488,0.136034021012169
+"distal_appendicular_continuity_hm","Inhumation single | Middle Paleolithic",11,0.0824904560344124,0.10863119229379,0.0916600264537562,0.0774820843400547
+"distal_appendicular_continuity_hm","Collective burial | Neolithic",4,0.151753251897672,0.070714340474071,0.144802013231866,0.0613400450115921
+"distal_appendicular_continuity_hm","Carnivore den(transport) | Middle Paleolithic",3,0,9.99868034838803e-07,6.66578689892535e-07,1.15454815813657e-06
+"distal_appendicular_continuity_hm","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1.99833876429621e-06,9.99896021627502e-07,1.33271026918374e-06,1.15416117773722e-06
+"dominance_gap_all","Inhumation single | Upper Paleolithic",13,0.140672051709603,0.0245522743871742,0.163479992940927,0.149153686916951
+"dominance_gap_all","Inhumation single | Middle Paleolithic",11,0.155608714813478,0.126327163152078,0.152718932169166,0.133530841742051
+"dominance_gap_all","Collective burial | Neolithic",4,0.0486644467151013,0.0603841742525611,0.0911355634181455,0.0983139388579945
+"dominance_gap_all","Carnivore den(transport) | Middle Paleolithic",3,0.846153846153846,0.0923843598262203,0.805179316807224,0.0989649128827155
+"dominance_gap_all","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,0.131081081081081,0.912612612612613,0.151359394895659
+"dominant_axial_share","Inhumation single | Upper Paleolithic",13,0.277237200853193,0.102684139067579,0.308505821826863,0.151216647711103
+"dominant_axial_share","Inhumation single | Middle Paleolithic",11,0.301848238345328,0.110758293946854,0.303478982657466,0.136518943529452
+"dominant_axial_share","Collective burial | Neolithic",4,0.230241743087924,0.0606374096023831,0.257621564106033,0.0768590467006316
+"dominant_axial_share","Carnivore den(transport) | Middle Paleolithic",3,0.923077207099543,0.465106162515455,0.617776715563427,0.535004705595192
+"dominant_axial_share","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.000103989185124747,0.42161467920796,0.281121782363018,0.486813298694234
+"effective_sections_hill1","Inhumation single | Upper Paleolithic",13,6.49601794246469,2.32384683600806,6.22862923588311,1.61595523824767
+"effective_sections_hill1","Inhumation single | Middle Paleolithic",11,7.37263621607534,0.80288868957203,6.92876722168123,1.61308632697815
+"effective_sections_hill1","Collective burial | Neolithic",4,7.61839144625175,0.890034288548589,7.65040958430724,0.787228892892938
+"effective_sections_hill1","Carnivore den(transport) | Middle Paleolithic",3,1.33820683793793,0.112346886026489,1.39531581269525,0.122751370860869
+"effective_sections_hill1","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,0.380093250405479,1.25339550027032,0.438893880877526
+"low_density_axial_survival","Inhumation single | Upper Paleolithic",13,0.0555555555555556,0.170277777777778,0.101452991452991,0.0945469319906499
+"low_density_axial_survival","Inhumation single | Middle Paleolithic",11,0.142777777777778,0.152666666666667,0.221198653198653,0.220884137970077
+"low_density_axial_survival","Collective burial | Neolithic",4,0.0993971435268904,0.0561912941893823,0.0950178233066551,0.0415304625277681
+"low_density_axial_survival","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"low_density_axial_survival","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.000434027777777778,0.000289351851851852,0.00050117210867155
+"low_density_share","Inhumation single | Upper Paleolithic",13,0.200514138817481,0.131711923608702,0.205089222320521,0.0990416908973022
+"low_density_share","Inhumation single | Middle Paleolithic",11,0.306215173844634,0.159575404930105,0.30344468022826,0.130772833669973
+"low_density_share","Collective burial | Neolithic",4,0.234161430153356,0.041027255160233,0.249429161768348,0.0432030186540846
+"low_density_share","Carnivore den(transport) | Middle Paleolithic",3,0,0.423076923076923,0.282051282051282,0.48852715085276
+"low_density_share","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.0175675675675676,0.0117117117117117,0.0202852797282841
+"low_density_survival_index","Inhumation single | Upper Paleolithic",13,0.130208333333333,0.142708333333333,0.15661858974359,0.0989421095562819
+"low_density_survival_index","Inhumation single | Middle Paleolithic",11,0.153958333333333,0.1316875,0.229535353535354,0.182645838098006
+"low_density_survival_index","Collective burial | Neolithic",4,0.113500205110173,0.0280178547882761,0.108134341146357,0.0312148442748808
+"low_density_survival_index","Carnivore den(transport) | Middle Paleolithic",3,0,0.00520833333333333,0.00347222222222222,0.0060140653040586
+"low_density_survival_index","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.000325520833333333,0.000217013888888889,0.000375879081503663
+"lower_appendicular_continuity_hm","Inhumation single | Upper Paleolithic",13,0.191957234932226,0.309276539499907,0.178575653428514,0.148035624812152
+"lower_appendicular_continuity_hm","Inhumation single | Middle Paleolithic",11,0.144001027775832,0.108912224639301,0.119467824541563,0.0845033308393679
+"lower_appendicular_continuity_hm","Collective burial | Neolithic",4,0.106761661343685,0.0438653861654853,0.1262240981244,0.0601540311281238
+"lower_appendicular_continuity_hm","Carnivore den(transport) | Middle Paleolithic",3,0,1.49987401732557e-06,9.99916011550382e-07,1.73190533530689e-06
+"lower_appendicular_continuity_hm","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1.49998800028799e-06,7.48601435001349e-07,1.99901163154097e-06,8.64391431527267e-07
+"lower_appendicular_evenness","Inhumation single | Upper Paleolithic",13,0.904428459836034,0.323551891308977,0.699122580254636,0.381718269102442
+"lower_appendicular_evenness","Inhumation single | Middle Paleolithic",11,0.866965449080781,0.271520409726254,0.731116746655919,0.306128172876926
+"lower_appendicular_evenness","Collective burial | Neolithic",4,0.909280864805876,0.0173026813251407,0.904452646103256,0.0190717209565691
+"lower_appendicular_evenness","Carnivore den(transport) | Middle Paleolithic",1,0.499606995248903,0,0.499606995248903,NA
+"lower_appendicular_evenness","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.178713851682656,0.119142567788438,0.206360980753793
+"lower_appendicular_evenness_refined","Inhumation single | Upper Paleolithic",13,0.904428459836034,0.323551891308977,0.699122580254636,0.381718269102442
+"lower_appendicular_evenness_refined","Inhumation single | Middle Paleolithic",11,0.866965449080781,0.271520409726254,0.731116746655919,0.306128172876926
+"lower_appendicular_evenness_refined","Collective burial | Neolithic",4,0.909280864805876,0.0173026813251407,0.904452646103256,0.0190717209565691
+"lower_appendicular_evenness_refined","Carnivore den(transport) | Middle Paleolithic",1,0.499606995248903,0,0.499606995248903,NA
+"lower_appendicular_evenness_refined","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.178713851682656,0.119142567788438,0.206360980753793
+"mnau_appendicular_mean","Inhumation single | Upper Paleolithic",13,0.281191724941725,0.116132478632479,0.288861992708147,0.105814424504159
+"mnau_appendicular_mean","Inhumation single | Middle Paleolithic",11,0.243269230769231,0.0824572649572649,0.229193361352452,0.0695410144516937
+"mnau_appendicular_mean","Collective burial | Neolithic",4,0.156051935152674,0.0860184462711164,0.176397958721765,0.0717012291217982
+"mnau_appendicular_mean","Carnivore den(transport) | Middle Paleolithic",3,0.00820707070707071,0.00373263888888889,0.00753893097643098,0.00377722134638549
+"mnau_appendicular_mean","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.0016025641025641,0.00445713141025641,0.00450721153846154,0.00511798328967997
+"mnau_arms","Inhumation single | Upper Paleolithic",13,0.416666666666667,0.166666666666667,0.371794871794872,0.150675118891579
+"mnau_arms","Inhumation single | Middle Paleolithic",11,0.333333333333333,0.263888888888889,0.336111111111111,0.145906066518543
+"mnau_arms","Collective burial | Neolithic",4,0.220530063291139,0.202405544672159,0.246343073973612,0.183296138894053
+"mnau_arms","Carnivore den(transport) | Middle Paleolithic",3,0,0.0104166666666667,0.00694444444444444,0.0120281306081172
+"mnau_arms","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"mnau_arms_legs_diff","Inhumation single | Upper Paleolithic",13,0,0.125,0.00160256410256411,0.139873645666854
+"mnau_arms_legs_diff","Inhumation single | Middle Paleolithic",11,0.0347222222222222,0.0833333333333333,0.0599747474747475,0.14843163900946
+"mnau_arms_legs_diff","Collective burial | Neolithic",4,0.038221914556962,0.0349081033169245,0.0341572535747773,0.0244946842457096
+"mnau_arms_legs_diff","Carnivore den(transport) | Middle Paleolithic",3,0,0.0182291666666667,0.00173611111111111,0.0182910655431471
+"mnau_arms_legs_diff","Carnivore Scavenge (in situ) | Middle Paleolithic",3,-0.0078125,0.03125,-0.0234375,0.0340538979964115
+"mnau_arms_legs_logratio","Inhumation single | Upper Paleolithic",13,0,0.28768140578667,-0.846403345215129,3.566141092119
+"mnau_arms_legs_logratio","Inhumation single | Middle Paleolithic",11,0.133531106910849,0.228789624071977,0.232371231432528,0.740957314677006
+"mnau_arms_legs_logratio","Collective burial | Neolithic",4,0.142203674971969,0.0619435118008727,0.142594823145055,0.054006162702739
+"mnau_arms_legs_logratio","Carnivore den(transport) | Middle Paleolithic",3,0,9.80052450923056,0.0958886911159104,9.80087631984211
+"mnau_arms_legs_logratio","Carnivore Scavenge (in situ) | Middle Paleolithic",3,-8.96360828585336,5.52146891779825,-6.66884870714995,5.8682246168028
+"mnau_arms_to_legs_ratio","Inhumation single | Upper Paleolithic",13,1,0.277777148149605,1.14273284641536,0.647128009146083
+"mnau_arms_to_legs_ratio","Inhumation single | Middle Paleolithic",11,1.14285681632728,0.240739687247656,1.77175401092178,2.13735076698251
+"mnau_arms_to_legs_ratio","Collective burial | Neolithic",4,1.15304929334339,0.0714639798100796,1.15452459388866,0.0623618202619109
+"mnau_arms_to_legs_ratio","Carnivore den(transport) | Middle Paleolithic",3,1,10417.1666346687,6945.11113244308,12028.4192751685
+"mnau_arms_to_legs_ratio","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.000127983618096884,0.499992000127998,0.333381327787367,0.577308707488461
+"mnau_axial_main_mean","Inhumation single | Upper Paleolithic",13,0.0833333333333333,0.255416666666667,0.152179487179487,0.141820397985975
+"mnau_axial_main_mean","Inhumation single | Middle Paleolithic",11,0.214166666666667,0.228791666666667,0.240888888888889,0.158652898756848
+"mnau_axial_main_mean","Collective burial | Neolithic",4,0.0787772660488246,0.0725165108457237,0.0943472970455763,0.06509909715016
+"mnau_axial_main_mean","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"mnau_axial_main_mean","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.000651041666666667,0.000434027777777778,0.000751758163007325
+"mnau_column_trunk_mean","Inhumation single | Upper Paleolithic",13,0.153333333333333,0.236944444444444,0.193760683760684,0.133764956058948
+"mnau_column_trunk_mean","Inhumation single | Middle Paleolithic",11,0.195740740740741,0.229194444444444,0.244632996632997,0.147004192576239
+"mnau_column_trunk_mean","Collective burial | Neolithic",4,0.11159204563213,0.0795677146122162,0.114152090937758,0.0592401161245595
+"mnau_column_trunk_mean","Carnivore den(transport) | Middle Paleolithic",3,0,0.00833333333333333,0.00555555555555556,0.00962250448649376
+"mnau_column_trunk_mean","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.000434027777777778,0.000289351851851852,0.00050117210867155
+"mnau_cv","Inhumation single | Upper Paleolithic",13,0.889712702859467,0.432069838009577,1.01590981796214,0.434585201595582
+"mnau_cv","Inhumation single | Middle Paleolithic",11,0.856072371428582,0.248424688282131,0.915011481329275,0.409787607382785
+"mnau_cv","Collective burial | Neolithic",4,0.749123583616466,0.218114616159565,0.775084695154246,0.205724685865768
+"mnau_cv","Carnivore den(transport) | Middle Paleolithic",3,2.90208385988121,0.128042779740289,2.83000775251479,0.142447103808545
+"mnau_cv","Carnivore Scavenge (in situ) | Middle Paleolithic",3,3.16227766016838,0.26492908853103,2.98565826781436,0.305913761159105
+"mnau_distal_appendicular_mean","Inhumation single | Upper Paleolithic",13,0.283653846153846,0.232517482517482,0.196073157611619,0.140694166335929
+"mnau_distal_appendicular_mean","Inhumation single | Middle Paleolithic",11,0.120629370629371,0.0949300699300699,0.128123013350286,0.0870344012243124
+"mnau_distal_appendicular_mean","Collective burial | Neolithic",4,0.153221778221778,0.0728965017928626,0.149306642285282,0.064870175836324
+"mnau_distal_appendicular_mean","Carnivore den(transport) | Middle Paleolithic",3,0,0.00189393939393939,0.00126262626262626,0.00218693283783949
+"mnau_distal_appendicular_mean","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.000600961538461538,0.00240384615384615,0.00180288461538462,0.00261953061510858
+"mnau_dominance_of_region_means","Inhumation single | Upper Paleolithic",13,0.127795130603371,0.0602217625418207,0.15939824799472,0.0776427539548286
+"mnau_dominance_of_region_means","Inhumation single | Middle Paleolithic",11,0.135785929314957,0.0364316288143722,0.159868709591694,0.0623121924064641
+"mnau_dominance_of_region_means","Collective burial | Neolithic",4,0.157669130564023,0.0330763666527917,0.154683822674171,0.0310148315768894
+"mnau_dominance_of_region_means","Carnivore den(transport) | Middle Paleolithic",3,0.573281010066542,0.13088324521106,0.489380341889506,0.149699417057627
+"mnau_dominance_of_region_means","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.444444444444444,0.069727101707752,0.437057125044225,0.070019983422619
+"mnau_evenness_minus_dominance","Inhumation single | Upper Paleolithic",13,0.530298741235382,0.241317874835603,0.453515827311285,0.270678689951466
+"mnau_evenness_minus_dominance","Inhumation single | Middle Paleolithic",11,0.556405375651592,0.163225205462303,0.518842990354939,0.256746486728468
+"mnau_evenness_minus_dominance","Collective burial | Neolithic",4,0.651313790915091,0.11129299543837,0.624339561060747,0.118546620542446
+"mnau_evenness_minus_dominance","Carnivore den(transport) | Middle Paleolithic",3,-0.803709313442689,0.0727998240193485,-0.756237138344029,0.0836063390760323
+"mnau_evenness_minus_dominance","Carnivore Scavenge (in situ) | Middle Paleolithic",3,-1,0.201157721371229,-0.86589485241918,0.232276929166502
+"mnau_foot","Inhumation single | Upper Paleolithic",13,0.134615384615385,0.173076923076923,0.126849112426035,0.117395971891525
+"mnau_foot","Inhumation single | Middle Paleolithic",11,0.0884615384615385,0.0889423076923077,0.0906468531468532,0.087562415301467
+"mnau_foot","Collective burial | Neolithic",4,0.138407165750916,0.0630957995722632,0.125420111599898,0.0516719958268317
+"mnau_foot","Carnivore den(transport) | Middle Paleolithic",3,0,0,0,0
+"mnau_foot","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.00120192307692308,0.00480769230769231,0.00360576923076923,0.00523906123021716
+"mnau_gini","Inhumation single | Upper Paleolithic",13,0.448711939698141,0.193385070368906,0.477731290538905,0.148560957353755
+"mnau_gini","Inhumation single | Middle Paleolithic",11,0.397505001060969,0.089369398494558,0.421050240046765,0.153057685399262
+"mnau_gini","Collective burial | Neolithic",4,0.387772361897628,0.100825825571939,0.384510345125967,0.0758764326986365
+"mnau_gini","Carnivore den(transport) | Middle Paleolithic",3,0.882724252491694,0.00769230769230778,0.878856802112616,0.00838984367906288
+"mnau_gini","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.9,0.0224324324324324,0.885045045045045,0.0259027418068859
+"mnau_girdle_mean","Inhumation single | Upper Paleolithic",13,0.325,0.25,0.299519230769231,0.135171128479269
+"mnau_girdle_mean","Inhumation single | Middle Paleolithic",11,0.225,0.0941666666666667,0.253333333333333,0.0989835494188583
+"mnau_girdle_mean","Collective burial | Neolithic",4,0.14047619047619,0.107505227169982,0.150622786693791,0.0729796976612338
+"mnau_girdle_mean","Carnivore den(transport) | Middle Paleolithic",3,0.0208333333333333,0.0125,0.0152777777777778,0.013393959390268
+"mnau_girdle_mean","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"mnau_hands","Inhumation single | Upper Paleolithic",13,0.272727272727273,0.409090909090909,0.265297202797203,0.210372909927094
+"mnau_hands","Inhumation single | Middle Paleolithic",11,0.147727272727273,0.131818181818182,0.165599173553719,0.150433336624047
+"mnau_hands","Collective burial | Neolithic",4,0.168036390692641,0.0826972040134619,0.173193172970665,0.0805845946584111
+"mnau_hands","Carnivore den(transport) | Middle Paleolithic",3,0,0.00378787878787879,0.00252525252525253,0.00437386567567898
+"mnau_hands","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"mnau_heip_evenness","Inhumation single | Upper Paleolithic",13,0.610668660273855,0.258205204000895,0.580958803987012,0.179550582027519
+"mnau_heip_evenness","Inhumation single | Middle Paleolithic",11,0.708070690675038,0.0892098543968922,0.658751913520137,0.179231814108683
+"mnau_heip_evenness","Collective burial | Neolithic",4,0.735376827361305,0.0988926987276211,0.73893439825636,0.0874698769881042
+"mnau_heip_evenness","Carnivore den(transport) | Middle Paleolithic",3,0.0375785375486593,0.0124829873362766,0.0439239791883609,0.0136390412067632
+"mnau_heip_evenness","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0.0422325833783865,0.028155055585591,0.0487659867641696
+"mnau_inverse_simpson","Inhumation single | Upper Paleolithic",13,5.83965535888929,2.29811960747757,5.50568595115052,1.6223364390361
+"mnau_inverse_simpson","Inhumation single | Middle Paleolithic",11,6.02564303521477,1.41800824138719,5.98548909743505,1.72196207991125
+"mnau_inverse_simpson","Collective burial | Neolithic",4,6.64995150853398,1.2654701391583,6.53884904675783,1.16822995563476
+"mnau_inverse_simpson","Carnivore den(transport) | Middle Paleolithic",3,1.16551724137931,0.1002510898438,1.2230050205639,0.111932634122279
+"mnau_inverse_simpson","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,0.190925608155849,1.12728373877057,0.220461902527945
+"mnau_legs","Inhumation single | Upper Paleolithic",13,0.375,0.1875,0.370192307692308,0.131253815573354
+"mnau_legs","Inhumation single | Middle Paleolithic",11,0.25,0.21875,0.276136363636364,0.141471567975528
+"mnau_legs","Collective burial | Neolithic",4,0.182308148734177,0.167497441355234,0.212185820398835,0.161287280242983
+"mnau_legs","Carnivore den(transport) | Middle Paleolithic",3,0,0.0078125,0.00520833333333333,0.0090210979560879
+"mnau_legs","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.0078125,0.03125,0.0234375,0.0340538979964115
+"mnau_limb_shaft_proxy_mean","Inhumation single | Upper Paleolithic",13,0.395833333333333,0.135416666666667,0.37099358974359,0.122776702145576
+"mnau_limb_shaft_proxy_mean","Inhumation single | Middle Paleolithic",11,0.25,0.182291666666667,0.306123737373737,0.123058541074666
+"mnau_limb_shaft_proxy_mean","Collective burial | Neolithic",4,0.201419106012658,0.184951493013696,0.229264447186223,0.172207819978504
+"mnau_limb_shaft_proxy_mean","Carnivore den(transport) | Middle Paleolithic",3,0.0078125,0.00520833333333333,0.00607638888888889,0.00542100520694305
+"mnau_limb_shaft_proxy_mean","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.00390625,0.015625,0.01171875,0.0170269489982058
+"mnau_lower_appendicular_mean","Inhumation single | Upper Paleolithic",13,0.309615384615385,0.156410256410256,0.257988165680473,0.120433551450898
+"mnau_lower_appendicular_mean","Inhumation single | Middle Paleolithic",11,0.2,0.0845192307692307,0.206301476301476,0.0715318559726347
+"mnau_lower_appendicular_mean","Collective burial | Neolithic",4,0.15027949078582,0.0700878488160925,0.163789203573618,0.0690037818195198
+"mnau_lower_appendicular_mean","Carnivore den(transport) | Middle Paleolithic",3,0,0.0109375,0.00729166666666667,0.0126295371385231
+"mnau_lower_appendicular_mean","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.00320512820512821,0.00891426282051282,0.00901442307692308,0.0102359665793599
+"mnau_pelvic","Inhumation single | Upper Paleolithic",13,0.4,0.2,0.276923076923077,0.173943698524581
+"mnau_pelvic","Inhumation single | Middle Paleolithic",11,0.24,0.233333333333333,0.252121212121212,0.140057708164034
+"mnau_pelvic","Collective burial | Neolithic",4,0.173809523809524,0.055249773960217,0.153761678722122,0.0765440676851104
+"mnau_pelvic","Carnivore den(transport) | Middle Paleolithic",3,0,0.025,0.0166666666666667,0.0288675134594813
+"mnau_pelvic","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"mnau_postcranial_total_mean","Inhumation single | Upper Paleolithic",13,0.284956293706294,0.130121649184149,0.254691366325982,0.0992743502172359
+"mnau_postcranial_total_mean","Inhumation single | Middle Paleolithic",11,0.220139131701632,0.102958916083916,0.232117243236561,0.083317307717143
+"mnau_postcranial_total_mean","Collective burial | Neolithic",4,0.135181885954236,0.0841943443372438,0.155885293302718,0.0699371637523797
+"mnau_postcranial_total_mean","Carnivore den(transport) | Middle Paleolithic",3,0.00615530303030303,0.00279947916666667,0.00565419823232323,0.00283291600978911
+"mnau_postcranial_total_mean","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.00145232371794872,0.00330528846153846,0.0034889155982906,0.00374642652127132
+"mnau_proximal_appendicular_mean","Inhumation single | Upper Paleolithic",13,0.329166666666667,0.15625,0.33525641025641,0.112404993121447
+"mnau_proximal_appendicular_mean","Inhumation single | Middle Paleolithic",11,0.308333333333333,0.142222222222222,0.279728535353535,0.0849140897465548
+"mnau_proximal_appendicular_mean","Collective burial | Neolithic",4,0.181094244462025,0.16028120630944,0.189943616940007,0.114364666248008
+"mnau_proximal_appendicular_mean","Carnivore den(transport) | Middle Paleolithic",3,0.0104166666666667,0.00559895833333333,0.0106770833333333,0.00560349864358073
+"mnau_proximal_appendicular_mean","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.001953125,0.0078125,0.005859375,0.00851347449910288
+"mnau_region_mean_evenness","Inhumation single | Upper Paleolithic",13,0.952344487629979,0.0494038049251125,0.942665868868461,0.0679519921559806
+"mnau_region_mean_evenness","Inhumation single | Middle Paleolithic",11,0.97489994112946,0.0309152888452285,0.95372977371166,0.0488265951251026
+"mnau_region_mean_evenness","Collective burial | Neolithic",4,0.974356514142839,0.0220607138330551,0.969841483299922,0.0174531702861108
+"mnau_region_mean_evenness","Carnivore den(transport) | Middle Paleolithic",3,0.488335280724362,0.101872705472474,0.536935179331477,0.11022481902343
+"mnau_region_mean_evenness","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.599308400537296,0.0497515712609783,0.567720544416975,0.056776432907015
+"mnau_shoulder","Inhumation single | Upper Paleolithic",13,0.3125,0.25,0.322115384615385,0.1727650323713
+"mnau_shoulder","Inhumation single | Middle Paleolithic",11,0.25,0.0625,0.254545454545455,0.103421577667684
+"mnau_shoulder","Collective burial | Neolithic",4,0.160342261904762,0.106561275617842,0.147483894665461,0.0978966074860907
+"mnau_shoulder","Carnivore den(transport) | Middle Paleolithic",3,0,0.0208333333333333,0.0138888888888889,0.0240562612162344
+"mnau_shoulder","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"mnau_simpson_dominance","Inhumation single | Upper Paleolithic",13,0.171242982426655,0.0711371802721912,0.208576812951756,0.111092626433177
+"mnau_simpson_dominance","Inhumation single | Middle Paleolithic",11,0.165957391461102,0.0364317484105701,0.189091531427528,0.0912570594966701
+"mnau_simpson_dominance","Collective burial | Neolithic",4,0.150889502536505,0.0305353385924374,0.156924844249895,0.0300397896169561
+"mnau_simpson_dominance","Carnivore den(transport) | Middle Paleolithic",3,0.857988165680474,0.0643945764147358,0.822022419779449,0.0715318993896851
+"mnau_simpson_dominance","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,0.138166544923302,0.907888970051132,0.159540983808937
+"mnau_simpson_evenness","Inhumation single | Upper Paleolithic",13,0.583965535888929,0.229811960747758,0.550568595115052,0.162233643903611
+"mnau_simpson_evenness","Inhumation single | Middle Paleolithic",11,0.602564303521477,0.141800824138719,0.598548909743505,0.172196207991125
+"mnau_simpson_evenness","Collective burial | Neolithic",4,0.664995150853398,0.12654701391583,0.653884904675783,0.116822995563476
+"mnau_simpson_evenness","Carnivore den(transport) | Middle Paleolithic",3,0.116551724137931,0.0100251089843799,0.12230050205639,0.0111932634122279
+"mnau_simpson_evenness","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0.1,0.0190925608155849,0.112728373877057,0.0220461902527945
+"mnau_top2_share_mcnaughton","Inhumation single | Upper Paleolithic",13,0.45016527046643,0.138367124814102,0.482665636141658,0.137825020334214
+"mnau_top2_share_mcnaughton","Inhumation single | Middle Paleolithic",11,0.451074060963343,0.0912541403720613,0.461333208578684,0.138781254369873
+"mnau_top2_share_mcnaughton","Collective burial | Neolithic",4,0.424212876010903,0.0650509069565642,0.424106617404788,0.0652936140821849
+"mnau_top2_share_mcnaughton","Carnivore den(transport) | Middle Paleolithic",3,1,0.00830564784053156,0.994462901439646,0.00959053603305026
+"mnau_top2_share_mcnaughton","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,0.0256756756756756,0.982882882882883,0.0296477165259537
+"mnau_upper_appendicular_mean","Inhumation single | Upper Paleolithic",13,0.340909090909091,0.207070707070707,0.31973581973582,0.126651499062761
+"mnau_upper_appendicular_mean","Inhumation single | Middle Paleolithic",11,0.238636363636364,0.0832281144781145,0.252085246403428,0.105921494607096
+"mnau_upper_appendicular_mean","Collective burial | Neolithic",4,0.174034150843882,0.0897392724017856,0.189006713869913,0.0764261951225446
+"mnau_upper_appendicular_mean","Carnivore den(transport) | Middle Paleolithic",3,0.00694444444444444,0.00820707070707071,0.00778619528619529,0.00823938213402857
+"mnau_upper_appendicular_mean","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"mnau_vertebrae_to_thorax_ratio","Inhumation single | Upper Paleolithic",13,1.11607101403209,4.27532172062814,28847.5699157851,66175.5467437521
+"mnau_vertebrae_to_thorax_ratio","Inhumation single | Middle Paleolithic",11,0.946969938015433,0.356696444538233,0.980369725579306,0.524342502698057
+"mnau_vertebrae_to_thorax_ratio","Collective burial | Neolithic",4,2.09281302236713,1.13213561034304,1.90488715769116,0.897963806769091
+"mnau_vertebrae_to_thorax_ratio","Carnivore den(transport) | Middle Paleolithic",3,1,0,1,0
+"mnau_vertebrae_to_thorax_ratio","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,1302.08333333333,869.055555555556,1503.51632601465
+"mne_arms","Inhumation single | Upper Paleolithic",13,5,1,4.76923076923077,2.04751256218556
+"mne_arms","Inhumation single | Middle Paleolithic",11,6,1.5,7.63636363636364,8.27372621341469
+"mne_arms","Collective burial | Neolithic",4,227,89.75,184.25,116.780063937871
+"mne_arms","Carnivore den(transport) | Middle Paleolithic",3,0,0.5,0.333333333333333,0.577350269189626
+"mne_arms","Carnivore Scavenge (in situ) | Middle Paleolithic",3,0,0,0,0
+"mne_arms_to_legs_ratio","Inhumation single | Upper Paleolithic",13,0.750000031249996,0.208333314236112,0.857051235411398,0.485350495900918
+"mne_arms_to_legs_ratio","Inhumation single | Middle Paleolithic",11,0.857142877551017,0.180555519868833,1.32882349413362,1.60303658823245
+"mne_arms_to_legs_ratio","Collective burial | Neolithic",4,0.864787582211743,0.0535984629470152,0.865894220723697,0.0467713126505148
+"mne_arms_to_legs_ratio","Carnivore den(transport) | Middle Paleolithic",3,1,500000.4999995,333334.000000333,577350.557864688
+"mne_arms_to_legs_ratio","Carnivore Scavenge (in situ) | Middle Paleolithic",3,9.99999000001e-07,0.4999995000005,0.333333999999333,0.577349691839934
+"mne_cranial_share","Inhumation single | Upper Paleolithic",13,0.0243902558001188,0.0139158641960703,0.0463867691923577,0.0741803550504335
+"mne_cranial_share","Inhumation single | Middle Paleolithic",11,0.0263158022853184,0.0185165700599881,0.0432150917180247,0.0511496191448159
+"mne_cranial_share","Collective burial | Neolithic",4,0.0162630105804773,0.00878502518703655,0.0228874682389067,0.0156937089750071
+"mne_cranial_share","Carnivore den(transport) | Middle Paleolithic",3,0.666666777777741,0.388888734567955,0.481481637860032,0.42065971985516
+"mne_cranial_share","Carnivore Scavenge (in situ) | Middle Paleolithic",3,9.99999000001e-07,0.124999593750477,0.0833340624993177,0.144337098200863
+"mne_vertebrae_to_thorax_ratio","Inhumation single | Upper Paleolithic",13,1.07142856632653,4.1043470528546,1384616.75327466,3176435.49970216
+"mne_vertebrae_to_thorax_ratio","Inhumation single | Middle Paleolithic",11,0.90909091322314,0.342429737205308,0.941153327831998,0.503374911162492
+"mne_vertebrae_to_thorax_ratio","Collective burial | Neolithic",4,2.00913738846762,1.08690684137923,1.82871641990966,0.862070942125374
+"mne_vertebrae_to_thorax_ratio","Carnivore den(transport) | Middle Paleolithic",3,1,0,1,0
+"mne_vertebrae_to_thorax_ratio","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,5e+05,333334.333333333,577350.269189626
+"postcranial_dominance_refined","Inhumation single | Upper Paleolithic",13,0.212849881295259,0.139528657618744,0.246278152112116,0.089035578157854
+"postcranial_dominance_refined","Inhumation single | Middle Paleolithic",11,0.198161744327258,0.0398674153202583,0.225758468474673,0.0811567376413165
+"postcranial_dominance_refined","Collective burial | Neolithic",4,0.227536500537649,0.0572700372886344,0.244377969133446,0.0636897937322958
+"postcranial_dominance_refined","Carnivore den(transport) | Middle Paleolithic",3,0.846153846153846,0.119047619047619,0.869352869352869,0.120731030016929
+"postcranial_dominance_refined","Carnivore Scavenge (in situ) | Middle Paleolithic",3,1,0.163793103448276,0.890804597701149,0.189131984734533

@@ -1,0 +1,375 @@
+---
+title: "r720b tapho_load sept"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+
+```{r}
+POSITION_MAX <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+
+random_vectors <- function(n) {
+  # Total number of unique combinations possible
+  max_combinations <- prod(POSITION_MAX + 1)
+  if (n > max_combinations) stop(paste("n exceeds total unique combinations:", max_combinations))
+  
+  seen <- list()
+  result <- list()
+  
+  while (length(result) < n) {
+    candidate <- mapply(function(mx) sample(1:mx, size = 1), POSITION_MAX)
+    key <- paste(candidate, collapse = "-")
+    
+    if (!key %in% seen) {
+      seen <- c(seen, key)
+      result <- c(result, list(candidate))
+    }
+  }
+  
+  result
+}
+```
+
+
+```{r}
+
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
+
+system.time({
+levels_vec <- random_vectors(n = 1)
+for (lvl in levels_vec){
+  lvl= c(4,1,1,2,1,2,2,2,2,1,4)
+
+tapho_db <- tapho.loader(excel_path, sum=TRUE , 
+level = NULL , indet = TRUE,# indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+#exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+print(tapho_db)
+ print(lvl)
+}
+})
+
+```
+```{r}
+
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
+
+system.time({
+levels_vec <- random_vectors(n = 1)
+for (lvl in levels_vec){
+  lvl= c(4,1,1,2,1,2,2,2,2,1,4)
+
+tapho_db <- tapho.loader(excel_path, sum=FALSE
+ , 
+level = NULL , indet = TRUE,# indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+#exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+print(tapho_db)
+ print(lvl)
+}
+})
+
+```
+
+
+```{r}
+
+
+cat("FIRST")
+flush.console()
+
+Sys.sleep(1)
+
+cat("\rSECOND")
+flush.console()
+```
+
+
+```{r}
+make_tapho_status <- function(
+  i,
+  n,
+  site,
+  label = "Tapho-loading",
+  icons = c(
+    "🦴",
+    "💀",
+    "🪨",
+    "🪨",
+    "🔥",
+    "🦴",
+    "🔥",
+    "💀",
+    "🦴",
+    "🪨"
+  )
+) {
+
+  progress <- i / n
+  percent <- round(progress * 100)
+
+  # Number of icons currently revealed
+  icon_steps <- ceiling(
+    progress * length(icons)
+  )
+
+  icon_steps <- max(
+    1,
+    min(length(icons), icon_steps)
+  )
+
+  # Accumulating assemblage
+  icon_progress <- paste0(
+    icons[seq_len(icon_steps)],
+    collapse = ""
+  )
+
+  # Width occupied by the complete 10-icon sequence
+  full_icons <- paste0(
+    icons,
+    collapse = ""
+  )
+
+  full_width <- nchar(
+    full_icons,
+    type = "width"
+  )
+
+  current_width <- nchar(
+    icon_progress,
+    type = "width"
+  )
+
+  # Reserve the remaining icon area so that the
+  # site counter never moves left/right.
+  icon_field <- paste0(
+    icon_progress,
+    strrep(
+      " ",
+      max(0, full_width - current_width)
+    )
+  )
+
+  sprintf(
+    "%s (%d%%):  %s     %d / %d sites · %s",
+    label,
+    percent,
+    icon_field,
+    i,
+    n,
+    site
+  )
+}
+
+```
+
+
+```{r}
+total_start <- Sys.time()
+n <- 125
+status_line <- ""
+
+cli::cli_progress_message(
+  "{status_line}"
+)
+
+for (i in seq_len(n)) {
+
+  site <- sites[
+    ((i - 1) %% length(sites)) + 1
+  ]
+
+  status_line <- make_tapho_status(
+    i = i,
+    n = n,
+    site = site
+  )
+
+  cli::cli_progress_update(
+    force = TRUE
+  )
+
+  Sys.sleep(0.15)
+}
+
+cli::cli_progress_done()
+total_time <- as.numeric(
+  difftime(
+    Sys.time(),
+    total_start,
+    units = "secs"
+  )
+)
+
+cli::cli_progress_done()
+
+cat(
+  "Tapho-loaded:  🦴💀🪨🔥🦴💀🪨🔥🦴💀\n",
+  sprintf(
+    "%d / %d sites · finished in %.1f sec\n",
+    n_sheets,
+    n_sheets,
+    total_time
+  ),
+  sep = ""
+)
+```
+
+
+```{r}
+sites <- c(
+  "Abri Pataud",
+  "La Ferrassie",
+  "Le Placard"
+)
+
+n <- 27
+
+cat("\033[?25l")
+
+for (i in seq_len(n)) {
+
+  draw_tapho_panel(
+    i = i,
+    n = n,
+    site = sites[((i - 1) %% length(sites)) + 1]
+  )
+
+  Sys.sleep(0.2)
+}
+
+cat("\033[?25h\n")
+
+```
+
+
+```{r}
+make_tapho_status <- function(i, n, site, width = cli::console_width()) {
+
+  progress <- i / n
+
+  # 10-step bones
+  bone_steps <- ceiling(progress * 10)
+  bone_steps <- max(1, min(10, bone_steps))
+
+  bones <- strrep("🦴", bone_steps)
+
+  # Core text that should be preserved
+  right <- sprintf(
+    "%d / %d sites · %s",
+    i,
+    n,
+    site
+  )
+
+  status <- "processing"
+
+  # Fixed separators/spaces
+  fixed_width <-
+    nchar(bones, type = "width") +
+    nchar(status, type = "width") +
+    nchar(right, type = "width") +
+    6
+
+  # Whatever space remains can be used by the bar
+  bar_width <- max(
+    0,
+    width - fixed_width
+  )
+
+  # Cap it so it doesn't become enormous in wide terminals
+  bar_width <- min(bar_width, 30)
+
+  if (bar_width >= 2) {
+
+    filled <- floor(progress * bar_width)
+
+    if (filled >= bar_width) {
+
+      bar <- strrep("━", bar_width)
+
+    } else {
+
+      bar <- paste0(
+        strrep("━", filled),
+        "╸",
+        strrep(
+          " ",
+          max(0, bar_width - filled - 1)
+        )
+      )
+    }
+
+    paste(
+      bones,
+      status,
+      bar,
+      right
+    )
+
+  } else {
+
+    # No room for the bar: drop it entirely
+    paste(
+      bones,
+      status,
+      right
+    )
+  }
+}
+```
+
+
+```{r}
+status_line <- ""
+
+cli::cli_progress_message(
+  "{status_line}"
+)
+
+for (i in seq_len(n)) {
+
+  site <- sites[
+    ((i - 1) %% length(sites)) + 1
+  ]
+
+  status_line <- make_tapho_status(
+    i = i,
+    n = n,
+    site = site
+  )
+
+  cli::cli_progress_update(
+    force = TRUE
+  )
+
+  Sys.sleep(1.95)
+}
+
+cli::cli_progress_done()
+```
+
+
+```{r}
+cat("🦴  Bone fragment\n")
+cat("💀  Cranium\n")
+
+cat("🪨  Lithic artifact\n")
+cat("🔥  Burned bone\n")
+
+```

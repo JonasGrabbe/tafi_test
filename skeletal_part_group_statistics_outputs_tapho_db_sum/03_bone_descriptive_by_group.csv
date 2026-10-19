@@ -1,0 +1,1293 @@
+task,representation,bone,analysis_group,measure,n_site_group_observations,n_unique_sites,mean,median,q25,q75,sd
+four_class,%MNAU,arms_indet,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,arms_indet,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,%MNAU,arms_indet,Cannibalism,abundance,22,22,0.005681818181818182,0,0,0,0.026650089544451305
+four_class,%MNAU,arms_indet,Funerary Context,abundance,48,48,0,0,0,0,0
+four_class,%MNAU,clavicle,Geological transport,abundance,12,12,0.08333333333333333,0,0,0,0.28867513459481287
+four_class,%MNAU,clavicle,Carnivore,abundance,17,17,0.00980392156862745,0,0,0,0.04042260417272216
+four_class,%MNAU,clavicle,Cannibalism,abundance,22,22,0.13291610407741228,0.08287139689578714,0,0.1479166666666667,0.2153224818080962
+four_class,%MNAU,clavicle,Funerary Context,abundance,48,48,0.5052437457232275,0.5,0.24305555555555555,1,0.35253653392845535
+four_class,%MNAU,cranium,Geological transport,abundance,12,12,0.8791666666666667,1,0.95,1,0.2903433182014741
+four_class,%MNAU,cranium,Carnivore,abundance,17,17,0.3426470588235294,0,0,1,0.45481492680766183
+four_class,%MNAU,cranium,Cannibalism,abundance,22,22,0.8176846065981321,0.5,0.34375,1,1.1034362462693117
+four_class,%MNAU,cranium,Funerary Context,abundance,48,48,0.7801611816381447,1,0.712121212121212,1,0.3260154656176232
+four_class,%MNAU,foot,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,foot,Carnivore,abundance,17,17,0.0017251131221719452,0,0,0,0.004900129458357901
+four_class,%MNAU,foot,Cannibalism,abundance,22,22,0.031043898615960696,0.012179487179487174,0.0028331043956043925,0.03064903846153846,0.052367430558476404
+four_class,%MNAU,foot,Funerary Context,abundance,48,48,0.1786287004229587,0.14963549522373054,0.036538461538461534,0.27403846153846156,0.16927411661504085
+four_class,%MNAU,hands,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,hands,Carnivore,abundance,17,17,0.00167029774872912,0,0,0,0.0041164365201941545
+four_class,%MNAU,hands,Cannibalism,abundance,22,22,0.054638084639059836,0.01913956639566395,0.0022569444444444373,0.04128787878787879,0.09527886132297499
+four_class,%MNAU,hands,Funerary Context,abundance,48,48,0.27625372404869614,0.22325102880658437,0.045370370370370366,0.3912037037037037,0.2616986312303139
+four_class,%MNAU,humerus,Geological transport,abundance,12,12,0.020833333333333332,0,0,0,0.07216878364870322
+four_class,%MNAU,humerus,Carnivore,abundance,17,17,0.023284313725490197,0,0,0,0.08131753101068183
+four_class,%MNAU,humerus,Cannibalism,abundance,22,22,0.18820935905886016,0.14735772357723576,0.0625,0.2375,0.2145311514959263
+four_class,%MNAU,humerus,Funerary Context,abundance,48,48,0.6056692948903236,0.5361111111111111,0.3861607142857143,1,0.3485273163103394
+four_class,%MNAU,hyoid,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,hyoid,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,%MNAU,hyoid,Cannibalism,abundance,22,22,0.0020661157024793385,0,0,0,0.009690941652527745
+four_class,%MNAU,hyoid,Funerary Context,abundance,48,48,0.07878154030599581,0,0,0,0.24558366904472884
+four_class,%MNAU,legs,Geological transport,abundance,12,12,0.024826388888888887,0,0,0.004166666666666665,0.07157840282110851
+four_class,%MNAU,legs,Carnivore,abundance,17,17,0.06403186274509803,0,0,0.125,0.12393432324314733
+four_class,%MNAU,legs,Cannibalism,abundance,22,22,0.178386226555226,0.13125,0.05486111111111112,0.29034090909090915,0.14612855862216362
+four_class,%MNAU,legs,Funerary Context,abundance,48,48,0.5117820206276539,0.5,0.28203124999999996,0.75,0.3015701210979888
+four_class,%MNAU,pelvic,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,pelvic,Carnivore,abundance,17,17,0.07352941176470588,0,0,0,0.2462960915359445
+four_class,%MNAU,pelvic,Cannibalism,abundance,22,22,0.267997323568277,0.16097560975609757,0.0625,0.37215909090909094,0.28737149188958194
+four_class,%MNAU,pelvic,Funerary Context,abundance,48,48,0.6902905484481489,0.8405311491685282,0.4088235294117647,1,0.41349788308548124
+four_class,%MNAU,radius,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,radius,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,%MNAU,radius,Cannibalism,abundance,22,22,0.13839265383749863,0.05,0.0046296296296296285,0.19687500000000002,0.218786368090643
+four_class,%MNAU,radius,Funerary Context,abundance,48,48,0.5361845389440282,0.5,0.22916666666666666,1,0.37724469539585503
+four_class,%MNAU,ribs,Geological transport,abundance,12,12,0.0034722222222222216,0,0,0,0.0120281306081172
+four_class,%MNAU,ribs,Carnivore,abundance,17,17,0.004901960784313725,0,0,0,0.02021130208636108
+four_class,%MNAU,ribs,Cannibalism,abundance,22,22,0.11982324398829387,0.054292929292929296,0.01041666666666666,0.1280776515151515,0.18147233379789732
+four_class,%MNAU,ribs,Funerary Context,abundance,48,48,0.2849282118567475,0.1764705882352941,0.08171296296296296,0.40625,0.2975398283424976
+four_class,%MNAU,scapula,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,scapula,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,%MNAU,scapula,Cannibalism,abundance,22,22,0.11736232094463801,0.07575757575757575,0,0.17803030303030304,0.1410734647245067
+four_class,%MNAU,scapula,Funerary Context,abundance,48,48,0.42152385520597246,0.33095238095238094,0.11875,0.6041666666666667,0.35872783278836573
+four_class,%MNAU,shoulder_indet,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,shoulder_indet,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,%MNAU,shoulder_indet,Cannibalism,abundance,22,22,0,0,0,0,0
+four_class,%MNAU,shoulder_indet,Funerary Context,abundance,48,48,0,0,0,0,0
+four_class,%MNAU,sternum,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,sternum,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,%MNAU,sternum,Cannibalism,abundance,22,22,0.05416666666666667,0,0,0,0.213309615497033
+four_class,%MNAU,sternum,Funerary Context,abundance,48,48,0.1441144920369331,0,0,0.12254901960784313,0.28813917641632236
+four_class,%MNAU,thorax_indet,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,thorax_indet,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,%MNAU,thorax_indet,Cannibalism,abundance,22,22,0,0,0,0,0
+four_class,%MNAU,thorax_indet,Funerary Context,abundance,48,48,2.1097046413502085e-5,0,0,0,1.4616462511129747e-4
+four_class,%MNAU,ulna,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,ulna,Carnivore,abundance,17,17,0.004901960784313725,0,0,0,0.02021130208636108
+four_class,%MNAU,ulna,Cannibalism,abundance,22,22,0.1415589281581521,0.0625,0,0.20416666666666666,0.22258998390062107
+four_class,%MNAU,ulna,Funerary Context,abundance,48,48,0.537503738505673,0.5,0.21446078431372548,1,0.3762465313626617
+four_class,%MNAU,vertebrae,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,%MNAU,vertebrae,Carnivore,abundance,17,17,0.005208333333333333,0,0,0,0.020171788261496962
+four_class,%MNAU,vertebrae,Cannibalism,abundance,22,22,0.08264022731583245,0.029979674796747964,0.00361689814814814,0.09375,0.14619229600485936
+four_class,%MNAU,vertebrae,Funerary Context,abundance,48,48,0.3578036938006947,0.31671940928270037,0.08958333333333332,0.609375,0.3079912159612721
+four_class,ReMNAU,arms_indet,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,arms_indet,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,ReMNAU,arms_indet,Cannibalism,abundance,22,22,0.0027282832025329246,0,0,0,0.012796782530421968
+four_class,ReMNAU,arms_indet,Funerary Context,abundance,48,48,0,0,0,0,0
+four_class,ReMNAU,clavicle,Geological transport,abundance,12,12,0.027397260273972605,0,0,0,0.09490689356541794
+four_class,ReMNAU,clavicle,Carnivore,abundance,17,17,0.02836134453781513,0,0,0,0.11693681921394627
+four_class,ReMNAU,clavicle,Cannibalism,abundance,22,22,0.03687005259262767,0.03386618773295351,0,0.05974916247722115,0.03292552492432275
+four_class,ReMNAU,clavicle,Funerary Context,abundance,48,48,0.056128357214037215,0.054215127232535354,0.04109574500848728,0.07029952000450668,0.037068365803207395
+four_class,ReMNAU,cranium,Geological transport,abundance,12,12,0.8556965800018638,1,0.9746938775510204,1,0.33065889367490997
+four_class,ReMNAU,cranium,Carnivore,abundance,17,17,0.39675427601918495,0,0,0.8432432432432433,0.45551464959300086
+four_class,ReMNAU,cranium,Cannibalism,abundance,22,22,0.3440480496024853,0.27684076784852574,0.21433681349072664,0.4105065830080785,0.23352863119127018
+four_class,ReMNAU,cranium,Funerary Context,abundance,48,48,0.11500407647064866,0.08774707057050982,0.07031404283472287,0.1261062701432239,0.11627511893200622
+four_class,ReMNAU,foot,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,foot,Carnivore,abundance,17,17,0.061917903316349485,0,0,0,0.24192095915352999
+four_class,ReMNAU,foot,Cannibalism,abundance,22,22,0.008911696422895509,0.0055736442923496905,0.0029831734766282824,0.010860690335352328,0.00982469450093016
+four_class,ReMNAU,foot,Funerary Context,abundance,48,48,0.024007145149825743,0.02190173929498853,0.006157972092033148,0.03288452360019091,0.022265656208729764
+four_class,ReMNAU,hands,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,hands,Carnivore,abundance,17,17,0.003949855577998221,0,0,0,0.009717310051756587
+four_class,ReMNAU,hands,Cannibalism,abundance,22,22,0.014752654752105738,0.007843957304765524,0.001860436841626745,0.023072259609379517,0.015914538192903237
+four_class,ReMNAU,hands,Funerary Context,abundance,48,48,0.03243373953967024,0.03091686240470557,0.005286389801826525,0.050302307229527776,0.02836901567770997
+four_class,ReMNAU,humerus,Geological transport,abundance,12,12,0.027777777777777776,0,0,0,0.09622504486493763
+four_class,ReMNAU,humerus,Carnivore,abundance,17,17,0.027979539641943732,0,0,0,0.09280558540230038
+four_class,ReMNAU,humerus,Cannibalism,abundance,22,22,0.06649602708135963,0.07071955647060585,0.04761856125178127,0.0809191643333317,0.030532252995325943
+four_class,ReMNAU,humerus,Funerary Context,abundance,48,48,0.07020592850001765,0.07145659447382308,0.05589741540298853,0.08415330624756714,0.025480285811415156
+four_class,ReMNAU,hyoid,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,hyoid,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,ReMNAU,hyoid,Cannibalism,abundance,22,22,5.136478877876918e-4,0,0,0,0.002409222147879406
+four_class,ReMNAU,hyoid,Funerary Context,abundance,48,48,0.008927728246561196,0,0,0,0.022770542295046492
+four_class,ReMNAU,legs,Geological transport,abundance,12,12,0.032811791383219956,0,0,0.00510204081632653,0.095445482008252
+four_class,ReMNAU,legs,Carnivore,abundance,17,17,0.2567207159439397,0,0,0.1875,0.4278341096813302
+four_class,ReMNAU,legs,Cannibalism,abundance,22,22,0.06753797702675848,0.06766454516341897,0.03428682886278207,0.08979031344922976,0.0462162933635749
+four_class,ReMNAU,legs,Funerary Context,abundance,48,48,0.060855845261276825,0.0630677973436967,0.042186241446888005,0.07683511805268613,0.025870343792951125
+four_class,ReMNAU,pelvic,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,pelvic,Carnivore,abundance,17,17,0.03353658536585366,0,0,0,0.09986792289121464
+four_class,ReMNAU,pelvic,Cannibalism,abundance,22,22,0.09329944246051111,0.08288935516722237,0.03692088299006449,0.1402155969424171,0.08090922998368587
+four_class,ReMNAU,pelvic,Funerary Context,abundance,48,48,0.0939159678097584,0.0762851749103843,0.06315231845080517,0.09520059895931741,0.09920127873248204
+four_class,ReMNAU,radius,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,radius,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,ReMNAU,radius,Cannibalism,abundance,22,22,0.033651455764822875,0.030557863567145776,0.00468024961331271,0.05135123681626285,0.028018654471292013
+four_class,ReMNAU,radius,Funerary Context,abundance,48,48,0.06008981573318208,0.06232558933566147,0.043981044205534336,0.0780333544382054,0.03582218796086849
+four_class,ReMNAU,ribs,Geological transport,abundance,12,12,0.001141552511415525,0,0,0,0.003954453898559081
+four_class,ReMNAU,ribs,Carnivore,abundance,17,17,0.001838235294117647,0,0,0,0.007579238282385405
+four_class,ReMNAU,ribs,Cannibalism,abundance,22,22,0.032946041412773214,0.02700193021232782,0.012184144779613994,0.05031608251118216,0.02975073881779731
+four_class,ReMNAU,ribs,Funerary Context,abundance,48,48,0.03063784951260663,0.028637232729964907,0.011593965784859085,0.05015232904385671,0.02340453504735476
+four_class,ReMNAU,scapula,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,scapula,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,ReMNAU,scapula,Cannibalism,abundance,22,22,0.034336755156145746,0.02986213443087068,0,0.06414060322906506,0.030121211576000173
+four_class,ReMNAU,scapula,Funerary Context,abundance,48,48,0.04416026435606968,0.04398262044328935,0.027602790991841063,0.06387038988199548,0.027807813487443184
+four_class,ReMNAU,shoulder_indet,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,shoulder_indet,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,ReMNAU,shoulder_indet,Cannibalism,abundance,22,22,0,0,0,0,0
+four_class,ReMNAU,shoulder_indet,Funerary Context,abundance,48,48,0,0,0,0,0
+four_class,ReMNAU,sternum,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,sternum,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,ReMNAU,sternum,Cannibalism,abundance,22,22,0.004709629574121874,0,0,0,0.01578486661356134
+four_class,ReMNAU,sternum,Funerary Context,abundance,48,48,0.015797146254281354,0,0,0.028499001497255906,0.02423710576958541
+four_class,ReMNAU,thorax_indet,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,thorax_indet,Carnivore,abundance,17,17,0,0,0,0,0
+four_class,ReMNAU,thorax_indet,Cannibalism,abundance,22,22,0,0,0,0,0
+four_class,ReMNAU,thorax_indet,Funerary Context,abundance,48,48,2.5746502227644584e-6,0,0,0,1.783769999018628e-5
+four_class,ReMNAU,ulna,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,ulna,Carnivore,abundance,17,17,0.005524296675191815,0,0,0,0.02277725869906431
+four_class,ReMNAU,ulna,Cannibalism,abundance,22,22,0.034382136944101416,0.032234363066181076,0,0.05879734393585757,0.03285481389666623
+four_class,ReMNAU,ulna,Funerary Context,abundance,48,48,0.059445980956493,0.0668426191481088,0.04705225186748399,0.0782991006807337,0.029946475092141524
+four_class,ReMNAU,vertebrae,Geological transport,abundance,12,12,0,0,0,0,0
+four_class,ReMNAU,vertebrae,Carnivore,abundance,17,17,0.003905007949125596,0,0,0,0.011044811396527238
+four_class,ReMNAU,vertebrae,Cannibalism,abundance,22,22,0.019079722579913493,0.012066426498768715,0.004419495669987782,0.028673306550538465,0.01971625263906564
+four_class,ReMNAU,vertebrae,Funerary Context,abundance,48,48,0.038357233585548926,0.03632196704310729,0.024070918300921042,0.05245394350781295,0.023533840586653
+four_class,%MNAU,arms_indet,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,arms_indet,Carnivore,presence,17,17,0,0,0,0,0
+four_class,%MNAU,arms_indet,Cannibalism,presence,22,22,0.045454545454545456,0,0,0,0.21320071635561044
+four_class,%MNAU,arms_indet,Funerary Context,presence,48,48,0,0,0,0,0
+four_class,%MNAU,clavicle,Geological transport,presence,12,12,0.08333333333333333,0,0,0,0.28867513459481287
+four_class,%MNAU,clavicle,Carnivore,presence,17,17,0.058823529411764705,0,0,0,0.24253562503633297
+four_class,%MNAU,clavicle,Cannibalism,presence,22,22,0.6818181818181818,1,0,1,0.4767312946227962
+four_class,%MNAU,clavicle,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+four_class,%MNAU,cranium,Geological transport,presence,12,12,0.9166666666666666,1,1,1,0.28867513459481287
+four_class,%MNAU,cranium,Carnivore,presence,17,17,0.47058823529411764,0,0,1,0.5144957554275266
+four_class,%MNAU,cranium,Cannibalism,presence,22,22,1,1,1,1,0
+four_class,%MNAU,cranium,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+four_class,%MNAU,foot,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,foot,Carnivore,presence,17,17,0.17647058823529413,0,0,0,0.3929526239966879
+four_class,%MNAU,foot,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+four_class,%MNAU,foot,Funerary Context,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+four_class,%MNAU,hands,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,hands,Carnivore,presence,17,17,0.17647058823529413,0,0,0,0.3929526239966879
+four_class,%MNAU,hands,Cannibalism,presence,22,22,0.8636363636363636,1,1,1,0.35125008665710444
+four_class,%MNAU,hands,Funerary Context,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+four_class,%MNAU,humerus,Geological transport,presence,12,12,0.08333333333333333,0,0,0,0.28867513459481287
+four_class,%MNAU,humerus,Carnivore,presence,17,17,0.11764705882352941,0,0,0,0.3321055820775357
+four_class,%MNAU,humerus,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+four_class,%MNAU,humerus,Funerary Context,presence,48,48,0.9583333333333334,1,1,1,0.20194093652345885
+four_class,%MNAU,hyoid,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,hyoid,Carnivore,presence,17,17,0,0,0,0,0
+four_class,%MNAU,hyoid,Cannibalism,presence,22,22,0.045454545454545456,0,0,0,0.21320071635561044
+four_class,%MNAU,hyoid,Funerary Context,presence,48,48,0.20833333333333334,0,0,0,0.4104140790860576
+four_class,%MNAU,legs,Geological transport,presence,12,12,0.25,0,0,0.25,0.45226701686664544
+four_class,%MNAU,legs,Carnivore,presence,17,17,0.47058823529411764,0,0,1,0.5144957554275266
+four_class,%MNAU,legs,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+four_class,%MNAU,legs,Funerary Context,presence,48,48,1,1,1,1,0
+four_class,%MNAU,pelvic,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,pelvic,Carnivore,presence,17,17,0.11764705882352941,0,0,0,0.3321055820775357
+four_class,%MNAU,pelvic,Cannibalism,presence,22,22,0.7727272727272727,1,1,1,0.4289320272288885
+four_class,%MNAU,pelvic,Funerary Context,presence,48,48,0.875,1,1,1,0.3342186823915959
+four_class,%MNAU,radius,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,radius,Carnivore,presence,17,17,0,0,0,0,0
+four_class,%MNAU,radius,Cannibalism,presence,22,22,0.7272727272727273,1,0.25,1,0.4558423058385518
+four_class,%MNAU,radius,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+four_class,%MNAU,ribs,Geological transport,presence,12,12,0.08333333333333333,0,0,0,0.28867513459481287
+four_class,%MNAU,ribs,Carnivore,presence,17,17,0.058823529411764705,0,0,0,0.24253562503633297
+four_class,%MNAU,ribs,Cannibalism,presence,22,22,0.8636363636363636,1,1,1,0.35125008665710444
+four_class,%MNAU,ribs,Funerary Context,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+four_class,%MNAU,scapula,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,scapula,Carnivore,presence,17,17,0,0,0,0,0
+four_class,%MNAU,scapula,Cannibalism,presence,22,22,0.6818181818181818,1,0,1,0.4767312946227962
+four_class,%MNAU,scapula,Funerary Context,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+four_class,%MNAU,shoulder_indet,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,shoulder_indet,Carnivore,presence,17,17,0,0,0,0,0
+four_class,%MNAU,shoulder_indet,Cannibalism,presence,22,22,0,0,0,0,0
+four_class,%MNAU,shoulder_indet,Funerary Context,presence,48,48,0,0,0,0,0
+four_class,%MNAU,sternum,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,sternum,Carnivore,presence,17,17,0,0,0,0,0
+four_class,%MNAU,sternum,Cannibalism,presence,22,22,0.13636363636363635,0,0,0,0.35125008665710444
+four_class,%MNAU,sternum,Funerary Context,presence,48,48,0.375,0,0,1,0.48924605479008165
+four_class,%MNAU,thorax_indet,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,thorax_indet,Carnivore,presence,17,17,0,0,0,0,0
+four_class,%MNAU,thorax_indet,Cannibalism,presence,22,22,0,0,0,0,0
+four_class,%MNAU,thorax_indet,Funerary Context,presence,48,48,0.020833333333333332,0,0,0,0.14433756729740643
+four_class,%MNAU,ulna,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,ulna,Carnivore,presence,17,17,0.058823529411764705,0,0,0,0.24253562503633297
+four_class,%MNAU,ulna,Cannibalism,presence,22,22,0.6363636363636364,1,0,1,0.49236596391733095
+four_class,%MNAU,ulna,Funerary Context,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+four_class,%MNAU,vertebrae,Geological transport,presence,12,12,0,0,0,0,0
+four_class,%MNAU,vertebrae,Carnivore,presence,17,17,0.11764705882352941,0,0,0,0.3321055820775357
+four_class,%MNAU,vertebrae,Cannibalism,presence,22,22,0.8181818181818182,1,1,1,0.39477101697586137
+four_class,%MNAU,vertebrae,Funerary Context,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+four_class,ReMNAU,arms_indet,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,arms_indet,Carnivore,presence,17,17,0,0,0,0,0
+four_class,ReMNAU,arms_indet,Cannibalism,presence,22,22,0.045454545454545456,0,0,0,0.21320071635561044
+four_class,ReMNAU,arms_indet,Funerary Context,presence,48,48,0,0,0,0,0
+four_class,ReMNAU,clavicle,Geological transport,presence,12,12,0.08333333333333333,0,0,0,0.28867513459481287
+four_class,ReMNAU,clavicle,Carnivore,presence,17,17,0.058823529411764705,0,0,0,0.24253562503633297
+four_class,ReMNAU,clavicle,Cannibalism,presence,22,22,0.6818181818181818,1,0,1,0.4767312946227962
+four_class,ReMNAU,clavicle,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+four_class,ReMNAU,cranium,Geological transport,presence,12,12,0.9166666666666666,1,1,1,0.28867513459481287
+four_class,ReMNAU,cranium,Carnivore,presence,17,17,0.47058823529411764,0,0,1,0.5144957554275266
+four_class,ReMNAU,cranium,Cannibalism,presence,22,22,1,1,1,1,0
+four_class,ReMNAU,cranium,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+four_class,ReMNAU,foot,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,foot,Carnivore,presence,17,17,0.17647058823529413,0,0,0,0.3929526239966879
+four_class,ReMNAU,foot,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+four_class,ReMNAU,foot,Funerary Context,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+four_class,ReMNAU,hands,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,hands,Carnivore,presence,17,17,0.17647058823529413,0,0,0,0.3929526239966879
+four_class,ReMNAU,hands,Cannibalism,presence,22,22,0.8636363636363636,1,1,1,0.35125008665710444
+four_class,ReMNAU,hands,Funerary Context,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+four_class,ReMNAU,humerus,Geological transport,presence,12,12,0.08333333333333333,0,0,0,0.28867513459481287
+four_class,ReMNAU,humerus,Carnivore,presence,17,17,0.11764705882352941,0,0,0,0.3321055820775357
+four_class,ReMNAU,humerus,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+four_class,ReMNAU,humerus,Funerary Context,presence,48,48,0.9583333333333334,1,1,1,0.20194093652345885
+four_class,ReMNAU,hyoid,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,hyoid,Carnivore,presence,17,17,0,0,0,0,0
+four_class,ReMNAU,hyoid,Cannibalism,presence,22,22,0.045454545454545456,0,0,0,0.21320071635561044
+four_class,ReMNAU,hyoid,Funerary Context,presence,48,48,0.20833333333333334,0,0,0,0.4104140790860576
+four_class,ReMNAU,legs,Geological transport,presence,12,12,0.25,0,0,0.25,0.45226701686664544
+four_class,ReMNAU,legs,Carnivore,presence,17,17,0.47058823529411764,0,0,1,0.5144957554275266
+four_class,ReMNAU,legs,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+four_class,ReMNAU,legs,Funerary Context,presence,48,48,1,1,1,1,0
+four_class,ReMNAU,pelvic,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,pelvic,Carnivore,presence,17,17,0.11764705882352941,0,0,0,0.3321055820775357
+four_class,ReMNAU,pelvic,Cannibalism,presence,22,22,0.7727272727272727,1,1,1,0.4289320272288885
+four_class,ReMNAU,pelvic,Funerary Context,presence,48,48,0.875,1,1,1,0.3342186823915959
+four_class,ReMNAU,radius,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,radius,Carnivore,presence,17,17,0,0,0,0,0
+four_class,ReMNAU,radius,Cannibalism,presence,22,22,0.7272727272727273,1,0.25,1,0.4558423058385518
+four_class,ReMNAU,radius,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+four_class,ReMNAU,ribs,Geological transport,presence,12,12,0.08333333333333333,0,0,0,0.28867513459481287
+four_class,ReMNAU,ribs,Carnivore,presence,17,17,0.058823529411764705,0,0,0,0.24253562503633297
+four_class,ReMNAU,ribs,Cannibalism,presence,22,22,0.8636363636363636,1,1,1,0.35125008665710444
+four_class,ReMNAU,ribs,Funerary Context,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+four_class,ReMNAU,scapula,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,scapula,Carnivore,presence,17,17,0,0,0,0,0
+four_class,ReMNAU,scapula,Cannibalism,presence,22,22,0.6818181818181818,1,0,1,0.4767312946227962
+four_class,ReMNAU,scapula,Funerary Context,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+four_class,ReMNAU,shoulder_indet,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,shoulder_indet,Carnivore,presence,17,17,0,0,0,0,0
+four_class,ReMNAU,shoulder_indet,Cannibalism,presence,22,22,0,0,0,0,0
+four_class,ReMNAU,shoulder_indet,Funerary Context,presence,48,48,0,0,0,0,0
+four_class,ReMNAU,sternum,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,sternum,Carnivore,presence,17,17,0,0,0,0,0
+four_class,ReMNAU,sternum,Cannibalism,presence,22,22,0.13636363636363635,0,0,0,0.35125008665710444
+four_class,ReMNAU,sternum,Funerary Context,presence,48,48,0.375,0,0,1,0.48924605479008165
+four_class,ReMNAU,thorax_indet,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,thorax_indet,Carnivore,presence,17,17,0,0,0,0,0
+four_class,ReMNAU,thorax_indet,Cannibalism,presence,22,22,0,0,0,0,0
+four_class,ReMNAU,thorax_indet,Funerary Context,presence,48,48,0.020833333333333332,0,0,0,0.14433756729740643
+four_class,ReMNAU,ulna,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,ulna,Carnivore,presence,17,17,0.058823529411764705,0,0,0,0.24253562503633297
+four_class,ReMNAU,ulna,Cannibalism,presence,22,22,0.6363636363636364,1,0,1,0.49236596391733095
+four_class,ReMNAU,ulna,Funerary Context,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+four_class,ReMNAU,vertebrae,Geological transport,presence,12,12,0,0,0,0,0
+four_class,ReMNAU,vertebrae,Carnivore,presence,17,17,0.11764705882352941,0,0,0,0.3321055820775357
+four_class,ReMNAU,vertebrae,Cannibalism,presence,22,22,0.8181818181818182,1,1,1,0.39477101697586137
+four_class,ReMNAU,vertebrae,Funerary Context,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+Funerary_vs_Cannibalism,%MNAU,arms_indet,Cannibalism,abundance,22,22,0.005681818181818182,0,0,0,0.026650089544451305
+Funerary_vs_Cannibalism,%MNAU,arms_indet,Funerary Context,abundance,48,48,0,0,0,0,0
+Funerary_vs_Cannibalism,%MNAU,clavicle,Cannibalism,abundance,22,22,0.13291610407741228,0.08287139689578714,0,0.1479166666666667,0.2153224818080962
+Funerary_vs_Cannibalism,%MNAU,clavicle,Funerary Context,abundance,48,48,0.5052437457232275,0.5,0.24305555555555555,1,0.35253653392845535
+Funerary_vs_Cannibalism,%MNAU,cranium,Cannibalism,abundance,22,22,0.8176846065981321,0.5,0.34375,1,1.1034362462693117
+Funerary_vs_Cannibalism,%MNAU,cranium,Funerary Context,abundance,48,48,0.7801611816381447,1,0.712121212121212,1,0.3260154656176232
+Funerary_vs_Cannibalism,%MNAU,foot,Cannibalism,abundance,22,22,0.031043898615960696,0.012179487179487174,0.0028331043956043925,0.03064903846153846,0.052367430558476404
+Funerary_vs_Cannibalism,%MNAU,foot,Funerary Context,abundance,48,48,0.1786287004229587,0.14963549522373054,0.036538461538461534,0.27403846153846156,0.16927411661504085
+Funerary_vs_Cannibalism,%MNAU,hands,Cannibalism,abundance,22,22,0.054638084639059836,0.01913956639566395,0.0022569444444444373,0.04128787878787879,0.09527886132297499
+Funerary_vs_Cannibalism,%MNAU,hands,Funerary Context,abundance,48,48,0.27625372404869614,0.22325102880658437,0.045370370370370366,0.3912037037037037,0.2616986312303139
+Funerary_vs_Cannibalism,%MNAU,humerus,Cannibalism,abundance,22,22,0.18820935905886016,0.14735772357723576,0.0625,0.2375,0.2145311514959263
+Funerary_vs_Cannibalism,%MNAU,humerus,Funerary Context,abundance,48,48,0.6056692948903236,0.5361111111111111,0.3861607142857143,1,0.3485273163103394
+Funerary_vs_Cannibalism,%MNAU,hyoid,Cannibalism,abundance,22,22,0.0020661157024793385,0,0,0,0.009690941652527745
+Funerary_vs_Cannibalism,%MNAU,hyoid,Funerary Context,abundance,48,48,0.07878154030599581,0,0,0,0.24558366904472884
+Funerary_vs_Cannibalism,%MNAU,legs,Cannibalism,abundance,22,22,0.178386226555226,0.13125,0.05486111111111112,0.29034090909090915,0.14612855862216362
+Funerary_vs_Cannibalism,%MNAU,legs,Funerary Context,abundance,48,48,0.5117820206276539,0.5,0.28203124999999996,0.75,0.3015701210979888
+Funerary_vs_Cannibalism,%MNAU,pelvic,Cannibalism,abundance,22,22,0.267997323568277,0.16097560975609757,0.0625,0.37215909090909094,0.28737149188958194
+Funerary_vs_Cannibalism,%MNAU,pelvic,Funerary Context,abundance,48,48,0.6902905484481489,0.8405311491685282,0.4088235294117647,1,0.41349788308548124
+Funerary_vs_Cannibalism,%MNAU,radius,Cannibalism,abundance,22,22,0.13839265383749863,0.05,0.0046296296296296285,0.19687500000000002,0.218786368090643
+Funerary_vs_Cannibalism,%MNAU,radius,Funerary Context,abundance,48,48,0.5361845389440282,0.5,0.22916666666666666,1,0.37724469539585503
+Funerary_vs_Cannibalism,%MNAU,ribs,Cannibalism,abundance,22,22,0.11982324398829387,0.054292929292929296,0.01041666666666666,0.1280776515151515,0.18147233379789732
+Funerary_vs_Cannibalism,%MNAU,ribs,Funerary Context,abundance,48,48,0.2849282118567475,0.1764705882352941,0.08171296296296296,0.40625,0.2975398283424976
+Funerary_vs_Cannibalism,%MNAU,scapula,Cannibalism,abundance,22,22,0.11736232094463801,0.07575757575757575,0,0.17803030303030304,0.1410734647245067
+Funerary_vs_Cannibalism,%MNAU,scapula,Funerary Context,abundance,48,48,0.42152385520597246,0.33095238095238094,0.11875,0.6041666666666667,0.35872783278836573
+Funerary_vs_Cannibalism,%MNAU,shoulder_indet,Cannibalism,abundance,22,22,0,0,0,0,0
+Funerary_vs_Cannibalism,%MNAU,shoulder_indet,Funerary Context,abundance,48,48,0,0,0,0,0
+Funerary_vs_Cannibalism,%MNAU,sternum,Cannibalism,abundance,22,22,0.05416666666666667,0,0,0,0.213309615497033
+Funerary_vs_Cannibalism,%MNAU,sternum,Funerary Context,abundance,48,48,0.1441144920369331,0,0,0.12254901960784313,0.28813917641632236
+Funerary_vs_Cannibalism,%MNAU,thorax_indet,Cannibalism,abundance,22,22,0,0,0,0,0
+Funerary_vs_Cannibalism,%MNAU,thorax_indet,Funerary Context,abundance,48,48,2.1097046413502085e-5,0,0,0,1.4616462511129747e-4
+Funerary_vs_Cannibalism,%MNAU,ulna,Cannibalism,abundance,22,22,0.1415589281581521,0.0625,0,0.20416666666666666,0.22258998390062107
+Funerary_vs_Cannibalism,%MNAU,ulna,Funerary Context,abundance,48,48,0.537503738505673,0.5,0.21446078431372548,1,0.3762465313626617
+Funerary_vs_Cannibalism,%MNAU,vertebrae,Cannibalism,abundance,22,22,0.08264022731583245,0.029979674796747964,0.00361689814814814,0.09375,0.14619229600485936
+Funerary_vs_Cannibalism,%MNAU,vertebrae,Funerary Context,abundance,48,48,0.3578036938006947,0.31671940928270037,0.08958333333333332,0.609375,0.3079912159612721
+Funerary_vs_Cannibalism,ReMNAU,arms_indet,Cannibalism,abundance,22,22,0.0027282832025329246,0,0,0,0.012796782530421968
+Funerary_vs_Cannibalism,ReMNAU,arms_indet,Funerary Context,abundance,48,48,0,0,0,0,0
+Funerary_vs_Cannibalism,ReMNAU,clavicle,Cannibalism,abundance,22,22,0.03687005259262767,0.03386618773295351,0,0.05974916247722115,0.03292552492432275
+Funerary_vs_Cannibalism,ReMNAU,clavicle,Funerary Context,abundance,48,48,0.056128357214037215,0.054215127232535354,0.04109574500848728,0.07029952000450668,0.037068365803207395
+Funerary_vs_Cannibalism,ReMNAU,cranium,Cannibalism,abundance,22,22,0.3440480496024853,0.27684076784852574,0.21433681349072664,0.4105065830080785,0.23352863119127018
+Funerary_vs_Cannibalism,ReMNAU,cranium,Funerary Context,abundance,48,48,0.11500407647064866,0.08774707057050982,0.07031404283472287,0.1261062701432239,0.11627511893200622
+Funerary_vs_Cannibalism,ReMNAU,foot,Cannibalism,abundance,22,22,0.008911696422895509,0.0055736442923496905,0.0029831734766282824,0.010860690335352328,0.00982469450093016
+Funerary_vs_Cannibalism,ReMNAU,foot,Funerary Context,abundance,48,48,0.024007145149825743,0.02190173929498853,0.006157972092033148,0.03288452360019091,0.022265656208729764
+Funerary_vs_Cannibalism,ReMNAU,hands,Cannibalism,abundance,22,22,0.014752654752105738,0.007843957304765524,0.001860436841626745,0.023072259609379517,0.015914538192903237
+Funerary_vs_Cannibalism,ReMNAU,hands,Funerary Context,abundance,48,48,0.03243373953967024,0.03091686240470557,0.005286389801826525,0.050302307229527776,0.02836901567770997
+Funerary_vs_Cannibalism,ReMNAU,humerus,Cannibalism,abundance,22,22,0.06649602708135963,0.07071955647060585,0.04761856125178127,0.0809191643333317,0.030532252995325943
+Funerary_vs_Cannibalism,ReMNAU,humerus,Funerary Context,abundance,48,48,0.07020592850001765,0.07145659447382308,0.05589741540298853,0.08415330624756714,0.025480285811415156
+Funerary_vs_Cannibalism,ReMNAU,hyoid,Cannibalism,abundance,22,22,5.136478877876918e-4,0,0,0,0.002409222147879406
+Funerary_vs_Cannibalism,ReMNAU,hyoid,Funerary Context,abundance,48,48,0.008927728246561196,0,0,0,0.022770542295046492
+Funerary_vs_Cannibalism,ReMNAU,legs,Cannibalism,abundance,22,22,0.06753797702675848,0.06766454516341897,0.03428682886278207,0.08979031344922976,0.0462162933635749
+Funerary_vs_Cannibalism,ReMNAU,legs,Funerary Context,abundance,48,48,0.060855845261276825,0.0630677973436967,0.042186241446888005,0.07683511805268613,0.025870343792951125
+Funerary_vs_Cannibalism,ReMNAU,pelvic,Cannibalism,abundance,22,22,0.09329944246051111,0.08288935516722237,0.03692088299006449,0.1402155969424171,0.08090922998368587
+Funerary_vs_Cannibalism,ReMNAU,pelvic,Funerary Context,abundance,48,48,0.0939159678097584,0.0762851749103843,0.06315231845080517,0.09520059895931741,0.09920127873248204
+Funerary_vs_Cannibalism,ReMNAU,radius,Cannibalism,abundance,22,22,0.033651455764822875,0.030557863567145776,0.00468024961331271,0.05135123681626285,0.028018654471292013
+Funerary_vs_Cannibalism,ReMNAU,radius,Funerary Context,abundance,48,48,0.06008981573318208,0.06232558933566147,0.043981044205534336,0.0780333544382054,0.03582218796086849
+Funerary_vs_Cannibalism,ReMNAU,ribs,Cannibalism,abundance,22,22,0.032946041412773214,0.02700193021232782,0.012184144779613994,0.05031608251118216,0.02975073881779731
+Funerary_vs_Cannibalism,ReMNAU,ribs,Funerary Context,abundance,48,48,0.03063784951260663,0.028637232729964907,0.011593965784859085,0.05015232904385671,0.02340453504735476
+Funerary_vs_Cannibalism,ReMNAU,scapula,Cannibalism,abundance,22,22,0.034336755156145746,0.02986213443087068,0,0.06414060322906506,0.030121211576000173
+Funerary_vs_Cannibalism,ReMNAU,scapula,Funerary Context,abundance,48,48,0.04416026435606968,0.04398262044328935,0.027602790991841063,0.06387038988199548,0.027807813487443184
+Funerary_vs_Cannibalism,ReMNAU,shoulder_indet,Cannibalism,abundance,22,22,0,0,0,0,0
+Funerary_vs_Cannibalism,ReMNAU,shoulder_indet,Funerary Context,abundance,48,48,0,0,0,0,0
+Funerary_vs_Cannibalism,ReMNAU,sternum,Cannibalism,abundance,22,22,0.004709629574121874,0,0,0,0.01578486661356134
+Funerary_vs_Cannibalism,ReMNAU,sternum,Funerary Context,abundance,48,48,0.015797146254281354,0,0,0.028499001497255906,0.02423710576958541
+Funerary_vs_Cannibalism,ReMNAU,thorax_indet,Cannibalism,abundance,22,22,0,0,0,0,0
+Funerary_vs_Cannibalism,ReMNAU,thorax_indet,Funerary Context,abundance,48,48,2.5746502227644584e-6,0,0,0,1.783769999018628e-5
+Funerary_vs_Cannibalism,ReMNAU,ulna,Cannibalism,abundance,22,22,0.034382136944101416,0.032234363066181076,0,0.05879734393585757,0.03285481389666623
+Funerary_vs_Cannibalism,ReMNAU,ulna,Funerary Context,abundance,48,48,0.059445980956493,0.0668426191481088,0.04705225186748399,0.0782991006807337,0.029946475092141524
+Funerary_vs_Cannibalism,ReMNAU,vertebrae,Cannibalism,abundance,22,22,0.019079722579913493,0.012066426498768715,0.004419495669987782,0.028673306550538465,0.01971625263906564
+Funerary_vs_Cannibalism,ReMNAU,vertebrae,Funerary Context,abundance,48,48,0.038357233585548926,0.03632196704310729,0.024070918300921042,0.05245394350781295,0.023533840586653
+Funerary_vs_Cannibalism,%MNAU,arms_indet,Cannibalism,presence,22,22,0.045454545454545456,0,0,0,0.21320071635561044
+Funerary_vs_Cannibalism,%MNAU,arms_indet,Funerary Context,presence,48,48,0,0,0,0,0
+Funerary_vs_Cannibalism,%MNAU,clavicle,Cannibalism,presence,22,22,0.6818181818181818,1,0,1,0.4767312946227962
+Funerary_vs_Cannibalism,%MNAU,clavicle,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+Funerary_vs_Cannibalism,%MNAU,cranium,Cannibalism,presence,22,22,1,1,1,1,0
+Funerary_vs_Cannibalism,%MNAU,cranium,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+Funerary_vs_Cannibalism,%MNAU,foot,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+Funerary_vs_Cannibalism,%MNAU,foot,Funerary Context,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+Funerary_vs_Cannibalism,%MNAU,hands,Cannibalism,presence,22,22,0.8636363636363636,1,1,1,0.35125008665710444
+Funerary_vs_Cannibalism,%MNAU,hands,Funerary Context,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+Funerary_vs_Cannibalism,%MNAU,humerus,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+Funerary_vs_Cannibalism,%MNAU,humerus,Funerary Context,presence,48,48,0.9583333333333334,1,1,1,0.20194093652345885
+Funerary_vs_Cannibalism,%MNAU,hyoid,Cannibalism,presence,22,22,0.045454545454545456,0,0,0,0.21320071635561044
+Funerary_vs_Cannibalism,%MNAU,hyoid,Funerary Context,presence,48,48,0.20833333333333334,0,0,0,0.4104140790860576
+Funerary_vs_Cannibalism,%MNAU,legs,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+Funerary_vs_Cannibalism,%MNAU,legs,Funerary Context,presence,48,48,1,1,1,1,0
+Funerary_vs_Cannibalism,%MNAU,pelvic,Cannibalism,presence,22,22,0.7727272727272727,1,1,1,0.4289320272288885
+Funerary_vs_Cannibalism,%MNAU,pelvic,Funerary Context,presence,48,48,0.875,1,1,1,0.3342186823915959
+Funerary_vs_Cannibalism,%MNAU,radius,Cannibalism,presence,22,22,0.7272727272727273,1,0.25,1,0.4558423058385518
+Funerary_vs_Cannibalism,%MNAU,radius,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+Funerary_vs_Cannibalism,%MNAU,ribs,Cannibalism,presence,22,22,0.8636363636363636,1,1,1,0.35125008665710444
+Funerary_vs_Cannibalism,%MNAU,ribs,Funerary Context,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+Funerary_vs_Cannibalism,%MNAU,scapula,Cannibalism,presence,22,22,0.6818181818181818,1,0,1,0.4767312946227962
+Funerary_vs_Cannibalism,%MNAU,scapula,Funerary Context,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+Funerary_vs_Cannibalism,%MNAU,shoulder_indet,Cannibalism,presence,22,22,0,0,0,0,0
+Funerary_vs_Cannibalism,%MNAU,shoulder_indet,Funerary Context,presence,48,48,0,0,0,0,0
+Funerary_vs_Cannibalism,%MNAU,sternum,Cannibalism,presence,22,22,0.13636363636363635,0,0,0,0.35125008665710444
+Funerary_vs_Cannibalism,%MNAU,sternum,Funerary Context,presence,48,48,0.375,0,0,1,0.48924605479008165
+Funerary_vs_Cannibalism,%MNAU,thorax_indet,Cannibalism,presence,22,22,0,0,0,0,0
+Funerary_vs_Cannibalism,%MNAU,thorax_indet,Funerary Context,presence,48,48,0.020833333333333332,0,0,0,0.14433756729740643
+Funerary_vs_Cannibalism,%MNAU,ulna,Cannibalism,presence,22,22,0.6363636363636364,1,0,1,0.49236596391733095
+Funerary_vs_Cannibalism,%MNAU,ulna,Funerary Context,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+Funerary_vs_Cannibalism,%MNAU,vertebrae,Cannibalism,presence,22,22,0.8181818181818182,1,1,1,0.39477101697586137
+Funerary_vs_Cannibalism,%MNAU,vertebrae,Funerary Context,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+Funerary_vs_Cannibalism,ReMNAU,arms_indet,Cannibalism,presence,22,22,0.045454545454545456,0,0,0,0.21320071635561044
+Funerary_vs_Cannibalism,ReMNAU,arms_indet,Funerary Context,presence,48,48,0,0,0,0,0
+Funerary_vs_Cannibalism,ReMNAU,clavicle,Cannibalism,presence,22,22,0.6818181818181818,1,0,1,0.4767312946227962
+Funerary_vs_Cannibalism,ReMNAU,clavicle,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+Funerary_vs_Cannibalism,ReMNAU,cranium,Cannibalism,presence,22,22,1,1,1,1,0
+Funerary_vs_Cannibalism,ReMNAU,cranium,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+Funerary_vs_Cannibalism,ReMNAU,foot,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+Funerary_vs_Cannibalism,ReMNAU,foot,Funerary Context,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+Funerary_vs_Cannibalism,ReMNAU,hands,Cannibalism,presence,22,22,0.8636363636363636,1,1,1,0.35125008665710444
+Funerary_vs_Cannibalism,ReMNAU,hands,Funerary Context,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+Funerary_vs_Cannibalism,ReMNAU,humerus,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+Funerary_vs_Cannibalism,ReMNAU,humerus,Funerary Context,presence,48,48,0.9583333333333334,1,1,1,0.20194093652345885
+Funerary_vs_Cannibalism,ReMNAU,hyoid,Cannibalism,presence,22,22,0.045454545454545456,0,0,0,0.21320071635561044
+Funerary_vs_Cannibalism,ReMNAU,hyoid,Funerary Context,presence,48,48,0.20833333333333334,0,0,0,0.4104140790860576
+Funerary_vs_Cannibalism,ReMNAU,legs,Cannibalism,presence,22,22,0.9545454545454546,1,1,1,0.21320071635561044
+Funerary_vs_Cannibalism,ReMNAU,legs,Funerary Context,presence,48,48,1,1,1,1,0
+Funerary_vs_Cannibalism,ReMNAU,pelvic,Cannibalism,presence,22,22,0.7727272727272727,1,1,1,0.4289320272288885
+Funerary_vs_Cannibalism,ReMNAU,pelvic,Funerary Context,presence,48,48,0.875,1,1,1,0.3342186823915959
+Funerary_vs_Cannibalism,ReMNAU,radius,Cannibalism,presence,22,22,0.7272727272727273,1,0.25,1,0.4558423058385518
+Funerary_vs_Cannibalism,ReMNAU,radius,Funerary Context,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+Funerary_vs_Cannibalism,ReMNAU,ribs,Cannibalism,presence,22,22,0.8636363636363636,1,1,1,0.35125008665710444
+Funerary_vs_Cannibalism,ReMNAU,ribs,Funerary Context,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+Funerary_vs_Cannibalism,ReMNAU,scapula,Cannibalism,presence,22,22,0.6818181818181818,1,0,1,0.4767312946227962
+Funerary_vs_Cannibalism,ReMNAU,scapula,Funerary Context,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+Funerary_vs_Cannibalism,ReMNAU,shoulder_indet,Cannibalism,presence,22,22,0,0,0,0,0
+Funerary_vs_Cannibalism,ReMNAU,shoulder_indet,Funerary Context,presence,48,48,0,0,0,0,0
+Funerary_vs_Cannibalism,ReMNAU,sternum,Cannibalism,presence,22,22,0.13636363636363635,0,0,0,0.35125008665710444
+Funerary_vs_Cannibalism,ReMNAU,sternum,Funerary Context,presence,48,48,0.375,0,0,1,0.48924605479008165
+Funerary_vs_Cannibalism,ReMNAU,thorax_indet,Cannibalism,presence,22,22,0,0,0,0,0
+Funerary_vs_Cannibalism,ReMNAU,thorax_indet,Funerary Context,presence,48,48,0.020833333333333332,0,0,0,0.14433756729740643
+Funerary_vs_Cannibalism,ReMNAU,ulna,Cannibalism,presence,22,22,0.6363636363636364,1,0,1,0.49236596391733095
+Funerary_vs_Cannibalism,ReMNAU,ulna,Funerary Context,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+Funerary_vs_Cannibalism,ReMNAU,vertebrae,Cannibalism,presence,22,22,0.8181818181818182,1,1,1,0.39477101697586137
+Funerary_vs_Cannibalism,ReMNAU,vertebrae,Funerary Context,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+F_vs_NF,%MNAU,arms_indet,NF,abundance,51,51,0.0024509803921568627,0,0,0,0.01750350105035012
+F_vs_NF,%MNAU,arms_indet,F,abundance,48,48,0,0,0,0,0
+F_vs_NF,%MNAU,clavicle,NF,abundance,51,51,0.08021217561509288,0,0,0.08287139689578714,0.20307390375605072
+F_vs_NF,%MNAU,clavicle,F,abundance,48,48,0.5052437457232275,0.5,0.24305555555555555,1,0.35253653392845535
+F_vs_NF,%MNAU,cranium,NF,abundance,51,51,0.6738051244148805,0.6,0.1600609756097561,1,0.8078592137273627
+F_vs_NF,%MNAU,cranium,F,abundance,48,48,0.7801611816381447,1,0.712121212121212,1,0.3260154656176232
+F_vs_NF,%MNAU,foot,NF,abundance,51,51,0.013966523384863889,0,0,0.01057692307692307,0.0372230422099175
+F_vs_NF,%MNAU,foot,F,abundance,48,48,0.1786287004229587,0.14963549522373054,0.036538461538461534,0.27403846153846156,0.16927411661504085
+F_vs_NF,%MNAU,hands,NF,abundance,51,51,0.02412613576054336,0,0,0.013117283950617275,0.06737199617047725
+F_vs_NF,%MNAU,hands,F,abundance,48,48,0.27625372404869614,0.22325102880658437,0.045370370370370366,0.3912037037037037,0.2616986312303139
+F_vs_NF,%MNAU,humerus,NF,abundance,51,51,0.09385174965937759,0,0,0.14735772357723576,0.171703136903076
+F_vs_NF,%MNAU,humerus,F,abundance,48,48,0.6056692948903236,0.5361111111111111,0.3861607142857143,1,0.3485273163103394
+F_vs_NF,%MNAU,hyoid,NF,abundance,51,51,8.912655971479499e-4,0,0,0,0.006364909472854589
+F_vs_NF,%MNAU,hyoid,F,abundance,48,48,0.07878154030599581,0,0,0,0.24558366904472884
+F_vs_NF,%MNAU,legs,NF,abundance,51,51,0.10413637877545696,0.03125,0,0.13125,0.1396172178918086
+F_vs_NF,%MNAU,legs,F,abundance,48,48,0.5117820206276539,0.5,0.28203124999999996,0.75,0.3015701210979888
+F_vs_NF,%MNAU,pelvic,NF,abundance,51,51,0.14011649251964892,0,0,0.16097560975609757,0.2598292553107132
+F_vs_NF,%MNAU,pelvic,F,abundance,48,48,0.6902905484481489,0.8405311491685282,0.4088235294117647,1,0.41349788308548124
+F_vs_NF,%MNAU,radius,NF,abundance,51,51,0.05969879185146999,0,0,0.04772727272727273,0.15778538113079327
+F_vs_NF,%MNAU,radius,F,abundance,48,48,0.5361845389440282,0.5,0.22916666666666666,1,0.37724469539585503
+F_vs_NF,%MNAU,ribs,NF,abundance,51,51,0.054139438583185595,0,0,0.05082070707070707,0.13165404045852994
+F_vs_NF,%MNAU,ribs,F,abundance,48,48,0.2849282118567475,0.1764705882352941,0.08171296296296296,0.40625,0.2975398283424976
+F_vs_NF,%MNAU,scapula,NF,abundance,51,51,0.050626883544745815,0,0,0.03888888888888889,0.10865036949150814
+F_vs_NF,%MNAU,scapula,F,abundance,48,48,0.42152385520597246,0.33095238095238094,0.11875,0.6041666666666667,0.35872783278836573
+F_vs_NF,%MNAU,shoulder_indet,NF,abundance,51,51,0,0,0,0,0
+F_vs_NF,%MNAU,shoulder_indet,F,abundance,48,48,0,0,0,0,0
+F_vs_NF,%MNAU,sternum,NF,abundance,51,51,0.023366013071895425,0,0,0,0.1408705040477792
+F_vs_NF,%MNAU,sternum,F,abundance,48,48,0.1441144920369331,0,0,0.12254901960784313,0.28813917641632236
+F_vs_NF,%MNAU,thorax_indet,NF,abundance,51,51,0,0,0,0,0
+F_vs_NF,%MNAU,thorax_indet,F,abundance,48,48,2.1097046413502085e-5,0,0,0,1.4616462511129747e-4
+F_vs_NF,%MNAU,ulna,NF,abundance,51,51,0.06269862260417018,0,0,0.053977272727272735,0.16048590256117184
+F_vs_NF,%MNAU,ulna,F,abundance,48,48,0.537503738505673,0.5,0.21446078431372548,1,0.3762465313626617
+F_vs_NF,%MNAU,vertebrae,NF,abundance,51,51,0.03738483661990158,0,0,0.019841269841269833,0.10341716860455202
+F_vs_NF,%MNAU,vertebrae,F,abundance,48,48,0.3578036938006947,0.31671940928270037,0.08958333333333332,0.609375,0.3079912159612721
+F_vs_NF,ReMNAU,arms_indet,NF,abundance,51,51,0.0011769064795240068,0,0,0,0.008404793390609025
+F_vs_NF,ReMNAU,arms_indet,F,abundance,48,48,0,0,0,0,0
+F_vs_NF,ReMNAU,clavicle,NF,abundance,51,51,0.031804924264085044,0,0,0.03386618773295351,0.08265991212328865
+F_vs_NF,ReMNAU,clavicle,F,abundance,48,48,0.056128357214037215,0.054215127232535354,0.04109574500848728,0.07029952000450668,0.037068365803207395
+F_vs_NF,ReMNAU,cranium,NF,abundance,51,51,0.48200468124712126,0.32876712328767127,0.12328287512235271,0.9530458221024258,0.3971356443573772
+F_vs_NF,ReMNAU,cranium,F,abundance,48,48,0.11500407647064866,0.08774707057050982,0.07031404283472287,0.1261062701432239,0.11627511893200622
+F_vs_NF,ReMNAU,foot,NF,abundance,51,51,0.024483562307483185,0,0,0.00572755931775274,0.13962733233991323
+F_vs_NF,ReMNAU,foot,F,abundance,48,48,0.024007145149825743,0.02190173929498853,0.006157972092033148,0.03288452360019091,0.022265656208729764
+F_vs_NF,ReMNAU,hands,NF,abundance,51,51,0.00768050881122149,0,0,0.010781438837398705,0.013322433018121402
+F_vs_NF,ReMNAU,hands,F,abundance,48,48,0.03243373953967024,0.03091686240470557,0.005286389801826525,0.050302307229527776,0.02836901567770997
+F_vs_NF,ReMNAU,humerus,NF,abundance,51,51,0.04454702162816252,0,0,0.07148304297082267,0.07454848576107473
+F_vs_NF,ReMNAU,humerus,F,abundance,48,48,0.07020592850001765,0.07145659447382308,0.05589741540298853,0.08415330624756714,0.025480285811415156
+F_vs_NF,ReMNAU,hyoid,NF,abundance,51,51,2.215735986535141e-4,0,0,0,0.0015823519964387495
+F_vs_NF,ReMNAU,hyoid,F,abundance,48,48,0.008927728246561196,0,0,0,0.022770542295046492
+F_vs_NF,ReMNAU,legs,NF,abundance,51,51,0.12242802278890787,0.03197886297376093,0,0.08817437689845953,0.26619464601722337
+F_vs_NF,ReMNAU,legs,F,abundance,48,48,0.060855845261276825,0.0630677973436967,0.042186241446888005,0.07683511805268613,0.025870343792951125
+F_vs_NF,ReMNAU,pelvic,NF,abundance,51,51,0.0514256801049168,0,0,0.08288935516722237,0.08634820336105854
+F_vs_NF,ReMNAU,pelvic,F,abundance,48,48,0.0939159678097584,0.0762851749103843,0.06315231845080517,0.09520059895931741,0.09920127873248204
+F_vs_NF,ReMNAU,radius,NF,abundance,51,51,0.01451631425149222,0,0,0.02627000380900545,0.02475976698847672
+F_vs_NF,ReMNAU,radius,F,abundance,48,48,0.06008981573318208,0.06232558933566147,0.043981044205534336,0.0780333544382054,0.03582218796086849
+F_vs_NF,ReMNAU,ribs,NF,abundance,51,51,0.01509336355329406,0,0,0.02072965284465542,0.025303310465617374
+F_vs_NF,ReMNAU,ribs,F,abundance,48,48,0.03063784951260663,0.028637232729964907,0.011593965784859085,0.05015232904385671,0.02340453504735476
+F_vs_NF,ReMNAU,scapula,NF,abundance,51,51,0.014811933596768752,0,0,0.02043661211090461,0.026000866718118573
+F_vs_NF,ReMNAU,scapula,F,abundance,48,48,0.04416026435606968,0.04398262044328935,0.027602790991841063,0.06387038988199548,0.027807813487443184
+F_vs_NF,ReMNAU,shoulder_indet,NF,abundance,51,51,0,0,0,0,0
+F_vs_NF,ReMNAU,shoulder_indet,F,abundance,48,48,0,0,0,0,0
+F_vs_NF,ReMNAU,sternum,NF,abundance,51,51,0.002031604914327083,0,0,0,0.010497501974472145
+F_vs_NF,ReMNAU,sternum,F,abundance,48,48,0.015797146254281354,0,0,0.028499001497255906,0.02423710576958541
+F_vs_NF,ReMNAU,thorax_indet,NF,abundance,51,51,0,0,0,0,0
+F_vs_NF,ReMNAU,thorax_indet,F,abundance,48,48,2.5746502227644584e-6,0,0,0,1.783769999018628e-5
+F_vs_NF,ReMNAU,ulna,NF,abundance,51,51,0.016672942279382198,0,0,0.029139703317860657,0.029433799189686118
+F_vs_NF,ReMNAU,ulna,F,abundance,48,48,0.059445980956493,0.0668426191481088,0.04705225186748399,0.0782991006807337,0.029946475092141524
+F_vs_NF,ReMNAU,vertebrae,NF,abundance,51,51,0.00953213788025945,0,0,0.012066426498768715,0.01658265770173221
+F_vs_NF,ReMNAU,vertebrae,F,abundance,48,48,0.038357233585548926,0.03632196704310729,0.024070918300921042,0.05245394350781295,0.023533840586653
+F_vs_NF,%MNAU,arms_indet,NF,presence,51,51,0.0196078431372549,0,0,0,0.14002800840280097
+F_vs_NF,%MNAU,arms_indet,F,presence,48,48,0,0,0,0,0
+F_vs_NF,%MNAU,clavicle,NF,presence,51,51,0.3333333333333333,0,0,1,0.4760952285695233
+F_vs_NF,%MNAU,clavicle,F,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+F_vs_NF,%MNAU,cranium,NF,presence,51,51,0.803921568627451,1,1,1,0.4009791936316524
+F_vs_NF,%MNAU,cranium,F,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+F_vs_NF,%MNAU,foot,NF,presence,51,51,0.47058823529411764,0,0,1,0.5041008302500835
+F_vs_NF,%MNAU,foot,F,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+F_vs_NF,%MNAU,hands,NF,presence,51,51,0.43137254901960786,0,0,1,0.5001960399996911
+F_vs_NF,%MNAU,hands,F,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+F_vs_NF,%MNAU,humerus,NF,presence,51,51,0.47058823529411764,0,0,1,0.5041008302500835
+F_vs_NF,%MNAU,humerus,F,presence,48,48,0.9583333333333334,1,1,1,0.20194093652345885
+F_vs_NF,%MNAU,hyoid,NF,presence,51,51,0.0196078431372549,0,0,0,0.14002800840280097
+F_vs_NF,%MNAU,hyoid,F,presence,48,48,0.20833333333333334,0,0,0,0.4104140790860576
+F_vs_NF,%MNAU,legs,NF,presence,51,51,0.6274509803921569,1,0,1,0.488294350314459
+F_vs_NF,%MNAU,legs,F,presence,48,48,1,1,1,1,0
+F_vs_NF,%MNAU,pelvic,NF,presence,51,51,0.37254901960784315,0,0,1,0.488294350314459
+F_vs_NF,%MNAU,pelvic,F,presence,48,48,0.875,1,1,1,0.3342186823915959
+F_vs_NF,%MNAU,radius,NF,presence,51,51,0.3137254901960784,0,0,1,0.4686233489032049
+F_vs_NF,%MNAU,radius,F,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+F_vs_NF,%MNAU,ribs,NF,presence,51,51,0.4117647058823529,0,0,1,0.4970501217477084
+F_vs_NF,%MNAU,ribs,F,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+F_vs_NF,%MNAU,scapula,NF,presence,51,51,0.29411764705882354,0,0,1,0.46017899330842227
+F_vs_NF,%MNAU,scapula,F,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+F_vs_NF,%MNAU,shoulder_indet,NF,presence,51,51,0,0,0,0,0
+F_vs_NF,%MNAU,shoulder_indet,F,presence,48,48,0,0,0,0,0
+F_vs_NF,%MNAU,sternum,NF,presence,51,51,0.058823529411764705,0,0,0,0.23763541031440183
+F_vs_NF,%MNAU,sternum,F,presence,48,48,0.375,0,0,1,0.48924605479008165
+F_vs_NF,%MNAU,thorax_indet,NF,presence,51,51,0,0,0,0,0
+F_vs_NF,%MNAU,thorax_indet,F,presence,48,48,0.020833333333333332,0,0,0,0.14433756729740643
+F_vs_NF,%MNAU,ulna,NF,presence,51,51,0.29411764705882354,0,0,1,0.46017899330842227
+F_vs_NF,%MNAU,ulna,F,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+F_vs_NF,%MNAU,vertebrae,NF,presence,51,51,0.39215686274509803,0,0,1,0.49308949989019313
+F_vs_NF,%MNAU,vertebrae,F,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+F_vs_NF,ReMNAU,arms_indet,NF,presence,51,51,0.0196078431372549,0,0,0,0.14002800840280097
+F_vs_NF,ReMNAU,arms_indet,F,presence,48,48,0,0,0,0,0
+F_vs_NF,ReMNAU,clavicle,NF,presence,51,51,0.3333333333333333,0,0,1,0.4760952285695233
+F_vs_NF,ReMNAU,clavicle,F,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+F_vs_NF,ReMNAU,cranium,NF,presence,51,51,0.803921568627451,1,1,1,0.4009791936316524
+F_vs_NF,ReMNAU,cranium,F,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+F_vs_NF,ReMNAU,foot,NF,presence,51,51,0.47058823529411764,0,0,1,0.5041008302500835
+F_vs_NF,ReMNAU,foot,F,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+F_vs_NF,ReMNAU,hands,NF,presence,51,51,0.43137254901960786,0,0,1,0.5001960399996911
+F_vs_NF,ReMNAU,hands,F,presence,48,48,0.8541666666666666,1,1,1,0.3566739576374165
+F_vs_NF,ReMNAU,humerus,NF,presence,51,51,0.47058823529411764,0,0,1,0.5041008302500835
+F_vs_NF,ReMNAU,humerus,F,presence,48,48,0.9583333333333334,1,1,1,0.20194093652345885
+F_vs_NF,ReMNAU,hyoid,NF,presence,51,51,0.0196078431372549,0,0,0,0.14002800840280097
+F_vs_NF,ReMNAU,hyoid,F,presence,48,48,0.20833333333333334,0,0,0,0.4104140790860576
+F_vs_NF,ReMNAU,legs,NF,presence,51,51,0.6274509803921569,1,0,1,0.488294350314459
+F_vs_NF,ReMNAU,legs,F,presence,48,48,1,1,1,1,0
+F_vs_NF,ReMNAU,pelvic,NF,presence,51,51,0.37254901960784315,0,0,1,0.488294350314459
+F_vs_NF,ReMNAU,pelvic,F,presence,48,48,0.875,1,1,1,0.3342186823915959
+F_vs_NF,ReMNAU,radius,NF,presence,51,51,0.3137254901960784,0,0,1,0.4686233489032049
+F_vs_NF,ReMNAU,radius,F,presence,48,48,0.9166666666666666,1,1,1,0.2793101938654641
+F_vs_NF,ReMNAU,ribs,NF,presence,51,51,0.4117647058823529,0,0,1,0.4970501217477084
+F_vs_NF,ReMNAU,ribs,F,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+F_vs_NF,ReMNAU,scapula,NF,presence,51,51,0.29411764705882354,0,0,1,0.46017899330842227
+F_vs_NF,ReMNAU,scapula,F,presence,48,48,0.8333333333333334,1,1,1,0.37662178857735473
+F_vs_NF,ReMNAU,shoulder_indet,NF,presence,51,51,0,0,0,0,0
+F_vs_NF,ReMNAU,shoulder_indet,F,presence,48,48,0,0,0,0,0
+F_vs_NF,ReMNAU,sternum,NF,presence,51,51,0.058823529411764705,0,0,0,0.23763541031440183
+F_vs_NF,ReMNAU,sternum,F,presence,48,48,0.375,0,0,1,0.48924605479008165
+F_vs_NF,ReMNAU,thorax_indet,NF,presence,51,51,0,0,0,0,0
+F_vs_NF,ReMNAU,thorax_indet,F,presence,48,48,0.020833333333333332,0,0,0,0.14433756729740643
+F_vs_NF,ReMNAU,ulna,NF,presence,51,51,0.29411764705882354,0,0,1,0.46017899330842227
+F_vs_NF,ReMNAU,ulna,F,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+F_vs_NF,ReMNAU,vertebrae,NF,presence,51,51,0.39215686274509803,0,0,1,0.49308949989019313
+F_vs_NF,ReMNAU,vertebrae,F,presence,48,48,0.8958333333333334,1,1,1,0.3087092781885836
+C1_C5,%MNAU,arms_indet,C1,abundance,37,37,0,0,0,0,0
+C1_C5,%MNAU,arms_indet,C2,abundance,14,14,0.017857142857142856,0,0,0,0.0668153104781061
+C1_C5,%MNAU,arms_indet,C3,abundance,7,7,0,0,0,0,0
+C1_C5,%MNAU,arms_indet,C4,abundance,18,18,0,0,0,0,0
+C1_C5,%MNAU,arms_indet,C5,abundance,18,18,0,0,0,0,0
+C1_C5,%MNAU,clavicle,C1,abundance,37,37,0.06584620334620335,0,0,0,0.18575049628283177
+C1_C5,%MNAU,clavicle,C2,abundance,14,14,0.1562261795535555,0.0734012539184953,0.05,0.12215909090909091,0.2638962548041255
+C1_C5,%MNAU,clavicle,C3,abundance,7,7,0.25735961051087103,0.28921568627450983,0.12847222222222224,0.35267857142857145,0.16608804939996244
+C1_C5,%MNAU,clavicle,C4,abundance,18,18,0.37599946682845664,0.3958333333333333,0.22916666666666666,0.5,0.2331961623410558
+C1_C5,%MNAU,clavicle,C5,abundance,18,18,0.8432539682539683,1,0.5625,1,0.23599387826289978
+C1_C5,%MNAU,cranium,C1,abundance,37,37,0.6047911547911548,0.8,0,1,0.44453780635468343
+C1_C5,%MNAU,cranium,C2,abundance,14,14,0.5256239767614873,0.3606060606060606,0.17378048780487804,0.9431818181818181,0.44947435657220186
+C1_C5,%MNAU,cranium,C3,abundance,7,7,0.6905245431505936,0.8,0.4444444444444444,0.9607843137254902,0.3152955746559077
+C1_C5,%MNAU,cranium,C4,abundance,18,18,1.0111582232517948,0.857843137254902,0.6875,1,1.161369646424881
+C1_C5,%MNAU,cranium,C5,abundance,18,18,0.9880952380952381,1,1,1,0.05050762722761054
+C1_C5,%MNAU,foot,C1,abundance,37,37,0.0077659577659577655,0,0,0.00240384615384615,0.022735931989709288
+C1_C5,%MNAU,foot,C2,abundance,14,14,0.027562819387882465,0.019806413099096018,0.001135149572649571,0.031129807692307693,0.03344732283246392
+C1_C5,%MNAU,foot,C3,abundance,7,7,0.2605808669621695,0.2115384615384615,0.17063536953242836,0.2317822802197802,0.176370874191907
+C1_C5,%MNAU,foot,C4,abundance,18,18,0.15827795668016567,0.14963549522373054,0.05769230769230769,0.22836538461538458,0.12324832102881031
+C1_C5,%MNAU,foot,C5,abundance,18,18,0.22364672364672364,0.24038461538461536,0.04807692307692307,0.3261217948717949,0.1959853090674695
+C1_C5,%MNAU,hands,C1,abundance,37,37,0.002711739517295071,0,0,0,0.005986332753013894
+C1_C5,%MNAU,hands,C2,abundance,14,14,0.042714389411894316,0.02376919602529358,0.001174968071519795,0.050231481481481474,0.059637802232117364
+C1_C5,%MNAU,hands,C3,abundance,7,7,0.2695652026242596,0.2359457671957672,0.17869462599854757,0.34495884773662555,0.11056868337418087
+C1_C5,%MNAU,hands,C4,abundance,18,18,0.2233884221935549,0.2109053497942387,0.06064814814814815,0.2867647058823529,0.2287060772998727
+C1_C5,%MNAU,hands,C5,abundance,18,18,0.43475651577503427,0.3726851851851852,0.25848765432098764,0.6666666666666667,0.27563616328168616
+C1_C5,%MNAU,humerus,C1,abundance,37,37,0.055043923793923796,0,0,0.04545454545454545,0.11363824456985039
+C1_C5,%MNAU,humerus,C2,abundance,14,14,0.18311136111808946,0.14592094196804037,0.06354166666666666,0.2755681818181818,0.16063736660916225
+C1_C5,%MNAU,humerus,C3,abundance,7,7,0.19829515139389087,0.1875,0.14027777777777778,0.29705882352941176,0.11859440718439788
+C1_C5,%MNAU,humerus,C4,abundance,18,18,0.6027012205491666,0.5083333333333333,0.5,0.6175632911392405,0.23346193652979963
+C1_C5,%MNAU,humerus,C5,abundance,18,18,0.9338624338624338,1,1,1,0.13986253363581583
+C1_C5,%MNAU,hyoid,C1,abundance,37,37,0,0,0,0,0
+C1_C5,%MNAU,hyoid,C2,abundance,14,14,0.01515151515151515,0,0,0,0.04525987841246527
+C1_C5,%MNAU,hyoid,C3,abundance,7,7,0.07581532613045218,0.02678571428571428,0,0.11862745098039217,0.10035914505689368
+C1_C5,%MNAU,hyoid,C4,abundance,18,18,0.00467444361710929,0,0,0,0.014768453909964991
+C1_C5,%MNAU,hyoid,C5,abundance,18,18,0.16666666666666666,0,0,0,0.3834824944236852
+C1_C5,%MNAU,legs,C1,abundance,37,37,0.05068524287274287,0.013888888888888886,0,0.125,0.0723655022219192
+C1_C5,%MNAU,legs,C2,abundance,14,14,0.19571871051922565,0.10719235033259425,0.04375,0.3442816091954023,0.17820401459954277
+C1_C5,%MNAU,legs,C3,abundance,7,7,0.36435282446311856,0.3,0.2765625,0.47089460784313725,0.18139585848373596
+C1_C5,%MNAU,legs,C4,abundance,18,18,0.5467146966322863,0.5,0.45208333333333334,0.5972222222222222,0.19631889517387896
+C1_C5,%MNAU,legs,C5,abundance,18,18,0.6882440476190477,0.75,0.5,0.9453125,0.2838380904003634
+C1_C5,%MNAU,pelvic,C1,abundance,37,37,0.06704204204204205,0,0,0,0.25711594390198483
+C1_C5,%MNAU,pelvic,C2,abundance,14,14,0.3254079452460445,0.14430894308943087,0.05397727272727272,0.390909090909091,0.45493188659123834
+C1_C5,%MNAU,pelvic,C3,abundance,7,7,0.6402977857809791,0.75,0.44722222222222224,0.8607843137254902,0.3161929366020847
+C1_C5,%MNAU,pelvic,C4,abundance,18,18,0.5833569468575053,0.5277777777777778,0.4583333333333333,0.7446202531645569,0.3007743388061418
+C1_C5,%MNAU,pelvic,C5,abundance,18,18,0.9722222222222222,1,1,1,0.11785113019775792
+C1_C5,%MNAU,radius,C1,abundance,37,37,0.01436907686907687,0,0,0,0.045836489603255655
+C1_C5,%MNAU,radius,C2,abundance,14,14,0.0874407105720184,0.0625,0.008333333333333333,0.13448275862068965,0.09394087755835123
+C1_C5,%MNAU,radius,C3,abundance,7,7,0.18092653728157929,0.1875,0.08263888888888889,0.2950892857142857,0.12818988718581611
+C1_C5,%MNAU,radius,C4,abundance,18,18,0.5316243117031154,0.5,0.4236111111111111,0.5,0.22961452238321847
+C1_C5,%MNAU,radius,C5,abundance,18,18,0.8948412698412699,1,1,1,0.22801673181003068
+C1_C5,%MNAU,ribs,C1,abundance,37,37,0.008858858858858858,0,0,0,0.029976809579820313
+C1_C5,%MNAU,ribs,C2,abundance,14,14,0.07687638669424834,0.07291666666666666,0.016069613821138203,0.1109375,0.06794138380808437
+C1_C5,%MNAU,ribs,C3,abundance,7,7,0.27413034658307767,0.17708333333333334,0.1052827380952381,0.4355392156862745,0.21001174966363828
+C1_C5,%MNAU,ribs,C4,abundance,18,18,0.20350107840839102,0.15824142156862747,0.11666666666666667,0.2784722222222222,0.14781233760764814
+C1_C5,%MNAU,ribs,C5,abundance,18,18,0.513558201058201,0.5520833333333334,0.21875000000000003,0.8229166666666666,0.36169804857019056
+C1_C5,%MNAU,scapula,C1,abundance,37,37,0.01732089232089232,0,0,0,0.04733918127990864
+C1_C5,%MNAU,scapula,C2,abundance,14,14,0.09108901704780595,0.07575757575757575,0.004166666666666667,0.16212573591253154,0.0920776905738425
+C1_C5,%MNAU,scapula,C3,abundance,7,7,0.30589319060957715,0.16964285714285715,0.128125,0.31323529411764706,0.32927258366750745
+C1_C5,%MNAU,scapula,C4,abundance,18,18,0.4022159655001241,0.3348039215686274,0.2569444444444444,0.5,0.2256246258209365
+C1_C5,%MNAU,scapula,C5,abundance,18,18,0.6441798941798942,0.625,0.5,1,0.38057774139902195
+C1_C5,%MNAU,shoulder_indet,C1,abundance,37,37,0,0,0,0,0
+C1_C5,%MNAU,shoulder_indet,C2,abundance,14,14,0,0,0,0,0
+C1_C5,%MNAU,shoulder_indet,C3,abundance,7,7,0,0,0,0,0
+C1_C5,%MNAU,shoulder_indet,C4,abundance,18,18,0,0,0,0,0
+C1_C5,%MNAU,shoulder_indet,C5,abundance,18,18,0,0,0,0,0
+C1_C5,%MNAU,sternum,C1,abundance,37,37,0,0,0,0,0
+C1_C5,%MNAU,sternum,C2,abundance,14,14,0.010082101806239736,0,0,0,0.02567405589688519
+C1_C5,%MNAU,sternum,C3,abundance,7,7,0.09349739895958384,0.1,0.044642857142857144,0.1409313725490196,0.07143951451036584
+C1_C5,%MNAU,sternum,C4,abundance,18,18,0.10075172591305627,0,0,0.16013071895424835,0.15041022816067728
+C1_C5,%MNAU,sternum,C5,abundance,18,18,0.3055555555555556,0,0,0.875,0.4582219115902664
+C1_C5,%MNAU,thorax_indet,C1,abundance,37,37,0,0,0,0,0
+C1_C5,%MNAU,thorax_indet,C2,abundance,14,14,0,0,0,0,0
+C1_C5,%MNAU,thorax_indet,C3,abundance,7,7,0,0,0,0,0
+C1_C5,%MNAU,thorax_indet,C4,abundance,18,18,5.625879043600556e-5,0,0,0,2.386858333119145e-4
+C1_C5,%MNAU,thorax_indet,C5,abundance,18,18,0,0,0,0,0
+C1_C5,%MNAU,ulna,C1,abundance,37,37,0.03203316953316953,0,0,0,0.1018820689415563
+C1_C5,%MNAU,ulna,C2,abundance,14,14,0.0802577400522102,0.053977272727272735,0,0.11189024390243901,0.09282620627307385
+C1_C5,%MNAU,ulna,C3,abundance,7,7,0.1735735961051087,0.15625,0.10347222222222222,0.26519607843137255,0.11948434477198992
+C1_C5,%MNAU,ulna,C4,abundance,18,18,0.5696805222323341,0.5,0.440625,0.5535337552742616,0.252626910101262
+C1_C5,%MNAU,ulna,C5,abundance,18,18,0.8389550264550265,1,0.7752976190476191,1,0.2963310520845975
+C1_C5,%MNAU,vertebrae,C1,abundance,37,37,0.0043567309192309184,0,0,0,0.013601504217637948
+C1_C5,%MNAU,vertebrae,C2,abundance,14,14,0.07541811694986632,0.04734848484848485,0.025406504065040646,0.08333333333333333,0.09629003890230817
+C1_C5,%MNAU,vertebrae,C3,abundance,7,7,0.23801131563736605,0.12824074074074074,0.11302083333333335,0.2968954248366013,0.19614791825627467
+C1_C5,%MNAU,vertebrae,C4,abundance,18,18,0.23297759836861764,0.22916666666666669,0.109375,0.3715277777777778,0.1541338997822689
+C1_C5,%MNAU,vertebrae,C5,abundance,18,18,0.6596119929453262,0.7083333333333333,0.4933035714285714,0.8489583333333334,0.25970981698379253
+C1_C5,ReMNAU,arms_indet,C1,abundance,37,37,0,0,0,0,0
+C1_C5,ReMNAU,arms_indet,C2,abundance,14,14,0.008574604350817763,0,0,0,0.03208323170790126
+C1_C5,ReMNAU,arms_indet,C3,abundance,7,7,0,0,0,0,0
+C1_C5,ReMNAU,arms_indet,C4,abundance,18,18,0,0,0,0,0
+C1_C5,ReMNAU,arms_indet,C5,abundance,18,18,0,0,0,0,0
+C1_C5,ReMNAU,clavicle,C1,abundance,37,37,0.034753404720583664,0,0,0,0.0968872501489831
+C1_C5,ReMNAU,clavicle,C2,abundance,14,14,0.050514815467172465,0.034870406454932626,0.017550039118390186,0.06023156686421763,0.059631780966618655
+C1_C5,ReMNAU,clavicle,C3,abundance,7,7,0.04671871625779573,0.04586660169876302,0.024125744179475484,0.06986922492440581,0.02634183699694606
+C1_C5,ReMNAU,clavicle,C4,abundance,18,18,0.045743050258913884,0.050116719576789676,0.032428223513334825,0.06036843335723859,0.023546072357630485
+C1_C5,ReMNAU,clavicle,C5,abundance,18,18,0.0634406413107928,0.06843329206704,0.04700056562802462,0.07070999800777666,0.016745107227494133
+C1_C5,ReMNAU,cranium,C1,abundance,37,37,0.5649389347069912,0.7727554179566564,0,1,0.42808874136812447
+C1_C5,ReMNAU,cranium,C2,abundance,14,14,0.20330409844990602,0.22175158866189026,0.13257613090492798,0.2827227229010081,0.12402765595690664
+C1_C5,ReMNAU,cranium,C3,abundance,7,7,0.13376451901254258,0.13726885329063226,0.12602032255875223,0.14519106963646003,0.044847693497423555
+C1_C5,ReMNAU,cranium,C4,abundance,18,18,0.12116437859480142,0.1034745602337046,0.0891403969764115,0.11807295653865638,0.12472447783620194
+C1_C5,ReMNAU,cranium,C5,abundance,18,18,0.07551825336253047,0.07280824042900208,0.07029952000450668,0.0832374713946613,0.008899185798420152
+C1_C5,ReMNAU,foot,C1,abundance,37,37,0.056617895638151276,0,0,0.00376201755608192,0.22871312755066592
+C1_C5,ReMNAU,foot,C2,abundance,14,14,0.012882871706142896,0.00784887692795247,0.003416066664599885,0.01407337257106752,0.01750989020889267
+C1_C5,ReMNAU,foot,C3,abundance,7,7,0.05278474760637259,0.05369140474167889,0.0341314369808193,0.07043997226929377,0.023978981851220174
+C1_C5,ReMNAU,foot,C4,abundance,18,18,0.02201260978345512,0.02190173929498853,0.007640537330241321,0.029221700722888072,0.018847274571938435
+C1_C5,ReMNAU,foot,C5,abundance,18,18,0.01717401205225567,0.01831827842940422,0.00367571714155887,0.026947295535513064,0.014919341612701148
+C1_C5,ReMNAU,hands,C1,abundance,37,37,0.002908725990779852,0,0,0,0.0076824372280030525
+C1_C5,ReMNAU,hands,C2,abundance,14,14,0.021181073291593435,0.007713681275267999,2.581546989875175e-4,0.027001192225412356,0.02975148059028043
+C1_C5,ReMNAU,hands,C3,abundance,7,7,0.057452584195829326,0.05104469264177971,0.04193847396942161,0.055567631370815475,0.03153245609469262
+C1_C5,ReMNAU,hands,C4,abundance,18,18,0.0275145940773358,0.030223574450240584,0.008082888878391103,0.0386165356173699,0.02360934708348978
+C1_C5,ReMNAU,hands,C5,abundance,18,18,0.0328950990655211,0.029924973264877155,0.02096233299716098,0.051125982152430874,0.02053601291264735
+C1_C5,ReMNAU,humerus,C1,abundance,37,37,0.039855597645868907,0,0,0.05420849420849421,0.08528784168011788
+C1_C5,ReMNAU,humerus,C2,abundance,14,14,0.07138768902646409,0.07169388930032922,0.05747961056842265,0.07805520617264058,0.032670018784400054
+C1_C5,ReMNAU,humerus,C3,abundance,7,7,0.04279128960264514,0.04664400172755562,0.036731403877699915,0.051662977351833075,0.02320601817131114
+C1_C5,ReMNAU,humerus,C4,abundance,18,18,0.07438630768561752,0.07377585999462571,0.06387038988199548,0.08354274952487806,0.01975818665794383
+C1_C5,ReMNAU,humerus,C5,abundance,18,18,0.07161448868087987,0.07093257997467568,0.06765317854125993,0.0833116295768679,0.014373382357292757
+C1_C5,ReMNAU,hyoid,C1,abundance,37,37,0,0,0,0,0
+C1_C5,ReMNAU,hyoid,C2,abundance,14,14,0.004324662037557496,0,0,0,0.013274989228827106
+C1_C5,ReMNAU,hyoid,C3,abundance,7,7,0.021610542010072602,0.00625530929029268,0,0.02690925972086436,0.03313747110520155
+C1_C5,ReMNAU,hyoid,C4,abundance,18,18,6.803500591997539e-4,0,0,0,0.002236847444781865
+C1_C5,ReMNAU,hyoid,C5,abundance,18,18,0.011986991428019886,0,0,0,0.02789970317597245
+C1_C5,ReMNAU,legs,C1,abundance,37,37,0.13529634181820716,0.01355212355212355,0,0.04695652173913043,0.31081869245753196
+C1_C5,ReMNAU,legs,C2,abundance,14,14,0.07610274644202021,0.07488526928174927,0.04187416324130665,0.08454021118102263,0.05031598943927487
+C1_C5,ReMNAU,legs,C3,abundance,7,7,0.06964961209431265,0.07030801868324972,0.05463398211010689,0.08547301622823832,0.020574367278957104
+C1_C5,ReMNAU,legs,C4,abundance,18,18,0.06872362218535961,0.06335334970101501,0.05719817196333436,0.07706321167699234,0.020958240877189168
+C1_C5,ReMNAU,legs,C5,abundance,18,18,0.053208798538987606,0.0605328034338703,0.036906471971024465,0.06945924444124318,0.023315079344973223
+C1_C5,ReMNAU,pelvic,C1,abundance,37,37,0.03165577202017842,0,0,0,0.11383777835982242
+C1_C5,ReMNAU,pelvic,C2,abundance,14,14,0.12617634130278832,0.08521583442913315,0.05318902915675384,0.14893322755214294,0.12546746563552283
+C1_C5,ReMNAU,pelvic,C3,abundance,7,7,0.12359223409785727,0.1282052745421444,0.12602032255875223,0.14977525945186715,0.044610612848517577
+C1_C5,ReMNAU,pelvic,C4,abundance,18,18,0.07642767195027267,0.07472444179139814,0.06314112607268163,0.0936325566119262,0.0378562961391875
+C1_C5,ReMNAU,pelvic,C5,abundance,18,18,0.07394724319963887,0.07093257997467568,0.07006820398629975,0.0832374713946613,0.010777116150773073
+C1_C5,ReMNAU,radius,C1,abundance,37,37,0.0067573690911144815,0,0,0,0.020358861983925475
+C1_C5,ReMNAU,radius,C2,abundance,14,14,0.04536473978608942,0.038868272536040326,0.004829877996002919,0.05453214838039197,0.05705639049598527
+C1_C5,ReMNAU,radius,C3,abundance,7,7,0.03676158684451361,0.038349828372681666,0.0263354399511435,0.04927227449589458,0.021831861290098
+C1_C5,ReMNAU,radius,C4,abundance,18,18,0.06529091142008692,0.06232558933566147,0.05532191125867282,0.07690792235764723,0.017925586977107017
+C1_C5,ReMNAU,radius,C5,abundance,18,18,0.06858331306925226,0.07093257997467568,0.06409654446064939,0.0832374713946613,0.019299643708503997
+C1_C5,ReMNAU,ribs,C1,abundance,37,37,0.003450012658666673,0,0,0,0.010293430796294287
+C1_C5,ReMNAU,ribs,C2,abundance,14,14,0.032719546344112026,0.032104536399855124,0.018992518404980244,0.037233306888035736,0.02772069724051023
+C1_C5,ReMNAU,ribs,C3,abundance,7,7,0.04674858932098575,0.03621928235197712,0.02821107566258517,0.06553643037567079,0.02340323163894847
+C1_C5,ReMNAU,ribs,C4,abundance,18,18,0.027218002836389345,0.025951796056658732,0.012360042622766038,0.036175653388151256,0.020086611065715906
+C1_C5,ReMNAU,ribs,C5,abundance,18,18,0.03849915434373276,0.0455065483780943,0.016273813581233545,0.05955197305334624,0.026125706775332967
+C1_C5,ReMNAU,scapula,C1,abundance,37,37,0.007318531270276727,0,0,0,0.018765749810042906
+C1_C5,ReMNAU,scapula,C2,abundance,14,14,0.03734190187810697,0.03766003726911757,0.0034575149234618487,0.04829056021978306,0.0352113789215534
+C1_C5,ReMNAU,scapula,C3,abundance,7,7,0.05174934779228833,0.039616958838520344,0.02721918094714875,0.06146880670998156,0.03719928043435127
+C1_C5,ReMNAU,scapula,C4,abundance,18,18,0.05005285969209841,0.0497200120806521,0.03909558302274035,0.06505912692115148,0.022254483122689392
+C1_C5,ReMNAU,scapula,C5,abundance,18,18,0.04645210217433333,0.048348633776036216,0.0358751792987836,0.06921340559282008,0.025595672672898296
+C1_C5,ReMNAU,shoulder_indet,C1,abundance,37,37,0,0,0,0,0
+C1_C5,ReMNAU,shoulder_indet,C2,abundance,14,14,0,0,0,0,0
+C1_C5,ReMNAU,shoulder_indet,C3,abundance,7,7,0,0,0,0,0
+C1_C5,ReMNAU,shoulder_indet,C4,abundance,18,18,0,0,0,0,0
+C1_C5,ReMNAU,shoulder_indet,C5,abundance,18,18,0,0,0,0,0
+C1_C5,ReMNAU,sternum,C1,abundance,37,37,0,0,0,0,0
+C1_C5,ReMNAU,sternum,C2,abundance,14,14,0.005120357276266348,0,0,0,0.015092233021101424
+C1_C5,ReMNAU,sternum,C3,abundance,7,7,0.023297808321700985,0.02487680092136299,0.010425515483821144,0.028808935441995268,0.020427856920524814
+C1_C5,ReMNAU,sternum,C4,abundance,18,18,0.013791296432484461,0,0,0.024174740948180225,0.020328285181361247
+C1_C5,ReMNAU,sternum,C5,abundance,18,18,0.02104788194065723,0,0,0.05331269593325773,0.031858126277342705
+C1_C5,ReMNAU,thorax_indet,C1,abundance,37,37,0,0,0,0,0
+C1_C5,ReMNAU,thorax_indet,C2,abundance,14,14,0,0,0,0,0
+C1_C5,ReMNAU,thorax_indet,C3,abundance,7,7,0,0,0,0,0
+C1_C5,ReMNAU,thorax_indet,C4,abundance,18,18,6.865733927371889e-6,0,0,0,2.912884210720326e-5
+C1_C5,ReMNAU,thorax_indet,C5,abundance,18,18,0,0,0,0,0
+C1_C5,ReMNAU,ulna,C1,abundance,37,37,0.012359414097811062,0,0,0,0.03226025477650114
+C1_C5,ReMNAU,ulna,C2,abundance,14,14,0.036245675124639984,0.040877775408134906,0,0.062799877220511,0.032222560649998046
+C1_C5,ReMNAU,ulna,C3,abundance,7,7,0.036519078831916185,0.0365378013532519,0.02435945697093352,0.04765656252239106,0.024079614698015166
+C1_C5,ReMNAU,ulna,C4,abundance,18,18,0.07050322274886395,0.0738417887769378,0.059746120285287405,0.08124380510638263,0.022681650277401988
+C1_C5,ReMNAU,ulna,C5,abundance,18,18,0.06282034491905968,0.07015741168421555,0.05907784989919944,0.07368604485402944,0.02199646718861852
+C1_C5,ReMNAU,vertebrae,C1,abundance,37,37,0.0030436835157157073,0,0,0,0.00810051937437999
+C1_C5,ReMNAU,vertebrae,C2,abundance,14,14,0.02790405623384958,0.024555722105371,0.013138842784885762,0.033082809186585335,0.022034954097291445
+C1_C5,ReMNAU,vertebrae,C3,abundance,7,7,0.0420193246820082,0.03601953466739017,0.029277902644179635,0.0495208087571851,0.020077023351376556
+C1_C5,ReMNAU,vertebrae,C4,abundance,18,18,0.03050790473561307,0.031538929305917535,0.01306593560896132,0.04729222130414319,0.020942214760942233
+C1_C5,ReMNAU,vertebrae,C5,abundance,18,18,0.04990078576002051,0.04867431154437683,0.04429534635783739,0.060426642285072316,0.019011167676456595
+C1_C5,%MNAU,arms_indet,C1,presence,37,37,0,0,0,0,0
+C1_C5,%MNAU,arms_indet,C2,presence,14,14,0.07142857142857142,0,0,0,0.2672612419124244
+C1_C5,%MNAU,arms_indet,C3,presence,7,7,0,0,0,0,0
+C1_C5,%MNAU,arms_indet,C4,presence,18,18,0,0,0,0,0
+C1_C5,%MNAU,arms_indet,C5,presence,18,18,0,0,0,0,0
+C1_C5,%MNAU,clavicle,C1,presence,37,37,0.21621621621621623,0,0,0,0.4173417953838007
+C1_C5,%MNAU,clavicle,C2,presence,14,14,0.7857142857142857,1,1,1,0.4258153136263201
+C1_C5,%MNAU,clavicle,C3,presence,7,7,1,1,1,1,0
+C1_C5,%MNAU,clavicle,C4,presence,18,18,0.8888888888888888,1,1,1,0.3233808333817773
+C1_C5,%MNAU,clavicle,C5,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,cranium,C1,presence,37,37,0.7297297297297297,1,0,1,0.45022516889074815
+C1_C5,%MNAU,cranium,C2,presence,14,14,0.8571428571428571,1,1,1,0.36313651960128146
+C1_C5,%MNAU,cranium,C3,presence,7,7,1,1,1,1,0
+C1_C5,%MNAU,cranium,C4,presence,18,18,0.8888888888888888,1,1,1,0.3233808333817773
+C1_C5,%MNAU,cranium,C5,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,foot,C1,presence,37,37,0.35135135135135137,0,0,1,0.483977514182461
+C1_C5,%MNAU,foot,C2,presence,14,14,0.7857142857142857,1,1,1,0.4258153136263201
+C1_C5,%MNAU,foot,C3,presence,7,7,1,1,1,1,0
+C1_C5,%MNAU,foot,C4,presence,18,18,0.9444444444444444,1,1,1,0.23570226039551584
+C1_C5,%MNAU,foot,C5,presence,18,18,0.7777777777777778,1,1,1,0.4277926319464986
+C1_C5,%MNAU,hands,C1,presence,37,37,0.24324324324324326,0,0,0,0.43495883620084
+C1_C5,%MNAU,hands,C2,presence,14,14,0.7142857142857143,1,0.25,1,0.4688072309384954
+C1_C5,%MNAU,hands,C3,presence,7,7,1,1,1,1,0
+C1_C5,%MNAU,hands,C4,presence,18,18,0.8888888888888888,1,1,1,0.3233808333817773
+C1_C5,%MNAU,hands,C5,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,humerus,C1,presence,37,37,0.32432432432432434,0,0,1,0.4745789978762495
+C1_C5,%MNAU,humerus,C2,presence,14,14,0.9285714285714286,1,1,1,0.2672612419124244
+C1_C5,%MNAU,humerus,C3,presence,7,7,0.8571428571428571,1,1,1,0.3779644730092272
+C1_C5,%MNAU,humerus,C4,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,humerus,C5,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,hyoid,C1,presence,37,37,0,0,0,0,0
+C1_C5,%MNAU,hyoid,C2,presence,14,14,0.14285714285714285,0,0,0,0.36313651960128146
+C1_C5,%MNAU,hyoid,C3,presence,7,7,0.5714285714285714,1,0,1,0.5345224838248488
+C1_C5,%MNAU,hyoid,C4,presence,18,18,0.1111111111111111,0,0,0,0.3233808333817773
+C1_C5,%MNAU,hyoid,C5,presence,18,18,0.16666666666666666,0,0,0,0.3834824944236852
+C1_C5,%MNAU,legs,C1,presence,37,37,0.5405405405405406,1,0,1,0.5052279240652235
+C1_C5,%MNAU,legs,C2,presence,14,14,1,1,1,1,0
+C1_C5,%MNAU,legs,C3,presence,7,7,1,1,1,1,0
+C1_C5,%MNAU,legs,C4,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,legs,C5,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,pelvic,C1,presence,37,37,0.13513513513513514,0,0,0,0.3465834966066909
+C1_C5,%MNAU,pelvic,C2,presence,14,14,0.7857142857142857,1,1,1,0.4258153136263201
+C1_C5,%MNAU,pelvic,C3,presence,7,7,1,1,1,1,0
+C1_C5,%MNAU,pelvic,C4,presence,18,18,0.8888888888888888,1,1,1,0.3233808333817773
+C1_C5,%MNAU,pelvic,C5,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,radius,C1,presence,37,37,0.13513513513513514,0,0,0,0.3465834966066909
+C1_C5,%MNAU,radius,C2,presence,14,14,0.7142857142857143,1,0.25,1,0.4688072309384954
+C1_C5,%MNAU,radius,C3,presence,7,7,0.8571428571428571,1,1,1,0.3779644730092272
+C1_C5,%MNAU,radius,C4,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,radius,C5,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,ribs,C1,presence,37,37,0.1891891891891892,0,0,0,0.3970612769556579
+C1_C5,%MNAU,ribs,C2,presence,14,14,0.9285714285714286,1,1,1,0.2672612419124244
+C1_C5,%MNAU,ribs,C3,presence,7,7,1,1,1,1,0
+C1_C5,%MNAU,ribs,C4,presence,18,18,0.8888888888888888,1,1,1,0.3233808333817773
+C1_C5,%MNAU,ribs,C5,presence,18,18,0.8333333333333334,1,1,1,0.3834824944236852
+C1_C5,%MNAU,scapula,C1,presence,37,37,0.16216216216216217,0,0,0,0.3736838766118223
+C1_C5,%MNAU,scapula,C2,presence,14,14,0.7142857142857143,1,0.25,1,0.4688072309384954
+C1_C5,%MNAU,scapula,C3,presence,7,7,1,1,1,1,0
+C1_C5,%MNAU,scapula,C4,presence,18,18,0.9444444444444444,1,1,1,0.23570226039551584
+C1_C5,%MNAU,scapula,C5,presence,18,18,0.8333333333333334,1,1,1,0.3834824944236852
+C1_C5,%MNAU,shoulder_indet,C1,presence,37,37,0,0,0,0,0
+C1_C5,%MNAU,shoulder_indet,C2,presence,14,14,0,0,0,0,0
+C1_C5,%MNAU,shoulder_indet,C3,presence,7,7,0,0,0,0,0
+C1_C5,%MNAU,shoulder_indet,C4,presence,18,18,0,0,0,0,0
+C1_C5,%MNAU,shoulder_indet,C5,presence,18,18,0,0,0,0,0
+C1_C5,%MNAU,sternum,C1,presence,37,37,0,0,0,0,0
+C1_C5,%MNAU,sternum,C2,presence,14,14,0.14285714285714285,0,0,0,0.36313651960128146
+C1_C5,%MNAU,sternum,C3,presence,7,7,0.7142857142857143,1,0.5,1,0.4879500364742666
+C1_C5,%MNAU,sternum,C4,presence,18,18,0.4444444444444444,0,0,1,0.5113099925649136
+C1_C5,%MNAU,sternum,C5,presence,18,18,0.3333333333333333,0,0,1,0.48507125007266594
+C1_C5,%MNAU,thorax_indet,C1,presence,37,37,0,0,0,0,0
+C1_C5,%MNAU,thorax_indet,C2,presence,14,14,0,0,0,0,0
+C1_C5,%MNAU,thorax_indet,C3,presence,7,7,0,0,0,0,0
+C1_C5,%MNAU,thorax_indet,C4,presence,18,18,0.05555555555555555,0,0,0,0.23570226039551584
+C1_C5,%MNAU,thorax_indet,C5,presence,18,18,0,0,0,0,0
+C1_C5,%MNAU,ulna,C1,presence,37,37,0.16216216216216217,0,0,0,0.3736838766118223
+C1_C5,%MNAU,ulna,C2,presence,14,14,0.6428571428571429,1,0,1,0.4972451580988469
+C1_C5,%MNAU,ulna,C3,presence,7,7,0.8571428571428571,1,1,1,0.3779644730092272
+C1_C5,%MNAU,ulna,C4,presence,18,18,1,1,1,1,0
+C1_C5,%MNAU,ulna,C5,presence,18,18,0.9444444444444444,1,1,1,0.23570226039551584
+C1_C5,%MNAU,vertebrae,C1,presence,37,37,0.1891891891891892,0,0,0,0.3970612769556579
+C1_C5,%MNAU,vertebrae,C2,presence,14,14,0.9285714285714286,1,1,1,0.2672612419124244
+C1_C5,%MNAU,vertebrae,C3,presence,7,7,1,1,1,1,0
+C1_C5,%MNAU,vertebrae,C4,presence,18,18,0.8333333333333334,1,1,1,0.3834824944236852
+C1_C5,%MNAU,vertebrae,C5,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,arms_indet,C1,presence,37,37,0,0,0,0,0
+C1_C5,ReMNAU,arms_indet,C2,presence,14,14,0.07142857142857142,0,0,0,0.2672612419124244
+C1_C5,ReMNAU,arms_indet,C3,presence,7,7,0,0,0,0,0
+C1_C5,ReMNAU,arms_indet,C4,presence,18,18,0,0,0,0,0
+C1_C5,ReMNAU,arms_indet,C5,presence,18,18,0,0,0,0,0
+C1_C5,ReMNAU,clavicle,C1,presence,37,37,0.21621621621621623,0,0,0,0.4173417953838007
+C1_C5,ReMNAU,clavicle,C2,presence,14,14,0.7857142857142857,1,1,1,0.4258153136263201
+C1_C5,ReMNAU,clavicle,C3,presence,7,7,1,1,1,1,0
+C1_C5,ReMNAU,clavicle,C4,presence,18,18,0.8888888888888888,1,1,1,0.3233808333817773
+C1_C5,ReMNAU,clavicle,C5,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,cranium,C1,presence,37,37,0.7297297297297297,1,0,1,0.45022516889074815
+C1_C5,ReMNAU,cranium,C2,presence,14,14,0.8571428571428571,1,1,1,0.36313651960128146
+C1_C5,ReMNAU,cranium,C3,presence,7,7,1,1,1,1,0
+C1_C5,ReMNAU,cranium,C4,presence,18,18,0.8888888888888888,1,1,1,0.3233808333817773
+C1_C5,ReMNAU,cranium,C5,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,foot,C1,presence,37,37,0.35135135135135137,0,0,1,0.483977514182461
+C1_C5,ReMNAU,foot,C2,presence,14,14,0.7857142857142857,1,1,1,0.4258153136263201
+C1_C5,ReMNAU,foot,C3,presence,7,7,1,1,1,1,0
+C1_C5,ReMNAU,foot,C4,presence,18,18,0.9444444444444444,1,1,1,0.23570226039551584
+C1_C5,ReMNAU,foot,C5,presence,18,18,0.7777777777777778,1,1,1,0.4277926319464986
+C1_C5,ReMNAU,hands,C1,presence,37,37,0.24324324324324326,0,0,0,0.43495883620084
+C1_C5,ReMNAU,hands,C2,presence,14,14,0.7142857142857143,1,0.25,1,0.4688072309384954
+C1_C5,ReMNAU,hands,C3,presence,7,7,1,1,1,1,0
+C1_C5,ReMNAU,hands,C4,presence,18,18,0.8888888888888888,1,1,1,0.3233808333817773
+C1_C5,ReMNAU,hands,C5,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,humerus,C1,presence,37,37,0.32432432432432434,0,0,1,0.4745789978762495
+C1_C5,ReMNAU,humerus,C2,presence,14,14,0.9285714285714286,1,1,1,0.2672612419124244
+C1_C5,ReMNAU,humerus,C3,presence,7,7,0.8571428571428571,1,1,1,0.3779644730092272
+C1_C5,ReMNAU,humerus,C4,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,humerus,C5,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,hyoid,C1,presence,37,37,0,0,0,0,0
+C1_C5,ReMNAU,hyoid,C2,presence,14,14,0.14285714285714285,0,0,0,0.36313651960128146
+C1_C5,ReMNAU,hyoid,C3,presence,7,7,0.5714285714285714,1,0,1,0.5345224838248488
+C1_C5,ReMNAU,hyoid,C4,presence,18,18,0.1111111111111111,0,0,0,0.3233808333817773
+C1_C5,ReMNAU,hyoid,C5,presence,18,18,0.16666666666666666,0,0,0,0.3834824944236852
+C1_C5,ReMNAU,legs,C1,presence,37,37,0.5405405405405406,1,0,1,0.5052279240652235
+C1_C5,ReMNAU,legs,C2,presence,14,14,1,1,1,1,0
+C1_C5,ReMNAU,legs,C3,presence,7,7,1,1,1,1,0
+C1_C5,ReMNAU,legs,C4,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,legs,C5,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,pelvic,C1,presence,37,37,0.13513513513513514,0,0,0,0.3465834966066909
+C1_C5,ReMNAU,pelvic,C2,presence,14,14,0.7857142857142857,1,1,1,0.4258153136263201
+C1_C5,ReMNAU,pelvic,C3,presence,7,7,1,1,1,1,0
+C1_C5,ReMNAU,pelvic,C4,presence,18,18,0.8888888888888888,1,1,1,0.3233808333817773
+C1_C5,ReMNAU,pelvic,C5,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,radius,C1,presence,37,37,0.13513513513513514,0,0,0,0.3465834966066909
+C1_C5,ReMNAU,radius,C2,presence,14,14,0.7142857142857143,1,0.25,1,0.4688072309384954
+C1_C5,ReMNAU,radius,C3,presence,7,7,0.8571428571428571,1,1,1,0.3779644730092272
+C1_C5,ReMNAU,radius,C4,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,radius,C5,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,ribs,C1,presence,37,37,0.1891891891891892,0,0,0,0.3970612769556579
+C1_C5,ReMNAU,ribs,C2,presence,14,14,0.9285714285714286,1,1,1,0.2672612419124244
+C1_C5,ReMNAU,ribs,C3,presence,7,7,1,1,1,1,0
+C1_C5,ReMNAU,ribs,C4,presence,18,18,0.8888888888888888,1,1,1,0.3233808333817773
+C1_C5,ReMNAU,ribs,C5,presence,18,18,0.8333333333333334,1,1,1,0.3834824944236852
+C1_C5,ReMNAU,scapula,C1,presence,37,37,0.16216216216216217,0,0,0,0.3736838766118223
+C1_C5,ReMNAU,scapula,C2,presence,14,14,0.7142857142857143,1,0.25,1,0.4688072309384954
+C1_C5,ReMNAU,scapula,C3,presence,7,7,1,1,1,1,0
+C1_C5,ReMNAU,scapula,C4,presence,18,18,0.9444444444444444,1,1,1,0.23570226039551584
+C1_C5,ReMNAU,scapula,C5,presence,18,18,0.8333333333333334,1,1,1,0.3834824944236852
+C1_C5,ReMNAU,shoulder_indet,C1,presence,37,37,0,0,0,0,0
+C1_C5,ReMNAU,shoulder_indet,C2,presence,14,14,0,0,0,0,0
+C1_C5,ReMNAU,shoulder_indet,C3,presence,7,7,0,0,0,0,0
+C1_C5,ReMNAU,shoulder_indet,C4,presence,18,18,0,0,0,0,0
+C1_C5,ReMNAU,shoulder_indet,C5,presence,18,18,0,0,0,0,0
+C1_C5,ReMNAU,sternum,C1,presence,37,37,0,0,0,0,0
+C1_C5,ReMNAU,sternum,C2,presence,14,14,0.14285714285714285,0,0,0,0.36313651960128146
+C1_C5,ReMNAU,sternum,C3,presence,7,7,0.7142857142857143,1,0.5,1,0.4879500364742666
+C1_C5,ReMNAU,sternum,C4,presence,18,18,0.4444444444444444,0,0,1,0.5113099925649136
+C1_C5,ReMNAU,sternum,C5,presence,18,18,0.3333333333333333,0,0,1,0.48507125007266594
+C1_C5,ReMNAU,thorax_indet,C1,presence,37,37,0,0,0,0,0
+C1_C5,ReMNAU,thorax_indet,C2,presence,14,14,0,0,0,0,0
+C1_C5,ReMNAU,thorax_indet,C3,presence,7,7,0,0,0,0,0
+C1_C5,ReMNAU,thorax_indet,C4,presence,18,18,0.05555555555555555,0,0,0,0.23570226039551584
+C1_C5,ReMNAU,thorax_indet,C5,presence,18,18,0,0,0,0,0
+C1_C5,ReMNAU,ulna,C1,presence,37,37,0.16216216216216217,0,0,0,0.3736838766118223
+C1_C5,ReMNAU,ulna,C2,presence,14,14,0.6428571428571429,1,0,1,0.4972451580988469
+C1_C5,ReMNAU,ulna,C3,presence,7,7,0.8571428571428571,1,1,1,0.3779644730092272
+C1_C5,ReMNAU,ulna,C4,presence,18,18,1,1,1,1,0
+C1_C5,ReMNAU,ulna,C5,presence,18,18,0.9444444444444444,1,1,1,0.23570226039551584
+C1_C5,ReMNAU,vertebrae,C1,presence,37,37,0.1891891891891892,0,0,0,0.3970612769556579
+C1_C5,ReMNAU,vertebrae,C2,presence,14,14,0.9285714285714286,1,1,1,0.2672612419124244
+C1_C5,ReMNAU,vertebrae,C3,presence,7,7,1,1,1,1,0
+C1_C5,ReMNAU,vertebrae,C4,presence,18,18,0.8333333333333334,1,1,1,0.3834824944236852
+C1_C5,ReMNAU,vertebrae,C5,presence,18,18,1,1,1,1,0
+G0_G5,%MNAU,arms_indet,G0,abundance,26,26,0,0,0,0,0
+G0_G5,%MNAU,arms_indet,G1,abundance,19,19,0.006578947368421052,0,0,0,0.02867696673382022
+G0_G5,%MNAU,arms_indet,G2,abundance,5,5,0,0,0,0,0
+G0_G5,%MNAU,arms_indet,G3,abundance,13,13,0,0,0,0,0
+G0_G5,%MNAU,arms_indet,G4,abundance,7,7,0,0,0,0,0
+G0_G5,%MNAU,arms_indet,G5,abundance,24,24,0,0,0,0,0
+G0_G5,%MNAU,clavicle,G0,abundance,26,26,0.04487179487179487,0,0,0,0.197527451300051
+G0_G5,%MNAU,clavicle,G1,abundance,19,19,0.14932196066663334,0.11363636363636365,0,0.16875,0.2278877327885176
+G0_G5,%MNAU,clavicle,G2,abundance,5,5,0.41,0.05,0,1,0.5389805191284746
+G0_G5,%MNAU,clavicle,G3,abundance,13,13,0.2596267313179399,0.28921568627450983,0.07862068965517241,0.41666666666666663,0.17888116315738056
+G0_G5,%MNAU,clavicle,G4,abundance,7,7,0.44169000933706815,0.35294117647058826,0.19444444444444442,0.625,0.33130990463068155
+G0_G5,%MNAU,clavicle,G5,abundance,24,24,0.6579861111111112,0.5,0.5,1,0.32460938219102853
+G0_G5,%MNAU,cranium,G0,abundance,26,26,0.6221153846153846,1,0,1,0.46499069469597576
+G0_G5,%MNAU,cranium,G1,abundance,19,19,0.8649213573475447,0.5,0.3125,1,1.1875323885548472
+G0_G5,%MNAU,cranium,G2,abundance,5,5,0.5987878787878788,0.7272727272727273,0.26666666666666666,1,0.4492499616108455
+G0_G5,%MNAU,cranium,G3,abundance,13,13,0.6204529867661175,0.766896551724138,0.2777777777777778,0.9215686274509804,0.3492722960943991
+G0_G5,%MNAU,cranium,G4,abundance,7,7,0.822875816993464,0.8333333333333334,0.7222222222222222,0.9411764705882353,0.1541112163060435
+G0_G5,%MNAU,cranium,G5,abundance,24,24,0.8777777777777778,1,1,1,0.2958107938613724
+G0_G5,%MNAU,foot,G0,abundance,26,26,8.321005917159761e-4,0,0,0,0.0037820565055291036
+G0_G5,%MNAU,foot,G1,abundance,19,19,0.040631426767498646,0.01688555347091932,0.004464285714285711,0.04038461538461538,0.057891693833872764
+G0_G5,%MNAU,foot,G2,abundance,5,5,0.07602272727272727,0.00174825174825174,8.012820512820514e-4,0.07948717948717948,0.12871915834581174
+G0_G5,%MNAU,foot,G3,abundance,13,13,0.13660636439082025,0.1131937682570594,0.05769230769230769,0.18365384615384617,0.10810497202191548
+G0_G5,%MNAU,foot,G4,abundance,7,7,0.19421820010055305,0.15610859728506787,0.13696581196581198,0.26282051282051283,0.08713804867333722
+G0_G5,%MNAU,foot,G5,abundance,24,24,0.2205128205128205,0.18461538461538463,0.033653846153846145,0.34134615384615385,0.20845708527579682
+G0_G5,%MNAU,hands,G0,abundance,26,26,9.496676163342823e-4,0,0,0,0.003354894915983985
+G0_G5,%MNAU,hands,G1,abundance,19,19,0.05972028022823202,0.01513098464317976,0.003356481481481475,0.04650673400673401,0.10173562774220189
+G0_G5,%MNAU,hands,G2,abundance,5,5,0.15308641975308643,0.07407407407407407,0,0.11728395061728396,0.24063783808985836
+G0_G5,%MNAU,hands,G3,abundance,13,13,0.20027323304411043,0.15925925925925927,0.04814814814814815,0.2359457671957672,0.19361661746423278
+G0_G5,%MNAU,hands,G4,abundance,7,7,0.2385716014800982,0.2581699346405229,0.21193415637860083,0.3018518518518518,0.10707448039492325
+G0_G5,%MNAU,hands,G5,abundance,24,24,0.3578703703703704,0.3055555555555556,0.10370370370370371,0.5555555555555556,0.30706587647600025
+G0_G5,%MNAU,humerus,G0,abundance,26,26,0.024839743589743588,0,0,0,0.08036791068813515
+G0_G5,%MNAU,humerus,G1,abundance,19,19,0.1973613241344307,0.16666666666666666,0.046875,0.2670454545454546,0.2309345262408606
+G0_G5,%MNAU,humerus,G2,abundance,5,5,0.3765909090909091,0.06666666666666667,0.04545454545454545,0.75,0.46377284953819653
+G0_G5,%MNAU,humerus,G3,abundance,13,13,0.3878799679336306,0.3258928571428571,0.175,0.5166666666666666,0.28812930724598473
+G0_G5,%MNAU,humerus,G4,abundance,7,7,0.5931839402427638,0.5555555555555556,0.47058823529411764,0.7777777777777778,0.31855149245829967
+G0_G5,%MNAU,humerus,G5,abundance,24,24,0.7541666666666667,1,0.5,1,0.30105490856489037
+G0_G5,%MNAU,hyoid,G0,abundance,26,26,0,0,0,0,0
+G0_G5,%MNAU,hyoid,G1,abundance,19,19,0.0023923444976076554,0,0,0,0.010427987903207352
+G0_G5,%MNAU,hyoid,G2,abundance,5,5,0.2,0,0,0,0.44721359549995793
+G0_G5,%MNAU,hyoid,G3,abundance,13,13,0.06071977476482316,0,0,0.1,0.10048076549046007
+G0_G5,%MNAU,hyoid,G4,abundance,7,7,0.03697478991596639,0,0,0.02941176470588235,0.07515568506678631
+G0_G5,%MNAU,hyoid,G5,abundance,24,24,0.08333333333333333,0,0,0,0.28232985128663995
+G0_G5,%MNAU,legs,G0,abundance,26,26,0.05332532051282051,0,0,0.03906249999999999,0.11050390391496907
+G0_G5,%MNAU,legs,G1,abundance,19,19,0.1686869757773962,0.12347560975609756,0.03645833333333333,0.29772727272727273,0.1579869413873142
+G0_G5,%MNAU,legs,G2,abundance,5,5,0.19382575757575757,0.06666666666666667,0.01704545454545454,0.375,0.22783018753584233
+G0_G5,%MNAU,legs,G3,abundance,13,13,0.3609950753866444,0.34793103448275864,0.25,0.5,0.23467174243038408
+G0_G5,%MNAU,legs,G4,abundance,7,7,0.4762896825396825,0.5,0.3194444444444444,0.5381944444444444,0.26370315971701663
+G0_G5,%MNAU,legs,G5,abundance,24,24,0.6541666666666667,0.625,0.4875,0.90625,0.28271458439897307
+G0_G5,%MNAU,pelvic,G0,abundance,26,26,0.04807692307692308,0,0,0,0.200240240326848
+G0_G5,%MNAU,pelvic,G1,abundance,19,19,0.2658682460030342,0.1111111111111111,0,0.4375,0.3133897954887912
+G0_G5,%MNAU,pelvic,G2,abundance,5,5,0.4083333333333333,0.04166666666666666,0,1,0.5403830945624492
+G0_G5,%MNAU,pelvic,G3,abundance,13,13,0.6698686715953771,0.5,0.4,0.9215686274509804,0.4672237737361991
+G0_G5,%MNAU,pelvic,G4,abundance,7,7,0.6445378151260505,0.5555555555555556,0.4722222222222222,0.8,0.25090504399882513
+G0_G5,%MNAU,pelvic,G5,abundance,24,24,0.7652777777777777,1,0.625,1,0.38328344560904115
+G0_G5,%MNAU,radius,G0,abundance,26,26,0,0,0,0,0
+G0_G5,%MNAU,radius,G1,abundance,19,19,0.15400630873191848,0.0625,0,0.22083333333333333,0.23221023796943116
+G0_G5,%MNAU,radius,G2,abundance,5,5,0.2737121212121212,0.06249999999999999,0.03333333333333333,0.25,0.41636590384676564
+G0_G5,%MNAU,radius,G3,abundance,13,13,0.3262692213562948,0.25,0.08793103448275862,0.4666666666666667,0.30890898908192066
+G0_G5,%MNAU,radius,G4,abundance,7,7,0.5411297852474323,0.4444444444444444,0.3995098039215686,0.7222222222222222,0.33543913997399116
+G0_G5,%MNAU,radius,G5,abundance,24,24,0.6840277777777778,0.75,0.5,1,0.3577803001231338
+G0_G5,%MNAU,ribs,G0,abundance,26,26,0.004807692307692307,0,0,0,0.017977312387666866
+G0_G5,%MNAU,ribs,G1,abundance,19,19,0.12616960415018824,0.04861111111111111,0.00752314814814814,0.15170454545454545,0.19509188656843424
+G0_G5,%MNAU,ribs,G2,abundance,5,5,0.20319444444444446,0.00555555555555555,0,0.01041666666666666,0.4454490599037513
+G0_G5,%MNAU,ribs,G3,abundance,13,13,0.12669174017560927,0.1118143459915612,0.03703703703703703,0.1589080459770115,0.11411577735186175
+G0_G5,%MNAU,ribs,G4,abundance,7,7,0.37760270774976656,0.28703703703703703,0.23434095860566448,0.45833333333333337,0.24830054286993317
+G0_G5,%MNAU,ribs,G5,abundance,24,24,0.3519675925925926,0.21875,0.11458333333333333,0.5833333333333334,0.3203664798405714
+G0_G5,%MNAU,scapula,G0,abundance,26,26,0,0,0,0,0
+G0_G5,%MNAU,scapula,G1,abundance,19,19,0.13150724881308964,0.09375,0.013888888888888888,0.19090909090909092,0.14633084090139414
+G0_G5,%MNAU,scapula,G2,abundance,5,5,0.35333333333333333,0.016666666666666666,0,0.75,0.4843953848757117
+G0_G5,%MNAU,scapula,G3,abundance,13,13,0.2245455971003831,0.17551724137931035,0.125,0.31666666666666665,0.14469290850965816
+G0_G5,%MNAU,scapula,G4,abundance,7,7,0.5480392156862746,0.5,0.315359477124183,0.7777777777777778,0.33675932792674973
+G0_G5,%MNAU,scapula,G5,abundance,24,24,0.4916666666666667,0.5,0.1875,1,0.39222516455493384
+G0_G5,%MNAU,shoulder_indet,G0,abundance,26,26,0,0,0,0,0
+G0_G5,%MNAU,shoulder_indet,G1,abundance,19,19,0,0,0,0,0
+G0_G5,%MNAU,shoulder_indet,G2,abundance,5,5,0,0,0,0,0
+G0_G5,%MNAU,shoulder_indet,G3,abundance,13,13,0,0,0,0,0
+G0_G5,%MNAU,shoulder_indet,G4,abundance,7,7,0,0,0,0,0
+G0_G5,%MNAU,shoulder_indet,G5,abundance,24,24,0,0,0,0,0
+G0_G5,%MNAU,sternum,G0,abundance,26,26,0,0,0,0,0
+G0_G5,%MNAU,sternum,G1,abundance,19,19,0.06271929824561404,0,0,0,0.22916866027840974
+G0_G5,%MNAU,sternum,G2,abundance,5,5,0.41333333333333333,0.06666666666666667,0,1,0.5362420680584055
+G0_G5,%MNAU,sternum,G3,abundance,13,13,0.07024978859690134,0.07448275862068965,0,0.1,0.08165792402509953
+G0_G5,%MNAU,sternum,G4,abundance,7,7,0.14108309990662932,0.1111111111111111,0,0.18823529411764706,0.17988721465111074
+G0_G5,%MNAU,sternum,G5,abundance,24,24,0.13055555555555556,0,0,0,0.29796680855694363
+G0_G5,%MNAU,thorax_indet,G0,abundance,26,26,0,0,0,0,0
+G0_G5,%MNAU,thorax_indet,G1,abundance,19,19,0,0,0,0,0
+G0_G5,%MNAU,thorax_indet,G2,abundance,5,5,0,0,0,0,0
+G0_G5,%MNAU,thorax_indet,G3,abundance,13,13,7.789678675754616e-5,0,0,0,2.8086085884821696e-4
+G0_G5,%MNAU,thorax_indet,G4,abundance,7,7,0,0,0,0,0
+G0_G5,%MNAU,thorax_indet,G5,abundance,24,24,0,0,0,0,0
+G0_G5,%MNAU,ulna,G0,abundance,26,26,0.003205128205128205,0,0,0,0.016343011261515335
+G0_G5,%MNAU,ulna,G1,abundance,19,19,0.15767252110320146,0.0625,0,0.22765151515151516,0.23554121989589674
+G0_G5,%MNAU,ulna,G2,abundance,5,5,0.3787121212121212,0.1,0.022727272727272724,0.75,0.4626921770838782
+G0_G5,%MNAU,ulna,G3,abundance,13,13,0.3303294031465007,0.23039215686274508,0.09241379310344829,0.48333333333333334,0.3222504665154597
+G0_G5,%MNAU,ulna,G4,abundance,7,7,0.5313258636788049,0.5,0.4068627450980392,0.6527777777777778,0.2846806930182534
+G0_G5,%MNAU,ulna,G5,abundance,24,24,0.6645833333333333,0.75,0.4875,1,0.37459519213547643
+G0_G5,%MNAU,vertebrae,G0,abundance,26,26,0.0034054487179487176,0,0,0,0.016334071232023583
+G0_G5,%MNAU,vertebrae,G1,abundance,19,19,0.08777770310384238,0.0391260162601626,0.00130208333333333,0.09027777777777778,0.15577270543345637
+G0_G5,%MNAU,vertebrae,G2,abundance,5,5,0.31376262626262624,0.06944444444444445,0.01325757575757575,0.625,0.39781820148660535
+G0_G5,%MNAU,vertebrae,G3,abundance,13,13,0.197774552462574,0.14583333333333334,0.09300595238095236,0.3001054852320675,0.14906373533504022
+G0_G5,%MNAU,vertebrae,G4,abundance,7,7,0.41216542172424525,0.40277777777777773,0.24373638344226578,0.505787037037037,0.23991322510690824
+G0_G5,%MNAU,vertebrae,G5,abundance,24,24,0.42824074074074076,0.3680555555555556,0.07291666666666666,0.75,0.34795012269996506
+G0_G5,ReMNAU,arms_indet,G0,abundance,26,26,0,0,0,0,0
+G0_G5,ReMNAU,arms_indet,G1,abundance,19,19,0.003159064760827597,0,0,0,0.013770044048547984
+G0_G5,ReMNAU,arms_indet,G2,abundance,5,5,0,0,0,0,0
+G0_G5,ReMNAU,arms_indet,G3,abundance,13,13,0,0,0,0,0
+G0_G5,ReMNAU,arms_indet,G4,abundance,7,7,0,0,0,0,0
+G0_G5,ReMNAU,arms_indet,G5,abundance,24,24,0,0,0,0,0
+G0_G5,ReMNAU,clavicle,G0,abundance,26,26,0.031188845401174174,0,0,0,0.11229571853544756
+G0_G5,ReMNAU,clavicle,G1,abundance,19,19,0.038013532297328796,0.031490764727651985,0,0.062129535807285294,0.03426407817840771
+G0_G5,ReMNAU,clavicle,G2,abundance,5,5,0.036567013849977625,0.041490179081542185,0,0.07029225858939858,0.03544425384525914
+G0_G5,ReMNAU,clavicle,G3,abundance,13,13,0.04616255323830537,0.043982034404037945,0.01837840668115297,0.0537190082644628,0.030903082024140903
+G0_G5,ReMNAU,clavicle,G4,abundance,7,7,0.046174288579798994,0.05494032478966934,0.02842744941788456,0.06087823735240194,0.0174809949230204
+G0_G5,ReMNAU,clavicle,G5,abundance,24,24,0.06686473285410977,0.06294918321421211,0.04865524571633508,0.07952472748880623,0.042433061494633266
+G0_G5,ReMNAU,cranium,G0,abundance,26,26,0.6179650003132175,0.9016216216216216,0,1,0.4543669920615207
+G0_G5,ReMNAU,cranium,G1,abundance,19,19,0.3355924901945699,0.26209397834551174,0.15903368447160243,0.45964071947911767,0.2633623446669953
+G0_G5,ReMNAU,cranium,G2,abundance,5,5,0.22707625264531212,0.07105263157894737,0.07029225858939858,0.22128095510155832,0.3155501357022086
+G0_G5,ReMNAU,cranium,G3,abundance,13,13,0.12044134275205924,0.11276967975708328,0.07776500306313414,0.14423093385991245,0.08776792069508786
+G0_G5,ReMNAU,cranium,G4,abundance,7,7,0.10847885896459868,0.10546003560402913,0.08906662619260222,0.12146000671895295,0.035687607738150044
+G0_G5,ReMNAU,cranium,G5,abundance,24,24,0.09154140800526024,0.08559819120817239,0.07023935796702326,0.09960561629867899,0.0523232826623797
+G0_G5,ReMNAU,foot,G0,abundance,26,26,0.03908523908523909,0,0,0,0.19601468433719585
+G0_G5,ReMNAU,foot,G1,abundance,19,19,0.062071340535315996,0.00585810371013235,0.003965950862983045,0.01510541772148798,0.2273550825302709
+G0_G5,ReMNAU,foot,G2,abundance,5,5,0.018329029968105884,0.00287631831255992,0.00185758513931888,0.02095250015645534,0.027935285031013037
+G0_G5,ReMNAU,foot,G3,abundance,13,13,0.03256487544212401,0.02499640092579262,0.01130978872686336,0.03305785123966942,0.033390290031591
+G0_G5,ReMNAU,foot,G4,abundance,7,7,0.025394286106585746,0.02430052827235374,0.02135748272654641,0.03350289946523653,0.010553105167353737
+G0_G5,ReMNAU,foot,G5,abundance,24,24,0.022567120790783116,0.019790778926500174,0.0033067998404105754,0.03297919391720854,0.023198002262015766
+G0_G5,ReMNAU,hands,G0,abundance,26,26,0.0019087434304825605,0,0,0,0.007414464631626321
+G0_G5,ReMNAU,hands,G1,abundance,19,19,0.014785158105971979,0.0063356225732063695,0.00190953189699183,0.02492677256451037,0.016736915576902815
+G0_G5,ReMNAU,hands,G2,abundance,5,5,0.02858775268981169,0.00526315789473684,0,0.04035296326428437,0.04195670732516728
+G0_G5,ReMNAU,hands,G3,abundance,13,13,0.03997436706545979,0.03085289403234334,0.01644915420099515,0.05510077998301027,0.0443377910000374
+G0_G5,ReMNAU,hands,G4,abundance,7,7,0.03526520227757133,0.03160559426537671,0.02568042985434857,0.040014144032538265,0.02419716121084794
+G0_G5,ReMNAU,hands,G5,abundance,24,24,0.03218699591385917,0.033140249022778234,0.010234519652308056,0.050997820360083684,0.025687785931228547
+G0_G5,ReMNAU,humerus,G0,abundance,26,26,0.031114827201783723,0,0,0,0.0973764288952903
+G0_G5,ReMNAU,humerus,G1,abundance,19,19,0.0597191746158048,0.0702972445215882,0.045316383581207376,0.0759533551089261,0.030806523613440263
+G0_G5,ReMNAU,humerus,G2,abundance,5,5,0.06043471080904698,0.05532023877538958,0.052719193942048936,0.07105263157894737,0.011743680523412377
+G0_G5,ReMNAU,humerus,G3,abundance,13,13,0.06514992478441979,0.07351362672461188,0.04664400172755562,0.08012151830747154,0.029760155201409733
+G0_G5,ReMNAU,humerus,G4,abundance,7,7,0.06584729204282283,0.06867540598708669,0.06322352948572835,0.07477814958438533,0.018728805398130547
+G0_G5,ReMNAU,humerus,G5,abundance,24,24,0.07478933028504638,0.07665450591792208,0.06495501491179109,0.08898199468491919,0.027273435296776078
+G0_G5,ReMNAU,hyoid,G0,abundance,26,26,0,0,0,0,0
+G0_G5,ReMNAU,hyoid,G1,abundance,19,19,5.947501858594327e-4,0,0,0,0.0025924559568133
+G0_G5,ReMNAU,hyoid,G2,abundance,5,5,0.014058451717879717,0,0,0,0.031435653699577744
+G0_G5,ReMNAU,hyoid,G3,abundance,13,13,0.01832711257170134,0,0,0.02176720080619262,0.035876044124072665
+G0_G5,ReMNAU,hyoid,G4,abundance,7,7,0.009387516005278415,0,0,0.00457836039913911,0.021077381922859316
+G0_G5,ReMNAU,hyoid,G5,abundance,24,24,0.0060613994631233065,0,0,0,0.020847580025036297
+G0_G5,ReMNAU,legs,G0,abundance,26,26,0.18299975644790825,0,0,0.09079318448883666,0.3628488539488184
+G0_G5,ReMNAU,legs,G1,abundance,19,19,0.05037831986628162,0.04723614709147798,0.025436351407720423,0.07280260276244067,0.03439745837500009
+G0_G5,ReMNAU,legs,G2,abundance,5,5,0.03452293961676645,0.03514612929469929,0.02664473684210526,0.037392138063279,0.013897402816010184
+G0_G5,ReMNAU,legs,G3,abundance,13,13,0.06466765779903647,0.06835417439077826,0.0421875,0.08933850738320209,0.030717683443001343
+G0_G5,ReMNAU,legs,G4,abundance,7,7,0.05391589459855194,0.06119694268375674,0.04317799812541326,0.06242902777479739,0.011577430298520716
+G0_G5,ReMNAU,legs,G5,abundance,24,24,0.06552323027781957,0.06605821656732729,0.05660418433332968,0.07820449825111143,0.02501222605152402
+G0_G5,ReMNAU,pelvic,G0,abundance,26,26,0.021927767354596624,0,0,0,0.08153430550084291
+G0_G5,ReMNAU,pelvic,G1,abundance,19,19,0.073238064630385,0.0650210716435882,0,0.09577105791012387,0.07767550789346299
+G0_G5,ReMNAU,pelvic,G2,abundance,5,5,0.05818268848429239,0.07029225858939858,0,0.07105263157894737,0.0621170340942896
+G0_G5,ReMNAU,pelvic,G3,abundance,13,13,0.1559854076809633,0.09895957740908538,0.063096160976103,0.14681804601135345,0.16778352858240125
+G0_G5,ReMNAU,pelvic,G4,abundance,7,7,0.08287822072666791,0.07037946764248834,0.06368653347518252,0.07477814958438533,0.0386597482029018
+G0_G5,ReMNAU,pelvic,G5,abundance,24,24,0.0736390844738094,0.07891569306017847,0.0658696920928539,0.0919169015070729,0.040386657693339455
+G0_G5,ReMNAU,radius,G0,abundance,26,26,0,0,0,0,0
+G0_G5,ReMNAU,radius,G1,abundance,19,19,0.03416652676053671,0.0325105358217941,0,0.058340329669356504,0.030180013809345117
+G0_G5,ReMNAU,radius,G2,abundance,5,5,0.07295745016096226,0.02766011938769479,0.02414860681114551,0.07105263157894737,0.08721492189251129
+G0_G5,ReMNAU,radius,G3,abundance,13,13,0.049260637407555714,0.05130840190031118,0.028044903806094083,0.06776585064483744,0.02618981655293047
+G0_G5,ReMNAU,radius,G4,abundance,7,7,0.05847785377460567,0.05951868518880846,0.054941962117441054,0.06677525262576378,0.015796400272683937
+G0_G5,ReMNAU,radius,G5,abundance,24,24,0.06226735907348573,0.06843329206704,0.053719570258378445,0.08246943191445516,0.028709889095870505
+G0_G5,ReMNAU,ribs,G0,abundance,26,26,0.0017287934668071654,0,0,0,0.006592444370663118
+G0_G5,ReMNAU,ribs,G1,abundance,19,19,0.029752742490594623,0.02041451806436545,0.00881081460447726,0.0409323681423762,0.030579908614824
+G0_G5,ReMNAU,ribs,G2,abundance,5,5,0.02245888331012534,0.00461001989794913,0,0.037392138063279,0.030977486551980578
+G0_G5,ReMNAU,ribs,G3,abundance,13,13,0.021963703583719924,0.02290730958543643,0.01364564618065163,0.02971271912889026,0.0167220575394694
+G0_G5,ReMNAU,ribs,G4,abundance,7,7,0.04121337326212886,0.04068433131650324,0.034653740634221254,0.04777346154884377,0.009132360817704842
+G0_G5,ReMNAU,ribs,G5,abundance,24,24,0.033657808518063596,0.029496635944268566,0.011593965784859085,0.057545742541031175,0.026349129181388226
+G0_G5,ReMNAU,scapula,G0,abundance,26,26,0,0,0,0,0
+G0_G5,ReMNAU,scapula,G1,abundance,19,19,0.03655111123343191,0.035406264185202,0.00897239263803681,0.06803126247131852,0.029715545785060228
+G0_G5,ReMNAU,scapula,G2,abundance,5,5,0.02752037704296874,0.013830059693847395,0,0.052719193942048936,0.03252769839841338
+G0_G5,ReMNAU,scapula,G3,abundance,13,13,0.03963351371098639,0.039616958838520344,0.034169471042892266,0.04995112743941488,0.013128954984920201
+G0_G5,ReMNAU,scapula,G4,abundance,7,7,0.05962110980506499,0.06317103760903922,0.04946374603311228,0.06735920220175097,0.013354155787378027
+G0_G5,ReMNAU,scapula,G5,abundance,24,24,0.04483163824399946,0.04194525819967303,0.017615176151761516,0.07007546540140784,0.03391915285949141
+G0_G5,ReMNAU,shoulder_indet,G0,abundance,26,26,0,0,0,0,0
+G0_G5,ReMNAU,shoulder_indet,G1,abundance,19,19,0,0,0,0,0
+G0_G5,ReMNAU,shoulder_indet,G2,abundance,5,5,0,0,0,0,0
+G0_G5,ReMNAU,shoulder_indet,G3,abundance,13,13,0,0,0,0,0
+G0_G5,ReMNAU,shoulder_indet,G4,abundance,7,7,0,0,0,0,0
+G0_G5,ReMNAU,shoulder_indet,G5,abundance,24,24,0,0,0,0,0
+G0_G5,ReMNAU,sternum,G0,abundance,26,26,0,0,0,0,0
+G0_G5,ReMNAU,sternum,G1,abundance,19,19,0.0054532552963516435,0,0,0,0.01692360917789371
+G0_G5,ReMNAU,sternum,G2,abundance,5,5,0.0393330257887471,0.05532023877538958,0,0.07029225858939858,0.0364498707184518
+G0_G5,ReMNAU,sternum,G3,abundance,13,13,0.016178208349386318,0.00926874080195205,0,0.02487680092136299,0.020260131530501806
+G0_G5,ReMNAU,sternum,G4,abundance,7,7,0.01855714986374884,0.01428847660821689,0,0.02952784059967714,0.021386949058844765
+G0_G5,ReMNAU,sternum,G5,abundance,24,24,0.011713337048017355,0,0,0,0.024093191528186838
+G0_G5,ReMNAU,thorax_indet,G0,abundance,26,26,0,0,0,0,0
+G0_G5,ReMNAU,thorax_indet,G1,abundance,19,19,0,0,0,0,0
+G0_G5,ReMNAU,thorax_indet,G2,abundance,5,5,0,0,0,0,0
+G0_G5,ReMNAU,thorax_indet,G3,abundance,13,13,9.506400822514924e-6,0,0,0,3.42758156106906e-5
+G0_G5,ReMNAU,thorax_indet,G4,abundance,7,7,0,0,0,0,0
+G0_G5,ReMNAU,thorax_indet,G5,abundance,24,24,0,0,0,0,0
+G0_G5,ReMNAU,ulna,G0,abundance,26,26,0.003612040133779264,0,0,0,0.01841786312602076
+G0_G5,ReMNAU,ulna,G1,abundance,19,19,0.03541449546421489,0.0325105358217941,0,0.06164202849350016,0.03405854976586797
+G0_G5,ReMNAU,ulna,G2,abundance,5,5,0.06113701332435684,0.07105263157894737,0.052719193942048936,0.074784276126558,0.02345581420802958
+G0_G5,ReMNAU,ulna,G3,abundance,13,13,0.0479318295149769,0.04924501499447572,0.0203044282812358,0.07624119451279113,0.032526907325837386
+G0_G5,ReMNAU,ulna,G4,abundance,7,7,0.05931308395048795,0.061807865388378014,0.05565772744888961,0.06730671032506184,0.01617531509244607
+G0_G5,ReMNAU,ulna,G5,abundance,24,24,0.0635907238155443,0.07015741168421555,0.0490529252262734,0.08246943191445516,0.033375190803328146
+G0_G5,ReMNAU,vertebrae,G0,abundance,26,26,0.002553274428274428,0,0,0,0.009036682473133875
+G0_G5,ReMNAU,vertebrae,G1,abundance,19,19,0.01724513319120799,0.01358506339696252,0.00137369088432818,0.027282630779726365,0.017076052404572748
+G0_G5,ReMNAU,vertebrae,G2,abundance,5,5,0.040217845404334346,0.0444078947368421,0.024928092042186,0.05762524872436415,0.020187605753622113
+G0_G5,ReMNAU,vertebrae,G3,abundance,13,13,0.03361090104223874,0.0340545260502571,0.0256561867356888,0.03662439941882442,0.019591975578345997
+G0_G5,ReMNAU,vertebrae,G4,abundance,7,7,0.04604224188930742,0.04719382432714375,0.04466828176199762,0.051681715719371336,0.008047249085354799
+G0_G5,ReMNAU,vertebrae,G5,abundance,24,24,0.038422046964892896,0.03973641523886408,0.009058800379098187,0.06249214736344965,0.028508722081808643
+G0_G5,%MNAU,arms_indet,G0,presence,26,26,0,0,0,0,0
+G0_G5,%MNAU,arms_indet,G1,presence,19,19,0.05263157894736842,0,0,0,0.22941573387056177
+G0_G5,%MNAU,arms_indet,G2,presence,5,5,0,0,0,0,0
+G0_G5,%MNAU,arms_indet,G3,presence,13,13,0,0,0,0,0
+G0_G5,%MNAU,arms_indet,G4,presence,7,7,0,0,0,0,0
+G0_G5,%MNAU,arms_indet,G5,presence,24,24,0,0,0,0,0
+G0_G5,%MNAU,clavicle,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,%MNAU,clavicle,G1,presence,19,19,0.6842105263157895,1,0,1,0.4775669329409193
+G0_G5,%MNAU,clavicle,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,%MNAU,clavicle,G3,presence,13,13,1,1,1,1,0
+G0_G5,%MNAU,clavicle,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,clavicle,G5,presence,24,24,0.9166666666666666,1,1,1,0.28232985128663995
+G0_G5,%MNAU,cranium,G0,presence,26,26,0.6923076923076923,1,0,1,0.4706787243316417
+G0_G5,%MNAU,cranium,G1,presence,19,19,0.9473684210526315,1,1,1,0.22941573387056177
+G0_G5,%MNAU,cranium,G2,presence,5,5,0.8,1,1,1,0.44721359549995793
+G0_G5,%MNAU,cranium,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,%MNAU,cranium,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,cranium,G5,presence,24,24,0.9166666666666666,1,1,1,0.28232985128663995
+G0_G5,%MNAU,foot,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,%MNAU,foot,G1,presence,19,19,1,1,1,1,0
+G0_G5,%MNAU,foot,G2,presence,5,5,0.8,1,1,1,0.44721359549995793
+G0_G5,%MNAU,foot,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,%MNAU,foot,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,foot,G5,presence,24,24,0.7916666666666666,1,1,1,0.4148511169990534
+G0_G5,%MNAU,hands,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,%MNAU,hands,G1,presence,19,19,0.8421052631578947,1,1,1,0.3746343246326776
+G0_G5,%MNAU,hands,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,%MNAU,hands,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,%MNAU,hands,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,hands,G5,presence,24,24,0.8333333333333334,1,1,1,0.38069349381344053
+G0_G5,%MNAU,humerus,G0,presence,26,26,0.11538461538461539,0,0,0,0.3258125936084211
+G0_G5,%MNAU,humerus,G1,presence,19,19,0.8947368421052632,1,1,1,0.3153017676423058
+G0_G5,%MNAU,humerus,G2,presence,5,5,1,1,1,1,0
+G0_G5,%MNAU,humerus,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,%MNAU,humerus,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,humerus,G5,presence,24,24,0.9583333333333334,1,1,1,0.2041241452319315
+G0_G5,%MNAU,hyoid,G0,presence,26,26,0,0,0,0,0
+G0_G5,%MNAU,hyoid,G1,presence,19,19,0.05263157894736842,0,0,0,0.22941573387056177
+G0_G5,%MNAU,hyoid,G2,presence,5,5,0.2,0,0,0,0.44721359549995793
+G0_G5,%MNAU,hyoid,G3,presence,13,13,0.46153846153846156,0,0,1,0.5188745216627708
+G0_G5,%MNAU,hyoid,G4,presence,7,7,0.2857142857142857,0,0,0.5,0.4879500364742666
+G0_G5,%MNAU,hyoid,G5,presence,24,24,0.08333333333333333,0,0,0,0.28232985128663995
+G0_G5,%MNAU,legs,G0,presence,26,26,0.4230769230769231,0,0,1,0.5038314736557788
+G0_G5,%MNAU,legs,G1,presence,19,19,0.8947368421052632,1,1,1,0.3153017676423058
+G0_G5,%MNAU,legs,G2,presence,5,5,1,1,1,1,0
+G0_G5,%MNAU,legs,G3,presence,13,13,1,1,1,1,0
+G0_G5,%MNAU,legs,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,legs,G5,presence,24,24,1,1,1,1,0
+G0_G5,%MNAU,pelvic,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,%MNAU,pelvic,G1,presence,19,19,0.6842105263157895,1,0,1,0.4775669329409193
+G0_G5,%MNAU,pelvic,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,%MNAU,pelvic,G3,presence,13,13,1,1,1,1,0
+G0_G5,%MNAU,pelvic,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,pelvic,G5,presence,24,24,0.8333333333333334,1,1,1,0.38069349381344053
+G0_G5,%MNAU,radius,G0,presence,26,26,0,0,0,0,0
+G0_G5,%MNAU,radius,G1,presence,19,19,0.6842105263157895,1,0,1,0.4775669329409193
+G0_G5,%MNAU,radius,G2,presence,5,5,1,1,1,1,0
+G0_G5,%MNAU,radius,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,%MNAU,radius,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,radius,G5,presence,24,24,0.875,1,1,1,0.3378319623460881
+G0_G5,%MNAU,ribs,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,%MNAU,ribs,G1,presence,19,19,0.8421052631578947,1,1,1,0.3746343246326776
+G0_G5,%MNAU,ribs,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,%MNAU,ribs,G3,presence,13,13,0.7692307692307693,1,1,1,0.4385290096535146
+G0_G5,%MNAU,ribs,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,ribs,G5,presence,24,24,0.875,1,1,1,0.3378319623460881
+G0_G5,%MNAU,scapula,G0,presence,26,26,0,0,0,0,0
+G0_G5,%MNAU,scapula,G1,presence,19,19,0.7368421052631579,1,0.5,1,0.45241392835886407
+G0_G5,%MNAU,scapula,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,%MNAU,scapula,G3,presence,13,13,1,1,1,1,0
+G0_G5,%MNAU,scapula,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,scapula,G5,presence,24,24,0.75,1,0.75,1,0.4423258684646914
+G0_G5,%MNAU,shoulder_indet,G0,presence,26,26,0,0,0,0,0
+G0_G5,%MNAU,shoulder_indet,G1,presence,19,19,0,0,0,0,0
+G0_G5,%MNAU,shoulder_indet,G2,presence,5,5,0,0,0,0,0
+G0_G5,%MNAU,shoulder_indet,G3,presence,13,13,0,0,0,0,0
+G0_G5,%MNAU,shoulder_indet,G4,presence,7,7,0,0,0,0,0
+G0_G5,%MNAU,shoulder_indet,G5,presence,24,24,0,0,0,0,0
+G0_G5,%MNAU,sternum,G0,presence,26,26,0,0,0,0,0
+G0_G5,%MNAU,sternum,G1,presence,19,19,0.15789473684210525,0,0,0,0.3746343246326776
+G0_G5,%MNAU,sternum,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,%MNAU,sternum,G3,presence,13,13,0.5384615384615384,1,0,1,0.5188745216627708
+G0_G5,%MNAU,sternum,G4,presence,7,7,0.5714285714285714,1,0,1,0.5345224838248488
+G0_G5,%MNAU,sternum,G5,presence,24,24,0.20833333333333334,0,0,0,0.4148511169990534
+G0_G5,%MNAU,thorax_indet,G0,presence,26,26,0,0,0,0,0
+G0_G5,%MNAU,thorax_indet,G1,presence,19,19,0,0,0,0,0
+G0_G5,%MNAU,thorax_indet,G2,presence,5,5,0,0,0,0,0
+G0_G5,%MNAU,thorax_indet,G3,presence,13,13,0.07692307692307693,0,0,0,0.2773500981126146
+G0_G5,%MNAU,thorax_indet,G4,presence,7,7,0,0,0,0,0
+G0_G5,%MNAU,thorax_indet,G5,presence,24,24,0,0,0,0,0
+G0_G5,%MNAU,ulna,G0,presence,26,26,0.038461538461538464,0,0,0,0.19611613513818404
+G0_G5,%MNAU,ulna,G1,presence,19,19,0.631578947368421,1,0,1,0.49559462778335206
+G0_G5,%MNAU,ulna,G2,presence,5,5,1,1,1,1,0
+G0_G5,%MNAU,ulna,G3,presence,13,13,0.8461538461538461,1,1,1,0.3755338080994054
+G0_G5,%MNAU,ulna,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,ulna,G5,presence,24,24,0.875,1,1,1,0.3378319623460881
+G0_G5,%MNAU,vertebrae,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,%MNAU,vertebrae,G1,presence,19,19,0.7368421052631579,1,0.5,1,0.45241392835886407
+G0_G5,%MNAU,vertebrae,G2,presence,5,5,1,1,1,1,0
+G0_G5,%MNAU,vertebrae,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,%MNAU,vertebrae,G4,presence,7,7,1,1,1,1,0
+G0_G5,%MNAU,vertebrae,G5,presence,24,24,0.8333333333333334,1,1,1,0.38069349381344053
+G0_G5,ReMNAU,arms_indet,G0,presence,26,26,0,0,0,0,0
+G0_G5,ReMNAU,arms_indet,G1,presence,19,19,0.05263157894736842,0,0,0,0.22941573387056177
+G0_G5,ReMNAU,arms_indet,G2,presence,5,5,0,0,0,0,0
+G0_G5,ReMNAU,arms_indet,G3,presence,13,13,0,0,0,0,0
+G0_G5,ReMNAU,arms_indet,G4,presence,7,7,0,0,0,0,0
+G0_G5,ReMNAU,arms_indet,G5,presence,24,24,0,0,0,0,0
+G0_G5,ReMNAU,clavicle,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,ReMNAU,clavicle,G1,presence,19,19,0.6842105263157895,1,0,1,0.4775669329409193
+G0_G5,ReMNAU,clavicle,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,ReMNAU,clavicle,G3,presence,13,13,1,1,1,1,0
+G0_G5,ReMNAU,clavicle,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,clavicle,G5,presence,24,24,0.9166666666666666,1,1,1,0.28232985128663995
+G0_G5,ReMNAU,cranium,G0,presence,26,26,0.6923076923076923,1,0,1,0.4706787243316417
+G0_G5,ReMNAU,cranium,G1,presence,19,19,0.9473684210526315,1,1,1,0.22941573387056177
+G0_G5,ReMNAU,cranium,G2,presence,5,5,0.8,1,1,1,0.44721359549995793
+G0_G5,ReMNAU,cranium,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,ReMNAU,cranium,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,cranium,G5,presence,24,24,0.9166666666666666,1,1,1,0.28232985128663995
+G0_G5,ReMNAU,foot,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,ReMNAU,foot,G1,presence,19,19,1,1,1,1,0
+G0_G5,ReMNAU,foot,G2,presence,5,5,0.8,1,1,1,0.44721359549995793
+G0_G5,ReMNAU,foot,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,ReMNAU,foot,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,foot,G5,presence,24,24,0.7916666666666666,1,1,1,0.4148511169990534
+G0_G5,ReMNAU,hands,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,ReMNAU,hands,G1,presence,19,19,0.8421052631578947,1,1,1,0.3746343246326776
+G0_G5,ReMNAU,hands,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,ReMNAU,hands,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,ReMNAU,hands,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,hands,G5,presence,24,24,0.8333333333333334,1,1,1,0.38069349381344053
+G0_G5,ReMNAU,humerus,G0,presence,26,26,0.11538461538461539,0,0,0,0.3258125936084211
+G0_G5,ReMNAU,humerus,G1,presence,19,19,0.8947368421052632,1,1,1,0.3153017676423058
+G0_G5,ReMNAU,humerus,G2,presence,5,5,1,1,1,1,0
+G0_G5,ReMNAU,humerus,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,ReMNAU,humerus,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,humerus,G5,presence,24,24,0.9583333333333334,1,1,1,0.2041241452319315
+G0_G5,ReMNAU,hyoid,G0,presence,26,26,0,0,0,0,0
+G0_G5,ReMNAU,hyoid,G1,presence,19,19,0.05263157894736842,0,0,0,0.22941573387056177
+G0_G5,ReMNAU,hyoid,G2,presence,5,5,0.2,0,0,0,0.44721359549995793
+G0_G5,ReMNAU,hyoid,G3,presence,13,13,0.46153846153846156,0,0,1,0.5188745216627708
+G0_G5,ReMNAU,hyoid,G4,presence,7,7,0.2857142857142857,0,0,0.5,0.4879500364742666
+G0_G5,ReMNAU,hyoid,G5,presence,24,24,0.08333333333333333,0,0,0,0.28232985128663995
+G0_G5,ReMNAU,legs,G0,presence,26,26,0.4230769230769231,0,0,1,0.5038314736557788
+G0_G5,ReMNAU,legs,G1,presence,19,19,0.8947368421052632,1,1,1,0.3153017676423058
+G0_G5,ReMNAU,legs,G2,presence,5,5,1,1,1,1,0
+G0_G5,ReMNAU,legs,G3,presence,13,13,1,1,1,1,0
+G0_G5,ReMNAU,legs,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,legs,G5,presence,24,24,1,1,1,1,0
+G0_G5,ReMNAU,pelvic,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,ReMNAU,pelvic,G1,presence,19,19,0.6842105263157895,1,0,1,0.4775669329409193
+G0_G5,ReMNAU,pelvic,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,ReMNAU,pelvic,G3,presence,13,13,1,1,1,1,0
+G0_G5,ReMNAU,pelvic,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,pelvic,G5,presence,24,24,0.8333333333333334,1,1,1,0.38069349381344053
+G0_G5,ReMNAU,radius,G0,presence,26,26,0,0,0,0,0
+G0_G5,ReMNAU,radius,G1,presence,19,19,0.6842105263157895,1,0,1,0.4775669329409193
+G0_G5,ReMNAU,radius,G2,presence,5,5,1,1,1,1,0
+G0_G5,ReMNAU,radius,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,ReMNAU,radius,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,radius,G5,presence,24,24,0.875,1,1,1,0.3378319623460881
+G0_G5,ReMNAU,ribs,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,ReMNAU,ribs,G1,presence,19,19,0.8421052631578947,1,1,1,0.3746343246326776
+G0_G5,ReMNAU,ribs,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,ReMNAU,ribs,G3,presence,13,13,0.7692307692307693,1,1,1,0.4385290096535146
+G0_G5,ReMNAU,ribs,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,ribs,G5,presence,24,24,0.875,1,1,1,0.3378319623460881
+G0_G5,ReMNAU,scapula,G0,presence,26,26,0,0,0,0,0
+G0_G5,ReMNAU,scapula,G1,presence,19,19,0.7368421052631579,1,0.5,1,0.45241392835886407
+G0_G5,ReMNAU,scapula,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,ReMNAU,scapula,G3,presence,13,13,1,1,1,1,0
+G0_G5,ReMNAU,scapula,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,scapula,G5,presence,24,24,0.75,1,0.75,1,0.4423258684646914
+G0_G5,ReMNAU,shoulder_indet,G0,presence,26,26,0,0,0,0,0
+G0_G5,ReMNAU,shoulder_indet,G1,presence,19,19,0,0,0,0,0
+G0_G5,ReMNAU,shoulder_indet,G2,presence,5,5,0,0,0,0,0
+G0_G5,ReMNAU,shoulder_indet,G3,presence,13,13,0,0,0,0,0
+G0_G5,ReMNAU,shoulder_indet,G4,presence,7,7,0,0,0,0,0
+G0_G5,ReMNAU,shoulder_indet,G5,presence,24,24,0,0,0,0,0
+G0_G5,ReMNAU,sternum,G0,presence,26,26,0,0,0,0,0
+G0_G5,ReMNAU,sternum,G1,presence,19,19,0.15789473684210525,0,0,0,0.3746343246326776
+G0_G5,ReMNAU,sternum,G2,presence,5,5,0.6,1,0,1,0.5477225575051661
+G0_G5,ReMNAU,sternum,G3,presence,13,13,0.5384615384615384,1,0,1,0.5188745216627708
+G0_G5,ReMNAU,sternum,G4,presence,7,7,0.5714285714285714,1,0,1,0.5345224838248488
+G0_G5,ReMNAU,sternum,G5,presence,24,24,0.20833333333333334,0,0,0,0.4148511169990534
+G0_G5,ReMNAU,thorax_indet,G0,presence,26,26,0,0,0,0,0
+G0_G5,ReMNAU,thorax_indet,G1,presence,19,19,0,0,0,0,0
+G0_G5,ReMNAU,thorax_indet,G2,presence,5,5,0,0,0,0,0
+G0_G5,ReMNAU,thorax_indet,G3,presence,13,13,0.07692307692307693,0,0,0,0.2773500981126146
+G0_G5,ReMNAU,thorax_indet,G4,presence,7,7,0,0,0,0,0
+G0_G5,ReMNAU,thorax_indet,G5,presence,24,24,0,0,0,0,0
+G0_G5,ReMNAU,ulna,G0,presence,26,26,0.038461538461538464,0,0,0,0.19611613513818404
+G0_G5,ReMNAU,ulna,G1,presence,19,19,0.631578947368421,1,0,1,0.49559462778335206
+G0_G5,ReMNAU,ulna,G2,presence,5,5,1,1,1,1,0
+G0_G5,ReMNAU,ulna,G3,presence,13,13,0.8461538461538461,1,1,1,0.3755338080994054
+G0_G5,ReMNAU,ulna,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,ulna,G5,presence,24,24,0.875,1,1,1,0.3378319623460881
+G0_G5,ReMNAU,vertebrae,G0,presence,26,26,0.07692307692307693,0,0,0,0.271746488194703
+G0_G5,ReMNAU,vertebrae,G1,presence,19,19,0.7368421052631579,1,0.5,1,0.45241392835886407
+G0_G5,ReMNAU,vertebrae,G2,presence,5,5,1,1,1,1,0
+G0_G5,ReMNAU,vertebrae,G3,presence,13,13,0.9230769230769231,1,1,1,0.2773500981126146
+G0_G5,ReMNAU,vertebrae,G4,presence,7,7,1,1,1,1,0
+G0_G5,ReMNAU,vertebrae,G5,presence,24,24,0.8333333333333334,1,1,1,0.38069349381344053

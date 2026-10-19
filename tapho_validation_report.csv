@@ -1,0 +1,2317 @@
+"test_name","test_group","mode","description","seed","level","success","warning_count","warning_unique_count","warning_sample","error","error_call","likely_bug","likely_file","likely_location","suggestion","elapsed_seconds"
+"01_baseline_min_indet_TRUE","fixed","fixed","Minimum anatomical resolution; retain indeterminate observations.",124,"1,1,1,1,1,1,1,1,1,1,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",264.885
+"02_baseline_mid_indet_TRUE","fixed","fixed","Middle anatomical resolution; retain indeterminate observations.",125,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",247.796
+"03_extreme_max_indet_TRUE","fixed","fixed","Maximum anatomical detail.",126,"5,5,1,3,4,3,3,5,4,3,5",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",485.824
+"04_auto_level_min","fixed","fixed","Automatic level calculation using minimum.",127,"NULL",TRUE,827,414,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | [1m[22mThere was 1 warning in `dplyr::summarize()`.
+[1m[22m[36mℹ[39m In argument: `min_level = stat_fn(max_Level)`.
+Caused by warning in `min()`:
+[33m![39m no non-missing arguments to min; returning Inf | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",547.796
+"05_auto_level_max","fixed","fixed","Automatic level calculation using maximum.",128,"NULL",TRUE,827,414,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | [1m[22mThere was 1 warning in `dplyr::summarize()`.
+[1m[22m[36mℹ[39m In argument: `min_level = stat_fn(max_Level)`.
+Caused by warning in `max()`:
+[33m![39m no non-missing arguments to max; returning -Inf | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",551.587
+"06_auto_level_mode","fixed","fixed","Automatic level calculation using mode.",129,"NULL",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",555.825
+"07_indet_FALSE_delete","fixed","fixed","Resolve indeterminate data by deletion.",130,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",242.948
+"08_indet_FALSE_up","fixed","fixed","Resolve indeterminate data by collapsing upward.",131,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",265.587
+"09_indet_FALSE_dist","fixed","fixed","Resolve indeterminate data by stochastic distribution.",132,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",253.915
+"10_regression_foot_metatarsal","fixed","fixed","Previously failing foot/metatarsal capacity case.",133,"4,1,1,2,3,2,2,2,2,1,4",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",277.936
+"11_ribs_level3_indet_TRUE","fixed","fixed","Thorax Level 3 retaining indeterminate/fragment categories.",134,"1,1,1,1,3,1,1,1,1,1,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",278.209
+"12_ribs_level3_up","fixed","fixed","Thorax Level 3; resolve rib fragments/indeterminate upward.",135,"1,1,1,1,3,1,1,1,1,1,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",292.428
+"13_ribs_level3_dist","fixed","fixed","Thorax Level 3; stochastic rib fragment/indeterminate distribution.",136,"1,1,1,1,3,1,1,1,1,1,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",277.83
+"14_ribs_level4_dist","fixed","fixed","Maximum thorax detail with stochastic distribution.",137,"1,1,1,1,4,1,1,1,1,1,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",289.912
+"15_fragments_per_bone_1","fixed","fixed","Fragment conversion edge: 1 fragment per bone.",138,"1,1,1,1,3,1,1,1,1,1,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",277.155
+"16_fragments_per_bone_3","fixed","fixed","Fragment conversion normal test: 3 fragments per bone.",139,"1,1,1,1,3,1,1,1,1,1,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",281.69
+"17_fragments_per_bone_100","fixed","fixed","Fragment conversion extreme: 100 fragments per bone.",140,"1,1,1,1,3,1,1,1,1,1,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",277.391
+"18_recalc_direct","fixed","fixed","Grouped data recalculated directly to requested levels.",141,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",237.426
+"19_recalc_min","fixed","fixed","Grouped data recalculated to minimum common level.",142,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",240.85
+"20_recalc_filter","fixed","fixed","Grouped data filtered/recalculated against requested levels.",143,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",251.29
+"21_sum_FALSE","fixed","fixed","Do not aggregate input records.",144,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",271.018
+"22_sum_TRUE","fixed","fixed","Aggregate using default sum=TRUE behavior.",145,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",258.979
+"23_group_cultural_period","fixed","fixed","Aggregate with cultural_period.",146,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",252.947
+"24_group_multi","fixed","fixed","Aggregate with multiple metadata fields.",147,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",249.046
+"25_select_gender_indet","fixed","fixed","Selection/filter branch using gender = Indet.",148,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",233.768
+"26_exclude_default_teeth","fixed","fixed","Explicit default teeth exclusion.",149,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",267.194
+"27_exclude_none","fixed","fixed","Retain all skeletal sections including teeth.",150,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",265.507
+"28_exclude_many","fixed","fixed","Remove several major skeletal sections.",151,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",259.556
+"30_unique_level_FALSE","fixed","fixed","Explicitly exercise unique_level = FALSE.",153,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",242.433
+"31_unique_level_TRUE_explicit","fixed","fixed","Explicit control for unique_level = TRUE.",154,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",241.279
+"32_verbose_FALSE","fixed","fixed","Exercise verbose = FALSE without changing calculation settings.",155,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",271.632
+"33_auto_level_min_FALSE_up","fixed","fixed","Automatic level calculation combined with indet_method = up.",156,"NULL",FALSE,827,414,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | [1m[22mThere was 1 warning in `dplyr::summarize()`.
+[1m[22m[36mℹ[39m In argument: `min_level = stat_fn(max_Level)`.
+Caused by warning in `min()`:
+[33m![39m no non-missing arguments to min; returning Inf | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'.","'target_level' must be provided for method = 'direct'","recal_mne_selected_data(data, method = method, target_level = level)","UNCLASSIFIED","inspect captured error / call stack","unknown","Use error_call and call_stack from the diagnostic report.",383.974
+"34_auto_level_mode_FALSE_dist","fixed","fixed","Automatic level calculation combined with stochastic distribution.",157,"NULL",FALSE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","'target_level' must be provided for method = 'direct'","recal_mne_selected_data(data, method = method, target_level = level)","UNCLASSIFIED","inspect captured error / call stack","unknown","Use error_call and call_stack from the diagnostic report.",414.32
+"35_recalc_filter_FALSE_dist","fixed","fixed","Cross-check recalc_method = filter with stochastic indeterminate distribution.",158,"3,3,1,2,2,2,2,3,2,2,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",251.739
+"R001_indet_TRUE","random","indet_TRUE","Random level stress test. Vector: 3,3,1,2,2,3,1,4,2,2,1 Mode: indet_TRUE",224,"3,3,1,2,2,3,1,4,2,2,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",279.524
+"R001_FALSE_delete","random","FALSE_delete","Random level stress test. Vector: 3,3,1,2,2,3,1,4,2,2,1 Mode: FALSE_delete",225,"3,3,1,2,2,3,1,4,2,2,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",264.382
+"R001_FALSE_up","random","FALSE_up","Random level stress test. Vector: 3,3,1,2,2,3,1,4,2,2,1 Mode: FALSE_up",226,"3,3,1,2,2,3,1,4,2,2,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",284.582
+"R001_FALSE_dist","random","FALSE_dist","Random level stress test. Vector: 3,3,1,2,2,3,1,4,2,2,1 Mode: FALSE_dist",227,"3,3,1,2,2,3,1,4,2,2,1",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",272.33
+"R002_indet_TRUE","random","indet_TRUE","Random level stress test. Vector: 2,3,1,1,3,3,1,4,1,1,5 Mode: indet_TRUE",328,"2,3,1,1,3,3,1,4,1,1,5",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",338.091
+"R002_FALSE_delete","random","FALSE_delete","Random level stress test. Vector: 2,3,1,1,3,3,1,4,1,1,5 Mode: FALSE_delete",329,"2,3,1,1,3,3,1,4,1,1,5",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",307.967
+"R002_FALSE_up","random","FALSE_up","Random level stress test. Vector: 2,3,1,1,3,3,1,4,1,1,5 Mode: FALSE_up",330,"2,3,1,1,3,3,1,4,1,1,5",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",328.449
+"R002_FALSE_dist","random","FALSE_dist","Random level stress test. Vector: 2,3,1,1,3,3,1,4,1,1,5 Mode: FALSE_dist",331,"2,3,1,1,3,3,1,4,1,1,5",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",311.001
+"R003_indet_TRUE","random","indet_TRUE","Random level stress test. Vector: 3,2,1,2,1,2,3,4,2,1,3 Mode: indet_TRUE",432,"3,2,1,2,1,2,3,4,2,1,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",270.753
+"R003_FALSE_delete","random","FALSE_delete","Random level stress test. Vector: 3,2,1,2,1,2,3,4,2,1,3 Mode: FALSE_delete",433,"3,2,1,2,1,2,3,4,2,1,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",267.652
+"R003_FALSE_up","random","FALSE_up","Random level stress test. Vector: 3,2,1,2,1,2,3,4,2,1,3 Mode: FALSE_up",434,"3,2,1,2,1,2,3,4,2,1,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",288.909
+"R003_FALSE_dist","random","FALSE_dist","Random level stress test. Vector: 3,2,1,2,1,2,3,4,2,1,3 Mode: FALSE_dist",435,"3,2,1,2,1,2,3,4,2,1,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",276.946
+"R004_indet_TRUE","random","indet_TRUE","Random level stress test. Vector: 5,4,1,2,1,3,1,1,2,3,3 Mode: indet_TRUE",536,"5,4,1,2,1,3,1,1,2,3,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",317.427
+"R004_FALSE_delete","random","FALSE_delete","Random level stress test. Vector: 5,4,1,2,1,3,1,1,2,3,3 Mode: FALSE_delete",537,"5,4,1,2,1,3,1,1,2,3,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",294.809
+"R004_FALSE_up","random","FALSE_up","Random level stress test. Vector: 5,4,1,2,1,3,1,1,2,3,3 Mode: FALSE_up",538,"5,4,1,2,1,3,1,1,2,3,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",317.379
+"R004_FALSE_dist","random","FALSE_dist","Random level stress test. Vector: 5,4,1,2,1,3,1,1,2,3,3 Mode: FALSE_dist",539,"5,4,1,2,1,3,1,1,2,3,3",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",305.169
+"R005_indet_TRUE","random","indet_TRUE","Random level stress test. Vector: 4,5,1,1,3,2,1,2,1,1,4 Mode: indet_TRUE",640,"4,5,1,1,3,2,1,2,1,1,4",TRUE,822,413,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",349.04
+"R005_FALSE_delete","random","FALSE_delete","Random level stress test. Vector: 4,5,1,1,3,2,1,2,1,1,4 Mode: FALSE_delete",641,"4,5,1,1,3,2,1,2,1,1,4",TRUE,1233,414,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",322.644
+"R005_FALSE_up","random","FALSE_up","Random level stress test. Vector: 4,5,1,1,3,2,1,2,1,1,4 Mode: FALSE_up",642,"4,5,1,1,3,2,1,2,1,1,4",TRUE,1233,414,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",345.392
+"R005_FALSE_dist","random","FALSE_dist","Random level stress test. Vector: 4,5,1,1,3,2,1,2,1,1,4 Mode: FALSE_dist",643,"4,5,1,1,3,2,1,2,1,1,4",TRUE,1233,414,"archo_preload_site_table validation report:
+- NA skeletal counts replaced with 0 (NA = not identified). | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Femal' not in allowed set.
+- Meta warning: individual_id '1_1' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_2' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_3' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_4' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '1_5' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Juvenil' not in allowed set.
+- Meta warning: individual_id '1_6' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta field 'n_infant' expected integer, got 'NA'.
+- Meta field 'n_juvenil' expected integer, got 'NA'.
+- Meta field 'n_subadult' expected integer, got 'NA'.
+- Meta field 'n_adult' expected integer, got 'NA'.
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: individual_id '2_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: individual_id '3_0' does not match expected pattern like '1-0' or '1-0-3'. | loaded_tapho validation:
+- Meta restriction: karstic_system and open_air_site should not both be filled (mutually exclusive).
+- Meta warning: open_air_site 'NA' unexpected (allowed: Open Air, NA).
+- Meta warning: gender 'Indet' not in allowed set.
+- Meta warning: age_category 'Mixed' not in allowed set.
+- Meta warning: individual_id '4_0' does not match expected pattern like '1-0' or '1-0-3'.","","","","","","",335.496

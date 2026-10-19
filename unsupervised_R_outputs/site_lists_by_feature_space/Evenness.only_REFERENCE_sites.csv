@@ -1,0 +1,77 @@
+Dataset,Feature_space,site_name,Archaeological_class,Binary_label,Funerary_subtype,Cluster_raw,Cluster_zero_based,Cluster_F_percent,Cluster_dominant_class4,Distance_to_centroid,Distance_percentile,PC1,PC2
+Reference fit,Evenness only,Abri Pataud,Funerary,F,Collective-secondary,1,0,66.66666666666666,Funerary,0.03215269773942031,11.11111111111111,0.7476123231549282,NA
+Reference fit,Evenness only,Abri de Raymonden (Chancelade),Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.2664377328757286,66.66666666666666,1.046202753770077,NA
+Reference fit,Evenness only,Abrigo do Lagar Velho,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.12785869465702793,31.11111111111111,0.9076237155513764,NA
+Reference fit,Evenness only,Amud Cave,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.2910053699953037,73.33333333333333,1.0707703908896522,NA
+Reference fit,Evenness only,Arago,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.4023227302444069,88.88888888888889,0.3774422906499416,NA
+Reference fit,Evenness only,Atxuri-I Cave,Funerary,F,Possible burial,1,0,66.66666666666666,Funerary,0.07413223506673394,24.444444444444443,0.8538972559610825,NA
+Reference fit,Evenness only,Baousso da Torre (Bausu da Ture),Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.16929885416191526,35.55555555555556,0.9490638750562638,NA
+Reference fit,Evenness only,Boquete de Zafarraya,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.5849941166502604,93.33333333333333,0.19477090424408813,NA
+Reference fit,Evenness only,Brillenhöhle,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.06945624127654737,22.22222222222222,0.7103087796178011,NA
+Reference fit,Evenness only,Cova Foradada,Funerary,F,Cremation,1,0,66.66666666666666,Funerary,0.20031344926950423,51.11111111111111,0.9800784701638527,NA
+Reference fit,Evenness only,Cova Foradada,Funerary,F,Collective burial,1,0,66.66666666666666,Funerary,0.006314476888126586,2.2222222222222223,0.7734505440062219,NA
+Reference fit,Evenness only,Coves de Santa Maira,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.4482407795353327,91.11111111111111,0.3315242413590158,NA
+Reference fit,Evenness only,Cueva de Malalmuerzo,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.6459856031968333,95.55555555555556,0.13377941769751525,NA
+Reference fit,Evenness only,Cueva de la Buena Pinta,Carnivore-related,NF,Carnivore den (transport),1,0,66.66666666666666,Funerary,0.36417648019777954,86.66666666666667,0.415588540696569,NA
+Reference fit,Evenness only,Cueva del Camino,Carnivore-related,NF,Carnivore den (transport),1,0,66.66666666666666,Funerary,0.36417648019777954,86.66666666666667,0.415588540696569,NA
+Reference fit,Evenness only,Dame du Cavillon,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.19205690367924733,44.44444444444444,0.9718219245735958,NA
+Reference fit,Evenness only,Dolní Věstonice I,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.21317811009508014,55.55555555555556,0.9929431309894287,NA
+Reference fit,Evenness only,Dolní Věstonice II,Funerary,F,Single + multiple,1,0,66.66666666666666,Funerary,0.3231401189685761,80,1.1029051398629246,NA
+Reference fit,Evenness only,El Espinoso Cave,Funerary,F,Collective burial,1,0,66.66666666666666,Funerary,0.25271522868320795,64.44444444444444,1.0324802495775565,NA
+Reference fit,Evenness only,El Mirador,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.6474504002440801,97.77777777777777,0.13231462065026844,NA
+Reference fit,Evenness only,El Mirón Cave,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.18546577543743148,42.22222222222222,0.594299245456917,NA
+Reference fit,Evenness only,Gough's Cave,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.11706811388727778,26.666666666666668,0.8968331347816263,NA
+Reference fit,Evenness only,Gran Dolina,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.006653433613396431,4.444444444444445,0.7731115872809521,NA
+Reference fit,Evenness only,Grotte des Hoteaux,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.20156008421752747,53.333333333333336,0.981325105111876,NA
+Reference fit,Evenness only,Grotte des Perrats,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.01951326109738938,8.88888888888889,0.7992782819917379,NA
+Reference fit,Evenness only,Herxheim,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.1712216062859272,37.77777777777778,0.9509866271802757,NA
+Reference fit,Evenness only,Kiik-Koba,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.11720010049889995,28.888888888888886,0.8969651213932485,NA
+Reference fit,Evenness only,La Tolita Cama de Huesos,Funerary,F,Collective burial,1,0,66.66666666666666,Funerary,0.15146879200113061,33.33333333333333,0.9312338128954791,NA
+Reference fit,Evenness only,Le Moustier I,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.014501281778548702,6.666666666666667,0.7652637391157998,NA
+Reference fit,Evenness only,Le Moustier II,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.06493878151477006,20,0.8447038024091186,NA
+Reference fit,Evenness only,Maszycka Cave,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.7549941402115712,100,0.024770880682777295,NA
+Reference fit,Evenness only,Oberkassel,Funerary,F,Multiple inhumation,1,0,66.66666666666666,Funerary,0.19583910369398116,46.666666666666664,0.9756041245883297,NA
+Reference fit,Evenness only,Ojo Guareña,Funerary,F,No inhumation,1,0,66.66666666666666,Funerary,0.2838274931439999,71.11111111111111,1.0635925140383484,NA
+Reference fit,Evenness only,Pavlov I,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.05554421329556669,15.555555555555555,0.8353092341899152,NA
+Reference fit,Evenness only,Předmostí,Funerary,F,Collective burial,1,0,66.66666666666666,Funerary,0.178612711497953,40,0.9583777323923015,NA
+Reference fit,Evenness only,Roc de les Orenetes,Funerary,F,Collective burial,1,0,66.66666666666666,Funerary,0.24483099949957476,60,1.0245960203939233,NA
+Reference fit,Evenness only,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,F,No inhumation,1,0,66.66666666666666,Funerary,0.1970451710950858,48.888888888888886,0.9768101919894343,NA
+Reference fit,Evenness only,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.06247907431022248,17.77777777777778,0.717285946584126,NA
+Reference fit,Evenness only,San Juan ante Portam Latinam,Funerary,F,Collective burial,1,0,66.66666666666666,Funerary,0.24516213017280442,62.22222222222222,1.024927151067153,NA
+Reference fit,Evenness only,Sunghir,Funerary,F,Multiple inhumation,1,0,66.66666666666666,Funerary,0.2811809563788563,68.88888888888889,1.0609459772732048,NA
+Reference fit,Evenness only,Tepecik-Çiftlik,Funerary,F,Collective burial,1,0,66.66666666666666,Funerary,0.23689950108318003,57.77777777777777,1.0166645219775285,NA
+Reference fit,Evenness only,Troisième caverne of Goyet,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.32603023015115246,82.22222222222221,0.45373479074319606,NA
+Reference fit,Evenness only,Vado all'Arancio,Funerary,F,Single inhumation,1,0,66.66666666666666,Funerary,0.05037356382451086,13.333333333333334,0.8301385847188594,NA
+Reference fit,Evenness only,Vunda Locus,Cannibalism,NF,Missing,1,0,66.66666666666666,Funerary,0.3162332981448824,77.77777777777779,0.46353172274946614,NA
+Reference fit,Evenness only,Xemxija tombs,Funerary,F,Collective burial,1,0,66.66666666666666,Funerary,0.30920395917701793,75.55555555555556,1.0889689800713664,NA
+Reference fit,Evenness only,Archi,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Combe Grenal,Cannibalism,NF,Missing,2,1,0,Carnivore-related,0.45301374465226385,83.87096774193549,-0.6789032211621134,NA
+Reference fit,Evenness only,Cova del Gegant,Carnivore-related,NF,Carnivore den(transport),2,1,0,Carnivore-related,0.3126729602404953,80.64516129032258,-0.819244005573882,NA
+Reference fit,Evenness only,Dali Tianshuigou,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Carnivore-related,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Grotte du Bison (Arcy-sur-Cure),Carnivore-related,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Carnivore-related,NF,Missing,2,1,0,Carnivore-related,0.506687905274436,87.09677419354838,-0.6252290605399413,NA
+Reference fit,Evenness only,Hahnöfersand,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Hathnora,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.7620403810715359,96.7741935483871,-0.3698765847428413,NA
+Reference fit,Evenness only,Hohlenstein-Stadel,Carnivore-related,NF,Carnivore Scavenge (in situ),2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Jarama VI rockshelter,Carnivore-related,NF,Carnivore Scavenge (in situ),2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Kajiado,Carnivore-related,NF,Carnivore den(transport),2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Kalamakia,Carnivore-related,NF,Carnivore Scavenge (in situ),2,1,0,Carnivore-related,0.24867931357258632,77.41935483870968,-0.883237652241791,NA
+Reference fit,Evenness only,Le Placard,Cannibalism,NF,Missing,2,1,0,Carnivore-related,0.17644475244830782,16.129032258064516,-0.9554722133660695,NA
+Reference fit,Evenness only,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Carnivore-related,NF,Missing,2,1,0,Carnivore-related,0.857806810499367,100,-0.2741101553150102,NA
+Reference fit,Evenness only,Les Pradelles (Marillac-le-Franc),Carnivore-related,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Les Rochers-de-Villeneuve,Carnivore-related,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Los Moros de Gabasa,Carnivore-related,NF,Carnivore den(transport),2,1,0,Carnivore-related,0.10891658250094549,9.67741935483871,-1.2408335483153228,NA
+Reference fit,Evenness only,Mauer,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Mojokerto,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Netankheri,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.7122028153535386,90.32258064516128,-0.4197141504608387,NA
+Reference fit,Evenness only,Ngandong,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.15625429238400423,12.903225806451612,-1.2881712581983815,NA
+Reference fit,Evenness only,Ngawi,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Carnivore-related,NF,Carnivore Scavenge (in situ),2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Reilingen,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Saccopastore,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Sambungmacan,Geological transport,NF,Missing,2,1,0,Carnivore-related,0.09686059124150703,6.451612903225806,-1.2287775570558843,NA
+Reference fit,Evenness only,Valdegoba Cave,Carnivore-related,NF,Carnivore den (transport),2,1,0,Carnivore-related,0.030864397842674363,3.225806451612903,-1.1627813636570516,NA
+Reference fit,Evenness only,Vindija,Cannibalism,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Vindija,Cannibalism,NF,Missing,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Reference fit,Evenness only,Vindija,Cannibalism,NF,Missing,2,1,0,Carnivore-related,0.7348361929006009,93.54838709677419,-0.39708077291377647,NA

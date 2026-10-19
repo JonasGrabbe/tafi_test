@@ -1,0 +1,7 @@
+group_A,group_B,R2,F,p,dispersion_F,dispersion_p,q_BH,dispersion_q_BH
+Funerary Context,Cannibalism,NA,NA,NA,1.538524700923494,0.2146,NA,0.3219
+Funerary Context,Carnivore,NA,NA,NA,100.31541522361357,1e-4,NA,3.0000000000000003e-4
+Funerary Context,Geological transport,NA,NA,NA,1.158419140323317,0.2903,NA,0.34836
+Cannibalism,Carnivore,NA,NA,NA,52.96769752266455,1e-4,NA,3.0000000000000003e-4
+Cannibalism,Geological transport,NA,NA,NA,0.05624507522398825,0.8132,NA,0.8132
+Carnivore,Geological transport,NA,NA,NA,12.840542101752352,8e-4,NA,0.0016

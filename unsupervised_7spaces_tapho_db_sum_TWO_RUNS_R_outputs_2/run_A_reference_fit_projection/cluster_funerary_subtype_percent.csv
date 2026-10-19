@@ -1,0 +1,100 @@
+Feature_space,Cluster,Cluster_name,funerary_subtype,n,funerary_cluster_n,percent_within_funerary_cluster
+%MNAU raw,1,C1,Collective burial,8,15,53.333333333333336
+%MNAU raw,1,C1,Collective-secondary,1,15,6.666666666666667
+%MNAU raw,1,C1,Cremation,1,15,6.666666666666667
+%MNAU raw,1,C1,Funerary caching,1,15,6.666666666666667
+%MNAU raw,1,C1,No inhumation,1,15,6.666666666666667
+%MNAU raw,1,C1,Possible burial,1,15,6.666666666666667
+%MNAU raw,1,C1,Single inhumation,2,15,13.333333333333334
+%MNAU raw,2,C2,Collective burial,4,34,11.764705882352942
+%MNAU raw,2,C2,Multiple inhumation,3,34,8.823529411764707
+%MNAU raw,2,C2,No inhumation,2,34,5.882352941176471
+%MNAU raw,2,C2,Single + collective,1,34,2.9411764705882355
+%MNAU raw,2,C2,Single + multiple,2,34,5.882352941176471
+%MNAU raw,2,C2,Single inhumation,22,34,64.70588235294117
+C + Heip evenness,1,C1,Collective burial,3,9,33.333333333333336
+C + Heip evenness,1,C1,Funerary caching,1,9,11.11111111111111
+C + Heip evenness,1,C1,No inhumation,1,9,11.11111111111111
+C + Heip evenness,1,C1,Possible burial,1,9,11.11111111111111
+C + Heip evenness,1,C1,Single inhumation,3,9,33.333333333333336
+C + Heip evenness,2,C2,Collective burial,9,40,22.5
+C + Heip evenness,2,C2,Collective-secondary,1,40,2.5
+C + Heip evenness,2,C2,Cremation,1,40,2.5
+C + Heip evenness,2,C2,Multiple inhumation,3,40,7.5
+C + Heip evenness,2,C2,No inhumation,2,40,5
+C + Heip evenness,2,C2,Single + collective,1,40,2.5
+C + Heip evenness,2,C2,Single + multiple,2,40,5
+C + Heip evenness,2,C2,Single inhumation,21,40,52.5
+C only,1,C1,Collective burial,9,20,45
+C only,1,C1,Collective-secondary,1,20,5
+C only,1,C1,Cremation,1,20,5
+C only,1,C1,Funerary caching,1,20,5
+C only,1,C1,No inhumation,1,20,5
+C only,1,C1,Possible burial,1,20,5
+C only,1,C1,Single + collective,1,20,5
+C only,1,C1,Single + multiple,1,20,5
+C only,1,C1,Single inhumation,4,20,20
+C only,2,C2,Collective burial,3,29,10.344827586206897
+C only,2,C2,Multiple inhumation,3,29,10.344827586206897
+C only,2,C2,No inhumation,2,29,6.896551724137931
+C only,2,C2,Single + multiple,1,29,3.4482758620689653
+C only,2,C2,Single inhumation,20,29,68.96551724137932
+Combined,1,C1,Collective burial,5,12,41.666666666666664
+Combined,1,C1,Collective-secondary,1,12,8.333333333333334
+Combined,1,C1,Cremation,1,12,8.333333333333334
+Combined,1,C1,Funerary caching,1,12,8.333333333333334
+Combined,1,C1,No inhumation,1,12,8.333333333333334
+Combined,1,C1,Possible burial,1,12,8.333333333333334
+Combined,1,C1,Single inhumation,2,12,16.666666666666668
+Combined,2,C2,Collective burial,7,37,18.91891891891892
+Combined,2,C2,Multiple inhumation,3,37,8.108108108108109
+Combined,2,C2,No inhumation,2,37,5.405405405405405
+Combined,2,C2,Single + collective,1,37,2.7027027027027026
+Combined,2,C2,Single + multiple,2,37,5.405405405405405
+Combined,2,C2,Single inhumation,22,37,59.45945945945946
+Engineered,1,C1,Collective burial,1,7,14.285714285714286
+Engineered,1,C1,Collective-secondary,1,7,14.285714285714286
+Engineered,1,C1,Funerary caching,1,7,14.285714285714286
+Engineered,1,C1,No inhumation,1,7,14.285714285714286
+Engineered,1,C1,Possible burial,1,7,14.285714285714286
+Engineered,1,C1,Single inhumation,2,7,28.571428571428573
+Engineered,2,C2,Collective burial,11,42,26.19047619047619
+Engineered,2,C2,Cremation,1,42,2.380952380952381
+Engineered,2,C2,Multiple inhumation,3,42,7.142857142857143
+Engineered,2,C2,No inhumation,2,42,4.761904761904762
+Engineered,2,C2,Single + collective,1,42,2.380952380952381
+Engineered,2,C2,Single + multiple,2,42,4.761904761904762
+Engineered,2,C2,Single inhumation,22,42,52.38095238095238
+Heip evenness only,1,C1,Collective burial,1,3,33.333333333333336
+Heip evenness only,1,C1,No inhumation,1,3,33.333333333333336
+Heip evenness only,1,C1,Single inhumation,1,3,33.333333333333336
+Heip evenness only,2,C2,Collective burial,3,12,25
+Heip evenness only,2,C2,Funerary caching,1,12,8.333333333333334
+Heip evenness only,2,C2,No inhumation,1,12,8.333333333333334
+Heip evenness only,2,C2,Possible burial,1,12,8.333333333333334
+Heip evenness only,2,C2,Single inhumation,6,12,50
+Heip evenness only,3,C3,Collective burial,8,34,23.529411764705884
+Heip evenness only,3,C3,Collective-secondary,1,34,2.9411764705882355
+Heip evenness only,3,C3,Cremation,1,34,2.9411764705882355
+Heip evenness only,3,C3,Multiple inhumation,3,34,8.823529411764707
+Heip evenness only,3,C3,No inhumation,1,34,2.9411764705882355
+Heip evenness only,3,C3,Single + collective,1,34,2.9411764705882355
+Heip evenness only,3,C3,Single + multiple,2,34,5.882352941176471
+Heip evenness only,3,C3,Single inhumation,17,34,50
+ReMNAU raw,3,C3,No inhumation,1,1,100
+ReMNAU raw,4,C4,Single inhumation,2,2,100
+ReMNAU raw,5,C5,Collective burial,5,6,83.33333333333333
+ReMNAU raw,5,C5,Possible burial,1,6,16.666666666666668
+ReMNAU raw,6,C6,Collective burial,1,1,100
+ReMNAU raw,7,C7,Collective burial,5,34,14.705882352941176
+ReMNAU raw,7,C7,Collective-secondary,1,34,2.9411764705882355
+ReMNAU raw,7,C7,Funerary caching,1,34,2.9411764705882355
+ReMNAU raw,7,C7,Multiple inhumation,3,34,8.823529411764707
+ReMNAU raw,7,C7,No inhumation,1,34,2.9411764705882355
+ReMNAU raw,7,C7,Single + collective,1,34,2.9411764705882355
+ReMNAU raw,7,C7,Single + multiple,2,34,5.882352941176471
+ReMNAU raw,7,C7,Single inhumation,20,34,58.8235294117647
+ReMNAU raw,8,C8,Collective burial,1,5,20
+ReMNAU raw,8,C8,Cremation,1,5,20
+ReMNAU raw,8,C8,No inhumation,1,5,20
+ReMNAU raw,8,C8,Single inhumation,2,5,40

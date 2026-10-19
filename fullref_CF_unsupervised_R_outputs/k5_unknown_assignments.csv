@@ -1,0 +1,162 @@
+Feature_space,site_name,Cluster,Cluster_F_percent
+C only,Bilzingsleben,4,6.382978723404255
+C only,Bolomor Cave,4,6.382978723404255
+C only,Cueva de la Carigüela,4,6.382978723404255
+C only,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",4,6.382978723404255
+C only,Ceprano,4,6.382978723404255
+C only,Cova del Parpalló (Parpalló Cave),4,6.382978723404255
+C only,Engis / Schmerling Cave,4,6.382978723404255
+C only,Kleine Feldhofer Grotte,5,88.23529411764706
+C only,Trou de la Naulette,4,6.382978723404255
+C only,"Cova de les Malladetes (Barx, Valencia, Spain)",4,6.382978723404255
+C only,Peștera Muierii,4,6.382978723404255
+C only,"Ochoz 1, Ochoz 2",4,6.382978723404255
+C only,Saint-Césaire,2,62.5
+C only,Scladina Cave,4,6.382978723404255
+C only,Sima de los Huesos 89,4,6.382978723404255
+C only,Sima de los Huesos 90,4,6.382978723404255
+C only,Sima de los Huesos 95,5,88.23529411764706
+C only,Sima de los Huesos 15,5,88.23529411764706
+C only,Sima de los Huesos 24,5,88.23529411764706
+C only,Spy cave,5,88.23529411764706
+C only,Steinheim an der Murr,4,6.382978723404255
+C only,Weimar-Ehringsdorf,4,6.382978723404255
+C only,Sima de los Huesos PNAS,5,88.23529411764706
+Evenness only,Bilzingsleben,5,0
+Evenness only,Bolomor Cave,5,0
+Evenness only,Cueva de la Carigüela,5,0
+Evenness only,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",5,0
+Evenness only,Ceprano,5,0
+Evenness only,Cova del Parpalló (Parpalló Cave),3,16.666666666666664
+Evenness only,Engis / Schmerling Cave,5,0
+Evenness only,Kleine Feldhofer Grotte,1,50
+Evenness only,Trou de la Naulette,3,16.666666666666664
+Evenness only,"Cova de les Malladetes (Barx, Valencia, Spain)",5,0
+Evenness only,Peștera Muierii,3,16.666666666666664
+Evenness only,"Ochoz 1, Ochoz 2",5,0
+Evenness only,Saint-Césaire,2,33.33333333333333
+Evenness only,Scladina Cave,5,0
+Evenness only,Sima de los Huesos 89,1,50
+Evenness only,Sima de los Huesos 90,1,50
+Evenness only,Sima de los Huesos 95,4,85.36585365853658
+Evenness only,Sima de los Huesos 15,4,85.36585365853658
+Evenness only,Sima de los Huesos 24,4,85.36585365853658
+Evenness only,Spy cave,1,50
+Evenness only,Steinheim an der Murr,5,0
+Evenness only,Weimar-Ehringsdorf,2,33.33333333333333
+Evenness only,Sima de los Huesos PNAS,4,85.36585365853658
+C + evenness,Bilzingsleben,5,0
+C + evenness,Bolomor Cave,5,0
+C + evenness,Cueva de la Carigüela,5,0
+C + evenness,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",5,0
+C + evenness,Ceprano,5,0
+C + evenness,Cova del Parpalló (Parpalló Cave),3,33.33333333333333
+C + evenness,Engis / Schmerling Cave,5,0
+C + evenness,Kleine Feldhofer Grotte,4,81.81818181818183
+C + evenness,Trou de la Naulette,3,33.33333333333333
+C + evenness,"Cova de les Malladetes (Barx, Valencia, Spain)",5,0
+C + evenness,Peștera Muierii,3,33.33333333333333
+C + evenness,"Ochoz 1, Ochoz 2",5,0
+C + evenness,Saint-Césaire,3,33.33333333333333
+C + evenness,Scladina Cave,5,0
+C + evenness,Sima de los Huesos 89,3,33.33333333333333
+C + evenness,Sima de los Huesos 90,3,33.33333333333333
+C + evenness,Sima de los Huesos 95,4,81.81818181818183
+C + evenness,Sima de los Huesos 15,4,81.81818181818183
+C + evenness,Sima de los Huesos 24,4,81.81818181818183
+C + evenness,Spy cave,4,81.81818181818183
+C + evenness,Steinheim an der Murr,5,0
+C + evenness,Weimar-Ehringsdorf,3,33.33333333333333
+C + evenness,Sima de los Huesos PNAS,4,81.81818181818183
+%MNAU,Bilzingsleben,5,18.64406779661017
+%MNAU,Bolomor Cave,5,18.64406779661017
+%MNAU,Cueva de la Carigüela,5,18.64406779661017
+%MNAU,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",5,18.64406779661017
+%MNAU,Ceprano,5,18.64406779661017
+%MNAU,Cova del Parpalló (Parpalló Cave),5,18.64406779661017
+%MNAU,Engis / Schmerling Cave,5,18.64406779661017
+%MNAU,Kleine Feldhofer Grotte,3,81.81818181818183
+%MNAU,Trou de la Naulette,5,18.64406779661017
+%MNAU,"Cova de les Malladetes (Barx, Valencia, Spain)",5,18.64406779661017
+%MNAU,Peștera Muierii,5,18.64406779661017
+%MNAU,"Ochoz 1, Ochoz 2",5,18.64406779661017
+%MNAU,Saint-Césaire,5,18.64406779661017
+%MNAU,Scladina Cave,5,18.64406779661017
+%MNAU,Sima de los Huesos 89,5,18.64406779661017
+%MNAU,Sima de los Huesos 90,5,18.64406779661017
+%MNAU,Sima de los Huesos 95,3,81.81818181818183
+%MNAU,Sima de los Huesos 15,3,81.81818181818183
+%MNAU,Sima de los Huesos 24,3,81.81818181818183
+%MNAU,Spy cave,3,81.81818181818183
+%MNAU,Steinheim an der Murr,5,18.64406779661017
+%MNAU,Weimar-Ehringsdorf,5,18.64406779661017
+%MNAU,Sima de los Huesos PNAS,3,81.81818181818183
+ReMNAU,Bilzingsleben,5,3.571428571428571
+ReMNAU,Bolomor Cave,5,3.571428571428571
+ReMNAU,Cueva de la Carigüela,5,3.571428571428571
+ReMNAU,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",5,3.571428571428571
+ReMNAU,Ceprano,5,3.571428571428571
+ReMNAU,Cova del Parpalló (Parpalló Cave),5,3.571428571428571
+ReMNAU,Engis / Schmerling Cave,5,3.571428571428571
+ReMNAU,Kleine Feldhofer Grotte,4,75.92592592592592
+ReMNAU,Trou de la Naulette,4,75.92592592592592
+ReMNAU,"Cova de les Malladetes (Barx, Valencia, Spain)",5,3.571428571428571
+ReMNAU,Peștera Muierii,5,3.571428571428571
+ReMNAU,"Ochoz 1, Ochoz 2",5,3.571428571428571
+ReMNAU,Saint-Césaire,4,75.92592592592592
+ReMNAU,Scladina Cave,5,3.571428571428571
+ReMNAU,Sima de los Huesos 89,4,75.92592592592592
+ReMNAU,Sima de los Huesos 90,4,75.92592592592592
+ReMNAU,Sima de los Huesos 95,4,75.92592592592592
+ReMNAU,Sima de los Huesos 15,4,75.92592592592592
+ReMNAU,Sima de los Huesos 24,4,75.92592592592592
+ReMNAU,Spy cave,3,13.333333333333334
+ReMNAU,Steinheim an der Murr,5,3.571428571428571
+ReMNAU,Weimar-Ehringsdorf,4,75.92592592592592
+ReMNAU,Sima de los Huesos PNAS,4,75.92592592592592
+Engineered,Bilzingsleben,4,82.75862068965517
+Engineered,Bolomor Cave,3,26.08695652173913
+Engineered,Cueva de la Carigüela,4,82.75862068965517
+Engineered,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",5,6.25
+Engineered,Ceprano,4,82.75862068965517
+Engineered,Cova del Parpalló (Parpalló Cave),4,82.75862068965517
+Engineered,Engis / Schmerling Cave,4,82.75862068965517
+Engineered,Kleine Feldhofer Grotte,1,94.44444444444444
+Engineered,Trou de la Naulette,3,26.08695652173913
+Engineered,"Cova de les Malladetes (Barx, Valencia, Spain)",4,82.75862068965517
+Engineered,Peștera Muierii,4,82.75862068965517
+Engineered,"Ochoz 1, Ochoz 2",4,82.75862068965517
+Engineered,Saint-Césaire,3,26.08695652173913
+Engineered,Scladina Cave,4,82.75862068965517
+Engineered,Sima de los Huesos 89,3,26.08695652173913
+Engineered,Sima de los Huesos 90,3,26.08695652173913
+Engineered,Sima de los Huesos 95,4,82.75862068965517
+Engineered,Sima de los Huesos 15,4,82.75862068965517
+Engineered,Sima de los Huesos 24,4,82.75862068965517
+Engineered,Spy cave,3,26.08695652173913
+Engineered,Steinheim an der Murr,4,82.75862068965517
+Engineered,Weimar-Ehringsdorf,4,82.75862068965517
+Engineered,Sima de los Huesos PNAS,4,82.75862068965517
+Combined,Bilzingsleben,5,79.16666666666666
+Combined,Bolomor Cave,4,28.000000000000004
+Combined,Cueva de la Carigüela,5,79.16666666666666
+Combined,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",4,28.000000000000004
+Combined,Ceprano,5,79.16666666666666
+Combined,Cova del Parpalló (Parpalló Cave),4,28.000000000000004
+Combined,Engis / Schmerling Cave,5,79.16666666666666
+Combined,Kleine Feldhofer Grotte,5,79.16666666666666
+Combined,Trou de la Naulette,4,28.000000000000004
+Combined,"Cova de les Malladetes (Barx, Valencia, Spain)",5,79.16666666666666
+Combined,Peștera Muierii,4,28.000000000000004
+Combined,"Ochoz 1, Ochoz 2",5,79.16666666666666
+Combined,Saint-Césaire,2,3.225806451612903
+Combined,Scladina Cave,5,79.16666666666666
+Combined,Sima de los Huesos 89,4,28.000000000000004
+Combined,Sima de los Huesos 90,5,79.16666666666666
+Combined,Sima de los Huesos 95,5,79.16666666666666
+Combined,Sima de los Huesos 15,5,79.16666666666666
+Combined,Sima de los Huesos 24,5,79.16666666666666
+Combined,Spy cave,5,79.16666666666666
+Combined,Steinheim an der Murr,5,79.16666666666666
+Combined,Weimar-Ehringsdorf,5,79.16666666666666
+Combined,Sima de los Huesos PNAS,5,79.16666666666666

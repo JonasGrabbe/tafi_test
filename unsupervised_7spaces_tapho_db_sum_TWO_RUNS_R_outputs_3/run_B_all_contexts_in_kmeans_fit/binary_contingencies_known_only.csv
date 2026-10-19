@@ -1,0 +1,22 @@
+Feature_space,Cluster,F,NF
+C only,1,20,52
+C only,2,29,2
+Heip evenness only,1,3,35
+Heip evenness only,2,10,13
+Heip evenness only,3,36,6
+C + Heip evenness,1,8,47
+C + Heip evenness,2,41,7
+%MNAU raw,1,19,53
+%MNAU raw,2,30,1
+ReMNAU raw,1,0,1
+ReMNAU raw,2,0,4
+ReMNAU raw,3,1,25
+ReMNAU raw,4,3,12
+ReMNAU raw,5,0,1
+ReMNAU raw,6,39,11
+ReMNAU raw,7,5,0
+ReMNAU raw,8,1,0
+Engineered,1,7,47
+Engineered,2,42,7
+Combined,1,8,48
+Combined,2,41,6

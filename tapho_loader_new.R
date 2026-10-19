@@ -268,16 +268,83 @@ summarize_bone_sections_zero_na <- function(input_df,
 
 
 distribute_surplus <- function(counts, max_counts, n_indet) {
-  if (n_indet == 0) return(counts)
-  open_slots <- max_counts - counts
-  if (sum(open_slots, na.rm=TRUE) < as.numeric(n_indet))
-    stop("Not enough open slots to place all indeterminate specimens.")
-  slot_pool <- rep(seq_along(counts), times = open_slots)
-  chosen    <- sample(slot_pool, size = n_indet, replace = FALSE)
-  for (i in chosen) counts[i] <- counts[i] + 1
+
+  counts     <- as.integer(counts)
+  max_counts <- as.integer(max_counts)
+  n_indet    <- as.integer(n_indet)
+
+  if (length(counts) != length(max_counts)) {
+    stop(
+      "counts and max_counts must have the same length.",
+      call. = FALSE
+    )
+  }
+
+  if (anyNA(counts) || anyNA(max_counts) || is.na(n_indet)) {
+    stop(
+      "counts, max_counts and n_indet must not contain NA.",
+      call. = FALSE
+    )
+  }
+
+  if (n_indet < 0L) {
+    stop(
+      "n_indet cannot be negative.",
+      call. = FALSE
+    )
+  }
+
+  # Existing data must already fit anatomical capacity.
+  over <- which(counts > max_counts)
+
+  if (length(over) > 0L) {
+    stop(
+      "\nExisting count exceeds anatomical capacity.",
+      "\ncounts: ", paste(counts, collapse = ", "),
+      "\nmax_counts: ", paste(max_counts, collapse = ", "),
+      "\nover-capacity positions: ", paste(over, collapse = ", "),
+      call. = FALSE
+    )
+  }
+
+  if (n_indet == 0L) {
+    return(counts)
+  }
+
+  open_slots <- pmax(
+    0L,
+    max_counts - counts
+  )
+
+  if (sum(open_slots) < n_indet) {
+    stop(
+      "\nNot enough anatomical capacity to distribute indeterminate specimens.",
+      "\ncounts: ", paste(counts, collapse = ", "),
+      "\nmax_counts: ", paste(max_counts, collapse = ", "),
+      "\nopen_slots: ", paste(open_slots, collapse = ", "),
+      "\nn_indet: ", n_indet,
+      "\ntotal_open_slots: ", sum(open_slots),
+      call. = FALSE
+    )
+  }
+
+  slot_pool <- rep(
+    seq_along(counts),
+    times = open_slots
+  )
+
+  chosen <- sample(
+    slot_pool,
+    size = n_indet,
+    replace = FALSE
+  )
+
+  for (i in chosen) {
+    counts[i] <- counts[i] + 1L
+  }
+
   counts
 }
-
 collapse_up_step <- function(data, part, current_level, target_level) {
   key <- paste0(part, "_", current_level, "_to_", target_level)
   if (!key %in% names(category_hierarchy)) stop("Missing mapping: ", key)
@@ -359,29 +426,58 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
         sum(existing_counts, na.rm = TRUE)
     )
 
-    open_slots <- max_counts - existing_counts
+# Existing children must already respect anatomical capacity.
+over <- which(existing_counts > max_counts)
 
-if (sum(open_slots, na.rm = TRUE) < surplus) {
+if (length(over) > 0L) {
+
   stop(
-    "\nCannot distribute surplus.",
+    "\nExisting child count exceeds anatomical capacity.",
     "\nkey: ", key,
     "\npart: ", part,
     "\ncurrent_level: ", current_level,
     "\ntarget_level: ", target_level,
     "\nparent_elem: ", parent_elem,
-    "\nparent_clean: ", parent_clean,
+    "\nchildren: ", paste(real_children, collapse = ", "),
+    "\nexisting_counts: ", paste(existing_counts, collapse = ", "),
+    "\nmax_counts: ", paste(max_counts, collapse = ", "),
+    "\nover-capacity children: ",
+      paste(real_children[over], collapse = ", "),
+    "\nMNI: ", MNI,
+    call. = FALSE
+  )
+}
+
+open_slots <- pmax(
+  0L,
+  max_counts - existing_counts
+)
+
+if (sum(open_slots) < surplus) {
+
+  stop(
+    "\nCannot distribute parent surplus.",
+    "\nkey: ", key,
+    "\npart: ", part,
+    "\ncurrent_level: ", current_level,
+    "\ntarget_level: ", target_level,
+    "\nparent_elem: ", parent_elem,
     "\nchildren: ", paste(real_children, collapse = ", "),
     "\nparent_count: ", parent_count,
     "\nexisting_counts: ", paste(existing_counts, collapse = ", "),
     "\nmax_counts: ", paste(max_counts, collapse = ", "),
     "\nopen_slots: ", paste(open_slots, collapse = ", "),
     "\nsurplus: ", surplus,
+    "\nMNI: ", MNI,
     call. = FALSE
   )
 }
 
-    
-    final_counts <- distribute_surplus(existing_counts, max_counts, surplus)
+final_counts <- distribute_surplus(
+  existing_counts,
+  max_counts,
+  surplus
+)
     
 
     tibble(std_element = real_children, count = final_counts)
@@ -849,8 +945,13 @@ tapho.loader.v1 <- function(
 
 #_________________________________   META ENV   _____________________________________
   
-meta_set(indet)          # initial load
-on.exit(detach("meta_env"), add = TRUE)  # keep this for cleanup
+meta <- meta_set(indet)
+
+on.exit({
+  if ("meta_env" %in% search()) {
+    detach("meta_env")
+  }
+}, add = TRUE)
  
 #_______________________________________________________________________________________
 
@@ -1130,11 +1231,17 @@ tapho.loader.wfl <- function(
 ) {
 
   # ── Setup ──────────────────────────────────────────────────────────────────
-  meta_set(indet)
-  on.exit(detach("meta_env"), add = TRUE)
+  meta <- meta_set(indet)
 
-  calc_level   <- match.arg(calc_level)
-  indet_method <- match.arg(indet_method)
+  on.exit({
+    if ("meta_env" %in% search()) {
+      detach("meta_env")
+    }
+  }, add = TRUE)
+  
+  calc_level    <- match.arg(calc_level)
+  indet_method  <- match.arg(indet_method)
+  recalc_method <- match.arg(recalc_method)
 
   # ── Stage 1: Load and parse all Excel sheets ───────────────────────────────
   db <- read_excel_sheets(
@@ -1468,7 +1575,23 @@ tapho.loader.v3 <- function(
       verbose = verbose
     )
   
+###################
+library(dplyr)
+library(tidyr)
+print(colnames(db))
+print(db$bone.level)
+bone_level_out <- do.call(rbind, db$bone.level)
 
+bone_level_out <- as.data.frame(bone_level_out)
+
+names(bone_level_out) <- paste0("bone.level_", 1:11)
+
+write.csv(
+  bone_level_out,
+  "bone_levels_2.csv",
+  row.names = FALSE
+)
+###################    
   
     # ── Stage 2: Group and aggregate by site and optional extra variables ──────
     if (sum) {

@@ -1,0 +1,43 @@
+Task,Feature_space,Variable,Test,Statistic,p,Effect_size,Effect_size_name
+4class,C only,Mean_part_abundance,Kruskal-Wallis,62.89866591440657,1.4116794344679657e-13,0.6050370294384502,epsilon_squared
+4class,C only,mnau_heip_evenness,Kruskal-Wallis,63.81563741697018,8.9880666708671e-14,0.6269653341955689,epsilon_squared
+4class,Heip evenness only,Mean_part_abundance,Kruskal-Wallis,62.89866591440657,1.4116794344679657e-13,0.6050370294384502,epsilon_squared
+4class,Heip evenness only,mnau_heip_evenness,Kruskal-Wallis,63.81563741697018,8.9880666708671e-14,0.6269653341955689,epsilon_squared
+4class,C + Heip evenness,Mean_part_abundance,Kruskal-Wallis,62.89866591440657,1.4116794344679657e-13,0.6050370294384502,epsilon_squared
+4class,C + Heip evenness,mnau_heip_evenness,Kruskal-Wallis,63.81563741697018,8.9880666708671e-14,0.6269653341955689,epsilon_squared
+4class,%MNAU raw,Mean_part_abundance,Kruskal-Wallis,62.89866591440657,1.4116794344679657e-13,0.6050370294384502,epsilon_squared
+4class,%MNAU raw,mnau_heip_evenness,Kruskal-Wallis,63.81563741697018,8.9880666708671e-14,0.6269653341955689,epsilon_squared
+4class,ReMNAU raw,Mean_part_abundance,Kruskal-Wallis,62.89866591440657,1.4116794344679657e-13,0.6050370294384502,epsilon_squared
+4class,ReMNAU raw,mnau_heip_evenness,Kruskal-Wallis,63.81563741697018,8.9880666708671e-14,0.6269653341955689,epsilon_squared
+4class,Engineered,Mean_part_abundance,Kruskal-Wallis,62.89866591440657,1.4116794344679657e-13,0.6050370294384502,epsilon_squared
+4class,Engineered,mnau_heip_evenness,Kruskal-Wallis,63.81563741697018,8.9880666708671e-14,0.6269653341955689,epsilon_squared
+4class,Combined,Mean_part_abundance,Kruskal-Wallis,62.89866591440657,1.4116794344679657e-13,0.6050370294384502,epsilon_squared
+4class,Combined,mnau_heip_evenness,Kruskal-Wallis,63.81563741697018,8.9880666708671e-14,0.6269653341955689,epsilon_squared
+cannibalism_vs_fc,C only,Mean_part_abundance,Wilcoxon rank-sum,172,4.940515110904742e-7,-0.7191836734693877,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,C only,mnau_heip_evenness,Wilcoxon rank-sum,216,6.0182317104833656e-6,-0.6473469387755102,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,Heip evenness only,Mean_part_abundance,Wilcoxon rank-sum,172,4.940515110904742e-7,-0.7191836734693877,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,Heip evenness only,mnau_heip_evenness,Wilcoxon rank-sum,216,6.0182317104833656e-6,-0.6473469387755102,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,C + Heip evenness,Mean_part_abundance,Wilcoxon rank-sum,172,4.940515110904742e-7,-0.7191836734693877,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,C + Heip evenness,mnau_heip_evenness,Wilcoxon rank-sum,216,6.0182317104833656e-6,-0.6473469387755102,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,%MNAU raw,Mean_part_abundance,Wilcoxon rank-sum,172,4.940515110904742e-7,-0.7191836734693877,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,%MNAU raw,mnau_heip_evenness,Wilcoxon rank-sum,216,6.0182317104833656e-6,-0.6473469387755102,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,ReMNAU raw,Mean_part_abundance,Wilcoxon rank-sum,172,4.940515110904742e-7,-0.7191836734693877,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,ReMNAU raw,mnau_heip_evenness,Wilcoxon rank-sum,216,6.0182317104833656e-6,-0.6473469387755102,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,Engineered,Mean_part_abundance,Wilcoxon rank-sum,172,4.940515110904742e-7,-0.7191836734693877,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,Engineered,mnau_heip_evenness,Wilcoxon rank-sum,216,6.0182317104833656e-6,-0.6473469387755102,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,Combined,Mean_part_abundance,Wilcoxon rank-sum,172,4.940515110904742e-7,-0.7191836734693877,Cliff_delta_Cannibalism_vs_Funerary Context
+cannibalism_vs_fc,Combined,mnau_heip_evenness,Wilcoxon rank-sum,216,6.0182317104833656e-6,-0.6473469387755102,Cliff_delta_Cannibalism_vs_Funerary Context
+fc_vs_rest,C only,Mean_part_abundance,Wilcoxon rank-sum,2432,2.3429309544329235e-13,0.8382464096749811,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,C only,mnau_heip_evenness,Wilcoxon rank-sum,2320,1.0459080202867503e-12,0.8210361067503924,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,Heip evenness only,Mean_part_abundance,Wilcoxon rank-sum,2432,2.3429309544329235e-13,0.8382464096749811,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,Heip evenness only,mnau_heip_evenness,Wilcoxon rank-sum,2320,1.0459080202867503e-12,0.8210361067503924,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,C + Heip evenness,Mean_part_abundance,Wilcoxon rank-sum,2432,2.3429309544329235e-13,0.8382464096749811,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,C + Heip evenness,mnau_heip_evenness,Wilcoxon rank-sum,2320,1.0459080202867503e-12,0.8210361067503924,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,%MNAU raw,Mean_part_abundance,Wilcoxon rank-sum,2432,2.3429309544329235e-13,0.8382464096749811,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,%MNAU raw,mnau_heip_evenness,Wilcoxon rank-sum,2320,1.0459080202867503e-12,0.8210361067503924,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,ReMNAU raw,Mean_part_abundance,Wilcoxon rank-sum,2432,2.3429309544329235e-13,0.8382464096749811,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,ReMNAU raw,mnau_heip_evenness,Wilcoxon rank-sum,2320,1.0459080202867503e-12,0.8210361067503924,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,Engineered,Mean_part_abundance,Wilcoxon rank-sum,2432,2.3429309544329235e-13,0.8382464096749811,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,Engineered,mnau_heip_evenness,Wilcoxon rank-sum,2320,1.0459080202867503e-12,0.8210361067503924,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,Combined,Mean_part_abundance,Wilcoxon rank-sum,2432,2.3429309544329235e-13,0.8382464096749811,Cliff_delta_Funerary Context_vs_Rest
+fc_vs_rest,Combined,mnau_heip_evenness,Wilcoxon rank-sum,2320,1.0459080202867503e-12,0.8210361067503924,Cliff_delta_Funerary Context_vs_Rest

@@ -1,0 +1,12 @@
+scheme,group,description
+C,C1,Low C / low evenness
+C,C2,Low C / intermediate evenness
+C,C3,Intermediate C / high evenness
+C,C4,High C / intermediate evenness
+C,C5,Very high C / high evenness
+G,G0,Natural / non-human accumulation
+G,G1,Human non-funerary processing
+G,G2,"Structured mortuary placement, no formal interment"
+G,G3,Collective / secondary funerary deposition
+G,G4,Formal non-single / mixed funerary treatment
+G,G5,Formal single inhumation

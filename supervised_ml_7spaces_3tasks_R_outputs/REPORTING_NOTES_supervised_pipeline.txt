@@ -1,0 +1,36 @@
+SUPERVISED ML REPORTING NOTES
+
+Input: final/tapho_db_sum.csv
+Independent CV grouping variable: site_name.
+Repeated grouped CV: 5 repeats x 3 folds.
+A common fold map is reused across all seven feature spaces within each task.
+All preprocessing parameters are estimated from the training fold only.
+Minority classes are randomly oversampled within the training fold only.
+Validation folds, Unknown/Unkown targets and Sepulchral targets are never oversampled.
+
+Algorithms:
+- Ridge logistic regression: glmnet alpha=0, lambda=1
+- For the one-variable C-only and Heip-only spaces, a constant-zero dummy column is appended only to satisfy glmnet's >=2-column interface; it contains no information and is not a substantive feature.
+- Random forest: ranger, 80 trees, min.node.size=2
+- RBF-SVM: cost=1, gamma=1/p
+- distance-weighted KNN: k=7
+
+Seven feature spaces:
+- C only (1 variables requested)
+- Heip evenness only (1 variables requested)
+- C + Heip evenness (2 variables requested)
+- %MNAU raw (22 variables requested)
+- ReMNAU raw (22 variables requested)
+- Engineered (28 variables requested)
+- Combined (72 variables requested)
+
+Unknown-site P(F) values are reference-affinity scores under a balanced classification problem.
+They should not be described as literal probabilities that an archaeological site was funerary.
+The compact report table averages the four algorithms and all fold-trained models within each feature space.
+Descriptive affinity bands: < 0.4 = NF-like; 0.4-0.6 = middle; > 0.6 = F-like.
+Hard model decisions use P(F) >= 0.5.
+
+Cross-conformal prediction:
+- alpha = 0.1
+- calibration uses ensemble OOF probabilities, so no site's own fitted prediction is used as its calibration score.
+- conformal inclusion is a set-valued reference-compatibility statement, not a posterior probability.

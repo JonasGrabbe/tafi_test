@@ -1,0 +1,12 @@
+BILATERAL INDETERMINATE REDISTRIBUTION
+
+This step is performed before feature-space construction, scaling, PCA, k-selection and K-means in both runs.
+Only exact *_indet / *_left / *_right triplets are redistributed.
+Generic pooled *_indet variables without exact bilateral counterparts are left unchanged.
+ReMNAU indeterminate values are split 50:50 between matching left/right variables.
+%MNAU indeterminate values are split as evenly as possible with a hard addition ceiling of 1 per side.
+If one %MNAU side is saturated, the unassigned share is transferred to the opposite side when capacity exists.
+If both %MNAU sides are saturated, the remainder stays in *_indet and is recorded; it is never discarded.
+Paired redistributed *_indet columns are excluded from clustering to avoid double-counting.
+Precomputed Mean_part_abundance, mnau_heip_evenness and engineered variables are not recomputed by this script.
+Pre-existing paired %MNAU side values > 1 detected: 0

@@ -40,6 +40,13 @@ random_vectors <- function(n) {
 ```
 
 
+```{r}
+#fc_rest best c(1,1,1,1,2,3,3,1,1,1,1)
+#4class best  c(1,1,1,3,4,1,1,2,1,3,1)
+#can_fc best  c(1,1,1,2,2,2,1,2,2,2,1)
+```
+
+
 
 
 ```{r}
@@ -50,9 +57,9 @@ excel_path <- "hspa.xlsx"
 system.time({
 levels_vec <- random_vectors(n = 1)
 for (lvl in levels_vec){
-  lvl= c(2,1,1,2,2,2,2,2,2,2,2)
+  lvl=   c(1,1,1,1,2,3,3,1,1,1,1)                         #c(2,1,1,2,2,2,2,2,2,2,2)
 
-tapho_db <- tapho.loader(excel_path,# sum=TRUE , 
+tapho_db <- tapho.loader(excel_path, sum=FALSE , 
 level = lvl #, indet = FALSE#, indet_method = "delet"#, 
 #group_by = c( "cultural_period", "mis_stage","gender") ,
 #select = c("gender"="Indet") , 
@@ -144,11 +151,12 @@ focus_sites <- c(
   "Bolomor Cave", "Cova de les Malladetes (Barx, Valencia, Spain)",
   "Cova del Parpalló (Parpalló Cave)", "Saint-Césaire",
   "Steinheim an der Murr", "Ochoz 1, Ochoz 2", "Peștera Muierii",
+  "Sima de los Huesos PNAS",
  "Sima de los Huesos 89"                                                           
 , "Sima de los Huesos 90"                                                           
 , "Sima de los Huesos 95"                                                           
-,"Sima de los Huesos 16"                                                           
-, "Sima de los Huesos 26"
+,"Sima de los Huesos 15"                                                           
+, "Sima de los Huesos 24"
 )
 
 res <- run_rfe(tb, task_name = "fc_vs_rest", unknown_sites = focus_sites)  # just these
@@ -172,9 +180,56 @@ run_eda(tb)
 
 
 ```{r}
+source("pca_funerary_surface_color.R")
+pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites)
+```
+
+
+
+```{r}
+source("pca_funerary_surface_color.R")
+
+focus_sites_ind <- c("Bilzingsleben", "Bolomor IV-VI", 
+#"Carihuela", "CdF Adult",
+#  "CdF Juvenil", "Ceprano", "Engis 2", "Feldhofer Grotte",
+#  "La Naulette", "Malladetes", 
+  #"Mancos 5MT-10010 Feature 3","Mancos Yellow Jacket 5MT-3", 
+ # "PM I", "PM II", "Ochoz I", "Ochoz II",
+ # "Saint-Césaire", "Scladina", 
+ "SH-89", "SH-90", "SH-95", "SH-15","SH-24","SH-PNAS"
+ # "SH-98", "Steinheim", "WE A", "WE B", "WE C", "WE D",
+ # "WE E", "WE F", "WE G", "WE H"
+ )
+
+pr3_ind <- pca_surface_plotly_ind(
+  tapho_db,
+  res,
+  n_features = 20,
+  task_name = "fc_vs_rest",
+  focus_class = "Funerary Context",
+  unknown_sites = focus_sites_ind,
+  label_var = "ind_name",
+  pc1_min = -4,
+  pc1_max =  4,
+  pc2_min = -4.2,
+  pc2_max =  4.2,
+  pc3_min = -4,
+  pc3_max =  4,
+  #iso_probs = c(0.25, 0.5, 0.75),
+  out_html = "pca_funerary_3d_ind.html"
+)
+```
+
+
+```{r}
 
 ```
 
+
+```{r}
+
+```
 
 
 

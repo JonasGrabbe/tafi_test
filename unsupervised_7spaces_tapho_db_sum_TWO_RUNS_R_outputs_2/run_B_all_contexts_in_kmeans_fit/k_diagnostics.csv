@@ -1,0 +1,57 @@
+Feature_space,k,Inertia,Silhouette,Elbow_k,Silhouette_best_k,Chosen_k,Rule
+C only,1,149.00000000000009,NA,3,2,2,Maximum silhouette
+C only,2,35.825449999845404,0.7092006730452416,3,2,2,Maximum silhouette
+C only,3,12.814769406161076,0.687852411094395,3,2,2,Maximum silhouette
+C only,4,8.039191385903152,0.6367838116772007,3,2,2,Maximum silhouette
+C only,5,4.6201431470364716,0.6367953112549004,3,2,2,Maximum silhouette
+C only,6,3.3249742143076486,0.646121124885396,3,2,2,Maximum silhouette
+C only,7,2.2938157517039293,0.6078899444686093,3,2,2,Maximum silhouette
+C only,8,1.816154439890606,0.6102745308921035,3,2,2,Maximum silhouette
+Heip evenness only,1,149.00000000000006,NA,3,3,3,Elbow; silhouette within 0.02 of maximum
+Heip evenness only,2,34.01639631453521,0.6413121925135534,3,3,3,Elbow; silhouette within 0.02 of maximum
+Heip evenness only,3,9.900469110224556,0.7008883552955351,3,3,3,Elbow; silhouette within 0.02 of maximum
+Heip evenness only,4,6.4757863350612155,0.659049291708961,3,3,3,Elbow; silhouette within 0.02 of maximum
+Heip evenness only,5,3.779461549510687,0.6393883328731849,3,3,3,Elbow; silhouette within 0.02 of maximum
+Heip evenness only,6,2.6078616344515417,0.6258300568229026,3,3,3,Elbow; silhouette within 0.02 of maximum
+Heip evenness only,7,2.0311374654326766,0.6270695895803915,3,3,3,Elbow; silhouette within 0.02 of maximum
+Heip evenness only,8,1.5899214123026455,0.592283375031325,3,3,3,Elbow; silhouette within 0.02 of maximum
+C + Heip evenness,1,298.00000000000006,NA,3,2,2,Maximum silhouette
+C + Heip evenness,2,97.63454941843962,0.5887610581083185,3,2,2,Maximum silhouette
+C + Heip evenness,3,56.89032995368696,0.5465441710330299,3,2,2,Maximum silhouette
+C + Heip evenness,4,34.49999513552226,0.5398332219857996,3,2,2,Maximum silhouette
+C + Heip evenness,5,26.092729562247168,0.5552730336149763,3,2,2,Maximum silhouette
+C + Heip evenness,6,21.955460585200836,0.5346899655013977,3,2,2,Maximum silhouette
+C + Heip evenness,7,18.70440686504119,0.5224486919511258,3,2,2,Maximum silhouette
+C + Heip evenness,8,15.852434297584223,0.47531224589202226,3,2,2,Maximum silhouette
+%MNAU raw,1,3129.00000000002,NA,2,2,2,Elbow; silhouette within 0.02 of maximum
+%MNAU raw,2,1887.043719403693,0.5208860232805005,2,2,2,Elbow; silhouette within 0.02 of maximum
+%MNAU raw,3,1682.0287780554918,0.5193194422991505,2,2,2,Elbow; silhouette within 0.02 of maximum
+%MNAU raw,4,1515.5337771892434,0.4271325016232236,2,2,2,Elbow; silhouette within 0.02 of maximum
+%MNAU raw,5,1364.5507001672047,0.4359462095319981,2,2,2,Elbow; silhouette within 0.02 of maximum
+%MNAU raw,6,1217.5476237825246,0.3981375276271114,2,2,2,Elbow; silhouette within 0.02 of maximum
+%MNAU raw,7,1108.70100491624,0.3620456439616782,2,2,2,Elbow; silhouette within 0.02 of maximum
+%MNAU raw,8,1030.768016042414,0.3572012462123526,2,2,2,Elbow; silhouette within 0.02 of maximum
+ReMNAU raw,1,3128.9999999999905,NA,2,8,2,Elbow; silhouette within 0.02 of maximum
+ReMNAU raw,2,2564.3361504607874,0.26564949712531205,2,8,2,Elbow; silhouette within 0.02 of maximum
+ReMNAU raw,3,2371.7189431239926,0.20072782524006805,2,8,2,Elbow; silhouette within 0.02 of maximum
+ReMNAU raw,4,2217.671201387329,0.2133590157292373,2,8,2,Elbow; silhouette within 0.02 of maximum
+ReMNAU raw,5,2068.7121897169372,0.21872756556092787,2,8,2,Elbow; silhouette within 0.02 of maximum
+ReMNAU raw,6,1920.9481969516933,0.2264736519861926,2,8,2,Elbow; silhouette within 0.02 of maximum
+ReMNAU raw,7,1792.8354091558017,0.237925185636354,2,8,2,Elbow; silhouette within 0.02 of maximum
+ReMNAU raw,8,1659.2197905357887,0.2770896921740775,2,8,2,Elbow; silhouette within 0.02 of maximum
+Engineered,1,4172.0000000000155,NA,2,2,2,Elbow; silhouette within 0.02 of maximum
+Engineered,2,2377.9662954351306,0.4088754221393012,2,2,2,Elbow; silhouette within 0.02 of maximum
+Engineered,3,1953.5995656513942,0.30297358318922013,2,2,2,Elbow; silhouette within 0.02 of maximum
+Engineered,4,1737.2130919239362,0.30609350596440604,2,2,2,Elbow; silhouette within 0.02 of maximum
+Engineered,5,1555.433791202536,0.2981431031517809,2,2,2,Elbow; silhouette within 0.02 of maximum
+Engineered,6,1393.3428843141894,0.29623763240149104,2,2,2,Elbow; silhouette within 0.02 of maximum
+Engineered,7,1237.0859557691542,0.31704747749485696,2,2,2,Elbow; silhouette within 0.02 of maximum
+Engineered,8,1103.6813936184828,0.32765330617503724,2,2,2,Elbow; silhouette within 0.02 of maximum
+Combined,1,10430.000000000085,NA,3,2,2,Maximum silhouette
+Combined,2,7337.466193436416,0.32298851787469496,3,2,2,Maximum silhouette
+Combined,3,6473.5649756259845,0.22195863397802884,3,2,2,Maximum silhouette
+Combined,4,6067.160762572115,0.23009896174016545,3,2,2,Maximum silhouette
+Combined,5,5710.243425683796,0.20227651025921994,3,2,2,Maximum silhouette
+Combined,6,5398.195179801213,0.1927009751417012,3,2,2,Maximum silhouette
+Combined,7,5093.111389502772,0.19082903213443841,3,2,2,Maximum silhouette
+Combined,8,4797.351120598118,0.1926254587574291,3,2,2,Maximum silhouette

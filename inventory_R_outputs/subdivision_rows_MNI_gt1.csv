@@ -1,0 +1,26 @@
+site_name,ind_name,individual_id,mni,age_category,gender,taphonomic_context,funerary_context
+Arago,Gs1...2,6_1,4,"n_juv = 3, n_suba = 1 (subadult- New born  to 15yrs)",Indet,Cannibalism,NA
+Arago,Gs1...3,6_2,4,adult 15yrs +,Indet,Cannibalism,NA
+Arago,Gm2...4,6_3,5,Adult,Indet,Cannibalism,NA
+Arago,Gm2...5,6_4,3,Subadults,Indet,Cannibalism,NA
+Arago,Gm3...7,6_6,2,Subadults,Indet,Cannibalism,NA
+Arago,Gi4...9,6_8,4,Subadults,Indet,Cannibalism,NA
+Atxuri-I Cave,Atxuri I adults,9_1,6,Adult,Mixed,Funerary Context,Possible burial
+Atxuri-I Cave,Atxuri I subadults,9_2,9,Mixed,Indet,Funerary Context,Possible burial
+Crow Creek,Crow Creek adult,25_1,478,Adult,Mixed,Funerary Context,Collective burial
+Crow Creek,Crow Creek subadult,25_2,247,Subadult,Mixed,Funerary Context,Collective burial
+Gough's Cave,Adult indet,46_7,4,Adult,Indet,Cannibalism,NA
+Troisième caverne of Goyet,Goyet adult,47_1,4,Adult,Indet,Cannibalism,NA
+Herxheim,Herxheim Adult,55_1,13,Adult,Indet,Cannibalism,NA
+Herxheim,Herxheim Subadult,55_2,7,Subadult,Indet,Cannibalism,NA
+Herxheim,Herxheim Infant,55_3,2,Infant,Indet,Cannibalism,NA
+La Tolita Cama de Huesos,La Tolita adult,70_1,11,Adult,Mixed,Funerary Context,Collective burial
+La Tolita Cama de Huesos,La Tolita subadult,70_2,5,Mixed,Indet,Funerary Context,Collective burial
+Marizulo I,Marizulo 2-5,84_2,4,Mixed,Indet,Cuevas Sepulcrales,NA
+Grotte des Perrats,Perrats Adults,104_1,5,Adult,Indet,Cannibalism,NA
+Grotte des Perrats,Perrats Subadults,104_2,3,Subadult,Indet,Cannibalism,NA
+Coves de Santa Maira,Santa Maira Adults,118_1,2,Adult,Indet,Cannibalism,NA
+Txotxinkoba Cave,Txotxinkoba Adult,137_1,11,Mixed,Mixed,Sepulchral Cave,NA
+Txotxinkoba Cave,Txotxinkoba Subadult,137_2,3,Juvenil,Indet,Sepulchral Cave,NA
+Vunda Locus,Vunda Locus 26M,147_1,3,Mixed,Indet,Cannibalism,NA
+Vunda Locus,Vunda Locus 26H,147_2,2,Indet,Indet,Cannibalism,NA

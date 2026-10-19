@@ -47,12 +47,85 @@ random_vectors <- function(n) {
 
 
 ```{r}
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
+
+system.time({
+levels_vec <- random_vectors(n = 1)
+for (lvl in levels_vec){
+  lvl=   c(1,1,1,1,2,3,3,1,1,1,1)                         #c(2,1,1,2,2,2,2,2,2,2,2)
+
+tapho_db <- tapho.loader(excel_path, calc_level = "min", sum=FALSE, group_by=NULL, unique_level=FALSE #sum=FALSE , 
+#level = lvl #, indet = FALSE#, indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+#exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+print(tapho_db)
+ print(lvl)
+}
+})
+
+```
+
+
+```{r}
+#| label: bone-level-distribution
+#| fig-width: 10
+#| fig-height: 7
+
+library(tidyverse)
+
+# Convert list-column into long format
+bone_long <- tapho_db %>%
+  select(bone.level) %>%
+  mutate(row_id = row_number()) %>%
+  unnest_longer(
+    bone.level,
+    values_to = "bone_level",
+    indices_to = "position"
+  )
+
+# Make position a factor so it is displayed from 1 to 11
+bone_long <- bone_long %>%
+  mutate(
+    position = factor(position, levels = 1:11),
+    bone_level = factor(bone_level, levels = 1:5)
+  )
+
+
+# ---------------------------------------------------------
+# 1. ALL POSITIONS TOGETHER
+# ---------------------------------------------------------
+
+ggplot(bone_long, aes(x = bone_level)) +
+  geom_bar() +
+  labs(
+    title = "Distribution of Bone Levels Across All Positions",
+    x = "Bone level",
+    y = "Count"
+  ) +
+  theme_minimal()
 
 
 ```
 
 
 ```{r}
+# ---------------------------------------------------------
+# 2. EACH OF THE 11 POSITIONS SEPARATELY
+# ---------------------------------------------------------
+
+ggplot(bone_long, aes(x = bone_level)) +
+  geom_bar() +
+  facet_wrap(~ position, ncol = 4) +
+  labs(
+    title = "Distribution of Bone Levels by Position",
+    subtitle = "Each panel represents one of the 11 vector positions",
+    x = "Bone level",
+    y = "Count"
+  ) +
+  theme_minimal()
 
 ```
 
@@ -60,13 +133,12 @@ random_vectors <- function(n) {
 
 
 ```{r}
-
-
+colnames(tapho_db)
 ```
 
 
 ```{r}
-
+tapho_db$ProportionalRep_MNIbased
 ```
 
 

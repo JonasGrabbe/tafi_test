@@ -1,0 +1,693 @@
+---
+title: "r135b_pca_mvar september"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+
+```{r}
+POSITION_MAX <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+
+random_vectors <- function(n) {
+  # Total number of unique combinations possible
+  max_combinations <- prod(POSITION_MAX + 1)
+  if (n > max_combinations) stop(paste("n exceeds total unique combinations:", max_combinations))
+  
+  seen <- list()
+  result <- list()
+  
+  while (length(result) < n) {
+    candidate <- mapply(function(mx) sample(1:mx, size = 1), POSITION_MAX)
+    key <- paste(candidate, collapse = "-")
+    
+    if (!key %in% seen) {
+      seen <- c(seen, key)
+      result <- c(result, list(candidate))
+    }
+  }
+  
+  result
+}
+```
+
+
+```{r}
+#fc_rest best c(1,1,1,1,2,3,3,1,1,1,1)
+#4class best  c(1,1,1,3,4,1,1,2,1,3,1)
+#can_fc best  c(1,1,1,2,2,2,1,2,2,2,1)
+# max         c(1,1,1,3,4,3,3,2,2,3,1)
+
+```
+
+
+
+
+```{r}
+
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
+
+system.time({chat
+levels_vec <- random_vectors(n = 1)
+for (lvl in levels_vec){
+  lvl=   c(1,1,1,1,2,3,3,1,1,1,1)                         #c(2,1,1,2,2,2,2,2,2,2,2)
+
+tapho_db <- tapho.loader(excel_path, sum=FALSE , 
+level = lvl #, indet = FALSE#, indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+#exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+print(tapho_db)
+ print(lvl)
+}
+})
+```
+
+
+```{r}
+#sum(tapho_db$mni)
+#colnames(raw_df_id)
+
+
+tb <- tapho_db %>%
+  # keep metadata + the two list-cols we want; drop site_id & taphonomic_context,
+  # and (by not selecting them) every other list-col and everything
+  # after OverallProportionalRep_assemblage
+  dplyr::select(site_id:sum_count, ReMNAU, ProportionalRep_MNIbased,
+                -site_id, -taphonomic_context) %>%
+  # name each row's vector by that row's own element names
+  dplyr::mutate(
+    ReMNAU = lapply(seq_along(ReMNAU), function(i)
+      setNames(ReMNAU[[i]], tapho_db$element[[i]])),
+    ProportionalRep_MNIbased = lapply(seq_along(ProportionalRep_MNIbased), function(i)
+      setNames(ProportionalRep_MNIbased[[i]], tapho_db$element[[i]]))
+  ) %>%
+  # spread both wide; names_sep prefixes so the shared element names don't clash
+  tidyr::unnest_wider(c(ReMNAU, ProportionalRep_MNIbased), names_sep = "_")
+
+colnames(tb)
+```
+
+
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+
+# the OTHER list-columns to remove (keep ReMNAU & ProportionalRep_MNIbased)
+list_cols_drop <- c(
+  "bone.level", "element", "One_Skeleton_count", "Skeleton_Section",
+  "MNE", "MNAU", "MAU", "PercentMAU", "PercentMNAU", #"ReMNAU",
+  #"CumulativeReMNAU", 
+  "MNI_used_assemblage", "sum_count"    #, "Mean_MNAU_assemblage",
+  #"Mean_part_abundance", "OverallProportionalRep_assemblage"
+)
+
+# name a row's value vector by its element labels,
+# dropping slots whose label is missing/empty/purely numeric
+name_by_element <- function(vec, elems) {
+  v  <- setNames(vec, elems)
+  nm <- names(v)
+  v[!is.na(nm) & nm != "" & !grepl("^[0-9]+$", nm)]
+}
+
+tb <- tapho_db %>%
+  mutate(
+    CumulativeReMNAU = lapply(seq_along(CumulativeReMNAU),
+                    \(i) name_by_element(CumulativeReMNAU[[i]], element[[i]])),
+    ReMNAU = lapply(seq_along(ReMNAU),
+                    \(i) name_by_element(ReMNAU[[i]], element[[i]])),                
+    AcReMNAU = lapply(seq_along(AcReMNAU),
+                    \(i) name_by_element(AcReMNAU[[i]], element[[i]])),
+    ProportionalRep_MNIbased = lapply(seq_along(ProportionalRep_MNIbased),
+                    \(i) name_by_element(ProportionalRep_MNIbased[[i]], element[[i]]))
+  ) %>%
+  select(-all_of(list_cols_drop)) %>%       # drop other list-cols, keep engineered features
+  unnest_wider(c(CumulativeReMNAU,ReMNAU , AcReMNAU, ProportionalRep_MNIbased), names_sep = "_")
+colnames(tb)
+
+```
+
+```{r}
+colnames(tb)
+colnames(tapho_db)
+```
+
+```{r}
+library(dplyr)
+library(purrr)
+
+tb_selected <- tb %>%
+
+  # First convert the list-columns to numeric
+  mutate(
+    Mean_MNAU_assemblage = map_dbl(
+      Mean_MNAU_assemblage,
+      ~ first(.x, default = NA_real_)
+    ),
+
+    Mean_part_abundance = map_dbl(
+      Mean_part_abundance,
+      ~ first(.x, default = NA_real_)
+    ),
+
+    OverallProportionalRep_assemblage = map_dbl(
+      OverallProportionalRep_assemblage,
+      ~ first(.x, default = NA_real_)
+    )
+  ) %>%
+
+  # Then select the columns you want
+  select(
+    ind_name:reference,
+
+    Mean_MNAU_assemblage,
+    Mean_part_abundance,
+    OverallProportionalRep_assemblage,
+
+    starts_with("ProportionalRep_MNIbased_"),
+    starts_with("ReMNAU_"),
+
+    mnau_proximal_appendicular_mean,
+    mnau_lower_appendicular_mean,
+    mnau_distal_appendicular_mean,
+    mnau_appendicular_mean,
+    mnau_postcranial_total_mean,
+    mnau_top2_share_mcnaughton,
+    mnau_upper_appendicular_mean,
+    low_density_survival_index,
+    mnau_vertebrae_to_thorax_ratio,
+    all_sections_dominance,
+
+    mnau_lower_upper_appendicular_diff,
+    mnau_heip_evenness,
+    mnau_girdle_appendicular_logratio,
+    postcranial_continuity_hm,
+    mnau_girdle_to_appendicular_ratio,
+    mnau_gini,
+    density_representation_r2,
+    mnau_cv,
+    mnau_girdle_appendicular_diff,
+    mnau_full_axial_mean,
+    mnau_arms,
+    dominance_gap_all,
+    mnau_girdle_share_of_appendicular,
+    section_completeness_025_all,
+    whole_body_continuity_hm,
+    density_representation_slope,
+    mnau_limb_shaft_proxy_mean,
+    density_residual_sd
+  )
+
+colnames(tb_selected)
+```
+
+```{r}
+
+
+
+tb_selected <- tb %>%
+  select(
+    site_id:reference,
+
+    
+   # Mean_part_abundance,
+   # OverallProportionalRep_assemblage,
+    starts_with("ReMNAU_"),
+    starts_with("ProportionalRep_MNIbased_"))
+```
+
+```{r}
+library(dplyr)
+library(purrr)
+
+tb_ranked <- tapho_db %>%
+  transmute(
+    site_name,
+    taphonomic_context,
+    funerary_context,
+
+    Mean_MNAU_assemblage =
+      map_dbl(Mean_MNAU_assemblage, ~ first(.x, default = NA_real_)),
+
+    Mean_part_abundance =
+      map_dbl(Mean_part_abundance, ~ first(.x, default = NA_real_)),
+
+    OverallProportionalRep_assemblage =
+      map_dbl(OverallProportionalRep_assemblage, ~ first(.x, default = NA_real_))
+  ) %>%
+  arrange(desc(OverallProportionalRep_assemblage))
+
+print(tb_ranked, n = Inf)
+
+```
+
+```{r}
+source("eda_taphonomy.R")
+source("clean_metadata.R")
+tb  <- clean_metadata(tb)
+run_eda(tb)
+```
+
+
+```{r}
+clean_metadata(tb)
+
+```
+
+
+```{r}
+tb <- tb %>%
+  select(
+    site_id:reference,
+    Mean_part_abundance,
+    #starts_with("ProportionalRep_MNIbased_"),
+    mnau_proximal_appendicular_mean,
+    mnau_lower_appendicular_mean,
+    mnau_distal_appendicular_mean,
+    mnau_appendicular_mean,
+    mnau_postcranial_total_mean,
+    mnau_top2_share_mcnaughton,
+    mnau_upper_appendicular_mean,
+    low_density_survival_index,
+    mnau_vertebrae_to_thorax_ratio,
+    all_sections_dominance
+  )
+ colnames(tb_selected)
+```
+
+```{r}
+
+library(dplyr)
+library(purrr)
+library(plotly)
+
+tb_ranked <- tapho_db %>%
+  transmute(
+    site_id,
+    site_name,
+    ind_name,
+    taphonomic_context,
+    funerary_context,
+
+    # Take first value from repeated assemblage-level lists
+    Mean_MNAU_assemblage =
+      map_dbl(Mean_MNAU_assemblage,
+              ~ first(.x, default = NA_real_)),
+
+    Mean_part_abundance =
+      map_dbl(Mean_part_abundance,
+              ~ first(.x, default = NA_real_)),
+
+    OverallProportionalRep_assemblage =
+      map_dbl(OverallProportionalRep_assemblage,
+              ~ first(.x, default = NA_real_)),
+
+    # Already a normal engineered variable
+        mnau_proximal_appendicular_mean,
+    mnau_lower_appendicular_mean,
+    mnau_distal_appendicular_mean,
+    mnau_appendicular_mean,
+    mnau_postcranial_total_mean,
+    mnau_top2_share_mcnaughton,
+    mnau_upper_appendicular_mean,
+    low_density_survival_index,
+    mnau_vertebrae_to_thorax_ratio,
+    all_sections_dominance,
+
+    mnau_lower_upper_appendicular_diff,
+    mnau_heip_evenness,
+    mnau_girdle_appendicular_logratio,
+    postcranial_continuity_hm,
+    mnau_girdle_to_appendicular_ratio,
+    #mne_appendicular_sum,
+    mnau_gini,
+    density_representation_r2,
+    mnau_cv,
+    mnau_girdle_appendicular_diff,
+    mnau_full_axial_mean,
+    mnau_arms,
+    #mne_postcranial_total_sum,
+    dominance_gap_all,
+    mnau_girdle_share_of_appendicular,
+    section_completeness_025_all,
+    whole_body_continuity_hm,
+    density_representation_slope,
+    mnau_limb_shaft_proxy_mean,
+    density_residual_sd
+  ) %>%
+  arrange(desc(OverallProportionalRep_assemblage))
+```
+
+```{r}
+tb_ranked %>%
+  select(
+    site_name,
+    taphonomic_context,
+    funerary_context,
+    Mean_MNAU_assemblage,
+    Mean_part_abundance,
+    OverallProportionalRep_assemblage,
+    mnau_proximal_appendicular_mean,
+    mnau_lower_appendicular_mean,
+    mnau_distal_appendicular_mean,
+    mnau_appendicular_mean,
+    mnau_postcranial_total_mean,
+    mnau_top2_share_mcnaughton,
+    mnau_upper_appendicular_mean,
+    low_density_survival_index,
+    mnau_vertebrae_to_thorax_ratio,
+    all_sections_dominance,
+
+    mnau_lower_upper_appendicular_diff,
+    mnau_heip_evenness,
+    mnau_girdle_appendicular_logratio,
+    postcranial_continuity_hm,
+    mnau_girdle_to_appendicular_ratio,
+   # mne_appendicular_sum,
+    mnau_gini,
+    density_representation_r2,
+    mnau_cv,
+    mnau_girdle_appendicular_diff,
+    mnau_full_axial_mean,
+    mnau_arms,
+    #mne_postcranial_total_sum,
+    dominance_gap_all,
+    mnau_girdle_share_of_appendicular,
+    section_completeness_025_all,
+    whole_body_continuity_hm,
+    density_representation_slope,
+    mnau_limb_shaft_proxy_mean,
+    density_residual_sd
+
+  ) %>%
+  print(n = Inf)
+```
+
+```{r}
+fig <- plot_ly(
+  data = tb,
+
+  x = ~Mean_part_abundance,
+  y = ~all_sections_dominance,
+  z = ~mnau_upper_appendicular_mean,
+
+  color = ~taphonomic_context,
+
+  type = "scatter3d",
+  mode = "markers",
+
+  text = ~paste0(
+    "<b>", site_name, "</b>",
+    "<br>Taphonomic context: ", taphonomic_context,
+    "<br>Funerary context: ",
+      ifelse(is.na(funerary_context),
+             "NA",
+             funerary_context),
+    "<br>Mean MNAU assemblage: ",
+      round(Mean_MNAU_assemblage, 3),
+    "<br>Mean part abundance: ",
+      round(Mean_part_abundance, 3),
+    "<br> mnau_upper_appendicular_mean: ",
+      round( mnau_upper_appendicular_mean, 3),
+    "<br>All-sections dominance: ",
+      round(all_sections_dominance, 3)
+  ),
+
+  hoverinfo = "text",
+
+  marker = list(
+    size = 6,
+    opacity = 0.8
+  )
+)
+
+fig <- fig %>%
+  layout(
+    scene = list(
+      xaxis = list(
+        title = "Mean part abundance"
+      ),
+      yaxis = list(
+        title = "All-sections dominance"
+      ),
+      zaxis = list(
+        title = "mnau_upper_appendicular_mean"
+      )
+    ),
+
+    legend = list(
+      title = list(
+        text = "Taphonomic context"
+      )
+    )
+  )
+
+fig
+
+```
+
+```{r}
+
+
+tapho_db
+```
+
+
+
+```{r}
+library(dplyr)
+
+tb_merged_02 <- tb_ind_02 %>%
+  filter(count_type == FALSE) %>%
+  select(-site_id) %>%
+  bind_rows(tb_sum_02)
+dim(tb_merged)
+names(tb_merged)
+table(tb_merged$count_type, useNA = "ifany")
+```
+
+```{r}
+library(dplyr)
+library(purrr)
+
+tb_merged <- tb_merged %>%
+  mutate(
+    Mean_part_abundance =
+      map_dbl(Mean_part_abundance,
+              ~ first(.x, default = NA_real_)),
+
+    OverallProportionalRep_assemblage =
+      map_dbl(OverallProportionalRep_assemblage,
+              ~ first(.x, default = NA_real_))
+  )
+```
+
+
+
+```{r}
+
+str(tb_merged$Mean_part_abundance)
+str(tb_merged$OverallProportionalRep_assemblage)
+
+```
+
+```{r}
+tb_ind<- tb_selected
+```
+
+
+
+```{r}
+tb<- test_2
+```
+
+```{r}
+library(dplyr)
+
+test_1 <- tb_merged %>%
+  filter(Mean_part_abundance <= 0.22)
+
+test_1_counts <- test_1 %>%
+  count(taphonomic_context, sort = TRUE)
+
+test_1_counts
+
+```
+
+```{r}
+test_2 <- tb_merged %>%
+  filter(
+    Mean_part_abundance <= 0.22,
+    all_sections_dominance <= 0.90
+  )
+
+test_2_counts <- test_2 %>%
+  count(taphonomic_context, sort = TRUE)
+
+test_2_counts
+```
+
+
+
+```{r}
+tb <- tb_selected
+#colnames(tb_selected)
+
+#tb_sum_02 <- tb 
+tb_ind_02 <- tb
+
+```
+
+
+
+```{r}
+source("rfe_randomforest_taphonomy_02.R")
+source("pca_funerary_surface_color_02_with_loadings_and_feature_space.R")
+#colnames(tb)
+#res <- run_rfe(tb, task_name = "fc_vs_rest")
+focus_sites <- c(
+  "Kleine Feldhofer Grotte", "Bilzingsleben", "Weimar-Ehringsdorf",
+  "Scladina Cave", "Engis / Schmerling Cave", "Trou de la Naulette",
+  "Bolomor Cave", "Cova de les Malladetes (Barx, Valencia, Spain)",
+  "Cova del Parpalló (Parpalló Cave)", "Saint-Césaire",
+  "Steinheim an der Murr", "Ochoz 1, Ochoz 2", "Peștera Muierii",
+  "Sima de los Huesos PNAS",
+ "Sima de los Huesos 89"                                                           
+, "Sima de los Huesos 90"                                                           
+, "Sima de los Huesos 95"                                                           
+,"Sima de los Huesos 15"                                                           
+, "Sima de los Huesos 24"
+)
+
+res <- run_rfe(tb, task_name = "fc_vs_rest", unknown_sites = focus_sites)  # just these
+
+res$unknown_all_features$table     # site, predicted, p_model1..3, p_focus_mean
+res$unknown_all_features$mean_acc  # == step-1 mean CV accuracy
+pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites)
+```
+
+
+
+
+```{r}
+source("eda_taphonomy.R")
+source("clean_metadata.R")
+tb  <- clean_metadata(tb)
+run_eda(tb)
+
+```
+
+
+```{r}
+source("ppca_funerary_surface_color_02_with_loadings_and_feature_space.R")
+pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites)
+```
+
+
+
+```{r}
+source("pca_funerary_surface_color_02_with_loadings_and_feature_space.R")
+
+focus_sites_ind <- c("Bilzingsleben", "Bolomor IV-VI", 
+#"Carihuela", "CdF Adult",
+#  "CdF Juvenil", "Ceprano", "Engis 2", "Feldhofer Grotte",
+#  "La Naulette", "Malladetes", 
+  #"Mancos 5MT-10010 Feature 3","Mancos Yellow Jacket 5MT-3", 
+ # "PM I", "PM II", "Ochoz I", "Ochoz II",
+  "Saint-Césaire", 
+ #"Scladina", 
+ "SH-89", "SH-90", "SH-95", "SH-15","SH-24","SH-PNAS"
+ # "SH-98", "Steinheim", "WE A", "WE B", "WE C", "WE D",
+ # "WE E", "WE F", "WE G", "WE H"
+ )
+
+pr3_ind <- pca_surface_plotly_ind(
+  tb,
+  res,
+  n_features = 37,
+  task_name = "fc_vs_rest",
+  focus_class = "Funerary Context",
+  unknown_sites = focus_sites_ind,
+ # label_var = "ind_name",
+#  pc1_min = -4,
+#  pc1_max =  4,
+#  pc2_min = -4.2,
+#  pc2_max =  4.2,
+#  pc3_min = -4,
+#  pc3_max =  4,
+  #iso_probs = c(0.25, 0.5, 0.75),
+  out_html = "pca_funerary_3d_ind.html"
+)
+```
+
+
+```{r}
+colnames(tb_sum_02)
+tb_sum_02 %>%
+  count(taphonomic_context, sort = TRUE)
+```
+
+
+```{r}
+readr::write_csv(tb_sum_02, "tapho_db_sum.csv")
+```
+
+```{r}
+
+```
+
+
+```{r}
+colnames(tb_ind_02)
+```
+
+```{r}
+tb_indet <- tb %>%
+  select(ends_with("_indet"))
+```
+
+
+```{r}
+colnames(tb_indet)
+```
+
+```{r}
+ tb %>%
+  select(ends_with("_shoulder"))
+```
+
+
+```{r}
+tb$ProportionalRep_MNIbased_arms_indet
+```
+
+
+```{r}
+ colnames(tb_sum_02)
+```
+
+
+```{r}
+tb_ind_02%>%
+  count(count_type, sort = TRUE)
+```
+
+
+
+
+
+

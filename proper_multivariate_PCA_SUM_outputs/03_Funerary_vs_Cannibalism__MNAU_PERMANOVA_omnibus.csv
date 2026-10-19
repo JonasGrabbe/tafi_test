@@ -1,0 +1,2 @@
+task,representation,n_sites,n_features,transform,Df,SumOfSqs,R2,F,p
+Funerary_vs_Cannibalism,%MNAU,70,14,raw %MNAU -> prevalence filter -> z-standardization,NA,NA,NA,NA,NA

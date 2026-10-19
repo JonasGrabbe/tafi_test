@@ -1,0 +1,251 @@
+"feature","group","shapiro_p"
+"all_sections_dominance","West Europe",1.56563313763868e-07
+"all_sections_dominance","Central Europe",0.081496006368726
+"all_sections_dominance","Europe",0.0519826816121217
+"all_sections_dominance","West Asia",0.000993706559004602
+"all_sections_dominance","Southeast Asia",0.0190734680798732
+"appendicular_dominance","West Europe",4.94227358372572e-06
+"appendicular_dominance","Central Europe",0.0476898548933548
+"appendicular_dominance","Europe",0.111578841640644
+"appendicular_dominance","West Asia",0.000186205846514331
+"appendicular_dominance","Southeast Asia",NA
+"appendicular_dominance_refined","West Europe",4.94227358372572e-06
+"appendicular_dominance_refined","Central Europe",0.0476898548933548
+"appendicular_dominance_refined","Europe",0.111578841640644
+"appendicular_dominance_refined","West Asia",0.000186205846514331
+"appendicular_dominance_refined","Southeast Asia",NA
+"density_adjusted_appendicular_axial_contrast","West Europe",2.35464382116335e-10
+"density_adjusted_appendicular_axial_contrast","Central Europe",0.0228339434848347
+"density_adjusted_appendicular_axial_contrast","Europe",0.34231331153687
+"density_adjusted_appendicular_axial_contrast","West Asia",0.414638791749634
+"density_adjusted_appendicular_axial_contrast","Southeast Asia",0.0358069326613506
+"density_evenness","West Europe",9.45705464815693e-10
+"density_evenness","Central Europe",0.0296922269623721
+"density_evenness","Europe",0.0616854625287942
+"density_evenness","West Asia",3.25812142063035e-05
+"density_evenness","Southeast Asia",0.132674852119019
+"distal_appendicular_continuity_hm","West Europe",7.83619960124013e-16
+"distal_appendicular_continuity_hm","Central Europe",9.14157591580711e-05
+"distal_appendicular_continuity_hm","Europe",0.284679702709625
+"distal_appendicular_continuity_hm","West Asia",0.515720046134921
+"distal_appendicular_continuity_hm","Southeast Asia",NA
+"dominance_gap_all","West Europe",1.13451295277932e-09
+"dominance_gap_all","Central Europe",0.0654302438060329
+"dominance_gap_all","Europe",0.0308818421025435
+"dominance_gap_all","West Asia",0.000254423121108277
+"dominance_gap_all","Southeast Asia",0.0190734680798734
+"dominant_axial_share","West Europe",8.15123695708005e-07
+"dominant_axial_share","Central Europe",0.0492002837610355
+"dominant_axial_share","Europe",0.0475666068561369
+"dominant_axial_share","West Asia",0.524217936415438
+"dominant_axial_share","Southeast Asia",0.00039237529749884
+"effective_sections_hill1","West Europe",5.4015011628259e-06
+"effective_sections_hill1","Central Europe",0.0800291362287556
+"effective_sections_hill1","Europe",0.515101814088646
+"effective_sections_hill1","West Asia",0.000188644513064345
+"effective_sections_hill1","Southeast Asia",0.0703729794754268
+"low_density_axial_survival","West Europe",7.74221481861785e-16
+"low_density_axial_survival","Central Europe",0.000184337582998434
+"low_density_axial_survival","Europe",0.225613909037333
+"low_density_axial_survival","West Asia",0.00308631140552425
+"low_density_axial_survival","Southeast Asia",NA
+"low_density_share","West Europe",1.00125854221639e-09
+"low_density_share","Central Europe",0.0647579061697992
+"low_density_share","Europe",0.198717199700972
+"low_density_share","West Asia",0.531764658456155
+"low_density_share","Southeast Asia",NA
+"low_density_survival_index","West Europe",1.1251656136614e-14
+"low_density_survival_index","Central Europe",0.000479592904559009
+"low_density_survival_index","Europe",0.330259626940365
+"low_density_survival_index","West Asia",0.00589597957992624
+"low_density_survival_index","Southeast Asia",NA
+"lower_appendicular_continuity_hm","West Europe",1.49549080326526e-15
+"lower_appendicular_continuity_hm","Central Europe",0.000108770635010653
+"lower_appendicular_continuity_hm","Europe",0.0348093479069645
+"lower_appendicular_continuity_hm","West Asia",0.423821772325406
+"lower_appendicular_continuity_hm","Southeast Asia",0.00647227634403305
+"lower_appendicular_evenness","West Europe",1.69431415909459e-06
+"lower_appendicular_evenness","Central Europe",0.0652566215890786
+"lower_appendicular_evenness","Europe",0.0633025507653531
+"lower_appendicular_evenness","West Asia",0.00379249764549087
+"lower_appendicular_evenness","Southeast Asia",NA
+"lower_appendicular_evenness_refined","West Europe",1.69431415909459e-06
+"lower_appendicular_evenness_refined","Central Europe",0.0652566215890786
+"lower_appendicular_evenness_refined","Europe",0.0633025507653531
+"lower_appendicular_evenness_refined","West Asia",0.00379249764549087
+"lower_appendicular_evenness_refined","Southeast Asia",NA
+"mnau_appendicular_mean","West Europe",1.71253191826833e-09
+"mnau_appendicular_mean","Central Europe",0.00105482679901318
+"mnau_appendicular_mean","Europe",0.0449807149318902
+"mnau_appendicular_mean","West Asia",0.738997969001339
+"mnau_appendicular_mean","Southeast Asia",0.00186629997901409
+"mnau_arms","West Europe",1.02507414248491e-10
+"mnau_arms","Central Europe",0.00467383028606863
+"mnau_arms","Europe",0.0865947080447698
+"mnau_arms","West Asia",0.312904823493819
+"mnau_arms","Southeast Asia",NA
+"mnau_arms_legs_diff","West Europe",1.07564024834469e-09
+"mnau_arms_legs_diff","Central Europe",0.000680482983746848
+"mnau_arms_legs_diff","Europe",0.862913475214533
+"mnau_arms_legs_diff","West Asia",0.994886125915772
+"mnau_arms_legs_diff","Southeast Asia",0.00661256952961212
+"mnau_arms_legs_logratio","West Europe",2.87202468479978e-14
+"mnau_arms_legs_logratio","Central Europe",0.0856298296568448
+"mnau_arms_legs_logratio","Europe",0.011823774558933
+"mnau_arms_legs_logratio","West Asia",0.0284381128343257
+"mnau_arms_legs_logratio","Southeast Asia",0.0434843708076322
+"mnau_arms_to_legs_ratio","West Europe",9.84634644525275e-22
+"mnau_arms_to_legs_ratio","Central Europe",0.0611094100635037
+"mnau_arms_to_legs_ratio","Europe",0.000244500922444182
+"mnau_arms_to_legs_ratio","West Asia",0.000819702846184059
+"mnau_arms_to_legs_ratio","Southeast Asia",0.0480436175038974
+"mnau_axial_main_mean","West Europe",1.01922427144801e-14
+"mnau_axial_main_mean","Central Europe",0.000184337582998434
+"mnau_axial_main_mean","Europe",0.112501589028071
+"mnau_axial_main_mean","West Asia",0.158877664378935
+"mnau_axial_main_mean","Southeast Asia",NA
+"mnau_column_trunk_mean","West Europe",3.75662025458097e-11
+"mnau_column_trunk_mean","Central Europe",0.000206505534897302
+"mnau_column_trunk_mean","Europe",0.0321014316513718
+"mnau_column_trunk_mean","West Asia",0.823245379661455
+"mnau_column_trunk_mean","Southeast Asia",NA
+"mnau_cv","West Europe",5.47125238645209e-07
+"mnau_cv","Central Europe",0.0822021167453104
+"mnau_cv","Europe",0.168214886041767
+"mnau_cv","West Asia",0.000129558062613906
+"mnau_cv","Southeast Asia",0.0265796441840478
+"mnau_distal_appendicular_mean","West Europe",1.16103979922482e-14
+"mnau_distal_appendicular_mean","Central Europe",9.62092689978442e-05
+"mnau_distal_appendicular_mean","Europe",0.295791862645517
+"mnau_distal_appendicular_mean","West Asia",0.421625112346026
+"mnau_distal_appendicular_mean","Southeast Asia",NA
+"mnau_dominance_of_region_means","West Europe",7.49828736301468e-10
+"mnau_dominance_of_region_means","Central Europe",0.0162143148981473
+"mnau_dominance_of_region_means","Europe",0.00130990443839115
+"mnau_dominance_of_region_means","West Asia",0.000180718080255086
+"mnau_dominance_of_region_means","Southeast Asia",0.00591856020261569
+"mnau_evenness_minus_dominance","West Europe",1.87320885669175e-07
+"mnau_evenness_minus_dominance","Central Europe",0.0976622884718718
+"mnau_evenness_minus_dominance","Europe",0.0914823866560909
+"mnau_evenness_minus_dominance","West Asia",0.000121741521273061
+"mnau_evenness_minus_dominance","Southeast Asia",0.0607540410165141
+"mnau_foot","West Europe",1.15975819662039e-15
+"mnau_foot","Central Europe",0.000103465656668217
+"mnau_foot","Europe",0.229788437874118
+"mnau_foot","West Asia",0.598848737779059
+"mnau_foot","Southeast Asia",NA
+"mnau_gini","West Europe",4.65217510448831e-06
+"mnau_gini","Central Europe",0.0733398538758184
+"mnau_gini","Europe",0.80796333933291
+"mnau_gini","West Asia",0.00128984039196885
+"mnau_gini","Southeast Asia",0.0190734680798747
+"mnau_girdle_mean","West Europe",5.16739647305328e-11
+"mnau_girdle_mean","Central Europe",0.000702123024110151
+"mnau_girdle_mean","Europe",0.012728126531477
+"mnau_girdle_mean","West Asia",0.80684348529842
+"mnau_girdle_mean","Southeast Asia",NA
+"mnau_hands","West Europe",3.27644571430282e-15
+"mnau_hands","Central Europe",7.87661020406833e-05
+"mnau_hands","Europe",0.39894958569025
+"mnau_hands","West Asia",0.0964678515910214
+"mnau_hands","Southeast Asia",NA
+"mnau_heip_evenness","West Europe",5.4015011628259e-06
+"mnau_heip_evenness","Central Europe",0.0800291362287565
+"mnau_heip_evenness","Europe",0.515101814088644
+"mnau_heip_evenness","West Asia",0.000188644513064345
+"mnau_heip_evenness","Southeast Asia",0.0703729794754268
+"mnau_inverse_simpson","West Europe",6.40269858992484e-07
+"mnau_inverse_simpson","Central Europe",0.0379204825050262
+"mnau_inverse_simpson","Europe",0.539886855810677
+"mnau_inverse_simpson","West Asia",0.00783425466985863
+"mnau_inverse_simpson","Southeast Asia",0.0124736372976478
+"mnau_legs","West Europe",7.31556243134513e-10
+"mnau_legs","Central Europe",0.00210657348212859
+"mnau_legs","Europe",0.943712804853649
+"mnau_legs","West Asia",0.886536124444512
+"mnau_legs","Southeast Asia",0.00312011312039179
+"mnau_limb_shaft_proxy_mean","West Europe",1.85789843994246e-09
+"mnau_limb_shaft_proxy_mean","Central Europe",0.00351040333740544
+"mnau_limb_shaft_proxy_mean","Europe",0.843196432008131
+"mnau_limb_shaft_proxy_mean","West Asia",0.689417226370312
+"mnau_limb_shaft_proxy_mean","Southeast Asia",0.00186629997901409
+"mnau_lower_appendicular_mean","West Europe",1.65112162752236e-09
+"mnau_lower_appendicular_mean","Central Europe",0.000582253934593924
+"mnau_lower_appendicular_mean","Europe",0.0504573864990841
+"mnau_lower_appendicular_mean","West Asia",0.469815597612237
+"mnau_lower_appendicular_mean","Southeast Asia",0.00312011312039179
+"mnau_pelvic","West Europe",9.76651021512551e-12
+"mnau_pelvic","Central Europe",0.000277825697631392
+"mnau_pelvic","Europe",0.0115403436892858
+"mnau_pelvic","West Asia",0.516681124065659
+"mnau_pelvic","Southeast Asia",NA
+"mnau_postcranial_total_mean","West Europe",5.96099196028055e-10
+"mnau_postcranial_total_mean","Central Europe",0.00054976353764428
+"mnau_postcranial_total_mean","Europe",0.0381503930086618
+"mnau_postcranial_total_mean","West Asia",0.782842804223506
+"mnau_postcranial_total_mean","Southeast Asia",0.00186629997901409
+"mnau_proximal_appendicular_mean","West Europe",1.67698551136582e-09
+"mnau_proximal_appendicular_mean","Central Europe",0.00171963198097043
+"mnau_proximal_appendicular_mean","Europe",0.0653206399578271
+"mnau_proximal_appendicular_mean","West Asia",0.706008065933389
+"mnau_proximal_appendicular_mean","Southeast Asia",0.00186629997901409
+"mnau_region_mean_evenness","West Europe",9.09770579377544e-11
+"mnau_region_mean_evenness","Central Europe",0.0136029769915479
+"mnau_region_mean_evenness","Europe",0.00370639371338727
+"mnau_region_mean_evenness","West Asia",1.193099064844e-05
+"mnau_region_mean_evenness","Southeast Asia",0.098044830227403
+"mnau_shoulder","West Europe",7.16176688211691e-12
+"mnau_shoulder","Central Europe",0.00123504271251458
+"mnau_shoulder","Europe",0.221371614852352
+"mnau_shoulder","West Asia",0.285354683145504
+"mnau_shoulder","Southeast Asia",NA
+"mnau_simpson_dominance","West Europe",1.10400231802748e-09
+"mnau_simpson_dominance","Central Europe",0.03497941529275
+"mnau_simpson_dominance","Europe",0.0325516482020763
+"mnau_simpson_dominance","West Asia",1.76887758326637e-05
+"mnau_simpson_dominance","Southeast Asia",0.0354702153668779
+"mnau_simpson_evenness","West Europe",6.40269858992447e-07
+"mnau_simpson_evenness","Central Europe",0.0379204825050261
+"mnau_simpson_evenness","Europe",0.539886855810677
+"mnau_simpson_evenness","West Asia",0.00783425466985863
+"mnau_simpson_evenness","Southeast Asia",0.0124736372976478
+"mnau_top2_share_mcnaughton","West Europe",1.25847385531912e-06
+"mnau_top2_share_mcnaughton","Central Europe",0.0659826630156179
+"mnau_top2_share_mcnaughton","Europe",0.817330941453191
+"mnau_top2_share_mcnaughton","West Asia",0.00751203236713039
+"mnau_top2_share_mcnaughton","Southeast Asia",NA
+"mnau_upper_appendicular_mean","West Europe",1.46284817211389e-11
+"mnau_upper_appendicular_mean","Central Europe",0.00294650312252184
+"mnau_upper_appendicular_mean","Europe",0.0754236349406972
+"mnau_upper_appendicular_mean","West Asia",0.304077471635087
+"mnau_upper_appendicular_mean","Southeast Asia",NA
+"mnau_vertebrae_to_thorax_ratio","West Europe",6.78298989120089e-22
+"mnau_vertebrae_to_thorax_ratio","Central Europe",1.31963904818726e-05
+"mnau_vertebrae_to_thorax_ratio","Europe",0.00103189867018293
+"mnau_vertebrae_to_thorax_ratio","West Asia",0.588348318437151
+"mnau_vertebrae_to_thorax_ratio","Southeast Asia",NA
+"mne_arms","West Europe",2.89774117954518e-20
+"mne_arms","Central Europe",0.000215956061610783
+"mne_arms","Europe",0.0318969237703319
+"mne_arms","West Asia",0.196073169380375
+"mne_arms","Southeast Asia",NA
+"mne_arms_to_legs_ratio","West Europe",2.28991283540476e-21
+"mne_arms_to_legs_ratio","Central Europe",0.0547531208148046
+"mne_arms_to_legs_ratio","Europe",0.000244502550339672
+"mne_arms_to_legs_ratio","West Asia",3.13189111098237e-05
+"mne_arms_to_legs_ratio","Southeast Asia",0.11851029056673
+"mne_cranial_share","West Europe",3.8864577977962e-15
+"mne_cranial_share","Central Europe",0.00260620635151431
+"mne_cranial_share","Europe",0.0277744841315537
+"mne_cranial_share","West Asia",0.562036869618664
+"mne_cranial_share","Southeast Asia",0.034051311577751
+"mne_vertebrae_to_thorax_ratio","West Europe",1.35815891979149e-20
+"mne_vertebrae_to_thorax_ratio","Central Europe",1.80558951354095e-06
+"mne_vertebrae_to_thorax_ratio","Europe",0.00106807774868253
+"mne_vertebrae_to_thorax_ratio","West Asia",0.205915652294296
+"mne_vertebrae_to_thorax_ratio","Southeast Asia",NA
+"postcranial_dominance_refined","West Europe",4.15320107701492e-07
+"postcranial_dominance_refined","Central Europe",0.168743590266328
+"postcranial_dominance_refined","Europe",0.106197832045179
+"postcranial_dominance_refined","West Asia",6.40074717157958e-05
+"postcranial_dominance_refined","Southeast Asia",NA

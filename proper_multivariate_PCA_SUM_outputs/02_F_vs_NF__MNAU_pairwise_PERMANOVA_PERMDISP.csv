@@ -1,0 +1,2 @@
+task,representation,group_A,group_B,contrast,n_A,n_B,centroid_distance,R2,F,p,dispersion_F,dispersion_p,q_BH,dispersion_q_BH
+F_vs_NF,%MNAU,NF,F,F - NF,51,48,4.0514244748450485,NA,NA,NA,44.68354013541396,1e-4,NA,1e-4

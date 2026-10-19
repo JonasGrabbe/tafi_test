@@ -1,0 +1,3 @@
+Input rows: 152
+Input columns: 117
+Unique site_name values: 148

@@ -1,0 +1,2 @@
+n_unique_challenge_sites,n,balanced_accuracy,roc_auc,precision,recall,brier
+26,26,0.6278195488721805,0.6015037593984962,0.8125,0.6842105263157895,0.24614709379655722

@@ -1,0 +1,55 @@
+task,outcome,outcome_label,predictor,spearman_rho,p,p_fdr
+4class,accuracy_mean,Accuracy,imputed_cell_fraction,-0.18085217884754268,8.43880884664858e-9,1.265821326997287e-8
+4class,accuracy_mean,Accuracy,mean_upward_steps_per_observed_cell,-0.18338112727454425,5.177280306506323e-9,6.656503251222416e-9
+4class,accuracy_mean,Accuracy,imputed_site_fraction,-0.18813944065576224,2.0264871038032383e-9,3.0397306557048575e-9
+4class,accuracy_mean,Accuracy,coarsened_cell_fraction,0.11001190695691748,4.919274963462301e-4,5.534184333895089e-4
+4class,accuracy_mean,Accuracy,mean_downward_steps_per_observed_cell,0.32836338763382006,1.4373664580768264e-26,2.1560496871152394e-26
+4class,accuracy_mean,Accuracy,exact_match_cell_fraction,-0.08179606593581674,0.009661326181328376,0.010868991953994423
+4class,macro_f1_mean,Macro-F1,imputed_cell_fraction,-0.2226916978122135,1.0563993273107065e-12,2.3768984864490897e-12
+4class,macro_f1_mean,Macro-F1,mean_upward_steps_per_observed_cell,-0.21288253835561072,1.0344307887376332e-11,2.3274692746596747e-11
+4class,macro_f1_mean,Macro-F1,imputed_site_fraction,-0.2311095385931812,1.3661195351302912e-13,2.459015163234524e-13
+4class,macro_f1_mean,Macro-F1,coarsened_cell_fraction,0.1943999328446199,5.682014928333672e-10,8.523022392500508e-10
+4class,macro_f1_mean,Macro-F1,mean_downward_steps_per_observed_cell,0.3677078168916965,2.252621132955412e-33,5.068397549149677e-33
+4class,macro_f1_mean,Macro-F1,exact_match_cell_fraction,-0.16091472549466423,3.1278237794563385e-7,4.6917356691845077e-7
+4class,balanced_accuracy,Balanced accuracy,imputed_cell_fraction,-0.21728024663903522,3.7698254231504965e-12,6.785685761670894e-12
+4class,balanced_accuracy,Balanced accuracy,mean_upward_steps_per_observed_cell,-0.20462377196844078,6.493487411167101e-11,1.168827734010078e-10
+4class,balanced_accuracy,Balanced accuracy,imputed_site_fraction,-0.23282189676315904,8.921577371445796e-14,2.0073549085753043e-13
+4class,balanced_accuracy,Balanced accuracy,coarsened_cell_fraction,0.1491723029843569,2.15970892066881e-6,2.77676861228847e-6
+4class,balanced_accuracy,Balanced accuracy,mean_downward_steps_per_observed_cell,0.36649684430051516,3.773903840431898e-33,6.793026912777417e-33
+4class,balanced_accuracy,Balanced accuracy,exact_match_cell_fraction,-0.11455857181962034,2.833266807369312e-4,3.64277160947483e-4
+cannibalism_vs_fc,accuracy_mean,Accuracy,imputed_cell_fraction,-0.13623661840550202,1.5394812972678948e-5,1.7319164594263818e-5
+cannibalism_vs_fc,accuracy_mean,Accuracy,mean_upward_steps_per_observed_cell,-0.13773665697390375,1.236694041058949e-5,1.236694041058949e-5
+cannibalism_vs_fc,accuracy_mean,Accuracy,imputed_site_fraction,-0.12106149985445293,1.2422474983219716e-4,1.2422474983219716e-4
+cannibalism_vs_fc,accuracy_mean,Accuracy,coarsened_cell_fraction,0.3085753576536528,1.6754198106208476e-23,3.7696945738969073e-23
+cannibalism_vs_fc,accuracy_mean,Accuracy,mean_downward_steps_per_observed_cell,0.3044708262645894,6.787034749376791e-23,8.726187534913017e-23
+cannibalism_vs_fc,accuracy_mean,Accuracy,exact_match_cell_fraction,-0.30094433479221955,2.2181427821139834e-22,4.990821259756463e-22
+cannibalism_vs_fc,macro_f1_mean,Macro-F1,imputed_cell_fraction,-0.13506305545001873,1.8242950576289313e-5,1.8242950576289313e-5
+cannibalism_vs_fc,macro_f1_mean,Macro-F1,mean_upward_steps_per_observed_cell,-0.16430366822142525,1.7435648660084406e-7,1.9615104742594955e-7
+cannibalism_vs_fc,macro_f1_mean,Macro-F1,imputed_site_fraction,-0.13958068644691982,9.418428651197025e-6,1.0595732232596653e-5
+cannibalism_vs_fc,macro_f1_mean,Macro-F1,coarsened_cell_fraction,-0.013492973532100813,0.6699832299071832,0.6699832299071832
+cannibalism_vs_fc,macro_f1_mean,Macro-F1,mean_downward_steps_per_observed_cell,0.1425606346563053,6.020766902000865e-6,6.773362764750974e-6
+cannibalism_vs_fc,macro_f1_mean,Macro-F1,exact_match_cell_fraction,0.042201144001712716,0.182386700565394,0.182386700565394
+cannibalism_vs_fc,balanced_accuracy,Balanced accuracy,imputed_cell_fraction,-0.14969483109118514,1.987803783861038e-6,2.555747722107049e-6
+cannibalism_vs_fc,balanced_accuracy,Balanced accuracy,mean_upward_steps_per_observed_cell,-0.18915127289424769,1.6548034607857128e-9,2.482205191178569e-9
+cannibalism_vs_fc,balanced_accuracy,Balanced accuracy,imputed_site_fraction,-0.17017216687831932,6.159023396812546e-8,7.918744367330417e-8
+cannibalism_vs_fc,balanced_accuracy,Balanced accuracy,coarsened_cell_fraction,-0.26362060580592656,2.323267435311112e-17,4.1818813835600017e-17
+cannibalism_vs_fc,balanced_accuracy,Balanced accuracy,mean_downward_steps_per_observed_cell,-0.027087852036381477,0.39217549930986606,0.39217549930986606
+cannibalism_vs_fc,balanced_accuracy,Balanced accuracy,exact_match_cell_fraction,0.31746117817661557,7.50776117873242e-25,2.252328353619726e-24
+fc_vs_rest,accuracy_mean,Accuracy,imputed_cell_fraction,-0.4196204170284501,6.363521158233359e-44,1.909056347470008e-43
+fc_vs_rest,accuracy_mean,Accuracy,mean_upward_steps_per_observed_cell,-0.39221391034371483,4.048477911346309e-38,1.821815060105839e-37
+fc_vs_rest,accuracy_mean,Accuracy,imputed_site_fraction,-0.3690835752343832,1.2500427701250939e-33,5.6251924655629225e-33
+fc_vs_rest,accuracy_mean,Accuracy,coarsened_cell_fraction,0.3247220812666784,5.485287886228337e-26,1.6455863658685013e-25
+fc_vs_rest,accuracy_mean,Accuracy,mean_downward_steps_per_observed_cell,0.463136463321999,2.5953920459208895e-54,1.1679264206644003e-53
+fc_vs_rest,accuracy_mean,Accuracy,exact_match_cell_fraction,-0.25129730690212837,7.230038475260682e-16,1.3014069255469227e-15
+fc_vs_rest,macro_f1_mean,Macro-F1,imputed_cell_fraction,-0.4426334060660647,3.1449988031935464e-49,2.8304989228741915e-48
+fc_vs_rest,macro_f1_mean,Macro-F1,mean_upward_steps_per_observed_cell,-0.4053321818301969,7.887396796498284e-41,7.0986571168484555e-40
+fc_vs_rest,macro_f1_mean,Macro-F1,imputed_site_fraction,-0.386482552306476,5.670470712900951e-37,5.103423641610856e-36
+fc_vs_rest,macro_f1_mean,Macro-F1,coarsened_cell_fraction,0.3994155984094267,1.362827812547104e-39,6.132725156461968e-39
+fc_vs_rest,macro_f1_mean,Macro-F1,mean_downward_steps_per_observed_cell,0.4909054926670954,8.993430802898331e-62,8.094087722608498e-61
+fc_vs_rest,macro_f1_mean,Macro-F1,exact_match_cell_fraction,-0.3265469648827267,2.809942170367944e-26,1.2644739766655747e-25
+fc_vs_rest,balanced_accuracy,Balanced accuracy,imputed_cell_fraction,-0.4232312282808472,9.955070912484943e-45,4.479781910618224e-44
+fc_vs_rest,balanced_accuracy,Balanced accuracy,mean_upward_steps_per_observed_cell,-0.3735899749710764,1.7800146743831815e-34,5.3400440231495444e-34
+fc_vs_rest,balanced_accuracy,Balanced accuracy,imputed_site_fraction,-0.3677220933068015,2.2389295994094112e-33,6.716788798228234e-33
+fc_vs_rest,balanced_accuracy,Balanced accuracy,coarsened_cell_fraction,0.4235761713914249,8.32847558383179e-45,7.495628025448611e-44
+fc_vs_rest,balanced_accuracy,Balanced accuracy,mean_downward_steps_per_observed_cell,0.45968710297645693,1.9671837195215904e-53,5.901551158564771e-53
+fc_vs_rest,balanced_accuracy,Balanced accuracy,exact_match_cell_fraction,-0.35725862404663467,1.7992811471665577e-31,1.619353032449902e-30

@@ -1,0 +1,22 @@
+Feature_space,Cluster,Collective-secondary,Collective burial,Cremation,Funerary caching,Multiple inhumation,No inhumation,Possible burial,Single + collective,Single + multiple,Single inhumation
+C only,1,1,9,1,1,0,1,1,1,1,4
+C only,2,0,3,0,0,3,2,0,0,1,20
+Heip evenness only,1,0,1,0,0,0,1,0,0,0,1
+Heip evenness only,2,1,5,0,1,2,0,1,1,1,10
+Heip evenness only,3,0,6,1,0,1,2,0,0,1,13
+C + Heip evenness,1,0,1,0,0,0,1,0,0,0,1
+C + Heip evenness,2,1,2,0,1,0,0,1,0,0,1
+C + Heip evenness,3,0,4,1,0,0,0,0,0,0,1
+C + Heip evenness,4,0,3,0,0,2,0,0,1,1,10
+C + Heip evenness,5,0,2,0,0,1,2,0,0,1,11
+%MNAU raw,1,1,8,1,1,0,1,1,0,0,2
+%MNAU raw,2,0,4,0,0,3,2,0,1,2,22
+ReMNAU raw,2,0,3,0,0,1,1,0,0,0,0
+ReMNAU raw,3,0,0,0,0,0,0,0,0,0,2
+ReMNAU raw,5,0,3,1,0,0,1,1,0,0,6
+ReMNAU raw,6,0,1,0,0,0,0,0,0,0,0
+ReMNAU raw,7,1,5,0,1,2,1,0,1,2,16
+Engineered,1,1,1,0,1,0,1,1,0,0,2
+Engineered,2,0,11,1,0,3,2,0,1,2,22
+Combined,1,1,5,1,1,0,1,1,0,0,2
+Combined,2,0,7,0,0,3,2,0,1,2,22

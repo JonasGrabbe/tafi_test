@@ -1,0 +1,220 @@
+Task,record_id,site_name,special_type,Nearest_task_centroid,n_spaces,total_spaces,percent_spaces
+4class,2,Aie Zelai,Sepulchral,Cannibalism,3,7,42.857142857142854
+4class,2,Aie Zelai,Sepulchral,Carnivore,2,7,28.571428571428573
+4class,2,Aie Zelai,Sepulchral,Funerary Context,1,7,14.285714285714286
+4class,2,Aie Zelai,Sepulchral,Geological transport,1,7,14.285714285714286
+4class,3,Aitzgaizto,Sepulchral,Cannibalism,7,7,100
+4class,4,Allekoaitze,Sepulchral,Cannibalism,5,7,71.42857142857143
+4class,4,Allekoaitze,Sepulchral,Carnivore,1,7,14.285714285714286
+4class,4,Allekoaitze,Sepulchral,Geological transport,1,7,14.285714285714286
+4class,7,Arbelaitz,Sepulchral,Carnivore,3,7,42.857142857142854
+4class,7,Arbelaitz,Sepulchral,Geological transport,3,7,42.857142857142854
+4class,7,Arbelaitz,Sepulchral,Cannibalism,1,7,14.285714285714286
+4class,11,Belako Arkaitza 1,Sepulchral,Cannibalism,7,7,100
+4class,12,Beondegi II,Sepulchral,Cannibalism,6,7,85.71428571428571
+4class,12,Beondegi II,Sepulchral,Geological transport,1,7,14.285714285714286
+4class,13,Bilzingsleben,Unknown,Geological transport,7,7,100
+4class,14,Bolomor Cave,Unknown,Carnivore,5,7,71.42857142857143
+4class,14,Bolomor Cave,Unknown,Geological transport,2,7,28.571428571428573
+4class,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Unknown,Geological transport,7,7,100
+4class,19,Ceprano,Unknown,Geological transport,7,7,100
+4class,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Unknown,Geological transport,7,7,100
+4class,22,Cova del Parpalló (Parpalló Cave),Unknown,Carnivore,3,7,42.857142857142854
+4class,22,Cova del Parpalló (Parpalló Cave),Unknown,Cannibalism,2,7,28.571428571428573
+4class,22,Cova del Parpalló (Parpalló Cave),Unknown,Geological transport,2,7,28.571428571428573
+4class,17,Cueva de la Carigüela,Unknown,Geological transport,7,7,100
+4class,36,Engis / Schmerling Cave,Unknown,Geological transport,7,7,100
+4class,37,Erlaitz,Sepulchral,Cannibalism,4,7,57.142857142857146
+4class,37,Erlaitz,Sepulchral,Carnivore,2,7,28.571428571428573
+4class,37,Erlaitz,Sepulchral,Geological transport,1,7,14.285714285714286
+4class,38,Errtxorta,Sepulchral,Cannibalism,7,7,100
+4class,39,Kleine Feldhofer Grotte,Unknown,Funerary Context,4,7,57.142857142857146
+4class,39,Kleine Feldhofer Grotte,Unknown,Cannibalism,3,7,42.857142857142854
+4class,62,Koba Lotx,Sepulchral,Carnivore,6,7,85.71428571428571
+4class,62,Koba Lotx,Sepulchral,Geological transport,1,7,14.285714285714286
+4class,63,Koba Zarra,Sepulchral,Cannibalism,6,7,85.71428571428571
+4class,63,Koba Zarra,Sepulchral,Funerary Context,1,7,14.285714285714286
+4class,64,Kobazar,Sepulchral,Cannibalism,4,7,57.142857142857146
+4class,64,Kobazar,Sepulchral,Carnivore,2,7,28.571428571428573
+4class,64,Kobazar,Sepulchral,Geological transport,1,7,14.285714285714286
+4class,72,Larrabiel,Sepulchral,Cannibalism,5,7,71.42857142857143
+4class,72,Larrabiel,Sepulchral,Carnivore,1,7,14.285714285714286
+4class,72,Larrabiel,Sepulchral,Geological transport,1,7,14.285714285714286
+4class,84,Marizulo I,Sepulchral,Funerary Context,7,7,100
+4class,93,Naparraitz I,Sepulchral,Cannibalism,6,7,85.71428571428571
+4class,93,Naparraitz I,Sepulchral,Carnivore,1,7,14.285714285714286
+4class,98,"Ochoz 1, Ochoz 2",Unknown,Geological transport,7,7,100
+4class,100,Olatzazpi,Sepulchral,Carnivore,4,7,57.142857142857146
+4class,100,Olatzazpi,Sepulchral,Geological transport,3,7,42.857142857142854
+4class,101,Otalora,Sepulchral,Cannibalism,3,7,42.857142857142854
+4class,101,Otalora,Sepulchral,Carnivore,3,7,42.857142857142854
+4class,101,Otalora,Sepulchral,Geological transport,1,7,14.285714285714286
+4class,92,Peștera Muierii,Unknown,Geological transport,6,7,85.71428571428571
+4class,92,Peștera Muierii,Unknown,Cannibalism,1,7,14.285714285714286
+4class,105,Pikandita,Sepulchral,Cannibalism,6,7,85.71428571428571
+4class,105,Pikandita,Sepulchral,Funerary Context,1,7,14.285714285714286
+4class,114,Saint-Césaire,Unknown,Cannibalism,4,7,57.142857142857146
+4class,114,Saint-Césaire,Unknown,Carnivore,2,7,28.571428571428573
+4class,114,Saint-Césaire,Unknown,Funerary Context,1,7,14.285714285714286
+4class,119,Scladina Cave,Unknown,Geological transport,7,7,100
+4class,125,Sima de los Huesos 15,Unknown,Funerary Context,6,7,85.71428571428571
+4class,125,Sima de los Huesos 15,Unknown,Cannibalism,1,7,14.285714285714286
+4class,126,Sima de los Huesos 24,Unknown,Funerary Context,6,7,85.71428571428571
+4class,126,Sima de los Huesos 24,Unknown,Cannibalism,1,7,14.285714285714286
+4class,122,Sima de los Huesos 89,Unknown,Cannibalism,3,7,42.857142857142854
+4class,122,Sima de los Huesos 89,Unknown,Carnivore,3,7,42.857142857142854
+4class,122,Sima de los Huesos 89,Unknown,Geological transport,1,7,14.285714285714286
+4class,123,Sima de los Huesos 90,Unknown,Cannibalism,5,7,71.42857142857143
+4class,123,Sima de los Huesos 90,Unknown,Geological transport,2,7,28.571428571428573
+4class,124,Sima de los Huesos 95,Unknown,Funerary Context,6,7,85.71428571428571
+4class,124,Sima de los Huesos 95,Unknown,Cannibalism,1,7,14.285714285714286
+4class,127,Sorginzulo,Sepulchral,Cannibalism,5,7,71.42857142857143
+4class,127,Sorginzulo,Sepulchral,Funerary Context,2,7,28.571428571428573
+4class,128,Spy cave,Unknown,Funerary Context,5,7,71.42857142857143
+4class,128,Spy cave,Unknown,Cannibalism,2,7,28.571428571428573
+4class,129,Steinheim an der Murr,Unknown,Geological transport,7,7,100
+4class,68,Trou de la Naulette,Unknown,Carnivore,5,7,71.42857142857143
+4class,68,Trou de la Naulette,Unknown,Cannibalism,1,7,14.285714285714286
+4class,68,Trou de la Naulette,Unknown,Funerary Context,1,7,14.285714285714286
+4class,135,Txispiri,Sepulchral,Funerary Context,7,7,100
+4class,136,Txomen Koba Erdikua,Sepulchral,Cannibalism,4,7,57.142857142857146
+4class,136,Txomen Koba Erdikua,Sepulchral,Carnivore,2,7,28.571428571428573
+4class,136,Txomen Koba Erdikua,Sepulchral,Geological transport,1,7,14.285714285714286
+4class,137,Txotxinkoba Cave,Sepulchral,Funerary Context,4,7,57.142857142857146
+4class,137,Txotxinkoba Cave,Sepulchral,Cannibalism,3,7,42.857142857142854
+4class,138,Urdabide II,Sepulchral,Funerary Context,6,7,85.71428571428571
+4class,138,Urdabide II,Sepulchral,Cannibalism,1,7,14.285714285714286
+4class,139,Urtiaga,Sepulchral,Cannibalism,6,7,85.71428571428571
+4class,139,Urtiaga,Sepulchral,Funerary Context,1,7,14.285714285714286
+4class,140,Uxar,Sepulchral,Cannibalism,6,7,85.71428571428571
+4class,140,Uxar,Sepulchral,Funerary Context,1,7,14.285714285714286
+4class,148,Weimar-Ehringsdorf,Unknown,Geological transport,4,7,57.142857142857146
+4class,148,Weimar-Ehringsdorf,Unknown,Carnivore,2,7,28.571428571428573
+4class,148,Weimar-Ehringsdorf,Unknown,Cannibalism,1,7,14.285714285714286
+4class,151,Zelaibizkar I,Sepulchral,Cannibalism,5,7,71.42857142857143
+4class,151,Zelaibizkar I,Sepulchral,Funerary Context,2,7,28.571428571428573
+cannibalism_vs_fc,2,Aie Zelai,Sepulchral,Cannibalism,6,7,85.71428571428571
+cannibalism_vs_fc,2,Aie Zelai,Sepulchral,Funerary Context,1,7,14.285714285714286
+cannibalism_vs_fc,3,Aitzgaizto,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,4,Allekoaitze,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,7,Arbelaitz,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,11,Belako Arkaitza 1,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,12,Beondegi II,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,13,Bilzingsleben,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,14,Bolomor Cave,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,19,Ceprano,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,22,Cova del Parpalló (Parpalló Cave),Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,17,Cueva de la Carigüela,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,36,Engis / Schmerling Cave,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,37,Erlaitz,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,38,Errtxorta,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,39,Kleine Feldhofer Grotte,Unknown,Funerary Context,4,7,57.142857142857146
+cannibalism_vs_fc,39,Kleine Feldhofer Grotte,Unknown,Cannibalism,3,7,42.857142857142854
+cannibalism_vs_fc,62,Koba Lotx,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,63,Koba Zarra,Sepulchral,Cannibalism,5,7,71.42857142857143
+cannibalism_vs_fc,63,Koba Zarra,Sepulchral,Funerary Context,2,7,28.571428571428573
+cannibalism_vs_fc,64,Kobazar,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,72,Larrabiel,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,84,Marizulo I,Sepulchral,Funerary Context,7,7,100
+cannibalism_vs_fc,93,Naparraitz I,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,98,"Ochoz 1, Ochoz 2",Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,100,Olatzazpi,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,101,Otalora,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,92,Peștera Muierii,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,105,Pikandita,Sepulchral,Cannibalism,6,7,85.71428571428571
+cannibalism_vs_fc,105,Pikandita,Sepulchral,Funerary Context,1,7,14.285714285714286
+cannibalism_vs_fc,114,Saint-Césaire,Unknown,Cannibalism,6,7,85.71428571428571
+cannibalism_vs_fc,114,Saint-Césaire,Unknown,Funerary Context,1,7,14.285714285714286
+cannibalism_vs_fc,119,Scladina Cave,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,125,Sima de los Huesos 15,Unknown,Funerary Context,6,7,85.71428571428571
+cannibalism_vs_fc,125,Sima de los Huesos 15,Unknown,Cannibalism,1,7,14.285714285714286
+cannibalism_vs_fc,126,Sima de los Huesos 24,Unknown,Funerary Context,6,7,85.71428571428571
+cannibalism_vs_fc,126,Sima de los Huesos 24,Unknown,Cannibalism,1,7,14.285714285714286
+cannibalism_vs_fc,122,Sima de los Huesos 89,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,123,Sima de los Huesos 90,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,124,Sima de los Huesos 95,Unknown,Funerary Context,7,7,100
+cannibalism_vs_fc,127,Sorginzulo,Sepulchral,Cannibalism,5,7,71.42857142857143
+cannibalism_vs_fc,127,Sorginzulo,Sepulchral,Funerary Context,2,7,28.571428571428573
+cannibalism_vs_fc,128,Spy cave,Unknown,Funerary Context,4,7,57.142857142857146
+cannibalism_vs_fc,128,Spy cave,Unknown,Cannibalism,3,7,42.857142857142854
+cannibalism_vs_fc,129,Steinheim an der Murr,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,68,Trou de la Naulette,Unknown,Cannibalism,6,7,85.71428571428571
+cannibalism_vs_fc,68,Trou de la Naulette,Unknown,Funerary Context,1,7,14.285714285714286
+cannibalism_vs_fc,135,Txispiri,Sepulchral,Funerary Context,7,7,100
+cannibalism_vs_fc,136,Txomen Koba Erdikua,Sepulchral,Cannibalism,7,7,100
+cannibalism_vs_fc,137,Txotxinkoba Cave,Sepulchral,Funerary Context,5,7,71.42857142857143
+cannibalism_vs_fc,137,Txotxinkoba Cave,Sepulchral,Cannibalism,2,7,28.571428571428573
+cannibalism_vs_fc,138,Urdabide II,Sepulchral,Funerary Context,5,7,71.42857142857143
+cannibalism_vs_fc,138,Urdabide II,Sepulchral,Cannibalism,2,7,28.571428571428573
+cannibalism_vs_fc,139,Urtiaga,Sepulchral,Cannibalism,6,7,85.71428571428571
+cannibalism_vs_fc,139,Urtiaga,Sepulchral,Funerary Context,1,7,14.285714285714286
+cannibalism_vs_fc,140,Uxar,Sepulchral,Cannibalism,6,7,85.71428571428571
+cannibalism_vs_fc,140,Uxar,Sepulchral,Funerary Context,1,7,14.285714285714286
+cannibalism_vs_fc,148,Weimar-Ehringsdorf,Unknown,Cannibalism,7,7,100
+cannibalism_vs_fc,151,Zelaibizkar I,Sepulchral,Cannibalism,6,7,85.71428571428571
+cannibalism_vs_fc,151,Zelaibizkar I,Sepulchral,Funerary Context,1,7,14.285714285714286
+fc_vs_rest,2,Aie Zelai,Sepulchral,Rest,6,7,85.71428571428571
+fc_vs_rest,2,Aie Zelai,Sepulchral,Funerary Context,1,7,14.285714285714286
+fc_vs_rest,3,Aitzgaizto,Sepulchral,Rest,7,7,100
+fc_vs_rest,4,Allekoaitze,Sepulchral,Rest,7,7,100
+fc_vs_rest,7,Arbelaitz,Sepulchral,Rest,7,7,100
+fc_vs_rest,11,Belako Arkaitza 1,Sepulchral,Rest,5,7,71.42857142857143
+fc_vs_rest,11,Belako Arkaitza 1,Sepulchral,Funerary Context,2,7,28.571428571428573
+fc_vs_rest,12,Beondegi II,Sepulchral,Rest,7,7,100
+fc_vs_rest,13,Bilzingsleben,Unknown,Rest,7,7,100
+fc_vs_rest,14,Bolomor Cave,Unknown,Rest,7,7,100
+fc_vs_rest,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Unknown,Rest,7,7,100
+fc_vs_rest,19,Ceprano,Unknown,Rest,7,7,100
+fc_vs_rest,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Unknown,Rest,7,7,100
+fc_vs_rest,22,Cova del Parpalló (Parpalló Cave),Unknown,Rest,7,7,100
+fc_vs_rest,17,Cueva de la Carigüela,Unknown,Rest,7,7,100
+fc_vs_rest,36,Engis / Schmerling Cave,Unknown,Rest,7,7,100
+fc_vs_rest,37,Erlaitz,Sepulchral,Rest,7,7,100
+fc_vs_rest,38,Errtxorta,Sepulchral,Rest,6,7,85.71428571428571
+fc_vs_rest,38,Errtxorta,Sepulchral,Funerary Context,1,7,14.285714285714286
+fc_vs_rest,39,Kleine Feldhofer Grotte,Unknown,Funerary Context,7,7,100
+fc_vs_rest,62,Koba Lotx,Sepulchral,Rest,7,7,100
+fc_vs_rest,63,Koba Zarra,Sepulchral,Rest,5,7,71.42857142857143
+fc_vs_rest,63,Koba Zarra,Sepulchral,Funerary Context,2,7,28.571428571428573
+fc_vs_rest,64,Kobazar,Sepulchral,Rest,7,7,100
+fc_vs_rest,72,Larrabiel,Sepulchral,Rest,7,7,100
+fc_vs_rest,84,Marizulo I,Sepulchral,Funerary Context,7,7,100
+fc_vs_rest,93,Naparraitz I,Sepulchral,Rest,7,7,100
+fc_vs_rest,98,"Ochoz 1, Ochoz 2",Unknown,Rest,7,7,100
+fc_vs_rest,100,Olatzazpi,Sepulchral,Rest,7,7,100
+fc_vs_rest,101,Otalora,Sepulchral,Rest,7,7,100
+fc_vs_rest,92,Peștera Muierii,Unknown,Rest,7,7,100
+fc_vs_rest,105,Pikandita,Sepulchral,Rest,6,7,85.71428571428571
+fc_vs_rest,105,Pikandita,Sepulchral,Funerary Context,1,7,14.285714285714286
+fc_vs_rest,114,Saint-Césaire,Unknown,Rest,6,7,85.71428571428571
+fc_vs_rest,114,Saint-Césaire,Unknown,Funerary Context,1,7,14.285714285714286
+fc_vs_rest,119,Scladina Cave,Unknown,Rest,7,7,100
+fc_vs_rest,125,Sima de los Huesos 15,Unknown,Funerary Context,7,7,100
+fc_vs_rest,126,Sima de los Huesos 24,Unknown,Funerary Context,7,7,100
+fc_vs_rest,122,Sima de los Huesos 89,Unknown,Rest,6,7,85.71428571428571
+fc_vs_rest,122,Sima de los Huesos 89,Unknown,Funerary Context,1,7,14.285714285714286
+fc_vs_rest,123,Sima de los Huesos 90,Unknown,Rest,7,7,100
+fc_vs_rest,124,Sima de los Huesos 95,Unknown,Funerary Context,7,7,100
+fc_vs_rest,127,Sorginzulo,Sepulchral,Rest,5,7,71.42857142857143
+fc_vs_rest,127,Sorginzulo,Sepulchral,Funerary Context,2,7,28.571428571428573
+fc_vs_rest,128,Spy cave,Unknown,Funerary Context,5,7,71.42857142857143
+fc_vs_rest,128,Spy cave,Unknown,Rest,2,7,28.571428571428573
+fc_vs_rest,129,Steinheim an der Murr,Unknown,Rest,7,7,100
+fc_vs_rest,68,Trou de la Naulette,Unknown,Rest,6,7,85.71428571428571
+fc_vs_rest,68,Trou de la Naulette,Unknown,Funerary Context,1,7,14.285714285714286
+fc_vs_rest,135,Txispiri,Sepulchral,Funerary Context,7,7,100
+fc_vs_rest,136,Txomen Koba Erdikua,Sepulchral,Rest,6,7,85.71428571428571
+fc_vs_rest,136,Txomen Koba Erdikua,Sepulchral,Funerary Context,1,7,14.285714285714286
+fc_vs_rest,137,Txotxinkoba Cave,Sepulchral,Funerary Context,5,7,71.42857142857143
+fc_vs_rest,137,Txotxinkoba Cave,Sepulchral,Rest,2,7,28.571428571428573
+fc_vs_rest,138,Urdabide II,Sepulchral,Funerary Context,6,7,85.71428571428571
+fc_vs_rest,138,Urdabide II,Sepulchral,Rest,1,7,14.285714285714286
+fc_vs_rest,139,Urtiaga,Sepulchral,Rest,6,7,85.71428571428571
+fc_vs_rest,139,Urtiaga,Sepulchral,Funerary Context,1,7,14.285714285714286
+fc_vs_rest,140,Uxar,Sepulchral,Rest,5,7,71.42857142857143
+fc_vs_rest,140,Uxar,Sepulchral,Funerary Context,2,7,28.571428571428573
+fc_vs_rest,148,Weimar-Ehringsdorf,Unknown,Rest,7,7,100
+fc_vs_rest,151,Zelaibizkar I,Sepulchral,Rest,4,7,57.142857142857146
+fc_vs_rest,151,Zelaibizkar I,Sepulchral,Funerary Context,3,7,42.857142857142854

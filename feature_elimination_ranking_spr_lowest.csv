@@ -1,0 +1,11 @@
+step,n_features_before,accuracy_before,feature,importance,status,elimination_rank
+1,10,0.8805704099821747,ProportionalRep_MNIbased_hyoid,0.31538442258737653,eliminated,1
+2,9,0.8805704099821747,ProportionalRep_MNIbased_cranium,1.137754402819467,eliminated,2
+3,8,0.8903743315508021,ProportionalRep_MNIbased_thorax,1.9581339782104106,eliminated,3
+4,7,0.8906714200831848,ProportionalRep_MNIbased_hands,4.0440518307627356,eliminated,4
+5,6,0.8903743315508021,ProportionalRep_MNIbased_pelvic,4.742599493542388,eliminated,5
+6,5,0.8704693998811646,ProportionalRep_MNIbased_vertebrae,5.794477341822278,eliminated,6
+7,4,0.8297682709447415,ProportionalRep_MNIbased_legs,7.6426297546557445,eliminated,7
+8,3,0.8502673796791443,ProportionalRep_MNIbased_foot,10.405133401058963,eliminated,8
+9,2,0.780154486036839,ProportionalRep_MNIbased_shoulder,15.045104936194178,eliminated,9
+NA,1,0.7501485442661914,ProportionalRep_MNIbased_arms,NA,retained,10

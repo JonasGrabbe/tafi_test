@@ -3,7 +3,7 @@ library(tidyr)
 library(stringr)
 
 add_bone_info <- function(input_df, reference_df = elements_data) {
-  print(names(elements_data))
+
 
 
   # Step 1: Ensure correct input structure

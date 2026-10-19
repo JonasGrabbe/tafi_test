@@ -1,0 +1,274 @@
+Run,Feature_space,secondary_context,Cluster,Cluster_name,n,label_n,percent_of_label_in_cluster
+Run A: known-reference fit,%MNAU raw,Cannibalism,1,C1,24,25,96
+Run A: known-reference fit,%MNAU raw,Cannibalism,2,C2,1,25,4
+Run A: known-reference fit,%MNAU raw,Carnivore-related,1,C1,17,17,100
+Run A: known-reference fit,%MNAU raw,Collective burial,1,C1,9,12,75
+Run A: known-reference fit,%MNAU raw,Collective burial,2,C2,3,12,25
+Run A: known-reference fit,%MNAU raw,Collective-secondary,1,C1,1,1,100
+Run A: known-reference fit,%MNAU raw,Cremation,1,C1,1,1,100
+Run A: known-reference fit,%MNAU raw,Funerary caching,1,C1,1,1,100
+Run A: known-reference fit,%MNAU raw,Geological transport,1,C1,12,12,100
+Run A: known-reference fit,%MNAU raw,Multiple inhumation,2,C2,3,3,100
+Run A: known-reference fit,%MNAU raw,No inhumation,1,C1,1,3,33.333333333333336
+Run A: known-reference fit,%MNAU raw,No inhumation,2,C2,2,3,66.66666666666667
+Run A: known-reference fit,%MNAU raw,Possible burial,1,C1,1,1,100
+Run A: known-reference fit,%MNAU raw,Single + collective,1,C1,1,1,100
+Run A: known-reference fit,%MNAU raw,Single + multiple,1,C1,1,2,50
+Run A: known-reference fit,%MNAU raw,Single + multiple,2,C2,1,2,50
+Run A: known-reference fit,%MNAU raw,Single inhumation,1,C1,3,24,12.5
+Run A: known-reference fit,%MNAU raw,Single inhumation,2,C2,21,24,87.5
+Run A: known-reference fit,C + Heip evenness,Cannibalism,1,C1,19,25,76
+Run A: known-reference fit,C + Heip evenness,Cannibalism,2,C2,6,25,24
+Run A: known-reference fit,C + Heip evenness,Carnivore-related,1,C1,17,17,100
+Run A: known-reference fit,C + Heip evenness,Collective burial,1,C1,3,12,25
+Run A: known-reference fit,C + Heip evenness,Collective burial,2,C2,9,12,75
+Run A: known-reference fit,C + Heip evenness,Collective-secondary,2,C2,1,1,100
+Run A: known-reference fit,C + Heip evenness,Cremation,2,C2,1,1,100
+Run A: known-reference fit,C + Heip evenness,Funerary caching,1,C1,1,1,100
+Run A: known-reference fit,C + Heip evenness,Geological transport,1,C1,12,12,100
+Run A: known-reference fit,C + Heip evenness,Multiple inhumation,2,C2,3,3,100
+Run A: known-reference fit,C + Heip evenness,No inhumation,1,C1,1,3,33.333333333333336
+Run A: known-reference fit,C + Heip evenness,No inhumation,2,C2,2,3,66.66666666666667
+Run A: known-reference fit,C + Heip evenness,Possible burial,1,C1,1,1,100
+Run A: known-reference fit,C + Heip evenness,Single + collective,2,C2,1,1,100
+Run A: known-reference fit,C + Heip evenness,Single + multiple,2,C2,2,2,100
+Run A: known-reference fit,C + Heip evenness,Single inhumation,1,C1,3,24,12.5
+Run A: known-reference fit,C + Heip evenness,Single inhumation,2,C2,21,24,87.5
+Run A: known-reference fit,C only,Cannibalism,1,C1,23,25,92
+Run A: known-reference fit,C only,Cannibalism,2,C2,2,25,8
+Run A: known-reference fit,C only,Carnivore-related,1,C1,17,17,100
+Run A: known-reference fit,C only,Collective burial,1,C1,9,12,75
+Run A: known-reference fit,C only,Collective burial,2,C2,3,12,25
+Run A: known-reference fit,C only,Collective-secondary,1,C1,1,1,100
+Run A: known-reference fit,C only,Cremation,1,C1,1,1,100
+Run A: known-reference fit,C only,Funerary caching,1,C1,1,1,100
+Run A: known-reference fit,C only,Geological transport,1,C1,12,12,100
+Run A: known-reference fit,C only,Multiple inhumation,2,C2,3,3,100
+Run A: known-reference fit,C only,No inhumation,1,C1,1,3,33.333333333333336
+Run A: known-reference fit,C only,No inhumation,2,C2,2,3,66.66666666666667
+Run A: known-reference fit,C only,Possible burial,1,C1,1,1,100
+Run A: known-reference fit,C only,Single + collective,1,C1,1,1,100
+Run A: known-reference fit,C only,Single + multiple,1,C1,1,2,50
+Run A: known-reference fit,C only,Single + multiple,2,C2,1,2,50
+Run A: known-reference fit,C only,Single inhumation,1,C1,4,24,16.666666666666668
+Run A: known-reference fit,C only,Single inhumation,2,C2,20,24,83.33333333333333
+Run A: known-reference fit,Combined,Cannibalism,1,C1,19,25,76
+Run A: known-reference fit,Combined,Cannibalism,2,C2,6,25,24
+Run A: known-reference fit,Combined,Carnivore-related,1,C1,17,17,100
+Run A: known-reference fit,Combined,Collective burial,1,C1,2,12,16.666666666666668
+Run A: known-reference fit,Combined,Collective burial,2,C2,10,12,83.33333333333333
+Run A: known-reference fit,Combined,Collective-secondary,1,C1,1,1,100
+Run A: known-reference fit,Combined,Cremation,2,C2,1,1,100
+Run A: known-reference fit,Combined,Funerary caching,1,C1,1,1,100
+Run A: known-reference fit,Combined,Geological transport,1,C1,12,12,100
+Run A: known-reference fit,Combined,Multiple inhumation,2,C2,3,3,100
+Run A: known-reference fit,Combined,No inhumation,1,C1,1,3,33.333333333333336
+Run A: known-reference fit,Combined,No inhumation,2,C2,2,3,66.66666666666667
+Run A: known-reference fit,Combined,Possible burial,1,C1,1,1,100
+Run A: known-reference fit,Combined,Single + collective,2,C2,1,1,100
+Run A: known-reference fit,Combined,Single + multiple,2,C2,2,2,100
+Run A: known-reference fit,Combined,Single inhumation,1,C1,2,24,8.333333333333334
+Run A: known-reference fit,Combined,Single inhumation,2,C2,22,24,91.66666666666667
+Run A: known-reference fit,Engineered,Cannibalism,1,C1,19,25,76
+Run A: known-reference fit,Engineered,Cannibalism,2,C2,6,25,24
+Run A: known-reference fit,Engineered,Carnivore-related,1,C1,16,17,94.11764705882354
+Run A: known-reference fit,Engineered,Carnivore-related,2,C2,1,17,5.882352941176471
+Run A: known-reference fit,Engineered,Collective burial,1,C1,1,12,8.333333333333334
+Run A: known-reference fit,Engineered,Collective burial,2,C2,11,12,91.66666666666667
+Run A: known-reference fit,Engineered,Collective-secondary,1,C1,1,1,100
+Run A: known-reference fit,Engineered,Cremation,2,C2,1,1,100
+Run A: known-reference fit,Engineered,Funerary caching,1,C1,1,1,100
+Run A: known-reference fit,Engineered,Geological transport,1,C1,12,12,100
+Run A: known-reference fit,Engineered,Multiple inhumation,2,C2,3,3,100
+Run A: known-reference fit,Engineered,No inhumation,1,C1,1,3,33.333333333333336
+Run A: known-reference fit,Engineered,No inhumation,2,C2,2,3,66.66666666666667
+Run A: known-reference fit,Engineered,Possible burial,1,C1,1,1,100
+Run A: known-reference fit,Engineered,Single + collective,2,C2,1,1,100
+Run A: known-reference fit,Engineered,Single + multiple,2,C2,2,2,100
+Run A: known-reference fit,Engineered,Single inhumation,1,C1,2,24,8.333333333333334
+Run A: known-reference fit,Engineered,Single inhumation,2,C2,22,24,91.66666666666667
+Run A: known-reference fit,Heip evenness only,Cannibalism,1,C1,9,25,36
+Run A: known-reference fit,Heip evenness only,Cannibalism,2,C2,10,25,40
+Run A: known-reference fit,Heip evenness only,Cannibalism,3,C3,6,25,24
+Run A: known-reference fit,Heip evenness only,Carnivore-related,1,C1,14,17,82.3529411764706
+Run A: known-reference fit,Heip evenness only,Carnivore-related,2,C2,3,17,17.647058823529413
+Run A: known-reference fit,Heip evenness only,Collective burial,1,C1,1,12,8.333333333333334
+Run A: known-reference fit,Heip evenness only,Collective burial,2,C2,3,12,25
+Run A: known-reference fit,Heip evenness only,Collective burial,3,C3,8,12,66.66666666666667
+Run A: known-reference fit,Heip evenness only,Collective-secondary,3,C3,1,1,100
+Run A: known-reference fit,Heip evenness only,Cremation,3,C3,1,1,100
+Run A: known-reference fit,Heip evenness only,Funerary caching,2,C2,1,1,100
+Run A: known-reference fit,Heip evenness only,Geological transport,1,C1,12,12,100
+Run A: known-reference fit,Heip evenness only,Multiple inhumation,3,C3,3,3,100
+Run A: known-reference fit,Heip evenness only,No inhumation,1,C1,1,3,33.333333333333336
+Run A: known-reference fit,Heip evenness only,No inhumation,2,C2,1,3,33.333333333333336
+Run A: known-reference fit,Heip evenness only,No inhumation,3,C3,1,3,33.333333333333336
+Run A: known-reference fit,Heip evenness only,Possible burial,2,C2,1,1,100
+Run A: known-reference fit,Heip evenness only,Single + collective,3,C3,1,1,100
+Run A: known-reference fit,Heip evenness only,Single + multiple,3,C3,2,2,100
+Run A: known-reference fit,Heip evenness only,Single inhumation,1,C1,1,24,4.166666666666667
+Run A: known-reference fit,Heip evenness only,Single inhumation,2,C2,6,24,25
+Run A: known-reference fit,Heip evenness only,Single inhumation,3,C3,17,24,70.83333333333333
+Run A: known-reference fit,ReMNAU raw,Cannibalism,1,C1,3,25,12
+Run A: known-reference fit,ReMNAU raw,Cannibalism,2,C2,7,25,28
+Run A: known-reference fit,ReMNAU raw,Cannibalism,3,C3,2,25,8
+Run A: known-reference fit,ReMNAU raw,Cannibalism,4,C4,1,25,4
+Run A: known-reference fit,ReMNAU raw,Cannibalism,5,C5,12,25,48
+Run A: known-reference fit,ReMNAU raw,Carnivore-related,1,C1,6,17,35.294117647058826
+Run A: known-reference fit,ReMNAU raw,Carnivore-related,2,C2,9,17,52.94117647058823
+Run A: known-reference fit,ReMNAU raw,Carnivore-related,3,C3,2,17,11.764705882352942
+Run A: known-reference fit,ReMNAU raw,Collective burial,1,C1,1,12,8.333333333333334
+Run A: known-reference fit,ReMNAU raw,Collective burial,5,C5,9,12,75
+Run A: known-reference fit,ReMNAU raw,Collective burial,6,C6,1,12,8.333333333333334
+Run A: known-reference fit,ReMNAU raw,Collective burial,7,C7,1,12,8.333333333333334
+Run A: known-reference fit,ReMNAU raw,Collective-secondary,5,C5,1,1,100
+Run A: known-reference fit,ReMNAU raw,Cremation,7,C7,1,1,100
+Run A: known-reference fit,ReMNAU raw,Funerary caching,5,C5,1,1,100
+Run A: known-reference fit,ReMNAU raw,Geological transport,2,C2,10,12,83.33333333333333
+Run A: known-reference fit,ReMNAU raw,Geological transport,3,C3,2,12,16.666666666666668
+Run A: known-reference fit,ReMNAU raw,Multiple inhumation,5,C5,3,3,100
+Run A: known-reference fit,ReMNAU raw,No inhumation,2,C2,1,3,33.333333333333336
+Run A: known-reference fit,ReMNAU raw,No inhumation,5,C5,1,3,33.333333333333336
+Run A: known-reference fit,ReMNAU raw,No inhumation,7,C7,1,3,33.333333333333336
+Run A: known-reference fit,ReMNAU raw,Possible burial,5,C5,1,1,100
+Run A: known-reference fit,ReMNAU raw,Single + collective,5,C5,1,1,100
+Run A: known-reference fit,ReMNAU raw,Single + multiple,5,C5,2,2,100
+Run A: known-reference fit,ReMNAU raw,Single inhumation,3,C3,2,24,8.333333333333334
+Run A: known-reference fit,ReMNAU raw,Single inhumation,5,C5,20,24,83.33333333333333
+Run A: known-reference fit,ReMNAU raw,Single inhumation,7,C7,2,24,8.333333333333334
+Run B: all contexts in fit,%MNAU raw,Cannibalism,1,C1,24,25,96
+Run B: all contexts in fit,%MNAU raw,Cannibalism,2,C2,1,25,4
+Run B: all contexts in fit,%MNAU raw,Carnivore-related,1,C1,17,17,100
+Run B: all contexts in fit,%MNAU raw,Collective burial,1,C1,9,12,75
+Run B: all contexts in fit,%MNAU raw,Collective burial,2,C2,3,12,25
+Run B: all contexts in fit,%MNAU raw,Collective-secondary,1,C1,1,1,100
+Run B: all contexts in fit,%MNAU raw,Cremation,1,C1,1,1,100
+Run B: all contexts in fit,%MNAU raw,Funerary caching,1,C1,1,1,100
+Run B: all contexts in fit,%MNAU raw,Geological transport,1,C1,12,12,100
+Run B: all contexts in fit,%MNAU raw,Multiple inhumation,2,C2,3,3,100
+Run B: all contexts in fit,%MNAU raw,No inhumation,1,C1,1,3,33.333333333333336
+Run B: all contexts in fit,%MNAU raw,No inhumation,2,C2,2,3,66.66666666666667
+Run B: all contexts in fit,%MNAU raw,Possible burial,1,C1,1,1,100
+Run B: all contexts in fit,%MNAU raw,Single + collective,1,C1,1,1,100
+Run B: all contexts in fit,%MNAU raw,Single + multiple,1,C1,1,2,50
+Run B: all contexts in fit,%MNAU raw,Single + multiple,2,C2,1,2,50
+Run B: all contexts in fit,%MNAU raw,Single inhumation,1,C1,3,24,12.5
+Run B: all contexts in fit,%MNAU raw,Single inhumation,2,C2,21,24,87.5
+Run B: all contexts in fit,C + Heip evenness,Cannibalism,1,C1,18,25,72
+Run B: all contexts in fit,C + Heip evenness,Cannibalism,2,C2,7,25,28
+Run B: all contexts in fit,C + Heip evenness,Carnivore-related,1,C1,17,17,100
+Run B: all contexts in fit,C + Heip evenness,Collective burial,1,C1,3,12,25
+Run B: all contexts in fit,C + Heip evenness,Collective burial,2,C2,9,12,75
+Run B: all contexts in fit,C + Heip evenness,Collective-secondary,2,C2,1,1,100
+Run B: all contexts in fit,C + Heip evenness,Cremation,2,C2,1,1,100
+Run B: all contexts in fit,C + Heip evenness,Funerary caching,1,C1,1,1,100
+Run B: all contexts in fit,C + Heip evenness,Geological transport,1,C1,12,12,100
+Run B: all contexts in fit,C + Heip evenness,Multiple inhumation,2,C2,3,3,100
+Run B: all contexts in fit,C + Heip evenness,No inhumation,1,C1,1,3,33.333333333333336
+Run B: all contexts in fit,C + Heip evenness,No inhumation,2,C2,2,3,66.66666666666667
+Run B: all contexts in fit,C + Heip evenness,Possible burial,1,C1,1,1,100
+Run B: all contexts in fit,C + Heip evenness,Single + collective,2,C2,1,1,100
+Run B: all contexts in fit,C + Heip evenness,Single + multiple,2,C2,2,2,100
+Run B: all contexts in fit,C + Heip evenness,Single inhumation,1,C1,2,24,8.333333333333334
+Run B: all contexts in fit,C + Heip evenness,Single inhumation,2,C2,22,24,91.66666666666667
+Run B: all contexts in fit,C only,Cannibalism,1,C1,23,25,92
+Run B: all contexts in fit,C only,Cannibalism,2,C2,2,25,8
+Run B: all contexts in fit,C only,Carnivore-related,1,C1,17,17,100
+Run B: all contexts in fit,C only,Collective burial,1,C1,9,12,75
+Run B: all contexts in fit,C only,Collective burial,2,C2,3,12,25
+Run B: all contexts in fit,C only,Collective-secondary,1,C1,1,1,100
+Run B: all contexts in fit,C only,Cremation,1,C1,1,1,100
+Run B: all contexts in fit,C only,Funerary caching,1,C1,1,1,100
+Run B: all contexts in fit,C only,Geological transport,1,C1,12,12,100
+Run B: all contexts in fit,C only,Multiple inhumation,2,C2,3,3,100
+Run B: all contexts in fit,C only,No inhumation,1,C1,1,3,33.333333333333336
+Run B: all contexts in fit,C only,No inhumation,2,C2,2,3,66.66666666666667
+Run B: all contexts in fit,C only,Possible burial,1,C1,1,1,100
+Run B: all contexts in fit,C only,Single + collective,1,C1,1,1,100
+Run B: all contexts in fit,C only,Single + multiple,1,C1,1,2,50
+Run B: all contexts in fit,C only,Single + multiple,2,C2,1,2,50
+Run B: all contexts in fit,C only,Single inhumation,1,C1,4,24,16.666666666666668
+Run B: all contexts in fit,C only,Single inhumation,2,C2,20,24,83.33333333333333
+Run B: all contexts in fit,Combined,Cannibalism,1,C1,19,25,76
+Run B: all contexts in fit,Combined,Cannibalism,2,C2,6,25,24
+Run B: all contexts in fit,Combined,Carnivore-related,1,C1,17,17,100
+Run B: all contexts in fit,Combined,Collective burial,1,C1,2,12,16.666666666666668
+Run B: all contexts in fit,Combined,Collective burial,2,C2,10,12,83.33333333333333
+Run B: all contexts in fit,Combined,Collective-secondary,1,C1,1,1,100
+Run B: all contexts in fit,Combined,Cremation,2,C2,1,1,100
+Run B: all contexts in fit,Combined,Funerary caching,1,C1,1,1,100
+Run B: all contexts in fit,Combined,Geological transport,1,C1,12,12,100
+Run B: all contexts in fit,Combined,Multiple inhumation,2,C2,3,3,100
+Run B: all contexts in fit,Combined,No inhumation,1,C1,1,3,33.333333333333336
+Run B: all contexts in fit,Combined,No inhumation,2,C2,2,3,66.66666666666667
+Run B: all contexts in fit,Combined,Possible burial,1,C1,1,1,100
+Run B: all contexts in fit,Combined,Single + collective,2,C2,1,1,100
+Run B: all contexts in fit,Combined,Single + multiple,2,C2,2,2,100
+Run B: all contexts in fit,Combined,Single inhumation,1,C1,2,24,8.333333333333334
+Run B: all contexts in fit,Combined,Single inhumation,2,C2,22,24,91.66666666666667
+Run B: all contexts in fit,Engineered,Cannibalism,1,C1,19,25,76
+Run B: all contexts in fit,Engineered,Cannibalism,2,C2,6,25,24
+Run B: all contexts in fit,Engineered,Carnivore-related,1,C1,16,17,94.11764705882354
+Run B: all contexts in fit,Engineered,Carnivore-related,2,C2,1,17,5.882352941176471
+Run B: all contexts in fit,Engineered,Collective burial,1,C1,1,12,8.333333333333334
+Run B: all contexts in fit,Engineered,Collective burial,2,C2,11,12,91.66666666666667
+Run B: all contexts in fit,Engineered,Collective-secondary,1,C1,1,1,100
+Run B: all contexts in fit,Engineered,Cremation,2,C2,1,1,100
+Run B: all contexts in fit,Engineered,Funerary caching,1,C1,1,1,100
+Run B: all contexts in fit,Engineered,Geological transport,1,C1,12,12,100
+Run B: all contexts in fit,Engineered,Multiple inhumation,2,C2,3,3,100
+Run B: all contexts in fit,Engineered,No inhumation,1,C1,1,3,33.333333333333336
+Run B: all contexts in fit,Engineered,No inhumation,2,C2,2,3,66.66666666666667
+Run B: all contexts in fit,Engineered,Possible burial,1,C1,1,1,100
+Run B: all contexts in fit,Engineered,Single + collective,2,C2,1,1,100
+Run B: all contexts in fit,Engineered,Single + multiple,2,C2,2,2,100
+Run B: all contexts in fit,Engineered,Single inhumation,1,C1,2,24,8.333333333333334
+Run B: all contexts in fit,Engineered,Single inhumation,2,C2,22,24,91.66666666666667
+Run B: all contexts in fit,Heip evenness only,Cannibalism,1,C1,9,25,36
+Run B: all contexts in fit,Heip evenness only,Cannibalism,2,C2,10,25,40
+Run B: all contexts in fit,Heip evenness only,Cannibalism,3,C3,6,25,24
+Run B: all contexts in fit,Heip evenness only,Carnivore-related,1,C1,14,17,82.3529411764706
+Run B: all contexts in fit,Heip evenness only,Carnivore-related,2,C2,3,17,17.647058823529413
+Run B: all contexts in fit,Heip evenness only,Collective burial,1,C1,1,12,8.333333333333334
+Run B: all contexts in fit,Heip evenness only,Collective burial,2,C2,2,12,16.666666666666668
+Run B: all contexts in fit,Heip evenness only,Collective burial,3,C3,9,12,75
+Run B: all contexts in fit,Heip evenness only,Collective-secondary,3,C3,1,1,100
+Run B: all contexts in fit,Heip evenness only,Cremation,3,C3,1,1,100
+Run B: all contexts in fit,Heip evenness only,Funerary caching,2,C2,1,1,100
+Run B: all contexts in fit,Heip evenness only,Geological transport,1,C1,12,12,100
+Run B: all contexts in fit,Heip evenness only,Multiple inhumation,3,C3,3,3,100
+Run B: all contexts in fit,Heip evenness only,No inhumation,1,C1,1,3,33.333333333333336
+Run B: all contexts in fit,Heip evenness only,No inhumation,3,C3,2,3,66.66666666666667
+Run B: all contexts in fit,Heip evenness only,Possible burial,2,C2,1,1,100
+Run B: all contexts in fit,Heip evenness only,Single + collective,3,C3,1,1,100
+Run B: all contexts in fit,Heip evenness only,Single + multiple,3,C3,2,2,100
+Run B: all contexts in fit,Heip evenness only,Single inhumation,1,C1,1,24,4.166666666666667
+Run B: all contexts in fit,Heip evenness only,Single inhumation,2,C2,6,24,25
+Run B: all contexts in fit,Heip evenness only,Single inhumation,3,C3,17,24,70.83333333333333
+Run B: all contexts in fit,ReMNAU raw,Cannibalism,3,C3,6,25,24
+Run B: all contexts in fit,ReMNAU raw,Cannibalism,4,C4,7,25,28
+Run B: all contexts in fit,ReMNAU raw,Cannibalism,5,C5,1,25,4
+Run B: all contexts in fit,ReMNAU raw,Cannibalism,6,C6,11,25,44
+Run B: all contexts in fit,ReMNAU raw,Carnivore-related,1,C1,1,17,5.882352941176471
+Run B: all contexts in fit,ReMNAU raw,Carnivore-related,2,C2,4,17,23.529411764705884
+Run B: all contexts in fit,ReMNAU raw,Carnivore-related,3,C3,9,17,52.94117647058823
+Run B: all contexts in fit,ReMNAU raw,Carnivore-related,4,C4,3,17,17.647058823529413
+Run B: all contexts in fit,ReMNAU raw,Collective burial,4,C4,1,12,8.333333333333334
+Run B: all contexts in fit,ReMNAU raw,Collective burial,6,C6,9,12,75
+Run B: all contexts in fit,ReMNAU raw,Collective burial,7,C7,1,12,8.333333333333334
+Run B: all contexts in fit,ReMNAU raw,Collective burial,8,C8,1,12,8.333333333333334
+Run B: all contexts in fit,ReMNAU raw,Collective-secondary,6,C6,1,1,100
+Run B: all contexts in fit,ReMNAU raw,Cremation,7,C7,1,1,100
+Run B: all contexts in fit,ReMNAU raw,Funerary caching,6,C6,1,1,100
+Run B: all contexts in fit,ReMNAU raw,Geological transport,3,C3,10,12,83.33333333333333
+Run B: all contexts in fit,ReMNAU raw,Geological transport,4,C4,2,12,16.666666666666668
+Run B: all contexts in fit,ReMNAU raw,Multiple inhumation,6,C6,3,3,100
+Run B: all contexts in fit,ReMNAU raw,No inhumation,3,C3,1,3,33.333333333333336
+Run B: all contexts in fit,ReMNAU raw,No inhumation,6,C6,1,3,33.333333333333336
+Run B: all contexts in fit,ReMNAU raw,No inhumation,7,C7,1,3,33.333333333333336
+Run B: all contexts in fit,ReMNAU raw,Possible burial,6,C6,1,1,100
+Run B: all contexts in fit,ReMNAU raw,Single + collective,6,C6,1,1,100
+Run B: all contexts in fit,ReMNAU raw,Single + multiple,6,C6,2,2,100
+Run B: all contexts in fit,ReMNAU raw,Single inhumation,4,C4,2,24,8.333333333333334
+Run B: all contexts in fit,ReMNAU raw,Single inhumation,6,C6,20,24,83.33333333333333
+Run B: all contexts in fit,ReMNAU raw,Single inhumation,7,C7,2,24,8.333333333333334

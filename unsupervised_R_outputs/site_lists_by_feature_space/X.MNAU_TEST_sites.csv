@@ -1,0 +1,28 @@
+Dataset,Feature_space,site_name,layer_name,test_panel,Archaeological_class,Binary_label,Cluster_raw,Cluster_zero_based,Cluster_F_percent,Cluster_dominant_class4,Distance_to_centroid,Distance_percentile,PC1,PC2
+Held-out labelled test,%MNAU,Brno II,NA,Historical challenge,Funerary,F,1,0,16.363636363636363,Cannibalism,4.331797433361647,98.18181818181819,-0.45775649855281747,0.5533057026806343
+Held-out labelled test,%MNAU,Cro-Magnon I,Unit J,Historical challenge,Funerary,F,1,0,16.363636363636363,Cannibalism,3.6495469476751725,96.36363636363636,-1.2240592114704072,-0.4031551239014388
+Held-out labelled test,%MNAU,Crow Creek,Fortification ditch fill,Historical challenge,Funerary,F,1,0,16.363636363636363,Cannibalism,4.049622185755813,98.18181818181819,-0.016502587395782642,-0.7469738916301012
+Held-out labelled test,%MNAU,Cueva de los Torrejones,NA,Historical challenge,Funerary,F,1,0,16.363636363636363,Cannibalism,1.1248288489844425,50.90909090909091,-1.456435987709676,-0.027432645563900453
+Held-out labelled test,%MNAU,Grotta Guattari,Laghetto,Historical challenge,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism,0.9513800684681161,23.636363636363637,-2.508591206803328,0.014643203431244887
+Held-out labelled test,%MNAU,Grotte de Fontbrégoua,H1,Early-human holdout,Cannibalism,NF,1,0,16.363636363636363,Cannibalism,0.7493436406885728,1.8181818181818181,-2.0316294640842614,0.2124664200181897
+Held-out labelled test,%MNAU,Grotte de Fontbrégoua,H3,Early-human holdout,Cannibalism,NF,1,0,16.363636363636363,Cannibalism,1.6134047356415437,72.72727272727273,-1.494479927833837,0.1311785883800975
+Held-out labelled test,%MNAU,Krapina,Primarily levels 3 and 4,Historical challenge,Cannibalism,NF,1,0,16.363636363636363,Cannibalism,0.8191197928758706,7.2727272727272725,-1.7563635044440944,0.183308280441961
+Held-out labelled test,%MNAU,La Ferrassie,Lower Mousterian layers,Both panels,Funerary,F,1,0,16.363636363636363,Cannibalism,3.702350754277658,96.36363636363636,1.474675424646293,0.4391753388262903
+Held-out labelled test,%MNAU,La Quina,Mousterian levels,Historical challenge,Funerary,F,1,0,16.363636363636363,Cannibalism,0.7399964497310877,1.8181818181818181,-2.5678386687146624,0.12812003964310714
+Held-out labelled test,%MNAU,Mancos 5MT-10010 Feature 3,NA,Early-human holdout,Cannibalism,NF,1,0,16.363636363636363,Cannibalism,3.9987850602964783,98.18181818181819,1.456526675443795,-0.5247880021484215
+Held-out labelled test,%MNAU,Mladeč Caves,Chamber D,Historical challenge,Funerary,F,1,0,16.363636363636363,Cannibalism,1.1964530277002918,54.54545454545454,-2.6086569382861433,0.024959848426490037
+Held-out labelled test,%MNAU,Moula-Guercy,Layer XV,Historical challenge,Cannibalism,NF,1,0,16.363636363636363,Cannibalism,1.1162133401241203,50.90909090909091,-1.7744784659747455,0.10134065570798582
+Held-out labelled test,%MNAU,Qafzeh Cave,Layer XVI to XXIII,Early-human holdout,Funerary,F,1,0,16.363636363636363,Cannibalism,3.3908305531186453,89.0909090909091,1.354628209472825,-0.19797196081552781
+Held-out labelled test,%MNAU,Teshik-Tash Cave,Layer I,Historical challenge,Funerary,F,1,0,16.363636363636363,Cannibalism,4.4031433505524875,98.18181818181819,-0.23806647762516764,0.24541437287852064
+Held-out labelled test,%MNAU,Yellow Jacket 5MT-3,NA,Early-human holdout,Cannibalism,NF,1,0,16.363636363636363,Cannibalism,2.7253120514137747,89.0909090909091,0.1956361098575741,-0.5183458139478049
+Held-out labelled test,%MNAU,Cova Gran de Santa Linya,NA,Early-human holdout,Funerary,F,2,1,100,Funerary,5.435386539150936,71.42857142857143,2.7473677698776853,1.8469012011905697
+Held-out labelled test,%MNAU,El Sidrón J1,Galería del Osario,Early-human holdout,Cannibalism,NF,2,1,100,Funerary,6.2121270624523826,80.95238095238095,6.749672322075833,-1.7716278964556353
+Held-out labelled test,%MNAU,Goat’s Hole (Paviland Cave),NA,Historical challenge,Funerary,F,2,1,100,Funerary,6.098079522910268,76.19047619047619,1.621322881951738,1.342796926821073
+Held-out labelled test,%MNAU,Kebara Cave,Unit XI,Early-human holdout,Funerary,F,2,1,100,Funerary,9.07352810825448,100,8.20518655746187,-6.462973187859932
+Held-out labelled test,%MNAU,La Chapelle-aux-Saints,Mousterian layer,Historical challenge,Funerary,F,2,1,100,Funerary,4.385125537362682,57.14285714285714,5.180828322700047,0.805770667443711
+Held-out labelled test,%MNAU,Mugharet es-Skhul,Layer B,Early-human holdout,Funerary,F,2,1,100,Funerary,3.4499079146791716,19.047619047619047,2.187729950434332,-0.11411080093788153
+Held-out labelled test,%MNAU,Regourdou,Tumulus IVA at Level IV,Historical challenge,Funerary,F,2,1,100,Funerary,3.685293171960204,28.57142857142857,2.811748856254339,-1.11946526847863
+Held-out labelled test,%MNAU,Roc de Marsal,Layer 4,Historical challenge,Funerary,F,2,1,100,Funerary,4.915950909030801,66.66666666666666,4.952360048724812,-1.1718853257324509
+Held-out labelled test,%MNAU,Shanidar Cave,Layer D,Historical challenge,Funerary,F,2,1,100,Funerary,2.903004465525048,9.523809523809524,2.5170406348411922,0.23633147912935198
+Held-out labelled test,%MNAU,Sima de las Palomas,"Upper stratigraphic levels (including ""Conglomerado B"") and lower levels 5 and 6",Early-human holdout,Funerary,F,2,1,100,Funerary,4.274901460723821,42.857142857142854,5.156533344047284,1.5246802510552564
+Held-out labelled test,%MNAU,Tabun Cave (Mugharet et-Tabun),Layer C,Early-human holdout,Funerary,F,2,1,100,Funerary,6.266500230369031,80.95238095238095,6.426331330644476,-0.8678151532018186

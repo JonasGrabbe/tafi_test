@@ -1,0 +1,112 @@
+Run,Feature_space,Cluster,Cluster_name,class4,n,known_cluster_n,percent_of_cluster
+Run A: known-reference fit,%MNAU raw,1,C1,Cannibalism,24,72,33.333333333333336
+Run A: known-reference fit,%MNAU raw,1,C1,Carnivore-related,17,72,23.61111111111111
+Run A: known-reference fit,%MNAU raw,1,C1,Funerary,19,72,26.38888888888889
+Run A: known-reference fit,%MNAU raw,1,C1,Geological transport,12,72,16.666666666666668
+Run A: known-reference fit,%MNAU raw,2,C2,Cannibalism,1,31,3.225806451612903
+Run A: known-reference fit,%MNAU raw,2,C2,Funerary,30,31,96.7741935483871
+Run A: known-reference fit,C + Heip evenness,1,C1,Cannibalism,19,57,33.333333333333336
+Run A: known-reference fit,C + Heip evenness,1,C1,Carnivore-related,17,57,29.82456140350877
+Run A: known-reference fit,C + Heip evenness,1,C1,Funerary,9,57,15.789473684210526
+Run A: known-reference fit,C + Heip evenness,1,C1,Geological transport,12,57,21.05263157894737
+Run A: known-reference fit,C + Heip evenness,2,C2,Cannibalism,6,46,13.043478260869565
+Run A: known-reference fit,C + Heip evenness,2,C2,Funerary,40,46,86.95652173913044
+Run A: known-reference fit,C only,1,C1,Cannibalism,23,72,31.944444444444443
+Run A: known-reference fit,C only,1,C1,Carnivore-related,17,72,23.61111111111111
+Run A: known-reference fit,C only,1,C1,Funerary,20,72,27.77777777777778
+Run A: known-reference fit,C only,1,C1,Geological transport,12,72,16.666666666666668
+Run A: known-reference fit,C only,2,C2,Cannibalism,2,31,6.451612903225806
+Run A: known-reference fit,C only,2,C2,Funerary,29,31,93.54838709677419
+Run A: known-reference fit,Combined,1,C1,Cannibalism,19,56,33.92857142857143
+Run A: known-reference fit,Combined,1,C1,Carnivore-related,17,56,30.357142857142858
+Run A: known-reference fit,Combined,1,C1,Funerary,8,56,14.285714285714286
+Run A: known-reference fit,Combined,1,C1,Geological transport,12,56,21.428571428571427
+Run A: known-reference fit,Combined,2,C2,Cannibalism,6,47,12.76595744680851
+Run A: known-reference fit,Combined,2,C2,Funerary,41,47,87.23404255319149
+Run A: known-reference fit,Engineered,1,C1,Cannibalism,19,54,35.18518518518518
+Run A: known-reference fit,Engineered,1,C1,Carnivore-related,16,54,29.62962962962963
+Run A: known-reference fit,Engineered,1,C1,Funerary,7,54,12.962962962962964
+Run A: known-reference fit,Engineered,1,C1,Geological transport,12,54,22.22222222222222
+Run A: known-reference fit,Engineered,2,C2,Cannibalism,6,49,12.244897959183673
+Run A: known-reference fit,Engineered,2,C2,Carnivore-related,1,49,2.0408163265306123
+Run A: known-reference fit,Engineered,2,C2,Funerary,42,49,85.71428571428571
+Run A: known-reference fit,Heip evenness only,1,C1,Cannibalism,9,38,23.68421052631579
+Run A: known-reference fit,Heip evenness only,1,C1,Carnivore-related,14,38,36.8421052631579
+Run A: known-reference fit,Heip evenness only,1,C1,Funerary,3,38,7.894736842105263
+Run A: known-reference fit,Heip evenness only,1,C1,Geological transport,12,38,31.57894736842105
+Run A: known-reference fit,Heip evenness only,2,C2,Cannibalism,10,25,40
+Run A: known-reference fit,Heip evenness only,2,C2,Carnivore-related,3,25,12
+Run A: known-reference fit,Heip evenness only,2,C2,Funerary,12,25,48
+Run A: known-reference fit,Heip evenness only,3,C3,Cannibalism,6,40,15
+Run A: known-reference fit,Heip evenness only,3,C3,Funerary,34,40,85
+Run A: known-reference fit,ReMNAU raw,1,C1,Cannibalism,3,10,30
+Run A: known-reference fit,ReMNAU raw,1,C1,Carnivore-related,6,10,60
+Run A: known-reference fit,ReMNAU raw,1,C1,Funerary,1,10,10
+Run A: known-reference fit,ReMNAU raw,2,C2,Cannibalism,7,27,25.925925925925927
+Run A: known-reference fit,ReMNAU raw,2,C2,Carnivore-related,9,27,33.333333333333336
+Run A: known-reference fit,ReMNAU raw,2,C2,Funerary,1,27,3.7037037037037037
+Run A: known-reference fit,ReMNAU raw,2,C2,Geological transport,10,27,37.03703703703704
+Run A: known-reference fit,ReMNAU raw,3,C3,Cannibalism,2,8,25
+Run A: known-reference fit,ReMNAU raw,3,C3,Carnivore-related,2,8,25
+Run A: known-reference fit,ReMNAU raw,3,C3,Funerary,2,8,25
+Run A: known-reference fit,ReMNAU raw,3,C3,Geological transport,2,8,25
+Run A: known-reference fit,ReMNAU raw,4,C4,Cannibalism,1,1,100
+Run A: known-reference fit,ReMNAU raw,5,C5,Cannibalism,12,51,23.529411764705884
+Run A: known-reference fit,ReMNAU raw,5,C5,Funerary,39,51,76.47058823529412
+Run A: known-reference fit,ReMNAU raw,6,C6,Funerary,1,1,100
+Run A: known-reference fit,ReMNAU raw,7,C7,Funerary,5,5,100
+Run B: all contexts in fit,%MNAU raw,1,C1,Cannibalism,24,72,33.333333333333336
+Run B: all contexts in fit,%MNAU raw,1,C1,Carnivore-related,17,72,23.61111111111111
+Run B: all contexts in fit,%MNAU raw,1,C1,Funerary,19,72,26.38888888888889
+Run B: all contexts in fit,%MNAU raw,1,C1,Geological transport,12,72,16.666666666666668
+Run B: all contexts in fit,%MNAU raw,2,C2,Cannibalism,1,31,3.225806451612903
+Run B: all contexts in fit,%MNAU raw,2,C2,Funerary,30,31,96.7741935483871
+Run B: all contexts in fit,C + Heip evenness,1,C1,Cannibalism,18,55,32.72727272727273
+Run B: all contexts in fit,C + Heip evenness,1,C1,Carnivore-related,17,55,30.90909090909091
+Run B: all contexts in fit,C + Heip evenness,1,C1,Funerary,8,55,14.545454545454545
+Run B: all contexts in fit,C + Heip evenness,1,C1,Geological transport,12,55,21.818181818181817
+Run B: all contexts in fit,C + Heip evenness,2,C2,Cannibalism,7,48,14.583333333333334
+Run B: all contexts in fit,C + Heip evenness,2,C2,Funerary,41,48,85.41666666666667
+Run B: all contexts in fit,C only,1,C1,Cannibalism,23,72,31.944444444444443
+Run B: all contexts in fit,C only,1,C1,Carnivore-related,17,72,23.61111111111111
+Run B: all contexts in fit,C only,1,C1,Funerary,20,72,27.77777777777778
+Run B: all contexts in fit,C only,1,C1,Geological transport,12,72,16.666666666666668
+Run B: all contexts in fit,C only,2,C2,Cannibalism,2,31,6.451612903225806
+Run B: all contexts in fit,C only,2,C2,Funerary,29,31,93.54838709677419
+Run B: all contexts in fit,Combined,1,C1,Cannibalism,19,56,33.92857142857143
+Run B: all contexts in fit,Combined,1,C1,Carnivore-related,17,56,30.357142857142858
+Run B: all contexts in fit,Combined,1,C1,Funerary,8,56,14.285714285714286
+Run B: all contexts in fit,Combined,1,C1,Geological transport,12,56,21.428571428571427
+Run B: all contexts in fit,Combined,2,C2,Cannibalism,6,47,12.76595744680851
+Run B: all contexts in fit,Combined,2,C2,Funerary,41,47,87.23404255319149
+Run B: all contexts in fit,Engineered,1,C1,Cannibalism,19,54,35.18518518518518
+Run B: all contexts in fit,Engineered,1,C1,Carnivore-related,16,54,29.62962962962963
+Run B: all contexts in fit,Engineered,1,C1,Funerary,7,54,12.962962962962964
+Run B: all contexts in fit,Engineered,1,C1,Geological transport,12,54,22.22222222222222
+Run B: all contexts in fit,Engineered,2,C2,Cannibalism,6,49,12.244897959183673
+Run B: all contexts in fit,Engineered,2,C2,Carnivore-related,1,49,2.0408163265306123
+Run B: all contexts in fit,Engineered,2,C2,Funerary,42,49,85.71428571428571
+Run B: all contexts in fit,Heip evenness only,1,C1,Cannibalism,9,38,23.68421052631579
+Run B: all contexts in fit,Heip evenness only,1,C1,Carnivore-related,14,38,36.8421052631579
+Run B: all contexts in fit,Heip evenness only,1,C1,Funerary,3,38,7.894736842105263
+Run B: all contexts in fit,Heip evenness only,1,C1,Geological transport,12,38,31.57894736842105
+Run B: all contexts in fit,Heip evenness only,2,C2,Cannibalism,10,23,43.47826086956522
+Run B: all contexts in fit,Heip evenness only,2,C2,Carnivore-related,3,23,13.043478260869565
+Run B: all contexts in fit,Heip evenness only,2,C2,Funerary,10,23,43.47826086956522
+Run B: all contexts in fit,Heip evenness only,3,C3,Cannibalism,6,42,14.285714285714286
+Run B: all contexts in fit,Heip evenness only,3,C3,Funerary,36,42,85.71428571428571
+Run B: all contexts in fit,ReMNAU raw,1,C1,Carnivore-related,1,1,100
+Run B: all contexts in fit,ReMNAU raw,2,C2,Carnivore-related,4,4,100
+Run B: all contexts in fit,ReMNAU raw,3,C3,Cannibalism,6,26,23.076923076923077
+Run B: all contexts in fit,ReMNAU raw,3,C3,Carnivore-related,9,26,34.61538461538461
+Run B: all contexts in fit,ReMNAU raw,3,C3,Funerary,1,26,3.8461538461538463
+Run B: all contexts in fit,ReMNAU raw,3,C3,Geological transport,10,26,38.46153846153846
+Run B: all contexts in fit,ReMNAU raw,4,C4,Cannibalism,7,15,46.666666666666664
+Run B: all contexts in fit,ReMNAU raw,4,C4,Carnivore-related,3,15,20
+Run B: all contexts in fit,ReMNAU raw,4,C4,Funerary,3,15,20
+Run B: all contexts in fit,ReMNAU raw,4,C4,Geological transport,2,15,13.333333333333334
+Run B: all contexts in fit,ReMNAU raw,5,C5,Cannibalism,1,1,100
+Run B: all contexts in fit,ReMNAU raw,6,C6,Cannibalism,11,50,22
+Run B: all contexts in fit,ReMNAU raw,6,C6,Funerary,39,50,78
+Run B: all contexts in fit,ReMNAU raw,7,C7,Funerary,5,5,100
+Run B: all contexts in fit,ReMNAU raw,8,C8,Funerary,1,1,100

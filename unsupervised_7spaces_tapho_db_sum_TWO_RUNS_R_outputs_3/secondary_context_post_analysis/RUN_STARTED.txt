@@ -1,0 +1,4 @@
+Started: 2026-09-09 06:08:12.234952
+Input root: C:/Users/jonas.grabbe/tafi_test-2/unsupervised_7spaces_tapho_db_sum_TWO_RUNS_R_outputs_3
+Focus space: C + Heip evenness
+Permutations: 19999

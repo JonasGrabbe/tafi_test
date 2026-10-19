@@ -1,0 +1,27 @@
+Site,Assigned dataset label,"Mean P(F), 28 pipelines",F-voting pipelines,Affinity label / interpretation
+El Sidrón J1,NF (Rest),0.91,28/28,Strong Funerary affinity
+La Chapelle-aux-Saints,F (Funerary Context),0.882,28/28,Strong Funerary affinity
+Tabun Cave (Mugharet et-Tabun),F (Funerary Context),0.868,28/28,Strong Funerary affinity
+Regourdou,F (Funerary Context),0.867,28/28,Strong Funerary affinity
+Mugharet es-Skhul,F (Funerary Context),0.855,28/28,Strong Funerary affinity
+Kebara Cave,F (Funerary Context),0.852,28/28,Strong Funerary affinity
+Shanidar Cave,F (Funerary Context),0.851,28/28,Strong Funerary affinity
+Sima de las Palomas,F (Funerary Context),0.85,28/28,Strong Funerary affinity
+Mancos 5MT-10010 Feature 3,NF (Rest),0.846,28/28,Strong Funerary affinity
+La Ferrassie,F (Funerary Context),0.843,28/28,Strong Funerary affinity
+Roc de Marsal,F (Funerary Context),0.811,28/28,Strong Funerary affinity
+Qafzeh Cave,F (Funerary Context),0.786,28/28,Strong Funerary affinity
+Cova Gran de Santa Linya,F (Funerary Context),0.711,24/28,Funerary affinity - representation-sensitive
+Yellow Jacket 5MT-3,NF (Rest),0.708,27/28,Strong Funerary affinity
+Goat’s Hole (Paviland Cave),F (Funerary Context),0.612,20/28,Funerary affinity - representation-sensitive
+Crow Creek,F (Funerary Context),0.57,15/28,Funerary affinity - representation-sensitive
+Krapina,NF (Rest),0.395,7/28,Representation-sensitive
+Teshik-Tash Cave,F (Funerary Context),0.325,3/28,Representation-sensitive
+Brno II,F (Funerary Context),0.318,5/28,Representation-sensitive
+Moula-Guercy,NF (Rest),0.303,4/28,Moderate non-funerary affinity
+Cro-Magnon I,F (Funerary Context),0.285,4/28,Strong non-funerary affinity
+Grotte de Fontbrégoua,NF (Rest),0.26,0/28,Strong non-funerary affinity
+Cueva de los Torrejones,F (Funerary Context),0.255,0/28,Strong non-funerary affinity
+Mladeč Caves,F (Funerary Context),0.248,4/28,Non-funerary affinity - representation-sensitive
+Grotta Guattari,NF (Rest),0.148,0/28,Strong non-funerary affinity
+La Quina,F (Funerary Context),0.105,0/28,Strong non-funerary affinity

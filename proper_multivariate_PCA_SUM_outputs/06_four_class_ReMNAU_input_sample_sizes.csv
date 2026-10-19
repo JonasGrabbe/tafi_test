@@ -1,0 +1,5 @@
+task,representation,analysis_group,n_input_sites
+four_class,ReMNAU,Funerary Context,48
+four_class,ReMNAU,Cannibalism,22
+four_class,ReMNAU,Carnivore,17
+four_class,ReMNAU,Geological transport,12

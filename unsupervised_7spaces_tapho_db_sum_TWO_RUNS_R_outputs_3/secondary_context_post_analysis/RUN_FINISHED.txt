@@ -1,0 +1,4 @@
+Finished: 2026-09-09 06:18:14.339164
+Focus space: C + Heip evenness
+Permutation B: 19999
+Output directory: C:/Users/jonas.grabbe/tafi_test-2/unsupervised_7spaces_tapho_db_sum_TWO_RUNS_R_outputs_3/secondary_context_post_analysis

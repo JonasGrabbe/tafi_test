@@ -1,0 +1,77 @@
+Dataset,Feature_space,site_name,Archaeological_class,Binary_label,Funerary_subtype,Cluster_raw,Cluster_zero_based,Cluster_F_percent,Cluster_dominant_class4,Distance_to_centroid,Distance_percentile,PC1,PC2
+Reference fit,ReMNAU,Hathnora,Geological transport,NF,Missing,1,0,0,Carnivore-related,4.3641023436514,100,1.0391025001255414,-0.4890597517789149
+Reference fit,ReMNAU,Los Moros de Gabasa,Carnivore-related,NF,Carnivore den(transport),1,0,0,Carnivore-related,4.3641023436514,100,1.656057249876478,0.6497854619057826
+Reference fit,ReMNAU,Arago,Cannibalism,NF,Missing,2,1,0,Cannibalism,2.1063350906074687,12.5,0.527420709654279,-0.7173818398750375
+Reference fit,ReMNAU,Boquete de Zafarraya,Cannibalism,NF,Missing,2,1,0,Cannibalism,3.407809869022422,50,0.4079744989664209,0.26574282147648787
+Reference fit,ReMNAU,Coves de Santa Maira,Cannibalism,NF,Missing,2,1,0,Cannibalism,2.6343593352797923,25,0.06637448803307051,0.17664703467433
+Reference fit,ReMNAU,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Carnivore-related,NF,Missing,2,1,0,Cannibalism,7.2913728311962736,100,-0.13857728726969273,-2.514863629870517
+Reference fit,ReMNAU,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Carnivore-related,NF,Missing,2,1,0,Cannibalism,4.498206382683532,75,1.1995003409296898,1.4650015196690422
+Reference fit,ReMNAU,Maszycka Cave,Cannibalism,NF,Missing,2,1,0,Cannibalism,3.9739133108573323,62.5,0.8030071749036123,-1.1889094924619599
+Reference fit,ReMNAU,Netankheri,Geological transport,NF,Missing,2,1,0,Cannibalism,5.245132118608273,87.5,1.0468898653610008,-1.7909361495838827
+Reference fit,ReMNAU,Troisième caverne of Goyet,Cannibalism,NF,Missing,2,1,0,Cannibalism,2.777852884003267,37.5,0.32326630677596785,0.3488840557326621
+Reference fit,ReMNAU,San Juan ante Portam Latinam,Funerary,F,Collective burial,3,2,100,Funerary,0,100,-2.8383227248624743,-1.618752452915429
+Reference fit,ReMNAU,Archi,Geological transport,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Combe Grenal,Cannibalism,NF,Missing,4,3,0,Geological transport,2.4407697814616682,95.83333333333334,2.3152508648291774,-0.04338146834949237
+Reference fit,ReMNAU,Cova del Gegant,Carnivore-related,NF,Carnivore den(transport),4,3,0,Geological transport,1.9068214371370966,79.16666666666666,2.551793795604503,-0.5549659616857227
+Reference fit,ReMNAU,Cueva de Malalmuerzo,Cannibalism,NF,Missing,4,3,0,Geological transport,2.1076345285327553,83.33333333333334,0.8567385341138339,-0.3069292592734072
+Reference fit,ReMNAU,Cueva de la Buena Pinta,Carnivore-related,NF,Carnivore den (transport),4,3,0,Geological transport,2.2415276030337976,91.66666666666666,2.372091367560839,-0.014810291791188698
+Reference fit,ReMNAU,Cueva del Camino,Carnivore-related,NF,Carnivore den (transport),4,3,0,Geological transport,2.2415276030337976,91.66666666666666,2.372091367560839,-0.014810291791188698
+Reference fit,ReMNAU,Dali Tianshuigou,Geological transport,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Grotte du Bison (Arcy-sur-Cure),Carnivore-related,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Hahnöfersand,Geological transport,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Kajiado,Carnivore-related,NF,Carnivore den(transport),4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Kalamakia,Carnivore-related,NF,Carnivore Scavenge (in situ),4,3,0,Geological transport,1.4911911759210015,75,2.60273464390281,0.27752923921285627
+Reference fit,ReMNAU,Le Placard,Cannibalism,NF,Missing,4,3,0,Geological transport,0.8867082536956349,70.83333333333334,2.8569178646787496,-0.18577956068346327
+Reference fit,ReMNAU,Les Pradelles (Marillac-le-Franc),Carnivore-related,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Mauer,Geological transport,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Mojokerto,Geological transport,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Ngandong,Geological transport,NF,Missing,4,3,0,Geological transport,0.4967732006456774,8.333333333333332,3.1206341092649272,-0.04319591827035163
+Reference fit,ReMNAU,Ngawi,Geological transport,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Reilingen,Geological transport,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Saccopastore,Geological transport,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Sambungmacan,Geological transport,NF,Missing,4,3,0,Geological transport,0.4796712345508555,4.166666666666666,3.1114998876345124,-0.045347694152412445
+Reference fit,ReMNAU,Valdegoba Cave,Carnivore-related,NF,Carnivore den (transport),4,3,0,Geological transport,0.7289009318975147,66.66666666666666,2.9661628288021538,0.22732312775337674
+Reference fit,ReMNAU,Vindija,Cannibalism,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Vindija,Cannibalism,NF,Missing,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Reference fit,ReMNAU,Vindija,Cannibalism,NF,Missing,4,3,0,Geological transport,3.248544776680547,100,1.805497267880488,-0.20983460543924998
+Reference fit,ReMNAU,Abri Pataud,Funerary,F,Collective-secondary,5,4,78.125,Funerary,4.790176107048689,96.875,-1.8115670507852892,0.48392701081623624
+Reference fit,ReMNAU,Abri de Raymonden (Chancelade),Funerary,F,Single inhumation,5,4,78.125,Funerary,1.4289691563245162,6.25,-2.8242577095857273,-0.8758219893696321
+Reference fit,ReMNAU,Abrigo do Lagar Velho,Funerary,F,Single inhumation,5,4,78.125,Funerary,2.7749744272539347,53.125,-3.467480767220048,-0.4349504216365588
+Reference fit,ReMNAU,Amud Cave,Funerary,F,Single inhumation,5,4,78.125,Funerary,3.089825531152685,65.625,-2.7052049038234918,1.084595197834317
+Reference fit,ReMNAU,Atxuri-I Cave,Funerary,F,Possible burial,5,4,78.125,Funerary,4.296513528578474,87.5,-2.0381811725164307,1.5087451172066237
+Reference fit,ReMNAU,Baousso da Torre (Bausu da Ture),Funerary,F,Single inhumation,5,4,78.125,Funerary,2.3476253247978196,37.5,-1.9140354071136068,-1.0329903376428133
+Reference fit,ReMNAU,Brillenhöhle,Cannibalism,NF,Missing,5,4,78.125,Funerary,4.168964954534409,84.375,-2.061852228496368,-0.22263781711523628
+Reference fit,ReMNAU,Dame du Cavillon,Funerary,F,Single inhumation,5,4,78.125,Funerary,2.4292954150827026,43.75,-2.5213315420609996,-1.163304966500722
+Reference fit,ReMNAU,Dolní Věstonice I,Funerary,F,Single inhumation,5,4,78.125,Funerary,2.6125682513370596,46.875,-2.7148094363371413,-0.41941188772337007
+Reference fit,ReMNAU,Dolní Věstonice II,Funerary,F,Single + multiple,5,4,78.125,Funerary,1.7683305921051313,15.625,-3.1822568210599025,0.09088807164382275
+Reference fit,ReMNAU,El Espinoso Cave,Funerary,F,Collective burial,5,4,78.125,Funerary,2.6861910102884385,50,-1.7707093776567353,1.81911001871474
+Reference fit,ReMNAU,El Mirador,Cannibalism,NF,Missing,5,4,78.125,Funerary,4.613380958389902,93.75,-0.5994486491444209,-1.3162720716271454
+Reference fit,ReMNAU,El Mirón Cave,Funerary,F,Single inhumation,5,4,78.125,Funerary,5.709943332411159,100,-1.8799834868769327,1.9255879961170976
+Reference fit,ReMNAU,Gough's Cave,Cannibalism,NF,Missing,5,4,78.125,Funerary,3.09535042974892,68.75,-3.3202237597845383,-2.0242537140390753
+Reference fit,ReMNAU,Gran Dolina,Cannibalism,NF,Missing,5,4,78.125,Funerary,1.8763008812417379,28.125,-0.9447020063325228,-0.03898591522599038
+Reference fit,ReMNAU,Grotte des Hoteaux,Funerary,F,Single inhumation,5,4,78.125,Funerary,2.1261562611711526,31.25,-3.251070027689077,-1.1159028755474012
+Reference fit,ReMNAU,Grotte des Perrats,Cannibalism,NF,Missing,5,4,78.125,Funerary,1.7962486436419114,18.75,-1.3628773467998225,-0.9184164109766321
+Reference fit,ReMNAU,Herxheim,Cannibalism,NF,Missing,5,4,78.125,Funerary,1.200498190629539,3.125,-1.9867298390900192,-0.6005228301332087
+Reference fit,ReMNAU,Kiik-Koba,Funerary,F,Single inhumation,5,4,78.125,Funerary,2.900856041950148,56.25,-3.2957750393000085,-0.3501725588416764
+Reference fit,ReMNAU,La Tolita Cama de Huesos,Funerary,F,Collective burial,5,4,78.125,Funerary,2.9475158760728735,62.5,-2.068362175828309,-0.11821435781109627
+Reference fit,ReMNAU,Le Moustier I,Funerary,F,Single inhumation,5,4,78.125,Funerary,3.3015512204271062,71.875,-2.4984782768217193,-2.37309705576288
+Reference fit,ReMNAU,Oberkassel,Funerary,F,Multiple inhumation,5,4,78.125,Funerary,2.1486001817633773,34.375,-3.040592900493741,-1.1641128934343823
+Reference fit,ReMNAU,Pavlov I,Funerary,F,Single inhumation,5,4,78.125,Funerary,2.9014124713047473,59.375,-3.1559525647345374,-2.292889571219409
+Reference fit,ReMNAU,Předmostí,Funerary,F,Collective burial,5,4,78.125,Funerary,1.8271026847283647,25,-2.3647848818896184,-1.4947156160569461
+Reference fit,ReMNAU,Roc de les Orenetes,Funerary,F,Collective burial,5,4,78.125,Funerary,2.411263856895333,40.625,-1.813917471455322,1.3562494829838974
+Reference fit,ReMNAU,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,F,No inhumation,5,4,78.125,Funerary,3.9476568565388126,81.25,-3.319148400844603,0.1973166865678129
+Reference fit,ReMNAU,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,F,Single inhumation,5,4,78.125,Funerary,4.3593049884028146,90.625,-3.346858321291637,-0.790433059431811
+Reference fit,ReMNAU,Sunghir,Funerary,F,Multiple inhumation,5,4,78.125,Funerary,1.4756265063170786,9.375,-2.5716132925414916,-0.26151473146751114
+Reference fit,ReMNAU,Tepecik-Çiftlik,Funerary,F,Collective burial,5,4,78.125,Funerary,1.8245182027381939,21.875,-2.9081664309174564,-1.2285746657489307
+Reference fit,ReMNAU,Vado all'Arancio,Funerary,F,Single inhumation,5,4,78.125,Funerary,3.638554357248191,78.125,-1.6045203879854602,-0.284473050799208
+Reference fit,ReMNAU,Vunda Locus,Cannibalism,NF,Missing,5,4,78.125,Funerary,3.4657930761393536,75,-0.801059010451376,0.40554597673433157
+Reference fit,ReMNAU,Xemxija tombs,Funerary,F,Collective burial,5,4,78.125,Funerary,1.7606676719642191,12.5,-2.741561937906177,-0.3004067625599782
+Reference fit,ReMNAU,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Carnivore-related,NF,Missing,6,5,0,Carnivore-related,0,100,2.6639230277441834,-0.1507847123733946
+Reference fit,ReMNAU,Hohlenstein-Stadel,Carnivore-related,NF,Carnivore Scavenge (in situ),6,5,0,Carnivore-related,0,100,2.6639230277441834,-0.1507847123733946
+Reference fit,ReMNAU,Les Rochers-de-Villeneuve,Carnivore-related,NF,Missing,6,5,0,Carnivore-related,0,100,2.6639230277441834,-0.1507847123733946
+Reference fit,ReMNAU,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Carnivore-related,NF,Carnivore Scavenge (in situ),6,5,0,Carnivore-related,0,100,2.6639230277441834,-0.1507847123733946
+Reference fit,ReMNAU,Cova Foradada,Funerary,F,Cremation,7,6,100,Funerary,2.0861890361202424,25,-1.9958318532396642,4.044174306925698
+Reference fit,ReMNAU,Cova Foradada,Funerary,F,Collective burial,7,6,100,Funerary,4.3045732439489175,75,-1.6888377208344025,7.423425490265639
+Reference fit,ReMNAU,Le Moustier II,Funerary,F,Single inhumation,7,6,100,Funerary,4.4550555361774276,100,-2.2306741301177455,2.4808888686466855
+Reference fit,ReMNAU,Ojo Guareña,Funerary,F,No inhumation,7,6,100,Funerary,3.207344446375135,50,-2.987099436398007,4.239704078491289
+Reference fit,ReMNAU,Jarama VI rockshelter,Carnivore-related,NF,Carnivore Scavenge (in situ),8,7,0,Carnivore-related,0,100,2.4182219950982966,1.2255095204930195

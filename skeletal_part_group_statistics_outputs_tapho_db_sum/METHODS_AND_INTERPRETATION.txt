@@ -1,0 +1,51 @@
+SKELETAL-PART GROUP COMPARISON ANALYSIS - tapho_db_sum version
+
+Research aim:
+Identify which skeletal parts are more or less represented across archaeological classes and C/G groups.
+
+Analyses:
+1. Four-class: Funerary Context / Cannibalism / Carnivore / Geological transport
+2. Funerary Context vs Cannibalism
+3. F vs NF
+4. C1-C5
+5. G0-G5
+
+Representations:
+- %MNAU: how strongly each anatomical part is represented.
+- ReMNAU: relative anatomical representation/composition.
+
+Preprocessing:
+- No imputation.
+- No scaling.
+- Absence is expected to be encoded as zero.
+- Exact bilateral indeterminate triplets are redistributed before analysis.
+- Bilateral left/right values are averaged to one bone-level value.
+
+Inference:
+- Formal tests use CR2 site-clustered robust covariance to account for repeated assemblages from the same parent site.
+- Multi-group analyses first use an omnibus group test for each bone, followed by pairwise contrasts.
+- Benjamini-Hochberg FDR correction is applied across bones.
+- Where every site has one group label, site-level label permutation p-values are also calculated as a nonparametric confirmation.
+- Naive permutations are not used for C/G tasks when one parent site occupies more than one group.
+
+Direction:
+Pairwise estimate = mean(group_B) - mean(group_A). Positive values mean greater representation in group_B.
+For presence results, +0.20 is approximately a 20-percentage-point higher occurrence in group_B.
+
+Effect size:
+Cliff's delta is reported for abundance contrasts. Positive delta means group_B tends to have higher values than group_A.
+
+Important C1-C5 caveat:
+C groups were defined using C + Heip, both of which derive from skeletal representation. Bone differences among C1-C5 therefore characterize the clusters and should not be treated as independent confirmatory evidence for the existence of those same clusters.
+
+Main files:
+03_bone_descriptive_by_group.csv
+04_WHICH_GROUP_HAS_MOST_OF_EACH_BONE.csv
+05_bone_omnibus_CR2_permutation_FDR.csv
+06_bone_pairwise_CR2_permutation_effectsize_FDR.csv
+07_SIGNIFICANT_omnibus_q05.csv
+08_SIGNIFICANT_pairwise_q05.csv
+09_TOP10_BONES_each_pairwise_contrast.csv
+10_SIGNIFICANT_DIRECTIONAL_BONE_DIFFERENCES.csv
+10A_SIGNIFICANT_ABUNDANCE_DIFFERENCES.csv
+10B_SIGNIFICANT_PRESENCE_DIFFERENCES.csv

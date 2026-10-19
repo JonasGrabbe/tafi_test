@@ -13,7 +13,7 @@ geological_period,Lower Pleistocene,Cannibalism,1
 geological_period,Lower Pleistocene,Geological transport,1
 geological_period,Middle Pleistocene,Cannibalism,1
 geological_period,Middle Pleistocene,Geological transport,4
-geological_period,Middle Pleistocene,Unknown,9
+geological_period,Middle Pleistocene,Unknown,10
 cultural_period,Bronze Age,Cannibalism,1
 cultural_period,Bronze Age,Funerary Context,2
 cultural_period,Bronze Age,Sepulchral Cave,24
@@ -22,7 +22,7 @@ cultural_period,Chalcolithic,Sepulchral Cave,1
 cultural_period,Late Bronze Age,Funerary Context,1
 cultural_period,Lower Paleolithic,Cannibalism,2
 cultural_period,Lower Paleolithic,Geological transport,1
-cultural_period,Lower Paleolithic,Unknown,7
+cultural_period,Lower Paleolithic,Unknown,8
 cultural_period,Mesolithic,Cannibalism,2
 cultural_period,Middle Paleolithic,Cannibalism,9
 cultural_period,Middle Paleolithic,Carnivore,11
@@ -46,7 +46,7 @@ mis_stage,1,Carnivore,1
 mis_stage,1,Funerary Context,13
 mis_stage,1,Geological transport,1
 mis_stage,1,Sepulchral Cave,25
-mis_stage,1,Unknown,7
+mis_stage,1,Unknown,8
 mis_stage,2,Cannibalism,5
 mis_stage,2,Carnivore,1
 mis_stage,2,Funerary Context,11
@@ -80,7 +80,7 @@ region,East Asia,Geological transport,1
 region,Eastern Europe,Funerary Context,2
 region,Eastern Europe,Unknown,1
 region,Europe,Funerary Context,1
-region,Europe,Unknown,5
+region,Europe,Unknown,6
 region,North America,Cannibalism,2
 region,North America,Funerary Context,1
 region,Oceania (South Pacific),Cannibalism,1
@@ -138,7 +138,7 @@ country,Spain,Cannibalism,6
 country,Spain,Carnivore,6
 country,Spain,Funerary Context,11
 country,Spain,Sepulchral Cave,25
-country,Spain,Unknown,9
+country,Spain,Unknown,10
 country,Turkey,Funerary Context,1
 country,USA,Cannibalism,2
 country,United Kingdom,Cannibalism,1
@@ -163,7 +163,7 @@ hominin_species,Homo sapiens,Cannibalism,1
 hominin_species,Middle Pleistocene hominin,Cannibalism,1
 hominin_species,Middle Pleistocene hominin,Carnivore,1
 hominin_species,Middle Pleistocene hominin,Geological transport,5
-hominin_species,Middle Pleistocene hominin,Unknown,7
+hominin_species,Middle Pleistocene hominin,Unknown,8
 age_category,Adult,Cannibalism,1
 age_category,Adult,Carnivore,8
 age_category,Adult,Funerary Context,21
@@ -174,7 +174,7 @@ age_category,Indet,Cannibalism,6
 age_category,Indet,Carnivore,3
 age_category,Indet,Funerary Context,5
 age_category,Indet,Sepulchral Cave,7
-age_category,Indet,Unknown,6
+age_category,Indet,Unknown,7
 age_category,Infant,Funerary Context,2
 age_category,Infant,Geological transport,2
 age_category,Infant,Unknown,1
@@ -194,7 +194,7 @@ open_air_site,NA,Cannibalism,23
 open_air_site,NA,Carnivore,17
 open_air_site,NA,Funerary Context,41
 open_air_site,NA,Sepulchral Cave,25
-open_air_site,NA,Unknown,19
+open_air_site,NA,Unknown,20
 open_air_site,Open Air,Cannibalism,2
 open_air_site,Open Air,Funerary Context,2
 open_air_site,Open air,Funerary Context,5

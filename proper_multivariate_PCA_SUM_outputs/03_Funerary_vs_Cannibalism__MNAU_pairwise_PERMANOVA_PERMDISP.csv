@@ -1,0 +1,2 @@
+task,representation,group_A,group_B,contrast,n_A,n_B,centroid_distance,R2,F,p,dispersion_F,dispersion_p,q_BH,dispersion_q_BH
+Funerary_vs_Cannibalism,%MNAU,Cannibalism,Funerary Context,Funerary Context - Cannibalism,22,48,3.268262378027015,NA,NA,NA,14.928757351719527,2e-4,NA,2e-4

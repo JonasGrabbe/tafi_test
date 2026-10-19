@@ -1,0 +1,24 @@
+record_id,site_name,overall_predicted_class,overall_predicted_probability
+13,Bilzingsleben,Geological transport,0.586607651503035
+14,Bolomor Cave,Carnivore,0.4136080189424892
+17,Cueva de la Carigüela,Geological transport,0.586607651503035
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Geological transport,0.5791743443758256
+19,Ceprano,Geological transport,0.586607651503035
+22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.43132662376298114
+36,Engis / Schmerling Cave,Geological transport,0.586607651503035
+39,Kleine Feldhofer Grotte,Funerary Context,0.5083824929636211
+68,Trou de la Naulette,Carnivore,0.468419697891657
+80,"Cova de les Malladetes (Barx, Valencia, Spain)",Geological transport,0.586607651503035
+92,Peștera Muierii,Geological transport,0.3619288656365868
+98,"Ochoz 1, Ochoz 2",Geological transport,0.586607651503035
+114,Saint-Césaire,Funerary Context,0.3708185948871827
+119,Scladina Cave,Geological transport,0.586607651503035
+122,Sima de los Huesos 89,Cannibalism,0.47479444308954816
+123,Sima de los Huesos 90,Cannibalism,0.6195205473658411
+124,Sima de los Huesos 95,Funerary Context,0.5829059943223348
+125,Sima de los Huesos 15,Funerary Context,0.6766876520109328
+126,Sima de los Huesos 24,Funerary Context,0.6535427819380695
+128,Spy cave,Funerary Context,0.5946458082845292
+129,Steinheim an der Murr,Geological transport,0.586607651503035
+148,Weimar-Ehringsdorf,Cannibalism,0.44776966703075005
+152,Sima de los Huesos PNAS,Funerary Context,0.6569467526790811

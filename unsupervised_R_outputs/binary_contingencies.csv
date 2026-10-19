@@ -1,0 +1,22 @@
+Cluster,F,NF,Feature_space
+1,10,45,C only
+2,20,1,C only
+1,30,15,Evenness only
+2,0,31,Evenness only
+1,0,30,C + evenness
+2,10,15,C + evenness
+3,20,1,C + evenness
+1,9,46,%MNAU
+2,21,0,%MNAU
+1,0,2,ReMNAU
+2,0,8,ReMNAU
+3,1,0,ReMNAU
+4,0,24,ReMNAU
+5,25,7,ReMNAU
+6,0,4,ReMNAU
+7,4,0,ReMNAU
+8,0,1,ReMNAU
+1,2,42,Engineered
+2,28,4,Engineered
+1,1,42,Combined
+2,29,4,Combined

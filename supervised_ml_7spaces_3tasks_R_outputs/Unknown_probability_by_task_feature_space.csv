@@ -1,0 +1,1289 @@
+task,feature_space,record_id,site_name,class,probability,model_probability_sd,n_models
+4class,%MNAU raw,13,Bilzingsleben,Cannibalism,0.13336556777022254,NA,4
+4class,%MNAU raw,13,Bilzingsleben,Carnivore,0.22820348318663053,NA,4
+4class,%MNAU raw,13,Bilzingsleben,Funerary Context,0.036820755932954925,NA,4
+4class,%MNAU raw,13,Bilzingsleben,Geological transport,0.601610193110192,NA,4
+4class,%MNAU raw,14,Bolomor Cave,Cannibalism,0.2152276563561597,NA,4
+4class,%MNAU raw,14,Bolomor Cave,Carnivore,0.5582929237196116,NA,4
+4class,%MNAU raw,14,Bolomor Cave,Funerary Context,0.03969500539062493,NA,4
+4class,%MNAU raw,14,Bolomor Cave,Geological transport,0.1867844145336038,NA,4
+4class,%MNAU raw,17,Cueva de la Carigüela,Cannibalism,0.13336556777022254,NA,4
+4class,%MNAU raw,17,Cueva de la Carigüela,Carnivore,0.22820348318663053,NA,4
+4class,%MNAU raw,17,Cueva de la Carigüela,Funerary Context,0.036820755932954925,NA,4
+4class,%MNAU raw,17,Cueva de la Carigüela,Geological transport,0.601610193110192,NA,4
+4class,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.1584967261310414,NA,4
+4class,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Carnivore,0.25458866846609296,NA,4
+4class,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.037479131958622125,NA,4
+4class,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Geological transport,0.5494354734442436,NA,4
+4class,%MNAU raw,19,Ceprano,Cannibalism,0.13336556777022254,NA,4
+4class,%MNAU raw,19,Ceprano,Carnivore,0.22820348318663053,NA,4
+4class,%MNAU raw,19,Ceprano,Funerary Context,0.036820755932954925,NA,4
+4class,%MNAU raw,19,Ceprano,Geological transport,0.601610193110192,NA,4
+4class,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.3730830929637431,NA,4
+4class,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),Carnivore,0.32155300290408806,NA,4
+4class,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.10085132743052004,NA,4
+4class,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),Geological transport,0.20451257670164882,NA,4
+4class,%MNAU raw,36,Engis / Schmerling Cave,Cannibalism,0.13336556777022254,NA,4
+4class,%MNAU raw,36,Engis / Schmerling Cave,Carnivore,0.22820348318663053,NA,4
+4class,%MNAU raw,36,Engis / Schmerling Cave,Funerary Context,0.036820755932954925,NA,4
+4class,%MNAU raw,36,Engis / Schmerling Cave,Geological transport,0.601610193110192,NA,4
+4class,%MNAU raw,39,Kleine Feldhofer Grotte,Cannibalism,0.37295185718290363,NA,4
+4class,%MNAU raw,39,Kleine Feldhofer Grotte,Carnivore,0.05276976775158025,NA,4
+4class,%MNAU raw,39,Kleine Feldhofer Grotte,Funerary Context,0.5339962977695237,NA,4
+4class,%MNAU raw,39,Kleine Feldhofer Grotte,Geological transport,0.04028207729599239,NA,4
+4class,%MNAU raw,68,Trou de la Naulette,Cannibalism,0.17554631399084766,NA,4
+4class,%MNAU raw,68,Trou de la Naulette,Carnivore,0.6147706799420708,NA,4
+4class,%MNAU raw,68,Trou de la Naulette,Funerary Context,0.08709481428617137,NA,4
+4class,%MNAU raw,68,Trou de la Naulette,Geological transport,0.12258819178091022,NA,4
+4class,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.13336556777022254,NA,4
+4class,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Carnivore,0.22820348318663053,NA,4
+4class,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.036820755932954925,NA,4
+4class,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Geological transport,0.601610193110192,NA,4
+4class,%MNAU raw,92,Peștera Muierii,Cannibalism,0.1970430010318826,NA,4
+4class,%MNAU raw,92,Peștera Muierii,Carnivore,0.23972386607294294,NA,4
+4class,%MNAU raw,92,Peștera Muierii,Funerary Context,0.05392344464019116,NA,4
+4class,%MNAU raw,92,Peștera Muierii,Geological transport,0.5093096882549834,NA,4
+4class,%MNAU raw,98,"Ochoz 1, Ochoz 2",Cannibalism,0.13336556777022254,NA,4
+4class,%MNAU raw,98,"Ochoz 1, Ochoz 2",Carnivore,0.22820348318663053,NA,4
+4class,%MNAU raw,98,"Ochoz 1, Ochoz 2",Funerary Context,0.036820755932954925,NA,4
+4class,%MNAU raw,98,"Ochoz 1, Ochoz 2",Geological transport,0.601610193110192,NA,4
+4class,%MNAU raw,114,Saint-Césaire,Cannibalism,0.382790881309383,NA,4
+4class,%MNAU raw,114,Saint-Césaire,Carnivore,0.12858163377126935,NA,4
+4class,%MNAU raw,114,Saint-Césaire,Funerary Context,0.33819881182566536,NA,4
+4class,%MNAU raw,114,Saint-Césaire,Geological transport,0.15042867309368232,NA,4
+4class,%MNAU raw,119,Scladina Cave,Cannibalism,0.13336556777022254,NA,4
+4class,%MNAU raw,119,Scladina Cave,Carnivore,0.22820348318663053,NA,4
+4class,%MNAU raw,119,Scladina Cave,Funerary Context,0.036820755932954925,NA,4
+4class,%MNAU raw,119,Scladina Cave,Geological transport,0.601610193110192,NA,4
+4class,%MNAU raw,122,Sima de los Huesos 89,Cannibalism,0.5076949385976286,NA,4
+4class,%MNAU raw,122,Sima de los Huesos 89,Carnivore,0.27524975852051414,NA,4
+4class,%MNAU raw,122,Sima de los Huesos 89,Funerary Context,0.09849102112750806,NA,4
+4class,%MNAU raw,122,Sima de los Huesos 89,Geological transport,0.1185642817543492,NA,4
+4class,%MNAU raw,123,Sima de los Huesos 90,Cannibalism,0.5030735526989379,NA,4
+4class,%MNAU raw,123,Sima de los Huesos 90,Carnivore,0.16093338556733988,NA,4
+4class,%MNAU raw,123,Sima de los Huesos 90,Funerary Context,0.11801579906342706,NA,4
+4class,%MNAU raw,123,Sima de los Huesos 90,Geological transport,0.2179772626702952,NA,4
+4class,%MNAU raw,124,Sima de los Huesos 95,Cannibalism,0.3725340184955051,NA,4
+4class,%MNAU raw,124,Sima de los Huesos 95,Carnivore,0.04534554011137923,NA,4
+4class,%MNAU raw,124,Sima de los Huesos 95,Funerary Context,0.5375038517203912,NA,4
+4class,%MNAU raw,124,Sima de los Huesos 95,Geological transport,0.044616589672724555,NA,4
+4class,%MNAU raw,125,Sima de los Huesos 15,Cannibalism,0.29497121242834035,NA,4
+4class,%MNAU raw,125,Sima de los Huesos 15,Carnivore,0.046275215386694976,NA,4
+4class,%MNAU raw,125,Sima de los Huesos 15,Funerary Context,0.6198635921455046,NA,4
+4class,%MNAU raw,125,Sima de los Huesos 15,Geological transport,0.03888998003946013,NA,4
+4class,%MNAU raw,126,Sima de los Huesos 24,Cannibalism,0.31410717920541403,NA,4
+4class,%MNAU raw,126,Sima de los Huesos 24,Carnivore,0.04669898940702041,NA,4
+4class,%MNAU raw,126,Sima de los Huesos 24,Funerary Context,0.5985700878324836,NA,4
+4class,%MNAU raw,126,Sima de los Huesos 24,Geological transport,0.040623743555081984,NA,4
+4class,%MNAU raw,128,Spy cave,Cannibalism,0.18713689362449754,NA,4
+4class,%MNAU raw,128,Spy cave,Carnivore,0.0503074068967181,NA,4
+4class,%MNAU raw,128,Spy cave,Funerary Context,0.7159647499891626,NA,4
+4class,%MNAU raw,128,Spy cave,Geological transport,0.04659094948962185,NA,4
+4class,%MNAU raw,129,Steinheim an der Murr,Cannibalism,0.13336556777022254,NA,4
+4class,%MNAU raw,129,Steinheim an der Murr,Carnivore,0.22820348318663053,NA,4
+4class,%MNAU raw,129,Steinheim an der Murr,Funerary Context,0.036820755932954925,NA,4
+4class,%MNAU raw,129,Steinheim an der Murr,Geological transport,0.601610193110192,NA,4
+4class,%MNAU raw,148,Weimar-Ehringsdorf,Cannibalism,0.36173291093482146,NA,4
+4class,%MNAU raw,148,Weimar-Ehringsdorf,Carnivore,0.1469634618317986,NA,4
+4class,%MNAU raw,148,Weimar-Ehringsdorf,Funerary Context,0.12244279649096726,NA,4
+4class,%MNAU raw,148,Weimar-Ehringsdorf,Geological transport,0.3688608307424127,NA,4
+4class,%MNAU raw,152,Sima de los Huesos PNAS,Cannibalism,0.3006638352482027,NA,4
+4class,%MNAU raw,152,Sima de los Huesos PNAS,Carnivore,0.041353366132632324,NA,4
+4class,%MNAU raw,152,Sima de los Huesos PNAS,Funerary Context,0.6177901264021973,NA,4
+4class,%MNAU raw,152,Sima de los Huesos PNAS,Geological transport,0.04019267221696756,NA,4
+4class,C + Heip evenness,13,Bilzingsleben,Cannibalism,0.11938738143173798,NA,4
+4class,C + Heip evenness,13,Bilzingsleben,Carnivore,0.25805038913688194,NA,4
+4class,C + Heip evenness,13,Bilzingsleben,Funerary Context,0.052713057209286165,NA,4
+4class,C + Heip evenness,13,Bilzingsleben,Geological transport,0.569849172222094,NA,4
+4class,C + Heip evenness,14,Bolomor Cave,Cannibalism,0.3440432208294766,NA,4
+4class,C + Heip evenness,14,Bolomor Cave,Carnivore,0.39598131841458256,NA,4
+4class,C + Heip evenness,14,Bolomor Cave,Funerary Context,0.06076061083408006,NA,4
+4class,C + Heip evenness,14,Bolomor Cave,Geological transport,0.19921484992186078,NA,4
+4class,C + Heip evenness,17,Cueva de la Carigüela,Cannibalism,0.11938738143173798,NA,4
+4class,C + Heip evenness,17,Cueva de la Carigüela,Carnivore,0.25805038913688194,NA,4
+4class,C + Heip evenness,17,Cueva de la Carigüela,Funerary Context,0.052713057209286165,NA,4
+4class,C + Heip evenness,17,Cueva de la Carigüela,Geological transport,0.569849172222094,NA,4
+4class,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.11544230168936975,NA,4
+4class,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Carnivore,0.23888269833054546,NA,4
+4class,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.05644346885984253,NA,4
+4class,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Geological transport,0.5892315311202423,NA,4
+4class,C + Heip evenness,19,Ceprano,Cannibalism,0.11938738143173798,NA,4
+4class,C + Heip evenness,19,Ceprano,Carnivore,0.25805038913688194,NA,4
+4class,C + Heip evenness,19,Ceprano,Funerary Context,0.052713057209286165,NA,4
+4class,C + Heip evenness,19,Ceprano,Geological transport,0.569849172222094,NA,4
+4class,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.547879592843036,NA,4
+4class,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),Carnivore,0.2814182239558569,NA,4
+4class,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.08829047323851265,NA,4
+4class,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),Geological transport,0.08241170996259435,NA,4
+4class,C + Heip evenness,36,Engis / Schmerling Cave,Cannibalism,0.11938738143173798,NA,4
+4class,C + Heip evenness,36,Engis / Schmerling Cave,Carnivore,0.25805038913688194,NA,4
+4class,C + Heip evenness,36,Engis / Schmerling Cave,Funerary Context,0.052713057209286165,NA,4
+4class,C + Heip evenness,36,Engis / Schmerling Cave,Geological transport,0.569849172222094,NA,4
+4class,C + Heip evenness,39,Kleine Feldhofer Grotte,Cannibalism,0.39013435740877833,NA,4
+4class,C + Heip evenness,39,Kleine Feldhofer Grotte,Carnivore,0.06758757605693812,NA,4
+4class,C + Heip evenness,39,Kleine Feldhofer Grotte,Funerary Context,0.4860267203865637,NA,4
+4class,C + Heip evenness,39,Kleine Feldhofer Grotte,Geological transport,0.056251346147719906,NA,4
+4class,C + Heip evenness,68,Trou de la Naulette,Cannibalism,0.22545468294223078,NA,4
+4class,C + Heip evenness,68,Trou de la Naulette,Carnivore,0.4930458156986047,NA,4
+4class,C + Heip evenness,68,Trou de la Naulette,Funerary Context,0.06134628311286318,NA,4
+4class,C + Heip evenness,68,Trou de la Naulette,Geological transport,0.22015321824630135,NA,4
+4class,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.11938738143173798,NA,4
+4class,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Carnivore,0.25805038913688194,NA,4
+4class,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.052713057209286165,NA,4
+4class,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Geological transport,0.569849172222094,NA,4
+4class,C + Heip evenness,92,Peștera Muierii,Cannibalism,0.1849368093657331,NA,4
+4class,C + Heip evenness,92,Peștera Muierii,Carnivore,0.23699216644597315,NA,4
+4class,C + Heip evenness,92,Peștera Muierii,Funerary Context,0.14521079483274668,NA,4
+4class,C + Heip evenness,92,Peștera Muierii,Geological transport,0.43286022935554713,NA,4
+4class,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Cannibalism,0.11938738143173798,NA,4
+4class,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Carnivore,0.25805038913688194,NA,4
+4class,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Funerary Context,0.052713057209286165,NA,4
+4class,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Geological transport,0.569849172222094,NA,4
+4class,C + Heip evenness,114,Saint-Césaire,Cannibalism,0.30826900260694373,NA,4
+4class,C + Heip evenness,114,Saint-Césaire,Carnivore,0.134266495786694,NA,4
+4class,C + Heip evenness,114,Saint-Césaire,Funerary Context,0.35546396007452463,NA,4
+4class,C + Heip evenness,114,Saint-Césaire,Geological transport,0.20200054153183764,NA,4
+4class,C + Heip evenness,119,Scladina Cave,Cannibalism,0.11938738143173798,NA,4
+4class,C + Heip evenness,119,Scladina Cave,Carnivore,0.25805038913688194,NA,4
+4class,C + Heip evenness,119,Scladina Cave,Funerary Context,0.052713057209286165,NA,4
+4class,C + Heip evenness,119,Scladina Cave,Geological transport,0.569849172222094,NA,4
+4class,C + Heip evenness,122,Sima de los Huesos 89,Cannibalism,0.46240836824631704,NA,4
+4class,C + Heip evenness,122,Sima de los Huesos 89,Carnivore,0.3503808570898074,NA,4
+4class,C + Heip evenness,122,Sima de los Huesos 89,Funerary Context,0.09787530079737716,NA,4
+4class,C + Heip evenness,122,Sima de los Huesos 89,Geological transport,0.0893354738664984,NA,4
+4class,C + Heip evenness,123,Sima de los Huesos 90,Cannibalism,0.6855184236152891,NA,4
+4class,C + Heip evenness,123,Sima de los Huesos 90,Carnivore,0.12347203006812577,NA,4
+4class,C + Heip evenness,123,Sima de los Huesos 90,Funerary Context,0.1264070789211429,NA,4
+4class,C + Heip evenness,123,Sima de los Huesos 90,Geological transport,0.06460246739544226,NA,4
+4class,C + Heip evenness,124,Sima de los Huesos 95,Cannibalism,0.3016659407942959,NA,4
+4class,C + Heip evenness,124,Sima de los Huesos 95,Carnivore,0.05791183850903833,NA,4
+4class,C + Heip evenness,124,Sima de los Huesos 95,Funerary Context,0.5895174231736567,NA,4
+4class,C + Heip evenness,124,Sima de los Huesos 95,Geological transport,0.05090479752300909,NA,4
+4class,C + Heip evenness,125,Sima de los Huesos 15,Cannibalism,0.2685003343100507,NA,4
+4class,C + Heip evenness,125,Sima de los Huesos 15,Carnivore,0.05539357207885406,NA,4
+4class,C + Heip evenness,125,Sima de los Huesos 15,Funerary Context,0.6288879973065247,NA,4
+4class,C + Heip evenness,125,Sima de los Huesos 15,Geological transport,0.047218096304570606,NA,4
+4class,C + Heip evenness,126,Sima de los Huesos 24,Cannibalism,0.2898163054697616,NA,4
+4class,C + Heip evenness,126,Sima de los Huesos 24,Carnivore,0.055682167626093564,NA,4
+4class,C + Heip evenness,126,Sima de los Huesos 24,Funerary Context,0.6070883605379501,NA,4
+4class,C + Heip evenness,126,Sima de los Huesos 24,Geological transport,0.04741316636619473,NA,4
+4class,C + Heip evenness,128,Spy cave,Cannibalism,0.2256260378033453,NA,4
+4class,C + Heip evenness,128,Spy cave,Carnivore,0.06480993185884923,NA,4
+4class,C + Heip evenness,128,Spy cave,Funerary Context,0.6523106612932692,NA,4
+4class,C + Heip evenness,128,Spy cave,Geological transport,0.0572533690445363,NA,4
+4class,C + Heip evenness,129,Steinheim an der Murr,Cannibalism,0.11938738143173798,NA,4
+4class,C + Heip evenness,129,Steinheim an der Murr,Carnivore,0.25805038913688194,NA,4
+4class,C + Heip evenness,129,Steinheim an der Murr,Funerary Context,0.052713057209286165,NA,4
+4class,C + Heip evenness,129,Steinheim an der Murr,Geological transport,0.569849172222094,NA,4
+4class,C + Heip evenness,148,Weimar-Ehringsdorf,Cannibalism,0.38766288490191975,NA,4
+4class,C + Heip evenness,148,Weimar-Ehringsdorf,Carnivore,0.33306537221721355,NA,4
+4class,C + Heip evenness,148,Weimar-Ehringsdorf,Funerary Context,0.0882127725643663,NA,4
+4class,C + Heip evenness,148,Weimar-Ehringsdorf,Geological transport,0.19105897031650043,NA,4
+4class,C + Heip evenness,152,Sima de los Huesos PNAS,Cannibalism,0.244202824817148,NA,4
+4class,C + Heip evenness,152,Sima de los Huesos PNAS,Carnivore,0.05617283766055748,NA,4
+4class,C + Heip evenness,152,Sima de los Huesos PNAS,Funerary Context,0.6505657347830791,NA,4
+4class,C + Heip evenness,152,Sima de los Huesos PNAS,Geological transport,0.04905860273921535,NA,4
+4class,C only,13,Bilzingsleben,Cannibalism,0.16804701747074888,NA,4
+4class,C only,13,Bilzingsleben,Carnivore,0.2285289097619736,NA,4
+4class,C only,13,Bilzingsleben,Funerary Context,0.06775818992625335,NA,4
+4class,C only,13,Bilzingsleben,Geological transport,0.5356658828410241,NA,4
+4class,C only,14,Bolomor Cave,Cannibalism,0.39836418631346543,NA,4
+4class,C only,14,Bolomor Cave,Carnivore,0.3726083967065317,NA,4
+4class,C only,14,Bolomor Cave,Funerary Context,0.08299243375996974,NA,4
+4class,C only,14,Bolomor Cave,Geological transport,0.1460349832200332,NA,4
+4class,C only,17,Cueva de la Carigüela,Cannibalism,0.16804701747074888,NA,4
+4class,C only,17,Cueva de la Carigüela,Carnivore,0.2285289097619736,NA,4
+4class,C only,17,Cueva de la Carigüela,Funerary Context,0.06775818992625335,NA,4
+4class,C only,17,Cueva de la Carigüela,Geological transport,0.5356658828410241,NA,4
+4class,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.16861458236355953,NA,4
+4class,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Carnivore,0.22785019556518227,NA,4
+4class,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.06786498093775034,NA,4
+4class,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Geological transport,0.5356702411335078,NA,4
+4class,C only,19,Ceprano,Cannibalism,0.16804701747074888,NA,4
+4class,C only,19,Ceprano,Carnivore,0.2285289097619736,NA,4
+4class,C only,19,Ceprano,Funerary Context,0.06775818992625335,NA,4
+4class,C only,19,Ceprano,Geological transport,0.5356658828410241,NA,4
+4class,C only,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.6798074457748562,NA,4
+4class,C only,22,Cova del Parpalló (Parpalló Cave),Carnivore,0.09833865629404986,NA,4
+4class,C only,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.080361879663451,NA,4
+4class,C only,22,Cova del Parpalló (Parpalló Cave),Geological transport,0.1414920182676429,NA,4
+4class,C only,36,Engis / Schmerling Cave,Cannibalism,0.16804701747074888,NA,4
+4class,C only,36,Engis / Schmerling Cave,Carnivore,0.2285289097619736,NA,4
+4class,C only,36,Engis / Schmerling Cave,Funerary Context,0.06775818992625335,NA,4
+4class,C only,36,Engis / Schmerling Cave,Geological transport,0.5356658828410241,NA,4
+4class,C only,39,Kleine Feldhofer Grotte,Cannibalism,0.30231953748463625,NA,4
+4class,C only,39,Kleine Feldhofer Grotte,Carnivore,0.06126620056231947,NA,4
+4class,C only,39,Kleine Feldhofer Grotte,Funerary Context,0.5695492846023364,NA,4
+4class,C only,39,Kleine Feldhofer Grotte,Geological transport,0.06686497735070787,NA,4
+4class,C only,68,Trou de la Naulette,Cannibalism,0.487209515125941,NA,4
+4class,C only,68,Trou de la Naulette,Carnivore,0.2874273312864052,NA,4
+4class,C only,68,Trou de la Naulette,Funerary Context,0.06344543051780678,NA,4
+4class,C only,68,Trou de la Naulette,Geological transport,0.16191772306984709,NA,4
+4class,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.16804701747074888,NA,4
+4class,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Carnivore,0.2285289097619736,NA,4
+4class,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.06775818992625335,NA,4
+4class,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Geological transport,0.5356658828410241,NA,4
+4class,C only,92,Peștera Muierii,Cannibalism,0.39313768289779005,NA,4
+4class,C only,92,Peștera Muierii,Carnivore,0.34998599545795506,NA,4
+4class,C only,92,Peștera Muierii,Funerary Context,0.09657916106104177,NA,4
+4class,C only,92,Peștera Muierii,Geological transport,0.16029716058321314,NA,4
+4class,C only,98,"Ochoz 1, Ochoz 2",Cannibalism,0.16804701747074888,NA,4
+4class,C only,98,"Ochoz 1, Ochoz 2",Carnivore,0.2285289097619736,NA,4
+4class,C only,98,"Ochoz 1, Ochoz 2",Funerary Context,0.06775818992625335,NA,4
+4class,C only,98,"Ochoz 1, Ochoz 2",Geological transport,0.5356658828410241,NA,4
+4class,C only,114,Saint-Césaire,Cannibalism,0.26907126927797315,NA,4
+4class,C only,114,Saint-Césaire,Carnivore,0.06591310770304246,NA,4
+4class,C only,114,Saint-Césaire,Funerary Context,0.5845894765116528,NA,4
+4class,C only,114,Saint-Césaire,Geological transport,0.08042614650733158,NA,4
+4class,C only,119,Scladina Cave,Cannibalism,0.16804701747074888,NA,4
+4class,C only,119,Scladina Cave,Carnivore,0.2285289097619736,NA,4
+4class,C only,119,Scladina Cave,Funerary Context,0.06775818992625335,NA,4
+4class,C only,119,Scladina Cave,Geological transport,0.5356658828410241,NA,4
+4class,C only,122,Sima de los Huesos 89,Cannibalism,0.16910840528528373,NA,4
+4class,C only,122,Sima de los Huesos 89,Carnivore,0.22724109668194215,NA,4
+4class,C only,122,Sima de los Huesos 89,Funerary Context,0.06795104913426485,NA,4
+4class,C only,122,Sima de los Huesos 89,Geological transport,0.5356994488985093,NA,4
+4class,C only,123,Sima de los Huesos 90,Cannibalism,0.6598907631080191,NA,4
+4class,C only,123,Sima de los Huesos 90,Carnivore,0.11437829260807772,NA,4
+4class,C only,123,Sima de los Huesos 90,Funerary Context,0.07572542203268712,NA,4
+4class,C only,123,Sima de los Huesos 90,Geological transport,0.1500055222512161,NA,4
+4class,C only,124,Sima de los Huesos 95,Cannibalism,0.17327659308970866,NA,4
+4class,C only,124,Sima de los Huesos 95,Carnivore,0.060270190124623396,NA,4
+4class,C only,124,Sima de los Huesos 95,Funerary Context,0.7018482156420682,NA,4
+4class,C only,124,Sima de los Huesos 95,Geological transport,0.06460500114359968,NA,4
+4class,C only,125,Sima de los Huesos 15,Cannibalism,0.3145941022088456,NA,4
+4class,C only,125,Sima de los Huesos 15,Carnivore,0.061316705144129346,NA,4
+4class,C only,125,Sima de los Huesos 15,Funerary Context,0.5570984743415058,NA,4
+4class,C only,125,Sima de los Huesos 15,Geological transport,0.06699071830551927,NA,4
+4class,C only,126,Sima de los Huesos 24,Cannibalism,0.35644349686648924,NA,4
+4class,C only,126,Sima de los Huesos 24,Carnivore,0.06147772183254728,NA,4
+4class,C only,126,Sima de los Huesos 24,Funerary Context,0.5146812429483266,NA,4
+4class,C only,126,Sima de los Huesos 24,Geological transport,0.06739753835263686,NA,4
+4class,C only,128,Spy cave,Cannibalism,0.10968454560725226,NA,4
+4class,C only,128,Spy cave,Carnivore,0.058659652571086074,NA,4
+4class,C only,128,Spy cave,Funerary Context,0.769973115119642,NA,4
+4class,C only,128,Spy cave,Geological transport,0.061682686702019686,NA,4
+4class,C only,129,Steinheim an der Murr,Cannibalism,0.16804701747074888,NA,4
+4class,C only,129,Steinheim an der Murr,Carnivore,0.2285289097619736,NA,4
+4class,C only,129,Steinheim an der Murr,Funerary Context,0.06775818992625335,NA,4
+4class,C only,129,Steinheim an der Murr,Geological transport,0.5356658828410241,NA,4
+4class,C only,148,Weimar-Ehringsdorf,Cannibalism,0.6779242424759926,NA,4
+4class,C only,148,Weimar-Ehringsdorf,Carnivore,0.0996158505422416,NA,4
+4class,C only,148,Weimar-Ehringsdorf,Funerary Context,0.07954251070117752,NA,4
+4class,C only,148,Weimar-Ehringsdorf,Geological transport,0.14291739628058833,NA,4
+4class,C only,152,Sima de los Huesos PNAS,Cannibalism,0.16416697714215453,NA,4
+4class,C only,152,Sima de los Huesos PNAS,Carnivore,0.06030574656301817,NA,4
+4class,C only,152,Sima de los Huesos PNAS,Funerary Context,0.7108483735318505,NA,4
+4class,C only,152,Sima de los Huesos PNAS,Geological transport,0.06467890276297676,NA,4
+4class,Combined,13,Bilzingsleben,Cannibalism,0.09974727286782706,NA,4
+4class,Combined,13,Bilzingsleben,Carnivore,0.22073273087118886,NA,4
+4class,Combined,13,Bilzingsleben,Funerary Context,0.016288046114175024,NA,4
+4class,Combined,13,Bilzingsleben,Geological transport,0.663231950146809,NA,4
+4class,Combined,14,Bolomor Cave,Cannibalism,0.10972331713662639,NA,4
+4class,Combined,14,Bolomor Cave,Carnivore,0.4930545809286812,NA,4
+4class,Combined,14,Bolomor Cave,Funerary Context,0.027622858347811557,NA,4
+4class,Combined,14,Bolomor Cave,Geological transport,0.36959924358688084,NA,4
+4class,Combined,17,Cueva de la Carigüela,Cannibalism,0.09974727286782706,NA,4
+4class,Combined,17,Cueva de la Carigüela,Carnivore,0.22073273087118886,NA,4
+4class,Combined,17,Cueva de la Carigüela,Funerary Context,0.016288046114175024,NA,4
+4class,Combined,17,Cueva de la Carigüela,Geological transport,0.663231950146809,NA,4
+4class,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.12209806069680464,NA,4
+4class,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Carnivore,0.24085410428896625,NA,4
+4class,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.03028660686642872,NA,4
+4class,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Geological transport,0.6067612281478004,NA,4
+4class,Combined,19,Ceprano,Cannibalism,0.09974727286782706,NA,4
+4class,Combined,19,Ceprano,Carnivore,0.22073273087118886,NA,4
+4class,Combined,19,Ceprano,Funerary Context,0.016288046114175024,NA,4
+4class,Combined,19,Ceprano,Geological transport,0.663231950146809,NA,4
+4class,Combined,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.3180349568169155,NA,4
+4class,Combined,22,Cova del Parpalló (Parpalló Cave),Carnivore,0.47788348676816433,NA,4
+4class,Combined,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.11320366167582371,NA,4
+4class,Combined,22,Cova del Parpalló (Parpalló Cave),Geological transport,0.09087789473909644,NA,4
+4class,Combined,36,Engis / Schmerling Cave,Cannibalism,0.09974727286782706,NA,4
+4class,Combined,36,Engis / Schmerling Cave,Carnivore,0.22073273087118886,NA,4
+4class,Combined,36,Engis / Schmerling Cave,Funerary Context,0.016288046114175024,NA,4
+4class,Combined,36,Engis / Schmerling Cave,Geological transport,0.663231950146809,NA,4
+4class,Combined,39,Kleine Feldhofer Grotte,Cannibalism,0.3674937663002084,NA,4
+4class,Combined,39,Kleine Feldhofer Grotte,Carnivore,0.05232756292258441,NA,4
+4class,Combined,39,Kleine Feldhofer Grotte,Funerary Context,0.5673884682147678,NA,4
+4class,Combined,39,Kleine Feldhofer Grotte,Geological transport,0.012790202562439337,NA,4
+4class,Combined,68,Trou de la Naulette,Cannibalism,0.2778799691749615,NA,4
+4class,Combined,68,Trou de la Naulette,Carnivore,0.3693255139703237,NA,4
+4class,Combined,68,Trou de la Naulette,Funerary Context,0.30377092495540553,NA,4
+4class,Combined,68,Trou de la Naulette,Geological transport,0.04902359189930926,NA,4
+4class,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.09974727286782706,NA,4
+4class,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Carnivore,0.22073273087118886,NA,4
+4class,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.016288046114175024,NA,4
+4class,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Geological transport,0.663231950146809,NA,4
+4class,Combined,92,Peștera Muierii,Cannibalism,0.3019390943918009,NA,4
+4class,Combined,92,Peștera Muierii,Carnivore,0.240014938268103,NA,4
+4class,Combined,92,Peștera Muierii,Funerary Context,0.05164104896600475,NA,4
+4class,Combined,92,Peștera Muierii,Geological transport,0.4064049183740914,NA,4
+4class,Combined,98,"Ochoz 1, Ochoz 2",Cannibalism,0.09974727286782706,NA,4
+4class,Combined,98,"Ochoz 1, Ochoz 2",Carnivore,0.22073273087118886,NA,4
+4class,Combined,98,"Ochoz 1, Ochoz 2",Funerary Context,0.016288046114175024,NA,4
+4class,Combined,98,"Ochoz 1, Ochoz 2",Geological transport,0.663231950146809,NA,4
+4class,Combined,114,Saint-Césaire,Cannibalism,0.3489048722425304,NA,4
+4class,Combined,114,Saint-Césaire,Carnivore,0.1750537973120924,NA,4
+4class,Combined,114,Saint-Césaire,Funerary Context,0.34180819653001404,NA,4
+4class,Combined,114,Saint-Césaire,Geological transport,0.13423313391536318,NA,4
+4class,Combined,119,Scladina Cave,Cannibalism,0.09974727286782706,NA,4
+4class,Combined,119,Scladina Cave,Carnivore,0.22073273087118886,NA,4
+4class,Combined,119,Scladina Cave,Funerary Context,0.016288046114175024,NA,4
+4class,Combined,119,Scladina Cave,Geological transport,0.663231950146809,NA,4
+4class,Combined,122,Sima de los Huesos 89,Cannibalism,0.7062749308173852,NA,4
+4class,Combined,122,Sima de los Huesos 89,Carnivore,0.1061806724287222,NA,4
+4class,Combined,122,Sima de los Huesos 89,Funerary Context,0.12280034197239603,NA,4
+4class,Combined,122,Sima de los Huesos 89,Geological transport,0.06474405478149654,NA,4
+4class,Combined,123,Sima de los Huesos 90,Cannibalism,0.723780090684058,NA,4
+4class,Combined,123,Sima de los Huesos 90,Carnivore,0.10245393683475928,NA,4
+4class,Combined,123,Sima de los Huesos 90,Funerary Context,0.11437396005436518,NA,4
+4class,Combined,123,Sima de los Huesos 90,Geological transport,0.05939201242681756,NA,4
+4class,Combined,124,Sima de los Huesos 95,Cannibalism,0.32153439227564656,NA,4
+4class,Combined,124,Sima de los Huesos 95,Carnivore,0.02468598346331946,NA,4
+4class,Combined,124,Sima de los Huesos 95,Funerary Context,0.6409181070318117,NA,4
+4class,Combined,124,Sima de los Huesos 95,Geological transport,0.012861517229222259,NA,4
+4class,Combined,125,Sima de los Huesos 15,Cannibalism,0.22300921359069373,NA,4
+4class,Combined,125,Sima de los Huesos 15,Carnivore,0.017845524540090273,NA,4
+4class,Combined,125,Sima de los Huesos 15,Funerary Context,0.7520736794903111,NA,4
+4class,Combined,125,Sima de los Huesos 15,Geological transport,0.00707158237890483,NA,4
+4class,Combined,126,Sima de los Huesos 24,Cannibalism,0.22715313249691996,NA,4
+4class,Combined,126,Sima de los Huesos 24,Carnivore,0.018186318394610452,NA,4
+4class,Combined,126,Sima de los Huesos 24,Funerary Context,0.7469907552242813,NA,4
+4class,Combined,126,Sima de los Huesos 24,Geological transport,0.00766979388418832,NA,4
+4class,Combined,128,Spy cave,Cannibalism,0.320880561808705,NA,4
+4class,Combined,128,Spy cave,Carnivore,0.02913655585490769,NA,4
+4class,Combined,128,Spy cave,Funerary Context,0.6231332120333072,NA,4
+4class,Combined,128,Spy cave,Geological transport,0.026849670303080143,NA,4
+4class,Combined,129,Steinheim an der Murr,Cannibalism,0.09974727286782706,NA,4
+4class,Combined,129,Steinheim an der Murr,Carnivore,0.22073273087118886,NA,4
+4class,Combined,129,Steinheim an der Murr,Funerary Context,0.016288046114175024,NA,4
+4class,Combined,129,Steinheim an der Murr,Geological transport,0.663231950146809,NA,4
+4class,Combined,148,Weimar-Ehringsdorf,Cannibalism,0.5329503136414618,NA,4
+4class,Combined,148,Weimar-Ehringsdorf,Carnivore,0.14215608814992267,NA,4
+4class,Combined,148,Weimar-Ehringsdorf,Funerary Context,0.08320728484083746,NA,4
+4class,Combined,148,Weimar-Ehringsdorf,Geological transport,0.24168631336777802,NA,4
+4class,Combined,152,Sima de los Huesos PNAS,Cannibalism,0.25085901135615796,NA,4
+4class,Combined,152,Sima de los Huesos PNAS,Carnivore,0.019366431790102844,NA,4
+4class,Combined,152,Sima de los Huesos PNAS,Funerary Context,0.7207941056418137,NA,4
+4class,Combined,152,Sima de los Huesos PNAS,Geological transport,0.00898045121192558,NA,4
+4class,Engineered,13,Bilzingsleben,Cannibalism,0.13856064764144294,NA,4
+4class,Engineered,13,Bilzingsleben,Carnivore,0.20458979317994694,NA,4
+4class,Engineered,13,Bilzingsleben,Funerary Context,0.024822853799538972,NA,4
+4class,Engineered,13,Bilzingsleben,Geological transport,0.6320267053790711,NA,4
+4class,Engineered,14,Bolomor Cave,Cannibalism,0.21846314414051993,NA,4
+4class,Engineered,14,Bolomor Cave,Carnivore,0.4908782605601932,NA,4
+4class,Engineered,14,Bolomor Cave,Funerary Context,0.037807832316621,NA,4
+4class,Engineered,14,Bolomor Cave,Geological transport,0.2528507629826659,NA,4
+4class,Engineered,17,Cueva de la Carigüela,Cannibalism,0.13856064764144294,NA,4
+4class,Engineered,17,Cueva de la Carigüela,Carnivore,0.20458979317994694,NA,4
+4class,Engineered,17,Cueva de la Carigüela,Funerary Context,0.024822853799538972,NA,4
+4class,Engineered,17,Cueva de la Carigüela,Geological transport,0.6320267053790711,NA,4
+4class,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.1309177205877451,NA,4
+4class,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Carnivore,0.23828573329070266,NA,4
+4class,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.0564769460740151,NA,4
+4class,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Geological transport,0.5743196000475371,NA,4
+4class,Engineered,19,Ceprano,Cannibalism,0.13856064764144294,NA,4
+4class,Engineered,19,Ceprano,Carnivore,0.20458979317994694,NA,4
+4class,Engineered,19,Ceprano,Funerary Context,0.024822853799538972,NA,4
+4class,Engineered,19,Ceprano,Geological transport,0.6320267053790711,NA,4
+4class,Engineered,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.4176982102802059,NA,4
+4class,Engineered,22,Cova del Parpalló (Parpalló Cave),Carnivore,0.3268358960100015,NA,4
+4class,Engineered,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.15962590906898733,NA,4
+4class,Engineered,22,Cova del Parpalló (Parpalló Cave),Geological transport,0.09583998464080537,NA,4
+4class,Engineered,36,Engis / Schmerling Cave,Cannibalism,0.13856064764144294,NA,4
+4class,Engineered,36,Engis / Schmerling Cave,Carnivore,0.20458979317994694,NA,4
+4class,Engineered,36,Engis / Schmerling Cave,Funerary Context,0.024822853799538972,NA,4
+4class,Engineered,36,Engis / Schmerling Cave,Geological transport,0.6320267053790711,NA,4
+4class,Engineered,39,Kleine Feldhofer Grotte,Cannibalism,0.21114583478523208,NA,4
+4class,Engineered,39,Kleine Feldhofer Grotte,Carnivore,0.12265567140043504,NA,4
+4class,Engineered,39,Kleine Feldhofer Grotte,Funerary Context,0.6431548675251026,NA,4
+4class,Engineered,39,Kleine Feldhofer Grotte,Geological transport,0.023043626289230214,NA,4
+4class,Engineered,68,Trou de la Naulette,Cannibalism,0.08928307942901505,NA,4
+4class,Engineered,68,Trou de la Naulette,Carnivore,0.6716638857507986,NA,4
+4class,Engineered,68,Trou de la Naulette,Funerary Context,0.04341879298411235,NA,4
+4class,Engineered,68,Trou de la Naulette,Geological transport,0.19563424183607397,NA,4
+4class,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.13856064764144294,NA,4
+4class,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Carnivore,0.20458979317994694,NA,4
+4class,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.024822853799538972,NA,4
+4class,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Geological transport,0.6320267053790711,NA,4
+4class,Engineered,92,Peștera Muierii,Cannibalism,0.23187663286472326,NA,4
+4class,Engineered,92,Peștera Muierii,Carnivore,0.2093732218933182,NA,4
+4class,Engineered,92,Peștera Muierii,Funerary Context,0.06068496265210359,NA,4
+4class,Engineered,92,Peștera Muierii,Geological transport,0.498065182589855,NA,4
+4class,Engineered,98,"Ochoz 1, Ochoz 2",Cannibalism,0.13856064764144294,NA,4
+4class,Engineered,98,"Ochoz 1, Ochoz 2",Carnivore,0.20458979317994694,NA,4
+4class,Engineered,98,"Ochoz 1, Ochoz 2",Funerary Context,0.024822853799538972,NA,4
+4class,Engineered,98,"Ochoz 1, Ochoz 2",Geological transport,0.6320267053790711,NA,4
+4class,Engineered,114,Saint-Césaire,Cannibalism,0.22884830146736979,NA,4
+4class,Engineered,114,Saint-Césaire,Carnivore,0.23778683050154956,NA,4
+4class,Engineered,114,Saint-Césaire,Funerary Context,0.1862995763730926,NA,4
+4class,Engineered,114,Saint-Césaire,Geological transport,0.34706529165798805,NA,4
+4class,Engineered,119,Scladina Cave,Cannibalism,0.13856064764144294,NA,4
+4class,Engineered,119,Scladina Cave,Carnivore,0.20458979317994694,NA,4
+4class,Engineered,119,Scladina Cave,Funerary Context,0.024822853799538972,NA,4
+4class,Engineered,119,Scladina Cave,Geological transport,0.6320267053790711,NA,4
+4class,Engineered,122,Sima de los Huesos 89,Cannibalism,0.5831668652454313,NA,4
+4class,Engineered,122,Sima de los Huesos 89,Carnivore,0.18774982270948073,NA,4
+4class,Engineered,122,Sima de los Huesos 89,Funerary Context,0.1360945183319629,NA,4
+4class,Engineered,122,Sima de los Huesos 89,Geological transport,0.09298879371312513,NA,4
+4class,Engineered,123,Sima de los Huesos 90,Cannibalism,0.6599384016419715,NA,4
+4class,Engineered,123,Sima de los Huesos 90,Carnivore,0.1056283521959112,NA,4
+4class,Engineered,123,Sima de los Huesos 90,Funerary Context,0.1655301338336299,NA,4
+4class,Engineered,123,Sima de los Huesos 90,Geological transport,0.06890311232848746,NA,4
+4class,Engineered,124,Sima de los Huesos 95,Cannibalism,0.19188370732747975,NA,4
+4class,Engineered,124,Sima de los Huesos 95,Carnivore,0.02880713797421347,NA,4
+4class,Engineered,124,Sima de los Huesos 95,Funerary Context,0.7632889900886046,NA,4
+4class,Engineered,124,Sima de los Huesos 95,Geological transport,0.016020164609702185,NA,4
+4class,Engineered,125,Sima de los Huesos 15,Cannibalism,0.17491081172454975,NA,4
+4class,Engineered,125,Sima de los Huesos 15,Carnivore,0.02388006632993191,NA,4
+4class,Engineered,125,Sima de los Huesos 15,Funerary Context,0.7897745642494649,NA,4
+4class,Engineered,125,Sima de los Huesos 15,Geological transport,0.011434557696053478,NA,4
+4class,Engineered,126,Sima de los Huesos 24,Cannibalism,0.1812814238620029,NA,4
+4class,Engineered,126,Sima de los Huesos 24,Carnivore,0.023996874779221227,NA,4
+4class,Engineered,126,Sima de los Huesos 24,Funerary Context,0.782797882526852,NA,4
+4class,Engineered,126,Sima de los Huesos 24,Geological transport,0.011923818831923906,NA,4
+4class,Engineered,128,Spy cave,Cannibalism,0.45800791438006694,NA,4
+4class,Engineered,128,Spy cave,Carnivore,0.05592482451753508,NA,4
+4class,Engineered,128,Spy cave,Funerary Context,0.4285914653694933,NA,4
+4class,Engineered,128,Spy cave,Geological transport,0.05747579573290469,NA,4
+4class,Engineered,129,Steinheim an der Murr,Cannibalism,0.13856064764144294,NA,4
+4class,Engineered,129,Steinheim an der Murr,Carnivore,0.20458979317994694,NA,4
+4class,Engineered,129,Steinheim an der Murr,Funerary Context,0.024822853799538972,NA,4
+4class,Engineered,129,Steinheim an der Murr,Geological transport,0.6320267053790711,NA,4
+4class,Engineered,148,Weimar-Ehringsdorf,Cannibalism,0.42235300449199936,NA,4
+4class,Engineered,148,Weimar-Ehringsdorf,Carnivore,0.17508481779354446,NA,4
+4class,Engineered,148,Weimar-Ehringsdorf,Funerary Context,0.06435101908163302,NA,4
+4class,Engineered,148,Weimar-Ehringsdorf,Geological transport,0.3382111586328232,NA,4
+4class,Engineered,152,Sima de los Huesos PNAS,Cannibalism,0.2450929432365438,NA,4
+4class,Engineered,152,Sima de los Huesos PNAS,Carnivore,0.025029329424116096,NA,4
+4class,Engineered,152,Sima de los Huesos PNAS,Funerary Context,0.7162921477113826,NA,4
+4class,Engineered,152,Sima de los Huesos PNAS,Geological transport,0.013585579627957494,NA,4
+4class,Heip evenness only,13,Bilzingsleben,Cannibalism,0.11639355699560007,NA,4
+4class,Heip evenness only,13,Bilzingsleben,Carnivore,0.3630063295949158,NA,4
+4class,Heip evenness only,13,Bilzingsleben,Funerary Context,0.05868498665504461,NA,4
+4class,Heip evenness only,13,Bilzingsleben,Geological transport,0.4619151267544396,NA,4
+4class,Heip evenness only,14,Bolomor Cave,Cannibalism,0.3303567738061157,NA,4
+4class,Heip evenness only,14,Bolomor Cave,Carnivore,0.2651785306370529,NA,4
+4class,Heip evenness only,14,Bolomor Cave,Funerary Context,0.14494258312222041,NA,4
+4class,Heip evenness only,14,Bolomor Cave,Geological transport,0.25952211243461093,NA,4
+4class,Heip evenness only,17,Cueva de la Carigüela,Cannibalism,0.11639355699560007,NA,4
+4class,Heip evenness only,17,Cueva de la Carigüela,Carnivore,0.3630063295949158,NA,4
+4class,Heip evenness only,17,Cueva de la Carigüela,Funerary Context,0.05868498665504461,NA,4
+4class,Heip evenness only,17,Cueva de la Carigüela,Geological transport,0.4619151267544396,NA,4
+4class,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.09838147356802288,NA,4
+4class,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Carnivore,0.24086646508409815,NA,4
+4class,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.05911565501166616,NA,4
+4class,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Geological transport,0.6016364063362128,NA,4
+4class,Heip evenness only,19,Ceprano,Cannibalism,0.11639355699560007,NA,4
+4class,Heip evenness only,19,Ceprano,Carnivore,0.3630063295949158,NA,4
+4class,Heip evenness only,19,Ceprano,Funerary Context,0.05868498665504461,NA,4
+4class,Heip evenness only,19,Ceprano,Geological transport,0.4619151267544396,NA,4
+4class,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.4809019289513245,NA,4
+4class,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),Carnivore,0.3004829818954819,NA,4
+4class,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.143535325328025,NA,4
+4class,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),Geological transport,0.07507976382516865,NA,4
+4class,Heip evenness only,36,Engis / Schmerling Cave,Cannibalism,0.11639355699560007,NA,4
+4class,Heip evenness only,36,Engis / Schmerling Cave,Carnivore,0.3630063295949158,NA,4
+4class,Heip evenness only,36,Engis / Schmerling Cave,Funerary Context,0.05868498665504461,NA,4
+4class,Heip evenness only,36,Engis / Schmerling Cave,Geological transport,0.4619151267544396,NA,4
+4class,Heip evenness only,39,Kleine Feldhofer Grotte,Cannibalism,0.5887465623385961,NA,4
+4class,Heip evenness only,39,Kleine Feldhofer Grotte,Carnivore,0.1473705736736062,NA,4
+4class,Heip evenness only,39,Kleine Feldhofer Grotte,Funerary Context,0.20518550415666875,NA,4
+4class,Heip evenness only,39,Kleine Feldhofer Grotte,Geological transport,0.05869735983112889,NA,4
+4class,Heip evenness only,68,Trou de la Naulette,Cannibalism,0.12069652374563236,NA,4
+4class,Heip evenness only,68,Trou de la Naulette,Carnivore,0.6434935135957071,NA,4
+4class,Heip evenness only,68,Trou de la Naulette,Funerary Context,0.06816250879930467,NA,4
+4class,Heip evenness only,68,Trou de la Naulette,Geological transport,0.16764745385935592,NA,4
+4class,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.11639355699560007,NA,4
+4class,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Carnivore,0.3630063295949158,NA,4
+4class,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.05868498665504461,NA,4
+4class,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Geological transport,0.4619151267544396,NA,4
+4class,Heip evenness only,92,Peștera Muierii,Cannibalism,0.3503643639549599,NA,4
+4class,Heip evenness only,92,Peștera Muierii,Carnivore,0.19139762283212972,NA,4
+4class,Heip evenness only,92,Peștera Muierii,Funerary Context,0.13701651839238346,NA,4
+4class,Heip evenness only,92,Peștera Muierii,Geological transport,0.321221494820527,NA,4
+4class,Heip evenness only,98,"Ochoz 1, Ochoz 2",Cannibalism,0.11639355699560007,NA,4
+4class,Heip evenness only,98,"Ochoz 1, Ochoz 2",Carnivore,0.3630063295949158,NA,4
+4class,Heip evenness only,98,"Ochoz 1, Ochoz 2",Funerary Context,0.05868498665504461,NA,4
+4class,Heip evenness only,98,"Ochoz 1, Ochoz 2",Geological transport,0.4619151267544396,NA,4
+4class,Heip evenness only,114,Saint-Césaire,Cannibalism,0.4753582070876178,NA,4
+4class,Heip evenness only,114,Saint-Césaire,Carnivore,0.22779129414500449,NA,4
+4class,Heip evenness only,114,Saint-Césaire,Funerary Context,0.19937967464810602,NA,4
+4class,Heip evenness only,114,Saint-Césaire,Geological transport,0.09747082411927176,NA,4
+4class,Heip evenness only,119,Scladina Cave,Cannibalism,0.11639355699560007,NA,4
+4class,Heip evenness only,119,Scladina Cave,Carnivore,0.3630063295949158,NA,4
+4class,Heip evenness only,119,Scladina Cave,Funerary Context,0.05868498665504461,NA,4
+4class,Heip evenness only,119,Scladina Cave,Geological transport,0.4619151267544396,NA,4
+4class,Heip evenness only,122,Sima de los Huesos 89,Cannibalism,0.4096590120557192,NA,4
+4class,Heip evenness only,122,Sima de los Huesos 89,Carnivore,0.28516164171778974,NA,4
+4class,Heip evenness only,122,Sima de los Huesos 89,Funerary Context,0.23260969479064417,NA,4
+4class,Heip evenness only,122,Sima de los Huesos 89,Geological transport,0.07256965143584691,NA,4
+4class,Heip evenness only,123,Sima de los Huesos 90,Cannibalism,0.46867348862641184,NA,4
+4class,Heip evenness only,123,Sima de los Huesos 90,Carnivore,0.14316684947634986,NA,4
+4class,Heip evenness only,123,Sima de los Huesos 90,Funerary Context,0.3257240084093864,NA,4
+4class,Heip evenness only,123,Sima de los Huesos 90,Geological transport,0.06243565348785193,NA,4
+4class,Heip evenness only,124,Sima de los Huesos 95,Cannibalism,0.44805387278117037,NA,4
+4class,Heip evenness only,124,Sima de los Huesos 95,Carnivore,0.07316120913662535,NA,4
+4class,Heip evenness only,124,Sima de los Huesos 95,Funerary Context,0.42428077477670767,NA,4
+4class,Heip evenness only,124,Sima de los Huesos 95,Geological transport,0.05450414330549666,NA,4
+4class,Heip evenness only,125,Sima de los Huesos 15,Cannibalism,0.17627000788779715,NA,4
+4class,Heip evenness only,125,Sima de los Huesos 15,Carnivore,0.06303452557227882,NA,4
+4class,Heip evenness only,125,Sima de los Huesos 15,Funerary Context,0.7105482512905109,NA,4
+4class,Heip evenness only,125,Sima de los Huesos 15,Geological transport,0.050147215249413145,NA,4
+4class,Heip evenness only,126,Sima de los Huesos 24,Cannibalism,0.22171005266297145,NA,4
+4class,Heip evenness only,126,Sima de los Huesos 24,Carnivore,0.06316528176620588,NA,4
+4class,Heip evenness only,126,Sima de los Huesos 24,Funerary Context,0.664825403197653,NA,4
+4class,Heip evenness only,126,Sima de los Huesos 24,Geological transport,0.05029926237316964,NA,4
+4class,Heip evenness only,128,Spy cave,Cannibalism,0.5003208423074408,NA,4
+4class,Heip evenness only,128,Spy cave,Carnivore,0.141222619841966,NA,4
+4class,Heip evenness only,128,Spy cave,Funerary Context,0.2975227073069069,NA,4
+4class,Heip evenness only,128,Spy cave,Geological transport,0.06093383054368642,NA,4
+4class,Heip evenness only,129,Steinheim an der Murr,Cannibalism,0.11639355699560007,NA,4
+4class,Heip evenness only,129,Steinheim an der Murr,Carnivore,0.3630063295949158,NA,4
+4class,Heip evenness only,129,Steinheim an der Murr,Funerary Context,0.05868498665504461,NA,4
+4class,Heip evenness only,129,Steinheim an der Murr,Geological transport,0.4619151267544396,NA,4
+4class,Heip evenness only,148,Weimar-Ehringsdorf,Cannibalism,0.13110511592821739,NA,4
+4class,Heip evenness only,148,Weimar-Ehringsdorf,Carnivore,0.6678737063649197,NA,4
+4class,Heip evenness only,148,Weimar-Ehringsdorf,Funerary Context,0.06964032071691262,NA,4
+4class,Heip evenness only,148,Weimar-Ehringsdorf,Geological transport,0.13138085698995033,NA,4
+4class,Heip evenness only,152,Sima de los Huesos PNAS,Cannibalism,0.4090431762108631,NA,4
+4class,Heip evenness only,152,Sima de los Huesos PNAS,Carnivore,0.06719826933399403,NA,4
+4class,Heip evenness only,152,Sima de los Huesos PNAS,Funerary Context,0.4710324434984957,NA,4
+4class,Heip evenness only,152,Sima de los Huesos PNAS,Geological transport,0.052726110956647164,NA,4
+4class,ReMNAU raw,13,Bilzingsleben,Cannibalism,0.11656961671965416,NA,4
+4class,ReMNAU raw,13,Bilzingsleben,Carnivore,0.21462762434464652,NA,4
+4class,ReMNAU raw,13,Bilzingsleben,Funerary Context,0.026848228868084745,NA,4
+4class,ReMNAU raw,13,Bilzingsleben,Geological transport,0.6419545300676146,NA,4
+4class,ReMNAU raw,14,Bolomor Cave,Cannibalism,0.09608472570893531,NA,4
+4class,ReMNAU raw,14,Bolomor Cave,Carnivore,0.3192621216307714,NA,4
+4class,ReMNAU raw,14,Bolomor Cave,Funerary Context,0.030261705416193992,NA,4
+4class,ReMNAU raw,14,Bolomor Cave,Geological transport,0.5543914472440993,NA,4
+4class,ReMNAU raw,17,Cueva de la Carigüela,Cannibalism,0.11656961671965416,NA,4
+4class,ReMNAU raw,17,Cueva de la Carigüela,Carnivore,0.21462762434464652,NA,4
+4class,ReMNAU raw,17,Cueva de la Carigüela,Funerary Context,0.026848228868084745,NA,4
+4class,ReMNAU raw,17,Cueva de la Carigüela,Geological transport,0.6419545300676146,NA,4
+4class,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.13455987963426722,NA,4
+4class,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Carnivore,0.23935905441325925,NA,4
+4class,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.028915135551238067,NA,4
+4class,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Geological transport,0.5971659304012356,NA,4
+4class,ReMNAU raw,19,Ceprano,Cannibalism,0.11656961671965416,NA,4
+4class,ReMNAU raw,19,Ceprano,Carnivore,0.21462762434464652,NA,4
+4class,ReMNAU raw,19,Ceprano,Funerary Context,0.026848228868084745,NA,4
+4class,ReMNAU raw,19,Ceprano,Geological transport,0.6419545300676146,NA,4
+4class,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.2018811387107868,NA,4
+4class,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),Carnivore,0.6244644488559228,NA,4
+4class,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.06470418778301168,NA,4
+4class,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),Geological transport,0.10895022465027875,NA,4
+4class,ReMNAU raw,36,Engis / Schmerling Cave,Cannibalism,0.11656961671965416,NA,4
+4class,ReMNAU raw,36,Engis / Schmerling Cave,Carnivore,0.21462762434464652,NA,4
+4class,ReMNAU raw,36,Engis / Schmerling Cave,Funerary Context,0.026848228868084745,NA,4
+4class,ReMNAU raw,36,Engis / Schmerling Cave,Geological transport,0.6419545300676146,NA,4
+4class,ReMNAU raw,39,Kleine Feldhofer Grotte,Cannibalism,0.38508947347860595,NA,4
+4class,ReMNAU raw,39,Kleine Feldhofer Grotte,Carnivore,0.037097679365814464,NA,4
+4class,ReMNAU raw,39,Kleine Feldhofer Grotte,Funerary Context,0.5533763080903846,NA,4
+4class,ReMNAU raw,39,Kleine Feldhofer Grotte,Geological transport,0.024436539065195047,NA,4
+4class,ReMNAU raw,68,Trou de la Naulette,Cannibalism,0.1464646214333231,NA,4
+4class,ReMNAU raw,68,Trou de la Naulette,Carnivore,0.19921114499768902,NA,4
+4class,ReMNAU raw,68,Trou de la Naulette,Funerary Context,0.6084099217242479,NA,4
+4class,ReMNAU raw,68,Trou de la Naulette,Geological transport,0.04591431184474003,NA,4
+4class,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.11656961671965416,NA,4
+4class,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Carnivore,0.21462762434464652,NA,4
+4class,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.026848228868084745,NA,4
+4class,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Geological transport,0.6419545300676146,NA,4
+4class,ReMNAU raw,92,Peștera Muierii,Cannibalism,0.49732686544999555,NA,4
+4class,ReMNAU raw,92,Peștera Muierii,Carnivore,0.20169127378131088,NA,4
+4class,ReMNAU raw,92,Peștera Muierii,Funerary Context,0.09563847529080256,NA,4
+4class,ReMNAU raw,92,Peștera Muierii,Geological transport,0.20534338547789105,NA,4
+4class,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Cannibalism,0.11656961671965416,NA,4
+4class,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Carnivore,0.21462762434464652,NA,4
+4class,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Funerary Context,0.026848228868084745,NA,4
+4class,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Geological transport,0.6419545300676146,NA,4
+4class,ReMNAU raw,114,Saint-Césaire,Cannibalism,0.18440924009424703,NA,4
+4class,ReMNAU raw,114,Saint-Césaire,Carnivore,0.13187860123706696,NA,4
+4class,ReMNAU raw,114,Saint-Césaire,Funerary Context,0.5899904682472236,NA,4
+4class,ReMNAU raw,114,Saint-Césaire,Geological transport,0.09372169042146242,NA,4
+4class,ReMNAU raw,119,Scladina Cave,Cannibalism,0.11656961671965416,NA,4
+4class,ReMNAU raw,119,Scladina Cave,Carnivore,0.21462762434464652,NA,4
+4class,ReMNAU raw,119,Scladina Cave,Funerary Context,0.026848228868084745,NA,4
+4class,ReMNAU raw,119,Scladina Cave,Geological transport,0.6419545300676146,NA,4
+4class,ReMNAU raw,122,Sima de los Huesos 89,Cannibalism,0.4852485813790721,NA,4
+4class,ReMNAU raw,122,Sima de los Huesos 89,Carnivore,0.0637051026339253,NA,4
+4class,ReMNAU raw,122,Sima de los Huesos 89,Funerary Context,0.40193321750999295,NA,4
+4class,ReMNAU raw,122,Sima de los Huesos 89,Geological transport,0.04911309847700966,NA,4
+4class,ReMNAU raw,123,Sima de los Huesos 90,Cannibalism,0.6357691111862004,NA,4
+4class,ReMNAU raw,123,Sima de los Huesos 90,Carnivore,0.06991447990625661,NA,4
+4class,ReMNAU raw,123,Sima de los Huesos 90,Funerary Context,0.23740391616989917,NA,4
+4class,ReMNAU raw,123,Sima de los Huesos 90,Geological transport,0.05691249273764381,NA,4
+4class,ReMNAU raw,124,Sima de los Huesos 95,Cannibalism,0.4919617579469014,NA,4
+4class,ReMNAU raw,124,Sima de los Huesos 95,Carnivore,0.05017157307029452,NA,4
+4class,ReMNAU raw,124,Sima de los Huesos 95,Funerary Context,0.42298459782310344,NA,4
+4class,ReMNAU raw,124,Sima de los Huesos 95,Geological transport,0.034882071159700684,NA,4
+4class,ReMNAU raw,125,Sima de los Huesos 15,Cannibalism,0.2636844976190468,NA,4
+4class,ReMNAU raw,125,Sima de los Huesos 15,Carnivore,0.03479127492086437,NA,4
+4class,ReMNAU raw,125,Sima de los Huesos 15,Funerary Context,0.6785670052527077,NA,4
+4class,ReMNAU raw,125,Sima de los Huesos 15,Geological transport,0.02295722220738107,NA,4
+4class,ReMNAU raw,126,Sima de los Huesos 24,Cannibalism,0.2802158151441919,NA,4
+4class,ReMNAU raw,126,Sima de los Huesos 24,Carnivore,0.03608733853970193,NA,4
+4class,ReMNAU raw,126,Sima de los Huesos 24,Funerary Context,0.6598457412989397,NA,4
+4class,ReMNAU raw,126,Sima de los Huesos 24,Geological transport,0.02385110501716644,NA,4
+4class,ReMNAU raw,128,Spy cave,Cannibalism,0.23154451673334459,NA,4
+4class,ReMNAU raw,128,Spy cave,Carnivore,0.06220489320275094,NA,4
+4class,ReMNAU raw,128,Spy cave,Funerary Context,0.6750247468799231,NA,4
+4class,ReMNAU raw,128,Spy cave,Geological transport,0.03122584318398143,NA,4
+4class,ReMNAU raw,129,Steinheim an der Murr,Cannibalism,0.11656961671965416,NA,4
+4class,ReMNAU raw,129,Steinheim an der Murr,Carnivore,0.21462762434464652,NA,4
+4class,ReMNAU raw,129,Steinheim an der Murr,Funerary Context,0.026848228868084745,NA,4
+4class,ReMNAU raw,129,Steinheim an der Murr,Geological transport,0.6419545300676146,NA,4
+4class,ReMNAU raw,148,Weimar-Ehringsdorf,Cannibalism,0.6206591968408381,NA,4
+4class,ReMNAU raw,148,Weimar-Ehringsdorf,Carnivore,0.07532518257349648,NA,4
+4class,ReMNAU raw,148,Weimar-Ehringsdorf,Funerary Context,0.2256608867401287,NA,4
+4class,ReMNAU raw,148,Weimar-Ehringsdorf,Geological transport,0.07835473384553665,NA,4
+4class,ReMNAU raw,152,Sima de los Huesos PNAS,Cannibalism,0.2246054083481704,NA,4
+4class,ReMNAU raw,152,Sima de los Huesos PNAS,Carnivore,0.03850894760791921,NA,4
+4class,ReMNAU raw,152,Sima de los Huesos PNAS,Funerary Context,0.7113043371847488,NA,4
+4class,ReMNAU raw,152,Sima de los Huesos PNAS,Geological transport,0.025581306859161563,NA,4
+cannibalism_vs_fc,%MNAU raw,13,Bilzingsleben,Cannibalism,0.8644395225525435,NA,4
+cannibalism_vs_fc,%MNAU raw,13,Bilzingsleben,Funerary Context,0.13556047744745647,NA,4
+cannibalism_vs_fc,%MNAU raw,14,Bolomor Cave,Cannibalism,0.847782132908353,NA,4
+cannibalism_vs_fc,%MNAU raw,14,Bolomor Cave,Funerary Context,0.15221786709164697,NA,4
+cannibalism_vs_fc,%MNAU raw,17,Cueva de la Carigüela,Cannibalism,0.8644395225525435,NA,4
+cannibalism_vs_fc,%MNAU raw,17,Cueva de la Carigüela,Funerary Context,0.13556047744745647,NA,4
+cannibalism_vs_fc,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.8723328776085955,NA,4
+cannibalism_vs_fc,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.12766712239140457,NA,4
+cannibalism_vs_fc,%MNAU raw,19,Ceprano,Cannibalism,0.8644395225525435,NA,4
+cannibalism_vs_fc,%MNAU raw,19,Ceprano,Funerary Context,0.13556047744745647,NA,4
+cannibalism_vs_fc,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.7943917859092624,NA,4
+cannibalism_vs_fc,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.20560821409073762,NA,4
+cannibalism_vs_fc,%MNAU raw,36,Engis / Schmerling Cave,Cannibalism,0.8644395225525435,NA,4
+cannibalism_vs_fc,%MNAU raw,36,Engis / Schmerling Cave,Funerary Context,0.13556047744745647,NA,4
+cannibalism_vs_fc,%MNAU raw,39,Kleine Feldhofer Grotte,Cannibalism,0.4053661667027377,NA,4
+cannibalism_vs_fc,%MNAU raw,39,Kleine Feldhofer Grotte,Funerary Context,0.5946338332972623,NA,4
+cannibalism_vs_fc,%MNAU raw,68,Trou de la Naulette,Cannibalism,0.7825692414100707,NA,4
+cannibalism_vs_fc,%MNAU raw,68,Trou de la Naulette,Funerary Context,0.21743075858992933,NA,4
+cannibalism_vs_fc,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.8644395225525435,NA,4
+cannibalism_vs_fc,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.13556047744745647,NA,4
+cannibalism_vs_fc,%MNAU raw,92,Peștera Muierii,Cannibalism,0.8476347119754568,NA,4
+cannibalism_vs_fc,%MNAU raw,92,Peștera Muierii,Funerary Context,0.15236528802454313,NA,4
+cannibalism_vs_fc,%MNAU raw,98,"Ochoz 1, Ochoz 2",Cannibalism,0.8644395225525435,NA,4
+cannibalism_vs_fc,%MNAU raw,98,"Ochoz 1, Ochoz 2",Funerary Context,0.13556047744745647,NA,4
+cannibalism_vs_fc,%MNAU raw,114,Saint-Césaire,Cannibalism,0.585672762240782,NA,4
+cannibalism_vs_fc,%MNAU raw,114,Saint-Césaire,Funerary Context,0.414327237759218,NA,4
+cannibalism_vs_fc,%MNAU raw,119,Scladina Cave,Cannibalism,0.8644395225525435,NA,4
+cannibalism_vs_fc,%MNAU raw,119,Scladina Cave,Funerary Context,0.13556047744745647,NA,4
+cannibalism_vs_fc,%MNAU raw,122,Sima de los Huesos 89,Cannibalism,0.8452380290658614,NA,4
+cannibalism_vs_fc,%MNAU raw,122,Sima de los Huesos 89,Funerary Context,0.15476197093413863,NA,4
+cannibalism_vs_fc,%MNAU raw,123,Sima de los Huesos 90,Cannibalism,0.8155865122382476,NA,4
+cannibalism_vs_fc,%MNAU raw,123,Sima de los Huesos 90,Funerary Context,0.18441348776175234,NA,4
+cannibalism_vs_fc,%MNAU raw,124,Sima de los Huesos 95,Cannibalism,0.40975736361671244,NA,4
+cannibalism_vs_fc,%MNAU raw,124,Sima de los Huesos 95,Funerary Context,0.5902426363832876,NA,4
+cannibalism_vs_fc,%MNAU raw,125,Sima de los Huesos 15,Cannibalism,0.3488188537627734,NA,4
+cannibalism_vs_fc,%MNAU raw,125,Sima de los Huesos 15,Funerary Context,0.6511811462372266,NA,4
+cannibalism_vs_fc,%MNAU raw,126,Sima de los Huesos 24,Cannibalism,0.36777498894621297,NA,4
+cannibalism_vs_fc,%MNAU raw,126,Sima de los Huesos 24,Funerary Context,0.632225011053787,NA,4
+cannibalism_vs_fc,%MNAU raw,128,Spy cave,Cannibalism,0.22465051443501888,NA,4
+cannibalism_vs_fc,%MNAU raw,128,Spy cave,Funerary Context,0.7753494855649812,NA,4
+cannibalism_vs_fc,%MNAU raw,129,Steinheim an der Murr,Cannibalism,0.8644395225525435,NA,4
+cannibalism_vs_fc,%MNAU raw,129,Steinheim an der Murr,Funerary Context,0.13556047744745647,NA,4
+cannibalism_vs_fc,%MNAU raw,148,Weimar-Ehringsdorf,Cannibalism,0.8162277980466504,NA,4
+cannibalism_vs_fc,%MNAU raw,148,Weimar-Ehringsdorf,Funerary Context,0.18377220195334965,NA,4
+cannibalism_vs_fc,%MNAU raw,152,Sima de los Huesos PNAS,Cannibalism,0.33339768307440293,NA,4
+cannibalism_vs_fc,%MNAU raw,152,Sima de los Huesos PNAS,Funerary Context,0.666602316925597,NA,4
+cannibalism_vs_fc,C + Heip evenness,13,Bilzingsleben,Cannibalism,0.8150933469661898,NA,4
+cannibalism_vs_fc,C + Heip evenness,13,Bilzingsleben,Funerary Context,0.1849066530338101,NA,4
+cannibalism_vs_fc,C + Heip evenness,14,Bolomor Cave,Cannibalism,0.7968303958772576,NA,4
+cannibalism_vs_fc,C + Heip evenness,14,Bolomor Cave,Funerary Context,0.2031696041227424,NA,4
+cannibalism_vs_fc,C + Heip evenness,17,Cueva de la Carigüela,Cannibalism,0.8150933469661898,NA,4
+cannibalism_vs_fc,C + Heip evenness,17,Cueva de la Carigüela,Funerary Context,0.1849066530338101,NA,4
+cannibalism_vs_fc,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.8104966661892509,NA,4
+cannibalism_vs_fc,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.18950333381074908,NA,4
+cannibalism_vs_fc,C + Heip evenness,19,Ceprano,Cannibalism,0.8150933469661898,NA,4
+cannibalism_vs_fc,C + Heip evenness,19,Ceprano,Funerary Context,0.1849066530338101,NA,4
+cannibalism_vs_fc,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.8216372079243146,NA,4
+cannibalism_vs_fc,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.17836279207568548,NA,4
+cannibalism_vs_fc,C + Heip evenness,36,Engis / Schmerling Cave,Cannibalism,0.8150933469661898,NA,4
+cannibalism_vs_fc,C + Heip evenness,36,Engis / Schmerling Cave,Funerary Context,0.1849066530338101,NA,4
+cannibalism_vs_fc,C + Heip evenness,39,Kleine Feldhofer Grotte,Cannibalism,0.5043396414971302,NA,4
+cannibalism_vs_fc,C + Heip evenness,39,Kleine Feldhofer Grotte,Funerary Context,0.4956603585028698,NA,4
+cannibalism_vs_fc,C + Heip evenness,68,Trou de la Naulette,Cannibalism,0.8203773468992179,NA,4
+cannibalism_vs_fc,C + Heip evenness,68,Trou de la Naulette,Funerary Context,0.179622653100782,NA,4
+cannibalism_vs_fc,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.8150933469661898,NA,4
+cannibalism_vs_fc,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.1849066530338101,NA,4
+cannibalism_vs_fc,C + Heip evenness,92,Peștera Muierii,Cannibalism,0.7902425875243062,NA,4
+cannibalism_vs_fc,C + Heip evenness,92,Peștera Muierii,Funerary Context,0.2097574124756938,NA,4
+cannibalism_vs_fc,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Cannibalism,0.8150933469661898,NA,4
+cannibalism_vs_fc,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Funerary Context,0.1849066530338101,NA,4
+cannibalism_vs_fc,C + Heip evenness,114,Saint-Césaire,Cannibalism,0.5292314541456551,NA,4
+cannibalism_vs_fc,C + Heip evenness,114,Saint-Césaire,Funerary Context,0.4707685458543449,NA,4
+cannibalism_vs_fc,C + Heip evenness,119,Scladina Cave,Cannibalism,0.8150933469661898,NA,4
+cannibalism_vs_fc,C + Heip evenness,119,Scladina Cave,Funerary Context,0.1849066530338101,NA,4
+cannibalism_vs_fc,C + Heip evenness,122,Sima de los Huesos 89,Cannibalism,0.8230120036165618,NA,4
+cannibalism_vs_fc,C + Heip evenness,122,Sima de los Huesos 89,Funerary Context,0.17698799638343818,NA,4
+cannibalism_vs_fc,C + Heip evenness,123,Sima de los Huesos 90,Cannibalism,0.8028703997590995,NA,4
+cannibalism_vs_fc,C + Heip evenness,123,Sima de los Huesos 90,Funerary Context,0.19712960024090057,NA,4
+cannibalism_vs_fc,C + Heip evenness,124,Sima de los Huesos 95,Cannibalism,0.3629436744514022,NA,4
+cannibalism_vs_fc,C + Heip evenness,124,Sima de los Huesos 95,Funerary Context,0.6370563255485978,NA,4
+cannibalism_vs_fc,C + Heip evenness,125,Sima de los Huesos 15,Cannibalism,0.27074382762351834,NA,4
+cannibalism_vs_fc,C + Heip evenness,125,Sima de los Huesos 15,Funerary Context,0.7292561723764817,NA,4
+cannibalism_vs_fc,C + Heip evenness,126,Sima de los Huesos 24,Cannibalism,0.3032123910110245,NA,4
+cannibalism_vs_fc,C + Heip evenness,126,Sima de los Huesos 24,Funerary Context,0.6967876089889755,NA,4
+cannibalism_vs_fc,C + Heip evenness,128,Spy cave,Cannibalism,0.30792276618611364,NA,4
+cannibalism_vs_fc,C + Heip evenness,128,Spy cave,Funerary Context,0.6920772338138863,NA,4
+cannibalism_vs_fc,C + Heip evenness,129,Steinheim an der Murr,Cannibalism,0.8150933469661898,NA,4
+cannibalism_vs_fc,C + Heip evenness,129,Steinheim an der Murr,Funerary Context,0.1849066530338101,NA,4
+cannibalism_vs_fc,C + Heip evenness,148,Weimar-Ehringsdorf,Cannibalism,0.8105676003378793,NA,4
+cannibalism_vs_fc,C + Heip evenness,148,Weimar-Ehringsdorf,Funerary Context,0.1894323996621207,NA,4
+cannibalism_vs_fc,C + Heip evenness,152,Sima de los Huesos PNAS,Cannibalism,0.2967343457839345,NA,4
+cannibalism_vs_fc,C + Heip evenness,152,Sima de los Huesos PNAS,Funerary Context,0.7032656542160656,NA,4
+cannibalism_vs_fc,C only,13,Bilzingsleben,Cannibalism,0.8305191810709904,NA,4
+cannibalism_vs_fc,C only,13,Bilzingsleben,Funerary Context,0.16948081892900954,NA,4
+cannibalism_vs_fc,C only,14,Bolomor Cave,Cannibalism,0.7888590447284416,NA,4
+cannibalism_vs_fc,C only,14,Bolomor Cave,Funerary Context,0.21114095527155846,NA,4
+cannibalism_vs_fc,C only,17,Cueva de la Carigüela,Cannibalism,0.8305191810709904,NA,4
+cannibalism_vs_fc,C only,17,Cueva de la Carigüela,Funerary Context,0.16948081892900954,NA,4
+cannibalism_vs_fc,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.8240320350457963,NA,4
+cannibalism_vs_fc,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.1759679649542038,NA,4
+cannibalism_vs_fc,C only,19,Ceprano,Cannibalism,0.8305191810709904,NA,4
+cannibalism_vs_fc,C only,19,Ceprano,Funerary Context,0.16948081892900954,NA,4
+cannibalism_vs_fc,C only,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.8380303435656109,NA,4
+cannibalism_vs_fc,C only,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.16196965643438915,NA,4
+cannibalism_vs_fc,C only,36,Engis / Schmerling Cave,Cannibalism,0.8305191810709904,NA,4
+cannibalism_vs_fc,C only,36,Engis / Schmerling Cave,Funerary Context,0.16948081892900954,NA,4
+cannibalism_vs_fc,C only,39,Kleine Feldhofer Grotte,Cannibalism,0.3462483415176997,NA,4
+cannibalism_vs_fc,C only,39,Kleine Feldhofer Grotte,Funerary Context,0.6537516584823003,NA,4
+cannibalism_vs_fc,C only,68,Trou de la Naulette,Cannibalism,0.8385660756583806,NA,4
+cannibalism_vs_fc,C only,68,Trou de la Naulette,Funerary Context,0.16143392434161935,NA,4
+cannibalism_vs_fc,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.8305191810709904,NA,4
+cannibalism_vs_fc,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.16948081892900954,NA,4
+cannibalism_vs_fc,C only,92,Peștera Muierii,Cannibalism,0.8194042615609287,NA,4
+cannibalism_vs_fc,C only,92,Peștera Muierii,Funerary Context,0.1805957384390713,NA,4
+cannibalism_vs_fc,C only,98,"Ochoz 1, Ochoz 2",Cannibalism,0.8305191810709904,NA,4
+cannibalism_vs_fc,C only,98,"Ochoz 1, Ochoz 2",Funerary Context,0.16948081892900954,NA,4
+cannibalism_vs_fc,C only,114,Saint-Césaire,Cannibalism,0.33887002874257605,NA,4
+cannibalism_vs_fc,C only,114,Saint-Césaire,Funerary Context,0.6611299712574239,NA,4
+cannibalism_vs_fc,C only,119,Scladina Cave,Cannibalism,0.8305191810709904,NA,4
+cannibalism_vs_fc,C only,119,Scladina Cave,Funerary Context,0.16948081892900954,NA,4
+cannibalism_vs_fc,C only,122,Sima de los Huesos 89,Cannibalism,0.8199189222689903,NA,4
+cannibalism_vs_fc,C only,122,Sima de los Huesos 89,Funerary Context,0.18008107773100965,NA,4
+cannibalism_vs_fc,C only,123,Sima de los Huesos 90,Cannibalism,0.8402974271436927,NA,4
+cannibalism_vs_fc,C only,123,Sima de los Huesos 90,Funerary Context,0.15970257285630723,NA,4
+cannibalism_vs_fc,C only,124,Sima de los Huesos 95,Cannibalism,0.22940534999041526,NA,4
+cannibalism_vs_fc,C only,124,Sima de los Huesos 95,Funerary Context,0.7705946500095847,NA,4
+cannibalism_vs_fc,C only,125,Sima de los Huesos 15,Cannibalism,0.3575904783721059,NA,4
+cannibalism_vs_fc,C only,125,Sima de los Huesos 15,Funerary Context,0.6424095216278941,NA,4
+cannibalism_vs_fc,C only,126,Sima de los Huesos 24,Cannibalism,0.4017056857767091,NA,4
+cannibalism_vs_fc,C only,126,Sima de los Huesos 24,Funerary Context,0.5982943142232908,NA,4
+cannibalism_vs_fc,C only,128,Spy cave,Cannibalism,0.16376112979586557,NA,4
+cannibalism_vs_fc,C only,128,Spy cave,Funerary Context,0.8362388702041345,NA,4
+cannibalism_vs_fc,C only,129,Steinheim an der Murr,Cannibalism,0.8305191810709904,NA,4
+cannibalism_vs_fc,C only,129,Steinheim an der Murr,Funerary Context,0.16948081892900954,NA,4
+cannibalism_vs_fc,C only,148,Weimar-Ehringsdorf,Cannibalism,0.8384914062325095,NA,4
+cannibalism_vs_fc,C only,148,Weimar-Ehringsdorf,Funerary Context,0.16150859376749052,NA,4
+cannibalism_vs_fc,C only,152,Sima de los Huesos PNAS,Cannibalism,0.21938302237582788,NA,4
+cannibalism_vs_fc,C only,152,Sima de los Huesos PNAS,Funerary Context,0.7806169776241721,NA,4
+cannibalism_vs_fc,Combined,13,Bilzingsleben,Cannibalism,0.9014254211746421,NA,4
+cannibalism_vs_fc,Combined,13,Bilzingsleben,Funerary Context,0.09857457882535793,NA,4
+cannibalism_vs_fc,Combined,14,Bolomor Cave,Cannibalism,0.7761710056617162,NA,4
+cannibalism_vs_fc,Combined,14,Bolomor Cave,Funerary Context,0.22382899433828396,NA,4
+cannibalism_vs_fc,Combined,17,Cueva de la Carigüela,Cannibalism,0.9014254211746421,NA,4
+cannibalism_vs_fc,Combined,17,Cueva de la Carigüela,Funerary Context,0.09857457882535793,NA,4
+cannibalism_vs_fc,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.8264677906500356,NA,4
+cannibalism_vs_fc,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.17353220934996444,NA,4
+cannibalism_vs_fc,Combined,19,Ceprano,Cannibalism,0.9014254211746421,NA,4
+cannibalism_vs_fc,Combined,19,Ceprano,Funerary Context,0.09857457882535793,NA,4
+cannibalism_vs_fc,Combined,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.8092748697246939,NA,4
+cannibalism_vs_fc,Combined,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.19072513027530608,NA,4
+cannibalism_vs_fc,Combined,36,Engis / Schmerling Cave,Cannibalism,0.9014254211746421,NA,4
+cannibalism_vs_fc,Combined,36,Engis / Schmerling Cave,Funerary Context,0.09857457882535793,NA,4
+cannibalism_vs_fc,Combined,39,Kleine Feldhofer Grotte,Cannibalism,0.39637702287154786,NA,4
+cannibalism_vs_fc,Combined,39,Kleine Feldhofer Grotte,Funerary Context,0.6036229771284521,NA,4
+cannibalism_vs_fc,Combined,68,Trou de la Naulette,Cannibalism,0.525578438173975,NA,4
+cannibalism_vs_fc,Combined,68,Trou de la Naulette,Funerary Context,0.4744215618260251,NA,4
+cannibalism_vs_fc,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.9014254211746421,NA,4
+cannibalism_vs_fc,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.09857457882535793,NA,4
+cannibalism_vs_fc,Combined,92,Peștera Muierii,Cannibalism,0.9089355362336213,NA,4
+cannibalism_vs_fc,Combined,92,Peștera Muierii,Funerary Context,0.0910644637663787,NA,4
+cannibalism_vs_fc,Combined,98,"Ochoz 1, Ochoz 2",Cannibalism,0.9014254211746421,NA,4
+cannibalism_vs_fc,Combined,98,"Ochoz 1, Ochoz 2",Funerary Context,0.09857457882535793,NA,4
+cannibalism_vs_fc,Combined,114,Saint-Césaire,Cannibalism,0.5138274094301871,NA,4
+cannibalism_vs_fc,Combined,114,Saint-Césaire,Funerary Context,0.4861725905698128,NA,4
+cannibalism_vs_fc,Combined,119,Scladina Cave,Cannibalism,0.9014254211746421,NA,4
+cannibalism_vs_fc,Combined,119,Scladina Cave,Funerary Context,0.09857457882535793,NA,4
+cannibalism_vs_fc,Combined,122,Sima de los Huesos 89,Cannibalism,0.8533887576597964,NA,4
+cannibalism_vs_fc,Combined,122,Sima de los Huesos 89,Funerary Context,0.14661124234020362,NA,4
+cannibalism_vs_fc,Combined,123,Sima de los Huesos 90,Cannibalism,0.8623893396911393,NA,4
+cannibalism_vs_fc,Combined,123,Sima de los Huesos 90,Funerary Context,0.13761066030886068,NA,4
+cannibalism_vs_fc,Combined,124,Sima de los Huesos 95,Cannibalism,0.3449234267535016,NA,4
+cannibalism_vs_fc,Combined,124,Sima de los Huesos 95,Funerary Context,0.6550765732464984,NA,4
+cannibalism_vs_fc,Combined,125,Sima de los Huesos 15,Cannibalism,0.25179363392389165,NA,4
+cannibalism_vs_fc,Combined,125,Sima de los Huesos 15,Funerary Context,0.7482063660761084,NA,4
+cannibalism_vs_fc,Combined,126,Sima de los Huesos 24,Cannibalism,0.26180429518425824,NA,4
+cannibalism_vs_fc,Combined,126,Sima de los Huesos 24,Funerary Context,0.7381957048157417,NA,4
+cannibalism_vs_fc,Combined,128,Spy cave,Cannibalism,0.34524348519058207,NA,4
+cannibalism_vs_fc,Combined,128,Spy cave,Funerary Context,0.6547565148094179,NA,4
+cannibalism_vs_fc,Combined,129,Steinheim an der Murr,Cannibalism,0.9014254211746421,NA,4
+cannibalism_vs_fc,Combined,129,Steinheim an der Murr,Funerary Context,0.09857457882535793,NA,4
+cannibalism_vs_fc,Combined,148,Weimar-Ehringsdorf,Cannibalism,0.8877677985875254,NA,4
+cannibalism_vs_fc,Combined,148,Weimar-Ehringsdorf,Funerary Context,0.1122322014124746,NA,4
+cannibalism_vs_fc,Combined,152,Sima de los Huesos PNAS,Cannibalism,0.27651221128673775,NA,4
+cannibalism_vs_fc,Combined,152,Sima de los Huesos PNAS,Funerary Context,0.7234877887132622,NA,4
+cannibalism_vs_fc,Engineered,13,Bilzingsleben,Cannibalism,0.8753186997111614,NA,4
+cannibalism_vs_fc,Engineered,13,Bilzingsleben,Funerary Context,0.12468130028883864,NA,4
+cannibalism_vs_fc,Engineered,14,Bolomor Cave,Cannibalism,0.7552414927587245,NA,4
+cannibalism_vs_fc,Engineered,14,Bolomor Cave,Funerary Context,0.24475850724127543,NA,4
+cannibalism_vs_fc,Engineered,17,Cueva de la Carigüela,Cannibalism,0.8753186997111614,NA,4
+cannibalism_vs_fc,Engineered,17,Cueva de la Carigüela,Funerary Context,0.12468130028883864,NA,4
+cannibalism_vs_fc,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.8030808698057654,NA,4
+cannibalism_vs_fc,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.19691913019423452,NA,4
+cannibalism_vs_fc,Engineered,19,Ceprano,Cannibalism,0.8753186997111614,NA,4
+cannibalism_vs_fc,Engineered,19,Ceprano,Funerary Context,0.12468130028883864,NA,4
+cannibalism_vs_fc,Engineered,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.7243092577429742,NA,4
+cannibalism_vs_fc,Engineered,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.2756907422570259,NA,4
+cannibalism_vs_fc,Engineered,36,Engis / Schmerling Cave,Cannibalism,0.8753186997111614,NA,4
+cannibalism_vs_fc,Engineered,36,Engis / Schmerling Cave,Funerary Context,0.12468130028883864,NA,4
+cannibalism_vs_fc,Engineered,39,Kleine Feldhofer Grotte,Cannibalism,0.2540751025575936,NA,4
+cannibalism_vs_fc,Engineered,39,Kleine Feldhofer Grotte,Funerary Context,0.7459248974424064,NA,4
+cannibalism_vs_fc,Engineered,68,Trou de la Naulette,Cannibalism,0.6984182033915719,NA,4
+cannibalism_vs_fc,Engineered,68,Trou de la Naulette,Funerary Context,0.30158179660842815,NA,4
+cannibalism_vs_fc,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.8753186997111614,NA,4
+cannibalism_vs_fc,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.12468130028883864,NA,4
+cannibalism_vs_fc,Engineered,92,Peștera Muierii,Cannibalism,0.870845987317313,NA,4
+cannibalism_vs_fc,Engineered,92,Peștera Muierii,Funerary Context,0.129154012682687,NA,4
+cannibalism_vs_fc,Engineered,98,"Ochoz 1, Ochoz 2",Cannibalism,0.8753186997111614,NA,4
+cannibalism_vs_fc,Engineered,98,"Ochoz 1, Ochoz 2",Funerary Context,0.12468130028883864,NA,4
+cannibalism_vs_fc,Engineered,114,Saint-Césaire,Cannibalism,0.6068646978012752,NA,4
+cannibalism_vs_fc,Engineered,114,Saint-Césaire,Funerary Context,0.39313530219872483,NA,4
+cannibalism_vs_fc,Engineered,119,Scladina Cave,Cannibalism,0.8753186997111614,NA,4
+cannibalism_vs_fc,Engineered,119,Scladina Cave,Funerary Context,0.12468130028883864,NA,4
+cannibalism_vs_fc,Engineered,122,Sima de los Huesos 89,Cannibalism,0.8061482724674589,NA,4
+cannibalism_vs_fc,Engineered,122,Sima de los Huesos 89,Funerary Context,0.19385172753254112,NA,4
+cannibalism_vs_fc,Engineered,123,Sima de los Huesos 90,Cannibalism,0.7865577520045508,NA,4
+cannibalism_vs_fc,Engineered,123,Sima de los Huesos 90,Funerary Context,0.21344224799544914,NA,4
+cannibalism_vs_fc,Engineered,124,Sima de los Huesos 95,Cannibalism,0.19679773660035088,NA,4
+cannibalism_vs_fc,Engineered,124,Sima de los Huesos 95,Funerary Context,0.8032022633996492,NA,4
+cannibalism_vs_fc,Engineered,125,Sima de los Huesos 15,Cannibalism,0.17680167924796947,NA,4
+cannibalism_vs_fc,Engineered,125,Sima de los Huesos 15,Funerary Context,0.8231983207520306,NA,4
+cannibalism_vs_fc,Engineered,126,Sima de los Huesos 24,Cannibalism,0.18369726708709425,NA,4
+cannibalism_vs_fc,Engineered,126,Sima de los Huesos 24,Funerary Context,0.8163027329129058,NA,4
+cannibalism_vs_fc,Engineered,128,Spy cave,Cannibalism,0.5024126868174961,NA,4
+cannibalism_vs_fc,Engineered,128,Spy cave,Funerary Context,0.4975873131825039,NA,4
+cannibalism_vs_fc,Engineered,129,Steinheim an der Murr,Cannibalism,0.8753186997111614,NA,4
+cannibalism_vs_fc,Engineered,129,Steinheim an der Murr,Funerary Context,0.12468130028883864,NA,4
+cannibalism_vs_fc,Engineered,148,Weimar-Ehringsdorf,Cannibalism,0.8872480752100524,NA,4
+cannibalism_vs_fc,Engineered,148,Weimar-Ehringsdorf,Funerary Context,0.11275192478994753,NA,4
+cannibalism_vs_fc,Engineered,152,Sima de los Huesos PNAS,Cannibalism,0.23947882124822648,NA,4
+cannibalism_vs_fc,Engineered,152,Sima de los Huesos PNAS,Funerary Context,0.7605211787517736,NA,4
+cannibalism_vs_fc,Heip evenness only,13,Bilzingsleben,Cannibalism,0.7875695483850382,NA,4
+cannibalism_vs_fc,Heip evenness only,13,Bilzingsleben,Funerary Context,0.2124304516149617,NA,4
+cannibalism_vs_fc,Heip evenness only,14,Bolomor Cave,Cannibalism,0.7372339600848857,NA,4
+cannibalism_vs_fc,Heip evenness only,14,Bolomor Cave,Funerary Context,0.26276603991511427,NA,4
+cannibalism_vs_fc,Heip evenness only,17,Cueva de la Carigüela,Cannibalism,0.7875695483850382,NA,4
+cannibalism_vs_fc,Heip evenness only,17,Cueva de la Carigüela,Funerary Context,0.2124304516149617,NA,4
+cannibalism_vs_fc,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.7816635981178646,NA,4
+cannibalism_vs_fc,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.21833640188213538,NA,4
+cannibalism_vs_fc,Heip evenness only,19,Ceprano,Cannibalism,0.7875695483850382,NA,4
+cannibalism_vs_fc,Heip evenness only,19,Ceprano,Funerary Context,0.2124304516149617,NA,4
+cannibalism_vs_fc,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.6926868872914171,NA,4
+cannibalism_vs_fc,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.30731311270858286,NA,4
+cannibalism_vs_fc,Heip evenness only,36,Engis / Schmerling Cave,Cannibalism,0.7875695483850382,NA,4
+cannibalism_vs_fc,Heip evenness only,36,Engis / Schmerling Cave,Funerary Context,0.2124304516149617,NA,4
+cannibalism_vs_fc,Heip evenness only,39,Kleine Feldhofer Grotte,Cannibalism,0.7289132230788427,NA,4
+cannibalism_vs_fc,Heip evenness only,39,Kleine Feldhofer Grotte,Funerary Context,0.2710867769211573,NA,4
+cannibalism_vs_fc,Heip evenness only,68,Trou de la Naulette,Cannibalism,0.7525343887533751,NA,4
+cannibalism_vs_fc,Heip evenness only,68,Trou de la Naulette,Funerary Context,0.24746561124662497,NA,4
+cannibalism_vs_fc,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.7875695483850382,NA,4
+cannibalism_vs_fc,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.2124304516149617,NA,4
+cannibalism_vs_fc,Heip evenness only,92,Peștera Muierii,Cannibalism,0.7463569823194101,NA,4
+cannibalism_vs_fc,Heip evenness only,92,Peștera Muierii,Funerary Context,0.25364301768058994,NA,4
+cannibalism_vs_fc,Heip evenness only,98,"Ochoz 1, Ochoz 2",Cannibalism,0.7875695483850382,NA,4
+cannibalism_vs_fc,Heip evenness only,98,"Ochoz 1, Ochoz 2",Funerary Context,0.2124304516149617,NA,4
+cannibalism_vs_fc,Heip evenness only,114,Saint-Césaire,Cannibalism,0.6844717006289595,NA,4
+cannibalism_vs_fc,Heip evenness only,114,Saint-Césaire,Funerary Context,0.31552829937104054,NA,4
+cannibalism_vs_fc,Heip evenness only,119,Scladina Cave,Cannibalism,0.7875695483850382,NA,4
+cannibalism_vs_fc,Heip evenness only,119,Scladina Cave,Funerary Context,0.2124304516149617,NA,4
+cannibalism_vs_fc,Heip evenness only,122,Sima de los Huesos 89,Cannibalism,0.639267071176732,NA,4
+cannibalism_vs_fc,Heip evenness only,122,Sima de los Huesos 89,Funerary Context,0.360732928823268,NA,4
+cannibalism_vs_fc,Heip evenness only,123,Sima de los Huesos 90,Cannibalism,0.6006181312185004,NA,4
+cannibalism_vs_fc,Heip evenness only,123,Sima de los Huesos 90,Funerary Context,0.3993818687814996,NA,4
+cannibalism_vs_fc,Heip evenness only,124,Sima de los Huesos 95,Cannibalism,0.49970257127392115,NA,4
+cannibalism_vs_fc,Heip evenness only,124,Sima de los Huesos 95,Funerary Context,0.5002974287260789,NA,4
+cannibalism_vs_fc,Heip evenness only,125,Sima de los Huesos 15,Cannibalism,0.20259642765032515,NA,4
+cannibalism_vs_fc,Heip evenness only,125,Sima de los Huesos 15,Funerary Context,0.7974035723496748,NA,4
+cannibalism_vs_fc,Heip evenness only,126,Sima de los Huesos 24,Cannibalism,0.2781304493208192,NA,4
+cannibalism_vs_fc,Heip evenness only,126,Sima de los Huesos 24,Funerary Context,0.7218695506791808,NA,4
+cannibalism_vs_fc,Heip evenness only,128,Spy cave,Cannibalism,0.631316299561895,NA,4
+cannibalism_vs_fc,Heip evenness only,128,Spy cave,Funerary Context,0.36868370043810506,NA,4
+cannibalism_vs_fc,Heip evenness only,129,Steinheim an der Murr,Cannibalism,0.7875695483850382,NA,4
+cannibalism_vs_fc,Heip evenness only,129,Steinheim an der Murr,Funerary Context,0.2124304516149617,NA,4
+cannibalism_vs_fc,Heip evenness only,148,Weimar-Ehringsdorf,Cannibalism,0.7464432032057505,NA,4
+cannibalism_vs_fc,Heip evenness only,148,Weimar-Ehringsdorf,Funerary Context,0.2535567967942495,NA,4
+cannibalism_vs_fc,Heip evenness only,152,Sima de los Huesos PNAS,Cannibalism,0.485507982926907,NA,4
+cannibalism_vs_fc,Heip evenness only,152,Sima de los Huesos PNAS,Funerary Context,0.5144920170730931,NA,4
+cannibalism_vs_fc,ReMNAU raw,13,Bilzingsleben,Cannibalism,0.8733974284829792,NA,4
+cannibalism_vs_fc,ReMNAU raw,13,Bilzingsleben,Funerary Context,0.12660257151702084,NA,4
+cannibalism_vs_fc,ReMNAU raw,14,Bolomor Cave,Cannibalism,0.8749412353659987,NA,4
+cannibalism_vs_fc,ReMNAU raw,14,Bolomor Cave,Funerary Context,0.12505876463400128,NA,4
+cannibalism_vs_fc,ReMNAU raw,17,Cueva de la Carigüela,Cannibalism,0.8733974284829792,NA,4
+cannibalism_vs_fc,ReMNAU raw,17,Cueva de la Carigüela,Funerary Context,0.12660257151702084,NA,4
+cannibalism_vs_fc,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Cannibalism,0.8743776538115093,NA,4
+cannibalism_vs_fc,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.1256223461884907,NA,4
+cannibalism_vs_fc,ReMNAU raw,19,Ceprano,Cannibalism,0.8733974284829792,NA,4
+cannibalism_vs_fc,ReMNAU raw,19,Ceprano,Funerary Context,0.12660257151702084,NA,4
+cannibalism_vs_fc,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),Cannibalism,0.8185703160799493,NA,4
+cannibalism_vs_fc,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.18142968392005068,NA,4
+cannibalism_vs_fc,ReMNAU raw,36,Engis / Schmerling Cave,Cannibalism,0.8733974284829792,NA,4
+cannibalism_vs_fc,ReMNAU raw,36,Engis / Schmerling Cave,Funerary Context,0.12660257151702084,NA,4
+cannibalism_vs_fc,ReMNAU raw,39,Kleine Feldhofer Grotte,Cannibalism,0.4186298839778616,NA,4
+cannibalism_vs_fc,ReMNAU raw,39,Kleine Feldhofer Grotte,Funerary Context,0.5813701160221384,NA,4
+cannibalism_vs_fc,ReMNAU raw,68,Trou de la Naulette,Cannibalism,0.2525403032126836,NA,4
+cannibalism_vs_fc,ReMNAU raw,68,Trou de la Naulette,Funerary Context,0.7474596967873164,NA,4
+cannibalism_vs_fc,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Cannibalism,0.8733974284829792,NA,4
+cannibalism_vs_fc,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.12660257151702084,NA,4
+cannibalism_vs_fc,ReMNAU raw,92,Peștera Muierii,Cannibalism,0.8570521119881088,NA,4
+cannibalism_vs_fc,ReMNAU raw,92,Peștera Muierii,Funerary Context,0.1429478880118912,NA,4
+cannibalism_vs_fc,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Cannibalism,0.8733974284829792,NA,4
+cannibalism_vs_fc,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Funerary Context,0.12660257151702084,NA,4
+cannibalism_vs_fc,ReMNAU raw,114,Saint-Césaire,Cannibalism,0.3455761568736662,NA,4
+cannibalism_vs_fc,ReMNAU raw,114,Saint-Césaire,Funerary Context,0.6544238431263338,NA,4
+cannibalism_vs_fc,ReMNAU raw,119,Scladina Cave,Cannibalism,0.8733974284829792,NA,4
+cannibalism_vs_fc,ReMNAU raw,119,Scladina Cave,Funerary Context,0.12660257151702084,NA,4
+cannibalism_vs_fc,ReMNAU raw,122,Sima de los Huesos 89,Cannibalism,0.5959767246521366,NA,4
+cannibalism_vs_fc,ReMNAU raw,122,Sima de los Huesos 89,Funerary Context,0.40402327534786353,NA,4
+cannibalism_vs_fc,ReMNAU raw,123,Sima de los Huesos 90,Cannibalism,0.7666775693377162,NA,4
+cannibalism_vs_fc,ReMNAU raw,123,Sima de los Huesos 90,Funerary Context,0.23332243066228375,NA,4
+cannibalism_vs_fc,ReMNAU raw,124,Sima de los Huesos 95,Cannibalism,0.5448816473290901,NA,4
+cannibalism_vs_fc,ReMNAU raw,124,Sima de los Huesos 95,Funerary Context,0.45511835267090994,NA,4
+cannibalism_vs_fc,ReMNAU raw,125,Sima de los Huesos 15,Cannibalism,0.2660907996837656,NA,4
+cannibalism_vs_fc,ReMNAU raw,125,Sima de los Huesos 15,Funerary Context,0.7339092003162344,NA,4
+cannibalism_vs_fc,ReMNAU raw,126,Sima de los Huesos 24,Cannibalism,0.28381877124632476,NA,4
+cannibalism_vs_fc,ReMNAU raw,126,Sima de los Huesos 24,Funerary Context,0.7161812287536753,NA,4
+cannibalism_vs_fc,ReMNAU raw,128,Spy cave,Cannibalism,0.2821958781056604,NA,4
+cannibalism_vs_fc,ReMNAU raw,128,Spy cave,Funerary Context,0.7178041218943396,NA,4
+cannibalism_vs_fc,ReMNAU raw,129,Steinheim an der Murr,Cannibalism,0.8733974284829792,NA,4
+cannibalism_vs_fc,ReMNAU raw,129,Steinheim an der Murr,Funerary Context,0.12660257151702084,NA,4
+cannibalism_vs_fc,ReMNAU raw,148,Weimar-Ehringsdorf,Cannibalism,0.7080834293756372,NA,4
+cannibalism_vs_fc,ReMNAU raw,148,Weimar-Ehringsdorf,Funerary Context,0.29191657062436277,NA,4
+cannibalism_vs_fc,ReMNAU raw,152,Sima de los Huesos PNAS,Cannibalism,0.24251267701140022,NA,4
+cannibalism_vs_fc,ReMNAU raw,152,Sima de los Huesos PNAS,Funerary Context,0.7574873229885998,NA,4
+fc_vs_rest,%MNAU raw,13,Bilzingsleben,Funerary Context,0.08346112013404647,NA,4
+fc_vs_rest,%MNAU raw,13,Bilzingsleben,Rest,0.9165388798659535,NA,4
+fc_vs_rest,%MNAU raw,14,Bolomor Cave,Funerary Context,0.08636864130583254,NA,4
+fc_vs_rest,%MNAU raw,14,Bolomor Cave,Rest,0.9136313586941675,NA,4
+fc_vs_rest,%MNAU raw,17,Cueva de la Carigüela,Funerary Context,0.08346112013404647,NA,4
+fc_vs_rest,%MNAU raw,17,Cueva de la Carigüela,Rest,0.9165388798659535,NA,4
+fc_vs_rest,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.08392213874633846,NA,4
+fc_vs_rest,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Rest,0.9160778612536615,NA,4
+fc_vs_rest,%MNAU raw,19,Ceprano,Funerary Context,0.08346112013404647,NA,4
+fc_vs_rest,%MNAU raw,19,Ceprano,Rest,0.9165388798659535,NA,4
+fc_vs_rest,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.1675573772471233,NA,4
+fc_vs_rest,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),Rest,0.8324426227528767,NA,4
+fc_vs_rest,%MNAU raw,36,Engis / Schmerling Cave,Funerary Context,0.08346112013404647,NA,4
+fc_vs_rest,%MNAU raw,36,Engis / Schmerling Cave,Rest,0.9165388798659535,NA,4
+fc_vs_rest,%MNAU raw,39,Kleine Feldhofer Grotte,Funerary Context,0.6871382766523613,NA,4
+fc_vs_rest,%MNAU raw,39,Kleine Feldhofer Grotte,Rest,0.3128617233476387,NA,4
+fc_vs_rest,%MNAU raw,68,Trou de la Naulette,Funerary Context,0.15665766778050066,NA,4
+fc_vs_rest,%MNAU raw,68,Trou de la Naulette,Rest,0.8433423322194994,NA,4
+fc_vs_rest,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.08346112013404647,NA,4
+fc_vs_rest,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Rest,0.9165388798659535,NA,4
+fc_vs_rest,%MNAU raw,92,Peștera Muierii,Funerary Context,0.10688792745915456,NA,4
+fc_vs_rest,%MNAU raw,92,Peștera Muierii,Rest,0.8931120725408455,NA,4
+fc_vs_rest,%MNAU raw,98,"Ochoz 1, Ochoz 2",Funerary Context,0.08346112013404647,NA,4
+fc_vs_rest,%MNAU raw,98,"Ochoz 1, Ochoz 2",Rest,0.9165388798659535,NA,4
+fc_vs_rest,%MNAU raw,114,Saint-Césaire,Funerary Context,0.47579664257689136,NA,4
+fc_vs_rest,%MNAU raw,114,Saint-Césaire,Rest,0.5242033574231086,NA,4
+fc_vs_rest,%MNAU raw,119,Scladina Cave,Funerary Context,0.08346112013404647,NA,4
+fc_vs_rest,%MNAU raw,119,Scladina Cave,Rest,0.9165388798659535,NA,4
+fc_vs_rest,%MNAU raw,122,Sima de los Huesos 89,Funerary Context,0.19167446710369912,NA,4
+fc_vs_rest,%MNAU raw,122,Sima de los Huesos 89,Rest,0.8083255328963009,NA,4
+fc_vs_rest,%MNAU raw,123,Sima de los Huesos 90,Funerary Context,0.22125643032495385,NA,4
+fc_vs_rest,%MNAU raw,123,Sima de los Huesos 90,Rest,0.7787435696750462,NA,4
+fc_vs_rest,%MNAU raw,124,Sima de los Huesos 95,Funerary Context,0.692262993504422,NA,4
+fc_vs_rest,%MNAU raw,124,Sima de los Huesos 95,Rest,0.307737006495578,NA,4
+fc_vs_rest,%MNAU raw,125,Sima de los Huesos 15,Funerary Context,0.7393046827026675,NA,4
+fc_vs_rest,%MNAU raw,125,Sima de los Huesos 15,Rest,0.26069531729733253,NA,4
+fc_vs_rest,%MNAU raw,126,Sima de los Huesos 24,Funerary Context,0.730566051232451,NA,4
+fc_vs_rest,%MNAU raw,126,Sima de los Huesos 24,Rest,0.26943394876754906,NA,4
+fc_vs_rest,%MNAU raw,128,Spy cave,Funerary Context,0.8113986294164133,NA,4
+fc_vs_rest,%MNAU raw,128,Spy cave,Rest,0.18860137058358675,NA,4
+fc_vs_rest,%MNAU raw,129,Steinheim an der Murr,Funerary Context,0.08346112013404647,NA,4
+fc_vs_rest,%MNAU raw,129,Steinheim an der Murr,Rest,0.9165388798659535,NA,4
+fc_vs_rest,%MNAU raw,148,Weimar-Ehringsdorf,Funerary Context,0.19943885205623588,NA,4
+fc_vs_rest,%MNAU raw,148,Weimar-Ehringsdorf,Rest,0.8005611479437641,NA,4
+fc_vs_rest,%MNAU raw,152,Sima de los Huesos PNAS,Funerary Context,0.7390369055529111,NA,4
+fc_vs_rest,%MNAU raw,152,Sima de los Huesos PNAS,Rest,0.2609630944470889,NA,4
+fc_vs_rest,C + Heip evenness,13,Bilzingsleben,Funerary Context,0.12623336136825988,NA,4
+fc_vs_rest,C + Heip evenness,13,Bilzingsleben,Rest,0.8737666386317401,NA,4
+fc_vs_rest,C + Heip evenness,14,Bolomor Cave,Funerary Context,0.18305594254358062,NA,4
+fc_vs_rest,C + Heip evenness,14,Bolomor Cave,Rest,0.8169440574564194,NA,4
+fc_vs_rest,C + Heip evenness,17,Cueva de la Carigüela,Funerary Context,0.12623336136825988,NA,4
+fc_vs_rest,C + Heip evenness,17,Cueva de la Carigüela,Rest,0.8737666386317401,NA,4
+fc_vs_rest,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.1261285384196308,NA,4
+fc_vs_rest,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Rest,0.8738714615803692,NA,4
+fc_vs_rest,C + Heip evenness,19,Ceprano,Funerary Context,0.12623336136825988,NA,4
+fc_vs_rest,C + Heip evenness,19,Ceprano,Rest,0.8737666386317401,NA,4
+fc_vs_rest,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.18516481486328826,NA,4
+fc_vs_rest,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),Rest,0.8148351851367117,NA,4
+fc_vs_rest,C + Heip evenness,36,Engis / Schmerling Cave,Funerary Context,0.12623336136825988,NA,4
+fc_vs_rest,C + Heip evenness,36,Engis / Schmerling Cave,Rest,0.8737666386317401,NA,4
+fc_vs_rest,C + Heip evenness,39,Kleine Feldhofer Grotte,Funerary Context,0.6051163612989403,NA,4
+fc_vs_rest,C + Heip evenness,39,Kleine Feldhofer Grotte,Rest,0.3948836387010597,NA,4
+fc_vs_rest,C + Heip evenness,68,Trou de la Naulette,Funerary Context,0.14172873821798126,NA,4
+fc_vs_rest,C + Heip evenness,68,Trou de la Naulette,Rest,0.8582712617820187,NA,4
+fc_vs_rest,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.12623336136825988,NA,4
+fc_vs_rest,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Rest,0.8737666386317401,NA,4
+fc_vs_rest,C + Heip evenness,92,Peștera Muierii,Funerary Context,0.20698528078584827,NA,4
+fc_vs_rest,C + Heip evenness,92,Peștera Muierii,Rest,0.7930147192141517,NA,4
+fc_vs_rest,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Funerary Context,0.12623336136825988,NA,4
+fc_vs_rest,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Rest,0.8737666386317401,NA,4
+fc_vs_rest,C + Heip evenness,114,Saint-Césaire,Funerary Context,0.47252333070506164,NA,4
+fc_vs_rest,C + Heip evenness,114,Saint-Césaire,Rest,0.5274766692949384,NA,4
+fc_vs_rest,C + Heip evenness,119,Scladina Cave,Funerary Context,0.12623336136825988,NA,4
+fc_vs_rest,C + Heip evenness,119,Scladina Cave,Rest,0.8737666386317401,NA,4
+fc_vs_rest,C + Heip evenness,122,Sima de los Huesos 89,Funerary Context,0.18144834546426522,NA,4
+fc_vs_rest,C + Heip evenness,122,Sima de los Huesos 89,Rest,0.8185516545357348,NA,4
+fc_vs_rest,C + Heip evenness,123,Sima de los Huesos 90,Funerary Context,0.20922030924970214,NA,4
+fc_vs_rest,C + Heip evenness,123,Sima de los Huesos 90,Rest,0.7907796907502979,NA,4
+fc_vs_rest,C + Heip evenness,124,Sima de los Huesos 95,Funerary Context,0.7249335799955594,NA,4
+fc_vs_rest,C + Heip evenness,124,Sima de los Huesos 95,Rest,0.27506642000444054,NA,4
+fc_vs_rest,C + Heip evenness,125,Sima de los Huesos 15,Funerary Context,0.7791724786777634,NA,4
+fc_vs_rest,C + Heip evenness,125,Sima de los Huesos 15,Rest,0.22082752132223651,NA,4
+fc_vs_rest,C + Heip evenness,126,Sima de los Huesos 24,Funerary Context,0.7592081722429942,NA,4
+fc_vs_rest,C + Heip evenness,126,Sima de los Huesos 24,Rest,0.24079182775700586,NA,4
+fc_vs_rest,C + Heip evenness,128,Spy cave,Funerary Context,0.745989125407219,NA,4
+fc_vs_rest,C + Heip evenness,128,Spy cave,Rest,0.25401087459278104,NA,4
+fc_vs_rest,C + Heip evenness,129,Steinheim an der Murr,Funerary Context,0.12623336136825988,NA,4
+fc_vs_rest,C + Heip evenness,129,Steinheim an der Murr,Rest,0.8737666386317401,NA,4
+fc_vs_rest,C + Heip evenness,148,Weimar-Ehringsdorf,Funerary Context,0.18718313464500133,NA,4
+fc_vs_rest,C + Heip evenness,148,Weimar-Ehringsdorf,Rest,0.8128168653549986,NA,4
+fc_vs_rest,C + Heip evenness,152,Sima de los Huesos PNAS,Funerary Context,0.7656919127271875,NA,4
+fc_vs_rest,C + Heip evenness,152,Sima de los Huesos PNAS,Rest,0.23430808727281244,NA,4
+fc_vs_rest,C only,13,Bilzingsleben,Funerary Context,0.14420807505286695,NA,4
+fc_vs_rest,C only,13,Bilzingsleben,Rest,0.8557919249471331,NA,4
+fc_vs_rest,C only,14,Bolomor Cave,Funerary Context,0.1905372712072541,NA,4
+fc_vs_rest,C only,14,Bolomor Cave,Rest,0.8094627287927458,NA,4
+fc_vs_rest,C only,17,Cueva de la Carigüela,Funerary Context,0.14420807505286695,NA,4
+fc_vs_rest,C only,17,Cueva de la Carigüela,Rest,0.8557919249471331,NA,4
+fc_vs_rest,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.14432476216143095,NA,4
+fc_vs_rest,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Rest,0.855675237838569,NA,4
+fc_vs_rest,C only,19,Ceprano,Funerary Context,0.14420807505286695,NA,4
+fc_vs_rest,C only,19,Ceprano,Rest,0.8557919249471331,NA,4
+fc_vs_rest,C only,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.16347355032055058,NA,4
+fc_vs_rest,C only,22,Cova del Parpalló (Parpalló Cave),Rest,0.8365264496794494,NA,4
+fc_vs_rest,C only,36,Engis / Schmerling Cave,Funerary Context,0.14420807505286695,NA,4
+fc_vs_rest,C only,36,Engis / Schmerling Cave,Rest,0.8557919249471331,NA,4
+fc_vs_rest,C only,39,Kleine Feldhofer Grotte,Funerary Context,0.7162677035479391,NA,4
+fc_vs_rest,C only,39,Kleine Feldhofer Grotte,Rest,0.2837322964520609,NA,4
+fc_vs_rest,C only,68,Trou de la Naulette,Funerary Context,0.15153165199276097,NA,4
+fc_vs_rest,C only,68,Trou de la Naulette,Rest,0.848468348007239,NA,4
+fc_vs_rest,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.14420807505286695,NA,4
+fc_vs_rest,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Rest,0.8557919249471331,NA,4
+fc_vs_rest,C only,92,Peștera Muierii,Funerary Context,0.18655870645770772,NA,4
+fc_vs_rest,C only,92,Peștera Muierii,Rest,0.8134412935422923,NA,4
+fc_vs_rest,C only,98,"Ochoz 1, Ochoz 2",Funerary Context,0.14420807505286695,NA,4
+fc_vs_rest,C only,98,"Ochoz 1, Ochoz 2",Rest,0.8557919249471331,NA,4
+fc_vs_rest,C only,114,Saint-Césaire,Funerary Context,0.7126593404496417,NA,4
+fc_vs_rest,C only,114,Saint-Césaire,Rest,0.2873406595503582,NA,4
+fc_vs_rest,C only,119,Scladina Cave,Funerary Context,0.14420807505286695,NA,4
+fc_vs_rest,C only,119,Scladina Cave,Rest,0.8557919249471331,NA,4
+fc_vs_rest,C only,122,Sima de los Huesos 89,Funerary Context,0.1444271433351563,NA,4
+fc_vs_rest,C only,122,Sima de los Huesos 89,Rest,0.8555728566648437,NA,4
+fc_vs_rest,C only,123,Sima de los Huesos 90,Funerary Context,0.15966316633698316,NA,4
+fc_vs_rest,C only,123,Sima de los Huesos 90,Rest,0.8403368336630168,NA,4
+fc_vs_rest,C only,124,Sima de los Huesos 95,Funerary Context,0.7959498666415399,NA,4
+fc_vs_rest,C only,124,Sima de los Huesos 95,Rest,0.20405013335846006,NA,4
+fc_vs_rest,C only,125,Sima de los Huesos 15,Funerary Context,0.7061836688243617,NA,4
+fc_vs_rest,C only,125,Sima de los Huesos 15,Rest,0.2938163311756383,NA,4
+fc_vs_rest,C only,126,Sima de los Huesos 24,Funerary Context,0.6689638975340975,NA,4
+fc_vs_rest,C only,126,Sima de los Huesos 24,Rest,0.33103610246590254,NA,4
+fc_vs_rest,C only,128,Spy cave,Funerary Context,0.8544624333474664,NA,4
+fc_vs_rest,C only,128,Spy cave,Rest,0.14553756665253365,NA,4
+fc_vs_rest,C only,129,Steinheim an der Murr,Funerary Context,0.14420807505286695,NA,4
+fc_vs_rest,C only,129,Steinheim an der Murr,Rest,0.8557919249471331,NA,4
+fc_vs_rest,C only,148,Weimar-Ehringsdorf,Funerary Context,0.16304666456292757,NA,4
+fc_vs_rest,C only,148,Weimar-Ehringsdorf,Rest,0.8369533354370724,NA,4
+fc_vs_rest,C only,152,Sima de los Huesos PNAS,Funerary Context,0.8012269172635711,NA,4
+fc_vs_rest,C only,152,Sima de los Huesos PNAS,Rest,0.19877308273642888,NA,4
+fc_vs_rest,Combined,13,Bilzingsleben,Funerary Context,0.038785713848193806,NA,4
+fc_vs_rest,Combined,13,Bilzingsleben,Rest,0.9612142861518063,NA,4
+fc_vs_rest,Combined,14,Bolomor Cave,Funerary Context,0.06920980003772148,NA,4
+fc_vs_rest,Combined,14,Bolomor Cave,Rest,0.9307901999622785,NA,4
+fc_vs_rest,Combined,17,Cueva de la Carigüela,Funerary Context,0.038785713848193806,NA,4
+fc_vs_rest,Combined,17,Cueva de la Carigüela,Rest,0.9612142861518063,NA,4
+fc_vs_rest,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.06423196221653872,NA,4
+fc_vs_rest,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Rest,0.9357680377834613,NA,4
+fc_vs_rest,Combined,19,Ceprano,Funerary Context,0.038785713848193806,NA,4
+fc_vs_rest,Combined,19,Ceprano,Rest,0.9612142861518063,NA,4
+fc_vs_rest,Combined,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.16611024363493718,NA,4
+fc_vs_rest,Combined,22,Cova del Parpalló (Parpalló Cave),Rest,0.8338897563650628,NA,4
+fc_vs_rest,Combined,36,Engis / Schmerling Cave,Funerary Context,0.038785713848193806,NA,4
+fc_vs_rest,Combined,36,Engis / Schmerling Cave,Rest,0.9612142861518063,NA,4
+fc_vs_rest,Combined,39,Kleine Feldhofer Grotte,Funerary Context,0.6779782715660193,NA,4
+fc_vs_rest,Combined,39,Kleine Feldhofer Grotte,Rest,0.3220217284339807,NA,4
+fc_vs_rest,Combined,68,Trou de la Naulette,Funerary Context,0.410329005525956,NA,4
+fc_vs_rest,Combined,68,Trou de la Naulette,Rest,0.5896709944740439,NA,4
+fc_vs_rest,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.038785713848193806,NA,4
+fc_vs_rest,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Rest,0.9612142861518063,NA,4
+fc_vs_rest,Combined,92,Peștera Muierii,Funerary Context,0.0560990086527178,NA,4
+fc_vs_rest,Combined,92,Peștera Muierii,Rest,0.9439009913472822,NA,4
+fc_vs_rest,Combined,98,"Ochoz 1, Ochoz 2",Funerary Context,0.038785713848193806,NA,4
+fc_vs_rest,Combined,98,"Ochoz 1, Ochoz 2",Rest,0.9612142861518063,NA,4
+fc_vs_rest,Combined,114,Saint-Césaire,Funerary Context,0.4126991076512385,NA,4
+fc_vs_rest,Combined,114,Saint-Césaire,Rest,0.5873008923487615,NA,4
+fc_vs_rest,Combined,119,Scladina Cave,Funerary Context,0.038785713848193806,NA,4
+fc_vs_rest,Combined,119,Scladina Cave,Rest,0.9612142861518063,NA,4
+fc_vs_rest,Combined,122,Sima de los Huesos 89,Funerary Context,0.17616393693647275,NA,4
+fc_vs_rest,Combined,122,Sima de los Huesos 89,Rest,0.8238360630635272,NA,4
+fc_vs_rest,Combined,123,Sima de los Huesos 90,Funerary Context,0.17703091275704227,NA,4
+fc_vs_rest,Combined,123,Sima de los Huesos 90,Rest,0.8229690872429577,NA,4
+fc_vs_rest,Combined,124,Sima de los Huesos 95,Funerary Context,0.7629659881520164,NA,4
+fc_vs_rest,Combined,124,Sima de los Huesos 95,Rest,0.2370340118479836,NA,4
+fc_vs_rest,Combined,125,Sima de los Huesos 15,Funerary Context,0.8328163503850805,NA,4
+fc_vs_rest,Combined,125,Sima de los Huesos 15,Rest,0.16718364961491955,NA,4
+fc_vs_rest,Combined,126,Sima de los Huesos 24,Funerary Context,0.8285355508735377,NA,4
+fc_vs_rest,Combined,126,Sima de los Huesos 24,Rest,0.1714644491264623,NA,4
+fc_vs_rest,Combined,128,Spy cave,Funerary Context,0.7074447922349455,NA,4
+fc_vs_rest,Combined,128,Spy cave,Rest,0.2925552077650545,NA,4
+fc_vs_rest,Combined,129,Steinheim an der Murr,Funerary Context,0.038785713848193806,NA,4
+fc_vs_rest,Combined,129,Steinheim an der Murr,Rest,0.9612142861518063,NA,4
+fc_vs_rest,Combined,148,Weimar-Ehringsdorf,Funerary Context,0.11158891617014806,NA,4
+fc_vs_rest,Combined,148,Weimar-Ehringsdorf,Rest,0.888411083829852,NA,4
+fc_vs_rest,Combined,152,Sima de los Huesos PNAS,Funerary Context,0.819228031288092,NA,4
+fc_vs_rest,Combined,152,Sima de los Huesos PNAS,Rest,0.18077196871190795,NA,4
+fc_vs_rest,Engineered,13,Bilzingsleben,Funerary Context,0.07246350909073374,NA,4
+fc_vs_rest,Engineered,13,Bilzingsleben,Rest,0.9275364909092663,NA,4
+fc_vs_rest,Engineered,14,Bolomor Cave,Funerary Context,0.12309410904161049,NA,4
+fc_vs_rest,Engineered,14,Bolomor Cave,Rest,0.8769058909583896,NA,4
+fc_vs_rest,Engineered,17,Cueva de la Carigüela,Funerary Context,0.07246350909073374,NA,4
+fc_vs_rest,Engineered,17,Cueva de la Carigüela,Rest,0.9275364909092663,NA,4
+fc_vs_rest,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.1269062411045811,NA,4
+fc_vs_rest,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Rest,0.8730937588954188,NA,4
+fc_vs_rest,Engineered,19,Ceprano,Funerary Context,0.07246350909073374,NA,4
+fc_vs_rest,Engineered,19,Ceprano,Rest,0.9275364909092663,NA,4
+fc_vs_rest,Engineered,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.2714495115853803,NA,4
+fc_vs_rest,Engineered,22,Cova del Parpalló (Parpalló Cave),Rest,0.7285504884146197,NA,4
+fc_vs_rest,Engineered,36,Engis / Schmerling Cave,Funerary Context,0.07246350909073374,NA,4
+fc_vs_rest,Engineered,36,Engis / Schmerling Cave,Rest,0.9275364909092663,NA,4
+fc_vs_rest,Engineered,39,Kleine Feldhofer Grotte,Funerary Context,0.7672118980429604,NA,4
+fc_vs_rest,Engineered,39,Kleine Feldhofer Grotte,Rest,0.23278810195703964,NA,4
+fc_vs_rest,Engineered,68,Trou de la Naulette,Funerary Context,0.10438401482572907,NA,4
+fc_vs_rest,Engineered,68,Trou de la Naulette,Rest,0.8956159851742709,NA,4
+fc_vs_rest,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.07246350909073374,NA,4
+fc_vs_rest,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Rest,0.9275364909092663,NA,4
+fc_vs_rest,Engineered,92,Peștera Muierii,Funerary Context,0.08242805001150885,NA,4
+fc_vs_rest,Engineered,92,Peștera Muierii,Rest,0.9175719499884911,NA,4
+fc_vs_rest,Engineered,98,"Ochoz 1, Ochoz 2",Funerary Context,0.07246350909073374,NA,4
+fc_vs_rest,Engineered,98,"Ochoz 1, Ochoz 2",Rest,0.9275364909092663,NA,4
+fc_vs_rest,Engineered,114,Saint-Césaire,Funerary Context,0.31145693998718116,NA,4
+fc_vs_rest,Engineered,114,Saint-Césaire,Rest,0.6885430600128188,NA,4
+fc_vs_rest,Engineered,119,Scladina Cave,Funerary Context,0.07246350909073374,NA,4
+fc_vs_rest,Engineered,119,Scladina Cave,Rest,0.9275364909092663,NA,4
+fc_vs_rest,Engineered,122,Sima de los Huesos 89,Funerary Context,0.2234271045489729,NA,4
+fc_vs_rest,Engineered,122,Sima de los Huesos 89,Rest,0.7765728954510271,NA,4
+fc_vs_rest,Engineered,123,Sima de los Huesos 90,Funerary Context,0.26374491408757306,NA,4
+fc_vs_rest,Engineered,123,Sima de los Huesos 90,Rest,0.7362550859124269,NA,4
+fc_vs_rest,Engineered,124,Sima de los Huesos 95,Funerary Context,0.8399787902489678,NA,4
+fc_vs_rest,Engineered,124,Sima de los Huesos 95,Rest,0.16002120975103218,NA,4
+fc_vs_rest,Engineered,125,Sima de los Huesos 15,Funerary Context,0.8551085394478942,NA,4
+fc_vs_rest,Engineered,125,Sima de los Huesos 15,Rest,0.14489146055210578,NA,4
+fc_vs_rest,Engineered,126,Sima de los Huesos 24,Funerary Context,0.8577933426372015,NA,4
+fc_vs_rest,Engineered,126,Sima de los Huesos 24,Rest,0.14220665736279847,NA,4
+fc_vs_rest,Engineered,128,Spy cave,Funerary Context,0.5509963122094509,NA,4
+fc_vs_rest,Engineered,128,Spy cave,Rest,0.4490036877905491,NA,4
+fc_vs_rest,Engineered,129,Steinheim an der Murr,Funerary Context,0.07246350909073374,NA,4
+fc_vs_rest,Engineered,129,Steinheim an der Murr,Rest,0.9275364909092663,NA,4
+fc_vs_rest,Engineered,148,Weimar-Ehringsdorf,Funerary Context,0.09918193018797564,NA,4
+fc_vs_rest,Engineered,148,Weimar-Ehringsdorf,Rest,0.9008180698120244,NA,4
+fc_vs_rest,Engineered,152,Sima de los Huesos PNAS,Funerary Context,0.8146152611814053,NA,4
+fc_vs_rest,Engineered,152,Sima de los Huesos PNAS,Rest,0.18538473881859474,NA,4
+fc_vs_rest,Heip evenness only,13,Bilzingsleben,Funerary Context,0.1435912487040225,NA,4
+fc_vs_rest,Heip evenness only,13,Bilzingsleben,Rest,0.8564087512959775,NA,4
+fc_vs_rest,Heip evenness only,14,Bolomor Cave,Funerary Context,0.24195543693889862,NA,4
+fc_vs_rest,Heip evenness only,14,Bolomor Cave,Rest,0.7580445630611014,NA,4
+fc_vs_rest,Heip evenness only,17,Cueva de la Carigüela,Funerary Context,0.1435912487040225,NA,4
+fc_vs_rest,Heip evenness only,17,Cueva de la Carigüela,Rest,0.8564087512959775,NA,4
+fc_vs_rest,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.14375845354918532,NA,4
+fc_vs_rest,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Rest,0.8562415464508146,NA,4
+fc_vs_rest,Heip evenness only,19,Ceprano,Funerary Context,0.1435912487040225,NA,4
+fc_vs_rest,Heip evenness only,19,Ceprano,Rest,0.8564087512959775,NA,4
+fc_vs_rest,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.30091749940375606,NA,4
+fc_vs_rest,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),Rest,0.699082500596244,NA,4
+fc_vs_rest,Heip evenness only,36,Engis / Schmerling Cave,Funerary Context,0.1435912487040225,NA,4
+fc_vs_rest,Heip evenness only,36,Engis / Schmerling Cave,Rest,0.8564087512959775,NA,4
+fc_vs_rest,Heip evenness only,39,Kleine Feldhofer Grotte,Funerary Context,0.3791769709756647,NA,4
+fc_vs_rest,Heip evenness only,39,Kleine Feldhofer Grotte,Rest,0.6208230290243353,NA,4
+fc_vs_rest,Heip evenness only,68,Trou de la Naulette,Funerary Context,0.16071486602123894,NA,4
+fc_vs_rest,Heip evenness only,68,Trou de la Naulette,Rest,0.839285133978761,NA,4
+fc_vs_rest,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.1435912487040225,NA,4
+fc_vs_rest,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Rest,0.8564087512959775,NA,4
+fc_vs_rest,Heip evenness only,92,Peștera Muierii,Funerary Context,0.2327027140138418,NA,4
+fc_vs_rest,Heip evenness only,92,Peștera Muierii,Rest,0.7672972859861582,NA,4
+fc_vs_rest,Heip evenness only,98,"Ochoz 1, Ochoz 2",Funerary Context,0.1435912487040225,NA,4
+fc_vs_rest,Heip evenness only,98,"Ochoz 1, Ochoz 2",Rest,0.8564087512959775,NA,4
+fc_vs_rest,Heip evenness only,114,Saint-Césaire,Funerary Context,0.30874897864109324,NA,4
+fc_vs_rest,Heip evenness only,114,Saint-Césaire,Rest,0.6912510213589067,NA,4
+fc_vs_rest,Heip evenness only,119,Scladina Cave,Funerary Context,0.1435912487040225,NA,4
+fc_vs_rest,Heip evenness only,119,Scladina Cave,Rest,0.8564087512959775,NA,4
+fc_vs_rest,Heip evenness only,122,Sima de los Huesos 89,Funerary Context,0.36551274462005434,NA,4
+fc_vs_rest,Heip evenness only,122,Sima de los Huesos 89,Rest,0.6344872553799457,NA,4
+fc_vs_rest,Heip evenness only,123,Sima de los Huesos 90,Funerary Context,0.45110371497494706,NA,4
+fc_vs_rest,Heip evenness only,123,Sima de los Huesos 90,Rest,0.5488962850250529,NA,4
+fc_vs_rest,Heip evenness only,124,Sima de los Huesos 95,Funerary Context,0.6173809452948533,NA,4
+fc_vs_rest,Heip evenness only,124,Sima de los Huesos 95,Rest,0.3826190547051467,NA,4
+fc_vs_rest,Heip evenness only,125,Sima de los Huesos 15,Funerary Context,0.827500644948373,NA,4
+fc_vs_rest,Heip evenness only,125,Sima de los Huesos 15,Rest,0.172499355051627,NA,4
+fc_vs_rest,Heip evenness only,126,Sima de los Huesos 24,Funerary Context,0.7744373108365196,NA,4
+fc_vs_rest,Heip evenness only,126,Sima de los Huesos 24,Rest,0.22556268916348043,NA,4
+fc_vs_rest,Heip evenness only,128,Spy cave,Funerary Context,0.44941916714729724,NA,4
+fc_vs_rest,Heip evenness only,128,Spy cave,Rest,0.5505808328527028,NA,4
+fc_vs_rest,Heip evenness only,129,Steinheim an der Murr,Funerary Context,0.1435912487040225,NA,4
+fc_vs_rest,Heip evenness only,129,Steinheim an der Murr,Rest,0.8564087512959775,NA,4
+fc_vs_rest,Heip evenness only,148,Weimar-Ehringsdorf,Funerary Context,0.16117753003715354,NA,4
+fc_vs_rest,Heip evenness only,148,Weimar-Ehringsdorf,Rest,0.8388224699628465,NA,4
+fc_vs_rest,Heip evenness only,152,Sima de los Huesos PNAS,Funerary Context,0.6063160098979071,NA,4
+fc_vs_rest,Heip evenness only,152,Sima de los Huesos PNAS,Rest,0.3936839901020929,NA,4
+fc_vs_rest,ReMNAU raw,13,Bilzingsleben,Funerary Context,0.06276755151752446,NA,4
+fc_vs_rest,ReMNAU raw,13,Bilzingsleben,Rest,0.9372324484824756,NA,4
+fc_vs_rest,ReMNAU raw,14,Bolomor Cave,Funerary Context,0.06239934267517847,NA,4
+fc_vs_rest,ReMNAU raw,14,Bolomor Cave,Rest,0.9376006573248215,NA,4
+fc_vs_rest,ReMNAU raw,17,Cueva de la Carigüela,Funerary Context,0.06276755151752446,NA,4
+fc_vs_rest,ReMNAU raw,17,Cueva de la Carigüela,Rest,0.9372324484824756,NA,4
+fc_vs_rest,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Funerary Context,0.06508695748681834,NA,4
+fc_vs_rest,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Rest,0.9349130425131816,NA,4
+fc_vs_rest,ReMNAU raw,19,Ceprano,Funerary Context,0.06276755151752446,NA,4
+fc_vs_rest,ReMNAU raw,19,Ceprano,Rest,0.9372324484824756,NA,4
+fc_vs_rest,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),Funerary Context,0.11781344993118792,NA,4
+fc_vs_rest,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),Rest,0.8821865500688121,NA,4
+fc_vs_rest,ReMNAU raw,36,Engis / Schmerling Cave,Funerary Context,0.06276755151752446,NA,4
+fc_vs_rest,ReMNAU raw,36,Engis / Schmerling Cave,Rest,0.9372324484824756,NA,4
+fc_vs_rest,ReMNAU raw,39,Kleine Feldhofer Grotte,Funerary Context,0.672475965051174,NA,4
+fc_vs_rest,ReMNAU raw,39,Kleine Feldhofer Grotte,Rest,0.3275240349488259,NA,4
+fc_vs_rest,ReMNAU raw,68,Trou de la Naulette,Funerary Context,0.645637804298099,NA,4
+fc_vs_rest,ReMNAU raw,68,Trou de la Naulette,Rest,0.354362195701901,NA,4
+fc_vs_rest,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Funerary Context,0.06276755151752446,NA,4
+fc_vs_rest,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Rest,0.9372324484824756,NA,4
+fc_vs_rest,ReMNAU raw,92,Peștera Muierii,Funerary Context,0.12469577819554117,NA,4
+fc_vs_rest,ReMNAU raw,92,Peștera Muierii,Rest,0.8753042218044589,NA,4
+fc_vs_rest,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Funerary Context,0.06276755151752446,NA,4
+fc_vs_rest,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Rest,0.9372324484824756,NA,4
+fc_vs_rest,ReMNAU raw,114,Saint-Césaire,Funerary Context,0.6581331877152976,NA,4
+fc_vs_rest,ReMNAU raw,114,Saint-Césaire,Rest,0.3418668122847024,NA,4
+fc_vs_rest,ReMNAU raw,119,Scladina Cave,Funerary Context,0.06276755151752446,NA,4
+fc_vs_rest,ReMNAU raw,119,Scladina Cave,Rest,0.9372324484824756,NA,4
+fc_vs_rest,ReMNAU raw,122,Sima de los Huesos 89,Funerary Context,0.5005123043825642,NA,4
+fc_vs_rest,ReMNAU raw,122,Sima de los Huesos 89,Rest,0.4994876956174358,NA,4
+fc_vs_rest,ReMNAU raw,123,Sima de los Huesos 90,Funerary Context,0.3485243896809402,NA,4
+fc_vs_rest,ReMNAU raw,123,Sima de los Huesos 90,Rest,0.6514756103190598,NA,4
+fc_vs_rest,ReMNAU raw,124,Sima de los Huesos 95,Funerary Context,0.5476066694896401,NA,4
+fc_vs_rest,ReMNAU raw,124,Sima de los Huesos 95,Rest,0.4523933305103599,NA,4
+fc_vs_rest,ReMNAU raw,125,Sima de los Huesos 15,Funerary Context,0.7533047187222854,NA,4
+fc_vs_rest,ReMNAU raw,125,Sima de los Huesos 15,Rest,0.24669528127771453,NA,4
+fc_vs_rest,ReMNAU raw,126,Sima de los Huesos 24,Funerary Context,0.742280330479108,NA,4
+fc_vs_rest,ReMNAU raw,126,Sima de los Huesos 24,Rest,0.257719669520892,NA,4
+fc_vs_rest,ReMNAU raw,128,Spy cave,Funerary Context,0.7397934378749909,NA,4
+fc_vs_rest,ReMNAU raw,128,Spy cave,Rest,0.26020656212500914,NA,4
+fc_vs_rest,ReMNAU raw,129,Steinheim an der Murr,Funerary Context,0.06276755151752446,NA,4
+fc_vs_rest,ReMNAU raw,129,Steinheim an der Murr,Rest,0.9372324484824756,NA,4
+fc_vs_rest,ReMNAU raw,148,Weimar-Ehringsdorf,Funerary Context,0.33140230356943073,NA,4
+fc_vs_rest,ReMNAU raw,148,Weimar-Ehringsdorf,Rest,0.6685976964305693,NA,4
+fc_vs_rest,ReMNAU raw,152,Sima de los Huesos PNAS,Funerary Context,0.7715845246404678,NA,4
+fc_vs_rest,ReMNAU raw,152,Sima de los Huesos PNAS,Rest,0.22841547535953224,NA,4

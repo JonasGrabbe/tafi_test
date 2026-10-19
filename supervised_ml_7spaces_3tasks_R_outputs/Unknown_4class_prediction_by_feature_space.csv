@@ -1,0 +1,162 @@
+record_id,site_name,feature_space,predicted_class,predicted_probability
+13,Bilzingsleben,%MNAU raw,Geological transport,0.601610193110192
+13,Bilzingsleben,C + Heip evenness,Geological transport,0.569849172222094
+13,Bilzingsleben,C only,Geological transport,0.5356658828410241
+13,Bilzingsleben,Combined,Geological transport,0.663231950146809
+13,Bilzingsleben,Engineered,Geological transport,0.6320267053790711
+13,Bilzingsleben,Heip evenness only,Geological transport,0.4619151267544396
+13,Bilzingsleben,ReMNAU raw,Geological transport,0.6419545300676146
+14,Bolomor Cave,%MNAU raw,Carnivore,0.5582929237196116
+14,Bolomor Cave,C + Heip evenness,Carnivore,0.39598131841458256
+14,Bolomor Cave,C only,Cannibalism,0.39836418631346543
+14,Bolomor Cave,Combined,Carnivore,0.4930545809286812
+14,Bolomor Cave,Engineered,Carnivore,0.4908782605601932
+14,Bolomor Cave,Heip evenness only,Cannibalism,0.3303567738061157
+14,Bolomor Cave,ReMNAU raw,Geological transport,0.5543914472440993
+17,Cueva de la Carigüela,%MNAU raw,Geological transport,0.601610193110192
+17,Cueva de la Carigüela,C + Heip evenness,Geological transport,0.569849172222094
+17,Cueva de la Carigüela,C only,Geological transport,0.5356658828410241
+17,Cueva de la Carigüela,Combined,Geological transport,0.663231950146809
+17,Cueva de la Carigüela,Engineered,Geological transport,0.6320267053790711
+17,Cueva de la Carigüela,Heip evenness only,Geological transport,0.4619151267544396
+17,Cueva de la Carigüela,ReMNAU raw,Geological transport,0.6419545300676146
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",%MNAU raw,Geological transport,0.5494354734442436
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",C + Heip evenness,Geological transport,0.5892315311202423
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",C only,Geological transport,0.5356702411335078
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Combined,Geological transport,0.6067612281478004
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Engineered,Geological transport,0.5743196000475371
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Heip evenness only,Geological transport,0.6016364063362128
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",ReMNAU raw,Geological transport,0.5971659304012356
+19,Ceprano,%MNAU raw,Geological transport,0.601610193110192
+19,Ceprano,C + Heip evenness,Geological transport,0.569849172222094
+19,Ceprano,C only,Geological transport,0.5356658828410241
+19,Ceprano,Combined,Geological transport,0.663231950146809
+19,Ceprano,Engineered,Geological transport,0.6320267053790711
+19,Ceprano,Heip evenness only,Geological transport,0.4619151267544396
+19,Ceprano,ReMNAU raw,Geological transport,0.6419545300676146
+22,Cova del Parpalló (Parpalló Cave),%MNAU raw,Cannibalism,0.3730830929637431
+22,Cova del Parpalló (Parpalló Cave),C + Heip evenness,Cannibalism,0.547879592843036
+22,Cova del Parpalló (Parpalló Cave),C only,Cannibalism,0.6798074457748562
+22,Cova del Parpalló (Parpalló Cave),Combined,Carnivore,0.47788348676816433
+22,Cova del Parpalló (Parpalló Cave),Engineered,Cannibalism,0.4176982102802059
+22,Cova del Parpalló (Parpalló Cave),Heip evenness only,Cannibalism,0.4809019289513245
+22,Cova del Parpalló (Parpalló Cave),ReMNAU raw,Carnivore,0.6244644488559228
+36,Engis / Schmerling Cave,%MNAU raw,Geological transport,0.601610193110192
+36,Engis / Schmerling Cave,C + Heip evenness,Geological transport,0.569849172222094
+36,Engis / Schmerling Cave,C only,Geological transport,0.5356658828410241
+36,Engis / Schmerling Cave,Combined,Geological transport,0.663231950146809
+36,Engis / Schmerling Cave,Engineered,Geological transport,0.6320267053790711
+36,Engis / Schmerling Cave,Heip evenness only,Geological transport,0.4619151267544396
+36,Engis / Schmerling Cave,ReMNAU raw,Geological transport,0.6419545300676146
+39,Kleine Feldhofer Grotte,%MNAU raw,Funerary Context,0.5339962977695237
+39,Kleine Feldhofer Grotte,C + Heip evenness,Funerary Context,0.4860267203865637
+39,Kleine Feldhofer Grotte,C only,Funerary Context,0.5695492846023364
+39,Kleine Feldhofer Grotte,Combined,Funerary Context,0.5673884682147678
+39,Kleine Feldhofer Grotte,Engineered,Funerary Context,0.6431548675251026
+39,Kleine Feldhofer Grotte,Heip evenness only,Cannibalism,0.5887465623385961
+39,Kleine Feldhofer Grotte,ReMNAU raw,Funerary Context,0.5533763080903846
+68,Trou de la Naulette,%MNAU raw,Carnivore,0.6147706799420708
+68,Trou de la Naulette,C + Heip evenness,Carnivore,0.4930458156986047
+68,Trou de la Naulette,C only,Cannibalism,0.487209515125941
+68,Trou de la Naulette,Combined,Carnivore,0.3693255139703237
+68,Trou de la Naulette,Engineered,Carnivore,0.6716638857507986
+68,Trou de la Naulette,Heip evenness only,Carnivore,0.6434935135957071
+68,Trou de la Naulette,ReMNAU raw,Funerary Context,0.6084099217242479
+80,"Cova de les Malladetes (Barx, Valencia, Spain)",%MNAU raw,Geological transport,0.601610193110192
+80,"Cova de les Malladetes (Barx, Valencia, Spain)",C + Heip evenness,Geological transport,0.569849172222094
+80,"Cova de les Malladetes (Barx, Valencia, Spain)",C only,Geological transport,0.5356658828410241
+80,"Cova de les Malladetes (Barx, Valencia, Spain)",Combined,Geological transport,0.663231950146809
+80,"Cova de les Malladetes (Barx, Valencia, Spain)",Engineered,Geological transport,0.6320267053790711
+80,"Cova de les Malladetes (Barx, Valencia, Spain)",Heip evenness only,Geological transport,0.4619151267544396
+80,"Cova de les Malladetes (Barx, Valencia, Spain)",ReMNAU raw,Geological transport,0.6419545300676146
+92,Peștera Muierii,%MNAU raw,Geological transport,0.5093096882549834
+92,Peștera Muierii,C + Heip evenness,Geological transport,0.43286022935554713
+92,Peștera Muierii,C only,Cannibalism,0.39313768289779005
+92,Peștera Muierii,Combined,Geological transport,0.4064049183740914
+92,Peștera Muierii,Engineered,Geological transport,0.498065182589855
+92,Peștera Muierii,Heip evenness only,Cannibalism,0.3503643639549599
+92,Peștera Muierii,ReMNAU raw,Cannibalism,0.49732686544999555
+98,"Ochoz 1, Ochoz 2",%MNAU raw,Geological transport,0.601610193110192
+98,"Ochoz 1, Ochoz 2",C + Heip evenness,Geological transport,0.569849172222094
+98,"Ochoz 1, Ochoz 2",C only,Geological transport,0.5356658828410241
+98,"Ochoz 1, Ochoz 2",Combined,Geological transport,0.663231950146809
+98,"Ochoz 1, Ochoz 2",Engineered,Geological transport,0.6320267053790711
+98,"Ochoz 1, Ochoz 2",Heip evenness only,Geological transport,0.4619151267544396
+98,"Ochoz 1, Ochoz 2",ReMNAU raw,Geological transport,0.6419545300676146
+114,Saint-Césaire,%MNAU raw,Cannibalism,0.382790881309383
+114,Saint-Césaire,C + Heip evenness,Funerary Context,0.35546396007452463
+114,Saint-Césaire,C only,Funerary Context,0.5845894765116528
+114,Saint-Césaire,Combined,Cannibalism,0.3489048722425304
+114,Saint-Césaire,Engineered,Geological transport,0.34706529165798805
+114,Saint-Césaire,Heip evenness only,Cannibalism,0.4753582070876178
+114,Saint-Césaire,ReMNAU raw,Funerary Context,0.5899904682472236
+119,Scladina Cave,%MNAU raw,Geological transport,0.601610193110192
+119,Scladina Cave,C + Heip evenness,Geological transport,0.569849172222094
+119,Scladina Cave,C only,Geological transport,0.5356658828410241
+119,Scladina Cave,Combined,Geological transport,0.663231950146809
+119,Scladina Cave,Engineered,Geological transport,0.6320267053790711
+119,Scladina Cave,Heip evenness only,Geological transport,0.4619151267544396
+119,Scladina Cave,ReMNAU raw,Geological transport,0.6419545300676146
+122,Sima de los Huesos 89,%MNAU raw,Cannibalism,0.5076949385976286
+122,Sima de los Huesos 89,C + Heip evenness,Cannibalism,0.46240836824631704
+122,Sima de los Huesos 89,C only,Geological transport,0.5356994488985093
+122,Sima de los Huesos 89,Combined,Cannibalism,0.7062749308173852
+122,Sima de los Huesos 89,Engineered,Cannibalism,0.5831668652454313
+122,Sima de los Huesos 89,Heip evenness only,Cannibalism,0.4096590120557192
+122,Sima de los Huesos 89,ReMNAU raw,Cannibalism,0.4852485813790721
+123,Sima de los Huesos 90,%MNAU raw,Cannibalism,0.5030735526989379
+123,Sima de los Huesos 90,C + Heip evenness,Cannibalism,0.6855184236152891
+123,Sima de los Huesos 90,C only,Cannibalism,0.6598907631080191
+123,Sima de los Huesos 90,Combined,Cannibalism,0.723780090684058
+123,Sima de los Huesos 90,Engineered,Cannibalism,0.6599384016419715
+123,Sima de los Huesos 90,Heip evenness only,Cannibalism,0.46867348862641184
+123,Sima de los Huesos 90,ReMNAU raw,Cannibalism,0.6357691111862004
+124,Sima de los Huesos 95,%MNAU raw,Funerary Context,0.5375038517203912
+124,Sima de los Huesos 95,C + Heip evenness,Funerary Context,0.5895174231736567
+124,Sima de los Huesos 95,C only,Funerary Context,0.7018482156420682
+124,Sima de los Huesos 95,Combined,Funerary Context,0.6409181070318117
+124,Sima de los Huesos 95,Engineered,Funerary Context,0.7632889900886046
+124,Sima de los Huesos 95,Heip evenness only,Cannibalism,0.44805387278117037
+124,Sima de los Huesos 95,ReMNAU raw,Cannibalism,0.4919617579469014
+125,Sima de los Huesos 15,%MNAU raw,Funerary Context,0.6198635921455046
+125,Sima de los Huesos 15,C + Heip evenness,Funerary Context,0.6288879973065247
+125,Sima de los Huesos 15,C only,Funerary Context,0.5570984743415058
+125,Sima de los Huesos 15,Combined,Funerary Context,0.7520736794903111
+125,Sima de los Huesos 15,Engineered,Funerary Context,0.7897745642494649
+125,Sima de los Huesos 15,Heip evenness only,Funerary Context,0.7105482512905109
+125,Sima de los Huesos 15,ReMNAU raw,Funerary Context,0.6785670052527077
+126,Sima de los Huesos 24,%MNAU raw,Funerary Context,0.5985700878324836
+126,Sima de los Huesos 24,C + Heip evenness,Funerary Context,0.6070883605379501
+126,Sima de los Huesos 24,C only,Funerary Context,0.5146812429483266
+126,Sima de los Huesos 24,Combined,Funerary Context,0.7469907552242813
+126,Sima de los Huesos 24,Engineered,Funerary Context,0.782797882526852
+126,Sima de los Huesos 24,Heip evenness only,Funerary Context,0.664825403197653
+126,Sima de los Huesos 24,ReMNAU raw,Funerary Context,0.6598457412989397
+128,Spy cave,%MNAU raw,Funerary Context,0.7159647499891626
+128,Spy cave,C + Heip evenness,Funerary Context,0.6523106612932692
+128,Spy cave,C only,Funerary Context,0.769973115119642
+128,Spy cave,Combined,Funerary Context,0.6231332120333072
+128,Spy cave,Engineered,Cannibalism,0.45800791438006694
+128,Spy cave,Heip evenness only,Cannibalism,0.5003208423074408
+128,Spy cave,ReMNAU raw,Funerary Context,0.6750247468799231
+129,Steinheim an der Murr,%MNAU raw,Geological transport,0.601610193110192
+129,Steinheim an der Murr,C + Heip evenness,Geological transport,0.569849172222094
+129,Steinheim an der Murr,C only,Geological transport,0.5356658828410241
+129,Steinheim an der Murr,Combined,Geological transport,0.663231950146809
+129,Steinheim an der Murr,Engineered,Geological transport,0.6320267053790711
+129,Steinheim an der Murr,Heip evenness only,Geological transport,0.4619151267544396
+129,Steinheim an der Murr,ReMNAU raw,Geological transport,0.6419545300676146
+148,Weimar-Ehringsdorf,%MNAU raw,Geological transport,0.3688608307424127
+148,Weimar-Ehringsdorf,C + Heip evenness,Cannibalism,0.38766288490191975
+148,Weimar-Ehringsdorf,C only,Cannibalism,0.6779242424759926
+148,Weimar-Ehringsdorf,Combined,Cannibalism,0.5329503136414618
+148,Weimar-Ehringsdorf,Engineered,Cannibalism,0.42235300449199936
+148,Weimar-Ehringsdorf,Heip evenness only,Carnivore,0.6678737063649197
+148,Weimar-Ehringsdorf,ReMNAU raw,Cannibalism,0.6206591968408381
+152,Sima de los Huesos PNAS,%MNAU raw,Funerary Context,0.6177901264021973
+152,Sima de los Huesos PNAS,C + Heip evenness,Funerary Context,0.6505657347830791
+152,Sima de los Huesos PNAS,C only,Funerary Context,0.7108483735318505
+152,Sima de los Huesos PNAS,Combined,Funerary Context,0.7207941056418137
+152,Sima de los Huesos PNAS,Engineered,Funerary Context,0.7162921477113826
+152,Sima de los Huesos PNAS,Heip evenness only,Funerary Context,0.4710324434984957
+152,Sima de los Huesos PNAS,ReMNAU raw,Funerary Context,0.7113043371847488

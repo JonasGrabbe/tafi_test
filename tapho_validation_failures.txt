@@ -1,0 +1,62 @@
+TAPHO.LOADER VALIDATION FAILURE LOG
+Generated: 2026-10-04 21:08:46.815452
+Loader: tapho_loader_new.R
+Excel: hspa.xlsx
+MASTER_SEED: 123
+N_RANDOM: 5
+RANDOM_MODES: indet_TRUE, FALSE_delete, FALSE_up, FALSE_dist
+
+============================================================
+TEST: 33_auto_level_min_FALSE_up
+GROUP: fixed
+MODE: fixed
+SEED: 156
+LEVEL: NULL
+DESCRIPTION: Automatic level calculation combined with indet_method = up.
+
+ERROR: 'target_level' must be provided for method = 'direct'
+ERROR CALL: recal_mne_selected_data(data, method = method, target_level = level)
+LIKELY BUG: UNCLASSIFIED
+LIKELY FILE: inspect captured error / call stack
+LIKELY LOCATION: unknown
+SUGGESTION: Use error_call and call_stack from the diagnostic report.
+
+CALL STACK:
+source("c:/Users/jonas.grabbe/tafi_test-2/tapho_loader_final_validation_suite.R")
+withVisible(eval(ei, envir))
+eval(ei, envir)
+eval(ei, envir)
+run_one_test(test_name = test_i$name, description = test_i$description, args = test_i$args, seed = MASTER_SEED + original_index, test_group = "fixed", mode = "fixed")
+withCallingHandlers(tryCatch({     db <- do.call(tapho.loader, c(list(data = EXCEL_PATH), args))     list(success = TRUE, error = NA_character_, error_call = NA_character_, call_stack = NA_character_, db = if (KEEP_SUCCESSFUL_DB) db else NULL) }, error = function(e) {     calls <- sys.calls()     stack_txt <- paste(vapply(calls, function(z) paste(deparse(z, width.cutoff = 500L), collapse = " "), character(1)), collapse = "\n")     call_txt <- if (is.null(conditionCall(e))) {         NA_character_     }     else {         paste(deparse(conditionCall(e), width.cutoff = 500L), collapse = " ")     }     list(success = FALSE, error = conditionMessage(e), error_call = call_txt, call_stack = stack_txt, db = NULL) }), warning = function(w) {     warnings_here <<- c(warnings_here, conditionMessage(w))     invokeRestart("muffleWarning") })
+tryCatch({     db <- do.call(tapho.loader, c(list(data = EXCEL_PATH), args))     list(success = TRUE, error = NA_character_, error_call = NA_character_, call_stack = NA_character_, db = if (KEEP_SUCCESSFUL_DB) db else NULL) }, error = function(e) {     calls <- sys.calls()     stack_txt <- paste(vapply(calls, function(z) paste(deparse(z, width.cutoff = 500L), collapse = " "), character(1)), collapse = "\n")     call_txt <- if (is.null(conditionCall(e))) {         NA_character_     }     else {         paste(deparse(conditionCall(e), width.cutoff = 500L), collapse = " ")     }     list(success = FALSE, error = conditionMessage(e), error_call = call_txt, call_stack = stack_txt, db = NULL) })
+tryCatchList(expr, classes, parentenv, handlers)
+tryCatchOne(expr, names, parentenv, handlers[[1L]])
+value[[3L]](cond)
+
+============================================================
+TEST: 34_auto_level_mode_FALSE_dist
+GROUP: fixed
+MODE: fixed
+SEED: 157
+LEVEL: NULL
+DESCRIPTION: Automatic level calculation combined with stochastic distribution.
+
+ERROR: 'target_level' must be provided for method = 'direct'
+ERROR CALL: recal_mne_selected_data(data, method = method, target_level = level)
+LIKELY BUG: UNCLASSIFIED
+LIKELY FILE: inspect captured error / call stack
+LIKELY LOCATION: unknown
+SUGGESTION: Use error_call and call_stack from the diagnostic report.
+
+CALL STACK:
+source("c:/Users/jonas.grabbe/tafi_test-2/tapho_loader_final_validation_suite.R")
+withVisible(eval(ei, envir))
+eval(ei, envir)
+eval(ei, envir)
+run_one_test(test_name = test_i$name, description = test_i$description, args = test_i$args, seed = MASTER_SEED + original_index, test_group = "fixed", mode = "fixed")
+withCallingHandlers(tryCatch({     db <- do.call(tapho.loader, c(list(data = EXCEL_PATH), args))     list(success = TRUE, error = NA_character_, error_call = NA_character_, call_stack = NA_character_, db = if (KEEP_SUCCESSFUL_DB) db else NULL) }, error = function(e) {     calls <- sys.calls()     stack_txt <- paste(vapply(calls, function(z) paste(deparse(z, width.cutoff = 500L), collapse = " "), character(1)), collapse = "\n")     call_txt <- if (is.null(conditionCall(e))) {         NA_character_     }     else {         paste(deparse(conditionCall(e), width.cutoff = 500L), collapse = " ")     }     list(success = FALSE, error = conditionMessage(e), error_call = call_txt, call_stack = stack_txt, db = NULL) }), warning = function(w) {     warnings_here <<- c(warnings_here, conditionMessage(w))     invokeRestart("muffleWarning") })
+tryCatch({     db <- do.call(tapho.loader, c(list(data = EXCEL_PATH), args))     list(success = TRUE, error = NA_character_, error_call = NA_character_, call_stack = NA_character_, db = if (KEEP_SUCCESSFUL_DB) db else NULL) }, error = function(e) {     calls <- sys.calls()     stack_txt <- paste(vapply(calls, function(z) paste(deparse(z, width.cutoff = 500L), collapse = " "), character(1)), collapse = "\n")     call_txt <- if (is.null(conditionCall(e))) {         NA_character_     }     else {         paste(deparse(conditionCall(e), width.cutoff = 500L), collapse = " ")     }     list(success = FALSE, error = conditionMessage(e), error_call = call_txt, call_stack = stack_txt, db = NULL) })
+tryCatchList(expr, classes, parentenv, handlers)
+tryCatchOne(expr, names, parentenv, handlers[[1L]])
+value[[3L]](cond)
+

@@ -1,0 +1,1690 @@
+sum,unit_type,calc_level,unit_index,unit_id,site_id,site_name,individual_id,ind_name,cranium,teeth,hyoid,vertebrae,thorax,shoulder,arms,hands,pelvic,legs,foot
+FALSE,record/sample,min,1,1 | 1_1 | Abri Pataud I,1,Abri Pataud,1_1,Abri Pataud I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,2,1 | 1_2 | Abri Pataud II,1,Abri Pataud,1_2,Abri Pataud II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,3,1 | 1_3 | Abri Pataud III,1,Abri Pataud,1_3,Abri Pataud III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,4,1 | 1_4 | Abri Pataud IV,1,Abri Pataud,1_4,Abri Pataud IV,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,5,1 | 1_5 | Abri Pataud V,1,Abri Pataud,1_5,Abri Pataud V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,6,1 | 1_6 | Abri Pataud VI,1,Abri Pataud,1_6,Abri Pataud VI,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,7,2 | 2_0 | Aie Zelai,2,Aie Zelai,2_0,Aie Zelai,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,8,3 | 3_0 | Aitzgaizto,3,Aitzgaizto,3_0,Aitzgaizto,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,9,4 | 4_0 | Allekoaitze,4,Allekoaitze,4_0,Allekoaitze,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,10,5 | 5_1 | Amud I,5,Amud Cave,5_1,Amud I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,11,5 | 5_2 | Amud VII,5,Amud Cave,5_2,Amud VII,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,12,5 | 5_3 | Amud IX,5,Amud Cave,5_3,Amud IX,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,13,6 | 6_1 | Gs1,6,Arago,6_1,Gs1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,14,6 | 6_2 | Gs1_2,6,Arago,6_2,Gs1_2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,15,6 | 6_3 | Gm2...4,6,Arago,6_3,Gm2...4,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,16,6 | 6_4 | Gm2...5,6,Arago,6_4,Gm2...5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,17,6 | 6_5 | Gm3...6,6,Arago,6_5,Gm3...6,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,18,6 | 6_6 | Gm3...7,6,Arago,6_6,Gm3...7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,19,6 | 6_7 | Gi4...8,6,Arago,6_7,Gi4...8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,20,6 | 6_8 | Gi4...9,6,Arago,6_8,Gi4...9,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,21,6 | 6_9 | Fm3,6,Arago,6_9,Fm3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,22,6 | 6_10 | Fm4,6,Arago,6_10,Fm4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,23,6 | 6_11 | Fi,6,Arago,6_11,Fi,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,24,7 | 7_0 | Arbelaitz,7,Arbelaitz,7_0,Arbelaitz,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,25,8 | 8_0 | Archi,8,Archi,8_0,Archi,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,26,9 | 9_1 | Atxuri I adults,9,Atxuri-I Cave,9_1,Atxuri I adults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,27,9 | 9_2 | Atxuri I subadults,9,Atxuri-I Cave,9_2,Atxuri I subadults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,28,10 | 10_1 | Bauo da Torre I,10,Baousso da Torre (Bausu da Ture),10_1,Bauo da Torre I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,29,10 | 10_2 | Bauo da Torre II,10,Baousso da Torre (Bausu da Ture),10_2,Bauo da Torre II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,30,11 | 11_0 | Belako Arkaitza 1,11,Belako Arkaitza 1,11_0,Belako Arkaitza 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,31,12 | 12_0 | Beondegi II,12,Beondegi II,12_0,Beondegi II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,32,13 | 13_0 | Bilzingsleben,13,Bilzingsleben,13_0,Bilzingsleben,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,33,14 | 14_0 | Bolomor IV-VI,14,Bolomor Cave,14_0,Bolomor IV-VI,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,34,15 | 15_0 | Brillenhöhle,15,Brillenhöhle,15_0,Brillenhöhle,3,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,35,16 | 16_0 | Brno II,16,Brno II,16_0,Brno II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,36,17 | 17_0 | Carihuela,17,Cueva de la Carigüela,17_0,Carihuela,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,37,18 | 18_1 | CdF Adult,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",18_1,CdF Adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,38,18 | 18_2 | CdF Juvenil,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",18_2,CdF Juvenil,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,39,19 | 19_0 | Ceprano,19,Ceprano,19_0,Ceprano,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,40,20 | 20_0 | Chancelade,20,Abri de Raymonden (Chancelade),20_0,Chancelade,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,41,21 | 21_0 | Combe Grenal,21,Combe Grenal,21_0,Combe Grenal,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,42,22 | 22_2 | Parpallo juvenil,22,Cova del Parpalló (Parpalló Cave),22_2,Parpallo juvenil,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,43,22 | 22_2 | Parpallo adult,22,Cova del Parpalló (Parpalló Cave),22_2,Parpallo adult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,44,23 | 23_0 | Cova Gran de Sta Linya,23,Cova Gran de Santa Linya,23_0,Cova Gran de Sta Linya,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,45,24 | 24_0 | Cro-Magnon I-II,24,Cro-Magnon I,24_0,Cro-Magnon I-II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,46,25 | 25_1 | Crow Creek adult,25,Crow Creek,25_1,Crow Creek adult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,47,25 | 25_2 | Crow Creek subadult,25,Crow Creek,25_2,Crow Creek subadult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,48,26 | 26_0 | Cueva de la Buena Pinta,26,Cueva de la Buena Pinta,26_0,Cueva de la Buena Pinta,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,49,27 | 27_0 | Cueva del Camino,27,Cueva del Camino,27_0,Cueva del Camino,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,50,28 | 28_0 | Dali Tianshuigou,28,Dali Tianshuigou,28_0,Dali Tianshuigou,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,51,29 | NA_individual | Dame du Cavillon,29,Dame du Cavillon,NA,Dame du Cavillon,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,52,30 | 30_1 | DV 13,30,Dolní Věstonice II,30_1,DV 13,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,53,30 | 30_2 | DV 14,30,Dolní Věstonice II,30_2,DV 14,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,54,30 | 30_3 | DV 15,30,Dolní Věstonice II,30_3,DV 15,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,55,30 | 30_4 | DV 16,30,Dolní Věstonice II,30_4,DV 16,5,5,1,3,4,3,3,3,3,2,5
+FALSE,record/sample,min,56,31 | 31_0 | Dolní Věstonice DV3,31,Dolní Věstonice I,31_0,Dolní Věstonice DV3,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,57,32 | 32_0 | El Espinoso,32,El Espinoso Cave,32_0,El Espinoso,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,58,33 | 33_0 | El Mirador MIR4,33,El Mirador,33_0,El Mirador MIR4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,59,34 | 34_0 | El Mirón Cave,34,El Mirón Cave,34_0,El Mirón Cave,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,60,35 | 35_0 | El Sidrón J1,35,El Sidrón J1,35_0,El Sidrón J1,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,61,36 | 36_0 | Engis 2,36,Engis / Schmerling Cave,36_0,Engis 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,62,37 | 37_0 | Erlaitz,37,Erlaitz,37_0,Erlaitz,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,63,38 | 38_0 | Errtxorta,38,Errtxorta,38_0,Errtxorta,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,64,39 | 39_0 | Feldhofer Grotte,39,Kleine Feldhofer Grotte,39_0,Feldhofer Grotte,5,5,1,3,2,3,3,5,2,3,5
+FALSE,record/sample,min,65,40 | 40_0 | Fondbregua H1,40,Grotte de Fontbrégoua,40_0,Fondbregua H1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,66,41 | 41_0 | Fondbregua H3,41,Grotte de Fontbrégoua,41_0,Fondbregua H3,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,67,42 | 42_0 | Fonds-de-Forêt,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),42_0,Fonds-de-Forêt,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,68,43 | 43_0 | Foradada Cremated,43,Cova Foradada,43_0,Foradada Cremated,5,5,1,3,4,3,3,5,2,3,3
+FALSE,record/sample,min,69,44 | 44_0 | Foradada Collectiv Burial,44,Cova Foradada,44_0,Foradada Collectiv Burial,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,70,45 | 45_1 | Gegant  I,45,Cova del Gegant,45_1,Gegant  I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,71,45 | 45_2 | Gegant  II,45,Cova del Gegant,45_2,Gegant  II,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,72,45 | 45_3 | Gegant  III,45,Cova del Gegant,45_3,Gegant  III,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,73,45 | 45_4 | Gegant  IV - V,45,Cova del Gegant,45_4,Gegant  IV - V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,74,46 | 46_1 | GC Subadult I,46,Gough's Cave,46_1,GC Subadult I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,75,46 | 46_2 | GC Subadult II,46,Gough's Cave,46_2,GC Subadult II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,76,46 | 46_3 | GC Subadult III,46,Gough's Cave,46_3,GC Subadult III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,77,46 | 46_4 | GC Adult I,46,Gough's Cave,46_4,GC Adult I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,78,46 | 47_5 | GC Adult II,46,Gough's Cave,47_5,GC Adult II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,79,46 | 46_6 | GC Adult III,46,Gough's Cave,46_6,GC Adult III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,80,46 | 46_7 | Adult indet,46,Gough's Cave,46_7,Adult indet,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,81,47 | 47_1 | Goyet adult,47,Troisième caverne of Goyet,47_1,Goyet adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,82,47 | 47_2 | Goyet juvenil,47,Troisième caverne of Goyet,47_2,Goyet juvenil,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,83,48 | 48_0 | Gran Dolina TD6,48,Gran Dolina,48_0,Gran Dolina TD6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,84,49 | 49_0 | Grotte de la Tour,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",49_0,Grotte de la Tour,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,85,50 | 50_1 | GB I,50,Grotte du Bison (Arcy-sur-Cure),50_1,GB I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,86,51 | 51_1 | GO Adult,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",51_1,GO Adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,87,52 | 52_0 | Guattari,52,Grotta Guattari,52_0,Guattari,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,88,53 | 53_0 | Hahnöfersand,53,Hahnöfersand,53_0,Hahnöfersand,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,89,54 | 54_0 | Hathnora,54,Hathnora,54_0,Hathnora,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,90,55 | 55_1 | Herxheim Adult,55,Herxheim,55_1,Herxheim Adult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,91,55 | 55_2 | Herxheim Subadult,55,Herxheim,55_2,Herxheim Subadult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,92,55 | 55_3 | Herxheim Infant,55,Herxheim,55_3,Herxheim Infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,93,56 | 56_0 | Hohlestein Stadel,56,Hohlenstein-Stadel,56_0,Hohlestein Stadel,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,94,57 | 57_0 | Jarama VI,57,Jarama VI rockshelter,57_0,Jarama VI,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,95,58 | 58_0 | Kajiado,58,Kajiado,58_0,Kajiado,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,96,59 | 59_0 | Kalamakia,59,Kalamakia,59_0,Kalamakia,5,5,1,3,4,3,3,5,4,2,5
+FALSE,record/sample,min,97,60 | 60_0 | Kebara 2,60,Kebara Cave,60_0,Kebara 2,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,98,61 | 61_1 | Kiik Koba I,61,Kiik-Koba,61_1,Kiik Koba I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,99,61 | 61_2 | Kiik Koba II,61,Kiik-Koba,61_2,Kiik Koba II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,100,62 | 62_0 | Koba Lotx,62,Koba Lotx,62_0,Koba Lotx,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,101,63 | 63_0 | Koba Zarra,63,Koba Zarra,63_0,Koba Zarra,3,5,1,3,4,3,3,2,4,3,5
+FALSE,record/sample,min,102,64 | 64_0 | Kobazar,64,Kobazar,64_0,Kobazar,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,103,65 | 65_0 | Krapina,65,Krapina,65_0,Krapina,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,104,66 | 66_0 | La Chapelle-aux-Saints,66,La Chapelle-aux-Saints,66_0,La Chapelle-aux-Saints,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,105,67 | 67_1 | LF 1,67,La Ferrassie,67_1,LF 1,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,106,67 | 67_2 | LF 2,67,La Ferrassie,67_2,LF 2,5,5,1,3,4,3,3,4,4,3,5
+FALSE,record/sample,min,107,67 | 67_3 | LF 3,67,La Ferrassie,67_3,LF 3,5,5,1,3,4,3,3,3,4,3,5
+FALSE,record/sample,min,108,67 | 67_4 | LF 4,67,La Ferrassie,67_4,LF 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,109,67 | 67_5 | LF4bis,67,La Ferrassie,67_5,LF4bis,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,110,67 | 67_6 | LF 5,67,La Ferrassie,67_6,LF 5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,111,67 | 67_7 | LF 6,67,La Ferrassie,67_7,LF 6,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,112,67 | 67_8 | LF 7,67,La Ferrassie,67_8,LF 7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,113,67 | 67_9 | LF 8,67,La Ferrassie,67_9,LF 8,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,114,68 | 68_0 | La Naulette,68,Trou de la Naulette,68_0,La Naulette,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,115,69 | 69_1 | H1,69,La Quina,69_1,H1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,116,69 | 69_2 | H2,69,La Quina,69_2,H2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,117,69 | 69_3 | H3,69,La Quina,69_3,H3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,118,69 | 69_4 | H4,69,La Quina,69_4,H4,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,119,69 | 69_5 | H5,69,La Quina,69_5,H5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,120,69 | 69_6 | H6,69,La Quina,69_6,H6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,121,69 | 69_7 | H7,69,La Quina,69_7,H7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,122,69 | 69_8 | H8,69,La Quina,69_8,H8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,123,69 | 69_9 | H9,69,La Quina,69_9,H9,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,124,69 | 69_10 | H10,69,La Quina,69_10,H10,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,125,69 | 69_11 | H11,69,La Quina,69_11,H11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,126,69 | 69_12 | H12,69,La Quina,69_12,H12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,127,69 | 69_13 | H13,69,La Quina,69_13,H13,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,128,69 | 69_14 | H14,69,La Quina,69_14,H14,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,129,69 | 69_15 | H15,69,La Quina,69_15,H15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,130,69 | 69_16 | H16,69,La Quina,69_16,H16,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,131,69 | 69_17 | H17,69,La Quina,69_17,H17,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,132,69 | 69_18 | H18,69,La Quina,69_18,H18,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,133,69 | 69_19 | H19,69,La Quina,69_19,H19,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,134,69 | 69_20 | H20,69,La Quina,69_20,H20,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,135,69 | 69_21 | H23,69,La Quina,69_21,H23,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,136,69 | 69_22 | H27,69,La Quina,69_22,H27,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,137,70 | 70_1 | La Tolita adult,70,La Tolita Cama de Huesos,70_1,La Tolita adult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,138,70 | 70_2 | La Tolita subadult,70,La Tolita Cama de Huesos,70_2,La Tolita subadult,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,139,71 | 71_1 | Lagar Velho,71,Abrigo do Lagar Velho,71_1,Lagar Velho,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,140,72 | 72_0 | Larrabiel,72,Larrabiel,72_0,Larrabiel,3,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,141,73 | 73_0 | Le Moustier I,73,Le Moustier I,73_0,Le Moustier I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,142,74 | 74_0 | Le Moustier II,74,Le Moustier II,74_0,Le Moustier II,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,143,75 | 75_0 | Le Placard,75,Le Placard,75_0,Le Placard,5,5,1,2,4,3,3,2,4,3,5
+FALSE,record/sample,min,144,76 | 76_0 | Les Pradelles,76,Les Pradelles (Marillac-le-Franc),76_0,Les Pradelles,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,145,77 | 77_0 | RdV 1,77,Les Rochers-de-Villeneuve,77_0,RdV 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,146,78 | 78_0 | Les Hoteaux,78,Grotte des Hoteaux,78_0,Les Hoteaux,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,147,79 | 79_0 | Malamuerzo,79,Cueva de Malalmuerzo,79_0,Malamuerzo,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,148,80 | 80_0 | Malladetes,80,"Cova de les Malladetes (Barx, Valencia, Spain)",80_0,Malladetes,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,149,81 | 81_0 | Mancos 5MT-10010 Feature 3,81,Mancos 5MT-10010 Feature 3,81_0,Mancos 5MT-10010 Feature 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,150,82 | 82_0 | Mancos Yellow Jacket 5MT-3,82,Yellow Jacket 5MT-3,82_0,Mancos Yellow Jacket 5MT-3,5,5,1,3,4,3,3,5,4,3,2
+FALSE,record/sample,min,151,83 | 83_0 | Manot young,83,Manot Cave,83_0,Manot young,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,152,84 | 84_1 | Marizulo Male,84,Marizulo I,84_1,Marizulo Male,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,153,84 | 84_2 | Marizulo 2-5,84,Marizulo I,84_2,Marizulo 2-5,5,5,1,3,4,3,3,5,2,2,5
+FALSE,record/sample,min,154,85 | 85_0 | Maszycka Cave,85,Maszycka Cave,85_0,Maszycka Cave,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,155,86 | 86_0 | Mauer Heidelberg,86,Mauer,86_0,Mauer Heidelberg,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,156,87 | 87_1 | Mladec D,87,Mladeč Caves,87_1,Mladec D,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,157,88 | 88_0 | Mojokerto,88,Mojokerto,88_0,Mojokerto,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,158,89 | 89_0 | Moros de la Gabasa,89,Los Moros de Gabasa,89_0,Moros de la Gabasa,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,159,90 | 90_1 | MG I,90,Moula-Guercy,90_1,MG I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,160,90 | 90_2 | MG II,90,Moula-Guercy,90_2,MG II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,161,90 | 90_3 | MG III,90,Moula-Guercy,90_3,MG III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,162,90 | 90_4 | MG IV,90,Moula-Guercy,90_4,MG IV,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,163,90 | 90_5 | MG V,90,Moula-Guercy,90_5,MG V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,164,90 | 90_6 | MG VI,90,Moula-Guercy,90_6,MG VI,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,165,90 | 90_7 | MG indet,90,Moula-Guercy,90_7,MG indet,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,166,90 | 90_8 | MG indet_2,90,Moula-Guercy,90_8,MG indet_2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,167,91 | 91_1 | Skhul 1,91,Mugharet es-Skhul,91_1,Skhul 1,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,168,91 | 91_2 | Skhul 2,91,Mugharet es-Skhul,91_2,Skhul 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,169,91 | 91_3 | Skhul 3,91,Mugharet es-Skhul,91_3,Skhul 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,170,91 | 91_4 | Skhul 4,91,Mugharet es-Skhul,91_4,Skhul 4,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,171,91 | 91_5 | Skhul 5,91,Mugharet es-Skhul,91_5,Skhul 5,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,172,91 | 91_6 | Skhul 6,91,Mugharet es-Skhul,91_6,Skhul 6,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,173,91 | 91_7 | Skhul 7,91,Mugharet es-Skhul,91_7,Skhul 7,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,174,91 | 91_8 | Skhul 8,91,Mugharet es-Skhul,91_8,Skhul 8,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,175,91 | 91_9 | Skhul 9,91,Mugharet es-Skhul,91_9,Skhul 9,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,176,91 | 91_10 | Skhul 10,91,Mugharet es-Skhul,91_10,Skhul 10,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,177,92 | 92_1 | PM I,92,Peștera Muierii,92_1,PM I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,178,92 | 92_2 | PM II,92,Peștera Muierii,92_2,PM II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,179,93 | 93_0 | Naparraitz I,93,Naparraitz I,93_0,Naparraitz I,5,5,1,3,4,3,3,2,4,3,5
+FALSE,record/sample,min,180,94 | 94_0 | Netankheri,94,Netankheri,94_0,Netankheri,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,181,95 | 95_1 | NG 1,95,Ngandong,95_1,NG 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,182,95 | 95_2 | NG 2,95,Ngandong,95_2,NG 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,183,95 | 95_3 | NG 3,95,Ngandong,95_3,NG 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,184,95 | 95_4 | NG 4,95,Ngandong,95_4,NG 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,185,95 | 95_5 | NG 5,95,Ngandong,95_5,NG 5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,186,95 | 95_6 | NG 6,95,Ngandong,95_6,NG 6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,187,95 | 95_7 | NG 7,95,Ngandong,95_7,NG 7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,188,95 | 95_8 | NG 8,95,Ngandong,95_8,NG 8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,189,95 | 95_9 | NG 9,95,Ngandong,95_9,NG 9,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,190,95 | 95_10 | NG 10,95,Ngandong,95_10,NG 10,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,191,95 | 95_11 | NG 11,95,Ngandong,95_11,NG 11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,192,95 | 95_12 | NG 12,95,Ngandong,95_12,NG 12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,193,95 | 95_13 | NG 13,95,Ngandong,95_13,NG 13,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,194,95 | 95_14 | NG 14,95,Ngandong,95_14,NG 14,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,195,95 | 95_15 | NG 17,95,Ngandong,95_15,NG 17,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,196,96 | 96_0 | Ngawi,96,Ngawi,96_0,Ngawi,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,197,97 | 97_1 | OBK I,97,Oberkassel,97_1,OBK I,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,198,97 | 97_2 | OBK II,97,Oberkassel,97_2,OBK II,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,199,98 | 98_1 | Ochoz I,98,Ochoz 1,98_1,Ochoz I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,200,98 | 98_2 | Ochoz II,98,Ochoz 2,98_2,Ochoz II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,201,99 | 99_1 | TE individual,99,Ojo Guareña,99_1,TE individual,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,202,99 | 99_2 | GS Individual,99,Ojo Guareña,99_2,GS Individual,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,203,100 | 100_0 | Olatzazpi,100,Olatzazpi,100_0,Olatzazpi,5,5,1,3,4,3,3,3,4,3,5
+FALSE,record/sample,min,204,101 | 101_0 | Otalora,101,Otalora,101_0,Otalora,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,205,102 | 102_0 | Paviland I,102,Goat’s Hole (Paviland Cave),102_0,Paviland I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,206,103 | 103_0 | Pavlov I,103,Pavlov I,103_0,Pavlov I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,207,104 | 104_1 | Perrats Adults,104,Grotte des Perrats,104_1,Perrats Adults,3,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,208,104 | 104_2 | Perrats Subadults,104,Grotte des Perrats,104_2,Perrats Subadults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,209,105 | 105_0 | Pikandita,105,Pikandita,105_0,Pikandita,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,210,106 | 106_1 | Predmosti 1,106,Předmostí,106_1,Predmosti 1,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,211,106 | 106_2 | Predmosti 2,106,Předmostí,106_2,Predmosti 2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,212,106 | 106_3 | Predmosti 3,106,Předmostí,106_3,Predmosti 3,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,213,106 | 106_4 | Predmosti 4,106,Předmostí,106_4,Predmosti 4,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,214,106 | 106_5 | Predmosti 5,106,Předmostí,106_5,Predmosti 5,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,215,106 | 106_6 | Predmosti 6,106,Předmostí,106_6,Predmosti 6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,216,106 | 106_7 | Predmosti 7,106,Předmostí,106_7,Predmosti 7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,217,106 | 106_8 | Predmosti 8,106,Předmostí,106_8,Predmosti 8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,218,106 | 106_9 | Predmosti 9,106,Předmostí,106_9,Predmosti 9,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,219,106 | 106_10 | Predmosti 10,106,Předmostí,106_10,Predmosti 10,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,220,106 | 106_11 | Predmosti 11,106,Předmostí,106_11,Predmosti 11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,221,106 | 106_12 | Predmosti 12,106,Předmostí,106_12,Predmosti 12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,222,106 | 106_13 | Predmosti 13,106,Předmostí,106_13,Predmosti 13,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,223,106 | 106_14 | Predmosti 14,106,Předmostí,106_14,Predmosti 14,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,224,106 | 106_15 | Predmosti 15,106,Předmostí,106_15,Predmosti 15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,225,106 | 106_16 | Predmosti 16,106,Předmostí,106_16,Predmosti 16,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,226,106 | 106_17 | Predmosti 17,106,Předmostí,106_17,Predmosti 17,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,227,106 | 106_18 | Predmosti 18,106,Předmostí,106_18,Predmosti 18,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,228,106 | 106_19 | Predmosti 19,106,Předmostí,106_19,Predmosti 19,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,229,106 | 106_20 | Predmosti 20,106,Předmostí,106_20,Predmosti 20,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,230,106 | 106_21 | Predmosti 21,106,Předmostí,106_21,Predmosti 21,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,231,106 | 106_22 | Predmosti 22,106,Předmostí,106_22,Predmosti 22,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,232,106 | 106_23 | Predmosti 23,106,Předmostí,106_23,Predmosti 23,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,233,106 | 106_24 | Predmosti 24,106,Předmostí,106_24,Predmosti 24,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,234,106 | 106_25 | Predmosti 25,106,Předmostí,106_25,Predmosti 25,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,235,106 | 106_26 | Predmosti 26,106,Předmostí,106_26,Predmosti 26,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,236,106 | 106_27 | Predmosti 27,106,Předmostí,106_27,Predmosti 27,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,237,106 | 106_28 | Predmosti 28,106,Předmostí,106_28,Predmosti 28,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,238,106 | 106_29 | Predmosti 29,106,Předmostí,106_29,Predmosti 29,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,239,106 | 106_30 | Predmosti 30,106,Předmostí,106_30,Predmosti 30,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,240,107 | 107_1 | Q3,107,Qafzeh Cave,107_1,Q3,5,5,1,3,4,3,3,5,4,3,3
+FALSE,record/sample,min,241,107 | 107_2 | Q4,107,Qafzeh Cave,107_2,Q4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,242,107 | 107_3 | Q5,107,Qafzeh Cave,107_3,Q5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,243,107 | 107_4 | Q6,107,Qafzeh Cave,107_4,Q6,5,5,1,3,4,3,3,5,4,2,5
+FALSE,record/sample,min,244,107 | 107_5 | Q7,107,Qafzeh Cave,107_5,Q7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,245,107 | 107_6 | Q567,107,Qafzeh Cave,107_6,Q567,5,5,1,3,4,2,3,5,4,3,5
+FALSE,record/sample,min,246,107 | 107_7 | Q8,107,Qafzeh Cave,107_7,Q8,5,5,1,3,4,3,3,5,3,3,3
+FALSE,record/sample,min,247,107 | 107_8 | Q9,107,Qafzeh Cave,107_8,Q9,5,5,1,2,4,3,3,5,2,3,3
+FALSE,record/sample,min,248,107 | 107_9 | Q10,107,Qafzeh Cave,107_9,Q10,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,249,107 | 107_10 | Q11,107,Qafzeh Cave,107_10,Q11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,250,107 | 107_11 | Q12,107,Qafzeh Cave,107_11,Q12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,251,107 | 107_12 | Q13,107,Qafzeh Cave,107_12,Q13,5,5,1,3,4,3,2,5,4,2,5
+FALSE,record/sample,min,252,107 | 107_13 | Q14,107,Qafzeh Cave,107_13,Q14,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,253,107 | 107_14 | Q15,107,Qafzeh Cave,107_14,Q15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,254,107 | 107_15 | Q21,107,Qafzeh Cave,107_15,Q21,5,5,1,3,4,3,3,5,4,3,3
+FALSE,record/sample,min,255,107 | 107_16 | Q22,107,Qafzeh Cave,107_16,Q22,5,5,1,3,4,3,2,5,4,3,5
+FALSE,record/sample,min,256,107 | 107_17 | Q25,107,Qafzeh Cave,107_17,Q25,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,257,108 | 108_1 | Regourdou I,108,Regourdou,108_1,Regourdou I,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,258,108 | 108_2 | Regourdou II,108,Regourdou,108_2,Regourdou II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,259,109 | 109_0 | Reilingen,109,Reilingen,109_0,Reilingen,3,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,260,110 | 110_0 | Roc de Cave,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",110_0,Roc de Cave,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,261,111 | 111_0 | Roc de Marsal,111,Roc de Marsal,111_0,Roc de Marsal,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,262,112 | 112_0 | Roc de Orenetes,112,Roc de les Orenetes,112_0,Roc de Orenetes,5,5,1,3,2,3,3,2,2,3,5
+FALSE,record/sample,min,263,113 | 113_1 | Saccopastore I,113,Saccopastore,113_1,Saccopastore I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,264,113 | 113_2 | Saccopastore II,113,Saccopastore,113_2,Saccopastore II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,265,114 | 114_0 | Saint-Césaire,114,Saint-Césaire,114_0,Saint-Césaire,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,266,115 | 115_0 | Saint-Germain-la-Rivière,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),115_0,Saint-Germain-la-Rivière,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,267,116 | 116_1 | SM 1,116,Sambungmacan,116_1,SM 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,268,116 | 116_2 | SM 2,116,Sambungmacan,116_2,SM 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,269,116 | 116_3 | SM 3,116,Sambungmacan,116_3,SM 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,270,116 | 116_4 | SM 4,116,Sambungmacan,116_4,SM 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,271,117 | 117_1 | C.212-211,117,San Juan ante Portam Latinam,117_1,C.212-211,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,272,117 | 117_2 | C.2 (B1)-636,117,San Juan ante Portam Latinam,117_2,C.2 (B1)-636,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,273,117 | 117_3 | C.3 (B1)-121,117,San Juan ante Portam Latinam,117_3,C.3 (B1)-121,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,274,117 | 117_4 | C.4 (B1)-125,117,San Juan ante Portam Latinam,117_4,C.4 (B1)-125,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,275,117 | 117_5 | C.118-318-320,117,San Juan ante Portam Latinam,117_5,C.118-318-320,5,5,1,3,4,3,3,5,2,3,3
+FALSE,record/sample,min,276,117 | 117_6 | C.118-368-infant,117,San Juan ante Portam Latinam,117_6,C.118-368-infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,277,117 | 117_7 | C.120-165-171-173,117,San Juan ante Portam Latinam,117_7,C.120-165-171-173,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,278,117 | 117_8 | C128-680-767-799,117,San Juan ante Portam Latinam,117_8,C128-680-767-799,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,279,117 | 117_9 | C128-680-Infant,117,San Juan ante Portam Latinam,117_9,C128-680-Infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,280,117 | 117_10 | C.129-100-038-040-050-051-141,117,San Juan ante Portam Latinam,117_10,C.129-100-038-040-050-051-141,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,281,117 | 117_11 | C.129-141-juvenil,117,San Juan ante Portam Latinam,117_11,C.129-141-juvenil,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,282,117 | 117_12 | C.130-166-167,117,San Juan ante Portam Latinam,117_12,C.130-166-167,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,283,117 | 117_13 | C.140-197,117,San Juan ante Portam Latinam,117_13,C.140-197,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,284,117 | 117_14 | C.143-175,117,San Juan ante Portam Latinam,117_14,C.143-175,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,285,117 | 117_15 | C.150-152,117,San Juan ante Portam Latinam,117_15,C.150-152,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,286,117 | 117_16 | C.156-141-142,117,San Juan ante Portam Latinam,117_16,C.156-141-142,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,287,117 | 117_17 | C.161-98-87-97-98,117,San Juan ante Portam Latinam,117_17,C.161-98-87-97-98,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,288,117 | 117_18 | C.170-338,117,San Juan ante Portam Latinam,117_18,C.170-338,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,289,117 | 117_19 | C.175-102-73-76,117,San Juan ante Portam Latinam,117_19,C.175-102-73-76,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,290,117 | 117_20 | C.177-106-114-115-116,117,San Juan ante Portam Latinam,117_20,C.177-106-114-115-116,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,291,117 | 117_21 | C.179-178-173-174,117,San Juan ante Portam Latinam,117_21,C.179-178-173-174,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,292,117 | 117_22 | C.184-108,117,San Juan ante Portam Latinam,117_22,C.184-108,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,293,117 | 117_23 | C.188-119-131,117,San Juan ante Portam Latinam,117_23,C.188-119-131,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,294,117 | 117_24 | C.198-170,117,San Juan ante Portam Latinam,117_24,C.198-170,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,295,117 | 117_25 | C.198-170-infant,117,San Juan ante Portam Latinam,117_25,C.198-170-infant,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,296,117 | 117_26 | C.199-172,117,San Juan ante Portam Latinam,117_26,C.199-172,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,297,117 | 117_27 | C.199-172-infant,117,San Juan ante Portam Latinam,117_27,C.199-172-infant,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,298,117 | 117_28 | C.207-192,117,San Juan ante Portam Latinam,117_28,C.207-192,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,299,117 | 117_29 | C.212-786,117,San Juan ante Portam Latinam,117_29,C.212-786,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,300,117 | 117_30 | C.212-786-infant,117,San Juan ante Portam Latinam,117_30,C.212-786-infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,301,117 | 117_31 | C.124-216,117,San Juan ante Portam Latinam,117_31,C.124-216,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,302,117 | 117_32 | C.214b-358,117,San Juan ante Portam Latinam,117_32,C.214b-358,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,303,117 | 117_33 | C.215-203-145-185,117,San Juan ante Portam Latinam,117_33,C.215-203-145-185,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,304,117 | 117_34 | C.215-203-infant,117,San Juan ante Portam Latinam,117_34,C.215-203-infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,305,117 | 117_35 | C.218-213-209-199,117,San Juan ante Portam Latinam,117_35,C.218-213-209-199,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,306,117 | 117_36 | C.220-176-184,117,San Juan ante Portam Latinam,117_36,C.220-176-184,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,307,117 | 117_37 | C.211-326,117,San Juan ante Portam Latinam,117_37,C.211-326,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,308,117 | 117_38 | C.225-325-364-365-168,117,San Juan ante Portam Latinam,117_38,C.225-325-364-365-168,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,309,117 | 117_39 | C.226-330,117,San Juan ante Portam Latinam,117_39,C.226-330,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,310,117 | 117_40 | C.227-343,117,San Juan ante Portam Latinam,117_40,C.227-343,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,311,117 | 117_41 | C.229-340,117,San Juan ante Portam Latinam,117_41,C.229-340,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,312,117 | 117_42 | C.230-339,117,San Juan ante Portam Latinam,117_42,C.230-339,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,313,117 | 117_43 | C.231-332,117,San Juan ante Portam Latinam,117_43,C.231-332,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,314,117 | 117_44 | C.232-344-214-663,117,San Juan ante Portam Latinam,117_44,C.232-344-214-663,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,315,117 | 117_45 | C.234-377-372,117,San Juan ante Portam Latinam,117_45,C.234-377-372,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,316,117 | 117_46 | C.238-402-533,117,San Juan ante Portam Latinam,117_46,C.238-402-533,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,317,117 | 117_47 | C.239-403,117,San Juan ante Portam Latinam,117_47,C.239-403,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,318,117 | 117_48 | C.241-410,117,San Juan ante Portam Latinam,117_48,C.241-410,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,319,117 | 117_49 | C.245-429-526-565,117,San Juan ante Portam Latinam,117_49,C.245-429-526-565,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,320,117 | 117_50 | C.245-429-infant,117,San Juan ante Portam Latinam,117_50,C.245-429-infant,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,321,117 | 117_51 | C.248-600-690-710-479,117,San Juan ante Portam Latinam,117_51,C.248-600-690-710-479,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,322,117 | 117_52 | C.250-441,117,San Juan ante Portam Latinam,117_52,C.250-441,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,323,117 | 117_53 | C.251-371-488,117,San Juan ante Portam Latinam,117_53,C.251-371-488,5,5,1,3,4,3,3,5,4,3,3
+FALSE,record/sample,min,324,117 | 117_54 | C.252-357,117,San Juan ante Portam Latinam,117_54,C.252-357,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,325,117 | 117_55 | C.254-476,117,San Juan ante Portam Latinam,117_55,C.254-476,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,326,117 | 117_56 | C.255-524,117,San Juan ante Portam Latinam,117_56,C.255-524,5,5,1,3,4,3,3,5,2,2,5
+FALSE,record/sample,min,327,117 | 117_57 | C.259-527,117,San Juan ante Portam Latinam,117_57,C.259-527,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,328,117 | 117_58 | C.260-587-532-802,117,San Juan ante Portam Latinam,117_58,C.260-587-532-802,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,329,117 | 117_59 | C.261b-549-544,117,San Juan ante Portam Latinam,117_59,C.261b-549-544,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,330,117 | 117_60 | C.262-942-943,117,San Juan ante Portam Latinam,117_60,C.262-942-943,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,331,117 | 117_61 | C.264-519-630,117,San Juan ante Portam Latinam,117_61,C.264-519-630,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,332,117 | 117_62 | C.270-559,117,San Juan ante Portam Latinam,117_62,C.270-559,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,333,117 | 117_63 | C.276-577,117,San Juan ante Portam Latinam,117_63,C.276-577,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,334,117 | 117_64 | C.277-576-696,117,San Juan ante Portam Latinam,117_64,C.277-576-696,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,335,117 | 117_65 | C.279-592,117,San Juan ante Portam Latinam,117_65,C.279-592,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,336,117 | 117_66 | C.286-652,117,San Juan ante Portam Latinam,117_66,C.286-652,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,337,117 | 117_67 | C.288-654-658,117,San Juan ante Portam Latinam,117_67,C.288-654-658,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,338,117 | 117_68 | C.289-620-439-581-539,117,San Juan ante Portam Latinam,117_68,C.289-620-439-581-539,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,339,117 | 117_69 | C.296-653,117,San Juan ante Portam Latinam,117_69,C.296-653,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,340,117 | 117_70 | C.297-691-694-696-601-714,117,San Juan ante Portam Latinam,117_70,C.297-691-694-696-601-714,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,341,117 | 117_71 | C.298-692,117,San Juan ante Portam Latinam,117_71,C.298-692,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,342,117 | 117_72 | C.300-905-931-973,117,San Juan ante Portam Latinam,117_72,C.300-905-931-973,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,343,117 | 117_73 | C.301-642-554-649-693,117,San Juan ante Portam Latinam,117_73,C.301-642-554-649-693,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,344,117 | 117_74 | C.304-687-714,117,San Juan ante Portam Latinam,117_74,C.304-687-714,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,345,117 | 117_75 | C.316-318-322-331-335,117,San Juan ante Portam Latinam,117_75,C.316-318-322-331-335,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,346,117 | 117_76 | C.318-991-888-959-893,117,San Juan ante Portam Latinam,117_76,C.318-991-888-959-893,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,347,117 | 117_77 | C.322-907,117,San Juan ante Portam Latinam,117_77,C.322-907,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,348,117 | 117_78 | C.331-914-678-697,117,San Juan ante Portam Latinam,117_78,C.331-914-678-697,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,349,117 | 117_79 | C.335-886-970-983-992,117,San Juan ante Portam Latinam,117_79,C.335-886-970-983-992,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,350,118 | 118_1 | Santa Maira Adults,118,Coves de Santa Maira,118_1,Santa Maira Adults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,351,118 | 118_2 | Santa Maira Infant,118,Coves de Santa Maira,118_2,Santa Maira Infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,352,119 | 119_0 | Scladina,119,Scladina Cave,119_0,Scladina,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,353,120 | 120_1 | Shanidar I,120,Shanidar Cave,120_1,Shanidar I,5,5,1,3,4,3,3,5,3,3,3
+FALSE,record/sample,min,354,120 | 120_2 | Shanidar II,120,Shanidar Cave,120_2,Shanidar II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,355,120 | 120_3 | Shanidar III,120,Shanidar Cave,120_3,Shanidar III,5,5,1,3,3,3,3,5,3,2,3
+FALSE,record/sample,min,356,120 | 120_4 | Shanidar IV,120,Shanidar Cave,120_4,Shanidar IV,5,5,1,3,4,3,3,5,3,3,3
+FALSE,record/sample,min,357,120 | 120_5 | Shanidar V,120,Shanidar Cave,120_5,Shanidar V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,358,120 | 120_6 | Shanidar VI,120,Shanidar Cave,120_6,Shanidar VI,5,5,1,3,4,3,3,5,4,3,3
+FALSE,record/sample,min,359,120 | 120_7 | Shanidar VII,120,Shanidar Cave,120_7,Shanidar VII,5,5,1,3,4,3,3,5,4,2,5
+FALSE,record/sample,min,360,120 | 120_8 | Shanidar VIII,120,Shanidar Cave,120_8,Shanidar VIII,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,361,120 | 120_9 | Shanidar IX,120,Shanidar Cave,120_9,Shanidar IX,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,362,121 | 121_1 | SP-96,121,Sima de las Palomas,121_1,SP-96,3,5,1,3,4,3,3,3,2,3,5
+FALSE,record/sample,min,363,175 | 175_0 | SH-PNAS,175,Sima de los Huesos PNAS,175_0,SH-PNAS,5,5,1,3,4,3,3,5,2,3,2
+FALSE,record/sample,min,364,122 | 122_0 | SH-89,122,Sima de los Huesos 89,122_0,SH-89,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,365,123 | 123_0 | SH-90,123,Sima de los Huesos 90,123_0,SH-90,5,1,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,366,124 | 124_0 | SH-95,124,Sima de los Huesos 95,124_0,SH-95,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,367,125 | 125_0 | SH-15,125,Sima de los Huesos 15,125_0,SH-15,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,368,126 | 126_0 | SH-24,126,Sima de los Huesos 24,126_0,SH-24,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,369,127 | 127_0 | Sorginzulo,127,Sorginzulo,127_0,Sorginzulo,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,370,128 | 128_0 | Spy I & II,128,Spy cave,128_0,Spy I & II,5,5,1,3,4,3,3,5,4,3,2
+FALSE,record/sample,min,371,129 | 129_0 | Steinheim,129,Steinheim an der Murr,129_0,Steinheim,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,372,130 | 130_1 | Sunghir 1,130,Sunghir,130_1,Sunghir 1,3,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,373,130 | 130_2 | Sunghir 2,130,Sunghir,130_2,Sunghir 2,3,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,374,130 | 130_3 | Sunghir 3,130,Sunghir,130_3,Sunghir 3,3,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,375,130 | 130_4 | Sunghir 4,130,Sunghir,130_4,Sunghir 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,376,130 | 130_5 | Sunghir 5,130,Sunghir,130_5,Sunghir 5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,377,130 | 130_6 | Sunghir 6,130,Sunghir,130_6,Sunghir 6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,378,131 | 131_0 | Tabun Cave,131,Tabun Cave (Mugharet et-Tabun),131_0,Tabun Cave,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,379,132 | 132_0 | Tepecik-Çiftlik,132,Tepecik-Çiftlik,132_0,Tepecik-Çiftlik,5,5,1,1,2,3,3,2,2,3,2
+FALSE,record/sample,min,380,133 | 133_0 | Teshik-Tash,133,Teshik-Tash Cave,133_0,Teshik-Tash,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,381,134 | 134_0 | Torrejones,134,Cueva de los Torrejones,134_0,Torrejones,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,382,135 | 135_0 | Txispiri,135,Txispiri,135_0,Txispiri,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,383,136 | 136_0 | Txomen Koba Erdikua,136,Txomen Koba Erdikua,136_0,Txomen Koba Erdikua,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,384,137 | 137_1 | Txotxinkoba Adult,137,Txotxinkoba Cave,137_1,Txotxinkoba Adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,385,137 | 137_2 | Txotxinkoba Subadult,137,Txotxinkoba Cave,137_2,Txotxinkoba Subadult,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,386,138 | 138_0 | Urdabide II,138,Urdabide II,138_0,Urdabide II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,min,387,139 | 139_0 | Urtiaga,139,Urtiaga,139_0,Urtiaga,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,388,140 | 140_0 | Uxar,140,Uxar,140_0,Uxar,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,389,141 | 141_0 | Vado all'Arancio,141,Vado all'Arancio,141_0,Vado all'Arancio,5,5,1,2,4,3,3,5,3,3,5
+FALSE,record/sample,min,390,142 | 142_1 | VB I,142,Valdegoba Cave,142_1,VB I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,391,142 | 142_2 | VB II,142,Valdegoba Cave,142_2,VB II,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,392,142 | 142_3 | VB III,142,Valdegoba Cave,142_3,VB III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,393,142 | 142_4 | VB IV,142,Valdegoba Cave,142_4,VB IV,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,394,142 | 142_5 | VB V,142,Valdegoba Cave,142_5,VB V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,395,143 | 143_0 | Vilhonneur 1,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",143_0,Vilhonneur 1,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,396,144 | 144_0 | Vindija fd/d,144,Vindija,144_0,Vindija fd/d,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,397,145 | 145_0 | Vindija G1,145,Vindija,145_0,Vindija G1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,398,146 | 146_0 | Vindija G3,146,Vindija,146_0,Vindija G3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,399,147 | 147_1 | Vunda Locus 26M,147,Vunda Locus,147_1,Vunda Locus 26M,5,5,1,3,2,3,3,5,4,3,5
+FALSE,record/sample,min,400,147 | 147_2 | Vunda Locus 26H,147,Vunda Locus,147_2,Vunda Locus 26H,3,5,1,3,2,3,3,5,4,3,5
+FALSE,record/sample,min,401,148 | 148_1 | WE A,148,Weimar-Ehringsdorf,148_1,WE A,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,402,148 | 148_2 | WE B,148,Weimar-Ehringsdorf,148_2,WE B,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,403,148 | 148_3 | WE C,148,Weimar-Ehringsdorf,148_3,WE C,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,404,148 | 148_4 | WE D,148,Weimar-Ehringsdorf,148_4,WE D,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,405,148 | 148_5 | WE E,148,Weimar-Ehringsdorf,148_5,WE E,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,406,148 | 148_6 | WE F,148,Weimar-Ehringsdorf,148_6,WE F,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,407,148 | 148_7 | WE G,148,Weimar-Ehringsdorf,148_7,WE G,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,408,148 | 148_8 | WE H,148,Weimar-Ehringsdorf,148_8,WE H,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,min,409,149 | 149_0 | Xemxija,149,Xemxija tombs,149_0,Xemxija,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,min,410,150 | 150_0 | {Name} I,150,Boquete de Zafarraya,150_0,{Name} I,5,5,1,3,2,3,3,5,2,3,5
+FALSE,record/sample,min,411,151 | 151_0 | Zelaibizkar I,151,Zelaibizkar I,151_0,Zelaibizkar I,5,5,1,2,4,3,3,2,2,2,5
+TRUE,site,min,1,1,1,Abri Pataud,1_1 1_2 1_3 1_4 1_5 1_6,Abri Pataud I Abri Pataud II Abri Pataud III Abri Pataud IV Abri Pataud V Abri Pataud VI,5,1,1,3,4,3,3,5,3,3,5
+TRUE,site,min,2,2,2,Aie Zelai,2_0,Aie Zelai,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,3,3,3,Aitzgaizto,3_0,Aitzgaizto,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,4,4,4,Allekoaitze,4_0,Allekoaitze,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,5,5,5,Amud Cave,5_1 5_2 5_3,Amud I Amud VII Amud IX,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,6,6,6,Arago,6_1 6_2 6_3 6_4 6_5 6_6 6_7 6_8 6_9 6_10 6_11,Gs1 Gs1_2 Gm2...4 Gm2...5 Gm3...6 Gm3...7 Gi4...8 Gi4...9 Fm3 Fm4 Fi,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,7,7,7,Arbelaitz,7_0,Arbelaitz,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,8,8,8,Archi,8_0,Archi,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,9,9,9,Atxuri-I Cave,9_1 9_2,Atxuri I adults Atxuri I subadults,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,10,10,10,Baousso da Torre (Bausu da Ture),10_1 10_2,Bauo da Torre I Bauo da Torre II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,11,11,11,Belako Arkaitza 1,11_0,Belako Arkaitza 1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,12,12,12,Beondegi II,12_0,Beondegi II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,13,13,13,Bilzingsleben,13_0,Bilzingsleben,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,14,14,14,Bolomor Cave,14_0,Bolomor IV-VI,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,min,15,15,15,Brillenhöhle,15_0,Brillenhöhle,3,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,16,16,16,Brno II,16_0,Brno II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,17,17,17,Cueva de la Carigüela,17_0,Carihuela,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,18,18,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",18_1 18_2,CdF Adult CdF Juvenil,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,19,19,19,Ceprano,19_0,Ceprano,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,20,20,20,Abri de Raymonden (Chancelade),20_0,Chancelade,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,21,21,21,Combe Grenal,21_0,Combe Grenal,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,22,22,22,Cova del Parpalló (Parpalló Cave),22_2 22_2,Parpallo juvenil Parpallo adult,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,23,23,23,Cova Gran de Santa Linya,23_0,Cova Gran de Sta Linya,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,24,24,24,Cro-Magnon I,24_0,Cro-Magnon I-II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,25,25,25,Crow Creek,25_1 25_2,Crow Creek adult Crow Creek subadult,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,26,26,26,Cueva de la Buena Pinta,26_0,Cueva de la Buena Pinta,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,min,27,27,27,Cueva del Camino,27_0,Cueva del Camino,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,28,28,28,Dali Tianshuigou,28_0,Dali Tianshuigou,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,29,29,29,Dame du Cavillon,NA,Dame du Cavillon,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,30,30,30,Dolní Věstonice II,30_1 30_2 30_3 30_4,DV 13 DV 14 DV 15 DV 16,5,5,1,3,4,3,3,3,3,2,5
+TRUE,site,min,31,31,31,Dolní Věstonice I,31_0,Dolní Věstonice DV3,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,32,32,32,El Espinoso Cave,32_0,El Espinoso,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,33,33,33,El Mirador,33_0,El Mirador MIR4,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,34,34,34,El Mirón Cave,34_0,El Mirón Cave,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,35,35,35,El Sidrón J1,35_0,El Sidrón J1,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,36,36,36,Engis / Schmerling Cave,36_0,Engis 2,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,37,37,37,Erlaitz,37_0,Erlaitz,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,38,38,38,Errtxorta,38_0,Errtxorta,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,39,39,39,Kleine Feldhofer Grotte,39_0,Feldhofer Grotte,5,5,1,3,2,3,3,5,2,3,5
+TRUE,site,min,40,40,40,Grotte de Fontbrégoua,40_0,Fondbregua H1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,41,41,41,Grotte de Fontbrégoua,41_0,Fondbregua H3,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,42,42,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),42_0,Fonds-de-Forêt,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,min,43,43,43,Cova Foradada,43_0,Foradada Cremated,5,5,1,3,4,3,3,5,2,3,3
+TRUE,site,min,44,44,44,Cova Foradada,44_0,Foradada Collectiv Burial,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,45,45,45,Cova del Gegant,45_1 45_2 45_3 45_4,Gegant  I Gegant  II Gegant  III Gegant  IV - V,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,min,46,46,46,Gough's Cave,46_1 46_2 46_3 46_4 47_5 46_6 46_7,GC Subadult I GC Subadult II GC Subadult III GC Adult I GC Adult II GC Adult III Adult indet,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,47,47,47,Troisième caverne of Goyet,47_1 47_2,Goyet adult Goyet juvenil,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,min,48,48,48,Gran Dolina,48_0,Gran Dolina TD6,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,49,49,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",49_0,Grotte de la Tour,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,50,50,50,Grotte du Bison (Arcy-sur-Cure),50_1,GB I,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,51,51,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",51_1,GO Adult,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,52,52,52,Grotta Guattari,52_0,Guattari,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,53,53,53,Hahnöfersand,53_0,Hahnöfersand,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,54,54,54,Hathnora,54_0,Hathnora,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,55,55,55,Herxheim,55_1 55_2 55_3,Herxheim Adult Herxheim Subadult Herxheim Infant,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,56,56,56,Hohlenstein-Stadel,56_0,Hohlestein Stadel,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,57,57,57,Jarama VI rockshelter,57_0,Jarama VI,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,58,58,58,Kajiado,58_0,Kajiado,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,59,59,59,Kalamakia,59_0,Kalamakia,5,5,1,3,4,3,3,5,4,2,5
+TRUE,site,min,60,60,60,Kebara Cave,60_0,Kebara 2,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,61,61,61,Kiik-Koba,61_1 61_2,Kiik Koba I Kiik Koba II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,62,62,62,Koba Lotx,62_0,Koba Lotx,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,63,63,63,Koba Zarra,63_0,Koba Zarra,3,5,1,3,4,3,3,2,4,3,5
+TRUE,site,min,64,64,64,Kobazar,64_0,Kobazar,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,65,65,65,Krapina,65_0,Krapina,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,66,66,66,La Chapelle-aux-Saints,66_0,La Chapelle-aux-Saints,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,67,67,67,La Ferrassie,67_1 67_2 67_3 67_4 67_5 67_6 67_7 67_8 67_9,LF 1 LF 2 LF 3 LF 4 LF4bis LF 5 LF 6 LF 7 LF 8,5,5,1,3,4,3,3,3,2,3,5
+TRUE,site,min,68,68,68,Trou de la Naulette,68_0,La Naulette,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,69,69,69,La Quina,69_1 69_2 69_3 69_4 69_5 69_6 69_7 69_8 69_9 69_10 69_11 69_12 69_13 69_14 69_15 69_16 69_17 69_18 69_19 69_20 69_21 69_22,H1 H2 H3 H4 H5 H6 H7 H8 H9 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H23 H27,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,min,70,70,70,La Tolita Cama de Huesos,70_1 70_2,La Tolita adult La Tolita subadult,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,71,71,71,Abrigo do Lagar Velho,71_1,Lagar Velho,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,72,72,72,Larrabiel,72_0,Larrabiel,3,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,73,73,73,Le Moustier I,73_0,Le Moustier I,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,74,74,74,Le Moustier II,74_0,Le Moustier II,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,75,75,75,Le Placard,75_0,Le Placard,5,5,1,2,4,3,3,2,4,3,5
+TRUE,site,min,76,76,76,Les Pradelles (Marillac-le-Franc),76_0,Les Pradelles,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,77,77,77,Les Rochers-de-Villeneuve,77_0,RdV 1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,78,78,78,Grotte des Hoteaux,78_0,Les Hoteaux,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,79,79,79,Cueva de Malalmuerzo,79_0,Malamuerzo,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,80,80,80,"Cova de les Malladetes (Barx, Valencia, Spain)",80_0,Malladetes,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,81,81,81,Mancos 5MT-10010 Feature 3,81_0,Mancos 5MT-10010 Feature 3,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,82,82,82,Yellow Jacket 5MT-3,82_0,Mancos Yellow Jacket 5MT-3,5,5,1,3,4,3,3,5,4,3,2
+TRUE,site,min,83,83,83,Manot Cave,83_0,Manot young,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,84,84,84,Marizulo I,84_1 84_2,Marizulo Male Marizulo 2-5,5,5,1,3,4,3,3,5,2,2,5
+TRUE,site,min,85,85,85,Maszycka Cave,85_0,Maszycka Cave,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,86,86,86,Mauer,86_0,Mauer Heidelberg,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,87,87,87,Mladeč Caves,87_1,Mladec D,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,88,88,88,Mojokerto,88_0,Mojokerto,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,89,89,89,Los Moros de Gabasa,89_0,Moros de la Gabasa,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,min,90,90,90,Moula-Guercy,90_1 90_2 90_3 90_4 90_5 90_6 90_7 90_8,MG I MG II MG III MG IV MG V MG VI MG indet MG indet_2,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,91,91,91,Mugharet es-Skhul,91_1 91_2 91_3 91_4 91_5 91_6 91_7 91_8 91_9 91_10,Skhul 1 Skhul 2 Skhul 3 Skhul 4 Skhul 5 Skhul 6 Skhul 7 Skhul 8 Skhul 9 Skhul 10,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,92,92,92,Peștera Muierii,92_1 92_2,PM I PM II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,93,93,93,Naparraitz I,93_0,Naparraitz I,5,5,1,3,4,3,3,2,4,3,5
+TRUE,site,min,94,94,94,Netankheri,94_0,Netankheri,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,95,95,95,Ngandong,95_1 95_2 95_3 95_4 95_5 95_6 95_7 95_8 95_9 95_10 95_11 95_12 95_13 95_14 95_15,NG 1 NG 2 NG 3 NG 4 NG 5 NG 6 NG 7 NG 8 NG 9 NG 10 NG 11 NG 12 NG 13 NG 14 NG 17,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,96,96,96,Ngawi,96_0,Ngawi,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,97,97,97,Oberkassel,97_1 97_2,OBK I OBK II,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,98,98,98,"Ochoz 1, Ochoz 2",98_1 98_2,Ochoz I Ochoz II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,99,99,99,Ojo Guareña,99_1 99_2,TE individual GS Individual,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,100,100,100,Olatzazpi,100_0,Olatzazpi,5,5,1,3,4,3,3,3,4,3,5
+TRUE,site,min,101,101,101,Otalora,101_0,Otalora,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,102,102,102,Goat’s Hole (Paviland Cave),102_0,Paviland I,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,103,103,103,Pavlov I,103_0,Pavlov I,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,104,104,104,Grotte des Perrats,104_1 104_2,Perrats Adults Perrats Subadults,3,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,105,105,105,Pikandita,105_0,Pikandita,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,106,106,106,Předmostí,106_1 106_2 106_3 106_4 106_5 106_6 106_7 106_8 106_9 106_10 106_11 106_12 106_13 106_14 106_15 106_16 106_17 106_18 106_19 106_20 106_21 106_22 106_23 106_24 106_25 106_26 106_27 106_28 106_29 106_30,Predmosti 1 Predmosti 2 Predmosti 3 Predmosti 4 Predmosti 5 Predmosti 6 Predmosti 7 Predmosti 8 Predmosti 9 Predmosti 10 Predmosti 11 Predmosti 12 Predmosti 13 Predmosti 14 Predmosti 15 Predmosti 16 Predmosti 17 Predmosti 18 Predmosti 19 Predmosti 20 Predmosti 21 Predmosti 22 Predmosti 23 Predmosti 24 Predmosti 25 Predmosti 26 Predmosti 27 Predmosti 28 Predmosti 29 Predmosti 30,5,1,1,3,4,3,3,5,2,3,5
+TRUE,site,min,107,107,107,Qafzeh Cave,107_1 107_2 107_3 107_4 107_5 107_6 107_7 107_8 107_9 107_10 107_11 107_12 107_13 107_14 107_15 107_16 107_17,Q3 Q4 Q5 Q6 Q7 Q567 Q8 Q9 Q10 Q11 Q12 Q13 Q14 Q15 Q21 Q22 Q25,5,5,1,2,4,2,2,5,2,2,3
+TRUE,site,min,108,108,108,Regourdou,108_1 108_2,Regourdou I Regourdou II,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,109,109,109,Reilingen,109_0,Reilingen,3,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,110,110,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",110_0,Roc de Cave,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,111,111,111,Roc de Marsal,111_0,Roc de Marsal,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,112,112,112,Roc de les Orenetes,112_0,Roc de Orenetes,5,5,1,3,2,3,3,2,2,3,5
+TRUE,site,min,113,113,113,Saccopastore,113_1 113_2,Saccopastore I Saccopastore II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,114,114,114,Saint-Césaire,114_0,Saint-Césaire,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,115,115,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),115_0,Saint-Germain-la-Rivière,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,116,116,116,Sambungmacan,116_1 116_2 116_3 116_4,SM 1 SM 2 SM 3 SM 4,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,117,117,117,San Juan ante Portam Latinam,117_1 117_2 117_3 117_4 117_5 117_6 117_7 117_8 117_9 117_10 117_11 117_12 117_13 117_14 117_15 117_16 117_17 117_18 117_19 117_20 117_21 117_22 117_23 117_24 117_25 117_26 117_27 117_28 117_29 117_30 117_31 117_32 117_33 117_34 117_35 117_36 117_37 117_38 117_39 117_40 117_41 117_42 117_43 117_44 117_45 117_46 117_47 117_48 117_49 117_50 117_51 117_52 117_53 117_54 117_55 117_56 117_57 117_58 117_59 117_60 117_61 117_62 117_63 117_64 117_65 117_66 117_67 117_68 117_69 117_70 117_71 117_72 117_73 117_74 117_75 117_76 117_77 117_78 117_79,C.212-211 C.2 (B1)-636 C.3 (B1)-121 C.4 (B1)-125 C.118-318-320 C.118-368-infant C.120-165-171-173 C128-680-767-799 C128-680-Infant C.129-100-038-040-050-051-141 C.129-141-juvenil C.130-166-167 C.140-197 C.143-175 C.150-152 C.156-141-142 C.161-98-87-97-98 C.170-338 C.175-102-73-76 C.177-106-114-115-116 C.179-178-173-174 C.184-108 C.188-119-131 C.198-170 C.198-170-infant C.199-172 C.199-172-infant C.207-192 C.212-786 C.212-786-infant C.124-216 C.214b-358 C.215-203-145-185 C.215-203-infant C.218-213-209-199 C.220-176-184 C.211-326 C.225-325-364-365-168 C.226-330 C.227-343 C.229-340 C.230-339 C.231-332 C.232-344-214-663 C.234-377-372 C.238-402-533 C.239-403 C.241-410 C.245-429-526-565 C.245-429-infant C.248-600-690-710-479 C.250-441 C.251-371-488 C.252-357 C.254-476 C.255-524 C.259-527 C.260-587-532-802 C.261b-549-544 C.262-942-943 C.264-519-630 C.270-559 C.276-577 C.277-576-696 C.279-592 C.286-652 C.288-654-658 C.289-620-439-581-539 C.296-653 C.297-691-694-696-601-714 C.298-692 C.300-905-931-973 C.301-642-554-649-693 C.304-687-714 C.316-318-322-331-335 C.318-991-888-959-893 C.322-907 C.331-914-678-697 C.335-886-970-983-992,5,1,1,3,4,3,3,5,2,2,3
+TRUE,site,min,118,118,118,Coves de Santa Maira,118_1 118_2,Santa Maira Adults Santa Maira Infant,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,119,119,119,Scladina Cave,119_0,Scladina,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,120,120,120,Shanidar Cave,120_1 120_2 120_3 120_4 120_5 120_6 120_7 120_8 120_9,Shanidar I Shanidar II Shanidar III Shanidar IV Shanidar V Shanidar VI Shanidar VII Shanidar VIII Shanidar IX,5,5,1,3,3,3,3,5,3,2,3
+TRUE,site,min,121,121,121,Sima de las Palomas,121_1,SP-96,3,5,1,3,4,3,3,3,2,3,5
+TRUE,site,min,122,122,122,Sima de los Huesos 89,122_0,SH-89,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,123,123,123,Sima de los Huesos 90,123_0,SH-90,5,1,1,3,4,3,3,5,2,3,5
+TRUE,site,min,124,124,124,Sima de los Huesos 95,124_0,SH-95,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,125,125,125,Sima de los Huesos 15,125_0,SH-15,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,126,126,126,Sima de los Huesos 24,126_0,SH-24,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,127,127,127,Sorginzulo,127_0,Sorginzulo,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,128,128,128,Spy cave,128_0,Spy I & II,5,5,1,3,4,3,3,5,4,3,2
+TRUE,site,min,129,129,129,Steinheim an der Murr,129_0,Steinheim,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,130,130,130,Sunghir,130_1 130_2 130_3 130_4 130_5 130_6,Sunghir 1 Sunghir 2 Sunghir 3 Sunghir 4 Sunghir 5 Sunghir 6,3,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,131,131,131,Tabun Cave (Mugharet et-Tabun),131_0,Tabun Cave,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,132,132,132,Tepecik-Çiftlik,132_0,Tepecik-Çiftlik,5,5,1,1,2,3,3,2,2,3,2
+TRUE,site,min,133,133,133,Teshik-Tash Cave,133_0,Teshik-Tash,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,134,134,134,Cueva de los Torrejones,134_0,Torrejones,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,135,135,135,Txispiri,135_0,Txispiri,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,136,136,136,Txomen Koba Erdikua,136_0,Txomen Koba Erdikua,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,137,137,137,Txotxinkoba Cave,137_1 137_2,Txotxinkoba Adult Txotxinkoba Subadult,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,min,138,138,138,Urdabide II,138_0,Urdabide II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,min,139,139,139,Urtiaga,139_0,Urtiaga,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,140,140,140,Uxar,140_0,Uxar,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,141,141,141,Vado all'Arancio,141_0,Vado all'Arancio,5,5,1,2,4,3,3,5,3,3,5
+TRUE,site,min,142,142,142,Valdegoba Cave,142_1 142_2 142_3 142_4 142_5,VB I VB II VB III VB IV VB V,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,min,143,143,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",143_0,Vilhonneur 1,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,144,144,144,Vindija,144_0,Vindija fd/d,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,145,145,145,Vindija,145_0,Vindija G1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,146,146,146,Vindija,146_0,Vindija G3,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,147,147,147,Vunda Locus,147_1 147_2,Vunda Locus 26M Vunda Locus 26H,3,5,1,3,2,3,3,5,4,3,5
+TRUE,site,min,148,148,148,Weimar-Ehringsdorf,148_1 148_2 148_3 148_4 148_5 148_6 148_7 148_8,WE A WE B WE C WE D WE E WE F WE G WE H,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,min,149,149,149,Xemxija tombs,149_0,Xemxija,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,min,150,150,150,Boquete de Zafarraya,150_0,{Name} I,5,5,1,3,2,3,3,5,2,3,5
+TRUE,site,min,151,151,151,Zelaibizkar I,151_0,Zelaibizkar I,5,5,1,2,4,3,3,2,2,2,5
+TRUE,site,min,152,175,175,Sima de los Huesos PNAS,175_0,SH-PNAS,5,5,1,3,4,3,3,5,2,3,2
+FALSE,record/sample,max,1,1 | 1_1 | Abri Pataud I,1,Abri Pataud,1_1,Abri Pataud I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,2,1 | 1_2 | Abri Pataud II,1,Abri Pataud,1_2,Abri Pataud II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,3,1 | 1_3 | Abri Pataud III,1,Abri Pataud,1_3,Abri Pataud III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,4,1 | 1_4 | Abri Pataud IV,1,Abri Pataud,1_4,Abri Pataud IV,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,5,1 | 1_5 | Abri Pataud V,1,Abri Pataud,1_5,Abri Pataud V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,6,1 | 1_6 | Abri Pataud VI,1,Abri Pataud,1_6,Abri Pataud VI,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,7,2 | 2_0 | Aie Zelai,2,Aie Zelai,2_0,Aie Zelai,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,8,3 | 3_0 | Aitzgaizto,3,Aitzgaizto,3_0,Aitzgaizto,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,9,4 | 4_0 | Allekoaitze,4,Allekoaitze,4_0,Allekoaitze,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,10,5 | 5_1 | Amud I,5,Amud Cave,5_1,Amud I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,11,5 | 5_2 | Amud VII,5,Amud Cave,5_2,Amud VII,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,12,5 | 5_3 | Amud IX,5,Amud Cave,5_3,Amud IX,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,13,6 | 6_1 | Gs1,6,Arago,6_1,Gs1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,14,6 | 6_2 | Gs1_2,6,Arago,6_2,Gs1_2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,15,6 | 6_3 | Gm2...4,6,Arago,6_3,Gm2...4,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,16,6 | 6_4 | Gm2...5,6,Arago,6_4,Gm2...5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,17,6 | 6_5 | Gm3...6,6,Arago,6_5,Gm3...6,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,18,6 | 6_6 | Gm3...7,6,Arago,6_6,Gm3...7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,19,6 | 6_7 | Gi4...8,6,Arago,6_7,Gi4...8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,20,6 | 6_8 | Gi4...9,6,Arago,6_8,Gi4...9,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,21,6 | 6_9 | Fm3,6,Arago,6_9,Fm3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,22,6 | 6_10 | Fm4,6,Arago,6_10,Fm4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,23,6 | 6_11 | Fi,6,Arago,6_11,Fi,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,24,7 | 7_0 | Arbelaitz,7,Arbelaitz,7_0,Arbelaitz,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,25,8 | 8_0 | Archi,8,Archi,8_0,Archi,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,26,9 | 9_1 | Atxuri I adults,9,Atxuri-I Cave,9_1,Atxuri I adults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,27,9 | 9_2 | Atxuri I subadults,9,Atxuri-I Cave,9_2,Atxuri I subadults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,28,10 | 10_1 | Bauo da Torre I,10,Baousso da Torre (Bausu da Ture),10_1,Bauo da Torre I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,29,10 | 10_2 | Bauo da Torre II,10,Baousso da Torre (Bausu da Ture),10_2,Bauo da Torre II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,30,11 | 11_0 | Belako Arkaitza 1,11,Belako Arkaitza 1,11_0,Belako Arkaitza 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,31,12 | 12_0 | Beondegi II,12,Beondegi II,12_0,Beondegi II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,32,13 | 13_0 | Bilzingsleben,13,Bilzingsleben,13_0,Bilzingsleben,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,33,14 | 14_0 | Bolomor IV-VI,14,Bolomor Cave,14_0,Bolomor IV-VI,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,34,15 | 15_0 | Brillenhöhle,15,Brillenhöhle,15_0,Brillenhöhle,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,35,16 | 16_0 | Brno II,16,Brno II,16_0,Brno II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,36,17 | 17_0 | Carihuela,17,Cueva de la Carigüela,17_0,Carihuela,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,37,18 | 18_1 | CdF Adult,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",18_1,CdF Adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,38,18 | 18_2 | CdF Juvenil,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",18_2,CdF Juvenil,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,39,19 | 19_0 | Ceprano,19,Ceprano,19_0,Ceprano,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,40,20 | 20_0 | Chancelade,20,Abri de Raymonden (Chancelade),20_0,Chancelade,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,41,21 | 21_0 | Combe Grenal,21,Combe Grenal,21_0,Combe Grenal,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,42,22 | 22_2 | Parpallo juvenil,22,Cova del Parpalló (Parpalló Cave),22_2,Parpallo juvenil,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,43,22 | 22_2 | Parpallo adult,22,Cova del Parpalló (Parpalló Cave),22_2,Parpallo adult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,44,23 | 23_0 | Cova Gran de Sta Linya,23,Cova Gran de Santa Linya,23_0,Cova Gran de Sta Linya,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,45,24 | 24_0 | Cro-Magnon I-II,24,Cro-Magnon I,24_0,Cro-Magnon I-II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,46,25 | 25_1 | Crow Creek adult,25,Crow Creek,25_1,Crow Creek adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,47,25 | 25_2 | Crow Creek subadult,25,Crow Creek,25_2,Crow Creek subadult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,48,26 | 26_0 | Cueva de la Buena Pinta,26,Cueva de la Buena Pinta,26_0,Cueva de la Buena Pinta,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,49,27 | 27_0 | Cueva del Camino,27,Cueva del Camino,27_0,Cueva del Camino,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,50,28 | 28_0 | Dali Tianshuigou,28,Dali Tianshuigou,28_0,Dali Tianshuigou,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,51,29 | NA_individual | Dame du Cavillon,29,Dame du Cavillon,NA,Dame du Cavillon,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,52,30 | 30_1 | DV 13,30,Dolní Věstonice II,30_1,DV 13,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,53,30 | 30_2 | DV 14,30,Dolní Věstonice II,30_2,DV 14,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,54,30 | 30_3 | DV 15,30,Dolní Věstonice II,30_3,DV 15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,55,30 | 30_4 | DV 16,30,Dolní Věstonice II,30_4,DV 16,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,56,31 | 31_0 | Dolní Věstonice DV3,31,Dolní Věstonice I,31_0,Dolní Věstonice DV3,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,57,32 | 32_0 | El Espinoso,32,El Espinoso Cave,32_0,El Espinoso,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,58,33 | 33_0 | El Mirador MIR4,33,El Mirador,33_0,El Mirador MIR4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,59,34 | 34_0 | El Mirón Cave,34,El Mirón Cave,34_0,El Mirón Cave,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,60,35 | 35_0 | El Sidrón J1,35,El Sidrón J1,35_0,El Sidrón J1,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,61,36 | 36_0 | Engis 2,36,Engis / Schmerling Cave,36_0,Engis 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,62,37 | 37_0 | Erlaitz,37,Erlaitz,37_0,Erlaitz,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,63,38 | 38_0 | Errtxorta,38,Errtxorta,38_0,Errtxorta,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,64,39 | 39_0 | Feldhofer Grotte,39,Kleine Feldhofer Grotte,39_0,Feldhofer Grotte,5,5,1,3,2,3,3,5,4,3,5
+FALSE,record/sample,max,65,40 | 40_0 | Fondbregua H1,40,Grotte de Fontbrégoua,40_0,Fondbregua H1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,66,41 | 41_0 | Fondbregua H3,41,Grotte de Fontbrégoua,41_0,Fondbregua H3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,67,42 | 42_0 | Fonds-de-Forêt,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),42_0,Fonds-de-Forêt,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,68,43 | 43_0 | Foradada Cremated,43,Cova Foradada,43_0,Foradada Cremated,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,69,44 | 44_0 | Foradada Collectiv Burial,44,Cova Foradada,44_0,Foradada Collectiv Burial,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,70,45 | 45_1 | Gegant  I,45,Cova del Gegant,45_1,Gegant  I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,71,45 | 45_2 | Gegant  II,45,Cova del Gegant,45_2,Gegant  II,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,72,45 | 45_3 | Gegant  III,45,Cova del Gegant,45_3,Gegant  III,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,73,45 | 45_4 | Gegant  IV - V,45,Cova del Gegant,45_4,Gegant  IV - V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,74,46 | 46_1 | GC Subadult I,46,Gough's Cave,46_1,GC Subadult I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,75,46 | 46_2 | GC Subadult II,46,Gough's Cave,46_2,GC Subadult II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,76,46 | 46_3 | GC Subadult III,46,Gough's Cave,46_3,GC Subadult III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,77,46 | 46_4 | GC Adult I,46,Gough's Cave,46_4,GC Adult I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,78,46 | 47_5 | GC Adult II,46,Gough's Cave,47_5,GC Adult II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,79,46 | 46_6 | GC Adult III,46,Gough's Cave,46_6,GC Adult III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,80,46 | 46_7 | Adult indet,46,Gough's Cave,46_7,Adult indet,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,81,47 | 47_1 | Goyet adult,47,Troisième caverne of Goyet,47_1,Goyet adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,82,47 | 47_2 | Goyet juvenil,47,Troisième caverne of Goyet,47_2,Goyet juvenil,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,83,48 | 48_0 | Gran Dolina TD6,48,Gran Dolina,48_0,Gran Dolina TD6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,84,49 | 49_0 | Grotte de la Tour,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",49_0,Grotte de la Tour,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,85,50 | 50_1 | GB I,50,Grotte du Bison (Arcy-sur-Cure),50_1,GB I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,86,51 | 51_1 | GO Adult,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",51_1,GO Adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,87,52 | 52_0 | Guattari,52,Grotta Guattari,52_0,Guattari,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,88,53 | 53_0 | Hahnöfersand,53,Hahnöfersand,53_0,Hahnöfersand,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,89,54 | 54_0 | Hathnora,54,Hathnora,54_0,Hathnora,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,90,55 | 55_1 | Herxheim Adult,55,Herxheim,55_1,Herxheim Adult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,91,55 | 55_2 | Herxheim Subadult,55,Herxheim,55_2,Herxheim Subadult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,92,55 | 55_3 | Herxheim Infant,55,Herxheim,55_3,Herxheim Infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,93,56 | 56_0 | Hohlestein Stadel,56,Hohlenstein-Stadel,56_0,Hohlestein Stadel,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,94,57 | 57_0 | Jarama VI,57,Jarama VI rockshelter,57_0,Jarama VI,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,95,58 | 58_0 | Kajiado,58,Kajiado,58_0,Kajiado,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,96,59 | 59_0 | Kalamakia,59,Kalamakia,59_0,Kalamakia,5,5,1,3,4,3,3,5,4,2,5
+FALSE,record/sample,max,97,60 | 60_0 | Kebara 2,60,Kebara Cave,60_0,Kebara 2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,98,61 | 61_1 | Kiik Koba I,61,Kiik-Koba,61_1,Kiik Koba I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,99,61 | 61_2 | Kiik Koba II,61,Kiik-Koba,61_2,Kiik Koba II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,100,62 | 62_0 | Koba Lotx,62,Koba Lotx,62_0,Koba Lotx,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,101,63 | 63_0 | Koba Zarra,63,Koba Zarra,63_0,Koba Zarra,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,102,64 | 64_0 | Kobazar,64,Kobazar,64_0,Kobazar,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,103,65 | 65_0 | Krapina,65,Krapina,65_0,Krapina,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,104,66 | 66_0 | La Chapelle-aux-Saints,66,La Chapelle-aux-Saints,66_0,La Chapelle-aux-Saints,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,105,67 | 67_1 | LF 1,67,La Ferrassie,67_1,LF 1,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,106,67 | 67_2 | LF 2,67,La Ferrassie,67_2,LF 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,107,67 | 67_3 | LF 3,67,La Ferrassie,67_3,LF 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,108,67 | 67_4 | LF 4,67,La Ferrassie,67_4,LF 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,109,67 | 67_5 | LF4bis,67,La Ferrassie,67_5,LF4bis,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,110,67 | 67_6 | LF 5,67,La Ferrassie,67_6,LF 5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,111,67 | 67_7 | LF 6,67,La Ferrassie,67_7,LF 6,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,112,67 | 67_8 | LF 7,67,La Ferrassie,67_8,LF 7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,113,67 | 67_9 | LF 8,67,La Ferrassie,67_9,LF 8,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,114,68 | 68_0 | La Naulette,68,Trou de la Naulette,68_0,La Naulette,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,115,69 | 69_1 | H1,69,La Quina,69_1,H1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,116,69 | 69_2 | H2,69,La Quina,69_2,H2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,117,69 | 69_3 | H3,69,La Quina,69_3,H3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,118,69 | 69_4 | H4,69,La Quina,69_4,H4,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,119,69 | 69_5 | H5,69,La Quina,69_5,H5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,120,69 | 69_6 | H6,69,La Quina,69_6,H6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,121,69 | 69_7 | H7,69,La Quina,69_7,H7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,122,69 | 69_8 | H8,69,La Quina,69_8,H8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,123,69 | 69_9 | H9,69,La Quina,69_9,H9,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,124,69 | 69_10 | H10,69,La Quina,69_10,H10,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,125,69 | 69_11 | H11,69,La Quina,69_11,H11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,126,69 | 69_12 | H12,69,La Quina,69_12,H12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,127,69 | 69_13 | H13,69,La Quina,69_13,H13,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,128,69 | 69_14 | H14,69,La Quina,69_14,H14,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,129,69 | 69_15 | H15,69,La Quina,69_15,H15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,130,69 | 69_16 | H16,69,La Quina,69_16,H16,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,131,69 | 69_17 | H17,69,La Quina,69_17,H17,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,132,69 | 69_18 | H18,69,La Quina,69_18,H18,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,133,69 | 69_19 | H19,69,La Quina,69_19,H19,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,134,69 | 69_20 | H20,69,La Quina,69_20,H20,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,135,69 | 69_21 | H23,69,La Quina,69_21,H23,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,136,69 | 69_22 | H27,69,La Quina,69_22,H27,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,137,70 | 70_1 | La Tolita adult,70,La Tolita Cama de Huesos,70_1,La Tolita adult,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,138,70 | 70_2 | La Tolita subadult,70,La Tolita Cama de Huesos,70_2,La Tolita subadult,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,139,71 | 71_1 | Lagar Velho,71,Abrigo do Lagar Velho,71_1,Lagar Velho,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,140,72 | 72_0 | Larrabiel,72,Larrabiel,72_0,Larrabiel,3,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,141,73 | 73_0 | Le Moustier I,73,Le Moustier I,73_0,Le Moustier I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,142,74 | 74_0 | Le Moustier II,74,Le Moustier II,74_0,Le Moustier II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,143,75 | 75_0 | Le Placard,75,Le Placard,75_0,Le Placard,5,5,1,2,4,3,3,2,4,3,5
+FALSE,record/sample,max,144,76 | 76_0 | Les Pradelles,76,Les Pradelles (Marillac-le-Franc),76_0,Les Pradelles,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,145,77 | 77_0 | RdV 1,77,Les Rochers-de-Villeneuve,77_0,RdV 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,146,78 | 78_0 | Les Hoteaux,78,Grotte des Hoteaux,78_0,Les Hoteaux,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,147,79 | 79_0 | Malamuerzo,79,Cueva de Malalmuerzo,79_0,Malamuerzo,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,148,80 | 80_0 | Malladetes,80,"Cova de les Malladetes (Barx, Valencia, Spain)",80_0,Malladetes,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,149,81 | 81_0 | Mancos 5MT-10010 Feature 3,81,Mancos 5MT-10010 Feature 3,81_0,Mancos 5MT-10010 Feature 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,150,82 | 82_0 | Mancos Yellow Jacket 5MT-3,82,Yellow Jacket 5MT-3,82_0,Mancos Yellow Jacket 5MT-3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,151,83 | 83_0 | Manot young,83,Manot Cave,83_0,Manot young,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,152,84 | 84_1 | Marizulo Male,84,Marizulo I,84_1,Marizulo Male,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,153,84 | 84_2 | Marizulo 2-5,84,Marizulo I,84_2,Marizulo 2-5,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,154,85 | 85_0 | Maszycka Cave,85,Maszycka Cave,85_0,Maszycka Cave,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,155,86 | 86_0 | Mauer Heidelberg,86,Mauer,86_0,Mauer Heidelberg,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,156,87 | 87_1 | Mladec D,87,Mladeč Caves,87_1,Mladec D,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,157,88 | 88_0 | Mojokerto,88,Mojokerto,88_0,Mojokerto,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,158,89 | 89_0 | Moros de la Gabasa,89,Los Moros de Gabasa,89_0,Moros de la Gabasa,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,159,90 | 90_1 | MG I,90,Moula-Guercy,90_1,MG I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,160,90 | 90_2 | MG II,90,Moula-Guercy,90_2,MG II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,161,90 | 90_3 | MG III,90,Moula-Guercy,90_3,MG III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,162,90 | 90_4 | MG IV,90,Moula-Guercy,90_4,MG IV,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,163,90 | 90_5 | MG V,90,Moula-Guercy,90_5,MG V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,164,90 | 90_6 | MG VI,90,Moula-Guercy,90_6,MG VI,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,165,90 | 90_7 | MG indet,90,Moula-Guercy,90_7,MG indet,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,166,90 | 90_8 | MG indet_2,90,Moula-Guercy,90_8,MG indet_2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,167,91 | 91_1 | Skhul 1,91,Mugharet es-Skhul,91_1,Skhul 1,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,168,91 | 91_2 | Skhul 2,91,Mugharet es-Skhul,91_2,Skhul 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,169,91 | 91_3 | Skhul 3,91,Mugharet es-Skhul,91_3,Skhul 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,170,91 | 91_4 | Skhul 4,91,Mugharet es-Skhul,91_4,Skhul 4,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,171,91 | 91_5 | Skhul 5,91,Mugharet es-Skhul,91_5,Skhul 5,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,172,91 | 91_6 | Skhul 6,91,Mugharet es-Skhul,91_6,Skhul 6,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,173,91 | 91_7 | Skhul 7,91,Mugharet es-Skhul,91_7,Skhul 7,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,174,91 | 91_8 | Skhul 8,91,Mugharet es-Skhul,91_8,Skhul 8,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,175,91 | 91_9 | Skhul 9,91,Mugharet es-Skhul,91_9,Skhul 9,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,176,91 | 91_10 | Skhul 10,91,Mugharet es-Skhul,91_10,Skhul 10,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,177,92 | 92_1 | PM I,92,Peștera Muierii,92_1,PM I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,178,92 | 92_2 | PM II,92,Peștera Muierii,92_2,PM II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,179,93 | 93_0 | Naparraitz I,93,Naparraitz I,93_0,Naparraitz I,5,5,1,3,4,3,3,2,4,3,5
+FALSE,record/sample,max,180,94 | 94_0 | Netankheri,94,Netankheri,94_0,Netankheri,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,181,95 | 95_1 | NG 1,95,Ngandong,95_1,NG 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,182,95 | 95_2 | NG 2,95,Ngandong,95_2,NG 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,183,95 | 95_3 | NG 3,95,Ngandong,95_3,NG 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,184,95 | 95_4 | NG 4,95,Ngandong,95_4,NG 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,185,95 | 95_5 | NG 5,95,Ngandong,95_5,NG 5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,186,95 | 95_6 | NG 6,95,Ngandong,95_6,NG 6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,187,95 | 95_7 | NG 7,95,Ngandong,95_7,NG 7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,188,95 | 95_8 | NG 8,95,Ngandong,95_8,NG 8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,189,95 | 95_9 | NG 9,95,Ngandong,95_9,NG 9,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,190,95 | 95_10 | NG 10,95,Ngandong,95_10,NG 10,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,191,95 | 95_11 | NG 11,95,Ngandong,95_11,NG 11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,192,95 | 95_12 | NG 12,95,Ngandong,95_12,NG 12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,193,95 | 95_13 | NG 13,95,Ngandong,95_13,NG 13,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,194,95 | 95_14 | NG 14,95,Ngandong,95_14,NG 14,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,195,95 | 95_15 | NG 17,95,Ngandong,95_15,NG 17,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,196,96 | 96_0 | Ngawi,96,Ngawi,96_0,Ngawi,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,197,97 | 97_1 | OBK I,97,Oberkassel,97_1,OBK I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,198,97 | 97_2 | OBK II,97,Oberkassel,97_2,OBK II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,199,98 | 98_1 | Ochoz I,98,Ochoz 1,98_1,Ochoz I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,200,98 | 98_2 | Ochoz II,98,Ochoz 2,98_2,Ochoz II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,201,99 | 99_1 | TE individual,99,Ojo Guareña,99_1,TE individual,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,202,99 | 99_2 | GS Individual,99,Ojo Guareña,99_2,GS Individual,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,203,100 | 100_0 | Olatzazpi,100,Olatzazpi,100_0,Olatzazpi,5,5,1,3,4,3,3,3,4,3,5
+FALSE,record/sample,max,204,101 | 101_0 | Otalora,101,Otalora,101_0,Otalora,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,205,102 | 102_0 | Paviland I,102,Goat’s Hole (Paviland Cave),102_0,Paviland I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,206,103 | 103_0 | Pavlov I,103,Pavlov I,103_0,Pavlov I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,207,104 | 104_1 | Perrats Adults,104,Grotte des Perrats,104_1,Perrats Adults,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,208,104 | 104_2 | Perrats Subadults,104,Grotte des Perrats,104_2,Perrats Subadults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,209,105 | 105_0 | Pikandita,105,Pikandita,105_0,Pikandita,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,210,106 | 106_1 | Predmosti 1,106,Předmostí,106_1,Predmosti 1,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,211,106 | 106_2 | Predmosti 2,106,Předmostí,106_2,Predmosti 2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,212,106 | 106_3 | Predmosti 3,106,Předmostí,106_3,Predmosti 3,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,213,106 | 106_4 | Predmosti 4,106,Předmostí,106_4,Predmosti 4,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,214,106 | 106_5 | Predmosti 5,106,Předmostí,106_5,Predmosti 5,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,215,106 | 106_6 | Predmosti 6,106,Předmostí,106_6,Predmosti 6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,216,106 | 106_7 | Predmosti 7,106,Předmostí,106_7,Predmosti 7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,217,106 | 106_8 | Predmosti 8,106,Předmostí,106_8,Predmosti 8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,218,106 | 106_9 | Predmosti 9,106,Předmostí,106_9,Predmosti 9,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,219,106 | 106_10 | Predmosti 10,106,Předmostí,106_10,Predmosti 10,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,220,106 | 106_11 | Predmosti 11,106,Předmostí,106_11,Predmosti 11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,221,106 | 106_12 | Predmosti 12,106,Předmostí,106_12,Predmosti 12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,222,106 | 106_13 | Predmosti 13,106,Předmostí,106_13,Predmosti 13,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,223,106 | 106_14 | Predmosti 14,106,Předmostí,106_14,Predmosti 14,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,224,106 | 106_15 | Predmosti 15,106,Předmostí,106_15,Predmosti 15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,225,106 | 106_16 | Predmosti 16,106,Předmostí,106_16,Predmosti 16,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,226,106 | 106_17 | Predmosti 17,106,Předmostí,106_17,Predmosti 17,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,227,106 | 106_18 | Predmosti 18,106,Předmostí,106_18,Predmosti 18,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,228,106 | 106_19 | Predmosti 19,106,Předmostí,106_19,Predmosti 19,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,229,106 | 106_20 | Predmosti 20,106,Předmostí,106_20,Predmosti 20,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,230,106 | 106_21 | Predmosti 21,106,Předmostí,106_21,Predmosti 21,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,231,106 | 106_22 | Predmosti 22,106,Předmostí,106_22,Predmosti 22,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,232,106 | 106_23 | Predmosti 23,106,Předmostí,106_23,Predmosti 23,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,233,106 | 106_24 | Predmosti 24,106,Předmostí,106_24,Predmosti 24,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,234,106 | 106_25 | Predmosti 25,106,Předmostí,106_25,Predmosti 25,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,235,106 | 106_26 | Predmosti 26,106,Předmostí,106_26,Predmosti 26,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,236,106 | 106_27 | Predmosti 27,106,Předmostí,106_27,Predmosti 27,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,237,106 | 106_28 | Predmosti 28,106,Předmostí,106_28,Predmosti 28,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,238,106 | 106_29 | Predmosti 29,106,Předmostí,106_29,Predmosti 29,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,239,106 | 106_30 | Predmosti 30,106,Předmostí,106_30,Predmosti 30,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,240,107 | 107_1 | Q3,107,Qafzeh Cave,107_1,Q3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,241,107 | 107_2 | Q4,107,Qafzeh Cave,107_2,Q4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,242,107 | 107_3 | Q5,107,Qafzeh Cave,107_3,Q5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,243,107 | 107_4 | Q6,107,Qafzeh Cave,107_4,Q6,5,5,1,3,4,3,3,5,4,2,5
+FALSE,record/sample,max,244,107 | 107_5 | Q7,107,Qafzeh Cave,107_5,Q7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,245,107 | 107_6 | Q567,107,Qafzeh Cave,107_6,Q567,5,5,1,3,4,2,3,5,4,3,5
+FALSE,record/sample,max,246,107 | 107_7 | Q8,107,Qafzeh Cave,107_7,Q8,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,247,107 | 107_8 | Q9,107,Qafzeh Cave,107_8,Q9,5,5,1,2,4,3,3,5,3,3,5
+FALSE,record/sample,max,248,107 | 107_9 | Q10,107,Qafzeh Cave,107_9,Q10,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,249,107 | 107_10 | Q11,107,Qafzeh Cave,107_10,Q11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,250,107 | 107_11 | Q12,107,Qafzeh Cave,107_11,Q12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,251,107 | 107_12 | Q13,107,Qafzeh Cave,107_12,Q13,5,5,1,3,4,3,3,5,4,2,5
+FALSE,record/sample,max,252,107 | 107_13 | Q14,107,Qafzeh Cave,107_13,Q14,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,253,107 | 107_14 | Q15,107,Qafzeh Cave,107_14,Q15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,254,107 | 107_15 | Q21,107,Qafzeh Cave,107_15,Q21,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,255,107 | 107_16 | Q22,107,Qafzeh Cave,107_16,Q22,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,256,107 | 107_17 | Q25,107,Qafzeh Cave,107_17,Q25,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,257,108 | 108_1 | Regourdou I,108,Regourdou,108_1,Regourdou I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,258,108 | 108_2 | Regourdou II,108,Regourdou,108_2,Regourdou II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,259,109 | 109_0 | Reilingen,109,Reilingen,109_0,Reilingen,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,260,110 | 110_0 | Roc de Cave,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",110_0,Roc de Cave,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,261,111 | 111_0 | Roc de Marsal,111,Roc de Marsal,111_0,Roc de Marsal,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,262,112 | 112_0 | Roc de Orenetes,112,Roc de les Orenetes,112_0,Roc de Orenetes,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,263,113 | 113_1 | Saccopastore I,113,Saccopastore,113_1,Saccopastore I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,264,113 | 113_2 | Saccopastore II,113,Saccopastore,113_2,Saccopastore II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,265,114 | 114_0 | Saint-Césaire,114,Saint-Césaire,114_0,Saint-Césaire,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,266,115 | 115_0 | Saint-Germain-la-Rivière,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),115_0,Saint-Germain-la-Rivière,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,267,116 | 116_1 | SM 1,116,Sambungmacan,116_1,SM 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,268,116 | 116_2 | SM 2,116,Sambungmacan,116_2,SM 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,269,116 | 116_3 | SM 3,116,Sambungmacan,116_3,SM 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,270,116 | 116_4 | SM 4,116,Sambungmacan,116_4,SM 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,271,117 | 117_1 | C.212-211,117,San Juan ante Portam Latinam,117_1,C.212-211,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,272,117 | 117_2 | C.2 (B1)-636,117,San Juan ante Portam Latinam,117_2,C.2 (B1)-636,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,273,117 | 117_3 | C.3 (B1)-121,117,San Juan ante Portam Latinam,117_3,C.3 (B1)-121,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,274,117 | 117_4 | C.4 (B1)-125,117,San Juan ante Portam Latinam,117_4,C.4 (B1)-125,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,275,117 | 117_5 | C.118-318-320,117,San Juan ante Portam Latinam,117_5,C.118-318-320,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,276,117 | 117_6 | C.118-368-infant,117,San Juan ante Portam Latinam,117_6,C.118-368-infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,277,117 | 117_7 | C.120-165-171-173,117,San Juan ante Portam Latinam,117_7,C.120-165-171-173,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,278,117 | 117_8 | C128-680-767-799,117,San Juan ante Portam Latinam,117_8,C128-680-767-799,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,279,117 | 117_9 | C128-680-Infant,117,San Juan ante Portam Latinam,117_9,C128-680-Infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,280,117 | 117_10 | C.129-100-038-040-050-051-141,117,San Juan ante Portam Latinam,117_10,C.129-100-038-040-050-051-141,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,281,117 | 117_11 | C.129-141-juvenil,117,San Juan ante Portam Latinam,117_11,C.129-141-juvenil,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,282,117 | 117_12 | C.130-166-167,117,San Juan ante Portam Latinam,117_12,C.130-166-167,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,283,117 | 117_13 | C.140-197,117,San Juan ante Portam Latinam,117_13,C.140-197,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,284,117 | 117_14 | C.143-175,117,San Juan ante Portam Latinam,117_14,C.143-175,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,285,117 | 117_15 | C.150-152,117,San Juan ante Portam Latinam,117_15,C.150-152,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,286,117 | 117_16 | C.156-141-142,117,San Juan ante Portam Latinam,117_16,C.156-141-142,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,287,117 | 117_17 | C.161-98-87-97-98,117,San Juan ante Portam Latinam,117_17,C.161-98-87-97-98,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,288,117 | 117_18 | C.170-338,117,San Juan ante Portam Latinam,117_18,C.170-338,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,289,117 | 117_19 | C.175-102-73-76,117,San Juan ante Portam Latinam,117_19,C.175-102-73-76,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,290,117 | 117_20 | C.177-106-114-115-116,117,San Juan ante Portam Latinam,117_20,C.177-106-114-115-116,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,291,117 | 117_21 | C.179-178-173-174,117,San Juan ante Portam Latinam,117_21,C.179-178-173-174,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,292,117 | 117_22 | C.184-108,117,San Juan ante Portam Latinam,117_22,C.184-108,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,293,117 | 117_23 | C.188-119-131,117,San Juan ante Portam Latinam,117_23,C.188-119-131,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,294,117 | 117_24 | C.198-170,117,San Juan ante Portam Latinam,117_24,C.198-170,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,295,117 | 117_25 | C.198-170-infant,117,San Juan ante Portam Latinam,117_25,C.198-170-infant,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,296,117 | 117_26 | C.199-172,117,San Juan ante Portam Latinam,117_26,C.199-172,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,297,117 | 117_27 | C.199-172-infant,117,San Juan ante Portam Latinam,117_27,C.199-172-infant,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,298,117 | 117_28 | C.207-192,117,San Juan ante Portam Latinam,117_28,C.207-192,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,299,117 | 117_29 | C.212-786,117,San Juan ante Portam Latinam,117_29,C.212-786,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,300,117 | 117_30 | C.212-786-infant,117,San Juan ante Portam Latinam,117_30,C.212-786-infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,301,117 | 117_31 | C.124-216,117,San Juan ante Portam Latinam,117_31,C.124-216,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,302,117 | 117_32 | C.214b-358,117,San Juan ante Portam Latinam,117_32,C.214b-358,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,303,117 | 117_33 | C.215-203-145-185,117,San Juan ante Portam Latinam,117_33,C.215-203-145-185,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,304,117 | 117_34 | C.215-203-infant,117,San Juan ante Portam Latinam,117_34,C.215-203-infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,305,117 | 117_35 | C.218-213-209-199,117,San Juan ante Portam Latinam,117_35,C.218-213-209-199,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,306,117 | 117_36 | C.220-176-184,117,San Juan ante Portam Latinam,117_36,C.220-176-184,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,307,117 | 117_37 | C.211-326,117,San Juan ante Portam Latinam,117_37,C.211-326,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,308,117 | 117_38 | C.225-325-364-365-168,117,San Juan ante Portam Latinam,117_38,C.225-325-364-365-168,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,309,117 | 117_39 | C.226-330,117,San Juan ante Portam Latinam,117_39,C.226-330,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,310,117 | 117_40 | C.227-343,117,San Juan ante Portam Latinam,117_40,C.227-343,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,311,117 | 117_41 | C.229-340,117,San Juan ante Portam Latinam,117_41,C.229-340,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,312,117 | 117_42 | C.230-339,117,San Juan ante Portam Latinam,117_42,C.230-339,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,313,117 | 117_43 | C.231-332,117,San Juan ante Portam Latinam,117_43,C.231-332,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,314,117 | 117_44 | C.232-344-214-663,117,San Juan ante Portam Latinam,117_44,C.232-344-214-663,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,315,117 | 117_45 | C.234-377-372,117,San Juan ante Portam Latinam,117_45,C.234-377-372,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,316,117 | 117_46 | C.238-402-533,117,San Juan ante Portam Latinam,117_46,C.238-402-533,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,317,117 | 117_47 | C.239-403,117,San Juan ante Portam Latinam,117_47,C.239-403,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,318,117 | 117_48 | C.241-410,117,San Juan ante Portam Latinam,117_48,C.241-410,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,319,117 | 117_49 | C.245-429-526-565,117,San Juan ante Portam Latinam,117_49,C.245-429-526-565,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,320,117 | 117_50 | C.245-429-infant,117,San Juan ante Portam Latinam,117_50,C.245-429-infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,321,117 | 117_51 | C.248-600-690-710-479,117,San Juan ante Portam Latinam,117_51,C.248-600-690-710-479,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,322,117 | 117_52 | C.250-441,117,San Juan ante Portam Latinam,117_52,C.250-441,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,323,117 | 117_53 | C.251-371-488,117,San Juan ante Portam Latinam,117_53,C.251-371-488,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,324,117 | 117_54 | C.252-357,117,San Juan ante Portam Latinam,117_54,C.252-357,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,325,117 | 117_55 | C.254-476,117,San Juan ante Portam Latinam,117_55,C.254-476,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,326,117 | 117_56 | C.255-524,117,San Juan ante Portam Latinam,117_56,C.255-524,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,327,117 | 117_57 | C.259-527,117,San Juan ante Portam Latinam,117_57,C.259-527,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,328,117 | 117_58 | C.260-587-532-802,117,San Juan ante Portam Latinam,117_58,C.260-587-532-802,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,329,117 | 117_59 | C.261b-549-544,117,San Juan ante Portam Latinam,117_59,C.261b-549-544,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,330,117 | 117_60 | C.262-942-943,117,San Juan ante Portam Latinam,117_60,C.262-942-943,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,331,117 | 117_61 | C.264-519-630,117,San Juan ante Portam Latinam,117_61,C.264-519-630,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,332,117 | 117_62 | C.270-559,117,San Juan ante Portam Latinam,117_62,C.270-559,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,333,117 | 117_63 | C.276-577,117,San Juan ante Portam Latinam,117_63,C.276-577,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,334,117 | 117_64 | C.277-576-696,117,San Juan ante Portam Latinam,117_64,C.277-576-696,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,335,117 | 117_65 | C.279-592,117,San Juan ante Portam Latinam,117_65,C.279-592,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,336,117 | 117_66 | C.286-652,117,San Juan ante Portam Latinam,117_66,C.286-652,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,337,117 | 117_67 | C.288-654-658,117,San Juan ante Portam Latinam,117_67,C.288-654-658,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,338,117 | 117_68 | C.289-620-439-581-539,117,San Juan ante Portam Latinam,117_68,C.289-620-439-581-539,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,339,117 | 117_69 | C.296-653,117,San Juan ante Portam Latinam,117_69,C.296-653,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,340,117 | 117_70 | C.297-691-694-696-601-714,117,San Juan ante Portam Latinam,117_70,C.297-691-694-696-601-714,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,341,117 | 117_71 | C.298-692,117,San Juan ante Portam Latinam,117_71,C.298-692,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,342,117 | 117_72 | C.300-905-931-973,117,San Juan ante Portam Latinam,117_72,C.300-905-931-973,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,343,117 | 117_73 | C.301-642-554-649-693,117,San Juan ante Portam Latinam,117_73,C.301-642-554-649-693,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,344,117 | 117_74 | C.304-687-714,117,San Juan ante Portam Latinam,117_74,C.304-687-714,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,345,117 | 117_75 | C.316-318-322-331-335,117,San Juan ante Portam Latinam,117_75,C.316-318-322-331-335,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,346,117 | 117_76 | C.318-991-888-959-893,117,San Juan ante Portam Latinam,117_76,C.318-991-888-959-893,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,347,117 | 117_77 | C.322-907,117,San Juan ante Portam Latinam,117_77,C.322-907,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,348,117 | 117_78 | C.331-914-678-697,117,San Juan ante Portam Latinam,117_78,C.331-914-678-697,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,349,117 | 117_79 | C.335-886-970-983-992,117,San Juan ante Portam Latinam,117_79,C.335-886-970-983-992,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,350,118 | 118_1 | Santa Maira Adults,118,Coves de Santa Maira,118_1,Santa Maira Adults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,351,118 | 118_2 | Santa Maira Infant,118,Coves de Santa Maira,118_2,Santa Maira Infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,352,119 | 119_0 | Scladina,119,Scladina Cave,119_0,Scladina,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,353,120 | 120_1 | Shanidar I,120,Shanidar Cave,120_1,Shanidar I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,354,120 | 120_2 | Shanidar II,120,Shanidar Cave,120_2,Shanidar II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,355,120 | 120_3 | Shanidar III,120,Shanidar Cave,120_3,Shanidar III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,356,120 | 120_4 | Shanidar IV,120,Shanidar Cave,120_4,Shanidar IV,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,357,120 | 120_5 | Shanidar V,120,Shanidar Cave,120_5,Shanidar V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,358,120 | 120_6 | Shanidar VI,120,Shanidar Cave,120_6,Shanidar VI,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,359,120 | 120_7 | Shanidar VII,120,Shanidar Cave,120_7,Shanidar VII,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,360,120 | 120_8 | Shanidar VIII,120,Shanidar Cave,120_8,Shanidar VIII,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,361,120 | 120_9 | Shanidar IX,120,Shanidar Cave,120_9,Shanidar IX,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,362,121 | 121_1 | SP-96,121,Sima de las Palomas,121_1,SP-96,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,363,175 | 175_0 | SH-PNAS,175,Sima de los Huesos PNAS,175_0,SH-PNAS,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,364,122 | 122_0 | SH-89,122,Sima de los Huesos 89,122_0,SH-89,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,365,123 | 123_0 | SH-90,123,Sima de los Huesos 90,123_0,SH-90,5,1,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,max,366,124 | 124_0 | SH-95,124,Sima de los Huesos 95,124_0,SH-95,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,367,125 | 125_0 | SH-15,125,Sima de los Huesos 15,125_0,SH-15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,368,126 | 126_0 | SH-24,126,Sima de los Huesos 24,126_0,SH-24,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,369,127 | 127_0 | Sorginzulo,127,Sorginzulo,127_0,Sorginzulo,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,370,128 | 128_0 | Spy I & II,128,Spy cave,128_0,Spy I & II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,371,129 | 129_0 | Steinheim,129,Steinheim an der Murr,129_0,Steinheim,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,372,130 | 130_1 | Sunghir 1,130,Sunghir,130_1,Sunghir 1,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,373,130 | 130_2 | Sunghir 2,130,Sunghir,130_2,Sunghir 2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,374,130 | 130_3 | Sunghir 3,130,Sunghir,130_3,Sunghir 3,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,375,130 | 130_4 | Sunghir 4,130,Sunghir,130_4,Sunghir 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,376,130 | 130_5 | Sunghir 5,130,Sunghir,130_5,Sunghir 5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,377,130 | 130_6 | Sunghir 6,130,Sunghir,130_6,Sunghir 6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,378,131 | 131_0 | Tabun Cave,131,Tabun Cave (Mugharet et-Tabun),131_0,Tabun Cave,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,379,132 | 132_0 | Tepecik-Çiftlik,132,Tepecik-Çiftlik,132_0,Tepecik-Çiftlik,5,5,1,1,2,3,3,2,4,3,2
+FALSE,record/sample,max,380,133 | 133_0 | Teshik-Tash,133,Teshik-Tash Cave,133_0,Teshik-Tash,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,381,134 | 134_0 | Torrejones,134,Cueva de los Torrejones,134_0,Torrejones,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,382,135 | 135_0 | Txispiri,135,Txispiri,135_0,Txispiri,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,383,136 | 136_0 | Txomen Koba Erdikua,136,Txomen Koba Erdikua,136_0,Txomen Koba Erdikua,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,384,137 | 137_1 | Txotxinkoba Adult,137,Txotxinkoba Cave,137_1,Txotxinkoba Adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,385,137 | 137_2 | Txotxinkoba Subadult,137,Txotxinkoba Cave,137_2,Txotxinkoba Subadult,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,386,138 | 138_0 | Urdabide II,138,Urdabide II,138_0,Urdabide II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,387,139 | 139_0 | Urtiaga,139,Urtiaga,139_0,Urtiaga,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,388,140 | 140_0 | Uxar,140,Uxar,140_0,Uxar,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,389,141 | 141_0 | Vado all'Arancio,141,Vado all'Arancio,141_0,Vado all'Arancio,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,390,142 | 142_1 | VB I,142,Valdegoba Cave,142_1,VB I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,391,142 | 142_2 | VB II,142,Valdegoba Cave,142_2,VB II,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,392,142 | 142_3 | VB III,142,Valdegoba Cave,142_3,VB III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,393,142 | 142_4 | VB IV,142,Valdegoba Cave,142_4,VB IV,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,394,142 | 142_5 | VB V,142,Valdegoba Cave,142_5,VB V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,395,143 | 143_0 | Vilhonneur 1,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",143_0,Vilhonneur 1,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,max,396,144 | 144_0 | Vindija fd/d,144,Vindija,144_0,Vindija fd/d,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,397,145 | 145_0 | Vindija G1,145,Vindija,145_0,Vindija G1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,398,146 | 146_0 | Vindija G3,146,Vindija,146_0,Vindija G3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,399,147 | 147_1 | Vunda Locus 26M,147,Vunda Locus,147_1,Vunda Locus 26M,5,5,1,3,2,3,3,5,4,3,5
+FALSE,record/sample,max,400,147 | 147_2 | Vunda Locus 26H,147,Vunda Locus,147_2,Vunda Locus 26H,5,5,1,3,2,3,3,5,4,3,5
+FALSE,record/sample,max,401,148 | 148_1 | WE A,148,Weimar-Ehringsdorf,148_1,WE A,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,402,148 | 148_2 | WE B,148,Weimar-Ehringsdorf,148_2,WE B,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,403,148 | 148_3 | WE C,148,Weimar-Ehringsdorf,148_3,WE C,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,404,148 | 148_4 | WE D,148,Weimar-Ehringsdorf,148_4,WE D,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,405,148 | 148_5 | WE E,148,Weimar-Ehringsdorf,148_5,WE E,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,406,148 | 148_6 | WE F,148,Weimar-Ehringsdorf,148_6,WE F,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,407,148 | 148_7 | WE G,148,Weimar-Ehringsdorf,148_7,WE G,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,408,148 | 148_8 | WE H,148,Weimar-Ehringsdorf,148_8,WE H,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,409,149 | 149_0 | Xemxija,149,Xemxija tombs,149_0,Xemxija,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,max,410,150 | 150_0 | {Name} I,150,Boquete de Zafarraya,150_0,{Name} I,5,5,1,3,2,3,3,5,4,3,5
+FALSE,record/sample,max,411,151 | 151_0 | Zelaibizkar I,151,Zelaibizkar I,151_0,Zelaibizkar I,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,1,1,1,Abri Pataud,1_1 1_2 1_3 1_4 1_5 1_6,Abri Pataud I Abri Pataud II Abri Pataud III Abri Pataud IV Abri Pataud V Abri Pataud VI,5,1,1,3,4,3,3,5,3,3,5
+TRUE,site,max,2,2,2,Aie Zelai,2_0,Aie Zelai,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,3,3,3,Aitzgaizto,3_0,Aitzgaizto,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,4,4,4,Allekoaitze,4_0,Allekoaitze,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,5,5,5,Amud Cave,5_1 5_2 5_3,Amud I Amud VII Amud IX,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,6,6,6,Arago,6_1 6_2 6_3 6_4 6_5 6_6 6_7 6_8 6_9 6_10 6_11,Gs1 Gs1_2 Gm2...4 Gm2...5 Gm3...6 Gm3...7 Gi4...8 Gi4...9 Fm3 Fm4 Fi,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,7,7,7,Arbelaitz,7_0,Arbelaitz,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,8,8,8,Archi,8_0,Archi,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,9,9,9,Atxuri-I Cave,9_1 9_2,Atxuri I adults Atxuri I subadults,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,10,10,10,Baousso da Torre (Bausu da Ture),10_1 10_2,Bauo da Torre I Bauo da Torre II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,11,11,11,Belako Arkaitza 1,11_0,Belako Arkaitza 1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,12,12,12,Beondegi II,12_0,Beondegi II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,13,13,13,Bilzingsleben,13_0,Bilzingsleben,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,14,14,14,Bolomor Cave,14_0,Bolomor IV-VI,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,max,15,15,15,Brillenhöhle,15_0,Brillenhöhle,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,16,16,16,Brno II,16_0,Brno II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,17,17,17,Cueva de la Carigüela,17_0,Carihuela,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,18,18,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",18_1 18_2,CdF Adult CdF Juvenil,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,19,19,19,Ceprano,19_0,Ceprano,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,20,20,20,Abri de Raymonden (Chancelade),20_0,Chancelade,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,21,21,21,Combe Grenal,21_0,Combe Grenal,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,22,22,22,Cova del Parpalló (Parpalló Cave),22_2 22_2,Parpallo juvenil Parpallo adult,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,23,23,23,Cova Gran de Santa Linya,23_0,Cova Gran de Sta Linya,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,24,24,24,Cro-Magnon I,24_0,Cro-Magnon I-II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,25,25,25,Crow Creek,25_1 25_2,Crow Creek adult Crow Creek subadult,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,26,26,26,Cueva de la Buena Pinta,26_0,Cueva de la Buena Pinta,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,max,27,27,27,Cueva del Camino,27_0,Cueva del Camino,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,28,28,28,Dali Tianshuigou,28_0,Dali Tianshuigou,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,29,29,29,Dame du Cavillon,NA,Dame du Cavillon,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,30,30,30,Dolní Věstonice II,30_1 30_2 30_3 30_4,DV 13 DV 14 DV 15 DV 16,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,31,31,31,Dolní Věstonice I,31_0,Dolní Věstonice DV3,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,32,32,32,El Espinoso Cave,32_0,El Espinoso,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,33,33,33,El Mirador,33_0,El Mirador MIR4,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,34,34,34,El Mirón Cave,34_0,El Mirón Cave,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,35,35,35,El Sidrón J1,35_0,El Sidrón J1,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,36,36,36,Engis / Schmerling Cave,36_0,Engis 2,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,37,37,37,Erlaitz,37_0,Erlaitz,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,38,38,38,Errtxorta,38_0,Errtxorta,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,39,39,39,Kleine Feldhofer Grotte,39_0,Feldhofer Grotte,5,5,1,3,2,3,3,5,4,3,5
+TRUE,site,max,40,40,40,Grotte de Fontbrégoua,40_0,Fondbregua H1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,41,41,41,Grotte de Fontbrégoua,41_0,Fondbregua H3,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,42,42,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),42_0,Fonds-de-Forêt,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,max,43,43,43,Cova Foradada,43_0,Foradada Cremated,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,44,44,44,Cova Foradada,44_0,Foradada Collectiv Burial,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,45,45,45,Cova del Gegant,45_1 45_2 45_3 45_4,Gegant  I Gegant  II Gegant  III Gegant  IV - V,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,max,46,46,46,Gough's Cave,46_1 46_2 46_3 46_4 47_5 46_6 46_7,GC Subadult I GC Subadult II GC Subadult III GC Adult I GC Adult II GC Adult III Adult indet,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,47,47,47,Troisième caverne of Goyet,47_1 47_2,Goyet adult Goyet juvenil,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,max,48,48,48,Gran Dolina,48_0,Gran Dolina TD6,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,49,49,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",49_0,Grotte de la Tour,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,50,50,50,Grotte du Bison (Arcy-sur-Cure),50_1,GB I,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,51,51,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",51_1,GO Adult,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,52,52,52,Grotta Guattari,52_0,Guattari,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,53,53,53,Hahnöfersand,53_0,Hahnöfersand,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,54,54,54,Hathnora,54_0,Hathnora,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,55,55,55,Herxheim,55_1 55_2 55_3,Herxheim Adult Herxheim Subadult Herxheim Infant,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,56,56,56,Hohlenstein-Stadel,56_0,Hohlestein Stadel,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,57,57,57,Jarama VI rockshelter,57_0,Jarama VI,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,58,58,58,Kajiado,58_0,Kajiado,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,59,59,59,Kalamakia,59_0,Kalamakia,5,5,1,3,4,3,3,5,4,2,5
+TRUE,site,max,60,60,60,Kebara Cave,60_0,Kebara 2,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,61,61,61,Kiik-Koba,61_1 61_2,Kiik Koba I Kiik Koba II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,62,62,62,Koba Lotx,62_0,Koba Lotx,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,63,63,63,Koba Zarra,63_0,Koba Zarra,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,64,64,64,Kobazar,64_0,Kobazar,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,65,65,65,Krapina,65_0,Krapina,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,66,66,66,La Chapelle-aux-Saints,66_0,La Chapelle-aux-Saints,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,67,67,67,La Ferrassie,67_1 67_2 67_3 67_4 67_5 67_6 67_7 67_8 67_9,LF 1 LF 2 LF 3 LF 4 LF4bis LF 5 LF 6 LF 7 LF 8,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,68,68,68,Trou de la Naulette,68_0,La Naulette,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,69,69,69,La Quina,69_1 69_2 69_3 69_4 69_5 69_6 69_7 69_8 69_9 69_10 69_11 69_12 69_13 69_14 69_15 69_16 69_17 69_18 69_19 69_20 69_21 69_22,H1 H2 H3 H4 H5 H6 H7 H8 H9 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H23 H27,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,max,70,70,70,La Tolita Cama de Huesos,70_1 70_2,La Tolita adult La Tolita subadult,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,71,71,71,Abrigo do Lagar Velho,71_1,Lagar Velho,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,72,72,72,Larrabiel,72_0,Larrabiel,3,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,73,73,73,Le Moustier I,73_0,Le Moustier I,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,74,74,74,Le Moustier II,74_0,Le Moustier II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,75,75,75,Le Placard,75_0,Le Placard,5,5,1,2,4,3,3,2,4,3,5
+TRUE,site,max,76,76,76,Les Pradelles (Marillac-le-Franc),76_0,Les Pradelles,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,77,77,77,Les Rochers-de-Villeneuve,77_0,RdV 1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,78,78,78,Grotte des Hoteaux,78_0,Les Hoteaux,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,79,79,79,Cueva de Malalmuerzo,79_0,Malamuerzo,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,80,80,80,"Cova de les Malladetes (Barx, Valencia, Spain)",80_0,Malladetes,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,81,81,81,Mancos 5MT-10010 Feature 3,81_0,Mancos 5MT-10010 Feature 3,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,82,82,82,Yellow Jacket 5MT-3,82_0,Mancos Yellow Jacket 5MT-3,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,83,83,83,Manot Cave,83_0,Manot young,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,84,84,84,Marizulo I,84_1 84_2,Marizulo Male Marizulo 2-5,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,85,85,85,Maszycka Cave,85_0,Maszycka Cave,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,86,86,86,Mauer,86_0,Mauer Heidelberg,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,87,87,87,Mladeč Caves,87_1,Mladec D,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,88,88,88,Mojokerto,88_0,Mojokerto,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,89,89,89,Los Moros de Gabasa,89_0,Moros de la Gabasa,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,max,90,90,90,Moula-Guercy,90_1 90_2 90_3 90_4 90_5 90_6 90_7 90_8,MG I MG II MG III MG IV MG V MG VI MG indet MG indet_2,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,91,91,91,Mugharet es-Skhul,91_1 91_2 91_3 91_4 91_5 91_6 91_7 91_8 91_9 91_10,Skhul 1 Skhul 2 Skhul 3 Skhul 4 Skhul 5 Skhul 6 Skhul 7 Skhul 8 Skhul 9 Skhul 10,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,92,92,92,Peștera Muierii,92_1 92_2,PM I PM II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,93,93,93,Naparraitz I,93_0,Naparraitz I,5,5,1,3,4,3,3,2,4,3,5
+TRUE,site,max,94,94,94,Netankheri,94_0,Netankheri,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,95,95,95,Ngandong,95_1 95_2 95_3 95_4 95_5 95_6 95_7 95_8 95_9 95_10 95_11 95_12 95_13 95_14 95_15,NG 1 NG 2 NG 3 NG 4 NG 5 NG 6 NG 7 NG 8 NG 9 NG 10 NG 11 NG 12 NG 13 NG 14 NG 17,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,96,96,96,Ngawi,96_0,Ngawi,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,97,97,97,Oberkassel,97_1 97_2,OBK I OBK II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,98,98,98,"Ochoz 1, Ochoz 2",98_1 98_2,Ochoz I Ochoz II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,99,99,99,Ojo Guareña,99_1 99_2,TE individual GS Individual,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,100,100,100,Olatzazpi,100_0,Olatzazpi,5,5,1,3,4,3,3,3,4,3,5
+TRUE,site,max,101,101,101,Otalora,101_0,Otalora,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,102,102,102,Goat’s Hole (Paviland Cave),102_0,Paviland I,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,103,103,103,Pavlov I,103_0,Pavlov I,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,104,104,104,Grotte des Perrats,104_1 104_2,Perrats Adults Perrats Subadults,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,105,105,105,Pikandita,105_0,Pikandita,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,max,106,106,106,Předmostí,106_1 106_2 106_3 106_4 106_5 106_6 106_7 106_8 106_9 106_10 106_11 106_12 106_13 106_14 106_15 106_16 106_17 106_18 106_19 106_20 106_21 106_22 106_23 106_24 106_25 106_26 106_27 106_28 106_29 106_30,Predmosti 1 Predmosti 2 Predmosti 3 Predmosti 4 Predmosti 5 Predmosti 6 Predmosti 7 Predmosti 8 Predmosti 9 Predmosti 10 Predmosti 11 Predmosti 12 Predmosti 13 Predmosti 14 Predmosti 15 Predmosti 16 Predmosti 17 Predmosti 18 Predmosti 19 Predmosti 20 Predmosti 21 Predmosti 22 Predmosti 23 Predmosti 24 Predmosti 25 Predmosti 26 Predmosti 27 Predmosti 28 Predmosti 29 Predmosti 30,5,1,1,3,4,3,3,5,3,3,5
+TRUE,site,max,107,107,107,Qafzeh Cave,107_1 107_2 107_3 107_4 107_5 107_6 107_7 107_8 107_9 107_10 107_11 107_12 107_13 107_14 107_15 107_16 107_17,Q3 Q4 Q5 Q6 Q7 Q567 Q8 Q9 Q10 Q11 Q12 Q13 Q14 Q15 Q21 Q22 Q25,5,5,1,2,4,2,3,5,3,2,5
+TRUE,site,max,108,108,108,Regourdou,108_1 108_2,Regourdou I Regourdou II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,109,109,109,Reilingen,109_0,Reilingen,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,110,110,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",110_0,Roc de Cave,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,111,111,111,Roc de Marsal,111_0,Roc de Marsal,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,112,112,112,Roc de les Orenetes,112_0,Roc de Orenetes,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,113,113,113,Saccopastore,113_1 113_2,Saccopastore I Saccopastore II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,114,114,114,Saint-Césaire,114_0,Saint-Césaire,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,115,115,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),115_0,Saint-Germain-la-Rivière,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,116,116,116,Sambungmacan,116_1 116_2 116_3 116_4,SM 1 SM 2 SM 3 SM 4,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,117,117,117,San Juan ante Portam Latinam,117_1 117_2 117_3 117_4 117_5 117_6 117_7 117_8 117_9 117_10 117_11 117_12 117_13 117_14 117_15 117_16 117_17 117_18 117_19 117_20 117_21 117_22 117_23 117_24 117_25 117_26 117_27 117_28 117_29 117_30 117_31 117_32 117_33 117_34 117_35 117_36 117_37 117_38 117_39 117_40 117_41 117_42 117_43 117_44 117_45 117_46 117_47 117_48 117_49 117_50 117_51 117_52 117_53 117_54 117_55 117_56 117_57 117_58 117_59 117_60 117_61 117_62 117_63 117_64 117_65 117_66 117_67 117_68 117_69 117_70 117_71 117_72 117_73 117_74 117_75 117_76 117_77 117_78 117_79,C.212-211 C.2 (B1)-636 C.3 (B1)-121 C.4 (B1)-125 C.118-318-320 C.118-368-infant C.120-165-171-173 C128-680-767-799 C128-680-Infant C.129-100-038-040-050-051-141 C.129-141-juvenil C.130-166-167 C.140-197 C.143-175 C.150-152 C.156-141-142 C.161-98-87-97-98 C.170-338 C.175-102-73-76 C.177-106-114-115-116 C.179-178-173-174 C.184-108 C.188-119-131 C.198-170 C.198-170-infant C.199-172 C.199-172-infant C.207-192 C.212-786 C.212-786-infant C.124-216 C.214b-358 C.215-203-145-185 C.215-203-infant C.218-213-209-199 C.220-176-184 C.211-326 C.225-325-364-365-168 C.226-330 C.227-343 C.229-340 C.230-339 C.231-332 C.232-344-214-663 C.234-377-372 C.238-402-533 C.239-403 C.241-410 C.245-429-526-565 C.245-429-infant C.248-600-690-710-479 C.250-441 C.251-371-488 C.252-357 C.254-476 C.255-524 C.259-527 C.260-587-532-802 C.261b-549-544 C.262-942-943 C.264-519-630 C.270-559 C.276-577 C.277-576-696 C.279-592 C.286-652 C.288-654-658 C.289-620-439-581-539 C.296-653 C.297-691-694-696-601-714 C.298-692 C.300-905-931-973 C.301-642-554-649-693 C.304-687-714 C.316-318-322-331-335 C.318-991-888-959-893 C.322-907 C.331-914-678-697 C.335-886-970-983-992,5,1,1,3,4,3,3,5,2,3,5
+TRUE,site,max,118,118,118,Coves de Santa Maira,118_1 118_2,Santa Maira Adults Santa Maira Infant,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,119,119,119,Scladina Cave,119_0,Scladina,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,120,120,120,Shanidar Cave,120_1 120_2 120_3 120_4 120_5 120_6 120_7 120_8 120_9,Shanidar I Shanidar II Shanidar III Shanidar IV Shanidar V Shanidar VI Shanidar VII Shanidar VIII Shanidar IX,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,121,121,121,Sima de las Palomas,121_1,SP-96,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,122,122,122,Sima de los Huesos 89,122_0,SH-89,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,123,123,123,Sima de los Huesos 90,123_0,SH-90,5,1,1,3,4,3,3,5,2,3,5
+TRUE,site,max,124,124,124,Sima de los Huesos 95,124_0,SH-95,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,125,125,125,Sima de los Huesos 15,125_0,SH-15,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,126,126,126,Sima de los Huesos 24,126_0,SH-24,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,127,127,127,Sorginzulo,127_0,Sorginzulo,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,128,128,128,Spy cave,128_0,Spy I & II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,129,129,129,Steinheim an der Murr,129_0,Steinheim,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,130,130,130,Sunghir,130_1 130_2 130_3 130_4 130_5 130_6,Sunghir 1 Sunghir 2 Sunghir 3 Sunghir 4 Sunghir 5 Sunghir 6,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,131,131,131,Tabun Cave (Mugharet et-Tabun),131_0,Tabun Cave,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,132,132,132,Tepecik-Çiftlik,132_0,Tepecik-Çiftlik,5,5,1,1,2,3,3,2,4,3,2
+TRUE,site,max,133,133,133,Teshik-Tash Cave,133_0,Teshik-Tash,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,134,134,134,Cueva de los Torrejones,134_0,Torrejones,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,135,135,135,Txispiri,135_0,Txispiri,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,136,136,136,Txomen Koba Erdikua,136_0,Txomen Koba Erdikua,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,137,137,137,Txotxinkoba Cave,137_1 137_2,Txotxinkoba Adult Txotxinkoba Subadult,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,max,138,138,138,Urdabide II,138_0,Urdabide II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,139,139,139,Urtiaga,139_0,Urtiaga,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,140,140,140,Uxar,140_0,Uxar,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,141,141,141,Vado all'Arancio,141_0,Vado all'Arancio,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,142,142,142,Valdegoba Cave,142_1 142_2 142_3 142_4 142_5,VB I VB II VB III VB IV VB V,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,max,143,143,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",143_0,Vilhonneur 1,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,144,144,144,Vindija,144_0,Vindija fd/d,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,145,145,145,Vindija,145_0,Vindija G1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,146,146,146,Vindija,146_0,Vindija G3,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,147,147,147,Vunda Locus,147_1 147_2,Vunda Locus 26M Vunda Locus 26H,5,5,1,3,2,3,3,5,4,3,5
+TRUE,site,max,148,148,148,Weimar-Ehringsdorf,148_1 148_2 148_3 148_4 148_5 148_6 148_7 148_8,WE A WE B WE C WE D WE E WE F WE G WE H,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,149,149,149,Xemxija tombs,149_0,Xemxija,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,max,150,150,150,Boquete de Zafarraya,150_0,{Name} I,5,5,1,3,2,3,3,5,4,3,5
+TRUE,site,max,151,151,151,Zelaibizkar I,151_0,Zelaibizkar I,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,max,152,175,175,Sima de los Huesos PNAS,175_0,SH-PNAS,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,1,1 | 1_1 | Abri Pataud I,1,Abri Pataud,1_1,Abri Pataud I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,2,1 | 1_2 | Abri Pataud II,1,Abri Pataud,1_2,Abri Pataud II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,3,1 | 1_3 | Abri Pataud III,1,Abri Pataud,1_3,Abri Pataud III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,4,1 | 1_4 | Abri Pataud IV,1,Abri Pataud,1_4,Abri Pataud IV,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,5,1 | 1_5 | Abri Pataud V,1,Abri Pataud,1_5,Abri Pataud V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,6,1 | 1_6 | Abri Pataud VI,1,Abri Pataud,1_6,Abri Pataud VI,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,7,2 | 2_0 | Aie Zelai,2,Aie Zelai,2_0,Aie Zelai,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,8,3 | 3_0 | Aitzgaizto,3,Aitzgaizto,3_0,Aitzgaizto,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,9,4 | 4_0 | Allekoaitze,4,Allekoaitze,4_0,Allekoaitze,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,10,5 | 5_1 | Amud I,5,Amud Cave,5_1,Amud I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,11,5 | 5_2 | Amud VII,5,Amud Cave,5_2,Amud VII,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,12,5 | 5_3 | Amud IX,5,Amud Cave,5_3,Amud IX,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,13,6 | 6_1 | Gs1,6,Arago,6_1,Gs1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,14,6 | 6_2 | Gs1_2,6,Arago,6_2,Gs1_2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,15,6 | 6_3 | Gm2...4,6,Arago,6_3,Gm2...4,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,16,6 | 6_4 | Gm2...5,6,Arago,6_4,Gm2...5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,17,6 | 6_5 | Gm3...6,6,Arago,6_5,Gm3...6,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,18,6 | 6_6 | Gm3...7,6,Arago,6_6,Gm3...7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,19,6 | 6_7 | Gi4...8,6,Arago,6_7,Gi4...8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,20,6 | 6_8 | Gi4...9,6,Arago,6_8,Gi4...9,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,21,6 | 6_9 | Fm3,6,Arago,6_9,Fm3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,22,6 | 6_10 | Fm4,6,Arago,6_10,Fm4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,23,6 | 6_11 | Fi,6,Arago,6_11,Fi,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,24,7 | 7_0 | Arbelaitz,7,Arbelaitz,7_0,Arbelaitz,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,25,8 | 8_0 | Archi,8,Archi,8_0,Archi,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,26,9 | 9_1 | Atxuri I adults,9,Atxuri-I Cave,9_1,Atxuri I adults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,27,9 | 9_2 | Atxuri I subadults,9,Atxuri-I Cave,9_2,Atxuri I subadults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,28,10 | 10_1 | Bauo da Torre I,10,Baousso da Torre (Bausu da Ture),10_1,Bauo da Torre I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,29,10 | 10_2 | Bauo da Torre II,10,Baousso da Torre (Bausu da Ture),10_2,Bauo da Torre II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,30,11 | 11_0 | Belako Arkaitza 1,11,Belako Arkaitza 1,11_0,Belako Arkaitza 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,31,12 | 12_0 | Beondegi II,12,Beondegi II,12_0,Beondegi II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,32,13 | 13_0 | Bilzingsleben,13,Bilzingsleben,13_0,Bilzingsleben,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,33,14 | 14_0 | Bolomor IV-VI,14,Bolomor Cave,14_0,Bolomor IV-VI,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,34,15 | 15_0 | Brillenhöhle,15,Brillenhöhle,15_0,Brillenhöhle,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,35,16 | 16_0 | Brno II,16,Brno II,16_0,Brno II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,36,17 | 17_0 | Carihuela,17,Cueva de la Carigüela,17_0,Carihuela,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,37,18 | 18_1 | CdF Adult,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",18_1,CdF Adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,38,18 | 18_2 | CdF Juvenil,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",18_2,CdF Juvenil,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,39,19 | 19_0 | Ceprano,19,Ceprano,19_0,Ceprano,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,40,20 | 20_0 | Chancelade,20,Abri de Raymonden (Chancelade),20_0,Chancelade,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,41,21 | 21_0 | Combe Grenal,21,Combe Grenal,21_0,Combe Grenal,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,42,22 | 22_2 | Parpallo juvenil,22,Cova del Parpalló (Parpalló Cave),22_2,Parpallo juvenil,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,43,22 | 22_2 | Parpallo adult,22,Cova del Parpalló (Parpalló Cave),22_2,Parpallo adult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,44,23 | 23_0 | Cova Gran de Sta Linya,23,Cova Gran de Santa Linya,23_0,Cova Gran de Sta Linya,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,45,24 | 24_0 | Cro-Magnon I-II,24,Cro-Magnon I,24_0,Cro-Magnon I-II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,46,25 | 25_1 | Crow Creek adult,25,Crow Creek,25_1,Crow Creek adult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,47,25 | 25_2 | Crow Creek subadult,25,Crow Creek,25_2,Crow Creek subadult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,48,26 | 26_0 | Cueva de la Buena Pinta,26,Cueva de la Buena Pinta,26_0,Cueva de la Buena Pinta,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,49,27 | 27_0 | Cueva del Camino,27,Cueva del Camino,27_0,Cueva del Camino,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,50,28 | 28_0 | Dali Tianshuigou,28,Dali Tianshuigou,28_0,Dali Tianshuigou,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,51,29 | NA_individual | Dame du Cavillon,29,Dame du Cavillon,NA,Dame du Cavillon,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,52,30 | 30_1 | DV 13,30,Dolní Věstonice II,30_1,DV 13,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,53,30 | 30_2 | DV 14,30,Dolní Věstonice II,30_2,DV 14,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,54,30 | 30_3 | DV 15,30,Dolní Věstonice II,30_3,DV 15,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,55,30 | 30_4 | DV 16,30,Dolní Věstonice II,30_4,DV 16,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,56,31 | 31_0 | Dolní Věstonice DV3,31,Dolní Věstonice I,31_0,Dolní Věstonice DV3,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,57,32 | 32_0 | El Espinoso,32,El Espinoso Cave,32_0,El Espinoso,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,58,33 | 33_0 | El Mirador MIR4,33,El Mirador,33_0,El Mirador MIR4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,59,34 | 34_0 | El Mirón Cave,34,El Mirón Cave,34_0,El Mirón Cave,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,60,35 | 35_0 | El Sidrón J1,35,El Sidrón J1,35_0,El Sidrón J1,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,61,36 | 36_0 | Engis 2,36,Engis / Schmerling Cave,36_0,Engis 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,62,37 | 37_0 | Erlaitz,37,Erlaitz,37_0,Erlaitz,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,63,38 | 38_0 | Errtxorta,38,Errtxorta,38_0,Errtxorta,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,64,39 | 39_0 | Feldhofer Grotte,39,Kleine Feldhofer Grotte,39_0,Feldhofer Grotte,5,5,1,3,2,3,3,5,4,3,5
+FALSE,record/sample,mode,65,40 | 40_0 | Fondbregua H1,40,Grotte de Fontbrégoua,40_0,Fondbregua H1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,66,41 | 41_0 | Fondbregua H3,41,Grotte de Fontbrégoua,41_0,Fondbregua H3,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,67,42 | 42_0 | Fonds-de-Forêt,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),42_0,Fonds-de-Forêt,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,68,43 | 43_0 | Foradada Cremated,43,Cova Foradada,43_0,Foradada Cremated,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,69,44 | 44_0 | Foradada Collectiv Burial,44,Cova Foradada,44_0,Foradada Collectiv Burial,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,70,45 | 45_1 | Gegant  I,45,Cova del Gegant,45_1,Gegant  I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,71,45 | 45_2 | Gegant  II,45,Cova del Gegant,45_2,Gegant  II,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,72,45 | 45_3 | Gegant  III,45,Cova del Gegant,45_3,Gegant  III,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,73,45 | 45_4 | Gegant  IV - V,45,Cova del Gegant,45_4,Gegant  IV - V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,74,46 | 46_1 | GC Subadult I,46,Gough's Cave,46_1,GC Subadult I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,75,46 | 46_2 | GC Subadult II,46,Gough's Cave,46_2,GC Subadult II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,76,46 | 46_3 | GC Subadult III,46,Gough's Cave,46_3,GC Subadult III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,77,46 | 46_4 | GC Adult I,46,Gough's Cave,46_4,GC Adult I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,78,46 | 47_5 | GC Adult II,46,Gough's Cave,47_5,GC Adult II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,79,46 | 46_6 | GC Adult III,46,Gough's Cave,46_6,GC Adult III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,80,46 | 46_7 | Adult indet,46,Gough's Cave,46_7,Adult indet,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,81,47 | 47_1 | Goyet adult,47,Troisième caverne of Goyet,47_1,Goyet adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,82,47 | 47_2 | Goyet juvenil,47,Troisième caverne of Goyet,47_2,Goyet juvenil,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,83,48 | 48_0 | Gran Dolina TD6,48,Gran Dolina,48_0,Gran Dolina TD6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,84,49 | 49_0 | Grotte de la Tour,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",49_0,Grotte de la Tour,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,85,50 | 50_1 | GB I,50,Grotte du Bison (Arcy-sur-Cure),50_1,GB I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,86,51 | 51_1 | GO Adult,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",51_1,GO Adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,87,52 | 52_0 | Guattari,52,Grotta Guattari,52_0,Guattari,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,88,53 | 53_0 | Hahnöfersand,53,Hahnöfersand,53_0,Hahnöfersand,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,89,54 | 54_0 | Hathnora,54,Hathnora,54_0,Hathnora,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,90,55 | 55_1 | Herxheim Adult,55,Herxheim,55_1,Herxheim Adult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,91,55 | 55_2 | Herxheim Subadult,55,Herxheim,55_2,Herxheim Subadult,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,92,55 | 55_3 | Herxheim Infant,55,Herxheim,55_3,Herxheim Infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,93,56 | 56_0 | Hohlestein Stadel,56,Hohlenstein-Stadel,56_0,Hohlestein Stadel,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,94,57 | 57_0 | Jarama VI,57,Jarama VI rockshelter,57_0,Jarama VI,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,95,58 | 58_0 | Kajiado,58,Kajiado,58_0,Kajiado,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,96,59 | 59_0 | Kalamakia,59,Kalamakia,59_0,Kalamakia,5,5,1,3,4,3,3,5,4,2,5
+FALSE,record/sample,mode,97,60 | 60_0 | Kebara 2,60,Kebara Cave,60_0,Kebara 2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,98,61 | 61_1 | Kiik Koba I,61,Kiik-Koba,61_1,Kiik Koba I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,99,61 | 61_2 | Kiik Koba II,61,Kiik-Koba,61_2,Kiik Koba II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,100,62 | 62_0 | Koba Lotx,62,Koba Lotx,62_0,Koba Lotx,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,101,63 | 63_0 | Koba Zarra,63,Koba Zarra,63_0,Koba Zarra,5,5,1,3,4,3,3,2,4,3,5
+FALSE,record/sample,mode,102,64 | 64_0 | Kobazar,64,Kobazar,64_0,Kobazar,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,103,65 | 65_0 | Krapina,65,Krapina,65_0,Krapina,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,104,66 | 66_0 | La Chapelle-aux-Saints,66,La Chapelle-aux-Saints,66_0,La Chapelle-aux-Saints,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,105,67 | 67_1 | LF 1,67,La Ferrassie,67_1,LF 1,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,106,67 | 67_2 | LF 2,67,La Ferrassie,67_2,LF 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,107,67 | 67_3 | LF 3,67,La Ferrassie,67_3,LF 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,108,67 | 67_4 | LF 4,67,La Ferrassie,67_4,LF 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,109,67 | 67_5 | LF4bis,67,La Ferrassie,67_5,LF4bis,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,110,67 | 67_6 | LF 5,67,La Ferrassie,67_6,LF 5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,111,67 | 67_7 | LF 6,67,La Ferrassie,67_7,LF 6,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,112,67 | 67_8 | LF 7,67,La Ferrassie,67_8,LF 7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,113,67 | 67_9 | LF 8,67,La Ferrassie,67_9,LF 8,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,114,68 | 68_0 | La Naulette,68,Trou de la Naulette,68_0,La Naulette,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,115,69 | 69_1 | H1,69,La Quina,69_1,H1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,116,69 | 69_2 | H2,69,La Quina,69_2,H2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,117,69 | 69_3 | H3,69,La Quina,69_3,H3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,118,69 | 69_4 | H4,69,La Quina,69_4,H4,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,119,69 | 69_5 | H5,69,La Quina,69_5,H5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,120,69 | 69_6 | H6,69,La Quina,69_6,H6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,121,69 | 69_7 | H7,69,La Quina,69_7,H7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,122,69 | 69_8 | H8,69,La Quina,69_8,H8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,123,69 | 69_9 | H9,69,La Quina,69_9,H9,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,124,69 | 69_10 | H10,69,La Quina,69_10,H10,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,125,69 | 69_11 | H11,69,La Quina,69_11,H11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,126,69 | 69_12 | H12,69,La Quina,69_12,H12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,127,69 | 69_13 | H13,69,La Quina,69_13,H13,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,128,69 | 69_14 | H14,69,La Quina,69_14,H14,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,129,69 | 69_15 | H15,69,La Quina,69_15,H15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,130,69 | 69_16 | H16,69,La Quina,69_16,H16,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,131,69 | 69_17 | H17,69,La Quina,69_17,H17,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,132,69 | 69_18 | H18,69,La Quina,69_18,H18,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,133,69 | 69_19 | H19,69,La Quina,69_19,H19,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,134,69 | 69_20 | H20,69,La Quina,69_20,H20,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,135,69 | 69_21 | H23,69,La Quina,69_21,H23,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,136,69 | 69_22 | H27,69,La Quina,69_22,H27,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,137,70 | 70_1 | La Tolita adult,70,La Tolita Cama de Huesos,70_1,La Tolita adult,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,138,70 | 70_2 | La Tolita subadult,70,La Tolita Cama de Huesos,70_2,La Tolita subadult,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,139,71 | 71_1 | Lagar Velho,71,Abrigo do Lagar Velho,71_1,Lagar Velho,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,140,72 | 72_0 | Larrabiel,72,Larrabiel,72_0,Larrabiel,3,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,141,73 | 73_0 | Le Moustier I,73,Le Moustier I,73_0,Le Moustier I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,142,74 | 74_0 | Le Moustier II,74,Le Moustier II,74_0,Le Moustier II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,143,75 | 75_0 | Le Placard,75,Le Placard,75_0,Le Placard,5,5,1,2,4,3,3,2,4,3,5
+FALSE,record/sample,mode,144,76 | 76_0 | Les Pradelles,76,Les Pradelles (Marillac-le-Franc),76_0,Les Pradelles,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,145,77 | 77_0 | RdV 1,77,Les Rochers-de-Villeneuve,77_0,RdV 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,146,78 | 78_0 | Les Hoteaux,78,Grotte des Hoteaux,78_0,Les Hoteaux,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,147,79 | 79_0 | Malamuerzo,79,Cueva de Malalmuerzo,79_0,Malamuerzo,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,148,80 | 80_0 | Malladetes,80,"Cova de les Malladetes (Barx, Valencia, Spain)",80_0,Malladetes,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,149,81 | 81_0 | Mancos 5MT-10010 Feature 3,81,Mancos 5MT-10010 Feature 3,81_0,Mancos 5MT-10010 Feature 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,150,82 | 82_0 | Mancos Yellow Jacket 5MT-3,82,Yellow Jacket 5MT-3,82_0,Mancos Yellow Jacket 5MT-3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,151,83 | 83_0 | Manot young,83,Manot Cave,83_0,Manot young,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,152,84 | 84_1 | Marizulo Male,84,Marizulo I,84_1,Marizulo Male,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,153,84 | 84_2 | Marizulo 2-5,84,Marizulo I,84_2,Marizulo 2-5,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,154,85 | 85_0 | Maszycka Cave,85,Maszycka Cave,85_0,Maszycka Cave,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,155,86 | 86_0 | Mauer Heidelberg,86,Mauer,86_0,Mauer Heidelberg,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,156,87 | 87_1 | Mladec D,87,Mladeč Caves,87_1,Mladec D,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,157,88 | 88_0 | Mojokerto,88,Mojokerto,88_0,Mojokerto,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,158,89 | 89_0 | Moros de la Gabasa,89,Los Moros de Gabasa,89_0,Moros de la Gabasa,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,159,90 | 90_1 | MG I,90,Moula-Guercy,90_1,MG I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,160,90 | 90_2 | MG II,90,Moula-Guercy,90_2,MG II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,161,90 | 90_3 | MG III,90,Moula-Guercy,90_3,MG III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,162,90 | 90_4 | MG IV,90,Moula-Guercy,90_4,MG IV,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,163,90 | 90_5 | MG V,90,Moula-Guercy,90_5,MG V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,164,90 | 90_6 | MG VI,90,Moula-Guercy,90_6,MG VI,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,165,90 | 90_7 | MG indet,90,Moula-Guercy,90_7,MG indet,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,166,90 | 90_8 | MG indet_2,90,Moula-Guercy,90_8,MG indet_2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,167,91 | 91_1 | Skhul 1,91,Mugharet es-Skhul,91_1,Skhul 1,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,168,91 | 91_2 | Skhul 2,91,Mugharet es-Skhul,91_2,Skhul 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,169,91 | 91_3 | Skhul 3,91,Mugharet es-Skhul,91_3,Skhul 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,170,91 | 91_4 | Skhul 4,91,Mugharet es-Skhul,91_4,Skhul 4,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,171,91 | 91_5 | Skhul 5,91,Mugharet es-Skhul,91_5,Skhul 5,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,172,91 | 91_6 | Skhul 6,91,Mugharet es-Skhul,91_6,Skhul 6,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,173,91 | 91_7 | Skhul 7,91,Mugharet es-Skhul,91_7,Skhul 7,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,174,91 | 91_8 | Skhul 8,91,Mugharet es-Skhul,91_8,Skhul 8,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,175,91 | 91_9 | Skhul 9,91,Mugharet es-Skhul,91_9,Skhul 9,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,176,91 | 91_10 | Skhul 10,91,Mugharet es-Skhul,91_10,Skhul 10,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,177,92 | 92_1 | PM I,92,Peștera Muierii,92_1,PM I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,178,92 | 92_2 | PM II,92,Peștera Muierii,92_2,PM II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,179,93 | 93_0 | Naparraitz I,93,Naparraitz I,93_0,Naparraitz I,5,5,1,3,4,3,3,2,4,3,5
+FALSE,record/sample,mode,180,94 | 94_0 | Netankheri,94,Netankheri,94_0,Netankheri,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,181,95 | 95_1 | NG 1,95,Ngandong,95_1,NG 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,182,95 | 95_2 | NG 2,95,Ngandong,95_2,NG 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,183,95 | 95_3 | NG 3,95,Ngandong,95_3,NG 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,184,95 | 95_4 | NG 4,95,Ngandong,95_4,NG 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,185,95 | 95_5 | NG 5,95,Ngandong,95_5,NG 5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,186,95 | 95_6 | NG 6,95,Ngandong,95_6,NG 6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,187,95 | 95_7 | NG 7,95,Ngandong,95_7,NG 7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,188,95 | 95_8 | NG 8,95,Ngandong,95_8,NG 8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,189,95 | 95_9 | NG 9,95,Ngandong,95_9,NG 9,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,190,95 | 95_10 | NG 10,95,Ngandong,95_10,NG 10,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,191,95 | 95_11 | NG 11,95,Ngandong,95_11,NG 11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,192,95 | 95_12 | NG 12,95,Ngandong,95_12,NG 12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,193,95 | 95_13 | NG 13,95,Ngandong,95_13,NG 13,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,194,95 | 95_14 | NG 14,95,Ngandong,95_14,NG 14,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,195,95 | 95_15 | NG 17,95,Ngandong,95_15,NG 17,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,196,96 | 96_0 | Ngawi,96,Ngawi,96_0,Ngawi,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,197,97 | 97_1 | OBK I,97,Oberkassel,97_1,OBK I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,198,97 | 97_2 | OBK II,97,Oberkassel,97_2,OBK II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,199,98 | 98_1 | Ochoz I,98,Ochoz 1,98_1,Ochoz I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,200,98 | 98_2 | Ochoz II,98,Ochoz 2,98_2,Ochoz II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,201,99 | 99_1 | TE individual,99,Ojo Guareña,99_1,TE individual,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,202,99 | 99_2 | GS Individual,99,Ojo Guareña,99_2,GS Individual,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,203,100 | 100_0 | Olatzazpi,100,Olatzazpi,100_0,Olatzazpi,5,5,1,3,4,3,3,3,4,3,5
+FALSE,record/sample,mode,204,101 | 101_0 | Otalora,101,Otalora,101_0,Otalora,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,205,102 | 102_0 | Paviland I,102,Goat’s Hole (Paviland Cave),102_0,Paviland I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,206,103 | 103_0 | Pavlov I,103,Pavlov I,103_0,Pavlov I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,207,104 | 104_1 | Perrats Adults,104,Grotte des Perrats,104_1,Perrats Adults,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,208,104 | 104_2 | Perrats Subadults,104,Grotte des Perrats,104_2,Perrats Subadults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,209,105 | 105_0 | Pikandita,105,Pikandita,105_0,Pikandita,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,210,106 | 106_1 | Predmosti 1,106,Předmostí,106_1,Predmosti 1,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,211,106 | 106_2 | Predmosti 2,106,Předmostí,106_2,Predmosti 2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,212,106 | 106_3 | Predmosti 3,106,Předmostí,106_3,Predmosti 3,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,213,106 | 106_4 | Predmosti 4,106,Předmostí,106_4,Predmosti 4,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,214,106 | 106_5 | Predmosti 5,106,Předmostí,106_5,Predmosti 5,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,215,106 | 106_6 | Predmosti 6,106,Předmostí,106_6,Predmosti 6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,216,106 | 106_7 | Predmosti 7,106,Předmostí,106_7,Predmosti 7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,217,106 | 106_8 | Predmosti 8,106,Předmostí,106_8,Predmosti 8,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,218,106 | 106_9 | Predmosti 9,106,Předmostí,106_9,Predmosti 9,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,219,106 | 106_10 | Predmosti 10,106,Předmostí,106_10,Predmosti 10,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,220,106 | 106_11 | Predmosti 11,106,Předmostí,106_11,Predmosti 11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,221,106 | 106_12 | Predmosti 12,106,Předmostí,106_12,Predmosti 12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,222,106 | 106_13 | Predmosti 13,106,Předmostí,106_13,Predmosti 13,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,223,106 | 106_14 | Predmosti 14,106,Předmostí,106_14,Predmosti 14,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,224,106 | 106_15 | Predmosti 15,106,Předmostí,106_15,Predmosti 15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,225,106 | 106_16 | Predmosti 16,106,Předmostí,106_16,Predmosti 16,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,226,106 | 106_17 | Predmosti 17,106,Předmostí,106_17,Predmosti 17,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,227,106 | 106_18 | Predmosti 18,106,Předmostí,106_18,Predmosti 18,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,228,106 | 106_19 | Predmosti 19,106,Předmostí,106_19,Predmosti 19,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,229,106 | 106_20 | Predmosti 20,106,Předmostí,106_20,Predmosti 20,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,230,106 | 106_21 | Predmosti 21,106,Předmostí,106_21,Predmosti 21,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,231,106 | 106_22 | Predmosti 22,106,Předmostí,106_22,Predmosti 22,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,232,106 | 106_23 | Predmosti 23,106,Předmostí,106_23,Predmosti 23,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,233,106 | 106_24 | Predmosti 24,106,Předmostí,106_24,Predmosti 24,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,234,106 | 106_25 | Predmosti 25,106,Předmostí,106_25,Predmosti 25,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,235,106 | 106_26 | Predmosti 26,106,Předmostí,106_26,Predmosti 26,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,236,106 | 106_27 | Predmosti 27,106,Předmostí,106_27,Predmosti 27,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,237,106 | 106_28 | Predmosti 28,106,Předmostí,106_28,Predmosti 28,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,238,106 | 106_29 | Predmosti 29,106,Předmostí,106_29,Predmosti 29,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,239,106 | 106_30 | Predmosti 30,106,Předmostí,106_30,Predmosti 30,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,240,107 | 107_1 | Q3,107,Qafzeh Cave,107_1,Q3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,241,107 | 107_2 | Q4,107,Qafzeh Cave,107_2,Q4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,242,107 | 107_3 | Q5,107,Qafzeh Cave,107_3,Q5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,243,107 | 107_4 | Q6,107,Qafzeh Cave,107_4,Q6,5,5,1,3,4,3,3,5,4,2,5
+FALSE,record/sample,mode,244,107 | 107_5 | Q7,107,Qafzeh Cave,107_5,Q7,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,245,107 | 107_6 | Q567,107,Qafzeh Cave,107_6,Q567,5,5,1,3,4,2,3,5,4,3,5
+FALSE,record/sample,mode,246,107 | 107_7 | Q8,107,Qafzeh Cave,107_7,Q8,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,247,107 | 107_8 | Q9,107,Qafzeh Cave,107_8,Q9,5,5,1,2,4,3,3,5,3,3,5
+FALSE,record/sample,mode,248,107 | 107_9 | Q10,107,Qafzeh Cave,107_9,Q10,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,249,107 | 107_10 | Q11,107,Qafzeh Cave,107_10,Q11,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,250,107 | 107_11 | Q12,107,Qafzeh Cave,107_11,Q12,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,251,107 | 107_12 | Q13,107,Qafzeh Cave,107_12,Q13,5,5,1,3,4,3,2,5,4,2,5
+FALSE,record/sample,mode,252,107 | 107_13 | Q14,107,Qafzeh Cave,107_13,Q14,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,253,107 | 107_14 | Q15,107,Qafzeh Cave,107_14,Q15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,254,107 | 107_15 | Q21,107,Qafzeh Cave,107_15,Q21,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,255,107 | 107_16 | Q22,107,Qafzeh Cave,107_16,Q22,5,5,1,3,4,3,2,5,4,3,5
+FALSE,record/sample,mode,256,107 | 107_17 | Q25,107,Qafzeh Cave,107_17,Q25,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,257,108 | 108_1 | Regourdou I,108,Regourdou,108_1,Regourdou I,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,258,108 | 108_2 | Regourdou II,108,Regourdou,108_2,Regourdou II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,259,109 | 109_0 | Reilingen,109,Reilingen,109_0,Reilingen,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,260,110 | 110_0 | Roc de Cave,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",110_0,Roc de Cave,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,261,111 | 111_0 | Roc de Marsal,111,Roc de Marsal,111_0,Roc de Marsal,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,262,112 | 112_0 | Roc de Orenetes,112,Roc de les Orenetes,112_0,Roc de Orenetes,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,263,113 | 113_1 | Saccopastore I,113,Saccopastore,113_1,Saccopastore I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,264,113 | 113_2 | Saccopastore II,113,Saccopastore,113_2,Saccopastore II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,265,114 | 114_0 | Saint-Césaire,114,Saint-Césaire,114_0,Saint-Césaire,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,266,115 | 115_0 | Saint-Germain-la-Rivière,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),115_0,Saint-Germain-la-Rivière,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,267,116 | 116_1 | SM 1,116,Sambungmacan,116_1,SM 1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,268,116 | 116_2 | SM 2,116,Sambungmacan,116_2,SM 2,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,269,116 | 116_3 | SM 3,116,Sambungmacan,116_3,SM 3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,270,116 | 116_4 | SM 4,116,Sambungmacan,116_4,SM 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,271,117 | 117_1 | C.212-211,117,San Juan ante Portam Latinam,117_1,C.212-211,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,272,117 | 117_2 | C.2 (B1)-636,117,San Juan ante Portam Latinam,117_2,C.2 (B1)-636,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,273,117 | 117_3 | C.3 (B1)-121,117,San Juan ante Portam Latinam,117_3,C.3 (B1)-121,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,274,117 | 117_4 | C.4 (B1)-125,117,San Juan ante Portam Latinam,117_4,C.4 (B1)-125,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,275,117 | 117_5 | C.118-318-320,117,San Juan ante Portam Latinam,117_5,C.118-318-320,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,276,117 | 117_6 | C.118-368-infant,117,San Juan ante Portam Latinam,117_6,C.118-368-infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,277,117 | 117_7 | C.120-165-171-173,117,San Juan ante Portam Latinam,117_7,C.120-165-171-173,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,278,117 | 117_8 | C128-680-767-799,117,San Juan ante Portam Latinam,117_8,C128-680-767-799,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,279,117 | 117_9 | C128-680-Infant,117,San Juan ante Portam Latinam,117_9,C128-680-Infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,280,117 | 117_10 | C.129-100-038-040-050-051-141,117,San Juan ante Portam Latinam,117_10,C.129-100-038-040-050-051-141,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,281,117 | 117_11 | C.129-141-juvenil,117,San Juan ante Portam Latinam,117_11,C.129-141-juvenil,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,282,117 | 117_12 | C.130-166-167,117,San Juan ante Portam Latinam,117_12,C.130-166-167,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,283,117 | 117_13 | C.140-197,117,San Juan ante Portam Latinam,117_13,C.140-197,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,284,117 | 117_14 | C.143-175,117,San Juan ante Portam Latinam,117_14,C.143-175,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,285,117 | 117_15 | C.150-152,117,San Juan ante Portam Latinam,117_15,C.150-152,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,286,117 | 117_16 | C.156-141-142,117,San Juan ante Portam Latinam,117_16,C.156-141-142,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,287,117 | 117_17 | C.161-98-87-97-98,117,San Juan ante Portam Latinam,117_17,C.161-98-87-97-98,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,288,117 | 117_18 | C.170-338,117,San Juan ante Portam Latinam,117_18,C.170-338,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,289,117 | 117_19 | C.175-102-73-76,117,San Juan ante Portam Latinam,117_19,C.175-102-73-76,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,290,117 | 117_20 | C.177-106-114-115-116,117,San Juan ante Portam Latinam,117_20,C.177-106-114-115-116,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,291,117 | 117_21 | C.179-178-173-174,117,San Juan ante Portam Latinam,117_21,C.179-178-173-174,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,292,117 | 117_22 | C.184-108,117,San Juan ante Portam Latinam,117_22,C.184-108,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,293,117 | 117_23 | C.188-119-131,117,San Juan ante Portam Latinam,117_23,C.188-119-131,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,294,117 | 117_24 | C.198-170,117,San Juan ante Portam Latinam,117_24,C.198-170,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,295,117 | 117_25 | C.198-170-infant,117,San Juan ante Portam Latinam,117_25,C.198-170-infant,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,296,117 | 117_26 | C.199-172,117,San Juan ante Portam Latinam,117_26,C.199-172,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,297,117 | 117_27 | C.199-172-infant,117,San Juan ante Portam Latinam,117_27,C.199-172-infant,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,298,117 | 117_28 | C.207-192,117,San Juan ante Portam Latinam,117_28,C.207-192,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,299,117 | 117_29 | C.212-786,117,San Juan ante Portam Latinam,117_29,C.212-786,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,300,117 | 117_30 | C.212-786-infant,117,San Juan ante Portam Latinam,117_30,C.212-786-infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,301,117 | 117_31 | C.124-216,117,San Juan ante Portam Latinam,117_31,C.124-216,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,302,117 | 117_32 | C.214b-358,117,San Juan ante Portam Latinam,117_32,C.214b-358,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,303,117 | 117_33 | C.215-203-145-185,117,San Juan ante Portam Latinam,117_33,C.215-203-145-185,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,304,117 | 117_34 | C.215-203-infant,117,San Juan ante Portam Latinam,117_34,C.215-203-infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,305,117 | 117_35 | C.218-213-209-199,117,San Juan ante Portam Latinam,117_35,C.218-213-209-199,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,306,117 | 117_36 | C.220-176-184,117,San Juan ante Portam Latinam,117_36,C.220-176-184,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,307,117 | 117_37 | C.211-326,117,San Juan ante Portam Latinam,117_37,C.211-326,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,308,117 | 117_38 | C.225-325-364-365-168,117,San Juan ante Portam Latinam,117_38,C.225-325-364-365-168,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,309,117 | 117_39 | C.226-330,117,San Juan ante Portam Latinam,117_39,C.226-330,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,310,117 | 117_40 | C.227-343,117,San Juan ante Portam Latinam,117_40,C.227-343,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,311,117 | 117_41 | C.229-340,117,San Juan ante Portam Latinam,117_41,C.229-340,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,312,117 | 117_42 | C.230-339,117,San Juan ante Portam Latinam,117_42,C.230-339,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,313,117 | 117_43 | C.231-332,117,San Juan ante Portam Latinam,117_43,C.231-332,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,314,117 | 117_44 | C.232-344-214-663,117,San Juan ante Portam Latinam,117_44,C.232-344-214-663,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,315,117 | 117_45 | C.234-377-372,117,San Juan ante Portam Latinam,117_45,C.234-377-372,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,316,117 | 117_46 | C.238-402-533,117,San Juan ante Portam Latinam,117_46,C.238-402-533,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,317,117 | 117_47 | C.239-403,117,San Juan ante Portam Latinam,117_47,C.239-403,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,318,117 | 117_48 | C.241-410,117,San Juan ante Portam Latinam,117_48,C.241-410,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,319,117 | 117_49 | C.245-429-526-565,117,San Juan ante Portam Latinam,117_49,C.245-429-526-565,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,320,117 | 117_50 | C.245-429-infant,117,San Juan ante Portam Latinam,117_50,C.245-429-infant,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,321,117 | 117_51 | C.248-600-690-710-479,117,San Juan ante Portam Latinam,117_51,C.248-600-690-710-479,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,322,117 | 117_52 | C.250-441,117,San Juan ante Portam Latinam,117_52,C.250-441,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,323,117 | 117_53 | C.251-371-488,117,San Juan ante Portam Latinam,117_53,C.251-371-488,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,324,117 | 117_54 | C.252-357,117,San Juan ante Portam Latinam,117_54,C.252-357,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,325,117 | 117_55 | C.254-476,117,San Juan ante Portam Latinam,117_55,C.254-476,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,326,117 | 117_56 | C.255-524,117,San Juan ante Portam Latinam,117_56,C.255-524,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,327,117 | 117_57 | C.259-527,117,San Juan ante Portam Latinam,117_57,C.259-527,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,328,117 | 117_58 | C.260-587-532-802,117,San Juan ante Portam Latinam,117_58,C.260-587-532-802,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,329,117 | 117_59 | C.261b-549-544,117,San Juan ante Portam Latinam,117_59,C.261b-549-544,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,330,117 | 117_60 | C.262-942-943,117,San Juan ante Portam Latinam,117_60,C.262-942-943,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,331,117 | 117_61 | C.264-519-630,117,San Juan ante Portam Latinam,117_61,C.264-519-630,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,332,117 | 117_62 | C.270-559,117,San Juan ante Portam Latinam,117_62,C.270-559,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,333,117 | 117_63 | C.276-577,117,San Juan ante Portam Latinam,117_63,C.276-577,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,334,117 | 117_64 | C.277-576-696,117,San Juan ante Portam Latinam,117_64,C.277-576-696,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,335,117 | 117_65 | C.279-592,117,San Juan ante Portam Latinam,117_65,C.279-592,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,336,117 | 117_66 | C.286-652,117,San Juan ante Portam Latinam,117_66,C.286-652,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,337,117 | 117_67 | C.288-654-658,117,San Juan ante Portam Latinam,117_67,C.288-654-658,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,338,117 | 117_68 | C.289-620-439-581-539,117,San Juan ante Portam Latinam,117_68,C.289-620-439-581-539,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,339,117 | 117_69 | C.296-653,117,San Juan ante Portam Latinam,117_69,C.296-653,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,340,117 | 117_70 | C.297-691-694-696-601-714,117,San Juan ante Portam Latinam,117_70,C.297-691-694-696-601-714,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,341,117 | 117_71 | C.298-692,117,San Juan ante Portam Latinam,117_71,C.298-692,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,342,117 | 117_72 | C.300-905-931-973,117,San Juan ante Portam Latinam,117_72,C.300-905-931-973,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,343,117 | 117_73 | C.301-642-554-649-693,117,San Juan ante Portam Latinam,117_73,C.301-642-554-649-693,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,344,117 | 117_74 | C.304-687-714,117,San Juan ante Portam Latinam,117_74,C.304-687-714,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,345,117 | 117_75 | C.316-318-322-331-335,117,San Juan ante Portam Latinam,117_75,C.316-318-322-331-335,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,346,117 | 117_76 | C.318-991-888-959-893,117,San Juan ante Portam Latinam,117_76,C.318-991-888-959-893,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,347,117 | 117_77 | C.322-907,117,San Juan ante Portam Latinam,117_77,C.322-907,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,348,117 | 117_78 | C.331-914-678-697,117,San Juan ante Portam Latinam,117_78,C.331-914-678-697,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,349,117 | 117_79 | C.335-886-970-983-992,117,San Juan ante Portam Latinam,117_79,C.335-886-970-983-992,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,350,118 | 118_1 | Santa Maira Adults,118,Coves de Santa Maira,118_1,Santa Maira Adults,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,351,118 | 118_2 | Santa Maira Infant,118,Coves de Santa Maira,118_2,Santa Maira Infant,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,352,119 | 119_0 | Scladina,119,Scladina Cave,119_0,Scladina,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,353,120 | 120_1 | Shanidar I,120,Shanidar Cave,120_1,Shanidar I,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,354,120 | 120_2 | Shanidar II,120,Shanidar Cave,120_2,Shanidar II,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,355,120 | 120_3 | Shanidar III,120,Shanidar Cave,120_3,Shanidar III,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,356,120 | 120_4 | Shanidar IV,120,Shanidar Cave,120_4,Shanidar IV,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,357,120 | 120_5 | Shanidar V,120,Shanidar Cave,120_5,Shanidar V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,358,120 | 120_6 | Shanidar VI,120,Shanidar Cave,120_6,Shanidar VI,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,359,120 | 120_7 | Shanidar VII,120,Shanidar Cave,120_7,Shanidar VII,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,360,120 | 120_8 | Shanidar VIII,120,Shanidar Cave,120_8,Shanidar VIII,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,361,120 | 120_9 | Shanidar IX,120,Shanidar Cave,120_9,Shanidar IX,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,362,121 | 121_1 | SP-96,121,Sima de las Palomas,121_1,SP-96,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,363,175 | 175_0 | SH-PNAS,175,Sima de los Huesos PNAS,175_0,SH-PNAS,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,364,122 | 122_0 | SH-89,122,Sima de los Huesos 89,122_0,SH-89,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,365,123 | 123_0 | SH-90,123,Sima de los Huesos 90,123_0,SH-90,5,1,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,366,124 | 124_0 | SH-95,124,Sima de los Huesos 95,124_0,SH-95,5,5,1,3,4,3,3,5,2,3,5
+FALSE,record/sample,mode,367,125 | 125_0 | SH-15,125,Sima de los Huesos 15,125_0,SH-15,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,368,126 | 126_0 | SH-24,126,Sima de los Huesos 24,126_0,SH-24,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,369,127 | 127_0 | Sorginzulo,127,Sorginzulo,127_0,Sorginzulo,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,370,128 | 128_0 | Spy I & II,128,Spy cave,128_0,Spy I & II,5,5,1,3,4,3,3,5,4,3,2
+FALSE,record/sample,mode,371,129 | 129_0 | Steinheim,129,Steinheim an der Murr,129_0,Steinheim,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,372,130 | 130_1 | Sunghir 1,130,Sunghir,130_1,Sunghir 1,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,373,130 | 130_2 | Sunghir 2,130,Sunghir,130_2,Sunghir 2,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,374,130 | 130_3 | Sunghir 3,130,Sunghir,130_3,Sunghir 3,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,375,130 | 130_4 | Sunghir 4,130,Sunghir,130_4,Sunghir 4,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,376,130 | 130_5 | Sunghir 5,130,Sunghir,130_5,Sunghir 5,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,377,130 | 130_6 | Sunghir 6,130,Sunghir,130_6,Sunghir 6,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,378,131 | 131_0 | Tabun Cave,131,Tabun Cave (Mugharet et-Tabun),131_0,Tabun Cave,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,379,132 | 132_0 | Tepecik-Çiftlik,132,Tepecik-Çiftlik,132_0,Tepecik-Çiftlik,5,5,1,1,2,3,3,2,4,3,2
+FALSE,record/sample,mode,380,133 | 133_0 | Teshik-Tash,133,Teshik-Tash Cave,133_0,Teshik-Tash,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,381,134 | 134_0 | Torrejones,134,Cueva de los Torrejones,134_0,Torrejones,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,382,135 | 135_0 | Txispiri,135,Txispiri,135_0,Txispiri,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,383,136 | 136_0 | Txomen Koba Erdikua,136,Txomen Koba Erdikua,136_0,Txomen Koba Erdikua,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,384,137 | 137_1 | Txotxinkoba Adult,137,Txotxinkoba Cave,137_1,Txotxinkoba Adult,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,385,137 | 137_2 | Txotxinkoba Subadult,137,Txotxinkoba Cave,137_2,Txotxinkoba Subadult,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,386,138 | 138_0 | Urdabide II,138,Urdabide II,138_0,Urdabide II,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,387,139 | 139_0 | Urtiaga,139,Urtiaga,139_0,Urtiaga,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,388,140 | 140_0 | Uxar,140,Uxar,140_0,Uxar,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,389,141 | 141_0 | Vado all'Arancio,141,Vado all'Arancio,141_0,Vado all'Arancio,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,390,142 | 142_1 | VB I,142,Valdegoba Cave,142_1,VB I,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,391,142 | 142_2 | VB II,142,Valdegoba Cave,142_2,VB II,5,1,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,392,142 | 142_3 | VB III,142,Valdegoba Cave,142_3,VB III,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,393,142 | 142_4 | VB IV,142,Valdegoba Cave,142_4,VB IV,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,394,142 | 142_5 | VB V,142,Valdegoba Cave,142_5,VB V,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,395,143 | 143_0 | Vilhonneur 1,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",143_0,Vilhonneur 1,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,396,144 | 144_0 | Vindija fd/d,144,Vindija,144_0,Vindija fd/d,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,397,145 | 145_0 | Vindija G1,145,Vindija,145_0,Vindija G1,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,398,146 | 146_0 | Vindija G3,146,Vindija,146_0,Vindija G3,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,399,147 | 147_1 | Vunda Locus 26M,147,Vunda Locus,147_1,Vunda Locus 26M,5,5,1,3,2,3,3,5,4,3,5
+FALSE,record/sample,mode,400,147 | 147_2 | Vunda Locus 26H,147,Vunda Locus,147_2,Vunda Locus 26H,5,5,1,3,2,3,3,5,4,3,5
+FALSE,record/sample,mode,401,148 | 148_1 | WE A,148,Weimar-Ehringsdorf,148_1,WE A,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,402,148 | 148_2 | WE B,148,Weimar-Ehringsdorf,148_2,WE B,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,403,148 | 148_3 | WE C,148,Weimar-Ehringsdorf,148_3,WE C,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,404,148 | 148_4 | WE D,148,Weimar-Ehringsdorf,148_4,WE D,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,405,148 | 148_5 | WE E,148,Weimar-Ehringsdorf,148_5,WE E,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,406,148 | 148_6 | WE F,148,Weimar-Ehringsdorf,148_6,WE F,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,407,148 | 148_7 | WE G,148,Weimar-Ehringsdorf,148_7,WE G,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,408,148 | 148_8 | WE H,148,Weimar-Ehringsdorf,148_8,WE H,5,5,1,3,4,3,3,5,4,3,5
+FALSE,record/sample,mode,409,149 | 149_0 | Xemxija,149,Xemxija tombs,149_0,Xemxija,5,5,1,3,4,3,3,5,3,3,5
+FALSE,record/sample,mode,410,150 | 150_0 | {Name} I,150,Boquete de Zafarraya,150_0,{Name} I,5,5,1,3,2,3,3,5,2,3,5
+FALSE,record/sample,mode,411,151 | 151_0 | Zelaibizkar I,151,Zelaibizkar I,151_0,Zelaibizkar I,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,1,1,1,Abri Pataud,1_1 1_2 1_3 1_4 1_5 1_6,Abri Pataud I Abri Pataud II Abri Pataud III Abri Pataud IV Abri Pataud V Abri Pataud VI,5,1,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,2,2,2,Aie Zelai,2_0,Aie Zelai,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,3,3,3,Aitzgaizto,3_0,Aitzgaizto,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,4,4,4,Allekoaitze,4_0,Allekoaitze,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,5,5,5,Amud Cave,5_1 5_2 5_3,Amud I Amud VII Amud IX,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,6,6,6,Arago,6_1 6_2 6_3 6_4 6_5 6_6 6_7 6_8 6_9 6_10 6_11,Gs1 Gs1_2 Gm2...4 Gm2...5 Gm3...6 Gm3...7 Gi4...8 Gi4...9 Fm3 Fm4 Fi,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,7,7,7,Arbelaitz,7_0,Arbelaitz,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,8,8,8,Archi,8_0,Archi,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,9,9,9,Atxuri-I Cave,9_1 9_2,Atxuri I adults Atxuri I subadults,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,10,10,10,Baousso da Torre (Bausu da Ture),10_1 10_2,Bauo da Torre I Bauo da Torre II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,11,11,11,Belako Arkaitza 1,11_0,Belako Arkaitza 1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,12,12,12,Beondegi II,12_0,Beondegi II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,13,13,13,Bilzingsleben,13_0,Bilzingsleben,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,14,14,14,Bolomor Cave,14_0,Bolomor IV-VI,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,15,15,15,Brillenhöhle,15_0,Brillenhöhle,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,16,16,16,Brno II,16_0,Brno II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,17,17,17,Cueva de la Carigüela,17_0,Carihuela,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,18,18,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",18_1 18_2,CdF Adult CdF Juvenil,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,19,19,19,Ceprano,19_0,Ceprano,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,20,20,20,Abri de Raymonden (Chancelade),20_0,Chancelade,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,21,21,21,Combe Grenal,21_0,Combe Grenal,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,22,22,22,Cova del Parpalló (Parpalló Cave),22_2 22_2,Parpallo juvenil Parpallo adult,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,23,23,23,Cova Gran de Santa Linya,23_0,Cova Gran de Sta Linya,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,24,24,24,Cro-Magnon I,24_0,Cro-Magnon I-II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,25,25,25,Crow Creek,25_1 25_2,Crow Creek adult Crow Creek subadult,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,26,26,26,Cueva de la Buena Pinta,26_0,Cueva de la Buena Pinta,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,27,27,27,Cueva del Camino,27_0,Cueva del Camino,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,28,28,28,Dali Tianshuigou,28_0,Dali Tianshuigou,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,29,29,29,Dame du Cavillon,NA,Dame du Cavillon,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,30,30,30,Dolní Věstonice II,30_1 30_2 30_3 30_4,DV 13 DV 14 DV 15 DV 16,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,31,31,31,Dolní Věstonice I,31_0,Dolní Věstonice DV3,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,32,32,32,El Espinoso Cave,32_0,El Espinoso,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,33,33,33,El Mirador,33_0,El Mirador MIR4,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,34,34,34,El Mirón Cave,34_0,El Mirón Cave,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,35,35,35,El Sidrón J1,35_0,El Sidrón J1,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,36,36,36,Engis / Schmerling Cave,36_0,Engis 2,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,37,37,37,Erlaitz,37_0,Erlaitz,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,38,38,38,Errtxorta,38_0,Errtxorta,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,39,39,39,Kleine Feldhofer Grotte,39_0,Feldhofer Grotte,5,5,1,3,2,3,3,5,4,3,5
+TRUE,site,mode,40,40,40,Grotte de Fontbrégoua,40_0,Fondbregua H1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,41,41,41,Grotte de Fontbrégoua,41_0,Fondbregua H3,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,42,42,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),42_0,Fonds-de-Forêt,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,43,43,43,Cova Foradada,43_0,Foradada Cremated,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,44,44,44,Cova Foradada,44_0,Foradada Collectiv Burial,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,45,45,45,Cova del Gegant,45_1 45_2 45_3 45_4,Gegant  I Gegant  II Gegant  III Gegant  IV - V,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,46,46,46,Gough's Cave,46_1 46_2 46_3 46_4 47_5 46_6 46_7,GC Subadult I GC Subadult II GC Subadult III GC Adult I GC Adult II GC Adult III Adult indet,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,47,47,47,Troisième caverne of Goyet,47_1 47_2,Goyet adult Goyet juvenil,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,48,48,48,Gran Dolina,48_0,Gran Dolina TD6,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,49,49,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",49_0,Grotte de la Tour,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,50,50,50,Grotte du Bison (Arcy-sur-Cure),50_1,GB I,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,51,51,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",51_1,GO Adult,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,52,52,52,Grotta Guattari,52_0,Guattari,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,53,53,53,Hahnöfersand,53_0,Hahnöfersand,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,54,54,54,Hathnora,54_0,Hathnora,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,55,55,55,Herxheim,55_1 55_2 55_3,Herxheim Adult Herxheim Subadult Herxheim Infant,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,56,56,56,Hohlenstein-Stadel,56_0,Hohlestein Stadel,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,57,57,57,Jarama VI rockshelter,57_0,Jarama VI,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,58,58,58,Kajiado,58_0,Kajiado,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,59,59,59,Kalamakia,59_0,Kalamakia,5,5,1,3,4,3,3,5,4,2,5
+TRUE,site,mode,60,60,60,Kebara Cave,60_0,Kebara 2,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,61,61,61,Kiik-Koba,61_1 61_2,Kiik Koba I Kiik Koba II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,62,62,62,Koba Lotx,62_0,Koba Lotx,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,63,63,63,Koba Zarra,63_0,Koba Zarra,5,5,1,3,4,3,3,2,4,3,5
+TRUE,site,mode,64,64,64,Kobazar,64_0,Kobazar,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,65,65,65,Krapina,65_0,Krapina,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,66,66,66,La Chapelle-aux-Saints,66_0,La Chapelle-aux-Saints,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,67,67,67,La Ferrassie,67_1 67_2 67_3 67_4 67_5 67_6 67_7 67_8 67_9,LF 1 LF 2 LF 3 LF 4 LF4bis LF 5 LF 6 LF 7 LF 8,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,68,68,68,Trou de la Naulette,68_0,La Naulette,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,69,69,69,La Quina,69_1 69_2 69_3 69_4 69_5 69_6 69_7 69_8 69_9 69_10 69_11 69_12 69_13 69_14 69_15 69_16 69_17 69_18 69_19 69_20 69_21 69_22,H1 H2 H3 H4 H5 H6 H7 H8 H9 H10 H11 H12 H13 H14 H15 H16 H17 H18 H19 H20 H23 H27,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,70,70,70,La Tolita Cama de Huesos,70_1 70_2,La Tolita adult La Tolita subadult,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,71,71,71,Abrigo do Lagar Velho,71_1,Lagar Velho,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,72,72,72,Larrabiel,72_0,Larrabiel,3,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,73,73,73,Le Moustier I,73_0,Le Moustier I,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,74,74,74,Le Moustier II,74_0,Le Moustier II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,75,75,75,Le Placard,75_0,Le Placard,5,5,1,2,4,3,3,2,4,3,5
+TRUE,site,mode,76,76,76,Les Pradelles (Marillac-le-Franc),76_0,Les Pradelles,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,77,77,77,Les Rochers-de-Villeneuve,77_0,RdV 1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,78,78,78,Grotte des Hoteaux,78_0,Les Hoteaux,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,79,79,79,Cueva de Malalmuerzo,79_0,Malamuerzo,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,80,80,80,"Cova de les Malladetes (Barx, Valencia, Spain)",80_0,Malladetes,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,81,81,81,Mancos 5MT-10010 Feature 3,81_0,Mancos 5MT-10010 Feature 3,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,82,82,82,Yellow Jacket 5MT-3,82_0,Mancos Yellow Jacket 5MT-3,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,83,83,83,Manot Cave,83_0,Manot young,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,84,84,84,Marizulo I,84_1 84_2,Marizulo Male Marizulo 2-5,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,85,85,85,Maszycka Cave,85_0,Maszycka Cave,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,86,86,86,Mauer,86_0,Mauer Heidelberg,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,87,87,87,Mladeč Caves,87_1,Mladec D,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,88,88,88,Mojokerto,88_0,Mojokerto,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,89,89,89,Los Moros de Gabasa,89_0,Moros de la Gabasa,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,90,90,90,Moula-Guercy,90_1 90_2 90_3 90_4 90_5 90_6 90_7 90_8,MG I MG II MG III MG IV MG V MG VI MG indet MG indet_2,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,91,91,91,Mugharet es-Skhul,91_1 91_2 91_3 91_4 91_5 91_6 91_7 91_8 91_9 91_10,Skhul 1 Skhul 2 Skhul 3 Skhul 4 Skhul 5 Skhul 6 Skhul 7 Skhul 8 Skhul 9 Skhul 10,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,92,92,92,Peștera Muierii,92_1 92_2,PM I PM II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,93,93,93,Naparraitz I,93_0,Naparraitz I,5,5,1,3,4,3,3,2,4,3,5
+TRUE,site,mode,94,94,94,Netankheri,94_0,Netankheri,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,95,95,95,Ngandong,95_1 95_2 95_3 95_4 95_5 95_6 95_7 95_8 95_9 95_10 95_11 95_12 95_13 95_14 95_15,NG 1 NG 2 NG 3 NG 4 NG 5 NG 6 NG 7 NG 8 NG 9 NG 10 NG 11 NG 12 NG 13 NG 14 NG 17,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,96,96,96,Ngawi,96_0,Ngawi,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,97,97,97,Oberkassel,97_1 97_2,OBK I OBK II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,98,98,98,"Ochoz 1, Ochoz 2",98_1 98_2,Ochoz I Ochoz II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,99,99,99,Ojo Guareña,99_1 99_2,TE individual GS Individual,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,100,100,100,Olatzazpi,100_0,Olatzazpi,5,5,1,3,4,3,3,3,4,3,5
+TRUE,site,mode,101,101,101,Otalora,101_0,Otalora,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,102,102,102,Goat’s Hole (Paviland Cave),102_0,Paviland I,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,103,103,103,Pavlov I,103_0,Pavlov I,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,104,104,104,Grotte des Perrats,104_1 104_2,Perrats Adults Perrats Subadults,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,105,105,105,Pikandita,105_0,Pikandita,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,106,106,106,Předmostí,106_1 106_2 106_3 106_4 106_5 106_6 106_7 106_8 106_9 106_10 106_11 106_12 106_13 106_14 106_15 106_16 106_17 106_18 106_19 106_20 106_21 106_22 106_23 106_24 106_25 106_26 106_27 106_28 106_29 106_30,Predmosti 1 Predmosti 2 Predmosti 3 Predmosti 4 Predmosti 5 Predmosti 6 Predmosti 7 Predmosti 8 Predmosti 9 Predmosti 10 Predmosti 11 Predmosti 12 Predmosti 13 Predmosti 14 Predmosti 15 Predmosti 16 Predmosti 17 Predmosti 18 Predmosti 19 Predmosti 20 Predmosti 21 Predmosti 22 Predmosti 23 Predmosti 24 Predmosti 25 Predmosti 26 Predmosti 27 Predmosti 28 Predmosti 29 Predmosti 30,5,1,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,107,107,107,Qafzeh Cave,107_1 107_2 107_3 107_4 107_5 107_6 107_7 107_8 107_9 107_10 107_11 107_12 107_13 107_14 107_15 107_16 107_17,Q3 Q4 Q5 Q6 Q7 Q567 Q8 Q9 Q10 Q11 Q12 Q13 Q14 Q15 Q21 Q22 Q25,5,5,1,2,4,2,2,5,3,2,5
+TRUE,site,mode,108,108,108,Regourdou,108_1 108_2,Regourdou I Regourdou II,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,109,109,109,Reilingen,109_0,Reilingen,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,110,110,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",110_0,Roc de Cave,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,111,111,111,Roc de Marsal,111_0,Roc de Marsal,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,112,112,112,Roc de les Orenetes,112_0,Roc de Orenetes,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,113,113,113,Saccopastore,113_1 113_2,Saccopastore I Saccopastore II,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,114,114,114,Saint-Césaire,114_0,Saint-Césaire,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,115,115,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),115_0,Saint-Germain-la-Rivière,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,116,116,116,Sambungmacan,116_1 116_2 116_3 116_4,SM 1 SM 2 SM 3 SM 4,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,117,117,117,San Juan ante Portam Latinam,117_1 117_2 117_3 117_4 117_5 117_6 117_7 117_8 117_9 117_10 117_11 117_12 117_13 117_14 117_15 117_16 117_17 117_18 117_19 117_20 117_21 117_22 117_23 117_24 117_25 117_26 117_27 117_28 117_29 117_30 117_31 117_32 117_33 117_34 117_35 117_36 117_37 117_38 117_39 117_40 117_41 117_42 117_43 117_44 117_45 117_46 117_47 117_48 117_49 117_50 117_51 117_52 117_53 117_54 117_55 117_56 117_57 117_58 117_59 117_60 117_61 117_62 117_63 117_64 117_65 117_66 117_67 117_68 117_69 117_70 117_71 117_72 117_73 117_74 117_75 117_76 117_77 117_78 117_79,C.212-211 C.2 (B1)-636 C.3 (B1)-121 C.4 (B1)-125 C.118-318-320 C.118-368-infant C.120-165-171-173 C128-680-767-799 C128-680-Infant C.129-100-038-040-050-051-141 C.129-141-juvenil C.130-166-167 C.140-197 C.143-175 C.150-152 C.156-141-142 C.161-98-87-97-98 C.170-338 C.175-102-73-76 C.177-106-114-115-116 C.179-178-173-174 C.184-108 C.188-119-131 C.198-170 C.198-170-infant C.199-172 C.199-172-infant C.207-192 C.212-786 C.212-786-infant C.124-216 C.214b-358 C.215-203-145-185 C.215-203-infant C.218-213-209-199 C.220-176-184 C.211-326 C.225-325-364-365-168 C.226-330 C.227-343 C.229-340 C.230-339 C.231-332 C.232-344-214-663 C.234-377-372 C.238-402-533 C.239-403 C.241-410 C.245-429-526-565 C.245-429-infant C.248-600-690-710-479 C.250-441 C.251-371-488 C.252-357 C.254-476 C.255-524 C.259-527 C.260-587-532-802 C.261b-549-544 C.262-942-943 C.264-519-630 C.270-559 C.276-577 C.277-576-696 C.279-592 C.286-652 C.288-654-658 C.289-620-439-581-539 C.296-653 C.297-691-694-696-601-714 C.298-692 C.300-905-931-973 C.301-642-554-649-693 C.304-687-714 C.316-318-322-331-335 C.318-991-888-959-893 C.322-907 C.331-914-678-697 C.335-886-970-983-992,5,1,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,118,118,118,Coves de Santa Maira,118_1 118_2,Santa Maira Adults Santa Maira Infant,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,119,119,119,Scladina Cave,119_0,Scladina,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,120,120,120,Shanidar Cave,120_1 120_2 120_3 120_4 120_5 120_6 120_7 120_8 120_9,Shanidar I Shanidar II Shanidar III Shanidar IV Shanidar V Shanidar VI Shanidar VII Shanidar VIII Shanidar IX,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,121,121,121,Sima de las Palomas,121_1,SP-96,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,122,122,122,Sima de los Huesos 89,122_0,SH-89,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,123,123,123,Sima de los Huesos 90,123_0,SH-90,5,1,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,124,124,124,Sima de los Huesos 95,124_0,SH-95,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,125,125,125,Sima de los Huesos 15,125_0,SH-15,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,126,126,126,Sima de los Huesos 24,126_0,SH-24,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,127,127,127,Sorginzulo,127_0,Sorginzulo,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,128,128,128,Spy cave,128_0,Spy I & II,5,5,1,3,4,3,3,5,4,3,2
+TRUE,site,mode,129,129,129,Steinheim an der Murr,129_0,Steinheim,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,130,130,130,Sunghir,130_1 130_2 130_3 130_4 130_5 130_6,Sunghir 1 Sunghir 2 Sunghir 3 Sunghir 4 Sunghir 5 Sunghir 6,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,131,131,131,Tabun Cave (Mugharet et-Tabun),131_0,Tabun Cave,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,132,132,132,Tepecik-Çiftlik,132_0,Tepecik-Çiftlik,5,5,1,1,2,3,3,2,4,3,2
+TRUE,site,mode,133,133,133,Teshik-Tash Cave,133_0,Teshik-Tash,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,134,134,134,Cueva de los Torrejones,134_0,Torrejones,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,135,135,135,Txispiri,135_0,Txispiri,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,136,136,136,Txomen Koba Erdikua,136_0,Txomen Koba Erdikua,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,137,137,137,Txotxinkoba Cave,137_1 137_2,Txotxinkoba Adult Txotxinkoba Subadult,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,138,138,138,Urdabide II,138_0,Urdabide II,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,139,139,139,Urtiaga,139_0,Urtiaga,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,140,140,140,Uxar,140_0,Uxar,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,141,141,141,Vado all'Arancio,141_0,Vado all'Arancio,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,142,142,142,Valdegoba Cave,142_1 142_2 142_3 142_4 142_5,VB I VB II VB III VB IV VB V,5,1,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,143,143,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",143_0,Vilhonneur 1,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,144,144,144,Vindija,144_0,Vindija fd/d,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,145,145,145,Vindija,145_0,Vindija G1,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,146,146,146,Vindija,146_0,Vindija G3,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,147,147,147,Vunda Locus,147_1 147_2,Vunda Locus 26M Vunda Locus 26H,5,5,1,3,2,3,3,5,4,3,5
+TRUE,site,mode,148,148,148,Weimar-Ehringsdorf,148_1 148_2 148_3 148_4 148_5 148_6 148_7 148_8,WE A WE B WE C WE D WE E WE F WE G WE H,5,5,1,3,4,3,3,5,4,3,5
+TRUE,site,mode,149,149,149,Xemxija tombs,149_0,Xemxija,5,5,1,3,4,3,3,5,3,3,5
+TRUE,site,mode,150,150,150,Boquete de Zafarraya,150_0,{Name} I,5,5,1,3,2,3,3,5,2,3,5
+TRUE,site,mode,151,151,151,Zelaibizkar I,151_0,Zelaibizkar I,5,5,1,3,4,3,3,5,2,3,5
+TRUE,site,mode,152,175,175,Sima de los Huesos PNAS,175_0,SH-PNAS,5,5,1,3,4,3,3,5,2,3,5

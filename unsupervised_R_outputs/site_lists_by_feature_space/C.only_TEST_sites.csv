@@ -1,0 +1,28 @@
+Dataset,Feature_space,site_name,layer_name,test_panel,Archaeological_class,Binary_label,Cluster_raw,Cluster_zero_based,Cluster_F_percent,Cluster_dominant_class4,Distance_to_centroid,Distance_percentile,PC1,PC2
+Held-out labelled test,C only,Brno II,NA,Historical challenge,Funerary,F,1,0,18.181818181818183,Cannibalism,0.5057105237630733,89.0909090909091,-0.054638379539673015,NA
+Held-out labelled test,C only,Cro-Magnon I,Unit J,Historical challenge,Funerary,F,1,0,18.181818181818183,Cannibalism,0.12683198933634943,14.545454545454545,-0.4335169139663969,NA
+Held-out labelled test,C only,Crow Creek,Fortification ditch fill,Historical challenge,Funerary,F,1,0,18.181818181818183,Cannibalism,0.5849450835858259,90.9090909090909,0.02459618028307949,NA
+Held-out labelled test,C only,Cueva de los Torrejones,NA,Historical challenge,Funerary,F,1,0,18.181818181818183,Cannibalism,0.20790290144538937,52.72727272727272,-0.35244600185735697,NA
+Held-out labelled test,C only,Goat’s Hole (Paviland Cave),NA,Historical challenge,Funerary,F,1,0,18.181818181818183,Cannibalism,0.9043910721842257,94.54545454545455,0.34404216888147926,NA
+Held-out labelled test,C only,Grotta Guattari,Laghetto,Historical challenge,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism,0.08851491285305613,10.909090909090908,-0.6488638161558025,NA
+Held-out labelled test,C only,Grotte de Fontbrégoua,H1,Early-human holdout,Cannibalism,NF,1,0,18.181818181818183,Cannibalism,0.04049939922307555,3.6363636363636362,-0.5198495040796708,NA
+Held-out labelled test,C only,Grotte de Fontbrégoua,H3,Early-human holdout,Cannibalism,NF,1,0,18.181818181818183,Cannibalism,0.07650798216655896,10.909090909090908,-0.4838409211361874,NA
+Held-out labelled test,C only,Krapina,Primarily levels 3 and 4,Historical challenge,Cannibalism,NF,1,0,18.181818181818183,Cannibalism,0.01918684547468652,1.8181818181818181,-0.5795357487774329,NA
+Held-out labelled test,C only,La Ferrassie,Lower Mousterian layers,Both panels,Funerary,F,1,0,18.181818181818183,Cannibalism,0.948134780464921,96.36363636363636,0.38778587716217466,NA
+Held-out labelled test,C only,La Quina,Mousterian levels,Historical challenge,Funerary,F,1,0,18.181818181818183,Cannibalism,0.15855703659546883,40,-0.7189059398982152,NA
+Held-out labelled test,C only,Mancos 5MT-10010 Feature 3,NA,Early-human holdout,Cannibalism,NF,1,0,18.181818181818183,Cannibalism,0.9555682772409362,98.18181818181819,0.3952193739381899,NA
+Held-out labelled test,C only,Mladeč Caves,Chamber D,Historical challenge,Funerary,F,1,0,18.181818181818183,Cannibalism,0.29500591433939793,67.27272727272727,-0.8553548176421443,NA
+Held-out labelled test,C only,Moula-Guercy,Layer XV,Historical challenge,Cannibalism,NF,1,0,18.181818181818183,Cannibalism,0.03803462472985375,3.6363636363636362,-0.5223142785728926,NA
+Held-out labelled test,C only,Qafzeh Cave,Layer XVI to XXIII,Early-human holdout,Funerary,F,1,0,18.181818181818183,Cannibalism,0.970604865383895,100,0.4102559620811487,NA
+Held-out labelled test,C only,Teshik-Tash Cave,Layer I,Historical challenge,Funerary,F,1,0,18.181818181818183,Cannibalism,0.5743575056104242,90.9090909090909,0.014008602307677882,NA
+Held-out labelled test,C only,Yellow Jacket 5MT-3,NA,Early-human holdout,Cannibalism,NF,1,0,18.181818181818183,Cannibalism,0.6545098242925005,90.9090909090909,0.09416092098975418,NA
+Held-out labelled test,C only,Cova Gran de Santa Linya,NA,Early-human holdout,Funerary,F,2,1,95.23809523809523,Funerary,0.6341351833168616,71.42857142857143,0.833445277714141,NA
+Held-out labelled test,C only,El Sidrón J1,Galería del Osario,Early-human holdout,Cannibalism,NF,2,1,95.23809523809523,Funerary,0.5279496749857793,57.14285714285714,1.9955301360167819,NA
+Held-out labelled test,C only,Kebara Cave,Unit XI,Early-human holdout,Funerary,F,2,1,95.23809523809523,Funerary,0.9690945423060939,100,2.4366750033370965,NA
+Held-out labelled test,C only,La Chapelle-aux-Saints,Mousterian layer,Historical challenge,Funerary,F,2,1,95.23809523809523,Funerary,0.006643321384316669,0,1.4742237824153193,NA
+Held-out labelled test,C only,Mugharet es-Skhul,Layer B,Early-human holdout,Funerary,F,2,1,95.23809523809523,Funerary,0.8111358521100198,90.47619047619048,0.6564446089209828,NA
+Held-out labelled test,C only,Regourdou,Tumulus IVA at Level IV,Historical challenge,Funerary,F,2,1,95.23809523809523,Funerary,0.7422028411716386,80.95238095238095,0.725377619859364,NA
+Held-out labelled test,C only,Roc de Marsal,Layer 4,Historical challenge,Funerary,F,2,1,95.23809523809523,Funerary,0.03890131080286774,0,1.4286791502281349,NA
+Held-out labelled test,C only,Shanidar Cave,Layer D,Historical challenge,Funerary,F,2,1,95.23809523809523,Funerary,0.7788528650152354,90.47619047619048,0.6887275960157672,NA
+Held-out labelled test,C only,Sima de las Palomas,"Upper stratigraphic levels (including ""Conglomerado B"") and lower levels 5 and 6",Early-human holdout,Funerary,F,2,1,95.23809523809523,Funerary,0.0604754631321327,4.761904761904762,1.5280559241631353,NA
+Held-out labelled test,C only,Tabun Cave (Mugharet et-Tabun),Layer C,Early-human holdout,Funerary,F,2,1,95.23809523809523,Funerary,0.3816347938047271,42.857142857142854,1.8492152548357297,NA

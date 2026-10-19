@@ -1,0 +1,2081 @@
+.source_row,site_name,origin,repeat_id,fold
+303,Amud Cave,Funerary,1,1
+313,Brillenhöhle,Nonfunerary,1,1
+322,Cro-Magnon I,Funerary,1,1
+330,El Espinoso Cave,Funerary,1,1
+344,Gough's Cave,Nonfunerary,1,1
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,1,1
+351,Hahnöfersand,Nonfunerary,1,1
+356,Kajiado,Nonfunerary,1,1
+364,La Chapelle-aux-Saints,Funerary,1,1
+365,La Ferrassie,Funerary,1,1
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,1,1
+375,Les Rochers-de-Villeneuve,Nonfunerary,1,1
+387,Los Moros de Gabasa,Nonfunerary,1,1
+393,Ngandong,Nonfunerary,1,1
+394,Ngawi,Nonfunerary,1,1
+404,Předmostí,Funerary,1,1
+409,Roc de Marsal,Funerary,1,1
+415,San Juan ante Portam Latinam,Funerary,1,1
+429,Tabun Cave (Mugharet et-Tabun),Funerary,1,1
+432,Cueva de los Torrejones,Funerary,1,1
+448,Boquete de Zafarraya,Nonfunerary,1,1
+299,Abri Pataud,Funerary,1,2
+308,Baousso da Torre (Bausu da Ture),Funerary,1,2
+314,Brno II,Funerary,1,2
+343,Cova del Gegant,Nonfunerary,1,2
+346,Gran Dolina,Nonfunerary,1,2
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,1,2
+354,Hohlenstein-Stadel,Nonfunerary,1,2
+369,Abrigo do Lagar Velho,Funerary,1,2
+372,Le Moustier II,Funerary,1,2
+380,Yellow Jacket 5MT-3,Nonfunerary,1,2
+381,Manot Cave,Nonfunerary,1,2
+384,Mauer,Nonfunerary,1,2
+392,Netankheri,Nonfunerary,1,2
+395,Oberkassel,Funerary,1,2
+400,Goat’s Hole (Paviland Cave),Funerary,1,2
+402,Grotte des Perrats,Nonfunerary,1,2
+407,Reilingen,Nonfunerary,1,2
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,1,2
+419,Sima de las Palomas,Funerary,1,2
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,1,2
+447,Xemxija tombs,Funerary,1,2
+304,Arago,Nonfunerary,1,3
+319,Combe Grenal,Nonfunerary,1,3
+325,Cueva del Camino,Nonfunerary,1,3
+328,Dolní Věstonice II,Funerary,1,3
+331,El Mirador,Nonfunerary,1,3
+345,Troisième caverne of Goyet,Nonfunerary,1,3
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,1,3
+350,Grotta Guattari,Nonfunerary,1,3
+358,Kebara Cave,Funerary,1,3
+363,Krapina,Nonfunerary,1,3
+368,La Tolita Cama de Huesos,Funerary,1,3
+371,Le Moustier I,Funerary,1,3
+376,Grotte des Hoteaux,Funerary,1,3
+397,Ojo Guareña,Funerary,1,3
+401,Pavlov I,Funerary,1,3
+405,Qafzeh Cave,Funerary,1,3
+410,Roc de les Orenetes,Funerary,1,3
+430,Tepecik-Çiftlik,Funerary,1,3
+442,Vindija,Nonfunerary,1,3
+443,Vindija,Nonfunerary,1,3
+444,Vindija,Nonfunerary,1,3
+445,Vunda Locus,Nonfunerary,1,3
+323,Crow Creek,Funerary,1,4
+326,Dali Tianshuigou,Nonfunerary,1,4
+327,Dame du Cavillon,Funerary,1,4
+333,El Sidrón J1,Nonfunerary,1,4
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,1,4
+352,Hathnora,Nonfunerary,1,4
+359,Kiik-Koba,Funerary,1,4
+373,Le Placard,Nonfunerary,1,4
+377,Cueva de Malalmuerzo,Nonfunerary,1,4
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,1,4
+388,Moula-Guercy,Nonfunerary,1,4
+389,Mugharet es-Skhul,Funerary,1,4
+406,Regourdou,Funerary,1,4
+411,Saccopastore,Nonfunerary,1,4
+414,Sambungmacan,Nonfunerary,1,4
+418,Shanidar Cave,Funerary,1,4
+428,Sunghir,Funerary,1,4
+431,Teshik-Tash Cave,Funerary,1,4
+439,Vado all'Arancio,Funerary,1,4
+306,Archi,Nonfunerary,1,5
+307,Atxuri-I Cave,Funerary,1,5
+318,Abri de Raymonden (Chancelade),Funerary,1,5
+321,Cova Gran de Santa Linya,Funerary,1,5
+324,Cueva de la Buena Pinta,Nonfunerary,1,5
+329,Dolní Věstonice I,Funerary,1,5
+332,El Mirón Cave,Funerary,1,5
+338,Grotte de Fontbrégoua,Nonfunerary,1,5
+339,Grotte de Fontbrégoua,Nonfunerary,1,5
+341,Cova Foradada,Funerary,1,5
+342,Cova Foradada,Funerary,1,5
+353,Herxheim,Nonfunerary,1,5
+355,Jarama VI rockshelter,Nonfunerary,1,5
+357,Kalamakia,Nonfunerary,1,5
+367,La Quina,Funerary,1,5
+383,Maszycka Cave,Nonfunerary,1,5
+385,Mladeč Caves,Funerary,1,5
+386,Mojokerto,Nonfunerary,1,5
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,1,5
+416,Coves de Santa Maira,Nonfunerary,1,5
+440,Valdegoba Cave,Nonfunerary,1,5
+303,Amud Cave,Funerary,2,1
+304,Arago,Nonfunerary,2,1
+324,Cueva de la Buena Pinta,Nonfunerary,2,1
+332,El Mirón Cave,Funerary,2,1
+344,Gough's Cave,Nonfunerary,2,1
+346,Gran Dolina,Nonfunerary,2,1
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,2,1
+350,Grotta Guattari,Nonfunerary,2,1
+358,Kebara Cave,Funerary,2,1
+364,La Chapelle-aux-Saints,Funerary,2,1
+383,Maszycka Cave,Nonfunerary,2,1
+385,Mladeč Caves,Funerary,2,1
+387,Los Moros de Gabasa,Nonfunerary,2,1
+389,Mugharet es-Skhul,Funerary,2,1
+394,Ngawi,Nonfunerary,2,1
+395,Oberkassel,Funerary,2,1
+404,Předmostí,Funerary,2,1
+409,Roc de Marsal,Funerary,2,1
+430,Tepecik-Çiftlik,Funerary,2,1
+442,Vindija,Nonfunerary,2,1
+443,Vindija,Nonfunerary,2,1
+444,Vindija,Nonfunerary,2,1
+448,Boquete de Zafarraya,Nonfunerary,2,1
+313,Brillenhöhle,Nonfunerary,2,2
+325,Cueva del Camino,Nonfunerary,2,2
+330,El Espinoso Cave,Funerary,2,2
+331,El Mirador,Nonfunerary,2,2
+333,El Sidrón J1,Nonfunerary,2,2
+341,Cova Foradada,Funerary,2,2
+342,Cova Foradada,Funerary,2,2
+355,Jarama VI rockshelter,Nonfunerary,2,2
+357,Kalamakia,Nonfunerary,2,2
+363,Krapina,Nonfunerary,2,2
+365,La Ferrassie,Funerary,2,2
+368,La Tolita Cama de Huesos,Funerary,2,2
+372,Le Moustier II,Funerary,2,2
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,2,2
+388,Moula-Guercy,Nonfunerary,2,2
+397,Ojo Guareña,Funerary,2,2
+400,Goat’s Hole (Paviland Cave),Funerary,2,2
+405,Qafzeh Cave,Funerary,2,2
+411,Saccopastore,Nonfunerary,2,2
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,2,2
+415,San Juan ante Portam Latinam,Funerary,2,2
+416,Coves de Santa Maira,Nonfunerary,2,2
+299,Abri Pataud,Funerary,2,3
+307,Atxuri-I Cave,Funerary,2,3
+314,Brno II,Funerary,2,3
+321,Cova Gran de Santa Linya,Funerary,2,3
+327,Dame du Cavillon,Funerary,2,3
+343,Cova del Gegant,Nonfunerary,2,3
+345,Troisième caverne of Goyet,Nonfunerary,2,3
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,2,3
+351,Hahnöfersand,Nonfunerary,2,3
+356,Kajiado,Nonfunerary,2,3
+375,Les Rochers-de-Villeneuve,Nonfunerary,2,3
+380,Yellow Jacket 5MT-3,Nonfunerary,2,3
+381,Manot Cave,Nonfunerary,2,3
+401,Pavlov I,Funerary,2,3
+410,Roc de les Orenetes,Funerary,2,3
+414,Sambungmacan,Nonfunerary,2,3
+418,Shanidar Cave,Funerary,2,3
+431,Teshik-Tash Cave,Funerary,2,3
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,2,3
+447,Xemxija tombs,Funerary,2,3
+308,Baousso da Torre (Bausu da Ture),Funerary,2,4
+318,Abri de Raymonden (Chancelade),Funerary,2,4
+322,Cro-Magnon I,Funerary,2,4
+323,Crow Creek,Funerary,2,4
+326,Dali Tianshuigou,Nonfunerary,2,4
+328,Dolní Věstonice II,Funerary,2,4
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,2,4
+352,Hathnora,Nonfunerary,2,4
+354,Hohlenstein-Stadel,Nonfunerary,2,4
+369,Abrigo do Lagar Velho,Funerary,2,4
+373,Le Placard,Nonfunerary,2,4
+376,Grotte des Hoteaux,Funerary,2,4
+377,Cueva de Malalmuerzo,Nonfunerary,2,4
+384,Mauer,Nonfunerary,2,4
+386,Mojokerto,Nonfunerary,2,4
+407,Reilingen,Nonfunerary,2,4
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,2,4
+419,Sima de las Palomas,Funerary,2,4
+440,Valdegoba Cave,Nonfunerary,2,4
+306,Archi,Nonfunerary,2,5
+319,Combe Grenal,Nonfunerary,2,5
+329,Dolní Věstonice I,Funerary,2,5
+338,Grotte de Fontbrégoua,Nonfunerary,2,5
+339,Grotte de Fontbrégoua,Nonfunerary,2,5
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,2,5
+353,Herxheim,Nonfunerary,2,5
+359,Kiik-Koba,Funerary,2,5
+367,La Quina,Funerary,2,5
+371,Le Moustier I,Funerary,2,5
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,2,5
+392,Netankheri,Nonfunerary,2,5
+393,Ngandong,Nonfunerary,2,5
+402,Grotte des Perrats,Nonfunerary,2,5
+406,Regourdou,Funerary,2,5
+428,Sunghir,Funerary,2,5
+429,Tabun Cave (Mugharet et-Tabun),Funerary,2,5
+432,Cueva de los Torrejones,Funerary,2,5
+439,Vado all'Arancio,Funerary,2,5
+445,Vunda Locus,Nonfunerary,2,5
+303,Amud Cave,Funerary,3,1
+304,Arago,Nonfunerary,3,1
+321,Cova Gran de Santa Linya,Funerary,3,1
+326,Dali Tianshuigou,Nonfunerary,3,1
+328,Dolní Věstonice II,Funerary,3,1
+329,Dolní Věstonice I,Funerary,3,1
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,3,1
+344,Gough's Cave,Nonfunerary,3,1
+352,Hathnora,Nonfunerary,3,1
+359,Kiik-Koba,Funerary,3,1
+388,Moula-Guercy,Nonfunerary,3,1
+393,Ngandong,Nonfunerary,3,1
+401,Pavlov I,Funerary,3,1
+402,Grotte des Perrats,Nonfunerary,3,1
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,3,1
+429,Tabun Cave (Mugharet et-Tabun),Funerary,3,1
+439,Vado all'Arancio,Funerary,3,1
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,3,1
+442,Vindija,Nonfunerary,3,1
+443,Vindija,Nonfunerary,3,1
+444,Vindija,Nonfunerary,3,1
+445,Vunda Locus,Nonfunerary,3,1
+447,Xemxija tombs,Funerary,3,1
+306,Archi,Nonfunerary,3,2
+319,Combe Grenal,Nonfunerary,3,2
+322,Cro-Magnon I,Funerary,3,2
+327,Dame du Cavillon,Funerary,3,2
+332,El Mirón Cave,Funerary,3,2
+333,El Sidrón J1,Nonfunerary,3,2
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,3,2
+350,Grotta Guattari,Nonfunerary,3,2
+351,Hahnöfersand,Nonfunerary,3,2
+354,Hohlenstein-Stadel,Nonfunerary,3,2
+355,Jarama VI rockshelter,Nonfunerary,3,2
+358,Kebara Cave,Funerary,3,2
+363,Krapina,Nonfunerary,3,2
+371,Le Moustier I,Funerary,3,2
+372,Le Moustier II,Funerary,3,2
+373,Le Placard,Nonfunerary,3,2
+404,Předmostí,Funerary,3,2
+406,Regourdou,Funerary,3,2
+411,Saccopastore,Nonfunerary,3,2
+415,San Juan ante Portam Latinam,Funerary,3,2
+432,Cueva de los Torrejones,Funerary,3,2
+318,Abri de Raymonden (Chancelade),Funerary,3,3
+323,Crow Creek,Funerary,3,3
+325,Cueva del Camino,Nonfunerary,3,3
+330,El Espinoso Cave,Funerary,3,3
+346,Gran Dolina,Nonfunerary,3,3
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,3,3
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,3,3
+380,Yellow Jacket 5MT-3,Nonfunerary,3,3
+383,Maszycka Cave,Nonfunerary,3,3
+385,Mladeč Caves,Funerary,3,3
+389,Mugharet es-Skhul,Funerary,3,3
+392,Netankheri,Nonfunerary,3,3
+395,Oberkassel,Funerary,3,3
+405,Qafzeh Cave,Funerary,3,3
+414,Sambungmacan,Nonfunerary,3,3
+416,Coves de Santa Maira,Nonfunerary,3,3
+419,Sima de las Palomas,Funerary,3,3
+428,Sunghir,Funerary,3,3
+431,Teshik-Tash Cave,Funerary,3,3
+448,Boquete de Zafarraya,Nonfunerary,3,3
+299,Abri Pataud,Funerary,3,4
+307,Atxuri-I Cave,Funerary,3,4
+308,Baousso da Torre (Bausu da Ture),Funerary,3,4
+338,Grotte de Fontbrégoua,Nonfunerary,3,4
+339,Grotte de Fontbrégoua,Nonfunerary,3,4
+345,Troisième caverne of Goyet,Nonfunerary,3,4
+353,Herxheim,Nonfunerary,3,4
+356,Kajiado,Nonfunerary,3,4
+357,Kalamakia,Nonfunerary,3,4
+365,La Ferrassie,Funerary,3,4
+367,La Quina,Funerary,3,4
+368,La Tolita Cama de Huesos,Funerary,3,4
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,3,4
+384,Mauer,Nonfunerary,3,4
+386,Mojokerto,Nonfunerary,3,4
+394,Ngawi,Nonfunerary,3,4
+400,Goat’s Hole (Paviland Cave),Funerary,3,4
+407,Reilingen,Nonfunerary,3,4
+409,Roc de Marsal,Funerary,3,4
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,3,4
+313,Brillenhöhle,Nonfunerary,3,5
+314,Brno II,Funerary,3,5
+324,Cueva de la Buena Pinta,Nonfunerary,3,5
+331,El Mirador,Nonfunerary,3,5
+341,Cova Foradada,Funerary,3,5
+342,Cova Foradada,Funerary,3,5
+343,Cova del Gegant,Nonfunerary,3,5
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,3,5
+364,La Chapelle-aux-Saints,Funerary,3,5
+369,Abrigo do Lagar Velho,Funerary,3,5
+375,Les Rochers-de-Villeneuve,Nonfunerary,3,5
+376,Grotte des Hoteaux,Funerary,3,5
+377,Cueva de Malalmuerzo,Nonfunerary,3,5
+381,Manot Cave,Nonfunerary,3,5
+387,Los Moros de Gabasa,Nonfunerary,3,5
+397,Ojo Guareña,Funerary,3,5
+410,Roc de les Orenetes,Funerary,3,5
+418,Shanidar Cave,Funerary,3,5
+430,Tepecik-Çiftlik,Funerary,3,5
+440,Valdegoba Cave,Nonfunerary,3,5
+307,Atxuri-I Cave,Funerary,4,1
+313,Brillenhöhle,Nonfunerary,4,1
+322,Cro-Magnon I,Funerary,4,1
+324,Cueva de la Buena Pinta,Nonfunerary,4,1
+329,Dolní Věstonice I,Funerary,4,1
+330,El Espinoso Cave,Funerary,4,1
+338,Grotte de Fontbrégoua,Nonfunerary,4,1
+339,Grotte de Fontbrégoua,Nonfunerary,4,1
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,4,1
+341,Cova Foradada,Funerary,4,1
+342,Cova Foradada,Funerary,4,1
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,4,1
+354,Hohlenstein-Stadel,Nonfunerary,4,1
+364,La Chapelle-aux-Saints,Funerary,4,1
+367,La Quina,Funerary,4,1
+381,Manot Cave,Nonfunerary,4,1
+388,Moula-Guercy,Nonfunerary,4,1
+404,Předmostí,Funerary,4,1
+409,Roc de Marsal,Funerary,4,1
+410,Roc de les Orenetes,Funerary,4,1
+411,Saccopastore,Nonfunerary,4,1
+416,Coves de Santa Maira,Nonfunerary,4,1
+440,Valdegoba Cave,Nonfunerary,4,1
+318,Abri de Raymonden (Chancelade),Funerary,4,2
+319,Combe Grenal,Nonfunerary,4,2
+321,Cova Gran de Santa Linya,Funerary,4,2
+325,Cueva del Camino,Nonfunerary,4,2
+345,Troisième caverne of Goyet,Nonfunerary,4,2
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,4,2
+350,Grotta Guattari,Nonfunerary,4,2
+353,Herxheim,Nonfunerary,4,2
+355,Jarama VI rockshelter,Nonfunerary,4,2
+363,Krapina,Nonfunerary,4,2
+368,La Tolita Cama de Huesos,Funerary,4,2
+376,Grotte des Hoteaux,Funerary,4,2
+386,Mojokerto,Nonfunerary,4,2
+387,Los Moros de Gabasa,Nonfunerary,4,2
+395,Oberkassel,Funerary,4,2
+397,Ojo Guareña,Funerary,4,2
+406,Regourdou,Funerary,4,2
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,4,2
+428,Sunghir,Funerary,4,2
+439,Vado all'Arancio,Funerary,4,2
+445,Vunda Locus,Nonfunerary,4,2
+306,Archi,Nonfunerary,4,3
+314,Brno II,Funerary,4,3
+323,Crow Creek,Funerary,4,3
+332,El Mirón Cave,Funerary,4,3
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,4,3
+351,Hahnöfersand,Nonfunerary,4,3
+356,Kajiado,Nonfunerary,4,3
+358,Kebara Cave,Funerary,4,3
+369,Abrigo do Lagar Velho,Funerary,4,3
+380,Yellow Jacket 5MT-3,Nonfunerary,4,3
+383,Maszycka Cave,Nonfunerary,4,3
+392,Netankheri,Nonfunerary,4,3
+394,Ngawi,Nonfunerary,4,3
+400,Goat’s Hole (Paviland Cave),Funerary,4,3
+402,Grotte des Perrats,Nonfunerary,4,3
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,4,3
+415,San Juan ante Portam Latinam,Funerary,4,3
+419,Sima de las Palomas,Funerary,4,3
+430,Tepecik-Çiftlik,Funerary,4,3
+448,Boquete de Zafarraya,Nonfunerary,4,3
+299,Abri Pataud,Funerary,4,4
+303,Amud Cave,Funerary,4,4
+308,Baousso da Torre (Bausu da Ture),Funerary,4,4
+326,Dali Tianshuigou,Nonfunerary,4,4
+344,Gough's Cave,Nonfunerary,4,4
+352,Hathnora,Nonfunerary,4,4
+357,Kalamakia,Nonfunerary,4,4
+371,Le Moustier I,Funerary,4,4
+372,Le Moustier II,Funerary,4,4
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,4,4
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,4,4
+384,Mauer,Nonfunerary,4,4
+385,Mladeč Caves,Funerary,4,4
+389,Mugharet es-Skhul,Funerary,4,4
+393,Ngandong,Nonfunerary,4,4
+418,Shanidar Cave,Funerary,4,4
+431,Teshik-Tash Cave,Funerary,4,4
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,4,4
+442,Vindija,Nonfunerary,4,4
+443,Vindija,Nonfunerary,4,4
+444,Vindija,Nonfunerary,4,4
+304,Arago,Nonfunerary,4,5
+327,Dame du Cavillon,Funerary,4,5
+328,Dolní Věstonice II,Funerary,4,5
+331,El Mirador,Nonfunerary,4,5
+333,El Sidrón J1,Nonfunerary,4,5
+343,Cova del Gegant,Nonfunerary,4,5
+346,Gran Dolina,Nonfunerary,4,5
+359,Kiik-Koba,Funerary,4,5
+365,La Ferrassie,Funerary,4,5
+373,Le Placard,Nonfunerary,4,5
+375,Les Rochers-de-Villeneuve,Nonfunerary,4,5
+377,Cueva de Malalmuerzo,Nonfunerary,4,5
+401,Pavlov I,Funerary,4,5
+405,Qafzeh Cave,Funerary,4,5
+407,Reilingen,Nonfunerary,4,5
+414,Sambungmacan,Nonfunerary,4,5
+429,Tabun Cave (Mugharet et-Tabun),Funerary,4,5
+432,Cueva de los Torrejones,Funerary,4,5
+447,Xemxija tombs,Funerary,4,5
+321,Cova Gran de Santa Linya,Funerary,5,1
+327,Dame du Cavillon,Funerary,5,1
+333,El Sidrón J1,Nonfunerary,5,1
+344,Gough's Cave,Nonfunerary,5,1
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,5,1
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,5,1
+351,Hahnöfersand,Nonfunerary,5,1
+353,Herxheim,Nonfunerary,5,1
+354,Hohlenstein-Stadel,Nonfunerary,5,1
+358,Kebara Cave,Funerary,5,1
+368,La Tolita Cama de Huesos,Funerary,5,1
+369,Abrigo do Lagar Velho,Funerary,5,1
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,5,1
+389,Mugharet es-Skhul,Funerary,5,1
+394,Ngawi,Nonfunerary,5,1
+395,Oberkassel,Funerary,5,1
+406,Regourdou,Funerary,5,1
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,5,1
+416,Coves de Santa Maira,Nonfunerary,5,1
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,5,1
+447,Xemxija tombs,Funerary,5,1
+306,Archi,Nonfunerary,5,2
+313,Brillenhöhle,Nonfunerary,5,2
+322,Cro-Magnon I,Funerary,5,2
+325,Cueva del Camino,Nonfunerary,5,2
+329,Dolní Věstonice I,Funerary,5,2
+330,El Espinoso Cave,Funerary,5,2
+332,El Mirón Cave,Funerary,5,2
+343,Cova del Gegant,Nonfunerary,5,2
+350,Grotta Guattari,Nonfunerary,5,2
+355,Jarama VI rockshelter,Nonfunerary,5,2
+356,Kajiado,Nonfunerary,5,2
+371,Le Moustier I,Funerary,5,2
+373,Le Placard,Nonfunerary,5,2
+375,Les Rochers-de-Villeneuve,Nonfunerary,5,2
+386,Mojokerto,Nonfunerary,5,2
+393,Ngandong,Nonfunerary,5,2
+401,Pavlov I,Funerary,5,2
+410,Roc de les Orenetes,Funerary,5,2
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,5,2
+430,Tepecik-Çiftlik,Funerary,5,2
+431,Teshik-Tash Cave,Funerary,5,2
+299,Abri Pataud,Funerary,5,3
+303,Amud Cave,Funerary,5,3
+307,Atxuri-I Cave,Funerary,5,3
+319,Combe Grenal,Nonfunerary,5,3
+323,Crow Creek,Funerary,5,3
+326,Dali Tianshuigou,Nonfunerary,5,3
+338,Grotte de Fontbrégoua,Nonfunerary,5,3
+339,Grotte de Fontbrégoua,Nonfunerary,5,3
+364,La Chapelle-aux-Saints,Funerary,5,3
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,5,3
+376,Grotte des Hoteaux,Funerary,5,3
+377,Cueva de Malalmuerzo,Nonfunerary,5,3
+385,Mladeč Caves,Funerary,5,3
+388,Moula-Guercy,Nonfunerary,5,3
+392,Netankheri,Nonfunerary,5,3
+402,Grotte des Perrats,Nonfunerary,5,3
+405,Qafzeh Cave,Funerary,5,3
+407,Reilingen,Nonfunerary,5,3
+429,Tabun Cave (Mugharet et-Tabun),Funerary,5,3
+439,Vado all'Arancio,Funerary,5,3
+448,Boquete de Zafarraya,Nonfunerary,5,3
+318,Abri de Raymonden (Chancelade),Funerary,5,4
+328,Dolní Věstonice II,Funerary,5,4
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,5,4
+341,Cova Foradada,Funerary,5,4
+342,Cova Foradada,Funerary,5,4
+345,Troisième caverne of Goyet,Nonfunerary,5,4
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,5,4
+357,Kalamakia,Nonfunerary,5,4
+363,Krapina,Nonfunerary,5,4
+367,La Quina,Funerary,5,4
+387,Los Moros de Gabasa,Nonfunerary,5,4
+400,Goat’s Hole (Paviland Cave),Funerary,5,4
+404,Předmostí,Funerary,5,4
+411,Saccopastore,Nonfunerary,5,4
+414,Sambungmacan,Nonfunerary,5,4
+415,San Juan ante Portam Latinam,Funerary,5,4
+418,Shanidar Cave,Funerary,5,4
+428,Sunghir,Funerary,5,4
+442,Vindija,Nonfunerary,5,4
+443,Vindija,Nonfunerary,5,4
+444,Vindija,Nonfunerary,5,4
+445,Vunda Locus,Nonfunerary,5,4
+304,Arago,Nonfunerary,5,5
+308,Baousso da Torre (Bausu da Ture),Funerary,5,5
+314,Brno II,Funerary,5,5
+324,Cueva de la Buena Pinta,Nonfunerary,5,5
+331,El Mirador,Nonfunerary,5,5
+346,Gran Dolina,Nonfunerary,5,5
+352,Hathnora,Nonfunerary,5,5
+359,Kiik-Koba,Funerary,5,5
+365,La Ferrassie,Funerary,5,5
+372,Le Moustier II,Funerary,5,5
+380,Yellow Jacket 5MT-3,Nonfunerary,5,5
+381,Manot Cave,Nonfunerary,5,5
+383,Maszycka Cave,Nonfunerary,5,5
+384,Mauer,Nonfunerary,5,5
+397,Ojo Guareña,Funerary,5,5
+409,Roc de Marsal,Funerary,5,5
+419,Sima de las Palomas,Funerary,5,5
+432,Cueva de los Torrejones,Funerary,5,5
+440,Valdegoba Cave,Nonfunerary,5,5
+303,Amud Cave,Funerary,6,1
+304,Arago,Nonfunerary,6,1
+306,Archi,Nonfunerary,6,1
+307,Atxuri-I Cave,Funerary,6,1
+313,Brillenhöhle,Nonfunerary,6,1
+333,El Sidrón J1,Nonfunerary,6,1
+343,Cova del Gegant,Nonfunerary,6,1
+344,Gough's Cave,Nonfunerary,6,1
+350,Grotta Guattari,Nonfunerary,6,1
+351,Hahnöfersand,Nonfunerary,6,1
+353,Herxheim,Nonfunerary,6,1
+365,La Ferrassie,Funerary,6,1
+367,La Quina,Funerary,6,1
+372,Le Moustier II,Funerary,6,1
+383,Maszycka Cave,Nonfunerary,6,1
+401,Pavlov I,Funerary,6,1
+410,Roc de les Orenetes,Funerary,6,1
+414,Sambungmacan,Nonfunerary,6,1
+428,Sunghir,Funerary,6,1
+431,Teshik-Tash Cave,Funerary,6,1
+447,Xemxija tombs,Funerary,6,1
+321,Cova Gran de Santa Linya,Funerary,6,2
+323,Crow Creek,Funerary,6,2
+325,Cueva del Camino,Nonfunerary,6,2
+329,Dolní Věstonice I,Funerary,6,2
+338,Grotte de Fontbrégoua,Nonfunerary,6,2
+339,Grotte de Fontbrégoua,Nonfunerary,6,2
+346,Gran Dolina,Nonfunerary,6,2
+352,Hathnora,Nonfunerary,6,2
+358,Kebara Cave,Funerary,6,2
+359,Kiik-Koba,Funerary,6,2
+364,La Chapelle-aux-Saints,Funerary,6,2
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,6,2
+381,Manot Cave,Nonfunerary,6,2
+384,Mauer,Nonfunerary,6,2
+386,Mojokerto,Nonfunerary,6,2
+395,Oberkassel,Funerary,6,2
+407,Reilingen,Nonfunerary,6,2
+415,San Juan ante Portam Latinam,Funerary,6,2
+429,Tabun Cave (Mugharet et-Tabun),Funerary,6,2
+439,Vado all'Arancio,Funerary,6,2
+442,Vindija,Nonfunerary,6,2
+443,Vindija,Nonfunerary,6,2
+444,Vindija,Nonfunerary,6,2
+445,Vunda Locus,Nonfunerary,6,2
+308,Baousso da Torre (Bausu da Ture),Funerary,6,3
+314,Brno II,Funerary,6,3
+322,Cro-Magnon I,Funerary,6,3
+331,El Mirador,Nonfunerary,6,3
+341,Cova Foradada,Funerary,6,3
+342,Cova Foradada,Funerary,6,3
+345,Troisième caverne of Goyet,Nonfunerary,6,3
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,6,3
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,6,3
+354,Hohlenstein-Stadel,Nonfunerary,6,3
+368,La Tolita Cama de Huesos,Funerary,6,3
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,6,3
+375,Les Rochers-de-Villeneuve,Nonfunerary,6,3
+377,Cueva de Malalmuerzo,Nonfunerary,6,3
+405,Qafzeh Cave,Funerary,6,3
+406,Regourdou,Funerary,6,3
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,6,3
+411,Saccopastore,Nonfunerary,6,3
+416,Coves de Santa Maira,Nonfunerary,6,3
+419,Sima de las Palomas,Funerary,6,3
+432,Cueva de los Torrejones,Funerary,6,3
+299,Abri Pataud,Funerary,6,4
+318,Abri de Raymonden (Chancelade),Funerary,6,4
+324,Cueva de la Buena Pinta,Nonfunerary,6,4
+327,Dame du Cavillon,Funerary,6,4
+330,El Espinoso Cave,Funerary,6,4
+332,El Mirón Cave,Funerary,6,4
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,6,4
+356,Kajiado,Nonfunerary,6,4
+357,Kalamakia,Nonfunerary,6,4
+369,Abrigo do Lagar Velho,Funerary,6,4
+376,Grotte des Hoteaux,Funerary,6,4
+380,Yellow Jacket 5MT-3,Nonfunerary,6,4
+388,Moula-Guercy,Nonfunerary,6,4
+389,Mugharet es-Skhul,Funerary,6,4
+392,Netankheri,Nonfunerary,6,4
+393,Ngandong,Nonfunerary,6,4
+402,Grotte des Perrats,Nonfunerary,6,4
+430,Tepecik-Çiftlik,Funerary,6,4
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,6,4
+319,Combe Grenal,Nonfunerary,6,5
+326,Dali Tianshuigou,Nonfunerary,6,5
+328,Dolní Věstonice II,Funerary,6,5
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,6,5
+355,Jarama VI rockshelter,Nonfunerary,6,5
+363,Krapina,Nonfunerary,6,5
+371,Le Moustier I,Funerary,6,5
+373,Le Placard,Nonfunerary,6,5
+385,Mladeč Caves,Funerary,6,5
+387,Los Moros de Gabasa,Nonfunerary,6,5
+394,Ngawi,Nonfunerary,6,5
+397,Ojo Guareña,Funerary,6,5
+400,Goat’s Hole (Paviland Cave),Funerary,6,5
+404,Předmostí,Funerary,6,5
+409,Roc de Marsal,Funerary,6,5
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,6,5
+418,Shanidar Cave,Funerary,6,5
+440,Valdegoba Cave,Nonfunerary,6,5
+448,Boquete de Zafarraya,Nonfunerary,6,5
+313,Brillenhöhle,Nonfunerary,7,1
+323,Crow Creek,Funerary,7,1
+326,Dali Tianshuigou,Nonfunerary,7,1
+327,Dame du Cavillon,Funerary,7,1
+331,El Mirador,Nonfunerary,7,1
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,7,1
+346,Gran Dolina,Nonfunerary,7,1
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,7,1
+351,Hahnöfersand,Nonfunerary,7,1
+359,Kiik-Koba,Funerary,7,1
+367,La Quina,Funerary,7,1
+368,La Tolita Cama de Huesos,Funerary,7,1
+371,Le Moustier I,Funerary,7,1
+372,Le Moustier II,Funerary,7,1
+373,Le Placard,Nonfunerary,7,1
+384,Mauer,Nonfunerary,7,1
+387,Los Moros de Gabasa,Nonfunerary,7,1
+411,Saccopastore,Nonfunerary,7,1
+415,San Juan ante Portam Latinam,Funerary,7,1
+418,Shanidar Cave,Funerary,7,1
+429,Tabun Cave (Mugharet et-Tabun),Funerary,7,1
+307,Atxuri-I Cave,Funerary,7,2
+318,Abri de Raymonden (Chancelade),Funerary,7,2
+325,Cueva del Camino,Nonfunerary,7,2
+328,Dolní Věstonice II,Funerary,7,2
+329,Dolní Věstonice I,Funerary,7,2
+343,Cova del Gegant,Nonfunerary,7,2
+356,Kajiado,Nonfunerary,7,2
+357,Kalamakia,Nonfunerary,7,2
+358,Kebara Cave,Funerary,7,2
+363,Krapina,Nonfunerary,7,2
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,7,2
+377,Cueva de Malalmuerzo,Nonfunerary,7,2
+388,Moula-Guercy,Nonfunerary,7,2
+395,Oberkassel,Funerary,7,2
+402,Grotte des Perrats,Nonfunerary,7,2
+405,Qafzeh Cave,Funerary,7,2
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,7,2
+409,Roc de Marsal,Funerary,7,2
+428,Sunghir,Funerary,7,2
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,7,2
+445,Vunda Locus,Nonfunerary,7,2
+304,Arago,Nonfunerary,7,3
+319,Combe Grenal,Nonfunerary,7,3
+322,Cro-Magnon I,Funerary,7,3
+344,Gough's Cave,Nonfunerary,7,3
+354,Hohlenstein-Stadel,Nonfunerary,7,3
+364,La Chapelle-aux-Saints,Funerary,7,3
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,7,3
+380,Yellow Jacket 5MT-3,Nonfunerary,7,3
+386,Mojokerto,Nonfunerary,7,3
+400,Goat’s Hole (Paviland Cave),Funerary,7,3
+401,Pavlov I,Funerary,7,3
+406,Regourdou,Funerary,7,3
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,7,3
+416,Coves de Santa Maira,Nonfunerary,7,3
+419,Sima de las Palomas,Funerary,7,3
+431,Teshik-Tash Cave,Funerary,7,3
+432,Cueva de los Torrejones,Funerary,7,3
+439,Vado all'Arancio,Funerary,7,3
+440,Valdegoba Cave,Nonfunerary,7,3
+448,Boquete de Zafarraya,Nonfunerary,7,3
+303,Amud Cave,Funerary,7,4
+308,Baousso da Torre (Bausu da Ture),Funerary,7,4
+324,Cueva de la Buena Pinta,Nonfunerary,7,4
+330,El Espinoso Cave,Funerary,7,4
+333,El Sidrón J1,Nonfunerary,7,4
+341,Cova Foradada,Funerary,7,4
+342,Cova Foradada,Funerary,7,4
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,7,4
+350,Grotta Guattari,Nonfunerary,7,4
+353,Herxheim,Nonfunerary,7,4
+365,La Ferrassie,Funerary,7,4
+375,Les Rochers-de-Villeneuve,Nonfunerary,7,4
+381,Manot Cave,Nonfunerary,7,4
+383,Maszycka Cave,Nonfunerary,7,4
+385,Mladeč Caves,Funerary,7,4
+393,Ngandong,Nonfunerary,7,4
+397,Ojo Guareña,Funerary,7,4
+404,Předmostí,Funerary,7,4
+410,Roc de les Orenetes,Funerary,7,4
+414,Sambungmacan,Nonfunerary,7,4
+299,Abri Pataud,Funerary,7,5
+306,Archi,Nonfunerary,7,5
+314,Brno II,Funerary,7,5
+321,Cova Gran de Santa Linya,Funerary,7,5
+332,El Mirón Cave,Funerary,7,5
+338,Grotte de Fontbrégoua,Nonfunerary,7,5
+339,Grotte de Fontbrégoua,Nonfunerary,7,5
+345,Troisième caverne of Goyet,Nonfunerary,7,5
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,7,5
+352,Hathnora,Nonfunerary,7,5
+355,Jarama VI rockshelter,Nonfunerary,7,5
+369,Abrigo do Lagar Velho,Funerary,7,5
+376,Grotte des Hoteaux,Funerary,7,5
+389,Mugharet es-Skhul,Funerary,7,5
+392,Netankheri,Nonfunerary,7,5
+394,Ngawi,Nonfunerary,7,5
+407,Reilingen,Nonfunerary,7,5
+430,Tepecik-Çiftlik,Funerary,7,5
+442,Vindija,Nonfunerary,7,5
+443,Vindija,Nonfunerary,7,5
+444,Vindija,Nonfunerary,7,5
+447,Xemxija tombs,Funerary,7,5
+299,Abri Pataud,Funerary,8,1
+308,Baousso da Torre (Bausu da Ture),Funerary,8,1
+322,Cro-Magnon I,Funerary,8,1
+325,Cueva del Camino,Nonfunerary,8,1
+330,El Espinoso Cave,Funerary,8,1
+331,El Mirador,Nonfunerary,8,1
+345,Troisième caverne of Goyet,Nonfunerary,8,1
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,8,1
+367,La Quina,Funerary,8,1
+371,Le Moustier I,Funerary,8,1
+372,Le Moustier II,Funerary,8,1
+377,Cueva de Malalmuerzo,Nonfunerary,8,1
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,8,1
+380,Yellow Jacket 5MT-3,Nonfunerary,8,1
+384,Mauer,Nonfunerary,8,1
+409,Roc de Marsal,Funerary,8,1
+414,Sambungmacan,Nonfunerary,8,1
+416,Coves de Santa Maira,Nonfunerary,8,1
+428,Sunghir,Funerary,8,1
+430,Tepecik-Çiftlik,Funerary,8,1
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,8,1
+303,Amud Cave,Funerary,8,2
+319,Combe Grenal,Nonfunerary,8,2
+327,Dame du Cavillon,Funerary,8,2
+341,Cova Foradada,Funerary,8,2
+342,Cova Foradada,Funerary,8,2
+353,Herxheim,Nonfunerary,8,2
+357,Kalamakia,Nonfunerary,8,2
+358,Kebara Cave,Funerary,8,2
+359,Kiik-Koba,Funerary,8,2
+368,La Tolita Cama de Huesos,Funerary,8,2
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,8,2
+383,Maszycka Cave,Nonfunerary,8,2
+385,Mladeč Caves,Funerary,8,2
+386,Mojokerto,Nonfunerary,8,2
+387,Los Moros de Gabasa,Nonfunerary,8,2
+388,Moula-Guercy,Nonfunerary,8,2
+410,Roc de les Orenetes,Funerary,8,2
+411,Saccopastore,Nonfunerary,8,2
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,8,2
+419,Sima de las Palomas,Funerary,8,2
+440,Valdegoba Cave,Nonfunerary,8,2
+448,Boquete de Zafarraya,Nonfunerary,8,2
+304,Arago,Nonfunerary,8,3
+314,Brno II,Funerary,8,3
+318,Abri de Raymonden (Chancelade),Funerary,8,3
+326,Dali Tianshuigou,Nonfunerary,8,3
+329,Dolní Věstonice I,Funerary,8,3
+333,El Sidrón J1,Nonfunerary,8,3
+346,Gran Dolina,Nonfunerary,8,3
+350,Grotta Guattari,Nonfunerary,8,3
+351,Hahnöfersand,Nonfunerary,8,3
+389,Mugharet es-Skhul,Funerary,8,3
+392,Netankheri,Nonfunerary,8,3
+397,Ojo Guareña,Funerary,8,3
+402,Grotte des Perrats,Nonfunerary,8,3
+404,Předmostí,Funerary,8,3
+405,Qafzeh Cave,Funerary,8,3
+407,Reilingen,Nonfunerary,8,3
+431,Teshik-Tash Cave,Funerary,8,3
+432,Cueva de los Torrejones,Funerary,8,3
+442,Vindija,Nonfunerary,8,3
+443,Vindija,Nonfunerary,8,3
+444,Vindija,Nonfunerary,8,3
+447,Xemxija tombs,Funerary,8,3
+306,Archi,Nonfunerary,8,4
+324,Cueva de la Buena Pinta,Nonfunerary,8,4
+332,El Mirón Cave,Funerary,8,4
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,8,4
+343,Cova del Gegant,Nonfunerary,8,4
+344,Gough's Cave,Nonfunerary,8,4
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,8,4
+352,Hathnora,Nonfunerary,8,4
+364,La Chapelle-aux-Saints,Funerary,8,4
+369,Abrigo do Lagar Velho,Funerary,8,4
+373,Le Placard,Nonfunerary,8,4
+375,Les Rochers-de-Villeneuve,Nonfunerary,8,4
+376,Grotte des Hoteaux,Funerary,8,4
+393,Ngandong,Nonfunerary,8,4
+395,Oberkassel,Funerary,8,4
+400,Goat’s Hole (Paviland Cave),Funerary,8,4
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,8,4
+415,San Juan ante Portam Latinam,Funerary,8,4
+439,Vado all'Arancio,Funerary,8,4
+307,Atxuri-I Cave,Funerary,8,5
+313,Brillenhöhle,Nonfunerary,8,5
+321,Cova Gran de Santa Linya,Funerary,8,5
+323,Crow Creek,Funerary,8,5
+328,Dolní Věstonice II,Funerary,8,5
+338,Grotte de Fontbrégoua,Nonfunerary,8,5
+339,Grotte de Fontbrégoua,Nonfunerary,8,5
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,8,5
+354,Hohlenstein-Stadel,Nonfunerary,8,5
+355,Jarama VI rockshelter,Nonfunerary,8,5
+356,Kajiado,Nonfunerary,8,5
+363,Krapina,Nonfunerary,8,5
+365,La Ferrassie,Funerary,8,5
+381,Manot Cave,Nonfunerary,8,5
+394,Ngawi,Nonfunerary,8,5
+401,Pavlov I,Funerary,8,5
+406,Regourdou,Funerary,8,5
+418,Shanidar Cave,Funerary,8,5
+429,Tabun Cave (Mugharet et-Tabun),Funerary,8,5
+445,Vunda Locus,Nonfunerary,8,5
+304,Arago,Nonfunerary,9,1
+313,Brillenhöhle,Nonfunerary,9,1
+314,Brno II,Funerary,9,1
+321,Cova Gran de Santa Linya,Funerary,9,1
+323,Crow Creek,Funerary,9,1
+326,Dali Tianshuigou,Nonfunerary,9,1
+329,Dolní Věstonice I,Funerary,9,1
+338,Grotte de Fontbrégoua,Nonfunerary,9,1
+339,Grotte de Fontbrégoua,Nonfunerary,9,1
+355,Jarama VI rockshelter,Nonfunerary,9,1
+363,Krapina,Nonfunerary,9,1
+364,La Chapelle-aux-Saints,Funerary,9,1
+371,Le Moustier I,Funerary,9,1
+375,Les Rochers-de-Villeneuve,Nonfunerary,9,1
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,9,1
+387,Los Moros de Gabasa,Nonfunerary,9,1
+393,Ngandong,Nonfunerary,9,1
+401,Pavlov I,Funerary,9,1
+406,Regourdou,Funerary,9,1
+409,Roc de Marsal,Funerary,9,1
+411,Saccopastore,Nonfunerary,9,1
+430,Tepecik-Çiftlik,Funerary,9,1
+303,Amud Cave,Funerary,9,2
+327,Dame du Cavillon,Funerary,9,2
+343,Cova del Gegant,Nonfunerary,9,2
+346,Gran Dolina,Nonfunerary,9,2
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,9,2
+352,Hathnora,Nonfunerary,9,2
+358,Kebara Cave,Funerary,9,2
+359,Kiik-Koba,Funerary,9,2
+368,La Tolita Cama de Huesos,Funerary,9,2
+377,Cueva de Malalmuerzo,Nonfunerary,9,2
+381,Manot Cave,Nonfunerary,9,2
+388,Moula-Guercy,Nonfunerary,9,2
+392,Netankheri,Nonfunerary,9,2
+400,Goat’s Hole (Paviland Cave),Funerary,9,2
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,9,2
+410,Roc de les Orenetes,Funerary,9,2
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,9,2
+428,Sunghir,Funerary,9,2
+440,Valdegoba Cave,Nonfunerary,9,2
+442,Vindija,Nonfunerary,9,2
+443,Vindija,Nonfunerary,9,2
+444,Vindija,Nonfunerary,9,2
+445,Vunda Locus,Nonfunerary,9,2
+306,Archi,Nonfunerary,9,3
+308,Baousso da Torre (Bausu da Ture),Funerary,9,3
+319,Combe Grenal,Nonfunerary,9,3
+330,El Espinoso Cave,Funerary,9,3
+333,El Sidrón J1,Nonfunerary,9,3
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,9,3
+341,Cova Foradada,Funerary,9,3
+342,Cova Foradada,Funerary,9,3
+345,Troisième caverne of Goyet,Nonfunerary,9,3
+354,Hohlenstein-Stadel,Nonfunerary,9,3
+356,Kajiado,Nonfunerary,9,3
+365,La Ferrassie,Funerary,9,3
+373,Le Placard,Nonfunerary,9,3
+376,Grotte des Hoteaux,Funerary,9,3
+394,Ngawi,Nonfunerary,9,3
+402,Grotte des Perrats,Nonfunerary,9,3
+404,Předmostí,Funerary,9,3
+418,Shanidar Cave,Funerary,9,3
+429,Tabun Cave (Mugharet et-Tabun),Funerary,9,3
+432,Cueva de los Torrejones,Funerary,9,3
+439,Vado all'Arancio,Funerary,9,3
+299,Abri Pataud,Funerary,9,4
+307,Atxuri-I Cave,Funerary,9,4
+322,Cro-Magnon I,Funerary,9,4
+324,Cueva de la Buena Pinta,Nonfunerary,9,4
+325,Cueva del Camino,Nonfunerary,9,4
+328,Dolní Věstonice II,Funerary,9,4
+331,El Mirador,Nonfunerary,9,4
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,9,4
+351,Hahnöfersand,Nonfunerary,9,4
+353,Herxheim,Nonfunerary,9,4
+369,Abrigo do Lagar Velho,Funerary,9,4
+380,Yellow Jacket 5MT-3,Nonfunerary,9,4
+386,Mojokerto,Nonfunerary,9,4
+389,Mugharet es-Skhul,Funerary,9,4
+397,Ojo Guareña,Funerary,9,4
+405,Qafzeh Cave,Funerary,9,4
+407,Reilingen,Nonfunerary,9,4
+416,Coves de Santa Maira,Nonfunerary,9,4
+431,Teshik-Tash Cave,Funerary,9,4
+318,Abri de Raymonden (Chancelade),Funerary,9,5
+332,El Mirón Cave,Funerary,9,5
+344,Gough's Cave,Nonfunerary,9,5
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,9,5
+350,Grotta Guattari,Nonfunerary,9,5
+357,Kalamakia,Nonfunerary,9,5
+367,La Quina,Funerary,9,5
+372,Le Moustier II,Funerary,9,5
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,9,5
+383,Maszycka Cave,Nonfunerary,9,5
+384,Mauer,Nonfunerary,9,5
+385,Mladeč Caves,Funerary,9,5
+395,Oberkassel,Funerary,9,5
+414,Sambungmacan,Nonfunerary,9,5
+415,San Juan ante Portam Latinam,Funerary,9,5
+419,Sima de las Palomas,Funerary,9,5
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,9,5
+447,Xemxija tombs,Funerary,9,5
+448,Boquete de Zafarraya,Nonfunerary,9,5
+307,Atxuri-I Cave,Funerary,10,1
+308,Baousso da Torre (Bausu da Ture),Funerary,10,1
+313,Brillenhöhle,Nonfunerary,10,1
+319,Combe Grenal,Nonfunerary,10,1
+324,Cueva de la Buena Pinta,Nonfunerary,10,1
+330,El Espinoso Cave,Funerary,10,1
+333,El Sidrón J1,Nonfunerary,10,1
+343,Cova del Gegant,Nonfunerary,10,1
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,10,1
+358,Kebara Cave,Funerary,10,1
+365,La Ferrassie,Funerary,10,1
+377,Cueva de Malalmuerzo,Nonfunerary,10,1
+381,Manot Cave,Nonfunerary,10,1
+401,Pavlov I,Funerary,10,1
+407,Reilingen,Nonfunerary,10,1
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,10,1
+416,Coves de Santa Maira,Nonfunerary,10,1
+418,Shanidar Cave,Funerary,10,1
+430,Tepecik-Çiftlik,Funerary,10,1
+440,Valdegoba Cave,Nonfunerary,10,1
+447,Xemxija tombs,Funerary,10,1
+306,Archi,Nonfunerary,10,2
+318,Abri de Raymonden (Chancelade),Funerary,10,2
+322,Cro-Magnon I,Funerary,10,2
+323,Crow Creek,Funerary,10,2
+329,Dolní Věstonice I,Funerary,10,2
+332,El Mirón Cave,Funerary,10,2
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,10,2
+352,Hathnora,Nonfunerary,10,2
+355,Jarama VI rockshelter,Nonfunerary,10,2
+357,Kalamakia,Nonfunerary,10,2
+383,Maszycka Cave,Nonfunerary,10,2
+386,Mojokerto,Nonfunerary,10,2
+393,Ngandong,Nonfunerary,10,2
+405,Qafzeh Cave,Funerary,10,2
+406,Regourdou,Funerary,10,2
+411,Saccopastore,Nonfunerary,10,2
+431,Teshik-Tash Cave,Funerary,10,2
+432,Cueva de los Torrejones,Funerary,10,2
+439,Vado all'Arancio,Funerary,10,2
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,10,2
+445,Vunda Locus,Nonfunerary,10,2
+299,Abri Pataud,Funerary,10,3
+314,Brno II,Funerary,10,3
+326,Dali Tianshuigou,Nonfunerary,10,3
+327,Dame du Cavillon,Funerary,10,3
+344,Gough's Cave,Nonfunerary,10,3
+350,Grotta Guattari,Nonfunerary,10,3
+351,Hahnöfersand,Nonfunerary,10,3
+356,Kajiado,Nonfunerary,10,3
+364,La Chapelle-aux-Saints,Funerary,10,3
+372,Le Moustier II,Funerary,10,3
+373,Le Placard,Nonfunerary,10,3
+387,Los Moros de Gabasa,Nonfunerary,10,3
+395,Oberkassel,Funerary,10,3
+402,Grotte des Perrats,Nonfunerary,10,3
+409,Roc de Marsal,Funerary,10,3
+414,Sambungmacan,Nonfunerary,10,3
+415,San Juan ante Portam Latinam,Funerary,10,3
+428,Sunghir,Funerary,10,3
+429,Tabun Cave (Mugharet et-Tabun),Funerary,10,3
+442,Vindija,Nonfunerary,10,3
+443,Vindija,Nonfunerary,10,3
+444,Vindija,Nonfunerary,10,3
+328,Dolní Věstonice II,Funerary,10,4
+331,El Mirador,Nonfunerary,10,4
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,10,4
+345,Troisième caverne of Goyet,Nonfunerary,10,4
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,10,4
+353,Herxheim,Nonfunerary,10,4
+359,Kiik-Koba,Funerary,10,4
+368,La Tolita Cama de Huesos,Funerary,10,4
+371,Le Moustier I,Funerary,10,4
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,10,4
+375,Les Rochers-de-Villeneuve,Nonfunerary,10,4
+384,Mauer,Nonfunerary,10,4
+385,Mladeč Caves,Funerary,10,4
+392,Netankheri,Nonfunerary,10,4
+394,Ngawi,Nonfunerary,10,4
+400,Goat’s Hole (Paviland Cave),Funerary,10,4
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,10,4
+410,Roc de les Orenetes,Funerary,10,4
+419,Sima de las Palomas,Funerary,10,4
+303,Amud Cave,Funerary,10,5
+304,Arago,Nonfunerary,10,5
+321,Cova Gran de Santa Linya,Funerary,10,5
+325,Cueva del Camino,Nonfunerary,10,5
+338,Grotte de Fontbrégoua,Nonfunerary,10,5
+339,Grotte de Fontbrégoua,Nonfunerary,10,5
+341,Cova Foradada,Funerary,10,5
+342,Cova Foradada,Funerary,10,5
+346,Gran Dolina,Nonfunerary,10,5
+354,Hohlenstein-Stadel,Nonfunerary,10,5
+363,Krapina,Nonfunerary,10,5
+367,La Quina,Funerary,10,5
+369,Abrigo do Lagar Velho,Funerary,10,5
+376,Grotte des Hoteaux,Funerary,10,5
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,10,5
+380,Yellow Jacket 5MT-3,Nonfunerary,10,5
+388,Moula-Guercy,Nonfunerary,10,5
+389,Mugharet es-Skhul,Funerary,10,5
+397,Ojo Guareña,Funerary,10,5
+404,Předmostí,Funerary,10,5
+448,Boquete de Zafarraya,Nonfunerary,10,5
+308,Baousso da Torre (Bausu da Ture),Funerary,11,1
+326,Dali Tianshuigou,Nonfunerary,11,1
+327,Dame du Cavillon,Funerary,11,1
+332,El Mirón Cave,Funerary,11,1
+345,Troisième caverne of Goyet,Nonfunerary,11,1
+346,Gran Dolina,Nonfunerary,11,1
+351,Hahnöfersand,Nonfunerary,11,1
+356,Kajiado,Nonfunerary,11,1
+363,Krapina,Nonfunerary,11,1
+364,La Chapelle-aux-Saints,Funerary,11,1
+367,La Quina,Funerary,11,1
+371,Le Moustier I,Funerary,11,1
+380,Yellow Jacket 5MT-3,Nonfunerary,11,1
+384,Mauer,Nonfunerary,11,1
+400,Goat’s Hole (Paviland Cave),Funerary,11,1
+402,Grotte des Perrats,Nonfunerary,11,1
+407,Reilingen,Nonfunerary,11,1
+430,Tepecik-Çiftlik,Funerary,11,1
+439,Vado all'Arancio,Funerary,11,1
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,11,1
+447,Xemxija tombs,Funerary,11,1
+303,Amud Cave,Funerary,11,2
+314,Brno II,Funerary,11,2
+319,Combe Grenal,Nonfunerary,11,2
+322,Cro-Magnon I,Funerary,11,2
+324,Cueva de la Buena Pinta,Nonfunerary,11,2
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,11,2
+341,Cova Foradada,Funerary,11,2
+342,Cova Foradada,Funerary,11,2
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,11,2
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,11,2
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,11,2
+352,Hathnora,Nonfunerary,11,2
+375,Les Rochers-de-Villeneuve,Nonfunerary,11,2
+376,Grotte des Hoteaux,Funerary,11,2
+383,Maszycka Cave,Nonfunerary,11,2
+385,Mladeč Caves,Funerary,11,2
+392,Netankheri,Nonfunerary,11,2
+404,Předmostí,Funerary,11,2
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,11,2
+409,Roc de Marsal,Funerary,11,2
+428,Sunghir,Funerary,11,2
+445,Vunda Locus,Nonfunerary,11,2
+304,Arago,Nonfunerary,11,3
+313,Brillenhöhle,Nonfunerary,11,3
+318,Abri de Raymonden (Chancelade),Funerary,11,3
+321,Cova Gran de Santa Linya,Funerary,11,3
+323,Crow Creek,Funerary,11,3
+343,Cova del Gegant,Nonfunerary,11,3
+344,Gough's Cave,Nonfunerary,11,3
+354,Hohlenstein-Stadel,Nonfunerary,11,3
+355,Jarama VI rockshelter,Nonfunerary,11,3
+358,Kebara Cave,Funerary,11,3
+365,La Ferrassie,Funerary,11,3
+369,Abrigo do Lagar Velho,Funerary,11,3
+373,Le Placard,Nonfunerary,11,3
+377,Cueva de Malalmuerzo,Nonfunerary,11,3
+388,Moula-Guercy,Nonfunerary,11,3
+389,Mugharet es-Skhul,Funerary,11,3
+395,Oberkassel,Funerary,11,3
+397,Ojo Guareña,Funerary,11,3
+405,Qafzeh Cave,Funerary,11,3
+416,Coves de Santa Maira,Nonfunerary,11,3
+299,Abri Pataud,Funerary,11,4
+306,Archi,Nonfunerary,11,4
+328,Dolní Věstonice II,Funerary,11,4
+329,Dolní Věstonice I,Funerary,11,4
+330,El Espinoso Cave,Funerary,11,4
+333,El Sidrón J1,Nonfunerary,11,4
+338,Grotte de Fontbrégoua,Nonfunerary,11,4
+339,Grotte de Fontbrégoua,Nonfunerary,11,4
+353,Herxheim,Nonfunerary,11,4
+372,Le Moustier II,Funerary,11,4
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,11,4
+394,Ngawi,Nonfunerary,11,4
+410,Roc de les Orenetes,Funerary,11,4
+411,Saccopastore,Nonfunerary,11,4
+414,Sambungmacan,Nonfunerary,11,4
+419,Sima de las Palomas,Funerary,11,4
+429,Tabun Cave (Mugharet et-Tabun),Funerary,11,4
+432,Cueva de los Torrejones,Funerary,11,4
+440,Valdegoba Cave,Nonfunerary,11,4
+448,Boquete de Zafarraya,Nonfunerary,11,4
+307,Atxuri-I Cave,Funerary,11,5
+325,Cueva del Camino,Nonfunerary,11,5
+331,El Mirador,Nonfunerary,11,5
+350,Grotta Guattari,Nonfunerary,11,5
+357,Kalamakia,Nonfunerary,11,5
+359,Kiik-Koba,Funerary,11,5
+368,La Tolita Cama de Huesos,Funerary,11,5
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,11,5
+381,Manot Cave,Nonfunerary,11,5
+386,Mojokerto,Nonfunerary,11,5
+387,Los Moros de Gabasa,Nonfunerary,11,5
+393,Ngandong,Nonfunerary,11,5
+401,Pavlov I,Funerary,11,5
+406,Regourdou,Funerary,11,5
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,11,5
+415,San Juan ante Portam Latinam,Funerary,11,5
+418,Shanidar Cave,Funerary,11,5
+431,Teshik-Tash Cave,Funerary,11,5
+442,Vindija,Nonfunerary,11,5
+443,Vindija,Nonfunerary,11,5
+444,Vindija,Nonfunerary,11,5
+313,Brillenhöhle,Nonfunerary,12,1
+314,Brno II,Funerary,12,1
+324,Cueva de la Buena Pinta,Nonfunerary,12,1
+325,Cueva del Camino,Nonfunerary,12,1
+358,Kebara Cave,Funerary,12,1
+363,Krapina,Nonfunerary,12,1
+368,La Tolita Cama de Huesos,Funerary,12,1
+373,Le Placard,Nonfunerary,12,1
+377,Cueva de Malalmuerzo,Nonfunerary,12,1
+386,Mojokerto,Nonfunerary,12,1
+387,Los Moros de Gabasa,Nonfunerary,12,1
+389,Mugharet es-Skhul,Funerary,12,1
+393,Ngandong,Nonfunerary,12,1
+395,Oberkassel,Funerary,12,1
+397,Ojo Guareña,Funerary,12,1
+405,Qafzeh Cave,Funerary,12,1
+406,Regourdou,Funerary,12,1
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,12,1
+416,Coves de Santa Maira,Nonfunerary,12,1
+439,Vado all'Arancio,Funerary,12,1
+445,Vunda Locus,Nonfunerary,12,1
+304,Arago,Nonfunerary,12,2
+319,Combe Grenal,Nonfunerary,12,2
+322,Cro-Magnon I,Funerary,12,2
+323,Crow Creek,Funerary,12,2
+329,Dolní Věstonice I,Funerary,12,2
+330,El Espinoso Cave,Funerary,12,2
+332,El Mirón Cave,Funerary,12,2
+343,Cova del Gegant,Nonfunerary,12,2
+350,Grotta Guattari,Nonfunerary,12,2
+351,Hahnöfersand,Nonfunerary,12,2
+369,Abrigo do Lagar Velho,Funerary,12,2
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,12,2
+383,Maszycka Cave,Nonfunerary,12,2
+388,Moula-Guercy,Nonfunerary,12,2
+400,Goat’s Hole (Paviland Cave),Funerary,12,2
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,12,2
+411,Saccopastore,Nonfunerary,12,2
+432,Cueva de los Torrejones,Funerary,12,2
+442,Vindija,Nonfunerary,12,2
+443,Vindija,Nonfunerary,12,2
+444,Vindija,Nonfunerary,12,2
+447,Xemxija tombs,Funerary,12,2
+448,Boquete de Zafarraya,Nonfunerary,12,2
+299,Abri Pataud,Funerary,12,3
+306,Archi,Nonfunerary,12,3
+307,Atxuri-I Cave,Funerary,12,3
+308,Baousso da Torre (Bausu da Ture),Funerary,12,3
+318,Abri de Raymonden (Chancelade),Funerary,12,3
+327,Dame du Cavillon,Funerary,12,3
+328,Dolní Věstonice II,Funerary,12,3
+331,El Mirador,Nonfunerary,12,3
+333,El Sidrón J1,Nonfunerary,12,3
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,12,3
+352,Hathnora,Nonfunerary,12,3
+353,Herxheim,Nonfunerary,12,3
+359,Kiik-Koba,Funerary,12,3
+364,La Chapelle-aux-Saints,Funerary,12,3
+375,Les Rochers-de-Villeneuve,Nonfunerary,12,3
+381,Manot Cave,Nonfunerary,12,3
+407,Reilingen,Nonfunerary,12,3
+414,Sambungmacan,Nonfunerary,12,3
+415,San Juan ante Portam Latinam,Funerary,12,3
+419,Sima de las Palomas,Funerary,12,3
+303,Amud Cave,Funerary,12,4
+321,Cova Gran de Santa Linya,Funerary,12,4
+326,Dali Tianshuigou,Nonfunerary,12,4
+345,Troisième caverne of Goyet,Nonfunerary,12,4
+346,Gran Dolina,Nonfunerary,12,4
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,12,4
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,12,4
+356,Kajiado,Nonfunerary,12,4
+367,La Quina,Funerary,12,4
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,12,4
+380,Yellow Jacket 5MT-3,Nonfunerary,12,4
+401,Pavlov I,Funerary,12,4
+402,Grotte des Perrats,Nonfunerary,12,4
+404,Předmostí,Funerary,12,4
+409,Roc de Marsal,Funerary,12,4
+428,Sunghir,Funerary,12,4
+429,Tabun Cave (Mugharet et-Tabun),Funerary,12,4
+431,Teshik-Tash Cave,Funerary,12,4
+440,Valdegoba Cave,Nonfunerary,12,4
+338,Grotte de Fontbrégoua,Nonfunerary,12,5
+339,Grotte de Fontbrégoua,Nonfunerary,12,5
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,12,5
+341,Cova Foradada,Funerary,12,5
+342,Cova Foradada,Funerary,12,5
+344,Gough's Cave,Nonfunerary,12,5
+354,Hohlenstein-Stadel,Nonfunerary,12,5
+355,Jarama VI rockshelter,Nonfunerary,12,5
+357,Kalamakia,Nonfunerary,12,5
+365,La Ferrassie,Funerary,12,5
+371,Le Moustier I,Funerary,12,5
+372,Le Moustier II,Funerary,12,5
+376,Grotte des Hoteaux,Funerary,12,5
+384,Mauer,Nonfunerary,12,5
+385,Mladeč Caves,Funerary,12,5
+392,Netankheri,Nonfunerary,12,5
+394,Ngawi,Nonfunerary,12,5
+410,Roc de les Orenetes,Funerary,12,5
+418,Shanidar Cave,Funerary,12,5
+430,Tepecik-Çiftlik,Funerary,12,5
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,12,5
+306,Archi,Nonfunerary,13,1
+308,Baousso da Torre (Bausu da Ture),Funerary,13,1
+314,Brno II,Funerary,13,1
+326,Dali Tianshuigou,Nonfunerary,13,1
+341,Cova Foradada,Funerary,13,1
+342,Cova Foradada,Funerary,13,1
+346,Gran Dolina,Nonfunerary,13,1
+355,Jarama VI rockshelter,Nonfunerary,13,1
+357,Kalamakia,Nonfunerary,13,1
+359,Kiik-Koba,Funerary,13,1
+367,La Quina,Funerary,13,1
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,13,1
+385,Mladeč Caves,Funerary,13,1
+386,Mojokerto,Nonfunerary,13,1
+388,Moula-Guercy,Nonfunerary,13,1
+414,Sambungmacan,Nonfunerary,13,1
+428,Sunghir,Funerary,13,1
+429,Tabun Cave (Mugharet et-Tabun),Funerary,13,1
+431,Teshik-Tash Cave,Funerary,13,1
+432,Cueva de los Torrejones,Funerary,13,1
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,13,1
+442,Vindija,Nonfunerary,13,1
+443,Vindija,Nonfunerary,13,1
+444,Vindija,Nonfunerary,13,1
+307,Atxuri-I Cave,Funerary,13,2
+319,Combe Grenal,Nonfunerary,13,2
+321,Cova Gran de Santa Linya,Funerary,13,2
+323,Crow Creek,Funerary,13,2
+329,Dolní Věstonice I,Funerary,13,2
+330,El Espinoso Cave,Funerary,13,2
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,13,2
+351,Hahnöfersand,Nonfunerary,13,2
+353,Herxheim,Nonfunerary,13,2
+371,Le Moustier I,Funerary,13,2
+373,Le Placard,Nonfunerary,13,2
+376,Grotte des Hoteaux,Funerary,13,2
+384,Mauer,Nonfunerary,13,2
+393,Ngandong,Nonfunerary,13,2
+394,Ngawi,Nonfunerary,13,2
+402,Grotte des Perrats,Nonfunerary,13,2
+405,Qafzeh Cave,Funerary,13,2
+411,Saccopastore,Nonfunerary,13,2
+415,San Juan ante Portam Latinam,Funerary,13,2
+419,Sima de las Palomas,Funerary,13,2
+445,Vunda Locus,Nonfunerary,13,2
+299,Abri Pataud,Funerary,13,3
+313,Brillenhöhle,Nonfunerary,13,3
+322,Cro-Magnon I,Funerary,13,3
+345,Troisième caverne of Goyet,Nonfunerary,13,3
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,13,3
+354,Hohlenstein-Stadel,Nonfunerary,13,3
+356,Kajiado,Nonfunerary,13,3
+358,Kebara Cave,Funerary,13,3
+364,La Chapelle-aux-Saints,Funerary,13,3
+375,Les Rochers-de-Villeneuve,Nonfunerary,13,3
+381,Manot Cave,Nonfunerary,13,3
+383,Maszycka Cave,Nonfunerary,13,3
+389,Mugharet es-Skhul,Funerary,13,3
+406,Regourdou,Funerary,13,3
+409,Roc de Marsal,Funerary,13,3
+410,Roc de les Orenetes,Funerary,13,3
+416,Coves de Santa Maira,Nonfunerary,13,3
+418,Shanidar Cave,Funerary,13,3
+430,Tepecik-Çiftlik,Funerary,13,3
+440,Valdegoba Cave,Nonfunerary,13,3
+303,Amud Cave,Funerary,13,4
+304,Arago,Nonfunerary,13,4
+324,Cueva de la Buena Pinta,Nonfunerary,13,4
+325,Cueva del Camino,Nonfunerary,13,4
+327,Dame du Cavillon,Funerary,13,4
+328,Dolní Věstonice II,Funerary,13,4
+331,El Mirador,Nonfunerary,13,4
+332,El Mirón Cave,Funerary,13,4
+343,Cova del Gegant,Nonfunerary,13,4
+350,Grotta Guattari,Nonfunerary,13,4
+352,Hathnora,Nonfunerary,13,4
+377,Cueva de Malalmuerzo,Nonfunerary,13,4
+380,Yellow Jacket 5MT-3,Nonfunerary,13,4
+395,Oberkassel,Funerary,13,4
+400,Goat’s Hole (Paviland Cave),Funerary,13,4
+401,Pavlov I,Funerary,13,4
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,13,4
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,13,4
+448,Boquete de Zafarraya,Nonfunerary,13,4
+318,Abri de Raymonden (Chancelade),Funerary,13,5
+333,El Sidrón J1,Nonfunerary,13,5
+338,Grotte de Fontbrégoua,Nonfunerary,13,5
+339,Grotte de Fontbrégoua,Nonfunerary,13,5
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,13,5
+344,Gough's Cave,Nonfunerary,13,5
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,13,5
+363,Krapina,Nonfunerary,13,5
+365,La Ferrassie,Funerary,13,5
+368,La Tolita Cama de Huesos,Funerary,13,5
+369,Abrigo do Lagar Velho,Funerary,13,5
+372,Le Moustier II,Funerary,13,5
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,13,5
+387,Los Moros de Gabasa,Nonfunerary,13,5
+392,Netankheri,Nonfunerary,13,5
+397,Ojo Guareña,Funerary,13,5
+404,Předmostí,Funerary,13,5
+407,Reilingen,Nonfunerary,13,5
+439,Vado all'Arancio,Funerary,13,5
+447,Xemxija tombs,Funerary,13,5
+313,Brillenhöhle,Nonfunerary,14,1
+314,Brno II,Funerary,14,1
+318,Abri de Raymonden (Chancelade),Funerary,14,1
+325,Cueva del Camino,Nonfunerary,14,1
+327,Dame du Cavillon,Funerary,14,1
+330,El Espinoso Cave,Funerary,14,1
+344,Gough's Cave,Nonfunerary,14,1
+345,Troisième caverne of Goyet,Nonfunerary,14,1
+351,Hahnöfersand,Nonfunerary,14,1
+354,Hohlenstein-Stadel,Nonfunerary,14,1
+364,La Chapelle-aux-Saints,Funerary,14,1
+367,La Quina,Funerary,14,1
+368,La Tolita Cama de Huesos,Funerary,14,1
+369,Abrigo do Lagar Velho,Funerary,14,1
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,14,1
+375,Les Rochers-de-Villeneuve,Nonfunerary,14,1
+380,Yellow Jacket 5MT-3,Nonfunerary,14,1
+388,Moula-Guercy,Nonfunerary,14,1
+409,Roc de Marsal,Funerary,14,1
+432,Cueva de los Torrejones,Funerary,14,1
+442,Vindija,Nonfunerary,14,1
+443,Vindija,Nonfunerary,14,1
+444,Vindija,Nonfunerary,14,1
+299,Abri Pataud,Funerary,14,2
+303,Amud Cave,Funerary,14,2
+306,Archi,Nonfunerary,14,2
+319,Combe Grenal,Nonfunerary,14,2
+321,Cova Gran de Santa Linya,Funerary,14,2
+324,Cueva de la Buena Pinta,Nonfunerary,14,2
+332,El Mirón Cave,Funerary,14,2
+338,Grotte de Fontbrégoua,Nonfunerary,14,2
+339,Grotte de Fontbrégoua,Nonfunerary,14,2
+346,Gran Dolina,Nonfunerary,14,2
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,14,2
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,14,2
+358,Kebara Cave,Funerary,14,2
+392,Netankheri,Nonfunerary,14,2
+393,Ngandong,Nonfunerary,14,2
+397,Ojo Guareña,Funerary,14,2
+401,Pavlov I,Funerary,14,2
+411,Saccopastore,Nonfunerary,14,2
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,14,2
+418,Shanidar Cave,Funerary,14,2
+419,Sima de las Palomas,Funerary,14,2
+448,Boquete de Zafarraya,Nonfunerary,14,2
+307,Atxuri-I Cave,Funerary,14,3
+322,Cro-Magnon I,Funerary,14,3
+328,Dolní Věstonice II,Funerary,14,3
+341,Cova Foradada,Funerary,14,3
+342,Cova Foradada,Funerary,14,3
+357,Kalamakia,Nonfunerary,14,3
+377,Cueva de Malalmuerzo,Nonfunerary,14,3
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,14,3
+381,Manot Cave,Nonfunerary,14,3
+383,Maszycka Cave,Nonfunerary,14,3
+384,Mauer,Nonfunerary,14,3
+387,Los Moros de Gabasa,Nonfunerary,14,3
+394,Ngawi,Nonfunerary,14,3
+400,Goat’s Hole (Paviland Cave),Funerary,14,3
+405,Qafzeh Cave,Funerary,14,3
+407,Reilingen,Nonfunerary,14,3
+410,Roc de les Orenetes,Funerary,14,3
+415,San Juan ante Portam Latinam,Funerary,14,3
+431,Teshik-Tash Cave,Funerary,14,3
+439,Vado all'Arancio,Funerary,14,3
+445,Vunda Locus,Nonfunerary,14,3
+304,Arago,Nonfunerary,14,4
+308,Baousso da Torre (Bausu da Ture),Funerary,14,4
+326,Dali Tianshuigou,Nonfunerary,14,4
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,14,4
+343,Cova del Gegant,Nonfunerary,14,4
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,14,4
+352,Hathnora,Nonfunerary,14,4
+353,Herxheim,Nonfunerary,14,4
+355,Jarama VI rockshelter,Nonfunerary,14,4
+356,Kajiado,Nonfunerary,14,4
+359,Kiik-Koba,Funerary,14,4
+363,Krapina,Nonfunerary,14,4
+371,Le Moustier I,Funerary,14,4
+372,Le Moustier II,Funerary,14,4
+385,Mladeč Caves,Funerary,14,4
+404,Předmostí,Funerary,14,4
+406,Regourdou,Funerary,14,4
+429,Tabun Cave (Mugharet et-Tabun),Funerary,14,4
+447,Xemxija tombs,Funerary,14,4
+323,Crow Creek,Funerary,14,5
+329,Dolní Věstonice I,Funerary,14,5
+331,El Mirador,Nonfunerary,14,5
+333,El Sidrón J1,Nonfunerary,14,5
+350,Grotta Guattari,Nonfunerary,14,5
+365,La Ferrassie,Funerary,14,5
+373,Le Placard,Nonfunerary,14,5
+376,Grotte des Hoteaux,Funerary,14,5
+386,Mojokerto,Nonfunerary,14,5
+389,Mugharet es-Skhul,Funerary,14,5
+395,Oberkassel,Funerary,14,5
+402,Grotte des Perrats,Nonfunerary,14,5
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,14,5
+414,Sambungmacan,Nonfunerary,14,5
+416,Coves de Santa Maira,Nonfunerary,14,5
+428,Sunghir,Funerary,14,5
+430,Tepecik-Çiftlik,Funerary,14,5
+440,Valdegoba Cave,Nonfunerary,14,5
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,14,5
+308,Baousso da Torre (Bausu da Ture),Funerary,15,1
+327,Dame du Cavillon,Funerary,15,1
+333,El Sidrón J1,Nonfunerary,15,1
+341,Cova Foradada,Funerary,15,1
+342,Cova Foradada,Funerary,15,1
+344,Gough's Cave,Nonfunerary,15,1
+345,Troisième caverne of Goyet,Nonfunerary,15,1
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,15,1
+356,Kajiado,Nonfunerary,15,1
+363,Krapina,Nonfunerary,15,1
+364,La Chapelle-aux-Saints,Funerary,15,1
+367,La Quina,Funerary,15,1
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,15,1
+375,Les Rochers-de-Villeneuve,Nonfunerary,15,1
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,15,1
+401,Pavlov I,Funerary,15,1
+407,Reilingen,Nonfunerary,15,1
+415,San Juan ante Portam Latinam,Funerary,15,1
+419,Sima de las Palomas,Funerary,15,1
+428,Sunghir,Funerary,15,1
+439,Vado all'Arancio,Funerary,15,1
+448,Boquete de Zafarraya,Nonfunerary,15,1
+304,Arago,Nonfunerary,15,2
+306,Archi,Nonfunerary,15,2
+314,Brno II,Funerary,15,2
+328,Dolní Věstonice II,Funerary,15,2
+329,Dolní Věstonice I,Funerary,15,2
+330,El Espinoso Cave,Funerary,15,2
+332,El Mirón Cave,Funerary,15,2
+338,Grotte de Fontbrégoua,Nonfunerary,15,2
+339,Grotte de Fontbrégoua,Nonfunerary,15,2
+350,Grotta Guattari,Nonfunerary,15,2
+353,Herxheim,Nonfunerary,15,2
+355,Jarama VI rockshelter,Nonfunerary,15,2
+357,Kalamakia,Nonfunerary,15,2
+358,Kebara Cave,Funerary,15,2
+359,Kiik-Koba,Funerary,15,2
+386,Mojokerto,Nonfunerary,15,2
+392,Netankheri,Nonfunerary,15,2
+394,Ngawi,Nonfunerary,15,2
+397,Ojo Guareña,Funerary,15,2
+411,Saccopastore,Nonfunerary,15,2
+429,Tabun Cave (Mugharet et-Tabun),Funerary,15,2
+432,Cueva de los Torrejones,Funerary,15,2
+303,Amud Cave,Funerary,15,3
+319,Combe Grenal,Nonfunerary,15,3
+323,Crow Creek,Funerary,15,3
+346,Gran Dolina,Nonfunerary,15,3
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,15,3
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,15,3
+351,Hahnöfersand,Nonfunerary,15,3
+365,La Ferrassie,Funerary,15,3
+368,La Tolita Cama de Huesos,Funerary,15,3
+372,Le Moustier II,Funerary,15,3
+376,Grotte des Hoteaux,Funerary,15,3
+387,Los Moros de Gabasa,Nonfunerary,15,3
+388,Moula-Guercy,Nonfunerary,15,3
+393,Ngandong,Nonfunerary,15,3
+404,Předmostí,Funerary,15,3
+406,Regourdou,Funerary,15,3
+418,Shanidar Cave,Funerary,15,3
+430,Tepecik-Çiftlik,Funerary,15,3
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,15,3
+445,Vunda Locus,Nonfunerary,15,3
+318,Abri de Raymonden (Chancelade),Funerary,15,4
+321,Cova Gran de Santa Linya,Funerary,15,4
+322,Cro-Magnon I,Funerary,15,4
+325,Cueva del Camino,Nonfunerary,15,4
+326,Dali Tianshuigou,Nonfunerary,15,4
+331,El Mirador,Nonfunerary,15,4
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,15,4
+343,Cova del Gegant,Nonfunerary,15,4
+377,Cueva de Malalmuerzo,Nonfunerary,15,4
+381,Manot Cave,Nonfunerary,15,4
+383,Maszycka Cave,Nonfunerary,15,4
+384,Mauer,Nonfunerary,15,4
+385,Mladeč Caves,Funerary,15,4
+400,Goat’s Hole (Paviland Cave),Funerary,15,4
+402,Grotte des Perrats,Nonfunerary,15,4
+409,Roc de Marsal,Funerary,15,4
+410,Roc de les Orenetes,Funerary,15,4
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,15,4
+431,Teshik-Tash Cave,Funerary,15,4
+299,Abri Pataud,Funerary,15,5
+307,Atxuri-I Cave,Funerary,15,5
+313,Brillenhöhle,Nonfunerary,15,5
+324,Cueva de la Buena Pinta,Nonfunerary,15,5
+352,Hathnora,Nonfunerary,15,5
+354,Hohlenstein-Stadel,Nonfunerary,15,5
+369,Abrigo do Lagar Velho,Funerary,15,5
+371,Le Moustier I,Funerary,15,5
+373,Le Placard,Nonfunerary,15,5
+380,Yellow Jacket 5MT-3,Nonfunerary,15,5
+389,Mugharet es-Skhul,Funerary,15,5
+395,Oberkassel,Funerary,15,5
+405,Qafzeh Cave,Funerary,15,5
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,15,5
+414,Sambungmacan,Nonfunerary,15,5
+416,Coves de Santa Maira,Nonfunerary,15,5
+440,Valdegoba Cave,Nonfunerary,15,5
+442,Vindija,Nonfunerary,15,5
+443,Vindija,Nonfunerary,15,5
+444,Vindija,Nonfunerary,15,5
+447,Xemxija tombs,Funerary,15,5
+313,Brillenhöhle,Nonfunerary,16,1
+314,Brno II,Funerary,16,1
+324,Cueva de la Buena Pinta,Nonfunerary,16,1
+326,Dali Tianshuigou,Nonfunerary,16,1
+328,Dolní Věstonice II,Funerary,16,1
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,16,1
+344,Gough's Cave,Nonfunerary,16,1
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,16,1
+350,Grotta Guattari,Nonfunerary,16,1
+354,Hohlenstein-Stadel,Nonfunerary,16,1
+363,Krapina,Nonfunerary,16,1
+364,La Chapelle-aux-Saints,Funerary,16,1
+371,Le Moustier I,Funerary,16,1
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,16,1
+381,Manot Cave,Nonfunerary,16,1
+400,Goat’s Hole (Paviland Cave),Funerary,16,1
+410,Roc de les Orenetes,Funerary,16,1
+415,San Juan ante Portam Latinam,Funerary,16,1
+429,Tabun Cave (Mugharet et-Tabun),Funerary,16,1
+432,Cueva de los Torrejones,Funerary,16,1
+447,Xemxija tombs,Funerary,16,1
+304,Arago,Nonfunerary,16,2
+330,El Espinoso Cave,Funerary,16,2
+357,Kalamakia,Nonfunerary,16,2
+365,La Ferrassie,Funerary,16,2
+373,Le Placard,Nonfunerary,16,2
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,16,2
+384,Mauer,Nonfunerary,16,2
+387,Los Moros de Gabasa,Nonfunerary,16,2
+394,Ngawi,Nonfunerary,16,2
+395,Oberkassel,Funerary,16,2
+397,Ojo Guareña,Funerary,16,2
+401,Pavlov I,Funerary,16,2
+405,Qafzeh Cave,Funerary,16,2
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,16,2
+411,Saccopastore,Nonfunerary,16,2
+414,Sambungmacan,Nonfunerary,16,2
+419,Sima de las Palomas,Funerary,16,2
+428,Sunghir,Funerary,16,2
+439,Vado all'Arancio,Funerary,16,2
+440,Valdegoba Cave,Nonfunerary,16,2
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,16,2
+319,Combe Grenal,Nonfunerary,16,3
+323,Crow Creek,Funerary,16,3
+327,Dame du Cavillon,Funerary,16,3
+329,Dolní Věstonice I,Funerary,16,3
+332,El Mirón Cave,Funerary,16,3
+333,El Sidrón J1,Nonfunerary,16,3
+345,Troisième caverne of Goyet,Nonfunerary,16,3
+346,Gran Dolina,Nonfunerary,16,3
+351,Hahnöfersand,Nonfunerary,16,3
+356,Kajiado,Nonfunerary,16,3
+367,La Quina,Funerary,16,3
+368,La Tolita Cama de Huesos,Funerary,16,3
+372,Le Moustier II,Funerary,16,3
+376,Grotte des Hoteaux,Funerary,16,3
+383,Maszycka Cave,Nonfunerary,16,3
+393,Ngandong,Nonfunerary,16,3
+406,Regourdou,Funerary,16,3
+416,Coves de Santa Maira,Nonfunerary,16,3
+431,Teshik-Tash Cave,Funerary,16,3
+448,Boquete de Zafarraya,Nonfunerary,16,3
+299,Abri Pataud,Funerary,16,4
+303,Amud Cave,Funerary,16,4
+306,Archi,Nonfunerary,16,4
+307,Atxuri-I Cave,Funerary,16,4
+321,Cova Gran de Santa Linya,Funerary,16,4
+338,Grotte de Fontbrégoua,Nonfunerary,16,4
+339,Grotte de Fontbrégoua,Nonfunerary,16,4
+341,Cova Foradada,Funerary,16,4
+342,Cova Foradada,Funerary,16,4
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,16,4
+352,Hathnora,Nonfunerary,16,4
+359,Kiik-Koba,Funerary,16,4
+369,Abrigo do Lagar Velho,Funerary,16,4
+380,Yellow Jacket 5MT-3,Nonfunerary,16,4
+386,Mojokerto,Nonfunerary,16,4
+388,Moula-Guercy,Nonfunerary,16,4
+392,Netankheri,Nonfunerary,16,4
+402,Grotte des Perrats,Nonfunerary,16,4
+407,Reilingen,Nonfunerary,16,4
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,16,4
+418,Shanidar Cave,Funerary,16,4
+308,Baousso da Torre (Bausu da Ture),Funerary,16,5
+318,Abri de Raymonden (Chancelade),Funerary,16,5
+322,Cro-Magnon I,Funerary,16,5
+325,Cueva del Camino,Nonfunerary,16,5
+331,El Mirador,Nonfunerary,16,5
+343,Cova del Gegant,Nonfunerary,16,5
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,16,5
+353,Herxheim,Nonfunerary,16,5
+355,Jarama VI rockshelter,Nonfunerary,16,5
+358,Kebara Cave,Funerary,16,5
+375,Les Rochers-de-Villeneuve,Nonfunerary,16,5
+377,Cueva de Malalmuerzo,Nonfunerary,16,5
+385,Mladeč Caves,Funerary,16,5
+389,Mugharet es-Skhul,Funerary,16,5
+404,Předmostí,Funerary,16,5
+409,Roc de Marsal,Funerary,16,5
+430,Tepecik-Çiftlik,Funerary,16,5
+442,Vindija,Nonfunerary,16,5
+443,Vindija,Nonfunerary,16,5
+444,Vindija,Nonfunerary,16,5
+445,Vunda Locus,Nonfunerary,16,5
+304,Arago,Nonfunerary,17,1
+322,Cro-Magnon I,Funerary,17,1
+325,Cueva del Camino,Nonfunerary,17,1
+338,Grotte de Fontbrégoua,Nonfunerary,17,1
+339,Grotte de Fontbrégoua,Nonfunerary,17,1
+345,Troisième caverne of Goyet,Nonfunerary,17,1
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,17,1
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,17,1
+358,Kebara Cave,Funerary,17,1
+359,Kiik-Koba,Funerary,17,1
+373,Le Placard,Nonfunerary,17,1
+381,Manot Cave,Nonfunerary,17,1
+386,Mojokerto,Nonfunerary,17,1
+400,Goat’s Hole (Paviland Cave),Funerary,17,1
+401,Pavlov I,Funerary,17,1
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,17,1
+409,Roc de Marsal,Funerary,17,1
+411,Saccopastore,Nonfunerary,17,1
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,17,1
+414,Sambungmacan,Nonfunerary,17,1
+429,Tabun Cave (Mugharet et-Tabun),Funerary,17,1
+432,Cueva de los Torrejones,Funerary,17,1
+319,Combe Grenal,Nonfunerary,17,2
+341,Cova Foradada,Funerary,17,2
+342,Cova Foradada,Funerary,17,2
+350,Grotta Guattari,Nonfunerary,17,2
+352,Hathnora,Nonfunerary,17,2
+356,Kajiado,Nonfunerary,17,2
+357,Kalamakia,Nonfunerary,17,2
+368,La Tolita Cama de Huesos,Funerary,17,2
+372,Le Moustier II,Funerary,17,2
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,17,2
+375,Les Rochers-de-Villeneuve,Nonfunerary,17,2
+376,Grotte des Hoteaux,Funerary,17,2
+377,Cueva de Malalmuerzo,Nonfunerary,17,2
+385,Mladeč Caves,Funerary,17,2
+395,Oberkassel,Funerary,17,2
+406,Regourdou,Funerary,17,2
+407,Reilingen,Nonfunerary,17,2
+415,San Juan ante Portam Latinam,Funerary,17,2
+416,Coves de Santa Maira,Nonfunerary,17,2
+419,Sima de las Palomas,Funerary,17,2
+428,Sunghir,Funerary,17,2
+442,Vindija,Nonfunerary,17,2
+443,Vindija,Nonfunerary,17,2
+444,Vindija,Nonfunerary,17,2
+303,Amud Cave,Funerary,17,3
+313,Brillenhöhle,Nonfunerary,17,3
+314,Brno II,Funerary,17,3
+318,Abri de Raymonden (Chancelade),Funerary,17,3
+321,Cova Gran de Santa Linya,Funerary,17,3
+328,Dolní Věstonice II,Funerary,17,3
+333,El Sidrón J1,Nonfunerary,17,3
+351,Hahnöfersand,Nonfunerary,17,3
+355,Jarama VI rockshelter,Nonfunerary,17,3
+363,Krapina,Nonfunerary,17,3
+364,La Chapelle-aux-Saints,Funerary,17,3
+380,Yellow Jacket 5MT-3,Nonfunerary,17,3
+393,Ngandong,Nonfunerary,17,3
+394,Ngawi,Nonfunerary,17,3
+397,Ojo Guareña,Funerary,17,3
+404,Předmostí,Funerary,17,3
+418,Shanidar Cave,Funerary,17,3
+431,Teshik-Tash Cave,Funerary,17,3
+440,Valdegoba Cave,Nonfunerary,17,3
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,17,3
+323,Crow Creek,Funerary,17,4
+329,Dolní Věstonice I,Funerary,17,4
+343,Cova del Gegant,Nonfunerary,17,4
+344,Gough's Cave,Nonfunerary,17,4
+346,Gran Dolina,Nonfunerary,17,4
+353,Herxheim,Nonfunerary,17,4
+354,Hohlenstein-Stadel,Nonfunerary,17,4
+365,La Ferrassie,Funerary,17,4
+367,La Quina,Funerary,17,4
+369,Abrigo do Lagar Velho,Funerary,17,4
+384,Mauer,Nonfunerary,17,4
+387,Los Moros de Gabasa,Nonfunerary,17,4
+388,Moula-Guercy,Nonfunerary,17,4
+392,Netankheri,Nonfunerary,17,4
+402,Grotte des Perrats,Nonfunerary,17,4
+405,Qafzeh Cave,Funerary,17,4
+430,Tepecik-Çiftlik,Funerary,17,4
+439,Vado all'Arancio,Funerary,17,4
+447,Xemxija tombs,Funerary,17,4
+299,Abri Pataud,Funerary,17,5
+306,Archi,Nonfunerary,17,5
+307,Atxuri-I Cave,Funerary,17,5
+308,Baousso da Torre (Bausu da Ture),Funerary,17,5
+324,Cueva de la Buena Pinta,Nonfunerary,17,5
+326,Dali Tianshuigou,Nonfunerary,17,5
+327,Dame du Cavillon,Funerary,17,5
+330,El Espinoso Cave,Funerary,17,5
+331,El Mirador,Nonfunerary,17,5
+332,El Mirón Cave,Funerary,17,5
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,17,5
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,17,5
+371,Le Moustier I,Funerary,17,5
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,17,5
+383,Maszycka Cave,Nonfunerary,17,5
+389,Mugharet es-Skhul,Funerary,17,5
+410,Roc de les Orenetes,Funerary,17,5
+445,Vunda Locus,Nonfunerary,17,5
+448,Boquete de Zafarraya,Nonfunerary,17,5
+299,Abri Pataud,Funerary,18,1
+307,Atxuri-I Cave,Funerary,18,1
+321,Cova Gran de Santa Linya,Funerary,18,1
+338,Grotte de Fontbrégoua,Nonfunerary,18,1
+339,Grotte de Fontbrégoua,Nonfunerary,18,1
+344,Gough's Cave,Nonfunerary,18,1
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,18,1
+352,Hathnora,Nonfunerary,18,1
+363,Krapina,Nonfunerary,18,1
+364,La Chapelle-aux-Saints,Funerary,18,1
+371,Le Moustier I,Funerary,18,1
+372,Le Moustier II,Funerary,18,1
+387,Los Moros de Gabasa,Nonfunerary,18,1
+388,Moula-Guercy,Nonfunerary,18,1
+394,Ngawi,Nonfunerary,18,1
+395,Oberkassel,Funerary,18,1
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,18,1
+409,Roc de Marsal,Funerary,18,1
+414,Sambungmacan,Nonfunerary,18,1
+416,Coves de Santa Maira,Nonfunerary,18,1
+431,Teshik-Tash Cave,Funerary,18,1
+448,Boquete de Zafarraya,Nonfunerary,18,1
+314,Brno II,Funerary,18,2
+323,Crow Creek,Funerary,18,2
+326,Dali Tianshuigou,Nonfunerary,18,2
+332,El Mirón Cave,Funerary,18,2
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,18,2
+343,Cova del Gegant,Nonfunerary,18,2
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,18,2
+353,Herxheim,Nonfunerary,18,2
+354,Hohlenstein-Stadel,Nonfunerary,18,2
+365,La Ferrassie,Funerary,18,2
+373,Le Placard,Nonfunerary,18,2
+376,Grotte des Hoteaux,Funerary,18,2
+377,Cueva de Malalmuerzo,Nonfunerary,18,2
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,18,2
+380,Yellow Jacket 5MT-3,Nonfunerary,18,2
+401,Pavlov I,Funerary,18,2
+405,Qafzeh Cave,Funerary,18,2
+415,San Juan ante Portam Latinam,Funerary,18,2
+418,Shanidar Cave,Funerary,18,2
+429,Tabun Cave (Mugharet et-Tabun),Funerary,18,2
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,18,2
+313,Brillenhöhle,Nonfunerary,18,3
+322,Cro-Magnon I,Funerary,18,3
+330,El Espinoso Cave,Funerary,18,3
+331,El Mirador,Nonfunerary,18,3
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,18,3
+351,Hahnöfersand,Nonfunerary,18,3
+359,Kiik-Koba,Funerary,18,3
+369,Abrigo do Lagar Velho,Funerary,18,3
+381,Manot Cave,Nonfunerary,18,3
+384,Mauer,Nonfunerary,18,3
+385,Mladeč Caves,Funerary,18,3
+392,Netankheri,Nonfunerary,18,3
+400,Goat’s Hole (Paviland Cave),Funerary,18,3
+404,Předmostí,Funerary,18,3
+407,Reilingen,Nonfunerary,18,3
+410,Roc de les Orenetes,Funerary,18,3
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,18,3
+440,Valdegoba Cave,Nonfunerary,18,3
+442,Vindija,Nonfunerary,18,3
+443,Vindija,Nonfunerary,18,3
+444,Vindija,Nonfunerary,18,3
+447,Xemxija tombs,Funerary,18,3
+303,Amud Cave,Funerary,18,4
+306,Archi,Nonfunerary,18,4
+327,Dame du Cavillon,Funerary,18,4
+333,El Sidrón J1,Nonfunerary,18,4
+346,Gran Dolina,Nonfunerary,18,4
+355,Jarama VI rockshelter,Nonfunerary,18,4
+356,Kajiado,Nonfunerary,18,4
+357,Kalamakia,Nonfunerary,18,4
+368,La Tolita Cama de Huesos,Funerary,18,4
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,18,4
+383,Maszycka Cave,Nonfunerary,18,4
+406,Regourdou,Funerary,18,4
+411,Saccopastore,Nonfunerary,18,4
+419,Sima de las Palomas,Funerary,18,4
+428,Sunghir,Funerary,18,4
+430,Tepecik-Çiftlik,Funerary,18,4
+432,Cueva de los Torrejones,Funerary,18,4
+439,Vado all'Arancio,Funerary,18,4
+445,Vunda Locus,Nonfunerary,18,4
+304,Arago,Nonfunerary,18,5
+308,Baousso da Torre (Bausu da Ture),Funerary,18,5
+318,Abri de Raymonden (Chancelade),Funerary,18,5
+319,Combe Grenal,Nonfunerary,18,5
+324,Cueva de la Buena Pinta,Nonfunerary,18,5
+325,Cueva del Camino,Nonfunerary,18,5
+328,Dolní Věstonice II,Funerary,18,5
+329,Dolní Věstonice I,Funerary,18,5
+341,Cova Foradada,Funerary,18,5
+342,Cova Foradada,Funerary,18,5
+345,Troisième caverne of Goyet,Nonfunerary,18,5
+350,Grotta Guattari,Nonfunerary,18,5
+358,Kebara Cave,Funerary,18,5
+367,La Quina,Funerary,18,5
+375,Les Rochers-de-Villeneuve,Nonfunerary,18,5
+386,Mojokerto,Nonfunerary,18,5
+389,Mugharet es-Skhul,Funerary,18,5
+393,Ngandong,Nonfunerary,18,5
+397,Ojo Guareña,Funerary,18,5
+402,Grotte des Perrats,Nonfunerary,18,5
+307,Atxuri-I Cave,Funerary,19,1
+318,Abri de Raymonden (Chancelade),Funerary,19,1
+343,Cova del Gegant,Nonfunerary,19,1
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,19,1
+350,Grotta Guattari,Nonfunerary,19,1
+365,La Ferrassie,Funerary,19,1
+367,La Quina,Funerary,19,1
+368,La Tolita Cama de Huesos,Funerary,19,1
+373,Le Placard,Nonfunerary,19,1
+383,Maszycka Cave,Nonfunerary,19,1
+385,Mladeč Caves,Funerary,19,1
+387,Los Moros de Gabasa,Nonfunerary,19,1
+388,Moula-Guercy,Nonfunerary,19,1
+392,Netankheri,Nonfunerary,19,1
+394,Ngawi,Nonfunerary,19,1
+406,Regourdou,Funerary,19,1
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,19,1
+414,Sambungmacan,Nonfunerary,19,1
+428,Sunghir,Funerary,19,1
+430,Tepecik-Çiftlik,Funerary,19,1
+442,Vindija,Nonfunerary,19,1
+443,Vindija,Nonfunerary,19,1
+444,Vindija,Nonfunerary,19,1
+299,Abri Pataud,Funerary,19,2
+306,Archi,Nonfunerary,19,2
+314,Brno II,Funerary,19,2
+329,Dolní Věstonice I,Funerary,19,2
+331,El Mirador,Nonfunerary,19,2
+344,Gough's Cave,Nonfunerary,19,2
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,19,2
+352,Hathnora,Nonfunerary,19,2
+354,Hohlenstein-Stadel,Nonfunerary,19,2
+355,Jarama VI rockshelter,Nonfunerary,19,2
+359,Kiik-Koba,Funerary,19,2
+380,Yellow Jacket 5MT-3,Nonfunerary,19,2
+389,Mugharet es-Skhul,Funerary,19,2
+393,Ngandong,Nonfunerary,19,2
+395,Oberkassel,Funerary,19,2
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,19,2
+415,San Juan ante Portam Latinam,Funerary,19,2
+416,Coves de Santa Maira,Nonfunerary,19,2
+429,Tabun Cave (Mugharet et-Tabun),Funerary,19,2
+447,Xemxija tombs,Funerary,19,2
+448,Boquete de Zafarraya,Nonfunerary,19,2
+303,Amud Cave,Funerary,19,3
+308,Baousso da Torre (Bausu da Ture),Funerary,19,3
+324,Cueva de la Buena Pinta,Nonfunerary,19,3
+325,Cueva del Camino,Nonfunerary,19,3
+326,Dali Tianshuigou,Nonfunerary,19,3
+338,Grotte de Fontbrégoua,Nonfunerary,19,3
+339,Grotte de Fontbrégoua,Nonfunerary,19,3
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,19,3
+353,Herxheim,Nonfunerary,19,3
+358,Kebara Cave,Funerary,19,3
+372,Le Moustier II,Funerary,19,3
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,19,3
+375,Les Rochers-de-Villeneuve,Nonfunerary,19,3
+376,Grotte des Hoteaux,Funerary,19,3
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,19,3
+386,Mojokerto,Nonfunerary,19,3
+397,Ojo Guareña,Funerary,19,3
+401,Pavlov I,Funerary,19,3
+405,Qafzeh Cave,Funerary,19,3
+419,Sima de las Palomas,Funerary,19,3
+439,Vado all'Arancio,Funerary,19,3
+313,Brillenhöhle,Nonfunerary,19,4
+322,Cro-Magnon I,Funerary,19,4
+323,Crow Creek,Funerary,19,4
+328,Dolní Věstonice II,Funerary,19,4
+330,El Espinoso Cave,Funerary,19,4
+332,El Mirón Cave,Funerary,19,4
+333,El Sidrón J1,Nonfunerary,19,4
+345,Troisième caverne of Goyet,Nonfunerary,19,4
+351,Hahnöfersand,Nonfunerary,19,4
+356,Kajiado,Nonfunerary,19,4
+363,Krapina,Nonfunerary,19,4
+402,Grotte des Perrats,Nonfunerary,19,4
+404,Předmostí,Funerary,19,4
+410,Roc de les Orenetes,Funerary,19,4
+411,Saccopastore,Nonfunerary,19,4
+418,Shanidar Cave,Funerary,19,4
+432,Cueva de los Torrejones,Funerary,19,4
+440,Valdegoba Cave,Nonfunerary,19,4
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,19,4
+304,Arago,Nonfunerary,19,5
+319,Combe Grenal,Nonfunerary,19,5
+321,Cova Gran de Santa Linya,Funerary,19,5
+327,Dame du Cavillon,Funerary,19,5
+341,Cova Foradada,Funerary,19,5
+342,Cova Foradada,Funerary,19,5
+346,Gran Dolina,Nonfunerary,19,5
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,19,5
+357,Kalamakia,Nonfunerary,19,5
+364,La Chapelle-aux-Saints,Funerary,19,5
+369,Abrigo do Lagar Velho,Funerary,19,5
+371,Le Moustier I,Funerary,19,5
+377,Cueva de Malalmuerzo,Nonfunerary,19,5
+381,Manot Cave,Nonfunerary,19,5
+384,Mauer,Nonfunerary,19,5
+400,Goat’s Hole (Paviland Cave),Funerary,19,5
+407,Reilingen,Nonfunerary,19,5
+409,Roc de Marsal,Funerary,19,5
+431,Teshik-Tash Cave,Funerary,19,5
+445,Vunda Locus,Nonfunerary,19,5
+313,Brillenhöhle,Nonfunerary,20,1
+322,Cro-Magnon I,Funerary,20,1
+326,Dali Tianshuigou,Nonfunerary,20,1
+327,Dame du Cavillon,Funerary,20,1
+338,Grotte de Fontbrégoua,Nonfunerary,20,1
+339,Grotte de Fontbrégoua,Nonfunerary,20,1
+344,Gough's Cave,Nonfunerary,20,1
+351,Hahnöfersand,Nonfunerary,20,1
+356,Kajiado,Nonfunerary,20,1
+363,Krapina,Nonfunerary,20,1
+369,Abrigo do Lagar Velho,Funerary,20,1
+372,Le Moustier II,Funerary,20,1
+375,Les Rochers-de-Villeneuve,Nonfunerary,20,1
+376,Grotte des Hoteaux,Funerary,20,1
+383,Maszycka Cave,Nonfunerary,20,1
+385,Mladeč Caves,Funerary,20,1
+389,Mugharet es-Skhul,Funerary,20,1
+393,Ngandong,Nonfunerary,20,1
+407,Reilingen,Nonfunerary,20,1
+415,San Juan ante Portam Latinam,Funerary,20,1
+418,Shanidar Cave,Funerary,20,1
+431,Teshik-Tash Cave,Funerary,20,1
+299,Abri Pataud,Funerary,20,2
+304,Arago,Nonfunerary,20,2
+321,Cova Gran de Santa Linya,Funerary,20,2
+323,Crow Creek,Funerary,20,2
+324,Cueva de la Buena Pinta,Nonfunerary,20,2
+329,Dolní Věstonice I,Funerary,20,2
+333,El Sidrón J1,Nonfunerary,20,2
+357,Kalamakia,Nonfunerary,20,2
+358,Kebara Cave,Funerary,20,2
+364,La Chapelle-aux-Saints,Funerary,20,2
+374,Les Pradelles (Marillac-le-Franc),Nonfunerary,20,2
+379,Mancos 5MT-10010 Feature 3,Nonfunerary,20,2
+381,Manot Cave,Nonfunerary,20,2
+386,Mojokerto,Nonfunerary,20,2
+410,Roc de les Orenetes,Funerary,20,2
+413,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,20,2
+414,Sambungmacan,Nonfunerary,20,2
+416,Coves de Santa Maira,Nonfunerary,20,2
+432,Cueva de los Torrejones,Funerary,20,2
+439,Vado all'Arancio,Funerary,20,2
+442,Vindija,Nonfunerary,20,2
+443,Vindija,Nonfunerary,20,2
+444,Vindija,Nonfunerary,20,2
+303,Amud Cave,Funerary,20,3
+318,Abri de Raymonden (Chancelade),Funerary,20,3
+330,El Espinoso Cave,Funerary,20,3
+340,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Nonfunerary,20,3
+341,Cova Foradada,Funerary,20,3
+342,Cova Foradada,Funerary,20,3
+343,Cova del Gegant,Nonfunerary,20,3
+354,Hohlenstein-Stadel,Nonfunerary,20,3
+355,Jarama VI rockshelter,Nonfunerary,20,3
+359,Kiik-Koba,Funerary,20,3
+365,La Ferrassie,Funerary,20,3
+380,Yellow Jacket 5MT-3,Nonfunerary,20,3
+384,Mauer,Nonfunerary,20,3
+387,Los Moros de Gabasa,Nonfunerary,20,3
+388,Moula-Guercy,Nonfunerary,20,3
+394,Ngawi,Nonfunerary,20,3
+401,Pavlov I,Funerary,20,3
+404,Předmostí,Funerary,20,3
+406,Regourdou,Funerary,20,3
+428,Sunghir,Funerary,20,3
+445,Vunda Locus,Nonfunerary,20,3
+307,Atxuri-I Cave,Funerary,20,4
+308,Baousso da Torre (Bausu da Ture),Funerary,20,4
+319,Combe Grenal,Nonfunerary,20,4
+325,Cueva del Camino,Nonfunerary,20,4
+328,Dolní Věstonice II,Funerary,20,4
+331,El Mirador,Nonfunerary,20,4
+332,El Mirón Cave,Funerary,20,4
+345,Troisième caverne of Goyet,Nonfunerary,20,4
+346,Gran Dolina,Nonfunerary,20,4
+347,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Nonfunerary,20,4
+350,Grotta Guattari,Nonfunerary,20,4
+352,Hathnora,Nonfunerary,20,4
+377,Cueva de Malalmuerzo,Nonfunerary,20,4
+395,Oberkassel,Funerary,20,4
+405,Qafzeh Cave,Funerary,20,4
+408,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,20,4
+409,Roc de Marsal,Funerary,20,4
+419,Sima de las Palomas,Funerary,20,4
+441,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Nonfunerary,20,4
+306,Archi,Nonfunerary,20,5
+314,Brno II,Funerary,20,5
+348,Grotte du Bison (Arcy-sur-Cure),Nonfunerary,20,5
+349,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Nonfunerary,20,5
+353,Herxheim,Nonfunerary,20,5
+367,La Quina,Funerary,20,5
+368,La Tolita Cama de Huesos,Funerary,20,5
+371,Le Moustier I,Funerary,20,5
+373,Le Placard,Nonfunerary,20,5
+392,Netankheri,Nonfunerary,20,5
+397,Ojo Guareña,Funerary,20,5
+400,Goat’s Hole (Paviland Cave),Funerary,20,5
+402,Grotte des Perrats,Nonfunerary,20,5
+411,Saccopastore,Nonfunerary,20,5
+429,Tabun Cave (Mugharet et-Tabun),Funerary,20,5
+430,Tepecik-Çiftlik,Funerary,20,5
+440,Valdegoba Cave,Nonfunerary,20,5
+447,Xemxija tombs,Funerary,20,5
+448,Boquete de Zafarraya,Nonfunerary,20,5

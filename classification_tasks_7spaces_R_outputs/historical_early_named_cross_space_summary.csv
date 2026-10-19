@@ -1,0 +1,81 @@
+Task,record_id,site_name,named_panel,True_task_label,Feature_spaces,Nearest_centroid_matches,Match_percent,Median_distance_ratio
+4class,16,Brno II,Historical,Funerary Context,7,0,0,0.9361862082283842
+4class,23,Cova Gran de Santa Linya,Early,Funerary Context,7,6,85.71428571428571,0.6322456333697257
+4class,24,Cro-Magnon I,Historical,Funerary Context,7,0,0,0.9093157780872516
+4class,25,Crow Creek,Historical,Funerary Context,7,2,28.57142857142857,0.8278042792404748
+4class,35,El Sidrón J1,Early,Cannibalism,7,0,0,0.5076533946300765
+4class,40,Grotte de Fontbrégoua,Early,Cannibalism,7,1,14.285714285714285,0.748954350707916
+4class,41,Grotte de Fontbrégoua,Early,Cannibalism,7,7,100,0.8034461340153727
+4class,52,Grotta Guattari,Historical,Carnivore,7,2,28.57142857142857,0.5953365651316461
+4class,60,Kebara Cave,Early,Funerary Context,7,7,100,0.6967198805802489
+4class,65,Krapina,Historical,Cannibalism,7,3,42.857142857142854,0.6080063161818783
+4class,66,La Chapelle-aux-Saints,Historical,Funerary Context,7,7,100,0.4713383021845518
+4class,67,La Ferrassie,Both panels,Funerary Context,7,7,100,0.5812017167599803
+4class,69,La Quina,Historical,Funerary Context,7,0,0,0.6390159124212026
+4class,81,Mancos 5MT-10010 Feature 3,Early,Cannibalism,7,0,0,0.5875589027487078
+4class,82,Yellow Jacket 5MT-3,Early,Cannibalism,7,2,28.57142857142857,0.7252624052158989
+4class,87,Mladeč Caves,Historical,Funerary Context,7,1,14.285714285714285,0.7240701621470612
+4class,90,Moula-Guercy,Historical,Cannibalism,7,5,71.42857142857143,0.7245293520902533
+4class,91,Mugharet es-Skhul,Early,Funerary Context,7,7,100,0.3620453966361123
+4class,102,Goat’s Hole (Paviland Cave),Historical,Funerary Context,7,5,71.42857142857143,0.7721035515985533
+4class,107,Qafzeh Cave,Early,Funerary Context,7,7,100,0.5555101185208046
+4class,108,Regourdou,Historical,Funerary Context,7,7,100,0.4409558722079843
+4class,111,Roc de Marsal,Historical,Funerary Context,7,7,100,0.5355919305602223
+4class,120,Shanidar Cave,Historical,Funerary Context,7,7,100,0.33586403009563626
+4class,121,Sima de las Palomas,Early,Funerary Context,7,7,100,0.45599955070403886
+4class,131,Tabun Cave (Mugharet et-Tabun),Early,Funerary Context,7,7,100,0.5197074842417183
+4class,133,Teshik-Tash Cave,Historical,Funerary Context,7,0,0,0.5525865973505542
+4class,134,Cueva de los Torrejones,Historical,Funerary Context,7,0,0,0.43894399261003636
+cannibalism_vs_fc,16,Brno II,Historical,Funerary Context,7,0,0,0.39301244428953247
+cannibalism_vs_fc,23,Cova Gran de Santa Linya,Early,Funerary Context,7,6,85.71428571428571,0.6322456333697256
+cannibalism_vs_fc,24,Cro-Magnon I,Historical,Funerary Context,7,0,0,0.6840452620715083
+cannibalism_vs_fc,25,Crow Creek,Historical,Funerary Context,7,2,28.57142857142857,0.818630989731313
+cannibalism_vs_fc,35,El Sidrón J1,Early,Cannibalism,7,0,0,0.5076533946300764
+cannibalism_vs_fc,40,Grotte de Fontbrégoua,Early,Cannibalism,7,7,100,0.40175212663972626
+cannibalism_vs_fc,41,Grotte de Fontbrégoua,Early,Cannibalism,7,7,100,0.6763915870635591
+cannibalism_vs_fc,60,Kebara Cave,Early,Funerary Context,7,7,100,0.6682864716957794
+cannibalism_vs_fc,65,Krapina,Historical,Cannibalism,7,5,71.42857142857143,0.6097166709435015
+cannibalism_vs_fc,66,La Chapelle-aux-Saints,Historical,Funerary Context,7,7,100,0.45145582158366815
+cannibalism_vs_fc,67,La Ferrassie,Both panels,Funerary Context,7,7,100,0.5399515174047613
+cannibalism_vs_fc,69,La Quina,Historical,Funerary Context,7,0,0,0.5242317299724484
+cannibalism_vs_fc,81,Mancos 5MT-10010 Feature 3,Early,Cannibalism,7,0,0,0.5631729893395107
+cannibalism_vs_fc,82,Yellow Jacket 5MT-3,Early,Cannibalism,7,2,28.57142857142857,0.6503174202738493
+cannibalism_vs_fc,87,Mladeč Caves,Historical,Funerary Context,7,1,14.285714285714285,0.3476075612968155
+cannibalism_vs_fc,90,Moula-Guercy,Historical,Cannibalism,7,6,85.71428571428571,0.28400099705763504
+cannibalism_vs_fc,91,Mugharet es-Skhul,Early,Funerary Context,7,7,100,0.32376410411255674
+cannibalism_vs_fc,102,Goat’s Hole (Paviland Cave),Historical,Funerary Context,7,5,71.42857142857143,0.7785686993567666
+cannibalism_vs_fc,107,Qafzeh Cave,Early,Funerary Context,7,7,100,0.5555101185208043
+cannibalism_vs_fc,108,Regourdou,Historical,Funerary Context,7,7,100,0.4236963914776569
+cannibalism_vs_fc,111,Roc de Marsal,Historical,Funerary Context,7,7,100,0.5119951962564121
+cannibalism_vs_fc,120,Shanidar Cave,Historical,Funerary Context,7,7,100,0.32475096542844784
+cannibalism_vs_fc,121,Sima de las Palomas,Early,Funerary Context,7,7,100,0.425964795320961
+cannibalism_vs_fc,131,Tabun Cave (Mugharet et-Tabun),Early,Funerary Context,7,7,100,0.49854962093360833
+cannibalism_vs_fc,133,Teshik-Tash Cave,Historical,Funerary Context,7,0,0,0.42022229008156103
+cannibalism_vs_fc,134,Cueva de los Torrejones,Historical,Funerary Context,7,0,0,0.2133565115088903
+fc_vs_rest,16,Brno II,Historical,Funerary Context,7,1,14.285714285714285,0.5700307157695811
+fc_vs_rest,23,Cova Gran de Santa Linya,Early,Funerary Context,7,7,100,0.6583586014993777
+fc_vs_rest,24,Cro-Magnon I,Historical,Funerary Context,7,0,0,0.6654010307748821
+fc_vs_rest,25,Crow Creek,Historical,Funerary Context,7,3,42.857142857142854,0.8493626173836065
+fc_vs_rest,35,El Sidrón J1,Early,Rest,7,0,0,0.4621746149014218
+fc_vs_rest,40,Grotte de Fontbrégoua,Early,Rest,7,7,100,0.15061495780621426
+fc_vs_rest,41,Grotte de Fontbrégoua,Early,Rest,7,7,100,0.9083282232903528
+fc_vs_rest,52,Grotta Guattari,Historical,Rest,7,7,100,0.18412187374529707
+fc_vs_rest,60,Kebara Cave,Early,Funerary Context,7,7,100,0.6252018799170909
+fc_vs_rest,65,Krapina,Historical,Rest,7,5,71.42857142857143,0.6188805740245039
+fc_vs_rest,66,La Chapelle-aux-Saints,Historical,Funerary Context,7,7,100,0.401213054736374
+fc_vs_rest,67,La Ferrassie,Both panels,Funerary Context,7,7,100,0.43666408621010533
+fc_vs_rest,69,La Quina,Historical,Funerary Context,7,0,0,0.2657805368081545
+fc_vs_rest,81,Mancos 5MT-10010 Feature 3,Early,Rest,7,0,0,0.4463649621443302
+fc_vs_rest,82,Yellow Jacket 5MT-3,Early,Rest,7,2,28.57142857142857,0.6606748844936672
+fc_vs_rest,87,Mladeč Caves,Historical,Funerary Context,7,1,14.285714285714285,0.4341185402570536
+fc_vs_rest,90,Moula-Guercy,Historical,Rest,7,7,100,0.45460847883827604
+fc_vs_rest,91,Mugharet es-Skhul,Early,Funerary Context,7,7,100,0.26516985057505105
+fc_vs_rest,102,Goat’s Hole (Paviland Cave),Historical,Funerary Context,7,6,85.71428571428571,0.7990352215635412
+fc_vs_rest,107,Qafzeh Cave,Early,Funerary Context,7,7,100,0.42376612011332354
+fc_vs_rest,108,Regourdou,Historical,Funerary Context,7,7,100,0.3584004489338811
+fc_vs_rest,111,Roc de Marsal,Historical,Funerary Context,7,7,100,0.45068489282988794
+fc_vs_rest,120,Shanidar Cave,Historical,Funerary Context,7,7,100,0.2590085970871798
+fc_vs_rest,121,Sima de las Palomas,Early,Funerary Context,7,7,100,0.3763734445378485
+fc_vs_rest,131,Tabun Cave (Mugharet et-Tabun),Early,Funerary Context,7,7,100,0.4494617072460647
+fc_vs_rest,133,Teshik-Tash Cave,Historical,Funerary Context,7,0,0,0.7040717628792187
+fc_vs_rest,134,Cueva de los Torrejones,Historical,Funerary Context,7,0,0,0.6105474549344347

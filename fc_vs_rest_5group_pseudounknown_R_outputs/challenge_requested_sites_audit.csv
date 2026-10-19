@@ -1,0 +1,28 @@
+request_order,requested_site_name,duplicated_in_request
+1,La Chapelle-aux-Saints,FALSE
+2,La Ferrassie,FALSE
+3,Regourdou,FALSE
+4,Roc de Marsal,FALSE
+5,Shanidar Cave,FALSE
+6,Krapina,FALSE
+7,La Quina,FALSE
+8,Moula-Guercy,FALSE
+9,Grotta Guattari,FALSE
+10,Mladeč Caves,FALSE
+11,Cro-Magnon I,FALSE
+12,Brno II,FALSE
+13,Teshik-Tash Cave,FALSE
+14,Cueva de los Torrejones,FALSE
+15,Crow Creek,FALSE
+16,Goat’s Hole (Paviland Cave),FALSE
+17,El Sidrón J1,FALSE
+18,Mancos 5MT-10010 Feature 3,FALSE
+19,Yellow Jacket 5MT-3,FALSE
+20,Qafzeh Cave,FALSE
+21,Tabun Cave (Mugharet et-Tabun),FALSE
+22,Mugharet es-Skhul,FALSE
+23,Grotte de Fontbrégoua,FALSE
+24,Cova Gran de Santa Linya,FALSE
+25,Sima de las Palomas,FALSE
+26,Kebara Cave,FALSE
+27,La Ferrassie,TRUE

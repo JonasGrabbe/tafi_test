@@ -1,0 +1,35 @@
+feature_space,bone,n_columns,columns
+%MNAU raw,arms,1,ProportionalRep_MNIbased_arms_indet
+%MNAU raw,clavicle,2,ProportionalRep_MNIbased_clavicle_right | ProportionalRep_MNIbased_clavicle_left
+%MNAU raw,cranium,1,ProportionalRep_MNIbased_cranium
+%MNAU raw,foot,1,ProportionalRep_MNIbased_foot
+%MNAU raw,hands,1,ProportionalRep_MNIbased_hands
+%MNAU raw,humerus,2,ProportionalRep_MNIbased_humerus_right | ProportionalRep_MNIbased_humerus_left
+%MNAU raw,hyoid,1,ProportionalRep_MNIbased_hyoid
+%MNAU raw,legs,1,ProportionalRep_MNIbased_legs
+%MNAU raw,pelvic,1,ProportionalRep_MNIbased_pelvic
+%MNAU raw,radius,2,ProportionalRep_MNIbased_radius_right | ProportionalRep_MNIbased_radius_left
+%MNAU raw,ribs,1,ProportionalRep_MNIbased_ribs
+%MNAU raw,scapula,2,ProportionalRep_MNIbased_scapula_right | ProportionalRep_MNIbased_scapula_left
+%MNAU raw,shoulder,1,ProportionalRep_MNIbased_shoulder_indet
+%MNAU raw,sternum,1,ProportionalRep_MNIbased_sternum
+%MNAU raw,thorax,1,ProportionalRep_MNIbased_thorax_indet
+%MNAU raw,ulna,2,ProportionalRep_MNIbased_ulna_right | ProportionalRep_MNIbased_ulna_left
+%MNAU raw,vertebrae,1,ProportionalRep_MNIbased_vertebrae
+ReMNAU raw,arms,1,ReMNAU_arms_indet
+ReMNAU raw,clavicle,2,ReMNAU_clavicle_right | ReMNAU_clavicle_left
+ReMNAU raw,cranium,1,ReMNAU_cranium
+ReMNAU raw,foot,1,ReMNAU_foot
+ReMNAU raw,hands,1,ReMNAU_hands
+ReMNAU raw,humerus,2,ReMNAU_humerus_right | ReMNAU_humerus_left
+ReMNAU raw,hyoid,1,ReMNAU_hyoid
+ReMNAU raw,legs,1,ReMNAU_legs
+ReMNAU raw,pelvic,1,ReMNAU_pelvic
+ReMNAU raw,radius,2,ReMNAU_radius_right | ReMNAU_radius_left
+ReMNAU raw,ribs,1,ReMNAU_ribs
+ReMNAU raw,scapula,2,ReMNAU_scapula_right | ReMNAU_scapula_left
+ReMNAU raw,shoulder,1,ReMNAU_shoulder_indet
+ReMNAU raw,sternum,1,ReMNAU_sternum
+ReMNAU raw,thorax,1,ReMNAU_thorax_indet
+ReMNAU raw,ulna,2,ReMNAU_ulna_right | ReMNAU_ulna_left
+ReMNAU raw,vertebrae,1,ReMNAU_vertebrae

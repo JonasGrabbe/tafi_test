@@ -1,0 +1,11 @@
+funerary_subtype_norm,rows,median_MNI,Q1_MNI,Q3_MNI,max_MNI,percent_F
+Collective burial,12,25,13.25,58,725,24.489795918367346
+Collective-secondary,1,6,6,6,6,2.0408163265306123
+Cremation,1,5,5,5,5,2.0408163265306123
+Funerary caching,1,24,24,24,24,2.0408163265306123
+Multiple inhumation,3,6,4,7.5,9,6.122448979591836
+No inhumation,3,2,1.5,12,22,6.122448979591836
+Possible burial,1,15,15,15,15,2.0408163265306123
+Single + collective,1,9,9,9,9,2.0408163265306123
+Single + multiple,2,10.5,7.25,13.75,17,4.081632653061225
+Single inhumation,24,1,1,1,10,48.97959183673469

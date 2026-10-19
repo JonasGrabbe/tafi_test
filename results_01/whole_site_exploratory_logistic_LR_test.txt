@@ -1,0 +1,18 @@
+Analysis of Deviance Table
+
+Model 1: y ~ C_z
+Model 2: y ~ C_z + E_z
+  Resid. Df Resid. Dev
+1       102     75.012
+2       101     68.361
+  Df Deviance Pr(>Chi)
+1                     
+2  1   6.6504 0.009914
+    
+1   
+2 **
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’
+  0.01 ‘*’ 0.05 ‘.’
+  0.1 ‘ ’ 1
