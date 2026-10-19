@@ -1,0 +1,2 @@
+experiment_id,experiment_name,group_vars,covariates,n_records,n_groups,n_features_tested,n_fdr_significant,max_eps2,top_feature,top_feature_eps2,top_feature_p_fdr,permanova_group_R2,permanova_group_p
+E05,geological_period_date,geological_period + date_bin,mis_stage + site_environment + taphonomic_context,410,9,50,43,0.19499016207337233,density_evenness,0.19499016207337233,1.1617949248875679e-11,0.02382840557299127,0.054

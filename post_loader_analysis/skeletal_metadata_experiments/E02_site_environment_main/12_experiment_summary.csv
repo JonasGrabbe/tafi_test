@@ -1,0 +1,2 @@
+experiment_id,experiment_name,group_vars,covariates,n_records,n_groups,n_features_tested,n_fdr_significant,max_eps2,top_feature,top_feature_eps2,top_feature_p_fdr,permanova_group_R2,permanova_group_p
+E02,site_environment_main,site_environment,taphonomic_context,410,3,50,35,0.06179412306764453,low_density_share,0.06179412306764453,2.663971873460754e-4,0.00804759064489688,0.0752

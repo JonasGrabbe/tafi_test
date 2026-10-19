@@ -1,0 +1,2 @@
+rank_by_accuracy,.config,mean,std_err,n,neighbors,weight_func,dist_power,.metric,.estimator
+1,pre0_mod1_post0,0.7604166666666666,0.05799754544614607,3,8,inv,1.0402125817723573,accuracy,binary

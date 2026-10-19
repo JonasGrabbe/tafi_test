@@ -1,0 +1,4 @@
+task,n_runs,n_unique_mtry,n_unique_trees,n_unique_min_n,median_n_hyperparameter_combos,min_n_hyperparameter_combos,max_n_hyperparameter_combos
+4class,1000,147,1,1,1,1,1
+cannibalism_vs_fc,1000,74,1,1,1,1,1
+fc_vs_rest,1000,110,1,1,1,1,1

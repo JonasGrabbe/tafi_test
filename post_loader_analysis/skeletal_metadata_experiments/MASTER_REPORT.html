@@ -1,0 +1,2637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+
+  <title>Skeletal Representation Metadata Experiments</title>
+  <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 32px;
+          line-height: 1.45;
+        }
+        table {
+          border-collapse: collapse;
+          font-size: 12px;
+          margin-bottom: 24px;
+        }
+        th, td {
+          padding: 5px 8px;
+          border: 1px solid #BBBBBB;
+        }
+        h1, h2, h3 {
+          color: #1f4e5f;
+        }
+        iframe {
+          margin-bottom: 28px;
+        }
+      </style>
+</head>
+<html>
+  <body>
+    <h1>Automated skeletal-representation metadata experiments</h1>
+    <p>This report runs eight hypothesis-driven metadata experiments using the 63 selected skeletal-representation features.</p>
+    <p>For each experiment, the workflow saves group sizes, descriptives, assumption checks, Kruskal-Wallis tests, BH-FDR adjusted p-values, epsilon-squared effect sizes, Dunn post-hoc tests, PERMANOVA, PCA variance/loadings/scores, and three interactive Plotly plots.</p>
+    <h2>Master summary</h2>
+    <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E01 </td>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 48 </td>
+   <td style="text-align:right;"> 0.3412004 </td>
+   <td style="text-align:left;"> mnau_postcranial_total_mean </td>
+   <td style="text-align:right;"> 0.3412004 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+   <td style="text-align:right;"> 0.2520154 </td>
+   <td style="text-align:right;"> 0.0001 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E03 </td>
+   <td style="text-align:left;"> site_environment_detail </td>
+   <td style="text-align:left;"> site_environment_detail </td>
+   <td style="text-align:left;"> taphonomic_context + geological_period </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 43 </td>
+   <td style="text-align:right;"> 0.0782184 </td>
+   <td style="text-align:left;"> low_density_share </td>
+   <td style="text-align:right;"> 0.0782184 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:right;"> 0.0385306 </td>
+   <td style="text-align:right;"> 0.0001 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E08 </td>
+   <td style="text-align:left;"> recovery_context </td>
+   <td style="text-align:left;"> degree_of_excavation + discovery_context </td>
+   <td style="text-align:left;"> count_type </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 39 </td>
+   <td style="text-align:right;"> 0.1872419 </td>
+   <td style="text-align:left;"> mnau_proximal_appendicular_mean </td>
+   <td style="text-align:right;"> 0.1872419 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+   <td style="text-align:right;"> 0.1143132 </td>
+   <td style="text-align:right;"> 0.0001 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E04 </td>
+   <td style="text-align:left;"> age_category </td>
+   <td style="text-align:left;"> age_category </td>
+   <td style="text-align:left;"> mni + degree_of_excavation </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 38 </td>
+   <td style="text-align:right;"> 0.0886184 </td>
+   <td style="text-align:left;"> mnau_proximal_appendicular_mean </td>
+   <td style="text-align:right;"> 0.0886184 </td>
+   <td style="text-align:right;"> 0.0001615 </td>
+   <td style="text-align:right;"> 0.0402655 </td>
+   <td style="text-align:right;"> 0.0022 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E05 </td>
+   <td style="text-align:left;"> geological_period_date </td>
+   <td style="text-align:left;"> geological_period + date_bin </td>
+   <td style="text-align:left;"> mis_stage + site_environment + taphonomic_context </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 43 </td>
+   <td style="text-align:right;"> 0.1949902 </td>
+   <td style="text-align:left;"> density_evenness </td>
+   <td style="text-align:right;"> 0.1949902 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+   <td style="text-align:right;"> 0.0238284 </td>
+   <td style="text-align:right;"> 0.0540 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E02 </td>
+   <td style="text-align:left;"> site_environment_main </td>
+   <td style="text-align:left;"> site_environment </td>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 35 </td>
+   <td style="text-align:right;"> 0.0617941 </td>
+   <td style="text-align:left;"> low_density_share </td>
+   <td style="text-align:right;"> 0.0617941 </td>
+   <td style="text-align:right;"> 0.0002664 </td>
+   <td style="text-align:right;"> 0.0080476 </td>
+   <td style="text-align:right;"> 0.0752 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E06 </td>
+   <td style="text-align:left;"> hominin_species_controlled </td>
+   <td style="text-align:left;"> hominin_species </td>
+   <td style="text-align:left;"> geological_period + date_bin + taphonomic_context + site_environment </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 45 </td>
+   <td style="text-align:right;"> 0.2735713 </td>
+   <td style="text-align:left;"> mnau_postcranial_total_mean </td>
+   <td style="text-align:right;"> 0.2735713 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+   <td style="text-align:right;"> 0.0136265 </td>
+   <td style="text-align:right;"> 0.1374 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> E07 </td>
+   <td style="text-align:left;"> region_country </td>
+   <td style="text-align:left;"> region </td>
+   <td style="text-align:left;"> country + site_environment + degree_of_excavation </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 42 </td>
+   <td style="text-align:right;"> 0.1538861 </td>
+   <td style="text-align:left;"> mne_arms </td>
+   <td style="text-align:right;"> 0.1538861 </td>
+   <td style="text-align:right;"> 0.0000000 </td>
+   <td style="text-align:right;"> 0.0054836 </td>
+   <td style="text-align:right;"> 0.2289 </td>
+  </tr>
+</tbody>
+</table>
+    <section>
+      <hr/>
+      <h2>E01 - taphonomic_context</h2>
+      <h3>Hypothesis</h3>
+      <p>Accumulation cause is associated with skeletal-part representation.</p>
+      <h3>Expected pattern</h3>
+      <p>Skeletal profiles may differ among accumulation causes.</p>
+      <h3>Why this experiment matters</h3>
+      <p>Direct taphonomic comparison using only the main accumulation label.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E01 </td>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 48 </td>
+   <td style="text-align:right;"> 0.3412004 </td>
+   <td style="text-align:left;"> mnau_postcranial_total_mean </td>
+   <td style="text-align:right;"> 0.3412004 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2520154 </td>
+   <td style="text-align:right;"> 1e-04 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> group </th>
+   <th style="text-align:right;"> n_records </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Funerary Context </td>
+   <td style="text-align:right;"> 241 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Cannibalism </td>
+   <td style="text-align:right;"> 54 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Unknown </td>
+   <td style="text-align:right;"> 34 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Geological transport </td>
+   <td style="text-align:right;"> 30 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Sepulchral Cave </td>
+   <td style="text-align:right;"> 27 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Carnivore </td>
+   <td style="text-align:right;"> 24 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> feature </th>
+   <th style="text-align:right;"> n </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> H </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:right;"> eps2 </th>
+   <th style="text-align:right;"> p_fdr </th>
+   <th style="text-align:left;"> significant_fdr_05 </th>
+   <th style="text-align:left;"> effect </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> mnau_postcranial_total_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 139.5509 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.3412004 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 135.7717 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.3319601 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_proximal_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 130.7753 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.3197440 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_region_mean_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 123.2486 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.3136097 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_simpson_dominance </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 122.5891 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.3119316 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_inverse_simpson </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 122.5891 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.3119316 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_simpson_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 122.5891 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.3119316 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> all_sections_dominance </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 121.9317 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.3102588 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_upper_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 126.7920 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.3100048 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_evenness_minus_dominance </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 121.7498 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.3097959 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> group </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 3092.229 </td>
+   <td style="text-align:right;"> 0.2520154 </td>
+   <td style="text-align:right;"> 27.22362 </td>
+   <td style="text-align:right;"> 1e-04 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Residual </td>
+   <td style="text-align:right;"> 404 </td>
+   <td style="text-align:right;"> 9177.770 </td>
+   <td style="text-align:right;"> 0.7479846 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Total </td>
+   <td style="text-align:right;"> 409 </td>
+   <td style="text-align:right;"> 12270.000 </td>
+   <td style="text-align:right;"> 1.0000000 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <iframe src="E01_taphonomic_context/plots/01_best_features_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <iframe src="E01_taphonomic_context/plots/02_composite_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <iframe src="E01_taphonomic_context/plots/03_pca_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E01_taphonomic_context
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E02 - site_environment_main</h2>
+      <h3>Hypothesis</h3>
+      <p>Karstic and open-air settings impose different depositional filters.</p>
+      <h3>Expected pattern</h3>
+      <p>Broad preservation patterns may differ between karstic and open-air contexts.</p>
+      <h3>Why this experiment matters</h3>
+      <p>Treats karstic/open-air as one mutually-exclusive main variable.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E02 </td>
+   <td style="text-align:left;"> site_environment_main </td>
+   <td style="text-align:left;"> site_environment </td>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 35 </td>
+   <td style="text-align:right;"> 0.0617941 </td>
+   <td style="text-align:left;"> low_density_share </td>
+   <td style="text-align:right;"> 0.0617941 </td>
+   <td style="text-align:right;"> 0.0002664 </td>
+   <td style="text-align:right;"> 0.0080476 </td>
+   <td style="text-align:right;"> 0.0752 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> group </th>
+   <th style="text-align:right;"> n_records </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Karstic </td>
+   <td style="text-align:right;"> 319 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Open air </td>
+   <td style="text-align:right;"> 89 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> missing </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> feature </th>
+   <th style="text-align:right;"> n </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> H </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:right;"> eps2 </th>
+   <th style="text-align:right;"> p_fdr </th>
+   <th style="text-align:left;"> significant_fdr_05 </th>
+   <th style="text-align:left;"> effect </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> low_density_share </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 24.28509 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.0000053 </td>
+   <td style="text-align:right;"> 0.0617941 </td>
+   <td style="text-align:right;"> 0.0002664 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_distal_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 20.64641 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.0000329 </td>
+   <td style="text-align:right;"> 0.0504802 </td>
+   <td style="text-align:right;"> 0.0008215 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> small </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_region_mean_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 19.29141 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.0000647 </td>
+   <td style="text-align:right;"> 0.0490876 </td>
+   <td style="text-align:right;"> 0.0008295 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> small </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_heip_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 17.84165 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.0001336 </td>
+   <td style="text-align:right;"> 0.0453986 </td>
+   <td style="text-align:right;"> 0.0008295 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> small </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> effective_sections_hill1 </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 17.84165 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.0001336 </td>
+   <td style="text-align:right;"> 0.0453986 </td>
+   <td style="text-align:right;"> 0.0008295 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> small </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_gini </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 17.82109 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.0001350 </td>
+   <td style="text-align:right;"> 0.0453463 </td>
+   <td style="text-align:right;"> 0.0008295 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> small </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> distal_appendicular_continuity_hm </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 18.47356 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.0000974 </td>
+   <td style="text-align:right;"> 0.0451676 </td>
+   <td style="text-align:right;"> 0.0008295 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> small </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mne_cranial_share </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 17.83469 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.0001340 </td>
+   <td style="text-align:right;"> 0.0436056 </td>
+   <td style="text-align:right;"> 0.0008295 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> small </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> low_density_axial_survival </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 17.47949 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.0001601 </td>
+   <td style="text-align:right;"> 0.0427371 </td>
+   <td style="text-align:right;"> 0.0008295 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> small </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> low_density_survival_index </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 17.33416 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 0.0001722 </td>
+   <td style="text-align:right;"> 0.0423818 </td>
+   <td style="text-align:right;"> 0.0008295 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> small </td>
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> group </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 98.74394 </td>
+   <td style="text-align:right;"> 0.0080476 </td>
+   <td style="text-align:right;"> 2.134077 </td>
+   <td style="text-align:right;"> 0.0752 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 2611.15640 </td>
+   <td style="text-align:right;"> 0.2128082 </td>
+   <td style="text-align:right;"> 22.573171 </td>
+   <td style="text-align:right;"> 0.0001 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Residual </td>
+   <td style="text-align:right;"> 402 </td>
+   <td style="text-align:right;"> 9300.28744 </td>
+   <td style="text-align:right;"> 0.7579696 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Total </td>
+   <td style="text-align:right;"> 409 </td>
+   <td style="text-align:right;"> 12270.00000 </td>
+   <td style="text-align:right;"> 1.0000000 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <iframe src="E02_site_environment_main/plots/01_best_features_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <iframe src="E02_site_environment_main/plots/02_composite_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <iframe src="E02_site_environment_main/plots/03_pca_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E02_site_environment_main
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E03 - site_environment_detail</h2>
+      <h3>Hypothesis</h3>
+      <p>Subtypes within karstic/open-air settings may further structure preservation.</p>
+      <h3>Expected pattern</h3>
+      <p>Cave interior, entrance, rockshelter, fluvial, eolian, lake, etc. may differ.</p>
+      <h3>Why this experiment matters</h3>
+      <p>Uses one hierarchical setting label rather than two independent columns.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E03 </td>
+   <td style="text-align:left;"> site_environment_detail </td>
+   <td style="text-align:left;"> site_environment_detail </td>
+   <td style="text-align:left;"> taphonomic_context + geological_period </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 43 </td>
+   <td style="text-align:right;"> 0.0782184 </td>
+   <td style="text-align:left;"> low_density_share </td>
+   <td style="text-align:right;"> 0.0782184 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:right;"> 0.0385306 </td>
+   <td style="text-align:right;"> 1e-04 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> group </th>
+   <th style="text-align:right;"> n_records </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Karstic | Cave </td>
+   <td style="text-align:right;"> 183 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Karstic | Rockshelter </td>
+   <td style="text-align:right;"> 129 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Open air </td>
+   <td style="text-align:right;"> 88 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Karstic | Open air </td>
+   <td style="text-align:right;"> 7 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> missing </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Other_small_groups </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> feature </th>
+   <th style="text-align:right;"> n </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> H </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:right;"> eps2 </th>
+   <th style="text-align:right;"> p_fdr </th>
+   <th style="text-align:left;"> significant_fdr_05 </th>
+   <th style="text-align:left;"> effect </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> low_density_share </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 30.73983 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 1.05e-05 </td>
+   <td style="text-align:right;"> 0.0782184 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_region_mean_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 30.19652 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 1.35e-05 </td>
+   <td style="text-align:right;"> 0.0768359 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> low_density_survival_index </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 29.96830 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 1.50e-05 </td>
+   <td style="text-align:right;"> 0.0732721 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> density_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 27.17198 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 5.28e-05 </td>
+   <td style="text-align:right;"> 0.0691399 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_column_trunk_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 28.20797 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 3.31e-05 </td>
+   <td style="text-align:right;"> 0.0689681 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_heip_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 27.05280 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 5.57e-05 </td>
+   <td style="text-align:right;"> 0.0688366 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> effective_sections_hill1 </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 27.05280 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 5.57e-05 </td>
+   <td style="text-align:right;"> 0.0688366 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_evenness_minus_dominance </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 26.62461 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 6.75e-05 </td>
+   <td style="text-align:right;"> 0.0677471 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_girdle_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 27.58299 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 4.39e-05 </td>
+   <td style="text-align:right;"> 0.0674401 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_gini </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 26.42092 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 7.39e-05 </td>
+   <td style="text-align:right;"> 0.0672288 </td>
+   <td style="text-align:right;"> 0.0002036 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> group </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 472.7707 </td>
+   <td style="text-align:right;"> 0.0385306 </td>
+   <td style="text-align:right;"> 4.407404 </td>
+   <td style="text-align:right;"> 1e-04 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 2357.4874 </td>
+   <td style="text-align:right;"> 0.1921343 </td>
+   <td style="text-align:right;"> 21.977671 </td>
+   <td style="text-align:right;"> 1e-04 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> geological_period </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 506.6091 </td>
+   <td style="text-align:right;"> 0.0412884 </td>
+   <td style="text-align:right;"> 5.903578 </td>
+   <td style="text-align:right;"> 1e-04 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Residual </td>
+   <td style="text-align:right;"> 395 </td>
+   <td style="text-align:right;"> 8474.1238 </td>
+   <td style="text-align:right;"> 0.6906376 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Total </td>
+   <td style="text-align:right;"> 409 </td>
+   <td style="text-align:right;"> 12270.0000 </td>
+   <td style="text-align:right;"> 1.0000000 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <iframe src="E03_site_environment_detail/plots/01_best_features_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <iframe src="E03_site_environment_detail/plots/02_composite_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <iframe src="E03_site_environment_detail/plots/03_pca_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E03_site_environment_detail
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E04 - age_category</h2>
+      <h3>Hypothesis</h3>
+      <p>Age affects preservation and recovery.</p>
+      <h3>Expected pattern</h3>
+      <p>Younger individuals may show lower representation of fragile/small elements.</p>
+      <h3>Why this experiment matters</h3>
+      <p>Biological control.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E04 </td>
+   <td style="text-align:left;"> age_category </td>
+   <td style="text-align:left;"> age_category </td>
+   <td style="text-align:left;"> mni + degree_of_excavation </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 38 </td>
+   <td style="text-align:right;"> 0.0886184 </td>
+   <td style="text-align:left;"> mnau_proximal_appendicular_mean </td>
+   <td style="text-align:right;"> 0.0886184 </td>
+   <td style="text-align:right;"> 0.0001615 </td>
+   <td style="text-align:right;"> 0.0402655 </td>
+   <td style="text-align:right;"> 0.0022 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> group </th>
+   <th style="text-align:right;"> n_records </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Adult </td>
+   <td style="text-align:right;"> 191 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Juvenile </td>
+   <td style="text-align:right;"> 61 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Indet </td>
+   <td style="text-align:right;"> 46 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Infant </td>
+   <td style="text-align:right;"> 39 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Mixed </td>
+   <td style="text-align:right;"> 34 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Subadult </td>
+   <td style="text-align:right;"> 34 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Subadults </td>
+   <td style="text-align:right;"> 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Other_small_groups </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> feature </th>
+   <th style="text-align:right;"> n </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> H </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:right;"> eps2 </th>
+   <th style="text-align:right;"> p_fdr </th>
+   <th style="text-align:left;"> significant_fdr_05 </th>
+   <th style="text-align:left;"> effect </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> mnau_proximal_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 36.24492 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 0.0000065 </td>
+   <td style="text-align:right;"> 0.0886184 </td>
+   <td style="text-align:right;"> 0.0001615 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_limb_shaft_proxy_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 35.79346 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 0.0000079 </td>
+   <td style="text-align:right;"> 0.0875146 </td>
+   <td style="text-align:right;"> 0.0001615 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 35.33122 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 0.0000097 </td>
+   <td style="text-align:right;"> 0.0863844 </td>
+   <td style="text-align:right;"> 0.0001615 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_postcranial_total_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 33.90830 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 0.0000179 </td>
+   <td style="text-align:right;"> 0.0829054 </td>
+   <td style="text-align:right;"> 0.0002240 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_legs </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 33.04625 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 0.0000260 </td>
+   <td style="text-align:right;"> 0.0807977 </td>
+   <td style="text-align:right;"> 0.0002596 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_lower_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 31.91375 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 0.0000421 </td>
+   <td style="text-align:right;"> 0.0780287 </td>
+   <td style="text-align:right;"> 0.0003512 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_girdle_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 28.12646 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 0.0002086 </td>
+   <td style="text-align:right;"> 0.0687689 </td>
+   <td style="text-align:right;"> 0.0014899 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_upper_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 27.25670 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 0.0002996 </td>
+   <td style="text-align:right;"> 0.0666423 </td>
+   <td style="text-align:right;"> 0.0018726 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> lower_appendicular_continuity_hm </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 26.46295 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 0.0004162 </td>
+   <td style="text-align:right;"> 0.0647016 </td>
+   <td style="text-align:right;"> 0.0021183 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mne_arms </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 26.41980 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 0.0004237 </td>
+   <td style="text-align:right;"> 0.0645961 </td>
+   <td style="text-align:right;"> 0.0021183 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> group </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 494.0577 </td>
+   <td style="text-align:right;"> 0.0402655 </td>
+   <td style="text-align:right;"> 2.720284 </td>
+   <td style="text-align:right;"> 0.0022 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mni </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 196.4364 </td>
+   <td style="text-align:right;"> 0.0160095 </td>
+   <td style="text-align:right;"> 7.571059 </td>
+   <td style="text-align:right;"> 0.0012 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> degree_of_excavation </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 843.6432 </td>
+   <td style="text-align:right;"> 0.0687566 </td>
+   <td style="text-align:right;"> 8.128930 </td>
+   <td style="text-align:right;"> 0.0001 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Residual </td>
+   <td style="text-align:right;"> 397 </td>
+   <td style="text-align:right;"> 10300.4438 </td>
+   <td style="text-align:right;"> 0.8394820 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Total </td>
+   <td style="text-align:right;"> 409 </td>
+   <td style="text-align:right;"> 12270.0000 </td>
+   <td style="text-align:right;"> 1.0000000 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <iframe src="E04_age_category/plots/01_best_features_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <iframe src="E04_age_category/plots/02_composite_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <iframe src="E04_age_category/plots/03_pca_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E04_age_category
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E05 - geological_period_date</h2>
+      <h3>Hypothesis</h3>
+      <p>Time depth may alter skeletal preservation.</p>
+      <h3>Expected pattern</h3>
+      <p>Older contexts may show stronger attrition of fragile elements.</p>
+      <h3>Why this experiment matters</h3>
+      <p>Tests temporal structure while controlling for environment and taphonomy.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E05 </td>
+   <td style="text-align:left;"> geological_period_date </td>
+   <td style="text-align:left;"> geological_period + date_bin </td>
+   <td style="text-align:left;"> mis_stage + site_environment + taphonomic_context </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 43 </td>
+   <td style="text-align:right;"> 0.1949902 </td>
+   <td style="text-align:left;"> density_evenness </td>
+   <td style="text-align:right;"> 0.1949902 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.0238284 </td>
+   <td style="text-align:right;"> 0.054 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> group </th>
+   <th style="text-align:right;"> n_records </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Late Pleistocene | Late_Pleistocene </td>
+   <td style="text-align:right;"> 184 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Holocene | Holocene_or_recent </td>
+   <td style="text-align:right;"> 134 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Late Pleistocene | Middle_Pleistocene </td>
+   <td style="text-align:right;"> 50 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Middle Pleistocene | Middle_Pleistocene </td>
+   <td style="text-align:right;"> 20 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Middle Pleistocene | missing_date </td>
+   <td style="text-align:right;"> 11 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Late Pleistocene | missing_date </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Holocene | missing_date </td>
+   <td style="text-align:right;"> 3 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Lower Pleistocene | Early_Pleistocene_or_older </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Other_small_groups </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> feature </th>
+   <th style="text-align:right;"> n </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> H </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:right;"> eps2 </th>
+   <th style="text-align:right;"> p_fdr </th>
+   <th style="text-align:left;"> significant_fdr_05 </th>
+   <th style="text-align:left;"> effect </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> density_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 76.63113 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1949902 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> low_density_axial_survival </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 72.25730 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1766682 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_axial_main_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 70.78052 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1730575 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_region_mean_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 67.40417 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1715119 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> low_density_survival_index </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 68.50054 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1674830 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_heip_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 63.91063 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1626225 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> effective_sections_hill1 </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 63.91063 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1626225 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mne_arms </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 66.20401 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1618680 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> low_density_share </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 63.36705 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1612393 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_evenness_minus_dominance </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 61.93353 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1575917 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> group </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 292.3745 </td>
+   <td style="text-align:right;"> 0.0238284 </td>
+   <td style="text-align:right;"> 1.720674 </td>
+   <td style="text-align:right;"> 0.0540 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mis_stage </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 662.5643 </td>
+   <td style="text-align:right;"> 0.0539987 </td>
+   <td style="text-align:right;"> 4.456347 </td>
+   <td style="text-align:right;"> 0.0001 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> site_environment </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 116.8188 </td>
+   <td style="text-align:right;"> 0.0095207 </td>
+   <td style="text-align:right;"> 2.749994 </td>
+   <td style="text-align:right;"> 0.0326 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 2349.2883 </td>
+   <td style="text-align:right;"> 0.1914660 </td>
+   <td style="text-align:right;"> 22.121537 </td>
+   <td style="text-align:right;"> 0.0001 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Residual </td>
+   <td style="text-align:right;"> 387 </td>
+   <td style="text-align:right;"> 8219.8140 </td>
+   <td style="text-align:right;"> 0.6699115 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Total </td>
+   <td style="text-align:right;"> 409 </td>
+   <td style="text-align:right;"> 12270.0000 </td>
+   <td style="text-align:right;"> 1.0000000 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <iframe src="E05_geological_period_date/plots/01_best_features_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <iframe src="E05_geological_period_date/plots/02_composite_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <iframe src="E05_geological_period_date/plots/03_pca_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E05_geological_period_date
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E06 - hominin_species_controlled</h2>
+      <h3>Hypothesis</h3>
+      <p>Species differences may partly reflect context rather than biology.</p>
+      <h3>Expected pattern</h3>
+      <p>Differences may weaken after contextual controls.</p>
+      <h3>Why this experiment matters</h3>
+      <p>Checks taxonomic confounding.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E06 </td>
+   <td style="text-align:left;"> hominin_species_controlled </td>
+   <td style="text-align:left;"> hominin_species </td>
+   <td style="text-align:left;"> geological_period + date_bin + taphonomic_context + site_environment </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 45 </td>
+   <td style="text-align:right;"> 0.2735713 </td>
+   <td style="text-align:left;"> mnau_postcranial_total_mean </td>
+   <td style="text-align:right;"> 0.2735713 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.0136265 </td>
+   <td style="text-align:right;"> 0.1374 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> group </th>
+   <th style="text-align:right;"> n_records </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> H. sapiens </td>
+   <td style="text-align:right;"> 244 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> H. neanderthalensis </td>
+   <td style="text-align:right;"> 116 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Middle Pleistocene hominin </td>
+   <td style="text-align:right;"> 24 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> H. erectus </td>
+   <td style="text-align:right;"> 22 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Homo sapiens </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Other_small_groups </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> feature </th>
+   <th style="text-align:right;"> n </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> H </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:right;"> eps2 </th>
+   <th style="text-align:right;"> p_fdr </th>
+   <th style="text-align:left;"> significant_fdr_05 </th>
+   <th style="text-align:left;"> effect </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> mnau_postcranial_total_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 111.89066 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2735713 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 109.02958 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2665760 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_proximal_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 106.21257 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2596884 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_region_mean_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 100.64499 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2560941 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> density_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 96.01292 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2443077 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_upper_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 97.97936 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2395583 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_gini </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 93.73369 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2385081 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_evenness_minus_dominance </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 93.68609 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2383870 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_inverse_simpson </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 93.63316 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2382523 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_simpson_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 93.63316 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.2382523 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> group </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 167.19714 </td>
+   <td style="text-align:right;"> 0.0136265 </td>
+   <td style="text-align:right;"> 1.5102393 </td>
+   <td style="text-align:right;"> 0.1374 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> geological_period </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 59.92965 </td>
+   <td style="text-align:right;"> 0.0048842 </td>
+   <td style="text-align:right;"> 0.9022095 </td>
+   <td style="text-align:right;"> 0.4679 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> date_bin </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 45.72546 </td>
+   <td style="text-align:right;"> 0.0037266 </td>
+   <td style="text-align:right;"> 0.6883729 </td>
+   <td style="text-align:right;"> 0.6212 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> taphonomic_context </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 1182.06335 </td>
+   <td style="text-align:right;"> 0.0963377 </td>
+   <td style="text-align:right;"> 10.6772070 </td>
+   <td style="text-align:right;"> 0.0001 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> site_environment </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 86.89176 </td>
+   <td style="text-align:right;"> 0.0070816 </td>
+   <td style="text-align:right;"> 1.9621649 </td>
+   <td style="text-align:right;"> 0.1013 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Residual </td>
+   <td style="text-align:right;"> 390 </td>
+   <td style="text-align:right;"> 8635.30522 </td>
+   <td style="text-align:right;"> 0.7037739 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Total </td>
+   <td style="text-align:right;"> 409 </td>
+   <td style="text-align:right;"> 12270.00000 </td>
+   <td style="text-align:right;"> 1.0000000 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <iframe src="E06_hominin_species_controlled/plots/01_best_features_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <iframe src="E06_hominin_species_controlled/plots/02_composite_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <iframe src="E06_hominin_species_controlled/plots/03_pca_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E06_hominin_species_controlled
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E07 - region_country</h2>
+      <h3>Hypothesis</h3>
+      <p>Regional differences may reflect geology and research/recovery history.</p>
+      <h3>Expected pattern</h3>
+      <p>Some regions may systematically preserve or recover different body parts.</p>
+      <h3>Why this experiment matters</h3>
+      <p>Bias-detection analysis.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E07 </td>
+   <td style="text-align:left;"> region_country </td>
+   <td style="text-align:left;"> region </td>
+   <td style="text-align:left;"> country + site_environment + degree_of_excavation </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 42 </td>
+   <td style="text-align:right;"> 0.1538861 </td>
+   <td style="text-align:left;"> mne_arms </td>
+   <td style="text-align:right;"> 0.1538861 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.0054836 </td>
+   <td style="text-align:right;"> 0.2289 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> group </th>
+   <th style="text-align:right;"> n_records </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> West Europe </td>
+   <td style="text-align:right;"> 271 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Central Europe </td>
+   <td style="text-align:right;"> 45 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> West Asia </td>
+   <td style="text-align:right;"> 42 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Southeast Asia </td>
+   <td style="text-align:right;"> 22 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Eastern Europe </td>
+   <td style="text-align:right;"> 10 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Europe </td>
+   <td style="text-align:right;"> 6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Other_small_groups </td>
+   <td style="text-align:right;"> 6 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> North America </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Oceania (South Pacific) </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> South America </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> feature </th>
+   <th style="text-align:right;"> n </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> H </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:right;"> eps2 </th>
+   <th style="text-align:right;"> p_fdr </th>
+   <th style="text-align:left;"> significant_fdr_05 </th>
+   <th style="text-align:left;"> effect </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> mne_arms </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 62.93943 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0e+00 </td>
+   <td style="text-align:right;"> 0.1538861 </td>
+   <td style="text-align:right;"> 0.0e+00 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_region_mean_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 49.34829 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 1e-07 </td>
+   <td style="text-align:right;"> 0.1255682 </td>
+   <td style="text-align:right;"> 1.8e-06 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_postcranial_total_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 50.76395 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 1e-07 </td>
+   <td style="text-align:right;"> 0.1241172 </td>
+   <td style="text-align:right;"> 1.8e-06 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_distal_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 49.39359 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 1e-07 </td>
+   <td style="text-align:right;"> 0.1207667 </td>
+   <td style="text-align:right;"> 1.8e-06 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_heip_evenness </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 46.77868 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 4e-07 </td>
+   <td style="text-align:right;"> 0.1190297 </td>
+   <td style="text-align:right;"> 2.7e-06 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> effective_sections_hill1 </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 46.77868 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 4e-07 </td>
+   <td style="text-align:right;"> 0.1190297 </td>
+   <td style="text-align:right;"> 2.7e-06 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_gini </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 46.76296 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 4e-07 </td>
+   <td style="text-align:right;"> 0.1189897 </td>
+   <td style="text-align:right;"> 2.7e-06 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 48.33602 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 2e-07 </td>
+   <td style="text-align:right;"> 0.1181810 </td>
+   <td style="text-align:right;"> 2.2e-06 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_dominance_of_region_means </td>
+   <td style="text-align:right;"> 394 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 45.79284 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 7e-07 </td>
+   <td style="text-align:right;"> 0.1165212 </td>
+   <td style="text-align:right;"> 3.3e-06 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> distal_appendicular_continuity_hm </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 46.44869 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 5e-07 </td>
+   <td style="text-align:right;"> 0.1135665 </td>
+   <td style="text-align:right;"> 2.8e-06 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> moderate </td>
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> group </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 67.28339 </td>
+   <td style="text-align:right;"> 0.0054836 </td>
+   <td style="text-align:right;"> 1.420389 </td>
+   <td style="text-align:right;"> 0.2289 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> country </td>
+   <td style="text-align:right;"> 20 </td>
+   <td style="text-align:right;"> 959.86898 </td>
+   <td style="text-align:right;"> 0.0782289 </td>
+   <td style="text-align:right;"> 2.026335 </td>
+   <td style="text-align:right;"> 0.0015 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> site_environment </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 24.85770 </td>
+   <td style="text-align:right;"> 0.0020259 </td>
+   <td style="text-align:right;"> 1.049519 </td>
+   <td style="text-align:right;"> 0.3206 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> degree_of_excavation </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 674.43002 </td>
+   <td style="text-align:right;"> 0.0549658 </td>
+   <td style="text-align:right;"> 9.491722 </td>
+   <td style="text-align:right;"> 0.0001 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Residual </td>
+   <td style="text-align:right;"> 375 </td>
+   <td style="text-align:right;"> 8881.81847 </td>
+   <td style="text-align:right;"> 0.7238646 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Total </td>
+   <td style="text-align:right;"> 409 </td>
+   <td style="text-align:right;"> 12270.00000 </td>
+   <td style="text-align:right;"> 1.0000000 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <iframe src="E07_region_country/plots/01_best_features_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <iframe src="E07_region_country/plots/02_composite_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <iframe src="E07_region_country/plots/03_pca_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E07_region_country
+      </p>
+    </section>
+    <section>
+      <hr/>
+      <h2>E08 - recovery_context</h2>
+      <h3>Hypothesis</h3>
+      <p>Recovery history affects the observed skeletal profile.</p>
+      <h3>Expected pattern</h3>
+      <p>More systematic excavation may recover more small/fragile elements.</p>
+      <h3>Why this experiment matters</h3>
+      <p>Recovery-bias control.</p>
+      <h3>Experiment summary</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> experiment_id </th>
+   <th style="text-align:left;"> experiment_name </th>
+   <th style="text-align:left;"> group_vars </th>
+   <th style="text-align:left;"> covariates </th>
+   <th style="text-align:right;"> n_records </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> n_features_tested </th>
+   <th style="text-align:right;"> n_fdr_significant </th>
+   <th style="text-align:right;"> max_eps2 </th>
+   <th style="text-align:left;"> top_feature </th>
+   <th style="text-align:right;"> top_feature_eps2 </th>
+   <th style="text-align:right;"> top_feature_p_fdr </th>
+   <th style="text-align:right;"> permanova_group_R2 </th>
+   <th style="text-align:right;"> permanova_group_p </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> E08 </td>
+   <td style="text-align:left;"> recovery_context </td>
+   <td style="text-align:left;"> degree_of_excavation + discovery_context </td>
+   <td style="text-align:left;"> count_type </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 50 </td>
+   <td style="text-align:right;"> 39 </td>
+   <td style="text-align:right;"> 0.1872419 </td>
+   <td style="text-align:left;"> mnau_proximal_appendicular_mean </td>
+   <td style="text-align:right;"> 0.1872419 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1143132 </td>
+   <td style="text-align:right;"> 1e-04 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Group sizes</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> group </th>
+   <th style="text-align:right;"> n_records </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> NA | Formal excavation </td>
+   <td style="text-align:right;"> 107 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Partial | Formal excavation </td>
+   <td style="text-align:right;"> 103 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Complete | Casual </td>
+   <td style="text-align:right;"> 79 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA | NA </td>
+   <td style="text-align:right;"> 60 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA | Casual </td>
+   <td style="text-align:right;"> 21 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Complete | Formal excavation </td>
+   <td style="text-align:right;"> 19 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA | Quarry </td>
+   <td style="text-align:right;"> 12 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Other_small_groups </td>
+   <td style="text-align:right;"> 5 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> NA | Formal excavations </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Partial | Formal </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Top 10 differential features</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> feature </th>
+   <th style="text-align:right;"> n </th>
+   <th style="text-align:right;"> n_groups </th>
+   <th style="text-align:right;"> H </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:right;"> eps2 </th>
+   <th style="text-align:right;"> p_fdr </th>
+   <th style="text-align:left;"> significant_fdr_05 </th>
+   <th style="text-align:left;"> effect </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> mnau_proximal_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 76.58192 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1872419 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_postcranial_total_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 73.73405 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1802789 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 73.26393 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1791294 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_limb_shaft_proxy_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 70.24473 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1717475 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_girdle_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 66.58016 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1627877 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_lower_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 64.76974 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1583612 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_upper_appendicular_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 63.68748 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1557151 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_arms </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 61.17148 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1495635 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_column_trunk_mean </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 60.87384 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1488358 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> mnau_legs </td>
+   <td style="text-align:right;"> 410 </td>
+   <td style="text-align:right;"> 10 </td>
+   <td style="text-align:right;"> 60.58781 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0.1481364 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:left;"> TRUE </td>
+   <td style="text-align:left;"> large </td>
+  </tr>
+</tbody>
+</table>
+      <h3>PERMANOVA</h3>
+      <table border='1'>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> term </th>
+   <th style="text-align:right;"> df </th>
+   <th style="text-align:right;"> sumsq </th>
+   <th style="text-align:right;"> R2 </th>
+   <th style="text-align:right;"> F </th>
+   <th style="text-align:right;"> p </th>
+   <th style="text-align:left;"> note </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> group </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:right;"> 1402.62303 </td>
+   <td style="text-align:right;"> 0.1143132 </td>
+   <td style="text-align:right;"> 5.743699 </td>
+   <td style="text-align:right;"> 0.0001 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> count_type </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 65.98116 </td>
+   <td style="text-align:right;"> 0.0053774 </td>
+   <td style="text-align:right;"> 2.431718 </td>
+   <td style="text-align:right;"> 0.0913 </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Residual </td>
+   <td style="text-align:right;"> 399 </td>
+   <td style="text-align:right;"> 10826.29103 </td>
+   <td style="text-align:right;"> 0.8823383 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Total </td>
+   <td style="text-align:right;"> 409 </td>
+   <td style="text-align:right;"> 12270.00000 </td>
+   <td style="text-align:right;"> 1.0000000 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> NA </td>
+  </tr>
+</tbody>
+</table>
+      <h3>Plots</h3>
+      <div>
+        <h4>1. Best three differential features, 3D Plotly</h4>
+        <iframe src="E08_recovery_context/plots/01_best_features_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>2. Composite mean axes, 3D Plotly</h4>
+        <iframe src="E08_recovery_context/plots/02_composite_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <div>
+        <h4>3. PCA scores, 3D Plotly</h4>
+        <iframe src="E08_recovery_context/plots/03_pca_3d.html" width="100%" height="650" style="border: 1px solid #CCCCCC;"></iframe>
+      </div>
+      <p>
+        <b>Full tables saved in: </b>
+        E08_recovery_context
+      </p>
+    </section>
+  </body>
+</html>
+</html>

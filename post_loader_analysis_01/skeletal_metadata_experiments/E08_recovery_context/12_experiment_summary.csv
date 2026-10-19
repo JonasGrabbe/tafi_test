@@ -1,0 +1,2 @@
+experiment_id,experiment_name,group_vars,covariates,n_records,n_groups,n_features_tested,n_fdr_significant,max_eps2,top_feature,top_feature_eps2,top_feature_p_fdr,permanova_group_R2,permanova_group_p
+E08,recovery_context,degree_of_excavation + discovery_context,count_type,151,8,50,16,0.18955098360934913,mnau_arms,0.18955098360934913,0.005339608699591354,0.1261582030155891,9e-4

@@ -1,0 +1,22 @@
+family,variable,default_for_taphonomy_target,role,present
+temporal,geological_period,TRUE,candidate,TRUE
+temporal,cultural_period,TRUE,candidate,TRUE
+temporal,culture_period_2,TRUE,candidate,TRUE
+temporal,start_date_cal_bp,TRUE,candidate,TRUE
+temporal,end_date_cal_bp,TRUE,candidate,TRUE
+temporal,mis_stage,TRUE,candidate,TRUE
+spatial,region,TRUE,candidate,TRUE
+spatial,country,TRUE,candidate,TRUE
+environment,site_environment,TRUE,main mutually-exclusive setting,TRUE
+environment,site_environment_detail,TRUE,hierarchical setting + subtype,TRUE
+biological,age_category,TRUE,candidate,TRUE
+biological,gender,TRUE,candidate,TRUE
+taxonomy,hominin_species,TRUE,candidate,TRUE
+recovery,degree_of_excavation,FALSE,optional sensitivity variable,TRUE
+recovery,discovery_context,FALSE,optional sensitivity variable,TRUE
+target_derived,taphonomic_context,FALSE,prediction target; exclude,TRUE
+target_derived,funerary_context,FALSE,nested target information; exclude,TRUE
+target_derived,funerary_subtype,FALSE,nested target information; exclude,TRUE
+target_derived,taphonomic_detail,FALSE,contains prediction target; exclude,TRUE
+superseded,karstic_system,FALSE,use site_environment hierarchy instead,TRUE
+superseded,open_air_site,FALSE,use site_environment hierarchy instead,TRUE

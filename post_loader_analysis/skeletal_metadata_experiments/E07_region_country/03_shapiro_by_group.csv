@@ -1,0 +1,501 @@
+feature,group,n,shapiro_p
+density_evenness,Central Europe,44,2.1194898807505752e-5
+density_evenness,Eastern Europe,10,0.00970913585398765
+density_evenness,Europe,6,0.11903742262536161
+density_evenness,North America,4,0.5681792864115663
+density_evenness,Oceania (South Pacific),2,NA
+density_evenness,Other_small_groups,6,0.404384837682699
+density_evenness,South America,2,NA
+density_evenness,Southeast Asia,21,NA
+density_evenness,West Asia,42,2.6753133282016215e-5
+density_evenness,West Europe,257,1.2428235901592042e-17
+lower_appendicular_evenness_refined,Central Europe,37,6.9602445968667666e-6
+lower_appendicular_evenness_refined,Eastern Europe,7,0.06657145801764125
+lower_appendicular_evenness_refined,Europe,6,0.04015876761081908
+lower_appendicular_evenness_refined,North America,4,0.19556711220166897
+lower_appendicular_evenness_refined,Oceania (South Pacific),2,NA
+lower_appendicular_evenness_refined,Other_small_groups,3,0.7693986369518827
+lower_appendicular_evenness_refined,South America,2,NA
+lower_appendicular_evenness_refined,Southeast Asia,4,NA
+lower_appendicular_evenness_refined,West Asia,34,4.212911789713285e-5
+lower_appendicular_evenness_refined,West Europe,192,9.93741749392616e-12
+mnau_heip_evenness,Central Europe,44,6.170569885814242e-5
+mnau_heip_evenness,Eastern Europe,10,0.004649579992512311
+mnau_heip_evenness,Europe,6,0.5512764506929025
+mnau_heip_evenness,North America,4,0.47720766572966683
+mnau_heip_evenness,Oceania (South Pacific),2,NA
+mnau_heip_evenness,Other_small_groups,6,0.01988250965120486
+mnau_heip_evenness,South America,2,NA
+mnau_heip_evenness,Southeast Asia,21,NA
+mnau_heip_evenness,West Asia,42,0.0058927590394671795
+mnau_heip_evenness,West Europe,257,1.9752892424911296e-12
+dominant_axial_share,Central Europe,45,0.006375844264867819
+dominant_axial_share,Eastern Europe,10,0.012469499921146208
+dominant_axial_share,Europe,6,0.5745055009569393
+dominant_axial_share,North America,4,0.25905887944990846
+dominant_axial_share,Oceania (South Pacific),2,NA
+dominant_axial_share,Other_small_groups,6,0.31524866217556813
+dominant_axial_share,South America,2,NA
+dominant_axial_share,Southeast Asia,22,7.489723111225453e-8
+dominant_axial_share,West Asia,42,0.008442604417866593
+dominant_axial_share,West Europe,271,4.3865826007577225e-13
+mne_cranial_share,Central Europe,45,2.0086441992263132e-8
+mne_cranial_share,Eastern Europe,10,7.718146396243658e-4
+mne_cranial_share,Europe,6,0.11314361254594214
+mne_cranial_share,North America,4,0.02230806454615308
+mne_cranial_share,Oceania (South Pacific),2,NA
+mne_cranial_share,Other_small_groups,6,0.04425843245202646
+mne_cranial_share,South America,2,NA
+mne_cranial_share,Southeast Asia,22,7.489536584471184e-8
+mne_cranial_share,West Asia,42,2.7205472337680057e-11
+mne_cranial_share,West Europe,271,1.0952523025877395e-23
+mnau_arms_legs_diff,Central Europe,45,7.547750060904617e-5
+mnau_arms_legs_diff,Eastern Europe,10,0.34696431410931394
+mnau_arms_legs_diff,Europe,6,0.21561153160945584
+mnau_arms_legs_diff,North America,4,0.2706242462410935
+mnau_arms_legs_diff,Oceania (South Pacific),2,NA
+mnau_arms_legs_diff,Other_small_groups,6,0.08298023140783557
+mnau_arms_legs_diff,South America,2,NA
+mnau_arms_legs_diff,Southeast Asia,22,9.873198827507784e-8
+mnau_arms_legs_diff,West Asia,42,0.09332013017963599
+mnau_arms_legs_diff,West Europe,271,5.452555933976615e-12
+distal_appendicular_continuity_hm,Central Europe,45,5.594207072226672e-9
+distal_appendicular_continuity_hm,Eastern Europe,10,0.002244692446221766
+distal_appendicular_continuity_hm,Europe,6,0.37983477827098716
+distal_appendicular_continuity_hm,North America,4,0.0863295082128347
+distal_appendicular_continuity_hm,Oceania (South Pacific),2,NA
+distal_appendicular_continuity_hm,Other_small_groups,6,2.0734008302576225e-5
+distal_appendicular_continuity_hm,South America,2,NA
+distal_appendicular_continuity_hm,Southeast Asia,22,NA
+distal_appendicular_continuity_hm,West Asia,42,1.2950630081127127e-8
+distal_appendicular_continuity_hm,West Europe,271,7.179486386472175e-26
+low_density_share,Central Europe,44,4.1830895712884615e-6
+low_density_share,Eastern Europe,10,0.017678055236660765
+low_density_share,Europe,6,0.7397684543594639
+low_density_share,North America,4,0.898821335358716
+low_density_share,Oceania (South Pacific),2,NA
+low_density_share,Other_small_groups,6,0.24264189878548065
+low_density_share,South America,2,NA
+low_density_share,Southeast Asia,21,NA
+low_density_share,West Asia,42,5.424311893045819e-5
+low_density_share,West Europe,257,3.961142068094781e-19
+appendicular_dominance_refined,Central Europe,39,4.335998953949604e-5
+appendicular_dominance_refined,Eastern Europe,7,0.10619500612234622
+appendicular_dominance_refined,Europe,6,0.007423304238769471
+appendicular_dominance_refined,North America,4,0.162247041879838
+appendicular_dominance_refined,Oceania (South Pacific),2,NA
+appendicular_dominance_refined,Other_small_groups,4,0.5935237405203044
+appendicular_dominance_refined,South America,2,NA
+appendicular_dominance_refined,Southeast Asia,4,NA
+appendicular_dominance_refined,West Asia,39,7.006162917179715e-5
+appendicular_dominance_refined,West Europe,207,1.8772237108084123e-14
+appendicular_dominance,Central Europe,39,4.335998953949604e-5
+appendicular_dominance,Eastern Europe,7,0.10619500612234622
+appendicular_dominance,Europe,6,0.007423304238769471
+appendicular_dominance,North America,4,0.162247041879838
+appendicular_dominance,Oceania (South Pacific),2,NA
+appendicular_dominance,Other_small_groups,4,0.5935237405203044
+appendicular_dominance,South America,2,NA
+appendicular_dominance,Southeast Asia,4,NA
+appendicular_dominance,West Asia,39,7.006162917179715e-5
+appendicular_dominance,West Europe,207,1.8772237108084123e-14
+density_adjusted_appendicular_axial_contrast,Central Europe,45,0.04509657906389932
+density_adjusted_appendicular_axial_contrast,Eastern Europe,10,0.612052683373076
+density_adjusted_appendicular_axial_contrast,Europe,6,0.3254035883423969
+density_adjusted_appendicular_axial_contrast,North America,4,0.7187615732838761
+density_adjusted_appendicular_axial_contrast,Oceania (South Pacific),2,NA
+density_adjusted_appendicular_axial_contrast,Other_small_groups,6,0.4980910292117132
+density_adjusted_appendicular_axial_contrast,South America,2,NA
+density_adjusted_appendicular_axial_contrast,Southeast Asia,22,2.8393455448124646e-7
+density_adjusted_appendicular_axial_contrast,West Asia,42,0.6636922309487872
+density_adjusted_appendicular_axial_contrast,West Europe,271,9.479985260832794e-10
+effective_sections_hill1,Central Europe,44,6.170569885814232e-5
+effective_sections_hill1,Eastern Europe,10,0.004649579992512335
+effective_sections_hill1,Europe,6,0.5512764506929044
+effective_sections_hill1,North America,4,0.47720766572966683
+effective_sections_hill1,Oceania (South Pacific),2,NA
+effective_sections_hill1,Other_small_groups,6,0.019882509651204822
+effective_sections_hill1,South America,2,NA
+effective_sections_hill1,Southeast Asia,21,NA
+effective_sections_hill1,West Asia,42,0.0058927590394669905
+effective_sections_hill1,West Europe,257,1.9752892424910302e-12
+mnau_axial_main_mean,Central Europe,45,3.2520892595078496e-9
+mnau_axial_main_mean,Eastern Europe,10,0.002302089777892019
+mnau_axial_main_mean,Europe,6,0.6527584699935357
+mnau_axial_main_mean,North America,4,0.3987591513865783
+mnau_axial_main_mean,Oceania (South Pacific),2,NA
+mnau_axial_main_mean,Other_small_groups,6,7.501534868912885e-4
+mnau_axial_main_mean,South America,2,NA
+mnau_axial_main_mean,Southeast Asia,22,NA
+mnau_axial_main_mean,West Asia,42,6.807248078010511e-6
+mnau_axial_main_mean,West Europe,271,1.5691252145092396e-21
+postcranial_dominance_refined,Central Europe,39,4.95310072820254e-5
+postcranial_dominance_refined,Eastern Europe,7,0.07686385850998809
+postcranial_dominance_refined,Europe,6,0.011071717612890407
+postcranial_dominance_refined,North America,4,0.319331574810089
+postcranial_dominance_refined,Oceania (South Pacific),2,NA
+postcranial_dominance_refined,Other_small_groups,4,0.9330921085943039
+postcranial_dominance_refined,South America,2,NA
+postcranial_dominance_refined,Southeast Asia,4,NA
+postcranial_dominance_refined,West Asia,40,2.310488327892681e-5
+postcranial_dominance_refined,West Europe,213,1.2921903075763358e-15
+mnau_arms,Central Europe,45,5.84752781220204e-7
+mnau_arms,Eastern Europe,10,0.0010685582256808952
+mnau_arms,Europe,6,0.3000513460829683
+mnau_arms,North America,4,0.8919783169741247
+mnau_arms,Oceania (South Pacific),2,NA
+mnau_arms,Other_small_groups,6,4.204600547238519e-4
+mnau_arms,South America,2,NA
+mnau_arms,Southeast Asia,22,NA
+mnau_arms,West Asia,42,5.9286600838574804e-5
+mnau_arms,West Europe,271,7.096484757839905e-18
+lower_appendicular_continuity_hm,Central Europe,45,3.8155228605352165e-9
+lower_appendicular_continuity_hm,Eastern Europe,10,9.799561030761242e-5
+lower_appendicular_continuity_hm,Europe,6,0.13477776446013023
+lower_appendicular_continuity_hm,North America,4,0.5816397219083677
+lower_appendicular_continuity_hm,Oceania (South Pacific),2,NA
+lower_appendicular_continuity_hm,Other_small_groups,6,2.073666173660093e-5
+lower_appendicular_continuity_hm,South America,2,NA
+lower_appendicular_continuity_hm,Southeast Asia,22,7.489595610203124e-8
+lower_appendicular_continuity_hm,West Asia,42,4.426827600382583e-7
+lower_appendicular_continuity_hm,West Europe,271,1.3418237150202506e-24
+mnau_arms_legs_logratio,Central Europe,45,2.9703376184031854e-9
+mnau_arms_legs_logratio,Eastern Europe,10,1.533144779942955e-4
+mnau_arms_legs_logratio,Europe,6,0.07638436378723391
+mnau_arms_legs_logratio,North America,4,0.9301773000259723
+mnau_arms_legs_logratio,Oceania (South Pacific),2,NA
+mnau_arms_legs_logratio,Other_small_groups,6,1.574954158208442e-4
+mnau_arms_legs_logratio,South America,2,NA
+mnau_arms_legs_logratio,Southeast Asia,22,2.5011859792004433e-8
+mnau_arms_legs_logratio,West Asia,42,2.9846016054425476e-7
+mnau_arms_legs_logratio,West Europe,271,4.7949247645594064e-23
+lower_appendicular_evenness,Central Europe,37,6.9602445968667666e-6
+lower_appendicular_evenness,Eastern Europe,7,0.06657145801764125
+lower_appendicular_evenness,Europe,6,0.04015876761081908
+lower_appendicular_evenness,North America,4,0.19556711220166897
+lower_appendicular_evenness,Oceania (South Pacific),2,NA
+lower_appendicular_evenness,Other_small_groups,3,0.7693986369518827
+lower_appendicular_evenness,South America,2,NA
+lower_appendicular_evenness,Southeast Asia,4,NA
+lower_appendicular_evenness,West Asia,34,4.212911789713285e-5
+lower_appendicular_evenness,West Europe,192,9.93741749392616e-12
+mnau_hands,Central Europe,45,2.330195644867258e-8
+mnau_hands,Eastern Europe,10,0.009252636022458117
+mnau_hands,Europe,6,0.407986739564576
+mnau_hands,North America,4,0.32017068784604985
+mnau_hands,Oceania (South Pacific),2,NA
+mnau_hands,Other_small_groups,6,NA
+mnau_hands,South America,2,NA
+mnau_hands,Southeast Asia,22,NA
+mnau_hands,West Asia,42,4.681922819024521e-6
+mnau_hands,West Europe,271,2.8831337555227296e-24
+mne_arms,Central Europe,45,1.9664738621541662e-12
+mne_arms,Eastern Europe,10,0.0010685582256808952
+mne_arms,Europe,6,0.025537280207668576
+mne_arms,North America,4,0.016588876242416558
+mne_arms,Oceania (South Pacific),2,NA
+mne_arms,Other_small_groups,6,2.250995308834525e-5
+mne_arms,South America,2,NA
+mne_arms,Southeast Asia,22,NA
+mne_arms,West Asia,42,5.9286600838574804e-5
+mne_arms,West Europe,271,1.0909296522086176e-31
+mnau_pelvic,Central Europe,45,1.8118085985994355e-8
+mnau_pelvic,Eastern Europe,10,5.925876013518414e-4
+mnau_pelvic,Europe,6,0.025066189718540584
+mnau_pelvic,North America,4,0.013955104807783034
+mnau_pelvic,Oceania (South Pacific),2,NA
+mnau_pelvic,Other_small_groups,6,NA
+mnau_pelvic,South America,2,NA
+mnau_pelvic,Southeast Asia,22,NA
+mnau_pelvic,West Asia,42,4.811117953088492e-6
+mnau_pelvic,West Europe,271,3.057159850099103e-20
+mnau_cv,Central Europe,44,3.3247803654824754e-4
+mnau_cv,Eastern Europe,10,0.008756245547778513
+mnau_cv,Europe,6,0.4644361240022993
+mnau_cv,North America,4,0.2935115797005021
+mnau_cv,Oceania (South Pacific),2,NA
+mnau_cv,Other_small_groups,6,0.35267201883815313
+mnau_cv,South America,2,NA
+mnau_cv,Southeast Asia,21,NA
+mnau_cv,West Asia,42,4.49307306266447e-4
+mnau_cv,West Europe,257,7.403583171563644e-15
+mnau_region_mean_evenness,Central Europe,44,6.207887286040403e-5
+mnau_region_mean_evenness,Eastern Europe,10,0.0374340319438189
+mnau_region_mean_evenness,Europe,6,0.029086889570036255
+mnau_region_mean_evenness,North America,4,0.17385398613148442
+mnau_region_mean_evenness,Oceania (South Pacific),2,NA
+mnau_region_mean_evenness,Other_small_groups,6,0.4004634335949142
+mnau_region_mean_evenness,South America,2,NA
+mnau_region_mean_evenness,Southeast Asia,21,2.127966376318819e-7
+mnau_region_mean_evenness,West Asia,42,1.683497433484721e-6
+mnau_region_mean_evenness,West Europe,257,1.7473111066043465e-17
+mnau_limb_shaft_proxy_mean,Central Europe,45,4.366673962337558e-6
+mnau_limb_shaft_proxy_mean,Eastern Europe,10,0.007662979829224834
+mnau_limb_shaft_proxy_mean,Europe,6,0.6285548663429785
+mnau_limb_shaft_proxy_mean,North America,4,0.3618761475900562
+mnau_limb_shaft_proxy_mean,Oceania (South Pacific),2,NA
+mnau_limb_shaft_proxy_mean,Other_small_groups,6,0.0021249779775391027
+mnau_limb_shaft_proxy_mean,South America,2,NA
+mnau_limb_shaft_proxy_mean,Southeast Asia,22,3.55650638518584e-8
+mnau_limb_shaft_proxy_mean,West Asia,42,0.005043201116403183
+mnau_limb_shaft_proxy_mean,West Europe,271,2.261790538396764e-15
+mnau_arms_to_legs_ratio,Central Europe,45,3.4426153865880156e-14
+mnau_arms_to_legs_ratio,Eastern Europe,10,0.0159609142967652
+mnau_arms_to_legs_ratio,Europe,6,0.0018758582585980512
+mnau_arms_to_legs_ratio,North America,4,0.4311611707972719
+mnau_arms_to_legs_ratio,Oceania (South Pacific),2,NA
+mnau_arms_to_legs_ratio,Other_small_groups,6,0.046697881044248955
+mnau_arms_to_legs_ratio,South America,2,NA
+mnau_arms_to_legs_ratio,Southeast Asia,22,6.578831039597651e-8
+mnau_arms_to_legs_ratio,West Asia,42,7.350914948075287e-13
+mnau_arms_to_legs_ratio,West Europe,271,2.563728336477589e-32
+mne_arms_to_legs_ratio,Central Europe,45,3.4407687893819526e-14
+mne_arms_to_legs_ratio,Eastern Europe,10,0.006194427923026306
+mne_arms_to_legs_ratio,Europe,6,0.0018754362655382497
+mne_arms_to_legs_ratio,North America,4,0.4311662696761879
+mne_arms_to_legs_ratio,Oceania (South Pacific),2,NA
+mne_arms_to_legs_ratio,Other_small_groups,6,0.03603303035084558
+mne_arms_to_legs_ratio,South America,2,NA
+mne_arms_to_legs_ratio,Southeast Asia,22,8.876439619706147e-8
+mne_arms_to_legs_ratio,West Asia,42,7.349090569591533e-13
+mne_arms_to_legs_ratio,West Europe,271,6.945677202240943e-32
+mnau_simpson_dominance,Central Europe,44,2.8984332306684142e-5
+mnau_simpson_dominance,Eastern Europe,10,0.006769164350973674
+mnau_simpson_dominance,Europe,6,0.1565009000375011
+mnau_simpson_dominance,North America,4,0.10351721843556268
+mnau_simpson_dominance,Oceania (South Pacific),2,NA
+mnau_simpson_dominance,Other_small_groups,6,0.5813430753679399
+mnau_simpson_dominance,South America,2,NA
+mnau_simpson_dominance,Southeast Asia,21,NA
+mnau_simpson_dominance,West Asia,42,1.7509420892056322e-6
+mnau_simpson_dominance,West Europe,257,6.377418967975996e-18
+mnau_gini,Central Europe,44,4.071954301690309e-5
+mnau_gini,Eastern Europe,10,0.004731912874308243
+mnau_gini,Europe,6,0.6632245792430604
+mnau_gini,North America,4,0.6143642299522656
+mnau_gini,Oceania (South Pacific),2,NA
+mnau_gini,Other_small_groups,6,0.008569119558995857
+mnau_gini,South America,2,NA
+mnau_gini,Southeast Asia,21,NA
+mnau_gini,West Asia,42,0.015810038584708877
+mnau_gini,West Europe,257,4.2107524951332334e-12
+mnau_dominance_of_region_means,Central Europe,44,3.443920535266885e-4
+mnau_dominance_of_region_means,Eastern Europe,10,0.03580939479986552
+mnau_dominance_of_region_means,Europe,6,0.17397140503478226
+mnau_dominance_of_region_means,North America,4,0.21133297990780148
+mnau_dominance_of_region_means,Oceania (South Pacific),2,NA
+mnau_dominance_of_region_means,Other_small_groups,6,0.45952493118732846
+mnau_dominance_of_region_means,South America,2,NA
+mnau_dominance_of_region_means,Southeast Asia,21,NA
+mnau_dominance_of_region_means,West Asia,42,3.592429347188279e-5
+mnau_dominance_of_region_means,West Europe,257,7.912233733426027e-16
+mnau_inverse_simpson,Central Europe,44,2.61602599352185e-5
+mnau_inverse_simpson,Eastern Europe,10,0.0038015184650042246
+mnau_inverse_simpson,Europe,6,0.6585534785823512
+mnau_inverse_simpson,North America,4,0.7105983753076552
+mnau_inverse_simpson,Oceania (South Pacific),2,NA
+mnau_inverse_simpson,Other_small_groups,6,0.004342520812104788
+mnau_inverse_simpson,South America,2,NA
+mnau_inverse_simpson,Southeast Asia,21,NA
+mnau_inverse_simpson,West Asia,42,0.01227299149997685
+mnau_inverse_simpson,West Europe,257,2.52737787795295e-12
+mnau_shoulder,Central Europe,45,1.8241300593229806e-8
+mnau_shoulder,Eastern Europe,10,0.0022782775625821107
+mnau_shoulder,Europe,6,0.3612699624590424
+mnau_shoulder,North America,4,0.9694236841960833
+mnau_shoulder,Oceania (South Pacific),2,NA
+mnau_shoulder,Other_small_groups,6,0.01881746304613114
+mnau_shoulder,South America,2,NA
+mnau_shoulder,Southeast Asia,22,NA
+mnau_shoulder,West Asia,42,5.258864136018673e-6
+mnau_shoulder,West Europe,271,1.1411276391729218e-19
+mnau_vertebrae_to_thorax_ratio,Central Europe,45,2.1916088984579516e-10
+mnau_vertebrae_to_thorax_ratio,Eastern Europe,10,1.3501332520044417e-4
+mnau_vertebrae_to_thorax_ratio,Europe,6,2.0838663772571036e-5
+mnau_vertebrae_to_thorax_ratio,North America,4,0.1903249962475723
+mnau_vertebrae_to_thorax_ratio,Oceania (South Pacific),2,NA
+mnau_vertebrae_to_thorax_ratio,Other_small_groups,6,2.1068665119999464e-5
+mnau_vertebrae_to_thorax_ratio,South America,2,NA
+mnau_vertebrae_to_thorax_ratio,Southeast Asia,22,NA
+mnau_vertebrae_to_thorax_ratio,West Asia,42,2.2433943220491694e-13
+mnau_vertebrae_to_thorax_ratio,West Europe,271,1.1117239041443962e-30
+mne_vertebrae_to_thorax_ratio,Central Europe,45,2.1914722810891222e-10
+mne_vertebrae_to_thorax_ratio,Eastern Europe,10,3.5261711460343926e-4
+mne_vertebrae_to_thorax_ratio,Europe,6,2.0729380809710226e-5
+mne_vertebrae_to_thorax_ratio,North America,4,0.19034804376969916
+mne_vertebrae_to_thorax_ratio,Oceania (South Pacific),2,NA
+mne_vertebrae_to_thorax_ratio,Other_small_groups,6,2.073009696449655e-5
+mne_vertebrae_to_thorax_ratio,South America,2,NA
+mne_vertebrae_to_thorax_ratio,Southeast Asia,22,NA
+mne_vertebrae_to_thorax_ratio,West Asia,42,2.2430262190005378e-13
+mne_vertebrae_to_thorax_ratio,West Europe,271,3.01053465617233e-30
+all_sections_dominance,Central Europe,44,1.0590927123379419e-4
+all_sections_dominance,Eastern Europe,10,0.004952312198071351
+all_sections_dominance,Europe,6,0.5745075646693716
+all_sections_dominance,North America,4,0.2590591393186486
+all_sections_dominance,Oceania (South Pacific),2,NA
+all_sections_dominance,Other_small_groups,6,0.31525128322355334
+all_sections_dominance,South America,2,NA
+all_sections_dominance,Southeast Asia,21,NA
+all_sections_dominance,West Asia,42,1.731251473491373e-4
+all_sections_dominance,West Europe,257,4.798724509953423e-15
+mnau_evenness_minus_dominance,Central Europe,44,2.403525996234963e-4
+mnau_evenness_minus_dominance,Eastern Europe,10,0.007250781827880764
+mnau_evenness_minus_dominance,Europe,6,0.4530742021233846
+mnau_evenness_minus_dominance,North America,4,0.1718110453851781
+mnau_evenness_minus_dominance,Oceania (South Pacific),2,NA
+mnau_evenness_minus_dominance,Other_small_groups,6,0.41227645650502304
+mnau_evenness_minus_dominance,South America,2,NA
+mnau_evenness_minus_dominance,Southeast Asia,21,NA
+mnau_evenness_minus_dominance,West Asia,42,1.365006688422187e-4
+mnau_evenness_minus_dominance,West Europe,257,2.0917264030019755e-15
+dominance_gap_all,Central Europe,44,1.5690508925641586e-5
+dominance_gap_all,Eastern Europe,10,0.010316847846929832
+dominance_gap_all,Europe,6,0.549941005896106
+dominance_gap_all,North America,4,0.9927088938624379
+dominance_gap_all,Oceania (South Pacific),2,NA
+dominance_gap_all,Other_small_groups,6,0.5529341127503927
+dominance_gap_all,South America,2,NA
+dominance_gap_all,Southeast Asia,21,NA
+dominance_gap_all,West Asia,42,4.569016766865326e-6
+dominance_gap_all,West Europe,257,2.8272531039757664e-16
+low_density_axial_survival,Central Europe,45,3.2520892595078665e-9
+low_density_axial_survival,Eastern Europe,10,0.002302089777892019
+low_density_axial_survival,Europe,6,0.7214468630813463
+low_density_axial_survival,North America,4,0.3987591513865783
+low_density_axial_survival,Oceania (South Pacific),2,NA
+low_density_axial_survival,Other_small_groups,6,7.501534868912885e-4
+low_density_axial_survival,South America,2,NA
+low_density_axial_survival,Southeast Asia,22,NA
+low_density_axial_survival,West Asia,42,5.38836345045417e-7
+low_density_axial_survival,West Europe,271,1.0791702062132602e-24
+mnau_top2_share_mcnaughton,Central Europe,44,1.852388215849497e-5
+mnau_top2_share_mcnaughton,Eastern Europe,10,0.0037261030971519633
+mnau_top2_share_mcnaughton,Europe,6,0.5595054568145376
+mnau_top2_share_mcnaughton,North America,4,0.402515358836736
+mnau_top2_share_mcnaughton,Oceania (South Pacific),2,NA
+mnau_top2_share_mcnaughton,Other_small_groups,6,0.011262059776990626
+mnau_top2_share_mcnaughton,South America,2,NA
+mnau_top2_share_mcnaughton,Southeast Asia,21,NA
+mnau_top2_share_mcnaughton,West Asia,42,0.002605692161604281
+mnau_top2_share_mcnaughton,West Europe,257,5.751701241411123e-14
+mnau_legs,Central Europe,45,2.2494041070169557e-6
+mnau_legs,Eastern Europe,10,0.03312110344528644
+mnau_legs,Europe,6,0.44037276671589354
+mnau_legs,North America,4,0.9443717590984981
+mnau_legs,Oceania (South Pacific),2,NA
+mnau_legs,Other_small_groups,6,0.006531751865700559
+mnau_legs,South America,2,NA
+mnau_legs,Southeast Asia,22,1.1953103198919506e-7
+mnau_legs,West Asia,42,3.7623250954747366e-4
+mnau_legs,West Europe,271,1.3704977076701012e-16
+mnau_simpson_evenness,Central Europe,44,2.6160259935218e-5
+mnau_simpson_evenness,Eastern Europe,10,0.0038015184650042246
+mnau_simpson_evenness,Europe,6,0.6585534785823512
+mnau_simpson_evenness,North America,4,0.7105983753076552
+mnau_simpson_evenness,Oceania (South Pacific),2,NA
+mnau_simpson_evenness,Other_small_groups,6,0.004342520812104793
+mnau_simpson_evenness,South America,2,NA
+mnau_simpson_evenness,Southeast Asia,21,NA
+mnau_simpson_evenness,West Asia,42,0.01227299149997723
+mnau_simpson_evenness,West Europe,257,2.5273778779529185e-12
+mnau_foot,Central Europe,45,7.458826956757056e-9
+mnau_foot,Eastern Europe,10,0.003580573307729145
+mnau_foot,Europe,6,0.34393340243463677
+mnau_foot,North America,4,0.532184758323942
+mnau_foot,Oceania (South Pacific),2,NA
+mnau_foot,Other_small_groups,6,2.405955664618774e-5
+mnau_foot,South America,2,NA
+mnau_foot,Southeast Asia,22,NA
+mnau_foot,West Asia,42,4.5872213742107304e-7
+mnau_foot,West Europe,271,8.553935227430119e-25
+mnau_postcranial_total_mean,Central Europe,45,1.0579266012988947e-6
+mnau_postcranial_total_mean,Eastern Europe,10,0.008369190447848335
+mnau_postcranial_total_mean,Europe,6,0.13719015942729315
+mnau_postcranial_total_mean,North America,4,0.6218300837792552
+mnau_postcranial_total_mean,Oceania (South Pacific),2,NA
+mnau_postcranial_total_mean,Other_small_groups,6,0.008078946998525066
+mnau_postcranial_total_mean,South America,2,NA
+mnau_postcranial_total_mean,Southeast Asia,22,3.55650638518584e-8
+mnau_postcranial_total_mean,West Asia,42,0.0023379166315229435
+mnau_postcranial_total_mean,West Europe,271,1.8892108364400885e-15
+mnau_column_trunk_mean,Central Europe,45,3.590139453304388e-8
+mnau_column_trunk_mean,Eastern Europe,10,0.0017950848716024859
+mnau_column_trunk_mean,Europe,6,0.19111213230532667
+mnau_column_trunk_mean,North America,4,0.365793911576841
+mnau_column_trunk_mean,Oceania (South Pacific),2,NA
+mnau_column_trunk_mean,Other_small_groups,6,2.5060126447947243e-4
+mnau_column_trunk_mean,South America,2,NA
+mnau_column_trunk_mean,Southeast Asia,22,NA
+mnau_column_trunk_mean,West Asia,42,6.327597459601411e-5
+mnau_column_trunk_mean,West Europe,271,1.0647109224135132e-18
+mnau_appendicular_mean,Central Europe,45,2.579692724711502e-6
+mnau_appendicular_mean,Eastern Europe,10,0.024285808658171155
+mnau_appendicular_mean,Europe,6,0.14778491330077784
+mnau_appendicular_mean,North America,4,0.33540379206066917
+mnau_appendicular_mean,Oceania (South Pacific),2,NA
+mnau_appendicular_mean,Other_small_groups,6,0.012379246921725017
+mnau_appendicular_mean,South America,2,NA
+mnau_appendicular_mean,Southeast Asia,22,3.556506385185859e-8
+mnau_appendicular_mean,West Asia,42,0.012766815742514172
+mnau_appendicular_mean,West Europe,271,2.0461062868016837e-15
+mnau_upper_appendicular_mean,Central Europe,45,2.8612081541294406e-6
+mnau_upper_appendicular_mean,Eastern Europe,10,0.012072562321559696
+mnau_upper_appendicular_mean,Europe,6,0.07723581525205656
+mnau_upper_appendicular_mean,North America,4,0.9851496896293025
+mnau_upper_appendicular_mean,Oceania (South Pacific),2,NA
+mnau_upper_appendicular_mean,Other_small_groups,6,0.045619563693270276
+mnau_upper_appendicular_mean,South America,2,NA
+mnau_upper_appendicular_mean,Southeast Asia,22,NA
+mnau_upper_appendicular_mean,West Asia,42,0.004755607384512304
+mnau_upper_appendicular_mean,West Europe,271,1.0991890020181429e-16
+mnau_lower_appendicular_mean,Central Europe,45,2.042264382298931e-6
+mnau_lower_appendicular_mean,Eastern Europe,10,0.017445212860645314
+mnau_lower_appendicular_mean,Europe,6,0.21138154383346475
+mnau_lower_appendicular_mean,North America,4,0.3482156361823535
+mnau_lower_appendicular_mean,Oceania (South Pacific),2,NA
+mnau_lower_appendicular_mean,Other_small_groups,6,0.0012392469973141315
+mnau_lower_appendicular_mean,South America,2,NA
+mnau_lower_appendicular_mean,Southeast Asia,22,1.1953103198919506e-7
+mnau_lower_appendicular_mean,West Asia,42,0.002320594714178165
+mnau_lower_appendicular_mean,West Europe,271,5.492462802339055e-16
+mnau_girdle_mean,Central Europe,45,1.1567498607137342e-7
+mnau_girdle_mean,Eastern Europe,10,0.0015905903794411677
+mnau_girdle_mean,Europe,6,0.08784916501415506
+mnau_girdle_mean,North America,4,0.9771995017211855
+mnau_girdle_mean,Oceania (South Pacific),2,NA
+mnau_girdle_mean,Other_small_groups,6,0.06499648316909956
+mnau_girdle_mean,South America,2,NA
+mnau_girdle_mean,Southeast Asia,22,NA
+mnau_girdle_mean,West Asia,42,7.940379595279407e-5
+mnau_girdle_mean,West Europe,271,2.0717208125341775e-17
+mnau_distal_appendicular_mean,Central Europe,45,3.0369867772422746e-8
+mnau_distal_appendicular_mean,Eastern Europe,10,0.0056356057752298926
+mnau_distal_appendicular_mean,Europe,6,0.3875468319901555
+mnau_distal_appendicular_mean,North America,4,0.30084946269243096
+mnau_distal_appendicular_mean,Oceania (South Pacific),2,NA
+mnau_distal_appendicular_mean,Other_small_groups,6,2.2198308106534325e-5
+mnau_distal_appendicular_mean,South America,2,NA
+mnau_distal_appendicular_mean,Southeast Asia,22,NA
+mnau_distal_appendicular_mean,West Asia,42,6.549783830977407e-6
+mnau_distal_appendicular_mean,West Europe,271,1.9049698329624948e-23
+mnau_proximal_appendicular_mean,Central Europe,45,2.9938012876374365e-6
+mnau_proximal_appendicular_mean,Eastern Europe,10,0.00355359143238633
+mnau_proximal_appendicular_mean,Europe,6,0.2687342369090735
+mnau_proximal_appendicular_mean,North America,4,0.6958589382928813
+mnau_proximal_appendicular_mean,Oceania (South Pacific),2,NA
+mnau_proximal_appendicular_mean,Other_small_groups,6,0.03397291582073671
+mnau_proximal_appendicular_mean,South America,2,NA
+mnau_proximal_appendicular_mean,Southeast Asia,22,3.55650638518584e-8
+mnau_proximal_appendicular_mean,West Asia,42,0.0028752758195822216
+mnau_proximal_appendicular_mean,West Europe,271,1.745517523225298e-15
+low_density_survival_index,Central Europe,45,1.0329384402806653e-7
+low_density_survival_index,Eastern Europe,10,0.002675011772101928
+low_density_survival_index,Europe,6,0.2985578580879138
+low_density_survival_index,North America,4,0.9954363565583083
+low_density_survival_index,Oceania (South Pacific),2,NA
+low_density_survival_index,Other_small_groups,6,0.12124572375873013
+low_density_survival_index,South America,2,NA
+low_density_survival_index,Southeast Asia,22,NA
+low_density_survival_index,West Asia,42,1.7403939757119042e-5
+low_density_survival_index,West Europe,271,2.0603263993729942e-20

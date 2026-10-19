@@ -1,0 +1,301 @@
+feature,group,n,shapiro_p
+density_evenness,Karstic | Cave,102,2.4545400908469575e-9
+density_evenness,Karstic | Open air,2,NA
+density_evenness,Karstic | Rockshelter,17,0.0012458644872019198
+density_evenness,Open air,25,8.863217037364286e-5
+density_evenness,Other_small_groups,1,NA
+density_evenness,missing,2,NA
+lower_appendicular_evenness_refined,Karstic | Cave,88,5.820366710217946e-7
+lower_appendicular_evenness_refined,Karstic | Open air,2,NA
+lower_appendicular_evenness_refined,Karstic | Rockshelter,17,0.005278096286777216
+lower_appendicular_evenness_refined,Open air,13,0.0026966379142441704
+lower_appendicular_evenness_refined,Other_small_groups,1,NA
+lower_appendicular_evenness_refined,missing,2,NA
+mnau_heip_evenness,Karstic | Cave,102,1.7100014772927367e-5
+mnau_heip_evenness,Karstic | Open air,2,NA
+mnau_heip_evenness,Karstic | Rockshelter,17,0.010021131541588478
+mnau_heip_evenness,Open air,25,3.8247146093946444e-5
+mnau_heip_evenness,Other_small_groups,1,NA
+mnau_heip_evenness,missing,2,NA
+dominant_axial_share,Karstic | Cave,104,5.8696146291192995e-5
+dominant_axial_share,Karstic | Open air,2,NA
+dominant_axial_share,Karstic | Rockshelter,17,0.0035763594764049765
+dominant_axial_share,Open air,25,2.0827356722213653e-4
+dominant_axial_share,Other_small_groups,1,NA
+dominant_axial_share,missing,2,NA
+mne_cranial_share,Karstic | Cave,104,2.4807332179159883e-14
+mne_cranial_share,Karstic | Open air,2,NA
+mne_cranial_share,Karstic | Rockshelter,17,4.5519399306848086e-6
+mne_cranial_share,Open air,25,1.97613703251366e-5
+mne_cranial_share,Other_small_groups,1,NA
+mne_cranial_share,missing,2,NA
+mnau_arms_legs_diff,Karstic | Cave,104,9.800467779534637e-9
+mnau_arms_legs_diff,Karstic | Open air,2,NA
+mnau_arms_legs_diff,Karstic | Rockshelter,17,0.17992589096930076
+mnau_arms_legs_diff,Open air,25,5.22154117456297e-4
+mnau_arms_legs_diff,Other_small_groups,1,NA
+mnau_arms_legs_diff,missing,2,NA
+distal_appendicular_continuity_hm,Karstic | Cave,104,3.053446028817342e-14
+distal_appendicular_continuity_hm,Karstic | Open air,2,NA
+distal_appendicular_continuity_hm,Karstic | Rockshelter,17,2.710171981054181e-4
+distal_appendicular_continuity_hm,Open air,25,1.704469772246747e-8
+distal_appendicular_continuity_hm,Other_small_groups,1,NA
+distal_appendicular_continuity_hm,missing,2,NA
+low_density_share,Karstic | Cave,102,6.026047609313179e-8
+low_density_share,Karstic | Open air,2,NA
+low_density_share,Karstic | Rockshelter,17,0.0501620267195329
+low_density_share,Open air,25,6.50453048682344e-5
+low_density_share,Other_small_groups,1,NA
+low_density_share,missing,2,NA
+appendicular_dominance_refined,Karstic | Cave,92,4.4205697549021635e-8
+appendicular_dominance_refined,Karstic | Open air,2,NA
+appendicular_dominance_refined,Karstic | Rockshelter,17,4.841346620345502e-4
+appendicular_dominance_refined,Open air,14,0.013307216796270685
+appendicular_dominance_refined,Other_small_groups,1,NA
+appendicular_dominance_refined,missing,2,NA
+appendicular_dominance,Karstic | Cave,92,4.4205697549021635e-8
+appendicular_dominance,Karstic | Open air,2,NA
+appendicular_dominance,Karstic | Rockshelter,17,4.841346620345502e-4
+appendicular_dominance,Open air,14,0.013307216796270685
+appendicular_dominance,Other_small_groups,1,NA
+appendicular_dominance,missing,2,NA
+density_adjusted_appendicular_axial_contrast,Karstic | Cave,104,2.2857375554361317e-8
+density_adjusted_appendicular_axial_contrast,Karstic | Open air,2,NA
+density_adjusted_appendicular_axial_contrast,Karstic | Rockshelter,17,0.6488779150089224
+density_adjusted_appendicular_axial_contrast,Open air,25,0.03612456452635195
+density_adjusted_appendicular_axial_contrast,Other_small_groups,1,NA
+density_adjusted_appendicular_axial_contrast,missing,2,NA
+effective_sections_hill1,Karstic | Cave,102,1.7100014772926242e-5
+effective_sections_hill1,Karstic | Open air,2,NA
+effective_sections_hill1,Karstic | Rockshelter,17,0.010021131541588369
+effective_sections_hill1,Open air,25,3.8247146093946444e-5
+effective_sections_hill1,Other_small_groups,1,NA
+effective_sections_hill1,missing,2,NA
+mnau_axial_main_mean,Karstic | Cave,104,9.017451454590518e-15
+mnau_axial_main_mean,Karstic | Open air,2,NA
+mnau_axial_main_mean,Karstic | Rockshelter,17,0.0031153680317923373
+mnau_axial_main_mean,Open air,25,2.882004395225005e-7
+mnau_axial_main_mean,Other_small_groups,1,NA
+mnau_axial_main_mean,missing,2,NA
+postcranial_dominance_refined,Karstic | Cave,92,7.721944217314748e-9
+postcranial_dominance_refined,Karstic | Open air,2,NA
+postcranial_dominance_refined,Karstic | Rockshelter,17,4.057789416570742e-4
+postcranial_dominance_refined,Open air,14,0.00625729471927334
+postcranial_dominance_refined,Other_small_groups,1,NA
+postcranial_dominance_refined,missing,2,NA
+mnau_arms,Karstic | Cave,104,2.2863868185305123e-10
+mnau_arms,Karstic | Open air,2,NA
+mnau_arms,Karstic | Rockshelter,17,0.02143255722205627
+mnau_arms,Open air,25,8.324628165727556e-6
+mnau_arms,Other_small_groups,1,NA
+mnau_arms,missing,2,NA
+lower_appendicular_continuity_hm,Karstic | Cave,104,1.9990020763148515e-14
+lower_appendicular_continuity_hm,Karstic | Open air,2,NA
+lower_appendicular_continuity_hm,Karstic | Rockshelter,17,5.082884315761019e-4
+lower_appendicular_continuity_hm,Open air,25,1.0605272793211762e-7
+lower_appendicular_continuity_hm,Other_small_groups,1,NA
+lower_appendicular_continuity_hm,missing,2,NA
+mnau_arms_legs_logratio,Karstic | Cave,104,2.569460610254745e-14
+mnau_arms_legs_logratio,Karstic | Open air,2,NA
+mnau_arms_legs_logratio,Karstic | Rockshelter,17,3.127917200169755e-6
+mnau_arms_legs_logratio,Open air,25,1.5013095086337586e-8
+mnau_arms_legs_logratio,Other_small_groups,1,NA
+mnau_arms_legs_logratio,missing,2,NA
+lower_appendicular_evenness,Karstic | Cave,88,5.820366710217946e-7
+lower_appendicular_evenness,Karstic | Open air,2,NA
+lower_appendicular_evenness,Karstic | Rockshelter,17,0.005278096286777216
+lower_appendicular_evenness,Open air,13,0.0026966379142441704
+lower_appendicular_evenness,Other_small_groups,1,NA
+lower_appendicular_evenness,missing,2,NA
+mnau_hands,Karstic | Cave,104,3.8444361831683376e-14
+mnau_hands,Karstic | Open air,2,NA
+mnau_hands,Karstic | Rockshelter,17,0.001443269296200288
+mnau_hands,Open air,25,8.349037415651332e-9
+mnau_hands,Other_small_groups,1,NA
+mnau_hands,missing,2,NA
+mne_arms,Karstic | Cave,104,9.669408181983376e-19
+mne_arms,Karstic | Open air,2,NA
+mne_arms,Karstic | Rockshelter,17,1.4383508043407915e-6
+mne_arms,Open air,25,3.511313842243517e-10
+mne_arms,Other_small_groups,1,NA
+mne_arms,missing,2,NA
+mnau_pelvic,Karstic | Cave,104,3.067625937213413e-12
+mnau_pelvic,Karstic | Open air,2,NA
+mnau_pelvic,Karstic | Rockshelter,17,0.001339177439543415
+mnau_pelvic,Open air,25,3.2302794875701094e-7
+mnau_pelvic,Other_small_groups,1,NA
+mnau_pelvic,missing,2,NA
+mnau_cv,Karstic | Cave,102,1.8905440193063028e-6
+mnau_cv,Karstic | Open air,2,NA
+mnau_cv,Karstic | Rockshelter,17,6.136617339087741e-4
+mnau_cv,Open air,25,1.1372988017754301e-4
+mnau_cv,Other_small_groups,1,NA
+mnau_cv,missing,2,NA
+mnau_region_mean_evenness,Karstic | Cave,102,2.6734040848049356e-10
+mnau_region_mean_evenness,Karstic | Open air,2,NA
+mnau_region_mean_evenness,Karstic | Rockshelter,17,9.553150417842613e-5
+mnau_region_mean_evenness,Open air,25,5.8232968298336404e-5
+mnau_region_mean_evenness,Other_small_groups,1,NA
+mnau_region_mean_evenness,missing,2,NA
+mnau_limb_shaft_proxy_mean,Karstic | Cave,104,7.825122530377071e-9
+mnau_limb_shaft_proxy_mean,Karstic | Open air,2,NA
+mnau_limb_shaft_proxy_mean,Karstic | Rockshelter,17,0.06404533983862272
+mnau_limb_shaft_proxy_mean,Open air,25,1.0975339507197706e-5
+mnau_limb_shaft_proxy_mean,Other_small_groups,1,NA
+mnau_limb_shaft_proxy_mean,missing,2,NA
+mnau_arms_to_legs_ratio,Karstic | Cave,104,2.0660118454105546e-21
+mnau_arms_to_legs_ratio,Karstic | Open air,2,NA
+mnau_arms_to_legs_ratio,Karstic | Rockshelter,17,8.297917504492947e-7
+mnau_arms_to_legs_ratio,Open air,25,5.448224253840751e-7
+mnau_arms_to_legs_ratio,Other_small_groups,1,NA
+mnau_arms_to_legs_ratio,missing,2,NA
+mne_arms_to_legs_ratio,Karstic | Cave,104,4.8574186133078404e-21
+mne_arms_to_legs_ratio,Karstic | Open air,2,NA
+mne_arms_to_legs_ratio,Karstic | Rockshelter,17,8.77026216658035e-7
+mne_arms_to_legs_ratio,Open air,25,4.242129202262807e-6
+mne_arms_to_legs_ratio,Other_small_groups,1,NA
+mne_arms_to_legs_ratio,missing,2,NA
+mnau_simpson_dominance,Karstic | Cave,102,3.0043303774320833e-9
+mnau_simpson_dominance,Karstic | Open air,2,NA
+mnau_simpson_dominance,Karstic | Rockshelter,17,7.939412438501198e-5
+mnau_simpson_dominance,Open air,25,6.69522185058615e-5
+mnau_simpson_dominance,Other_small_groups,1,NA
+mnau_simpson_dominance,missing,2,NA
+mnau_gini,Karstic | Cave,102,1.577184072533352e-5
+mnau_gini,Karstic | Open air,2,NA
+mnau_gini,Karstic | Rockshelter,17,0.03199445786932075
+mnau_gini,Open air,25,3.848679729749254e-5
+mnau_gini,Other_small_groups,1,NA
+mnau_gini,missing,2,NA
+mnau_dominance_of_region_means,Karstic | Cave,102,3.097086050034401e-8
+mnau_dominance_of_region_means,Karstic | Open air,2,NA
+mnau_dominance_of_region_means,Karstic | Rockshelter,17,3.3458432924146116e-4
+mnau_dominance_of_region_means,Open air,25,9.53356631360126e-5
+mnau_dominance_of_region_means,Other_small_groups,1,NA
+mnau_dominance_of_region_means,missing,2,NA
+mnau_inverse_simpson,Karstic | Cave,102,3.2313445878589066e-6
+mnau_inverse_simpson,Karstic | Open air,2,NA
+mnau_inverse_simpson,Karstic | Rockshelter,17,0.018202996960472687
+mnau_inverse_simpson,Open air,25,2.797970094903953e-5
+mnau_inverse_simpson,Other_small_groups,1,NA
+mnau_inverse_simpson,missing,2,NA
+mnau_shoulder,Karstic | Cave,104,1.5975122986153388e-10
+mnau_shoulder,Karstic | Open air,2,NA
+mnau_shoulder,Karstic | Rockshelter,17,0.009864574493356289
+mnau_shoulder,Open air,25,1.8563150740862624e-6
+mnau_shoulder,Other_small_groups,1,NA
+mnau_shoulder,missing,2,NA
+mnau_vertebrae_to_thorax_ratio,Karstic | Cave,104,2.74855017757065e-21
+mnau_vertebrae_to_thorax_ratio,Karstic | Open air,2,NA
+mnau_vertebrae_to_thorax_ratio,Karstic | Rockshelter,17,5.377185237325856e-8
+mnau_vertebrae_to_thorax_ratio,Open air,25,1.2140555178719607e-10
+mnau_vertebrae_to_thorax_ratio,Other_small_groups,1,NA
+mnau_vertebrae_to_thorax_ratio,missing,2,NA
+mne_vertebrae_to_thorax_ratio,Karstic | Cave,104,9.130680020604578e-21
+mne_vertebrae_to_thorax_ratio,Karstic | Open air,2,NA
+mne_vertebrae_to_thorax_ratio,Karstic | Rockshelter,17,1.1274273467298225e-6
+mne_vertebrae_to_thorax_ratio,Open air,25,1.213543896649776e-10
+mne_vertebrae_to_thorax_ratio,Other_small_groups,1,NA
+mne_vertebrae_to_thorax_ratio,missing,2,NA
+all_sections_dominance,Karstic | Cave,102,1.3719207719954996e-6
+all_sections_dominance,Karstic | Open air,2,NA
+all_sections_dominance,Karstic | Rockshelter,17,5.928984852107258e-4
+all_sections_dominance,Open air,25,1.2163684479509271e-4
+all_sections_dominance,Other_small_groups,1,NA
+all_sections_dominance,missing,2,NA
+mnau_evenness_minus_dominance,Karstic | Cave,102,5.337870950796128e-7
+mnau_evenness_minus_dominance,Karstic | Open air,2,NA
+mnau_evenness_minus_dominance,Karstic | Rockshelter,17,3.405480522696261e-4
+mnau_evenness_minus_dominance,Open air,25,9.620897169961228e-5
+mnau_evenness_minus_dominance,Other_small_groups,1,NA
+mnau_evenness_minus_dominance,missing,2,NA
+dominance_gap_all,Karstic | Cave,102,2.4495232810213016e-7
+dominance_gap_all,Karstic | Open air,2,NA
+dominance_gap_all,Karstic | Rockshelter,17,7.503282616603778e-4
+dominance_gap_all,Open air,25,3.9184436249757635e-5
+dominance_gap_all,Other_small_groups,1,NA
+dominance_gap_all,missing,2,NA
+low_density_axial_survival,Karstic | Cave,104,1.909652630636627e-17
+low_density_axial_survival,Karstic | Open air,2,NA
+low_density_axial_survival,Karstic | Rockshelter,17,0.0108636069642036
+low_density_axial_survival,Open air,25,3.6860980800431744e-7
+low_density_axial_survival,Other_small_groups,1,NA
+low_density_axial_survival,missing,2,NA
+mnau_top2_share_mcnaughton,Karstic | Cave,102,4.682045479161181e-6
+mnau_top2_share_mcnaughton,Karstic | Open air,2,NA
+mnau_top2_share_mcnaughton,Karstic | Rockshelter,17,0.001070068844248718
+mnau_top2_share_mcnaughton,Open air,25,1.7360767780416596e-5
+mnau_top2_share_mcnaughton,Other_small_groups,1,NA
+mnau_top2_share_mcnaughton,missing,2,NA
+mnau_legs,Karstic | Cave,104,5.46635185245505e-9
+mnau_legs,Karstic | Open air,2,NA
+mnau_legs,Karstic | Rockshelter,17,0.0927034774096264
+mnau_legs,Open air,25,8.190900750184033e-6
+mnau_legs,Other_small_groups,1,NA
+mnau_legs,missing,2,NA
+mnau_simpson_evenness,Karstic | Cave,102,3.2313445878589066e-6
+mnau_simpson_evenness,Karstic | Open air,2,NA
+mnau_simpson_evenness,Karstic | Rockshelter,17,0.018202996960472687
+mnau_simpson_evenness,Open air,25,2.797970094903931e-5
+mnau_simpson_evenness,Other_small_groups,1,NA
+mnau_simpson_evenness,missing,2,NA
+mnau_foot,Karstic | Cave,104,4.52446310022673e-14
+mnau_foot,Karstic | Open air,2,NA
+mnau_foot,Karstic | Rockshelter,17,1.916924310828569e-4
+mnau_foot,Open air,25,4.671805276160984e-8
+mnau_foot,Other_small_groups,1,NA
+mnau_foot,missing,2,NA
+mnau_postcranial_total_mean,Karstic | Cave,104,4.4784106044784225e-10
+mnau_postcranial_total_mean,Karstic | Open air,2,NA
+mnau_postcranial_total_mean,Karstic | Rockshelter,17,0.1450558214836829
+mnau_postcranial_total_mean,Open air,25,1.7574923439228383e-6
+mnau_postcranial_total_mean,Other_small_groups,1,NA
+mnau_postcranial_total_mean,missing,2,NA
+mnau_column_trunk_mean,Karstic | Cave,104,5.153767809025311e-13
+mnau_column_trunk_mean,Karstic | Open air,2,NA
+mnau_column_trunk_mean,Karstic | Rockshelter,17,0.04995855613438976
+mnau_column_trunk_mean,Open air,25,4.425497245103596e-7
+mnau_column_trunk_mean,Other_small_groups,1,NA
+mnau_column_trunk_mean,missing,2,NA
+mnau_appendicular_mean,Karstic | Cave,104,2.244972597593408e-9
+mnau_appendicular_mean,Karstic | Open air,2,NA
+mnau_appendicular_mean,Karstic | Rockshelter,17,0.20663766230742603
+mnau_appendicular_mean,Open air,25,3.3291550475167976e-6
+mnau_appendicular_mean,Other_small_groups,1,NA
+mnau_appendicular_mean,missing,2,NA
+mnau_upper_appendicular_mean,Karstic | Cave,104,3.296635555376858e-10
+mnau_upper_appendicular_mean,Karstic | Open air,2,NA
+mnau_upper_appendicular_mean,Karstic | Rockshelter,17,0.08318570810971612
+mnau_upper_appendicular_mean,Open air,25,2.654080741223369e-6
+mnau_upper_appendicular_mean,Other_small_groups,1,NA
+mnau_upper_appendicular_mean,missing,2,NA
+mnau_lower_appendicular_mean,Karstic | Cave,104,1.1993390920305257e-9
+mnau_lower_appendicular_mean,Karstic | Open air,2,NA
+mnau_lower_appendicular_mean,Karstic | Rockshelter,17,0.10152451439228731
+mnau_lower_appendicular_mean,Open air,25,3.0383163364949025e-6
+mnau_lower_appendicular_mean,Other_small_groups,1,NA
+mnau_lower_appendicular_mean,missing,2,NA
+mnau_girdle_mean,Karstic | Cave,104,1.7744685581177884e-10
+mnau_girdle_mean,Karstic | Open air,2,NA
+mnau_girdle_mean,Karstic | Rockshelter,17,0.05812327527112832
+mnau_girdle_mean,Open air,25,1.6633671704637363e-6
+mnau_girdle_mean,Other_small_groups,1,NA
+mnau_girdle_mean,missing,2,NA
+mnau_distal_appendicular_mean,Karstic | Cave,104,5.254706477314294e-13
+mnau_distal_appendicular_mean,Karstic | Open air,2,NA
+mnau_distal_appendicular_mean,Karstic | Rockshelter,17,0.0010179728827116735
+mnau_distal_appendicular_mean,Open air,25,1.666679926890296e-8
+mnau_distal_appendicular_mean,Other_small_groups,1,NA
+mnau_distal_appendicular_mean,missing,2,NA
+mnau_proximal_appendicular_mean,Karstic | Cave,104,5.582717407018433e-9
+mnau_proximal_appendicular_mean,Karstic | Open air,2,NA
+mnau_proximal_appendicular_mean,Karstic | Rockshelter,17,0.17801391375662934
+mnau_proximal_appendicular_mean,Open air,25,5.255533167838857e-6
+mnau_proximal_appendicular_mean,Other_small_groups,1,NA
+mnau_proximal_appendicular_mean,missing,2,NA
+low_density_survival_index,Karstic | Cave,104,1.8011841260856582e-15
+low_density_survival_index,Karstic | Open air,2,NA
+low_density_survival_index,Karstic | Rockshelter,17,0.04456710152300041
+low_density_survival_index,Open air,25,8.69030235704786e-7
+low_density_survival_index,Other_small_groups,1,NA
+low_density_survival_index,missing,2,NA

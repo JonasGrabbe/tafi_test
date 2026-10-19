@@ -1,0 +1,2 @@
+experiment_id,experiment_name,group_vars,covariates,n_records,n_groups,n_features_tested,n_fdr_significant,max_eps2,top_feature,top_feature_eps2,top_feature_p_fdr,permanova_group_R2,permanova_group_p
+E07,region_country,region,country + site_environment + degree_of_excavation,151,8,50,33,0.1932912549439806,mne_arms,0.1932912549439806,0.007253541677180507,0.016360361202370163,0.2433

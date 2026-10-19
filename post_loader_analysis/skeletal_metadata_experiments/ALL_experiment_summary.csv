@@ -1,0 +1,9 @@
+experiment_id,experiment_name,group_vars,covariates,n_records,n_groups,n_features_tested,n_fdr_significant,max_eps2,top_feature,top_feature_eps2,top_feature_p_fdr,permanova_group_R2,permanova_group_p
+E01,taphonomic_context,taphonomic_context,,410,6,50,48,0.34120036238106,mnau_postcranial_total_mean,0.34120036238106,1.1145177008362515e-26,0.2520154394695346,1e-4
+E03,site_environment_detail,site_environment_detail,taphonomic_context + geological_period,410,6,50,43,0.07821838909426221,low_density_share,0.07821838909426221,2.036213361306334e-4,0.03853062141563918,1e-4
+E08,recovery_context,degree_of_excavation + discovery_context,count_type,410,10,50,39,0.1872418519671882,mnau_proximal_appendicular_mean,0.1872418519671882,3.8464365007290713e-11,0.11431320571218725,1e-4
+E04,age_category,age_category,mni + degree_of_excavation,410,8,50,38,0.08861839391614199,mnau_proximal_appendicular_mean,0.08861839391614199,1.6150025453826316e-4,0.040265502969243416,0.0022
+E05,geological_period_date,geological_period + date_bin,mis_stage + site_environment + taphonomic_context,410,9,50,43,0.19499016207337233,density_evenness,0.19499016207337233,1.1617949248875679e-11,0.02382840557299127,0.054
+E02,site_environment_main,site_environment,taphonomic_context,410,3,50,35,0.06179412306764453,low_density_share,0.06179412306764453,2.663971873460754e-4,0.00804759064489688,0.0752
+E06,hominin_species_controlled,hominin_species,geological_period + date_bin + taphonomic_context + site_environment,410,6,50,45,0.2735712889906311,mnau_postcranial_total_mean,0.2735712889906311,8.162503774907534e-21,0.013626498836410551,0.1374
+E07,region_country,region,country + site_environment + degree_of_excavation,410,10,50,42,0.15388613445170063,mne_arms,0.15388613445170063,1.8123068838039358e-8,0.005483568615412168,0.2289

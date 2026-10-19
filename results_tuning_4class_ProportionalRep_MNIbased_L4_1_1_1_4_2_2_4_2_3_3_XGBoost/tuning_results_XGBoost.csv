@@ -1,0 +1,2 @@
+rank,trees,min_n,tree_depth,learn_rate,loss_reduction,sample_size,.metric,.estimator,mean,n,std_err,.config
+1,1450,9,4,0.21485122728158063,2.912748911788067e-4,0.5262191054644063,accuracy,multiclass,0.5632025904203324,3,0.02518635309203869,pre0_mod1_post0

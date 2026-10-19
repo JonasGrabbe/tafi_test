@@ -1,0 +1,451 @@
+feature,group,n,shapiro_p
+density_evenness,Holocene | Holocene_or_recent,134,9.978228999261493e-14
+density_evenness,Holocene | missing_date,3,0.9461450733478667
+density_evenness,Late Pleistocene | Late_Pleistocene,170,1.8319445494363813e-14
+density_evenness,Late Pleistocene | Middle_Pleistocene,49,1.7620100095392813e-6
+density_evenness,Late Pleistocene | missing_date,4,NA
+density_evenness,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+density_evenness,Middle Pleistocene | Middle_Pleistocene,20,6.761917629117543e-5
+density_evenness,Middle Pleistocene | missing_date,10,9.922135454441781e-4
+density_evenness,Other_small_groups,2,NA
+lower_appendicular_evenness_refined,Holocene | Holocene_or_recent,127,9.381452572850212e-9
+lower_appendicular_evenness_refined,Holocene | missing_date,2,NA
+lower_appendicular_evenness_refined,Late Pleistocene | Late_Pleistocene,114,6.263501456632038e-10
+lower_appendicular_evenness_refined,Late Pleistocene | Middle_Pleistocene,31,7.063043003830154e-5
+lower_appendicular_evenness_refined,Late Pleistocene | missing_date,1,NA
+lower_appendicular_evenness_refined,Lower Pleistocene | Early_Pleistocene_or_older,1,NA
+lower_appendicular_evenness_refined,Middle Pleistocene | Middle_Pleistocene,7,0.033352438930575636
+lower_appendicular_evenness_refined,Middle Pleistocene | missing_date,6,0.0457146493068738
+lower_appendicular_evenness_refined,Other_small_groups,2,NA
+mnau_heip_evenness,Holocene | Holocene_or_recent,134,0.007392283803803168
+mnau_heip_evenness,Holocene | missing_date,3,0.4506872697090104
+mnau_heip_evenness,Late Pleistocene | Late_Pleistocene,170,1.3877605694895114e-13
+mnau_heip_evenness,Late Pleistocene | Middle_Pleistocene,49,5.509876467472821e-6
+mnau_heip_evenness,Late Pleistocene | missing_date,4,NA
+mnau_heip_evenness,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_heip_evenness,Middle Pleistocene | Middle_Pleistocene,20,2.5076727554433056e-5
+mnau_heip_evenness,Middle Pleistocene | missing_date,10,8.801437391615017e-4
+mnau_heip_evenness,Other_small_groups,2,NA
+dominant_axial_share,Holocene | Holocene_or_recent,134,6.396139656611486e-5
+dominant_axial_share,Holocene | missing_date,3,0.6805282742085601
+dominant_axial_share,Late Pleistocene | Late_Pleistocene,184,7.477310922624181e-13
+dominant_axial_share,Late Pleistocene | Middle_Pleistocene,50,6.934540722432951e-5
+dominant_axial_share,Late Pleistocene | missing_date,4,NA
+dominant_axial_share,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+dominant_axial_share,Middle Pleistocene | Middle_Pleistocene,20,2.789516770090944e-4
+dominant_axial_share,Middle Pleistocene | missing_date,11,0.002601429652291527
+dominant_axial_share,Other_small_groups,2,NA
+mne_cranial_share,Holocene | Holocene_or_recent,134,9.387771825281839e-20
+mne_cranial_share,Holocene | missing_date,3,0.4207590436670409
+mne_cranial_share,Late Pleistocene | Late_Pleistocene,184,5.130399389314375e-18
+mne_cranial_share,Late Pleistocene | Middle_Pleistocene,50,5.5821407142212664e-9
+mne_cranial_share,Late Pleistocene | missing_date,4,NA
+mne_cranial_share,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mne_cranial_share,Middle Pleistocene | Middle_Pleistocene,20,2.6929802714593156e-5
+mne_cranial_share,Middle Pleistocene | missing_date,11,1.5167936144316578e-4
+mne_cranial_share,Other_small_groups,2,NA
+mnau_arms_legs_diff,Holocene | Holocene_or_recent,134,4.852511383201302e-4
+mnau_arms_legs_diff,Holocene | missing_date,3,0.865751085559621
+mnau_arms_legs_diff,Late Pleistocene | Late_Pleistocene,184,3.2913323032942036e-12
+mnau_arms_legs_diff,Late Pleistocene | Middle_Pleistocene,50,9.533650203601252e-5
+mnau_arms_legs_diff,Late Pleistocene | missing_date,4,NA
+mnau_arms_legs_diff,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_arms_legs_diff,Middle Pleistocene | Middle_Pleistocene,20,1.485981349709951e-6
+mnau_arms_legs_diff,Middle Pleistocene | missing_date,11,0.9806119991425184
+mnau_arms_legs_diff,Other_small_groups,2,NA
+distal_appendicular_continuity_hm,Holocene | Holocene_or_recent,134,2.85056562706031e-14
+distal_appendicular_continuity_hm,Holocene | missing_date,3,0.43239812607790146
+distal_appendicular_continuity_hm,Late Pleistocene | Late_Pleistocene,184,7.817655453235797e-22
+distal_appendicular_continuity_hm,Late Pleistocene | Middle_Pleistocene,50,1.503643277676415e-12
+distal_appendicular_continuity_hm,Late Pleistocene | missing_date,4,NA
+distal_appendicular_continuity_hm,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+distal_appendicular_continuity_hm,Middle Pleistocene | Middle_Pleistocene,20,2.565147974248115e-7
+distal_appendicular_continuity_hm,Middle Pleistocene | missing_date,11,1.0220091260446393e-6
+distal_appendicular_continuity_hm,Other_small_groups,2,NA
+low_density_share,Holocene | Holocene_or_recent,134,4.3597435577346894e-12
+low_density_share,Holocene | missing_date,3,0.4406568825157276
+low_density_share,Late Pleistocene | Late_Pleistocene,170,1.4066105000832817e-17
+low_density_share,Late Pleistocene | Middle_Pleistocene,49,3.895058315665651e-9
+low_density_share,Late Pleistocene | missing_date,4,NA
+low_density_share,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+low_density_share,Middle Pleistocene | Middle_Pleistocene,20,1.0201184965350361e-5
+low_density_share,Middle Pleistocene | missing_date,10,4.507197657685557e-7
+low_density_share,Other_small_groups,2,NA
+appendicular_dominance_refined,Holocene | Holocene_or_recent,131,4.132813519207865e-11
+appendicular_dominance_refined,Holocene | missing_date,2,NA
+appendicular_dominance_refined,Late Pleistocene | Late_Pleistocene,121,1.1594221577889e-9
+appendicular_dominance_refined,Late Pleistocene | Middle_Pleistocene,38,1.523067807024911e-4
+appendicular_dominance_refined,Late Pleistocene | missing_date,1,NA
+appendicular_dominance_refined,Lower Pleistocene | Early_Pleistocene_or_older,1,NA
+appendicular_dominance_refined,Middle Pleistocene | Middle_Pleistocene,9,0.055399730855129836
+appendicular_dominance_refined,Middle Pleistocene | missing_date,9,0.004531872238333724
+appendicular_dominance_refined,Other_small_groups,2,NA
+appendicular_dominance,Holocene | Holocene_or_recent,131,4.132813519207865e-11
+appendicular_dominance,Holocene | missing_date,2,NA
+appendicular_dominance,Late Pleistocene | Late_Pleistocene,121,1.1594221577889e-9
+appendicular_dominance,Late Pleistocene | Middle_Pleistocene,38,1.523067807024911e-4
+appendicular_dominance,Late Pleistocene | missing_date,1,NA
+appendicular_dominance,Lower Pleistocene | Early_Pleistocene_or_older,1,NA
+appendicular_dominance,Middle Pleistocene | Middle_Pleistocene,9,0.055399730855129836
+appendicular_dominance,Middle Pleistocene | missing_date,9,0.004531872238333724
+appendicular_dominance,Other_small_groups,2,NA
+density_adjusted_appendicular_axial_contrast,Holocene | Holocene_or_recent,134,0.7455290499841528
+density_adjusted_appendicular_axial_contrast,Holocene | missing_date,3,0.27683408125913206
+density_adjusted_appendicular_axial_contrast,Late Pleistocene | Late_Pleistocene,184,6.363940584780006e-5
+density_adjusted_appendicular_axial_contrast,Late Pleistocene | Middle_Pleistocene,50,0.2955271858145583
+density_adjusted_appendicular_axial_contrast,Late Pleistocene | missing_date,4,0.6642632276953829
+density_adjusted_appendicular_axial_contrast,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+density_adjusted_appendicular_axial_contrast,Middle Pleistocene | Middle_Pleistocene,20,0.029840403136175066
+density_adjusted_appendicular_axial_contrast,Middle Pleistocene | missing_date,11,0.14704480516156665
+density_adjusted_appendicular_axial_contrast,Other_small_groups,2,NA
+effective_sections_hill1,Holocene | Holocene_or_recent,134,0.007392283803803168
+effective_sections_hill1,Holocene | missing_date,3,0.4506872697090104
+effective_sections_hill1,Late Pleistocene | Late_Pleistocene,170,1.3877605694895026e-13
+effective_sections_hill1,Late Pleistocene | Middle_Pleistocene,49,5.509876467472708e-6
+effective_sections_hill1,Late Pleistocene | missing_date,4,NA
+effective_sections_hill1,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+effective_sections_hill1,Middle Pleistocene | Middle_Pleistocene,20,2.5076727554432965e-5
+effective_sections_hill1,Middle Pleistocene | missing_date,10,8.801437391615017e-4
+effective_sections_hill1,Other_small_groups,2,NA
+mnau_axial_main_mean,Holocene | Holocene_or_recent,134,1.7951813548335049e-10
+mnau_axial_main_mean,Holocene | missing_date,3,0.4129773407963043
+mnau_axial_main_mean,Late Pleistocene | Late_Pleistocene,184,4.528022401359087e-20
+mnau_axial_main_mean,Late Pleistocene | Middle_Pleistocene,50,1.1536568204749268e-10
+mnau_axial_main_mean,Late Pleistocene | missing_date,4,NA
+mnau_axial_main_mean,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_axial_main_mean,Middle Pleistocene | Middle_Pleistocene,20,6.728621993556011e-7
+mnau_axial_main_mean,Middle Pleistocene | missing_date,11,NA
+mnau_axial_main_mean,Other_small_groups,2,NA
+postcranial_dominance_refined,Holocene | Holocene_or_recent,133,3.222099184665458e-13
+postcranial_dominance_refined,Holocene | missing_date,2,NA
+postcranial_dominance_refined,Late Pleistocene | Late_Pleistocene,126,4.2206611393721114e-10
+postcranial_dominance_refined,Late Pleistocene | Middle_Pleistocene,38,1.2910294168170462e-4
+postcranial_dominance_refined,Late Pleistocene | missing_date,1,NA
+postcranial_dominance_refined,Lower Pleistocene | Early_Pleistocene_or_older,1,NA
+postcranial_dominance_refined,Middle Pleistocene | Middle_Pleistocene,9,0.04317440557480234
+postcranial_dominance_refined,Middle Pleistocene | missing_date,9,0.004314456612061857
+postcranial_dominance_refined,Other_small_groups,2,NA
+mnau_arms,Holocene | Holocene_or_recent,134,2.5633935206280846e-7
+mnau_arms,Holocene | missing_date,3,0.6714130768124892
+mnau_arms,Late Pleistocene | Late_Pleistocene,184,1.8550150068864985e-17
+mnau_arms,Late Pleistocene | Middle_Pleistocene,50,2.5498066850843532e-8
+mnau_arms,Late Pleistocene | missing_date,4,NA
+mnau_arms,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_arms,Middle Pleistocene | Middle_Pleistocene,20,1.4593150472292188e-5
+mnau_arms,Middle Pleistocene | missing_date,11,9.504812711928858e-4
+mnau_arms,Other_small_groups,2,NA
+lower_appendicular_continuity_hm,Holocene | Holocene_or_recent,134,3.654942115790757e-13
+lower_appendicular_continuity_hm,Holocene | missing_date,3,0.8662348585825103
+lower_appendicular_continuity_hm,Late Pleistocene | Late_Pleistocene,184,5.717737532204969e-22
+lower_appendicular_continuity_hm,Late Pleistocene | Middle_Pleistocene,50,9.197292270552597e-11
+lower_appendicular_continuity_hm,Late Pleistocene | missing_date,4,NA
+lower_appendicular_continuity_hm,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+lower_appendicular_continuity_hm,Middle Pleistocene | Middle_Pleistocene,20,1.4978205333919807e-7
+lower_appendicular_continuity_hm,Middle Pleistocene | missing_date,11,2.272215869372735e-8
+lower_appendicular_continuity_hm,Other_small_groups,2,NA
+mnau_arms_legs_logratio,Holocene | Holocene_or_recent,134,1.7815539745799142e-17
+mnau_arms_legs_logratio,Holocene | missing_date,3,0.41989094442086117
+mnau_arms_legs_logratio,Late Pleistocene | Late_Pleistocene,184,1.3060811491204853e-19
+mnau_arms_legs_logratio,Late Pleistocene | Middle_Pleistocene,50,6.90822596775142e-8
+mnau_arms_legs_logratio,Late Pleistocene | missing_date,4,NA
+mnau_arms_legs_logratio,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_arms_legs_logratio,Middle Pleistocene | Middle_Pleistocene,20,3.9100440980248293e-7
+mnau_arms_legs_logratio,Middle Pleistocene | missing_date,11,0.06480970401513976
+mnau_arms_legs_logratio,Other_small_groups,2,NA
+lower_appendicular_evenness,Holocene | Holocene_or_recent,127,9.381452572850212e-9
+lower_appendicular_evenness,Holocene | missing_date,2,NA
+lower_appendicular_evenness,Late Pleistocene | Late_Pleistocene,114,6.263501456632038e-10
+lower_appendicular_evenness,Late Pleistocene | Middle_Pleistocene,31,7.063043003830154e-5
+lower_appendicular_evenness,Late Pleistocene | missing_date,1,NA
+lower_appendicular_evenness,Lower Pleistocene | Early_Pleistocene_or_older,1,NA
+lower_appendicular_evenness,Middle Pleistocene | Middle_Pleistocene,7,0.033352438930575636
+lower_appendicular_evenness,Middle Pleistocene | missing_date,6,0.0457146493068738
+lower_appendicular_evenness,Other_small_groups,2,NA
+mnau_hands,Holocene | Holocene_or_recent,134,1.3706301588759715e-13
+mnau_hands,Holocene | missing_date,3,0.23748805341028045
+mnau_hands,Late Pleistocene | Late_Pleistocene,184,3.810290264345268e-20
+mnau_hands,Late Pleistocene | Middle_Pleistocene,50,2.2865650729972525e-10
+mnau_hands,Late Pleistocene | missing_date,4,NA
+mnau_hands,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_hands,Middle Pleistocene | Middle_Pleistocene,20,2.7097904037687214e-7
+mnau_hands,Middle Pleistocene | missing_date,11,NA
+mnau_hands,Other_small_groups,2,NA
+mne_arms,Holocene | Holocene_or_recent,134,3.9280430353372266e-24
+mne_arms,Holocene | missing_date,3,0.09915003030715254
+mne_arms,Late Pleistocene | Late_Pleistocene,184,1.0127330805019352e-16
+mne_arms,Late Pleistocene | Middle_Pleistocene,50,3.44874509666742e-8
+mne_arms,Late Pleistocene | missing_date,4,NA
+mne_arms,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mne_arms,Middle Pleistocene | Middle_Pleistocene,20,1.3644813442438924e-6
+mne_arms,Middle Pleistocene | missing_date,11,0.002499084039258815
+mne_arms,Other_small_groups,2,NA
+mnau_pelvic,Holocene | Holocene_or_recent,134,6.456460839721981e-10
+mnau_pelvic,Holocene | missing_date,3,0.7804408148790137
+mnau_pelvic,Late Pleistocene | Late_Pleistocene,184,2.0104520642495453e-19
+mnau_pelvic,Late Pleistocene | Middle_Pleistocene,50,2.7451640678073756e-9
+mnau_pelvic,Late Pleistocene | missing_date,4,NA
+mnau_pelvic,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_pelvic,Middle Pleistocene | Middle_Pleistocene,20,1.109776086170548e-7
+mnau_pelvic,Middle Pleistocene | missing_date,11,2.6122500224105015e-6
+mnau_pelvic,Other_small_groups,2,NA
+mnau_cv,Holocene | Holocene_or_recent,134,4.3901884080869085e-9
+mnau_cv,Holocene | missing_date,3,0.6895907784271873
+mnau_cv,Late Pleistocene | Late_Pleistocene,170,6.186137885733401e-13
+mnau_cv,Late Pleistocene | Middle_Pleistocene,49,2.0315034355984777e-5
+mnau_cv,Late Pleistocene | missing_date,4,NA
+mnau_cv,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_cv,Middle Pleistocene | Middle_Pleistocene,20,6.554768748152795e-5
+mnau_cv,Middle Pleistocene | missing_date,10,5.897216473030869e-4
+mnau_cv,Other_small_groups,2,NA
+mnau_region_mean_evenness,Holocene | Holocene_or_recent,134,4.807600549512202e-15
+mnau_region_mean_evenness,Holocene | missing_date,3,0.6020586091279599
+mnau_region_mean_evenness,Late Pleistocene | Late_Pleistocene,170,6.4703607247959355e-12
+mnau_region_mean_evenness,Late Pleistocene | Middle_Pleistocene,49,2.4699507986442246e-5
+mnau_region_mean_evenness,Late Pleistocene | missing_date,4,NA
+mnau_region_mean_evenness,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_region_mean_evenness,Middle Pleistocene | Middle_Pleistocene,20,1.543128035365678e-4
+mnau_region_mean_evenness,Middle Pleistocene | missing_date,10,0.032946635410038574
+mnau_region_mean_evenness,Other_small_groups,2,NA
+mnau_limb_shaft_proxy_mean,Holocene | Holocene_or_recent,134,2.1585685506777055e-4
+mnau_limb_shaft_proxy_mean,Holocene | missing_date,3,0.6502792302640196
+mnau_limb_shaft_proxy_mean,Late Pleistocene | Late_Pleistocene,184,6.247791334958316e-16
+mnau_limb_shaft_proxy_mean,Late Pleistocene | Middle_Pleistocene,50,4.97092163296779e-7
+mnau_limb_shaft_proxy_mean,Late Pleistocene | missing_date,4,NA
+mnau_limb_shaft_proxy_mean,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_limb_shaft_proxy_mean,Middle Pleistocene | Middle_Pleistocene,20,2.4599386592421452e-5
+mnau_limb_shaft_proxy_mean,Middle Pleistocene | missing_date,11,0.47461618829159335
+mnau_limb_shaft_proxy_mean,Other_small_groups,2,NA
+mnau_arms_to_legs_ratio,Holocene | Holocene_or_recent,134,7.581564774137032e-24
+mnau_arms_to_legs_ratio,Holocene | missing_date,3,0.4725151847911613
+mnau_arms_to_legs_ratio,Late Pleistocene | Late_Pleistocene,184,6.3925942935596e-28
+mnau_arms_to_legs_ratio,Late Pleistocene | Middle_Pleistocene,50,2.5797824593993886e-14
+mnau_arms_to_legs_ratio,Late Pleistocene | missing_date,4,NA
+mnau_arms_to_legs_ratio,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_arms_to_legs_ratio,Middle Pleistocene | Middle_Pleistocene,20,2.6933230053424565e-9
+mnau_arms_to_legs_ratio,Middle Pleistocene | missing_date,11,2.4023449047982924e-5
+mnau_arms_to_legs_ratio,Other_small_groups,2,NA
+mne_arms_to_legs_ratio,Holocene | Holocene_or_recent,134,1.8325954024843127e-23
+mne_arms_to_legs_ratio,Holocene | missing_date,3,NA
+mne_arms_to_legs_ratio,Late Pleistocene | Late_Pleistocene,184,6.390000363743547e-28
+mne_arms_to_legs_ratio,Late Pleistocene | Middle_Pleistocene,50,4.29255383906495e-14
+mne_arms_to_legs_ratio,Late Pleistocene | missing_date,4,NA
+mne_arms_to_legs_ratio,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mne_arms_to_legs_ratio,Middle Pleistocene | Middle_Pleistocene,20,2.693094601143252e-9
+mne_arms_to_legs_ratio,Middle Pleistocene | missing_date,11,4.4046131936228e-5
+mne_arms_to_legs_ratio,Other_small_groups,2,NA
+mnau_simpson_dominance,Holocene | Holocene_or_recent,134,1.6351579115807464e-14
+mnau_simpson_dominance,Holocene | missing_date,3,0.9571243523846897
+mnau_simpson_dominance,Late Pleistocene | Late_Pleistocene,170,3.445632904567894e-14
+mnau_simpson_dominance,Late Pleistocene | Middle_Pleistocene,49,4.327791527915013e-6
+mnau_simpson_dominance,Late Pleistocene | missing_date,4,NA
+mnau_simpson_dominance,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_simpson_dominance,Middle Pleistocene | Middle_Pleistocene,20,5.582465998494691e-5
+mnau_simpson_dominance,Middle Pleistocene | missing_date,10,4.5316954598826877e-4
+mnau_simpson_dominance,Other_small_groups,2,NA
+mnau_gini,Holocene | Holocene_or_recent,134,0.07622966955352733
+mnau_gini,Holocene | missing_date,3,0.46940213433590194
+mnau_gini,Late Pleistocene | Late_Pleistocene,170,9.229919811642624e-14
+mnau_gini,Late Pleistocene | Middle_Pleistocene,49,3.7729616647636726e-6
+mnau_gini,Late Pleistocene | missing_date,4,NA
+mnau_gini,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_gini,Middle Pleistocene | Middle_Pleistocene,20,2.377230768954138e-5
+mnau_gini,Middle Pleistocene | missing_date,10,9.91932043653261e-4
+mnau_gini,Other_small_groups,2,NA
+mnau_dominance_of_region_means,Holocene | Holocene_or_recent,134,2.0514036098399046e-11
+mnau_dominance_of_region_means,Holocene | missing_date,3,0.9343205039227734
+mnau_dominance_of_region_means,Late Pleistocene | Late_Pleistocene,170,2.2593387133291044e-11
+mnau_dominance_of_region_means,Late Pleistocene | Middle_Pleistocene,49,6.539990641536676e-5
+mnau_dominance_of_region_means,Late Pleistocene | missing_date,4,NA
+mnau_dominance_of_region_means,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_dominance_of_region_means,Middle Pleistocene | Middle_Pleistocene,20,1.6616003894198727e-4
+mnau_dominance_of_region_means,Middle Pleistocene | missing_date,10,0.0011698688246871772
+mnau_dominance_of_region_means,Other_small_groups,2,NA
+mnau_inverse_simpson,Holocene | Holocene_or_recent,134,0.1727483144154308
+mnau_inverse_simpson,Holocene | missing_date,3,0.25711565935728953
+mnau_inverse_simpson,Late Pleistocene | Late_Pleistocene,170,6.047384195311922e-14
+mnau_inverse_simpson,Late Pleistocene | Middle_Pleistocene,49,2.4215787617013324e-6
+mnau_inverse_simpson,Late Pleistocene | missing_date,4,NA
+mnau_inverse_simpson,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_inverse_simpson,Middle Pleistocene | Middle_Pleistocene,20,1.6751459418714744e-5
+mnau_inverse_simpson,Middle Pleistocene | missing_date,10,0.0011988381899045819
+mnau_inverse_simpson,Other_small_groups,2,NA
+mnau_shoulder,Holocene | Holocene_or_recent,134,8.629036663512594e-9
+mnau_shoulder,Holocene | missing_date,3,0.5007068317881158
+mnau_shoulder,Late Pleistocene | Late_Pleistocene,184,2.7013094680565195e-19
+mnau_shoulder,Late Pleistocene | Middle_Pleistocene,50,2.8468753455365352e-9
+mnau_shoulder,Late Pleistocene | missing_date,4,NA
+mnau_shoulder,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_shoulder,Middle Pleistocene | Middle_Pleistocene,20,6.527057176108234e-6
+mnau_shoulder,Middle Pleistocene | missing_date,11,2.3066415263741426e-7
+mnau_shoulder,Other_small_groups,2,NA
+mnau_vertebrae_to_thorax_ratio,Holocene | Holocene_or_recent,134,8.172706925611508e-21
+mnau_vertebrae_to_thorax_ratio,Holocene | missing_date,3,0.662728234503307
+mnau_vertebrae_to_thorax_ratio,Late Pleistocene | Late_Pleistocene,184,5.213391937437239e-26
+mnau_vertebrae_to_thorax_ratio,Late Pleistocene | Middle_Pleistocene,50,4.8964718902170755e-14
+mnau_vertebrae_to_thorax_ratio,Late Pleistocene | missing_date,4,NA
+mnau_vertebrae_to_thorax_ratio,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_vertebrae_to_thorax_ratio,Middle Pleistocene | Middle_Pleistocene,20,2.7017197590344646e-9
+mnau_vertebrae_to_thorax_ratio,Middle Pleistocene | missing_date,11,NA
+mnau_vertebrae_to_thorax_ratio,Other_small_groups,2,NA
+mne_vertebrae_to_thorax_ratio,Holocene | Holocene_or_recent,134,2.6998096252483537e-20
+mne_vertebrae_to_thorax_ratio,Holocene | missing_date,3,0.899850309897266
+mne_vertebrae_to_thorax_ratio,Late Pleistocene | Late_Pleistocene,184,5.904004462956311e-26
+mne_vertebrae_to_thorax_ratio,Late Pleistocene | Middle_Pleistocene,50,4.887196787229515e-14
+mne_vertebrae_to_thorax_ratio,Late Pleistocene | missing_date,4,NA
+mne_vertebrae_to_thorax_ratio,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mne_vertebrae_to_thorax_ratio,Middle Pleistocene | Middle_Pleistocene,20,2.693088566253949e-9
+mne_vertebrae_to_thorax_ratio,Middle Pleistocene | missing_date,11,NA
+mne_vertebrae_to_thorax_ratio,Other_small_groups,2,NA
+all_sections_dominance,Holocene | Holocene_or_recent,134,1.0374829185942369e-8
+all_sections_dominance,Holocene | missing_date,3,0.6805280024226437
+all_sections_dominance,Late Pleistocene | Late_Pleistocene,170,1.945021998689892e-13
+all_sections_dominance,Late Pleistocene | Middle_Pleistocene,49,8.442029493930842e-6
+all_sections_dominance,Late Pleistocene | missing_date,4,NA
+all_sections_dominance,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+all_sections_dominance,Middle Pleistocene | Middle_Pleistocene,20,7.316636738222486e-5
+all_sections_dominance,Middle Pleistocene | missing_date,10,6.516269260490387e-4
+all_sections_dominance,Other_small_groups,2,NA
+mnau_evenness_minus_dominance,Holocene | Holocene_or_recent,134,5.422318056949437e-10
+mnau_evenness_minus_dominance,Holocene | missing_date,3,0.8243247217682261
+mnau_evenness_minus_dominance,Late Pleistocene | Late_Pleistocene,170,3.396787803733554e-13
+mnau_evenness_minus_dominance,Late Pleistocene | Middle_Pleistocene,49,1.4624172318408775e-5
+mnau_evenness_minus_dominance,Late Pleistocene | missing_date,4,NA
+mnau_evenness_minus_dominance,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_evenness_minus_dominance,Middle Pleistocene | Middle_Pleistocene,20,6.615716850265258e-5
+mnau_evenness_minus_dominance,Middle Pleistocene | missing_date,10,5.465448347635251e-4
+mnau_evenness_minus_dominance,Other_small_groups,2,NA
+dominance_gap_all,Holocene | Holocene_or_recent,134,1.413471895176263e-10
+dominance_gap_all,Holocene | missing_date,3,0.753756265096027
+dominance_gap_all,Late Pleistocene | Late_Pleistocene,170,3.730087858994974e-14
+dominance_gap_all,Late Pleistocene | Middle_Pleistocene,49,5.248294940142903e-6
+dominance_gap_all,Late Pleistocene | missing_date,4,NA
+dominance_gap_all,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+dominance_gap_all,Middle Pleistocene | Middle_Pleistocene,20,5.623471354066679e-5
+dominance_gap_all,Middle Pleistocene | missing_date,10,0.0011776507730566483
+dominance_gap_all,Other_small_groups,2,NA
+low_density_axial_survival,Holocene | Holocene_or_recent,134,3.068616174364049e-17
+low_density_axial_survival,Holocene | missing_date,3,0.5923080442947055
+low_density_axial_survival,Late Pleistocene | Late_Pleistocene,184,9.532261946316755e-21
+low_density_axial_survival,Late Pleistocene | Middle_Pleistocene,50,5.883972790887506e-11
+low_density_axial_survival,Late Pleistocene | missing_date,4,NA
+low_density_axial_survival,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+low_density_axial_survival,Middle Pleistocene | Middle_Pleistocene,20,6.728621993556011e-7
+low_density_axial_survival,Middle Pleistocene | missing_date,11,NA
+low_density_axial_survival,Other_small_groups,2,NA
+mnau_top2_share_mcnaughton,Holocene | Holocene_or_recent,134,2.8073130527145913e-5
+mnau_top2_share_mcnaughton,Holocene | missing_date,3,0.5756485840652362
+mnau_top2_share_mcnaughton,Late Pleistocene | Late_Pleistocene,170,2.0971239493855116e-14
+mnau_top2_share_mcnaughton,Late Pleistocene | Middle_Pleistocene,49,1.3937676208395036e-6
+mnau_top2_share_mcnaughton,Late Pleistocene | missing_date,4,NA
+mnau_top2_share_mcnaughton,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_top2_share_mcnaughton,Middle Pleistocene | Middle_Pleistocene,20,5.727693314631456e-6
+mnau_top2_share_mcnaughton,Middle Pleistocene | missing_date,10,8.360556287089038e-4
+mnau_top2_share_mcnaughton,Other_small_groups,2,NA
+mnau_legs,Holocene | Holocene_or_recent,134,3.982069094675287e-5
+mnau_legs,Holocene | missing_date,3,0.624015548179664
+mnau_legs,Late Pleistocene | Late_Pleistocene,184,2.7407439740438476e-16
+mnau_legs,Late Pleistocene | Middle_Pleistocene,50,4.6874985921501265e-8
+mnau_legs,Late Pleistocene | missing_date,4,NA
+mnau_legs,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_legs,Middle Pleistocene | Middle_Pleistocene,20,3.5674148158949017e-6
+mnau_legs,Middle Pleistocene | missing_date,11,0.013233547281199163
+mnau_legs,Other_small_groups,2,NA
+mnau_simpson_evenness,Holocene | Holocene_or_recent,134,0.1727483144154308
+mnau_simpson_evenness,Holocene | missing_date,3,0.25711565935728825
+mnau_simpson_evenness,Late Pleistocene | Late_Pleistocene,170,6.047384195311841e-14
+mnau_simpson_evenness,Late Pleistocene | Middle_Pleistocene,49,2.4215787617013845e-6
+mnau_simpson_evenness,Late Pleistocene | missing_date,4,NA
+mnau_simpson_evenness,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_simpson_evenness,Middle Pleistocene | Middle_Pleistocene,20,1.675145941871481e-5
+mnau_simpson_evenness,Middle Pleistocene | missing_date,10,0.0011988381899045674
+mnau_simpson_evenness,Other_small_groups,2,NA
+mnau_foot,Holocene | Holocene_or_recent,134,2.8660108755261935e-13
+mnau_foot,Holocene | missing_date,3,0.6160828039368578
+mnau_foot,Late Pleistocene | Late_Pleistocene,184,3.106678125901478e-21
+mnau_foot,Late Pleistocene | Middle_Pleistocene,50,1.5563328468836208e-11
+mnau_foot,Late Pleistocene | missing_date,4,NA
+mnau_foot,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_foot,Middle Pleistocene | Middle_Pleistocene,20,2.9524143523346733e-7
+mnau_foot,Middle Pleistocene | missing_date,11,NA
+mnau_foot,Other_small_groups,2,NA
+mnau_postcranial_total_mean,Holocene | Holocene_or_recent,134,2.359869772843488e-4
+mnau_postcranial_total_mean,Holocene | missing_date,3,0.14062824014152112
+mnau_postcranial_total_mean,Late Pleistocene | Late_Pleistocene,184,1.476946789950465e-16
+mnau_postcranial_total_mean,Late Pleistocene | Middle_Pleistocene,50,1.5011192474016415e-7
+mnau_postcranial_total_mean,Late Pleistocene | missing_date,4,NA
+mnau_postcranial_total_mean,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_postcranial_total_mean,Middle Pleistocene | Middle_Pleistocene,20,5.071746727377312e-6
+mnau_postcranial_total_mean,Middle Pleistocene | missing_date,11,0.10002584940565368
+mnau_postcranial_total_mean,Other_small_groups,2,NA
+mnau_column_trunk_mean,Holocene | Holocene_or_recent,134,1.1928031874370886e-7
+mnau_column_trunk_mean,Holocene | missing_date,3,0.6287822825667966
+mnau_column_trunk_mean,Late Pleistocene | Late_Pleistocene,184,6.358099240043159e-19
+mnau_column_trunk_mean,Late Pleistocene | Middle_Pleistocene,50,6.0111309766947376e-9
+mnau_column_trunk_mean,Late Pleistocene | missing_date,4,NA
+mnau_column_trunk_mean,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_column_trunk_mean,Middle Pleistocene | Middle_Pleistocene,20,7.99786916132186e-7
+mnau_column_trunk_mean,Middle Pleistocene | missing_date,11,3.4648039321253203e-06
+mnau_column_trunk_mean,Other_small_groups,2,NA
+mnau_appendicular_mean,Holocene | Holocene_or_recent,134,3.59865959683273e-4
+mnau_appendicular_mean,Holocene | missing_date,3,0.2241026640173873
+mnau_appendicular_mean,Late Pleistocene | Late_Pleistocene,184,3.595679429053624e-16
+mnau_appendicular_mean,Late Pleistocene | Middle_Pleistocene,50,4.2236572457387895e-7
+mnau_appendicular_mean,Late Pleistocene | missing_date,4,NA
+mnau_appendicular_mean,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_appendicular_mean,Middle Pleistocene | Middle_Pleistocene,20,4.746029249491846e-6
+mnau_appendicular_mean,Middle Pleistocene | missing_date,11,0.0861830205241321
+mnau_appendicular_mean,Other_small_groups,2,NA
+mnau_upper_appendicular_mean,Holocene | Holocene_or_recent,134,1.696864266935138e-5
+mnau_upper_appendicular_mean,Holocene | missing_date,3,0.291895013552946
+mnau_upper_appendicular_mean,Late Pleistocene | Late_Pleistocene,184,1.1547661502147748e-16
+mnau_upper_appendicular_mean,Late Pleistocene | Middle_Pleistocene,50,9.734225767275565e-8
+mnau_upper_appendicular_mean,Late Pleistocene | missing_date,4,NA
+mnau_upper_appendicular_mean,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_upper_appendicular_mean,Middle Pleistocene | Middle_Pleistocene,20,8.88607448089698e-6
+mnau_upper_appendicular_mean,Middle Pleistocene | missing_date,11,0.025637710354105243
+mnau_upper_appendicular_mean,Other_small_groups,2,NA
+mnau_lower_appendicular_mean,Holocene | Holocene_or_recent,134,2.2883642965238596e-4
+mnau_lower_appendicular_mean,Holocene | missing_date,3,0.1390900549715965
+mnau_lower_appendicular_mean,Late Pleistocene | Late_Pleistocene,184,1.8176439291043076e-16
+mnau_lower_appendicular_mean,Late Pleistocene | Middle_Pleistocene,50,9.356169945927525e-8
+mnau_lower_appendicular_mean,Late Pleistocene | missing_date,4,NA
+mnau_lower_appendicular_mean,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_lower_appendicular_mean,Middle Pleistocene | Middle_Pleistocene,20,5.73652507232008e-7
+mnau_lower_appendicular_mean,Middle Pleistocene | missing_date,11,0.004848107338859674
+mnau_lower_appendicular_mean,Other_small_groups,2,NA
+mnau_girdle_mean,Holocene | Holocene_or_recent,134,8.571332240856835e-6
+mnau_girdle_mean,Holocene | missing_date,3,0.18296581418090863
+mnau_girdle_mean,Late Pleistocene | Late_Pleistocene,184,3.204528530764378e-18
+mnau_girdle_mean,Late Pleistocene | Middle_Pleistocene,50,5.633249177076901e-8
+mnau_girdle_mean,Late Pleistocene | missing_date,4,NA
+mnau_girdle_mean,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_girdle_mean,Middle Pleistocene | Middle_Pleistocene,20,4.27177393172365e-6
+mnau_girdle_mean,Middle Pleistocene | missing_date,11,3.15665128520453e-4
+mnau_girdle_mean,Other_small_groups,2,NA
+mnau_distal_appendicular_mean,Holocene | Holocene_or_recent,134,3.216087539464269e-12
+mnau_distal_appendicular_mean,Holocene | missing_date,3,0.33474787665293043
+mnau_distal_appendicular_mean,Late Pleistocene | Late_Pleistocene,184,8.164318958610082e-20
+mnau_distal_appendicular_mean,Late Pleistocene | Middle_Pleistocene,50,1.347449407184874e-10
+mnau_distal_appendicular_mean,Late Pleistocene | missing_date,4,NA
+mnau_distal_appendicular_mean,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_distal_appendicular_mean,Middle Pleistocene | Middle_Pleistocene,20,2.809534789151598e-7
+mnau_distal_appendicular_mean,Middle Pleistocene | missing_date,11,2.587967943673922e-7
+mnau_distal_appendicular_mean,Other_small_groups,2,NA
+mnau_proximal_appendicular_mean,Holocene | Holocene_or_recent,134,1.1307794443685151e-4
+mnau_proximal_appendicular_mean,Holocene | missing_date,3,0.7364699218356116
+mnau_proximal_appendicular_mean,Late Pleistocene | Late_Pleistocene,184,2.963730522256637e-16
+mnau_proximal_appendicular_mean,Late Pleistocene | Middle_Pleistocene,50,5.012135611184285e-7
+mnau_proximal_appendicular_mean,Late Pleistocene | missing_date,4,NA
+mnau_proximal_appendicular_mean,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+mnau_proximal_appendicular_mean,Middle Pleistocene | Middle_Pleistocene,20,1.3040329485697747e-5
+mnau_proximal_appendicular_mean,Middle Pleistocene | missing_date,11,0.07384625643219282
+mnau_proximal_appendicular_mean,Other_small_groups,2,NA
+low_density_survival_index,Holocene | Holocene_or_recent,134,6.703675185682376e-12
+low_density_survival_index,Holocene | missing_date,3,0.7830696105205354
+low_density_survival_index,Late Pleistocene | Late_Pleistocene,184,8.926987934646608e-19
+low_density_survival_index,Late Pleistocene | Middle_Pleistocene,50,8.920263245065681e-10
+low_density_survival_index,Late Pleistocene | missing_date,4,NA
+low_density_survival_index,Lower Pleistocene | Early_Pleistocene_or_older,2,NA
+low_density_survival_index,Middle Pleistocene | Middle_Pleistocene,20,8.675537575948584e-6
+low_density_survival_index,Middle Pleistocene | missing_date,11,4.313287896407095e-7
+low_density_survival_index,Other_small_groups,2,NA

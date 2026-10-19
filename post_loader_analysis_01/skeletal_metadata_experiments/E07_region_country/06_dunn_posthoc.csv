@@ -1,0 +1,925 @@
+feature,.y.,group1,group2,n1,n2,statistic,p,p.adj,p.adj.signif
+mne_arms,value,Central Europe,Eastern Europe,12,3,-0.058412039285329856,0.9534204251843309,0.9760036937917369,ns
+mne_arms,value,Central Europe,Europe,12,6,2.6277351662218837,0.00859554058917678,0.04011252274949165,*
+mne_arms,value,Central Europe,North America,12,3,2.002484526268873,0.04523264567801218,0.10554283991536177,ns
+mne_arms,value,Central Europe,Other_small_groups,12,8,-0.8387797659646326,0.40159290722601654,0.5111182455603847,ns
+mne_arms,value,Central Europe,Southeast Asia,12,5,-2.2372963030528834,0.025266980689662828,0.07860838436783991,ns
+mne_arms,value,Central Europe,West Asia,12,7,1.2588849602038519,0.20807188690670161,0.3066322543888234,ns
+mne_arms,value,Central Europe,West Europe,12,107,-0.6530986215497028,0.5136927008831047,0.6253650271620406,ns
+mne_arms,value,Eastern Europe,Europe,3,6,1.9114120077752752,0.055951654790549275,0.11576951450965005,ns
+mne_arms,value,Eastern Europe,North America,3,3,1.6292817922924483,0.1032533788081989,0.19273964044197128,ns
+mne_arms,value,Eastern Europe,Other_small_groups,3,8,-0.5098115086301999,0.6101835221337254,0.689493280378279,ns
+mne_arms,value,Eastern Europe,Southeast Asia,3,5,-1.5790664533500849,0.11432081533869959,0.20006142684272427,ns
+mne_arms,value,Eastern Europe,West Asia,3,7,0.9222660428032736,0.3563898218549121,0.47518642913988274,ns
+mne_arms,value,Eastern Europe,West Europe,3,107,-0.27523559092874333,0.7831352448843576,0.8433764175677697,ns
+mne_arms,value,Europe,North America,6,3,-0.030079445043673547,0.9760036937917369,0.9760036937917369,ns
+mne_arms,value,Europe,Other_small_groups,6,8,-3.141708321752585,0.0016796527193355586,0.01175756903534891,*
+mne_arms,value,Europe,Southeast Asia,6,5,-4.1364741429749605,3.52683075694489e-5,9.875126119445693e-4,***
+mne_arms,value,Europe,West Asia,6,7,-1.2854320256992022,0.19864135592063092,0.3066322543888234,ns
+mne_arms,value,Europe,West Europe,6,107,-3.6056104588378886,3.1141998968732684e-4,0.004359879855622576,**
+mne_arms,value,North America,Other_small_groups,3,8,-2.4747992841908584,0.013331107327526577,0.04665887564634302,*
+mne_arms,value,North America,Southeast Asia,3,5,-3.4006588743843884,6.722365935678935e-4,0.006274208206633673,**
+mne_arms,value,North America,West Asia,3,7,-1.0055261716674582,0.3146435537416681,0.44050097523833526,ns
+mne_arms,value,North America,West Europe,3,107,-2.5477505372959897,0.010841997037503968,0.04336798815001587,*
+mne_arms,value,Other_small_groups,Southeast Asia,8,5,-1.4174013010193993,0.15636563253164815,0.2575433947580087,ns
+mne_arms,value,Other_small_groups,West Asia,8,7,1.8965696661466624,0.057884757254825024,0.11576951450965005,ns
+mne_arms,value,Other_small_groups,West Europe,8,107,0.5020689788522454,0.615619000337749,0.689493280378279,ns
+mne_arms,value,Southeast Asia,West Asia,5,7,3.0563428413352205,0.0022405490308848464,0.01254707457295514,*
+mne_arms,value,Southeast Asia,West Europe,5,107,2.168248676492749,0.03013977107175096,0.08439135900090268,ns
+mne_arms,value,West Asia,West Europe,7,107,-2.044292070602075,0.04092470211860914,0.10417196902918689,ns
+mnau_distal_appendicular_mean,value,Central Europe,Eastern Europe,12,3,1.2294936451510015,0.2188867790270384,0.34049054515317084,ns
+mnau_distal_appendicular_mean,value,Central Europe,Europe,12,6,2.4502509304145343,0.014275668939145388,0.044413192255118986,*
+mnau_distal_appendicular_mean,value,Central Europe,North America,12,3,1.5338828485621716,0.12505847619290733,0.25011695238581466,ns
+mnau_distal_appendicular_mean,value,Central Europe,Other_small_groups,12,8,-0.3692768845500168,0.7119213533270252,0.7670169510123112,ns
+mnau_distal_appendicular_mean,value,Central Europe,Southeast Asia,12,5,-1.8094418064617561,0.07038239320712303,0.16422558414995375,ns
+mnau_distal_appendicular_mean,value,Central Europe,West Asia,12,7,2.99837302901111,0.002714252285558907,0.016254001240631585,*
+mnau_distal_appendicular_mean,value,Central Europe,West Europe,12,107,0.8679917319256698,0.38539885893025133,0.49050763863850166,ns
+mnau_distal_appendicular_mean,value,Eastern Europe,Europe,3,6,0.6102200422406718,0.5417160549085422,0.632002064059966,ns
+mnau_distal_appendicular_mean,value,Eastern Europe,North America,3,3,0.24064079448589804,0.8098335296561404,0.8098335296561404,ns
+mnau_distal_appendicular_mean,value,Eastern Europe,Other_small_groups,3,8,-1.4212426191411511,0.1552462385775228,0.28590258465319185,ns
+mnau_distal_appendicular_mean,value,Eastern Europe,Southeast Asia,3,5,-2.40557513364011,0.01614703127186801,0.045211687561230424,*
+mnau_distal_appendicular_mean,value,Eastern Europe,West Asia,3,7,0.9164000055993624,0.3594571323993987,0.48775343585110353,ns
+mnau_distal_appendicular_mean,value,Eastern Europe,West Europe,3,107,-0.9043401242918399,0.36581507688832765,0.48775343585110353,ns
+mnau_distal_appendicular_mean,value,Europe,North America,6,3,-0.33235198729179455,0.7396234884761572,0.7670169510123112,ns
+mnau_distal_appendicular_mean,value,Europe,Other_small_groups,6,8,-2.580587491014509,0.00986323600243689,0.03452132600852911,*
+mnau_distal_appendicular_mean,value,Europe,Southeast Asia,6,5,-3.613816259992496,3.017229197527151e-4,0.004224120876538012,**
+mnau_distal_appendicular_mean,value,Europe,West Asia,6,7,0.3610781765648747,0.7180410068726361,0.7670169510123112,ns
+mnau_distal_appendicular_mean,value,Europe,West Europe,6,107,-2.2903281838173126,0.022002299203124777,0.05600585251704489,ns
+mnau_distal_appendicular_mean,value,North America,Other_small_groups,3,8,-1.7114663371639687,0.0869950602830782,0.18737397599432226,ns
+mnau_distal_appendicular_mean,value,North America,Southeast Asia,3,5,-2.674619720955122,0.007481405863723603,0.029925623454894412,*
+mnau_distal_appendicular_mean,value,North America,West Asia,3,7,0.6316699777499521,0.5276025497111196,0.632002064059966,ns
+mnau_distal_appendicular_mean,value,North America,West Europe,3,107,-1.239984826615214,0.2149810064510218,0.34049054515317084,ns
+mnau_distal_appendicular_mean,value,Other_small_groups,Southeast Asia,8,5,-1.393816893053086,0.1633729055161096,0.28590258465319185,ns
+mnau_distal_appendicular_mean,value,Other_small_groups,West Asia,8,7,3.080986267737456,0.002063161638071744,0.016254001240631585,*
+mnau_distal_appendicular_mean,value,Other_small_groups,West Europe,8,107,1.1807858277152572,0.23768781550377774,0.35027678074240925,ns
+mnau_distal_appendicular_mean,value,Southeast Asia,West Asia,5,7,4.080267086472575,4.4983983516746505e-5,0.001259551538468902,**
+mnau_distal_appendicular_mean,value,Southeast Asia,West Europe,5,107,2.6825746146442824,0.007305785241765881,0.029925623454894412,*
+mnau_distal_appendicular_mean,value,West Asia,West Europe,7,107,-2.9778795528729156,0.002902500221541355,0.016254001240631585,*
+distal_appendicular_continuity_hm,value,Central Europe,Eastern Europe,12,3,1.163841071866239,0.2444884241135432,0.380315326398845,ns
+distal_appendicular_continuity_hm,value,Central Europe,Europe,12,6,2.5735339960957684,0.010066575667909165,0.04026630267163666,*
+distal_appendicular_continuity_hm,value,Central Europe,North America,12,3,1.6234090848595744,0.1045019839330979,0.2090039678661958,ns
+distal_appendicular_continuity_hm,value,Central Europe,Other_small_groups,12,8,-0.44313226146002027,0.6576700713261697,0.7672817498805314,ns
+distal_appendicular_continuity_hm,value,Central Europe,Southeast Asia,12,5,-1.9759104526562379,0.048164920129381415,0.1123848136352233,ns
+distal_appendicular_continuity_hm,value,Central Europe,West Asia,12,7,2.319081262114343,0.020390630562985807,0.0519034232512366,ns
+distal_appendicular_continuity_hm,value,Central Europe,West Europe,12,107,0.5357681626411342,0.5921187882319616,0.742976003324834,ns
+distal_appendicular_continuity_hm,value,Eastern Europe,Europe,3,6,0.7573266595665481,0.4488541827767011,0.598472243702268,ns
+distal_appendicular_continuity_hm,value,Eastern Europe,North America,3,3,0.36332041520419883,0.7163655446856477,0.7685369817279396,ns
+distal_appendicular_continuity_hm,value,Eastern Europe,Other_small_groups,3,8,-1.4084386315813209,0.15900122677940903,0.2618843735190266,ns
+distal_appendicular_continuity_hm,value,Eastern Europe,Southeast Asia,3,5,-2.4688797424201128,0.01355367587654781,0.04216699161592652,*
+distal_appendicular_continuity_hm,value,Eastern Europe,West Asia,3,7,0.5096428229573474,0.6103017170168279,0.742976003324834,ns
+distal_appendicular_continuity_hm,value,Eastern Europe,West Europe,3,107,-1.0047198483511666,0.3150317679668128,0.44639272419408543,ns
+distal_appendicular_continuity_hm,value,Europe,North America,6,3,-0.3378003805260864,0.7355136231087389,0.7685369817279396,ns
+distal_appendicular_continuity_hm,value,Europe,Other_small_groups,6,8,-2.757144617213843,0.005830855705132663,0.03698982008641239,*
+distal_appendicular_continuity_hm,value,Europe,Southeast Asia,6,5,-3.8619480102384594,1.1248650744861485e-4,0.0031496222085612155,**
+distal_appendicular_continuity_hm,value,Europe,West Asia,6,7,-0.3304112629388173,0.7410892323805133,0.7685369817279396,ns
+distal_appendicular_continuity_hm,value,Europe,West Europe,6,107,-2.6783288477749725,0.007399053541766755,0.03698982008641239,*
+distal_appendicular_continuity_hm,value,North America,Other_small_groups,3,8,-1.8466195391843983,0.06480230032411793,0.13957418531348478,ns
+distal_appendicular_continuity_hm,value,North America,Southeast Asia,3,5,-2.875084315425131,0.004039196190183494,0.03698982008641239,*
+distal_appendicular_continuity_hm,value,North America,West Asia,3,7,0.07975631032196359,0.9364310728895913,0.9364310728895913,ns
+distal_appendicular_continuity_hm,value,North America,West Europe,3,107,-1.511477536172731,0.13066682773049199,0.23833859537764063,ns
+distal_appendicular_continuity_hm,value,Other_small_groups,Southeast Asia,8,5,-1.4901169693003902,0.1361934830729375,0.23833859537764063,ns
+distal_appendicular_continuity_hm,value,Other_small_groups,West Asia,8,7,2.52189453238049,0.011672469916690029,0.0408536447084151,*
+distal_appendicular_continuity_hm,value,Other_small_groups,West Europe,8,107,0.9968198820108214,0.3188519458529182,0.44639272419408543,ns
+distal_appendicular_continuity_hm,value,Southeast Asia,West Asia,5,7,3.6798538685879127,2.3336764569349504e-4,0.0032671470397089303,**
+distal_appendicular_continuity_hm,value,Southeast Asia,West Europe,5,107,2.6551893594037006,0.00792639001851694,0.03698982008641239,*
+distal_appendicular_continuity_hm,value,West Asia,West Europe,7,107,-2.4090257683465857,0.015995168581214542,0.044786472027400714,*
+appendicular_dominance_refined,value,Central Europe,Eastern Europe,9,3,-0.6495108170246537,0.516008257000895,0.6567377816375027,ns
+appendicular_dominance_refined,value,Central Europe,Europe,9,6,-1.2479956083152746,0.21203266548552038,0.39579430890630474,ns
+appendicular_dominance_refined,value,Central Europe,North America,9,3,-0.29216749554742205,0.7701585626829628,0.8199375610479088,ns
+appendicular_dominance_refined,value,Central Europe,Other_small_groups,9,6,1.5621266213422398,0.11825816261044275,0.2759357127576998,ns
+appendicular_dominance_refined,value,Central Europe,Southeast Asia,9,3,2.4452171935045786,0.014476493322157452,0.0661820913900121,ns
+appendicular_dominance_refined,value,Central Europe,West Asia,9,7,-1.0121236480568152,0.31147893673036026,0.4590215909710572,ns
+appendicular_dominance_refined,value,Central Europe,West Europe,9,91,1.066071744637192,0.2863912112060712,0.44549743965388855,ns
+appendicular_dominance_refined,value,Eastern Europe,Europe,3,6,-0.31783633437518855,0.7506090878562586,0.8199375610479088,ns
+appendicular_dominance_refined,value,Eastern Europe,North America,3,3,0.29176960020351694,0.7704627898981296,0.8199375610479088,ns
+appendicular_dominance_refined,value,Eastern Europe,Other_small_groups,3,6,1.7767051091573038,0.07561677125078138,0.19247905409289806,ns
+appendicular_dominance_refined,value,Eastern Europe,Southeast Asia,3,3,2.526834839498382,0.011509561471860464,0.0661820913900121,ns
+appendicular_dominance_refined,value,Eastern Europe,West Asia,3,7,-0.11166354068487862,0.9110901888010391,0.9110901888010391,ns
+appendicular_dominance_refined,value,Eastern Europe,West Europe,3,91,1.3727619986118813,0.16982634810161298,0.33965269620322597,ns
+appendicular_dominance_refined,value,Europe,North America,6,3,0.6547428488128885,0.5126333324169183,0.6567377816375027,ns
+appendicular_dominance_refined,value,Europe,Other_small_groups,6,6,2.5652788908835555,0.010309290426046069,0.0661820913900121,ns
+appendicular_dominance_refined,value,Europe,Southeast Asia,6,3,3.2355738839394195,0.0012139846292798183,0.02696011384926366,*
+appendicular_dominance_refined,value,Europe,West Asia,6,7,0.26546135461602083,0.7906540767247693,0.8199375610479088,ns
+appendicular_dominance_refined,value,Europe,West Europe,6,91,2.444332409782053,0.014512048654057787,0.0661820913900121,ns
+appendicular_dominance_refined,value,North America,Other_small_groups,3,6,1.439798594719604,0.14992438889998938,0.3229140683999771,ns
+appendicular_dominance_refined,value,North America,Southeast Asia,3,3,2.2350652392948644,0.02541306603801033,0.07906287211825436,ns
+appendicular_dominance_refined,value,North America,West Asia,3,7,-0.45688998730229546,0.6477501211599306,0.7885653648903503,ns
+appendicular_dominance_refined,value,North America,West Europe,3,91,0.9667752976488506,0.33365637584735186,0.4671189261862926,ns
+appendicular_dominance_refined,value,Other_small_groups,Southeast Asia,6,3,1.1410324404069272,0.253856423471714,0.4442487410754995,ns
+appendicular_dominance_refined,value,Other_small_groups,West Asia,6,7,-2.3966543602615955,0.016545522847503026,0.0661820913900121,ns
+appendicular_dominance_refined,value,Other_small_groups,West Europe,6,91,-1.069527267133757,0.2848321489858588,0.44549743965388855,ns
+appendicular_dominance_refined,value,Southeast Asia,West Asia,3,7,-3.1014548425225072,0.0019257224178045472,0.02696011384926366,*
+appendicular_dominance_refined,value,Southeast Asia,West Europe,3,91,-2.143236034256629,0.03209415018367845,0.08986362051429965,ns
+appendicular_dominance_refined,value,West Asia,West Europe,7,91,2.2501411964626055,0.02443998368058669,0.07906287211825436,ns
+appendicular_dominance,value,Central Europe,Eastern Europe,9,3,-0.6495108170246537,0.516008257000895,0.6567377816375027,ns
+appendicular_dominance,value,Central Europe,Europe,9,6,-1.2479956083152746,0.21203266548552038,0.39579430890630474,ns
+appendicular_dominance,value,Central Europe,North America,9,3,-0.29216749554742205,0.7701585626829628,0.8199375610479088,ns
+appendicular_dominance,value,Central Europe,Other_small_groups,9,6,1.5621266213422398,0.11825816261044275,0.2759357127576998,ns
+appendicular_dominance,value,Central Europe,Southeast Asia,9,3,2.4452171935045786,0.014476493322157452,0.0661820913900121,ns
+appendicular_dominance,value,Central Europe,West Asia,9,7,-1.0121236480568152,0.31147893673036026,0.4590215909710572,ns
+appendicular_dominance,value,Central Europe,West Europe,9,91,1.066071744637192,0.2863912112060712,0.44549743965388855,ns
+appendicular_dominance,value,Eastern Europe,Europe,3,6,-0.31783633437518855,0.7506090878562586,0.8199375610479088,ns
+appendicular_dominance,value,Eastern Europe,North America,3,3,0.29176960020351694,0.7704627898981296,0.8199375610479088,ns
+appendicular_dominance,value,Eastern Europe,Other_small_groups,3,6,1.7767051091573038,0.07561677125078138,0.19247905409289806,ns
+appendicular_dominance,value,Eastern Europe,Southeast Asia,3,3,2.526834839498382,0.011509561471860464,0.0661820913900121,ns
+appendicular_dominance,value,Eastern Europe,West Asia,3,7,-0.11166354068487862,0.9110901888010391,0.9110901888010391,ns
+appendicular_dominance,value,Eastern Europe,West Europe,3,91,1.3727619986118813,0.16982634810161298,0.33965269620322597,ns
+appendicular_dominance,value,Europe,North America,6,3,0.6547428488128885,0.5126333324169183,0.6567377816375027,ns
+appendicular_dominance,value,Europe,Other_small_groups,6,6,2.5652788908835555,0.010309290426046069,0.0661820913900121,ns
+appendicular_dominance,value,Europe,Southeast Asia,6,3,3.2355738839394195,0.0012139846292798183,0.02696011384926366,*
+appendicular_dominance,value,Europe,West Asia,6,7,0.26546135461602083,0.7906540767247693,0.8199375610479088,ns
+appendicular_dominance,value,Europe,West Europe,6,91,2.444332409782053,0.014512048654057787,0.0661820913900121,ns
+appendicular_dominance,value,North America,Other_small_groups,3,6,1.439798594719604,0.14992438889998938,0.3229140683999771,ns
+appendicular_dominance,value,North America,Southeast Asia,3,3,2.2350652392948644,0.02541306603801033,0.07906287211825436,ns
+appendicular_dominance,value,North America,West Asia,3,7,-0.45688998730229546,0.6477501211599306,0.7885653648903503,ns
+appendicular_dominance,value,North America,West Europe,3,91,0.9667752976488506,0.33365637584735186,0.4671189261862926,ns
+appendicular_dominance,value,Other_small_groups,Southeast Asia,6,3,1.1410324404069272,0.253856423471714,0.4442487410754995,ns
+appendicular_dominance,value,Other_small_groups,West Asia,6,7,-2.3966543602615955,0.016545522847503026,0.0661820913900121,ns
+appendicular_dominance,value,Other_small_groups,West Europe,6,91,-1.069527267133757,0.2848321489858588,0.44549743965388855,ns
+appendicular_dominance,value,Southeast Asia,West Asia,3,7,-3.1014548425225072,0.0019257224178045472,0.02696011384926366,*
+appendicular_dominance,value,Southeast Asia,West Europe,3,91,-2.143236034256629,0.03209415018367845,0.08986362051429965,ns
+appendicular_dominance,value,West Asia,West Europe,7,91,2.2501411964626055,0.02443998368058669,0.07906287211825436,ns
+mnau_foot,value,Central Europe,Eastern Europe,12,3,1.3607649560761153,0.1735879797621329,0.27002574629665116,ns
+mnau_foot,value,Central Europe,Europe,12,6,2.464152086608415,0.013733782271978074,0.05019900655033678,ns
+mnau_foot,value,Central Europe,North America,12,3,1.5677717055463074,0.11693442038684712,0.22566871333851982,ns
+mnau_foot,value,Central Europe,Other_small_groups,12,8,-0.246471144655165,0.805317538798981,0.867265041783518,ns
+mnau_foot,value,Central Europe,Southeast Asia,12,5,-1.7092363797114025,0.08740717260833954,0.20395006941945892,ns
+mnau_foot,value,Central Europe,West Asia,12,7,2.301378280394431,0.021370258502631457,0.05983672380736808,ns
+mnau_foot,value,Central Europe,West Europe,12,107,0.3417394687882063,0.7325469665953774,0.867265041783518,ns
+mnau_foot,value,Eastern Europe,Europe,3,6,0.5002158804734328,0.6169230775979099,0.8225641034638798,ns
+mnau_foot,value,Eastern Europe,North America,3,3,0.16365320483841533,0.8700041578879663,0.902226534106039,ns
+mnau_foot,value,Eastern Europe,Other_small_groups,3,8,-1.4636092902026676,0.14330073273239732,0.2507762822816953,ns
+mnau_foot,value,Eastern Europe,Southeast Asia,3,5,-2.448567048430135,0.014342573300096223,0.05019900655033678,ns
+mnau_foot,value,Eastern Europe,West Asia,3,7,0.3132364583065911,0.7541010213983721,0.867265041783518,ns
+mnau_foot,value,Eastern Europe,West Europe,3,107,-1.3227695012018548,0.18591204260011082,0.2739756417264791,ns
+mnau_foot,value,Europe,North America,6,3,-0.3112454367390247,0.7556140436644142,0.867265041783518,ns
+mnau_foot,value,Europe,Other_small_groups,6,8,-2.489667667251664,0.012786259265249237,0.05019900655033678,ns
+mnau_foot,value,Europe,Southeast Asia,6,5,-3.5372092744459946,4.043791103910321e-4,0.008669100531491778,**
+mnau_foot,value,Europe,West Asia,6,7,-0.24724127889822858,0.804721500770745,0.867265041783518,ns
+mnau_foot,value,Europe,West Europe,6,107,-2.6887633623207474,0.007171723877759541,0.05019900655033678,ns
+mnau_foot,value,North America,Other_small_groups,3,8,-1.6609824815438308,0.09671696515092043,0.20831346340198245,ns
+mnau_foot,value,North America,Southeast Asia,3,5,-2.6315368938073322,0.00849996377564015,0.05019900655033678,ns
+mnau_foot,value,North America,West Asia,3,7,0.11959937498978927,0.9048005148567769,0.9048005148567769,ns
+mnau_foot,value,North America,West Europe,3,107,-1.5510322583108744,0.12089395357420704,0.22566871333851982,ns
+mnau_foot,value,Other_small_groups,Southeast Asia,8,5,-1.3985784120316556,0.16193944375299227,0.2667237897108108,ns
+mnau_foot,value,Other_small_groups,West Asia,8,7,2.332187812300891,0.019690813053948746,0.05983672380736808,ns
+mnau_foot,value,Other_small_groups,West Europe,8,107,0.590766129536556,0.5546771321587114,0.7765479850221959,ns
+mnau_foot,value,Southeast Asia,West Asia,5,7,3.423052367562373,6.19221466535127e-4,0.008669100531491778,**
+mnau_foot,value,Southeast Asia,West Europe,5,107,2.215849987414979,0.026701777680733268,0.06796816136913923,ns
+mnau_foot,value,West Asia,West Europe,7,107,-2.538851554628914,0.011121700177918052,0.05019900655033678,ns
+postcranial_dominance_refined,value,Central Europe,Eastern Europe,9,3,-0.7797876680904151,0.43551586621863136,0.6097222127060838,ns
+postcranial_dominance_refined,value,Central Europe,Europe,9,6,-0.9863620489908457,0.32395548126952434,0.5039307486414824,ns
+postcranial_dominance_refined,value,Central Europe,North America,9,3,-0.6382123854111754,0.5233354359159842,0.666063282074889,ns
+postcranial_dominance_refined,value,Central Europe,Other_small_groups,9,6,1.1625996485223509,0.24499197346549334,0.4035161915902243,ns
+postcranial_dominance_refined,value,Central Europe,Southeast Asia,9,3,2.395543672001102,0.016595737094952327,0.07744677310977753,ns
+postcranial_dominance_refined,value,Central Europe,West Asia,9,7,-1.3054845470876102,0.19172790567653694,0.3578920905962023,ns
+postcranial_dominance_refined,value,Central Europe,West Europe,9,91,0.8678994038315967,0.3854494053625795,0.5680307026395908,ns
+postcranial_dominance_refined,value,Eastern Europe,Europe,3,6,0,1,1,ns
+postcranial_dominance_refined,value,Eastern Europe,North America,3,3,0.11559573425147546,0.9079729438170794,0.9416015713658601,ns
+postcranial_dominance_refined,value,Eastern Europe,Other_small_groups,3,6,1.6017414788942828,0.10921278874140083,0.27799618952356575,ns
+postcranial_dominance_refined,value,Eastern Europe,Southeast Asia,3,3,2.592647182497378,0.009524041941205002,0.07744677310977753,ns
+postcranial_dominance_refined,value,Eastern Europe,West Asia,3,7,-0.20004465453035053,0.8414456576220621,0.9416015713658601,ns
+postcranial_dominance_refined,value,Eastern Europe,West Europe,3,91,1.4027628816426005,0.16068755904917542,0.3278510833275705,ns
+postcranial_dominance_refined,value,Europe,North America,6,3,0.1334784565745236,0.8938150009676152,0.9416015713658601,ns
+postcranial_dominance_refined,value,Europe,Other_small_groups,6,6,1.9617246615709523,0.049794549017829204,0.1423320507386695,ns
+postcranial_dominance_refined,value,Europe,Southeast Asia,6,3,2.993731097457172,0.002755887140164556,0.038582419962303785,*
+postcranial_dominance_refined,value,Europe,West Asia,6,7,-0.24812485630661923,0.8040378042955896,0.9380441050115212,ns
+postcranial_dominance_refined,value,Europe,West Europe,6,91,1.9528879381426596,0.050832875263810536,0.1423320507386695,ns
+postcranial_dominance_refined,value,North America,Other_small_groups,3,6,1.4682630223197592,0.14203279115473155,0.3278510833275705,ns
+postcranial_dominance_refined,value,North America,Southeast Asia,3,3,2.4770514482459025,0.013247280477915836,0.07744677310977753,ns
+postcranial_dominance_refined,value,North America,West Asia,3,7,-0.3368193718138925,0.7362530689008238,0.8963080838792638,ns
+postcranial_dominance_refined,value,North America,West Europe,3,91,1.241915655744424,0.2142676831387994,0.374968445492899,ns
+postcranial_dominance_refined,value,Other_small_groups,Southeast Asia,6,3,1.3919896185628888,0.16392554166378526,0.3278510833275705,ns
+postcranial_dominance_refined,value,Other_small_groups,West Asia,6,7,-2.283902747119997,0.022377247156479874,0.0895089886259195,ns
+postcranial_dominance_refined,value,Other_small_groups,West Europe,6,91,-0.7342371187088621,0.4628042344700432,0.6170723126267242,ns
+postcranial_dominance_refined,value,Southeast Asia,West Asia,3,7,-3.2677061707469344,0.0010842286479925394,0.030358402143791104,*
+postcranial_dominance_refined,value,Southeast Asia,West Europe,3,91,-2.204810613502215,0.027467386964495712,0.09613585437573499,ns
+postcranial_dominance_refined,value,West Asia,West Europe,7,91,2.450514757706836,0.014265211482130422,0.07744677310977753,ns
+mnau_region_mean_evenness,value,Central Europe,Eastern Europe,12,3,0.8897017721789476,0.37362604218664935,0.5506067990119042,ns
+mnau_region_mean_evenness,value,Central Europe,Europe,12,6,1.597211515829113,0.11021856660224987,0.19288249155393727,ns
+mnau_region_mean_evenness,value,Central Europe,North America,12,3,1.728477853694454,0.08390258815295648,0.16780517630591296,ns
+mnau_region_mean_evenness,value,Central Europe,Other_small_groups,12,8,-0.4554193387656761,0.6488075850898765,0.7408084864650994,ns
+mnau_region_mean_evenness,value,Central Europe,Southeast Asia,12,5,-2.1091651239702394,0.03493033115347098,0.10867214136635417,ns
+mnau_region_mean_evenness,value,Central Europe,West Asia,12,7,2.191462246349636,0.028418358906160995,0.09946425617156349,ns
+mnau_region_mean_evenness,value,Central Europe,West Europe,12,105,0.0603741342736857,0.9518576589280211,0.9518576589280211,ns
+mnau_region_mean_evenness,value,Eastern Europe,Europe,3,6,0.3172162103741241,0.7510795505314951,0.8088549005723793,ns
+mnau_region_mean_evenness,value,Eastern Europe,North America,3,3,0.6631107161150144,0.5072596479503236,0.6763461972670981,ns
+mnau_region_mean_evenness,value,Eastern Europe,Other_small_groups,3,8,-1.155341010917051,0.24795080796841124,0.4083895660656185,ns
+mnau_region_mean_evenness,value,Eastern Europe,Southeast Asia,3,5,-2.3236977424462646,0.02014169955174308,0.08056679820697232,ns
+mnau_region_mean_evenness,value,Eastern Europe,West Asia,3,7,0.6781213201276202,0.4976947738059418,0.6763461972670981,ns
+mnau_region_mean_evenness,value,Eastern Europe,West Europe,3,105,-0.9493843169417082,0.34242518381858095,0.5326613970511259,ns
+mnau_region_mean_evenness,value,Europe,North America,6,3,0.448478090528934,0.6538081948103021,0.7408084864650994,ns
+mnau_region_mean_evenness,value,Europe,Other_small_groups,6,8,-1.8636301167862366,0.0623736652987269,0.1358292553511462,ns
+mnau_region_mean_evenness,value,Europe,Southeast Asia,6,5,-3.172913650139911,0.0015091740293931278,0.02031056450533799,*
+mnau_region_mean_evenness,value,Europe,West Asia,6,7,0.43793121252584466,0.661436148629553,0.7408084864650994,ns
+mnau_region_mean_evenness,value,Europe,West Europe,6,105,-1.8587429469901242,0.0630635828416036,0.1358292553511462,ns
+mnau_region_mean_evenness,value,North America,Other_small_groups,3,8,-1.9550826253960978,0.05057331865974369,0.1358292553511462,ns
+mnau_region_mean_evenness,value,North America,Southeast Asia,3,5,-3.0650780613671333,0.002176131911286213,0.02031056450533799,*
+mnau_region_mean_evenness,value,North America,West Asia,3,7,-0.10648186018532893,0.9152000470530591,0.9490963450920613,ns
+mnau_region_mean_evenness,value,North America,West Europe,3,105,-1.8740480325080713,0.060923805059155886,0.1358292553511462,ns
+mnau_region_mean_evenness,value,Other_small_groups,Southeast Asia,8,5,-1.604699262497378,0.1085600043289613,0.19288249155393727,ns
+mnau_region_mean_evenness,value,Other_small_groups,West Asia,8,7,2.415456933677721,0.015715480826721556,0.0733389105247006,ns
+mnau_region_mean_evenness,value,Other_small_groups,West Europe,8,105,0.6169098331349239,0.5372942005977632,0.6838289825789714,ns
+mnau_region_mean_evenness,value,Southeast Asia,West Asia,5,7,3.697333914100356,2.1787567402917318e-4,0.006100518872816849,**
+mnau_region_mean_evenness,value,Southeast Asia,West Europe,5,105,2.4928825806473744,0.012671074128730857,0.0709580151208928,ns
+mnau_region_mean_evenness,value,West Asia,West Europe,7,105,-2.6228369352360974,0.008720099714976727,0.06104069800483709,ns
+lower_appendicular_evenness_refined,value,Central Europe,Eastern Europe,9,3,0.6596136878417974,0.5095017681201927,0.7508447109139681,ns
+lower_appendicular_evenness_refined,value,Central Europe,Europe,9,6,1.573690054923557,0.11555912212101883,0.26963795161571064,ns
+lower_appendicular_evenness_refined,value,Central Europe,North America,9,3,1.2793219212590021,0.20078371622070795,0.3513715033862389,ns
+lower_appendicular_evenness_refined,value,Central Europe,Other_small_groups,9,5,-0.2721485680756474,0.7855077864030876,0.8701789470202644,ns
+lower_appendicular_evenness_refined,value,Central Europe,Southeast Asia,9,3,-2.0868205284389956,0.03690436076223161,0.14522303590134514,ns
+lower_appendicular_evenness_refined,value,Central Europe,West Asia,9,7,1.3596740299623757,0.17393309984233563,0.3246751197056932,ns
+lower_appendicular_evenness_refined,value,Central Europe,West Europe,9,87,-0.33041832699609086,0.7410838955003131,0.8701789470202644,ns
+lower_appendicular_evenness_refined,value,Eastern Europe,Europe,3,6,0.5510695639262819,0.5815859886961061,0.8142203841745486,ns
+lower_appendicular_evenness_refined,value,Eastern Europe,North America,3,3,0.5059896537579088,0.6128639128377698,0.817151883783693,ns
+lower_appendicular_evenness_refined,value,Eastern Europe,Other_small_groups,3,5,-0.8099990623636221,0.4179407146384712,0.650130000548733,ns
+lower_appendicular_evenness_refined,value,Eastern Europe,Southeast Asia,3,3,-2.2424541473361863,0.024932035607502463,0.13928133809716609,ns
+lower_appendicular_evenness_refined,value,Eastern Europe,West Asia,3,7,0.35571815225520564,0.7220516495308609,0.8701789470202644,ns
+lower_appendicular_evenness_refined,value,Eastern Europe,West Europe,3,87,-0.9458778468807728,0.3442108938488428,0.5669355898686822,ns
+lower_appendicular_evenness_refined,value,Europe,North America,6,3,0.03319696168230653,0.9735175210149702,0.9735175210149702,ns
+lower_appendicular_evenness_refined,value,Europe,Other_small_groups,6,5,-1.620406236114176,0.10514504116589674,0.26764192296773714,ns
+lower_appendicular_evenness_refined,value,Europe,Southeast Asia,6,3,-3.1404325751461615,0.0016869853498959883,0.03669217451832123,*
+lower_appendicular_evenness_refined,value,Europe,West Asia,6,7,-0.2591831262229698,0.7954939497057525,0.8701789470202644,ns
+lower_appendicular_evenness_refined,value,Europe,West Europe,6,87,-2.2390985307531253,0.02514950585455089,0.13928133809716609,ns
+lower_appendicular_evenness_refined,value,North America,Other_small_groups,3,5,-1.375712693220755,0.16891060056604962,0.3246751197056932,ns
+lower_appendicular_evenness_refined,value,North America,Southeast Asia,3,3,-2.748443801094095,0.005987889890711788,0.055886972313310024,ns
+lower_appendicular_evenness_refined,value,North America,West Asia,3,7,-0.24297687995574216,0.8080233079473884,0.8701789470202644,ns
+lower_appendicular_evenness_refined,value,North America,West Europe,3,87,-1.6494279096145916,0.09906000086404161,0.26764192296773714,ns
+lower_appendicular_evenness_refined,value,Other_small_groups,Southeast Asia,5,3,-1.6971408925713987,0.0896700266997051,0.26764192296773714,ns
+lower_appendicular_evenness_refined,value,Other_small_groups,West Asia,5,7,1.429464187742279,0.15287086099075348,0.3246751197056932,ns
+lower_appendicular_evenness_refined,value,Other_small_groups,West Europe,5,87,0.07850022742522883,0.9374301493233546,0.9721497844834788,ns
+lower_appendicular_evenness_refined,value,Southeast Asia,West Asia,3,7,3.0090256813719054,0.0026208696084515162,0.03669217451832123,*
+lower_appendicular_evenness_refined,value,Southeast Asia,West Europe,3,87,2.1721281129622874,0.0298460010208213,0.13928133809716609,ns
+lower_appendicular_evenness_refined,value,West Asia,West Europe,7,87,-2.0385766664143037,0.0414922959718129,0.14522303590134514,ns
+lower_appendicular_evenness,value,Central Europe,Eastern Europe,9,3,0.6596136878417974,0.5095017681201927,0.7508447109139681,ns
+lower_appendicular_evenness,value,Central Europe,Europe,9,6,1.573690054923557,0.11555912212101883,0.26963795161571064,ns
+lower_appendicular_evenness,value,Central Europe,North America,9,3,1.2793219212590021,0.20078371622070795,0.3513715033862389,ns
+lower_appendicular_evenness,value,Central Europe,Other_small_groups,9,5,-0.2721485680756474,0.7855077864030876,0.8701789470202644,ns
+lower_appendicular_evenness,value,Central Europe,Southeast Asia,9,3,-2.0868205284389956,0.03690436076223161,0.14522303590134514,ns
+lower_appendicular_evenness,value,Central Europe,West Asia,9,7,1.3596740299623757,0.17393309984233563,0.3246751197056932,ns
+lower_appendicular_evenness,value,Central Europe,West Europe,9,87,-0.33041832699609086,0.7410838955003131,0.8701789470202644,ns
+lower_appendicular_evenness,value,Eastern Europe,Europe,3,6,0.5510695639262819,0.5815859886961061,0.8142203841745486,ns
+lower_appendicular_evenness,value,Eastern Europe,North America,3,3,0.5059896537579088,0.6128639128377698,0.817151883783693,ns
+lower_appendicular_evenness,value,Eastern Europe,Other_small_groups,3,5,-0.8099990623636221,0.4179407146384712,0.650130000548733,ns
+lower_appendicular_evenness,value,Eastern Europe,Southeast Asia,3,3,-2.2424541473361863,0.024932035607502463,0.13928133809716609,ns
+lower_appendicular_evenness,value,Eastern Europe,West Asia,3,7,0.35571815225520564,0.7220516495308609,0.8701789470202644,ns
+lower_appendicular_evenness,value,Eastern Europe,West Europe,3,87,-0.9458778468807728,0.3442108938488428,0.5669355898686822,ns
+lower_appendicular_evenness,value,Europe,North America,6,3,0.03319696168230653,0.9735175210149702,0.9735175210149702,ns
+lower_appendicular_evenness,value,Europe,Other_small_groups,6,5,-1.620406236114176,0.10514504116589674,0.26764192296773714,ns
+lower_appendicular_evenness,value,Europe,Southeast Asia,6,3,-3.1404325751461615,0.0016869853498959883,0.03669217451832123,*
+lower_appendicular_evenness,value,Europe,West Asia,6,7,-0.2591831262229698,0.7954939497057525,0.8701789470202644,ns
+lower_appendicular_evenness,value,Europe,West Europe,6,87,-2.2390985307531253,0.02514950585455089,0.13928133809716609,ns
+lower_appendicular_evenness,value,North America,Other_small_groups,3,5,-1.375712693220755,0.16891060056604962,0.3246751197056932,ns
+lower_appendicular_evenness,value,North America,Southeast Asia,3,3,-2.748443801094095,0.005987889890711788,0.055886972313310024,ns
+lower_appendicular_evenness,value,North America,West Asia,3,7,-0.24297687995574216,0.8080233079473884,0.8701789470202644,ns
+lower_appendicular_evenness,value,North America,West Europe,3,87,-1.6494279096145916,0.09906000086404161,0.26764192296773714,ns
+lower_appendicular_evenness,value,Other_small_groups,Southeast Asia,5,3,-1.6971408925713987,0.0896700266997051,0.26764192296773714,ns
+lower_appendicular_evenness,value,Other_small_groups,West Asia,5,7,1.429464187742279,0.15287086099075348,0.3246751197056932,ns
+lower_appendicular_evenness,value,Other_small_groups,West Europe,5,87,0.07850022742522883,0.9374301493233546,0.9721497844834788,ns
+lower_appendicular_evenness,value,Southeast Asia,West Asia,3,7,3.0090256813719054,0.0026208696084515162,0.03669217451832123,*
+lower_appendicular_evenness,value,Southeast Asia,West Europe,3,87,2.1721281129622874,0.0298460010208213,0.13928133809716609,ns
+lower_appendicular_evenness,value,West Asia,West Europe,7,87,-2.0385766664143037,0.0414922959718129,0.14522303590134514,ns
+mnau_hands,value,Central Europe,Eastern Europe,12,3,1.0287863171850242,0.30358009782013623,0.44738119678756916,ns
+mnau_hands,value,Central Europe,Europe,12,6,2.295870946049661,0.021683261418013737,0.07053979090808193,ns
+mnau_hands,value,Central Europe,North America,12,3,1.392958464861139,0.16363235112929564,0.3272647022585913,ns
+mnau_hands,value,Central Europe,Other_small_groups,12,8,-0.4581507088551171,0.6468441697641647,0.7546515313915255,ns
+mnau_hands,value,Central Europe,Southeast Asia,12,5,-1.5935251468781648,0.1110424316128224,0.23916831424300208,ns
+mnau_hands,value,Central Europe,West Asia,12,7,2.364844936438549,0.018037621437238728,0.07053979090808193,ns
+mnau_hands,value,Central Europe,West Europe,12,107,0.7740293063025386,0.4389134608617663,0.6141044819008015,ns
+mnau_hands,value,Eastern Europe,Europe,3,6,0.6842767933893854,0.4938003981566755,0.6141044819008015,ns
+mnau_hands,value,Eastern Europe,North America,3,3,0.2879033617629294,0.7734207135084561,0.8020659251198804,ns
+mnau_hands,value,Eastern Europe,Other_small_groups,3,8,-1.2897944106612274,0.19712204910773432,0.3679611583344374,ns
+mnau_hands,value,Eastern Europe,Southeast Asia,3,5,-2.07079828592594,0.038377650492541375,0.09768856489010531,ns
+mnau_hands,value,Eastern Europe,West Asia,3,7,0.6675154139733066,0.5044429672756583,0.6141044819008015,ns
+mnau_hands,value,Eastern Europe,West Europe,3,107,-0.7318890193389902,0.46423630888312883,0.6141044819008015,ns
+mnau_hands,value,Europe,North America,6,3,-0.3518346265605344,0.7249622885636516,0.8009842417447396,ns
+mnau_hands,value,Europe,Other_small_groups,6,8,-2.5127714892323874,0.011978689708381103,0.07053979090808193,ns
+mnau_hands,value,Europe,Southeast Asia,6,5,-3.2965398439072375,9.788372938094982e-4,0.013703722113332975,*
+mnau_hands,value,Europe,West Asia,6,7,-0.04174965411986602,0.9666982701789247,0.9666982701789247,ns
+mnau_hands,value,Europe,West Europe,6,107,-2.1745228603157996,0.029665890491043987,0.08306449337492317,ns
+mnau_hands,value,North America,Other_small_groups,3,8,-1.6370189295156239,0.10162651436700786,0.23712853352301835,ns
+mnau_hands,value,North America,Southeast Asia,3,5,-2.3926840298522523,0.016725637944962235,0.07053979090808193,ns
+mnau_hands,value,North America,West Asia,3,7,0.32686356237089026,0.7437710816201154,0.8009842417447396,ns
+mnau_hands,value,North America,West Europe,3,107,-1.1334553388122248,0.2570230862054783,0.4079638822713688,ns
+mnau_hands,value,Other_small_groups,Southeast Asia,8,5,-1.1210595955663678,0.26226249574587995,0.4079638822713688,ns
+mnau_hands,value,Other_small_groups,West Asia,8,7,2.57719347253971,0.009960618177874027,0.07053979090808193,ns
+mnau_hands,value,Other_small_groups,West Europe,8,107,1.2134158524936505,0.22497086847171535,0.3936990198255019,ns
+mnau_hands,value,Southeast Asia,West Asia,5,7,3.3694136939629877,7.532827729937001e-4,0.013703722113332975,*
+mnau_hands,value,Southeast Asia,West Europe,5,107,2.368865162302939,0.017842757082595057,0.07053979090808193,ns
+mnau_hands,value,West Asia,West Europe,7,107,-2.2788916952281393,0.02267350422045491,0.07053979090808193,ns
+lower_appendicular_continuity_hm,value,Central Europe,Eastern Europe,12,3,1.0587103244777194,0.2897317244242241,0.4269730675725408,ns
+lower_appendicular_continuity_hm,value,Central Europe,Europe,12,6,1.9173279988464045,0.05519627504791453,0.13113786592727716,ns
+lower_appendicular_continuity_hm,value,Central Europe,North America,12,3,1.6154586909163524,0.10621139916453384,0.19826127844046318,ns
+lower_appendicular_continuity_hm,value,Central Europe,Other_small_groups,12,8,-0.5475928861810655,0.583971475144591,0.7786286335261213,ns
+lower_appendicular_continuity_hm,value,Central Europe,Southeast Asia,12,5,-1.918091071697152,0.05509946437093616,0.13113786592727716,ns
+lower_appendicular_continuity_hm,value,Central Europe,West Asia,12,7,1.8021146485025799,0.07152736948041728,0.14890401610368897,ns
+lower_appendicular_continuity_hm,value,Central Europe,West Europe,12,107,-0.004782757303249656,0.9961839263383084,0.9961839263383084,ns
+lower_appendicular_continuity_hm,value,Eastern Europe,Europe,3,6,0.389289752109691,0.6970618162447032,0.8485969936892039,ns
+lower_appendicular_continuity_hm,value,Eastern Europe,North America,3,3,0.4401482303810319,0.6598297520393377,0.8397833207773389,ns
+lower_appendicular_continuity_hm,value,Eastern Europe,Other_small_groups,3,8,-1.3786277357866916,0.16800956046309165,0.2902394751727694,ns
+lower_appendicular_continuity_hm,value,Eastern Europe,Southeast Asia,3,5,-2.3338136583128017,0.01960548131228767,0.09717006670452973,ns
+lower_appendicular_continuity_hm,value,Eastern Europe,West Asia,3,7,0.251688982081801,0.8012814739325937,0.897435250804505,ns
+lower_appendicular_continuity_hm,value,Eastern Europe,West Europe,3,107,-1.1699088216734148,0.2420376634274408,0.37650303199824126,ns
+lower_appendicular_continuity_hm,value,Europe,North America,6,3,0.1189496464779613,0.9053152487356675,0.9388454431332848,ns
+lower_appendicular_continuity_hm,value,Europe,Other_small_groups,6,8,-2.2379012568036805,0.02522749506912425,0.09717006670452973,ns
+lower_appendicular_continuity_hm,value,Europe,Southeast Asia,6,5,-3.2692776679328124,0.0010782243593007467,0.01875198975189962,*
+lower_appendicular_continuity_hm,value,Europe,West Asia,6,7,-0.18259687902601354,0.8551143333497893,0.9208923589920807,ns
+lower_appendicular_continuity_hm,value,Europe,West Europe,6,107,-2.288515301329663,0.02210753006936845,0.09717006670452973,ns
+lower_appendicular_continuity_hm,value,North America,Other_small_groups,3,8,-1.9094664748095245,0.05620194254026164,0.13113786592727716,ns
+lower_appendicular_continuity_hm,value,North America,Southeast Asia,3,5,-2.8259143399669147,0.004714586992538808,0.04400281193036221,*
+lower_appendicular_continuity_hm,value,North America,West Asia,3,7,-0.269101427383058,0.7878516320451555,0.897435250804505,ns
+lower_appendicular_continuity_hm,value,North America,West Europe,3,107,-1.7838256019932985,0.07445200805184449,0.14890401610368897,ns
+lower_appendicular_continuity_hm,value,Other_small_groups,Southeast Asia,8,5,-1.3524956037230424,0.17621682421203858,0.2902394751727694,ns
+lower_appendicular_continuity_hm,value,Other_small_groups,West Asia,8,7,2.1389606103020986,0.03243885860757029,0.10092089344577422,ns
+lower_appendicular_continuity_hm,value,Other_small_groups,West Europe,8,107,0.6779345486888673,0.497813193296285,0.696938470614799,ns
+lower_appendicular_continuity_hm,value,Southeast Asia,West Asia,5,7,3.207395347959972,0.0013394278394214013,0.01875198975189962,*
+lower_appendicular_continuity_hm,value,Southeast Asia,West Europe,5,107,2.2282614546254154,0.025863085118478416,0.09717006670452973,ns
+lower_appendicular_continuity_hm,value,West Asia,West Europe,7,107,-2.2006208513460352,0.027762876201294206,0.09717006670452973,ns
+mnau_gini,value,Central Europe,Eastern Europe,12,3,-1.3264709054054602,0.18468376606139167,0.2730033698117757,ns
+mnau_gini,value,Central Europe,Europe,12,6,-1.5499273749216878,0.12115894831139948,0.24231789662279896,ns
+mnau_gini,value,Central Europe,North America,12,3,-1.4583685773553818,0.14473897704441932,0.2532932098277338,ns
+mnau_gini,value,Central Europe,Other_small_groups,12,8,0.49176480172667963,0.6228856219214309,0.7927635188090939,ns
+mnau_gini,value,Central Europe,Southeast Asia,12,5,1.8405089119024027,0.06569355709093258,0.1839419598546112,ns
+mnau_gini,value,Central Europe,West Asia,12,7,-2.2316100432052246,0.025640747284942707,0.08974261549729948,ns
+mnau_gini,value,Central Europe,West Europe,12,105,-0.22633081350537465,0.8209441343975544,0.9169516998323936,ns
+mnau_gini,value,Eastern Europe,Europe,3,6,0.11493257078766338,0.9084985683953543,0.9169516998323936,ns
+mnau_gini,value,Eastern Europe,North America,3,3,-0.1042742653588637,0.9169516998323936,0.9169516998323936,ns
+mnau_gini,value,Eastern Europe,Other_small_groups,3,8,1.5962881457152263,0.11042447550176775,0.23783733184996128,ns
+mnau_gini,value,Eastern Europe,Southeast Asia,3,5,2.5139355812406974,0.01193922398150924,0.06055864696526427,ns
+mnau_gini,value,Eastern Europe,West Asia,3,7,-0.2972311661719844,0.7662900293009625,0.9169516998323936,ns
+mnau_gini,value,Eastern Europe,West Europe,3,105,1.3445104340008924,0.17878338467801452,0.2730033698117757,ns
+mnau_gini,value,Europe,North America,6,3,-0.23533812113664423,0.8139463094551459,0.9169516998323936,ns
+mnau_gini,value,Europe,Other_small_groups,6,8,1.8505710313952344,0.06423129044148522,0.1839419598546112,ns
+mnau_gini,value,Europe,Southeast Asia,6,5,2.897708061615109,0.0037590031318521268,0.052626043845929775,ns
+mnau_gini,value,Europe,West Asia,6,7,-0.5147466361841401,0.6067300798597101,0.7927635188090939,ns
+mnau_gini,value,Europe,West Europe,6,105,1.6819398912699701,0.0925804962780556,0.21602115798212976,ns
+mnau_gini,value,North America,Other_small_groups,3,8,1.7220476415280643,0.08506088861567138,0.21602115798212976,ns
+mnau_gini,value,North America,Southeast Asia,3,5,2.630517754063833,0.008525491642556145,0.06055864696526427,ns
+mnau_gini,value,North America,West Asia,3,7,-0.1738521915345568,0.8619816259750858,0.9169516998323936,ns
+mnau_gini,value,North America,West Europe,3,105,1.489913950037506,0.1362468630908755,0.2532932098277338,ns
+mnau_gini,value,Other_small_groups,Southeast Asia,8,5,1.3247554155862513,0.18525228665799068,0.2730033698117757,ns
+mnau_gini,value,Other_small_groups,West Asia,8,7,-2.4844038983809256,0.012976852921128058,0.06055864696526427,ns
+mnau_gini,value,Other_small_groups,West Europe,8,105,-0.8000206785396902,0.4236988164693485,0.5931783430570878,ns
+mnau_gini,value,Southeast Asia,West Asia,5,7,-3.485718834441359,4.908165885595621e-4,0.01374286447966774,*
+mnau_gini,value,Southeast Asia,West Europe,5,105,-2.2909501462286905,0.02196629720347696,0.08786518881390784,ns
+mnau_gini,value,West Asia,West Europe,7,105,2.542201083951828,0.011015677891430122,0.06055864696526427,ns
+low_density_survival_index,value,Central Europe,Eastern Europe,12,3,1.1435651775699092,0.2528040100275646,0.41778016458648204,ns
+low_density_survival_index,value,Central Europe,Europe,12,6,0.8757927179722287,0.3811427295321582,0.5255570452254429,ns
+low_density_survival_index,value,Central Europe,North America,12,3,1.6206719009367556,0.10508802295737513,0.23777076114258877,ns
+low_density_survival_index,value,Central Europe,Other_small_groups,12,8,-0.075907214874538,0.9394929167832733,0.9609542623322781,ns
+low_density_survival_index,value,Central Europe,Southeast Asia,12,5,-2.359508866497865,0.01829914357031476,0.07319657428125904,ns
+low_density_survival_index,value,Central Europe,West Asia,12,7,1.917497195032575,0.05517479698631093,0.16947908574013304,ns
+low_density_survival_index,value,Central Europe,West Europe,12,107,-0.17275009099463265,0.8628478687199105,0.9292207816983651,ns
+low_density_survival_index,value,Eastern Europe,Europe,3,6,-0.424648436428773,0.6710929780090685,0.8541183356479054,ns
+low_density_survival_index,value,Eastern Europe,North America,3,3,0.37718598320477836,0.7060353961311003,0.8595213518117744,ns
+low_density_survival_index,value,Eastern Europe,Other_small_groups,3,8,-1.1415232490052825,0.2536522427846498,0.41778016458648204,ns
+low_density_survival_index,value,Eastern Europe,Southeast Asia,3,5,-2.7305512017368527,0.006322851054947008,0.04425995738462905,*
+low_density_survival_index,value,Eastern Europe,West Asia,3,7,0.2518364674382871,0.8011674685908717,0.9292207816983651,ns
+low_density_survival_index,value,Eastern Europe,West Europe,3,107,-1.3508286209712816,0.1767503375364806,0.3535006750729612,ns
+low_density_survival_index,value,Europe,North America,6,3,0.8601852943044378,0.3896869096592167,0.5255570452254429,ns
+low_density_survival_index,value,Europe,Other_small_groups,6,8,-0.8749798071489303,0.38158489293421555,0.5255570452254429,ns
+low_density_survival_index,value,Europe,Southeast Asia,6,5,-2.7972861179969652,0.005153387461155484,0.04425995738462905,*
+low_density_survival_index,value,Europe,West Asia,6,7,0.852083437391965,0.3941677839190822,0.5255570452254429,ns
+low_density_survival_index,value,Europe,West Europe,6,107,-1.1691113536839204,0.2423587701156066,0.41778016458648204,ns
+low_density_survival_index,value,North America,Other_small_groups,3,8,-1.5964266608131163,0.1103935676733448,0.23777076114258877,ns
+low_density_survival_index,value,North America,Southeast Asia,3,5,-3.152257951039842,0.0016201308079079072,0.0226818313107107,*
+low_density_survival_index,value,North America,West Asia,3,7,-0.19445600650298098,0.8458188398928765,0.9292207816983651,ns
+low_density_survival_index,value,North America,West Europe,3,107,-1.8769259409364383,0.06052824490719037,0.16947908574013304,ns
+low_density_survival_index,value,Other_small_groups,Southeast Asia,8,5,-2.1422979839334504,0.03216951097632986,0.11259328841715452,ns
+low_density_survival_index,value,Other_small_groups,West Asia,8,7,1.8290021923128745,0.06739927982313679,0.17156180318616637,ns
+low_density_survival_index,value,Other_small_groups,West Europe,8,107,-0.048956123532672785,0.9609542623322781,0.9609542623322781,ns
+low_density_survival_index,value,Southeast Asia,West Asia,5,7,3.7023878144405162,2.1357981083073581e-4,0.005980234703260603,**
+low_density_survival_index,value,Southeast Asia,West Europe,5,107,2.6300330194068064,0.008537657531440639,0.047810882176067576,*
+low_density_survival_index,value,West Asia,West Europe,7,107,-2.472349575681162,0.01342281894101907,0.06263982172475566,ns
+mnau_top2_share_mcnaughton,value,Central Europe,Eastern Europe,12,3,-1.252564946582896,0.21036407850897393,0.3464820116618394,ns
+mnau_top2_share_mcnaughton,value,Central Europe,Europe,12,6,-1.1739192947146948,0.24042735324965067,0.3543139942626431,ns
+mnau_top2_share_mcnaughton,value,Central Europe,North America,12,3,-1.2164332654314665,0.2238199183349763,0.3481643174099631,ns
+mnau_top2_share_mcnaughton,value,Central Europe,Other_small_groups,12,8,0.6067877229988449,0.5439917966674747,0.7253223955566328,ns
+mnau_top2_share_mcnaughton,value,Central Europe,Southeast Asia,12,5,2.40988546471076,0.015957529237702966,0.07446846977594718,ns
+mnau_top2_share_mcnaughton,value,Central Europe,West Asia,12,7,-1.7794306522344736,0.07516918484535257,0.2175128605500714,ns
+mnau_top2_share_mcnaughton,value,Central Europe,West Europe,12,105,-0.04227791725328135,0.9662771490224158,0.9772118440430194,ns
+mnau_top2_share_mcnaughton,value,Eastern Europe,Europe,3,6,0.3133438327810194,0.7540194518692316,0.9090679663986948,ns
+mnau_top2_share_mcnaughton,value,Eastern Europe,North America,3,3,0.02856460203237326,0.9772118440430194,0.9772118440430194,ns
+mnau_top2_share_mcnaughton,value,Eastern Europe,Other_small_groups,3,8,1.6033700165574,0.10885298665858953,0.2512819620415462,ns
+mnau_top2_share_mcnaughton,value,Eastern Europe,Southeast Asia,3,5,2.8636122366085837,0.004188403992357199,0.026023324022564312,*
+mnau_top2_share_mcnaughton,value,Eastern Europe,West Asia,3,7,-0.05472072186918412,0.9563609604308048,0.9772118440430194,ns
+mnau_top2_share_mcnaughton,value,Eastern Europe,West Europe,3,105,1.3588209366210864,0.1742033372286282,0.3251795628267727,ns
+mnau_top2_share_mcnaughton,value,Europe,North America,6,3,-0.2803602714356489,0.7792011140560241,0.9090679663986948,ns
+mnau_top2_share_mcnaughton,value,Europe,Other_small_groups,6,8,1.5996673043671843,0.10967240879969396,0.2512819620415462,ns
+mnau_top2_share_mcnaughton,value,Europe,Southeast Asia,6,5,3.087739538767441,0.0020168515496918563,0.026023324022564312,*
+mnau_top2_share_mcnaughton,value,Europe,West Asia,6,7,-0.46612576319693,0.641125483234498,0.8159778877529975,ns
+mnau_top2_share_mcnaughton,value,Europe,West Europe,6,105,1.3676613406613238,0.171418106203913,0.3251795628267727,ns
+mnau_top2_share_mcnaughton,value,North America,Other_small_groups,3,8,1.5689198102929618,0.11666662523357503,0.2512819620415462,ns
+mnau_top2_share_mcnaughton,value,North America,Southeast Asia,3,5,2.831676040661276,0.004630473651462147,0.026023324022564312,*
+mnau_top2_share_mcnaughton,value,North America,West Asia,3,7,-0.08851881478838605,0.9294643309975651,0.9772118440430194,ns
+mnau_top2_share_mcnaughton,value,North America,West Europe,3,105,1.3189895021305185,0.18717262208731614,0.3275520886528032,ns
+mnau_top2_share_mcnaughton,value,Other_small_groups,Southeast Asia,8,5,1.764290013326957,0.07768316448216836,0.2175128605500714,ns
+mnau_top2_share_mcnaughton,value,Other_small_groups,West Asia,8,7,-2.1703203953116095,0.029982582606629497,0.11467357384596577,ns
+mnau_top2_share_mcnaughton,value,Other_small_groups,West Europe,8,105,-0.7902465000390044,0.429383824458557,0.6011373542419798,ns
+mnau_top2_share_mcnaughton,value,Southeast Asia,West Asia,5,7,-3.6360409484961234,2.768603404926846e-4,0.007752089533795168,**
+mnau_top2_share_mcnaughton,value,Southeast Asia,West Europe,5,105,-2.8305350348513203,0.0046470221468864845,0.026023324022564312,*
+mnau_top2_share_mcnaughton,value,West Asia,West Europe,7,105,2.1349648886944372,0.03276387824170451,0.11467357384596577,ns
+mnau_heip_evenness,value,Central Europe,Eastern Europe,12,3,1.1761331966799173,0.23954165420084747,0.35300875355914363,ns
+mnau_heip_evenness,value,Central Europe,Europe,12,6,1.5106345838678354,0.13088157757905078,0.2448232832858872,ns
+mnau_heip_evenness,value,Central Europe,North America,12,3,1.476167175424794,0.13989901902050697,0.2448232832858872,ns
+mnau_heip_evenness,value,Central Europe,Other_small_groups,12,8,-0.33732813692144376,0.7358695512245965,0.8958411927951611,ns
+mnau_heip_evenness,value,Central Europe,Southeast Asia,12,5,-1.9036351713134143,0.05695771488441262,0.17720177964039482,ns
+mnau_heip_evenness,value,Central Europe,West Asia,12,7,2.2059616168272678,0.02738668731760313,0.09585340561161096,ns
+mnau_heip_evenness,value,Central Europe,West Europe,12,105,0.206284904828035,0.836568369165299,0.9009197821780143,ns
+mnau_heip_evenness,value,Eastern Europe,Europe,3,6,-0.0054778459392199755,0.9956293331569355,0.9956293331569355,ns
+mnau_heip_evenness,value,Eastern Europe,North America,3,3,0.23719768706908947,0.8125034305738861,0.9009197821780143,ns
+mnau_heip_evenness,value,Eastern Europe,Other_small_groups,3,8,-1.3488255865215486,0.17739299425979302,0.29217669642789434,ns
+mnau_heip_evenness,value,Eastern Europe,Southeast Asia,3,5,-2.4270653373467406,0.01522151429031545,0.0803660956007413,ns
+mnau_heip_evenness,value,Eastern Europe,West Asia,3,7,0.4201822577824759,0.6743523148636079,0.8582665825536828,ns
+mnau_heip_evenness,value,Eastern Europe,West Europe,3,105,-1.1892109098134596,0.23435668246947738,0.35300875355914363,ns
+mnau_heip_evenness,value,Europe,North America,6,3,0.2793701429002108,0.7799607817638254,0.9009197821780143,ns
+mnau_heip_evenness,value,Europe,Other_small_groups,6,8,-1.683670171315188,0.09224542910127197,0.2381649471849971,ns
+mnau_heip_evenness,value,Europe,Southeast Asia,6,5,-2.9207541870460525,0.003491852174686239,0.04888593044560735,*
+mnau_heip_evenness,value,Europe,West Asia,6,7,0.528134168913919,0.5974062167090203,0.7965416222786936,ns
+mnau_heip_evenness,value,Europe,West Europe,6,105,-1.649687607473768,0.09900684613224771,0.2381649471849971,ns
+mnau_heip_evenness,value,North America,Other_small_groups,3,8,-1.6348967607572957,0.10207069165071303,0.2381649471849971,ns
+mnau_heip_evenness,value,North America,Southeast Asia,3,5,-2.6922604135428436,0.007096950635195807,0.0662382059284942,ns
+mnau_heip_evenness,value,North America,West Asia,3,7,0.13952616956899005,0.8890343778650351,0.9219615770452215,ns
+mnau_heip_evenness,value,North America,West Europe,3,105,-1.519967281741869,0.1285191988983959,0.2448232832858872,ns
+mnau_heip_evenness,value,Other_small_groups,Southeast Asia,8,5,-1.5073446664147945,0.13172233412133175,0.2448232832858872,ns
+mnau_heip_evenness,value,Other_small_groups,West Asia,8,7,2.3246342849454167,0.020091523900185326,0.0803660956007413,ns
+mnau_heip_evenness,value,Other_small_groups,West Europe,8,105,0.5911763453743417,0.5544022703119977,0.7761631784367968,ns
+mnau_heip_evenness,value,Southeast Asia,West Asia,5,7,3.5222718555759105,4.2786513689177844e-4,0.011980223832969795,*
+mnau_heip_evenness,value,Southeast Asia,West Europe,5,105,2.3510130020685414,0.01872237962620733,0.0803660956007413,ns
+mnau_heip_evenness,value,West Asia,West Europe,7,105,-2.526600674250846,0.01151723736303271,0.0803660956007413,ns
+effective_sections_hill1,value,Central Europe,Eastern Europe,12,3,1.1761331966799173,0.23954165420084747,0.35300875355914363,ns
+effective_sections_hill1,value,Central Europe,Europe,12,6,1.5106345838678354,0.13088157757905078,0.2448232832858872,ns
+effective_sections_hill1,value,Central Europe,North America,12,3,1.476167175424794,0.13989901902050697,0.2448232832858872,ns
+effective_sections_hill1,value,Central Europe,Other_small_groups,12,8,-0.33732813692144376,0.7358695512245965,0.8958411927951611,ns
+effective_sections_hill1,value,Central Europe,Southeast Asia,12,5,-1.9036351713134143,0.05695771488441262,0.17720177964039482,ns
+effective_sections_hill1,value,Central Europe,West Asia,12,7,2.2059616168272678,0.02738668731760313,0.09585340561161096,ns
+effective_sections_hill1,value,Central Europe,West Europe,12,105,0.206284904828035,0.836568369165299,0.9009197821780143,ns
+effective_sections_hill1,value,Eastern Europe,Europe,3,6,-0.0054778459392199755,0.9956293331569355,0.9956293331569355,ns
+effective_sections_hill1,value,Eastern Europe,North America,3,3,0.23719768706908947,0.8125034305738861,0.9009197821780143,ns
+effective_sections_hill1,value,Eastern Europe,Other_small_groups,3,8,-1.3488255865215486,0.17739299425979302,0.29217669642789434,ns
+effective_sections_hill1,value,Eastern Europe,Southeast Asia,3,5,-2.4270653373467406,0.01522151429031545,0.0803660956007413,ns
+effective_sections_hill1,value,Eastern Europe,West Asia,3,7,0.4201822577824759,0.6743523148636079,0.8582665825536828,ns
+effective_sections_hill1,value,Eastern Europe,West Europe,3,105,-1.1892109098134596,0.23435668246947738,0.35300875355914363,ns
+effective_sections_hill1,value,Europe,North America,6,3,0.2793701429002108,0.7799607817638254,0.9009197821780143,ns
+effective_sections_hill1,value,Europe,Other_small_groups,6,8,-1.683670171315188,0.09224542910127197,0.2381649471849971,ns
+effective_sections_hill1,value,Europe,Southeast Asia,6,5,-2.9207541870460525,0.003491852174686239,0.04888593044560735,*
+effective_sections_hill1,value,Europe,West Asia,6,7,0.528134168913919,0.5974062167090203,0.7965416222786936,ns
+effective_sections_hill1,value,Europe,West Europe,6,105,-1.649687607473768,0.09900684613224771,0.2381649471849971,ns
+effective_sections_hill1,value,North America,Other_small_groups,3,8,-1.6348967607572957,0.10207069165071303,0.2381649471849971,ns
+effective_sections_hill1,value,North America,Southeast Asia,3,5,-2.6922604135428436,0.007096950635195807,0.0662382059284942,ns
+effective_sections_hill1,value,North America,West Asia,3,7,0.13952616956899005,0.8890343778650351,0.9219615770452215,ns
+effective_sections_hill1,value,North America,West Europe,3,105,-1.519967281741869,0.1285191988983959,0.2448232832858872,ns
+effective_sections_hill1,value,Other_small_groups,Southeast Asia,8,5,-1.5073446664147945,0.13172233412133175,0.2448232832858872,ns
+effective_sections_hill1,value,Other_small_groups,West Asia,8,7,2.3246342849454167,0.020091523900185326,0.0803660956007413,ns
+effective_sections_hill1,value,Other_small_groups,West Europe,8,105,0.5911763453743417,0.5544022703119977,0.7761631784367968,ns
+effective_sections_hill1,value,Southeast Asia,West Asia,5,7,3.5222718555759105,4.2786513689177844e-4,0.011980223832969795,*
+effective_sections_hill1,value,Southeast Asia,West Europe,5,105,2.3510130020685414,0.01872237962620733,0.0803660956007413,ns
+effective_sections_hill1,value,West Asia,West Europe,7,105,-2.526600674250846,0.01151723736303271,0.0803660956007413,ns
+mnau_axial_main_mean,value,Central Europe,Eastern Europe,12,3,0.9367108724750036,0.34890730202875,0.5410018561887491,ns
+mnau_axial_main_mean,value,Central Europe,Europe,12,6,1.108675730204252,0.2675700954059494,0.49946417809110555,ns
+mnau_axial_main_mean,value,Central Europe,North America,12,3,1.9198826042247672,0.05487272970593202,0.1280363693138414,ns
+mnau_axial_main_mean,value,Central Europe,Other_small_groups,12,8,0.18969836028631282,0.8495455057822121,0.9148951600731514,ns
+mnau_axial_main_mean,value,Central Europe,Southeast Asia,12,5,-2.00468711918609,0.044996506415531275,0.1280363693138414,ns
+mnau_axial_main_mean,value,Central Europe,West Asia,12,7,2.2826057916465157,0.022453599503132582,0.08981439801253033,ns
+mnau_axial_main_mean,value,Central Europe,West Europe,12,107,0.28757763531561426,0.773670066431978,0.9026150775039744,ns
+mnau_axial_main_mean,value,Eastern Europe,Europe,3,6,-0.0711439975604669,0.9432831518724496,0.9782195649047625,ns
+mnau_axial_main_mean,value,Eastern Europe,North America,3,3,0.7772655008553339,0.4370021446039098,0.5652666373788608,ns
+mnau_axial_main_mean,value,Eastern Europe,Other_small_groups,3,8,-0.7652241654299801,0.4441380722262478,0.5652666373788608,ns
+mnau_axial_main_mean,value,Eastern Europe,Southeast Asia,3,5,-2.2890975319465654,0.022073686198382906,0.08981439801253033,ns
+mnau_axial_main_mean,value,Eastern Europe,West Asia,3,7,0.6969646868760632,0.4858248936660378,0.5914390009847418,ns
+mnau_axial_main_mean,value,Eastern Europe,West Europe,3,107,-0.883339402107948,0.3770529209698843,0.5410018561887491,ns
+mnau_axial_main_mean,value,Europe,North America,6,3,0.9686528898617395,0.3327184050163119,0.5410018561887491,ns
+mnau_axial_main_mean,value,Europe,Other_small_groups,6,8,-0.8661098988421068,0.3864298972776779,0.5410018561887491,ns
+mnau_axial_main_mean,value,Europe,Southeast Asia,6,5,-2.677677208431016,0.007413462496974662,0.06506250463531997,ns
+mnau_axial_main_mean,value,Europe,West Asia,6,7,0.9549007423734378,0.33962789431382945,0.5410018561887491,ns
+mnau_axial_main_mean,value,Europe,West Europe,6,107,-1.1126273695029607,0.2658685007030878,0.49946417809110555,ns
+mnau_axial_main_mean,value,North America,Other_small_groups,3,8,-1.7026416304571823,0.08863515431065186,0.19090648620755785,ns
+mnau_axial_main_mean,value,North America,Southeast Asia,3,5,-3.158106780185539,0.0015879738031051084,0.022231633243471518,*
+mnau_axial_main_mean,value,North America,West Asia,3,7,-0.2227082562661444,0.8237625751672175,0.9148951600731514,ns
+mnau_axial_main_mean,value,North America,West Europe,3,107,-1.9674658413435244,0.049129530207028795,0.1280363693138414,ns
+mnau_axial_main_mean,value,Other_small_groups,Southeast Asia,8,5,-2.0236557258885837,0.04300558700183362,0.1280363693138414,ns
+mnau_axial_main_mean,value,Other_small_groups,West Asia,8,7,1.9302717391124995,0.05357317678838045,0.1280363693138414,ns
+mnau_axial_main_mean,value,Other_small_groups,West Europe,8,107,0.0026270825227725325,0.997903893826193,0.997903893826193,ns
+mnau_axial_main_mean,value,Southeast Asia,West Asia,5,7,3.6763869903806596,2.3656057824837157e-4,0.006623696190954404,**
+mnau_axial_main_mean,value,Southeast Asia,West Europe,5,107,2.523530311072099,0.011618304399164281,0.06506250463531997,ns
+mnau_axial_main_mean,value,West Asia,West Europe,7,107,-2.558230950279007,0.010520619553531573,0.06506250463531997,ns
+mnau_column_trunk_mean,value,Central Europe,Eastern Europe,12,3,0.7861394119126611,0.4317858169689157,0.5757144226252209,ns
+mnau_column_trunk_mean,value,Central Europe,Europe,12,6,1.0997983298966831,0.2714200001812421,0.47717533718240923,ns
+mnau_column_trunk_mean,value,Central Europe,North America,12,3,2.053527665338396,0.04002142943739509,0.09971565380677562,ns
+mnau_column_trunk_mean,value,Central Europe,Other_small_groups,12,8,-0.10568146561244217,0.9158350862875262,0.9497549042981752,ns
+mnau_column_trunk_mean,value,Central Europe,Southeast Asia,12,5,-2.0262880004062396,0.04273528020290383,0.09971565380677562,ns
+mnau_column_trunk_mean,value,Central Europe,West Asia,12,7,2.134542083624091,0.03279843260034207,0.09971565380677562,ns
+mnau_column_trunk_mean,value,Central Europe,West Europe,12,107,0.4315121313206342,0.6660960336864965,0.7173341901239193,ns
+mnau_column_trunk_mean,value,Eastern Europe,Europe,3,6,0.06003104159356776,0.9521309116481586,0.9521309116481586,ns
+mnau_column_trunk_mean,value,Eastern Europe,North America,3,3,1.001958390142005,0.31636368972758844,0.49540055382464676,ns
+mnau_column_trunk_mean,value,Eastern Europe,Other_small_groups,3,8,-0.8208049487710753,0.41175737929837186,0.5757144226252209,ns
+mnau_column_trunk_mean,value,Eastern Europe,Southeast Asia,3,5,-2.1717541183356914,0.02987421410911091,0.09971565380677562,ns
+mnau_column_trunk_mean,value,Eastern Europe,West Asia,3,7,0.735765522798853,0.46187340646000224,0.5878388809490938,ns
+mnau_column_trunk_mean,value,Eastern Europe,West Europe,3,107,-0.6424533740167611,0.5205788539047238,0.6337481699709682,ns
+mnau_column_trunk_mean,value,Europe,North America,6,3,1.0969308509370137,0.272671621247091,0.47717533718240923,ns
+mnau_column_trunk_mean,value,Europe,Other_small_groups,6,8,-1.1075325398229336,0.26806375168593227,0.47717533718240923,ns
+mnau_column_trunk_mean,value,Europe,Southeast Asia,6,5,-2.6893351709930227,0.0071594494236693704,0.05728024500940616,ns
+mnau_column_trunk_mean,value,Europe,West Asia,6,7,0.8363066911093114,0.4029823898967828,0.5757144226252209,ns
+mnau_column_trunk_mean,value,Europe,West Europe,6,107,-0.997603249808684,0.3184717846015586,0.49540055382464676,ns
+mnau_column_trunk_mean,value,North America,Other_small_groups,3,8,-2.029212234461825,0.04243667797365983,0.09971565380677562,ns
+mnau_column_trunk_mean,value,North America,Southeast Asia,3,5,-3.2919776538275807,9.948551627366332e-4,0.013927972278312864,*
+mnau_column_trunk_mean,value,North America,West Asia,3,7,-0.44976763228637784,0.6528779989865243,0.7173341901239193,ns
+mnau_column_trunk_mean,value,North America,West Europe,3,107,-2.039980448834195,0.041352273070518746,0.09971565380677562,ns
+mnau_column_trunk_mean,value,Other_small_groups,Southeast Asia,8,5,-1.8073313282571863,0.07071063414919967,0.15229982739827622,ns
+mnau_column_trunk_mean,value,Other_small_groups,West Asia,8,7,2.0547111016706294,0.03990691702232029,0.09971565380677562,ns
+mnau_column_trunk_mean,value,Other_small_groups,West Europe,8,107,0.49000636690214666,0.6241293934643266,0.7173341901239193,ns
+mnau_column_trunk_mean,value,Southeast Asia,West Asia,5,7,3.575761263933046,3.4921022609947093e-4,0.009777886330785187,**
+mnau_column_trunk_mean,value,Southeast Asia,West Europe,5,107,2.6444287945721903,0.00818289214420088,0.05728024500940616,ns
+mnau_column_trunk_mean,value,West Asia,West Europe,7,107,-2.2654154717232737,0.023487195786165465,0.09971565380677562,ns
+mnau_shoulder,value,Central Europe,Eastern Europe,12,3,0.9290631960002391,0.35285633643460973,0.5199988115878459,ns
+mnau_shoulder,value,Central Europe,Europe,12,6,0.9438023044414852,0.3452706827938923,0.5199988115878459,ns
+mnau_shoulder,value,Central Europe,North America,12,3,1.3981639572593758,0.16206383745149147,0.3025191632427841,ns
+mnau_shoulder,value,Central Europe,Other_small_groups,12,8,-0.3467817988618394,0.7287552520138563,0.8416583738794273,ns
+mnau_shoulder,value,Central Europe,Southeast Asia,12,5,-2.2865547754092765,0.02222182349976767,0.1037018429989158,ns
+mnau_shoulder,value,Central Europe,West Asia,12,7,1.4381479419590535,0.15039208224550224,0.3025191632427841,ns
+mnau_shoulder,value,Central Europe,West Europe,12,107,-0.7572437807697343,0.44890382528337347,0.6284653553967228,ns
+mnau_shoulder,value,Eastern Europe,Europe,3,6,-0.18074577342522596,0.8565671284504827,0.8882918369116116,ns
+mnau_shoulder,value,Eastern Europe,North America,3,3,0.37085671442443724,0.7107442565994182,0.8416583738794273,ns
+mnau_shoulder,value,Eastern Europe,Other_small_groups,3,8,-1.1196272415285808,0.2628726419037191,0.43296670431200796,ns
+mnau_shoulder,value,Eastern Europe,Southeast Asia,3,5,-2.487782470095806,0.012854232965484168,0.08997963075838918,ns
+mnau_shoulder,value,Eastern Europe,West Asia,3,7,0.1221160247105655,0.9028071309772199,0.9028071309772199,ns
+mnau_shoulder,value,Eastern Europe,West Europe,3,107,-1.418268373650622,0.15611242647451004,0.3025191632427841,ns
+mnau_shoulder,value,Europe,North America,6,3,0.608974221232684,0.5425415260558192,0.7233887014077589,ns
+mnau_shoulder,value,Europe,Other_small_groups,6,8,-1.166875256434072,0.24326074968458714,0.4257063119480275,ns
+mnau_shoulder,value,Europe,Southeast Asia,6,5,-2.789312959642511,0.00528199963639932,0.049298663273060324,*
+mnau_shoulder,value,Europe,West Asia,6,7,0.38119015597061634,0.7030621530959239,0.8416583738794273,ns
+mnau_shoulder,value,Europe,West Europe,6,107,-1.6742943231481044,0.0940727696457721,0.2634037550081619,ns
+mnau_shoulder,value,North America,Other_small_groups,3,8,-1.566897267975796,0.11713870637201523,0.2733236482013689,ns
+mnau_shoulder,value,North America,Southeast Asia,3,5,-2.90241288177844,0.0037030013818084755,0.049298663273060324,*
+mnau_shoulder,value,North America,West Asia,3,7,-0.31668755741606663,0.7514806909637743,0.8416583738794273,ns
+mnau_shoulder,value,North America,West Europe,3,107,-1.9355376578696337,0.052924352178090044,0.18523523262331515,ns
+mnau_shoulder,value,Other_small_groups,Southeast Asia,8,5,-1.8573075458159893,0.0632674114738331,0.19683194680748073,ns
+mnau_shoulder,value,Other_small_groups,West Asia,8,7,1.627399555976137,0.10365226577856632,0.26384213107271426,ns
+mnau_shoulder,value,Other_small_groups,West Europe,8,107,-0.19710709646698157,0.8437437301915613,0.8882918369116116,ns
+mnau_shoulder,value,Southeast Asia,West Asia,5,7,3.2467250005808728,0.0011674113039643066,0.03268751651100058,*
+mnau_shoulder,value,Southeast Asia,West Europe,5,107,2.1562599865812966,0.03106336983407121,0.12425347933628483,ns
+mnau_shoulder,value,West Asia,West Europe,7,107,-2.3440924895113855,0.019073440913885457,0.1037018429989158,ns
+low_density_axial_survival,value,Central Europe,Eastern Europe,12,3,0.9112306992899906,0.36217383188175645,0.56338151626051,ns
+low_density_axial_survival,value,Central Europe,Europe,12,6,1.05256285069039,0.29254139082036446,0.56338151626051,ns
+low_density_axial_survival,value,Central Europe,North America,12,3,1.8464411538244543,0.06482817636929158,0.15193855462748415,ns
+low_density_axial_survival,value,Central Europe,Other_small_groups,12,8,0.15154646242951272,0.8795446623181934,0.9302250554660163,ns
+low_density_axial_survival,value,Central Europe,Southeast Asia,12,5,-1.9774212749884597,0.04799403111147616,0.1400179170812536,ns
+low_density_axial_survival,value,Central Europe,West Asia,12,7,2.278242806959623,0.022712115131436745,0.0986361088641135,ns
+low_density_axial_survival,value,Central Europe,West Europe,12,107,0.36838857569693967,0.7125835147169054,0.8313474338363896,ns
+low_density_axial_survival,value,Eastern Europe,Europe,3,6,-0.08756168580567286,0.9302250554660163,0.9302250554660163,ns
+low_density_axial_survival,value,Eastern Europe,North America,3,3,0.7393487819825626,0.4596952346631808,0.5756865824067083,ns
+low_density_axial_survival,value,Eastern Europe,Other_small_groups,3,8,-0.7666517778183378,0.4432885816961795,0.5756865824067083,ns
+low_density_axial_survival,value,Eastern Europe,Southeast Asia,3,5,-2.246702799654311,0.024659027216028376,0.0986361088641135,ns
+low_density_axial_survival,value,Eastern Europe,West Asia,3,7,0.7177922267481212,0.472885406976939,0.5756865824067083,ns
+low_density_axial_survival,value,Eastern Europe,West Europe,3,107,-0.8132169293543532,0.4160936947937621,0.5756865824067083,ns
+low_density_axial_survival,value,Europe,North America,6,3,0.9412881224109818,0.3465572278734032,0.56338151626051,ns
+low_density_axial_survival,value,Europe,Other_small_groups,6,8,-0.8464037059317,0.39732757181599804,0.5756865824067083,ns
+low_density_axial_survival,value,Europe,Southeast Asia,6,5,-2.60737550803851,0.009123924127961168,0.0715657595801678,ns
+low_density_axial_survival,value,Europe,West Asia,6,7,1.0016006437676268,0.31653650994197846,0.56338151626051,ns
+low_density_axial_survival,value,Europe,West Europe,6,107,-0.987113435622418,0.32358703190137944,0.56338151626051,ns
+low_density_axial_survival,value,North America,Other_small_groups,3,8,-1.658339959288315,0.09724886787034956,0.2094591000284452,ns
+low_density_axial_survival,value,North America,Southeast Asia,3,5,-3.073319867451652,0.002116914469656251,0.029636802575187516,*
+low_density_axial_survival,value,North America,West Asia,3,7,-0.1570170496011517,0.8752314111349327,0.9302250554660163,ns
+low_density_axial_survival,value,North America,West Europe,3,107,-1.8444572989344532,0.06511652341177891,0.15193855462748415,ns
+low_density_axial_survival,value,Other_small_groups,Southeast Asia,8,5,-1.9676516542679958,0.04910813203875643,0.1400179170812536,ns
+low_density_axial_survival,value,Other_small_groups,West Asia,8,7,1.9599092441286592,0.05000639895759058,0.1400179170812536,ns
+low_density_axial_survival,value,Other_small_groups,West Europe,8,107,0.11725647259885533,0.9066568168520006,0.9302250554660163,ns
+low_density_axial_survival,value,Southeast Asia,West Asia,5,7,3.6480569604317297,2.6423106585140264e-4,0.007398469843839274,**
+low_density_axial_survival,value,Southeast Asia,West Europe,5,107,2.545578764270739,0.010909674855777407,0.0715657595801678,ns
+low_density_axial_survival,value,West Asia,West Europe,7,107,-2.489852835490945,0.012779599925029965,0.0715657595801678,ns
+mnau_girdle_mean,value,Central Europe,Eastern Europe,12,3,0.7006861278534252,0.4834989151213951,0.6153622556090483,ns
+mnau_girdle_mean,value,Central Europe,Europe,12,6,1.1219921437531035,0.26186578026793655,0.458265115468889,ns
+mnau_girdle_mean,value,Central Europe,North America,12,3,1.8073491967378048,0.07070784981845725,0.19798197949168028,ns
+mnau_girdle_mean,value,Central Europe,Other_small_groups,12,8,-0.5114081929334097,0.6090652592020036,0.741470750332874,ns
+mnau_girdle_mean,value,Central Europe,Southeast Asia,12,5,-2.279256276464838,0.02265183551765223,0.10570856574904373,ns
+mnau_girdle_mean,value,Central Europe,West Asia,12,7,1.3918075854620178,0.16398067234190844,0.3060972550382291,ns
+mnau_girdle_mean,value,Central Europe,West Europe,12,107,-0.32209421842987845,0.7473813181143893,0.8198359188276529,ns
+mnau_girdle_mean,value,Eastern Europe,Europe,3,6,0.15373225669206816,0.8778208499429314,0.8778208499429314,ns
+mnau_girdle_mean,value,Eastern Europe,North America,3,3,0.8748939750166136,0.38163159763433213,0.5484033672027048,ns
+mnau_girdle_mean,value,Eastern Europe,Other_small_groups,3,8,-1.012869343049875,0.3111225734249482,0.5124371797587381,ns
+mnau_girdle_mean,value,Eastern Europe,Southeast Asia,3,5,-2.280604103621963,0.022571884258298702,0.10570856574904373,ns
+mnau_girdle_mean,value,Eastern Europe,West Asia,3,7,0.3038053240536719,0.7612762103399635,0.8198359188276529,ns
+mnau_girdle_mean,value,Eastern Europe,West Europe,3,107,-0.9401403424934762,0.34714557778372185,0.5400042321080117,ns
+mnau_girdle_mean,value,Europe,North America,6,3,0.8565082872843789,0.3917166908590749,0.5484033672027048,ns
+mnau_girdle_mean,value,Europe,Other_small_groups,6,8,-1.4709816886342106,0.14129606903096442,0.28259213806192884,ns
+mnau_girdle_mean,value,Europe,Southeast Asia,6,5,-2.9300326382080084,0.0033892640317877546,0.03163313096335238,*
+mnau_girdle_mean,value,Europe,West Asia,6,7,0.18143383909822702,0.8560270598563672,0.8778208499429314,ns
+mnau_girdle_mean,value,Europe,West Europe,6,107,-1.5708979793242992,0.11620634804982852,0.25029059579963064,ns
+mnau_girdle_mean,value,North America,Other_small_groups,3,8,-2.0680311781308487,0.03863709140121458,0.13522981990425104,ns
+mnau_girdle_mean,value,North America,Southeast Asia,3,5,-3.2587653042430382,0.0011189819584868786,0.01907688244033377,*
+mnau_girdle_mean,value,North America,West Asia,3,7,-0.7313831875366177,0.46454513153072546,0.6153622556090483,ns
+mnau_girdle_mean,value,North America,West Europe,3,107,-2.1604385402131205,0.030738736617028382,0.12295494646811353,ns
+mnau_girdle_mean,value,Other_small_groups,Southeast Asia,8,5,-1.7186863377980737,0.08567150106752623,0.19990016915756123,ns
+mnau_girdle_mean,value,Other_small_groups,West Asia,8,7,1.730002539750076,0.08362982146311218,0.19990016915756123,ns
+mnau_girdle_mean,value,Other_small_groups,West Europe,8,107,0.3693234265829804,0.7118866660423537,0.8198359188276529,ns
+mnau_girdle_mean,value,Southeast Asia,West Asia,5,7,3.2024510715395733,0.0013626344600238406,0.01907688244033377,*
+mnau_girdle_mean,value,Southeast Asia,West Europe,5,107,2.437301707083599,0.014797327422924696,0.10358129196047287,ns
+mnau_girdle_mean,value,West Asia,West Europe,7,107,-1.9480395860475705,0.05141022666906086,0.159942927414856,ns
+mnau_dominance_of_region_means,value,Central Europe,Eastern Europe,12,3,-1.0275109797090425,0.3041799180174643,0.45642275772106994,ns
+mnau_dominance_of_region_means,value,Central Europe,Europe,12,6,-1.0867334775518047,0.2771546143115149,0.45642275772106994,ns
+mnau_dominance_of_region_means,value,Central Europe,North America,12,3,-1.644616699301062,0.10004888089353794,0.23344738875158855,ns
+mnau_dominance_of_region_means,value,Central Europe,Other_small_groups,12,8,0.62488394909997,0.532047227611063,0.6703261259461079,ns
+mnau_dominance_of_region_means,value,Central Europe,Southeast Asia,12,5,2.0103748832747756,0.04439152673790589,0.14516316182991754,ns
+mnau_dominance_of_region_means,value,Central Europe,West Asia,12,7,-1.8406608372305908,0.06567127637723552,0.18387957385625944,ns
+mnau_dominance_of_region_means,value,Central Europe,West Europe,12,105,-0.22463753979994847,0.822261258613914,0.8527153793033181,ns
+mnau_dominance_of_region_means,value,Eastern Europe,Europe,3,6,0.16954829146547265,0.8653653910474346,0.8653653910474346,ns
+mnau_dominance_of_region_means,value,Eastern Europe,North America,3,3,-0.48786490775699404,0.6256455323760468,0.7299197877720547,ns
+mnau_dominance_of_region_means,value,Eastern Europe,Other_small_groups,3,8,1.4009899517303461,0.16121707792067996,0.31468400059439045,ns
+mnau_dominance_of_region_means,value,Eastern Europe,Southeast Asia,3,5,2.3734998812424277,0.017620398715561758,0.09867423280714584,ns
+mnau_dominance_of_region_means,value,Eastern Europe,West Asia,3,7,-0.3074394240175663,0.7585089241967214,0.847868363152199,ns
+mnau_dominance_of_region_means,value,Eastern Europe,West Europe,3,105,1.0158193018397073,0.30971544273929746,0.45642275772106994,ns
+mnau_dominance_of_region_means,value,Europe,North America,6,3,-0.7328861631088175,0.46362786310668425,0.6181704841422456,ns
+mnau_dominance_of_region_means,value,Europe,Other_small_groups,6,8,1.5342430249065813,0.1249698765466664,0.26916588794666607,ns
+mnau_dominance_of_region_means,value,Europe,Southeast Asia,6,5,2.664558813358875,0.007708938507490094,0.07195009273657421,ns
+mnau_dominance_of_region_means,value,Europe,West Asia,6,7,-0.5968237912376834,0.55062503202716,0.6703261259461079,ns
+mnau_dominance_of_region_means,value,Europe,West Europe,6,105,1.1314200697648833,0.25787832816131506,0.45128707428230136,ns
+mnau_dominance_of_region_means,value,North America,Other_small_groups,3,8,1.9893771689708177,0.04665958773104492,0.14516316182991754,ns
+mnau_dominance_of_region_means,value,North America,Southeast Asia,3,5,2.9189494300330794,0.0035121319402689186,0.04916984716376486,*
+mnau_dominance_of_region_means,value,North America,West Asia,3,7,0.269810119515416,0.7873063372127563,0.847868363152199,ns
+mnau_dominance_of_region_means,value,North America,West Europe,3,105,1.6961144129547254,0.08986421463192104,0.22874527360852628,ns
+mnau_dominance_of_region_means,value,Other_small_groups,Southeast Asia,8,5,1.3767785821045344,0.16858071460413773,0.31468400059439045,ns
+mnau_dominance_of_region_means,value,Other_small_groups,West Asia,8,7,-2.2425464236281325,0.024926078457772546,0.11632169946960523,ns
+mnau_dominance_of_region_means,value,Other_small_groups,West Europe,8,105,-0.964274888760789,0.33490812707206025,0.4688713779008843,ns
+mnau_dominance_of_region_means,value,Southeast Asia,West Asia,5,7,-3.3225952902641134,8.918420432440968e-4,0.02497157721083471,*
+mnau_dominance_of_region_means,value,Southeast Asia,West Europe,5,105,-2.48735538866528,0.012869676397433827,0.09008773478203679,ns
+mnau_dominance_of_region_means,value,West Asia,West Europe,7,105,2.0672102065768296,0.038714350874245324,0.14516316182991754,ns
+mnau_postcranial_total_mean,value,Central Europe,Eastern Europe,12,3,1.0379664955069785,0.29928565372414323,0.46555546134866727,ns
+mnau_postcranial_total_mean,value,Central Europe,Europe,12,6,1.3781858777950136,0.1681459062946004,0.3068800420748674,ns
+mnau_postcranial_total_mean,value,Central Europe,North America,12,3,1.7358584981840353,0.08258885757833434,0.20440607184376364,ns
+mnau_postcranial_total_mean,value,Central Europe,Other_small_groups,12,8,-0.21119449546826036,0.8327355058674168,0.8967920832418335,ns
+mnau_postcranial_total_mean,value,Central Europe,Southeast Asia,12,5,-1.8023712306900337,0.07148701841175943,0.20233381695238206,ns
+mnau_postcranial_total_mean,value,Central Europe,West Asia,12,7,2.128924939589996,0.033260471025714514,0.1164116485900008,ns
+mnau_postcranial_total_mean,value,Central Europe,West Europe,12,107,0.3959585910732058,0.6921355764090018,0.7751918455780821,ns
+mnau_postcranial_total_mean,value,Eastern Europe,Europe,3,6,0.026995140718127406,0.9784636097657047,0.9784636097657047,ns
+mnau_postcranial_total_mean,value,Eastern Europe,North America,3,3,0.5517320723189569,0.5811319327455843,0.7074649616033201,ns
+mnau_postcranial_total_mean,value,Eastern Europe,Other_small_groups,3,8,-1.1320495221539522,0.2576136149428578,0.4243047775529422,ns
+mnau_postcranial_total_mean,value,Eastern Europe,Southeast Asia,3,5,-2.2311339273726145,0.025672259000118065,0.1164116485900008,ns
+mnau_postcranial_total_mean,value,Eastern Europe,West Asia,3,7,0.4963315065580751,0.6196605408041804,0.7229372976048772,ns
+mnau_postcranial_total_mean,value,Eastern Europe,West Europe,3,107,-0.9386284427692083,0.34792154428609817,0.5127264863163552,ns
+mnau_postcranial_total_mean,value,Europe,North America,6,3,0.6100901802296723,0.5418020711772941,0.7074649616033201,ns
+mnau_postcranial_total_mean,value,Europe,Other_small_groups,6,8,-1.4544441133055435,0.14582321721661784,0.2916464344332357,ns
+mnau_postcranial_total_mean,value,Europe,Southeast Asia,6,5,-2.722372294320564,0.006481507890152748,0.06049407364142565,ns
+mnau_postcranial_total_mean,value,Europe,West Asia,6,7,0.5813132417790815,0.5610293576584122,0.7074649616033201,ns
+mnau_postcranial_total_mean,value,Europe,West Europe,6,107,-1.3551806000049318,0.17536002404278137,0.3068800420748674,ns
+mnau_postcranial_total_mean,value,North America,Other_small_groups,3,8,-1.7974634380402106,0.0722620774829936,0.20233381695238206,ns
+mnau_postcranial_total_mean,value,North America,Southeast Asia,3,5,-2.847989136908623,0.0043996426313561736,0.06049407364142565,ns
+mnau_postcranial_total_mean,value,North America,West Asia,3,7,-0.15648668518869216,0.8756494136305625,0.9080808733946574,ns
+mnau_postcranial_total_mean,value,North America,West Europe,3,107,-1.708181866042197,0.08760260221875583,0.20440607184376364,ns
+mnau_postcranial_total_mean,value,Other_small_groups,Southeast Asia,8,5,-1.5137823051168124,0.13008106195845406,0.2801745949874395,ns
+mnau_postcranial_total_mean,value,Other_small_groups,West Asia,8,7,2.1426030482148737,0.032144986195531425,0.1164116485900008,ns
+mnau_postcranial_total_mean,value,Other_small_groups,West Europe,8,107,0.5918698458052649,0.553937747480846,0.7074649616033201,ns
+mnau_postcranial_total_mean,value,Southeast Asia,West Asia,5,7,3.3676452034181494,7.581309188518941e-4,0.021227665727853035,*
+mnau_postcranial_total_mean,value,Southeast Asia,West Europe,5,107,2.360275407913038,0.018261372176528384,0.1164116485900008,ns
+mnau_postcranial_total_mean,value,West Asia,West Europe,7,107,-2.286311394709652,0.02223604773781276,0.1164116485900008,ns
+mnau_upper_appendicular_mean,value,Central Europe,Eastern Europe,12,3,0.7504650925922287,0.45297464003480786,0.6675415747881379,ns
+mnau_upper_appendicular_mean,value,Central Europe,Europe,12,6,1.3065035818870776,0.19138136173953926,0.3572452085804733,ns
+mnau_upper_appendicular_mean,value,Central Europe,North America,12,3,1.1843973837544683,0.23625579537301922,0.4134476419027836,ns
+mnau_upper_appendicular_mean,value,Central Europe,Other_small_groups,12,8,-0.5317097658296484,0.5949270270655,0.7932360360873334,ns
+mnau_upper_appendicular_mean,value,Central Europe,Southeast Asia,12,5,-2.170838526268773,0.029943380553764404,0.13648164715464794,ns
+mnau_upper_appendicular_mean,value,Central Europe,West Asia,12,7,1.6455476393985862,0.0998569268531985,0.25418126835359617,ns
+mnau_upper_appendicular_mean,value,Central Europe,West Europe,12,107,-0.14432562708007846,0.88524334267276406,0.9180301331421257,ns
+mnau_upper_appendicular_mean,value,Eastern Europe,Europe,3,6,0.2387597760085884,0.8112918623146828,0.9140702042505193,ns
+mnau_upper_appendicular_mean,value,Eastern Europe,North America,3,3,0.3430535975920077,0.7315581388862382,0.8905925169049858,ns
+mnau_upper_appendicular_mean,value,Eastern Europe,Other_small_groups,3,8,-1.074019041314131,0.28281414743709765,0.46581153695521965,ns
+mnau_upper_appendicular_mean,value,Eastern Europe,Southeast Asia,3,5,-2.245580572288454,0.02473088603395036,0.13648164715464794,ns
+mnau_upper_appendicular_mean,value,Eastern Europe,West Asia,3,7,0.4321196299644289,0.6656544683042522,0.8471965960235938,ns
+mnau_upper_appendicular_mean,value,Eastern Europe,West Europe,3,107,-0.9025817541379638,0.3667479138128199,0.5704967548199421,ns
+mnau_upper_appendicular_mean,value,Europe,North America,6,3,0.15736439782384198,0.8749576702506922,0.9180301331421257,ns
+mnau_upper_appendicular_mean,value,Europe,Other_small_groups,6,8,-1.658964047407521,0.09712303721261682,0.25418126835359617,ns
+mnau_upper_appendicular_mean,value,Europe,Southeast Asia,6,5,-2.987083421129974,0.0028165285585843945,0.039431399820181526,*
+mnau_upper_appendicular_mean,value,Europe,West Asia,6,7,0.2325200568523579,0.8161341109379636,0.9140702042505193,ns
+mnau_upper_appendicular_mean,value,Europe,West Europe,6,107,-1.6618007164589395,0.09655273855584086,0.25418126835359617,ns
+mnau_upper_appendicular_mean,value,North America,Other_small_groups,3,8,-1.4877572472029523,0.13681492421864652,0.2946782983170848,ns
+mnau_upper_appendicular_mean,value,North America,Southeast Asia,3,5,-2.629126154359248,0.008560459755947677,0.079897624388845,ns
+mnau_upper_appendicular_mean,value,North America,West Asia,3,7,0.026213139317695314,0.9790873358241889,0.9790873358241889,ns
+mnau_upper_appendicular_mean,value,North America,West Europe,3,107,-1.381071375528736,0.16725701577688767,0.33451403155377535,ns
+mnau_upper_appendicular_mean,value,Other_small_groups,Southeast Asia,8,5,-1.601202465007407,0.10933208306684594,0.25510819382264055,ns
+mnau_upper_appendicular_mean,value,Other_small_groups,West Asia,8,7,1.9810778623736853,0.04758254246541685,0.166538898628959,ns
+mnau_upper_appendicular_mean,value,Other_small_groups,West Europe,8,107,0.542254762151491,0.5876430148467513,0.7932360360873334,ns
+mnau_upper_appendicular_mean,value,Southeast Asia,West Asia,5,7,3.3099889130191644,9.329966673201003e-4,0.026123906684962808,*
+mnau_upper_appendicular_mean,value,Southeast Asia,West Europe,5,107,2.429452779862982,0.015121634558785157,0.1058514419114961,ns
+mnau_upper_appendicular_mean,value,West Asia,West Europe,7,107,-2.118645802898985,0.034120411788661986,0.13648164715464794,ns
+mnau_appendicular_mean,value,Central Europe,Eastern Europe,12,3,0.9255940543979606,0.35465698438767945,0.5516886423808347,ns
+mnau_appendicular_mean,value,Central Europe,Europe,12,6,1.40109201426806,0.16118655931652343,0.282076478803916,ns
+mnau_appendicular_mean,value,Central Europe,North America,12,3,1.540685310994689,0.12339339352290608,0.26998718226729745,ns
+mnau_appendicular_mean,value,Central Europe,Other_small_groups,12,8,-0.2634703606831766,0.7921880654861881,0.8531256089851257,ns
+mnau_appendicular_mean,value,Central Europe,Southeast Asia,12,5,-1.8267566751164015,0.06773636265020938,0.2107353504673181,ns
+mnau_appendicular_mean,value,Central Europe,West Asia,12,7,1.9970497076735667,0.045819783450949385,0.16036924207832284,ns
+mnau_appendicular_mean,value,Central Europe,West Europe,12,107,0.3095825420511682,0.7568784339172874,0.8477038459873619,ns
+mnau_appendicular_mean,value,Eastern Europe,Europe,3,6,0.14577375987788632,0.8840999911791885,0.9168444352969362,ns
+mnau_appendicular_mean,value,Eastern Europe,North America,3,3,0.4862723349251825,0.6267740912516582,0.7905463102965186,ns
+mnau_appendicular_mean,value,Eastern Europe,Other_small_groups,3,8,-1.0601509846323436,0.2890759159867433,0.47612503809581247,ns
+mnau_appendicular_mean,value,Eastern Europe,Southeast Asia,3,5,-2.1495835776373458,0.03158816857444926,0.1474114533474299,ns
+mnau_appendicular_mean,value,Eastern Europe,West Asia,3,7,0.5105575688479558,0.6096608936705197,0.7905463102965186,ns
+mnau_appendicular_mean,value,Eastern Europe,West Europe,3,107,-0.8596373738192802,0.38998896645621256,0.5747205821459974,ns
+mnau_appendicular_mean,value,Europe,North America,6,3,0.41572516705915763,0.6776111231113016,0.7905463102965186,ns
+mnau_appendicular_mean,value,Europe,Other_small_groups,6,8,-1.519832244766424,0.12855314281450006,0.26998718226729745,ns
+mnau_appendicular_mean,value,Europe,Southeast Asia,6,5,-2.762722416329947,0.005732149257402268,0.06604139980725503,ns
+mnau_appendicular_mean,value,Europe,West Asia,6,7,0.4479935101063072,0.6541578803811574,0.7905463102965186,ns
+mnau_appendicular_mean,value,Europe,West Europe,6,107,-1.4451574481257483,0.14841366558178642,0.2770388424193347,ns
+mnau_appendicular_mean,value,North America,Other_small_groups,3,8,-1.6466174867693852,0.09963669384813537,0.26998718226729745,ns
+mnau_appendicular_mean,value,North America,Southeast Asia,3,5,-2.693252575872472,0.007075864265063038,0.06604139980725503,ns
+mnau_appendicular_mean,value,North America,West Asia,3,7,-0.0648076170983477,0.9483271766349191,0.9483271766349191,ns
+mnau_appendicular_mean,value,North America,West Europe,3,107,-1.5378878485683551,0.12407603890297976,0.26998718226729745,ns
+mnau_appendicular_mean,value,Other_small_groups,Southeast Asia,8,5,-1.4946967949660366,0.13499359113364873,0.26998718226729745,ns
+mnau_appendicular_mean,value,Other_small_groups,West Asia,8,7,2.067521052796056,0.038685082526362116,0.15474033010544846,ns
+mnau_appendicular_mean,value,Other_small_groups,West Europe,8,107,0.5852261852689038,0.5583956401523409,0.7817538962132772,ns
+mnau_appendicular_mean,value,Southeast Asia,West Asia,5,7,3.2826996224490887,0.0010281815944451892,0.0287890846444653,*
+mnau_appendicular_mean,value,Southeast Asia,West Europe,5,107,2.3311731737671813,0.01974423008242723,0.1382096105769906,ns
+mnau_appendicular_mean,value,West Asia,West Europe,7,107,-2.1929493679970684,0.028311027253540084,0.1474114533474299,ns
+mnau_lower_appendicular_mean,value,Central Europe,Eastern Europe,12,3,1.183091316259872,0.2367729590020975,0.3899789912975723,ns
+mnau_lower_appendicular_mean,value,Central Europe,Europe,12,6,1.7414629499538903,0.08160246220837061,0.19040574515286476,ns
+mnau_lower_appendicular_mean,value,Central Europe,North America,12,3,1.8582973741002995,0.06312679653346916,0.17675503029371362,ns
+mnau_lower_appendicular_mean,value,Central Europe,Other_small_groups,12,8,-0.18951127977564375,0.8496921153005472,0.8796676104848857,ns
+mnau_lower_appendicular_mean,value,Central Europe,Southeast Asia,12,5,-1.3621654775227852,0.1731456680533553,0.3232052470329299,ns
+mnau_lower_appendicular_mean,value,Central Europe,West Asia,12,7,2.0915113474648774,0.036482250294127355,0.14991844209926997,ns
+mnau_lower_appendicular_mean,value,Central Europe,West Europe,12,107,0.6719633193875701,0.5016070481957561,0.6688093975943414,ns
+mnau_lower_appendicular_mean,value,Eastern Europe,Europe,3,6,0.15139059192417445,0.8796676104848857,0.8796676104848857,ns
+mnau_lower_appendicular_mean,value,Eastern Europe,North America,3,3,0.5337972581797856,0.5934818109400355,0.7553404866509542,ns
+mnau_lower_appendicular_mean,value,Eastern Europe,Other_small_groups,3,8,-1.2558017884750856,0.2091878430288741,0.3660787253005297,ns
+mnau_lower_appendicular_mean,value,Eastern Europe,Southeast Asia,3,5,-2.0385550371446346,0.04149445656056738,0.14991844209926997,ns
+mnau_lower_appendicular_mean,value,Eastern Europe,West Asia,3,7,0.33479412827232513,0.7377803901292388,0.8586106837647388,ns
+mnau_lower_appendicular_mean,value,Eastern Europe,West Europe,3,107,-0.9551181351629515,0.3395179589116541,0.5003422552382271,ns
+mnau_lower_appendicular_mean,value,Europe,North America,6,3,0.46498538948139234,0.6419419195528291,0.7814945107599659,ns
+mnau_lower_appendicular_mean,value,Europe,Other_small_groups,6,8,-1.7724476664979443,0.07632027523266349,0.19040574515286476,ns
+mnau_lower_appendicular_mean,value,Europe,Southeast Asia,6,5,-2.6353760049344426,0.008404412597730544,0.07844522670111552,ns
+mnau_lower_appendicular_mean,value,Europe,West Asia,6,7,0.22284692414180352,0.8236546459723013,0.8796676104848857,ns
+mnau_lower_appendicular_mean,value,Europe,West Europe,6,107,-1.5878499757096112,0.11232026754215801,0.22464053508431603,ns
+mnau_lower_appendicular_mean,value,North America,Other_small_groups,3,8,-1.8995855046579289,0.057487535954360375,0.17675503029371362,ns
+mnau_lower_appendicular_mean,value,North America,Southeast Asia,3,5,-2.635358514891138,0.008404845717976662,0.07844522670111552,ns
+mnau_lower_appendicular_mean,value,North America,West Asia,3,7,-0.2968033052059621,0.7666166819328024,0.8586106837647388,ns
+mnau_lower_appendicular_mean,value,North America,West Europe,3,107,-1.6996561600043167,0.08919562009058263,0.19211364327202413,ns
+mnau_lower_appendicular_mean,value,Other_small_groups,Southeast Asia,8,5,-1.1201228527487292,0.26266141342643307,0.40858442088556257,ns
+mnau_lower_appendicular_mean,value,Other_small_groups,West Asia,8,7,2.089099530909698,0.036698764584007136,0.14991844209926997,ns
+mnau_lower_appendicular_mean,value,Other_small_groups,West Europe,8,107,0.7941108178291789,0.4271309204407794,0.597983288617091,ns
+mnau_lower_appendicular_mean,value,Southeast Asia,West Asia,5,7,2.9370835016971486,0.0033131488078712266,0.07844522670111552,ns
+mnau_lower_appendicular_mean,value,Southeast Asia,West Europe,5,107,2.0317980107006437,0.04217410868115369,0.14991844209926997,ns
+mnau_lower_appendicular_mean,value,West Asia,West Europe,7,107,-2.025326583296876,0.04283384059979142,0.14991844209926997,ns
+mnau_simpson_dominance,value,Central Europe,Eastern Europe,12,3,-1.215137613916751,0.22431360967834854,0.3305674247891452,ns
+mnau_simpson_dominance,value,Central Europe,Europe,12,6,-1.2201279331240205,0.2224163809836236,0.3305674247891452,ns
+mnau_simpson_dominance,value,Central Europe,North America,12,3,-1.395158001163677,0.16296819882004807,0.3219902802018245,ns
+mnau_simpson_dominance,value,Central Europe,Other_small_groups,12,8,0.4158258794754907,0.6775374201413316,0.829276000602466,ns
+mnau_simpson_dominance,value,Central Europe,Southeast Asia,12,5,1.812674010604631,0.06988211525588728,0.2174110252405382,ns
+mnau_simpson_dominance,value,Central Europe,West Asia,12,7,-1.8819319173091276,0.059845260182845486,0.2094584106399592,ns
+mnau_simpson_dominance,value,Central Europe,West Europe,12,105,-0.17196461696491985,0.8634653461323055,0.919673840008098,ns
+mnau_simpson_dominance,value,Eastern Europe,Europe,3,6,0.24650306726489188,0.8052928303505175,0.919673840008098,ns
+mnau_simpson_dominance,value,Eastern Europe,North America,3,3,-0.14231861224145376,0.8868283457220946,0.919673840008098,ns
+mnau_simpson_dominance,value,Eastern Europe,Other_small_groups,3,8,1.4389380064058088,0.15016808802477685,0.3219902802018245,ns
+mnau_simpson_dominance,value,Eastern Europe,Southeast Asia,3,5,2.395241928203207,0.016609402037812766,0.11626581426468936,ns
+mnau_simpson_dominance,value,Eastern Europe,West Asia,3,7,-0.16037490755056358,0.872585754636184,0.919673840008098,ns
+mnau_simpson_dominance,value,Eastern Europe,West Europe,3,105,1.2500700822482864,0.21127394753795176,0.3305674247891452,ns
+mnau_simpson_dominance,value,Europe,North America,6,3,-0.41083844544148646,0.6811910004948827,0.829276000602466,ns
+mnau_simpson_dominance,value,Europe,Other_small_groups,6,8,1.481055976045096,0.138591657847022,0.3219902802018245,ns
+mnau_simpson_dominance,value,Europe,Southeast Asia,6,5,2.6009168910488936,0.009297497511071577,0.09929128075492599,ns
+mnau_simpson_dominance,value,Europe,West Asia,6,7,-0.5122205216396769,0.608496682213573,0.8113289096180973,ns
+mnau_simpson_dominance,value,Europe,West Europe,6,105,1.3285561537574422,0.183994445829614,0.3219902802018245,ns
+mnau_simpson_dominance,value,North America,Other_small_groups,3,8,1.6105807109472572,0.10727114081357018,0.3003591942779965,ns
+mnau_simpson_dominance,value,North America,Southeast Asia,3,5,2.5543589739208694,0.010638351509456356,0.09929128075492599,ns
+mnau_simpson_dominance,value,North America,West Asia,3,7,0.008018745377528023,0.993602035431484,0.993602035431484,ns
+mnau_simpson_dominance,value,North America,West Europe,3,105,1.4485239054053323,0.14747058530353,0.3219902802018245,ns
+mnau_simpson_dominance,value,Other_small_groups,Southeast Asia,8,5,1.3595657775505987,0.17396737398297976,0.3219902802018245,ns
+mnau_simpson_dominance,value,Other_small_groups,West Asia,8,7,-2.0961000416858644,0.036073317325346514,0.14429326930138606,ns
+mnau_simpson_dominance,value,Other_small_groups,West Europe,8,105,-0.6603493335979314,0.5090296781743562,0.7126415494440986,ns
+mnau_simpson_dominance,value,Southeast Asia,West Asia,5,7,-3.1763951923593448,0.001491176607377073,0.041752945006558045,*
+mnau_simpson_dominance,value,Southeast Asia,West Europe,5,105,-2.222389090396342,0.026257021976710565,0.14410849071091153,ns
+mnau_simpson_dominance,value,West Asia,West Europe,7,105,2.158610585025353,0.030880390866623898,0.14410849071091153,ns
+mnau_inverse_simpson,value,Central Europe,Eastern Europe,12,3,1.2151376139167511,0.22431360967834854,0.3305674247891452,ns
+mnau_inverse_simpson,value,Central Europe,Europe,12,6,1.220127933124021,0.22241638098362343,0.3305674247891452,ns
+mnau_inverse_simpson,value,Central Europe,North America,12,3,1.3951580011636773,0.16296819882004804,0.32199028020182413,ns
+mnau_inverse_simpson,value,Central Europe,Other_small_groups,12,8,-0.4158258794754907,0.6775374201413316,0.829276000602466,ns
+mnau_inverse_simpson,value,Central Europe,Southeast Asia,12,5,-1.8126740106046315,0.06988211525588721,0.217411025240538,ns
+mnau_inverse_simpson,value,Central Europe,West Asia,12,7,1.8819319173091276,0.059845260182845486,0.2094584106399592,ns
+mnau_inverse_simpson,value,Central Europe,West Europe,12,105,0.17196461696491985,0.8634653461323055,0.919673840008098,ns
+mnau_inverse_simpson,value,Eastern Europe,Europe,3,6,-0.24650306726489188,0.8052928303505175,0.919673840008098,ns
+mnau_inverse_simpson,value,Eastern Europe,North America,3,3,0.14231861224145376,0.8868283457220946,0.919673840008098,ns
+mnau_inverse_simpson,value,Eastern Europe,Other_small_groups,3,8,-1.438938006405809,0.15016808802477674,0.32199028020182413,ns
+mnau_inverse_simpson,value,Eastern Europe,Southeast Asia,3,5,-2.395241928203208,0.01660940203781272,0.11626581426468904,ns
+mnau_inverse_simpson,value,Eastern Europe,West Asia,3,7,0.16037490755056336,0.8725857546361843,0.919673840008098,ns
+mnau_inverse_simpson,value,Eastern Europe,West Europe,3,105,-1.2500700822482869,0.21127394753795167,0.3305674247891452,ns
+mnau_inverse_simpson,value,Europe,North America,6,3,0.41083844544148646,0.6811910004948827,0.829276000602466,ns
+mnau_inverse_simpson,value,Europe,Other_small_groups,6,8,-1.4810559760450965,0.13859165784702188,0.32199028020182413,ns
+mnau_inverse_simpson,value,Europe,Southeast Asia,6,5,-2.600916891048895,0.009297497511071545,0.09929128075492577,ns
+mnau_inverse_simpson,value,Europe,West Asia,6,7,0.5122205216396766,0.6084966822135733,0.8113289096180978,ns
+mnau_inverse_simpson,value,Europe,West Europe,6,105,-1.3285561537574426,0.1839944458296138,0.32199028020182413,ns
+mnau_inverse_simpson,value,North America,Other_small_groups,3,8,-1.6105807109472574,0.10727114081357013,0.30035919427799634,ns
+mnau_inverse_simpson,value,North America,Southeast Asia,3,5,-2.5543589739208703,0.010638351509456332,0.09929128075492577,ns
+mnau_inverse_simpson,value,North America,West Asia,3,7,-0.008018745377528263,0.9936020354314838,0.9936020354314838,ns
+mnau_inverse_simpson,value,North America,West Europe,3,105,-1.4485239054053327,0.14747058530352988,0.32199028020182413,ns
+mnau_inverse_simpson,value,Other_small_groups,Southeast Asia,8,5,-1.359565777550599,0.17396737398297965,0.32199028020182413,ns
+mnau_inverse_simpson,value,Other_small_groups,West Asia,8,7,2.0961000416858644,0.036073317325346514,0.14429326930138606,ns
+mnau_inverse_simpson,value,Other_small_groups,West Europe,8,105,0.6603493335979314,0.5090296781743562,0.7126415494440986,ns
+mnau_inverse_simpson,value,Southeast Asia,West Asia,5,7,3.1763951923593456,0.0014911766073770689,0.04175294500655793,*
+mnau_inverse_simpson,value,Southeast Asia,West Europe,5,105,2.2223890903963426,0.026257021976710534,0.14410849071091153,ns
+mnau_inverse_simpson,value,West Asia,West Europe,7,105,-2.158610585025353,0.030880390866623898,0.14410849071091153,ns
+mnau_simpson_evenness,value,Central Europe,Eastern Europe,12,3,1.2151376139167511,0.22431360967834854,0.3305674247891452,ns
+mnau_simpson_evenness,value,Central Europe,Europe,12,6,1.220127933124021,0.22241638098362343,0.3305674247891452,ns
+mnau_simpson_evenness,value,Central Europe,North America,12,3,1.3951580011636773,0.16296819882004804,0.32199028020182413,ns
+mnau_simpson_evenness,value,Central Europe,Other_small_groups,12,8,-0.4158258794754907,0.6775374201413316,0.829276000602466,ns
+mnau_simpson_evenness,value,Central Europe,Southeast Asia,12,5,-1.8126740106046315,0.06988211525588721,0.217411025240538,ns
+mnau_simpson_evenness,value,Central Europe,West Asia,12,7,1.8819319173091276,0.059845260182845486,0.2094584106399592,ns
+mnau_simpson_evenness,value,Central Europe,West Europe,12,105,0.17196461696491985,0.8634653461323055,0.919673840008098,ns
+mnau_simpson_evenness,value,Eastern Europe,Europe,3,6,-0.24650306726489188,0.8052928303505175,0.919673840008098,ns
+mnau_simpson_evenness,value,Eastern Europe,North America,3,3,0.14231861224145376,0.8868283457220946,0.919673840008098,ns
+mnau_simpson_evenness,value,Eastern Europe,Other_small_groups,3,8,-1.438938006405809,0.15016808802477674,0.32199028020182413,ns
+mnau_simpson_evenness,value,Eastern Europe,Southeast Asia,3,5,-2.395241928203208,0.01660940203781272,0.11626581426468904,ns
+mnau_simpson_evenness,value,Eastern Europe,West Asia,3,7,0.16037490755056336,0.8725857546361843,0.919673840008098,ns
+mnau_simpson_evenness,value,Eastern Europe,West Europe,3,105,-1.2500700822482869,0.21127394753795167,0.3305674247891452,ns
+mnau_simpson_evenness,value,Europe,North America,6,3,0.41083844544148646,0.6811910004948827,0.829276000602466,ns
+mnau_simpson_evenness,value,Europe,Other_small_groups,6,8,-1.4810559760450965,0.13859165784702188,0.32199028020182413,ns
+mnau_simpson_evenness,value,Europe,Southeast Asia,6,5,-2.600916891048895,0.009297497511071545,0.09929128075492577,ns
+mnau_simpson_evenness,value,Europe,West Asia,6,7,0.5122205216396766,0.6084966822135733,0.8113289096180978,ns
+mnau_simpson_evenness,value,Europe,West Europe,6,105,-1.3285561537574426,0.1839944458296138,0.32199028020182413,ns
+mnau_simpson_evenness,value,North America,Other_small_groups,3,8,-1.6105807109472574,0.10727114081357013,0.30035919427799634,ns
+mnau_simpson_evenness,value,North America,Southeast Asia,3,5,-2.5543589739208703,0.010638351509456332,0.09929128075492577,ns
+mnau_simpson_evenness,value,North America,West Asia,3,7,-0.008018745377528263,0.9936020354314838,0.9936020354314838,ns
+mnau_simpson_evenness,value,North America,West Europe,3,105,-1.4485239054053327,0.14747058530352988,0.32199028020182413,ns
+mnau_simpson_evenness,value,Other_small_groups,Southeast Asia,8,5,-1.359565777550599,0.17396737398297965,0.32199028020182413,ns
+mnau_simpson_evenness,value,Other_small_groups,West Asia,8,7,2.0961000416858644,0.036073317325346514,0.14429326930138606,ns
+mnau_simpson_evenness,value,Other_small_groups,West Europe,8,105,0.6603493335979314,0.5090296781743562,0.7126415494440986,ns
+mnau_simpson_evenness,value,Southeast Asia,West Asia,5,7,3.1763951923593456,0.0014911766073770689,0.04175294500655793,*
+mnau_simpson_evenness,value,Southeast Asia,West Europe,5,105,2.2223890903963426,0.026257021976710534,0.14410849071091153,ns
+mnau_simpson_evenness,value,West Asia,West Europe,7,105,-2.158610585025353,0.030880390866623898,0.14410849071091153,ns
+mnau_pelvic,value,Central Europe,Eastern Europe,12,3,0.5200599887218307,0.6030217645052676,0.6753843762458998,ns
+mnau_pelvic,value,Central Europe,Europe,12,6,1.4151549974504207,0.1570230559260338,0.3140461118520676,ns
+mnau_pelvic,value,Central Europe,North America,12,3,2.189234563302079,0.028579795700145915,0.12968568190067248,ns
+mnau_pelvic,value,Central Europe,Other_small_groups,12,8,-0.4150814524930401,0.6780822766784241,0.7091496471300336,ns
+mnau_pelvic,value,Central Europe,Southeast Asia,12,5,-1.4463762725526168,0.14807169322822414,0.3140461118520676,ns
+mnau_pelvic,value,Central Europe,West Asia,12,7,1.9641751673408405,0.04950978156368424,0.1540304315314621,ns
+mnau_pelvic,value,Central Europe,West Europe,12,107,0.632343909446341,0.5271621771877562,0.6417626504894424,ns
+mnau_pelvic,value,Eastern Europe,Europe,3,6,0.5259180499958424,0.5989451471716729,0.6753843762458998,ns
+mnau_pelvic,value,Eastern Europe,North America,3,3,1.3195983670290445,0.18696914837525386,0.34900907696714056,ns
+mnau_pelvic,value,Eastern Europe,Other_small_groups,3,8,-0.7757056015916005,0.4379228316910015,0.5838971089213353,ns
+mnau_pelvic,value,Eastern Europe,Southeast Asia,3,5,-1.5138912391987527,0.13005342647144394,0.3034579951000359,ns
+mnau_pelvic,value,Eastern Europe,West Asia,3,7,0.8672427386219032,0.38580902365691083,0.5401326331196751,ns
+mnau_pelvic,value,Eastern Europe,West Europe,3,107,-0.2446091455551539,0.8067590820267385,0.8067590820267385,ns
+mnau_pelvic,value,Europe,North America,6,3,0.9978228948569763,0.3183652461692782,0.4691698364599889,ns
+mnau_pelvic,value,Europe,Other_small_groups,6,8,-1.660986796566559,0.09671609850410263,0.24618643255589762,ns
+mnau_pelvic,value,Europe,Southeast Asia,6,5,-2.439961502257126,0.014688827175835877,0.12546233237635612,ns
+mnau_pelvic,value,Europe,West Asia,6,7,0.40725205314542,0.6838228740182467,0.7091496471300336,ns
+mnau_pelvic,value,Europe,West Europe,6,107,-1.2277100101357246,0.21955584735795636,0.3842227328764236,ns
+mnau_pelvic,value,North America,Other_small_groups,3,8,-2.367201113373794,0.017923190339479447,0.12546233237635612,ns
+mnau_pelvic,value,North America,Southeast Asia,3,5,-2.989247065036083,0.0027966589072937536,0.05056612137433298,ns
+mnau_pelvic,value,North America,West Asia,3,7,-0.6941271055764562,0.48760250134817823,0.6205850017158632,ns
+mnau_pelvic,value,North America,West Europe,3,107,-2.0851790374311956,0.03705305197162071,0.12968568190067248,ns
+mnau_pelvic,value,Other_small_groups,Southeast Asia,8,5,-1.0181497586172858,0.30860679149863796,0.4691698364599889,ns
+mnau_pelvic,value,Other_small_groups,West Asia,8,7,2.1710198499954263,0.02992967191965525,0.12968568190067248,ns
+mnau_pelvic,value,Other_small_groups,West Europe,8,107,1.0421021590109234,0.2973643177178487,0.4691698364599889,ns
+mnau_pelvic,value,Southeast Asia,West Asia,5,7,2.9102094816640234,0.0036118658124523555,0.05056612137433298,ns
+mnau_pelvic,value,Southeast Asia,West Europe,5,107,2.103404763266509,0.035430402429596754,0.12968568190067248,ns
+mnau_pelvic,value,West Asia,West Europe,7,107,-1.9010122355518615,0.05730040999137071,0.16044114797583797,ns
+mnau_evenness_minus_dominance,value,Central Europe,Eastern Europe,12,3,1.2031362547669557,0.2289235977194098,0.3373610913759723,ns
+mnau_evenness_minus_dominance,value,Central Europe,Europe,12,6,1.2046342450843504,0.22834453051406675,0.3373610913759723,ns
+mnau_evenness_minus_dominance,value,Central Europe,North America,12,3,1.3831566420138819,0.16661684102920443,0.3122722904049835,ns
+mnau_evenness_minus_dominance,value,Central Europe,Other_small_groups,12,8,-0.4094611976467842,0.6822012368310617,0.8305058535334665,ns
+mnau_evenness_minus_dominance,value,Central Europe,Southeast Asia,12,5,-1.8301385534607177,0.067229223216885875,0.20915758334142273,ns
+mnau_evenness_minus_dominance,value,Central Europe,West Asia,12,7,1.8330656789616881,0.06679280434620644,0.20915758334142273,ns
+mnau_evenness_minus_dominance,value,Central Europe,West Europe,12,105,0.18068088054920298,0.8566180668903938,0.9232758689325841,ns
+mnau_evenness_minus_dominance,value,Eastern Europe,Europe,3,6,-0.24650306726489188,0.8052928303505175,0.9232758689325841,ns
+mnau_evenness_minus_dominance,value,Eastern Europe,North America,3,3,0.14231861224145376,0.8868283457220946,0.9232758689325841,ns
+mnau_evenness_minus_dominance,value,Eastern Europe,Other_small_groups,3,8,-1.4232040918228426,0.15467699978695812,0.3122722904049835,ns
+mnau_evenness_minus_dominance,value,Eastern Europe,Southeast Asia,3,5,-2.3973634888127764,0.016513532965093527,0.11559473075565468,ns
+mnau_evenness_minus_dominance,value,Eastern Europe,West Asia,3,7,0.1379224204934848,0.8903017307564204,0.9232758689325841,ns
+mnau_evenness_minus_dominance,value,Eastern Europe,West Europe,3,105,-1.2323037399847032,0.21783564327038885,0.3373610913759723,ns
+mnau_evenness_minus_dominance,value,Europe,North America,6,3,0.41083844544148646,0.6811910004948827,0.8305058535334665,ns
+mnau_evenness_minus_dominance,value,Europe,Other_small_groups,6,8,-1.4613324703108392,0.14392422310217887,0.3122722904049835,ns
+mnau_evenness_minus_dominance,value,Europe,Southeast Asia,6,5,-2.6034755894168713,0.009228383909969986,0.09868785435404469,ns
+mnau_evenness_minus_dominance,value,Europe,West Asia,6,7,0.4843716389097528,0.6281221424055929,0.8305058535334665,ns
+mnau_evenness_minus_dominance,value,Europe,West Europe,6,105,-1.3037726097103692,0.19231112414439508,0.3365444672526914,ns
+mnau_evenness_minus_dominance,value,North America,Other_small_groups,3,8,-1.594846796364291,0.11074649947922333,0.3100901985418253,ns
+mnau_evenness_minus_dominance,value,North America,Southeast Asia,3,5,-2.5564805345304387,0.010573698680790502,0.09868785435404469,ns
+mnau_evenness_minus_dominance,value,North America,West Asia,3,7,-0.030471232434606827,0.9756912359150516,0.9756912359150516,ns
+mnau_evenness_minus_dominance,value,North America,West Europe,3,105,-1.430757563141749,0.15249970930669393,0.3122722904049835,ns
+mnau_evenness_minus_dominance,value,Other_small_groups,Southeast Asia,8,5,-1.3809682373171377,0.16728872700266972,0.3122722904049835,ns
+mnau_evenness_minus_dominance,value,Other_small_groups,West Asia,8,7,2.0455819458074367,0.04079751925308772,0.1631900770123509,ns
+mnau_evenness_minus_dominance,value,Other_small_groups,West Europe,8,105,0.65967042749759075,0.5094653481160468,0.7132514873624655,ns
+mnau_evenness_minus_dominance,value,Southeast Asia,West Asia,5,7,3.1525807335805,0.0016183406323733893,0.0453135377064549,*
+mnau_evenness_minus_dominance,value,Southeast Asia,West Europe,5,105,2.2485007115628792,0.024544279770572577,0.13744796671520643,ns
+mnau_evenness_minus_dominance,value,West Asia,West Europe,7,105,-2.092270306998569,0.0364143423128302,0.1631900770123509,ns
+mnau_cv,value,Central Europe,Eastern Europe,12,3,-1.2314722993938223,0.21814627077616,0.32147871482802526,ns
+mnau_cv,value,Central Europe,Europe,12,6,-1.2416872813500703,0.21435196440121093,0.32147871482802526,ns
+mnau_cv,value,Central Europe,North America,12,3,-1.411249277407519,0.15817112480685394,0.3163422496137079,ns
+mnau_cv,value,Central Europe,Other_small_groups,12,8,0.443865974889362,0.6571394856612698,0.8297719693704206,ns
+mnau_cv,value,Central Europe,Southeast Asia,12,5,1.7448195745499626,0.08101628037470794,0.25205065005464694,ns
+mnau_cv,value,Central Europe,West Asia,12,7,-1.827101427417685,0.06768452068442099,0.23689582239547347,ns
+mnau_cv,value,Central Europe,West Europe,12,105,-0.22468434216196795,0.8222248463350124,0.920891827895214,ns
+mnau_cv,value,Eastern Europe,Europe,3,6,0.24616976544552996,0.8055508191760067,0.920891827895214,ns
+mnau_cv,value,Eastern Europe,North America,3,3,-0.14212618034632377,0.8869803391588139,0.9484183884627193,ns
+mnau_cv,value,Eastern Europe,Other_small_groups,3,8,1.4734171463867778,0.1406385896656629,0.3163422496137079,ns
+mnau_cv,value,Eastern Europe,Southeast Asia,3,5,2.360222892729112,0.018263957687011716,0.127847703809082,ns
+mnau_cv,value,Eastern Europe,West Asia,3,7,-0.10730590111835378,0.9145463031604794,0.9484183884627193,ns
+mnau_cv,value,Eastern Europe,West Europe,3,105,1.2406411655193086,0.21473833759767116,0.32147871482802526,ns
+mnau_cv,value,Europe,North America,6,3,-0.4102829424092166,0.6815984034114169,0.8297719693704206,ns
+mnau_cv,value,Europe,Other_small_groups,6,8,1.5247142599127956,0.1273303834210679,0.3163422496137079,ns
+mnau_cv,value,Europe,Southeast Asia,6,5,2.5590715578341405,0.010495213547575452,0.10980382191332017,ns
+mnau_cv,value,Europe,West Asia,6,7,-0.445972901143046,0.6556168208282849,0.8297719693704206,ns
+mnau_cv,value,Europe,West Europe,6,105,1.3159645584444684,0.1881859385118819,0.32147871482802526,ns
+mnau_cv,value,North America,Other_small_groups,3,8,1.644827769330465,0.10000533379802962,0.2800149346344829,ns
+mnau_cv,value,North America,Southeast Asia,3,5,2.519124793047499,0.011764695204998588,0.10980382191332017,ns
+mnau_cv,value,North America,West Asia,3,7,0.0608600633208574,0.9514706553103444,0.9514706553103444,ns
+mnau_cv,value,North America,West Europe,3,105,1.4388266552188786,0.15019964221903048,0.3163422496137079,ns
+mnau_cv,value,Other_small_groups,Southeast Asia,8,5,1.2737600767812127,0.20274845793106572,0.32147871482802526,ns
+mnau_cv,value,Other_small_groups,West Asia,8,7,-2.070443338369431,0.03841084695909604,0.16120278048111042,ns
+mnau_cv,value,Other_small_groups,West Europe,8,105,-0.7390447359596581,0.4598798329058677,0.6438317660682148,ns
+mnau_cv,value,Southeast Asia,West Asia,5,7,-3.070176357574482,0.0021393240629035983,0.05990107376130075,ns
+mnau_cv,value,Southeast Asia,West Europe,5,105,-2.1785795486271566,0.029362916831328505,0.16120278048111042,ns
+mnau_cv,value,West Asia,West Europe,7,105,2.0506535741342655,0.040300695120277605,0.16120278048111042,ns

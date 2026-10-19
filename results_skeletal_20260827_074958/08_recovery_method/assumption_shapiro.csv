@@ -1,0 +1,190 @@
+"feature","group","shapiro_p"
+"ProportionalRep_MNIbased_carpal","Formal excavation",4.65402260676489e-12
+"ProportionalRep_MNIbased_carpal","Casual",4.75789329585916e-07
+"ProportionalRep_MNIbased_carpal","Quarry",NA
+"ProportionalRep_MNIbased_cervical","Formal excavation",4.24723728193005e-11
+"ProportionalRep_MNIbased_cervical","Casual",8.62610685107299e-06
+"ProportionalRep_MNIbased_cervical","Quarry",0.240669913028254
+"ProportionalRep_MNIbased_clavicle","Formal excavation",4.45139429844529e-08
+"ProportionalRep_MNIbased_clavicle","Casual",0.000852110109407757
+"ProportionalRep_MNIbased_clavicle","Quarry",0.368999332891925
+"ProportionalRep_MNIbased_femur","Formal excavation",3.23669701477333e-06
+"ProportionalRep_MNIbased_femur","Casual",0.00787397900359401
+"ProportionalRep_MNIbased_femur","Quarry",0.416216168786477
+"ProportionalRep_MNIbased_fibula","Formal excavation",1.1492382359675e-07
+"ProportionalRep_MNIbased_fibula","Casual",1.30294741916126e-05
+"ProportionalRep_MNIbased_fibula","Quarry",NA
+"ProportionalRep_MNIbased_humerus","Formal excavation",8.8596541909374e-07
+"ProportionalRep_MNIbased_humerus","Casual",0.000402615593123994
+"ProportionalRep_MNIbased_humerus","Quarry",0.268925204139426
+"ProportionalRep_MNIbased_metacarpal","Formal excavation",2.65447884391533e-10
+"ProportionalRep_MNIbased_metacarpal","Casual",1.66236817694049e-05
+"ProportionalRep_MNIbased_metacarpal","Quarry",0.161239275556098
+"ProportionalRep_MNIbased_os_coxae","Formal excavation",8.43172481707179e-08
+"ProportionalRep_MNIbased_os_coxae","Casual",0.0016093653120249
+"ProportionalRep_MNIbased_os_coxae","Quarry",0.224230536227595
+"ProportionalRep_MNIbased_radius","Formal excavation",8.01603650639216e-08
+"ProportionalRep_MNIbased_radius","Casual",7.97752407946483e-05
+"ProportionalRep_MNIbased_radius","Quarry",0.408267333660948
+"ProportionalRep_MNIbased_tibia","Formal excavation",2.1988866734827e-06
+"ProportionalRep_MNIbased_tibia","Casual",0.000562220036060013
+"ProportionalRep_MNIbased_tibia","Quarry",0.161190614218768
+"ReMNAU_cervical","Formal excavation",4.53834325029128e-08
+"ReMNAU_cervical","Casual",1.43028199897755e-05
+"ReMNAU_cervical","Quarry",0.1486963135475
+"ReMNAU_radius","Formal excavation",6.9690076436084e-05
+"ReMNAU_radius","Casual",6.83392283593854e-05
+"ReMNAU_radius","Quarry",0.187089438503863
+"ReMNAU_ulna","Formal excavation",4.26402569978471e-16
+"ReMNAU_ulna","Casual",0.000432557110902151
+"ReMNAU_ulna","Quarry",0.711598845895207
+"all_sections_dominance","Formal excavation",5.89663681201823e-06
+"all_sections_dominance","Casual",0.00764758309650074
+"all_sections_dominance","Quarry",0.310798419081439
+"appendicular_dominance","Formal excavation",5.30541766081326e-09
+"appendicular_dominance","Casual",0.047850922423491
+"appendicular_dominance","Quarry",0.744657280365475
+"appendicular_dominance_refined","Formal excavation",5.30541766081326e-09
+"appendicular_dominance_refined","Casual",0.047850922423491
+"appendicular_dominance_refined","Quarry",0.744657280365475
+"density_adjusted_appendicular_axial_contrast","Formal excavation",2.73392679429732e-08
+"density_adjusted_appendicular_axial_contrast","Casual",0.0707803020904399
+"density_adjusted_appendicular_axial_contrast","Quarry",0.987945228328569
+"density_evenness","Formal excavation",3.28231550099335e-08
+"density_evenness","Casual",0.0096594313376187
+"density_evenness","Quarry",0.505641854198345
+"distal_appendicular_continuity_hm","Formal excavation",1.34429682427349e-09
+"distal_appendicular_continuity_hm","Casual",1.6287734160928e-06
+"distal_appendicular_continuity_hm","Quarry",0.0261382918520244
+"dominance_gap_all","Formal excavation",3.31556549213738e-06
+"dominance_gap_all","Casual",0.00537098450872264
+"dominance_gap_all","Quarry",0.530315070746167
+"dominant_axial_share","Formal excavation",0.000968292441168086
+"dominant_axial_share","Casual",0.0386860957550667
+"dominant_axial_share","Quarry",0.31079751219853
+"effective_sections_hill1","Formal excavation",2.25088704333586e-05
+"effective_sections_hill1","Casual",0.0130277897652881
+"effective_sections_hill1","Quarry",0.367502434492435
+"low_density_axial_survival","Formal excavation",3.30082854470151e-13
+"low_density_axial_survival","Casual",0.000278874600293092
+"low_density_axial_survival","Quarry",0.131108093712286
+"low_density_share","Formal excavation",0.00106971855448306
+"low_density_share","Casual",0.0150394982323586
+"low_density_share","Quarry",0.688626552593798
+"low_density_survival_index","Formal excavation",2.11867227483426e-10
+"low_density_survival_index","Casual",0.00274215111784322
+"low_density_survival_index","Quarry",0.153256023713731
+"lower_appendicular_continuity_hm","Formal excavation",1.57083750774763e-09
+"lower_appendicular_continuity_hm","Casual",6.29102819226633e-05
+"lower_appendicular_continuity_hm","Quarry",0.18000492697062
+"lower_appendicular_evenness","Formal excavation",1.6614965121816e-07
+"lower_appendicular_evenness","Casual",0.0395119027908001
+"lower_appendicular_evenness","Quarry",0.574296525020783
+"lower_appendicular_evenness_refined","Formal excavation",1.6614965121816e-07
+"lower_appendicular_evenness_refined","Casual",0.0395119027908001
+"lower_appendicular_evenness_refined","Quarry",0.574296525020783
+"mnau_appendicular_mean","Formal excavation",1.80509677041136e-05
+"mnau_appendicular_mean","Casual",0.0204260145547474
+"mnau_appendicular_mean","Quarry",0.306426977564622
+"mnau_arms","Formal excavation",3.01870996064323e-06
+"mnau_arms","Casual",0.000411283985140965
+"mnau_arms","Quarry",0.125874753754365
+"mnau_arms_legs_diff","Formal excavation",1.81406583141309e-06
+"mnau_arms_legs_diff","Casual",0.0462250774637097
+"mnau_arms_legs_diff","Quarry",0.546169540234977
+"mnau_arms_legs_logratio","Formal excavation",4.93839370180623e-13
+"mnau_arms_legs_logratio","Casual",0.000153857891912989
+"mnau_arms_legs_logratio","Quarry",0.431913629716593
+"mnau_arms_to_legs_ratio","Formal excavation",2.02699579856233e-19
+"mnau_arms_to_legs_ratio","Casual",0.00774236423334881
+"mnau_arms_to_legs_ratio","Quarry",0.376251397811439
+"mnau_axial_main_mean","Formal excavation",4.40725452456844e-10
+"mnau_axial_main_mean","Casual",0.000271711550970472
+"mnau_axial_main_mean","Quarry",0.131108093712286
+"mnau_column_trunk_mean","Formal excavation",2.59213444204095e-08
+"mnau_column_trunk_mean","Casual",0.00302610212503517
+"mnau_column_trunk_mean","Quarry",0.409094533406353
+"mnau_cv","Formal excavation",2.8618449062098e-06
+"mnau_cv","Casual",0.0115646888612704
+"mnau_cv","Quarry",0.378479248015473
+"mnau_distal_appendicular_mean","Formal excavation",6.72051772833654e-09
+"mnau_distal_appendicular_mean","Casual",4.3080422088037e-05
+"mnau_distal_appendicular_mean","Quarry",0.290531608599499
+"mnau_dominance_of_region_means","Formal excavation",3.5701497821997e-07
+"mnau_dominance_of_region_means","Casual",0.00855118678838746
+"mnau_dominance_of_region_means","Quarry",0.324288876017285
+"mnau_evenness_minus_dominance","Formal excavation",8.35838468786293e-07
+"mnau_evenness_minus_dominance","Casual",0.0101297702384446
+"mnau_evenness_minus_dominance","Quarry",0.280509651964369
+"mnau_foot","Formal excavation",8.20244076192226e-10
+"mnau_foot","Casual",3.54830253296244e-05
+"mnau_foot","Quarry",0.161190614218768
+"mnau_gini","Formal excavation",0.000124354662196138
+"mnau_gini","Casual",0.00993772020893938
+"mnau_gini","Quarry",0.456135408031857
+"mnau_girdle_mean","Formal excavation",2.99121519265573e-06
+"mnau_girdle_mean","Casual",0.0121796114321898
+"mnau_girdle_mean","Quarry",0.332576897277094
+"mnau_hands","Formal excavation",4.55227208211732e-10
+"mnau_hands","Casual",6.46489556441371e-06
+"mnau_hands","Quarry",0.05689431238312
+"mnau_heip_evenness","Formal excavation",2.2508870433358e-05
+"mnau_heip_evenness","Casual",0.0130277897652881
+"mnau_heip_evenness","Quarry",0.367502434492435
+"mnau_inverse_simpson","Formal excavation",0.000104621212348592
+"mnau_inverse_simpson","Casual",0.00772875354487223
+"mnau_inverse_simpson","Quarry",0.26353259431822
+"mnau_legs","Formal excavation",4.0111441646446e-06
+"mnau_legs","Casual",0.0125516781777469
+"mnau_legs","Quarry",0.194708262727666
+"mnau_limb_shaft_proxy_mean","Formal excavation",1.37465898395769e-05
+"mnau_limb_shaft_proxy_mean","Casual",0.00693559366695692
+"mnau_limb_shaft_proxy_mean","Quarry",0.348847048182866
+"mnau_lower_appendicular_mean","Formal excavation",4.03256847979104e-06
+"mnau_lower_appendicular_mean","Casual",0.00105346845794444
+"mnau_lower_appendicular_mean","Quarry",0.218243761485532
+"mnau_pelvic","Formal excavation",1.23334974218035e-08
+"mnau_pelvic","Casual",0.00131828718750755
+"mnau_pelvic","Quarry",NA
+"mnau_postcranial_total_mean","Formal excavation",6.36480262890307e-06
+"mnau_postcranial_total_mean","Casual",0.0131521269899338
+"mnau_postcranial_total_mean","Quarry",0.420452798144785
+"mnau_proximal_appendicular_mean","Formal excavation",3.60098501383427e-05
+"mnau_proximal_appendicular_mean","Casual",0.0251069599588374
+"mnau_proximal_appendicular_mean","Quarry",0.343778741507955
+"mnau_region_mean_evenness","Formal excavation",2.62926411199157e-09
+"mnau_region_mean_evenness","Casual",0.014614989128798
+"mnau_region_mean_evenness","Quarry",0.193271670870664
+"mnau_shoulder","Formal excavation",6.6267391090791e-07
+"mnau_shoulder","Casual",0.00269886917453257
+"mnau_shoulder","Quarry",0.179705035481159
+"mnau_simpson_dominance","Formal excavation",1.08702761865317e-08
+"mnau_simpson_dominance","Casual",0.00502051888282806
+"mnau_simpson_dominance","Quarry",0.338537097838658
+"mnau_simpson_evenness","Formal excavation",0.000104621212348592
+"mnau_simpson_evenness","Casual",0.00772875354487229
+"mnau_simpson_evenness","Quarry",0.263532594318221
+"mnau_top2_share_mcnaughton","Formal excavation",1.84284567801355e-05
+"mnau_top2_share_mcnaughton","Casual",0.00362846013993888
+"mnau_top2_share_mcnaughton","Quarry",0.456330912245588
+"mnau_upper_appendicular_mean","Formal excavation",9.52922457319765e-06
+"mnau_upper_appendicular_mean","Casual",0.0026274918658974
+"mnau_upper_appendicular_mean","Quarry",0.388847228289086
+"mnau_vertebrae_to_thorax_ratio","Formal excavation",7.79778177983201e-18
+"mnau_vertebrae_to_thorax_ratio","Casual",1.58773926243298e-06
+"mnau_vertebrae_to_thorax_ratio","Quarry",0.862378147161886
+"mne_arms","Formal excavation",1.25199012392232e-17
+"mne_arms","Casual",3.77105418440391e-07
+"mne_arms","Quarry",0.466513591629401
+"mne_arms_to_legs_ratio","Formal excavation",2.02393074344986e-19
+"mne_arms_to_legs_ratio","Casual",0.0299543486026905
+"mne_arms_to_legs_ratio","Quarry",0.256764826053048
+"mne_cranial_share","Formal excavation",8.03243403099972e-13
+"mne_cranial_share","Casual",0.00132927852773437
+"mne_cranial_share","Quarry",0.0318090532007931
+"mne_vertebrae_to_thorax_ratio","Formal excavation",4.81550446835275e-19
+"mne_vertebrae_to_thorax_ratio","Casual",1.59968632701637e-06
+"mne_vertebrae_to_thorax_ratio","Quarry",0.749487909091444
+"postcranial_dominance_refined","Formal excavation",1.59170616619586e-09
+"postcranial_dominance_refined","Casual",0.0877495227943403
+"postcranial_dominance_refined","Quarry",0.308818168261874

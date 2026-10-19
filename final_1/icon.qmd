@@ -1,0 +1,520 @@
+---
+title: "r88b icon test"
+format:
+html:
+    fig-width: 8
+    fig-height: 6
+  revealjs:
+    width: 2000
+    height: 1200
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+POSITION_MAX <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+
+random_vectors <- function(n) {
+  # Total number of unique combinations possible
+  max_combinations <- prod(POSITION_MAX + 1)
+  if (n > max_combinations) stop(paste("n exceeds total unique combinations:", max_combinations))
+  
+  seen <- list()
+  result <- list()
+  
+  while (length(result) < n) {
+    candidate <- mapply(function(mx) sample(1:mx, size = 1), POSITION_MAX)
+    key <- paste(candidate, collapse = "-")
+    
+    if (!key %in% seen) {
+      seen <- c(seen, key)
+      result <- c(result, list(candidate))
+    }
+  }
+  
+  result
+}
+```
+
+
+```{r}
+
+source("tapho_loader_new.R")   #c(2,1,1,2,2,2,2,2,2,2,2) c( 4 ,4 ,1 ,2 ,3 ,2,2 ,2 ,1 ,1 ,4)
+excel_path <- "hspa.xlsx"
+
+system.time({
+levels_vec <- random_vectors(n = 1)
+for (lvl in levels_vec){
+  lvl= c(2,1,1,2,2,2,2,2,2,2,2)
+
+tapho_db <- tapho.loader(excel_path,# sum=TRUE , 
+level = lvl, #, indet = FALSE#, indet_method = "delet"#, 
+#group_by = c( "cultural_period", "mis_stage","gender") ,
+#select = c("gender"="Indet") , 
+exclude_sections = c("arms","legs","cranium","shoulder","hands")
+)
+print(tapho_db)
+ print(lvl)
+}
+})
+```
+
+
+
+```{r}
+icons <- c("🦴", "💀", "🔥", "🪨")
+weights <- c(4, 3, 2, 1)
+n <- 200
+
+for (i in seq_len(n)) {
+# Pick 2 DISTINCT icon types, weighted
+run_icons <- sample(
+  icons,
+  size = 2,
+  replace = FALSE,
+  prob = weights
+)
+
+# Choose which of the two is dominant
+dominant <- sample(
+  run_icons,
+  size = 1,
+  prob = weights[match(run_icons, icons)]
+)
+
+minor <- setdiff(run_icons, dominant)
+
+# Exactly 9 dominant + 1 minor
+icon_sequence <- c(
+  rep(dominant, 9),
+  minor
+)
+
+
+  icon_sequence <- sample(icon_sequence)
+
+  cat(
+    paste0(icon_sequence, collapse = ""),
+    "\n"
+  )
+}
+```
+
+
+```{r}
+names(tapho_db)
+```
+
+```{r}
+
+tapho_db |>
+  count(
+    taphonomic_context,
+    country,
+    name = "n_sites"
+  ) |>
+  filter(n_sites >= 2)
+test_combos <- list(
+  list(
+    spatial  = "country",
+    temporal = "cultural_period"
+  )
+)
+```
+
+
+```{r}
+source("modeling/augment_metadata_combinations.R")
+
+my_augment_fun <- make_augment_fun(
+  combos         = test_combos,
+  feature_cols   = feature_cols,
+  target_col     = "taphonomic_context",
+  integer_cols   = intersect("mni", names(tapho_db)),
+  required_cols  = intersect("mni", names(tapho_db)),
+  min_group_size = 2L
+)
+
+augmented_db <- my_augment_fun(tapho_db)
+
+cat(
+  "Original:", nrow(tapho_db), "\n",
+  "Augmented:", nrow(augmented_db), "\n",
+  "Synthetic:", nrow(augmented_db) - nrow(tapho_db), "\n"
+)
+```
+
+
+```{r}
+feature_cols <- setdiff(
+  names(tapho_db),
+  c(
+    names(tapho_db)[1:37],
+    "site_id",
+    "taphonomic_context"
+  )
+)
+
+```
+
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+
+library(tidyverse)
+
+source("tapho_loader_new.R")
+source("augment_metadata_combinations.R")
+
+excel_path <- "hspa.xlsx"
+
+POSITION_MAX <- c(5, 1, 1, 3, 4, 3, 3, 5, 4, 3, 5)
+
+random_vectors <- function(n) {
+  max_combinations <- prod(POSITION_MAX + 1)
+
+  if (n > max_combinations) {
+    stop(
+      paste(
+        "n exceeds total unique combinations:",
+        max_combinations
+      )
+    )
+  }
+
+  seen <- character()
+  result <- list()
+
+  while (length(result) < n) {
+    candidate <- mapply(
+      function(mx) sample(seq_len(mx), size = 1),
+      POSITION_MAX
+    )
+
+    key <- paste(candidate, collapse = "-")
+
+    if (!key %in% seen) {
+      seen <- c(seen, key)
+      result <- c(result, list(candidate))
+    }
+  }
+
+  result
+}
+
+set.seed(42)
+```
+
+```{r}
+#| label: load-data
+
+lvl <- c(2,1,1,2,2,2,2,2,2,2,2)
+
+tapho_db <- tapho.loader(
+  excel_path,
+  level = lvl,
+  exclude_sections = c(
+    "arms",
+    "legs",
+    "cranium",
+    "shoulder",
+    "hands"
+  )
+)
+
+cat("Rows:", nrow(tapho_db), "\n")
+cat("Columns:", ncol(tapho_db), "\n\n")
+
+print(table(
+  tapho_db$taphonomic_context,
+  useNA = "ifany"
+))
+
+glimpse(tapho_db)
+
+```
+
+
+```{r}
+#| label: metadata-augmentation-test
+
+# -----------------------------
+# 1. Check expected metadata
+# -----------------------------
+
+metadata_cols <- c(
+  "geological_period",
+  "cultural_period",
+  "culture_period_2",
+  "start_date_cal_bp",
+  "end_date_cal_bp",
+  "mis_stage",
+  "region",
+  "country",
+  "karstic_system",
+  "open_air_site",
+  "age_category",
+  "gender",
+  "hominin_species"
+)
+
+metadata_check <- tibble(
+  column = metadata_cols,
+  exists = metadata_cols %in% names(tapho_db)
+)
+
+print(metadata_check)
+
+
+# -----------------------------
+# 2. Identify skeletal features
+# -----------------------------
+
+feature_cols <- setdiff(
+  names(tapho_db),
+  c(
+    names(tapho_db)[1:37],
+    "site_id",
+    "taphonomic_context"
+  )
+)
+
+cat(
+  "\nNumber of model features:",
+  length(feature_cols),
+  "\n"
+)
+
+print(feature_cols)
+
+
+# -----------------------------
+# 3. Inspect possible groups
+# -----------------------------
+
+if ("country" %in% names(tapho_db)) {
+
+  country_groups <- tapho_db |>
+    count(
+      taphonomic_context,
+      country,
+      name = "n_sites"
+    ) |>
+    arrange(
+      taphonomic_context,
+      desc(n_sites)
+    )
+
+  print(country_groups)
+
+  cat("\nGroups with at least 2 observations:\n")
+
+  print(
+    country_groups |>
+      filter(n_sites >= 2)
+  )
+}
+
+
+# -----------------------------
+# 4. Start with ONE simple
+#    metadata combination
+# -----------------------------
+
+test_combos <- list(
+  list(
+    spatial = "country"
+  )
+)
+
+my_augment_fun <- make_augment_fun(
+  combos         = test_combos,
+  feature_cols   = feature_cols,
+  target_col     = "taphonomic_context",
+  integer_cols   = intersect("mni", names(tapho_db)),
+  required_cols  = intersect("mni", names(tapho_db)),
+  min_group_size = 2L
+)
+
+
+# -----------------------------
+# 5. Run augmentation
+# -----------------------------
+
+augmented_db <- my_augment_fun(tapho_db)
+
+
+# -----------------------------
+# 6. Compare before / after
+# -----------------------------
+
+cat(
+  "\n-----------------------------\n",
+  "AUGMENTATION RESULT\n",
+  "-----------------------------\n",
+  "Original rows:  ", nrow(tapho_db), "\n",
+  "Augmented rows: ", nrow(augmented_db), "\n",
+  "Synthetic rows: ",
+  nrow(augmented_db) - nrow(tapho_db),
+  "\n"
+)
+
+cat("\nOriginal class counts:\n")
+
+print(
+  table(
+    tapho_db$taphonomic_context,
+    useNA = "ifany"
+  )
+)
+
+cat("\nAfter augmentation:\n")
+
+print(
+  table(
+    augmented_db$taphonomic_context,
+    useNA = "ifany"
+  )
+)
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+# Preserve their original relative weights
+run_weights <- weights[
+  match(run_icons, icons)
+]
+
+icon_sequence <- sample(
+  run_icons,
+  size = 10,
+  replace = TRUE,
+  prob = run_weights
+)
+
+icon_sequence
+```
+
+
+```{r}
+
+cat(
+  "Selected for this run:",
+  paste(run_icons, collapse = " "),
+  "\n"
+)
+
+cat(
+  "Final sequence:",
+  paste0(icon_sequence, collapse = ""),
+  "\n"
+)
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+
+```
+
+
+```{r}
+
+```

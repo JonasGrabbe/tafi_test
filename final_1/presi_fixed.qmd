@@ -1,0 +1,423 @@
+---
+title: "Skeletal-Part Representation and Depositional Context"
+subtitle: "Study advances to date — a catch-up from first principles"
+author: "Research update"
+format:
+  pptx:
+    slide-level: 2
+    incremental: false
+engine: knitr
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(ggplot2)
+library(dplyr)
+theme_set(theme_minimal(base_size = 13))
+```
+
+## Why are we studying skeletal-part representation?
+
+**Archaeological question:** can the anatomical pattern of a human skeletal assemblage tell us something reproducible about how that accumulation formed?
+
+- Formation processes do not leave the same anatomical signature.
+- Whole bodies, selectively transported remains, carnivore accumulations, geological transport, and intensive anthropogenic processing can produce different representation profiles.
+- The goal is **not** to read intention directly from bones.
+- The goal is to quantify how closely an observed assemblage resembles known reference distributions.
+
+> **Working idea:** depositional and taphonomic processes affect which parts enter, survive, are recovered, and remain represented.
+
+## First principles: the main abundance terms
+
+**MNE — Minimum Number of Elements**  
+Minimum number of anatomical elements needed to explain the observed fragments.
+
+**MNI — Minimum Number of Individuals**  
+Minimum number of individuals needed to account for the represented remains.
+
+**MNAU — Minimum Number of Anatomical Units**  
+Standardizes an element count by how many of that anatomical unit occur in a complete skeleton.
+
+\[
+MNAU_j=\frac{MNE_j}{n_j}
+\]
+
+**%MNAU / adjusted proportional representation**  
+MNI-normalized skeletal-part representation. It retains both **how much** of the skeleton is represented and **where** representation occurs.
+
+## SPR and ReMNAU: what is actually being measured?
+
+**SPR — Skeletal-Part Representation**  
+The anatomical distribution of represented skeletal elements in an assemblage.
+
+**%MNAU asks:** *How much of each skeletal part is represented?*
+
+**ReMNAU asks:** *Given what survives, how is that representation distributed across the body?*
+
+For relative representation:
+
+\[
+p_{ij}=\frac{x_{ij}}{\sum_jx_{ij}}
+\]
+
+The multivariate workflow uses a Hellinger transform:
+
+\[
+h_{ij}=\sqrt{p_{ij}}
+\]
+
+This reduces the overall magnitude signal and emphasizes **relative anatomical configuration**.
+
+## Two core ideas: abundance and evenness
+
+```{r}
+#| label: fig-abundance-evenness
+#| fig-width: 10
+#| fig-height: 3.3
+#| out-width: "95%"
+profiles <- data.frame(
+  part = rep(1:10, 3),
+  value = c(.70,.05,.04,.03,.03,.02,.02,.02,.02,.02,
+            .18,.15,.12,.10,.09,.08,.08,.07,.07,.06,
+            .78,.72,.75,.70,.73,.68,.71,.74,.69,.76),
+  profile = rep(c("Low C / low E", "Similar C / higher E", "High C / high E"), each = 10)
+)
+ggplot(profiles, aes(part, value)) +
+  geom_col(fill = "#6096BA") +
+  facet_wrap(~profile, nrow = 1) +
+  coord_cartesian(ylim = c(0, 1)) +
+  labs(x = NULL, y = "Representation") +
+  theme(axis.text.x = element_blank(), panel.grid.minor = element_blank())
+```
+
+**Mean abundance, C:** “How much of the body is represented overall?”  
+**Evenness, E:** “How evenly is the represented material distributed anatomically?”
+
+Two assemblages can have similar overall abundance but very different anatomical concentration.
+
+## The inferential chain
+
+\[
+\text{formation / depositional process}
+\rightarrow
+\text{body entry, retention, selection, disturbance}
+\rightarrow
+\text{observed SPR}
+\]
+
+The strongest direct inference from SPR concerns:
+
+**whole-body representation, anatomical retention, and selectivity.**
+
+It does **not** directly measure:
+
+**intention, ritual meaning, or a uniquely funerary behaviour.**
+
+**Equifinality:** different formation processes can sometimes produce similar SPR profiles.
+
+## The archaeological reference dataset
+
+```{r}
+#| label: fig-dataset
+#| fig-width: 8
+#| fig-height: 4.5
+#| out-width: "78%"
+ref_counts <- data.frame(
+  context = factor(c("Funerary", "Cannibalism", "Carnivore", "Geological transport"),
+                   levels = c("Funerary", "Cannibalism", "Carnivore", "Geological transport")),
+  n = c(49,25,17,12)
+)
+ggplot(ref_counts, aes(context, n)) +
+  geom_col(fill = "#6096BA") +
+  geom_text(aes(label = n), vjust = -0.4, fontface = "bold") +
+  coord_cartesian(ylim = c(0,55)) +
+  labs(x = NULL, y = "Parent sites")
+```
+
+- Full database: **411 rows from 152 parent sites**.
+- The **parent site** is the independent archaeological unit.
+- Restricted four-process benchmark: **103 parent sites**.
+- Reference processes: Funerary Context, Cannibalism / anthropogenic processing, Carnivore-related, Geological transport.
+- Unknown/uncertain assemblages are projected after model fitting rather than treated as known training labels.
+
+## Seven ways of representing the same archaeological signal
+
+1. **C only** — mean whole-body abundance.
+2. **Evenness only** — anatomical regularity/concentration.
+3. **C + evenness** — simple, interpretable two-variable model.
+4. **Adjusted %MNAU** — direct proportional representation across skeletal parts.
+5. **ReMNAU** — relative anatomical composition after magnitude reduction.
+6. **Engineered features** — abundance, dominance, continuity, density, axial/appendicular contrasts, etc.
+7. **Combined** — integrates direct and engineered representations.
+
+**Purpose:** test whether the signal is merely “more skeleton” or whether anatomical configuration adds reproducible information.
+
+## How the supervised analysis is validated
+
+**Unit of validation:** parent archaeological site.
+
+- Grouped cross-validation keeps all records from one site together.
+- Preprocessing is estimated from training data, not from the held-out site.
+- The same archaeological signal is tested across different model geometries.
+
+**Four current classifier families**
+
+- Logistic regression — interpretable linear benchmark.
+- Random forest — nonlinear interactions and thresholds.
+- RBF support-vector machine — smooth nonlinear boundary.
+- K-nearest neighbours — local similarity in feature space.
+
+## Main supervised advance: the signal is reproducible
+
+```{r}
+#| label: fig-performance
+#| fig-width: 9
+#| fig-height: 4.8
+#| out-width: "88%"
+perf <- data.frame(
+  model = factor(c("LogReg + %MNAU", "RBF-SVM + %MNAU", "RF + C only", "KNN + Combined"),
+                 levels = rev(c("LogReg + %MNAU", "RBF-SVM + %MNAU", "RF + C only", "KNN + Combined"))),
+  BA = c(.889,.887,.868,.866),
+  AUC = c(.926,.932,.877,.912)
+) |> tidyr::pivot_longer(c(BA,AUC), names_to="metric", values_to="score")
+ggplot(perf, aes(score, model, fill = metric)) +
+  geom_col(position = position_dodge(width=.75), width=.68) +
+  geom_text(aes(label=sprintf("%.3f",score)), position=position_dodge(width=.75), hjust=-.1, size=3.5) +
+  coord_cartesian(xlim=c(.75,.97)) +
+  labs(x="Cross-validated performance", y=NULL, fill=NULL) +
+  theme(legend.position="bottom")
+```
+
+Current full-reference binary analyses reach approximately:
+
+- **Balanced accuracy: 0.86–0.89**
+- **ROC-AUC: 0.92–0.93** for the strongest current combinations.
+
+Direct adjusted **%MNAU** is consistently among the strongest representations.
+
+The key result is robustness across **representations and algorithms**, not one winning decimal score.
+
+## What are the models actually learning?
+
+### 1. Overall representation is the dominant signal
+
+Mean abundance alone is already strongly predictive.
+
+### 2. But “more bones = burial” is insufficient
+
+- Evenness adds information.
+- ReMNAU remains discriminative after reducing absolute magnitude.
+- Detailed relative anatomical structure identifies *which regions* are selectively retained or lost.
+
+### 3. PCA gives the same interpretation
+
+- **%MNAU PC1 ≈ whole-body abundance/completeness** ($r \approx 0.99$ with C).
+- **ReMNAU PC1 ≈ relative anatomical concentration/evenness**.
+
+## Unsupervised analyses provide an independent check
+
+PCA and clustering are fitted **without archaeological labels**.
+
+Across representations, the recurring intrinsic contrast is broadly:
+
+\[
+\text{high / broad representation}
+\leftrightarrow
+\text{low / selective representation}
+\]
+
+When archaeological labels are inspected afterwards, funerary and non-funerary contexts are strongly enriched on different sides of this structure.
+
+**Interpretation:** supervised classifiers are exploiting organization already present in SPR space rather than creating the pattern from the labels alone.
+
+## Moving from forced labels to uncertainty: conformal prediction
+
+```{r}
+#| label: fig-conformal
+#| fig-width: 8.5
+#| fig-height: 4.5
+#| out-width: "82%"
+conf <- data.frame(
+  task = rep(c("F vs NF","Four-class","NF three-class"), 2),
+  metric = rep(c("Coverage","Singleton rate"), each=3),
+  value = c(.923,.957,.997,.781,.052,.124)
+)
+ggplot(conf, aes(task, value, fill=metric)) +
+  geom_col(position="dodge") +
+  geom_text(aes(label=sprintf("%.3f",value)), position=position_dodge(width=.9), vjust=-.3, size=3.5) +
+  coord_cartesian(ylim=c(0,1.08)) +
+  labs(x=NULL,y=NULL,fill=NULL) +
+  theme(legend.position="bottom")
+```
+
+The current uncertainty layer uses **90% class-conditional (Mondrian) conformal prediction**.
+
+Binary outputs can be:
+
+- `{F}` — only the funerary reference class retained.
+- `{NF}` — only the non-funerary reference class retained.
+- `{F, NF}` — both retained: the assemblage is compatible with both reference distributions.
+
+A singleton set is **not** “90% probability of burial.” The 90% refers to repeated-sampling coverage under the conformal assumptions.
+
+## Sima de los Huesos: a recovery trajectory
+
+```{r}
+#| label: fig-sima
+#| fig-width: 9
+#| fig-height: 4.8
+#| out-width: "88%"
+sima <- data.frame(
+  series = factor(c("1989","1990","1995","2015","2024","PNAS"), levels=c("1989","1990","1995","2015","2024","PNAS")),
+  pF = c(.187,.228,.814,.803,.801,.818)
+)
+ggplot(sima, aes(series,pF,group=1)) +
+  geom_hline(yintercept=.5, linetype=2, colour="grey50") +
+  geom_line(linewidth=1.2, colour="#274C77") +
+  geom_point(size=3, colour="#274C77") +
+  geom_text(aes(label=sprintf("%.3f",pF)), vjust=-.7, size=3.5) +
+  coord_cartesian(ylim=c(0,1)) +
+  labs(x=NULL,y="Median P(F)")
+```
+
+The sequence **1989 → 1990 → 1995 → 2015 → 2024 → PNAS** is interpreted as successive recovery/publication states of the **same accumulation**, not changing prehistoric behaviour.
+
+- 1989–1990: sparse, predominantly NF-like / ambiguous SPR.
+- 1995: major increase in whole-body representation.
+- 2015–2024–PNAS: consistently high funerary-reference affinity.
+
+The archaeological inference is stronger evidence for **relatively complete whole-body input and lower anatomical selectivity**, not a direct proof of funerary intention.
+
+## Beyond the binary question
+
+The study now tests several related classification problems:
+
+**Primary:** Funerary vs non-funerary.
+
+**Four-process:**
+- Funerary Context
+- Cannibalism / anthropogenic processing
+- Carnivore-related
+- Geological transport
+
+**Conditional non-funerary task:**
+- Cannibalism vs Carnivore vs Geological transport
+
+**Conditional human-associated comparison:**
+- Cannibalism-reference vs Funerary-reference distributions
+
+This extends the question from **“broad whole-body retention or not?”** toward **“what kind of selective profile is present?”**
+
+## Which anatomical regions carry the secondary signal?
+
+After composition is normalized, the clearest positive funerary-reference shifts repeatedly involve:
+
+**radius · ulna · vertebrae · hands · clavicle · foot · scapula**
+
+The broad pattern is not simply “more limbs.” It is retention of a wider anatomical range, including:
+
+- forearm elements;
+- axial skeleton;
+- hands and distal elements;
+- shoulder-girdle elements.
+
+These are frequently reduced in selective non-funerary profiles.
+
+## Taphonomic interpretation: from classification to explanation
+
+A feature-engineering and RFE stage ranks **63 taphonomic/anatomical variables**, with a reduced analytical core of **10 retained variables**.
+
+The retained core emphasizes:
+
+- postcranial completeness;
+- appendicular representation;
+- upper vs lower and proximal vs distal limbs;
+- girdle representation;
+- foot representation;
+- low-density survival.
+
+A separate automated workflow tests **eight metadata-driven hypotheses** using:
+
+**Kruskal–Wallis → effect sizes → FDR → Dunn tests → PCA → PERMANOVA / dispersion checks.**
+
+This asks *why* different SPR profiles occur, not merely whether they can be classified.
+
+## A second methodological advance: how much anatomical detail is useful?
+
+The project also evaluates approximately **1,000 alternative skeletal-resolution vectors per task** across 11 skeletal sections:
+
+**cranium · teeth · hyoid · vertebrae · thorax · shoulder · arms · hands · pelvis · legs · foot**
+
+Candidate schemes are evaluated using:
+
+- macro-F1 as the main ranking criterion;
+- minimum class recall;
+- performance variability;
+- balanced accuracy;
+- overall accuracy.
+
+The study then asks which section-specific increases in detail improve performance after adjusting for all other sections.
+
+## The evidence chain now in place
+
+**1. Measurement**  
+SPR can be expressed as abundance, evenness, direct %MNAU, relative composition, and taphonomic summaries.
+
+**2. Prediction**  
+Known reference contexts are discriminated with strong grouped out-of-sample performance.
+
+**3. Robustness**  
+The result persists across feature spaces and classifier families.
+
+**4. Independent structure**  
+Unsupervised analyses recover the same broad organization.
+
+**5. Uncertainty**  
+Conformal sets distinguish confident from ambiguous cases.
+
+**6. Archaeological application**  
+Sima and other target assemblages can be positioned relative to the reference distributions.
+
+**7. Explanation and design**  
+Feature-selection, taphonomic hypotheses, and skeletal-resolution experiments identify what information drives the signal.
+
+## Current scientific interpretation
+
+> **Skeletal-part representation contains a strong and reproducible signal related to depositional context.**
+
+The signal is dominated by:
+
+\[
+\textbf{whole-body abundance}
++
+\textbf{anatomical evenness / dominance}
++
+\textbf{secondary anatomical-profile structure}
+\]
+
+The appropriate interpretation is **probabilistic funerary-reference affinity and degree of whole-body retention**, not a diagnostic test of past intention.
+
+### Discussion
+
+- Which archaeological comparisons are most informative next?
+- Which taphonomic variables best explain the remaining overlap?
+- At what anatomical resolution do we gain useful signal rather than additional complexity?
+
+## Source material used for this update
+
+This presentation synthesizes the uploaded project documents and scripts, especially:
+
+- `SPR_structured_results_writeup(3).md`
+- `SPR_structured_writeup(3).md`
+- `SPR_ML_structured_synthesis(3).md`
+- `automated_skeletal_workflow(4/5).R`
+- `collect_scores_by_level(2).R`
+- `q1_level_accuracy_analysis_V4_NO_EMMEANS(2).R`
+- classification consolidation and level-plotting scripts
+
+The deck deliberately focuses on **scientific advances completed to date** and omits workflow-refinement / streamlining issues.

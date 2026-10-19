@@ -1,0 +1,2 @@
+experiment_id,experiment_name,group_vars,covariates,n_records,n_groups,n_features_tested,n_fdr_significant,max_eps2,top_feature,top_feature_eps2,top_feature_p_fdr,permanova_group_R2,permanova_group_p
+E02,site_environment_main,site_environment,taphonomic_context,151,3,50,0,0.07640242677340568,mne_cranial_share,0.07640242677340568,0.05235509534529303,0.016829061541276235,0.0597

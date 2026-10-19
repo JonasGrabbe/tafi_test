@@ -1,0 +1,2 @@
+rank_by_accuracy,.config,mean,std_err,n,neighbors,weight_func,dist_power,.metric,.estimator
+1,pre0_mod1_post0,0.5733036005213424,0.02360316939872609,3,11,triangular,0.45291210014838723,accuracy,multiclass

@@ -1,0 +1,151 @@
+feature,group,n,shapiro_p
+density_evenness,Karstic,305,1.214627454601325e-18
+density_evenness,Open air,87,5.628664145657906e-11
+density_evenness,missing,2,NA
+lower_appendicular_evenness_refined,Karstic,241,1.1053674763981798e-13
+lower_appendicular_evenness_refined,Open air,48,1.1077345361486646e-6
+lower_appendicular_evenness_refined,missing,2,NA
+mnau_heip_evenness,Karstic,305,3.143764820822289e-12
+mnau_heip_evenness,Open air,87,9.576445443123387e-11
+mnau_heip_evenness,missing,2,NA
+dominant_axial_share,Karstic,319,3.1358650648102556e-13
+dominant_axial_share,Open air,89,1.1071996115078623e-8
+dominant_axial_share,missing,2,NA
+mne_cranial_share,Karstic,319,2.7592615765177656e-26
+mne_cranial_share,Open air,89,5.8609315277183984e-12
+mne_cranial_share,missing,2,NA
+mnau_arms_legs_diff,Karstic,319,3.1985822559689165e-11
+mnau_arms_legs_diff,Open air,89,3.8452087654965035e-10
+mnau_arms_legs_diff,missing,2,NA
+distal_appendicular_continuity_hm,Karstic,319,4.334432568000567e-27
+distal_appendicular_continuity_hm,Open air,89,7.376291769831714e-16
+distal_appendicular_continuity_hm,missing,2,NA
+low_density_share,Karstic,305,5.611527257861474e-20
+low_density_share,Open air,87,6.239042983143536e-12
+low_density_share,missing,2,NA
+appendicular_dominance_refined,Karstic,260,6.647726152620354e-16
+appendicular_dominance_refined,Open air,52,7.401671908232897e-6
+appendicular_dominance_refined,missing,2,NA
+appendicular_dominance,Karstic,260,6.647726152620354e-16
+appendicular_dominance,Open air,52,7.401671908232897e-6
+appendicular_dominance,missing,2,NA
+density_adjusted_appendicular_axial_contrast,Karstic,319,7.991606381580966e-9
+density_adjusted_appendicular_axial_contrast,Open air,89,8.21955931286704e-6
+density_adjusted_appendicular_axial_contrast,missing,2,NA
+effective_sections_hill1,Karstic,305,3.143764820822094e-12
+effective_sections_hill1,Open air,87,9.576445443123387e-11
+effective_sections_hill1,missing,2,NA
+mnau_axial_main_mean,Karstic,319,5.663514561579898e-23
+mnau_axial_main_mean,Open air,89,9.877230349012652e-15
+mnau_axial_main_mean,missing,2,NA
+postcranial_dominance_refined,Karstic,267,5.18745803116763e-17
+postcranial_dominance_refined,Open air,52,2.572493625451624e-6
+postcranial_dominance_refined,missing,2,NA
+mnau_arms,Karstic,319,1.3119045010442117e-18
+mnau_arms,Open air,89,2.9174775071640953e-12
+mnau_arms,missing,2,NA
+lower_appendicular_continuity_hm,Karstic,319,1.1094220044386504e-25
+lower_appendicular_continuity_hm,Open air,89,2.010144376912109e-15
+lower_appendicular_continuity_hm,missing,2,NA
+mnau_arms_legs_logratio,Karstic,319,2.8737375408673357e-24
+mnau_arms_legs_logratio,Open air,89,2.6147111874479425e-14
+mnau_arms_legs_logratio,missing,2,NA
+lower_appendicular_evenness,Karstic,241,1.1053674763981798e-13
+lower_appendicular_evenness,Open air,48,1.1077345361486646e-6
+lower_appendicular_evenness,missing,2,NA
+mnau_hands,Karstic,319,1.0168497567686515e-24
+mnau_hands,Open air,89,2.0639759841927705e-15
+mnau_hands,missing,2,NA
+mne_arms,Karstic,319,4.770652011987849e-34
+mne_arms,Open air,89,3.207052117520409e-20
+mne_arms,missing,2,NA
+mnau_pelvic,Karstic,319,2.7162322363355056e-21
+mnau_pelvic,Open air,89,5.843497196824143e-14
+mnau_pelvic,missing,2,NA
+mnau_cv,Karstic,305,4.376493208964934e-15
+mnau_cv,Open air,87,4.3557589847739546e-10
+mnau_cv,missing,2,NA
+mnau_region_mean_evenness,Karstic,305,5.18873017220055e-19
+mnau_region_mean_evenness,Open air,87,1.8468593375125038e-9
+mnau_region_mean_evenness,missing,2,NA
+mnau_limb_shaft_proxy_mean,Karstic,319,1.1649458140461093e-15
+mnau_limb_shaft_proxy_mean,Open air,89,1.991496684086476e-11
+mnau_limb_shaft_proxy_mean,missing,2,NA
+mnau_arms_to_legs_ratio,Karstic,319,1.413839322198502e-34
+mnau_arms_to_legs_ratio,Open air,89,4.0935450091476464e-20
+mnau_arms_to_legs_ratio,missing,2,NA
+mne_arms_to_legs_ratio,Karstic,319,3.3248478502708153e-34
+mne_arms_to_legs_ratio,Open air,89,6.088008456759823e-20
+mne_arms_to_legs_ratio,missing,2,NA
+mnau_simpson_dominance,Karstic,305,4.098496910307194e-19
+mnau_simpson_dominance,Open air,87,1.197320122725708e-10
+mnau_simpson_dominance,missing,2,NA
+mnau_gini,Karstic,305,7.319366342392019e-12
+mnau_gini,Open air,87,6.835339352818005e-11
+mnau_gini,missing,2,NA
+mnau_dominance_of_region_means,Karstic,305,9.978308915571705e-17
+mnau_dominance_of_region_means,Open air,87,4.8013600735598724e-9
+mnau_dominance_of_region_means,missing,2,NA
+mnau_inverse_simpson,Karstic,305,2.683921588977509e-12
+mnau_inverse_simpson,Open air,87,5.055246108072133e-11
+mnau_inverse_simpson,missing,2,NA
+mnau_shoulder,Karstic,319,1.359788245282906e-20
+mnau_shoulder,Open air,89,6.460044886206185e-14
+mnau_shoulder,missing,2,NA
+mnau_vertebrae_to_thorax_ratio,Karstic,319,6.063766161554486e-33
+mnau_vertebrae_to_thorax_ratio,Open air,89,7.042946221355262e-18
+mnau_vertebrae_to_thorax_ratio,missing,2,NA
+mne_vertebrae_to_thorax_ratio,Karstic,319,1.988588912939758e-32
+mne_vertebrae_to_thorax_ratio,Open air,89,7.042344082615242e-18
+mne_vertebrae_to_thorax_ratio,missing,2,NA
+all_sections_dominance,Karstic,305,1.4125222439986418e-15
+all_sections_dominance,Open air,87,2.997666068228382e-10
+all_sections_dominance,missing,2,NA
+mnau_evenness_minus_dominance,Karstic,305,7.023318389815355e-16
+mnau_evenness_minus_dominance,Open air,87,3.343397307071681e-10
+mnau_evenness_minus_dominance,missing,2,NA
+dominance_gap_all,Karstic,305,2.414781149018855e-17
+dominance_gap_all,Open air,87,1.4885853018404875e-10
+dominance_gap_all,missing,2,NA
+low_density_axial_survival,Karstic,319,9.283131954149319e-26
+low_density_axial_survival,Open air,89,1.1145568458653076e-14
+low_density_axial_survival,missing,2,NA
+mnau_top2_share_mcnaughton,Karstic,305,5.313599995406919e-14
+mnau_top2_share_mcnaughton,Open air,87,2.044929850311992e-11
+mnau_top2_share_mcnaughton,missing,2,NA
+mnau_legs,Karstic,319,5.549372664562431e-17
+mnau_legs,Open air,89,9.168961672247671e-12
+mnau_legs,missing,2,NA
+mnau_simpson_evenness,Karstic,305,2.6839215889776934e-12
+mnau_simpson_evenness,Open air,87,5.0552461080721934e-11
+mnau_simpson_evenness,missing,2,NA
+mnau_foot,Karstic,319,4.064137276352608e-26
+mnau_foot,Open air,89,1.5024503095706488e-15
+mnau_foot,missing,2,NA
+mnau_postcranial_total_mean,Karstic,319,5.602815137975456e-16
+mnau_postcranial_total_mean,Open air,89,2.1107441972583874e-12
+mnau_postcranial_total_mean,missing,2,NA
+mnau_column_trunk_mean,Karstic,319,9.137001926646484e-20
+mnau_column_trunk_mean,Open air,89,8.269647758483079e-14
+mnau_column_trunk_mean,missing,2,NA
+mnau_appendicular_mean,Karstic,319,1.3114156017474513e-15
+mnau_appendicular_mean,Open air,89,4.294441753167671e-12
+mnau_appendicular_mean,missing,2,NA
+mnau_upper_appendicular_mean,Karstic,319,6.385016068839103e-17
+mnau_upper_appendicular_mean,Open air,89,2.674937757774721e-12
+mnau_upper_appendicular_mean,missing,2,NA
+mnau_lower_appendicular_mean,Karstic,319,1.6785702162852923e-16
+mnau_lower_appendicular_mean,Open air,89,3.980432754505497e-12
+mnau_lower_appendicular_mean,missing,2,NA
+mnau_girdle_mean,Karstic,319,4.052109757389657e-18
+mnau_girdle_mean,Open air,89,1.6803586679967411e-13
+mnau_girdle_mean,missing,2,NA
+mnau_distal_appendicular_mean,Karstic,319,4.6555036517054145e-24
+mnau_distal_appendicular_mean,Open air,89,3.276361884743692e-15
+mnau_distal_appendicular_mean,missing,2,NA
+mnau_proximal_appendicular_mean,Karstic,319,7.833721894229064e-16
+mnau_proximal_appendicular_mean,Open air,89,7.49994046601734e-12
+mnau_proximal_appendicular_mean,missing,2,NA
+low_density_survival_index,Karstic,319,1.73993729594674e-21
+low_density_survival_index,Open air,89,1.3611108460250701e-13
+low_density_survival_index,missing,2,NA

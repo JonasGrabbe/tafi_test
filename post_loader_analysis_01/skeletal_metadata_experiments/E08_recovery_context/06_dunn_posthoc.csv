@@ -1,0 +1,449 @@
+feature,.y.,group1,group2,n1,n2,statistic,p,p.adj,p.adj.signif
+mnau_arms,value,Complete | Formal excavation,NA | Casual,4,13,-2.9441934940362153,0.0032379749291729662,0.022665824504210765,*
+mnau_arms,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.9790879827236142,0.3275365088759198,0.47527428876560013,ns
+mnau_arms,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.400112442908026,0.016390036316464917,0.07401235347667759,ns
+mnau_arms,value,Complete | Formal excavation,NA | NA,4,51,-2.6902965447975697,0.0071388550581342365,0.03997758832555172,*
+mnau_arms,value,Complete | Formal excavation,NA | Quarry,4,4,-1.2094281653254522,0.2264983933838823,0.43606619132149066,ns
+mnau_arms,value,Complete | Formal excavation,Other_small_groups,4,6,-1.7560037650295421,0.07908776568797647,0.2460508265848157,ns
+mnau_arms,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-2.355393736025527,0.018503088369169397,0.07401235347667759,ns
+mnau_arms,value,NA | Casual,NA | Formal excavation,13,35,3.5918985883265653,3.282776033745612e-4,0.004595886447243857,**
+mnau_arms,value,NA | Casual,NA | Formal excavations,13,2,-0.5202408782839295,0.6028956970528294,0.6492722891338163,ns
+mnau_arms,value,NA | Casual,NA | NA,13,51,0.9221396899112955,0.3564557165742001,0.47527428876560013,ns
+mnau_arms,value,NA | Casual,NA | Quarry,13,4,1.448501077871308,0.14747696475341146,0.3703260446964991,ns
+mnau_arms,value,NA | Casual,Other_small_groups,13,6,1.1142003365579025,0.26519325108522596,0.43678888414037215,ns
+mnau_arms,value,NA | Casual,Partial | Formal excavation,13,36,1.3660059617164841,0.17193709218051745,0.3703260446964991,ns
+mnau_arms,value,NA | Formal excavation,NA | Formal excavations,35,2,-2.1481902821879304,0.03169864238323178,0.11094524834131123,ns
+mnau_arms,value,NA | Formal excavation,NA | NA,35,51,-4.009800172079998,6.0770154691184256e-5,0.0017015643313531591,**
+mnau_arms,value,NA | Formal excavation,NA | Quarry,35,4,-0.6412171016843544,0.5213816400197129,0.6066534606382848,ns
+mnau_arms,value,NA | Formal excavation,Other_small_groups,35,6,-1.3957761431784133,0.16278191662231625,0.3703260446964991,ns
+mnau_arms,value,NA | Formal excavation,Partial | Formal excavation,35,36,-3.0526604761517175,0.0022682241477044087,0.02117009204524115,*
+mnau_arms,value,NA | Formal excavations,NA | NA,2,51,0.9456417963463584,0.3443313184376503,0.47527428876560013,ns
+mnau_arms,value,NA | Formal excavations,NA | Quarry,2,4,1.4126184810421019,0.1577679320927171,0.3703260446964991,ns
+mnau_arms,value,NA | Formal excavations,Other_small_groups,2,6,1.1574608066545922,0.24708414324563496,0.43606619132149066,ns
+mnau_arms,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.1523417169590873,0.24918068075513752,0.43606619132149066,ns
+mnau_arms,value,NA | NA,NA | Quarry,51,4,1.0432767475857923,0.2968201370941676,0.46172021325759405,ns
+mnau_arms,value,NA | NA,Other_small_groups,51,6,0.6103124132627801,0.5416548755698971,0.6066534606382848,ns
+mnau_arms,value,NA | NA,Partial | Formal excavation,51,36,0.7143528458430255,0.4750090222511865,0.5782718531753576,ns
+mnau_arms,value,NA | Quarry,Other_small_groups,4,6,-0.4311415893678671,0.6663654220000867,0.6910456228149048,ns
+mnau_arms,value,NA | Quarry,Partial | Formal excavation,4,36,-0.7327755810831879,0.4636953170917403,0.5782718531753576,ns
+mnau_arms,value,Other_small_groups,Partial | Formal excavation,6,36,-0.24470767595938875,0.8066827841621402,0.8066827841621402,ns
+mnau_limb_shaft_proxy_mean,value,Complete | Formal excavation,NA | Casual,4,13,-2.4404977154587875,0.014667038719993548,0.06844618069330323,ns
+mnau_limb_shaft_proxy_mean,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.7784144564956889,0.43632471897131225,0.5780306249912722,ns
+mnau_limb_shaft_proxy_mean,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.44968361834519,0.01429817868649285,0.06844618069330323,ns
+mnau_limb_shaft_proxy_mean,value,Complete | Formal excavation,NA | NA,4,51,-2.644386734809897,0.008183909140983507,0.057287363986884554,ns
+mnau_limb_shaft_proxy_mean,value,Complete | Formal excavation,NA | Quarry,4,4,-1.3681732341133808,0.17125785761243506,0.3934460124082485,ns
+mnau_limb_shaft_proxy_mean,value,Complete | Formal excavation,Other_small_groups,4,6,-1.7893192223120185,0.07356342006824935,0.22886397354566465,ns
+mnau_limb_shaft_proxy_mean,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-2.0958366169073948,0.03609668689876451,0.1263384041456758,ns
+mnau_limb_shaft_proxy_mean,value,NA | Casual,NA | Formal excavation,13,35,3.0312941482141946,0.0024350789777779352,0.03240229753413628,*
+mnau_limb_shaft_proxy_mean,value,NA | Casual,NA | Formal excavations,13,2,-0.9559291217087582,0.33910804490121493,0.5275014031796676,ns
+mnau_limb_shaft_proxy_mean,value,NA | Casual,NA | NA,13,51,0.0719116314583031,0.942672233451634,0.942672233451634,ns
+mnau_limb_shaft_proxy_mean,value,NA | Casual,NA | Quarry,13,4,0.748486243481426,0.45416691963599964,0.5780306249912722,ns
+mnau_limb_shaft_proxy_mean,value,NA | Casual,Other_small_groups,13,6,0.48710015246550126,0.6261873583791682,0.7305519181090295,ns
+mnau_limb_shaft_proxy_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.8987250747911786,0.36879911749774363,0.5434934363124643,ns
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavation,NA | Formal excavations,35,2,-2.3529208764247804,0.018626597117034387,0.07450638846813755,ns
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavation,NA | NA,35,51,-4.383731587040254,1.1666350256814093e-5,3.266578071907946e-4,***
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavation,NA | Quarry,35,4,-1.0545658817687644,0.29162391467470594,0.4927104526637987,ns
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavation,Other_small_groups,35,6,-1.6841501989930199,0.09215264496558448,0.25802740590363654,ns
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.9225593290292706,0.0034716747358003153,0.03240229753413628,*
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavations,NA | NA,2,51,1.0382672915569275,0.2991456319744492,0.4927104526637987,ns
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavations,NA | Quarry,2,4,1.3325748505747854,0.18267136290382968,0.3934460124082485,ns
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavations,Other_small_groups,2,6,1.183700796533435,0.23653152355830898,0.44152551064217677,ns
+mnau_limb_shaft_proxy_mean,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.3997370056861123,0.1615920879110754,0.3934460124082485,ns
+mnau_limb_shaft_proxy_mean,value,NA | NA,NA | Quarry,51,4,0.7811852093239913,0.43469357156939814,0.5780306249912722,ns
+mnau_limb_shaft_proxy_mean,value,NA | NA,Other_small_groups,51,6,0.5052530187132992,0.6133811361613535,0.7305519181090295,ns
+mnau_limb_shaft_proxy_mean,value,NA | NA,Partial | Formal excavation,51,36,1.2332763521113117,0.21747267755379662,0.43494535510759325,ns
+mnau_limb_shaft_proxy_mean,value,NA | Quarry,Other_small_groups,4,6,-0.2905605365146278,0.771387445708437,0.855808108133279,ns
+mnau_limb_shaft_proxy_mean,value,NA | Quarry,Partial | Formal excavation,4,36,-0.26023960302344223,0.7946789575523305,0.855808108133279,ns
+mnau_limb_shaft_proxy_mean,value,Other_small_groups,Partial | Formal excavation,6,36,0.11429125435544185,0.9090069150847844,0.942672233451634,ns
+mnau_legs,value,Complete | Formal excavation,NA | Casual,4,13,-2.1493671119809408,0.03160531034880907,0.12801703369440245,ns
+mnau_legs,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.7828685810735444,0.43370428937504196,0.6391431632895355,ns
+mnau_legs,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.277308963327427,0.02276778206481332,0.1274995795629546,ns
+mnau_legs,value,Complete | Formal excavation,NA | NA,4,51,-2.614052075094576,0.008947539778228904,0.08618291024280371,ns
+mnau_legs,value,Complete | Formal excavation,NA | Quarry,4,4,-1.6979037538856994,0.0895259286562653,0.22788418203412986,ns
+mnau_legs,value,Complete | Formal excavation,Other_small_groups,4,6,-1.8213041221950033,0.06856064018426448,0.21329976946215617,ns
+mnau_legs,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.9113640675538968,0.05595781100086143,0.195852338503015,ns
+mnau_legs,value,NA | Casual,NA | Formal excavation,13,35,2.511554001534865,0.012020089377807215,0.08618291024280371,ns
+mnau_legs,value,NA | Casual,NA | Formal excavations,13,2,-0.978546932812377,0.32780389088219547,0.5762240118575799,ns
+mnau_legs,value,NA | Casual,NA | NA,13,51,-0.4131613561135158,0.6794883987813192,0.8328924498226837,ns
+mnau_legs,value,NA | Casual,NA | Quarry,13,4,0.04957992256867173,0.9604571464209279,0.9691644541559209,ns
+mnau_legs,value,NA | Casual,Other_small_groups,13,6,0.10799536263793212,0.9139993707750224,0.9691644541559209,ns
+mnau_legs,value,NA | Casual,Partial | Formal excavation,13,36,0.6847570729076835,0.4934972277060786,0.69089611878851,ns
+mnau_legs,value,NA | Formal excavation,NA | Formal excavations,35,2,-2.144357430304774,0.032004258423600614,0.12801703369440245,ns
+mnau_legs,value,NA | Formal excavation,NA | NA,35,51,-4.301262496856014,1.6982773472074774e-5,4.755176572180937e-4,***
+mnau_legs,value,NA | Formal excavation,NA | Quarry,35,4,-1.4918610507736345,0.1357355752023169,0.29235354658960566,ns
+mnau_legs,value,NA | Formal excavation,Other_small_groups,35,6,-1.7255555864636198,0.08442739538598229,0.22788418203412986,ns
+mnau_legs,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.5030778959790685,0.01231184432040053,0.08618291024280371,ns
+mnau_legs,value,NA | Formal excavations,NA | NA,2,51,0.8530247327383984,0.3936455887745794,0.6123375825382347,ns
+mnau_legs,value,NA | Formal excavations,NA | Quarry,2,4,0.8909763535354019,0.37294185614887315,0.6123375825382347,ns
+mnau_legs,value,NA | Formal excavations,Other_small_groups,2,6,0.9755835817411357,0.32927086391861704,0.5762240118575799,ns
+mnau_legs,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.3280832317412652,0.184150612299922,0.368301224599844,ns
+mnau_legs,value,NA | NA,NA | Quarry,51,4,0.3018179328895123,0.7627908595423666,0.8543257626874506,ns
+mnau_legs,value,NA | NA,Other_small_groups,51,6,0.4209215536835031,0.6738123657375845,0.8328924498226837,ns
+mnau_legs,value,NA | NA,Partial | Formal excavation,51,36,1.6075586791758598,0.1079318681587785,0.2518410257038165,ns
+mnau_legs,value,NA | Quarry,Other_small_groups,4,6,0.03865625075679174,0.9691644541559209,0.9691644541559209,ns
+mnau_legs,value,NA | Quarry,Partial | Formal excavation,4,36,0.3666128602104011,0.7139078141337288,0.8328924498226837,ns
+mnau_legs,value,Other_small_groups,Partial | Formal excavation,6,36,0.38159922217317743,0.70275866126486,0.8328924498226837,ns
+mne_arms,value,Complete | Formal excavation,NA | Casual,4,13,-3.3951301157651756,6.859599216841939e-4,0.009603438903578714,**
+mne_arms,value,Complete | Formal excavation,NA | Formal excavation,4,35,-1.5881186743092734,0.11225950631661362,0.26193884807209844,ns
+mne_arms,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.4012751108143235,0.016338048147485105,0.07624422468826383,ns
+mne_arms,value,Complete | Formal excavation,NA | NA,4,51,-2.821278488094104,0.0047832658766959815,0.026786288909497497,*
+mne_arms,value,Complete | Formal excavation,NA | Quarry,4,4,-1.4068976795427455,0.15945773177245243,0.2780876026238524,ns
+mne_arms,value,Complete | Formal excavation,Other_small_groups,4,6,-1.370436306309662,0.17055074523338434,0.2780876026238524,ns
+mne_arms,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.9181238928716327,0.055095303541819844,0.17140761101899507,ns
+mne_arms,value,NA | Casual,NA | Formal excavation,13,35,3.3960461616717343,6.83668285412869e-4,0.009603438903578714,**
+mne_arms,value,NA | Casual,NA | Formal excavations,13,2,-0.1821137667156608,0.855493445116013,0.9309202444916079,ns
+mne_arms,value,NA | Casual,NA | NA,13,51,1.5331008031139597,0.1252510198558745,0.26754443436875863,ns
+mne_arms,value,NA | Casual,NA | Quarry,13,4,1.6552283589329817,0.09787818476246732,0.24914447030446227,ns
+mne_arms,value,NA | Casual,Other_small_groups,13,6,2.1408795697168395,0.03228375108858194,0.12913500435432776,ns
+mne_arms,value,NA | Casual,Partial | Formal excavation,13,36,2.875066141509818,0.004039428697683649,0.026786288909497497,*
+mne_arms,value,NA | Formal excavation,NA | Formal excavations,35,2,-1.707439493136901,0.08774039510278694,0.24567310628780342,ns
+mne_arms,value,NA | Formal excavation,NA | NA,35,51,-2.8551879264755997,0.00430113700721932,0.026786288909497497,*
+mne_arms,value,NA | Formal excavation,NA | Quarry,35,4,-0.296741897621802,0.7666635672709341,0.9035927211078985,ns
+mne_arms,value,NA | Formal excavation,Other_small_groups,35,6,-0.10502461474655606,0.91635627698572375,0.9502953983555653,ns
+mne_arms,value,NA | Formal excavation,Partial | Formal excavation,35,36,-0.7276654819536567,0.46681838533629916,0.5941324904280171,ns
+mne_arms,value,NA | Formal excavations,NA | NA,2,51,0.852689090309725,0.393831742457205,0.52510898994294,ns
+mne_arms,value,NA | Formal excavations,NA | Quarry,2,4,1.2525479657525203,0.2103702617643476,0.31001933312640695,ns
+mne_arms,value,NA | Formal excavations,Other_small_groups,2,6,1.4635118424952511,0.14332737555469213,0.26754443436875863,ns
+mne_arms,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.4709565951927384,0.1413028555629321,0.26754443436875863,ns
+mne_arms,value,NA | NA,NA | Quarry,51,4,0.9053413557430747,0.36528457356105565,0.5113984029854779,ns
+mne_arms,value,NA | NA,Other_small_groups,51,6,1.3445499927774018,0.17877060168676226,0.2780876026238524,ns
+mne_arms,value,NA | NA,Partial | Formal excavation,51,36,2.085489109284775,0.03702492571277794,0.1295872399947228,ns
+mne_arms,value,NA | Quarry,Other_small_groups,4,6,0.17074288406481036,0.8644259413136359,0.9309202444916079,ns
+mne_arms,value,NA | Quarry,Partial | Formal excavation,4,36,-0.03057258356505624,0.9756104070711952,0.9756104070711952,ns
+mne_arms,value,Other_small_groups,Partial | Formal excavation,6,36,-0.28648321605965876,0.7745080466639129,0.9035927211078985,ns
+mnau_appendicular_mean,value,Complete | Formal excavation,NA | Casual,4,13,-2.2303564653376613,0.025723787316807103,0.10289514926722841,ns
+mnau_appendicular_mean,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.7740590005836442,0.4388959014349979,0.6353740132032077,ns
+mnau_appendicular_mean,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.3738630985560665,0.0176030758371326,0.09857722468794254,ns
+mnau_appendicular_mean,value,Complete | Formal excavation,NA | NA,4,51,-2.5316346653314112,0.01135322125292756,0.07947254877049291,ns
+mnau_appendicular_mean,value,Complete | Formal excavation,NA | Quarry,4,4,-1.3362594655472915,0.18146448045254748,0.3991160284660576,ns
+mnau_appendicular_mean,value,Complete | Formal excavation,Other_small_groups,4,6,-1.7003724641496087,0.08906088787532648,0.27707831783434905,ns
+mnau_appendicular_mean,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.9605892561127443,0.049926956690121586,0.17474434841542555,ns
+mnau_appendicular_mean,value,NA | Casual,NA | Formal excavation,13,35,2.668442081307171,0.007620391594524706,0.07923464094298528,ns
+mnau_appendicular_mean,value,NA | Casual,NA | Formal excavations,13,2,-1.027669014624239,0.3041055479131654,0.4815230833050763,ns
+mnau_appendicular_mean,value,NA | Casual,NA | NA,13,51,-0.12637888888367524,0.8994320123851992,0.8994320123851992,ns
+mnau_appendicular_mean,value,NA | Casual,NA | Quarry,13,4,0.5778125557869588,0.5633906774075428,0.7170426803368726,ns
+mnau_appendicular_mean,value,NA | Casual,Other_small_groups,13,6,0.35998393232418485,0.7188591493475507,0.8386690075721425,ns
+mnau_appendicular_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.7476898546811128,0.4546472519956969,0.6353740132032077,ns
+mnau_appendicular_mean,value,NA | Formal excavation,NA | Formal excavations,35,2,-2.265766613292211,0.023465676560445348,0.10289514926722841,ns
+mnau_appendicular_mean,value,NA | Formal excavation,NA | NA,35,51,-4.127481480749073,3.667579577599545e-5,0.0010269222817278726,**
+mnau_appendicular_mean,value,NA | Formal excavation,NA | Quarry,35,4,-1.016165560237559,0.30955055355326333,0.4815230833050763,ns
+mnau_appendicular_mean,value,NA | Formal excavation,Other_small_groups,35,6,-1.5594129808594863,0.11889866590554314,0.33291626453552076,ns
+mnau_appendicular_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.6319583952277616,0.008489425815319852,0.07923464094298528,ns
+mnau_appendicular_mean,value,NA | Formal excavations,NA | NA,2,51,1.0283935580832058,0.303764737540584,0.4815230833050763,ns
+mnau_appendicular_mean,value,NA | Formal excavations,NA | Quarry,2,4,1.2828118137043925,0.1995580142330288,0.3991160284660576,ns
+mnau_appendicular_mean,value,NA | Formal excavations,Other_small_groups,2,6,1.1735995775598147,0.24055545050155505,0.4490368409362361,ns
+mnau_appendicular_mean,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.4074716952215245,0.15928756465474705,0.3991160284660576,ns
+mnau_appendicular_mean,value,NA | NA,NA | Quarry,51,4,0.7118938513941238,0.47653050990240586,0.6353740132032077,ns
+mnau_appendicular_mean,value,NA | NA,Other_small_groups,51,6,0.5026342562705008,0.6152214400141858,0.7489652313216175,ns
+mnau_appendicular_mean,value,NA | NA,Partial | Formal excavation,51,36,1.2917858489766985,0.1964313173141131,0.3991160284660576,ns
+mnau_appendicular_mean,value,NA | Quarry,Other_small_groups,4,6,-0.23657356022951093,0.812987633868614,0.8994320123851992,ns
+mnau_appendicular_mean,value,NA | Quarry,Partial | Formal excavation,4,36,-0.16780905578797517,0.8667334980417336,0.8994320123851992,ns
+mnau_appendicular_mean,value,Other_small_groups,Partial | Formal excavation,6,36,0.14573804764533163,0.884128184343105,0.8994320123851992,ns
+mnau_upper_appendicular_mean,value,Complete | Formal excavation,NA | Casual,4,13,-2.3701833116167013,0.017779267843818565,0.10979309671752364,ns
+mnau_upper_appendicular_mean,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.626556858239476,0.5309497552575508,0.6463736150961489,ns
+mnau_upper_appendicular_mean,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.2330240125031198,0.025547360910000656,0.10979309671752364,ns
+mnau_upper_appendicular_mean,value,Complete | Formal excavation,NA | NA,4,51,-2.32710571685441,0.01995963932350667,0.10979309671752364,ns
+mnau_upper_appendicular_mean,value,Complete | Formal excavation,NA | Quarry,4,4,-1.1069771433125448,0.26830381058354785,0.46953166852120876,ns
+mnau_upper_appendicular_mean,value,Complete | Formal excavation,Other_small_groups,4,6,-1.5039023241650216,0.13260651850820185,0.412553613136628,ns
+mnau_upper_appendicular_mean,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.8206626720828716,0.0686581496867103,0.24030352390348605,ns
+mnau_upper_appendicular_mean,value,NA | Casual,NA | Formal excavation,13,35,3.1542822639564676,0.0016089338781669928,0.0225250742943379,*
+mnau_upper_appendicular_mean,value,NA | Casual,NA | Formal excavations,13,2,-0.7618299238198287,0.4461615182796661,0.5678419323559387,ns
+mnau_upper_appendicular_mean,value,NA | Casual,NA | NA,13,51,0.47275742124718195,0.6363862546792571,0.7127526052407681,ns
+mnau_upper_appendicular_mean,value,NA | Casual,NA | Quarry,13,4,1.0011914478668391,0.3167342603447638,0.49269773831407704,ns
+mnau_upper_appendicular_mean,value,NA | Casual,Other_small_groups,13,6,0.7789298892710775,0.43602101593949955,0.5678419323559387,ns
+mnau_upper_appendicular_mean,value,NA | Casual,Partial | Formal excavation,13,36,1.2226857252247925,0.22144842059562045,0.46953166852120876,ns
+mnau_upper_appendicular_mean,value,NA | Formal excavation,NA | Formal excavations,35,2,-2.2050829515143358,0.02744827417938091,0.10979309671752364,ns
+mnau_upper_appendicular_mean,value,NA | Formal excavation,NA | NA,35,51,-3.9983333908664584,6.379005902137512e-5,0.0017861216525985033,**
+mnau_upper_appendicular_mean,value,NA | Formal excavation,NA | Quarry,35,4,-0.8564916973149278,0.39172586336746323,0.5678419323559387,ns
+mnau_upper_appendicular_mean,value,NA | Formal excavation,Other_small_groups,35,6,-1.448586547245787,0.14745308031396326,0.4128686248790971,ns
+mnau_upper_appendicular_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.6492456582494843,0.008067166864046134,0.07529355739776392,ns
+mnau_upper_appendicular_mean,value,NA | Formal excavations,NA | NA,2,51,1.0065147607013811,0.31416801480378004,0.49269773831407704,ns
+mnau_upper_appendicular_mean,value,NA | Formal excavations,NA | Quarry,2,4,1.3291809598232855,0.18378827519565014,0.4288393087898503,ns
+mnau_upper_appendicular_mean,value,NA | Formal excavations,Other_small_groups,2,6,1.1795404519944368,0.2381830387689167,0.46953166852120876,ns
+mnau_upper_appendicular_mean,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.3410937747392835,0.17989000823815288,0.4288393087898503,ns
+mnau_upper_appendicular_mean,value,NA | NA,NA | Quarry,51,4,0.8196054598167536,0.4124410601467738,0.5678419323559387,ns
+mnau_upper_appendicular_mean,value,NA | NA,Other_small_groups,51,6,0.5504146149086776,0.5820350267367822,0.6790408645262459,ns
+mnau_upper_appendicular_mean,value,NA | NA,Partial | Formal excavation,51,36,1.1427091735749293,0.2531593597360085,0.46953166852120876,ns
+mnau_upper_appendicular_mean,value,NA | Quarry,Other_small_groups,4,6,-0.29126962009520196,0.7708451202806537,0.7993949395503075,ns
+mnau_upper_appendicular_mean,value,NA | Quarry,Partial | Formal excavation,4,36,-0.3354969868916455,0.7372502172620953,0.7939617724361026,ns
+mnau_upper_appendicular_mean,value,Other_small_groups,Partial | Formal excavation,6,36,0.02537946816951793,0.9797522878601167,0.9797522878601167,ns
+distal_appendicular_continuity_hm,value,Complete | Formal excavation,NA | Casual,4,13,-3.227240257291741,0.0012499046260630066,0.017498664764882092,*
+distal_appendicular_continuity_hm,value,Complete | Formal excavation,NA | Formal excavation,4,35,-1.1121106025923089,0.26609059858461437,0.3736399653686566,ns
+distal_appendicular_continuity_hm,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.335512084858192,0.019516685333928113,0.09107786489166453,ns
+distal_appendicular_continuity_hm,value,Complete | Formal excavation,NA | NA,4,51,-2.3540134926400795,0.018571936947852582,0.09107786489166453,ns
+distal_appendicular_continuity_hm,value,Complete | Formal excavation,NA | Quarry,4,4,-1.6876398043218577,0.09148039346569793,0.2328591833672311,ns
+distal_appendicular_continuity_hm,value,Complete | Formal excavation,Other_small_groups,4,6,-1.841256259849922,0.06558401430354387,0.18363524004992282,ns
+distal_appendicular_continuity_hm,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.8512034524019816,0.06414028928464618,0.18363524004992282,ns
+distal_appendicular_continuity_hm,value,NA | Casual,NA | Formal excavation,13,35,3.874008347356543,1.0705974303116712e-4,0.002997672804872679,**
+distal_appendicular_continuity_hm,value,NA | Casual,NA | Formal excavations,13,2,-0.23351527476632256,0.8153613098318323,0.9132046670116523,ns
+distal_appendicular_continuity_hm,value,NA | Casual,NA | NA,13,51,2.0050339797049017,0.04495941452034378,0.16906985404200417,ns
+distal_appendicular_continuity_hm,value,NA | Casual,NA | Quarry,13,4,1.1401464315389878,0.25422530055686887,0.3736399653686566,ns
+distal_appendicular_continuity_hm,value,NA | Casual,Other_small_groups,13,6,1.3306086787215123,0.1833178053480936,0.34219323664977475,ns
+distal_appendicular_continuity_hm,value,NA | Casual,Partial | Formal excavation,13,36,2.687398649614839,0.007201095195079339,0.050407666365555374,ns
+distal_appendicular_continuity_hm,value,NA | Formal excavation,NA | Formal excavations,35,2,-1.9746694448696172,0.048305672583429764,0.16906985404200417,ns
+distal_appendicular_continuity_hm,value,NA | Formal excavation,NA | NA,35,51,-2.8944356959790722,0.0037984070090799123,0.035451798751412515,*
+distal_appendicular_continuity_hm,value,NA | Formal excavation,NA | Quarry,35,4,-1.1488681260253883,0.25061036252019475,0.3736399653686566,ns
+distal_appendicular_continuity_hm,value,NA | Formal excavation,Other_small_groups,35,6,-1.3614236417948387,0.17337984904462234,0.34219323664977475,ns
+distal_appendicular_continuity_hm,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.6374572337735125,0.10153496780522948,0.2369149248788688,ns
+distal_appendicular_continuity_hm,value,NA | Formal excavations,NA | NA,2,51,1.110263052195712,0.26688568954904046,0.3736399653686566,ns
+distal_appendicular_continuity_hm,value,NA | Formal excavations,NA | Quarry,2,4,0.9575599547918587,0.3382847002894143,0.43054416400470913,ns
+distal_appendicular_continuity_hm,value,NA | Formal excavations,Other_small_groups,2,6,1.0215437648273906,0.3069968852374467,0.4093291803165956,ns
+distal_appendicular_continuity_hm,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.4411110552007071,0.14955331079816225,0.32211482325758023,ns
+distal_appendicular_continuity_hm,value,NA | NA,NA | Quarry,51,4,0.055756971110553374,0.9555354136660068,0.9909256141721552,ns
+distal_appendicular_continuity_hm,value,NA | NA,Other_small_groups,51,6,0.07823734057003158,0.9376392595561522,0.9909256141721552,ns
+distal_appendicular_continuity_hm,value,NA | NA,Partial | Formal excavation,51,36,1.1329478346433748,0.25723616044720543,0.3736399653686566,ns
+distal_appendicular_continuity_hm,value,NA | Quarry,Other_small_groups,4,6,0.007460519691450081,0.9940474217421209,0.9940474217421209,ns
+distal_appendicular_continuity_hm,value,NA | Quarry,Partial | Formal excavation,4,36,0.4130029419968886,0.6796044582604804,0.7928718679705605,ns
+distal_appendicular_continuity_hm,value,Other_small_groups,Partial | Formal excavation,6,36,0.48271184944727424,0.6293003484905546,0.7661047720754578,ns
+mnau_proximal_appendicular_mean,value,Complete | Formal excavation,NA | Casual,4,13,-2.0429426668545183,0.041058113976445036,0.16423245590578014,ns
+mnau_proximal_appendicular_mean,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.7555690460358012,0.44990762051827826,0.6298706687255895,ns
+mnau_proximal_appendicular_mean,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.285371683444738,0.022291042926061638,0.12482984038594516,ns
+mnau_proximal_appendicular_mean,value,Complete | Formal excavation,NA | NA,4,51,-2.520134208882358,0.011731009636049785,0.10948942326979799,ns
+mnau_proximal_appendicular_mean,value,Complete | Formal excavation,NA | Quarry,4,4,-1.1763901479297487,0.23943900685723,0.46160281966153394,ns
+mnau_proximal_appendicular_mean,value,Complete | Formal excavation,Other_small_groups,4,6,-1.6026917814360817,0.10900271890278233,0.33911956991976727,ns
+mnau_proximal_appendicular_mean,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.951399050439243,0.05100959435354767,0.17853358023741683,ns
+mnau_proximal_appendicular_mean,value,NA | Casual,NA | Formal excavation,13,35,2.368567658904667,0.01785711390983783,0.12482984038594516,ns
+mnau_proximal_appendicular_mean,value,NA | Casual,NA | Formal excavations,13,2,-1.067853260020497,0.2855867089304782,0.4997767406283369,ns
+mnau_proximal_appendicular_mean,value,NA | Casual,NA | NA,13,51,-0.4520574818201036,0.6512275728553982,0.7771304713432479,ns
+mnau_proximal_appendicular_mean,value,NA | Casual,NA | Quarry,13,4,0.5881081647688491,0.5564596931421967,0.708221427635523,ns
+mnau_proximal_appendicular_mean,value,NA | Casual,Other_small_groups,13,6,0.2706201441267707,0.786683200993815,0.8158196158454377,ns
+mnau_proximal_appendicular_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.4314903984057788,0.6661118325799267,0.7771304713432479,ns
+mnau_proximal_appendicular_mean,value,NA | Formal excavation,NA | Formal excavations,35,2,-2.1737801538001773,0.029721649685109472,0.13870103186384422,ns
+mnau_proximal_appendicular_mean,value,NA | Formal excavation,NA | NA,35,51,-4.1447367909383255,3.402042502848064e-5,9.525719007974579e-4,***
+mnau_proximal_appendicular_mean,value,NA | Formal excavation,NA | Quarry,35,4,-0.820474073007228,0.4119459036173214,0.607078173751842,ns
+mnau_proximal_appendicular_mean,value,NA | Formal excavation,Other_small_groups,35,6,-1.4388002716810113,0.15020711940718479,0.42057993434011737,ns
+mnau_proximal_appendicular_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.652664908570256,0.007985910737025367,0.10948942326979799,ns
+mnau_proximal_appendicular_mean,value,NA | Formal excavations,NA | NA,2,51,0.9303627748427715,0.352183285477015,0.5577651308331514,ns
+mnau_proximal_appendicular_mean,value,NA | Formal excavations,NA | Quarry,2,4,1.3248531498230367,0.18521986238271143,0.4269613272256117,ns
+mnau_proximal_appendicular_mean,value,NA | Formal excavations,Other_small_groups,2,6,1.1569636182005396,0.2472872248186789,0.46160281966153394,ns
+mnau_proximal_appendicular_mean,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.3086502027975901,0.19065286705136053,0.4269613272256117,ns
+mnau_proximal_appendicular_mean,value,NA | NA,NA | Quarry,51,4,0.9181061443517093,0.35856329839274015,0.5577651308331514,ns
+mnau_proximal_appendicular_mean,value,NA | NA,Other_small_groups,51,6,0.6348904169996542,0.5254998875292192,0.7006665167056255,ns
+mnau_proximal_appendicular_mean,value,NA | NA,Partial | Formal excavation,51,36,1.2866048717947307,0.19823204478331974,0.4269613272256117,ns
+mnau_proximal_appendicular_mean,value,NA | Quarry,Other_small_groups,4,6,-0.31402094054015633,0.7535051343882413,0.8114670678027214,ns
+mnau_proximal_appendicular_mean,value,NA | Quarry,Partial | Formal excavation,4,36,-0.3731060471400722,0.7090695181670708,0.7941578603471193,ns
+mnau_proximal_appendicular_mean,value,Other_small_groups,Partial | Formal excavation,6,36,0.013732566313277215,0.989043341733454,0.989043341733454,ns
+mnau_postcranial_total_mean,value,Complete | Formal excavation,NA | Casual,4,13,-2.2003102124367397,0.027784893216184645,0.11113957286473858,ns
+mnau_postcranial_total_mean,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.7328295864556406,0.46366237364469715,0.6268348485754205,ns
+mnau_postcranial_total_mean,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.3540258024678544,0.01857132192610737,0.10399940278620126,ns
+mnau_postcranial_total_mean,value,Complete | Formal excavation,NA | NA,4,51,-2.4206985943213306,0.015490715289135535,0.10399940278620126,ns
+mnau_postcranial_total_mean,value,Complete | Formal excavation,NA | Quarry,4,4,-1.247175501177472,0.21233315377777232,0.42563951567928104,ns
+mnau_postcranial_total_mean,value,Complete | Formal excavation,Other_small_groups,4,6,-1.5850428535377221,0.11295659807340325,0.35142052733947676,ns
+mnau_postcranial_total_mean,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.8869464330691006,0.059167530876446314,0.2070863580675621,ns
+mnau_postcranial_total_mean,value,NA | Casual,NA | Formal excavation,13,35,2.6825468808772777,0.007306391040942872,0.09765952895489488,ns
+mnau_postcranial_total_mean,value,NA | Casual,NA | Formal excavations,13,2,-1.027669014624239,0.3041055479131654,0.5008797259746254,ns
+mnau_postcranial_total_mean,value,NA | Casual,NA | NA,13,51,0.0037252026199759286,0.9970277252181032,0.9970277252181032,ns
+mnau_postcranial_total_mean,value,NA | Casual,NA | Quarry,13,4,0.6579358968560838,0.510579323034426,0.6498282293165422,ns
+mnau_postcranial_total_mean,value,NA | Casual,Other_small_groups,13,6,0.4760118113377652,0.6340659632236108,0.7397436237608792,ns
+mnau_postcranial_total_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.8145478186238705,0.4153311898557222,0.6120670166294854,ns
+mnau_postcranial_total_mean,value,NA | Formal excavation,NA | Formal excavations,35,2,-2.2720679109851174,0.02308240889409507,0.10771790817244367,ns
+mnau_postcranial_total_mean,value,NA | Formal excavation,NA | NA,35,51,-3.96419341531331,7.364452584147129e-5,0.0020620467235611963,**
+mnau_postcranial_total_mean,value,NA | Formal excavation,NA | Quarry,35,4,-0.9380466703108157,0.3482204264416125,0.5416762189091751,ns
+mnau_postcranial_total_mean,value,NA | Formal excavation,Other_small_groups,35,6,-1.4401797261887357,0.14981655752743514,0.3834648798248647,ns
+mnau_postcranial_total_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.560122710567372,0.010463520959453023,0.09765952895489488,ns
+mnau_postcranial_total_mean,value,NA | Formal excavations,NA | NA,2,51,1.0844707590692637,0.27815612511623206,0.4867732189534061,ns
+mnau_postcranial_total_mean,value,NA | Formal excavations,NA | Quarry,2,4,1.3357112699396252,0.1816436643031947,0.42383521670745433,ns
+mnau_postcranial_total_mean,value,NA | Formal excavations,Other_small_groups,2,6,1.243735010481716,0.21359710616588323,0.42563951567928104,ns
+mnau_postcranial_total_mean,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.437250187839777,0.150646917074054,0.3834648798248647,ns
+mnau_postcranial_total_mean,value,NA | NA,NA | Quarry,51,4,0.722273834646529,0.47012613643156537,0.6268348485754205,ns
+mnau_postcranial_total_mean,value,NA | NA,Other_small_groups,51,6,0.5416586550492665,0.5880536768306596,0.7158914326634117,ns
+mnau_postcranial_total_mean,value,NA | NA,Partial | Formal excavation,51,36,1.2054719269500374,0.22802116911390055,0.42563951567928104,ns
+mnau_postcranial_total_mean,value,NA | Quarry,Other_small_groups,4,6,-0.2188305432122976,0.8267820534070148,0.8946999142045756,ns
+mnau_postcranial_total_mean,value,NA | Quarry,Partial | Formal excavation,4,36,-0.21368491276598278,0.8307927774756774,0.8946999142045756,ns
+mnau_postcranial_total_mean,value,Other_small_groups,Partial | Formal excavation,6,36,0.06493279350534574,0.9482275102384866,0.9833470476547268,ns
+mnau_hands,value,Complete | Formal excavation,NA | Casual,4,13,-2.7355904113373404,0.006226847809331769,0.0539639111810375,ns
+mnau_hands,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.5885407163965445,0.5561694126969661,0.7078519797961387,ns
+mnau_hands,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.171503140575693,0.029893160008832687,0.14382315310774368,ns
+mnau_hands,value,Complete | Formal excavation,NA | NA,4,51,-1.8153400189225766,0.06947167260170027,0.24315085410595094,ns
+mnau_hands,value,Complete | Formal excavation,NA | Quarry,4,4,-1.2715912881203553,0.20351837371882878,0.35677396778169207,ns
+mnau_hands,value,Complete | Formal excavation,Other_small_groups,4,6,-1.3504717142989255,0.1768647208308101,0.35677396778169207,ns
+mnau_hands,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.3318592164798075,0.1829064548146324,0.35677396778169207,ns
+mnau_hands,value,NA | Casual,NA | Formal excavation,13,35,3.8593159815057216,1.1370484000420611e-4,0.003183735520117771,**
+mnau_hands,value,NA | Casual,NA | Formal excavations,13,2,-0.4166168657420679,0.6769586710034319,0.7932799157544043,ns
+mnau_hands,value,NA | Casual,NA | NA,13,51,2.0004894777766884,0.04544743500475568,0.18178974001902273,ns
+mnau_hands,value,NA | Casual,NA | Quarry,13,4,1.1630212413518,0.24482088434834384,0.3586072318834389,ns
+mnau_hands,value,NA | Casual,Other_small_groups,13,6,1.4029187666084628,0.1606410640019175,0.35677396778169207,ns
+mnau_hands,value,NA | Casual,Partial | Formal excavation,13,36,2.664550451413066,0.007709130168719643,0.0539639111810375,ns
+mnau_hands,value,NA | Formal excavation,NA | Formal excavations,35,2,-2.1593987203554716,0.030819247094516503,0.14382315310774368,ns
+mnau_hands,value,NA | Formal excavation,NA | NA,35,51,-2.8791274872673656,0.003987770945526924,0.0539639111810375,ns
+mnau_hands,value,NA | Formal excavation,NA | Quarry,35,4,-1.1150460599837242,0.2648306843321201,0.3586072318834389,ns
+mnau_hands,value,NA | Formal excavation,Other_small_groups,35,6,-1.2698543657611006,0.204136510981226,0.35677396778169207,ns
+mnau_hands,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.6484987762767676,0.09925036160579974,0.2932268218919353,ns
+mnau_hands,value,NA | Formal excavations,NA | NA,2,51,1.3012402698529744,0.19317622519339703,0.35677396778169207,ns
+mnau_hands,value,NA | Formal excavations,NA | Quarry,2,4,1.1332532014879397,0.25710793832632595,0.3586072318834389,ns
+mnau_hands,value,NA | Formal excavations,Other_small_groups,2,6,1.235585260899239,0.2166127661531702,0.35677396778169207,ns
+mnau_hands,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.6223713257985517,0.10472386496140546,0.2932268218919353,ns
+mnau_hands,value,NA | NA,NA | Quarry,51,4,0.08366542629997677,0.933322446548203,0.9661106737335392,ns
+mnau_hands,value,NA | NA,Other_small_groups,51,6,0.16419855855152515,0.8695748358163367,0.9364652078022087,ns
+mnau_hands,value,NA | NA,Partial | Formal excavation,51,36,1.1054712995225164,0.2689554239125792,0.3586072318834389,ns
+mnau_hands,value,NA | Quarry,Other_small_groups,4,6,0.042486750562213564,0.9661106737335392,0.9661106737335392,ns
+mnau_hands,value,NA | Quarry,Partial | Formal excavation,4,36,0.3741595194203736,0.7082856390664323,0.7932799157544043,ns
+mnau_hands,value,Other_small_groups,Partial | Formal excavation,6,36,0.38501192760652275,0.7002285785129838,0.7932799157544043,ns
+lower_appendicular_continuity_hm,value,Complete | Formal excavation,NA | Casual,4,13,-2.799096513179275,0.005124581778158819,0.04782942992948232,*
+lower_appendicular_continuity_hm,value,Complete | Formal excavation,NA | Formal excavation,4,35,-1.393263482121297,0.1635401292020914,0.38159363480487996,ns
+lower_appendicular_continuity_hm,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.019695713213922,0.04341496003910572,0.1823131182659932,ns
+lower_appendicular_continuity_hm,value,Complete | Formal excavation,NA | NA,4,51,-2.8780960261691293,0.004000833344106101,0.04782942992948232,*
+lower_appendicular_continuity_hm,value,Complete | Formal excavation,NA | Quarry,4,4,-1.9423936589639792,0.052089462361712344,0.1823131182659932,ns
+lower_appendicular_continuity_hm,value,Complete | Formal excavation,Other_small_groups,4,6,-1.8597764581035179,0.06291715942061399,0.1957422737530213,ns
+lower_appendicular_continuity_hm,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.9869877305900903,0.0469237565205892,0.1823131182659932,ns
+lower_appendicular_continuity_hm,value,NA | Casual,NA | Formal excavation,13,35,2.6634367301380713,0.007734695577642202,0.05414286904349541,ns
+lower_appendicular_continuity_hm,value,NA | Casual,NA | Formal excavations,13,2,-0.19572411096988832,0.8448261115682084,0.8448261115682084,ns
+lower_appendicular_continuity_hm,value,NA | Casual,NA | NA,13,51,0.3412633124105477,0.7329053643312968,0.8208540080510526,ns
+lower_appendicular_continuity_hm,value,NA | Casual,NA | Quarry,13,4,0.39695015326095273,0.6914042190195819,0.8208540080510526,ns
+lower_appendicular_continuity_hm,value,NA | Casual,Other_small_groups,13,6,0.8103852615348849,0.41771878592946543,0.6880074121191195,ns
+lower_appendicular_continuity_hm,value,NA | Casual,Partial | Formal excavation,13,36,1.7096808480693517,0.08732490617611469,0.24450973729312112,ns
+lower_appendicular_continuity_hm,value,NA | Formal excavation,NA | Formal excavations,35,2,-1.3943665818343665,0.1632069341900453,0.38159363480487996,ns
+lower_appendicular_continuity_hm,value,NA | Formal excavation,NA | NA,35,51,-3.458137649924175,5.439234019838588e-4,0.015229855255548047,*
+lower_appendicular_continuity_hm,value,NA | Formal excavation,NA | Quarry,35,4,-1.2090161834049442,0.2266566280220718,0.4533132560441436,ns
+lower_appendicular_continuity_hm,value,NA | Formal excavation,Other_small_groups,35,6,-1.0526422776175064,0.2925049729349479,0.5460092828119028,ns
+lower_appendicular_continuity_hm,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.3138092633876395,0.18891039949347788,0.4068839373705677,ns
+lower_appendicular_continuity_hm,value,NA | Formal excavations,NA | NA,2,51,0.35332707437607264,0.7238432503940161,0.8208540080510526,ns
+lower_appendicular_continuity_hm,value,NA | Formal excavations,NA | Quarry,2,4,0.4337379318541374,0.6644787582374221,0.8208540080510526,ns
+lower_appendicular_continuity_hm,value,NA | Formal excavations,Other_small_groups,2,6,0.6719284155284901,0.501629269476491,0.7392431339653551,ns
+lower_appendicular_continuity_hm,value,NA | Formal excavations,Partial | Formal excavation,2,36,0.9661246834165599,0.3339817945742525,0.5844681405049419,ns
+lower_appendicular_continuity_hm,value,NA | NA,NA | Quarry,51,4,0.23291138270465758,0.8158302193762264,0.8448261115682084,ns
+lower_appendicular_continuity_hm,value,NA | NA,Other_small_groups,51,6,0.6810444037109522,0.4958433941827624,0.7392431339653551,ns
+lower_appendicular_continuity_hm,value,NA | NA,Partial | Formal excavation,51,36,2.05428484574435,0.039948130595225596,0.1823131182659932,ns
+lower_appendicular_continuity_hm,value,NA | Quarry,Other_small_groups,4,6,0.2680091870356186,0.7886922471194515,0.8448261115682084,ns
+lower_appendicular_continuity_hm,value,NA | Quarry,Partial | Formal excavation,4,36,0.6190068257147106,0.5359118622790715,0.7502766071907001,ns
+lower_appendicular_continuity_hm,value,Other_small_groups,Partial | Formal excavation,6,36,0.34752938969908503,0.7281936429775703,0.8208540080510526,ns
+mnau_lower_appendicular_mean,value,Complete | Formal excavation,NA | Casual,4,13,-2.1556456771239536,0.031111342970739496,0.14518626719678432,ns
+mnau_lower_appendicular_mean,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.8679964599925176,0.3853962705865056,0.5875239856973653,ns
+mnau_lower_appendicular_mean,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.1786244996738153,0.029359574631226012,0.14518626719678432,ns
+mnau_lower_appendicular_mean,value,Complete | Formal excavation,NA | NA,4,51,-2.485689628298649,0.012930067943466274,0.14518626719678432,ns
+mnau_lower_appendicular_mean,value,Complete | Formal excavation,NA | Quarry,4,4,-1.4071214838666557,0.15939136856594696,0.37191319332054296,ns
+mnau_lower_appendicular_mean,value,Complete | Formal excavation,Other_small_groups,4,6,-1.7057837250705536,0.08804835437533567,0.2739282136121554,ns
+mnau_lower_appendicular_mean,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.8431186199451361,0.0653116932968288,0.2285909265389008,ns
+mnau_lower_appendicular_mean,value,NA | Casual,NA | Formal excavation,13,35,2.3842738955141383,0.017112860405663708,0.14518626719678432,ns
+mnau_lower_appendicular_mean,value,NA | Casual,NA | Formal excavations,13,2,-0.8613030003775276,0.38907118363099824,0.5875239856973653,ns
+mnau_lower_appendicular_mean,value,NA | Casual,NA | NA,13,51,-0.1870852888422647,0.8515937623183145,0.9016500340369752,ns
+mnau_lower_appendicular_mean,value,NA | Casual,NA | Quarry,13,4,0.415467142852988,0.6777999634644816,0.8251477816089341,ns
+mnau_lower_appendicular_mean,value,NA | Casual,Other_small_groups,13,6,0.2663548011726771,0.7899659716282519,0.8847618882236422,ns
+mnau_lower_appendicular_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.8070112706462386,0.4196599897838324,0.5875239856973653,ns
+mnau_lower_appendicular_mean,value,NA | Formal excavation,NA | Formal excavations,35,2,-1.9650061240025674,0.0494135287535791,0.1976541150143164,ns
+mnau_lower_appendicular_mean,value,NA | Formal excavation,NA | NA,35,51,-3.7929156092785288,1.488887668881376e-4,0.004168885472867852,**
+mnau_lower_appendicular_mean,value,NA | Formal excavation,NA | Quarry,35,4,-1.0171639489146935,0.3090754429177936,0.5769408267798813,ns
+mnau_lower_appendicular_mean,value,NA | Formal excavation,Other_small_groups,35,6,-1.4551098825408777,0.1456388436914199,0.37071705666906885,ns
+mnau_lower_appendicular_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-2.162278623064741,0.03059670643510736,0.14518626719678432,ns
+mnau_lower_appendicular_mean,value,NA | Formal excavations,NA | NA,2,51,0.8269264741231963,0.4082787369199304,0.5875239856973653,ns
+mnau_lower_appendicular_mean,value,NA | Formal excavations,NA | Quarry,2,4,1.0297146191467423,0.3031439908943035,0.5769408267798813,ns
+mnau_lower_appendicular_mean,value,NA | Formal excavations,Other_small_groups,2,6,0.9622397943504031,0.3359291637815731,0.5875239856973653,ns
+mnau_lower_appendicular_mean,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.2599539944356122,0.20768595887794608,0.4473236037371146,ns
+mnau_lower_appendicular_mean,value,NA | NA,NA | Quarry,51,4,0.5694477154217893,0.5690523432966372,0.7587364577288496,ns
+mnau_lower_appendicular_mean,value,NA | NA,Other_small_groups,51,6,0.43926620951464507,0.660468655341005,0.8251477816089341,ns
+mnau_lower_appendicular_mean,value,NA | NA,Partial | Formal excavation,51,36,1.4666096575109548,0.14248227137150948,0.37071705666906885,ns
+mnau_lower_appendicular_mean,value,NA | Quarry,Other_small_groups,4,6,-0.16435936934273565,0.8694482471070832,0.9016500340369752,ns
+mnau_lower_appendicular_mean,value,NA | Quarry,Partial | Formal excavation,4,36,0.04473295437059338,0.9643201661910806,0.9643201661910806,ns
+mnau_lower_appendicular_mean,value,Other_small_groups,Partial | Formal excavation,6,36,0.29406358764080914,0.768709314213454,0.8847618882236422,ns
+mnau_distal_appendicular_mean,value,Complete | Formal excavation,NA | Casual,4,13,-2.6503642585178375,0.008040503000463163,0.07504469467098954,ns
+mnau_distal_appendicular_mean,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.7148165195283899,0.47472242611059307,0.6041921786862093,ns
+mnau_distal_appendicular_mean,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.0952879847013492,0.036145399916269715,0.1921934315017947,ns
+mnau_distal_appendicular_mean,value,Complete | Formal excavation,NA | NA,4,51,-2.0096514558007317,0.04446809116270357,0.1921934315017947,ns
+mnau_distal_appendicular_mean,value,Complete | Formal excavation,NA | Quarry,4,4,-1.4588072884816057,0.14461815600387506,0.32300462448045986,ns
+mnau_distal_appendicular_mean,value,Complete | Formal excavation,Other_small_groups,4,6,-1.5428354721919115,0.12287070043916536,0.32300462448045986,ns
+mnau_distal_appendicular_mean,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.4978971008412216,0.13415998705140092,0.32300462448045986,ns
+mnau_distal_appendicular_mean,value,NA | Casual,NA | Formal excavation,13,35,3.5040868881257676,4.581758386591314e-4,0.012828923482455679,*
+mnau_distal_appendicular_mean,value,NA | Casual,NA | Formal excavations,13,2,-0.39387413513216835,0.6936739671693751,0.7769148432297002,ns
+mnau_distal_appendicular_mean,value,NA | Casual,NA | NA,13,51,1.5189107279863268,0.12878496828896552,0.32300462448045986,ns
+mnau_distal_appendicular_mean,value,NA | Casual,NA | Quarry,13,4,0.8462662057485086,0.397404255768925,0.5298723410252333,ns
+mnau_distal_appendicular_mean,value,NA | Casual,Other_small_groups,13,6,1.0525979304146262,0.2925253061090255,0.45503936505848414,ns
+mnau_distal_appendicular_mean,value,NA | Casual,Partial | Formal excavation,13,36,2.243505816518366,0.024864215202277416,0.1740495064159419,ns
+mnau_distal_appendicular_mean,value,NA | Formal excavation,NA | Formal excavations,35,2,-1.9769404850592314,0.04804835787544867,0.1921934315017947,ns
+mnau_distal_appendicular_mean,value,NA | Formal excavation,NA | NA,35,51,-3.0351456253494367,0.002404195717446814,0.03365874004425539,*
+mnau_distal_appendicular_mean,value,NA | Formal excavation,NA | Quarry,35,4,-1.2395888221580942,0.2151275171464968,0.4015713653401274,ns
+mnau_distal_appendicular_mean,value,NA | Formal excavation,Other_small_groups,35,6,-1.4000367551485802,0.16150231224022993,0.32300462448045986,ns
+mnau_distal_appendicular_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.7363809038256701,0.08249650651326838,0.28873777279643936,ns
+mnau_distal_appendicular_mean,value,NA | Formal excavations,NA | NA,2,51,1.069706933341614,0.284751244521553,0.45503936505848414,ns
+mnau_distal_appendicular_mean,value,NA | Formal excavations,NA | Quarry,2,4,0.9041768214236715,0.36590164863555974,0.5122623080897836,ns
+mnau_distal_appendicular_mean,value,NA | Formal excavations,Other_small_groups,2,6,1.0026699770245753,0.3160201202661049,0.4657138614447861,ns
+mnau_distal_appendicular_mean,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.411060288026942,0.15822683819972197,0.32300462448045986,ns
+mnau_distal_appendicular_mean,value,NA | NA,NA | Quarry,51,4,0.023022937190463312,0.9816319765647884,0.9816319765647884,ns
+mnau_distal_appendicular_mean,value,NA | NA,Other_small_groups,51,6,0.11026739274970965,0.91219731635193,0.9816319765647884,ns
+mnau_distal_appendicular_mean,value,NA | NA,Partial | Formal excavation,51,36,1.1669562235843507,0.24322804867356243,0.42564908517873423,ns
+mnau_distal_appendicular_mean,value,NA | Quarry,Other_small_groups,4,6,0.055207845716732026,0.9559728784922834,0.9816319765647884,ns
+mnau_distal_appendicular_mean,value,NA | Quarry,Partial | Formal excavation,4,36,0.4592982570289882,0.6460199992435056,0.7536899991174233,ns
+mnau_distal_appendicular_mean,value,Other_small_groups,Partial | Formal excavation,6,36,0.46815040602503327,0.6396770349676625,0.7536899991174233,ns
+mnau_foot,value,Complete | Formal excavation,NA | Casual,4,13,-2.8828994883077455,0.003940331477722744,0.036776427125412285,*
+mnau_foot,value,Complete | Formal excavation,NA | Formal excavation,4,35,-1.193830321769837,0.23254434805429344,0.44105210613794904,ns
+mnau_foot,value,Complete | Formal excavation,NA | Formal excavations,4,2,-2.048929856597088,0.04046897433660988,0.16794077501216212,ns
+mnau_foot,value,Complete | Formal excavation,NA | NA,4,51,-2.4659084318681863,0.013666626654012462,0.09566638657808724,ns
+mnau_foot,value,Complete | Formal excavation,NA | Quarry,4,4,-1.9341680711639402,0.05309246668849388,0.16794077501216212,ns
+mnau_foot,value,Complete | Formal excavation,Other_small_groups,4,6,-1.92698930021517,0.0539809633967664,0.16794077501216212,ns
+mnau_foot,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-2.077334093756999,0.0377707344424103,0.16794077501216212,ns
+mnau_foot,value,NA | Casual,NA | Formal excavation,13,35,3.135041187133621,0.0017182998464675258,0.036776427125412285,*
+mnau_foot,value,NA | Casual,NA | Formal excavations,13,2,-0.16597157493682713,0.8681793198029724,0.9003341094253047,ns
+mnau_foot,value,NA | Casual,NA | NA,13,51,1.1843414830464936,0.2362779140024727,0.44105210613794904,ns
+mnau_foot,value,NA | Casual,NA | Quarry,13,4,0.4909256625206312,0.6234790257550386,0.7773990259737963,ns
+mnau_foot,value,NA | Casual,Other_small_groups,13,6,0.8195646728871792,0.41246431957310253,0.6416111637803817,ns
+mnau_foot,value,NA | Casual,Partial | Formal excavation,13,36,1.710606351538947,0.08715380568846808,0.2440306559277106,ns
+mnau_foot,value,NA | Formal excavation,NA | Formal excavations,35,2,-1.5739715685303186,0.11549402256538407,0.2939847847118867,ns
+mnau_foot,value,NA | Formal excavation,NA | NA,35,51,-2.9626300930733915,0.00305022884149808,0.036776427125412285,*
+mnau_foot,value,NA | Formal excavation,NA | Quarry,35,4,-1.3974292913739947,0.16228451592815912,0.3549887242952166,ns
+mnau_foot,value,NA | Formal excavation,Other_small_groups,35,6,-1.3890544496279023,0.16481619342277914,0.3549887242952166,ns
+mnau_foot,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.9578287614103882,0.05025010932365492,0.16794077501216212,ns
+mnau_foot,value,NA | Formal excavations,NA | NA,2,51,0.6853583681941193,0.4931178080979238,0.7221504479791492,ns
+mnau_foot,value,NA | Formal excavations,NA | Quarry,2,4,0.4696882395521564,0.6385777713356183,0.7773990259737963,ns
+mnau_foot,value,NA | Formal excavations,Other_small_groups,2,6,0.6497994897995898,0.5158217485565352,0.7221504479791492,ns
+mnau_foot,value,NA | Formal excavations,Partial | Formal excavation,2,36,0.9354299546130279,0.34956676571555834,0.6117418400022271,ns
+mnau_foot,value,NA | NA,NA | Quarry,51,4,-0.16807446655777575,0.866524696314637,0.9003341094253047,ns
+mnau_foot,value,NA | NA,Other_small_groups,51,6,0.08463137930459308,0.932554451476964,0.932554451476964,ns
+mnau_foot,value,NA | NA,Partial | Formal excavation,51,36,0.8523498627371598,0.3940199386702122,0.6416111637803817,ns
+mnau_foot,value,NA | Quarry,Other_small_groups,4,6,0.19178566495032498,0.8479101002361867,0.9003341094253047,ns
+mnau_foot,value,NA | Quarry,Partial | Formal excavation,4,36,0.5176246784623332,0.6047201599481986,0.7773990259737963,ns
+mnau_foot,value,Other_small_groups,Partial | Formal excavation,6,36,0.33793435797243965,0.7354126551786972,0.8579814310418135,ns
+mnau_shoulder,value,Complete | Formal excavation,NA | Casual,4,13,-1.668518068576597,0.0952129281364842,0.3332452484776947,ns
+mnau_shoulder,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.5656735566464256,0.5716157143863457,0.6995595407458144,ns
+mnau_shoulder,value,Complete | Formal excavation,NA | Formal excavations,4,2,-1.7471000997152772,0.0806199761161678,0.3332452484776947,ns
+mnau_shoulder,value,Complete | Formal excavation,NA | NA,4,51,-2.22207793338493,0.026278039266392796,0.3214140797890699,ns
+mnau_shoulder,value,Complete | Formal excavation,NA | Quarry,4,4,-0.863408656131271,0.38791282184520004,0.6788474382291001,ns
+mnau_shoulder,value,Complete | Formal excavation,Other_small_groups,4,6,-1.2473815697117963,0.21225762108493798,0.5943213390378264,ns
+mnau_shoulder,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.4655457438614385,0.14277208159281718,0.44417980939987567,ns
+mnau_shoulder,value,NA | Casual,NA | Formal excavation,13,35,2.0180160652646064,0.04358958820631491,0.3214140797890699,ns
+mnau_shoulder,value,NA | Casual,NA | Formal excavations,13,2,-0.7359858263081754,0.4617393235519203,0.6995595407458144,ns
+mnau_shoulder,value,NA | Casual,NA | NA,13,51,-0.6429956248671915,0.5202269387998706,0.6995595407458144,ns
+mnau_shoulder,value,NA | Casual,NA | Quarry,13,4,0.6007458634542134,0.5480092666491123,0.6995595407458144,ns
+mnau_shoulder,value,NA | Casual,Other_small_groups,13,6,0.30155188183033804,0.7629936939652008,0.7912527196676156,ns
+mnau_shoulder,value,NA | Casual,Partial | Formal excavation,13,36,0.5612337556977371,0.5746381941840618,0.6995595407458144,ns
+mnau_shoulder,value,NA | Formal excavation,NA | Formal excavations,35,2,-1.6704574670101826,0.09482888789515438,0.3332452484776947,ns
+mnau_shoulder,value,NA | Formal excavation,NA | NA,35,51,-3.8962810335294367,9.76810380918485e-5,0.002735069066571758,**
+mnau_shoulder,value,NA | Formal excavation,NA | Quarry,35,4,-0.5910594148193815,0.5544806119066945,0.6995595407458144,ns
+mnau_shoulder,value,NA | Formal excavation,Other_small_groups,35,6,-1.146567696231772,0.25156033381372067,0.6159664952339521,ns
+mnau_shoulder,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.9961619549422385,0.04591629711272427,0.3214140797890699,ns
+mnau_shoulder,value,NA | Formal excavations,NA | NA,2,51,0.498372967066379,0.6182211868354888,0.7212580513080703,ns
+mnau_shoulder,value,NA | Formal excavations,NA | Quarry,2,4,1.0421298840406916,0.29735146517918604,0.6159664952339521,ns
+mnau_shoulder,value,NA | Formal excavations,Other_small_groups,2,6,0.8669377739792042,0.3859761051597671,0.6788474382291001,ns
+mnau_shoulder,value,NA | Formal excavations,Partial | Formal excavation,2,36,1.0194629211727202,0.30798324761697604,0.6159664952339521,ns
+mnau_shoulder,value,NA | NA,NA | Quarry,51,4,1.0462733750798472,0.29543483434821466,0.6159664952339521,ns
+mnau_shoulder,value,NA | NA,Other_small_groups,51,6,0.8077136234221449,0.4192554591819097,0.6905384033584395,ns
+mnau_shoulder,value,NA | NA,Partial | Formal excavation,51,36,1.751985226732048,0.07977634823615036,0.3332452484776947,ns
+mnau_shoulder,value,NA | Quarry,Other_small_groups,4,6,-0.3015647750951595,0.7629838639055462,0.7912527196676156,ns
+mnau_shoulder,value,NA | Quarry,Partial | Formal excavation,4,36,-0.3071614753786809,0.7587204671794054,0.7912527196676156,ns
+mnau_shoulder,value,Other_small_groups,Partial | Formal excavation,6,36,0.07431744596314988,0.9407577955467932,0.9407577955467932,ns
+mnau_girdle_mean,value,Complete | Formal excavation,NA | Casual,4,13,-1.490141821996146,0.1361869496429774,0.4554643831638985,ns
+mnau_girdle_mean,value,Complete | Formal excavation,NA | Formal excavation,4,35,-0.5832014977642745,0.5597576630215444,0.7368476970852036,ns
+mnau_girdle_mean,value,Complete | Formal excavation,NA | Formal excavations,4,2,-1.7147182929472042,0.0863968880464035,0.4216512916982782,ns
+mnau_girdle_mean,value,Complete | Formal excavation,NA | NA,4,51,-2.1942711583366434,0.028215921606673227,0.3950229024934252,ns
+mnau_girdle_mean,value,Complete | Formal excavation,NA | Quarry,4,4,-0.6835594985058023,0.4942533671387924,0.7266904381758987,ns
+mnau_girdle_mean,value,Complete | Formal excavation,Other_small_groups,4,6,-0.9442722924719978,0.34503052104181886,0.621380638702139,ns
+mnau_girdle_mean,value,Complete | Formal excavation,Partial | Formal excavation,4,36,-1.4523681548586742,0.14639926601696737,0.4554643831638985,ns
+mnau_girdle_mean,value,NA | Casual,NA | Formal excavation,13,35,1.67552214087412,0.09383183068321094,0.4216512916982782,ns
+mnau_girdle_mean,value,NA | Casual,NA | Formal excavations,13,2,-0.8333416463295651,0.4046520748788049,0.6664857703886198,ns
+mnau_girdle_mean,value,NA | Casual,NA | NA,13,51,-0.9247909660473538,0.35507465068693655,0.621380638702139,ns
+mnau_girdle_mean,value,NA | Casual,NA | Quarry,13,4,0.6447879702959138,0.5190645986970706,0.7266904381758987,ns
+mnau_girdle_mean,value,NA | Casual,Other_small_groups,13,6,0.49133211400453697,0.6231915698655015,0.7368476970852036,ns
+mnau_girdle_mean,value,NA | Casual,Partial | Formal excavation,13,36,0.2674988005795693,0.7890851375351031,0.8183105129993662,ns
+mnau_girdle_mean,value,NA | Formal excavation,NA | Formal excavations,35,2,-1.6191600883173658,0.10541282292456955,0.4216512916982782,ns
+mnau_girdle_mean,value,NA | Formal excavation,NA | NA,35,51,-3.7883548751572973,1.51648133997276e-4,0.004246147751923728,**
+mnau_girdle_mean,value,NA | Formal excavation,NA | Quarry,35,4,-0.33258247575205974,0.7394494733525665,0.7963302020719947,ns
+mnau_girdle_mean,value,NA | Formal excavation,Other_small_groups,35,6,-0.6828267900674987,0.49471629908416676,0.7266904381758987,ns
+mnau_girdle_mean,value,NA | Formal excavation,Partial | Formal excavation,35,36,-1.9279319800156671,0.053863587314370485,0.4216512916982782,ns
+mnau_girdle_mean,value,NA | Formal excavations,NA | NA,2,51,0.47949891436108444,0.6315837403587459,0.7368476970852036,ns
+mnau_girdle_mean,value,NA | Formal excavations,NA | Quarry,2,4,1.1565942995565455,0.24743815233160288,0.5773556887737401,ns
+mnau_girdle_mean,value,NA | Formal excavations,Other_small_groups,2,6,1.0722206052513386,0.283620957519216,0.6108759085029267,ns
+mnau_girdle_mean,value,NA | Formal excavations,Partial | Formal excavation,2,36,0.9904212732678503,0.32196825171678456,0.621380638702139,ns
+mnau_girdle_mean,value,NA | NA,NA | Quarry,51,4,1.2633882345804788,0.20644969030291094,0.5589815052569119,ns
+mnau_girdle_mean,value,NA | NA,Other_small_groups,51,6,1.2275927705137444,0.2195998770652154,0.5589815052569119,ns
+mnau_girdle_mean,value,NA | NA,Partial | Formal excavation,51,36,1.7175629277767621,0.08587636717340268,0.4216512916982782,ns
+mnau_girdle_mean,value,NA | Quarry,Other_small_groups,4,6,-0.19547037901490413,0.8450247245106979,0.8450247245106979,ns
+mnau_girdle_mean,value,NA | Quarry,Partial | Formal excavation,4,36,-0.5352768516638902,0.5924584307831442,0.7368476970852036,ns
+mnau_girdle_mean,value,Other_small_groups,Partial | Formal excavation,6,36,-0.3536388713132404,0.7236095393094255,0.7963302020719947,ns

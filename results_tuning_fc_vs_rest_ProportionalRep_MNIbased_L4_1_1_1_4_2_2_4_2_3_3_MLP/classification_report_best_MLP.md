@@ -1,0 +1,10 @@
+Table: Classification report for BEST hyperparameter combo (MLP, fc_vs_rest, ProportionalRep_MNIbased L4_1_1_1_4_2_2_4_2_3_3)
+Best .config = pre0_mod1_post0
+
+|      Class       |   Precision   |    Recall     |      F1       | Support |
+|:----------------:|:-------------:|:-------------:|:-------------:|:-------:|
+| Funerary Context | 0.815 (0.096) | 0.812 (0.165) | 0.801 (0.036) |   16    |
+|       rest       | 0.838 (0.140) | 0.792 (0.157) | 0.797 (0.033) |   16    |
+|     accuracy     |               |               | 0.802 (0.018) |   32    |
+|    macro_avg     | 0.826 (0.118) | 0.802 (0.161) | 0.799 (0.035) |   32    |
+|   weighted_avg   | 0.826 (0.118) | 0.802 (0.161) | 0.799 (0.035) |   32    |
