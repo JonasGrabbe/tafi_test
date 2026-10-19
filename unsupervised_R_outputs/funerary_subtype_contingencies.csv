@@ -1,0 +1,15 @@
+Cluster,Collective-secondary,Collective burial,Cremation,Multiple inhumation,No inhumation,Possible burial,Single + multiple,Single inhumation,Feature_space
+1,1,6,1,0,0,1,0,1,C only
+2,0,2,0,2,2,0,1,13,C only
+1,1,8,1,2,2,1,1,14,Evenness only
+2,1,6,1,0,0,1,0,1,C + evenness
+3,0,2,0,2,2,0,1,13,C + evenness
+1,1,6,1,0,0,1,0,0,%MNAU
+2,0,2,0,2,2,0,1,14,%MNAU
+3,0,1,0,0,0,0,0,0,ReMNAU
+5,1,6,0,2,1,1,1,13,ReMNAU
+7,0,1,1,0,1,0,0,1,ReMNAU
+1,1,0,0,0,0,1,0,0,Engineered
+2,0,8,1,2,2,0,1,14,Engineered
+1,0,0,0,0,0,1,0,0,Combined
+2,1,8,1,2,2,0,1,14,Combined

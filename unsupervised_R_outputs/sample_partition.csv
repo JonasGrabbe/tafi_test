@@ -1,0 +1,5 @@
+dataset,rows,unique_sites
+Eligible known (all),103,99
+Unsupervised fit,76,73
+Held-out labelled test,27,26
+Unknown projection,23,23

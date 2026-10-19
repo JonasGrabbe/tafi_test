@@ -1,0 +1,16 @@
+REPORTING NOTES FOR PCA / CLUSTER FIGURES
+
+Ellipse probability level: 90%
+Definition: group-specific concentration/data ellipse in the displayed 2D plane.
+Calculation: each cluster mean and sample covariance matrix S are used with
+  (t - mean)' S^{-1} (t - mean) <= qchisq(level, df = 2).
+The covariance matrix is NOT divided by n.
+Therefore the ellipse visualizes within-cluster dispersion/covariance, not precision of the estimated centroid.
+For 1D feature spaces, the horizontal interval is the analogous normal-reference concentration interval mean +/- z * SD.
+PCA is used for visualization/interpretation only when the clustering space has >2 dimensions; K-means uses the full standardized feature matrix.
+Axis labels report PC1/PC2 explained variance.
+Ellipse overlap or non-overlap is not interpreted as statistical significance.
+Formal group comparisons are reported separately using post-hoc cluster-label association tests and PERMANOVA with multivariate-dispersion checks.
+
+Suggested figure-caption wording:
+Points represent individual summed assemblage records. Ellipses represent group-specific 90% concentration regions in the displayed score space, calculated from each K-means cluster's covariance matrix using the chi-square(2) Mahalanobis-distance contour. Ellipses describe within-cluster dispersion and were not used as tests of between-group differences. For feature spaces with >2 dimensions, PCA is visualization only and K-means was fitted to the full standardized feature space.

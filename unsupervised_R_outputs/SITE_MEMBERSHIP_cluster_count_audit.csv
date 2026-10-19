@@ -1,0 +1,8 @@
+Feature_space,n_clusters,raw_clusters,zero_based_clusters,n_rows,n_unique_sites
+%MNAU,2,"1, 2","0, 1",76,73
+C + evenness,3,"1, 2, 3","0, 1, 2",76,73
+C only,2,"1, 2","0, 1",76,73
+Combined,2,"1, 2","0, 1",76,73
+Engineered,2,"1, 2","0, 1",76,73
+Evenness only,2,"1, 2","0, 1",76,73
+ReMNAU,8,"1, 2, 3, 4, 5, 6, 7, 8","0, 1, 2, 3, 4, 5, 6, 7",76,73

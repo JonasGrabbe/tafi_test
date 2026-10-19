@@ -1,0 +1,4 @@
+task,n_rows,n_unique_vectors,n_duplicate_rows,expected_n,complete
+4class,1000,1000,0,1000,TRUE
+cannibalism_vs_fc,1000,1000,0,1000,TRUE
+fc_vs_rest,1000,1000,0,1000,TRUE

@@ -1,0 +1,14 @@
+Run finished: 2026-09-11 18:19:55.272804
+Input: final/tapho_db_sum.csv
+Unique challenge sites: 26
+Outer holdout groups: 5
+Inner grouped CV: 3 folds x 5 repeats
+Feature spaces: 7
+Algorithms: 4
+Predictions per held-out site: 420
+Primary compact table: CHALLENGE_SITE_SUMMARY_compact.csv
+Primary full table: CHALLENGE_SITE_SUMMARY_full.csv
+Seven-space diagnostic detail: CHALLENGE_SITE_7SPACE_PROBABILITIES.csv
+28-pipeline detail: CHALLENGE_SITE_28PIPELINE_PROBABILITIES.csv
+28-pipeline held-out metrics: challenge_28_pipeline_heldout_performance.csv
+Overall held-out metrics: challenge_overall_ensemble_heldout_performance.csv

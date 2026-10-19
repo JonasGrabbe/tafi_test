@@ -1,0 +1,77 @@
+Dataset,Feature_space,site_name,Archaeological_class,Binary_label,Funerary_subtype,Cluster_raw,Cluster_zero_based,Cluster_F_percent,Cluster_dominant_class4,Distance_to_centroid,Distance_percentile,PC1,PC2
+Reference fit,C only,Abri Pataud,Funerary,F,Collective-secondary,1,0,18.181818181818183,Cannibalism,0.3446174728787723,80,-0.215731430423974,NA
+Reference fit,C only,Arago,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.20748522278878467,52.72727272727272,-0.767834126091531,NA
+Reference fit,C only,Archi,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Atxuri-I Cave,Funerary,F,Possible burial,1,0,18.181818181818183,Cannibalism,0.10419639665148339,12.727272727272727,-0.6645452999542297,NA
+Reference fit,C only,Boquete de Zafarraya,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.2737554196916737,60,-0.83410432299442006,NA
+Reference fit,C only,Brillenhöhle,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.15112961451136342,40,-0.7114785178141098,NA
+Reference fit,C only,Combe Grenal,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.2434106667650271,58.18181818181818,-0.8037595700677734,NA
+Reference fit,C only,Cova Foradada,Funerary,F,Cremation,1,0,18.181818181818183,Cannibalism,0.37589732091071154,87.27272727272727,-0.1844515823920348,NA
+Reference fit,C only,Cova Foradada,Funerary,F,Collective burial,1,0,18.181818181818183,Cannibalism,0.19311576786749257,47.27272727272727,-0.36723313543525377,NA
+Reference fit,C only,Cova del Gegant,Carnivore-related,NF,Carnivore den(transport),1,0,18.181818181818183,Cannibalism,0.22366365836502777,54.54545454545454,-0.7840125616677741,NA
+Reference fit,C only,Coves de Santa Maira,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.0707481058524998,9.090909090909092,-0.6310970091552461,NA
+Reference fit,C only,Cueva de la Buena Pinta,Carnivore-related,NF,Carnivore den (transport),1,0,18.181818181818183,Cannibalism,0.35237674932881036,85.45454545454545,-0.9127256526315567,NA
+Reference fit,C only,Cueva del Camino,Carnivore-related,NF,Carnivore den (transport),1,0,18.181818181818183,Cannibalism,0.35237674932881036,85.45454545454545,-0.9127256526315567,NA
+Reference fit,C only,Dali Tianshuigou,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,El Espinoso Cave,Funerary,F,Collective burial,1,0,18.181818181818183,Cannibalism,0.2901582673544665,67.27272727272727,-0.27019063594827986,NA
+Reference fit,C only,El Mirador,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.12332385475832408,14.545454545454545,-0.43702504854442226,NA
+Reference fit,C only,Gough's Cave,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.27926349261790234,63.63636363636363,-0.281085410684844,NA
+Reference fit,C only,Gran Dolina,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.06444079769131184,5.454545454545454,-0.6247897009940582,NA
+Reference fit,C only,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Carnivore-related,NF,Missing,1,0,18.181818181818183,Cannibalism,0.3266341311360539,78.18181818181819,-0.8869830344388002,NA
+Reference fit,C only,Grotte des Perrats,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.7462133178046597,92.72727272727272,0.18586441450191335,NA
+Reference fit,C only,Grotte du Bison (Arcy-sur-Cure),Carnivore-related,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Carnivore-related,NF,Missing,1,0,18.181818181818183,Cannibalism,0.16963594117035363,41.81818181818181,-0.7299848444731,NA
+Reference fit,C only,Hahnöfersand,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Hathnora,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.2740269600282649,61.81818181818181,-0.28632194327448146,NA
+Reference fit,C only,Herxheim,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.47600750277143117,89.0909090909091,-0.08434140053131518,NA
+Reference fit,C only,Hohlenstein-Stadel,Carnivore-related,NF,Carnivore Scavenge (in situ),1,0,18.181818181818183,Cannibalism,0.3266341311360539,78.18181818181819,-0.8869830344388002,NA
+Reference fit,C only,Jarama VI rockshelter,Carnivore-related,NF,Carnivore Scavenge (in situ),1,0,18.181818181818183,Cannibalism,0.3484163465299248,81.81818181818183,-0.9087652498326712,NA
+Reference fit,C only,Kajiado,Carnivore-related,NF,Carnivore den(transport),1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Kalamakia,Carnivore-related,NF,Carnivore Scavenge (in situ),1,0,18.181818181818183,Cannibalism,0.3218486444207338,70.9090909090909,-0.8821975477234801,NA
+Reference fit,C only,Kiik-Koba,Funerary,F,Single inhumation,1,0,18.181818181818183,Cannibalism,0.9676475057775376,100,0.40729860247479127,NA
+Reference fit,C only,La Tolita Cama de Huesos,Funerary,F,Collective burial,1,0,18.181818181818183,Cannibalism,0.8182202247117132,94.54545454545455,0.2578713214089668,NA
+Reference fit,C only,Le Placard,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.23365634135295688,56.36363636363636,-0.7940052446557032,NA
+Reference fit,C only,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Carnivore-related,NF,Missing,1,0,18.181818181818183,Cannibalism,0.19679910544999524,49.09090909090909,-0.3635497978527511,NA
+Reference fit,C only,Les Pradelles (Marillac-le-Franc),Carnivore-related,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Les Rochers-de-Villeneuve,Carnivore-related,NF,Missing,1,0,18.181818181818183,Cannibalism,0.3266341311360539,78.18181818181819,-0.8869830344388002,NA
+Reference fit,C only,Los Moros de Gabasa,Carnivore-related,NF,Carnivore den(transport),1,0,18.181818181818183,Cannibalism,0.28118728667229864,65.45454545454545,-0.841536189975045,NA
+Reference fit,C only,Maszycka Cave,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.07105631658537692,10.909090909090908,-0.4892925867173694,NA
+Reference fit,C only,Mauer,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Mojokerto,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Netankheri,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.1979210401722713,50.90909090909091,-0.7582699434750176,NA
+Reference fit,C only,Ngandong,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.18419164380280117,43.63636363636363,-0.7445405471055475,NA
+Reference fit,C only,Ngawi,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Carnivore-related,NF,Carnivore Scavenge (in situ),1,0,18.181818181818183,Cannibalism,0.3266341311360539,78.18181818181819,-0.8869830344388002,NA
+Reference fit,C only,Předmostí,Funerary,F,Collective burial,1,0,18.181818181818183,Cannibalism,0.953192035561605,98.18181818181819,0.3928431322588587,NA
+Reference fit,C only,Reilingen,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Roc de les Orenetes,Funerary,F,Collective burial,1,0,18.181818181818183,Cannibalism,0.9462010761692656,96.36363636363636,0.3858521728665193,NA
+Reference fit,C only,Saccopastore,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Sambungmacan,Geological transport,NF,Missing,1,0,18.181818181818183,Cannibalism,0.19148538562408213,45.45454545454545,-0.7518342889268285,NA
+Reference fit,C only,Troisième caverne of Goyet,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.06825451890505341,7.2727272727272725,-0.6286034222077997,NA
+Reference fit,C only,Valdegoba Cave,Carnivore-related,NF,Carnivore den (transport),1,0,18.181818181818183,Cannibalism,0.30884165485809745,69.0909090909091,-0.8691905581608438,NA
+Reference fit,C only,Vindija,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Vindija,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.14643580378675836,38.18181818181819,-0.7067847070895047,NA
+Reference fit,C only,Vindija,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.03358877094937551,3.6363636363636362,-0.59393767425212185,NA
+Reference fit,C only,Vunda Locus,Cannibalism,NF,Missing,1,0,18.181818181818183,Cannibalism,0.007594528772863485,1.8181818181818181,-0.5527543745298829,NA
+Reference fit,C only,Xemxija tombs,Funerary,F,Collective burial,1,0,18.181818181818183,Cannibalism,0.529478179184428,90.9090909090909,-0.03087072411831832,NA
+Reference fit,C only,Abri de Raymonden (Chancelade),Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.6992737664338677,80.95238095238095,2.1668542274648703,NA
+Reference fit,C only,Abrigo do Lagar Velho,Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.19960294664113265,23.809523809523807,1.6671834076721352,NA
+Reference fit,C only,Amud Cave,Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.8119132645112827,95.23809523809523,0.6556671965197199,NA
+Reference fit,C only,Baousso da Torre (Bausu da Ture),Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.35111306478168425,42.857142857142854,1.1164673962493183,NA
+Reference fit,C only,Cueva de Malalmuerzo,Cannibalism,NF,Missing,2,1,95.23809523809523,Funerary,0.4820850521566825,52.38095238095239,0.9854954088743201,NA
+Reference fit,C only,Dame du Cavillon,Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.5482650745282105,66.66666666666666,2.015845535559213,NA
+Reference fit,C only,Dolní Věstonice I,Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.5448913980699008,61.904761904761905,2.0124718591009034,NA
+Reference fit,C only,Dolní Věstonice II,Funerary,F,Single + multiple,2,1,95.23809523809523,Funerary,0.8797471217553081,100,2.3473275827863107,NA
+Reference fit,C only,El Mirón Cave,Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.7468599814999577,85.71428571428571,0.7207204795310449,NA
+Reference fit,C only,Grotte des Hoteaux,Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.5619798027391663,71.42857142857143,2.029560263770169,NA
+Reference fit,C only,Le Moustier I,Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.18822316447936993,19.047619047619047,1.2793572965516327,NA
+Reference fit,C only,Le Moustier II,Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.04485387431430543,4.761904761904762,1.512434335345308,NA
+Reference fit,C only,Oberkassel,Funerary,F,Multiple inhumation,2,1,95.23809523809523,Funerary,0.2561120273178248,28.57142857142857,1.7236924883488274,NA
+Reference fit,C only,Ojo Guareña,Funerary,F,No inhumation,2,1,95.23809523809523,Funerary,0.44650472483462234,47.61904761904761,1.914085185865625,NA
+Reference fit,C only,Pavlov I,Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.06905633586305138,9.523809523809524,1.536636796894054,NA
+Reference fit,C only,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,F,No inhumation,2,1,95.23809523809523,Funerary,0.5181220087811369,57.14285714285714,1.9857024698121395,NA
+Reference fit,C only,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.2996278283961713,38.095238095238095,1.1679526326348313,NA
+Reference fit,C only,San Juan ante Portam Latinam,Funerary,F,Collective burial,2,1,95.23809523809523,Funerary,0.6927970112120777,76.19047619047619,0.7747834498189249,NA
+Reference fit,C only,Sunghir,Funerary,F,Multiple inhumation,2,1,95.23809523809523,Funerary,0.7529839376797164,90.47619047619048,0.7145965233512862,NA
+Reference fit,C only,Tepecik-Çiftlik,Funerary,F,Collective burial,2,1,95.23809523809523,Funerary,0.2995405179288235,33.33333333333333,1.168039943102179,NA
+Reference fit,C only,Vado all'Arancio,Funerary,F,Single inhumation,2,1,95.23809523809523,Funerary,0.14326525863276052,14.285714285714285,1.324315202398242,NA

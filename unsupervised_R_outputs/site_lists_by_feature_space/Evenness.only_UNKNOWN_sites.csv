@@ -1,0 +1,24 @@
+Dataset,Feature_space,site_name,Cluster_raw,Cluster_zero_based,Cluster_F_percent,Cluster_dominant_class4,Distance_to_centroid,Distance_percentile,PC1,PC2
+Unknown projection,Evenness only,Kleine Feldhofer Grotte,1,0,66.66666666666666,Funerary,0.008953000465556693,4.444444444444445,0.7708120204287918,NA
+Unknown projection,Evenness only,Saint-Césaire,1,0,66.66666666666666,Funerary,0.8257920769418255,100,-0.04602705604747708,NA
+Unknown projection,Evenness only,Sima de los Huesos 15,1,0,66.66666666666666,Funerary,0.23066069718561777,55.55555555555556,1.0104257180799663,NA
+Unknown projection,Evenness only,Sima de los Huesos 24,1,0,66.66666666666666,Funerary,0.22171083843966,55.55555555555556,1.0014758593340085,NA
+Unknown projection,Evenness only,Sima de los Huesos 89,1,0,66.66666666666666,Funerary,0.22775397766115635,55.55555555555556,0.5520110432331922,NA
+Unknown projection,Evenness only,Sima de los Huesos 90,1,0,66.66666666666666,Funerary,0.23650513901372028,55.55555555555556,0.5432598818806282,NA
+Unknown projection,Evenness only,Sima de los Huesos 95,1,0,66.66666666666666,Funerary,0.09184914665168797,24.444444444444443,0.8716141675460365,NA
+Unknown projection,Evenness only,Sima de los Huesos PNAS,1,0,66.66666666666666,Funerary,0.14807682598570604,31.11111111111111,0.9278418468800546,NA
+Unknown projection,Evenness only,Spy cave,1,0,66.66666666666666,Funerary,0.11280850276429033,24.444444444444443,0.6669565181300582,NA
+Unknown projection,Evenness only,Weimar-Ehringsdorf,1,0,66.66666666666666,Funerary,0.6461445561010917,95.55555555555556,0.13362046479325687,NA
+Unknown projection,Evenness only,Bilzingsleben,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Unknown projection,Evenness only,Bolomor Cave,2,1,0,Carnivore-related,0.06039183104736323,3.225806451612903,-1.071525134767014,NA
+Unknown projection,Evenness only,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",2,1,0,Carnivore-related,0.19750550886291562,16.129032258064516,-1.329422474677293,NA
+Unknown projection,Evenness only,Ceprano,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Unknown projection,Evenness only,"Cova de les Malladetes (Barx, Valencia, Spain)",2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Unknown projection,Evenness only,Cova del Parpalló (Parpalló Cave),2,1,0,Carnivore-related,0.6646632321188973,87.09677419354838,-0.46725373369547996,NA
+Unknown projection,Evenness only,Cueva de la Carigüela,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Unknown projection,Evenness only,Engis / Schmerling Cave,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Unknown projection,Evenness only,"Ochoz 1, Ochoz 2",2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Unknown projection,Evenness only,Peștera Muierii,2,1,0,Carnivore-related,0.4526482363698925,80.64516129032258,-0.6792687294444848,NA
+Unknown projection,Evenness only,Scladina Cave,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Unknown projection,Evenness only,Steinheim an der Murr,2,1,0,Carnivore-related,0.24286050066911113,74.19354838709677,-1.3747774664834884,NA
+Unknown projection,Evenness only,Trou de la Naulette,2,1,0,Carnivore-related,0.47214064217153195,83.87096774193549,-0.6597763236428453,NA

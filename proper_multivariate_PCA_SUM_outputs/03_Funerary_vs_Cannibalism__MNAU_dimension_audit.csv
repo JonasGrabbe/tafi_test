@@ -1,0 +1,2 @@
+task,representation,n_sites,n_retained_features,n_to_p_ratio,matrix_rank,transform
+Funerary_vs_Cannibalism,%MNAU,70,14,5,14,raw %MNAU -> prevalence filter -> z-standardization

@@ -1,0 +1,2 @@
+rank,hidden_units,penalty,epochs,.metric,.estimator,mean,n,std_err,.config
+1,4,0.0036209775199330025,554,accuracy,binary,0.6841787439613527,3,0.05519006534298286,pre0_mod1_post0

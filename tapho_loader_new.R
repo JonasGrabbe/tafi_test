@@ -15,6 +15,204 @@ library(tibble)
 library(readxl)
 library(purrr)
 
+####################
+make_tapho_icons <- function(
+  icons = c("🦴", "💀", "🔥", "🪨"),
+  weights = c(4, 3, 2, 1)
+) {
+
+  # --------------------------------------------------
+  # Preserve analytical RNG state
+  # --------------------------------------------------
+
+  had_seed <- exists(
+    ".Random.seed",
+    envir = .GlobalEnv,
+    inherits = FALSE
+  )
+
+  if (had_seed) {
+    old_seed <- get(
+      ".Random.seed",
+      envir = .GlobalEnv
+    )
+  }
+
+  # Independent temporary seed for cosmetic randomness
+  cosmetic_seed <- as.integer(
+    (
+      as.numeric(Sys.time()) * 1000 +
+        Sys.getpid()
+    ) %% .Machine$integer.max
+  )
+
+  set.seed(cosmetic_seed)
+
+
+  # --------------------------------------------------
+  # Pick 2 DISTINCT icon types, weighted
+  # --------------------------------------------------
+
+  selected <- sample(
+    icons,
+    size = 2,
+    replace = FALSE,
+    prob = weights
+  )
+
+
+  # --------------------------------------------------
+  # Pick the dominant one, also weighted
+  # --------------------------------------------------
+
+  dominant <- sample(
+    selected,
+    size = 1,
+    prob = weights[
+      match(selected, icons)
+    ]
+  )
+
+  minor <- setdiff(
+    selected,
+    dominant
+  )
+
+
+  # --------------------------------------------------
+  # Exactly 9 dominant + 1 minor,
+  # randomly positioned
+  # --------------------------------------------------
+
+  icon_sequence <- c(
+    rep(dominant, 9),
+    minor
+  )
+
+  icon_sequence <- sample(
+    icon_sequence
+  )
+
+
+  # --------------------------------------------------
+  # Restore analytical RNG exactly as it was
+  # --------------------------------------------------
+
+  if (had_seed) {
+
+    assign(
+      ".Random.seed",
+      old_seed,
+      envir = .GlobalEnv
+    )
+
+  } else if (
+    exists(
+      ".Random.seed",
+      envir = .GlobalEnv,
+      inherits = FALSE
+    )
+  ) {
+
+    rm(
+      ".Random.seed",
+      envir = .GlobalEnv
+    )
+  }
+
+
+  return(icon_sequence)
+}
+
+##### 
+make_tapho_status <- function(
+  i,
+  n,
+  site = "",
+  icons,
+  label = "Tapho-loading"
+) {
+
+  progress <- i / n
+  percent <- round(progress * 100)
+
+
+  # --------------------------------------------------
+  # 0% = 1 icon
+  # 100% = all 10 icons
+  # --------------------------------------------------
+
+  icon_steps <- 1 + floor(
+    progress * (length(icons) - 1)
+  )
+
+  icon_steps <- max(
+    1,
+    min(
+      length(icons),
+      icon_steps
+    )
+  )
+
+
+  # --------------------------------------------------
+  # Visible icons
+  # --------------------------------------------------
+
+  icon_progress <- paste0(
+    icons[seq_len(icon_steps)],
+    collapse = ""
+  )
+
+
+  # --------------------------------------------------
+  # Keep icon field width constant
+  # --------------------------------------------------
+
+  full_icons <- paste0(
+    icons,
+    collapse = ""
+  )
+
+  full_width <- nchar(
+    full_icons,
+    type = "width"
+  )
+
+  current_width <- nchar(
+    icon_progress,
+    type = "width"
+  )
+
+  icon_field <- paste0(
+    icon_progress,
+    strrep(
+      " ",
+      max(
+        0,
+        full_width - current_width
+      )
+    )
+  )
+
+
+  # --------------------------------------------------
+  # Status
+  # --------------------------------------------------
+
+  sprintf(
+    "%s (%3d%%):  %s  %d / %d sites · %s",
+    label,
+    percent,
+    icon_field,
+    i,
+    n,
+    site
+  )
+}
+####################
+
+
 summarize_bone_sections_zero_na <- function(input_df,
   method = "min",
   meta) {
@@ -70,16 +268,83 @@ summarize_bone_sections_zero_na <- function(input_df,
 
 
 distribute_surplus <- function(counts, max_counts, n_indet) {
-  if (n_indet == 0) return(counts)
-  open_slots <- max_counts - counts
-  if (sum(open_slots, na.rm=TRUE) < as.numeric(n_indet))
-    stop("Not enough open slots to place all indeterminate specimens.")
-  slot_pool <- rep(seq_along(counts), times = open_slots)
-  chosen    <- sample(slot_pool, size = n_indet, replace = FALSE)
-  for (i in chosen) counts[i] <- counts[i] + 1
+
+  counts     <- as.integer(counts)
+  max_counts <- as.integer(max_counts)
+  n_indet    <- as.integer(n_indet)
+
+  if (length(counts) != length(max_counts)) {
+    stop(
+      "counts and max_counts must have the same length.",
+      call. = FALSE
+    )
+  }
+
+  if (anyNA(counts) || anyNA(max_counts) || is.na(n_indet)) {
+    stop(
+      "counts, max_counts and n_indet must not contain NA.",
+      call. = FALSE
+    )
+  }
+
+  if (n_indet < 0L) {
+    stop(
+      "n_indet cannot be negative.",
+      call. = FALSE
+    )
+  }
+
+  # Existing data must already fit anatomical capacity.
+  over <- which(counts > max_counts)
+
+  if (length(over) > 0L) {
+    stop(
+      "\nExisting count exceeds anatomical capacity.",
+      "\ncounts: ", paste(counts, collapse = ", "),
+      "\nmax_counts: ", paste(max_counts, collapse = ", "),
+      "\nover-capacity positions: ", paste(over, collapse = ", "),
+      call. = FALSE
+    )
+  }
+
+  if (n_indet == 0L) {
+    return(counts)
+  }
+
+  open_slots <- pmax(
+    0L,
+    max_counts - counts
+  )
+
+  if (sum(open_slots) < n_indet) {
+    stop(
+      "\nNot enough anatomical capacity to distribute indeterminate specimens.",
+      "\ncounts: ", paste(counts, collapse = ", "),
+      "\nmax_counts: ", paste(max_counts, collapse = ", "),
+      "\nopen_slots: ", paste(open_slots, collapse = ", "),
+      "\nn_indet: ", n_indet,
+      "\ntotal_open_slots: ", sum(open_slots),
+      call. = FALSE
+    )
+  }
+
+  slot_pool <- rep(
+    seq_along(counts),
+    times = open_slots
+  )
+
+  chosen <- sample(
+    slot_pool,
+    size = n_indet,
+    replace = FALSE
+  )
+
+  for (i in chosen) {
+    counts[i] <- counts[i] + 1L
+  }
+
   counts
 }
-
 collapse_up_step <- function(data, part, current_level, target_level) {
   key <- paste0(part, "_", current_level, "_to_", target_level)
   if (!key %in% names(category_hierarchy)) stop("Missing mapping: ", key)
@@ -126,7 +391,7 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
   mapping      <- category_hierarchy[[key]]
   level_label  <- paste0("Level ", target_level)
   level_maxima <- skeleton_hierarchy[[section_name]][[level_label]]
-#print(level_maxima)
+
   new_rows <- purrr::map_dfr(names(mapping), function(parent_elem) {
 
     parent_clean <- gsub(" ", ".", parent_elem)
@@ -145,56 +410,75 @@ collapse_down_step <- function(data, part, current_level, target_level,section_n
 
     max_counts <- purrr::map_int(real_children, \(ch) {
       base <- level_maxima[[ch]]
-     # print("###############################    WTF      ########################################")
-     # print("base :")
-     # print(str(base))
-     # print(base)
-     # print("MNI : ")
-     # print(str(MNI))
-     # print(MNI)
-     # print("#######################################################################")
       if (is.null(base)) 0L else as.integer(base * MNI)
     })
 
 
   if (length(real_children) == 1 && real_children[1] == parent_clean) {
-    #if (part == "pelvic") {print("Pelvic: length(real_children) == 1 && real_children[1] == parent_clean") 
-     # print(real_children)}
+
             return(tibble(std_element = real_children, count = as.integer(parent_count)))
       }
 
-    surplus      <- max(0L, parent_count) # no double - sum(existing_counts))
-    if (part == "legs") {
-        print(part)
-        print(existing_counts) 
-        print(max_counts) 
-        print(surplus)
-    }
+    #old : surplus      <- max(0L, parent_count) # no double - sum(existing_counts))
+    surplus <- max(
+      0L,
+      as.integer(parent_count) -
+        sum(existing_counts, na.rm = TRUE)
+    )
 
-    open_slots <- max_counts - existing_counts
+# Existing children must already respect anatomical capacity.
+over <- which(existing_counts > max_counts)
 
-if (sum(open_slots, na.rm = TRUE) < surplus) {
+if (length(over) > 0L) {
+
   stop(
-    "\nCannot distribute surplus.",
+    "\nExisting child count exceeds anatomical capacity.",
     "\nkey: ", key,
     "\npart: ", part,
     "\ncurrent_level: ", current_level,
     "\ntarget_level: ", target_level,
     "\nparent_elem: ", parent_elem,
-    "\nparent_clean: ", parent_clean,
+    "\nchildren: ", paste(real_children, collapse = ", "),
+    "\nexisting_counts: ", paste(existing_counts, collapse = ", "),
+    "\nmax_counts: ", paste(max_counts, collapse = ", "),
+    "\nover-capacity children: ",
+      paste(real_children[over], collapse = ", "),
+    "\nMNI: ", MNI,
+    call. = FALSE
+  )
+}
+
+open_slots <- pmax(
+  0L,
+  max_counts - existing_counts
+)
+
+if (sum(open_slots) < surplus) {
+
+  stop(
+    "\nCannot distribute parent surplus.",
+    "\nkey: ", key,
+    "\npart: ", part,
+    "\ncurrent_level: ", current_level,
+    "\ntarget_level: ", target_level,
+    "\nparent_elem: ", parent_elem,
     "\nchildren: ", paste(real_children, collapse = ", "),
     "\nparent_count: ", parent_count,
     "\nexisting_counts: ", paste(existing_counts, collapse = ", "),
     "\nmax_counts: ", paste(max_counts, collapse = ", "),
     "\nopen_slots: ", paste(open_slots, collapse = ", "),
     "\nsurplus: ", surplus,
+    "\nMNI: ", MNI,
     call. = FALSE
   )
 }
 
-    #print(part)
-    final_counts <- distribute_surplus(existing_counts, max_counts, surplus)
-    #if (part == "pelvic") {}
+final_counts <- distribute_surplus(
+  existing_counts,
+  max_counts,
+  surplus
+)
+    
 
     tibble(std_element = real_children, count = final_counts)
   })
@@ -202,10 +486,7 @@ if (sum(open_slots, na.rm = TRUE) < surplus) {
   parent_names <- gsub(" ", ".", names(mapping))
   child_names <- unique(gsub(" ", ".", unlist(mapping)))
   child_names <- drop_indet_if_possible(child_names)
-  #if (part == "pelvic") {print("Pelvic: child_names & parent_names ") 
-  #print(parent_names)
-  #  print(child_names)
-  #}
+
   data %>%
     filter(!std_element %in% c(parent_names, child_names)) %>%
     bind_rows(new_rows)
@@ -215,8 +496,7 @@ if (sum(open_slots, na.rm = TRUE) < surplus) {
 is_special <- function(part) part %in% c("pelvic", "cranium")
 
 recal_mne_six <- function(current_mne, bone_names, target_levels, MNI) {
-  print("six")
-  print(names(elements_data))
+
     max_levels <- c(5, 5, 1, 3, 4, 3, 3, 5, 4, 3, 5)
     min_levels <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
     working_base <- tibble(count = current_mne, element = bone_names) %>%
@@ -235,9 +515,7 @@ recal_mne_six <- function(current_mne, bone_names, target_levels, MNI) {
     # Pass 1 — collapse from finest detail down to target
     while (current_max > tgt) {
     step_up_level <- current_max - 1
-    #print("up: from to ")
-    #print(current_max)
-    #print(step_up_level)
+
       if (is_special(part)){
         data <- collapse_up_step_special(data, part,
           current_level = current_max,
@@ -248,14 +526,12 @@ recal_mne_six <- function(current_mne, bone_names, target_levels, MNI) {
                 current_level = current_max,
                 target_level  = step_up_level)}
     current_max <- current_max - 1
-    #print(data, n=42)
+
     }
 
     # Pass 2 — expand from coarsest detail up to target
     while (current_min < tgt) {
-      #print("down: from to ")
-       #   print(current_min)
-    #print(current_min + 1)
+
     if (is_special(part)){   
           data <- collapse_down_step_special(data, part,
                         current_level = current_min,
@@ -270,8 +546,7 @@ recal_mne_six <- function(current_mne, bone_names, target_levels, MNI) {
                 MNI           = MNI)}
     current_min <- current_min + 1
     
-    #print(data, n=42)
-   # if (part == "pelvic") { print(data$)}
+
     }
 
     data
@@ -346,7 +621,7 @@ tapho.load <- function( data,
                                         indet_method = indet_method,
                                         fragments_per_bone = fragments_per_bone)
 
-  #print(new_site_raw)
+
 
   # Step 3: Resolve level — compute or use provided
   if (is.null(target_levels)) {
@@ -357,14 +632,6 @@ tapho.load <- function( data,
     )
   }
 
-
-  #print("########################################### tapho-r loader function sum=0 ##############")
-  #print(new_site_raw$count)
-  #print("########################################### tapho-r loader function sum=0 ##############")
-
-  #mni <- new_site_data[18,2]
-  #mni <- suppressWarnings(as.numeric(new_site_data$count[18]))
-
   recalc_new_site_raw <- recal_mne_six(
     current_mne = as.numeric(new_site_raw$count),
     bone_names = new_site_raw$element,
@@ -372,13 +639,10 @@ tapho.load <- function( data,
     MNI = MNI
   )
 
-  #print("########################################### tapho-r loader function sum=0 ##############")
-  #print(recalc_new_site_raw)
-  #print("########################################### tapho-r loader function sum=0 ##############")
+
 
   one_skeleton <- get_bones_dataframe(target_levels)
-  #(one_skeleton)
-  # print(recalc_new_site_raw)
+
   data_aligned <- align_counts_to_skeleton(
     one_skeleton$element,
     recalc_new_site_raw$element,
@@ -440,48 +704,190 @@ tapho.load.db <- function(data,
 library(dplyr)
 
 # Define the function to read an Excel file with multiple sheets
-read_excel_sheets <- function(file_path, 
-                              level        = NULL,
-                              calc_level   = c("min", "max", "mode"),
-                              indet        = TRUE,
-                              indet_method = c("up", "dist", "delet"),
-                              fragments_per_bone = 3,
-                              meta
+read_excel_sheets <- function(
+  file_path,
+  level = NULL,
+  calc_level = c("min", "max", "mode"),
+  indet = TRUE,
+  indet_method = c("up", "dist", "delet"),
+  fragments_per_bone = 3,
+  meta,
+  verbose = TRUE
 ) {
-  
-  # Get all sheet names in the Excel file
-  sheet_names <- readxl::excel_sheets(file_path)
-  #print(sheet_names)
-  # Read each sheet, process it, and store in a list
-  processed_list <- lapply(sheet_names, function(sname) {
-    print(sname)
-    # Read the current sheet
-    sheet_data <- readxl::read_excel(file_path, sheet = sname)
-    
-    # Process it using your tapho.load.db() function
-    processed_sheet <- tapho.load.db(
-                                        data         = sheet_data,
-                                        level        = level,
-                                        calc_level   = calc_level,
-                                        indet        = indet,
-                                        indet_method = indet_method,
-                                        fragments_per_bone = fragments_per_bone,
-                                        meta
+
+  # --------------------------------------------------
+  # Get Excel sheets
+  # --------------------------------------------------
+
+  sheet_names <- readxl::excel_sheets(
+    file_path
+  )
+
+  n_sheets <- length(
+    sheet_names
+  )
+
+  total_start <- Sys.time()
+
+
+  # --------------------------------------------------
+  # Create ONE random icon sequence for this run
+  # --------------------------------------------------
+
+  run_icons <- make_tapho_icons()
+
+
+  # --------------------------------------------------
+  # Initial progress line
+  # --------------------------------------------------
+
+  if (verbose) {
+
+    status_line <- make_tapho_status(
+      i = 0,
+      n = n_sheets,
+      site = "starting...",
+      icons = run_icons
     )
-      
-    
-    
-    # Optionally, you might want to keep track of which sheet it came from
-    # processed_sheet <- processed_sheet %>% 
-    #   mutate(sheet_name = sname)
-    
-    processed_sheet
-  })
-  
-  # Combine all processed sheets into one tibble
-  combined_df <- bind_rows(processed_list)
-  
-  return(combined_df)
+
+    cat(
+      "\r",
+      status_line,
+      sep = ""
+    )
+
+    flush.console()
+  }
+
+
+  # --------------------------------------------------
+  # Process sheets
+  # --------------------------------------------------
+
+  processed_list <- lapply(
+    seq_along(sheet_names),
+    function(i) {
+
+      sname <- sheet_names[i]
+
+
+      # ----------------------------------------------
+      # Read Excel sheet
+      # ----------------------------------------------
+
+      sheet_data <- readxl::read_excel(
+        file_path,
+        sheet = sname
+      )
+
+
+      # ----------------------------------------------
+      # TAPHO processing
+      # ----------------------------------------------
+
+      processed_sheet <- tapho.load.db(
+        data = sheet_data,
+        level = level,
+        calc_level = calc_level,
+        indet = indet,
+        indet_method = indet_method,
+        fragments_per_bone =
+          fragments_per_bone,
+        meta = meta
+      )
+
+
+      # ----------------------------------------------
+      # Update SAME console line
+      # ----------------------------------------------
+
+      if (verbose) {
+
+        status_line <- make_tapho_status(
+          i = i,
+          n = n_sheets,
+          site = sname,
+          icons = run_icons
+        )
+
+        # \r returns cursor to beginning
+        # No \n here: stay on same line
+        cat(
+          "\r",
+          status_line,
+          sep = ""
+        )
+
+        flush.console()
+      }
+
+
+      processed_sheet
+    }
+  )
+
+
+  # --------------------------------------------------
+  # Total elapsed time
+  # --------------------------------------------------
+
+  total_time <- as.numeric(
+    difftime(
+      Sys.time(),
+      total_start,
+      units = "secs"
+    )
+  )
+
+
+  # --------------------------------------------------
+  # Final permanent line
+  # --------------------------------------------------
+
+  if (verbose) {
+
+    final_icons <- paste0(
+      run_icons,
+      collapse = ""
+    )
+
+    final_line <- sprintf(
+      paste0(
+        "Tapho-loaded: ",
+        "%s  ",
+        "%d / %d sites · ",
+        "finished in %.1f sec"
+      ),
+      final_icons,
+      n_sheets,
+      n_sheets,
+      total_time
+    )
+
+    # Overwrite current progress line
+    # and finally add newline
+    cat(
+      "\r",
+      final_line,
+      "\n",
+      sep = ""
+    )
+
+    flush.console()
+  }
+
+
+  # --------------------------------------------------
+  # Combine sheets
+  # --------------------------------------------------
+
+  combined_df <- dplyr::bind_rows(
+    processed_list
+  )
+
+  return(
+    combined_df
+  )
 }
 
 #______ append mne derived var data __________
@@ -539,8 +945,13 @@ tapho.loader.v1 <- function(
 
 #_________________________________   META ENV   _____________________________________
   
-meta_set(indet)          # initial load
-on.exit(detach("meta_env"), add = TRUE)  # keep this for cleanup
+meta <- meta_set(indet)
+
+on.exit({
+  if ("meta_env" %in% search()) {
+    detach("meta_env")
+  }
+}, add = TRUE)
  
 #_______________________________________________________________________________________
 
@@ -560,7 +971,7 @@ on.exit(detach("meta_env"), add = TRUE)  # keep this for cleanup
     fragments_per_bone = fragments_per_bone,
     meta
   )
-  #print(db[,c(1:5,33:36)], n=26)
+  
   # If sum = TRUE and "site_id" not already in group_by, prepend it
 if (sum) {
   if (is.null(group_by)) {
@@ -612,12 +1023,6 @@ if (sum) {
   
  db <- data %>%
   filter(!Skeleton_Section %in% exclude_sections)
-  #print(data)
-  #print(input_df)
-  #print(add_bone_info(input_df = input_df))
-  #print(length(db$element[1]))
-  #print(length(db$count[1]))
-  #
 
   # take index of teeth and delet in list element and list count and list one_skeleton
   
@@ -633,8 +1038,6 @@ if (sum) {
   #individuals = MNI
   #)
   
-  #tb db-plus append var_db. 
-   #print(colnames(var_db))
   
    results_list <- lapply(seq_len(nrow(db)), function(i) {
   
@@ -643,8 +1046,7 @@ if (sum) {
       element = db[i, ]$element[[1]],
       count   = db[i, ]$count[[1]]
     )
-    #print(length(input_df$element))
-    #print(length(input_df$count))
+
     # Join bone info
     data <- input_df %>%
       left_join(
@@ -664,9 +1066,7 @@ if (sum) {
       skeleton   = skeleton,
       individuals = MNI
     )
-    print("test lenght elemen & count : ")
-    print(length(var_db$MNE[[1]]))
-     print(length(data$element))
+
     var_db
    })
   db <- db %>%
@@ -688,7 +1088,7 @@ if (sum) {
       OverallProportionalRep_assemblage = lapply(mne_features, `[[`, "OverallProportionalRep_assemblage")
     ) %>%
     select(-mne_features)  # drop the nested tibble column
- #print(results_list)
+
   return(db)
 }
 
@@ -745,12 +1145,12 @@ tapho.loader.v2 <- function(
     fragments_per_bone = fragments_per_bone,
     meta               = meta
   )
-print(db)
+
   # ── Stage 2: Group and aggregate by site (and optional extra variables) ────
   if (sum) {
     group_by <- if (is.null(group_by)) "site_id" else union("site_id", group_by)
   }
-  print(db$site_id)
+
   db <- select_and_group_by(
     data         = db,
     group_by     = group_by,
@@ -831,11 +1231,17 @@ tapho.loader.wfl <- function(
 ) {
 
   # ── Setup ──────────────────────────────────────────────────────────────────
-  meta_set(indet)
-  on.exit(detach("meta_env"), add = TRUE)
+  meta <- meta_set(indet)
 
-  calc_level   <- match.arg(calc_level)
-  indet_method <- match.arg(indet_method)
+  on.exit({
+    if ("meta_env" %in% search()) {
+      detach("meta_env")
+    }
+  }, add = TRUE)
+  
+  calc_level    <- match.arg(calc_level)
+  indet_method  <- match.arg(indet_method)
+  recalc_method <- match.arg(recalc_method)
 
   # ── Stage 1: Load and parse all Excel sheets ───────────────────────────────
   db <- read_excel_sheets(
@@ -986,7 +1392,8 @@ tapho.loader.v3 <- function(
   group_by          = NULL,
   select            = NULL,
   fragments_per_bone = 3,
-  exclude_sections  = c("teeth")
+  exclude_sections  = c("teeth"),
+  verbose            = TRUE
 ) {
 
   # ── Setup ──────────────────────────────────────────────────────────────────
@@ -1007,14 +1414,12 @@ tapho.loader.v3 <- function(
     meta               = meta
   )
 
-  print(db)
 
   # ── Stage 2: Group and aggregate by site and optional extra variables ──────
   if (sum) {
     group_by <- if (is.null(group_by)) "site_id" else union("site_id", group_by)
   }
 
-  print(db$site_id)
 
   db <- select_and_group_by(
     data         = db,
@@ -1142,12 +1547,17 @@ tapho.loader.v3 <- function(
     group_by          = NULL,
     select            = NULL,
     fragments_per_bone = 3,
-    exclude_sections  = c("teeth")
+    exclude_sections  = c("teeth"),
+    verbose            = TRUE
   ) {
   
     # ── Setup ──────────────────────────────────────────────────────────────────
-    meta_set(indet)
-    on.exit(detach("meta_env"), add = TRUE)
+    meta <- meta_set(indet)
+    on.exit({
+      if ("meta_env" %in% search()) {
+        detach("meta_env")
+      }
+    }, add = TRUE)
   
     calc_level    <- match.arg(calc_level)
     indet_method  <- match.arg(indet_method)
@@ -1161,17 +1571,34 @@ tapho.loader.v3 <- function(
       indet              = indet,
       indet_method       = indet_method,
       fragments_per_bone = fragments_per_bone,
-      meta               = meta
+      meta               = meta,
+      verbose = verbose
     )
   
-    print(db)
+###################
+library(dplyr)
+library(tidyr)
+print(colnames(db))
+print(db$bone.level)
+bone_level_out <- do.call(rbind, db$bone.level)
+
+bone_level_out <- as.data.frame(bone_level_out)
+
+names(bone_level_out) <- paste0("bone.level_", 1:11)
+
+write.csv(
+  bone_level_out,
+  "bone_levels_2.csv",
+  row.names = FALSE
+)
+###################    
   
     # ── Stage 2: Group and aggregate by site and optional extra variables ──────
     if (sum) {
       group_by <- if (is.null(group_by)) "site_id" else union("site_id", group_by)
     }
   
-    print(db$site_id)
+
   
     db <- select_and_group_by(
       data         = db,

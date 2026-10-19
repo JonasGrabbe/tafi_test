@@ -79,8 +79,8 @@ pca_surface_plot <- function(tapho_db,
                              grid_n      = 200,         # cells per axis
                              seed        = 42,
                              unknown_sites = NULL,      # only plot these site_names (NULL = all)
-                             pc2_max     =  2,
-                             pc2_min     = -2,          # crop PC2 below this (NULL = no crop)
+                             pc2_max     =  NULL,
+                             pc2_min     = NULL,          # crop PC2 below this (NULL = no crop)
                              out_plot    = "pca_funerary_surface.png") {
 
   set.seed(seed)
@@ -764,7 +764,7 @@ pca_surface_plotly_ind <- function(tapho_db,
   pc1_min = NULL,
   pc1_max = NULL,
   pc2_min = NULL,
-  pc2_max = NULL,
+  pc2_max = 5,
   pc3_min = NULL,
   pc3_max = NULL,
 

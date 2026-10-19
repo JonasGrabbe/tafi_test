@@ -1,0 +1,412 @@
+site_id,site_name,assignment_site_name,C_group,G_group,matched_assignment,site_name_agrees
+1,Abri Pataud,Abri Pataud,C2,G3,TRUE,TRUE
+1,Abri Pataud,Abri Pataud,C2,G3,TRUE,TRUE
+1,Abri Pataud,Abri Pataud,C2,G3,TRUE,TRUE
+1,Abri Pataud,Abri Pataud,C2,G3,TRUE,TRUE
+1,Abri Pataud,Abri Pataud,C2,G3,TRUE,TRUE
+1,Abri Pataud,Abri Pataud,C2,G3,TRUE,TRUE
+2,Aie Zelai,NA,NA,NA,FALSE,TRUE
+3,Aitzgaizto,NA,NA,NA,FALSE,TRUE
+4,Allekoaitze,NA,NA,NA,FALSE,TRUE
+5,Amud Cave,Amud Cave,C4,G5,TRUE,TRUE
+5,Amud Cave,Amud Cave,C4,G5,TRUE,TRUE
+5,Amud Cave,Amud Cave,C4,G5,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+6,Arago,Arago,C1,G1,TRUE,TRUE
+7,Arbelaitz,NA,NA,NA,FALSE,TRUE
+8,Archi,Archi,C1,G0,TRUE,TRUE
+9,Atxuri-I Cave,Atxuri-I Cave,C2,G2,TRUE,TRUE
+9,Atxuri-I Cave,Atxuri-I Cave,C2,G2,TRUE,TRUE
+10,Baousso da Torre (Bausu da Ture),Baousso da Torre (Bausu da Ture),C4,G5,TRUE,TRUE
+10,Baousso da Torre (Bausu da Ture),Baousso da Torre (Bausu da Ture),C4,G5,TRUE,TRUE
+11,Belako Arkaitza 1,NA,NA,NA,FALSE,TRUE
+12,Beondegi II,NA,NA,NA,FALSE,TRUE
+13,Bilzingsleben,NA,NA,NA,FALSE,TRUE
+14,Bolomor Cave,NA,NA,NA,FALSE,TRUE
+15,Brillenhöhle,Brillenhöhle,C2,G1,TRUE,TRUE
+16,Brno II,Brno II,C1,G5,TRUE,TRUE
+17,Cueva de la Carigüela,NA,NA,NA,FALSE,TRUE
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",NA,NA,NA,FALSE,TRUE
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",NA,NA,NA,FALSE,TRUE
+19,Ceprano,NA,NA,NA,FALSE,TRUE
+20,Abri de Raymonden (Chancelade),Abri de Raymonden (Chancelade),C5,G5,TRUE,TRUE
+21,Combe Grenal,Combe Grenal,C1,G1,TRUE,TRUE
+22,Cova del Parpalló (Parpalló Cave),NA,NA,NA,FALSE,TRUE
+22,Cova del Parpalló (Parpalló Cave),NA,NA,NA,FALSE,TRUE
+23,Cova Gran de Santa Linya,Cova Gran de Santa Linya,C4,G5,TRUE,TRUE
+24,Cro-Magnon I,Cro-Magnon I,C1,G3,TRUE,TRUE
+25,Crow Creek,Crow Creek,C2,G3,TRUE,TRUE
+25,Crow Creek,Crow Creek,C2,G3,TRUE,TRUE
+26,Cueva de la Buena Pinta,NA,NA,NA,FALSE,TRUE
+27,Cueva del Camino,NA,NA,NA,FALSE,TRUE
+28,Dali Tianshuigou,Dali Tianshuigou,C1,G0,TRUE,TRUE
+29,Dame du Cavillon,Dame du Cavillon,C5,G5,TRUE,TRUE
+30,Dolní Věstonice II,Dolní Věstonice II,C5,G4,TRUE,TRUE
+30,Dolní Věstonice II,Dolní Věstonice II,C5,G4,TRUE,TRUE
+30,Dolní Věstonice II,Dolní Věstonice II,C5,G4,TRUE,TRUE
+30,Dolní Věstonice II,Dolní Věstonice II,C5,G4,TRUE,TRUE
+31,Dolní Věstonice I,Dolní Věstonice I,C5,G5,TRUE,TRUE
+32,El Espinoso Cave,El Espinoso Cave,C3,G3,TRUE,TRUE
+33,El Mirador,El Mirador,C1,G1,TRUE,TRUE
+34,El Mirón Cave,El Mirón Cave,C3,G5,TRUE,TRUE
+35,El Sidrón J1,El Sidrón J1,C5,G1,TRUE,TRUE
+36,Engis / Schmerling Cave,NA,NA,NA,FALSE,TRUE
+37,Erlaitz,NA,NA,NA,FALSE,TRUE
+38,Errtxorta,NA,NA,NA,FALSE,TRUE
+39,Kleine Feldhofer Grotte,NA,NA,NA,FALSE,TRUE
+40,Grotte de Fontbrégoua,Grotte de Fontbrégoua,C1,G1,TRUE,TRUE
+41,Grotte de Fontbrégoua,Grotte de Fontbrégoua,C2,G1,TRUE,TRUE
+42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Première Caverne du Bay-Bonnet (Fonds-de-Forêt),C1,G0,TRUE,TRUE
+43,Cova Foradada,Cova Foradada,C3,G4,TRUE,TRUE
+44,Cova Foradada,Cova Foradada,C3,G3,TRUE,TRUE
+45,Cova del Gegant,Cova del Gegant,C1,G0,TRUE,TRUE
+45,Cova del Gegant,Cova del Gegant,C1,G0,TRUE,TRUE
+45,Cova del Gegant,Cova del Gegant,C1,G0,TRUE,TRUE
+45,Cova del Gegant,Cova del Gegant,C1,G0,TRUE,TRUE
+46,Gough's Cave,Gough's Cave,C1,G1,TRUE,TRUE
+46,Gough's Cave,Gough's Cave,C1,G1,TRUE,TRUE
+46,Gough's Cave,Gough's Cave,C1,G1,TRUE,TRUE
+46,Gough's Cave,Gough's Cave,C1,G1,TRUE,TRUE
+46,Gough's Cave,Gough's Cave,C1,G1,TRUE,TRUE
+46,Gough's Cave,Gough's Cave,C1,G1,TRUE,TRUE
+46,Gough's Cave,Gough's Cave,C1,G1,TRUE,TRUE
+47,Troisième caverne of Goyet,Troisième caverne of Goyet,C2,G1,TRUE,TRUE
+47,Troisième caverne of Goyet,Troisième caverne of Goyet,C2,G1,TRUE,TRUE
+48,Gran Dolina,Gran Dolina,C2,G1,TRUE,TRUE
+49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)","Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",C1,G0,TRUE,TRUE
+50,Grotte du Bison (Arcy-sur-Cure),Grotte du Bison (Arcy-sur-Cure),C1,G0,TRUE,TRUE
+51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga","Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",C1,G0,TRUE,TRUE
+52,Grotta Guattari,Grotta Guattari,C1,G0,TRUE,TRUE
+53,Hahnöfersand,Hahnöfersand,C1,G0,TRUE,TRUE
+54,Hathnora,Hathnora,C1,G0,TRUE,TRUE
+55,Herxheim,Herxheim,C2,G1,TRUE,TRUE
+55,Herxheim,Herxheim,C2,G1,TRUE,TRUE
+55,Herxheim,Herxheim,C2,G1,TRUE,TRUE
+56,Hohlenstein-Stadel,Hohlenstein-Stadel,C1,G0,TRUE,TRUE
+57,Jarama VI rockshelter,Jarama VI rockshelter,C1,G0,TRUE,TRUE
+58,Kajiado,Kajiado,C1,G0,TRUE,TRUE
+59,Kalamakia,Kalamakia,C1,G0,TRUE,TRUE
+60,Kebara Cave,Kebara Cave,C5,G5,TRUE,TRUE
+61,Kiik-Koba,Kiik-Koba,C4,G5,TRUE,TRUE
+61,Kiik-Koba,Kiik-Koba,C4,G5,TRUE,TRUE
+62,Koba Lotx,NA,NA,NA,FALSE,TRUE
+63,Koba Zarra,NA,NA,NA,FALSE,TRUE
+64,Kobazar,NA,NA,NA,FALSE,TRUE
+65,Krapina,Krapina,C2,G1,TRUE,TRUE
+66,La Chapelle-aux-Saints,La Chapelle-aux-Saints,C5,G5,TRUE,TRUE
+67,La Ferrassie,La Ferrassie,C4,G4,TRUE,TRUE
+67,La Ferrassie,La Ferrassie,C4,G4,TRUE,TRUE
+67,La Ferrassie,La Ferrassie,C4,G4,TRUE,TRUE
+67,La Ferrassie,La Ferrassie,C4,G4,TRUE,TRUE
+67,La Ferrassie,La Ferrassie,C4,G4,TRUE,TRUE
+67,La Ferrassie,La Ferrassie,C4,G4,TRUE,TRUE
+67,La Ferrassie,La Ferrassie,C4,G4,TRUE,TRUE
+67,La Ferrassie,La Ferrassie,C4,G4,TRUE,TRUE
+67,La Ferrassie,La Ferrassie,C4,G4,TRUE,TRUE
+68,Trou de la Naulette,NA,NA,NA,FALSE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+69,La Quina,La Quina,C1,G2,TRUE,TRUE
+70,La Tolita Cama de Huesos,La Tolita Cama de Huesos,C4,G3,TRUE,TRUE
+70,La Tolita Cama de Huesos,La Tolita Cama de Huesos,C4,G3,TRUE,TRUE
+71,Abrigo do Lagar Velho,Abrigo do Lagar Velho,C5,G5,TRUE,TRUE
+72,Larrabiel,NA,NA,NA,FALSE,TRUE
+73,Le Moustier I,Le Moustier I,C4,G5,TRUE,TRUE
+74,Le Moustier II,Le Moustier II,C5,G5,TRUE,TRUE
+75,Le Placard,Le Placard,C1,G1,TRUE,TRUE
+76,Les Pradelles (Marillac-le-Franc),Les Pradelles (Marillac-le-Franc),C1,G0,TRUE,TRUE
+77,Les Rochers-de-Villeneuve,Les Rochers-de-Villeneuve,C1,G0,TRUE,TRUE
+78,Grotte des Hoteaux,Grotte des Hoteaux,C5,G5,TRUE,TRUE
+79,Cueva de Malalmuerzo,Cueva de Malalmuerzo,C4,G1,TRUE,TRUE
+80,"Cova de les Malladetes (Barx, Valencia, Spain)",NA,NA,NA,FALSE,TRUE
+81,Mancos 5MT-10010 Feature 3,Mancos 5MT-10010 Feature 3,C3,G1,TRUE,TRUE
+82,Yellow Jacket 5MT-3,Yellow Jacket 5MT-3,C3,G1,TRUE,TRUE
+83,Manot Cave,Manot Cave,C1,G1,TRUE,TRUE
+84,Marizulo I,NA,NA,NA,FALSE,TRUE
+84,Marizulo I,NA,NA,NA,FALSE,TRUE
+85,Maszycka Cave,Maszycka Cave,C1,G1,TRUE,TRUE
+86,Mauer,Mauer,C1,G0,TRUE,TRUE
+87,Mladeč Caves,Mladeč Caves,C2,G2,TRUE,TRUE
+88,Mojokerto,Mojokerto,C1,G0,TRUE,TRUE
+89,Los Moros de Gabasa,Los Moros de Gabasa,C1,G0,TRUE,TRUE
+90,Moula-Guercy,Moula-Guercy,C1,G1,TRUE,TRUE
+90,Moula-Guercy,Moula-Guercy,C1,G1,TRUE,TRUE
+90,Moula-Guercy,Moula-Guercy,C1,G1,TRUE,TRUE
+90,Moula-Guercy,Moula-Guercy,C1,G1,TRUE,TRUE
+90,Moula-Guercy,Moula-Guercy,C1,G1,TRUE,TRUE
+90,Moula-Guercy,Moula-Guercy,C1,G1,TRUE,TRUE
+90,Moula-Guercy,Moula-Guercy,C1,G1,TRUE,TRUE
+90,Moula-Guercy,Moula-Guercy,C1,G1,TRUE,TRUE
+91,Mugharet es-Skhul,Mugharet es-Skhul,C4,G5,TRUE,TRUE
+91,Mugharet es-Skhul,Mugharet es-Skhul,C4,G5,TRUE,TRUE
+91,Mugharet es-Skhul,Mugharet es-Skhul,C4,G5,TRUE,TRUE
+91,Mugharet es-Skhul,Mugharet es-Skhul,C4,G5,TRUE,TRUE
+91,Mugharet es-Skhul,Mugharet es-Skhul,C4,G5,TRUE,TRUE
+91,Mugharet es-Skhul,Mugharet es-Skhul,C4,G5,TRUE,TRUE
+91,Mugharet es-Skhul,Mugharet es-Skhul,C4,G5,TRUE,TRUE
+91,Mugharet es-Skhul,Mugharet es-Skhul,C4,G5,TRUE,TRUE
+91,Mugharet es-Skhul,Mugharet es-Skhul,C4,G5,TRUE,TRUE
+91,Mugharet es-Skhul,Mugharet es-Skhul,C4,G5,TRUE,TRUE
+92,Peștera Muierii,NA,NA,NA,FALSE,TRUE
+92,Peștera Muierii,NA,NA,NA,FALSE,TRUE
+93,Naparraitz I,NA,NA,NA,FALSE,TRUE
+94,Netankheri,Netankheri,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+95,Ngandong,Ngandong,C1,G0,TRUE,TRUE
+96,Ngawi,Ngawi,C1,G0,TRUE,TRUE
+97,Oberkassel,Oberkassel,C5,G4,TRUE,TRUE
+97,Oberkassel,Oberkassel,C5,G4,TRUE,TRUE
+98,Ochoz 1,NA,NA,NA,FALSE,TRUE
+98,Ochoz 2,NA,NA,NA,FALSE,TRUE
+99,Ojo Guareña,Ojo Guareña,C5,G2,TRUE,TRUE
+99,Ojo Guareña,Ojo Guareña,C5,G2,TRUE,TRUE
+100,Olatzazpi,NA,NA,NA,FALSE,TRUE
+101,Otalora,NA,NA,NA,FALSE,TRUE
+102,Goat’s Hole (Paviland Cave),Goat’s Hole (Paviland Cave),C4,G5,TRUE,TRUE
+103,Pavlov I,Pavlov I,C4,G5,TRUE,TRUE
+104,Grotte des Perrats,Grotte des Perrats,C2,G1,TRUE,TRUE
+104,Grotte des Perrats,Grotte des Perrats,C2,G1,TRUE,TRUE
+105,Pikandita,NA,NA,NA,FALSE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+106,Předmostí,Předmostí,C4,G3,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+107,Qafzeh Cave,Qafzeh Cave,C4,G4,TRUE,TRUE
+108,Regourdou,Regourdou,C4,G5,TRUE,TRUE
+108,Regourdou,Regourdou,C4,G5,TRUE,TRUE
+109,Reilingen,Reilingen,C1,G0,TRUE,TRUE
+110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)","Roc-de-Cave (Saint-Cirq-Madelon, Lot)",C5,G2,TRUE,TRUE
+111,Roc de Marsal,Roc de Marsal,C5,G5,TRUE,TRUE
+112,Roc de les Orenetes,Roc de les Orenetes,C3,G3,TRUE,TRUE
+113,Saccopastore,Saccopastore,C1,G0,TRUE,TRUE
+113,Saccopastore,Saccopastore,C1,G0,TRUE,TRUE
+114,Saint-Césaire,NA,NA,NA,FALSE,TRUE
+115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),C4,G5,TRUE,TRUE
+116,Sambungmacan,Sambungmacan,C1,G0,TRUE,TRUE
+116,Sambungmacan,Sambungmacan,C1,G0,TRUE,TRUE
+116,Sambungmacan,Sambungmacan,C1,G0,TRUE,TRUE
+116,Sambungmacan,Sambungmacan,C1,G0,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+117,San Juan ante Portam Latinam,San Juan ante Portam Latinam,C4,G3,TRUE,TRUE
+118,Coves de Santa Maira,Coves de Santa Maira,C1,G1,TRUE,TRUE
+118,Coves de Santa Maira,Coves de Santa Maira,C1,G1,TRUE,TRUE
+119,Scladina Cave,NA,NA,NA,FALSE,TRUE
+120,Shanidar Cave,Shanidar Cave,C4,G4,TRUE,TRUE
+120,Shanidar Cave,Shanidar Cave,C4,G4,TRUE,TRUE
+120,Shanidar Cave,Shanidar Cave,C4,G4,TRUE,TRUE
+120,Shanidar Cave,Shanidar Cave,C4,G4,TRUE,TRUE
+120,Shanidar Cave,Shanidar Cave,C4,G4,TRUE,TRUE
+120,Shanidar Cave,Shanidar Cave,C4,G4,TRUE,TRUE
+120,Shanidar Cave,Shanidar Cave,C4,G4,TRUE,TRUE
+120,Shanidar Cave,Shanidar Cave,C4,G4,TRUE,TRUE
+120,Shanidar Cave,Shanidar Cave,C4,G4,TRUE,TRUE
+121,Sima de las Palomas,Sima de las Palomas,C5,G3,TRUE,TRUE
+175,Sima de los Huesos PNAS,NA,NA,NA,FALSE,TRUE
+122,Sima de los Huesos 89,NA,NA,NA,FALSE,TRUE
+123,Sima de los Huesos 90,NA,NA,NA,FALSE,TRUE
+124,Sima de los Huesos 95,NA,NA,NA,FALSE,TRUE
+125,Sima de los Huesos 15,NA,NA,NA,FALSE,TRUE
+126,Sima de los Huesos 24,NA,NA,NA,FALSE,TRUE
+127,Sorginzulo,NA,NA,NA,FALSE,TRUE
+128,Spy cave,NA,NA,NA,FALSE,TRUE
+129,Steinheim an der Murr,NA,NA,NA,FALSE,TRUE
+130,Sunghir,Sunghir,C4,G4,TRUE,TRUE
+130,Sunghir,Sunghir,C4,G4,TRUE,TRUE
+130,Sunghir,Sunghir,C4,G4,TRUE,TRUE
+130,Sunghir,Sunghir,C4,G4,TRUE,TRUE
+130,Sunghir,Sunghir,C4,G4,TRUE,TRUE
+130,Sunghir,Sunghir,C4,G4,TRUE,TRUE
+131,Tabun Cave (Mugharet et-Tabun),Tabun Cave (Mugharet et-Tabun),C5,G5,TRUE,TRUE
+132,Tepecik-Çiftlik,Tepecik-Çiftlik,C5,G3,TRUE,TRUE
+133,Teshik-Tash Cave,Teshik-Tash Cave,C2,G5,TRUE,TRUE
+134,Cueva de los Torrejones,Cueva de los Torrejones,C2,G3,TRUE,TRUE
+135,Txispiri,NA,NA,NA,FALSE,TRUE
+136,Txomen Koba Erdikua,NA,NA,NA,FALSE,TRUE
+137,Txotxinkoba Cave,NA,NA,NA,FALSE,TRUE
+137,Txotxinkoba Cave,NA,NA,NA,FALSE,TRUE
+138,Urdabide II,NA,NA,NA,FALSE,TRUE
+139,Urtiaga,NA,NA,NA,FALSE,TRUE
+140,Uxar,NA,NA,NA,FALSE,TRUE
+141,Vado all'Arancio,Vado all'Arancio,C5,G5,TRUE,TRUE
+142,Valdegoba Cave,Valdegoba Cave,C1,G0,TRUE,TRUE
+142,Valdegoba Cave,Valdegoba Cave,C1,G0,TRUE,TRUE
+142,Valdegoba Cave,Valdegoba Cave,C1,G0,TRUE,TRUE
+142,Valdegoba Cave,Valdegoba Cave,C1,G0,TRUE,TRUE
+142,Valdegoba Cave,Valdegoba Cave,C1,G0,TRUE,TRUE
+143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France","Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",C2,G0,TRUE,TRUE
+144,Vindija,Vindija,C1,G1,TRUE,TRUE
+145,Vindija,Vindija,C1,G1,TRUE,TRUE
+146,Vindija,Vindija,C1,G1,TRUE,TRUE
+147,Vunda Locus,Vunda Locus,C2,G1,TRUE,TRUE
+147,Vunda Locus,Vunda Locus,C2,G1,TRUE,TRUE
+148,Weimar-Ehringsdorf,NA,NA,NA,FALSE,TRUE
+148,Weimar-Ehringsdorf,NA,NA,NA,FALSE,TRUE
+148,Weimar-Ehringsdorf,NA,NA,NA,FALSE,TRUE
+148,Weimar-Ehringsdorf,NA,NA,NA,FALSE,TRUE
+148,Weimar-Ehringsdorf,NA,NA,NA,FALSE,TRUE
+148,Weimar-Ehringsdorf,NA,NA,NA,FALSE,TRUE
+148,Weimar-Ehringsdorf,NA,NA,NA,FALSE,TRUE
+148,Weimar-Ehringsdorf,NA,NA,NA,FALSE,TRUE
+149,Xemxija tombs,Xemxija tombs,C3,G3,TRUE,TRUE
+150,Boquete de Zafarraya,Boquete de Zafarraya,C2,G1,TRUE,TRUE
+151,Zelaibizkar I,NA,NA,NA,FALSE,TRUE

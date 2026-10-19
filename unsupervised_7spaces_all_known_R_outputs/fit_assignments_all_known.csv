@@ -1,0 +1,722 @@
+Feature_space,site_id,site_name,layer_name,named_panel,class4,binary_label,funerary_subtype,Cluster,Cluster_raw,Distance_to_centroid,PC1,PC2,Cluster_F_percent,Cluster_dominant_class4,Distance_percentile_within_cluster
+C only,1,Abri Pataud,Level 2,NA,Funerary,F,Collective-secondary,1,2,0.27508652943659484,-0.30822219938436934,NA,27.77777777777778,Cannibalism,58.333333333333336
+C only,5,Amud Cave,Layer B,NA,Funerary,F,Single inhumation,2,1,0.7869246829402536,0.5678568807729534,NA,93.54838709677419,Funerary,93.54838709677419
+C only,6,Arago,Gs1 | Gm2 | Gm3 | Gi4 | Fm3 | Fm4 | Fi,NA,Cannibalism,NF,Missing,1,2,0.2456538730167207,-0.8289626018376849,NA,27.77777777777778,Cannibalism,51.388888888888886
+C only,8,Archi,Geological layer C-3,NA,Geological transport,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,9,Atxuri-I Cave,NA,NA,Funerary,F,Possible burial,1,2,0.12697046709817283,-0.710279195919137,NA,27.77777777777778,Cannibalism,16.666666666666664
+C only,10,Baousso da Torre (Bausu da Ture),Upper Paleolithic deposits,NA,Funerary,F,Single inhumation,2,1,0.32364943481262154,1.0311321289005855,NA,93.54838709677419,Funerary,38.70967741935484
+C only,15,Brillenhöhle,Layer IV,NA,Cannibalism,NF,Missing,1,2,0.22332331295059726,-0.8066320417715614,NA,27.77777777777778,Cannibalism,47.22222222222222
+C only,16,Brno II,NA,Historical,Funerary,F,Single inhumation,1,2,0.437044842744305,-0.1462638860766592,NA,27.77777777777778,Cannibalism,83.33333333333334
+C only,20,Abri de Raymonden (Chancelade),NA,NA,Funerary,F,Single inhumation,2,1,0.7323792304243579,2.087160794137565,NA,93.54838709677419,Funerary,83.87096774193549
+C only,21,Combe Grenal,Couche 25,NA,Cannibalism,NF,Missing,1,2,0.31610002486474553,-0.8994087536857097,NA,27.77777777777778,Cannibalism,63.888888888888886
+C only,23,Cova Gran de Santa Linya,NA,Early,Funerary,F,Single inhumation,2,1,0.6081917207468143,0.7465898429663927,NA,93.54838709677419,Funerary,67.74193548387096
+C only,24,Cro-Magnon I,Unit J,Historical,Funerary,F,Collective burial,1,2,0.056131277277593816,-0.5271774515433704,NA,27.77777777777778,Cannibalism,9.722222222222223
+C only,25,Crow Creek,Fortification ditch fill,Historical,Funerary,F,Collective burial,1,2,0.4205506550895506,-0.16275807373141357,NA,27.77777777777778,Cannibalism,77.77777777777779
+C only,26,Cueva de la Buena Pinta,Nivel 3,NA,Carnivore-related,NF,Carnivore den (transport),1,2,0.4256513856646229,-1.008960114485587,NA,27.77777777777778,Cannibalism,81.94444444444444
+C only,27,Cueva del Camino,NA,NA,Carnivore-related,NF,Carnivore den (transport),1,2,0.4256513856646229,-1.008960114485587,NA,27.77777777777778,Cannibalism,81.94444444444444
+C only,28,Dali Tianshuigou,Level 3,NA,Geological transport,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,29,Dame du Cavillon,NA,NA,Funerary,F,Single inhumation,2,1,0.5805594411684625,1.9353410048816695,NA,93.54838709677419,Funerary,58.06451612903226
+C only,30,Dolní Věstonice II,NA,NA,Funerary,F,Single + multiple,2,1,0.9138219435916464,2.2686035073048534,NA,93.54838709677419,Funerary,96.7741935483871
+C only,31,Dolní Věstonice I,NA,NA,Funerary,F,Single inhumation,2,1,0.5771676440311282,1.9319492077443352,NA,93.54838709677419,Funerary,54.83870967741935
+C only,32,El Espinoso Cave,Sala de los Muertos,NA,Funerary,F,Collective burial,1,2,0.22033481282077855,-0.36297391600018564,NA,27.77777777777778,Cannibalism,45.83333333333333
+C only,33,El Mirador,MIR4,NA,Cannibalism,NF,Missing,1,2,0.05260429981956871,-0.5307044290013955,NA,27.77777777777778,Cannibalism,8.333333333333332
+C only,34,El Mirón Cave,Level 114,NA,Funerary,F,Single inhumation,2,1,0.7215219859660043,0.6332595777472028,NA,93.54838709677419,Funerary,77.41935483870968
+C only,35,El Sidrón J1,Galería del Osario,Early,Cannibalism,NF,Missing,2,1,0.5601349236240802,1.9149164873372873,NA,93.54838709677419,Funerary,51.61290322580645
+C only,40,Grotte de Fontbrégoua,H1,Early,Cannibalism,NF,Missing,1,2,0.030665022137419173,-0.6139737509583834,NA,27.77777777777778,Cannibalism,5.555555555555555
+C only,41,Grotte de Fontbrégoua,H3,Early,Cannibalism,NF,Missing,1,2,0.005536969979024642,-0.5777717588419395,NA,27.77777777777778,Cannibalism,2.7777777777777777
+C only,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,0.39977049881235505,-0.9830792276333192,NA,27.77777777777778,Cannibalism,76.38888888888889
+C only,43,Cova Foradada,NA,NA,Funerary,F,Cremation,1,2,0.3065343876773134,-0.2767743411436508,NA,27.77777777777778,Cannibalism,62.5
+C only,44,Cova Foradada,NA,NA,Funerary,F,Collective burial,1,2,0.1227710790048323,-0.4605376498161319,NA,27.77777777777778,Cannibalism,13.88888888888889
+C only,45,Cova del Gegant,Unit II,NA,Carnivore-related,NF,Carnivore den(transport),1,2,0.2962469514032837,-0.8795556802242479,NA,27.77777777777778,Cannibalism,59.72222222222222
+C only,46,Gough's Cave,NA,NA,Cannibalism,NF,Missing,1,2,0.1296881182206333,-0.7129968470415975,NA,27.77777777777778,Cannibalism,18.055555555555554
+C only,47,Troisième caverne of Goyet,FBL 2 and 3 | FBL 2 and 4,NA,Cannibalism,NF,Missing,1,2,0.24712119395221965,-0.8304299227731838,NA,27.77777777777778,Cannibalism,52.77777777777778
+C only,48,Gran Dolina,TD6,NA,Cannibalism,NF,Missing,1,2,0.13616887346518258,-0.7194776022861468,NA,27.77777777777778,Cannibalism,19.444444444444446
+C only,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",NA,NA,Carnivore-related,NF,Missing,1,2,0.39977049881235505,-0.9830792276333192,NA,27.77777777777778,Cannibalism,76.38888888888889
+C only,50,Grotte du Bison (Arcy-sur-Cure),Level I,NA,Carnivore-related,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Middle Palaeolithic sequence(9–10; 17–18; 22),NA,Carnivore-related,NF,Missing,1,2,0.24192904072568455,-0.8252377695466487,NA,27.77777777777778,Cannibalism,50
+C only,52,Grotta Guattari,Laghetto,Historical,Carnivore-related,NF,Carnivore den(transport),1,2,0.16037229542887754,-0.7436810242498417,NA,27.77777777777778,Cannibalism,22.22222222222222
+C only,53,Hahnöfersand,Glacial river sands,NA,Geological transport,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,54,Hathnora,NA,NA,Geological transport,NF,Missing,1,2,0.20411686107389454,-0.37919186774706964,NA,27.77777777777778,Cannibalism,26.38888888888889
+C only,55,Herxheim,Deposit K,NA,Cannibalism,NF,Missing,1,2,0.1616967092509466,-0.4216120195700176,NA,27.77777777777778,Cannibalism,23.61111111111111
+C only,56,Hohlenstein-Stadel,NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,0.39977049881235505,-0.9830792276333192,NA,27.77777777777778,Cannibalism,76.38888888888889
+C only,57,Jarama VI rockshelter,Level 2,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,0.42166971076427395,-1.0049784395852381,NA,27.77777777777778,Cannibalism,79.16666666666666
+C only,58,Kajiado,NA,NA,Carnivore-related,NF,Carnivore den(transport),1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,59,Kalamakia,Unit IV,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,0.3949593083077667,-0.9782680371287309,NA,27.77777777777778,Cannibalism,70.83333333333334
+C only,60,Kebara Cave,Unit XI,Early,Funerary,F,Single inhumation,2,1,1.0554110403952566,2.4101926041084636,NA,93.54838709677419,Funerary,100
+C only,61,Kiik-Koba,Layer IV - VI,NA,Funerary,F,Single inhumation,1,2,0.9014629790377777,0.3181542502168136,NA,27.77777777777778,Cannibalism,98.61111111111111
+C only,65,Krapina,Primarily levels 3 and 4,Historical,Cannibalism,NF,Missing,1,2,0.09067185338095651,-0.6739805822019207,NA,27.77777777777778,Cannibalism,11.11111111111111
+C only,66,La Chapelle-aux-Saints,Mousterian layer,Historical,Funerary,F,Single inhumation,2,1,0.03602853118556215,1.3908100948987692,NA,93.54838709677419,Funerary,6.451612903225806
+C only,67,La Ferrassie,Lower Mousterian layers,Both panels,Funerary,F,Single + collective,1,2,0.8818454470441865,0.2985367182232224,NA,27.77777777777778,Cannibalism,94.44444444444444
+C only,69,La Quina,Mousterian levels,Historical,Funerary,F,No inhumation,1,2,0.2307906291778511,-0.8140993579988153,NA,27.77777777777778,Cannibalism,48.61111111111111
+C only,70,La Tolita Cama de Huesos,Tardío,NA,Funerary,F,Collective burial,1,2,0.6327870642973998,0.04947833547643567,NA,27.77777777777778,Cannibalism,90.27777777777779
+C only,71,Abrigo do Lagar Velho,NA,NA,Funerary,F,Single inhumation,2,1,0.2300245804970058,1.5848061442102128,NA,93.54838709677419,Funerary,25.806451612903224
+C only,73,Le Moustier I,Upper Shelter (Couche K),NA,Funerary,F,Single inhumation,2,1,0.159884620855679,1.194896942857528,NA,93.54838709677419,Funerary,22.58064516129032
+C only,74,Le Moustier II,Lower Shelter (Couche J),NA,Funerary,F,Single inhumation,2,1,0.07444432050189143,1.4292258842150984,NA,93.54838709677419,Funerary,9.67741935483871
+C only,75,Le Placard,Grotte du Placard,NA,Cannibalism,NF,Missing,1,2,0.3062933070546269,-0.8896020358755911,NA,27.77777777777778,Cannibalism,61.111111111111114
+C only,76,Les Pradelles (Marillac-le-Franc),Layers 9 and 10,NA,Carnivore-related,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,77,Les Rochers-de-Villeneuve,Level J,NA,Carnivore-related,NF,Missing,1,2,0.39977049881235505,-0.9830792276333192,NA,27.77777777777778,Cannibalism,76.38888888888889
+C only,78,Grotte des Hoteaux,NA,NA,Funerary,F,Single inhumation,2,1,0.5943478338789296,1.9491293975921367,NA,93.54838709677419,Funerary,64.51612903225806
+C only,79,Cueva de Malalmuerzo,NA,NA,Cannibalism,NF,Missing,2,1,0.4553248984615673,0.8994566652516397,NA,93.54838709677419,Funerary,45.16129032258064
+C only,81,Mancos 5MT-10010 Feature 3,NA,Early,Cannibalism,NF,No inhumation,1,2,0.8893188705917139,0.30601014177074964,NA,27.77777777777778,Cannibalism,97.22222222222221
+C only,82,Yellow Jacket 5MT-3,NA,Early,Cannibalism,NF,No inhumation,1,2,0.5866433735488489,0.003334644727884726,NA,27.77777777777778,Cannibalism,87.5
+C only,85,Maszycka Cave,NA,NA,Cannibalism,NF,Missing,1,2,5.602243101354709e-5,-0.5832527063899506,NA,27.77777777777778,Cannibalism,1.3888888888888888
+C only,86,Mauer,Lower Sands,NA,Geological transport,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,87,Mladeč Caves,Chamber D,Historical,Funerary,F,Funerary caching,1,2,0.3679724006498465,-0.9512811294708107,NA,27.77777777777778,Cannibalism,68.05555555555556
+C only,88,Mojokerto,Pucangan Formation,NA,Geological transport,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,89,Los Moros de Gabasa,Level E-F,NA,Carnivore-related,NF,Carnivore den(transport),1,2,0.3540795504188452,-0.9373882792398094,NA,27.77777777777778,Cannibalism,66.66666666666666
+C only,90,Moula-Guercy,Layer XV,Historical,Cannibalism,NF,Missing,1,2,0.03314303541865493,-0.6164517642396191,NA,27.77777777777778,Cannibalism,6.944444444444445
+C only,91,Mugharet es-Skhul,Layer B,Early,Funerary,F,Single inhumation,2,1,0.7861430949042593,0.5686384688089478,NA,93.54838709677419,Funerary,90.32258064516128
+C only,94,Netankheri,Fluvial gravely sand bed,NA,Geological transport,NF,Missing,1,2,0.27036606455101586,-0.85367479337198,NA,27.77777777777778,Cannibalism,56.94444444444444
+C only,95,Ngandong,High Terrace deposits of the Solo river,NA,Geological transport,NF,Missing,1,2,0.25656292489647314,-0.8398716537174373,NA,27.77777777777778,Cannibalism,54.166666666666664
+C only,96,Ngawi,Selopuro left river bank,NA,Geological transport,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,97,Oberkassel,NA,NA,Funerary,F,Multiple inhumation,2,1,0.28683718254735413,1.6416187462605611,NA,93.54838709677419,Funerary,35.483870967741936
+C only,99,Ojo Guareña,NA,NA,Funerary,F,No inhumation,2,1,0.5817760640546803,1.9365576277678873,NA,93.54838709677419,Funerary,61.29032258064516
+C only,102,Goat’s Hole (Paviland Cave),NA,Historical,Funerary,F,Single inhumation,1,2,0.8378667827127608,0.2545580538917967,NA,27.77777777777778,Cannibalism,91.66666666666666
+C only,103,Pavlov I,NA,NA,Funerary,F,Single inhumation,2,1,0.09877677822624564,1.4535583419394527,NA,93.54838709677419,Funerary,16.129032258064516
+C only,104,Grotte des Perrats,Couche 3,NA,Cannibalism,NF,Missing,1,2,0.5919025024797265,0.008593773658762295,NA,27.77777777777778,Cannibalism,88.88888888888889
+C only,106,Předmostí,NA,NA,Funerary,F,Collective burial,1,2,0.8869298656515044,0.30362113683054026,NA,27.77777777777778,Cannibalism,95.83333333333334
+C only,107,Qafzeh Cave,Layer XVI to XXIII,Early,Funerary,F,Single + multiple,1,2,0.9044362232035613,0.32112749438259713,NA,27.77777777777778,Cannibalism,100
+C only,108,Regourdou,Tumulus IVA at Level IV,Historical,Funerary,F,Single inhumation,2,1,0.7168398312220754,0.6379417324911316,NA,93.54838709677419,Funerary,74.19354838709677
+C only,109,Reilingen,Gravel pit sequence,NA,Geological transport,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Dark grey layer,NA,Funerary,F,No inhumation,2,1,0.5502544710935846,1.9050360348067916,NA,93.54838709677419,Funerary,48.38709677419355
+C only,111,Roc de Marsal,Layer 4,Historical,Funerary,F,Single inhumation,2,1,0.009760730168450138,1.3450208335447569,NA,93.54838709677419,Funerary,3.225806451612903
+C only,112,Roc de les Orenetes,NA,NA,Funerary,F,Collective burial,1,2,0.8799013564428784,0.29659262762191413,NA,27.77777777777778,Cannibalism,93.05555555555556
+C only,113,Saccopastore,NA,NA,Geological transport,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Terrasse supérieure,NA,Funerary,F,Single inhumation,2,1,0.27188766110808604,1.082893902605121,NA,93.54838709677419,Funerary,32.25806451612903
+C only,116,Sambungmacan,Solo River alluvium,NA,Geological transport,NF,Missing,1,2,0.26389584283794887,-0.847204571658913,NA,27.77777777777778,Cannibalism,55.55555555555556
+C only,117,San Juan ante Portam Latinam,NA,NA,Funerary,F,Collective burial,2,1,0.6671686328439099,0.6876129308692971,NA,93.54838709677419,Funerary,70.96774193548387
+C only,118,Coves de Santa Maira,Level SM-3 | Level SM-4,NA,Cannibalism,NF,Missing,1,2,0.1874145041270805,-0.7707232329480447,NA,27.77777777777778,Cannibalism,25
+C only,120,Shanidar Cave,Layer D,Historical,Funerary,F,Multiple inhumation,2,1,0.7536867095437196,0.6010948541694874,NA,93.54838709677419,Funerary,87.09677419354838
+C only,121,Sima de las Palomas,"Upper stratigraphic levels (including ""Conglomerado B"") and lower levels 5 and 6",Early,Funerary,F,Collective burial,2,1,0.09014981594215632,1.4449313796553633,NA,93.54838709677419,Funerary,12.903225806451612
+C only,130,Sunghir,NA,NA,Funerary,F,Multiple inhumation,2,1,0.7276788351174697,0.6271027285957373,NA,93.54838709677419,Funerary,80.64516129032258
+C only,131,Tabun Cave (Mugharet et-Tabun),Layer C,Early,Funerary,F,Single inhumation,2,1,0.41303415647230146,1.7678157201855085,NA,93.54838709677419,Funerary,41.935483870967744
+C only,132,Tepecik-Çiftlik,Level 5 (BB structure),NA,Funerary,F,Collective burial,2,1,0.2717998816790659,1.0829816820341411,NA,93.54838709677419,Funerary,29.03225806451613
+C only,133,Teshik-Tash Cave,Layer I,Historical,Funerary,F,Single inhumation,1,2,0.5060605410170192,-0.07724818780394495,NA,27.77777777777778,Cannibalism,86.11111111111111
+C only,134,Cueva de los Torrejones,NA,Historical,Funerary,F,Collective burial,1,2,0.13763763718214334,-0.44567109163882085,NA,27.77777777777778,Cannibalism,20.833333333333336
+C only,141,Vado all'Arancio,NA,NA,Funerary,F,Single inhumation,2,1,0.11468523726468138,1.2400963264485256,NA,93.54838709677419,Funerary,19.35483870967742
+C only,142,Valdegoba Cave,Level 5 | Level 6 | Level 8,NA,Carnivore-related,NF,Carnivore den (transport),1,2,0.38188245564893564,-0.9651911844698998,NA,27.77777777777778,Cannibalism,69.44444444444444
+C only,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",NA,NA,Carnivore-related,NF,Missing,1,2,0.12647420051709107,-0.4568345283038731,NA,27.77777777777778,Cannibalism,15.277777777777779
+C only,144,Vindija,Fd/d,NA,Cannibalism,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,145,Vindija,G1,NA,Cannibalism,NF,Missing,1,2,0.21860429084648014,-0.8019130196674443,NA,27.77777777777778,Cannibalism,44.44444444444444
+C only,146,Vindija,G3,NA,Cannibalism,NF,Missing,1,2,0.10515113442666213,-0.6884598632476263,NA,27.77777777777778,Cannibalism,12.5
+C only,147,Vunda Locus,26M | 26H,NA,Cannibalism,NF,Missing,1,2,0.028731241316107825,-0.612039970137072,NA,27.77777777777778,Cannibalism,4.166666666666666
+C only,149,Xemxija tombs,NA,NA,Funerary,F,Collective burial,1,2,0.46094015891213963,-0.12236856990882457,NA,27.77777777777778,Cannibalism,84.72222222222221
+C only,150,Boquete de Zafarraya,Units UG–UE,NA,Cannibalism,NF,Missing,1,2,0.3466077654206595,-0.9299164942416237,NA,27.77777777777778,Cannibalism,65.27777777777779
+Heip evenness only,1,Abri Pataud,Level 2,NA,Funerary,F,Collective-secondary,2,3,0.023293288392041672,0.1637032796979992,NA,66.66666666666666,Funerary,6.0606060606060606
+Heip evenness only,5,Amud Cave,Layer B,NA,Funerary,F,Single inhumation,2,3,0.4338737639644512,0.620870332054492,NA,66.66666666666666,Funerary,96.96969696969697
+Heip evenness only,6,Arago,Gs1 | Gm2 | Gm3 | Gi4 | Fm3 | Fm4 | Fi,NA,Cannibalism,NF,Missing,1,1,0.11520801674217851,-0.9205203951509082,NA,7.142857142857142,Carnivore-related,16.666666666666664
+Heip evenness only,8,Archi,Geological layer C-3,NA,Geological transport,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,9,Atxuri-I Cave,NA,NA,Funerary,F,Possible burial,2,3,0.11929764358535119,0.30629421167539206,NA,66.66666666666666,Funerary,36.36363636363637
+Heip evenness only,10,Baousso da Torre (Bausu da Ture),Upper Paleolithic deposits,NA,Funerary,F,Single inhumation,3,2,0.45003394965194565,0.8831698557958512,NA,85.71428571428571,Funerary,92.85714285714286
+Heip evenness only,15,Brillenhöhle,Layer IV,NA,Cannibalism,NF,Missing,2,3,0.15372936595055245,0.3407259340405933,NA,66.66666666666666,Funerary,54.54545454545454
+Heip evenness only,16,Brno II,NA,Historical,Funerary,F,Single inhumation,1,1,0.4009351433784767,-0.63479326851461,NA,7.142857142857142,Carnivore-related,92.85714285714286
+Heip evenness only,20,Abri de Raymonden (Chancelade),NA,NA,Funerary,F,Single inhumation,3,2,0.20409409370034215,1.537297899148139,NA,85.71428571428571,Funerary,46.42857142857143
+Heip evenness only,21,Combe Grenal,Couche 25,NA,Cannibalism,NF,Missing,1,1,5.494935055472272e-4,-1.0351789183875395,NA,7.142857142857142,Carnivore-related,2.380952380952381
+Heip evenness only,23,Cova Gran de Santa Linya,NA,Early,Funerary,F,Single inhumation,2,3,0.2012756544270987,0.38827222251713955,NA,66.66666666666666,Funerary,63.63636363636363
+Heip evenness only,24,Cro-Magnon I,Unit J,Historical,Funerary,F,Collective burial,1,1,0.25462198242187795,-0.7811064294712088,NA,7.142857142857142,Carnivore-related,85.71428571428571
+Heip evenness only,25,Crow Creek,Fortification ditch fill,Historical,Funerary,F,Collective burial,2,3,0.17578072590735191,0.011215842182688953,NA,66.66666666666666,Funerary,60.60606060606061
+Heip evenness only,26,Cueva de la Buena Pinta,Nivel 3,NA,Carnivore-related,NF,Carnivore den (transport),2,3,0.13294007268560198,0.054056495404438874,NA,66.66666666666666,Funerary,48.484848484848484
+Heip evenness only,27,Cueva del Camino,NA,NA,Carnivore-related,NF,Carnivore den (transport),2,3,0.13294007268560198,0.054056495404438874,NA,66.66666666666666,Funerary,48.484848484848484
+Heip evenness only,28,Dali Tianshuigou,Level 3,NA,Geological transport,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,29,Dame du Cavillon,NA,NA,Funerary,F,Single inhumation,3,2,0.30483908778537505,1.0283647176624218,NA,85.71428571428571,Funerary,75
+Heip evenness only,30,Dolní Věstonice II,NA,NA,Funerary,F,Single + multiple,3,2,0.20122730971681624,1.534431115164613,NA,85.71428571428571,Funerary,42.857142857142854
+Heip evenness only,31,Dolní Věstonice I,NA,NA,Funerary,F,Single inhumation,3,2,0.15383003633495895,1.4870338417827558,NA,85.71428571428571,Funerary,32.142857142857146
+Heip evenness only,32,El Espinoso Cave,Sala de los Muertos,NA,Funerary,F,Collective burial,3,2,0.27193677415240325,1.6051405796002,NA,85.71428571428571,Funerary,64.28571428571429
+Heip evenness only,33,El Mirador,MIR4,NA,Cannibalism,NF,Missing,1,1,0.4915655626122567,-0.54416284928083,NA,7.142857142857142,Carnivore-related,100
+Heip evenness only,34,El Mirón Cave,Level 114,NA,Funerary,F,Single inhumation,3,2,0.015338883499204092,1.348542688947001,NA,85.71428571428571,Funerary,3.571428571428571
+Heip evenness only,35,El Sidrón J1,Galería del Osario,Early,Cannibalism,NF,Missing,3,2,0.02071296620171137,1.3539167716495082,NA,85.71428571428571,Funerary,7.142857142857142
+Heip evenness only,40,Grotte de Fontbrégoua,H1,Early,Cannibalism,NF,Missing,1,1,0.3771409911213244,-0.6585874207717624,NA,7.142857142857142,Carnivore-related,88.09523809523809
+Heip evenness only,41,Grotte de Fontbrégoua,H3,Early,Cannibalism,NF,Missing,2,3,0.04175817965228887,0.22875474774232973,NA,66.66666666666666,Funerary,12.121212121212121
+Heip evenness only,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,43,Cova Foradada,NA,NA,Funerary,F,Cremation,3,2,0.06986341506532656,1.4030672205131234,NA,85.71428571428571,Funerary,17.857142857142858
+Heip evenness only,44,Cova Foradada,NA,NA,Funerary,F,Collective burial,3,2,0.02172650376278562,1.3114773016850112,NA,85.71428571428571,Funerary,10.714285714285714
+Heip evenness only,45,Cova del Gegant,Unit II,NA,Carnivore-related,NF,Carnivore den(transport),1,1,0.13307005009294626,-1.168798461986033,NA,7.142857142857142,Carnivore-related,21.428571428571427
+Heip evenness only,46,Gough's Cave,NA,NA,Cannibalism,NF,Missing,1,1,0.08114809745146478,-0.954580314441622,NA,7.142857142857142,Carnivore-related,11.904761904761903
+Heip evenness only,47,Troisième caverne of Goyet,FBL 2 and 3 | FBL 2 and 4,NA,Cannibalism,NF,Missing,2,3,0.04096788907468135,0.22796445716472222,NA,66.66666666666666,Funerary,9.090909090909092
+Heip evenness only,48,Gran Dolina,TD6,NA,Cannibalism,NF,Missing,2,3,0.25764764260337547,0.4446442106934163,NA,66.66666666666666,Funerary,72.72727272727273
+Heip evenness only,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",NA,NA,Carnivore-related,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,50,Grotte du Bison (Arcy-sur-Cure),Level I,NA,Carnivore-related,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Middle Palaeolithic sequence(9–10; 17–18; 22),NA,Carnivore-related,NF,Missing,1,1,0.47971961292609244,-0.5560087989669943,NA,7.142857142857142,Carnivore-related,97.61904761904762
+Heip evenness only,52,Grotta Guattari,Laghetto,Historical,Carnivore-related,NF,Carnivore den(transport),1,1,0.15969414846333352,-0.8760342634297532,NA,7.142857142857142,Carnivore-related,26.190476190476193
+Heip evenness only,53,Hahnöfersand,Glacial river sands,NA,Geological transport,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,54,Hathnora,NA,NA,Geological transport,NF,Missing,1,1,0.07874854742859805,-0.9569798644644887,NA,7.142857142857142,Carnivore-related,9.523809523809524
+Heip evenness only,55,Herxheim,Deposit K,NA,Cannibalism,NF,Missing,2,3,0.15225803135240887,0.33925459944244973,NA,66.66666666666666,Funerary,51.515151515151516
+Heip evenness only,56,Hohlenstein-Stadel,NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,57,Jarama VI rockshelter,Level 2,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,58,Kajiado,NA,NA,Carnivore-related,NF,Carnivore den(transport),1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,59,Kalamakia,Unit IV,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,1,0.13211337950633828,-0.9036150323867485,NA,7.142857142857142,Carnivore-related,19.047619047619047
+Heip evenness only,60,Kebara Cave,Unit XI,Early,Funerary,F,Single inhumation,3,2,0.24645808064571817,1.579661886093515,NA,85.71428571428571,Funerary,57.14285714285714
+Heip evenness only,61,Kiik-Koba,Layer IV - VI,NA,Funerary,F,Single inhumation,2,3,0.13294007268560198,0.054056495404438874,NA,66.66666666666666,Funerary,48.484848484848484
+Heip evenness only,65,Krapina,Primarily levels 3 and 4,Historical,Cannibalism,NF,Missing,3,2,0.42568062550519514,0.9075231799426017,NA,85.71428571428571,Funerary,89.28571428571429
+Heip evenness only,66,La Chapelle-aux-Saints,Mousterian layer,Historical,Funerary,F,Single inhumation,3,2,0.10828769247174641,1.2249161129760504,NA,85.71428571428571,Funerary,25
+Heip evenness only,67,La Ferrassie,Lower Mousterian layers,Both panels,Funerary,F,Single + collective,2,3,0.008093557015159208,0.17890301107488166,NA,66.66666666666666,Funerary,3.0303030303030303
+Heip evenness only,69,La Quina,Mousterian levels,Historical,Funerary,F,No inhumation,1,1,0.1341102139971715,-1.1698386258902582,NA,7.142857142857142,Carnivore-related,23.809523809523807
+Heip evenness only,70,La Tolita Cama de Huesos,Tardío,NA,Funerary,F,Collective burial,2,3,0.4327453328462082,0.619741900936249,NA,66.66666666666666,Funerary,93.93939393939394
+Heip evenness only,71,Abrigo do Lagar Velho,NA,NA,Funerary,F,Single inhumation,3,2,0.3280259246715074,1.6612297301193042,NA,85.71428571428571,Funerary,78.57142857142857
+Heip evenness only,73,Le Moustier I,Upper Shelter (Couche K),NA,Funerary,F,Single inhumation,2,3,0.08180241039506173,0.2687989784851026,NA,66.66666666666666,Funerary,27.27272727272727
+Heip evenness only,74,Le Moustier II,Lower Shelter (Couche J),NA,Funerary,F,Single inhumation,3,2,0.30351089672247133,1.6367147021702682,NA,85.71428571428571,Funerary,71.42857142857143
+Heip evenness only,75,Le Placard,Grotte du Placard,NA,Cannibalism,NF,Missing,1,1,0.09152849162001875,-1.1272569035131055,NA,7.142857142857142,Carnivore-related,14.285714285714285
+Heip evenness only,76,Les Pradelles (Marillac-le-Franc),Layers 9 and 10,NA,Carnivore-related,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,77,Les Rochers-de-Villeneuve,Level J,NA,Carnivore-related,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,78,Grotte des Hoteaux,NA,NA,Funerary,F,Single inhumation,3,2,0.23389500824474663,1.0993087972030502,NA,85.71428571428571,Funerary,53.57142857142857
+Heip evenness only,79,Cueva de Malalmuerzo,NA,NA,Cannibalism,NF,Missing,1,1,0.3987293487986582,-0.6369990630944286,NA,7.142857142857142,Carnivore-related,90.47619047619048
+Heip evenness only,81,Mancos 5MT-10010 Feature 3,NA,Early,Cannibalism,NF,No inhumation,3,2,0.1636173179597109,1.4968211234075077,NA,85.71428571428571,Funerary,35.714285714285715
+Heip evenness only,82,Yellow Jacket 5MT-3,NA,Early,Cannibalism,NF,No inhumation,3,2,0.39208027638281095,0.9411235290649859,NA,85.71428571428571,Funerary,85.71428571428571
+Heip evenness only,85,Maszycka Cave,NA,NA,Cannibalism,NF,Missing,1,1,0.07155151893961464,-0.9641768929534721,NA,7.142857142857142,Carnivore-related,7.142857142857142
+Heip evenness only,86,Mauer,Lower Sands,NA,Geological transport,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,87,Mladeč Caves,Chamber D,Historical,Funerary,F,Funerary caching,2,3,0.25688612201917244,-0.06988955392913158,NA,66.66666666666666,Funerary,69.6969696969697
+Heip evenness only,88,Mojokerto,Pucangan Formation,NA,Geological transport,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,89,Los Moros de Gabasa,Level E-F,NA,Carnivore-related,NF,Carnivore den(transport),1,1,0.17056330494413696,-0.8651651069489498,NA,7.142857142857142,Carnivore-related,28.57142857142857
+Heip evenness only,90,Moula-Guercy,Layer XV,Historical,Cannibalism,NF,Missing,1,1,0.23373088690449195,-0.8019975249885948,NA,7.142857142857142,Carnivore-related,83.33333333333334
+Heip evenness only,91,Mugharet es-Skhul,Layer B,Early,Funerary,F,Single inhumation,2,3,0.07949066339772645,0.2664872314877673,NA,66.66666666666666,Funerary,24.242424242424242
+Heip evenness only,94,Netankheri,Fluvial gravely sand bed,NA,Geological transport,NF,Missing,1,1,0.06904858240815281,-0.9666798294849339,NA,7.142857142857142,Carnivore-related,4.761904761904762
+Heip evenness only,95,Ngandong,High Terrace deposits of the Solo river,NA,Geological transport,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,96,Ngawi,Selopuro left river bank,NA,Geological transport,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,97,Oberkassel,NA,NA,Funerary,F,Multiple inhumation,3,2,0.28047796548370085,1.052725839964096,NA,85.71428571428571,Funerary,67.85714285714286
+Heip evenness only,99,Ojo Guareña,NA,NA,Funerary,F,No inhumation,3,2,0.3832359805188643,1.7164397859666611,NA,85.71428571428571,Funerary,82.14285714285714
+Heip evenness only,102,Goat’s Hole (Paviland Cave),NA,Historical,Funerary,F,Single inhumation,2,3,0.10656744972735807,0.0804291183626828,NA,66.66666666666666,Funerary,33.33333333333333
+Heip evenness only,103,Pavlov I,NA,NA,Funerary,F,Single inhumation,2,3,0.09084374646449869,0.27784031455453956,NA,66.66666666666666,Funerary,30.303030303030305
+Heip evenness only,104,Grotte des Perrats,Couche 3,NA,Cannibalism,NF,Missing,2,3,0.046916323316282454,0.1400802447737584,NA,66.66666666666666,Funerary,15.151515151515152
+Heip evenness only,106,Předmostí,NA,NA,Funerary,F,Collective burial,2,3,0.3367149984672311,-0.14971843037719018,NA,66.66666666666666,Funerary,84.84848484848484
+Heip evenness only,107,Qafzeh Cave,Layer XVI to XXIII,Early,Funerary,F,Single + multiple,2,3,0.16230302401755808,0.02469354407248279,NA,66.66666666666666,Funerary,57.57575757575758
+Heip evenness only,108,Regourdou,Tumulus IVA at Level IV,Historical,Funerary,F,Single inhumation,2,3,0.05532665092685923,0.2423232190169001,NA,66.66666666666666,Funerary,18.181818181818183
+Heip evenness only,109,Reilingen,Gravel pit sequence,NA,Geological transport,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Dark grey layer,NA,Funerary,F,No inhumation,3,2,0.554965968220989,0.7782378372268078,NA,85.71428571428571,Funerary,100
+Heip evenness only,111,Roc de Marsal,Layer 4,Historical,Funerary,F,Single inhumation,3,2,0.06072808833543464,1.2724757171123622,NA,85.71428571428571,Funerary,14.285714285714285
+Heip evenness only,112,Roc de les Orenetes,NA,NA,Funerary,F,Collective burial,3,2,0.09343268172712893,1.4266364871749257,NA,85.71428571428571,Funerary,21.428571428571427
+Heip evenness only,113,Saccopastore,NA,NA,Geological transport,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Terrasse supérieure,NA,Funerary,F,Single inhumation,2,3,0.3928085928520817,0.5798051609421225,NA,66.66666666666666,Funerary,87.87878787878788
+Heip evenness only,116,Sambungmacan,Solo River alluvium,NA,Geological transport,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,117,San Juan ante Portam Latinam,NA,NA,Funerary,F,Collective burial,2,3,0.28064658596121683,0.4676431540512577,NA,66.66666666666666,Funerary,78.78787878787878
+Heip evenness only,118,Coves de Santa Maira,Level SM-3 | Level SM-4,NA,Cannibalism,NF,Missing,1,1,0.4106750568895622,-0.6250533550035245,NA,7.142857142857142,Carnivore-related,95.23809523809523
+Heip evenness only,120,Shanidar Cave,Layer D,Historical,Funerary,F,Multiple inhumation,2,3,0.2611513972819981,0.448147965372039,NA,66.66666666666666,Funerary,75.75757575757575
+Heip evenness only,121,Sima de las Palomas,"Upper stratigraphic levels (including ""Conglomerado B"") and lower levels 5 and 6",Early,Funerary,F,Collective burial,3,2,0.24696977171256496,1.0862340337352319,NA,85.71428571428571,Funerary,60.71428571428571
+Heip evenness only,130,Sunghir,NA,NA,Funerary,F,Multiple inhumation,2,3,0.06052906438933023,0.2475256324793711,NA,66.66666666666666,Funerary,21.21212121212121
+Heip evenness only,131,Tabun Cave (Mugharet et-Tabun),Layer C,Early,Funerary,F,Single inhumation,3,2,0.1274210121548689,1.4606248176026657,NA,85.71428571428571,Funerary,28.57142857142857
+Heip evenness only,132,Tepecik-Çiftlik,Level 5 (BB structure),NA,Funerary,F,Collective burial,3,2,0.18583210084459978,1.5190359062923966,NA,85.71428571428571,Funerary,39.285714285714285
+Heip evenness only,133,Teshik-Tash Cave,Layer I,Historical,Funerary,F,Single inhumation,2,3,0.4951509023879186,-0.3081543342978777,NA,66.66666666666666,Funerary,100
+Heip evenness only,134,Cueva de los Torrejones,NA,Historical,Funerary,F,Collective burial,2,3,0.12937877524400804,0.057617792846032835,NA,66.66666666666666,Funerary,39.39393939393939
+Heip evenness only,141,Vado all'Arancio,NA,NA,Funerary,F,Single inhumation,3,2,0.20492928572550007,1.1282745197222968,NA,85.71428571428571,Funerary,50
+Heip evenness only,142,Valdegoba Cave,Level 5 | Level 6 | Level 8,NA,Carnivore-related,NF,Carnivore den (transport),1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",NA,NA,Carnivore-related,NF,Missing,2,3,0.4160297219253323,-0.22903315383529138,NA,66.66666666666666,Funerary,90.9090909090909
+Heip evenness only,144,Vindija,Fd/d,NA,Cannibalism,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,145,Vindija,G1,NA,Cannibalism,NF,Missing,1,1,0.18009258846081222,-1.215821000353899,NA,7.142857142857142,Carnivore-related,78.57142857142857
+Heip evenness only,146,Vindija,G3,NA,Cannibalism,NF,Missing,1,1,0.21490943894506764,-0.8208189729480191,NA,7.142857142857142,Carnivore-related,80.95238095238095
+Heip evenness only,147,Vunda Locus,26M | 26H,NA,Cannibalism,NF,Missing,2,3,0.2524041121647901,-0.06540754407474919,NA,66.66666666666666,Funerary,66.66666666666666
+Heip evenness only,149,Xemxija tombs,NA,NA,Funerary,F,Collective burial,3,2,0.516076749367169,1.8492805548149658,NA,85.71428571428571,Funerary,96.42857142857143
+Heip evenness only,150,Boquete de Zafarraya,Units UG–UE,NA,Cannibalism,NF,Missing,2,3,0.3278133964841801,-0.14081682839413925,NA,66.66666666666666,Funerary,81.81818181818183
+C + Heip evenness,1,Abri Pataud,Level 2,NA,Funerary,F,Collective-secondary,2,3,0.28712229250014004,-0.10219030811998629,-0.333701706473853,33.33333333333333,Cannibalism,38.88888888888889
+C + Heip evenness,5,Amud Cave,Layer B,NA,Funerary,F,Single inhumation,4,1,0.3595562013858611,0.8405570731712709,-0.0374861708952785,94.44444444444444,Funerary,38.88888888888889
+C + Heip evenness,6,Arago,Gs1 | Gm2 | Gm3 | Gi4 | Fm3 | Fm4 | Fi,NA,Cannibalism,NF,Missing,1,2,0.13205443172911444,-1.2370712907411985,0.06474113652225633,7.317073170731707,Carnivore-related,14.634146341463413
+C + Heip evenness,8,Archi,Geological layer C-3,NA,Geological transport,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,9,Atxuri-I Cave,NA,NA,Funerary,F,Possible burial,2,3,0.20549070238244752,-0.2856605218562924,-0.7188259500840077,33.33333333333333,Cannibalism,22.22222222222222
+C + Heip evenness,10,Baousso da Torre (Bausu da Ture),Upper Paleolithic deposits,NA,Funerary,F,Single inhumation,4,1,0.7235148898969244,1.353615914617717,0.10462512667213386,94.44444444444444,Funerary,88.88888888888889
+C + Heip evenness,15,Brillenhöhle,Layer IV,NA,Cannibalism,NF,Missing,2,3,0.29454859707611963,-0.3294453681727975,-0.8113046051452455,33.33333333333333,Cannibalism,44.44444444444444
+C + Heip evenness,16,Brno II,NA,Historical,Funerary,F,Single inhumation,1,2,0.760354135325456,-0.5522908105057561,0.3454424391307512,7.317073170731707,Carnivore-related,100
+C + Heip evenness,20,Abri de Raymonden (Chancelade),NA,NA,Funerary,F,Single inhumation,5,4,0.40090681595137456,2.562879320152854,0.3888117817698902,94.44444444444444,Funerary,61.111111111111114
+C + Heip evenness,21,Combe Grenal,Couche 25,NA,Cannibalism,NF,Missing,1,2,0.11369090248159318,-1.3679600617228913,0.09600400414347798,7.317073170731707,Carnivore-related,4.878048780487805
+C + Heip evenness,23,Cova Gran de Santa Linya,NA,Early,Funerary,F,Single inhumation,4,1,0.1545951695621865,0.8024686622147773,0.2533688192382947,94.44444444444444,Funerary,22.22222222222222
+C + Heip evenness,24,Cro-Magnon I,Unit J,Historical,Funerary,F,Collective burial,1,2,0.37008552673349887,-0.9250964039824632,0.17955490223254345,7.317073170731707,Carnivore-related,85.36585365853658
+C + Heip evenness,25,Crow Creek,Fortification ditch fill,Historical,Funerary,F,Collective burial,2,3,0.44923781478669295,-0.1071565395642451,-0.12301813569244013,33.33333333333333,Cannibalism,83.33333333333334
+C + Heip evenness,26,Cueva de la Buena Pinta,Nivel 3,NA,Carnivore-related,NF,Carnivore den (transport),2,3,0.4230506386775642,-0.6752188244318557,-0.7516662533671723,33.33333333333333,Cannibalism,72.22222222222221
+C + Heip evenness,27,Cueva del Camino,NA,NA,Carnivore-related,NF,Carnivore den (transport),2,3,0.4230506386775642,-0.6752188244318557,-0.7516662533671723,33.33333333333333,Cannibalism,72.22222222222221
+C + Heip evenness,28,Dali Tianshuigou,Level 3,NA,Geological transport,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,29,Dame du Cavillon,NA,NA,Funerary,F,Single inhumation,5,4,0.37112556427374493,2.0956564138523035,0.6413290830681284,94.44444444444444,Funerary,44.44444444444444
+C + Heip evenness,30,Dolní Věstonice II,NA,NA,Funerary,F,Single + multiple,5,4,0.5653325045950683,2.6891515706353815,0.5191382770423139,94.44444444444444,Funerary,83.33333333333334
+C + Heip evenness,31,Dolní Věstonice I,NA,NA,Funerary,F,Single inhumation,5,4,0.24294223603642673,2.4175860990824676,0.31460267232552774,94.44444444444444,Funerary,16.666666666666664
+C + Heip evenness,32,El Espinoso Cave,Sala de los Muertos,NA,Funerary,F,Collective burial,3,5,0.40806581362876365,0.8783444711954395,-1.391667105990574,75,Funerary,50
+C + Heip evenness,33,El Mirador,MIR4,NA,Cannibalism,NF,Missing,1,2,0.5626381376845356,-0.7600459413488895,0.009516540243646565,7.317073170731707,Carnivore-related,97.5609756097561
+C + Heip evenness,34,El Mirón Cave,Level 114,NA,Funerary,F,Single inhumation,3,5,0.6355402641863626,1.4013458217503423,-0.5057815383975883,75,Funerary,100
+C + Heip evenness,35,El Sidrón J1,Galería del Osario,Early,Cannibalism,NF,Missing,5,4,0.1783009826509907,2.311414163997685,0.3966867032065544,94.44444444444444,Funerary,11.11111111111111
+C + Heip evenness,40,Grotte de Fontbrégoua,H1,Early,Cannibalism,NF,Missing,1,2,0.42346361007146427,-0.8998366340050846,0.03154662845865763,7.317073170731707,Carnivore-related,92.6829268292683
+C + Heip evenness,41,Grotte de Fontbrégoua,H3,Early,Cannibalism,NF,Missing,2,3,0.09337969363157854,-0.24679229529799449,-0.5703003620124335,33.33333333333333,Cannibalism,5.555555555555555
+C + Heip evenness,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,0.26037122206091057,-1.5548572623624075,0.16457328575609975,7.317073170731707,Carnivore-related,78.04878048780488
+C + Heip evenness,43,Cova Foradada,NA,NA,Funerary,F,Cremation,3,5,0.27953675958103497,0.7964093326042765,-1.1878273595665048,75,Funerary,12.5
+C + Heip evenness,44,Cova Foradada,NA,NA,Funerary,F,Collective burial,3,5,0.47580239420364423,0.601705198217005,-1.2530037885704093,75,Funerary,75
+C + Heip evenness,45,Cova del Gegant,Unit II,NA,Carnivore-related,NF,Carnivore den(transport),1,2,0.15470106105112685,-1.4484051042284434,0.20452553239301852,7.317073170731707,Carnivore-related,17.073170731707318
+C + Heip evenness,46,Gough's Cave,NA,NA,Cannibalism,NF,Missing,1,2,0.11667974691998059,-1.179155119036599,0.17082530802111628,7.317073170731707,Carnivore-related,7.317073170731707
+C + Heip evenness,47,Troisième caverne of Goyet,FBL 2 and 3 | FBL 2 and 4,NA,Cannibalism,NF,Missing,2,3,0.2533164732990247,-0.42600741616245374,-0.7483978432238247,33.33333333333333,Cannibalism,27.77777777777778
+C + Heip evenness,48,Gran Dolina,TD6,NA,Cannibalism,NF,Missing,2,3,0.3323936529144212,-0.19433655489171742,-0.823158428085027,33.33333333333333,Cannibalism,50
+C + Heip evenness,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",NA,NA,Carnivore-related,NF,Missing,1,2,0.26037122206091057,-1.5548572623624075,0.16457328575609975,7.317073170731707,Carnivore-related,78.04878048780488
+C + Heip evenness,50,Grotte du Bison (Arcy-sur-Cure),Level I,NA,Carnivore-related,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Middle Palaeolithic sequence(9–10; 17–18; 22),NA,Carnivore-related,NF,Missing,1,2,0.4910004093466021,-0.9766888150866462,-0.19037363078874736,7.317073170731707,Carnivore-related,95.1219512195122
+C + Heip evenness,52,Grotta Guattari,Laghetto,Historical,Carnivore-related,NF,Carnivore den(transport),1,2,0.17466913944754797,-1.1453116635097613,0.09358787293612025,7.317073170731707,Carnivore-related,51.21951219512195
+C + Heip evenness,53,Hahnöfersand,Glacial river sands,NA,Geological transport,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,54,Hathnora,NA,NA,Geological transport,NF,Missing,1,2,0.4164966165450242,-0.9448160926765686,0.4085578105670774,7.317073170731707,Carnivore-related,87.8048780487805
+C + Heip evenness,55,Herxheim,Deposit K,NA,Cannibalism,NF,Missing,2,3,0.26595034124246575,-0.05823549025323255,-0.538013945882197,33.33333333333333,Cannibalism,33.33333333333333
+C + Heip evenness,56,Hohlenstein-Stadel,NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,0.26037122206091057,-1.5548572623624075,0.16457328575609975,7.317073170731707,Carnivore-related,78.04878048780488
+C + Heip evenness,57,Jarama VI rockshelter,Level 2,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,0.27730216342772995,-1.5703423436362507,0.14908820448225646,7.317073170731707,Carnivore-related,80.48780487804879
+C + Heip evenness,58,Kajiado,NA,NA,Carnivore-related,NF,Carnivore den(transport),1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,59,Kalamakia,Unit IV,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,0.23877769573838942,-1.3306922798545506,-0.05278764588900753,7.317073170731707,Carnivore-related,63.41463414634146
+C + Heip evenness,60,Kebara Cave,Unit XI,Early,Funerary,F,Single inhumation,5,4,0.7138855541052601,2.8212531659694147,0.587273902692103,94.44444444444444,Funerary,100
+C + Heip evenness,61,Kiik-Koba,Layer IV - VI,NA,Funerary,F,Single inhumation,4,1,0.39338914346603454,0.2631927422592886,0.1867453133239724,94.44444444444444,Funerary,50
+C + Heip evenness,65,Krapina,Primarily levels 3 and 4,Historical,Cannibalism,NF,Missing,2,3,0.7748430032210576,0.16513955455835783,-1.1182920346844285,33.33333333333333,Cannibalism,100
+C + Heip evenness,66,La Chapelle-aux-Saints,Mousterian layer,Historical,Funerary,F,Single inhumation,5,4,0.3654798940738873,1.8495977393156577,0.11730475957559339,94.44444444444444,Funerary,38.88888888888889
+C + Heip evenness,67,La Ferrassie,Lower Mousterian layers,Both panels,Funerary,F,Single + collective,4,1,0.3601080236341917,0.3376008701945589,0.08459380558307739,94.44444444444444,Funerary,44.44444444444444
+C + Heip evenness,69,La Quina,Mousterian levels,Historical,Funerary,F,No inhumation,1,2,0.12747930746421315,-1.4028560018615313,0.2515456486603769,7.317073170731707,Carnivore-related,9.75609756097561
+C + Heip evenness,70,La Tolita Cama de Huesos,Tardío,NA,Funerary,F,Collective burial,4,1,0.69221247496270355,0.4732101672746739,-0.40323723420025254,94.44444444444444,Funerary,83.33333333333334
+C + Heip evenness,71,Abrigo do Lagar Velho,NA,NA,Funerary,F,Single inhumation,5,4,0.3536114951346924,2.295293978713205,-0.054039635838910804,94.44444444444444,Funerary,33.33333333333333
+C + Heip evenness,73,Le Moustier I,Upper Shelter (Couche K),NA,Funerary,F,Single inhumation,4,1,0.547995656445252,1.0349893115764655,0.6548501506508,94.44444444444444,Funerary,77.77777777777779
+C + Heip evenness,74,Le Moustier II,Lower Shelter (Couche J),NA,Funerary,F,Single inhumation,5,4,0.42609625992754446,2.1679473793481527,-0.14671675019648123,94.44444444444444,Funerary,72.22222222222221
+C + Heip evenness,75,Le Placard,Grotte du Placard,NA,Cannibalism,NF,Missing,1,2,0.1318608167276122,-1.4261346327384552,0.16804736848847746,7.317073170731707,Carnivore-related,12.195121951219512
+C + Heip evenness,76,Les Pradelles (Marillac-le-Franc),Layers 9 and 10,NA,Carnivore-related,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,77,Les Rochers-de-Villeneuve,Level J,NA,Carnivore-related,NF,Missing,1,2,0.26037122206091057,-1.5548572623624075,0.16457328575609975,7.317073170731707,Carnivore-related,78.04878048780488
+C + Heip evenness,78,Grotte des Hoteaux,NA,NA,Funerary,F,Single inhumation,5,4,0.32236355391744814,2.1555713195677537,0.6009139093271467,94.44444444444444,Funerary,27.77777777777778
+C + Heip evenness,79,Cueva de Malalmuerzo,NA,NA,Cannibalism,NF,Missing,4,1,0.9416110405052536,0.18558555025932477,1.0864382645064208,94.44444444444444,Funerary,100
+C + Heip evenness,81,Mancos 5MT-10010 Feature 3,NA,Early,Cannibalism,NF,No inhumation,3,5,0.3128351207318756,1.274794212942669,-0.8420305202267606,75,Funerary,37.5
+C + Heip evenness,82,Yellow Jacket 5MT-3,NA,Early,Cannibalism,NF,No inhumation,3,5,0.4816393226271886,0.6678327792360017,-0.663116879436131,75,Funerary,87.5
+C + Heip evenness,85,Maszycka Cave,NA,NA,Cannibalism,NF,Missing,1,2,0.21860152103646288,-1.0941979631045167,0.2693540754370353,7.317073170731707,Carnivore-related,58.536585365853654
+C + Heip evenness,86,Mauer,Lower Sands,NA,Geological transport,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,87,Mladeč Caves,Chamber D,Historical,Funerary,F,Funerary caching,2,3,0.41269352625358885,-0.722076714981,-0.6232379599462166,33.33333333333333,Cannibalism,61.111111111111114
+C + Heip evenness,88,Mojokerto,Pucangan Formation,NA,Geological transport,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,89,Los Moros de Gabasa,Level E-F,NA,Carnivore-related,NF,Carnivore den(transport),1,2,0.235301773040879,-1.2745977228248453,-0.051069494885671474,7.317073170731707,Carnivore-related,60.97560975609756
+C + Heip evenness,90,Moula-Guercy,Layer XV,Historical,Cannibalism,NF,Missing,1,2,0.2967819721127747,-1.0029951111825086,0.13120066564601718,7.317073170731707,Carnivore-related,82.92682926829268
+C + Heip evenness,91,Mugharet es-Skhul,Layer B,Early,Funerary,F,Single inhumation,4,1,0.07834821663242073,0.5905230458229715,0.21365318885371268,94.44444444444444,Funerary,16.666666666666664
+C + Heip evenness,94,Netankheri,Fluvial gravely sand bed,NA,Geological transport,NF,Missing,1,2,0.10373247227683312,-1.287185097986404,0.07990662734370002,7.317073170731707,Carnivore-related,2.4390243902439024
+C + Heip evenness,95,Ngandong,High Terrace deposits of the Solo river,NA,Geological transport,NF,Missing,1,2,0.1786268242742566,-1.4535942157292134,0.2658363323892936,7.317073170731707,Carnivore-related,53.65853658536586
+C + Heip evenness,96,Ngawi,Selopuro left river bank,NA,Geological transport,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,97,Oberkassel,NA,NA,Funerary,F,Multiple inhumation,5,4,0.30464549276826514,1.9051893277727174,0.4164101674348851,94.44444444444444,Funerary,22.22222222222222
+C + Heip evenness,99,Ojo Guareña,NA,NA,Funerary,F,No inhumation,5,4,0.4242471792303171,2.583059242908619,0.15564681859779528,94.44444444444444,Funerary,66.66666666666666
+C + Heip evenness,102,Goat’s Hole (Paviland Cave),NA,Historical,Funerary,F,Single inhumation,4,1,0.4357906664511111,0.23687170111164849,0.12312775111343166,94.44444444444444,Funerary,61.111111111111114
+C + Heip evenness,103,Pavlov I,NA,NA,Funerary,F,Single inhumation,4,1,0.806692519802946,1.2242837309441796,0.8313581899271434,94.44444444444444,Funerary,94.44444444444444
+C + Heip evenness,104,Grotte des Perrats,Couche 3,NA,Cannibalism,NF,Missing,2,3,0.6026849349227422,0.10512840661988918,-0.09297497535970284,33.33333333333333,Cannibalism,88.88888888888889
+C + Heip evenness,106,Předmostí,NA,NA,Funerary,F,Collective burial,4,1,0.5423087185300484,0.1088256473761264,0.3205594821527608,94.44444444444444,Funerary,72.22222222222221
+C + Heip evenness,107,Qafzeh Cave,Layer XVI to XXIII,Early,Funerary,F,Single + multiple,4,1,0.4078714421785999,0.2445324013685608,0.20961045643819798,94.44444444444444,Funerary,55.55555555555556
+C + Heip evenness,108,Regourdou,Tumulus IVA at Level IV,Historical,Funerary,F,Single inhumation,4,1,0.029196571602998826,0.6224413164521766,0.2797445336405707,94.44444444444444,Funerary,5.555555555555555
+C + Heip evenness,109,Reilingen,Gravel pit sequence,NA,Geological transport,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Dark grey layer,NA,Funerary,F,No inhumation,5,4,0.58831807479652,1.8973611506956425,0.7967666465375861,94.44444444444444,Funerary,88.88888888888889
+C + Heip evenness,111,Roc de Marsal,Layer 4,Historical,Funerary,F,Single inhumation,5,4,0.39811664148013765,1.8508495607020463,0.051297143771314335,94.44444444444444,Funerary,55.55555555555556
+C + Heip evenness,112,Roc de les Orenetes,NA,NA,Funerary,F,Collective burial,3,5,0.29455030738416815,1.2185069926109373,-0.7990616761281528,75,Funerary,25
+C + Heip evenness,113,Saccopastore,NA,NA,Geological transport,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Terrasse supérieure,NA,Funerary,F,Single inhumation,4,1,0.5347886677316602,1.175705782906778,0.3557374607685136,94.44444444444444,Funerary,66.66666666666666
+C + Heip evenness,116,Sambungmacan,Solo River alluvium,NA,Geological transport,NF,Missing,1,2,0.18096602414263047,-1.4587793717315156,0.26065117638699165,7.317073170731707,Carnivore-related,56.09756097560976
+C + Heip evenness,117,San Juan ante Portam Latinam,NA,NA,Funerary,F,Collective burial,4,1,0.2016839694747491,0.8168894116543463,0.15554212084412722,94.44444444444444,Funerary,33.33333333333333
+C + Heip evenness,118,Coves de Santa Maira,Level SM-3 | Level SM-4,NA,Cannibalism,NF,Missing,1,2,0.420684327954207,-0.9869630903619762,-0.10300415850918715,7.317073170731707,Carnivore-related,90.2439024390244
+C + Heip evenness,120,Shanidar Cave,Layer D,Historical,Funerary,F,Multiple inhumation,4,1,0.1838360128205581,0.7419267128091063,0.10814978223006078,94.44444444444444,Funerary,27.77777777777778
+C + Heip evenness,121,Sima de las Palomas,"Upper stratigraphic levels (including ""Conglomerado B"") and lower levels 5 and 6",Early,Funerary,F,Collective burial,5,4,0.38826904268881035,1.7898042281133408,0.2536373256937422,94.44444444444444,Funerary,50
+C + Heip evenness,130,Sunghir,NA,NA,Funerary,F,Multiple inhumation,4,1,0.03003540264821839,0.6184556451342853,0.2684015386469807,94.44444444444444,Funerary,11.11111111111111
+C + Heip evenness,131,Tabun Cave (Mugharet et-Tabun),Layer C,Early,Funerary,F,Single inhumation,5,4,0.12250966093310324,2.2828521969275624,0.21721677033514464,94.44444444444444,Funerary,5.555555555555555
+C + Heip evenness,132,Tepecik-Çiftlik,Level 5 (BB structure),NA,Funerary,F,Collective burial,5,4,0.6775526241753175,1.8399042814723612,-0.3083368989380514,94.44444444444444,Funerary,94.44444444444444
+C + Heip evenness,133,Teshik-Tash Cave,Layer I,Historical,Funerary,F,Single inhumation,2,3,0.6819906510309586,-0.2725207368645971,0.16327530200351412,33.33333333333333,Cannibalism,94.44444444444444
+C + Heip evenness,134,Cueva de los Torrejones,NA,Historical,Funerary,F,Collective burial,2,3,0.16821824719127323,-0.2743951190381898,-0.3558789831150531,33.33333333333333,Cannibalism,11.11111111111111
+C + Heip evenness,141,Vado all'Arancio,NA,NA,Funerary,F,Single inhumation,5,4,0.5409477515057176,1.6746910856919102,0.0790699578206483,94.44444444444444,Funerary,77.77777777777779
+C + Heip evenness,142,Valdegoba Cave,Level 5 | Level 6 | Level 8,NA,Carnivore-related,NF,Carnivore den (transport),1,2,0.24712139056619567,-1.5422085057393957,0.17722204237911132,7.317073170731707,Carnivore-related,68.29268292682927
+C + Heip evenness,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",NA,NA,Carnivore-related,NF,Missing,2,3,0.3907410541643392,-0.48498168903730265,-0.1610798966503503,33.33333333333333,Cannibalism,55.55555555555556
+C + Heip evenness,144,Vindija,Fd/d,NA,Cannibalism,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,145,Vindija,G1,NA,Cannibalism,NF,Missing,1,2,0.17109211016294062,-1.426753408187885,0.2926771399306223,7.317073170731707,Carnivore-related,48.78048780487805
+C + Heip evenness,146,Vindija,G3,NA,Cannibalism,NF,Missing,1,2,0.24497041714563614,-1.0672212997752815,0.09359202402096167,7.317073170731707,Carnivore-related,65.85365853658537
+C + Heip evenness,147,Vunda Locus,26M | 26H,NA,Cannibalism,NF,Missing,2,3,0.20301389052420749,-0.4790277311971487,-0.38652749528512265,33.33333333333333,Cannibalism,16.666666666666664
+C + Heip evenness,149,Xemxija tombs,NA,NA,Funerary,F,Collective burial,3,5,0.4443007832602327,1.2211111750394537,-1.394166466212713,75,Funerary,62.5
+C + Heip evenness,150,Boquete de Zafarraya,Units UG–UE,NA,Cannibalism,NF,Missing,2,3,0.43573108469637806,-0.7571227932781512,-0.5579777247527952,33.33333333333333,Cannibalism,77.77777777777779
+%MNAU raw,1,Abri Pataud,Level 2,NA,Funerary,F,Collective-secondary,1,1,2.7301368337307075,-0.5994519862283415,0.12327415192725745,22.058823529411764,Cannibalism,82.35294117647058
+%MNAU raw,5,Amud Cave,Layer B,NA,Funerary,F,Single inhumation,2,2,3.3053590727094435,1.9323242563500973,0.9500482649471474,97.14285714285714,Funerary,28.57142857142857
+%MNAU raw,6,Arago,Gs1 | Gm2 | Gm3 | Gi4 | Fm3 | Fm4 | Fi,NA,Cannibalism,NF,Missing,1,1,0.8187656577264993,-2.388960140946975,-0.10344276255992318,22.058823529411764,Cannibalism,14.705882352941178
+%MNAU raw,8,Archi,Geological layer C-3,NA,Geological transport,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,9,Atxuri-I Cave,NA,NA,Funerary,F,Possible burial,1,1,1.0594861300656622,-2.314965657429157,0.25131138586801666,22.058823529411764,Cannibalism,50
+%MNAU raw,10,Baousso da Torre (Bausu da Ture),Upper Paleolithic deposits,NA,Funerary,F,Single inhumation,2,2,2.9522893225666222,3.3486449591883787,-1.5950754851721953,97.14285714285714,Funerary,17.142857142857142
+%MNAU raw,15,Brillenhöhle,Layer IV,NA,Cannibalism,NF,Missing,1,1,0.9478493566331181,-2.5716314308118924,0.2111040011870931,22.058823529411764,Cannibalism,25
+%MNAU raw,16,Brno II,NA,Historical,Funerary,F,Single inhumation,1,1,4.208643385216913,-0.5948903508716186,-0.326485325588534,22.058823529411764,Cannibalism,95.58823529411765
+%MNAU raw,20,Abri de Raymonden (Chancelade),NA,NA,Funerary,F,Single inhumation,2,2,4.194916933004408,7.246943359574564,-1.770813625185675,97.14285714285714,Funerary,42.857142857142854
+%MNAU raw,21,Combe Grenal,Couche 25,NA,Cannibalism,NF,Missing,1,1,0.8632029804664225,-2.6529221951828816,0.032255789248821005,22.058823529411764,Cannibalism,19.11764705882353
+%MNAU raw,23,Cova Gran de Santa Linya,NA,Early,Funerary,F,Single inhumation,2,2,4.846584522415345,2.4545013619953924,-2.310979625240194,97.14285714285714,Funerary,68.57142857142857
+%MNAU raw,24,Cro-Magnon I,Unit J,Historical,Funerary,F,Collective burial,1,1,3.3101982148566447,-1.7134103660512423,-0.020386003122925076,22.058823529411764,Cannibalism,91.17647058823529
+%MNAU raw,25,Crow Creek,Fortification ditch fill,Historical,Funerary,F,Collective burial,1,1,3.15144102011752,-1.2196424017371112,0.5361869063535649,22.058823529411764,Cannibalism,89.70588235294117
+%MNAU raw,26,Cueva de la Buena Pinta,Nivel 3,NA,Carnivore-related,NF,Carnivore den (transport),1,1,1.2968210714288828,-2.809532356025974,0.02072053110845061,22.058823529411764,Cannibalism,67.64705882352942
+%MNAU raw,27,Cueva del Camino,NA,NA,Carnivore-related,NF,Carnivore den (transport),1,1,1.2968210714288828,-2.809532356025974,0.02072053110845061,22.058823529411764,Cannibalism,67.64705882352942
+%MNAU raw,28,Dali Tianshuigou,Level 3,NA,Geological transport,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,29,Dame du Cavillon,NA,NA,Funerary,F,Single inhumation,2,2,4.644520907795268,6.527507823474938,-2.4192783616615148,97.14285714285714,Funerary,57.14285714285714
+%MNAU raw,30,Dolní Věstonice II,NA,NA,Funerary,F,Single + multiple,2,2,4.221835192964987,7.8259718075211815,0.10053739778983499,97.14285714285714,Funerary,45.714285714285715
+%MNAU raw,31,Dolní Věstonice I,NA,NA,Funerary,F,Single inhumation,2,2,4.532746468374238,6.787712825707177,-1.0335018940694924,97.14285714285714,Funerary,54.285714285714285
+%MNAU raw,32,El Espinoso Cave,Sala de los Muertos,NA,Funerary,F,Collective burial,1,1,1.62405669772832,-1.6292648682163053,0.6639155193687617,22.058823529411764,Cannibalism,73.52941176470588
+%MNAU raw,33,El Mirador,MIR4,NA,Cannibalism,NF,Missing,1,1,1.5004897306986564,-1.770317249128674,-0.39547587867049827,22.058823529411764,Cannibalism,72.05882352941177
+%MNAU raw,34,El Mirón Cave,Level 114,NA,Funerary,F,Single inhumation,2,2,6.149195099738217,2.6719564742696784,1.3332696944597782,97.14285714285714,Funerary,88.57142857142857
+%MNAU raw,35,El Sidrón J1,Galería del Osario,Early,Cannibalism,NF,Missing,2,2,5.1493880261201115,6.374923257047873,1.2770651980425645,97.14285714285714,Funerary,71.42857142857143
+%MNAU raw,40,Grotte de Fontbrégoua,H1,Early,Cannibalism,NF,Missing,1,1,0.8444913277534711,-2.519235553343561,-0.026244225357987584,22.058823529411764,Cannibalism,17.647058823529413
+%MNAU raw,41,Grotte de Fontbrégoua,H3,Early,Cannibalism,NF,Missing,1,1,10.088251808083639,-2.621380807153492,-0.2190804601351976,22.058823529411764,Cannibalism,100
+%MNAU raw,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,1,1.2385130311365165,-2.708329552168657,-0.0662127487829029,22.058823529411764,Cannibalism,60.29411764705882
+%MNAU raw,43,Cova Foradada,NA,NA,Funerary,F,Cremation,1,1,2.1965052927490563,-1.3611515519982518,1.4687073598971052,22.058823529411764,Cannibalism,77.94117647058823
+%MNAU raw,44,Cova Foradada,NA,NA,Funerary,F,Collective burial,1,1,3.510195540552967,-1.195277267878439,1.7866181544610125,22.058823529411764,Cannibalism,92.64705882352942
+%MNAU raw,45,Cova del Gegant,Unit II,NA,Carnivore-related,NF,Carnivore den(transport),1,1,0.7996325524625592,-2.747848962564788,0.032650125226953416,22.058823529411764,Cannibalism,10.294117647058822
+%MNAU raw,46,Gough's Cave,NA,NA,Cannibalism,NF,Missing,1,1,1.21374515664147,-1.8781117493661474,0.08428607174864465,22.058823529411764,Cannibalism,54.41176470588235
+%MNAU raw,47,Troisième caverne of Goyet,FBL 2 and 3 | FBL 2 and 4,NA,Cannibalism,NF,Missing,1,1,0.8037308786075141,-2.512557042837815,0.02567780649934573,22.058823529411764,Cannibalism,11.76470588235294
+%MNAU raw,48,Gran Dolina,TD6,NA,Cannibalism,NF,Missing,1,1,0.534167749041302,-2.465025161801096,0.11609555266710228,22.058823529411764,Cannibalism,1.4705882352941175
+%MNAU raw,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",NA,NA,Carnivore-related,NF,Missing,1,1,1.2385130311365165,-2.708329552168657,-0.0662127487829029,22.058823529411764,Cannibalism,60.29411764705882
+%MNAU raw,50,Grotte du Bison (Arcy-sur-Cure),Level I,NA,Carnivore-related,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Middle Palaeolithic sequence(9–10; 17–18; 22),NA,Carnivore-related,NF,Missing,1,1,1.944290956501719,-2.3285528997032334,-0.10225588333589734,22.058823529411764,Cannibalism,76.47058823529412
+%MNAU raw,52,Grotta Guattari,Laghetto,Historical,Carnivore-related,NF,Carnivore den(transport),1,1,0.8369541246431865,-2.5277509042752166,0.046684597659395574,22.058823529411764,Cannibalism,16.176470588235293
+%MNAU raw,53,Hahnöfersand,Glacial river sands,NA,Geological transport,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,54,Hathnora,NA,NA,Geological transport,NF,Missing,1,1,3.5259249750351014,-1.387581862102143,0.36688084541496296,22.058823529411764,Cannibalism,94.11764705882352
+%MNAU raw,55,Herxheim,Deposit K,NA,Cannibalism,NF,Missing,1,1,0.5368113769117555,-2.184624297205088,0.23406322857933748,22.058823529411764,Cannibalism,2.941176470588235
+%MNAU raw,56,Hohlenstein-Stadel,NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,1,1.2385130311365165,-2.708329552168657,-0.0662127487829029,22.058823529411764,Cannibalism,60.29411764705882
+%MNAU raw,57,Jarama VI rockshelter,Level 2,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,1,1.282181565943353,-2.7857742062570354,0.018153240066117023,22.058823529411764,Cannibalism,64.70588235294117
+%MNAU raw,58,Kajiado,NA,NA,Carnivore-related,NF,Carnivore den(transport),1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,59,Kalamakia,Unit IV,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,1,1.1176777459151641,-2.7735336314546104,0.01690141943544253,22.058823529411764,Cannibalism,52.94117647058824
+%MNAU raw,60,Kebara Cave,Unit XI,Early,Funerary,F,Single inhumation,2,2,8.482875987720615,7.821976222954537,6.47177359677498,97.14285714285714,Funerary,97.14285714285714
+%MNAU raw,61,Kiik-Koba,Layer IV - VI,NA,Funerary,F,Single inhumation,2,2,3.950637086625031,1.9954471685436634,-0.215568908967823,97.14285714285714,Funerary,34.285714285714285
+%MNAU raw,65,Krapina,Primarily levels 3 and 4,Historical,Cannibalism,NF,Missing,1,1,1.0250770746978521,-1.81224448462289,-0.20045113855584384,22.058823529411764,Cannibalism,45.588235294117645
+%MNAU raw,66,La Chapelle-aux-Saints,Mousterian layer,Historical,Funerary,F,Single inhumation,2,2,4.079250695024491,4.810946485074033,-1.3405849799754381,97.14285714285714,Funerary,40
+%MNAU raw,67,La Ferrassie,Lower Mousterian layers,Both panels,Funerary,F,Single + collective,2,2,3.1043582328833565,1.3071026664435554,-0.6158530576035578,97.14285714285714,Funerary,20
+%MNAU raw,69,La Quina,Mousterian levels,Historical,Funerary,F,No inhumation,1,1,0.7206352154661769,-2.5731784952788694,-0.051230737168642314,22.058823529411764,Cannibalism,4.411764705882353
+%MNAU raw,70,La Tolita Cama de Huesos,Tardío,NA,Funerary,F,Collective burial,1,1,2.8110027680453515,0.14899958638239888,-0.08354936853273871,22.058823529411764,Cannibalism,83.82352941176471
+%MNAU raw,71,Abrigo do Lagar Velho,NA,NA,Funerary,F,Single inhumation,2,2,5.377559829345724,5.849631624004445,-0.9242219555726744,97.14285714285714,Funerary,80
+%MNAU raw,73,Le Moustier I,Upper Shelter (Couche K),NA,Funerary,F,Single inhumation,2,2,4.769908877893694,3.399823894978734,-2.8019252805324593,97.14285714285714,Funerary,62.857142857142854
+%MNAU raw,74,Le Moustier II,Lower Shelter (Couche J),NA,Funerary,F,Single inhumation,2,2,7.088736749395015,4.782845512824854,3.9128823308967022,97.14285714285714,Funerary,91.42857142857143
+%MNAU raw,75,Le Placard,Grotte du Placard,NA,Cannibalism,NF,Missing,1,1,0.7698069102468154,-2.694145903691481,0.020276540577937832,22.058823529411764,Cannibalism,7.352941176470589
+%MNAU raw,76,Les Pradelles (Marillac-le-Franc),Layers 9 and 10,NA,Carnivore-related,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,77,Les Rochers-de-Villeneuve,Level J,NA,Carnivore-related,NF,Missing,1,1,1.2385130311365165,-2.708329552168657,-0.0662127487829029,22.058823529411764,Cannibalism,60.29411764705882
+%MNAU raw,78,Grotte des Hoteaux,NA,NA,Funerary,F,Single inhumation,2,2,4.430660578987312,6.435512822880217,-0.6420558562849564,97.14285714285714,Funerary,48.57142857142857
+%MNAU raw,79,Cueva de Malalmuerzo,NA,NA,Cannibalism,NF,Missing,1,1,8.010394036565115,-1.1668885568024419,0.2553836432518651,22.058823529411764,Cannibalism,98.52941176470588
+%MNAU raw,81,Mancos 5MT-10010 Feature 3,NA,Early,Cannibalism,NF,No inhumation,1,1,3.1188523154387675,-0.7414242710897799,1.0879238993452598,22.058823529411764,Cannibalism,86.76470588235294
+%MNAU raw,82,Yellow Jacket 5MT-3,NA,Early,Cannibalism,NF,No inhumation,1,1,2.2737751411143177,-1.23483989201143,0.5030187733601355,22.058823529411764,Cannibalism,79.41176470588235
+%MNAU raw,85,Maszycka Cave,NA,NA,Cannibalism,NF,Missing,1,1,1.2698380215070222,-2.0037986154219567,-0.21877944154870602,22.058823529411764,Cannibalism,63.23529411764706
+%MNAU raw,86,Mauer,Lower Sands,NA,Geological transport,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,87,Mladeč Caves,Chamber D,Historical,Funerary,F,Funerary caching,1,1,1.2527869381745185,-2.6197167551987737,-0.02017757761541516,22.058823529411764,Cannibalism,61.76470588235294
+%MNAU raw,88,Mojokerto,Pucangan Formation,NA,Geological transport,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,89,Los Moros de Gabasa,Level E-F,NA,Carnivore-related,NF,Carnivore den(transport),1,1,1.4632057764527755,-2.584144648387141,0.09112837779355287,22.058823529411764,Cannibalism,70.58823529411765
+%MNAU raw,90,Moula-Guercy,Layer XV,Historical,Cannibalism,NF,Missing,1,1,1.0735530113253187,-1.8297080543425235,-0.10894381974948165,22.058823529411764,Cannibalism,51.470588235294116
+%MNAU raw,91,Mugharet es-Skhul,Layer B,Early,Funerary,F,Single inhumation,2,2,2.765216027183203,1.8650792720596263,-0.28133310675655726,97.14285714285714,Funerary,11.428571428571429
+%MNAU raw,94,Netankheri,Fluvial gravely sand bed,NA,Geological transport,NF,Missing,1,1,1.3109482295147843,-2.6071267483113396,-0.15314602867425642,22.058823529411764,Cannibalism,69.11764705882352
+%MNAU raw,95,Ngandong,High Terrace deposits of the Solo river,NA,Geological transport,NF,Missing,1,1,0.77939724673002,-2.6973452193071017,0.02821677771254137,22.058823529411764,Cannibalism,8.823529411764707
+%MNAU raw,96,Ngawi,Selopuro left river bank,NA,Geological transport,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,97,Oberkassel,NA,NA,Funerary,F,Multiple inhumation,2,2,3.3885295786522636,5.3980664596037755,-0.9900414908902694,97.14285714285714,Funerary,31.428571428571427
+%MNAU raw,99,Ojo Guareña,NA,NA,Funerary,F,No inhumation,2,2,7.99363214125581,6.028645366210985,7.213977783188821,97.14285714285714,Funerary,94.28571428571428
+%MNAU raw,102,Goat’s Hole (Paviland Cave),NA,Historical,Funerary,F,Single inhumation,2,2,5.571240261799458,1.3351513753430935,-2.0462920765550523,97.14285714285714,Funerary,85.71428571428571
+%MNAU raw,103,Pavlov I,NA,NA,Funerary,F,Single inhumation,2,2,4.447433298240669,4.674587901415427,-2.2735596578435344,97.14285714285714,Funerary,51.42857142857142
+%MNAU raw,104,Grotte des Perrats,Couche 3,NA,Cannibalism,NF,Missing,1,1,1.7412723724433887,-1.7625728581227185,0.19790896059265736,22.058823529411764,Cannibalism,75
+%MNAU raw,106,Předmostí,NA,NA,Funerary,F,Collective burial,2,2,3.2846703191519593,1.1410474875812207,-1.1325029251232341,97.14285714285714,Funerary,25.71428571428571
+%MNAU raw,107,Qafzeh Cave,Layer XVI to XXIII,Early,Funerary,F,Single + multiple,2,2,3.1299278603540794,1.1850436085622833,0.11134552806544913,97.14285714285714,Funerary,22.857142857142858
+%MNAU raw,108,Regourdou,Tumulus IVA at Level IV,Historical,Funerary,F,Single inhumation,2,2,2.771151672476076,2.6284983622563134,0.5412897606897631,97.14285714285714,Funerary,14.285714285714285
+%MNAU raw,109,Reilingen,Gravel pit sequence,NA,Geological transport,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Dark grey layer,NA,Funerary,F,No inhumation,2,2,5.3110155873159695,6.06715537538705,-0.11775315831808152,97.14285714285714,Funerary,77.14285714285715
+%MNAU raw,111,Roc de Marsal,Layer 4,Historical,Funerary,F,Single inhumation,2,2,4.72592051214412,4.639740114944869,1.0058925601933013,97.14285714285714,Funerary,60
+%MNAU raw,112,Roc de les Orenetes,NA,NA,Funerary,F,Collective burial,1,1,3.1456580309600675,-0.6229102100752476,1.2623925259284219,22.058823529411764,Cannibalism,88.23529411764706
+%MNAU raw,113,Saccopastore,NA,NA,Geological transport,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Terrasse supérieure,NA,Funerary,F,Single inhumation,2,2,5.386873134502732,3.948809005491844,-1.0864080250439079,97.14285714285714,Funerary,82.85714285714286
+%MNAU raw,116,Sambungmacan,Solo River alluvium,NA,Geological transport,NF,Missing,1,1,0.7376685318542731,-2.6917065648698664,0.01688160231336651,22.058823529411764,Cannibalism,5.88235294117647
+%MNAU raw,117,San Juan ante Portam Latinam,NA,NA,Funerary,F,Collective burial,2,2,10.118612711729584,2.4265763215040925,-1.825462672366969,97.14285714285714,Funerary,100
+%MNAU raw,118,Coves de Santa Maira,Level SM-3 | Level SM-4,NA,Cannibalism,NF,Missing,1,1,0.8067328572580508,-2.517680049886177,0.05292720461110225,22.058823529411764,Cannibalism,13.23529411764706
+%MNAU raw,120,Shanidar Cave,Layer D,Historical,Funerary,F,Multiple inhumation,2,2,2.3031437901243956,2.3034018318076375,-0.52736128113609,97.14285714285714,Funerary,5.714285714285714
+%MNAU raw,121,Sima de las Palomas,"Upper stratigraphic levels (including ""Conglomerado B"") and lower levels 5 and 6",Early,Funerary,F,Collective burial,2,2,4.066794244602684,4.855473853586364,-1.3168881977266313,97.14285714285714,Funerary,37.142857142857146
+%MNAU raw,130,Sunghir,NA,NA,Funerary,F,Multiple inhumation,2,2,2.3046803379726586,2.428801594194271,-0.19745108652447435,97.14285714285714,Funerary,8.571428571428571
+%MNAU raw,131,Tabun Cave (Mugharet et-Tabun),Layer C,Early,Funerary,F,Single inhumation,2,2,5.285955946075354,6.086153989869633,-0.33717027243446707,97.14285714285714,Funerary,74.28571428571429
+%MNAU raw,132,Tepecik-Çiftlik,Level 5 (BB structure),NA,Funerary,F,Collective burial,2,2,2.179097921741544,3.472511574749225,-1.346065763152775,97.14285714285714,Funerary,2.857142857142857
+%MNAU raw,133,Teshik-Tash Cave,Layer I,Historical,Funerary,F,Single inhumation,1,1,4.307820181660295,-0.3959926004153356,-0.5048044971744655,22.058823529411764,Cannibalism,97.05882352941177
+%MNAU raw,134,Cueva de los Torrejones,NA,Historical,Funerary,F,Collective burial,1,1,0.9256374223381827,-2.1727964756411087,0.28867354923115135,22.058823529411764,Cannibalism,22.058823529411764
+%MNAU raw,141,Vado all'Arancio,NA,NA,Funerary,F,Single inhumation,2,2,4.82765135110641,3.971168383509127,-1.2218543998736577,97.14285714285714,Funerary,65.71428571428571
+%MNAU raw,142,Valdegoba Cave,Level 5 | Level 6 | Level 8,NA,Carnivore-related,NF,Carnivore den (transport),1,1,1.040212864664758,-2.7716710242749008,0.026381067827011273,22.058823529411764,Cannibalism,47.05882352941176
+%MNAU raw,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",NA,NA,Carnivore-related,NF,Missing,1,1,2.39723216761129,-1.5972954037648361,-0.01867695143248034,22.058823529411764,Cannibalism,80.88235294117648
+%MNAU raw,144,Vindija,Fd/d,NA,Cannibalism,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,145,Vindija,G1,NA,Cannibalism,NF,Missing,1,1,0.9563031297760686,-2.6861655691036033,0.044579719345456334,22.058823529411764,Cannibalism,44.11764705882353
+%MNAU raw,146,Vindija,G3,NA,Cannibalism,NF,Missing,1,1,0.9354125747951191,-2.3398861245732117,-0.024990080744772408,22.058823529411764,Cannibalism,23.52941176470588
+%MNAU raw,147,Vunda Locus,26M | 26H,NA,Cannibalism,NF,Missing,1,1,0.9106722716265087,-2.091924751614738,0.06856574395162604,22.058823529411764,Cannibalism,20.588235294117645
+%MNAU raw,149,Xemxija tombs,NA,NA,Funerary,F,Collective burial,1,1,2.830140784403583,0.1629851961753837,-0.25184147276748364,22.058823529411764,Cannibalism,85.29411764705883
+%MNAU raw,150,Boquete de Zafarraya,Units UG–UE,NA,Cannibalism,NF,Missing,1,1,1.0439978214082586,-2.6962736121455464,0.011311441016816106,22.058823529411764,Cannibalism,48.529411764705884
+ReMNAU raw,1,Abri Pataud,Level 2,NA,Funerary,F,Collective-secondary,7,4,3.444136046181186,-0.5011933265782472,-0.25618370157130577,90.625,Funerary,65.625
+ReMNAU raw,5,Amud Cave,Layer B,NA,Funerary,F,Single inhumation,5,6,2.781406963474862,-0.7281942440984909,0.7743708643094316,80,Funerary,20
+ReMNAU raw,6,Arago,Gs1 | Gm2 | Gm3 | Gi4 | Fm3 | Fm4 | Fi,NA,Cannibalism,NF,Missing,3,5,3.749134202485337,0.1010555277736504,-1.6129513328187508,28.57142857142857,Cannibalism,28.57142857142857
+ReMNAU raw,8,Archi,Geological layer C-3,NA,Geological transport,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,9,Atxuri-I Cave,NA,NA,Funerary,F,Possible burial,5,6,3.403084844727786,0.7456698499355154,2.594856333060976,80,Funerary,40
+ReMNAU raw,10,Baousso da Torre (Bausu da Ture),Upper Paleolithic deposits,NA,Funerary,F,Single inhumation,7,4,2.5999057237177103,-2.3112311817445668,-1.046767273634424,90.625,Funerary,50
+ReMNAU raw,15,Brillenhöhle,Layer IV,NA,Cannibalism,NF,Missing,2,7,3.0703909011176385,1.3541665340197304,1.1040525022763703,11.627906976744185,Cannibalism,90.69767441860465
+ReMNAU raw,16,Brno II,NA,Historical,Funerary,F,Single inhumation,3,5,5.916250841890859,-1.2892654437177737,-2.2406820232536213,28.57142857142857,Cannibalism,71.42857142857143
+ReMNAU raw,20,Abri de Raymonden (Chancelade),NA,NA,Funerary,F,Single inhumation,7,4,1.4011934505811656,-3.1483718015012707,-0.6153147597265989,90.625,Funerary,6.25
+ReMNAU raw,21,Combe Grenal,Couche 25,NA,Cannibalism,NF,Missing,2,7,2.86544545873109,1.8103795096289246,-0.6281010784680205,11.627906976744185,Cannibalism,86.04651162790698
+ReMNAU raw,23,Cova Gran de Santa Linya,NA,Early,Funerary,F,Single inhumation,7,4,4.003487551913977,-2.2870612405719015,-1.5163065630709847,90.625,Funerary,84.375
+ReMNAU raw,24,Cro-Magnon I,Unit J,Historical,Funerary,F,Collective burial,2,7,6.495557864513028,1.4680040580812017,1.0315972563382114,11.627906976744185,Cannibalism,100
+ReMNAU raw,25,Crow Creek,Fortification ditch fill,Historical,Funerary,F,Collective burial,2,7,3.7932874848626326,1.0293191441688079,1.5389836793768699,11.627906976744185,Cannibalism,97.67441860465115
+ReMNAU raw,26,Cueva de la Buena Pinta,Nivel 3,NA,Carnivore-related,NF,Carnivore den (transport),2,7,2.0296472588174432,1.778388162902551,-0.34679889401981656,11.627906976744185,Cannibalism,69.76744186046511
+ReMNAU raw,27,Cueva del Camino,NA,NA,Carnivore-related,NF,Carnivore den (transport),2,7,2.0296472588174432,1.778388162902551,-0.34679889401981656,11.627906976744185,Cannibalism,69.76744186046511
+ReMNAU raw,28,Dali Tianshuigou,Level 3,NA,Geological transport,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,29,Dame du Cavillon,NA,NA,Funerary,F,Single inhumation,7,4,2.147510936181137,-3.0315497059618637,-1.0039624182003397,90.625,Funerary,34.375
+ReMNAU raw,30,Dolní Věstonice II,NA,NA,Funerary,F,Single + multiple,7,4,1.6520910298099964,-3.2216136576864884,0.20244058650003252,90.625,Funerary,12.5
+ReMNAU raw,31,Dolní Věstonice I,NA,NA,Funerary,F,Single inhumation,7,4,2.586881712926721,-2.9051151052309256,-0.1676235970208848,90.625,Funerary,43.75
+ReMNAU raw,32,El Espinoso Cave,Sala de los Muertos,NA,Funerary,F,Collective burial,5,6,2.150066017479649,1.00129456240228,2.622407850868551,80,Funerary,6.666666666666667
+ReMNAU raw,33,El Mirador,MIR4,NA,Cannibalism,NF,Missing,7,4,4.619052661670759,-1.4302899706068268,-1.5822173892014182,90.625,Funerary,90.625
+ReMNAU raw,34,El Mirón Cave,Level 114,NA,Funerary,F,Single inhumation,5,6,5.4320811348878095,-1.5516745586337575,1.8594304214944264,80,Funerary,73.33333333333333
+ReMNAU raw,35,El Sidrón J1,Galería del Osario,Early,Cannibalism,NF,Missing,7,4,3.7062598499745287,-3.435194313189962,0.9674966467012852,90.625,Funerary,71.875
+ReMNAU raw,40,Grotte de Fontbrégoua,H1,Early,Cannibalism,NF,Missing,2,7,0.919695682361894,2.0980404236912453,-0.37210250714069626,11.627906976744185,Cannibalism,6.976744186046512
+ReMNAU raw,41,Grotte de Fontbrégoua,H3,Early,Cannibalism,NF,Missing,4,3,0,2.077436724900615,0.1066494063223277,0,Cannibalism,100
+ReMNAU raw,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,0,2.1353312111832685,-0.6553939240172642,0,Carnivore-related,100
+ReMNAU raw,43,Cova Foradada,NA,NA,Funerary,F,Cremation,5,6,3.1922162996298122,0.5345875150683984,4.3501425743583315,80,Funerary,26.666666666666668
+ReMNAU raw,44,Cova Foradada,NA,NA,Funerary,F,Collective burial,5,6,6.679278497920742,0.026991483479788865,7.369468613739462,80,Funerary,86.66666666666667
+ReMNAU raw,45,Cova del Gegant,Unit II,NA,Carnivore-related,NF,Carnivore den(transport),2,7,1.1765976305770172,2.122765959747091,-0.5647156856967009,11.627906976744185,Cannibalism,9.30232558139535
+ReMNAU raw,46,Gough's Cave,NA,NA,Cannibalism,NF,Missing,5,6,8.028958997573387,-0.2864023296961466,2.4438704580234263,80,Funerary,100
+ReMNAU raw,47,Troisième caverne of Goyet,FBL 2 and 3 | FBL 2 and 4,NA,Cannibalism,NF,Missing,2,7,1.4353253968545236,1.7476151965579867,0.0633583895251065,11.627906976744185,Cannibalism,16.27906976744186
+ReMNAU raw,48,Gran Dolina,TD6,NA,Cannibalism,NF,Missing,2,7,1.490958387579549,1.5157581956130854,0.6580802595453461,11.627906976744185,Cannibalism,23.25581395348837
+ReMNAU raw,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",NA,NA,Carnivore-related,NF,Missing,1,2,0,2.1353312111832685,-0.6553939240172642,0,Carnivore-related,100
+ReMNAU raw,50,Grotte du Bison (Arcy-sur-Cure),Level I,NA,Carnivore-related,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Middle Palaeolithic sequence(9–10; 17–18; 22),NA,Carnivore-related,NF,Missing,3,5,7.924888542916326,0.43061982975839186,-1.367978130055686,28.57142857142857,Cannibalism,85.71428571428571
+ReMNAU raw,52,Grotta Guattari,Laghetto,Historical,Carnivore-related,NF,Carnivore den(transport),2,7,1.5985911010157228,2.3260039499246714,-0.35273907288254747,11.627906976744185,Cannibalism,30.23255813953488
+ReMNAU raw,53,Hahnöfersand,Glacial river sands,NA,Geological transport,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,54,Hathnora,NA,NA,Geological transport,NF,Missing,3,5,4.631657480817164,0.594888268610343,-1.5064410905646335,28.57142857142857,Cannibalism,57.14285714285714
+ReMNAU raw,55,Herxheim,Deposit K,NA,Cannibalism,NF,Missing,2,7,0.7464757590433959,1.8220931680196366,0.19483727704562093,11.627906976744185,Cannibalism,4.651162790697675
+ReMNAU raw,56,Hohlenstein-Stadel,NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,0,2.1353312111832685,-0.6553939240172642,0,Carnivore-related,100
+ReMNAU raw,57,Jarama VI rockshelter,Level 2,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),5,6,7.789185075725126,1.8394236191035032,1.4000413393648907,80,Funerary,93.33333333333333
+ReMNAU raw,58,Kajiado,NA,NA,Carnivore-related,NF,Carnivore den(transport),2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,59,Kalamakia,Unit IV,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),2,7,1.4770710640166897,2.215815232437336,-0.39300535086518773,11.627906976744185,Cannibalism,20.930232558139537
+ReMNAU raw,60,Kebara Cave,Unit XI,Early,Funerary,F,Single inhumation,5,6,4.261284299973916,-3.2894863820221865,3.2620478948938803,80,Funerary,53.333333333333336
+ReMNAU raw,61,Kiik-Koba,Layer IV - VI,NA,Funerary,F,Single inhumation,5,6,3.3412291741592264,-1.2738059931822832,1.3665971771592627,80,Funerary,33.33333333333333
+ReMNAU raw,65,Krapina,Primarily levels 3 and 4,Historical,Cannibalism,NF,Missing,7,4,2.0675054834172606,-2.6973579209794476,-1.1806365150287401,90.625,Funerary,25
+ReMNAU raw,66,La Chapelle-aux-Saints,Mousterian layer,Historical,Funerary,F,Single inhumation,7,4,2.7998179627042243,-2.969207299534118,-0.8164168015975674,90.625,Funerary,56.25
+ReMNAU raw,67,La Ferrassie,Lower Mousterian layers,Both panels,Funerary,F,Single + collective,7,4,1.7821626734194083,-2.015738594362429,-0.6050385011953172,90.625,Funerary,15.625
+ReMNAU raw,69,La Quina,Mousterian levels,Historical,Funerary,F,No inhumation,2,7,1.6455869236233558,1.7389158268846543,-0.21175390083810933,11.627906976744185,Cannibalism,32.55813953488372
+ReMNAU raw,70,La Tolita Cama de Huesos,Tardío,NA,Funerary,F,Collective burial,7,4,3.0363670459626464,-2.4621134251377828,0.28920197754626453,90.625,Funerary,59.375
+ReMNAU raw,71,Abrigo do Lagar Velho,NA,NA,Funerary,F,Single inhumation,7,4,2.6545258048016507,-3.23518371440124,-0.18617528139341558,90.625,Funerary,53.125
+ReMNAU raw,73,Le Moustier I,Upper Shelter (Couche K),NA,Funerary,F,Single inhumation,7,4,3.124637279462781,-2.6041854887760896,-2.159198531215758,90.625,Funerary,62.5
+ReMNAU raw,74,Le Moustier II,Lower Shelter (Couche J),NA,Funerary,F,Single inhumation,5,6,5.262053393393507,-1.7643522312619766,2.2240598148607775,80,Funerary,66.66666666666666
+ReMNAU raw,75,Le Placard,Grotte du Placard,NA,Cannibalism,NF,Missing,2,7,1.7144543644451684,2.2650992187152625,-0.8912827161392697,11.627906976744185,Cannibalism,65.11627906976744
+ReMNAU raw,76,Les Pradelles (Marillac-le-Franc),Layers 9 and 10,NA,Carnivore-related,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,77,Les Rochers-de-Villeneuve,Level J,NA,Carnivore-related,NF,Missing,1,2,0,2.1353312111832685,-0.6553939240172642,0,Carnivore-related,100
+ReMNAU raw,78,Grotte des Hoteaux,NA,NA,Funerary,F,Single inhumation,7,4,1.8730602706279422,-3.3478311697687406,-0.8696228429107367,90.625,Funerary,18.75
+ReMNAU raw,79,Cueva de Malalmuerzo,NA,NA,Cannibalism,NF,Missing,2,7,0.4560631638334604,2.0704321633133285,-0.15127370720510078,11.627906976744185,Cannibalism,2.3255813953488373
+ReMNAU raw,81,Mancos 5MT-10010 Feature 3,NA,Early,Cannibalism,NF,No inhumation,2,7,2.985448111113319,0.9696149651842233,1.6382758261848278,11.627906976744185,Cannibalism,88.37209302325581
+ReMNAU raw,82,Yellow Jacket 5MT-3,NA,Early,Cannibalism,NF,No inhumation,2,7,2.2153613781002903,1.2825169207194813,1.3819026554443208,11.627906976744185,Cannibalism,72.09302325581395
+ReMNAU raw,85,Maszycka Cave,NA,NA,Cannibalism,NF,Missing,3,5,3.263322516603537,-0.07337651318381742,-2.0236429631274224,28.57142857142857,Cannibalism,14.285714285714285
+ReMNAU raw,86,Mauer,Lower Sands,NA,Geological transport,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,87,Mladeč Caves,Chamber D,Historical,Funerary,F,Funerary caching,7,4,7.032638336466714,-3.855554245490395,-1.3191449311412287,90.625,Funerary,100
+ReMNAU raw,88,Mojokerto,Pucangan Formation,NA,Geological transport,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,89,Los Moros de Gabasa,Level E-F,NA,Carnivore-related,NF,Carnivore den(transport),3,5,7.968977247585514,0.9436038005559618,-0.30734753966970085,28.57142857142857,Cannibalism,100
+ReMNAU raw,90,Moula-Guercy,Layer XV,Historical,Cannibalism,NF,Missing,2,7,2.3806217231401665,0.8736944671054414,-0.48835116049603844,11.627906976744185,Cannibalism,74.4186046511628
+ReMNAU raw,91,Mugharet es-Skhul,Layer B,Early,Funerary,F,Single inhumation,7,4,2.2911823324737104,-1.4439750016424049,-0.4491824617765657,90.625,Funerary,37.5
+ReMNAU raw,94,Netankheri,Fluvial gravely sand bed,NA,Geological transport,NF,Missing,2,7,2.465484428689744,1.8973691789961236,-0.4496639040189657,11.627906976744185,Cannibalism,76.74418604651163
+ReMNAU raw,95,Ngandong,High Terrace deposits of the Solo river,NA,Geological transport,NF,Missing,2,7,1.2805224774789117,2.487185939281498,-0.8063451380390941,11.627906976744185,Cannibalism,13.953488372093023
+ReMNAU raw,96,Ngawi,Selopuro left river bank,NA,Geological transport,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,97,Oberkassel,NA,NA,Funerary,F,Multiple inhumation,7,4,2.1422389208069452,-3.2849971054079203,-0.9194236889479108,90.625,Funerary,31.25
+ReMNAU raw,99,Ojo Guareña,NA,NA,Funerary,F,No inhumation,5,6,4.436464442715899,-2.019214835562054,4.103443271644671,80,Funerary,60
+ReMNAU raw,102,Goat’s Hole (Paviland Cave),NA,Historical,Funerary,F,Single inhumation,7,4,6.482618095580993,-3.796506776632227,-2.0072916292675864,90.625,Funerary,96.875
+ReMNAU raw,103,Pavlov I,NA,NA,Funerary,F,Single inhumation,7,4,2.4907848756158053,-3.931001684801112,-1.9113227294194242,90.625,Funerary,40.625
+ReMNAU raw,104,Grotte des Perrats,Couche 3,NA,Cannibalism,NF,Missing,2,7,1.271806923283316,1.7218037820267982,0.15556570519490065,11.627906976744185,Cannibalism,11.627906976744185
+ReMNAU raw,106,Předmostí,NA,NA,Funerary,F,Collective burial,7,4,1.8922874596554589,-1.2457149513965835,-1.2790617440895848,90.625,Funerary,21.875
+ReMNAU raw,107,Qafzeh Cave,Layer XVI to XXIII,Early,Funerary,F,Single + multiple,7,4,2.0813823299915652,-1.3660943328780921,0.018499050561717124,90.625,Funerary,28.125
+ReMNAU raw,108,Regourdou,Tumulus IVA at Level IV,Historical,Funerary,F,Single inhumation,5,6,3.723890161350367,-0.5299845056192654,1.2900448321047238,80,Funerary,46.666666666666664
+ReMNAU raw,109,Reilingen,Gravel pit sequence,NA,Geological transport,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Dark grey layer,NA,Funerary,F,No inhumation,7,4,3.576523489345576,-3.798358283493858,0.2730307930987391,90.625,Funerary,68.75
+ReMNAU raw,111,Roc de Marsal,Layer 4,Historical,Funerary,F,Single inhumation,7,4,3.9656679481440325,-2.5128397379401,0.2745639226972979,90.625,Funerary,81.25
+ReMNAU raw,112,Roc de les Orenetes,NA,NA,Funerary,F,Collective burial,5,6,2.440933695028222,1.0545862745403978,2.126900148989866,80,Funerary,13.333333333333334
+ReMNAU raw,113,Saccopastore,NA,NA,Geological transport,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Terrasse supérieure,NA,Funerary,F,Single inhumation,7,4,4.143541458316068,-3.4713467611945283,-0.12773130925689397,90.625,Funerary,87.5
+ReMNAU raw,116,Sambungmacan,Solo River alluvium,NA,Geological transport,NF,Missing,2,7,1.5201622898569864,2.4875039592929036,-0.8161978765375703,11.627906976744185,Cannibalism,25.581395348837212
+ReMNAU raw,117,San Juan ante Portam Latinam,NA,NA,Funerary,F,Collective burial,6,1,0,-2.7466000041360394,-0.22206206125822608,100,Funerary,100
+ReMNAU raw,118,Coves de Santa Maira,Level SM-3 | Level SM-4,NA,Cannibalism,NF,Missing,2,7,1.550896947936396,1.7319000208730553,0.05985070389465213,11.627906976744185,Cannibalism,27.906976744186046
+ReMNAU raw,120,Shanidar Cave,Layer D,Historical,Funerary,F,Multiple inhumation,7,4,4.679835252616072,-3.373265444590261,1.092933895379332,90.625,Funerary,93.75
+ReMNAU raw,121,Sima de las Palomas,"Upper stratigraphic levels (including ""Conglomerado B"") and lower levels 5 and 6",Early,Funerary,F,Collective burial,7,4,2.5934881193241095,-3.3354367817864246,-0.4467083712105765,90.625,Funerary,46.875
+ReMNAU raw,130,Sunghir,NA,NA,Funerary,F,Multiple inhumation,2,7,2.4783373234407136,-0.17292604348861493,-0.4450263250831048,11.627906976744185,Cannibalism,79.06976744186046
+ReMNAU raw,131,Tabun Cave (Mugharet et-Tabun),Layer C,Early,Funerary,F,Single inhumation,7,4,3.914168737571979,-2.977103915312066,0.6472868041938552,90.625,Funerary,78.125
+ReMNAU raw,132,Tepecik-Çiftlik,Level 5 (BB structure),NA,Funerary,F,Collective burial,7,4,1.212994969752734,-2.6475887551432975,-0.6577827542212349,90.625,Funerary,3.125
+ReMNAU raw,133,Teshik-Tash Cave,Layer I,Historical,Funerary,F,Single inhumation,3,5,4.041824124424822,-0.4091801063012661,-2.075623868602306,28.57142857142857,Cannibalism,42.857142857142854
+ReMNAU raw,134,Cueva de los Torrejones,NA,Historical,Funerary,F,Collective burial,2,7,1.4359244687188384,1.5723456522529817,0.6022284800631743,11.627906976744185,Cannibalism,18.6046511627907
+ReMNAU raw,141,Vado all'Arancio,NA,NA,Funerary,F,Single inhumation,7,4,3.7615480833396835,-1.3756764486624613,-0.31857968041246937,90.625,Funerary,75
+ReMNAU raw,142,Valdegoba Cave,Level 5 | Level 6 | Level 8,NA,Carnivore-related,NF,Carnivore den (transport),5,6,5.596102181431099,1.25351425831648,2.774802217625515,80,Funerary,80
+ReMNAU raw,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",NA,NA,Carnivore-related,NF,Missing,2,7,3.505281635065013,1.6112677960880366,0.7219859454553214,11.627906976744185,Cannibalism,95.34883720930233
+ReMNAU raw,144,Vindija,Fd/d,NA,Cannibalism,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,145,Vindija,G1,NA,Cannibalism,NF,Missing,2,7,1.6473189749307424,2.6048948753294483,-0.8697991940443386,11.627906976744185,Cannibalism,62.7906976744186
+ReMNAU raw,146,Vindija,G3,NA,Cannibalism,NF,Missing,2,7,3.1921584086887624,1.2516799628323303,-0.8406226788574999,11.627906976744185,Cannibalism,93.02325581395348
+ReMNAU raw,147,Vunda Locus,26M | 26H,NA,Cannibalism,NF,Missing,2,7,2.769782252125399,1.166537142029266,1.2644341416543947,11.627906976744185,Cannibalism,83.72093023255815
+ReMNAU raw,149,Xemxija tombs,NA,NA,Funerary,F,Collective burial,7,4,1.5572749276942814,-2.920930939016195,-0.17586660802530607,90.625,Funerary,9.375
+ReMNAU raw,150,Boquete de Zafarraya,Units UG–UE,NA,Cannibalism,NF,Missing,2,7,2.590082407866952,1.870857640572061,0.1582934843414544,11.627906976744185,Cannibalism,81.3953488372093
+Engineered,1,Abri Pataud,Level 2,NA,Funerary,F,Collective-secondary,1,2,4.067743350494563,-0.4639319499672642,1.133102100673765,12.727272727272727,Cannibalism,81.81818181818183
+Engineered,5,Amud Cave,Layer B,NA,Funerary,F,Single inhumation,2,1,2.0928253489045776,2.645530302428513,0.9169432739788372,87.5,Funerary,6.25
+Engineered,6,Arago,Gs1 | Gm2 | Gm3 | Gi4 | Fm3 | Fm4 | Fi,NA,Cannibalism,NF,Missing,1,2,1.3396349469285056,-3.481963523926144,0.5439565142475511,12.727272727272727,Cannibalism,1.8181818181818181
+Engineered,8,Archi,Geological layer C-3,NA,Geological transport,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,9,Atxuri-I Cave,NA,NA,Funerary,F,Possible burial,1,2,3.9835299391529557,-2.0389278460327938,2.8378700792372116,12.727272727272727,Cannibalism,76.36363636363637
+Engineered,10,Baousso da Torre (Bausu da Ture),Upper Paleolithic deposits,NA,Funerary,F,Single inhumation,2,1,1.8964189034958956,4.142480149076438,-0.5293060626890937,87.5,Funerary,2.083333333333333
+Engineered,15,Brillenhöhle,Layer IV,NA,Cannibalism,NF,Missing,1,2,3.1052262820892103,-2.2264995412736623,1.6526642681389259,12.727272727272727,Cannibalism,58.18181818181818
+Engineered,16,Brno II,NA,Historical,Funerary,F,Single inhumation,1,2,1.977415031730403,-2.608269788866524,-0.23065384272316536,12.727272727272727,Cannibalism,18.181818181818183
+Engineered,20,Abri de Raymonden (Chancelade),NA,NA,Funerary,F,Single inhumation,2,1,4.800502085609532,7.699395795977247,1.2477128569599545,87.5,Funerary,68.75
+Engineered,21,Combe Grenal,Couche 25,NA,Cannibalism,NF,Missing,1,2,3.332713310247396,-4.690539067249647,2.1860044071798614,12.727272727272727,Cannibalism,65.45454545454545
+Engineered,23,Cova Gran de Santa Linya,NA,Early,Funerary,F,Single inhumation,2,1,3.2890453809765203,3.771599205209273,-0.4407075668198872,87.5,Funerary,31.25
+Engineered,24,Cro-Magnon I,Unit J,Historical,Funerary,F,Collective burial,2,1,7.621320811459528,0.5477488296064791,-4.379733418018068,87.5,Funerary,95.83333333333334
+Engineered,25,Crow Creek,Fortification ditch fill,Historical,Funerary,F,Collective burial,2,1,5.570181367779983,2.2856700095897,-4.098922384242478,87.5,Funerary,81.25
+Engineered,26,Cueva de la Buena Pinta,Nivel 3,NA,Carnivore-related,NF,Carnivore den (transport),1,2,2.7202025682984443,-2.626973108599297,0.7599856101424045,12.727272727272727,Cannibalism,50.90909090909091
+Engineered,27,Cueva del Camino,NA,NA,Carnivore-related,NF,Carnivore den (transport),1,2,2.7202025682984443,-2.626973108599297,0.7599856101424045,12.727272727272727,Cannibalism,50.90909090909091
+Engineered,28,Dali Tianshuigou,Level 3,NA,Geological transport,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,29,Dame du Cavillon,NA,NA,Funerary,F,Single inhumation,2,1,4.941018522449297,6.09409326847436,1.1057832727942487,87.5,Funerary,75
+Engineered,30,Dolní Věstonice II,NA,NA,Funerary,F,Single + multiple,2,1,4.779399596949782,7.725089018895782,0.6814074110755131,87.5,Funerary,66.66666666666666
+Engineered,31,Dolní Věstonice I,NA,NA,Funerary,F,Single inhumation,2,1,4.849984039490485,7.767259941988705,1.1478958746716916,87.5,Funerary,72.91666666666666
+Engineered,32,El Espinoso Cave,Sala de los Muertos,NA,Funerary,F,Collective burial,2,1,4.15286804427806,1.8934570886247937,0.8516006337837059,87.5,Funerary,60.416666666666664
+Engineered,33,El Mirador,MIR4,NA,Cannibalism,NF,Missing,1,2,2.1168915695347468,-2.8547948111383574,0.5275334363960273,12.727272727272727,Cannibalism,20
+Engineered,34,El Mirón Cave,Level 114,NA,Funerary,F,Single inhumation,2,1,4.0349610607991995,5.503499219932471,0.057749050326529106,87.5,Funerary,54.166666666666664
+Engineered,35,El Sidrón J1,Galería del Osario,Early,Cannibalism,NF,Missing,2,1,3.07059291232721,5.525326672741077,-0.5860674550389063,87.5,Funerary,25
+Engineered,40,Grotte de Fontbrégoua,H1,Early,Cannibalism,NF,Missing,1,2,1.7594868527997056,-2.91445086891156,-0.09839934485227078,12.727272727272727,Cannibalism,14.545454545454545
+Engineered,41,Grotte de Fontbrégoua,H3,Early,Cannibalism,NF,Missing,1,2,4.1026094058866,-0.34734823269298415,0.7123725428399846,12.727272727272727,Cannibalism,83.63636363636363
+Engineered,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,4.340746406552406,-4.827444838947005,2.8013466098709157,12.727272727272727,Cannibalism,98.18181818181819
+Engineered,43,Cova Foradada,NA,NA,Funerary,F,Cremation,2,1,3.9320290047036828,2.258144116628113,-0.1114634780684522,87.5,Funerary,52.083333333333336
+Engineered,44,Cova Foradada,NA,NA,Funerary,F,Collective burial,2,1,4.174206558175973,1.9490427706412967,1.7597915766166894,87.5,Funerary,62.5
+Engineered,45,Cova del Gegant,Unit II,NA,Carnivore-related,NF,Carnivore den(transport),1,2,1.716980317103471,-4.484424587814561,0.09918191667033682,12.727272727272727,Cannibalism,10.909090909090908
+Engineered,46,Gough's Cave,NA,NA,Cannibalism,NF,Missing,1,2,1.4971226175443446,-3.3630592844393745,0.49177474679058153,12.727272727272727,Cannibalism,3.6363636363636362
+Engineered,47,Troisième caverne of Goyet,FBL 2 and 3 | FBL 2 and 4,NA,Cannibalism,NF,Missing,1,2,3.0443899487484756,-1.4672880749167723,0.34401003341099945,12.727272727272727,Cannibalism,54.54545454545454
+Engineered,48,Gran Dolina,TD6,NA,Cannibalism,NF,Missing,1,2,2.9213038141310976,-1.450635147334641,0.021272223764905923,12.727272727272727,Cannibalism,52.72727272727272
+Engineered,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",NA,NA,Carnivore-related,NF,Missing,1,2,4.340746406552406,-4.827444838947005,2.8013466098709157,12.727272727272727,Cannibalism,98.18181818181819
+Engineered,50,Grotte du Bison (Arcy-sur-Cure),Level I,NA,Carnivore-related,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Middle Palaeolithic sequence(9–10; 17–18; 22),NA,Carnivore-related,NF,Missing,1,2,4.146080241335403,-3.319180298837753,3.3522403449677665,12.727272727272727,Cannibalism,87.27272727272727
+Engineered,52,Grotta Guattari,Laghetto,Historical,Carnivore-related,NF,Carnivore den(transport),1,2,4.335003886722715,-2.3997060271853203,-3.755455537513602,12.727272727272727,Cannibalism,90.9090909090909
+Engineered,53,Hahnöfersand,Glacial river sands,NA,Geological transport,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,54,Hathnora,NA,NA,Geological transport,NF,Missing,1,2,4.979128808905491,-2.747190367828396,-4.081443421702823,12.727272727272727,Cannibalism,100
+Engineered,55,Herxheim,Deposit K,NA,Cannibalism,NF,Missing,1,2,3.0988745019959394,-0.6248488253531308,-0.2569768644908344,12.727272727272727,Cannibalism,56.36363636363636
+Engineered,56,Hohlenstein-Stadel,NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,4.340746406552406,-4.827444838947005,2.8013466098709157,12.727272727272727,Cannibalism,98.18181818181819
+Engineered,57,Jarama VI rockshelter,Level 2,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,4.012686676689958,-4.980555400458389,2.6003685911014154,12.727272727272727,Cannibalism,78.18181818181819
+Engineered,58,Kajiado,NA,NA,Carnivore-related,NF,Carnivore den(transport),1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,59,Kalamakia,Unit IV,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,3.307145862821537,-4.603389086633156,2.4896216068833286,12.727272727272727,Cannibalism,63.63636363636363
+Engineered,60,Kebara Cave,Unit XI,Early,Funerary,F,Single inhumation,2,1,6.654581097045766,6.754339319155554,0.24463979811376474,87.5,Funerary,87.5
+Engineered,61,Kiik-Koba,Layer IV - VI,NA,Funerary,F,Single inhumation,2,1,3.831109886760028,1.6720049839115403,1.8044592296045154,87.5,Funerary,50
+Engineered,65,Krapina,Primarily levels 3 and 4,Historical,Cannibalism,NF,Missing,1,2,4.1369300379004565,-0.7906854521499754,0.331679048765563,12.727272727272727,Cannibalism,85.45454545454545
+Engineered,66,La Chapelle-aux-Saints,Mousterian layer,Historical,Funerary,F,Single inhumation,2,1,3.1583275768400476,5.9564434080945805,-0.0156978803137916,87.5,Funerary,27.083333333333332
+Engineered,67,La Ferrassie,Lower Mousterian layers,Both panels,Funerary,F,Single + collective,2,1,3.0117842011150415,1.016104511529106,0.924255699671661,87.5,Funerary,22.916666666666664
+Engineered,69,La Quina,Mousterian levels,Historical,Funerary,F,No inhumation,1,2,1.5681561985291501,-4.218913137485191,-0.3865179431901784,12.727272727272727,Cannibalism,5.454545454545454
+Engineered,70,La Tolita Cama de Huesos,Tardío,NA,Funerary,F,Collective burial,2,1,3.2714218592070616,1.2381771380327948,-0.8788701229496872,87.5,Funerary,29.166666666666668
+Engineered,71,Abrigo do Lagar Velho,NA,NA,Funerary,F,Single inhumation,2,1,5.395459886508406,7.571401997589428,1.7615965649519298,87.5,Funerary,79.16666666666666
+Engineered,73,Le Moustier I,Upper Shelter (Couche K),NA,Funerary,F,Single inhumation,2,1,3.6296961891505917,3.830964759510072,-1.3075620738802731,87.5,Funerary,37.5
+Engineered,74,Le Moustier II,Lower Shelter (Couche J),NA,Funerary,F,Single inhumation,2,1,7.11256601326566,7.077503646268545,-0.12008104994990429,87.5,Funerary,91.66666666666666
+Engineered,75,Le Placard,Grotte du Placard,NA,Cannibalism,NF,Missing,1,2,3.2690245591028257,-4.789332942021831,1.9046006510081763,12.727272727272727,Cannibalism,61.81818181818181
+Engineered,76,Les Pradelles (Marillac-le-Franc),Layers 9 and 10,NA,Carnivore-related,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,77,Les Rochers-de-Villeneuve,Level J,NA,Carnivore-related,NF,Missing,1,2,4.340746406552406,-4.827444838947005,2.8013466098709157,12.727272727272727,Cannibalism,98.18181818181819
+Engineered,78,Grotte des Hoteaux,NA,NA,Funerary,F,Single inhumation,2,1,3.775697258552356,5.392159749247862,-1.3802732424063382,87.5,Funerary,45.83333333333333
+Engineered,79,Cueva de Malalmuerzo,NA,NA,Cannibalism,NF,Missing,2,1,11.790485237049197,1.4804692159677133,-6.324937480073899,87.5,Funerary,100
+Engineered,81,Mancos 5MT-10010 Feature 3,NA,Early,Cannibalism,NF,No inhumation,2,1,2.4949490757736057,4.211260808192937,-0.07501145195805871,87.5,Funerary,12.5
+Engineered,82,Yellow Jacket 5MT-3,NA,Early,Cannibalism,NF,No inhumation,2,1,2.4478253485528785,2.4616170592089435,-0.9925359913836018,87.5,Funerary,10.416666666666668
+Engineered,85,Maszycka Cave,NA,NA,Cannibalism,NF,Missing,1,2,1.6962345737593607,-3.534813771047062,-0.9844372395998674,12.727272727272727,Cannibalism,7.2727272727272725
+Engineered,86,Mauer,Lower Sands,NA,Geological transport,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,87,Mladeč Caves,Chamber D,Historical,Funerary,F,Funerary caching,1,2,3.879292907392705,-2.1577347563627223,-0.6812936745441498,12.727272727272727,Cannibalism,72.72727272727273
+Engineered,88,Mojokerto,Pucangan Formation,NA,Geological transport,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,89,Los Moros de Gabasa,Level E-F,NA,Carnivore-related,NF,Carnivore den(transport),1,2,3.5769104074089393,-3.161931095201387,-1.26417791663546,12.727272727272727,Cannibalism,69.0909090909091
+Engineered,90,Moula-Guercy,Layer XV,Historical,Cannibalism,NF,Missing,1,2,1.8695241933440645,-2.398335814016899,-1.0931348857063414,12.727272727272727,Cannibalism,16.363636363636363
+Engineered,91,Mugharet es-Skhul,Layer B,Early,Funerary,F,Single inhumation,2,1,2.146855101742824,1.8777400772545316,-0.025983318376568004,87.5,Funerary,8.333333333333332
+Engineered,94,Netankheri,Fluvial gravely sand bed,NA,Geological transport,NF,Missing,1,2,4.252544016149479,-3.7928464306138805,3.1404152329873107,12.727272727272727,Cannibalism,89.0909090909091
+Engineered,95,Ngandong,High Terrace deposits of the Solo river,NA,Geological transport,NF,Missing,1,2,1.7534470736074608,-4.322865592187763,-0.5495622496442536,12.727272727272727,Cannibalism,12.727272727272727
+Engineered,96,Ngawi,Selopuro left river bank,NA,Geological transport,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,97,Oberkassel,NA,NA,Funerary,F,Multiple inhumation,2,1,2.9321237009564567,5.014645486898064,-1.4068480877272815,87.5,Funerary,20.833333333333336
+Engineered,99,Ojo Guareña,NA,NA,Funerary,F,No inhumation,2,1,7.66638089246545,8.025409759020608,0.44505146750271296,87.5,Funerary,97.91666666666666
+Engineered,102,Goat’s Hole (Paviland Cave),NA,Historical,Funerary,F,Single inhumation,2,1,4.085746880048913,2.2314396307754394,-1.0268900072804494,87.5,Funerary,56.25
+Engineered,103,Pavlov I,NA,NA,Funerary,F,Single inhumation,2,1,7.532533386806999,1.6429244216811147,1.2751504303173937,87.5,Funerary,93.75
+Engineered,104,Grotte des Perrats,Couche 3,NA,Cannibalism,NF,Missing,2,1,3.8111588628369213,0.4743682067855655,-0.5367943539596637,87.5,Funerary,47.91666666666667
+Engineered,106,Předmostí,NA,NA,Funerary,F,Collective burial,2,1,5.1465742033179,0.18649908115684502,1.2324886600551712,87.5,Funerary,77.08333333333334
+Engineered,107,Qafzeh Cave,Layer XVI to XXIII,Early,Funerary,F,Single + multiple,2,1,3.3676759213882352,0.5144774385134325,0.22430293159835862,87.5,Funerary,33.33333333333333
+Engineered,108,Regourdou,Tumulus IVA at Level IV,Historical,Funerary,F,Single inhumation,2,1,3.749317260564645,1.7761359531354164,2.280703764871873,87.5,Funerary,43.75
+Engineered,109,Reilingen,Gravel pit sequence,NA,Geological transport,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Dark grey layer,NA,Funerary,F,No inhumation,2,1,3.4619074957233904,4.274151240835073,-1.8867593287904314,87.5,Funerary,35.41666666666667
+Engineered,111,Roc de Marsal,Layer 4,Historical,Funerary,F,Single inhumation,2,1,3.6669116033995413,5.355143094322486,-0.9901819503881499,87.5,Funerary,41.66666666666667
+Engineered,112,Roc de les Orenetes,NA,NA,Funerary,F,Collective burial,2,1,4.629763691116643,4.580064181224167,-0.3591800430703207,87.5,Funerary,64.58333333333334
+Engineered,113,Saccopastore,NA,NA,Geological transport,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Terrasse supérieure,NA,Funerary,F,Single inhumation,2,1,6.49130547419357,2.2363567975127285,3.232928617968603,87.5,Funerary,85.41666666666666
+Engineered,116,Sambungmacan,Solo River alluvium,NA,Geological transport,NF,Missing,1,2,1.7087342584855092,-4.364368840420672,-0.1644142782211609,12.727272727272727,Cannibalism,9.090909090909092
+Engineered,117,San Juan ante Portam Latinam,NA,NA,Funerary,F,Collective burial,2,1,2.0763986021233802,2.5216900664188935,-0.6831606163333878,87.5,Funerary,4.166666666666666
+Engineered,118,Coves de Santa Maira,Level SM-3 | Level SM-4,NA,Cannibalism,NF,Missing,1,2,3.954682447412638,-2.0290001146940693,-2.4293489194993083,12.727272727272727,Cannibalism,74.54545454545455
+Engineered,120,Shanidar Cave,Layer D,Historical,Funerary,F,Multiple inhumation,2,1,2.679485905381936,2.326308515886894,0.9471178386970848,87.5,Funerary,16.666666666666664
+Engineered,121,Sima de las Palomas,"Upper stratigraphic levels (including ""Conglomerado B"") and lower levels 5 and 6",Early,Funerary,F,Collective burial,2,1,2.6709086795101484,4.68797125952652,0.09417868918739816,87.5,Funerary,14.583333333333334
+Engineered,130,Sunghir,NA,NA,Funerary,F,Multiple inhumation,2,1,2.8669869760563182,2.0285927217511306,0.9197148611319584,87.5,Funerary,18.75
+Engineered,131,Tabun Cave (Mugharet et-Tabun),Layer C,Early,Funerary,F,Single inhumation,2,1,4.10490230189374,6.458702658128379,0.9114350320291212,87.5,Funerary,58.333333333333336
+Engineered,132,Tepecik-Çiftlik,Level 5 (BB structure),NA,Funerary,F,Collective burial,2,1,3.632747147611068,4.964454268941447,1.9780508161373207,87.5,Funerary,39.58333333333333
+Engineered,133,Teshik-Tash Cave,Layer I,Historical,Funerary,F,Single inhumation,1,2,2.4204128602017176,-1.4846176921636998,-0.13580603620681767,12.727272727272727,Cannibalism,45.45454545454545
+Engineered,134,Cueva de los Torrejones,NA,Historical,Funerary,F,Collective burial,1,2,3.86064945233582,-0.5190898765638577,-2.2752588397954803,12.727272727272727,Cannibalism,70.9090909090909
+Engineered,141,Vado all'Arancio,NA,NA,Funerary,F,Single inhumation,2,1,6.913881185569995,5.962144543117201,1.4299799093182726,87.5,Funerary,89.58333333333334
+Engineered,142,Valdegoba Cave,Level 5 | Level 6 | Level 8,NA,Carnivore-related,NF,Carnivore den (transport),1,2,2.6439985579497036,-4.737400198997403,1.3491083676158837,12.727272727272727,Cannibalism,47.27272727272727
+Engineered,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",NA,NA,Carnivore-related,NF,Missing,2,1,4.8437639074355445,1.2409211454127762,-3.078036231962121,87.5,Funerary,70.83333333333334
+Engineered,144,Vindija,Fd/d,NA,Cannibalism,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,145,Vindija,G1,NA,Cannibalism,NF,Missing,1,2,2.1719965919446094,-4.210010174245228,-1.1530012409185197,12.727272727272727,Cannibalism,43.63636363636363
+Engineered,146,Vindija,G3,NA,Cannibalism,NF,Missing,1,2,3.446650181950467,-2.7139633447701694,-3.04463126311478,12.727272727272727,Cannibalism,67.27272727272727
+Engineered,147,Vunda Locus,26M | 26H,NA,Cannibalism,NF,Missing,1,2,3.1544158469968577,-0.9932095248946925,0.32513547969703116,12.727272727272727,Cannibalism,60
+Engineered,149,Xemxija tombs,NA,NA,Funerary,F,Collective burial,2,1,5.618657874537138,1.3016614501525752,2.6143601901962192,87.5,Funerary,83.33333333333334
+Engineered,150,Boquete de Zafarraya,Units UG–UE,NA,Cannibalism,NF,Missing,1,2,4.0593251765654905,-1.7826158323483394,-1.202035718643584,12.727272727272727,Cannibalism,80
+Combined,1,Abri Pataud,Level 2,NA,Funerary,F,Collective-secondary,1,2,5.6539721627344255,-0.5318081443314397,-0.2965937945551276,18.75,Cannibalism,60.9375
+Combined,5,Amud Cave,Layer B,NA,Funerary,F,Single inhumation,2,1,4.599134560342894,3.3802271092031706,0.8308491817959891,94.87179487179486,Funerary,12.82051282051282
+Combined,6,Arago,Gs1 | Gm2 | Gm3 | Gi4 | Fm3 | Fm4 | Fi,NA,Cannibalism,NF,Missing,1,2,4.325994806391092,-4.050540020415005,-1.160279112579744,18.75,Cannibalism,45.3125
+Combined,8,Archi,Geological layer C-3,NA,Geological transport,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,9,Atxuri-I Cave,NA,NA,Funerary,F,Possible burial,1,2,5.869693296372116,-2.910189494565069,0.1885274060876019,18.75,Cannibalism,62.5
+Combined,10,Baousso da Torre (Bausu da Ture),Upper Paleolithic deposits,NA,Funerary,F,Single inhumation,2,1,4.527870975376819,5.7036472871832675,-1.5126687515308315,94.87179487179486,Funerary,10.256410256410255
+Combined,15,Brillenhöhle,Layer IV,NA,Cannibalism,NF,Missing,1,2,4.3419508435067735,-3.562403428686614,0.47535453331690986,18.75,Cannibalism,48.4375
+Combined,16,Brno II,NA,Historical,Funerary,F,Single inhumation,1,2,8.776412173457908,-2.0082320391526762,-2.8110119020753572,18.75,Cannibalism,84.375
+Combined,20,Abri de Raymonden (Chancelade),NA,NA,Funerary,F,Single inhumation,2,1,6.45267468956235,10.97138987382717,-2.2595254300422902,94.87179487179486,Funerary,38.46153846153847
+Combined,21,Combe Grenal,Couche 25,NA,Cannibalism,NF,Missing,1,2,4.824291831162093,-5.607597109980806,-1.6667217305666833,18.75,Cannibalism,57.8125
+Combined,23,Cova Gran de Santa Linya,NA,Early,Funerary,F,Single inhumation,2,1,7.288480458053854,4.87351004022599,-2.520972838813284,94.87179487179486,Funerary,66.66666666666666
+Combined,24,Cro-Magnon I,Unit J,Historical,Funerary,F,Collective burial,1,2,10.55301061277826,-1.045900605164315,4.903458199177544,18.75,Cannibalism,95.3125
+Combined,25,Crow Creek,Fortification ditch fill,Historical,Funerary,F,Collective burial,1,2,8.749992953294813,0.6629694477587114,5.054312598818486,18.75,Cannibalism,82.8125
+Combined,26,Cueva de la Buena Pinta,Nivel 3,NA,Carnivore-related,NF,Carnivore den (transport),1,2,3.5618113275245826,-4.250522363014556,0.5021238199761676,18.75,Cannibalism,37.5
+Combined,27,Cueva del Camino,NA,NA,Carnivore-related,NF,Carnivore den (transport),1,2,3.5618113275245826,-4.250522363014556,0.5021238199761676,18.75,Cannibalism,37.5
+Combined,28,Dali Tianshuigou,Level 3,NA,Geological transport,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,29,Dame du Cavillon,NA,NA,Funerary,F,Single inhumation,2,1,7.1777823080302,9.310318159532091,-4.0047671112313905,94.87179487179486,Funerary,61.53846153846154
+Combined,30,Dolní Věstonice II,NA,NA,Funerary,F,Single + multiple,2,1,6.47096814445022,11.38730907206008,-0.6727030742312797,94.87179487179486,Funerary,43.58974358974359
+Combined,31,Dolní Věstonice I,NA,NA,Funerary,F,Single inhumation,2,1,6.943843748229895,10.699758275753412,-1.2329522959976098,94.87179487179486,Funerary,48.717948717948715
+Combined,32,El Espinoso Cave,Sala de los Muertos,NA,Funerary,F,Collective burial,1,2,6.5773394902731335,0.17868504244614242,3.701048615195343,18.75,Cannibalism,68.75
+Combined,33,El Mirador,MIR4,NA,Cannibalism,NF,Missing,1,2,6.044074413903965,-2.667094848312054,-2.311185572918427,18.75,Cannibalism,64.0625
+Combined,34,El Mirón Cave,Level 114,NA,Funerary,F,Single inhumation,2,1,8.963563268315173,6.3431500989502165,2.8089242127844383,94.87179487179486,Funerary,79.48717948717949
+Combined,35,El Sidrón J1,Galería del Osario,Early,Cannibalism,NF,Missing,2,1,7.05667587026556,8.998785666222616,0.2821794317768735,94.87179487179486,Funerary,51.28205128205128
+Combined,40,Grotte de Fontbrégoua,H1,Early,Cannibalism,NF,Missing,1,2,2.2813455929373827,-4.354751930003928,-0.35306017469728673,18.75,Cannibalism,1.5625
+Combined,41,Grotte de Fontbrégoua,H3,Early,Cannibalism,NF,Missing,1,2,14.76233247357109,-2.405605452829116,1.9771323613296086,18.75,Cannibalism,98.4375
+Combined,42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,6.986880606885122,-5.821538409158187,-1.6537459656027664,18.75,Cannibalism,75
+Combined,43,Cova Foradada,NA,NA,Funerary,F,Cremation,1,2,7.978931508631327,0.8608120061250149,5.471399105925564,18.75,Cannibalism,81.25
+Combined,44,Cova Foradada,NA,NA,Funerary,F,Collective burial,1,2,11.202564741472193,1.1472505727173756,5.435120388747348,18.75,Cannibalism,96.875
+Combined,45,Cova del Gegant,Unit II,NA,Carnivore-related,NF,Carnivore den(transport),1,2,2.8195195810499905,-5.639520243999652,-0.6250069844173598,18.75,Cannibalism,4.6875
+Combined,46,Gough's Cave,NA,NA,Cannibalism,NF,Missing,1,2,8.997534213745993,-3.324227271562667,0.6699616840067686,18.75,Cannibalism,87.5
+Combined,47,Troisième caverne of Goyet,FBL 2 and 3 | FBL 2 and 4,NA,Cannibalism,NF,Missing,1,2,3.1271534231998515,-3.1952002075159163,1.0349393856509874,18.75,Cannibalism,14.0625
+Combined,48,Gran Dolina,TD6,NA,Cannibalism,NF,Missing,1,2,2.993598129055114,-3.0349577129842262,1.2765303548492213,18.75,Cannibalism,12.5
+Combined,49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",NA,NA,Carnivore-related,NF,Missing,1,2,6.986880606885122,-5.821538409158187,-1.6537459656027664,18.75,Cannibalism,75
+Combined,50,Grotte du Bison (Arcy-sur-Cure),Level I,NA,Carnivore-related,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Middle Palaeolithic sequence(9–10; 17–18; 22),NA,Carnivore-related,NF,Missing,1,2,9.788156876818425,-4.051606872735598,-2.1990069939637147,18.75,Cannibalism,92.1875
+Combined,52,Grotta Guattari,Laghetto,Historical,Carnivore-related,NF,Carnivore den(transport),1,2,4.670742146404269,-4.138609393948681,2.025023310495054,18.75,Cannibalism,51.5625
+Combined,53,Hahnöfersand,Glacial river sands,NA,Geological transport,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,54,Hathnora,NA,NA,Geological transport,NF,Missing,1,2,8.951030645154017,-3.2263107075346227,0.7935705727899707,18.75,Cannibalism,85.9375
+Combined,55,Herxheim,Deposit K,NA,Cannibalism,NF,Missing,1,2,2.7809849455175053,-2.3955748181561405,1.4949448381712962,18.75,Cannibalism,3.125
+Combined,56,Hohlenstein-Stadel,NA,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,6.986880606885122,-5.821538409158187,-1.6537459656027664,18.75,Cannibalism,75
+Combined,57,Jarama VI rockshelter,Level 2,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,9.496547242199853,-5.872509351825706,-1.25253604290492,18.75,Cannibalism,89.0625
+Combined,58,Kajiado,NA,NA,Carnivore-related,NF,Carnivore den(transport),1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,59,Kalamakia,Unit IV,NA,Carnivore-related,NF,Carnivore Scavenge (in situ),1,2,4.371548476485833,-5.70339076736975,-1.1876824563400272,18.75,Cannibalism,50
+Combined,60,Kebara Cave,Unit XI,Early,Funerary,F,Single inhumation,2,1,11.567398892399359,10.922004491941093,3.4757263619947274,94.87179487179486,Funerary,94.87179487179486
+Combined,61,Kiik-Koba,Layer IV - VI,NA,Funerary,F,Single inhumation,2,1,6.512133560580718,2.9513782043896746,-0.8844848867857592,94.87179487179486,Funerary,46.15384615384615
+Combined,65,Krapina,Primarily levels 3 and 4,Historical,Cannibalism,NF,Missing,1,2,6.115048779145314,-0.7921026926933484,-0.6197672476391289,18.75,Cannibalism,65.625
+Combined,66,La Chapelle-aux-Saints,Mousterian layer,Historical,Funerary,F,Single inhumation,2,1,5.902221217120065,8.161572945987267,-1.0775552006575881,94.87179487179486,Funerary,28.205128205128204
+Combined,67,La Ferrassie,Lower Mousterian layers,Both panels,Funerary,F,Single + collective,2,1,4.724107928463717,2.205876798066668,-1.6098140182100507,94.87179487179486,Funerary,15.384615384615385
+Combined,69,La Quina,Mousterian levels,Historical,Funerary,F,No inhumation,1,2,2.874463006880935,-5.182172072300003,-0.504307790141439,18.75,Cannibalism,7.8125
+Combined,70,La Tolita Cama de Huesos,Tardío,NA,Funerary,F,Collective burial,2,1,6.2009794373059535,1.8500561095861572,0.32032508512509467,94.87179487179486,Funerary,30.76923076923077
+Combined,71,Abrigo do Lagar Velho,NA,NA,Funerary,F,Single inhumation,2,1,7.880261069843899,10.162176187612591,-0.9449265646569887,94.87179487179486,Funerary,74.35897435897436
+Combined,73,Le Moustier I,Upper Shelter (Couche K),NA,Funerary,F,Single inhumation,2,1,7.1133116658936535,5.512669174893533,-2.865873832164605,94.87179487179486,Funerary,56.41025641025641
+Combined,74,Le Moustier II,Lower Shelter (Couche J),NA,Funerary,F,Single inhumation,2,1,11.417149613515,8.66737969847054,5.607708992057308,94.87179487179486,Funerary,92.3076923076923
+Combined,75,Le Placard,Grotte du Placard,NA,Cannibalism,NF,Missing,1,2,4.336188528668471,-5.8551283395261455,-1.567803036380894,18.75,Cannibalism,46.875
+Combined,76,Les Pradelles (Marillac-le-Franc),Layers 9 and 10,NA,Carnivore-related,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,77,Les Rochers-de-Villeneuve,Level J,NA,Carnivore-related,NF,Missing,1,2,6.986880606885122,-5.821538409158187,-1.6537459656027664,18.75,Cannibalism,75
+Combined,78,Grotte des Hoteaux,NA,NA,Funerary,F,Single inhumation,2,1,6.38148527744927,8.786426590363904,-1.0107059436346646,94.87179487179486,Funerary,33.33333333333333
+Combined,79,Cueva de Malalmuerzo,NA,NA,Cannibalism,NF,Missing,1,2,14.767471882159155,-0.4028887572052908,1.2656066997400504,18.75,Cannibalism,100
+Combined,81,Mancos 5MT-10010 Feature 3,NA,Early,Cannibalism,NF,No inhumation,2,1,7.20696810049107,2.393495991509196,3.8369648731945944,94.87179487179486,Funerary,64.1025641025641
+Combined,82,Yellow Jacket 5MT-3,NA,Early,Cannibalism,NF,No inhumation,1,2,6.204451749267323,0.6798774887433857,3.160784619752343,18.75,Cannibalism,67.1875
+Combined,85,Maszycka Cave,NA,NA,Cannibalism,NF,Missing,1,2,4.734034412513141,-3.8424652640236885,-1.5366679065408158,18.75,Cannibalism,54.6875
+Combined,86,Mauer,Lower Sands,NA,Geological transport,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,87,Mladeč Caves,Chamber D,Historical,Funerary,F,Funerary caching,1,2,9.610773283905804,-1.921772095852354,-0.4442158973640592,18.75,Cannibalism,90.625
+Combined,88,Mojokerto,Pucangan Formation,NA,Geological transport,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,89,Los Moros de Gabasa,Level E-F,NA,Carnivore-related,NF,Carnivore den(transport),1,2,9.91295294395613,-4.266027066685607,1.0056608948293282,18.75,Cannibalism,93.75
+Combined,90,Moula-Guercy,Layer XV,Historical,Cannibalism,NF,Missing,1,2,2.831639699371905,-3.16551576692547,0.38043720907679285,18.75,Cannibalism,6.25
+Combined,91,Mugharet es-Skhul,Layer B,Early,Funerary,F,Single inhumation,2,1,4.172903582161909,2.95541829850295,-0.6540882380285279,94.87179487179486,Funerary,5.128205128205128
+Combined,94,Netankheri,Fluvial gravely sand bed,NA,Geological transport,NF,Missing,1,2,5.198051052172371,-4.899127035137908,-1.4018501952309723,18.75,Cannibalism,59.375
+Combined,95,Ngandong,High Terrace deposits of the Solo river,NA,Geological transport,NF,Missing,1,2,2.882389024869872,-5.646398639790518,-0.49883998504229515,18.75,Cannibalism,9.375
+Combined,96,Ngawi,Selopuro left river bank,NA,Geological transport,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,97,Oberkassel,NA,NA,Funerary,F,Multiple inhumation,2,1,5.281679624686846,7.86849073392659,-0.9654461596124987,94.87179487179486,Funerary,20.51282051282051
+Combined,99,Ojo Guareña,NA,NA,Funerary,F,No inhumation,2,1,12.245848960545244,10.328195209573844,7.210869215896229,94.87179487179486,Funerary,97.43589743589743
+Combined,102,Goat’s Hole (Paviland Cave),NA,Historical,Funerary,F,Single inhumation,2,1,9.751511601905092,3.6746396197630533,-1.580109717411636,94.87179487179486,Funerary,89.74358974358975
+Combined,103,Pavlov I,NA,NA,Funerary,F,Single inhumation,2,1,9.34739080086777,5.237402113081793,-6.092661265467591,94.87179487179486,Funerary,84.61538461538461
+Combined,104,Grotte des Perrats,Couche 3,NA,Cannibalism,NF,Missing,1,2,4.309310374866289,-1.2798437120404187,1.0784017917208248,18.75,Cannibalism,43.75
+Combined,106,Předmostí,NA,NA,Funerary,F,Collective burial,2,1,6.452427589131613,1.223698338320967,-3.087215444199126,94.87179487179486,Funerary,35.8974358974359
+Combined,107,Qafzeh Cave,Layer XVI to XXIII,Early,Funerary,F,Single + multiple,2,1,4.991395802924625,1.5613999408894894,-0.7426755908291776,94.87179487179486,Funerary,17.94871794871795
+Combined,108,Regourdou,Tumulus IVA at Level IV,Historical,Funerary,F,Single inhumation,2,1,6.454432683216172,3.107534724133507,-0.6743836445049204,94.87179487179486,Funerary,41.02564102564102
+Combined,109,Reilingen,Gravel pit sequence,NA,Geological transport,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Dark grey layer,NA,Funerary,F,No inhumation,2,1,7.548436308978418,7.951997801346528,-0.7579286883939916,94.87179487179486,Funerary,69.23076923076923
+Combined,111,Roc de Marsal,Layer 4,Historical,Funerary,F,Single inhumation,2,1,7.079256882856565,7.48922371846198,1.4011509126878783,94.87179487179486,Funerary,53.84615384615385
+Combined,112,Roc de les Orenetes,NA,NA,Funerary,F,Collective burial,2,1,8.12560502733218,2.6698826182722057,5.31032506483863,94.87179487179486,Funerary,76.92307692307693
+Combined,113,Saccopastore,NA,NA,Geological transport,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Terrasse supérieure,NA,Funerary,F,Single inhumation,2,1,9.385811370230819,5.218231458960529,-5.102410096636273,94.87179487179486,Funerary,87.17948717948718
+Combined,116,Sambungmacan,Solo River alluvium,NA,Geological transport,NF,Missing,1,2,2.9109490924162045,-5.665663382388407,-0.6542667897291752,18.75,Cannibalism,10.9375
+Combined,117,San Juan ante Portam Latinam,NA,NA,Funerary,F,Collective burial,2,1,14.400403097318476,4.181405026986848,-1.232216885081037,94.87179487179486,Funerary,100
+Combined,118,Coves de Santa Maira,Level SM-3 | Level SM-4,NA,Cannibalism,NF,Missing,1,2,4.092055770050119,-3.6230085868962196,2.089942849473321,18.75,Cannibalism,42.1875
+Combined,120,Shanidar Cave,Layer D,Historical,Funerary,F,Multiple inhumation,2,1,5.630083273227084,4.403983397055611,-1.2238562633739685,94.87179487179486,Funerary,23.076923076923077
+Combined,121,Sima de las Palomas,"Upper stratigraphic levels (including ""Conglomerado B"") and lower levels 5 and 6",Early,Funerary,F,Collective burial,2,1,5.676662535275095,7.406909126253774,-2.313832006069106,94.87179487179486,Funerary,25.64102564102564
+Combined,130,Sunghir,NA,NA,Funerary,F,Multiple inhumation,2,1,4.328158518362624,2.9786977366909464,-0.8135879795696204,94.87179487179486,Funerary,7.6923076923076925
+Combined,131,Tabun Cave (Mugharet et-Tabun),Layer C,Early,Funerary,F,Single inhumation,2,1,7.665806343768861,9.372318075838317,-0.9945605710672596,94.87179487179486,Funerary,71.7948717948718
+Combined,132,Tepecik-Çiftlik,Level 5 (BB structure),NA,Funerary,F,Collective burial,2,1,4.13498126016703,6.590779402081871,-2.1510871094496395,94.87179487179486,Funerary,2.564102564102564
+Combined,133,Teshik-Tash Cave,Layer I,Historical,Funerary,F,Single inhumation,1,2,7.849190444984042,-1.2947556445962292,-1.7249666896571263,18.75,Cannibalism,79.6875
+Combined,134,Cueva de los Torrejones,NA,Historical,Funerary,F,Collective burial,1,2,3.753877536402976,-2.2241186660003196,2.4432879133419307,18.75,Cannibalism,39.0625
+Combined,141,Vado all'Arancio,NA,NA,Funerary,F,Single inhumation,2,1,8.990711429434095,7.23410772431583,-2.223913943070609,94.87179487179486,Funerary,82.05128205128204
+Combined,142,Valdegoba Cave,Level 5 | Level 6 | Level 8,NA,Carnivore-related,NF,Carnivore den (transport),1,2,7.304424818115609,-5.402661997521672,-0.4940717080812668,18.75,Cannibalism,78.125
+Combined,143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",NA,NA,Carnivore-related,NF,Missing,1,2,7.082876330168028,-0.5792573752100891,3.66682926730051,18.75,Cannibalism,76.5625
+Combined,144,Vindija,Fd/d,NA,Cannibalism,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,145,Vindija,G1,NA,Cannibalism,NF,Missing,1,2,3.4392595102725894,-5.613705040131812,-0.32110706443797865,18.75,Cannibalism,34.375
+Combined,146,Vindija,G3,NA,Cannibalism,NF,Missing,1,2,4.677569351698555,-3.908788243864092,0.8296294491431299,18.75,Cannibalism,53.125
+Combined,147,Vunda Locus,26M | 26H,NA,Cannibalism,NF,Missing,1,2,3.992043175885458,-2.2592313998489724,1.4466965091008956,18.75,Cannibalism,40.625
+Combined,149,Xemxija tombs,NA,NA,Funerary,F,Collective burial,2,1,7.14620150620368,2.0179166776738944,-0.9418719120965738,94.87179487179486,Funerary,58.97435897435898
+Combined,150,Boquete de Zafarraya,Units UG–UE,NA,Cannibalism,NF,Missing,1,2,4.799497737541044,-3.580637031743664,2.290141643603562,18.75,Cannibalism,56.25

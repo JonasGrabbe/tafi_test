@@ -1,0 +1,7 @@
+task,representation,group_A,group_B,contrast,n_A,n_B,centroid_distance,R2,F,p,dispersion_F,dispersion_p,q_BH,dispersion_q_BH
+four_class,%MNAU,Funerary Context,Cannibalism,Cannibalism - Funerary Context,48,22,3.3701458952531715,NA,NA,NA,14.228391317382153,2e-4,NA,4e-4
+four_class,%MNAU,Funerary Context,Carnivore,Carnivore - Funerary Context,48,17,4.601955639768594,NA,NA,NA,40.23530757796591,1e-4,NA,3.0000000000000003e-4
+four_class,%MNAU,Funerary Context,Geological transport,Geological transport - Funerary Context,48,12,4.606751492813912,NA,NA,NA,35.213433478689666,1e-4,NA,3.0000000000000003e-4
+four_class,%MNAU,Cannibalism,Carnivore,Carnivore - Cannibalism,22,17,1.439483259404508,NA,NA,NA,3.026709067494994,0.0841,NA,0.10092
+four_class,%MNAU,Cannibalism,Geological transport,Geological transport - Cannibalism,22,12,1.3131380943392441,NA,NA,NA,3.77941706008522,0.0519,NA,0.07785
+four_class,%MNAU,Carnivore,Geological transport,Geological transport - Carnivore,17,12,0.9121099379213293,NA,NA,NA,1.0700068621007899,0.3216,NA,0.3216

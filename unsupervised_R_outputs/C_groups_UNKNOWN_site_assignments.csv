@@ -1,0 +1,24 @@
+Dataset,Feature_space,site_name,Cluster_raw,Cluster_zero_based,Cluster_F_percent,Cluster_dominant_class4,Distance_to_centroid,Distance_percentile,PC1,PC2,Group
+Unknown projection,C + evenness,Bilzingsleben,1,0,0,Carnivore-related,0.21847989493186853,60,-1.4718867283948724,0.47234220995100007,C0
+Unknown projection,C + evenness,Bolomor Cave,1,0,0,Carnivore-related,0.1237616591302282,10,-1.348468847675493,0.16689653033567708,C0
+Unknown projection,C + evenness,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",1,0,0,Carnivore-related,0.17470221682796394,13.333333333333334,-1.4384675520621555,0.4416197417500749,C0
+Unknown projection,C + evenness,Ceprano,1,0,0,Carnivore-related,0.21847989493186853,60,-1.4718867283948724,0.47234220995100007,C0
+Unknown projection,C + evenness,"Cova de les Malladetes (Barx, Valencia, Spain)",1,0,0,Carnivore-related,0.21847989493186853,60,-1.4718867283948724,0.47234220995100007,C0
+Unknown projection,C + evenness,Cova del Parpalló (Parpalló Cave),1,0,0,Carnivore-related,0.7231402437048494,90,-0.7148862702186461,-0.054089702957031804,C0
+Unknown projection,C + evenness,Cueva de la Carigüela,1,0,0,Carnivore-related,0.21847989493186853,60,-1.4718867283948724,0.47234220995100007,C0
+Unknown projection,C + evenness,Engis / Schmerling Cave,1,0,0,Carnivore-related,0.21847989493186853,60,-1.4718867283948724,0.47234220995100007,C0
+Unknown projection,C + evenness,"Ochoz 1, Ochoz 2",1,0,0,Carnivore-related,0.21847989493186853,60,-1.4718867283948724,0.47234220995100007,C0
+Unknown projection,C + evenness,Peștera Muierii,1,0,0,Carnivore-related,0.49300547838596137,86.66666666666667,-0.934580834336116,0.02605021534021512,C0
+Unknown projection,C + evenness,Scladina Cave,1,0,0,Carnivore-related,0.21847989493186853,60,-1.4718867283948724,0.47234220995100007,C0
+Unknown projection,C + evenness,Steinheim an der Murr,1,0,0,Carnivore-related,0.21847989493186853,60,-1.4718867283948724,0.47234220995100007,C0
+Unknown projection,C + evenness,Trou de la Naulette,1,0,0,Carnivore-related,0.5039070361028951,86.66666666666667,-1.0364189831627082,-0.10335435813433541,C0
+Unknown projection,C + evenness,Kleine Feldhofer Grotte,2,1,40,Cannibalism,0.5942998655380618,64,0.7189325826736512,-0.37116023065695347,C1
+Unknown projection,C + evenness,Saint-Césaire,2,1,40,Cannibalism,0.745412024900536,84,-0.05904602554170857,0.006046061356740115,C1
+Unknown projection,C + evenness,Sima de los Huesos 15,2,1,40,Cannibalism,0.6846597757925476,84,0.8850367670814758,-0.5439209871977859,C1
+Unknown projection,C + evenness,Sima de los Huesos 24,2,1,40,Cannibalism,0.6675048410142718,80,0.8683545089319913,-0.5479462337274137,C1
+Unknown projection,C + evenness,Sima de los Huesos 89,2,1,40,Cannibalism,0.3797302387283881,28.000000000000004,-0.10692306709553723,-0.8875845710156383,C1
+Unknown projection,C + evenness,Sima de los Huesos 90,2,1,40,Cannibalism,0.27671597451456237,12,-0.035406150146148896,-0.8036916429949388,C1
+Unknown projection,C + evenness,Sima de los Huesos 95,2,1,40,Cannibalism,0.7226762580258794,84,0.8641884288815136,-0.3684601480186265,C1
+Unknown projection,C + evenness,Sima de los Huesos PNAS,2,1,40,Cannibalism,0.7389009951495105,84,0.9009896665793041,-0.4111768570157698,C1
+Unknown projection,C + evenness,Weimar-Ehringsdorf,2,1,40,Cannibalism,0.5497817324922959,64,-0.29573455460728637,-0.4847024281285067,C1
+Unknown projection,C + evenness,Spy cave,3,2,95.23809523809523,Funerary,0.8834875327678602,90.47619047619048,0.9064021644855338,-0.036816788967131864,C2

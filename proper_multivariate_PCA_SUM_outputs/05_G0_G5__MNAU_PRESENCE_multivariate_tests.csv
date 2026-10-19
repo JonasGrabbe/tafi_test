@@ -1,0 +1,2 @@
+task,representation,method,n_sites,n_features,PERMANOVA_R2,PERMANOVA_F,PERMANOVA_p,PERMDISP_F,PERMDISP_p
+G0_G5,%MNAU,Jaccard presence/absence,97,14,NA,NA,NA,7.117813085750365,1e-4

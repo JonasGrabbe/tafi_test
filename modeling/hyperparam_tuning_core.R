@@ -468,7 +468,7 @@ tune_single_model_combo <- function(
   # -------------------------------------------------------
   
   source("c:/Users/jonas.grabbe/tafi_test-2/tapho_loader_new.R")
-  result        <- tapho.loader.wfl(dataset_path, level = level, data_variant = data_variant )
+  result        <- tapho.loader.wfl(dataset_path, indet = FALSE, indet_method = "dist" ,level = level, data_variant = data_variant )
   raw_df_id  <- result$db_id
   raw_df_sum <- result$db_sum
 

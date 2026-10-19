@@ -1,0 +1,4 @@
+"feature",".y.","group1","group2","n1","n2","statistic","p","p.adj","p.adj.signif"
+"mne_arms","value","Late Pleistocene","Holocene",86,48,4.08212294616045,4.46261767425478e-05,0.000133878530227643,"***"
+"mne_arms","value","Late Pleistocene","Middle Pleistocene",86,15,1.12213334461138,0.261805748154072,0.261805748154072,"ns"
+"mne_arms","value","Holocene","Middle Pleistocene",48,15,-1.42489697515242,0.154186984163369,0.231280476245054,"ns"

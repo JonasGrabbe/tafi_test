@@ -1,0 +1,2346 @@
+outer_holdout_group,task_label,site_name,fold,repeat_id
+1,Rest,Cueva de la Buena Pinta,1,1
+1,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",2,1
+1,Rest,Le Placard,3,1
+1,Rest,Vindija,1,1
+1,Rest,Grotte de Fontbrégoua,2,1
+1,Rest,Mauer,3,1
+1,Rest,Vunda Locus,1,1
+1,Rest,Sambungmacan,2,1
+1,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,1
+1,Rest,Herxheim,1,1
+1,Rest,Gran Dolina,2,1
+1,Rest,Jarama VI rockshelter,3,1
+1,Rest,Netankheri,1,1
+1,Rest,Troisième caverne of Goyet,2,1
+1,Rest,Grotte des Perrats,3,1
+1,Rest,Les Rochers-de-Villeneuve,1,1
+1,Rest,Grotta Guattari,2,1
+1,Rest,Mancos 5MT-10010 Feature 3,3,1
+1,Rest,Ngawi,1,1
+1,Rest,Los Moros de Gabasa,2,1
+1,Rest,Ngandong,3,1
+1,Rest,El Mirador,1,1
+1,Rest,Kalamakia,2,1
+1,Rest,El Sidrón J1,3,1
+1,Rest,Hathnora,1,1
+1,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",2,1
+1,Rest,Les Pradelles (Marillac-le-Franc),3,1
+1,Rest,Brillenhöhle,1,1
+1,Rest,Saccopastore,2,1
+1,Rest,Archi,3,1
+1,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",1,1
+1,Rest,Dali Tianshuigou,2,1
+1,Rest,Cueva del Camino,3,1
+1,Rest,Arago,1,1
+1,Rest,Hahnöfersand,2,1
+1,Rest,Mojokerto,3,1
+1,Rest,Combe Grenal,1,1
+1,Rest,Valdegoba Cave,2,1
+1,Rest,Reilingen,3,1
+1,Rest,Grotte du Bison (Arcy-sur-Cure),1,1
+1,Rest,Cova del Gegant,2,1
+1,Rest,Boquete de Zafarraya,3,1
+1,Rest,Cueva de Malalmuerzo,1,1
+1,Rest,Maszycka Cave,2,1
+1,Rest,Moula-Guercy,3,1
+1,Rest,Coves de Santa Maira,1,1
+1,Rest,Kajiado,2,1
+1,Rest,Hohlenstein-Stadel,3,1
+1,Rest,Gough's Cave,1,1
+1,Funerary Context,Abrigo do Lagar Velho,1,1
+1,Funerary Context,Cova Foradada,2,1
+1,Funerary Context,Baousso da Torre (Bausu da Ture),3,1
+1,Funerary Context,San Juan ante Portam Latinam,1,1
+1,Funerary Context,El Mirón Cave,2,1
+1,Funerary Context,Tepecik-Çiftlik,3,1
+1,Funerary Context,Teshik-Tash Cave,1,1
+1,Funerary Context,Cro-Magnon I,2,1
+1,Funerary Context,Qafzeh Cave,3,1
+1,Funerary Context,Cova Gran de Santa Linya,1,1
+1,Funerary Context,Brno II,2,1
+1,Funerary Context,Shanidar Cave,3,1
+1,Funerary Context,Abri Pataud,1,1
+1,Funerary Context,Kebara Cave,2,1
+1,Funerary Context,Sima de las Palomas,3,1
+1,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",1,1
+1,Funerary Context,Roc de Marsal,2,1
+1,Funerary Context,Dolní Věstonice I,3,1
+1,Funerary Context,Kiik-Koba,1,1
+1,Funerary Context,Dolní Věstonice II,2,1
+1,Funerary Context,Roc de les Orenetes,3,1
+1,Funerary Context,Amud Cave,1,1
+1,Funerary Context,Le Moustier I,2,1
+1,Funerary Context,Pavlov I,3,1
+1,Funerary Context,Le Moustier II,1,1
+1,Funerary Context,Ojo Guareña,2,1
+1,Funerary Context,Oberkassel,3,1
+1,Funerary Context,Grotte des Hoteaux,1,1
+1,Funerary Context,La Quina,2,1
+1,Funerary Context,Abri de Raymonden (Chancelade),3,1
+1,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,1
+1,Funerary Context,La Ferrassie,2,1
+1,Funerary Context,Předmostí,3,1
+1,Funerary Context,Mladeč Caves,1,1
+1,Funerary Context,Xemxija tombs,2,1
+1,Funerary Context,El Espinoso Cave,3,1
+1,Funerary Context,Atxuri-I Cave,1,1
+1,Funerary Context,Sunghir,2,1
+1,Funerary Context,Dame du Cavillon,3,1
+1,Funerary Context,La Tolita Cama de Huesos,1,1
+1,Funerary Context,Goat’s Hole (Paviland Cave),2,1
+1,Funerary Context,Vado all'Arancio,3,1
+1,Funerary Context,Cueva de los Torrejones,1,1
+1,Funerary Context,Regourdou,2,1
+1,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",1,2
+1,Rest,Valdegoba Cave,2,2
+1,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",3,2
+1,Rest,Los Moros de Gabasa,1,2
+1,Rest,Grotte de Fontbrégoua,2,2
+1,Rest,Hohlenstein-Stadel,3,2
+1,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",1,2
+1,Rest,Jarama VI rockshelter,2,2
+1,Rest,Vunda Locus,3,2
+1,Rest,Grotte des Perrats,1,2
+1,Rest,Sambungmacan,2,2
+1,Rest,Arago,3,2
+1,Rest,Coves de Santa Maira,1,2
+1,Rest,Netankheri,2,2
+1,Rest,Grotte du Bison (Arcy-sur-Cure),3,2
+1,Rest,Vindija,1,2
+1,Rest,Troisième caverne of Goyet,2,2
+1,Rest,Grotta Guattari,3,2
+1,Rest,Mancos 5MT-10010 Feature 3,1,2
+1,Rest,Herxheim,2,2
+1,Rest,Les Rochers-de-Villeneuve,3,2
+1,Rest,Hathnora,1,2
+1,Rest,El Mirador,2,2
+1,Rest,Hahnöfersand,3,2
+1,Rest,Maszycka Cave,1,2
+1,Rest,Le Placard,2,2
+1,Rest,Les Pradelles (Marillac-le-Franc),3,2
+1,Rest,Combe Grenal,1,2
+1,Rest,Boquete de Zafarraya,2,2
+1,Rest,Cueva de la Buena Pinta,3,2
+1,Rest,Moula-Guercy,1,2
+1,Rest,Ngawi,2,2
+1,Rest,Dali Tianshuigou,3,2
+1,Rest,Mauer,1,2
+1,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),2,2
+1,Rest,Brillenhöhle,3,2
+1,Rest,Reilingen,1,2
+1,Rest,Archi,2,2
+1,Rest,El Sidrón J1,3,2
+1,Rest,Gough's Cave,1,2
+1,Rest,Saccopastore,2,2
+1,Rest,Cueva de Malalmuerzo,3,2
+1,Rest,Kalamakia,1,2
+1,Rest,Ngandong,2,2
+1,Rest,Cueva del Camino,3,2
+1,Rest,Cova del Gegant,1,2
+1,Rest,Gran Dolina,2,2
+1,Rest,Kajiado,3,2
+1,Rest,Mojokerto,1,2
+1,Funerary Context,Sunghir,1,2
+1,Funerary Context,Mladeč Caves,2,2
+1,Funerary Context,La Tolita Cama de Huesos,3,2
+1,Funerary Context,Dame du Cavillon,1,2
+1,Funerary Context,Ojo Guareña,2,2
+1,Funerary Context,Teshik-Tash Cave,3,2
+1,Funerary Context,Brno II,1,2
+1,Funerary Context,Abri de Raymonden (Chancelade),2,2
+1,Funerary Context,Cueva de los Torrejones,3,2
+1,Funerary Context,Pavlov I,1,2
+1,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",2,2
+1,Funerary Context,El Mirón Cave,3,2
+1,Funerary Context,La Ferrassie,1,2
+1,Funerary Context,Dolní Věstonice I,2,2
+1,Funerary Context,Cova Gran de Santa Linya,3,2
+1,Funerary Context,Abrigo do Lagar Velho,1,2
+1,Funerary Context,Roc de Marsal,2,2
+1,Funerary Context,Kebara Cave,3,2
+1,Funerary Context,Shanidar Cave,1,2
+1,Funerary Context,Cro-Magnon I,2,2
+1,Funerary Context,Le Moustier I,3,2
+1,Funerary Context,Roc de les Orenetes,1,2
+1,Funerary Context,Vado all'Arancio,2,2
+1,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),3,2
+1,Funerary Context,Atxuri-I Cave,1,2
+1,Funerary Context,La Quina,2,2
+1,Funerary Context,Abri Pataud,3,2
+1,Funerary Context,Xemxija tombs,1,2
+1,Funerary Context,Kiik-Koba,2,2
+1,Funerary Context,San Juan ante Portam Latinam,3,2
+1,Funerary Context,Qafzeh Cave,1,2
+1,Funerary Context,Le Moustier II,2,2
+1,Funerary Context,Sima de las Palomas,3,2
+1,Funerary Context,Oberkassel,1,2
+1,Funerary Context,Baousso da Torre (Bausu da Ture),2,2
+1,Funerary Context,El Espinoso Cave,3,2
+1,Funerary Context,Cova Foradada,1,2
+1,Funerary Context,Amud Cave,2,2
+1,Funerary Context,Předmostí,3,2
+1,Funerary Context,Goat’s Hole (Paviland Cave),1,2
+1,Funerary Context,Tepecik-Çiftlik,2,2
+1,Funerary Context,Regourdou,3,2
+1,Funerary Context,Dolní Věstonice II,1,2
+1,Funerary Context,Grotte des Hoteaux,2,2
+1,Rest,Arago,1,3
+1,Rest,Ngawi,2,3
+1,Rest,Maszycka Cave,3,3
+1,Rest,Boquete de Zafarraya,1,3
+1,Rest,El Sidrón J1,2,3
+1,Rest,Brillenhöhle,3,3
+1,Rest,Kajiado,1,3
+1,Rest,Herxheim,2,3
+1,Rest,Moula-Guercy,3,3
+1,Rest,Hathnora,1,3
+1,Rest,Le Placard,2,3
+1,Rest,Los Moros de Gabasa,3,3
+1,Rest,Gough's Cave,1,3
+1,Rest,Reilingen,2,3
+1,Rest,Vunda Locus,3,3
+1,Rest,Saccopastore,1,3
+1,Rest,Cueva de Malalmuerzo,2,3
+1,Rest,Mancos 5MT-10010 Feature 3,3,3
+1,Rest,Combe Grenal,1,3
+1,Rest,Ngandong,2,3
+1,Rest,Troisième caverne of Goyet,3,3
+1,Rest,Mauer,1,3
+1,Rest,Gran Dolina,2,3
+1,Rest,Cueva del Camino,3,3
+1,Rest,Dali Tianshuigou,1,3
+1,Rest,Kalamakia,2,3
+1,Rest,Cova del Gegant,3,3
+1,Rest,Les Pradelles (Marillac-le-Franc),1,3
+1,Rest,Netankheri,2,3
+1,Rest,Valdegoba Cave,3,3
+1,Rest,Grotte de Fontbrégoua,1,3
+1,Rest,El Mirador,2,3
+1,Rest,Vindija,3,3
+1,Rest,Sambungmacan,1,3
+1,Rest,Hohlenstein-Stadel,2,3
+1,Rest,Hahnöfersand,3,3
+1,Rest,Grotte des Perrats,1,3
+1,Rest,Grotte du Bison (Arcy-sur-Cure),2,3
+1,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",3,3
+1,Rest,Mojokerto,1,3
+1,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),2,3
+1,Rest,Jarama VI rockshelter,3,3
+1,Rest,Cueva de la Buena Pinta,1,3
+1,Rest,Archi,2,3
+1,Rest,Coves de Santa Maira,3,3
+1,Rest,Les Rochers-de-Villeneuve,1,3
+1,Rest,Grotta Guattari,2,3
+1,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",3,3
+1,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",1,3
+1,Funerary Context,Dame du Cavillon,1,3
+1,Funerary Context,Brno II,2,3
+1,Funerary Context,El Espinoso Cave,3,3
+1,Funerary Context,Xemxija tombs,1,3
+1,Funerary Context,Roc de les Orenetes,2,3
+1,Funerary Context,Tepecik-Çiftlik,3,3
+1,Funerary Context,Cova Gran de Santa Linya,1,3
+1,Funerary Context,Ojo Guareña,2,3
+1,Funerary Context,Abri de Raymonden (Chancelade),3,3
+1,Funerary Context,Baousso da Torre (Bausu da Ture),1,3
+1,Funerary Context,El Mirón Cave,2,3
+1,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),3,3
+1,Funerary Context,Abri Pataud,1,3
+1,Funerary Context,Le Moustier I,2,3
+1,Funerary Context,Cro-Magnon I,3,3
+1,Funerary Context,San Juan ante Portam Latinam,1,3
+1,Funerary Context,Grotte des Hoteaux,2,3
+1,Funerary Context,Goat’s Hole (Paviland Cave),3,3
+1,Funerary Context,Kebara Cave,1,3
+1,Funerary Context,Le Moustier II,2,3
+1,Funerary Context,Roc de Marsal,3,3
+1,Funerary Context,Mladeč Caves,1,3
+1,Funerary Context,Abrigo do Lagar Velho,2,3
+1,Funerary Context,Sunghir,3,3
+1,Funerary Context,Cueva de los Torrejones,1,3
+1,Funerary Context,Qafzeh Cave,2,3
+1,Funerary Context,Teshik-Tash Cave,3,3
+1,Funerary Context,Cova Foradada,1,3
+1,Funerary Context,Vado all'Arancio,2,3
+1,Funerary Context,Předmostí,3,3
+1,Funerary Context,Atxuri-I Cave,1,3
+1,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",2,3
+1,Funerary Context,Regourdou,3,3
+1,Funerary Context,Dolní Věstonice II,1,3
+1,Funerary Context,Amud Cave,2,3
+1,Funerary Context,La Tolita Cama de Huesos,3,3
+1,Funerary Context,La Quina,1,3
+1,Funerary Context,Sima de las Palomas,2,3
+1,Funerary Context,Dolní Věstonice I,3,3
+1,Funerary Context,Pavlov I,1,3
+1,Funerary Context,Shanidar Cave,2,3
+1,Funerary Context,Oberkassel,3,3
+1,Funerary Context,La Ferrassie,1,3
+1,Funerary Context,Kiik-Koba,2,3
+1,Rest,Grotte du Bison (Arcy-sur-Cure),1,4
+1,Rest,Valdegoba Cave,2,4
+1,Rest,Brillenhöhle,3,4
+1,Rest,Grotte des Perrats,1,4
+1,Rest,Mojokerto,2,4
+1,Rest,Hahnöfersand,3,4
+1,Rest,Kajiado,1,4
+1,Rest,Les Rochers-de-Villeneuve,2,4
+1,Rest,Netankheri,3,4
+1,Rest,Arago,1,4
+1,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",2,4
+1,Rest,Hathnora,3,4
+1,Rest,El Sidrón J1,1,4
+1,Rest,Cueva de la Buena Pinta,2,4
+1,Rest,Archi,3,4
+1,Rest,Cova del Gegant,1,4
+1,Rest,Cueva del Camino,2,4
+1,Rest,Vunda Locus,3,4
+1,Rest,Ngandong,1,4
+1,Rest,Mauer,2,4
+1,Rest,Coves de Santa Maira,3,4
+1,Rest,Moula-Guercy,1,4
+1,Rest,Le Placard,2,4
+1,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",3,4
+1,Rest,Combe Grenal,1,4
+1,Rest,El Mirador,2,4
+1,Rest,Mancos 5MT-10010 Feature 3,3,4
+1,Rest,Saccopastore,1,4
+1,Rest,Hohlenstein-Stadel,2,4
+1,Rest,Gough's Cave,3,4
+1,Rest,Troisième caverne of Goyet,1,4
+1,Rest,Vindija,2,4
+1,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",3,4
+1,Rest,Sambungmacan,1,4
+1,Rest,Cueva de Malalmuerzo,2,4
+1,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,4
+1,Rest,Grotta Guattari,1,4
+1,Rest,Herxheim,2,4
+1,Rest,Les Pradelles (Marillac-le-Franc),3,4
+1,Rest,Jarama VI rockshelter,1,4
+1,Rest,Dali Tianshuigou,2,4
+1,Rest,Grotte de Fontbrégoua,3,4
+1,Rest,Gran Dolina,1,4
+1,Rest,Maszycka Cave,2,4
+1,Rest,Ngawi,3,4
+1,Rest,Reilingen,1,4
+1,Rest,Los Moros de Gabasa,2,4
+1,Rest,Boquete de Zafarraya,3,4
+1,Rest,Kalamakia,1,4
+1,Funerary Context,Tepecik-Çiftlik,1,4
+1,Funerary Context,Goat’s Hole (Paviland Cave),2,4
+1,Funerary Context,Ojo Guareña,3,4
+1,Funerary Context,Qafzeh Cave,1,4
+1,Funerary Context,Le Moustier I,2,4
+1,Funerary Context,Vado all'Arancio,3,4
+1,Funerary Context,Roc de Marsal,1,4
+1,Funerary Context,Mladeč Caves,2,4
+1,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),3,4
+1,Funerary Context,Abrigo do Lagar Velho,1,4
+1,Funerary Context,Roc de les Orenetes,2,4
+1,Funerary Context,Cro-Magnon I,3,4
+1,Funerary Context,Teshik-Tash Cave,1,4
+1,Funerary Context,Kebara Cave,2,4
+1,Funerary Context,El Mirón Cave,3,4
+1,Funerary Context,Oberkassel,1,4
+1,Funerary Context,Cova Foradada,2,4
+1,Funerary Context,La Tolita Cama de Huesos,3,4
+1,Funerary Context,Dolní Věstonice I,1,4
+1,Funerary Context,Shanidar Cave,2,4
+1,Funerary Context,Pavlov I,3,4
+1,Funerary Context,Grotte des Hoteaux,1,4
+1,Funerary Context,Xemxija tombs,2,4
+1,Funerary Context,Kiik-Koba,3,4
+1,Funerary Context,Baousso da Torre (Bausu da Ture),1,4
+1,Funerary Context,Abri Pataud,2,4
+1,Funerary Context,San Juan ante Portam Latinam,3,4
+1,Funerary Context,La Ferrassie,1,4
+1,Funerary Context,Amud Cave,2,4
+1,Funerary Context,Regourdou,3,4
+1,Funerary Context,Dolní Věstonice II,1,4
+1,Funerary Context,Abri de Raymonden (Chancelade),2,4
+1,Funerary Context,Dame du Cavillon,3,4
+1,Funerary Context,Sunghir,1,4
+1,Funerary Context,El Espinoso Cave,2,4
+1,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",3,4
+1,Funerary Context,Cova Gran de Santa Linya,1,4
+1,Funerary Context,Sima de las Palomas,2,4
+1,Funerary Context,La Quina,3,4
+1,Funerary Context,Atxuri-I Cave,1,4
+1,Funerary Context,Brno II,2,4
+1,Funerary Context,Cueva de los Torrejones,3,4
+1,Funerary Context,Předmostí,1,4
+1,Funerary Context,Le Moustier II,2,4
+1,Rest,Brillenhöhle,1,5
+1,Rest,Grotte du Bison (Arcy-sur-Cure),2,5
+1,Rest,Ngawi,3,5
+1,Rest,Valdegoba Cave,1,5
+1,Rest,El Mirador,2,5
+1,Rest,Hohlenstein-Stadel,3,5
+1,Rest,Grotte de Fontbrégoua,1,5
+1,Rest,Los Moros de Gabasa,2,5
+1,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",3,5
+1,Rest,Grotta Guattari,1,5
+1,Rest,Vindija,2,5
+1,Rest,Gough's Cave,3,5
+1,Rest,Mauer,1,5
+1,Rest,Mojokerto,2,5
+1,Rest,Gran Dolina,3,5
+1,Rest,Maszycka Cave,1,5
+1,Rest,Mancos 5MT-10010 Feature 3,2,5
+1,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,5
+1,Rest,Arago,1,5
+1,Rest,Cueva de Malalmuerzo,2,5
+1,Rest,Ngandong,3,5
+1,Rest,Jarama VI rockshelter,1,5
+1,Rest,Herxheim,2,5
+1,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",3,5
+1,Rest,Combe Grenal,1,5
+1,Rest,Kajiado,2,5
+1,Rest,Les Rochers-de-Villeneuve,3,5
+1,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",1,5
+1,Rest,Kalamakia,2,5
+1,Rest,Les Pradelles (Marillac-le-Franc),3,5
+1,Rest,Archi,1,5
+1,Rest,Moula-Guercy,2,5
+1,Rest,Sambungmacan,3,5
+1,Rest,Vunda Locus,1,5
+1,Rest,Hathnora,2,5
+1,Rest,Boquete de Zafarraya,3,5
+1,Rest,Troisième caverne of Goyet,1,5
+1,Rest,Netankheri,2,5
+1,Rest,Cova del Gegant,3,5
+1,Rest,Hahnöfersand,1,5
+1,Rest,Le Placard,2,5
+1,Rest,Grotte des Perrats,3,5
+1,Rest,Dali Tianshuigou,1,5
+1,Rest,Reilingen,2,5
+1,Rest,El Sidrón J1,3,5
+1,Rest,Cueva de la Buena Pinta,1,5
+1,Rest,Coves de Santa Maira,2,5
+1,Rest,Cueva del Camino,3,5
+1,Rest,Saccopastore,1,5
+1,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,5
+1,Funerary Context,Regourdou,2,5
+1,Funerary Context,Grotte des Hoteaux,3,5
+1,Funerary Context,Atxuri-I Cave,1,5
+1,Funerary Context,Cova Foradada,2,5
+1,Funerary Context,La Tolita Cama de Huesos,3,5
+1,Funerary Context,Qafzeh Cave,1,5
+1,Funerary Context,Dolní Věstonice I,2,5
+1,Funerary Context,Shanidar Cave,3,5
+1,Funerary Context,San Juan ante Portam Latinam,1,5
+1,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",2,5
+1,Funerary Context,Abri de Raymonden (Chancelade),3,5
+1,Funerary Context,Sima de las Palomas,1,5
+1,Funerary Context,El Mirón Cave,2,5
+1,Funerary Context,Brno II,3,5
+1,Funerary Context,Dame du Cavillon,1,5
+1,Funerary Context,La Quina,2,5
+1,Funerary Context,Sunghir,3,5
+1,Funerary Context,Vado all'Arancio,1,5
+1,Funerary Context,Oberkassel,2,5
+1,Funerary Context,Baousso da Torre (Bausu da Ture),3,5
+1,Funerary Context,Tepecik-Çiftlik,1,5
+1,Funerary Context,El Espinoso Cave,2,5
+1,Funerary Context,Roc de les Orenetes,3,5
+1,Funerary Context,Le Moustier I,1,5
+1,Funerary Context,Ojo Guareña,2,5
+1,Funerary Context,Le Moustier II,3,5
+1,Funerary Context,Cro-Magnon I,1,5
+1,Funerary Context,Roc de Marsal,2,5
+1,Funerary Context,Goat’s Hole (Paviland Cave),3,5
+1,Funerary Context,Dolní Věstonice II,1,5
+1,Funerary Context,Kiik-Koba,2,5
+1,Funerary Context,Mladeč Caves,3,5
+1,Funerary Context,Amud Cave,1,5
+1,Funerary Context,Cova Gran de Santa Linya,2,5
+1,Funerary Context,Abri Pataud,3,5
+1,Funerary Context,Xemxija tombs,1,5
+1,Funerary Context,Teshik-Tash Cave,2,5
+1,Funerary Context,La Ferrassie,3,5
+1,Funerary Context,Kebara Cave,1,5
+1,Funerary Context,Předmostí,2,5
+1,Funerary Context,Cueva de los Torrejones,3,5
+1,Funerary Context,Pavlov I,1,5
+1,Funerary Context,Abrigo do Lagar Velho,2,5
+2,Rest,Hathnora,1,1
+2,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",2,1
+2,Rest,Los Moros de Gabasa,3,1
+2,Rest,Kalamakia,1,1
+2,Rest,Krapina,2,1
+2,Rest,Mojokerto,3,1
+2,Rest,Reilingen,1,1
+2,Rest,Cova del Gegant,2,1
+2,Rest,Herxheim,3,1
+2,Rest,Vindija,1,1
+2,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",2,1
+2,Rest,Vunda Locus,3,1
+2,Rest,Dali Tianshuigou,1,1
+2,Rest,Cueva de Malalmuerzo,2,1
+2,Rest,El Mirador,3,1
+2,Rest,Netankheri,1,1
+2,Rest,Archi,2,1
+2,Rest,Grotte de Fontbrégoua,3,1
+2,Rest,Brillenhöhle,1,1
+2,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),2,1
+2,Rest,Ngawi,3,1
+2,Rest,Cueva de la Buena Pinta,1,1
+2,Rest,Le Placard,2,1
+2,Rest,Cueva del Camino,3,1
+2,Rest,Arago,1,1
+2,Rest,Boquete de Zafarraya,2,1
+2,Rest,Gough's Cave,3,1
+2,Rest,Mancos 5MT-10010 Feature 3,1,1
+2,Rest,Mauer,2,1
+2,Rest,Combe Grenal,3,1
+2,Rest,El Sidrón J1,1,1
+2,Rest,Jarama VI rockshelter,2,1
+2,Rest,Sambungmacan,3,1
+2,Rest,Grotte des Perrats,1,1
+2,Rest,Hahnöfersand,2,1
+2,Rest,Les Pradelles (Marillac-le-Franc),3,1
+2,Rest,Gran Dolina,1,1
+2,Rest,Maszycka Cave,2,1
+2,Rest,Ngandong,3,1
+2,Rest,Yellow Jacket 5MT-3,1,1
+2,Rest,Coves de Santa Maira,2,1
+2,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",3,1
+2,Rest,Troisième caverne of Goyet,1,1
+2,Rest,Hohlenstein-Stadel,2,1
+2,Rest,Saccopastore,3,1
+2,Rest,Grotte du Bison (Arcy-sur-Cure),1,1
+2,Rest,Valdegoba Cave,2,1
+2,Rest,Kajiado,3,1
+2,Rest,Les Rochers-de-Villeneuve,1,1
+2,Funerary Context,Tabun Cave (Mugharet et-Tabun),1,1
+2,Funerary Context,Le Moustier II,2,1
+2,Funerary Context,El Mirón Cave,3,1
+2,Funerary Context,Kebara Cave,1,1
+2,Funerary Context,Atxuri-I Cave,2,1
+2,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",3,1
+2,Funerary Context,Cro-Magnon I,1,1
+2,Funerary Context,Sima de las Palomas,2,1
+2,Funerary Context,Abrigo do Lagar Velho,3,1
+2,Funerary Context,Baousso da Torre (Bausu da Ture),1,1
+2,Funerary Context,Abri de Raymonden (Chancelade),2,1
+2,Funerary Context,Kiik-Koba,3,1
+2,Funerary Context,Tepecik-Çiftlik,1,1
+2,Funerary Context,Teshik-Tash Cave,2,1
+2,Funerary Context,Shanidar Cave,3,1
+2,Funerary Context,Mladeč Caves,1,1
+2,Funerary Context,Oberkassel,2,1
+2,Funerary Context,Vado all'Arancio,3,1
+2,Funerary Context,Mugharet es-Skhul,1,1
+2,Funerary Context,Cova Foradada,2,1
+2,Funerary Context,Cova Gran de Santa Linya,3,1
+2,Funerary Context,La Ferrassie,1,1
+2,Funerary Context,La Chapelle-aux-Saints,2,1
+2,Funerary Context,Pavlov I,3,1
+2,Funerary Context,Cueva de los Torrejones,1,1
+2,Funerary Context,Roc de les Orenetes,2,1
+2,Funerary Context,Amud Cave,3,1
+2,Funerary Context,Dame du Cavillon,1,1
+2,Funerary Context,Xemxija tombs,2,1
+2,Funerary Context,Goat’s Hole (Paviland Cave),3,1
+2,Funerary Context,La Tolita Cama de Huesos,1,1
+2,Funerary Context,Dolní Věstonice I,2,1
+2,Funerary Context,Grotte des Hoteaux,3,1
+2,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,1
+2,Funerary Context,Brno II,2,1
+2,Funerary Context,Sunghir,3,1
+2,Funerary Context,El Espinoso Cave,1,1
+2,Funerary Context,Dolní Věstonice II,2,1
+2,Funerary Context,Předmostí,3,1
+2,Funerary Context,San Juan ante Portam Latinam,1,1
+2,Funerary Context,Le Moustier I,2,1
+2,Funerary Context,Crow Creek,3,1
+2,Funerary Context,Abri Pataud,1,1
+2,Funerary Context,Ojo Guareña,2,1
+2,Rest,Gran Dolina,1,2
+2,Rest,Los Moros de Gabasa,2,2
+2,Rest,Ngandong,3,2
+2,Rest,Maszycka Cave,1,2
+2,Rest,Netankheri,2,2
+2,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",3,2
+2,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),1,2
+2,Rest,Mojokerto,2,2
+2,Rest,Herxheim,3,2
+2,Rest,Mauer,1,2
+2,Rest,Jarama VI rockshelter,2,2
+2,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",3,2
+2,Rest,Brillenhöhle,1,2
+2,Rest,Mancos 5MT-10010 Feature 3,2,2
+2,Rest,Cueva del Camino,3,2
+2,Rest,Grotte des Perrats,1,2
+2,Rest,Cova del Gegant,2,2
+2,Rest,Le Placard,3,2
+2,Rest,Cueva de Malalmuerzo,1,2
+2,Rest,Troisième caverne of Goyet,2,2
+2,Rest,Cueva de la Buena Pinta,3,2
+2,Rest,Combe Grenal,1,2
+2,Rest,Valdegoba Cave,2,2
+2,Rest,Krapina,3,2
+2,Rest,Yellow Jacket 5MT-3,1,2
+2,Rest,Grotte du Bison (Arcy-sur-Cure),2,2
+2,Rest,Reilingen,3,2
+2,Rest,Kajiado,1,2
+2,Rest,El Mirador,2,2
+2,Rest,Kalamakia,3,2
+2,Rest,Dali Tianshuigou,1,2
+2,Rest,Hathnora,2,2
+2,Rest,Saccopastore,3,2
+2,Rest,Les Pradelles (Marillac-le-Franc),1,2
+2,Rest,Archi,2,2
+2,Rest,Vunda Locus,3,2
+2,Rest,Gough's Cave,1,2
+2,Rest,Grotte de Fontbrégoua,2,2
+2,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",3,2
+2,Rest,Coves de Santa Maira,1,2
+2,Rest,Ngawi,2,2
+2,Rest,Hahnöfersand,3,2
+2,Rest,Les Rochers-de-Villeneuve,1,2
+2,Rest,Hohlenstein-Stadel,2,2
+2,Rest,El Sidrón J1,3,2
+2,Rest,Sambungmacan,1,2
+2,Rest,Arago,2,2
+2,Rest,Vindija,3,2
+2,Rest,Boquete de Zafarraya,1,2
+2,Funerary Context,Pavlov I,1,2
+2,Funerary Context,Brno II,2,2
+2,Funerary Context,Dame du Cavillon,3,2
+2,Funerary Context,Tabun Cave (Mugharet et-Tabun),1,2
+2,Funerary Context,Dolní Věstonice I,2,2
+2,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),3,2
+2,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",1,2
+2,Funerary Context,Předmostí,2,2
+2,Funerary Context,Abrigo do Lagar Velho,3,2
+2,Funerary Context,Cova Foradada,1,2
+2,Funerary Context,La Ferrassie,2,2
+2,Funerary Context,Grotte des Hoteaux,3,2
+2,Funerary Context,Mugharet es-Skhul,1,2
+2,Funerary Context,Sunghir,2,2
+2,Funerary Context,Abri de Raymonden (Chancelade),3,2
+2,Funerary Context,El Mirón Cave,1,2
+2,Funerary Context,Dolní Věstonice II,2,2
+2,Funerary Context,Teshik-Tash Cave,3,2
+2,Funerary Context,Cova Gran de Santa Linya,1,2
+2,Funerary Context,Baousso da Torre (Bausu da Ture),2,2
+2,Funerary Context,Oberkassel,3,2
+2,Funerary Context,San Juan ante Portam Latinam,1,2
+2,Funerary Context,Sima de las Palomas,2,2
+2,Funerary Context,Shanidar Cave,3,2
+2,Funerary Context,Ojo Guareña,1,2
+2,Funerary Context,Vado all'Arancio,2,2
+2,Funerary Context,Kiik-Koba,3,2
+2,Funerary Context,Tepecik-Çiftlik,1,2
+2,Funerary Context,Cro-Magnon I,2,2
+2,Funerary Context,Mladeč Caves,3,2
+2,Funerary Context,Amud Cave,1,2
+2,Funerary Context,Le Moustier I,2,2
+2,Funerary Context,Atxuri-I Cave,3,2
+2,Funerary Context,La Tolita Cama de Huesos,1,2
+2,Funerary Context,Xemxija tombs,2,2
+2,Funerary Context,Goat’s Hole (Paviland Cave),3,2
+2,Funerary Context,Le Moustier II,1,2
+2,Funerary Context,Cueva de los Torrejones,2,2
+2,Funerary Context,El Espinoso Cave,3,2
+2,Funerary Context,Crow Creek,1,2
+2,Funerary Context,Kebara Cave,2,2
+2,Funerary Context,Roc de les Orenetes,3,2
+2,Funerary Context,La Chapelle-aux-Saints,1,2
+2,Funerary Context,Abri Pataud,2,2
+2,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",1,3
+2,Rest,Jarama VI rockshelter,2,3
+2,Rest,Saccopastore,3,3
+2,Rest,Valdegoba Cave,1,3
+2,Rest,Dali Tianshuigou,2,3
+2,Rest,Coves de Santa Maira,3,3
+2,Rest,Cueva de Malalmuerzo,1,3
+2,Rest,Ngandong,2,3
+2,Rest,Kajiado,3,3
+2,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",1,3
+2,Rest,Krapina,2,3
+2,Rest,Hohlenstein-Stadel,3,3
+2,Rest,Hahnöfersand,1,3
+2,Rest,El Sidrón J1,2,3
+2,Rest,Mojokerto,3,3
+2,Rest,Les Rochers-de-Villeneuve,1,3
+2,Rest,Vunda Locus,2,3
+2,Rest,Boquete de Zafarraya,3,3
+2,Rest,Troisième caverne of Goyet,1,3
+2,Rest,Le Placard,2,3
+2,Rest,Ngawi,3,3
+2,Rest,Los Moros de Gabasa,1,3
+2,Rest,Maszycka Cave,2,3
+2,Rest,Gran Dolina,3,3
+2,Rest,Grotte du Bison (Arcy-sur-Cure),1,3
+2,Rest,Vindija,2,3
+2,Rest,Grotte des Perrats,3,3
+2,Rest,Cueva del Camino,1,3
+2,Rest,Kalamakia,2,3
+2,Rest,Yellow Jacket 5MT-3,3,3
+2,Rest,El Mirador,1,3
+2,Rest,Grotte de Fontbrégoua,2,3
+2,Rest,Les Pradelles (Marillac-le-Franc),3,3
+2,Rest,Cova del Gegant,1,3
+2,Rest,Mauer,2,3
+2,Rest,Combe Grenal,3,3
+2,Rest,Cueva de la Buena Pinta,1,3
+2,Rest,Herxheim,2,3
+2,Rest,Netankheri,3,3
+2,Rest,Reilingen,1,3
+2,Rest,Hathnora,2,3
+2,Rest,Mancos 5MT-10010 Feature 3,3,3
+2,Rest,Brillenhöhle,1,3
+2,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",2,3
+2,Rest,Gough's Cave,3,3
+2,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),1,3
+2,Rest,Archi,2,3
+2,Rest,Arago,3,3
+2,Rest,Sambungmacan,1,3
+2,Funerary Context,Grotte des Hoteaux,1,3
+2,Funerary Context,Kiik-Koba,2,3
+2,Funerary Context,Teshik-Tash Cave,3,3
+2,Funerary Context,Abri Pataud,1,3
+2,Funerary Context,Mladeč Caves,2,3
+2,Funerary Context,Roc de les Orenetes,3,3
+2,Funerary Context,Shanidar Cave,1,3
+2,Funerary Context,Mugharet es-Skhul,2,3
+2,Funerary Context,La Chapelle-aux-Saints,3,3
+2,Funerary Context,Crow Creek,1,3
+2,Funerary Context,Kebara Cave,2,3
+2,Funerary Context,Sima de las Palomas,3,3
+2,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,3
+2,Funerary Context,Le Moustier I,2,3
+2,Funerary Context,El Espinoso Cave,3,3
+2,Funerary Context,Cova Foradada,1,3
+2,Funerary Context,Cueva de los Torrejones,2,3
+2,Funerary Context,Brno II,3,3
+2,Funerary Context,Xemxija tombs,1,3
+2,Funerary Context,Abrigo do Lagar Velho,2,3
+2,Funerary Context,Pavlov I,3,3
+2,Funerary Context,Abri de Raymonden (Chancelade),1,3
+2,Funerary Context,Vado all'Arancio,2,3
+2,Funerary Context,Tepecik-Çiftlik,3,3
+2,Funerary Context,San Juan ante Portam Latinam,1,3
+2,Funerary Context,Sunghir,2,3
+2,Funerary Context,Goat’s Hole (Paviland Cave),3,3
+2,Funerary Context,Amud Cave,1,3
+2,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",2,3
+2,Funerary Context,Oberkassel,3,3
+2,Funerary Context,Atxuri-I Cave,1,3
+2,Funerary Context,Dolní Věstonice II,2,3
+2,Funerary Context,Cova Gran de Santa Linya,3,3
+2,Funerary Context,Le Moustier II,1,3
+2,Funerary Context,Předmostí,2,3
+2,Funerary Context,La Tolita Cama de Huesos,3,3
+2,Funerary Context,Dolní Věstonice I,1,3
+2,Funerary Context,Baousso da Torre (Bausu da Ture),2,3
+2,Funerary Context,La Ferrassie,3,3
+2,Funerary Context,El Mirón Cave,1,3
+2,Funerary Context,Cro-Magnon I,2,3
+2,Funerary Context,Ojo Guareña,3,3
+2,Funerary Context,Tabun Cave (Mugharet et-Tabun),1,3
+2,Funerary Context,Dame du Cavillon,2,3
+2,Rest,Gough's Cave,1,4
+2,Rest,Brillenhöhle,2,4
+2,Rest,Grotte du Bison (Arcy-sur-Cure),3,4
+2,Rest,Saccopastore,1,4
+2,Rest,Hahnöfersand,2,4
+2,Rest,Valdegoba Cave,3,4
+2,Rest,Mancos 5MT-10010 Feature 3,1,4
+2,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",2,4
+2,Rest,Mauer,3,4
+2,Rest,Maszycka Cave,1,4
+2,Rest,Dali Tianshuigou,2,4
+2,Rest,Gran Dolina,3,4
+2,Rest,El Sidrón J1,1,4
+2,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",2,4
+2,Rest,Reilingen,3,4
+2,Rest,Krapina,1,4
+2,Rest,Yellow Jacket 5MT-3,2,4
+2,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,4
+2,Rest,Kajiado,1,4
+2,Rest,Le Placard,2,4
+2,Rest,Cueva de Malalmuerzo,3,4
+2,Rest,Herxheim,1,4
+2,Rest,Vunda Locus,2,4
+2,Rest,Cueva de la Buena Pinta,3,4
+2,Rest,Mojokerto,1,4
+2,Rest,Vindija,2,4
+2,Rest,Archi,3,4
+2,Rest,Netankheri,1,4
+2,Rest,Kalamakia,2,4
+2,Rest,Jarama VI rockshelter,3,4
+2,Rest,Grotte de Fontbrégoua,1,4
+2,Rest,El Mirador,2,4
+2,Rest,Hohlenstein-Stadel,3,4
+2,Rest,Los Moros de Gabasa,1,4
+2,Rest,Cova del Gegant,2,4
+2,Rest,Troisième caverne of Goyet,3,4
+2,Rest,Les Pradelles (Marillac-le-Franc),1,4
+2,Rest,Sambungmacan,2,4
+2,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",3,4
+2,Rest,Grotte des Perrats,1,4
+2,Rest,Arago,2,4
+2,Rest,Ngandong,3,4
+2,Rest,Les Rochers-de-Villeneuve,1,4
+2,Rest,Ngawi,2,4
+2,Rest,Coves de Santa Maira,3,4
+2,Rest,Boquete de Zafarraya,1,4
+2,Rest,Combe Grenal,2,4
+2,Rest,Cueva del Camino,3,4
+2,Rest,Hathnora,1,4
+2,Funerary Context,Kebara Cave,1,4
+2,Funerary Context,Předmostí,2,4
+2,Funerary Context,El Espinoso Cave,3,4
+2,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,4
+2,Funerary Context,Dame du Cavillon,2,4
+2,Funerary Context,Tepecik-Çiftlik,3,4
+2,Funerary Context,Abrigo do Lagar Velho,1,4
+2,Funerary Context,Xemxija tombs,2,4
+2,Funerary Context,Grotte des Hoteaux,3,4
+2,Funerary Context,Mugharet es-Skhul,1,4
+2,Funerary Context,San Juan ante Portam Latinam,2,4
+2,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",3,4
+2,Funerary Context,Baousso da Torre (Bausu da Ture),1,4
+2,Funerary Context,Abri Pataud,2,4
+2,Funerary Context,Cro-Magnon I,3,4
+2,Funerary Context,Tabun Cave (Mugharet et-Tabun),1,4
+2,Funerary Context,Roc de les Orenetes,2,4
+2,Funerary Context,Goat’s Hole (Paviland Cave),3,4
+2,Funerary Context,Atxuri-I Cave,1,4
+2,Funerary Context,La Chapelle-aux-Saints,2,4
+2,Funerary Context,Mladeč Caves,3,4
+2,Funerary Context,Dolní Věstonice I,1,4
+2,Funerary Context,La Ferrassie,2,4
+2,Funerary Context,Oberkassel,3,4
+2,Funerary Context,El Mirón Cave,1,4
+2,Funerary Context,Pavlov I,2,4
+2,Funerary Context,Ojo Guareña,3,4
+2,Funerary Context,Kiik-Koba,1,4
+2,Funerary Context,Vado all'Arancio,2,4
+2,Funerary Context,Crow Creek,3,4
+2,Funerary Context,Le Moustier II,1,4
+2,Funerary Context,Dolní Věstonice II,2,4
+2,Funerary Context,Shanidar Cave,3,4
+2,Funerary Context,Cova Gran de Santa Linya,1,4
+2,Funerary Context,Cueva de los Torrejones,2,4
+2,Funerary Context,Sima de las Palomas,3,4
+2,Funerary Context,Abri de Raymonden (Chancelade),1,4
+2,Funerary Context,Teshik-Tash Cave,2,4
+2,Funerary Context,Sunghir,3,4
+2,Funerary Context,Cova Foradada,1,4
+2,Funerary Context,La Tolita Cama de Huesos,2,4
+2,Funerary Context,Le Moustier I,3,4
+2,Funerary Context,Brno II,1,4
+2,Funerary Context,Amud Cave,2,4
+2,Rest,Combe Grenal,1,5
+2,Rest,Herxheim,2,5
+2,Rest,Maszycka Cave,3,5
+2,Rest,Dali Tianshuigou,1,5
+2,Rest,Vunda Locus,2,5
+2,Rest,Les Rochers-de-Villeneuve,3,5
+2,Rest,Hohlenstein-Stadel,1,5
+2,Rest,Gough's Cave,2,5
+2,Rest,Krapina,3,5
+2,Rest,Troisième caverne of Goyet,1,5
+2,Rest,Coves de Santa Maira,2,5
+2,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",3,5
+2,Rest,Les Pradelles (Marillac-le-Franc),1,5
+2,Rest,Cova del Gegant,2,5
+2,Rest,Grotte du Bison (Arcy-sur-Cure),3,5
+2,Rest,Los Moros de Gabasa,1,5
+2,Rest,Le Placard,2,5
+2,Rest,Mojokerto,3,5
+2,Rest,El Mirador,1,5
+2,Rest,Cueva de Malalmuerzo,2,5
+2,Rest,Grotte des Perrats,3,5
+2,Rest,Kajiado,1,5
+2,Rest,Mauer,2,5
+2,Rest,Netankheri,3,5
+2,Rest,Cueva de la Buena Pinta,1,5
+2,Rest,Hathnora,2,5
+2,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,5
+2,Rest,El Sidrón J1,1,5
+2,Rest,Archi,2,5
+2,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",3,5
+2,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",1,5
+2,Rest,Ngandong,2,5
+2,Rest,Kalamakia,3,5
+2,Rest,Boquete de Zafarraya,1,5
+2,Rest,Sambungmacan,2,5
+2,Rest,Gran Dolina,3,5
+2,Rest,Reilingen,1,5
+2,Rest,Mancos 5MT-10010 Feature 3,2,5
+2,Rest,Jarama VI rockshelter,3,5
+2,Rest,Brillenhöhle,1,5
+2,Rest,Cueva del Camino,2,5
+2,Rest,Valdegoba Cave,3,5
+2,Rest,Grotte de Fontbrégoua,1,5
+2,Rest,Yellow Jacket 5MT-3,2,5
+2,Rest,Arago,3,5
+2,Rest,Hahnöfersand,1,5
+2,Rest,Ngawi,2,5
+2,Rest,Vindija,3,5
+2,Rest,Saccopastore,1,5
+2,Funerary Context,Baousso da Torre (Bausu da Ture),1,5
+2,Funerary Context,Tepecik-Çiftlik,2,5
+2,Funerary Context,Roc de les Orenetes,3,5
+2,Funerary Context,Předmostí,1,5
+2,Funerary Context,Xemxija tombs,2,5
+2,Funerary Context,Le Moustier II,3,5
+2,Funerary Context,Sima de las Palomas,1,5
+2,Funerary Context,Brno II,2,5
+2,Funerary Context,La Chapelle-aux-Saints,3,5
+2,Funerary Context,Shanidar Cave,1,5
+2,Funerary Context,Cova Foradada,2,5
+2,Funerary Context,Cueva de los Torrejones,3,5
+2,Funerary Context,Cova Gran de Santa Linya,1,5
+2,Funerary Context,Abri de Raymonden (Chancelade),2,5
+2,Funerary Context,Vado all'Arancio,3,5
+2,Funerary Context,Pavlov I,1,5
+2,Funerary Context,Tabun Cave (Mugharet et-Tabun),2,5
+2,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",3,5
+2,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,5
+2,Funerary Context,El Mirón Cave,2,5
+2,Funerary Context,La Ferrassie,3,5
+2,Funerary Context,El Espinoso Cave,1,5
+2,Funerary Context,Dolní Věstonice II,2,5
+2,Funerary Context,Kebara Cave,3,5
+2,Funerary Context,Dolní Věstonice I,1,5
+2,Funerary Context,Cro-Magnon I,2,5
+2,Funerary Context,Mladeč Caves,3,5
+2,Funerary Context,Grotte des Hoteaux,1,5
+2,Funerary Context,Ojo Guareña,2,5
+2,Funerary Context,Abrigo do Lagar Velho,3,5
+2,Funerary Context,Oberkassel,1,5
+2,Funerary Context,Sunghir,2,5
+2,Funerary Context,Crow Creek,3,5
+2,Funerary Context,Le Moustier I,1,5
+2,Funerary Context,La Tolita Cama de Huesos,2,5
+2,Funerary Context,Abri Pataud,3,5
+2,Funerary Context,Atxuri-I Cave,1,5
+2,Funerary Context,Dame du Cavillon,2,5
+2,Funerary Context,Goat’s Hole (Paviland Cave),3,5
+2,Funerary Context,Mugharet es-Skhul,1,5
+2,Funerary Context,Kiik-Koba,2,5
+2,Funerary Context,San Juan ante Portam Latinam,3,5
+2,Funerary Context,Amud Cave,1,5
+2,Funerary Context,Teshik-Tash Cave,2,5
+3,Rest,Kajiado,1,1
+3,Rest,Saccopastore,2,1
+3,Rest,Le Placard,3,1
+3,Rest,Mojokerto,1,1
+3,Rest,Archi,2,1
+3,Rest,Grotte du Bison (Arcy-sur-Cure),3,1
+3,Rest,Grotte de Fontbrégoua,1,1
+3,Rest,Grotte des Perrats,2,1
+3,Rest,Netankheri,3,1
+3,Rest,Gran Dolina,1,1
+3,Rest,Moula-Guercy,2,1
+3,Rest,Jarama VI rockshelter,3,1
+3,Rest,Kalamakia,1,1
+3,Rest,Les Rochers-de-Villeneuve,2,1
+3,Rest,Cueva del Camino,3,1
+3,Rest,Boquete de Zafarraya,1,1
+3,Rest,El Mirador,2,1
+3,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",3,1
+3,Rest,Gough's Cave,1,1
+3,Rest,Arago,2,1
+3,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",3,1
+3,Rest,Maszycka Cave,1,1
+3,Rest,Grotta Guattari,2,1
+3,Rest,Brillenhöhle,3,1
+3,Rest,Krapina,1,1
+3,Rest,Les Pradelles (Marillac-le-Franc),2,1
+3,Rest,Valdegoba Cave,3,1
+3,Rest,Ngandong,1,1
+3,Rest,Hathnora,2,1
+3,Rest,Troisième caverne of Goyet,3,1
+3,Rest,Mancos 5MT-10010 Feature 3,1,1
+3,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),2,1
+3,Rest,Dali Tianshuigou,3,1
+3,Rest,Herxheim,1,1
+3,Rest,Yellow Jacket 5MT-3,2,1
+3,Rest,Vunda Locus,3,1
+3,Rest,Los Moros de Gabasa,1,1
+3,Rest,Mauer,2,1
+3,Rest,Reilingen,3,1
+3,Rest,Coves de Santa Maira,1,1
+3,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",2,1
+3,Rest,Ngawi,3,1
+3,Rest,Cueva de Malalmuerzo,1,1
+3,Rest,Cova del Gegant,2,1
+3,Rest,Sambungmacan,3,1
+3,Rest,Hohlenstein-Stadel,1,1
+3,Rest,Vindija,2,1
+3,Rest,Cueva de la Buena Pinta,3,1
+3,Rest,Hahnöfersand,1,1
+3,Rest,Combe Grenal,2,1
+3,Funerary Context,Pavlov I,1,1
+3,Funerary Context,La Quina,2,1
+3,Funerary Context,Tepecik-Çiftlik,3,1
+3,Funerary Context,Amud Cave,1,1
+3,Funerary Context,Grotte des Hoteaux,2,1
+3,Funerary Context,El Mirón Cave,3,1
+3,Funerary Context,Oberkassel,1,1
+3,Funerary Context,El Espinoso Cave,2,1
+3,Funerary Context,San Juan ante Portam Latinam,3,1
+3,Funerary Context,La Ferrassie,1,1
+3,Funerary Context,Regourdou,2,1
+3,Funerary Context,Ojo Guareña,3,1
+3,Funerary Context,Teshik-Tash Cave,1,1
+3,Funerary Context,Qafzeh Cave,2,1
+3,Funerary Context,Mladeč Caves,3,1
+3,Funerary Context,Vado all'Arancio,1,1
+3,Funerary Context,Abri Pataud,2,1
+3,Funerary Context,Crow Creek,3,1
+3,Funerary Context,Sunghir,1,1
+3,Funerary Context,Shanidar Cave,2,1
+3,Funerary Context,Xemxija tombs,3,1
+3,Funerary Context,Le Moustier II,1,1
+3,Funerary Context,Abrigo do Lagar Velho,2,1
+3,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",3,1
+3,Funerary Context,Cova Foradada,1,1
+3,Funerary Context,Abri de Raymonden (Chancelade),2,1
+3,Funerary Context,Kiik-Koba,3,1
+3,Funerary Context,Atxuri-I Cave,1,1
+3,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),2,1
+3,Funerary Context,Roc de les Orenetes,3,1
+3,Funerary Context,Brno II,1,1
+3,Funerary Context,Dolní Věstonice I,2,1
+3,Funerary Context,Mugharet es-Skhul,3,1
+3,Funerary Context,La Tolita Cama de Huesos,1,1
+3,Funerary Context,Roc de Marsal,2,1
+3,Funerary Context,Sima de las Palomas,3,1
+3,Funerary Context,Dolní Věstonice II,1,1
+3,Funerary Context,Předmostí,2,1
+3,Funerary Context,La Chapelle-aux-Saints,3,1
+3,Funerary Context,Dame du Cavillon,1,1
+3,Funerary Context,Le Moustier I,2,1
+3,Funerary Context,Baousso da Torre (Bausu da Ture),3,1
+3,Funerary Context,Tabun Cave (Mugharet et-Tabun),1,1
+3,Funerary Context,Kebara Cave,2,1
+3,Rest,Jarama VI rockshelter,1,2
+3,Rest,Gough's Cave,2,2
+3,Rest,Krapina,3,2
+3,Rest,Herxheim,1,2
+3,Rest,Les Rochers-de-Villeneuve,2,2
+3,Rest,Vunda Locus,3,2
+3,Rest,Troisième caverne of Goyet,1,2
+3,Rest,Hahnöfersand,2,2
+3,Rest,Combe Grenal,3,2
+3,Rest,Dali Tianshuigou,1,2
+3,Rest,Kalamakia,2,2
+3,Rest,Los Moros de Gabasa,3,2
+3,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",1,2
+3,Rest,Netankheri,2,2
+3,Rest,Sambungmacan,3,2
+3,Rest,Ngandong,1,2
+3,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",2,2
+3,Rest,Reilingen,3,2
+3,Rest,Brillenhöhle,1,2
+3,Rest,Les Pradelles (Marillac-le-Franc),2,2
+3,Rest,Hohlenstein-Stadel,3,2
+3,Rest,Grotte du Bison (Arcy-sur-Cure),1,2
+3,Rest,Cueva de la Buena Pinta,2,2
+3,Rest,Grotta Guattari,3,2
+3,Rest,Maszycka Cave,1,2
+3,Rest,Ngawi,2,2
+3,Rest,Grotte de Fontbrégoua,3,2
+3,Rest,Kajiado,1,2
+3,Rest,Mojokerto,2,2
+3,Rest,Cueva de Malalmuerzo,3,2
+3,Rest,Cova del Gegant,1,2
+3,Rest,Vindija,2,2
+3,Rest,Yellow Jacket 5MT-3,3,2
+3,Rest,Moula-Guercy,1,2
+3,Rest,Mauer,2,2
+3,Rest,Saccopastore,3,2
+3,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),1,2
+3,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",2,2
+3,Rest,Arago,3,2
+3,Rest,Boquete de Zafarraya,1,2
+3,Rest,Grotte des Perrats,2,2
+3,Rest,Coves de Santa Maira,3,2
+3,Rest,Valdegoba Cave,1,2
+3,Rest,Gran Dolina,2,2
+3,Rest,Archi,3,2
+3,Rest,Le Placard,1,2
+3,Rest,Cueva del Camino,2,2
+3,Rest,El Mirador,3,2
+3,Rest,Hathnora,1,2
+3,Rest,Mancos 5MT-10010 Feature 3,2,2
+3,Funerary Context,Grotte des Hoteaux,1,2
+3,Funerary Context,Amud Cave,2,2
+3,Funerary Context,Dolní Věstonice II,3,2
+3,Funerary Context,Vado all'Arancio,1,2
+3,Funerary Context,Dame du Cavillon,2,2
+3,Funerary Context,Abrigo do Lagar Velho,3,2
+3,Funerary Context,Pavlov I,1,2
+3,Funerary Context,Tabun Cave (Mugharet et-Tabun),2,2
+3,Funerary Context,Atxuri-I Cave,3,2
+3,Funerary Context,Dolní Věstonice I,1,2
+3,Funerary Context,Regourdou,2,2
+3,Funerary Context,Mugharet es-Skhul,3,2
+3,Funerary Context,Brno II,1,2
+3,Funerary Context,Abri Pataud,2,2
+3,Funerary Context,Qafzeh Cave,3,2
+3,Funerary Context,Kebara Cave,1,2
+3,Funerary Context,El Espinoso Cave,2,2
+3,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),3,2
+3,Funerary Context,Tepecik-Çiftlik,1,2
+3,Funerary Context,Baousso da Torre (Bausu da Ture),2,2
+3,Funerary Context,Sunghir,3,2
+3,Funerary Context,Abri de Raymonden (Chancelade),1,2
+3,Funerary Context,Crow Creek,2,2
+3,Funerary Context,Cova Foradada,3,2
+3,Funerary Context,Kiik-Koba,1,2
+3,Funerary Context,Xemxija tombs,2,2
+3,Funerary Context,Ojo Guareña,3,2
+3,Funerary Context,Shanidar Cave,1,2
+3,Funerary Context,Teshik-Tash Cave,2,2
+3,Funerary Context,Roc de Marsal,3,2
+3,Funerary Context,Le Moustier II,1,2
+3,Funerary Context,La Ferrassie,2,2
+3,Funerary Context,La Chapelle-aux-Saints,3,2
+3,Funerary Context,Oberkassel,1,2
+3,Funerary Context,Roc de les Orenetes,2,2
+3,Funerary Context,Mladeč Caves,3,2
+3,Funerary Context,Sima de las Palomas,1,2
+3,Funerary Context,La Quina,2,2
+3,Funerary Context,Le Moustier I,3,2
+3,Funerary Context,La Tolita Cama de Huesos,1,2
+3,Funerary Context,San Juan ante Portam Latinam,2,2
+3,Funerary Context,Předmostí,3,2
+3,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",1,2
+3,Funerary Context,El Mirón Cave,2,2
+3,Rest,Ngandong,1,3
+3,Rest,Les Pradelles (Marillac-le-Franc),2,3
+3,Rest,Kalamakia,3,3
+3,Rest,Cueva del Camino,1,3
+3,Rest,Grotte de Fontbrégoua,2,3
+3,Rest,Grotte du Bison (Arcy-sur-Cure),3,3
+3,Rest,Cueva de la Buena Pinta,1,3
+3,Rest,Troisième caverne of Goyet,2,3
+3,Rest,Archi,3,3
+3,Rest,Gough's Cave,1,3
+3,Rest,Vunda Locus,2,3
+3,Rest,Herxheim,3,3
+3,Rest,Mojokerto,1,3
+3,Rest,Cueva de Malalmuerzo,2,3
+3,Rest,Krapina,3,3
+3,Rest,Moula-Guercy,1,3
+3,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",2,3
+3,Rest,Maszycka Cave,3,3
+3,Rest,Vindija,1,3
+3,Rest,Hohlenstein-Stadel,2,3
+3,Rest,Cova del Gegant,3,3
+3,Rest,Les Rochers-de-Villeneuve,1,3
+3,Rest,Coves de Santa Maira,2,3
+3,Rest,Saccopastore,3,3
+3,Rest,Dali Tianshuigou,1,3
+3,Rest,Brillenhöhle,2,3
+3,Rest,Hathnora,3,3
+3,Rest,Ngawi,1,3
+3,Rest,El Mirador,2,3
+3,Rest,Los Moros de Gabasa,3,3
+3,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),1,3
+3,Rest,Grotte des Perrats,2,3
+3,Rest,Netankheri,3,3
+3,Rest,Reilingen,1,3
+3,Rest,Le Placard,2,3
+3,Rest,Valdegoba Cave,3,3
+3,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",1,3
+3,Rest,Gran Dolina,2,3
+3,Rest,Sambungmacan,3,3
+3,Rest,Hahnöfersand,1,3
+3,Rest,Kajiado,2,3
+3,Rest,Yellow Jacket 5MT-3,3,3
+3,Rest,Grotta Guattari,1,3
+3,Rest,Mancos 5MT-10010 Feature 3,2,3
+3,Rest,Arago,3,3
+3,Rest,Mauer,1,3
+3,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",2,3
+3,Rest,Combe Grenal,3,3
+3,Rest,Boquete de Zafarraya,1,3
+3,Rest,Jarama VI rockshelter,2,3
+3,Funerary Context,Ojo Guareña,1,3
+3,Funerary Context,Tepecik-Çiftlik,2,3
+3,Funerary Context,Dolní Věstonice II,3,3
+3,Funerary Context,Sima de las Palomas,1,3
+3,Funerary Context,Baousso da Torre (Bausu da Ture),2,3
+3,Funerary Context,Pavlov I,3,3
+3,Funerary Context,Brno II,1,3
+3,Funerary Context,Abrigo do Lagar Velho,2,3
+3,Funerary Context,Abri de Raymonden (Chancelade),3,3
+3,Funerary Context,El Mirón Cave,1,3
+3,Funerary Context,Roc de les Orenetes,2,3
+3,Funerary Context,La Chapelle-aux-Saints,3,3
+3,Funerary Context,San Juan ante Portam Latinam,1,3
+3,Funerary Context,Dolní Věstonice I,2,3
+3,Funerary Context,Oberkassel,3,3
+3,Funerary Context,Atxuri-I Cave,1,3
+3,Funerary Context,Abri Pataud,2,3
+3,Funerary Context,Kebara Cave,3,3
+3,Funerary Context,Kiik-Koba,1,3
+3,Funerary Context,Vado all'Arancio,2,3
+3,Funerary Context,Teshik-Tash Cave,3,3
+3,Funerary Context,Shanidar Cave,1,3
+3,Funerary Context,Mugharet es-Skhul,2,3
+3,Funerary Context,Grotte des Hoteaux,3,3
+3,Funerary Context,Tabun Cave (Mugharet et-Tabun),1,3
+3,Funerary Context,Crow Creek,2,3
+3,Funerary Context,La Tolita Cama de Huesos,3,3
+3,Funerary Context,Xemxija tombs,1,3
+3,Funerary Context,Le Moustier I,2,3
+3,Funerary Context,La Quina,3,3
+3,Funerary Context,Cova Foradada,1,3
+3,Funerary Context,Amud Cave,2,3
+3,Funerary Context,Dame du Cavillon,3,3
+3,Funerary Context,Mladeč Caves,1,3
+3,Funerary Context,Roc de Marsal,2,3
+3,Funerary Context,El Espinoso Cave,3,3
+3,Funerary Context,Le Moustier II,1,3
+3,Funerary Context,Qafzeh Cave,2,3
+3,Funerary Context,La Ferrassie,3,3
+3,Funerary Context,Předmostí,1,3
+3,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),2,3
+3,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",3,3
+3,Funerary Context,Regourdou,1,3
+3,Funerary Context,Sunghir,2,3
+3,Rest,Archi,1,4
+3,Rest,Netankheri,2,4
+3,Rest,Le Placard,3,4
+3,Rest,Saccopastore,1,4
+3,Rest,Cueva de la Buena Pinta,2,4
+3,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,4
+3,Rest,Los Moros de Gabasa,1,4
+3,Rest,Hohlenstein-Stadel,2,4
+3,Rest,Jarama VI rockshelter,3,4
+3,Rest,Les Rochers-de-Villeneuve,1,4
+3,Rest,Kajiado,2,4
+3,Rest,Gough's Cave,3,4
+3,Rest,Ngawi,1,4
+3,Rest,El Mirador,2,4
+3,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",3,4
+3,Rest,Vunda Locus,1,4
+3,Rest,Les Pradelles (Marillac-le-Franc),2,4
+3,Rest,Reilingen,3,4
+3,Rest,Sambungmacan,1,4
+3,Rest,Arago,2,4
+3,Rest,Cueva del Camino,3,4
+3,Rest,Hahnöfersand,1,4
+3,Rest,Herxheim,2,4
+3,Rest,Troisième caverne of Goyet,3,4
+3,Rest,Mauer,1,4
+3,Rest,Moula-Guercy,2,4
+3,Rest,Mojokerto,3,4
+3,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",1,4
+3,Rest,Cova del Gegant,2,4
+3,Rest,Grotte des Perrats,3,4
+3,Rest,Yellow Jacket 5MT-3,1,4
+3,Rest,Dali Tianshuigou,2,4
+3,Rest,Grotta Guattari,3,4
+3,Rest,Grotte du Bison (Arcy-sur-Cure),1,4
+3,Rest,Kalamakia,2,4
+3,Rest,Gran Dolina,3,4
+3,Rest,Boquete de Zafarraya,1,4
+3,Rest,Coves de Santa Maira,2,4
+3,Rest,Hathnora,3,4
+3,Rest,Vindija,1,4
+3,Rest,Maszycka Cave,2,4
+3,Rest,Krapina,3,4
+3,Rest,Valdegoba Cave,1,4
+3,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",2,4
+3,Rest,Mancos 5MT-10010 Feature 3,3,4
+3,Rest,Ngandong,1,4
+3,Rest,Combe Grenal,2,4
+3,Rest,Cueva de Malalmuerzo,3,4
+3,Rest,Brillenhöhle,1,4
+3,Rest,Grotte de Fontbrégoua,2,4
+3,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,4
+3,Funerary Context,Abri de Raymonden (Chancelade),2,4
+3,Funerary Context,Sima de las Palomas,3,4
+3,Funerary Context,Le Moustier II,1,4
+3,Funerary Context,Kebara Cave,2,4
+3,Funerary Context,Dolní Věstonice I,3,4
+3,Funerary Context,Roc de les Orenetes,1,4
+3,Funerary Context,Shanidar Cave,2,4
+3,Funerary Context,La Ferrassie,3,4
+3,Funerary Context,Pavlov I,1,4
+3,Funerary Context,Předmostí,2,4
+3,Funerary Context,Vado all'Arancio,3,4
+3,Funerary Context,Amud Cave,1,4
+3,Funerary Context,Kiik-Koba,2,4
+3,Funerary Context,Abri Pataud,3,4
+3,Funerary Context,El Espinoso Cave,1,4
+3,Funerary Context,Abrigo do Lagar Velho,2,4
+3,Funerary Context,Baousso da Torre (Bausu da Ture),3,4
+3,Funerary Context,Dame du Cavillon,1,4
+3,Funerary Context,Oberkassel,2,4
+3,Funerary Context,Mugharet es-Skhul,3,4
+3,Funerary Context,Teshik-Tash Cave,1,4
+3,Funerary Context,Crow Creek,2,4
+3,Funerary Context,Grotte des Hoteaux,3,4
+3,Funerary Context,Regourdou,1,4
+3,Funerary Context,Brno II,2,4
+3,Funerary Context,Cova Foradada,3,4
+3,Funerary Context,Mladeč Caves,1,4
+3,Funerary Context,Atxuri-I Cave,2,4
+3,Funerary Context,Xemxija tombs,3,4
+3,Funerary Context,El Mirón Cave,1,4
+3,Funerary Context,San Juan ante Portam Latinam,2,4
+3,Funerary Context,Ojo Guareña,3,4
+3,Funerary Context,Dolní Věstonice II,1,4
+3,Funerary Context,La Quina,2,4
+3,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",3,4
+3,Funerary Context,Le Moustier I,1,4
+3,Funerary Context,Sunghir,2,4
+3,Funerary Context,Tabun Cave (Mugharet et-Tabun),3,4
+3,Funerary Context,Qafzeh Cave,1,4
+3,Funerary Context,La Tolita Cama de Huesos,2,4
+3,Funerary Context,Tepecik-Çiftlik,3,4
+3,Funerary Context,La Chapelle-aux-Saints,1,4
+3,Funerary Context,Roc de Marsal,2,4
+3,Rest,Les Pradelles (Marillac-le-Franc),1,5
+3,Rest,Arago,2,5
+3,Rest,Combe Grenal,3,5
+3,Rest,Sambungmacan,1,5
+3,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",2,5
+3,Rest,Grotte du Bison (Arcy-sur-Cure),3,5
+3,Rest,Los Moros de Gabasa,1,5
+3,Rest,Brillenhöhle,2,5
+3,Rest,Jarama VI rockshelter,3,5
+3,Rest,Mancos 5MT-10010 Feature 3,1,5
+3,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),2,5
+3,Rest,Dali Tianshuigou,3,5
+3,Rest,Ngawi,1,5
+3,Rest,Kajiado,2,5
+3,Rest,Krapina,3,5
+3,Rest,Herxheim,1,5
+3,Rest,Boquete de Zafarraya,2,5
+3,Rest,Reilingen,3,5
+3,Rest,Cueva de la Buena Pinta,1,5
+3,Rest,Cueva del Camino,2,5
+3,Rest,Coves de Santa Maira,3,5
+3,Rest,Mauer,1,5
+3,Rest,Gran Dolina,2,5
+3,Rest,Kalamakia,3,5
+3,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",1,5
+3,Rest,Grotte de Fontbrégoua,2,5
+3,Rest,Le Placard,3,5
+3,Rest,El Mirador,1,5
+3,Rest,Hohlenstein-Stadel,2,5
+3,Rest,Mojokerto,3,5
+3,Rest,Maszycka Cave,1,5
+3,Rest,Saccopastore,2,5
+3,Rest,Hathnora,3,5
+3,Rest,Yellow Jacket 5MT-3,1,5
+3,Rest,Les Rochers-de-Villeneuve,2,5
+3,Rest,Grotta Guattari,3,5
+3,Rest,Netankheri,1,5
+3,Rest,Cueva de Malalmuerzo,2,5
+3,Rest,Moula-Guercy,3,5
+3,Rest,Troisième caverne of Goyet,1,5
+3,Rest,Hahnöfersand,2,5
+3,Rest,Cova del Gegant,3,5
+3,Rest,Archi,1,5
+3,Rest,Vunda Locus,2,5
+3,Rest,Gough's Cave,3,5
+3,Rest,Grotte des Perrats,1,5
+3,Rest,Ngandong,2,5
+3,Rest,Valdegoba Cave,3,5
+3,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",1,5
+3,Rest,Vindija,2,5
+3,Funerary Context,Ojo Guareña,1,5
+3,Funerary Context,Roc de les Orenetes,2,5
+3,Funerary Context,Abrigo do Lagar Velho,3,5
+3,Funerary Context,Sunghir,1,5
+3,Funerary Context,La Chapelle-aux-Saints,2,5
+3,Funerary Context,Cova Foradada,3,5
+3,Funerary Context,El Mirón Cave,1,5
+3,Funerary Context,Kebara Cave,2,5
+3,Funerary Context,Oberkassel,3,5
+3,Funerary Context,Mladeč Caves,1,5
+3,Funerary Context,Atxuri-I Cave,2,5
+3,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),3,5
+3,Funerary Context,Dame du Cavillon,1,5
+3,Funerary Context,Teshik-Tash Cave,2,5
+3,Funerary Context,Qafzeh Cave,3,5
+3,Funerary Context,Mugharet es-Skhul,1,5
+3,Funerary Context,Sima de las Palomas,2,5
+3,Funerary Context,Shanidar Cave,3,5
+3,Funerary Context,El Espinoso Cave,1,5
+3,Funerary Context,Kiik-Koba,2,5
+3,Funerary Context,Pavlov I,3,5
+3,Funerary Context,Abri Pataud,1,5
+3,Funerary Context,Baousso da Torre (Bausu da Ture),2,5
+3,Funerary Context,Le Moustier I,3,5
+3,Funerary Context,San Juan ante Portam Latinam,1,5
+3,Funerary Context,Xemxija tombs,2,5
+3,Funerary Context,Le Moustier II,3,5
+3,Funerary Context,Dolní Věstonice I,1,5
+3,Funerary Context,Předmostí,2,5
+3,Funerary Context,La Ferrassie,3,5
+3,Funerary Context,Tabun Cave (Mugharet et-Tabun),1,5
+3,Funerary Context,La Quina,2,5
+3,Funerary Context,Dolní Věstonice II,3,5
+3,Funerary Context,Amud Cave,1,5
+3,Funerary Context,Abri de Raymonden (Chancelade),2,5
+3,Funerary Context,La Tolita Cama de Huesos,3,5
+3,Funerary Context,Brno II,1,5
+3,Funerary Context,Crow Creek,2,5
+3,Funerary Context,Roc de Marsal,3,5
+3,Funerary Context,Vado all'Arancio,1,5
+3,Funerary Context,Tepecik-Çiftlik,2,5
+3,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",3,5
+3,Funerary Context,Grotte des Hoteaux,1,5
+3,Funerary Context,Regourdou,2,5
+4,Rest,Reilingen,1,1
+4,Rest,Vunda Locus,2,1
+4,Rest,Grotta Guattari,3,1
+4,Rest,Grotte des Perrats,1,1
+4,Rest,Dali Tianshuigou,2,1
+4,Rest,Yellow Jacket 5MT-3,3,1
+4,Rest,Moula-Guercy,1,1
+4,Rest,Cova del Gegant,2,1
+4,Rest,Archi,3,1
+4,Rest,Cueva de Malalmuerzo,1,1
+4,Rest,Hahnöfersand,2,1
+4,Rest,Troisième caverne of Goyet,3,1
+4,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",1,1
+4,Rest,Saccopastore,2,1
+4,Rest,Jarama VI rockshelter,3,1
+4,Rest,Coves de Santa Maira,1,1
+4,Rest,Vindija,2,1
+4,Rest,Krapina,3,1
+4,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),1,1
+4,Rest,Herxheim,2,1
+4,Rest,Arago,3,1
+4,Rest,Cueva de la Buena Pinta,1,1
+4,Rest,Boquete de Zafarraya,2,1
+4,Rest,Grotte du Bison (Arcy-sur-Cure),3,1
+4,Rest,Les Pradelles (Marillac-le-Franc),1,1
+4,Rest,Gran Dolina,2,1
+4,Rest,Sambungmacan,3,1
+4,Rest,Combe Grenal,1,1
+4,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",2,1
+4,Rest,Mojokerto,3,1
+4,Rest,Netankheri,1,1
+4,Rest,El Sidrón J1,2,1
+4,Rest,Mauer,3,1
+4,Rest,Valdegoba Cave,1,1
+4,Rest,Hohlenstein-Stadel,2,1
+4,Rest,Gough's Cave,3,1
+4,Rest,Los Moros de Gabasa,1,1
+4,Rest,El Mirador,2,1
+4,Rest,Kalamakia,3,1
+4,Rest,Cueva del Camino,1,1
+4,Rest,Brillenhöhle,2,1
+4,Rest,Kajiado,3,1
+4,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",1,1
+4,Rest,Ngawi,2,1
+4,Rest,Ngandong,3,1
+4,Rest,Hathnora,1,1
+4,Rest,Les Rochers-de-Villeneuve,2,1
+4,Rest,Le Placard,3,1
+4,Rest,Mancos 5MT-10010 Feature 3,1,1
+4,Rest,Maszycka Cave,2,1
+4,Funerary Context,Xemxija tombs,1,1
+4,Funerary Context,Pavlov I,2,1
+4,Funerary Context,Oberkassel,3,1
+4,Funerary Context,Vado all'Arancio,1,1
+4,Funerary Context,Sunghir,2,1
+4,Funerary Context,Teshik-Tash Cave,3,1
+4,Funerary Context,San Juan ante Portam Latinam,1,1
+4,Funerary Context,Dolní Věstonice I,2,1
+4,Funerary Context,Cova Foradada,3,1
+4,Funerary Context,La Ferrassie,1,1
+4,Funerary Context,Cro-Magnon I,2,1
+4,Funerary Context,Qafzeh Cave,3,1
+4,Funerary Context,Tabun Cave (Mugharet et-Tabun),1,1
+4,Funerary Context,Atxuri-I Cave,2,1
+4,Funerary Context,La Quina,3,1
+4,Funerary Context,Předmostí,1,1
+4,Funerary Context,Crow Creek,2,1
+4,Funerary Context,Amud Cave,3,1
+4,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",1,1
+4,Funerary Context,Ojo Guareña,2,1
+4,Funerary Context,Baousso da Torre (Bausu da Ture),3,1
+4,Funerary Context,La Chapelle-aux-Saints,1,1
+4,Funerary Context,Regourdou,2,1
+4,Funerary Context,Le Moustier I,3,1
+4,Funerary Context,Kiik-Koba,1,1
+4,Funerary Context,Roc de les Orenetes,2,1
+4,Funerary Context,El Espinoso Cave,3,1
+4,Funerary Context,Abri Pataud,1,1
+4,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),2,1
+4,Funerary Context,Goat’s Hole (Paviland Cave),3,1
+4,Funerary Context,Cueva de los Torrejones,1,1
+4,Funerary Context,Abrigo do Lagar Velho,2,1
+4,Funerary Context,Tepecik-Çiftlik,3,1
+4,Funerary Context,Le Moustier II,1,1
+4,Funerary Context,Cova Gran de Santa Linya,2,1
+4,Funerary Context,La Tolita Cama de Huesos,3,1
+4,Funerary Context,Abri de Raymonden (Chancelade),1,1
+4,Funerary Context,Dolní Věstonice II,2,1
+4,Funerary Context,Dame du Cavillon,3,1
+4,Funerary Context,Grotte des Hoteaux,1,1
+4,Funerary Context,El Mirón Cave,2,1
+4,Funerary Context,Brno II,3,1
+4,Funerary Context,Roc de Marsal,1,1
+4,Funerary Context,Mugharet es-Skhul,2,1
+4,Rest,Hathnora,1,2
+4,Rest,Mauer,2,2
+4,Rest,Sambungmacan,3,2
+4,Rest,El Sidrón J1,1,2
+4,Rest,Vindija,2,2
+4,Rest,Cueva de Malalmuerzo,3,2
+4,Rest,Grotte des Perrats,1,2
+4,Rest,Les Pradelles (Marillac-le-Franc),2,2
+4,Rest,Boquete de Zafarraya,3,2
+4,Rest,Grotte du Bison (Arcy-sur-Cure),1,2
+4,Rest,Valdegoba Cave,2,2
+4,Rest,Moula-Guercy,3,2
+4,Rest,Gran Dolina,1,2
+4,Rest,Coves de Santa Maira,2,2
+4,Rest,Combe Grenal,3,2
+4,Rest,Troisième caverne of Goyet,1,2
+4,Rest,Ngandong,2,2
+4,Rest,Archi,3,2
+4,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),1,2
+4,Rest,Hahnöfersand,2,2
+4,Rest,El Mirador,3,2
+4,Rest,Cueva del Camino,1,2
+4,Rest,Los Moros de Gabasa,2,2
+4,Rest,Cova del Gegant,3,2
+4,Rest,Hohlenstein-Stadel,1,2
+4,Rest,Jarama VI rockshelter,2,2
+4,Rest,Les Rochers-de-Villeneuve,3,2
+4,Rest,Krapina,1,2
+4,Rest,Arago,2,2
+4,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",3,2
+4,Rest,Yellow Jacket 5MT-3,1,2
+4,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",2,2
+4,Rest,Ngawi,3,2
+4,Rest,Brillenhöhle,1,2
+4,Rest,Netankheri,2,2
+4,Rest,Herxheim,3,2
+4,Rest,Vunda Locus,1,2
+4,Rest,Saccopastore,2,2
+4,Rest,Le Placard,3,2
+4,Rest,Grotta Guattari,1,2
+4,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",2,2
+4,Rest,Gough's Cave,3,2
+4,Rest,Dali Tianshuigou,1,2
+4,Rest,Reilingen,2,2
+4,Rest,Mojokerto,3,2
+4,Rest,Cueva de la Buena Pinta,1,2
+4,Rest,Maszycka Cave,2,2
+4,Rest,Kalamakia,3,2
+4,Rest,Kajiado,1,2
+4,Rest,Mancos 5MT-10010 Feature 3,2,2
+4,Funerary Context,Dolní Věstonice I,1,2
+4,Funerary Context,Teshik-Tash Cave,2,2
+4,Funerary Context,El Espinoso Cave,3,2
+4,Funerary Context,Cueva de los Torrejones,1,2
+4,Funerary Context,Goat’s Hole (Paviland Cave),2,2
+4,Funerary Context,Brno II,3,2
+4,Funerary Context,Cova Foradada,1,2
+4,Funerary Context,Crow Creek,2,2
+4,Funerary Context,Le Moustier II,3,2
+4,Funerary Context,Mugharet es-Skhul,1,2
+4,Funerary Context,Ojo Guareña,2,2
+4,Funerary Context,La Tolita Cama de Huesos,3,2
+4,Funerary Context,Xemxija tombs,1,2
+4,Funerary Context,Abri de Raymonden (Chancelade),2,2
+4,Funerary Context,El Mirón Cave,3,2
+4,Funerary Context,Le Moustier I,1,2
+4,Funerary Context,Roc de les Orenetes,2,2
+4,Funerary Context,Qafzeh Cave,3,2
+4,Funerary Context,Baousso da Torre (Bausu da Ture),1,2
+4,Funerary Context,La Quina,2,2
+4,Funerary Context,La Chapelle-aux-Saints,3,2
+4,Funerary Context,Cova Gran de Santa Linya,1,2
+4,Funerary Context,Abrigo do Lagar Velho,2,2
+4,Funerary Context,Sunghir,3,2
+4,Funerary Context,Kiik-Koba,1,2
+4,Funerary Context,Tepecik-Çiftlik,2,2
+4,Funerary Context,Předmostí,3,2
+4,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",1,2
+4,Funerary Context,Grotte des Hoteaux,2,2
+4,Funerary Context,San Juan ante Portam Latinam,3,2
+4,Funerary Context,Pavlov I,1,2
+4,Funerary Context,Roc de Marsal,2,2
+4,Funerary Context,Vado all'Arancio,3,2
+4,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,2
+4,Funerary Context,Dame du Cavillon,2,2
+4,Funerary Context,La Ferrassie,3,2
+4,Funerary Context,Cro-Magnon I,1,2
+4,Funerary Context,Regourdou,2,2
+4,Funerary Context,Oberkassel,3,2
+4,Funerary Context,Atxuri-I Cave,1,2
+4,Funerary Context,Amud Cave,2,2
+4,Funerary Context,Tabun Cave (Mugharet et-Tabun),3,2
+4,Funerary Context,Abri Pataud,1,2
+4,Funerary Context,Dolní Věstonice II,2,2
+4,Rest,Saccopastore,1,3
+4,Rest,Boquete de Zafarraya,2,3
+4,Rest,Dali Tianshuigou,3,3
+4,Rest,Cova del Gegant,1,3
+4,Rest,Le Placard,2,3
+4,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",3,3
+4,Rest,Hohlenstein-Stadel,1,3
+4,Rest,Grotte du Bison (Arcy-sur-Cure),2,3
+4,Rest,Hathnora,3,3
+4,Rest,Mauer,1,3
+4,Rest,El Sidrón J1,2,3
+4,Rest,Hahnöfersand,3,3
+4,Rest,Brillenhöhle,1,3
+4,Rest,Yellow Jacket 5MT-3,2,3
+4,Rest,Archi,3,3
+4,Rest,Jarama VI rockshelter,1,3
+4,Rest,Cueva del Camino,2,3
+4,Rest,Maszycka Cave,3,3
+4,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",1,3
+4,Rest,Cueva de Malalmuerzo,2,3
+4,Rest,Troisième caverne of Goyet,3,3
+4,Rest,Les Rochers-de-Villeneuve,1,3
+4,Rest,Combe Grenal,2,3
+4,Rest,Kalamakia,3,3
+4,Rest,Reilingen,1,3
+4,Rest,Mojokerto,2,3
+4,Rest,Valdegoba Cave,3,3
+4,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),1,3
+4,Rest,Herxheim,2,3
+4,Rest,Cueva de la Buena Pinta,3,3
+4,Rest,Grotte des Perrats,1,3
+4,Rest,Vindija,2,3
+4,Rest,Grotta Guattari,3,3
+4,Rest,Mancos 5MT-10010 Feature 3,1,3
+4,Rest,El Mirador,2,3
+4,Rest,Gran Dolina,3,3
+4,Rest,Moula-Guercy,1,3
+4,Rest,Les Pradelles (Marillac-le-Franc),2,3
+4,Rest,Sambungmacan,3,3
+4,Rest,Kajiado,1,3
+4,Rest,Netankheri,2,3
+4,Rest,Arago,3,3
+4,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",1,3
+4,Rest,Vunda Locus,2,3
+4,Rest,Los Moros de Gabasa,3,3
+4,Rest,Ngawi,1,3
+4,Rest,Gough's Cave,2,3
+4,Rest,Krapina,3,3
+4,Rest,Ngandong,1,3
+4,Rest,Coves de Santa Maira,2,3
+4,Funerary Context,Crow Creek,1,3
+4,Funerary Context,Abrigo do Lagar Velho,2,3
+4,Funerary Context,Grotte des Hoteaux,3,3
+4,Funerary Context,Předmostí,1,3
+4,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),2,3
+4,Funerary Context,Cova Foradada,3,3
+4,Funerary Context,Le Moustier I,1,3
+4,Funerary Context,Tabun Cave (Mugharet et-Tabun),2,3
+4,Funerary Context,Ojo Guareña,3,3
+4,Funerary Context,San Juan ante Portam Latinam,1,3
+4,Funerary Context,Cueva de los Torrejones,2,3
+4,Funerary Context,Vado all'Arancio,3,3
+4,Funerary Context,Dame du Cavillon,1,3
+4,Funerary Context,Sunghir,2,3
+4,Funerary Context,Baousso da Torre (Bausu da Ture),3,3
+4,Funerary Context,Dolní Věstonice II,1,3
+4,Funerary Context,Roc de Marsal,2,3
+4,Funerary Context,Atxuri-I Cave,3,3
+4,Funerary Context,Cova Gran de Santa Linya,1,3
+4,Funerary Context,Abri de Raymonden (Chancelade),2,3
+4,Funerary Context,La Ferrassie,3,3
+4,Funerary Context,El Mirón Cave,1,3
+4,Funerary Context,Goat’s Hole (Paviland Cave),2,3
+4,Funerary Context,Pavlov I,3,3
+4,Funerary Context,La Quina,1,3
+4,Funerary Context,Abri Pataud,2,3
+4,Funerary Context,Mugharet es-Skhul,3,3
+4,Funerary Context,El Espinoso Cave,1,3
+4,Funerary Context,Regourdou,2,3
+4,Funerary Context,Tepecik-Çiftlik,3,3
+4,Funerary Context,La Tolita Cama de Huesos,1,3
+4,Funerary Context,Brno II,2,3
+4,Funerary Context,Kiik-Koba,3,3
+4,Funerary Context,Le Moustier II,1,3
+4,Funerary Context,Xemxija tombs,2,3
+4,Funerary Context,Teshik-Tash Cave,3,3
+4,Funerary Context,Qafzeh Cave,1,3
+4,Funerary Context,Amud Cave,2,3
+4,Funerary Context,Roc de les Orenetes,3,3
+4,Funerary Context,Oberkassel,1,3
+4,Funerary Context,La Chapelle-aux-Saints,2,3
+4,Funerary Context,Cro-Magnon I,3,3
+4,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",1,3
+4,Funerary Context,Dolní Věstonice I,2,3
+4,Rest,Boquete de Zafarraya,1,4
+4,Rest,Grotte des Perrats,2,4
+4,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",3,4
+4,Rest,Vindija,1,4
+4,Rest,Coves de Santa Maira,2,4
+4,Rest,Arago,3,4
+4,Rest,Grotte du Bison (Arcy-sur-Cure),1,4
+4,Rest,Hathnora,2,4
+4,Rest,Cueva de la Buena Pinta,3,4
+4,Rest,Sambungmacan,1,4
+4,Rest,Grotta Guattari,2,4
+4,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,4
+4,Rest,Brillenhöhle,1,4
+4,Rest,Herxheim,2,4
+4,Rest,El Sidrón J1,3,4
+4,Rest,Les Rochers-de-Villeneuve,1,4
+4,Rest,Netankheri,2,4
+4,Rest,Jarama VI rockshelter,3,4
+4,Rest,Troisième caverne of Goyet,1,4
+4,Rest,Hohlenstein-Stadel,2,4
+4,Rest,Gough's Cave,3,4
+4,Rest,Maszycka Cave,1,4
+4,Rest,Gran Dolina,2,4
+4,Rest,Los Moros de Gabasa,3,4
+4,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",1,4
+4,Rest,El Mirador,2,4
+4,Rest,Reilingen,3,4
+4,Rest,Krapina,1,4
+4,Rest,Mojokerto,2,4
+4,Rest,Les Pradelles (Marillac-le-Franc),3,4
+4,Rest,Cova del Gegant,1,4
+4,Rest,Ngandong,2,4
+4,Rest,Kajiado,3,4
+4,Rest,Moula-Guercy,1,4
+4,Rest,Le Placard,2,4
+4,Rest,Combe Grenal,3,4
+4,Rest,Valdegoba Cave,1,4
+4,Rest,Yellow Jacket 5MT-3,2,4
+4,Rest,Cueva del Camino,3,4
+4,Rest,Vunda Locus,1,4
+4,Rest,Archi,2,4
+4,Rest,Saccopastore,3,4
+4,Rest,Kalamakia,1,4
+4,Rest,Hahnöfersand,2,4
+4,Rest,Dali Tianshuigou,3,4
+4,Rest,Mauer,1,4
+4,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",2,4
+4,Rest,Mancos 5MT-10010 Feature 3,3,4
+4,Rest,Cueva de Malalmuerzo,1,4
+4,Rest,Ngawi,2,4
+4,Funerary Context,El Mirón Cave,1,4
+4,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),2,4
+4,Funerary Context,Kiik-Koba,3,4
+4,Funerary Context,Xemxija tombs,1,4
+4,Funerary Context,San Juan ante Portam Latinam,2,4
+4,Funerary Context,Baousso da Torre (Bausu da Ture),3,4
+4,Funerary Context,Cova Foradada,1,4
+4,Funerary Context,Amud Cave,2,4
+4,Funerary Context,Vado all'Arancio,3,4
+4,Funerary Context,Teshik-Tash Cave,1,4
+4,Funerary Context,Dame du Cavillon,2,4
+4,Funerary Context,Grotte des Hoteaux,3,4
+4,Funerary Context,Cro-Magnon I,1,4
+4,Funerary Context,Dolní Věstonice I,2,4
+4,Funerary Context,La Quina,3,4
+4,Funerary Context,Regourdou,1,4
+4,Funerary Context,Le Moustier II,2,4
+4,Funerary Context,Abri de Raymonden (Chancelade),3,4
+4,Funerary Context,La Ferrassie,1,4
+4,Funerary Context,La Chapelle-aux-Saints,2,4
+4,Funerary Context,Atxuri-I Cave,3,4
+4,Funerary Context,Roc de les Orenetes,1,4
+4,Funerary Context,Dolní Věstonice II,2,4
+4,Funerary Context,El Espinoso Cave,3,4
+4,Funerary Context,Brno II,1,4
+4,Funerary Context,Abrigo do Lagar Velho,2,4
+4,Funerary Context,Předmostí,3,4
+4,Funerary Context,Tabun Cave (Mugharet et-Tabun),1,4
+4,Funerary Context,Pavlov I,2,4
+4,Funerary Context,La Tolita Cama de Huesos,3,4
+4,Funerary Context,Sunghir,1,4
+4,Funerary Context,Goat’s Hole (Paviland Cave),2,4
+4,Funerary Context,Ojo Guareña,3,4
+4,Funerary Context,Tepecik-Çiftlik,1,4
+4,Funerary Context,Roc de Marsal,2,4
+4,Funerary Context,Abri Pataud,3,4
+4,Funerary Context,Cueva de los Torrejones,1,4
+4,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",2,4
+4,Funerary Context,Le Moustier I,3,4
+4,Funerary Context,Mugharet es-Skhul,1,4
+4,Funerary Context,Qafzeh Cave,2,4
+4,Funerary Context,Crow Creek,3,4
+4,Funerary Context,Cova Gran de Santa Linya,1,4
+4,Funerary Context,Oberkassel,2,4
+4,Rest,Kajiado,1,5
+4,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",2,5
+4,Rest,Les Rochers-de-Villeneuve,3,5
+4,Rest,Grotte des Perrats,1,5
+4,Rest,Vunda Locus,2,5
+4,Rest,Troisième caverne of Goyet,3,5
+4,Rest,Valdegoba Cave,1,5
+4,Rest,Moula-Guercy,2,5
+4,Rest,Cueva de la Buena Pinta,3,5
+4,Rest,Netankheri,1,5
+4,Rest,Sambungmacan,2,5
+4,Rest,Cueva de Malalmuerzo,3,5
+4,Rest,Arago,1,5
+4,Rest,Grotta Guattari,2,5
+4,Rest,Maszycka Cave,3,5
+4,Rest,Saccopastore,1,5
+4,Rest,Les Pradelles (Marillac-le-Franc),2,5
+4,Rest,Coves de Santa Maira,3,5
+4,Rest,Le Placard,1,5
+4,Rest,Mancos 5MT-10010 Feature 3,2,5
+4,Rest,Hahnöfersand,3,5
+4,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",1,5
+4,Rest,Boquete de Zafarraya,2,5
+4,Rest,Cueva del Camino,3,5
+4,Rest,Yellow Jacket 5MT-3,1,5
+4,Rest,Mojokerto,2,5
+4,Rest,Hathnora,3,5
+4,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),1,5
+4,Rest,Reilingen,2,5
+4,Rest,Kalamakia,3,5
+4,Rest,El Mirador,1,5
+4,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",2,5
+4,Rest,Ngawi,3,5
+4,Rest,Gran Dolina,1,5
+4,Rest,Vindija,2,5
+4,Rest,Grotte du Bison (Arcy-sur-Cure),3,5
+4,Rest,Cova del Gegant,1,5
+4,Rest,Dali Tianshuigou,2,5
+4,Rest,Archi,3,5
+4,Rest,Mauer,1,5
+4,Rest,Krapina,2,5
+4,Rest,Hohlenstein-Stadel,3,5
+4,Rest,Brillenhöhle,1,5
+4,Rest,Ngandong,2,5
+4,Rest,Herxheim,3,5
+4,Rest,Jarama VI rockshelter,1,5
+4,Rest,El Sidrón J1,2,5
+4,Rest,Los Moros de Gabasa,3,5
+4,Rest,Gough's Cave,1,5
+4,Rest,Combe Grenal,2,5
+4,Funerary Context,Baousso da Torre (Bausu da Ture),1,5
+4,Funerary Context,Oberkassel,2,5
+4,Funerary Context,Cova Foradada,3,5
+4,Funerary Context,Xemxija tombs,1,5
+4,Funerary Context,La Quina,2,5
+4,Funerary Context,Teshik-Tash Cave,3,5
+4,Funerary Context,Pavlov I,1,5
+4,Funerary Context,Mugharet es-Skhul,2,5
+4,Funerary Context,Dolní Věstonice II,3,5
+4,Funerary Context,Cova Gran de Santa Linya,1,5
+4,Funerary Context,Ojo Guareña,2,5
+4,Funerary Context,Abrigo do Lagar Velho,3,5
+4,Funerary Context,Roc de les Orenetes,1,5
+4,Funerary Context,Grotte des Hoteaux,2,5
+4,Funerary Context,Atxuri-I Cave,3,5
+4,Funerary Context,Roc de Marsal,1,5
+4,Funerary Context,Abri de Raymonden (Chancelade),2,5
+4,Funerary Context,Le Moustier II,3,5
+4,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",1,5
+4,Funerary Context,Qafzeh Cave,2,5
+4,Funerary Context,Dame du Cavillon,3,5
+4,Funerary Context,Le Moustier I,1,5
+4,Funerary Context,Kiik-Koba,2,5
+4,Funerary Context,Tabun Cave (Mugharet et-Tabun),3,5
+4,Funerary Context,Předmostí,1,5
+4,Funerary Context,Goat’s Hole (Paviland Cave),2,5
+4,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),3,5
+4,Funerary Context,La Chapelle-aux-Saints,1,5
+4,Funerary Context,Amud Cave,2,5
+4,Funerary Context,Crow Creek,3,5
+4,Funerary Context,San Juan ante Portam Latinam,1,5
+4,Funerary Context,Cueva de los Torrejones,2,5
+4,Funerary Context,La Tolita Cama de Huesos,3,5
+4,Funerary Context,Regourdou,1,5
+4,Funerary Context,Sunghir,2,5
+4,Funerary Context,El Mirón Cave,3,5
+4,Funerary Context,Abri Pataud,1,5
+4,Funerary Context,La Ferrassie,2,5
+4,Funerary Context,Brno II,3,5
+4,Funerary Context,Cro-Magnon I,1,5
+4,Funerary Context,Dolní Věstonice I,2,5
+4,Funerary Context,Vado all'Arancio,3,5
+4,Funerary Context,Tepecik-Çiftlik,1,5
+4,Funerary Context,El Espinoso Cave,2,5
+5,Rest,El Mirador,1,1
+5,Rest,Combe Grenal,2,1
+5,Rest,Hohlenstein-Stadel,3,1
+5,Rest,Grotta Guattari,1,1
+5,Rest,Grotte des Perrats,2,1
+5,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",3,1
+5,Rest,Boquete de Zafarraya,1,1
+5,Rest,Cueva de la Buena Pinta,2,1
+5,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,1
+5,Rest,Moula-Guercy,1,1
+5,Rest,Troisième caverne of Goyet,2,1
+5,Rest,Krapina,3,1
+5,Rest,Los Moros de Gabasa,1,1
+5,Rest,Arago,2,1
+5,Rest,Netankheri,3,1
+5,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",1,1
+5,Rest,Coves de Santa Maira,2,1
+5,Rest,Cueva de Malalmuerzo,3,1
+5,Rest,Saccopastore,1,1
+5,Rest,Kajiado,2,1
+5,Rest,Gran Dolina,3,1
+5,Rest,Vunda Locus,1,1
+5,Rest,Kalamakia,2,1
+5,Rest,Maszycka Cave,3,1
+5,Rest,Hathnora,1,1
+5,Rest,Dali Tianshuigou,2,1
+5,Rest,Le Placard,3,1
+5,Rest,Yellow Jacket 5MT-3,1,1
+5,Rest,Grotte de Fontbrégoua,2,1
+5,Rest,Ngandong,3,1
+5,Rest,Jarama VI rockshelter,1,1
+5,Rest,Reilingen,2,1
+5,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",3,1
+5,Rest,Valdegoba Cave,1,1
+5,Rest,Vindija,2,1
+5,Rest,Archi,3,1
+5,Rest,El Sidrón J1,1,1
+5,Rest,Cova del Gegant,2,1
+5,Rest,Mojokerto,3,1
+5,Rest,Gough's Cave,1,1
+5,Rest,Sambungmacan,2,1
+5,Rest,Les Pradelles (Marillac-le-Franc),3,1
+5,Rest,Grotte du Bison (Arcy-sur-Cure),1,1
+5,Rest,Brillenhöhle,2,1
+5,Rest,Herxheim,3,1
+5,Rest,Les Rochers-de-Villeneuve,1,1
+5,Rest,Mauer,2,1
+5,Rest,Hahnöfersand,3,1
+5,Rest,Cueva del Camino,1,1
+5,Rest,Ngawi,2,1
+5,Funerary Context,Pavlov I,1,1
+5,Funerary Context,Roc de les Orenetes,2,1
+5,Funerary Context,Tabun Cave (Mugharet et-Tabun),3,1
+5,Funerary Context,Amud Cave,1,1
+5,Funerary Context,El Mirón Cave,2,1
+5,Funerary Context,Abrigo do Lagar Velho,3,1
+5,Funerary Context,Cova Foradada,1,1
+5,Funerary Context,Grotte des Hoteaux,2,1
+5,Funerary Context,Goat’s Hole (Paviland Cave),3,1
+5,Funerary Context,Xemxija tombs,1,1
+5,Funerary Context,Roc de Marsal,2,1
+5,Funerary Context,Mladeč Caves,3,1
+5,Funerary Context,Cro-Magnon I,1,1
+5,Funerary Context,Qafzeh Cave,2,1
+5,Funerary Context,Baousso da Torre (Bausu da Ture),3,1
+5,Funerary Context,La Quina,1,1
+5,Funerary Context,Tepecik-Çiftlik,2,1
+5,Funerary Context,La Chapelle-aux-Saints,3,1
+5,Funerary Context,Regourdou,1,1
+5,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",2,1
+5,Funerary Context,Le Moustier II,3,1
+5,Funerary Context,Cova Gran de Santa Linya,1,1
+5,Funerary Context,Abri de Raymonden (Chancelade),2,1
+5,Funerary Context,Dame du Cavillon,3,1
+5,Funerary Context,Dolní Věstonice II,1,1
+5,Funerary Context,Sunghir,2,1
+5,Funerary Context,Ojo Guareña,3,1
+5,Funerary Context,Vado all'Arancio,1,1
+5,Funerary Context,Kiik-Koba,2,1
+5,Funerary Context,Cueva de los Torrejones,3,1
+5,Funerary Context,Atxuri-I Cave,1,1
+5,Funerary Context,El Espinoso Cave,2,1
+5,Funerary Context,La Tolita Cama de Huesos,3,1
+5,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,1
+5,Funerary Context,Shanidar Cave,2,1
+5,Funerary Context,Mugharet es-Skhul,3,1
+5,Funerary Context,Sima de las Palomas,1,1
+5,Funerary Context,Kebara Cave,2,1
+5,Funerary Context,Oberkassel,3,1
+5,Funerary Context,Le Moustier I,1,1
+5,Funerary Context,Předmostí,2,1
+5,Funerary Context,Abri Pataud,3,1
+5,Funerary Context,San Juan ante Portam Latinam,1,1
+5,Funerary Context,Dolní Věstonice I,2,1
+5,Funerary Context,Crow Creek,3,1
+5,Rest,Maszycka Cave,1,2
+5,Rest,Cova del Gegant,2,2
+5,Rest,Les Pradelles (Marillac-le-Franc),3,2
+5,Rest,Kajiado,1,2
+5,Rest,Arago,2,2
+5,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,2
+5,Rest,Cueva del Camino,1,2
+5,Rest,Combe Grenal,2,2
+5,Rest,Hohlenstein-Stadel,3,2
+5,Rest,Hathnora,1,2
+5,Rest,Troisième caverne of Goyet,2,2
+5,Rest,Grotte du Bison (Arcy-sur-Cure),3,2
+5,Rest,Herxheim,1,2
+5,Rest,Saccopastore,2,2
+5,Rest,Les Rochers-de-Villeneuve,3,2
+5,Rest,Vindija,1,2
+5,Rest,El Sidrón J1,2,2
+5,Rest,Vunda Locus,3,2
+5,Rest,Hahnöfersand,1,2
+5,Rest,Cueva de Malalmuerzo,2,2
+5,Rest,Moula-Guercy,3,2
+5,Rest,Reilingen,1,2
+5,Rest,Krapina,2,2
+5,Rest,Coves de Santa Maira,3,2
+5,Rest,Yellow Jacket 5MT-3,1,2
+5,Rest,Netankheri,2,2
+5,Rest,Mauer,3,2
+5,Rest,Dali Tianshuigou,1,2
+5,Rest,Los Moros de Gabasa,2,2
+5,Rest,Grotte de Fontbrégoua,3,2
+5,Rest,Ngawi,1,2
+5,Rest,Ngandong,2,2
+5,Rest,Gough's Cave,3,2
+5,Rest,El Mirador,1,2
+5,Rest,Boquete de Zafarraya,2,2
+5,Rest,Le Placard,3,2
+5,Rest,Gran Dolina,1,2
+5,Rest,Cueva de la Buena Pinta,2,2
+5,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",3,2
+5,Rest,Sambungmacan,1,2
+5,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",2,2
+5,Rest,Archi,3,2
+5,Rest,Mojokerto,1,2
+5,Rest,Brillenhöhle,2,2
+5,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",3,2
+5,Rest,Grotte des Perrats,1,2
+5,Rest,Grotta Guattari,2,2
+5,Rest,Valdegoba Cave,3,2
+5,Rest,Kalamakia,1,2
+5,Rest,Jarama VI rockshelter,2,2
+5,Funerary Context,Le Moustier I,1,2
+5,Funerary Context,Dolní Věstonice II,2,2
+5,Funerary Context,Sunghir,3,2
+5,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,2
+5,Funerary Context,El Mirón Cave,2,2
+5,Funerary Context,Pavlov I,3,2
+5,Funerary Context,Baousso da Torre (Bausu da Ture),1,2
+5,Funerary Context,Oberkassel,2,2
+5,Funerary Context,La Chapelle-aux-Saints,3,2
+5,Funerary Context,Tabun Cave (Mugharet et-Tabun),1,2
+5,Funerary Context,Cueva de los Torrejones,2,2
+5,Funerary Context,Abri de Raymonden (Chancelade),3,2
+5,Funerary Context,Atxuri-I Cave,1,2
+5,Funerary Context,Kebara Cave,2,2
+5,Funerary Context,Crow Creek,3,2
+5,Funerary Context,La Quina,1,2
+5,Funerary Context,Abrigo do Lagar Velho,2,2
+5,Funerary Context,Grotte des Hoteaux,3,2
+5,Funerary Context,Ojo Guareña,1,2
+5,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",2,2
+5,Funerary Context,Kiik-Koba,3,2
+5,Funerary Context,Mladeč Caves,1,2
+5,Funerary Context,Goat’s Hole (Paviland Cave),2,2
+5,Funerary Context,San Juan ante Portam Latinam,3,2
+5,Funerary Context,Shanidar Cave,1,2
+5,Funerary Context,Předmostí,2,2
+5,Funerary Context,Cro-Magnon I,3,2
+5,Funerary Context,Xemxija tombs,1,2
+5,Funerary Context,Amud Cave,2,2
+5,Funerary Context,Tepecik-Çiftlik,3,2
+5,Funerary Context,Abri Pataud,1,2
+5,Funerary Context,El Espinoso Cave,2,2
+5,Funerary Context,Roc de les Orenetes,3,2
+5,Funerary Context,Cova Foradada,1,2
+5,Funerary Context,Vado all'Arancio,2,2
+5,Funerary Context,Dolní Věstonice I,3,2
+5,Funerary Context,Qafzeh Cave,1,2
+5,Funerary Context,Regourdou,2,2
+5,Funerary Context,Roc de Marsal,3,2
+5,Funerary Context,Mugharet es-Skhul,1,2
+5,Funerary Context,La Tolita Cama de Huesos,2,2
+5,Funerary Context,Sima de las Palomas,3,2
+5,Funerary Context,Cova Gran de Santa Linya,1,2
+5,Funerary Context,Dame du Cavillon,2,2
+5,Funerary Context,Le Moustier II,3,2
+5,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",1,3
+5,Rest,Archi,2,3
+5,Rest,El Mirador,3,3
+5,Rest,Kajiado,1,3
+5,Rest,Brillenhöhle,2,3
+5,Rest,Boquete de Zafarraya,3,3
+5,Rest,Vunda Locus,1,3
+5,Rest,Herxheim,2,3
+5,Rest,Yellow Jacket 5MT-3,3,3
+5,Rest,Valdegoba Cave,1,3
+5,Rest,Los Moros de Gabasa,2,3
+5,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,3
+5,Rest,Ngawi,1,3
+5,Rest,Kalamakia,2,3
+5,Rest,Krapina,3,3
+5,Rest,Maszycka Cave,1,3
+5,Rest,Arago,2,3
+5,Rest,Sambungmacan,3,3
+5,Rest,Cueva de la Buena Pinta,1,3
+5,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",2,3
+5,Rest,Cova del Gegant,3,3
+5,Rest,Grotte de Fontbrégoua,1,3
+5,Rest,Cueva de Malalmuerzo,2,3
+5,Rest,Gran Dolina,3,3
+5,Rest,Troisième caverne of Goyet,1,3
+5,Rest,Dali Tianshuigou,2,3
+5,Rest,Vindija,3,3
+5,Rest,Grotta Guattari,1,3
+5,Rest,Hathnora,2,3
+5,Rest,Cueva del Camino,3,3
+5,Rest,Netankheri,1,3
+5,Rest,Saccopastore,2,3
+5,Rest,Les Pradelles (Marillac-le-Franc),3,3
+5,Rest,El Sidrón J1,1,3
+5,Rest,Combe Grenal,2,3
+5,Rest,Mojokerto,3,3
+5,Rest,Grotte du Bison (Arcy-sur-Cure),1,3
+5,Rest,Ngandong,2,3
+5,Rest,Gough's Cave,3,3
+5,Rest,Coves de Santa Maira,1,3
+5,Rest,Reilingen,2,3
+5,Rest,Hohlenstein-Stadel,3,3
+5,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",1,3
+5,Rest,Grotte des Perrats,2,3
+5,Rest,Moula-Guercy,3,3
+5,Rest,Le Placard,1,3
+5,Rest,Mauer,2,3
+5,Rest,Hahnöfersand,3,3
+5,Rest,Jarama VI rockshelter,1,3
+5,Rest,Les Rochers-de-Villeneuve,2,3
+5,Funerary Context,Baousso da Torre (Bausu da Ture),1,3
+5,Funerary Context,Pavlov I,2,3
+5,Funerary Context,Kebara Cave,3,3
+5,Funerary Context,Oberkassel,1,3
+5,Funerary Context,Sima de las Palomas,2,3
+5,Funerary Context,Qafzeh Cave,3,3
+5,Funerary Context,Goat’s Hole (Paviland Cave),1,3
+5,Funerary Context,Vado all'Arancio,2,3
+5,Funerary Context,Cueva de los Torrejones,3,3
+5,Funerary Context,Le Moustier I,1,3
+5,Funerary Context,El Mirón Cave,2,3
+5,Funerary Context,Sunghir,3,3
+5,Funerary Context,Xemxija tombs,1,3
+5,Funerary Context,Mladeč Caves,2,3
+5,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",3,3
+5,Funerary Context,Dame du Cavillon,1,3
+5,Funerary Context,La Quina,2,3
+5,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),3,3
+5,Funerary Context,Regourdou,1,3
+5,Funerary Context,Tepecik-Çiftlik,2,3
+5,Funerary Context,Shanidar Cave,3,3
+5,Funerary Context,Cova Gran de Santa Linya,1,3
+5,Funerary Context,Atxuri-I Cave,2,3
+5,Funerary Context,Roc de les Orenetes,3,3
+5,Funerary Context,Cro-Magnon I,1,3
+5,Funerary Context,La Tolita Cama de Huesos,2,3
+5,Funerary Context,Crow Creek,3,3
+5,Funerary Context,Amud Cave,1,3
+5,Funerary Context,Abrigo do Lagar Velho,2,3
+5,Funerary Context,San Juan ante Portam Latinam,3,3
+5,Funerary Context,Roc de Marsal,1,3
+5,Funerary Context,Předmostí,2,3
+5,Funerary Context,Dolní Věstonice II,3,3
+5,Funerary Context,Kiik-Koba,1,3
+5,Funerary Context,La Chapelle-aux-Saints,2,3
+5,Funerary Context,El Espinoso Cave,3,3
+5,Funerary Context,Dolní Věstonice I,1,3
+5,Funerary Context,Cova Foradada,2,3
+5,Funerary Context,Ojo Guareña,3,3
+5,Funerary Context,Mugharet es-Skhul,1,3
+5,Funerary Context,Abri Pataud,2,3
+5,Funerary Context,Tabun Cave (Mugharet et-Tabun),3,3
+5,Funerary Context,Grotte des Hoteaux,1,3
+5,Funerary Context,Le Moustier II,2,3
+5,Funerary Context,Abri de Raymonden (Chancelade),3,3
+5,Rest,El Sidrón J1,1,4
+5,Rest,Ngawi,2,4
+5,Rest,Cueva del Camino,3,4
+5,Rest,Vunda Locus,1,4
+5,Rest,Troisième caverne of Goyet,2,4
+5,Rest,Brillenhöhle,3,4
+5,Rest,Hahnöfersand,1,4
+5,Rest,Archi,2,4
+5,Rest,Ngandong,3,4
+5,Rest,Grotte du Bison (Arcy-sur-Cure),1,4
+5,Rest,Saccopastore,2,4
+5,Rest,Herxheim,3,4
+5,Rest,Gough's Cave,1,4
+5,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",2,4
+5,Rest,Jarama VI rockshelter,3,4
+5,Rest,Kalamakia,1,4
+5,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",2,4
+5,Rest,Coves de Santa Maira,3,4
+5,Rest,Boquete de Zafarraya,1,4
+5,Rest,Mauer,2,4
+5,Rest,Cueva de la Buena Pinta,3,4
+5,Rest,Gran Dolina,1,4
+5,Rest,Grotte de Fontbrégoua,2,4
+5,Rest,Mojokerto,3,4
+5,Rest,Valdegoba Cave,1,4
+5,Rest,Le Placard,2,4
+5,Rest,Kajiado,3,4
+5,Rest,Hathnora,1,4
+5,Rest,Yellow Jacket 5MT-3,2,4
+5,Rest,Arago,3,4
+5,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",1,4
+5,Rest,Grotte des Perrats,2,4
+5,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),3,4
+5,Rest,Los Moros de Gabasa,1,4
+5,Rest,El Mirador,2,4
+5,Rest,Netankheri,3,4
+5,Rest,Les Pradelles (Marillac-le-Franc),1,4
+5,Rest,Cova del Gegant,2,4
+5,Rest,Moula-Guercy,3,4
+5,Rest,Les Rochers-de-Villeneuve,1,4
+5,Rest,Maszycka Cave,2,4
+5,Rest,Combe Grenal,3,4
+5,Rest,Dali Tianshuigou,1,4
+5,Rest,Grotta Guattari,2,4
+5,Rest,Vindija,3,4
+5,Rest,Reilingen,1,4
+5,Rest,Cueva de Malalmuerzo,2,4
+5,Rest,Krapina,3,4
+5,Rest,Sambungmacan,1,4
+5,Rest,Hohlenstein-Stadel,2,4
+5,Funerary Context,Cova Gran de Santa Linya,1,4
+5,Funerary Context,Crow Creek,2,4
+5,Funerary Context,El Mirón Cave,3,4
+5,Funerary Context,Vado all'Arancio,1,4
+5,Funerary Context,Roc de les Orenetes,2,4
+5,Funerary Context,Abri de Raymonden (Chancelade),3,4
+5,Funerary Context,Abri Pataud,1,4
+5,Funerary Context,Amud Cave,2,4
+5,Funerary Context,Cro-Magnon I,3,4
+5,Funerary Context,Cova Foradada,1,4
+5,Funerary Context,La Tolita Cama de Huesos,2,4
+5,Funerary Context,Kiik-Koba,3,4
+5,Funerary Context,Grotte des Hoteaux,1,4
+5,Funerary Context,Abrigo do Lagar Velho,2,4
+5,Funerary Context,Sima de las Palomas,3,4
+5,Funerary Context,Cueva de los Torrejones,1,4
+5,Funerary Context,Sunghir,2,4
+5,Funerary Context,Le Moustier II,3,4
+5,Funerary Context,Goat’s Hole (Paviland Cave),1,4
+5,Funerary Context,Qafzeh Cave,2,4
+5,Funerary Context,Tabun Cave (Mugharet et-Tabun),3,4
+5,Funerary Context,Tepecik-Çiftlik,1,4
+5,Funerary Context,San Juan ante Portam Latinam,2,4
+5,Funerary Context,Ojo Guareña,3,4
+5,Funerary Context,Pavlov I,1,4
+5,Funerary Context,Roc de Marsal,2,4
+5,Funerary Context,El Espinoso Cave,3,4
+5,Funerary Context,La Chapelle-aux-Saints,1,4
+5,Funerary Context,Oberkassel,2,4
+5,Funerary Context,Xemxija tombs,3,4
+5,Funerary Context,La Quina,1,4
+5,Funerary Context,Kebara Cave,2,4
+5,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),3,4
+5,Funerary Context,Shanidar Cave,1,4
+5,Funerary Context,Mladeč Caves,2,4
+5,Funerary Context,Le Moustier I,3,4
+5,Funerary Context,Předmostí,1,4
+5,Funerary Context,Atxuri-I Cave,2,4
+5,Funerary Context,Dame du Cavillon,3,4
+5,Funerary Context,Mugharet es-Skhul,1,4
+5,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",2,4
+5,Funerary Context,Regourdou,3,4
+5,Funerary Context,Baousso da Torre (Bausu da Ture),1,4
+5,Funerary Context,Dolní Věstonice I,2,4
+5,Funerary Context,Dolní Věstonice II,3,4
+5,Rest,Herxheim,1,5
+5,Rest,Ngandong,2,5
+5,Rest,Cueva de Malalmuerzo,3,5
+5,Rest,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",1,5
+5,Rest,Sambungmacan,2,5
+5,Rest,Les Pradelles (Marillac-le-Franc),3,5
+5,Rest,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",1,5
+5,Rest,Jarama VI rockshelter,2,5
+5,Rest,El Sidrón J1,3,5
+5,Rest,Valdegoba Cave,1,5
+5,Rest,Boquete de Zafarraya,2,5
+5,Rest,Krapina,3,5
+5,Rest,Moula-Guercy,1,5
+5,Rest,Mojokerto,2,5
+5,Rest,Vindija,3,5
+5,Rest,Brillenhöhle,1,5
+5,Rest,Los Moros de Gabasa,2,5
+5,Rest,Reilingen,3,5
+5,Rest,Vunda Locus,1,5
+5,Rest,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),2,5
+5,Rest,Coves de Santa Maira,3,5
+5,Rest,Kalamakia,1,5
+5,Rest,Hathnora,2,5
+5,Rest,Ngawi,3,5
+5,Rest,Hohlenstein-Stadel,1,5
+5,Rest,Arago,2,5
+5,Rest,Cueva de la Buena Pinta,3,5
+5,Rest,Gough's Cave,1,5
+5,Rest,Combe Grenal,2,5
+5,Rest,El Mirador,3,5
+5,Rest,Grotte des Perrats,1,5
+5,Rest,Grotte du Bison (Arcy-sur-Cure),2,5
+5,Rest,Cova del Gegant,3,5
+5,Rest,Les Rochers-de-Villeneuve,1,5
+5,Rest,Netankheri,2,5
+5,Rest,Kajiado,3,5
+5,Rest,Hahnöfersand,1,5
+5,Rest,Le Placard,2,5
+5,Rest,Yellow Jacket 5MT-3,3,5
+5,Rest,Maszycka Cave,1,5
+5,Rest,Archi,2,5
+5,Rest,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",3,5
+5,Rest,Cueva del Camino,1,5
+5,Rest,Dali Tianshuigou,2,5
+5,Rest,Troisième caverne of Goyet,3,5
+5,Rest,Gran Dolina,1,5
+5,Rest,Grotta Guattari,2,5
+5,Rest,Mauer,3,5
+5,Rest,Grotte de Fontbrégoua,1,5
+5,Rest,Saccopastore,2,5
+5,Funerary Context,San Juan ante Portam Latinam,1,5
+5,Funerary Context,Mladeč Caves,2,5
+5,Funerary Context,Předmostí,3,5
+5,Funerary Context,Tepecik-Çiftlik,1,5
+5,Funerary Context,Crow Creek,2,5
+5,Funerary Context,Cro-Magnon I,3,5
+5,Funerary Context,Shanidar Cave,1,5
+5,Funerary Context,Kiik-Koba,2,5
+5,Funerary Context,La Quina,3,5
+5,Funerary Context,Cova Foradada,1,5
+5,Funerary Context,Grotte des Hoteaux,2,5
+5,Funerary Context,Xemxija tombs,3,5
+5,Funerary Context,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),1,5
+5,Funerary Context,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",2,5
+5,Funerary Context,Atxuri-I Cave,3,5
+5,Funerary Context,Abri de Raymonden (Chancelade),1,5
+5,Funerary Context,Qafzeh Cave,2,5
+5,Funerary Context,Le Moustier I,3,5
+5,Funerary Context,Mugharet es-Skhul,1,5
+5,Funerary Context,Cova Gran de Santa Linya,2,5
+5,Funerary Context,Sima de las Palomas,3,5
+5,Funerary Context,Amud Cave,1,5
+5,Funerary Context,Oberkassel,2,5
+5,Funerary Context,Ojo Guareña,3,5
+5,Funerary Context,Dolní Věstonice II,1,5
+5,Funerary Context,La Chapelle-aux-Saints,2,5
+5,Funerary Context,Tabun Cave (Mugharet et-Tabun),3,5
+5,Funerary Context,Dolní Věstonice I,1,5
+5,Funerary Context,Baousso da Torre (Bausu da Ture),2,5
+5,Funerary Context,Abri Pataud,3,5
+5,Funerary Context,Regourdou,1,5
+5,Funerary Context,La Tolita Cama de Huesos,2,5
+5,Funerary Context,Vado all'Arancio,3,5
+5,Funerary Context,Roc de Marsal,1,5
+5,Funerary Context,Roc de les Orenetes,2,5
+5,Funerary Context,Goat’s Hole (Paviland Cave),3,5
+5,Funerary Context,Pavlov I,1,5
+5,Funerary Context,Cueva de los Torrejones,2,5
+5,Funerary Context,El Espinoso Cave,3,5
+5,Funerary Context,Dame du Cavillon,1,5
+5,Funerary Context,El Mirón Cave,2,5
+5,Funerary Context,Le Moustier II,3,5
+5,Funerary Context,Abrigo do Lagar Velho,1,5
+5,Funerary Context,Kebara Cave,2,5
+5,Funerary Context,Sunghir,3,5

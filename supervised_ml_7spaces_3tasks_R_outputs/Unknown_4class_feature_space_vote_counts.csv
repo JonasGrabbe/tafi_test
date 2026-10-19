@@ -1,0 +1,38 @@
+record_id,site_name,predicted_class,feature_spaces_voting,total_feature_spaces,vote_percent
+13,Bilzingsleben,Geological transport,7,7,100
+14,Bolomor Cave,Cannibalism,2,7,28.571428571428573
+14,Bolomor Cave,Carnivore,4,7,57.142857142857146
+14,Bolomor Cave,Geological transport,1,7,14.285714285714286
+17,Cueva de la Carigüela,Geological transport,7,7,100
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Geological transport,7,7,100
+19,Ceprano,Geological transport,7,7,100
+22,Cova del Parpalló (Parpalló Cave),Cannibalism,5,7,71.42857142857143
+22,Cova del Parpalló (Parpalló Cave),Carnivore,2,7,28.571428571428573
+36,Engis / Schmerling Cave,Geological transport,7,7,100
+39,Kleine Feldhofer Grotte,Cannibalism,1,7,14.285714285714286
+39,Kleine Feldhofer Grotte,Funerary Context,6,7,85.71428571428571
+68,Trou de la Naulette,Cannibalism,1,7,14.285714285714286
+68,Trou de la Naulette,Carnivore,5,7,71.42857142857143
+68,Trou de la Naulette,Funerary Context,1,7,14.285714285714286
+80,"Cova de les Malladetes (Barx, Valencia, Spain)",Geological transport,7,7,100
+92,Peștera Muierii,Cannibalism,3,7,42.857142857142854
+92,Peștera Muierii,Geological transport,4,7,57.142857142857146
+98,"Ochoz 1, Ochoz 2",Geological transport,7,7,100
+114,Saint-Césaire,Cannibalism,3,7,42.857142857142854
+114,Saint-Césaire,Funerary Context,3,7,42.857142857142854
+114,Saint-Césaire,Geological transport,1,7,14.285714285714286
+119,Scladina Cave,Geological transport,7,7,100
+122,Sima de los Huesos 89,Cannibalism,6,7,85.71428571428571
+122,Sima de los Huesos 89,Geological transport,1,7,14.285714285714286
+123,Sima de los Huesos 90,Cannibalism,7,7,100
+124,Sima de los Huesos 95,Cannibalism,2,7,28.571428571428573
+124,Sima de los Huesos 95,Funerary Context,5,7,71.42857142857143
+125,Sima de los Huesos 15,Funerary Context,7,7,100
+126,Sima de los Huesos 24,Funerary Context,7,7,100
+128,Spy cave,Cannibalism,2,7,28.571428571428573
+128,Spy cave,Funerary Context,5,7,71.42857142857143
+129,Steinheim an der Murr,Geological transport,7,7,100
+148,Weimar-Ehringsdorf,Cannibalism,5,7,71.42857142857143
+148,Weimar-Ehringsdorf,Carnivore,1,7,14.285714285714286
+148,Weimar-Ehringsdorf,Geological transport,1,7,14.285714285714286
+152,Sima de los Huesos PNAS,Funerary Context,7,7,100

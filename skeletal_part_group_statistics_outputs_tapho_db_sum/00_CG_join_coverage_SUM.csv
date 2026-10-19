@@ -1,0 +1,2 @@
+n_SUM_rows,n_rows_with_C,n_rows_with_G,n_rows_with_any_CG,n_rows_without_CG,C_match_percent,G_match_percent,any_CG_match_percent,n_unique_site_names
+152,97,97,97,55,63.81578947368421,63.81578947368421,63.81578947368421,148

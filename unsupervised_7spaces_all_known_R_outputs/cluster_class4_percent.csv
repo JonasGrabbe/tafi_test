@@ -1,0 +1,64 @@
+Feature_space,Cluster,class4,n,cluster_n,percent_within_cluster
+%MNAU raw,1,Cannibalism,24,68,35.294117647058826
+%MNAU raw,1,Carnivore-related,17,68,25
+%MNAU raw,1,Funerary,15,68,22.058823529411764
+%MNAU raw,1,Geological transport,12,68,17.647058823529413
+%MNAU raw,2,Cannibalism,1,35,2.857142857142857
+%MNAU raw,2,Funerary,34,35,97.14285714285714
+C + Heip evenness,1,Cannibalism,12,41,29.26829268292683
+C + Heip evenness,1,Carnivore-related,14,41,34.146341463414636
+C + Heip evenness,1,Funerary,3,41,7.317073170731708
+C + Heip evenness,1,Geological transport,12,41,29.26829268292683
+C + Heip evenness,2,Cannibalism,9,18,50
+C + Heip evenness,2,Carnivore-related,3,18,16.666666666666668
+C + Heip evenness,2,Funerary,6,18,33.333333333333336
+C + Heip evenness,3,Cannibalism,2,8,25
+C + Heip evenness,3,Funerary,6,8,75
+C + Heip evenness,4,Cannibalism,1,18,5.555555555555555
+C + Heip evenness,4,Funerary,17,18,94.44444444444444
+C + Heip evenness,5,Cannibalism,1,18,5.555555555555555
+C + Heip evenness,5,Funerary,17,18,94.44444444444444
+C only,1,Cannibalism,23,72,31.944444444444443
+C only,1,Carnivore-related,17,72,23.61111111111111
+C only,1,Funerary,20,72,27.77777777777778
+C only,1,Geological transport,12,72,16.666666666666668
+C only,2,Cannibalism,2,31,6.451612903225806
+C only,2,Funerary,29,31,93.54838709677419
+Combined,1,Cannibalism,23,64,35.9375
+Combined,1,Carnivore-related,17,64,26.5625
+Combined,1,Funerary,12,64,18.75
+Combined,1,Geological transport,12,64,18.75
+Combined,2,Cannibalism,2,39,5.128205128205129
+Combined,2,Funerary,37,39,94.87179487179488
+Engineered,1,Cannibalism,20,55,36.36363636363637
+Engineered,1,Carnivore-related,16,55,29.09090909090909
+Engineered,1,Funerary,7,55,12.727272727272727
+Engineered,1,Geological transport,12,55,21.818181818181817
+Engineered,2,Cannibalism,5,48,10.416666666666666
+Engineered,2,Carnivore-related,1,48,2.0833333333333335
+Engineered,2,Funerary,42,48,87.5
+Heip evenness only,1,Cannibalism,13,42,30.952380952380953
+Heip evenness only,1,Carnivore-related,14,42,33.333333333333336
+Heip evenness only,1,Funerary,3,42,7.142857142857143
+Heip evenness only,1,Geological transport,12,42,28.571428571428573
+Heip evenness only,2,Cannibalism,8,33,24.242424242424242
+Heip evenness only,2,Carnivore-related,3,33,9.090909090909092
+Heip evenness only,2,Funerary,22,33,66.66666666666667
+Heip evenness only,3,Cannibalism,4,28,14.285714285714286
+Heip evenness only,3,Funerary,24,28,85.71428571428571
+ReMNAU raw,1,Carnivore-related,4,4,100
+ReMNAU raw,2,Cannibalism,18,43,41.86046511627907
+ReMNAU raw,2,Carnivore-related,9,43,20.930232558139537
+ReMNAU raw,2,Funerary,5,43,11.627906976744185
+ReMNAU raw,2,Geological transport,11,43,25.58139534883721
+ReMNAU raw,3,Cannibalism,2,7,28.571428571428573
+ReMNAU raw,3,Carnivore-related,2,7,28.571428571428573
+ReMNAU raw,3,Funerary,2,7,28.571428571428573
+ReMNAU raw,3,Geological transport,1,7,14.285714285714286
+ReMNAU raw,4,Cannibalism,1,1,100
+ReMNAU raw,5,Cannibalism,1,15,6.666666666666667
+ReMNAU raw,5,Carnivore-related,2,15,13.333333333333334
+ReMNAU raw,5,Funerary,12,15,80
+ReMNAU raw,6,Funerary,1,1,100
+ReMNAU raw,7,Cannibalism,3,32,9.375
+ReMNAU raw,7,Funerary,29,32,90.625

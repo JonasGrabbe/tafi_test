@@ -1,0 +1,29 @@
+Feature_space,Cluster,Cluster_name,special_type,n
+%MNAU raw,1,C1,Sepulchral,25
+%MNAU raw,1,C1,Unknown,21
+%MNAU raw,2,C2,Unknown,1
+C + Heip evenness,1,C1,Sepulchral,21
+C + Heip evenness,1,C1,Unknown,17
+C + Heip evenness,2,C2,Sepulchral,4
+C + Heip evenness,2,C2,Unknown,5
+C only,1,C1,Sepulchral,25
+C only,1,C1,Unknown,21
+C only,2,C2,Unknown,1
+Combined,1,C1,Sepulchral,21
+Combined,1,C1,Unknown,17
+Combined,2,C2,Sepulchral,4
+Combined,2,C2,Unknown,5
+Engineered,1,C1,Sepulchral,21
+Engineered,1,C1,Unknown,18
+Engineered,2,C2,Sepulchral,4
+Engineered,2,C2,Unknown,4
+Heip evenness only,1,C1,Sepulchral,4
+Heip evenness only,1,C1,Unknown,14
+Heip evenness only,2,C2,Sepulchral,17
+Heip evenness only,2,C2,Unknown,5
+Heip evenness only,3,C3,Sepulchral,4
+Heip evenness only,3,C3,Unknown,3
+ReMNAU raw,1,C1,Sepulchral,15
+ReMNAU raw,1,C1,Unknown,19
+ReMNAU raw,2,C2,Sepulchral,10
+ReMNAU raw,2,C2,Unknown,3

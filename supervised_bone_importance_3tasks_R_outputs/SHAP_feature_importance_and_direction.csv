@@ -1,0 +1,253 @@
+task,feature_space,model,target_class,feature,bone,mean_abs_SHAP,mean_SHAP,spearman_feature_SHAP
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_humerus_right,humerus,0.04177110487768322,1.29481376920737e-4,0.09658533117034178
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_foot,foot,0.03975437648156476,1.5641707111233944e-4,0.2455359724045989
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_hands,hands,0.034912308590384036,-5.758814019894904e-4,0.2728895530465205
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_legs,legs,0.029226749443957353,7.976986253457886e-4,-0.425158090732712
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_ulna_right,ulna,0.02858864060787771,2.0930072157709042e-4,-0.5289601331149382
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_pelvic,pelvic,0.025594951682276657,6.335095522113575e-4,-0.6159810471700629
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_scapula_left,scapula,0.024809901046945814,4.5682319580103167e-4,0.689545118512233
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_vertebrae,vertebrae,0.024722940605451944,-3.965023817689014e-4,-0.4480534785737256
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_humerus_left,humerus,0.02143605656140623,-0.001553363899189397,0.3721525429943011
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_radius_left,radius,0.02077437129357086,-1.5977271609027437e-4,-0.5827751574077684
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_radius_right,radius,0.019534346041280258,-6.113769681443886e-4,-0.46188006292600076
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_cranium,cranium,0.018095774716447077,-2.5497744520937902e-5,0.47017766073237405
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_ribs,ribs,0.01441352330923354,1.7804772608061103e-4,0.7531694939377381
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_clavicle_right,clavicle,0.009568658449246124,1.218372151917994e-4,-0.36527067904459826
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_clavicle_left,clavicle,0.00948743621098796,7.700736462565023e-4,0.16801311595399288
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_scapula_right,scapula,0.008075129720615132,5.61419020109081e-4,0.4033693519764843
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_ulna_left,ulna,0.00805970856990686,-5.173613083852678e-4,0.4399634658725905
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_sternum,sternum,0.006856234365173225,2.0662840485710567e-4,-0.2390924140160091
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_hyoid,hyoid,0.00417879941964304,-3.669330175674037e-4,-0.554232280259257
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_arms_indet,arms,2.3544092372382655e-4,-1.4547608208352683e-5,0.2116370609467218
+4class,%MNAU raw,Random forest,Cannibalism,ProportionalRep_MNIbased_thorax_indet,thorax,0,0,NA
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_cranium,cranium,0.0513127410599073,9.690595392759885e-4,-0.7469493589441087
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_humerus_right,humerus,0.035545194248510784,0.0010805362418082915,-0.4928768820747729
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_humerus_left,humerus,0.032862242148303404,-3.862721492094897e-4,-0.7441122108691443
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_foot,foot,0.024727982441601515,-1.9543619249296856e-4,-0.7590561492090138
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_radius_right,radius,0.023015783539838415,-8.052526527600431e-4,-0.8663656207071714
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_scapula_left,scapula,0.022153239366177857,5.368406136713193e-4,-0.7802209408225496
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_pelvic,pelvic,0.018818648710368317,5.667179706330249e-6,0.37184663757066033
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_legs,legs,0.015672623724742485,-8.52361593979584e-4,0.31716356558319425
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_ribs,ribs,0.015289152593894078,-6.007143535697138e-4,-0.7336303749808508
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_radius_left,radius,0.014788360928395538,-4.0505117671750507e-4,-0.7937321770940592
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_scapula_right,scapula,0.013305836911912174,6.873048120603203e-5,-0.8223184781722999
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_vertebrae,vertebrae,0.013284316658537043,3.632058135498544e-4,-0.48291097308358644
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_hands,hands,0.012279434130334294,4.81090071541196e-4,-0.7125950304775597
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_ulna_right,ulna,0.01166239130226313,-2.584572892063286e-4,-0.8972907360108927
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_clavicle_left,clavicle,0.01001291781360781,2.502174300954998e-4,-0.8640855438960396
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_clavicle_right,clavicle,0.0065846786815763276,-1.4709380961975792e-4,-0.8603257995116643
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_ulna_left,ulna,0.0045859326316901785,-6.47635101337473e-5,-0.7966370780308408
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_sternum,sternum,3.5066092058592523e-4,-9.13647802919344e-6,-0.6604950356775376
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_hyoid,hyoid,1.3858071191434856e-4,-1.612994302726593e-5,-0.5462015447860273
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_arms_indet,arms,7.433781421025558e-5,-1.4679151532468468e-5,-0.23297102841911116
+4class,%MNAU raw,Random forest,Carnivore,ProportionalRep_MNIbased_thorax_indet,thorax,0,0,NA
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_foot,foot,0.04968588133749541,5.811859887121636e-4,0.828869475917586
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_ulna_right,ulna,0.04838071484013561,-6.670954436182813e-4,0.6685636376344749
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_vertebrae,vertebrae,0.04533432707968679,3.542872444132132e-4,0.8885561904737991
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_radius_right,radius,0.03950033837988073,2.1431435641927897e-4,0.9048762624795454
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_humerus_right,humerus,0.039097686831541904,1.7457708016612155e-4,0.8094652626559171
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_radius_left,radius,0.03821213086675541,-2.3255347470930524e-4,0.809638773257891
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_pelvic,pelvic,0.03589644116570643,-5.934224215989251e-4,0.7716729552090348
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_hands,hands,0.034181548176390956,-1.2104598063332688e-4,0.5673488192679756
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_legs,legs,0.03104703452176372,3.1957139750343173e-5,0.6964852307887734
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_humerus_left,humerus,0.021549423081662702,9.210241939526258e-5,0.7110568190726136
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_scapula_right,scapula,0.01528525879924225,-5.001395322268809e-4,0.8365190398562572
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_ribs,ribs,0.015054695241336293,1.0357119325330073e-4,0.6152723321008908
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_clavicle_left,clavicle,0.012302585652626579,1.444156060488064e-4,0.6507090593157349
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_scapula_left,scapula,0.01157147156487603,1.5001141627832013e-4,0.7982724462191327
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_clavicle_right,clavicle,0.011227810605217556,1.3931758761129648e-4,0.5877738787914878
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_ulna_left,ulna,0.007959766794097003,-2.509792259914887e-4,0.4876190605999559
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_cranium,cranium,0.00783179184415863,3.0786359768776177e-4,0.4213332153288449
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_sternum,sternum,0.007633406001622798,-3.125078542379797e-5,0.2643870764949158
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_hyoid,hyoid,0.004655558253930675,1.0288336440201975e-4,0.5561247999613587
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_arms_indet,arms,1.8231438473251396e-20,7.452574156502303e-21,0.35112219469245154
+4class,%MNAU raw,Random forest,Funerary Context,ProportionalRep_MNIbased_thorax_indet,thorax,0,0,NA
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_foot,foot,0.035267843021926475,8.574120466884577e-6,-0.6341400606464506
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_cranium,cranium,0.03111395867394344,-0.0022269614093766077,0.7103579477314258
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_vertebrae,vertebrae,0.029448345535399958,9.779988787192932e-4,-0.7143419716310306
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_pelvic,pelvic,0.02832443605532013,0.0011766894163330929,-0.835845852598123
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_hands,hands,0.02745549286399256,-9.772589329543153e-4,-0.6949189097278811
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_legs,legs,0.02203275484392656,-1.357683786802434e-4,-0.44014997326036576
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_humerus_right,humerus,0.019142271430490375,-4.096741529131199e-4,-0.24175051611904985
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_radius_right,radius,0.011894561830149735,2.8185699688110585e-4,-0.810623957522663
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_scapula_left,scapula,0.010182232946245711,7.747937117842611e-5,-0.8188690724810305
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_ribs,ribs,0.009966567431692984,-2.1545143747845051e-4,-0.8357058187300715
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_humerus_left,humerus,0.008531018057257528,4.806013069585568e-4,0.2425801723019116
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_ulna_right,ulna,0.008430246774462712,5.35727788835914e-4,-0.9112848211652134
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_scapula_right,scapula,0.006791414863305311,1.002754958052936e-4,-0.8172100643610222
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_radius_left,radius,0.005773326238283135,6.509997907662377e-5,-0.8275148128474129
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_ulna_left,ulna,0.0049899480117267326,-1.8388077841466533e-4,-0.8240538538909302
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_clavicle_right,clavicle,0.003907888654148966,2.495167556894046e-4,0.5266485191356093
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_clavicle_left,clavicle,0.002864050980534455,2.3748689662334165e-4,-0.6003091537590813
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_arms_indet,arms,1.4070760333393853e-4,6.347807407143996e-6,-0.216758916695598
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_hyoid,hyoid,1.3149065231971276e-4,-4.866059853240184e-5,-0.4531790159153771
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_sternum,sternum,1.0208342396858662e-19,-2.797873179093661e-20,-0.16259070682084076
+4class,%MNAU raw,Random forest,Geological transport,ProportionalRep_MNIbased_thorax_indet,thorax,0,0,NA
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_vertebrae,vertebrae,0.08084051732500948,-0.0030305361240050128,-0.8289586314243009
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_radius_left,radius,0.06421695376635866,2.0880057869477874e-4,-0.7867930782806135
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_ribs,ribs,0.05771169273293932,-8.757868904054682e-5,0.9407469581605188
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_hands,hands,0.03670828651585987,-1.1453274525325003e-4,-0.6818793277533621
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_scapula_left,scapula,0.03634084850215204,-4.475047986908384e-4,0.6620058011278841
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_sternum,sternum,0.03011693348570465,3.230721590729159e-4,-0.6772134827829188
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_humerus_right,humerus,0.025574946060606472,0.0013171343785076672,0.584879509277238
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_radius_right,radius,0.024553364635659627,5.337046376991924e-4,0.06364251209836398
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_clavicle_left,clavicle,0.02352256465563112,0.0015292207536252494,0.6146641538872815
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_ulna_left,ulna,0.02335258114322474,3.5065725595491865e-4,0.8296494575160078
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_ulna_right,ulna,0.021806785174023242,0.0013340722233848568,-0.28174347868199096
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_pelvic,pelvic,0.02075828222789755,-6.378825757936605e-4,0.5098185214746371
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_cranium,cranium,0.019801007711338716,-9.502402671176879e-4,0.5244398769561825
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_scapula_right,scapula,0.019663495590783075,6.854265441129999e-4,-0.12573249093661848
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_hyoid,hyoid,0.017760404043836744,3.1647105551151685e-4,-0.5568345049640837
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_humerus_left,humerus,0.01733033560600189,1.5553490802781167e-4,-0.5695018789254646
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_legs,legs,0.011243401203721576,-6.2598296966088e-4,0.2070840459547092
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_clavicle_right,clavicle,0.009441717903027405,1.3830924546297764e-4,0.5397073965786559
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_foot,foot,0.006212407355609608,-6.153877403499319e-4,-0.49402824812711654
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_thorax_indet,thorax,0.0043975745471540395,-1.2081318308733403e-4,-0.20124123353829784
+4class,ReMNAU raw,RBF-SVM,Cannibalism,ReMNAU_arms_indet,arms,0.002104383090666573,-2.619461544562385e-4,0.18217286534530994
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_scapula_left,scapula,0.034195914826586515,8.88109829633741e-4,-0.8793447534589308
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_cranium,cranium,0.030818995694876145,-7.346732205358706e-4,-0.4361009911107186
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_clavicle_left,clavicle,0.025968327887338084,-6.466536673308572e-5,-0.9024549512059107
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_radius_right,radius,0.025361652988227103,-7.099742937078097e-4,-0.8820475919732161
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_radius_left,radius,0.022848641445993585,1.3719868541504348e-4,-0.8699630673927945
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_ulna_right,ulna,0.022184199528715434,-2.31770595287691e-4,-0.8480396459296282
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_scapula_right,scapula,0.020958344925001256,1.3587416706806204e-4,-0.8853623513575438
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_ulna_left,ulna,0.020415466503859697,8.307844034779077e-4,-0.8378511919392162
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_ribs,ribs,0.019490333629972288,-0.0011375621116451818,-0.9137884019318286
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_humerus_left,humerus,0.019278845236889795,-6.154477194629849e-4,0.18721013419027974
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_humerus_right,humerus,0.01758543246447775,3.195442479469252e-4,-0.3796226562034885
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_legs,legs,0.01398040538235757,7.195135734306245e-4,0.3182310995411595
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_vertebrae,vertebrae,0.010648446145380146,4.89644800725148e-4,0.029942130012158345
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_pelvic,pelvic,0.009384704965016191,-3.2642657886038876e-4,0.00662617712018312
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_clavicle_right,clavicle,0.008928002618549695,0.0011705846705255254,-0.6285358592286543
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_hands,hands,0.007307523482826236,-3.96249037932875e-4,-0.6500158077648872
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_sternum,sternum,0.004568023281793612,2.8415925089999004e-5,-0.6420916720724503
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_foot,foot,0.0039992952920295585,-4.3925033249819036e-4,0.2939337619069914
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_hyoid,hyoid,0.0023335678254502897,5.672260610474607e-4,-0.08283423336492654
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_thorax_indet,thorax,0.0010429445743920193,-2.77515803001753e-4,-0.193400810598875
+4class,ReMNAU raw,RBF-SVM,Carnivore,ReMNAU_arms_indet,arms,7.487752838514281e-4,-3.533606272634929e-4,-0.1908071362811178
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_vertebrae,vertebrae,0.09412370826102597,-6.056237019578855e-4,0.8613856088838364
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_radius_left,radius,0.090907199295476665,-1.4199961300120638e-4,0.9203319109974694
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_hands,hands,0.046434643739237405,-8.805457457533153e-4,0.856776526770561
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_ulna_right,ulna,0.03937938659071341,2.5415071191132576e-4,0.9075891032777954
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_sternum,sternum,0.03861315177745289,-7.146810236401459e-4,0.6858866698955389
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_scapula_right,scapula,0.03155093563896344,5.496529371204258e-4,0.8987155200378426
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_ribs,ribs,0.03095929339931433,-0.0010651618113852786,-0.8578630131897351
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_radius_right,radius,0.030789627183296888,4.860614334554525e-4,0.8932320637280655
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_cranium,cranium,0.02874597459473771,0.001212063550222022,-0.7290848392301194
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_humerus_left,humerus,0.025209774773907647,-8.475217502039868e-4,0.88168440528258
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_hyoid,hyoid,0.020534483328579482,9.398316354352369e-4,0.5525370602059796
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_scapula_left,scapula,0.0197225395064484,-3.179604881967151e-4,0.7499885151910357
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_pelvic,pelvic,0.01635929548593444,-3.1623124053379377e-4,0.32780288215618236
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_ulna_left,ulna,0.013656601021424948,-4.97841600403788e-4,0.5374105390212672
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_clavicle_left,clavicle,0.013412894156429848,5.755952629479425e-4,0.6323872398988121
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_humerus_right,humerus,0.010072984792296038,1.1704695119649102e-4,0.7141244353215472
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_legs,legs,0.006067854403569685,0.0010835024757628417,-0.19243650331674098
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_foot,foot,0.005454220321143088,-2.959465735614462e-4,0.6581232710833804
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_thorax_indet,thorax,0.005223380358436036,6.874983110736632e-4,0.18847037988219187
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_clavicle_right,clavicle,0.004144990467166198,-3.178961794771069e-5,0.168352611340585
+4class,ReMNAU raw,RBF-SVM,Funerary Context,ReMNAU_arms_indet,arms,0.0029096877261261677,-1.900985175826903e-4,-0.1896084925022614
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_cranium,cranium,0.048607852550976605,8.965827832691717e-4,0.4547200931878318
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_humerus_left,humerus,0.02853663844440876,0.0011126554340358675,-0.7829126230766207
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_humerus_right,humerus,0.023297760179005353,-6.899985177407547e-4,-0.8041981206679019
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_vertebrae,vertebrae,0.01643688728381585,-6.598686945655671e-4,-0.8503643807498917
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_pelvic,pelvic,0.01314912054700202,2.9488681670702255e-4,-0.8891444692177228
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_scapula_left,scapula,0.01153296294226307,8.579189701507689e-4,-0.8645025237463518
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_ulna_left,ulna,0.00960449023185277,1.8057763172361132e-4,-0.8555347337429273
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_radius_left,radius,0.00924736632986572,6.846679498694683e-5,-0.8733109505118725
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_ribs,ribs,0.008401604016870852,1.4722310864224468e-4,-0.8859902273694165
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_radius_right,radius,0.008231062328924415,1.6322775725863218e-4,-0.8693374435584744
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_hands,hands,0.007846894856568599,-0.0010051027554369783,-0.9017911441335894
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_clavicle_left,clavicle,0.0076138248630973114,-4.7111816670165104e-4,-0.3079228464773584
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_scapula_right,scapula,0.0070942552726854175,2.2748891261130744e-5,-0.8458936934883421
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_ulna_right,ulna,0.006796411656951269,-8.673610558374048e-4,-0.8049921245784387
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_legs,legs,0.005579512825977946,-7.34923581144517e-6,-0.401075747699126
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_clavicle_right,clavicle,0.003930795966379056,-4.4392650960417275e-5,-0.3218938070973487
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_sternum,sternum,0.0034707640615230886,1.6180609997296035e-4,-0.6583807142998622
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_foot,foot,0.0016473603257362607,-4.92088949947609e-4,-0.7810117856363991
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_hyoid,hyoid,0.0013945444442603195,1.1899504197145597e-4,-0.39773048366748165
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_thorax_indet,thorax,4.78958539991671e-4,1.716017551026657e-4,-0.19784681378280242
+4class,ReMNAU raw,RBF-SVM,Geological transport,ReMNAU_arms_indet,arms,4.616314803732104e-4,4.0587450507749516e-5,-0.20308617282613323
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_foot,foot,0.05546311553400008,-0.0013321932756192036,0.8506594452496424
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_humerus_right,humerus,0.044397400087661326,-0.0010446814432111804,0.8599945617377726
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_clavicle_left,clavicle,0.03879245764081856,6.676871924719912e-4,0.8381773480898643
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_clavicle_right,clavicle,0.03255388126662647,-7.070586883722093e-4,0.8554567299203067
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_ulna_right,ulna,0.03247115736740038,-5.341517570827771e-4,0.8511166008338055
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_humerus_left,humerus,0.03139905305383917,6.154245646058337e-6,0.9014279795087438
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_hands,hands,0.031036731105717023,4.543264442988604e-5,0.8426469827998653
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_pelvic,pelvic,0.029812923247727323,6.904443404629918e-4,0.8592675738078608
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_ribs,ribs,0.024720884056922333,7.180882080664628e-4,-0.8990706899405494
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_cranium,cranium,0.023599369950354287,9.44326027074223e-4,-0.8464306805805085
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_sternum,sternum,0.020146673094810722,-5.685284719323848e-4,0.647414444406264
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_vertebrae,vertebrae,0.019174081488953467,3.5992522790794965e-4,0.8130918744146217
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_legs,legs,0.018476703061869,2.766901325486595e-4,0.9277507352762739
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_hyoid,hyoid,0.015009623901229775,6.880345850277427e-4,0.623661566983753
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_radius_left,radius,0.013761196591549917,-8.505266585806522e-4,0.7561574922745955
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_ulna_left,ulna,0.01313589561610854,1.7059931079682148e-4,0.8084308832445404
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_scapula_left,scapula,0.009089626453536637,1.9427061036536914e-4,0.5119910954007975
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_scapula_right,scapula,0.005400815203843317,-1.0832928152929613e-4,0.4749484283441545
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_radius_right,radius,0.0041382453277604685,7.446016837407362e-5,0.3571266172845123
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_thorax_indet,thorax,0.0036129065041498247,-6.663502225531465e-6,0.20949806576820254
+cannibalism_vs_fc,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_arms_indet,arms,0.0019477395349490278,3.160209076900743e-4,0.22943585325344604
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_cranium,cranium,0.10747503170636341,1.9830049972877463e-4,-0.806908155415999
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_foot,foot,0.053024725154882074,-7.113021752832846e-4,0.7599654112786005
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_radius_left,radius,0.04665442934764205,-0.0021563196590997495,0.8378617415320876
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_vertebrae,vertebrae,0.044452303584553224,0.0013158614007533133,0.8575105978686515
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_radius_right,radius,0.032248246701220513,2.577705879223009e-4,0.7069079134420667
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_sternum,sternum,0.02474950050498978,-4.0188466800794337e-4,0.6328491739194162
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_ulna_right,ulna,0.022610503909380176,2.3284243410095354e-4,0.797526735917494
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_hands,hands,0.020353027757983803,6.814277015436208e-4,0.5822636364666763
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_clavicle_right,clavicle,0.014990474547214834,1.5178445286119057e-4,0.5988012363802306
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_scapula_right,scapula,0.013577945663219146,4.36269540361727e-4,0.08525573498998981
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_clavicle_left,clavicle,0.01347760975192315,6.298130238045109e-4,0.5998144112309077
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_humerus_right,humerus,0.013457137878908579,8.868980161762724e-7,0.6189434004850409
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_pelvic,pelvic,0.013146597518007948,-1.3625658046058662e-4,-0.6591218612130009
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_legs,legs,0.012401602260447992,-7.927728097636331e-6,0.3353375888205877
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_humerus_left,humerus,0.012093832269432619,-4.5112634154589084e-4,0.6287598380533128
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_ribs,ribs,0.011277147772295012,2.2528116823322382e-4,-0.8039423328269942
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_ulna_left,ulna,0.01075905944087364,-5.443244164995127e-4,0.610754111172525
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_scapula_left,scapula,0.010652462636853887,2.339716778105712e-4,-0.4739321475837033
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_hyoid,hyoid,0.0017830937215346787,8.790413328920601e-5,0.2115949576106702
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_arms_indet,arms,3.1055013457633335e-4,-5.360480337856708e-5,-0.23189160480488347
+cannibalism_vs_fc,ReMNAU raw,Random forest,Funerary Context,ReMNAU_thorax_indet,thorax,1.8587384629520186e-4,1.0633347145774418e-5,0.23740028244585765
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_foot,foot,0.051494043475081956,-0.0010966982317003762,0.7942973991874771
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_pelvic,pelvic,0.04521065258065413,5.028377010964989e-5,0.8637513311479097
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_hands,hands,0.03743464166956716,-1.8191719171668758e-4,0.8542068464421511
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_humerus_right,humerus,0.03733379090030783,4.223441449684152e-4,0.8679671869521323
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_clavicle_left,clavicle,0.03216193798798845,-0.0013415986350916694,0.8612823513416666
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_humerus_left,humerus,0.03047332183491038,6.664567298694434e-4,0.8845933714061757
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_radius_left,radius,0.030380592522286268,-0.0017510289304692402,0.8056185524597276
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_ulna_right,ulna,0.030225379063014465,0.0012301611913503225,0.8572336851140487
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_ulna_left,ulna,0.025326459412981707,-1.795253949215455e-4,0.8698743075101006
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_vertebrae,vertebrae,0.019366827566975182,1.471281517013545e-4,0.8494443460843805
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_clavicle_right,clavicle,0.019044571087467838,-1.5942521569091629e-4,0.8084568118393719
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_sternum,sternum,0.01649498454280207,5.6506736969373206e-5,0.7085110821341015
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_scapula_right,scapula,0.015577541287850504,3.1534781015259275e-4,0.8525486859755387
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_hyoid,hyoid,0.012699203664262547,8.3814731308844e-5,0.5568163099463624
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_cranium,cranium,0.012355577882727732,4.444286377269571e-4,-0.8326685561338704
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_legs,legs,0.0073824970039162805,-9.919769136589079e-5,0.7300997130701378
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_scapula_left,scapula,0.005876700156123161,2.6277589491333384e-4,0.689568684446171
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_ribs,ribs,0.005573597329944029,-3.634258978814572e-4,-0.7630468476264549
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_radius_right,radius,0.0030446175301538556,7.183926105401591e-4,0.3099913735130216
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_thorax_indet,thorax,0.0026476510187419962,3.532928461014974e-4,0.1896084925022614
+fc_vs_rest,%MNAU raw,RBF-SVM,Funerary Context,ProportionalRep_MNIbased_arms_indet,arms,0.0025496239958812516,4.2188364360815994e-4,0.19784681378280242
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_cranium,cranium,0.06861463967487824,-0.0014548237806015182,-0.6281166748024857
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_vertebrae,vertebrae,0.06302121986621649,0.0020428706796254475,0.8274429308271481
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_radius_left,radius,0.055884811966949485,4.319469177124747e-4,0.8770353256772135
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_radius_right,radius,0.03693087991111171,-0.0015574967137443182,0.8770231831233453
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_ulna_right,ulna,0.02988539129067094,2.0043507612272916e-4,0.864964411455486
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_hands,hands,0.028352768766061943,-2.9029733474706586e-4,0.7186956389124594
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_foot,foot,0.02564923400770309,-5.422520268689865e-4,0.8179334469595032
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_scapula_right,scapula,0.022581114792230156,1.4549232928124455e-4,0.7988385450945814
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_clavicle_left,clavicle,0.021363286147703636,-2.4312344394116425e-4,0.8706451664098106
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_humerus_right,humerus,0.021230557976324838,-2.7636795339109515e-4,0.704791013267372
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_legs,legs,0.01976100892457376,7.39451693444249e-4,-0.0474666413723617
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_humerus_left,humerus,0.015400579748711165,4.974546440908559e-4,0.7996719787584917
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_pelvic,pelvic,0.015015611545774238,4.119956745331524e-4,0.600111530930831
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_clavicle_right,clavicle,0.010390765601885498,-0.00021267620620351004,0.7180848772313793
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_ribs,ribs,0.00995711091563657,-1.401242548268859e-4,0.15385438655767653
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_scapula_left,scapula,0.009403313979585838,3.363827128013764e-5,0.3140164010415196
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_ulna_left,ulna,0.00913302324372718,-3.2480499557865647e-6,0.6908860736340857
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_sternum,sternum,0.006333225752348729,2.2873288768757868e-4,0.4595256804474402
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_hyoid,hyoid,0.002177145163174423,-1.160833565721991e-5,0.3476828698999537
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_arms_indet,arms,0,0,NA
+fc_vs_rest,ReMNAU raw,Random forest,Funerary Context,ReMNAU_thorax_indet,thorax,0,0,NA

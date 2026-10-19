@@ -1,0 +1,2 @@
+rank_by_accuracy,.config,mean,std_err,n,cost_complexity,tree_depth,min_n,.metric,.estimator
+1,pre0_mod1_post0,0.6008454106280193,0.11677095238047905,3,7.112290547637765e-8,12,23,accuracy,binary

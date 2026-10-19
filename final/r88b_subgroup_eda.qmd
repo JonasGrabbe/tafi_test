@@ -40,6 +40,13 @@ random_vectors <- function(n) {
 ```
 
 
+```{r}
+#fc_rest best c(1,1,1,1,2,3,3,1,1,1,1)
+#4class best  c(1,1,1,3,4,1,1,2,1,3,1)
+#can_fc best  c(1,1,1,2,2,2,1,2,2,2,1)
+```
+
+
 
 
 ```{r}
@@ -50,9 +57,9 @@ excel_path <- "hspa.xlsx"
 system.time({
 levels_vec <- random_vectors(n = 1)
 for (lvl in levels_vec){
-  lvl= c(2,1,1,2,2,2,2,2,2,2,2)
+  lvl=   c(1,1,1,1,2,3,3,1,1,1,1)                         #c(2,1,1,2,2,2,2,2,2,2,2)
 
-tapho_db <- tapho.loader(excel_path,# sum=TRUE , 
+tapho_db <- tapho.loader(excel_path, #sum=FALSE , 
 level = lvl #, indet = FALSE#, indet_method = "delet"#, 
 #group_by = c( "cultural_period", "mis_stage","gender") ,
 #select = c("gender"="Indet") , 
@@ -134,8 +141,8 @@ colnames(tb)
 
 
 ```{r}
-source("rfe_randomforest_taphonomy.R")
-source("pca_funerary_surface_color.R")
+source("rfe_randomforest_taphonomy_02.R")
+source("pca_funerary_surface_color_02.R")
 #colnames(tb)
 #res <- run_rfe(tb, task_name = "fc_vs_rest")
 focus_sites <- c(
@@ -144,11 +151,12 @@ focus_sites <- c(
   "Bolomor Cave", "Cova de les Malladetes (Barx, Valencia, Spain)",
   "Cova del Parpalló (Parpalló Cave)", "Saint-Césaire",
   "Steinheim an der Murr", "Ochoz 1, Ochoz 2", "Peștera Muierii",
+  "Sima de los Huesos PNAS",
  "Sima de los Huesos 89"                                                           
 , "Sima de los Huesos 90"                                                           
 , "Sima de los Huesos 95"                                                           
-,"Sima de los Huesos 16"                                                           
-, "Sima de los Huesos 26"
+,"Sima de los Huesos 15"                                                           
+, "Sima de los Huesos 24"
 )
 
 res <- run_rfe(tb, task_name = "fc_vs_rest", unknown_sites = focus_sites)  # just these
@@ -172,9 +180,151 @@ run_eda(tb)
 
 
 ```{r}
+source("pca_funerary_surface_color.R")
+pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
+                       unknown_sites = focus_sites)
+```
+
+
+
+```{r}
+source("pca_funerary_surface_color.R")
+
+focus_sites_ind <- c("Bilzingsleben", "Bolomor IV-VI", 
+#"Carihuela", "CdF Adult",
+#  "CdF Juvenil", "Ceprano", "Engis 2", "Feldhofer Grotte",
+#  "La Naulette", "Malladetes", 
+  #"Mancos 5MT-10010 Feature 3","Mancos Yellow Jacket 5MT-3", 
+ # "PM I", "PM II", "Ochoz I", "Ochoz II",
+ # "Saint-Césaire", "Scladina", 
+ "SH-89", "SH-90", "SH-95", "SH-15","SH-24","SH-PNAS"
+ # "SH-98", "Steinheim", "WE A", "WE B", "WE C", "WE D",
+ # "WE E", "WE F", "WE G", "WE H"
+ )
+
+pr3_ind <- pca_surface_plotly_ind(
+  tb,
+  res,
+  n_features = 20,
+  task_name = "fc_vs_rest",
+  focus_class = "Funerary Context",
+  unknown_sites = focus_sites_ind,
+  label_var = "ind_name",
+  pc1_min = -4,
+  pc1_max =  4,
+  pc2_min = -4.2,
+  pc2_max =  4.2,
+  pc3_min = -4,
+  pc3_max =  4,
+  #iso_probs = c(0.25, 0.5, 0.75),
+  out_html = "pca_funerary_3d_ind.html"
+)
+```
+
+
+## Flexible 2D/3D RF surfaces in selected feature space
+
+The functions below use the same cross-validated RF-ensemble idea as the PCA
+surfaces, but the plotting coordinates are passed explicitly. Raw feature names
+can be replaced by `"PC1"`, `"PC2"`, `"PC3"` (or `"PCA1"`, etc.) to return to
+PCA coordinates.
+
+```{r}
+# 2D PNG: requested raw-feature surface
+pr_features_2d <- feature_surface_plot(
+  tb,
+  res,
+  task_name = "fc_vs_rest",
+  focus_class = "Funerary Context",
+  features = c(
+    "mnau_upper_appendicular_mean",
+    "all_sections_dominance"
+  ),
+  unknown_sites = focus_sites,
+  label_var = "site_name",
+  out_plot = "pca_funerary_surface.png"
+)
+
+# To reproduce the PCA-coordinate version with the same generalized function:
+# pr_pc_2d <- feature_surface_plot(
+#   tb, res,
+#   task_name = "fc_vs_rest",
+#   features = c("PC1", "PC2"),
+#   unknown_sites = focus_sites,
+#   out_plot = "pca_funerary_surface_pc12.png"
+# )
+```
+
+```{r}
+# 3D Plotly: requested three raw features
+pr_features_3d <- feature_surface_plotly(
+  tb,
+  res,
+  task_name = "fc_vs_rest",
+  focus_class = "Funerary Context",
+  features = c(
+    "mnau_upper_appendicular_mean",
+    "all_sections_dominance",
+    "mnau_vertebrae_to_thorax_ratio"
+  ),
+  unknown_sites = focus_sites,
+  label_var = "site_name",
+  iso_probs = c(0.5),
+  out_html = "funerary_surface_3d_features.html"
+)
+
+# PCA alternative:
+# pr_pc_3d <- feature_surface_plotly(
+#   tb, res,
+#   task_name = "fc_vs_rest",
+#   features = c("PC1", "PC2", "PC3"),
+#   unknown_sites = focus_sites,
+#   out_html = "funerary_surface_3d_pc123.html"
+# )
+```
+
+```{r}
+# Ordered Sima de los Huesos curve.
+# The natural cubic spline passes through the specimens in exactly this order.
+# P(Funerary Context) is predicted at every interpolated position and encoded
+# as the blue -> white -> red colour gradient along the curve.
+sima_curve_order <- c(
+  "Sima de los Huesos 89",
+  "Sima de los Huesos 90",
+  "Sima de los Huesos 95",
+  "Sima de los Huesos 15",
+  "Sima de los Huesos 24"
+)
+
+sima_curve_3d <- feature_probability_curve_plotly(
+  tb,
+  res,
+  ordered_samples = sima_curve_order,
+  sample_var = "site_name",
+  task_name = "fc_vs_rest",
+  focus_class = "Funerary Context",
+  features = c("PC1", "PC2", "PC3"),
+  #features = c(
+  #  "mnau_upper_appendicular_mean",
+  #  "all_sections_dominance",
+  #  "mnau_vertebrae_to_thorax_ratio"
+  #),
+  curve_n = 121,
+  out_html = "sima_funerary_probability_curve_3d_pca.html"
+)
+
+sima_curve_3d$anchor_table
+```
+
+
+```{r}
 
 ```
 
+
+```{r}
+
+```
 
 
 

@@ -1,0 +1,165 @@
+site_id,site_name,layer_name,taphonomic_context,funerary_context,assignment_site_name,C_group,C_description,G_group,G_description,assignment_found,site_name_agrees
+1,Abri Pataud,Level 2,Funerary Context,Collective burial (Secondary deposit),Abri Pataud,C2,Low C / intermediate evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+2,Aie Zelai,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+3,Aitzgaizto,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+4,Allekoaitze,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+5,Amud Cave,Layer B,Funerary Context,Inhumation single,Amud Cave,C4,High C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+6,Arago,Gs1,Cannibalism,NA,Arago,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+6,Arago,Gm2,Cannibalism,NA,Arago,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+6,Arago,Gm3,Cannibalism,NA,Arago,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+6,Arago,Gi4,Cannibalism,NA,Arago,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+6,Arago,Fm3,Cannibalism,NA,Arago,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+6,Arago,Fm4,Cannibalism,NA,Arago,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+6,Arago,Fi,Cannibalism,NA,Arago,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+7,Arbelaitz,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+8,Archi,Geological layer C-3,Geological transport,NA,Archi,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+9,Atxuri-I Cave,NA,Funerary Context,Possible burial,Atxuri-I Cave,C2,Low C / intermediate evenness,G2,"Structured mortuary placement, no formal interment",TRUE,TRUE
+10,Baousso da Torre (Bausu da Ture),Upper Paleolithic deposits,Funerary Context,Inhumation single,Baousso da Torre (Bausu da Ture),C4,High C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+11,Belako Arkaitza 1,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+12,Beondegi II,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+13,Bilzingsleben,Fundschicht A,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+14,Bolomor Cave,Level  IV-VI,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+15,Brillenhöhle,Layer IV,Cannibalism,NA,Brillenhöhle,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+16,Brno II,NA,Funerary Context,Inhumation single,Brno II,C1,Low C / low evenness,G5,Formal single inhumation,TRUE,TRUE
+17,Cueva de la Carigüela,Units XI–VI,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+19,Ceprano,NA,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+20,Abri de Raymonden (Chancelade),NA,Funerary Context,Inhumation single,Abri de Raymonden (Chancelade),C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+21,Combe Grenal,Couche 25,Cannibalism,NA,Combe Grenal,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+22,Cova del Parpalló (Parpalló Cave),NA,Unkown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+23,Cova Gran de Santa Linya,NA,Funerary Context,Inhumation single,Cova Gran de Santa Linya,C4,High C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+24,Cro-Magnon I,Unit J,Funerary Context,Collective burial,Cro-Magnon I,C1,Low C / low evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+25,Crow Creek,Fortification ditch fill,Funerary Context,Collective burial,Crow Creek,C2,Low C / intermediate evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+26,Cueva de la Buena Pinta,Nivel 3,Carnivore,Carnivore den (transport),NA,NA,NA,NA,NA,FALSE,TRUE
+27,Cueva del Camino,NA,Carnivore,Carnivore den (transport),NA,NA,NA,NA,NA,FALSE,TRUE
+28,Dali Tianshuigou,Level 3,Geological transport,NA,Dali Tianshuigou,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+29,Dame du Cavillon,NA,Funerary Context,Inhumation single,Dame du Cavillon,C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+30,Dolní Věstonice II,NA,Funerary Context,Inhumation single; Inhumation multiple (Triple burial),Dolní Věstonice II,C5,Very high C / high evenness,G4,Formal non-single / mixed funerary treatment,TRUE,TRUE
+31,Dolní Věstonice I,NA,Funerary Context,Inhumation single,Dolní Věstonice I,C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+32,El Espinoso Cave,Sala de los Muertos,Funerary Context,Collective burial,El Espinoso Cave,C3,Intermediate C / high evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+33,El Mirador,MIR4,Cannibalism,NA,El Mirador,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+34,El Mirón Cave,Level 114,Funerary Context,Inhumation single,El Mirón Cave,C3,Intermediate C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+35,El Sidrón J1,Galería del Osario,Cannibalism,NA,El Sidrón J1,C5,Very high C / high evenness,G1,Human non-funerary processing,TRUE,TRUE
+36,Engis / Schmerling Cave,Layer 2,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+37,Erlaitz,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+38,Errtxorta,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+39,Kleine Feldhofer Grotte,NA,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+40,Grotte de Fontbrégoua,H1,Cannibalism,NA,Grotte de Fontbrégoua,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+41,Grotte de Fontbrégoua,H3,Cannibalism,NA,Grotte de Fontbrégoua,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),NA,Carnivore,Carnivore Scavenge (in situ),Première Caverne du Bay-Bonnet (Fonds-de-Forêt),C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+43,Cova Foradada,NA,Funerary Context,Cremation,Cova Foradada,C3,Intermediate C / high evenness,G4,Formal non-single / mixed funerary treatment,TRUE,TRUE
+44,Cova Foradada,NA,Funerary Context,Collective burial,Cova Foradada,C3,Intermediate C / high evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+45,Cova del Gegant,Unit II,Carnivore,Carnivore den(transport),Cova del Gegant,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+46,Gough's Cave,NA,Cannibalism,NA,Gough's Cave,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+47,Troisième caverne of Goyet,FBL 2 and 3,Cannibalism,NA,Troisième caverne of Goyet,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+47,Troisième caverne of Goyet,FBL 2 and 4,Cannibalism,NA,Troisième caverne of Goyet,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+48,Gran Dolina,TD6,Cannibalism,NA,Gran Dolina,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",NA,Carnivore,NA,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+50,Grotte du Bison (Arcy-sur-Cure),Level I,Carnivore den(transport),NA,Grotte du Bison (Arcy-sur-Cure),C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Middle Palaeolithic sequence(9–10; 17–18; 22),Carnivore,NA,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+52,Grotta Guattari,Laghetto,Carnivore,Carnivore den(transport),Grotta Guattari,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+53,Hahnöfersand,Glacial river sands,Geological transport,NA,Hahnöfersand,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+54,Hathnora,NA,Geological transport,NA,Hathnora,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+55,Herxheim,Deposit K,Cannibalism,NA,Herxheim,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+56,Hohlenstein-Stadel,NA,Carnivore,Carnivore Scavenge (in situ),Hohlenstein-Stadel,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+57,Jarama VI rockshelter,Level 2,Carnivore,Carnivore Scavenge (in situ),Jarama VI rockshelter,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+58,Kajiado,NA,Carnivore,Carnivore den(transport),Kajiado,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+59,Kalamakia,Unit IV,Carnivore,Carnivore Scavenge (in situ),Kalamakia,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+60,Kebara Cave,Unit XI,Funerary Context,Inhumation single,Kebara Cave,C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+61,Kiik-Koba,Layer IV - VI,Funerary Context,Inhumation single,Kiik-Koba,C4,High C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+62,Koba Lotx,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+63,Koba Zarra,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+64,Kobazar,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+65,Krapina,Primarily levels 3 and 4,Cannibalism,NA,Krapina,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+66,La Chapelle-aux-Saints,Mousterian layer,Funerary Context,Inhumation single,La Chapelle-aux-Saints,C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+67,La Ferrassie,Lower Mousterian layers,Funerary Context,Inhumation single; Collective burial,La Ferrassie,C4,High C / intermediate evenness,G4,Formal non-single / mixed funerary treatment,TRUE,TRUE
+68,Trou de la Naulette,Level 3,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+69,La Quina,Mousterian levels,Funerary Context,No inhumation,La Quina,C1,Low C / low evenness,G2,"Structured mortuary placement, no formal interment",TRUE,TRUE
+70,La Tolita Cama de Huesos,Tardío,Funerary Context,Collective burial,La Tolita Cama de Huesos,C4,High C / intermediate evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+71,Abrigo do Lagar Velho,NA,Funerary Context,Inhumation single,Abrigo do Lagar Velho,C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+72,Larrabiel,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+73,Le Moustier I,Upper Shelter (Couche K),Funerary Context,Inhumation single,Le Moustier I,C4,High C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+74,Le Moustier II,Lower Shelter (Couche J),Funerary Context,Inhumation single,Le Moustier II,C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+75,Le Placard,Grotte du Placard,Cannibalism,NA,Le Placard,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+76,Les Pradelles (Marillac-le-Franc),Layers 9 and 10,Carnivore,NA,Les Pradelles (Marillac-le-Franc),C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+77,Les Rochers-de-Villeneuve,Level J,Carnivore Scavenge (in situ),NA,Les Rochers-de-Villeneuve,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+78,Grotte des Hoteaux,NA,Funerary Context,Inhumation single,Grotte des Hoteaux,C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+79,Cueva de Malalmuerzo,NA,Cannibalism,NA,Cueva de Malalmuerzo,C4,High C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+81,Mancos 5MT-10010 Feature 3,NA,Cannibalism,No inhumation,Mancos 5MT-10010 Feature 3,C3,Intermediate C / high evenness,G1,Human non-funerary processing,TRUE,TRUE
+82,Yellow Jacket 5MT-3,NA,Cannibalism,No inhumation,Yellow Jacket 5MT-3,C3,Intermediate C / high evenness,G1,Human non-funerary processing,TRUE,TRUE
+83,Manot Cave,Area E,Disarticulated within occupation layers,No inhumation,Manot Cave,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+84,Marizulo I,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+85,Maszycka Cave,NA,Cannibalism,NA,Maszycka Cave,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+86,Mauer,Lower Sands,Geological transport,NA,Mauer,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+87,Mladeč Caves,Chamber D,Funerary Context,Funerary caching,Mladeč Caves,C2,Low C / intermediate evenness,G2,"Structured mortuary placement, no formal interment",TRUE,TRUE
+88,Mojokerto,Pucangan Formation,Geological transport,NA,Mojokerto,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+89,Los Moros de Gabasa,Level E-F,Carnivore,Carnivore den(transport),Los Moros de Gabasa,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+90,Moula-Guercy,Layer XV,Cannibalism,NA,Moula-Guercy,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+91,Mugharet es-Skhul,Layer B,Funerary Context,Inhumation single,Mugharet es-Skhul,C4,High C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+92,Peștera Muierii,Gravettian layers,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+93,Naparraitz I,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+94,Netankheri,Fluvial gravely sand bed,Geological transport,NA,Netankheri,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+95,Ngandong,High Terrace deposits of the Solo river,Geological transport,NA,Ngandong,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+96,Ngawi,Selopuro left river bank,Geological transport,NA,Ngawi,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+97,Oberkassel,NA,Funerary Context,Inhumation multiple,Oberkassel,C5,Very high C / high evenness,G4,Formal non-single / mixed funerary treatment,TRUE,TRUE
+98,Ochoz 1,Švédův stůl Cave,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+98,Ochoz 2,Švédův stůl Cave,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+99,Ojo Guareña,NA,Funerary Context,No inhumation,Ojo Guareña,C5,Very high C / high evenness,G2,"Structured mortuary placement, no formal interment",TRUE,TRUE
+100,Olatzazpi,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+101,Otalora,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+102,Goat’s Hole (Paviland Cave),NA,Funerary Context,Inhumation single,Goat’s Hole (Paviland Cave),C4,High C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+103,Pavlov I,NA,Funerary Context,Inhumation single,Pavlov I,C4,High C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+104,Grotte des Perrats,Couche 3,Cannibalism,NA,Grotte des Perrats,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+105,Pikandita,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+106,Předmostí,NA,Funerary Context,Collective burial,Předmostí,C4,High C / intermediate evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+107,Qafzeh Cave,Layer XVI to XXIII,Funerary Context,Inhumation single; Inhumation multiple,Qafzeh Cave,C4,High C / intermediate evenness,G4,Formal non-single / mixed funerary treatment,TRUE,TRUE
+108,Regourdou,Tumulus IVA at Level IV,Funerary Context,Inhumation single,Regourdou,C4,High C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+109,Reilingen,Gravel pit sequence,Geological transport,NA,Reilingen,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Dark grey layer,Funerary Context,No inhumation,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",C5,Very high C / high evenness,G2,"Structured mortuary placement, no formal interment",TRUE,TRUE
+111,Roc de Marsal,Layer 4,Funerary Context,Inhumation single,Roc de Marsal,C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+112,Roc de les Orenetes,NA,Funerary Context,Collective burial,Roc de les Orenetes,C3,Intermediate C / high evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+113,Saccopastore,NA,Geological transport,NA,Saccopastore,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+114,Saint-Césaire,Couche châtelperronien,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Terrasse supérieure,Funerary Context,Inhumation single,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),C4,High C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+116,Sambungmacan,Solo River alluvium,Geological transport,NA,Sambungmacan,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+117,San Juan ante Portam Latinam,NA,Funerary Context,Collective burial,San Juan ante Portam Latinam,C4,High C / intermediate evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+118,Coves de Santa Maira,Level SM-3,Cannibalism,NA,Coves de Santa Maira,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+118,Coves de Santa Maira,Level SM-4,Cannibalism,NA,Coves de Santa Maira,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+119,Scladina Cave,Layer 4A,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+120,Shanidar Cave,Layer D,Funerary Context,Inhumation multiple,Shanidar Cave,C4,High C / intermediate evenness,G4,Formal non-single / mixed funerary treatment,TRUE,TRUE
+121,Sima de las Palomas,"Upper stratigraphic levels (including ""Conglomerado B"") and lower levels 5 and 6",Funerary Context,Collective burial,Sima de las Palomas,C5,Very high C / high evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+175,Sima de los Huesos PNAS,NA,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+122,Sima de los Huesos 89,NA,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+123,Sima de los Huesos 90,NA,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+124,Sima de los Huesos 95,NA,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+125,Sima de los Huesos 15,NA,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+126,Sima de los Huesos 24,NA,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+127,Sorginzulo,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+128,Spy cave,3rd Ossiferous Horizon,Unkown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+129,Steinheim an der Murr,Antiquus-Schotter,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+130,Sunghir,NA,Funerary Context,Inhumation multiple,Sunghir,C4,High C / intermediate evenness,G4,Formal non-single / mixed funerary treatment,TRUE,TRUE
+131,Tabun Cave (Mugharet et-Tabun),Layer C,Funerary Context,Inhumation single,Tabun Cave (Mugharet et-Tabun),C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+132,Tepecik-Çiftlik,Level 5 (BB structure),Funerary Context,Collective burial,Tepecik-Çiftlik,C5,Very high C / high evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+133,Teshik-Tash Cave,Layer I,Funerary Context,Inhumation single,Teshik-Tash Cave,C2,Low C / intermediate evenness,G5,Formal single inhumation,TRUE,TRUE
+134,Cueva de los Torrejones,NA,Funerary Context,"Collective burial (The paper refers to ""funerary purposes"" in the plural, implying more than one individual, and the context of other regional sites suggests collective use of caves for burial.)",Cueva de los Torrejones,C2,Low C / intermediate evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+135,Txispiri,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+136,Txomen Koba Erdikua,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+137,Txotxinkoba Cave,NA,Sepulchral Cave,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+138,Urdabide II,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+139,Urtiaga,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+140,Uxar,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+141,Vado all'Arancio,NA,Funerary Context,Inhumation single,Vado all'Arancio,C5,Very high C / high evenness,G5,Formal single inhumation,TRUE,TRUE
+142,Valdegoba Cave,Level 5,Carnivore,Carnivore den (transport),Valdegoba Cave,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+142,Valdegoba Cave,Level 6,Carnivore,Carnivore den (transport),Valdegoba Cave,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+142,Valdegoba Cave,Level 8,Carnivore,Carnivore den (transport),Valdegoba Cave,C1,Low C / low evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",NA,Carnivore Scavenge (in situ),NA,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",C2,Low C / intermediate evenness,G0,Natural / non-human accumulation,TRUE,TRUE
+144,Vindija,Fd/d,Cannibalism,NA,Vindija,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+145,Vindija,G1,Cannibalism,NA,Vindija,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+146,Vindija,G3,Cannibalism,NA,Vindija,C1,Low C / low evenness,G1,Human non-funerary processing,TRUE,TRUE
+147,Vunda Locus,26M,Cannibalism,NA,Vunda Locus,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+147,Vunda Locus,26H,Cannibalism,NA,Vunda Locus,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+148,Weimar-Ehringsdorf,Lower Travertine,Unknown,NA,NA,NA,NA,NA,NA,FALSE,TRUE
+149,Xemxija tombs,NA,Funerary Context,Collective burial,Xemxija tombs,C3,Intermediate C / high evenness,G3,Collective / secondary funerary deposition,TRUE,TRUE
+150,Boquete de Zafarraya,Units UG–UE,Cannibalism,NA,Boquete de Zafarraya,C2,Low C / intermediate evenness,G1,Human non-funerary processing,TRUE,TRUE
+151,Zelaibizkar I,NA,Cuevas Sepulcrales,NA,NA,NA,NA,NA,NA,FALSE,TRUE

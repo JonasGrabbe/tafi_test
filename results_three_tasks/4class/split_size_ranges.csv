@@ -1,0 +1,4 @@
+stage,training_rows_min,training_rows_max,training_rows_mean,assessment_rows_min,assessment_rows_max,assessment_rows_mean,training_parents_min,training_parents_max,training_parents_mean,assessment_parents_min,assessment_parents_max,assessment_parents_mean
+final_tuning,73,77,75,23,27,25,71,73,72,23,25,24
+inner_validation,54,65,60,17,25,20,54,61,57.6,17,21,19.2
+outer_test,75,83,80,17,25,20,75,79,76.8,17,21,19.2

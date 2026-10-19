@@ -1,0 +1,38 @@
+Task,Task_label,secondary_context,n,class_n,percent_within_task_class
+4class,Cannibalism,Cannibalism,25,25,100
+4class,Carnivore,Carnivore,17,17,100
+4class,Funerary Context,Collective burial,12,49,24.489795918367346
+4class,Funerary Context,Collective-secondary,1,49,2.0408163265306123
+4class,Funerary Context,Cremation,1,49,2.0408163265306123
+4class,Funerary Context,Funerary caching,1,49,2.0408163265306123
+4class,Funerary Context,Multiple inhumation,3,49,6.122448979591836
+4class,Funerary Context,No inhumation,3,49,6.122448979591836
+4class,Funerary Context,Possible burial,1,49,2.0408163265306123
+4class,Funerary Context,Single + collective,1,49,2.0408163265306123
+4class,Funerary Context,Single + multiple,2,49,4.081632653061225
+4class,Funerary Context,Single inhumation,24,49,48.97959183673469
+4class,Geological transport,Geological transport,12,12,100
+cannibalism_vs_fc,Cannibalism,Cannibalism,25,25,100
+cannibalism_vs_fc,Funerary Context,Collective burial,12,49,24.489795918367346
+cannibalism_vs_fc,Funerary Context,Collective-secondary,1,49,2.0408163265306123
+cannibalism_vs_fc,Funerary Context,Cremation,1,49,2.0408163265306123
+cannibalism_vs_fc,Funerary Context,Funerary caching,1,49,2.0408163265306123
+cannibalism_vs_fc,Funerary Context,Multiple inhumation,3,49,6.122448979591836
+cannibalism_vs_fc,Funerary Context,No inhumation,3,49,6.122448979591836
+cannibalism_vs_fc,Funerary Context,Possible burial,1,49,2.0408163265306123
+cannibalism_vs_fc,Funerary Context,Single + collective,1,49,2.0408163265306123
+cannibalism_vs_fc,Funerary Context,Single + multiple,2,49,4.081632653061225
+cannibalism_vs_fc,Funerary Context,Single inhumation,24,49,48.97959183673469
+fc_vs_rest,Funerary Context,Collective burial,12,49,24.489795918367346
+fc_vs_rest,Funerary Context,Collective-secondary,1,49,2.0408163265306123
+fc_vs_rest,Funerary Context,Cremation,1,49,2.0408163265306123
+fc_vs_rest,Funerary Context,Funerary caching,1,49,2.0408163265306123
+fc_vs_rest,Funerary Context,Multiple inhumation,3,49,6.122448979591836
+fc_vs_rest,Funerary Context,No inhumation,3,49,6.122448979591836
+fc_vs_rest,Funerary Context,Possible burial,1,49,2.0408163265306123
+fc_vs_rest,Funerary Context,Single + collective,1,49,2.0408163265306123
+fc_vs_rest,Funerary Context,Single + multiple,2,49,4.081632653061225
+fc_vs_rest,Funerary Context,Single inhumation,24,49,48.97959183673469
+fc_vs_rest,Rest,Cannibalism,25,54,46.2962962962963
+fc_vs_rest,Rest,Carnivore,17,54,31.48148148148148
+fc_vs_rest,Rest,Geological transport,12,54,22.22222222222222

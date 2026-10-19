@@ -1,0 +1,9 @@
+task,target,rows,parents
+4class,Cannibalism,25,22
+4class,Carnivore,14,14
+4class,Funerary Context,49,48
+4class,Geological transport,12,12
+cannibalism_vs_fc,Cannibalism,25,22
+cannibalism_vs_fc,Funerary Context,49,48
+fc_vs_rest,Rest,55,52
+fc_vs_rest,Funerary Context,49,48

@@ -1,0 +1,14 @@
+age_norm,n,dataset,pct
+Adult,53,SUM,34.86842105263158
+Indeterminate,28,SUM,18.42105263157895
+Infant,5,SUM,3.289473684210526
+Juvenile,6,SUM,3.9473684210526314
+Mixed,55,SUM,36.18421052631579
+Subadult,5,SUM,3.289473684210526
+Adult,148,IND subdivisions,49.66442953020134
+Indeterminate,23,IND subdivisions,7.718120805369128
+Infant,34,IND subdivisions,11.409395973154362
+Juvenile,55,IND subdivisions,18.456375838926174
+Mixed,5,IND subdivisions,1.6778523489932886
+Mixed juvenile/subadult,1,IND subdivisions,0.33557046979865773
+Subadult,32,IND subdivisions,10.738255033557047

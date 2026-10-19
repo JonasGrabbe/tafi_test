@@ -1,0 +1,3 @@
+Run started: 2026-09-10 16:05:41.146228
+Working directory: C:/Users/jonas.grabbe/tafi_test-2
+Input: C:/Users/jonas.grabbe/tafi_test-2/final/tapho_db_sum.csv

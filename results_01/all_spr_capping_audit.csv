@@ -1,0 +1,14 @@
+.source_row,site_name,predictor,uncapped_value,original_value,adjusted_value,discarded_mass,reason
+322,Cro-Magnon I,ProportionalRep_MNIbased_pelvic,1.5,1.5,1,0.5,already_above_one_in_input
+323,Crow Creek,ProportionalRep_MNIbased_pelvic,1.593103448275862,1.593103448275862,1,0.5931034482758619,already_above_one_in_input
+337,Kleine Feldhofer Grotte,ProportionalRep_MNIbased_pelvic,1.5,1.5,1,0.5,already_above_one_in_input
+358,Kebara Cave,ProportionalRep_MNIbased_humerus_right,1.25,,1,0.25,bilateral_allocation
+377,Cueva de Malalmuerzo,ProportionalRep_MNIbased_cranium,5.5,5.5,1,4.5,already_above_one_in_input
+397,Ojo Guareña,ProportionalRep_MNIbased_humerus_right,1.25,,1,0.25,bilateral_allocation
+397,Ojo Guareña,ProportionalRep_MNIbased_ulna_right,1.25,,1,0.25,bilateral_allocation
+402,Grotte des Perrats,ProportionalRep_MNIbased_cranium,1.375,1.375,1,0.375,already_above_one_in_input
+422,Sima de los Huesos 95,ProportionalRep_MNIbased_cranium,1.1875,1.1875,1,0.1875,already_above_one_in_input
+422,Sima de los Huesos 95,ProportionalRep_MNIbased_pelvic,1.125,1.125,1,0.125,already_above_one_in_input
+423,Sima de los Huesos 15,ProportionalRep_MNIbased_pelvic,1.1071428571428572,1.1071428571428572,1,0.1071428571428572,already_above_one_in_input
+424,Sima de los Huesos 24,ProportionalRep_MNIbased_pelvic,1.0689655172413792,1.0689655172413792,1,0.06896551724137923,already_above_one_in_input
+450,Sima de los Huesos PNAS,ProportionalRep_MNIbased_pelvic,1.2,1.2,1,0.19999999999999996,already_above_one_in_input

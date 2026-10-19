@@ -1,0 +1,4 @@
+Run started: 2026-09-11 18:18:36.287567
+Working directory: C:/Users/jonas.grabbe/tafi_test-2
+Input: final/tapho_db_sum.csv
+Output: C:/Users/jonas.grabbe/tafi_test-2/fc_vs_rest_5group_pseudounknown_R_outputs

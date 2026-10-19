@@ -1,0 +1,11 @@
+.source_row,site_name,predictor,original_value
+322,Cro-Magnon I,ProportionalRep_MNIbased_pelvic,1.5
+323,Crow Creek,ProportionalRep_MNIbased_pelvic,1.593103448275862
+337,Kleine Feldhofer Grotte,ProportionalRep_MNIbased_pelvic,1.5
+377,Cueva de Malalmuerzo,ProportionalRep_MNIbased_cranium,5.5
+402,Grotte des Perrats,ProportionalRep_MNIbased_cranium,1.375
+422,Sima de los Huesos 95,ProportionalRep_MNIbased_cranium,1.1875
+422,Sima de los Huesos 95,ProportionalRep_MNIbased_pelvic,1.125
+423,Sima de los Huesos 15,ProportionalRep_MNIbased_pelvic,1.1071428571428572
+424,Sima de los Huesos 24,ProportionalRep_MNIbased_pelvic,1.0689655172413792
+450,Sima de los Huesos PNAS,ProportionalRep_MNIbased_pelvic,1.2

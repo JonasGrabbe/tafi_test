@@ -1,0 +1,24 @@
+Feature_space,Cluster,Cannibalism,Carnivore-related,Funerary,Geological transport
+C only,1,23,17,20,12
+C only,2,2,0,29,0
+Heip evenness only,1,13,14,3,12
+Heip evenness only,2,8,3,22,0
+Heip evenness only,3,4,0,24,0
+C + Heip evenness,1,12,14,3,12
+C + Heip evenness,2,9,3,6,0
+C + Heip evenness,3,2,0,6,0
+C + Heip evenness,4,1,0,17,0
+C + Heip evenness,5,1,0,17,0
+%MNAU raw,1,24,17,15,12
+%MNAU raw,2,1,0,34,0
+ReMNAU raw,1,0,4,0,0
+ReMNAU raw,2,18,9,5,11
+ReMNAU raw,3,2,2,2,1
+ReMNAU raw,4,1,0,0,0
+ReMNAU raw,5,1,2,12,0
+ReMNAU raw,6,0,0,1,0
+ReMNAU raw,7,3,0,29,0
+Engineered,1,20,16,7,12
+Engineered,2,5,1,42,0
+Combined,1,23,17,12,12
+Combined,2,2,0,37,0

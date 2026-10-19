@@ -1,0 +1,1401 @@
+task,feature_space,record_id,site_name,class,probability,model_probability_sd,n_models
+4class,%MNAU raw,2,Aie Zelai,Cannibalism,0.3983783151345855,NA,4
+4class,%MNAU raw,2,Aie Zelai,Carnivore,0.23465568961523328,NA,4
+4class,%MNAU raw,2,Aie Zelai,Funerary Context,0.16429340605345966,NA,4
+4class,%MNAU raw,2,Aie Zelai,Geological transport,0.20267258919672157,NA,4
+4class,%MNAU raw,3,Aitzgaizto,Cannibalism,0.47257267121545543,NA,4
+4class,%MNAU raw,3,Aitzgaizto,Carnivore,0.1046530120762158,NA,4
+4class,%MNAU raw,3,Aitzgaizto,Funerary Context,0.3394269946444442,NA,4
+4class,%MNAU raw,3,Aitzgaizto,Geological transport,0.08334732206388454,NA,4
+4class,%MNAU raw,4,Allekoaitze,Cannibalism,0.48223615649007523,NA,4
+4class,%MNAU raw,4,Allekoaitze,Carnivore,0.24257752614192774,NA,4
+4class,%MNAU raw,4,Allekoaitze,Funerary Context,0.10171011082323514,NA,4
+4class,%MNAU raw,4,Allekoaitze,Geological transport,0.1734762065447619,NA,4
+4class,%MNAU raw,7,Arbelaitz,Cannibalism,0.26114261282797735,NA,4
+4class,%MNAU raw,7,Arbelaitz,Carnivore,0.23622951697089034,NA,4
+4class,%MNAU raw,7,Arbelaitz,Funerary Context,0.0665522064686485,NA,4
+4class,%MNAU raw,7,Arbelaitz,Geological transport,0.43607566373248385,NA,4
+4class,%MNAU raw,11,Belako Arkaitza 1,Cannibalism,0.6474725606094613,NA,4
+4class,%MNAU raw,11,Belako Arkaitza 1,Carnivore,0.07523355878903797,NA,4
+4class,%MNAU raw,11,Belako Arkaitza 1,Funerary Context,0.2061752482713712,NA,4
+4class,%MNAU raw,11,Belako Arkaitza 1,Geological transport,0.07111863233012947,NA,4
+4class,%MNAU raw,12,Beondegi II,Cannibalism,0.5089859520123476,NA,4
+4class,%MNAU raw,12,Beondegi II,Carnivore,0.18124352183505027,NA,4
+4class,%MNAU raw,12,Beondegi II,Funerary Context,0.12443509903496562,NA,4
+4class,%MNAU raw,12,Beondegi II,Geological transport,0.18533542711763645,NA,4
+4class,%MNAU raw,37,Erlaitz,Cannibalism,0.5731432069933446,NA,4
+4class,%MNAU raw,37,Erlaitz,Carnivore,0.12671348114439668,NA,4
+4class,%MNAU raw,37,Erlaitz,Funerary Context,0.10758293081985455,NA,4
+4class,%MNAU raw,37,Erlaitz,Geological transport,0.1925603810424041,NA,4
+4class,%MNAU raw,38,Errtxorta,Cannibalism,0.5667227677396843,NA,4
+4class,%MNAU raw,38,Errtxorta,Carnivore,0.11293129863034099,NA,4
+4class,%MNAU raw,38,Errtxorta,Funerary Context,0.21271354927496428,NA,4
+4class,%MNAU raw,38,Errtxorta,Geological transport,0.10763238435501045,NA,4
+4class,%MNAU raw,62,Koba Lotx,Cannibalism,0.37898100315289357,NA,4
+4class,%MNAU raw,62,Koba Lotx,Carnivore,0.3016205381691781,NA,4
+4class,%MNAU raw,62,Koba Lotx,Funerary Context,0.1218898277880886,NA,4
+4class,%MNAU raw,62,Koba Lotx,Geological transport,0.19750863088983975,NA,4
+4class,%MNAU raw,63,Koba Zarra,Cannibalism,0.5982561038690768,NA,4
+4class,%MNAU raw,63,Koba Zarra,Carnivore,0.1701444772434127,NA,4
+4class,%MNAU raw,63,Koba Zarra,Funerary Context,0.14445465814155736,NA,4
+4class,%MNAU raw,63,Koba Zarra,Geological transport,0.08714476074595318,NA,4
+4class,%MNAU raw,64,Kobazar,Cannibalism,0.4786514683912795,NA,4
+4class,%MNAU raw,64,Kobazar,Carnivore,0.1585874250808534,NA,4
+4class,%MNAU raw,64,Kobazar,Funerary Context,0.1119657922597223,NA,4
+4class,%MNAU raw,64,Kobazar,Geological transport,0.25079531426814483,NA,4
+4class,%MNAU raw,72,Larrabiel,Cannibalism,0.5546673793761641,NA,4
+4class,%MNAU raw,72,Larrabiel,Carnivore,0.2114000903363284,NA,4
+4class,%MNAU raw,72,Larrabiel,Funerary Context,0.10024608261040203,NA,4
+4class,%MNAU raw,72,Larrabiel,Geological transport,0.13368644767710555,NA,4
+4class,%MNAU raw,84,Marizulo I,Cannibalism,0.2570092963936011,NA,4
+4class,%MNAU raw,84,Marizulo I,Carnivore,0.048039229366861565,NA,4
+4class,%MNAU raw,84,Marizulo I,Funerary Context,0.652492018179596,NA,4
+4class,%MNAU raw,84,Marizulo I,Geological transport,0.04245945605994129,NA,4
+4class,%MNAU raw,93,Naparraitz I,Cannibalism,0.43259253789300467,NA,4
+4class,%MNAU raw,93,Naparraitz I,Carnivore,0.24385844644374505,NA,4
+4class,%MNAU raw,93,Naparraitz I,Funerary Context,0.16089655456758756,NA,4
+4class,%MNAU raw,93,Naparraitz I,Geological transport,0.16265246109566275,NA,4
+4class,%MNAU raw,100,Olatzazpi,Cannibalism,0.2268642853139573,NA,4
+4class,%MNAU raw,100,Olatzazpi,Carnivore,0.2879476886291159,NA,4
+4class,%MNAU raw,100,Olatzazpi,Funerary Context,0.07133648606849897,NA,4
+4class,%MNAU raw,100,Olatzazpi,Geological transport,0.4138515399884279,NA,4
+4class,%MNAU raw,101,Otalora,Cannibalism,0.48419008896152144,NA,4
+4class,%MNAU raw,101,Otalora,Carnivore,0.2150637454965088,NA,4
+4class,%MNAU raw,101,Otalora,Funerary Context,0.09318104056389141,NA,4
+4class,%MNAU raw,101,Otalora,Geological transport,0.20756512497807833,NA,4
+4class,%MNAU raw,105,Pikandita,Cannibalism,0.5247483246759228,NA,4
+4class,%MNAU raw,105,Pikandita,Carnivore,0.08644633565902642,NA,4
+4class,%MNAU raw,105,Pikandita,Funerary Context,0.2964926783522716,NA,4
+4class,%MNAU raw,105,Pikandita,Geological transport,0.09231266131277914,NA,4
+4class,%MNAU raw,127,Sorginzulo,Cannibalism,0.6579602010496051,NA,4
+4class,%MNAU raw,127,Sorginzulo,Carnivore,0.10596836211820292,NA,4
+4class,%MNAU raw,127,Sorginzulo,Funerary Context,0.1674428658382324,NA,4
+4class,%MNAU raw,127,Sorginzulo,Geological transport,0.06862857099395966,NA,4
+4class,%MNAU raw,135,Txispiri,Cannibalism,0.2868766297002542,NA,4
+4class,%MNAU raw,135,Txispiri,Carnivore,0.04730095450362234,NA,4
+4class,%MNAU raw,135,Txispiri,Funerary Context,0.615586450161913,NA,4
+4class,%MNAU raw,135,Txispiri,Geological transport,0.05023596563421039,NA,4
+4class,%MNAU raw,136,Txomen Koba Erdikua,Cannibalism,0.5102202216467813,NA,4
+4class,%MNAU raw,136,Txomen Koba Erdikua,Carnivore,0.18462460690672328,NA,4
+4class,%MNAU raw,136,Txomen Koba Erdikua,Funerary Context,0.17188654383853752,NA,4
+4class,%MNAU raw,136,Txomen Koba Erdikua,Geological transport,0.133268627607958,NA,4
+4class,%MNAU raw,137,Txotxinkoba Cave,Cannibalism,0.41466896249787094,NA,4
+4class,%MNAU raw,137,Txotxinkoba Cave,Carnivore,0.07106579211981742,NA,4
+4class,%MNAU raw,137,Txotxinkoba Cave,Funerary Context,0.4530302210121339,NA,4
+4class,%MNAU raw,137,Txotxinkoba Cave,Geological transport,0.061235024370177735,NA,4
+4class,%MNAU raw,138,Urdabide II,Cannibalism,0.21154388244444045,NA,4
+4class,%MNAU raw,138,Urdabide II,Carnivore,0.09735886898896122,NA,4
+4class,%MNAU raw,138,Urdabide II,Funerary Context,0.575369784663967,NA,4
+4class,%MNAU raw,138,Urdabide II,Geological transport,0.11572746390263128,NA,4
+4class,%MNAU raw,139,Urtiaga,Cannibalism,0.4477416434835069,NA,4
+4class,%MNAU raw,139,Urtiaga,Carnivore,0.08689393708830176,NA,4
+4class,%MNAU raw,139,Urtiaga,Funerary Context,0.36062706945377543,NA,4
+4class,%MNAU raw,139,Urtiaga,Geological transport,0.10473734997441587,NA,4
+4class,%MNAU raw,140,Uxar,Cannibalism,0.3492331309784363,NA,4
+4class,%MNAU raw,140,Uxar,Carnivore,0.18980994186952596,NA,4
+4class,%MNAU raw,140,Uxar,Funerary Context,0.39541562015353915,NA,4
+4class,%MNAU raw,140,Uxar,Geological transport,0.06554130699849867,NA,4
+4class,%MNAU raw,151,Zelaibizkar I,Cannibalism,0.3654002896027729,NA,4
+4class,%MNAU raw,151,Zelaibizkar I,Carnivore,0.13365756023663022,NA,4
+4class,%MNAU raw,151,Zelaibizkar I,Funerary Context,0.4394493299091777,NA,4
+4class,%MNAU raw,151,Zelaibizkar I,Geological transport,0.06149282025141927,NA,4
+4class,C + Heip evenness,2,Aie Zelai,Cannibalism,0.6757172406917326,NA,4
+4class,C + Heip evenness,2,Aie Zelai,Carnivore,0.12840737256601337,NA,4
+4class,C + Heip evenness,2,Aie Zelai,Funerary Context,0.13196727594105379,NA,4
+4class,C + Heip evenness,2,Aie Zelai,Geological transport,0.06390811080120037,NA,4
+4class,C + Heip evenness,3,Aitzgaizto,Cannibalism,0.32571699001481186,NA,4
+4class,C + Heip evenness,3,Aitzgaizto,Carnivore,0.16387457920668033,NA,4
+4class,C + Heip evenness,3,Aitzgaizto,Funerary Context,0.44763456177873934,NA,4
+4class,C + Heip evenness,3,Aitzgaizto,Geological transport,0.06277386899976849,NA,4
+4class,C + Heip evenness,4,Allekoaitze,Cannibalism,0.5988978868619783,NA,4
+4class,C + Heip evenness,4,Allekoaitze,Carnivore,0.22825217131208578,NA,4
+4class,C + Heip evenness,4,Allekoaitze,Funerary Context,0.10370095683506339,NA,4
+4class,C + Heip evenness,4,Allekoaitze,Geological transport,0.06914898499087255,NA,4
+4class,C + Heip evenness,7,Arbelaitz,Cannibalism,0.29119076067180794,NA,4
+4class,C + Heip evenness,7,Arbelaitz,Carnivore,0.4407081372570609,NA,4
+4class,C + Heip evenness,7,Arbelaitz,Funerary Context,0.07689837339298951,NA,4
+4class,C + Heip evenness,7,Arbelaitz,Geological transport,0.19120272867814173,NA,4
+4class,C + Heip evenness,11,Belako Arkaitza 1,Cannibalism,0.5437218718261954,NA,4
+4class,C + Heip evenness,11,Belako Arkaitza 1,Carnivore,0.08241866599588037,NA,4
+4class,C + Heip evenness,11,Belako Arkaitza 1,Funerary Context,0.31599256069493337,NA,4
+4class,C + Heip evenness,11,Belako Arkaitza 1,Geological transport,0.057866901482990875,NA,4
+4class,C + Heip evenness,12,Beondegi II,Cannibalism,0.5479870671911589,NA,4
+4class,C + Heip evenness,12,Beondegi II,Carnivore,0.2777050966789752,NA,4
+4class,C + Heip evenness,12,Beondegi II,Funerary Context,0.09489970753783983,NA,4
+4class,C + Heip evenness,12,Beondegi II,Geological transport,0.07940812859202617,NA,4
+4class,C + Heip evenness,37,Erlaitz,Cannibalism,0.5451994847078989,NA,4
+4class,C + Heip evenness,37,Erlaitz,Carnivore,0.2837890949665996,NA,4
+4class,C + Heip evenness,37,Erlaitz,Funerary Context,0.0976194613364764,NA,4
+4class,C + Heip evenness,37,Erlaitz,Geological transport,0.07339195898902515,NA,4
+4class,C + Heip evenness,38,Errtxorta,Cannibalism,0.36172852216168627,NA,4
+4class,C + Heip evenness,38,Errtxorta,Carnivore,0.27365166937560764,NA,4
+4class,C + Heip evenness,38,Errtxorta,Funerary Context,0.28943448099440616,NA,4
+4class,C + Heip evenness,38,Errtxorta,Geological transport,0.07518532746829994,NA,4
+4class,C + Heip evenness,62,Koba Lotx,Cannibalism,0.46662429947063566,NA,4
+4class,C + Heip evenness,62,Koba Lotx,Carnivore,0.30592653243765705,NA,4
+4class,C + Heip evenness,62,Koba Lotx,Funerary Context,0.09787951719379796,NA,4
+4class,C + Heip evenness,62,Koba Lotx,Geological transport,0.12956965089790934,NA,4
+4class,C + Heip evenness,63,Koba Zarra,Cannibalism,0.664393209249943,NA,4
+4class,C + Heip evenness,63,Koba Zarra,Carnivore,0.08166587937177844,NA,4
+4class,C + Heip evenness,63,Koba Zarra,Funerary Context,0.19910196100532276,NA,4
+4class,C + Heip evenness,63,Koba Zarra,Geological transport,0.05483895037295572,NA,4
+4class,C + Heip evenness,64,Kobazar,Cannibalism,0.49593878560931687,NA,4
+4class,C + Heip evenness,64,Kobazar,Carnivore,0.19884097263323497,NA,4
+4class,C + Heip evenness,64,Kobazar,Funerary Context,0.17761201611794222,NA,4
+4class,C + Heip evenness,64,Kobazar,Geological transport,0.12760822563950597,NA,4
+4class,C + Heip evenness,72,Larrabiel,Cannibalism,0.5771453484001342,NA,4
+4class,C + Heip evenness,72,Larrabiel,Carnivore,0.2449332796371268,NA,4
+4class,C + Heip evenness,72,Larrabiel,Funerary Context,0.10866527586406126,NA,4
+4class,C + Heip evenness,72,Larrabiel,Geological transport,0.06925609609867774,NA,4
+4class,C + Heip evenness,84,Marizulo I,Cannibalism,0.23638046346642982,NA,4
+4class,C + Heip evenness,84,Marizulo I,Carnivore,0.054332762710481215,NA,4
+4class,C + Heip evenness,84,Marizulo I,Funerary Context,0.6631954486349092,NA,4
+4class,C + Heip evenness,84,Marizulo I,Geological transport,0.04609132518817971,NA,4
+4class,C + Heip evenness,93,Naparraitz I,Cannibalism,0.509883787661761,NA,4
+4class,C + Heip evenness,93,Naparraitz I,Carnivore,0.194187976099036,NA,4
+4class,C + Heip evenness,93,Naparraitz I,Funerary Context,0.2314420205764012,NA,4
+4class,C + Heip evenness,93,Naparraitz I,Geological transport,0.06448621566280176,NA,4
+4class,C + Heip evenness,100,Olatzazpi,Cannibalism,0.1918205494448307,NA,4
+4class,C + Heip evenness,100,Olatzazpi,Carnivore,0.22676985368920413,NA,4
+4class,C + Heip evenness,100,Olatzazpi,Funerary Context,0.07352076346414606,NA,4
+4class,C + Heip evenness,100,Olatzazpi,Geological transport,0.5078888334018191,NA,4
+4class,C + Heip evenness,101,Otalora,Cannibalism,0.5967265650521822,NA,4
+4class,C + Heip evenness,101,Otalora,Carnivore,0.23287814516119454,NA,4
+4class,C + Heip evenness,101,Otalora,Funerary Context,0.09998979561218643,NA,4
+4class,C + Heip evenness,101,Otalora,Geological transport,0.07040549417443681,NA,4
+4class,C + Heip evenness,105,Pikandita,Cannibalism,0.5107327140714443,NA,4
+4class,C + Heip evenness,105,Pikandita,Carnivore,0.10564198060599943,NA,4
+4class,C + Heip evenness,105,Pikandita,Funerary Context,0.31999910231389506,NA,4
+4class,C + Heip evenness,105,Pikandita,Geological transport,0.06362620300866127,NA,4
+4class,C + Heip evenness,127,Sorginzulo,Cannibalism,0.601078308806654,NA,4
+4class,C + Heip evenness,127,Sorginzulo,Carnivore,0.11819141517827836,NA,4
+4class,C + Heip evenness,127,Sorginzulo,Funerary Context,0.22273923358863984,NA,4
+4class,C + Heip evenness,127,Sorginzulo,Geological transport,0.057991042426427816,NA,4
+4class,C + Heip evenness,135,Txispiri,Cannibalism,0.324623613373067,NA,4
+4class,C + Heip evenness,135,Txispiri,Carnivore,0.057920201208342556,NA,4
+4class,C + Heip evenness,135,Txispiri,Funerary Context,0.5673678235355171,NA,4
+4class,C + Heip evenness,135,Txispiri,Geological transport,0.05008836188307337,NA,4
+4class,C + Heip evenness,136,Txomen Koba Erdikua,Cannibalism,0.5478411776676612,NA,4
+4class,C + Heip evenness,136,Txomen Koba Erdikua,Carnivore,0.27828095278910814,NA,4
+4class,C + Heip evenness,136,Txomen Koba Erdikua,Funerary Context,0.09953951594447255,NA,4
+4class,C + Heip evenness,136,Txomen Koba Erdikua,Geological transport,0.07433835359875812,NA,4
+4class,C + Heip evenness,137,Txotxinkoba Cave,Cannibalism,0.41936841919447415,NA,4
+4class,C + Heip evenness,137,Txotxinkoba Cave,Carnivore,0.06321257015313683,NA,4
+4class,C + Heip evenness,137,Txotxinkoba Cave,Funerary Context,0.46694026893757923,NA,4
+4class,C + Heip evenness,137,Txotxinkoba Cave,Geological transport,0.05047874171480979,NA,4
+4class,C + Heip evenness,138,Urdabide II,Cannibalism,0.2621637890237653,NA,4
+4class,C + Heip evenness,138,Urdabide II,Carnivore,0.06741987223535592,NA,4
+4class,C + Heip evenness,138,Urdabide II,Funerary Context,0.6140058259880196,NA,4
+4class,C + Heip evenness,138,Urdabide II,Geological transport,0.05641051275285922,NA,4
+4class,C + Heip evenness,139,Urtiaga,Cannibalism,0.514644859319523,NA,4
+4class,C + Heip evenness,139,Urtiaga,Carnivore,0.15902772908296875,NA,4
+4class,C + Heip evenness,139,Urtiaga,Funerary Context,0.2630661504799005,NA,4
+4class,C + Heip evenness,139,Urtiaga,Geological transport,0.06326126111760783,NA,4
+4class,C + Heip evenness,140,Uxar,Cannibalism,0.33638117889836083,NA,4
+4class,C + Heip evenness,140,Uxar,Carnivore,0.27312823234546324,NA,4
+4class,C + Heip evenness,140,Uxar,Funerary Context,0.3159781988773103,NA,4
+4class,C + Heip evenness,140,Uxar,Geological transport,0.07451238987886562,NA,4
+4class,C + Heip evenness,151,Zelaibizkar I,Cannibalism,0.500766250454636,NA,4
+4class,C + Heip evenness,151,Zelaibizkar I,Carnivore,0.08907561603878418,NA,4
+4class,C + Heip evenness,151,Zelaibizkar I,Funerary Context,0.35057056774990597,NA,4
+4class,C + Heip evenness,151,Zelaibizkar I,Geological transport,0.05958756575667384,NA,4
+4class,C only,2,Aie Zelai,Cannibalism,0.5930720217182156,NA,4
+4class,C only,2,Aie Zelai,Carnivore,0.16633724569347402,NA,4
+4class,C only,2,Aie Zelai,Funerary Context,0.08248661310790212,NA,4
+4class,C only,2,Aie Zelai,Geological transport,0.15810411948040828,NA,4
+4class,C only,3,Aitzgaizto,Cannibalism,0.3593997930365229,NA,4
+4class,C only,3,Aitzgaizto,Carnivore,0.06673925162404032,NA,4
+4class,C only,3,Aitzgaizto,Funerary Context,0.4880807882324281,NA,4
+4class,C only,3,Aitzgaizto,Geological transport,0.08578016710700864,NA,4
+4class,C only,4,Allekoaitze,Cannibalism,0.6050190739024836,NA,4
+4class,C only,4,Allekoaitze,Carnivore,0.1601620057117822,NA,4
+4class,C only,4,Allekoaitze,Funerary Context,0.08065088415120997,NA,4
+4class,C only,4,Allekoaitze,Geological transport,0.1541680362345243,NA,4
+4class,C only,7,Arbelaitz,Cannibalism,0.6030083783955221,NA,4
+4class,C only,7,Arbelaitz,Carnivore,0.1618536524632591,NA,4
+4class,C only,7,Arbelaitz,Funerary Context,0.07977906380177227,NA,4
+4class,C only,7,Arbelaitz,Geological transport,0.15535890533944646,NA,4
+4class,C only,11,Belako Arkaitza 1,Cannibalism,0.367687683857711,NA,4
+4class,C only,11,Belako Arkaitza 1,Carnivore,0.06908290158689057,NA,4
+4class,C only,11,Belako Arkaitza 1,Funerary Context,0.443380364438911,NA,4
+4class,C only,11,Belako Arkaitza 1,Geological transport,0.11984905011648747,NA,4
+4class,C only,12,Beondegi II,Cannibalism,0.6855761393328215,NA,4
+4class,C only,12,Beondegi II,Carnivore,0.09428633227343368,NA,4
+4class,C only,12,Beondegi II,Funerary Context,0.08342304663268081,NA,4
+4class,C only,12,Beondegi II,Geological transport,0.13671448176106402,NA,4
+4class,C only,37,Erlaitz,Cannibalism,0.6841642866272863,NA,4
+4class,C only,37,Erlaitz,Carnivore,0.09529398762106298,NA,4
+4class,C only,37,Erlaitz,Funerary Context,0.08257977209005093,NA,4
+4class,C only,37,Erlaitz,Geological transport,0.13796195366159975,NA,4
+4class,C only,38,Errtxorta,Cannibalism,0.3151460823547154,NA,4
+4class,C only,38,Errtxorta,Carnivore,0.08242977909835715,NA,4
+4class,C only,38,Errtxorta,Funerary Context,0.4066455433549097,NA,4
+4class,C only,38,Errtxorta,Geological transport,0.1957785951920177,NA,4
+4class,C only,62,Koba Lotx,Cannibalism,0.659882232663679,NA,4
+4class,C only,62,Koba Lotx,Carnivore,0.11466289742581269,NA,4
+4class,C only,62,Koba Lotx,Funerary Context,0.07603660700918337,NA,4
+4class,C only,62,Koba Lotx,Geological transport,0.149418262901325,NA,4
+4class,C only,63,Koba Zarra,Cannibalism,0.5926318461763725,NA,4
+4class,C only,63,Koba Zarra,Carnivore,0.09091968371557956,NA,4
+4class,C only,63,Koba Zarra,Funerary Context,0.1894852496283157,NA,4
+4class,C only,63,Koba Zarra,Geological transport,0.12696322047973227,NA,4
+4class,C only,64,Kobazar,Cannibalism,0.558848903784252,NA,4
+4class,C only,64,Kobazar,Carnivore,0.09821684444347119,NA,4
+4class,C only,64,Kobazar,Funerary Context,0.2182303781414875,NA,4
+4class,C only,64,Kobazar,Geological transport,0.12470387363078932,NA,4
+4class,C only,72,Larrabiel,Cannibalism,0.6745537820877117,NA,4
+4class,C only,72,Larrabiel,Carnivore,0.1019328491201941,NA,4
+4class,C only,72,Larrabiel,Funerary Context,0.07820274330912912,NA,4
+4class,C only,72,Larrabiel,Geological transport,0.14531062548296514,NA,4
+4class,C only,84,Marizulo I,Cannibalism,0.27125514561038716,NA,4
+4class,C only,84,Marizulo I,Carnivore,0.06109465525374626,NA,4
+4class,C only,84,Marizulo I,Funerary Context,0.6012054634366925,NA,4
+4class,C only,84,Marizulo I,Geological transport,0.0664447356991741,NA,4
+4class,C only,93,Naparraitz I,Cannibalism,0.4067541134782271,NA,4
+4class,C only,93,Naparraitz I,Carnivore,0.15157287062159688,NA,4
+4class,C only,93,Naparraitz I,Funerary Context,0.31229804825187274,NA,4
+4class,C only,93,Naparraitz I,Geological transport,0.1293749676483033,NA,4
+4class,C only,100,Olatzazpi,Cannibalism,0.15614018064109225,NA,4
+4class,C only,100,Olatzazpi,Carnivore,0.16488184237226464,NA,4
+4class,C only,100,Olatzazpi,Funerary Context,0.06519683445452659,NA,4
+4class,C only,100,Olatzazpi,Geological transport,0.6137811425321166,NA,4
+4class,C only,101,Otalora,Cannibalism,0.593171759637177,NA,4
+4class,C only,101,Otalora,Carnivore,0.16695286295261305,NA,4
+4class,C only,101,Otalora,Funerary Context,0.08152815126466585,NA,4
+4class,C only,101,Otalora,Geological transport,0.158347226145544,NA,4
+4class,C only,105,Pikandita,Cannibalism,0.3205962376076001,NA,4
+4class,C only,105,Pikandita,Carnivore,0.08318732425673277,NA,4
+4class,C only,105,Pikandita,Funerary Context,0.3955967371892113,NA,4
+4class,C only,105,Pikandita,Geological transport,0.20061970094645587,NA,4
+4class,C only,127,Sorginzulo,Cannibalism,0.23158169241015802,NA,4
+4class,C only,127,Sorginzulo,Carnivore,0.3830362004097048,NA,4
+4class,C only,127,Sorginzulo,Funerary Context,0.24004203841030458,NA,4
+4class,C only,127,Sorginzulo,Geological transport,0.1453400687698326,NA,4
+4class,C only,135,Txispiri,Cannibalism,0.27117730693006814,NA,4
+4class,C only,135,Txispiri,Carnivore,0.06117028997024187,NA,4
+4class,C only,135,Txispiri,Funerary Context,0.6010237015117543,NA,4
+4class,C only,135,Txispiri,Geological transport,0.06662870158793571,NA,4
+4class,C only,136,Txomen Koba Erdikua,Cannibalism,0.6850401572434609,NA,4
+4class,C only,136,Txomen Koba Erdikua,Carnivore,0.09370652134992488,NA,4
+4class,C only,136,Txomen Koba Erdikua,Funerary Context,0.08527442473410152,NA,4
+4class,C only,136,Txomen Koba Erdikua,Geological transport,0.13597889667251278,NA,4
+4class,C only,137,Txotxinkoba Cave,Cannibalism,0.36520244529372964,NA,4
+4class,C only,137,Txotxinkoba Cave,Carnivore,0.06922868632135476,NA,4
+4class,C only,137,Txotxinkoba Cave,Funerary Context,0.4452137502420326,NA,4
+4class,C only,137,Txotxinkoba Cave,Geological transport,0.12035511814288305,NA,4
+4class,C only,138,Urdabide II,Cannibalism,0.19890129988505756,NA,4
+4class,C only,138,Urdabide II,Carnivore,0.05946613873610203,NA,4
+4class,C only,138,Urdabide II,Funerary Context,0.6785766608813711,NA,4
+4class,C only,138,Urdabide II,Geological transport,0.06305590049746924,NA,4
+4class,C only,139,Urtiaga,Cannibalism,0.2933731864757661,NA,4
+4class,C only,139,Urtiaga,Carnivore,0.24390678676908903,NA,4
+4class,C only,139,Urtiaga,Funerary Context,0.3268314268776439,NA,4
+4class,C only,139,Urtiaga,Geological transport,0.13588859987750102,NA,4
+4class,C only,140,Uxar,Cannibalism,0.2725719803167178,NA,4
+4class,C only,140,Uxar,Carnivore,0.07312062938555584,NA,4
+4class,C only,140,Uxar,Funerary Context,0.509660896625926,NA,4
+4class,C only,140,Uxar,Geological transport,0.14464649367180046,NA,4
+4class,C only,151,Zelaibizkar I,Cannibalism,0.3285118368549741,NA,4
+4class,C only,151,Zelaibizkar I,Carnivore,0.07041699122545605,NA,4
+4class,C only,151,Zelaibizkar I,Funerary Context,0.47994556027835944,NA,4
+4class,C only,151,Zelaibizkar I,Geological transport,0.12112561164121043,NA,4
+4class,Combined,2,Aie Zelai,Cannibalism,0.48717698218444827,NA,4
+4class,Combined,2,Aie Zelai,Carnivore,0.13554421031109795,NA,4
+4class,Combined,2,Aie Zelai,Funerary Context,0.3372655485401565,NA,4
+4class,Combined,2,Aie Zelai,Geological transport,0.04001325896429727,NA,4
+4class,Combined,3,Aitzgaizto,Cannibalism,0.6267143461900899,NA,4
+4class,Combined,3,Aitzgaizto,Carnivore,0.054643861255224926,NA,4
+4class,Combined,3,Aitzgaizto,Funerary Context,0.2754124105659649,NA,4
+4class,Combined,3,Aitzgaizto,Geological transport,0.04322938198872038,NA,4
+4class,Combined,4,Allekoaitze,Cannibalism,0.6728522196020337,NA,4
+4class,Combined,4,Allekoaitze,Carnivore,0.14070739636461418,NA,4
+4class,Combined,4,Allekoaitze,Funerary Context,0.15051562624355397,NA,4
+4class,Combined,4,Allekoaitze,Geological transport,0.0359247577897981,NA,4
+4class,Combined,7,Arbelaitz,Cannibalism,0.43542822706146084,NA,4
+4class,Combined,7,Arbelaitz,Carnivore,0.18482520964793575,NA,4
+4class,Combined,7,Arbelaitz,Funerary Context,0.13231124382092158,NA,4
+4class,Combined,7,Arbelaitz,Geological transport,0.24743531946968184,NA,4
+4class,Combined,11,Belako Arkaitza 1,Cannibalism,0.7537041817287206,NA,4
+4class,Combined,11,Belako Arkaitza 1,Carnivore,0.03721509025556659,NA,4
+4class,Combined,11,Belako Arkaitza 1,Funerary Context,0.18213494172238143,NA,4
+4class,Combined,11,Belako Arkaitza 1,Geological transport,0.026945786293331372,NA,4
+4class,Combined,12,Beondegi II,Cannibalism,0.6667522622193034,NA,4
+4class,Combined,12,Beondegi II,Carnivore,0.14494320388955195,NA,4
+4class,Combined,12,Beondegi II,Funerary Context,0.11800185688495189,NA,4
+4class,Combined,12,Beondegi II,Geological transport,0.07030267700619272,NA,4
+4class,Combined,37,Erlaitz,Cannibalism,0.5387180062518641,NA,4
+4class,Combined,37,Erlaitz,Carnivore,0.19231389082666966,NA,4
+4class,Combined,37,Erlaitz,Funerary Context,0.17410095625996863,NA,4
+4class,Combined,37,Erlaitz,Geological transport,0.09486714666149762,NA,4
+4class,Combined,38,Errtxorta,Cannibalism,0.636043881118259,NA,4
+4class,Combined,38,Errtxorta,Carnivore,0.05366613700721309,NA,4
+4class,Combined,38,Errtxorta,Funerary Context,0.25781858037338157,NA,4
+4class,Combined,38,Errtxorta,Geological transport,0.05247140150114632,NA,4
+4class,Combined,62,Koba Lotx,Cannibalism,0.37404709383487084,NA,4
+4class,Combined,62,Koba Lotx,Carnivore,0.34521400937916197,NA,4
+4class,Combined,62,Koba Lotx,Funerary Context,0.15360369670091265,NA,4
+4class,Combined,62,Koba Lotx,Geological transport,0.12713520008505455,NA,4
+4class,Combined,63,Koba Zarra,Cannibalism,0.6529734973804889,NA,4
+4class,Combined,63,Koba Zarra,Carnivore,0.06542942366165674,NA,4
+4class,Combined,63,Koba Zarra,Funerary Context,0.2552389488990851,NA,4
+4class,Combined,63,Koba Zarra,Geological transport,0.026358130058769264,NA,4
+4class,Combined,64,Kobazar,Cannibalism,0.49140955810975706,NA,4
+4class,Combined,64,Kobazar,Carnivore,0.18905242919490867,NA,4
+4class,Combined,64,Kobazar,Funerary Context,0.15386255119066772,NA,4
+4class,Combined,64,Kobazar,Geological transport,0.16567546150466653,NA,4
+4class,Combined,72,Larrabiel,Cannibalism,0.64523797335251,NA,4
+4class,Combined,72,Larrabiel,Carnivore,0.16552312915778306,NA,4
+4class,Combined,72,Larrabiel,Funerary Context,0.14003809180774887,NA,4
+4class,Combined,72,Larrabiel,Geological transport,0.049200805681958115,NA,4
+4class,Combined,84,Marizulo I,Cannibalism,0.23530677421299817,NA,4
+4class,Combined,84,Marizulo I,Carnivore,0.02112743768994512,NA,4
+4class,Combined,84,Marizulo I,Funerary Context,0.7337064863294889,NA,4
+4class,Combined,84,Marizulo I,Geological transport,0.009859301767567885,NA,4
+4class,Combined,93,Naparraitz I,Cannibalism,0.6096815690037509,NA,4
+4class,Combined,93,Naparraitz I,Carnivore,0.14703185969026011,NA,4
+4class,Combined,93,Naparraitz I,Funerary Context,0.20117269816984892,NA,4
+4class,Combined,93,Naparraitz I,Geological transport,0.042113873136140026,NA,4
+4class,Combined,100,Olatzazpi,Cannibalism,0.18364122523192372,NA,4
+4class,Combined,100,Olatzazpi,Carnivore,0.40163921083643195,NA,4
+4class,Combined,100,Olatzazpi,Funerary Context,0.053135153783230714,NA,4
+4class,Combined,100,Olatzazpi,Geological transport,0.36158441014841364,NA,4
+4class,Combined,101,Otalora,Cannibalism,0.5053132938847839,NA,4
+4class,Combined,101,Otalora,Carnivore,0.2678647476992545,NA,4
+4class,Combined,101,Otalora,Funerary Context,0.13082999917115817,NA,4
+4class,Combined,101,Otalora,Geological transport,0.09599195924480346,NA,4
+4class,Combined,105,Pikandita,Cannibalism,0.605284822216697,NA,4
+4class,Combined,105,Pikandita,Carnivore,0.04529813848703959,NA,4
+4class,Combined,105,Pikandita,Funerary Context,0.3072948001042846,NA,4
+4class,Combined,105,Pikandita,Geological transport,0.04212223919197875,NA,4
+4class,Combined,127,Sorginzulo,Cannibalism,0.6388685671936862,NA,4
+4class,Combined,127,Sorginzulo,Carnivore,0.04906385550634925,NA,4
+4class,Combined,127,Sorginzulo,Funerary Context,0.2916354467649478,NA,4
+4class,Combined,127,Sorginzulo,Geological transport,0.02043213053501666,NA,4
+4class,Combined,135,Txispiri,Cannibalism,0.295210556314201,NA,4
+4class,Combined,135,Txispiri,Carnivore,0.02641927069191769,NA,4
+4class,Combined,135,Txispiri,Funerary Context,0.6588118784238772,NA,4
+4class,Combined,135,Txispiri,Geological transport,0.019558294570004048,NA,4
+4class,Combined,136,Txomen Koba Erdikua,Cannibalism,0.4823968053308535,NA,4
+4class,Combined,136,Txomen Koba Erdikua,Carnivore,0.19565442439534433,NA,4
+4class,Combined,136,Txomen Koba Erdikua,Funerary Context,0.23011321811069183,NA,4
+4class,Combined,136,Txomen Koba Erdikua,Geological transport,0.09183555216311036,NA,4
+4class,Combined,137,Txotxinkoba Cave,Cannibalism,0.32112456166305176,NA,4
+4class,Combined,137,Txotxinkoba Cave,Carnivore,0.03313490050319139,NA,4
+4class,Combined,137,Txotxinkoba Cave,Funerary Context,0.6297645229836266,NA,4
+4class,Combined,137,Txotxinkoba Cave,Geological transport,0.01597601485013028,NA,4
+4class,Combined,138,Urdabide II,Cannibalism,0.26237365826269815,NA,4
+4class,Combined,138,Urdabide II,Carnivore,0.08311094806735506,NA,4
+4class,Combined,138,Urdabide II,Funerary Context,0.6181845124309728,NA,4
+4class,Combined,138,Urdabide II,Geological transport,0.03633088123897403,NA,4
+4class,Combined,139,Urtiaga,Cannibalism,0.44457668584222315,NA,4
+4class,Combined,139,Urtiaga,Carnivore,0.07721965622470028,NA,4
+4class,Combined,139,Urtiaga,Funerary Context,0.4271711743070939,NA,4
+4class,Combined,139,Urtiaga,Geological transport,0.05103248362598268,NA,4
+4class,Combined,140,Uxar,Cannibalism,0.43059256625310116,NA,4
+4class,Combined,140,Uxar,Carnivore,0.1203363849749368,NA,4
+4class,Combined,140,Uxar,Funerary Context,0.4201333021213642,NA,4
+4class,Combined,140,Uxar,Geological transport,0.02893774665059786,NA,4
+4class,Combined,151,Zelaibizkar I,Cannibalism,0.37836209154910094,NA,4
+4class,Combined,151,Zelaibizkar I,Carnivore,0.0555063426185566,NA,4
+4class,Combined,151,Zelaibizkar I,Funerary Context,0.546923910730893,NA,4
+4class,Combined,151,Zelaibizkar I,Geological transport,0.01920765510144948,NA,4
+4class,Engineered,2,Aie Zelai,Cannibalism,0.25867934449226965,NA,4
+4class,Engineered,2,Aie Zelai,Carnivore,0.40526646482374484,NA,4
+4class,Engineered,2,Aie Zelai,Funerary Context,0.1946699061472268,NA,4
+4class,Engineered,2,Aie Zelai,Geological transport,0.14138428453675875,NA,4
+4class,Engineered,3,Aitzgaizto,Cannibalism,0.5862857389079044,NA,4
+4class,Engineered,3,Aitzgaizto,Carnivore,0.0724053360160021,NA,4
+4class,Engineered,3,Aitzgaizto,Funerary Context,0.27815799859538937,NA,4
+4class,Engineered,3,Aitzgaizto,Geological transport,0.06315092648070413,NA,4
+4class,Engineered,4,Allekoaitze,Cannibalism,0.5973984652085391,NA,4
+4class,Engineered,4,Allekoaitze,Carnivore,0.2113150453396933,NA,4
+4class,Engineered,4,Allekoaitze,Funerary Context,0.13713386166807143,NA,4
+4class,Engineered,4,Allekoaitze,Geological transport,0.05415262778369609,NA,4
+4class,Engineered,7,Arbelaitz,Cannibalism,0.20310090992722082,NA,4
+4class,Engineered,7,Arbelaitz,Carnivore,0.25610059269403457,NA,4
+4class,Engineered,7,Arbelaitz,Funerary Context,0.10759799889889707,NA,4
+4class,Engineered,7,Arbelaitz,Geological transport,0.43320049847984754,NA,4
+4class,Engineered,11,Belako Arkaitza 1,Cannibalism,0.68166485337266,NA,4
+4class,Engineered,11,Belako Arkaitza 1,Carnivore,0.06819771105179193,NA,4
+4class,Engineered,11,Belako Arkaitza 1,Funerary Context,0.20744497438952658,NA,4
+4class,Engineered,11,Belako Arkaitza 1,Geological transport,0.0426924611860215,NA,4
+4class,Engineered,12,Beondegi II,Cannibalism,0.6349427160803066,NA,4
+4class,Engineered,12,Beondegi II,Carnivore,0.16339006271865408,NA,4
+4class,Engineered,12,Beondegi II,Funerary Context,0.10812210427936061,NA,4
+4class,Engineered,12,Beondegi II,Geological transport,0.09354511692167869,NA,4
+4class,Engineered,37,Erlaitz,Cannibalism,0.3913495312179866,NA,4
+4class,Engineered,37,Erlaitz,Carnivore,0.25339556141897424,NA,4
+4class,Engineered,37,Erlaitz,Funerary Context,0.18669890984155288,NA,4
+4class,Engineered,37,Erlaitz,Geological transport,0.16855599752148628,NA,4
+4class,Engineered,38,Errtxorta,Cannibalism,0.5919782050185757,NA,4
+4class,Engineered,38,Errtxorta,Carnivore,0.08539916271565683,NA,4
+4class,Engineered,38,Errtxorta,Funerary Context,0.24200482255884537,NA,4
+4class,Engineered,38,Errtxorta,Geological transport,0.08061780970692216,NA,4
+4class,Engineered,62,Koba Lotx,Cannibalism,0.345691100026722,NA,4
+4class,Engineered,62,Koba Lotx,Carnivore,0.3342666406756476,NA,4
+4class,Engineered,62,Koba Lotx,Funerary Context,0.13534937159862526,NA,4
+4class,Engineered,62,Koba Lotx,Geological transport,0.1846928876990052,NA,4
+4class,Engineered,63,Koba Zarra,Cannibalism,0.6575244750461415,NA,4
+4class,Engineered,63,Koba Zarra,Carnivore,0.07492908439142716,NA,4
+4class,Engineered,63,Koba Zarra,Funerary Context,0.23935904381570258,NA,4
+4class,Engineered,63,Koba Zarra,Geological transport,0.028187396746728696,NA,4
+4class,Engineered,64,Kobazar,Cannibalism,0.4205568844964154,NA,4
+4class,Engineered,64,Kobazar,Carnivore,0.18666469895620047,NA,4
+4class,Engineered,64,Kobazar,Funerary Context,0.19330226779688442,NA,4
+4class,Engineered,64,Kobazar,Geological transport,0.19947614875049974,NA,4
+4class,Engineered,72,Larrabiel,Cannibalism,0.6533650252027009,NA,4
+4class,Engineered,72,Larrabiel,Carnivore,0.12138079966061721,NA,4
+4class,Engineered,72,Larrabiel,Funerary Context,0.17627588330750174,NA,4
+4class,Engineered,72,Larrabiel,Geological transport,0.04897829182918017,NA,4
+4class,Engineered,84,Marizulo I,Cannibalism,0.24793906527878076,NA,4
+4class,Engineered,84,Marizulo I,Carnivore,0.03476141114199438,NA,4
+4class,Engineered,84,Marizulo I,Funerary Context,0.7009379974811965,NA,4
+4class,Engineered,84,Marizulo I,Geological transport,0.01636152609802842,NA,4
+4class,Engineered,93,Naparraitz I,Cannibalism,0.6669784136604793,NA,4
+4class,Engineered,93,Naparraitz I,Carnivore,0.09424137773900947,NA,4
+4class,Engineered,93,Naparraitz I,Funerary Context,0.2007525115744264,NA,4
+4class,Engineered,93,Naparraitz I,Geological transport,0.03802769702608491,NA,4
+4class,Engineered,100,Olatzazpi,Cannibalism,0.2035818935941958,NA,4
+4class,Engineered,100,Olatzazpi,Carnivore,0.28953841884321446,NA,4
+4class,Engineered,100,Olatzazpi,Funerary Context,0.08698324420039312,NA,4
+4class,Engineered,100,Olatzazpi,Geological transport,0.41989644336219667,NA,4
+4class,Engineered,101,Otalora,Cannibalism,0.33329463280110444,NA,4
+4class,Engineered,101,Otalora,Carnivore,0.2956755122215995,NA,4
+4class,Engineered,101,Otalora,Funerary Context,0.18410925381579646,NA,4
+4class,Engineered,101,Otalora,Geological transport,0.18692060116149967,NA,4
+4class,Engineered,105,Pikandita,Cannibalism,0.614662340648782,NA,4
+4class,Engineered,105,Pikandita,Carnivore,0.05867752077351989,NA,4
+4class,Engineered,105,Pikandita,Funerary Context,0.2690378259431202,NA,4
+4class,Engineered,105,Pikandita,Geological transport,0.057622312634577885,NA,4
+4class,Engineered,127,Sorginzulo,Cannibalism,0.5211637835163605,NA,4
+4class,Engineered,127,Sorginzulo,Carnivore,0.17788576869058675,NA,4
+4class,Engineered,127,Sorginzulo,Funerary Context,0.26057811198601893,NA,4
+4class,Engineered,127,Sorginzulo,Geological transport,0.040372335807033845,NA,4
+4class,Engineered,135,Txispiri,Cannibalism,0.40579537602445587,NA,4
+4class,Engineered,135,Txispiri,Carnivore,0.03870147982240324,NA,4
+4class,Engineered,135,Txispiri,Funerary Context,0.5283219435864622,NA,4
+4class,Engineered,135,Txispiri,Geological transport,0.027181200566678655,NA,4
+4class,Engineered,136,Txomen Koba Erdikua,Cannibalism,0.3600972692187122,NA,4
+4class,Engineered,136,Txomen Koba Erdikua,Carnivore,0.25859323859367445,NA,4
+4class,Engineered,136,Txomen Koba Erdikua,Funerary Context,0.22056435113164893,NA,4
+4class,Engineered,136,Txomen Koba Erdikua,Geological transport,0.16074514105596438,NA,4
+4class,Engineered,137,Txotxinkoba Cave,Cannibalism,0.43596077857924853,NA,4
+4class,Engineered,137,Txotxinkoba Cave,Carnivore,0.044751995300265184,NA,4
+4class,Engineered,137,Txotxinkoba Cave,Funerary Context,0.4966075978225583,NA,4
+4class,Engineered,137,Txotxinkoba Cave,Geological transport,0.022679628297927957,NA,4
+4class,Engineered,138,Urdabide II,Cannibalism,0.3103071415572174,NA,4
+4class,Engineered,138,Urdabide II,Carnivore,0.20866351840929734,NA,4
+4class,Engineered,138,Urdabide II,Funerary Context,0.4471959032074457,NA,4
+4class,Engineered,138,Urdabide II,Geological transport,0.033833436826039655,NA,4
+4class,Engineered,139,Urtiaga,Cannibalism,0.45856288695517244,NA,4
+4class,Engineered,139,Urtiaga,Carnivore,0.06772955770618641,NA,4
+4class,Engineered,139,Urtiaga,Funerary Context,0.40915325465525637,NA,4
+4class,Engineered,139,Urtiaga,Geological transport,0.0645543006833848,NA,4
+4class,Engineered,140,Uxar,Cannibalism,0.3994912390779756,NA,4
+4class,Engineered,140,Uxar,Carnivore,0.1724127053379036,NA,4
+4class,Engineered,140,Uxar,Funerary Context,0.38322716456194567,NA,4
+4class,Engineered,140,Uxar,Geological transport,0.044868891022175166,NA,4
+4class,Engineered,151,Zelaibizkar I,Cannibalism,0.6184132291120629,NA,4
+4class,Engineered,151,Zelaibizkar I,Carnivore,0.09103365737723779,NA,4
+4class,Engineered,151,Zelaibizkar I,Funerary Context,0.2571987756608201,NA,4
+4class,Engineered,151,Zelaibizkar I,Geological transport,0.03335433784987922,NA,4
+4class,Heip evenness only,2,Aie Zelai,Cannibalism,0.3491496966903478,NA,4
+4class,Heip evenness only,2,Aie Zelai,Carnivore,0.1347942402986656,NA,4
+4class,Heip evenness only,2,Aie Zelai,Funerary Context,0.45436360868819564,NA,4
+4class,Heip evenness only,2,Aie Zelai,Geological transport,0.06169245432279098,NA,4
+4class,Heip evenness only,3,Aitzgaizto,Cannibalism,0.38178154151036403,NA,4
+4class,Heip evenness only,3,Aitzgaizto,Carnivore,0.14092231572428704,NA,4
+4class,Heip evenness only,3,Aitzgaizto,Funerary Context,0.41532825661600337,NA,4
+4class,Heip evenness only,3,Aitzgaizto,Geological transport,0.061967886149345605,NA,4
+4class,Heip evenness only,4,Allekoaitze,Cannibalism,0.3737731598420506,NA,4
+4class,Heip evenness only,4,Allekoaitze,Carnivore,0.3982209924224658,NA,4
+4class,Heip evenness only,4,Allekoaitze,Funerary Context,0.16192776227551528,NA,4
+4class,Heip evenness only,4,Allekoaitze,Geological transport,0.06607808545996835,NA,4
+4class,Heip evenness only,7,Arbelaitz,Cannibalism,0.13236742936302817,NA,4
+4class,Heip evenness only,7,Arbelaitz,Carnivore,0.6638859026356824,NA,4
+4class,Heip evenness only,7,Arbelaitz,Funerary Context,0.06957899709849887,NA,4
+4class,Heip evenness only,7,Arbelaitz,Geological transport,0.1341676709027906,NA,4
+4class,Heip evenness only,11,Belako Arkaitza 1,Cannibalism,0.6374626196292067,NA,4
+4class,Heip evenness only,11,Belako Arkaitza 1,Carnivore,0.1300685622509424,NA,4
+4class,Heip evenness only,11,Belako Arkaitza 1,Funerary Context,0.17405535285578413,NA,4
+4class,Heip evenness only,11,Belako Arkaitza 1,Geological transport,0.058413465264066794,NA,4
+4class,Heip evenness only,12,Beondegi II,Cannibalism,0.4105731941026745,NA,4
+4class,Heip evenness only,12,Beondegi II,Carnivore,0.28777730176067107,NA,4
+4class,Heip evenness only,12,Beondegi II,Funerary Context,0.22858680328231354,NA,4
+4class,Heip evenness only,12,Beondegi II,Geological transport,0.07306270085434094,NA,4
+4class,Heip evenness only,37,Erlaitz,Cannibalism,0.3782973593157962,NA,4
+4class,Heip evenness only,37,Erlaitz,Carnivore,0.2506582778426897,NA,4
+4class,Heip evenness only,37,Erlaitz,Funerary Context,0.3018316476130264,NA,4
+4class,Heip evenness only,37,Erlaitz,Geological transport,0.06921271522848771,NA,4
+4class,Heip evenness only,38,Errtxorta,Cannibalism,0.4944877071353547,NA,4
+4class,Heip evenness only,38,Errtxorta,Carnivore,0.26327139437653424,NA,4
+4class,Heip evenness only,38,Errtxorta,Funerary Context,0.17722285974218177,NA,4
+4class,Heip evenness only,38,Errtxorta,Geological transport,0.06501803874592929,NA,4
+4class,Heip evenness only,62,Koba Lotx,Cannibalism,0.3052809592876303,NA,4
+4class,Heip evenness only,62,Koba Lotx,Carnivore,0.3243084864089677,NA,4
+4class,Heip evenness only,62,Koba Lotx,Funerary Context,0.2591000502002028,NA,4
+4class,Heip evenness only,62,Koba Lotx,Geological transport,0.11131050410319913,NA,4
+4class,Heip evenness only,63,Koba Zarra,Cannibalism,0.44226144725050276,NA,4
+4class,Heip evenness only,63,Koba Zarra,Carnivore,0.0733761054440182,NA,4
+4class,Heip evenness only,63,Koba Zarra,Funerary Context,0.42980692530605535,NA,4
+4class,Heip evenness only,63,Koba Zarra,Geological transport,0.054555521999423665,NA,4
+4class,Heip evenness only,64,Kobazar,Cannibalism,0.5227232300690401,NA,4
+4class,Heip evenness only,64,Kobazar,Carnivore,0.21952541637950296,NA,4
+4class,Heip evenness only,64,Kobazar,Funerary Context,0.16098674773399374,NA,4
+4class,Heip evenness only,64,Kobazar,Geological transport,0.09676460581746324,NA,4
+4class,Heip evenness only,72,Larrabiel,Cannibalism,0.36604719556720366,NA,4
+4class,Heip evenness only,72,Larrabiel,Carnivore,0.40811880307618514,NA,4
+4class,Heip evenness only,72,Larrabiel,Funerary Context,0.15958946648592293,NA,4
+4class,Heip evenness only,72,Larrabiel,Geological transport,0.06624453487068828,NA,4
+4class,Heip evenness only,84,Marizulo I,Cannibalism,0.13055711519509783,NA,4
+4class,Heip evenness only,84,Marizulo I,Carnivore,0.062389572012770914,NA,4
+4class,Heip evenness only,84,Marizulo I,Funerary Context,0.7582233577156148,NA,4
+4class,Heip evenness only,84,Marizulo I,Geological transport,0.048829955076516544,NA,4
+4class,Heip evenness only,93,Naparraitz I,Cannibalism,0.4741547731105139,NA,4
+4class,Heip evenness only,93,Naparraitz I,Carnivore,0.14318604089746353,NA,4
+4class,Heip evenness only,93,Naparraitz I,Funerary Context,0.3200903886406695,NA,4
+4class,Heip evenness only,93,Naparraitz I,Geological transport,0.06256879735135303,NA,4
+4class,Heip evenness only,100,Olatzazpi,Cannibalism,0.1914215096788935,NA,4
+4class,Heip evenness only,100,Olatzazpi,Carnivore,0.2038223460332319,NA,4
+4class,Heip evenness only,100,Olatzazpi,Funerary Context,0.07065036731733772,NA,4
+4class,Heip evenness only,100,Olatzazpi,Geological transport,0.5341057769705368,NA,4
+4class,Heip evenness only,101,Otalora,Cannibalism,0.4788537512641754,NA,4
+4class,Heip evenness only,101,Otalora,Carnivore,0.2892182209188626,NA,4
+4class,Heip evenness only,101,Otalora,Funerary Context,0.1648756512688378,NA,4
+4class,Heip evenness only,101,Otalora,Geological transport,0.06705237654812422,NA,4
+4class,Heip evenness only,105,Pikandita,Cannibalism,0.5237521442210988,NA,4
+4class,Heip evenness only,105,Pikandita,Carnivore,0.18583364181639783,NA,4
+4class,Heip evenness only,105,Pikandita,Funerary Context,0.23056622403871954,NA,4
+4class,Heip evenness only,105,Pikandita,Geological transport,0.05984798992378382,NA,4
+4class,Heip evenness only,127,Sorginzulo,Cannibalism,0.3937920117342139,NA,4
+4class,Heip evenness only,127,Sorginzulo,Carnivore,0.15574547699507435,NA,4
+4class,Heip evenness only,127,Sorginzulo,Funerary Context,0.3936272338600325,NA,4
+4class,Heip evenness only,127,Sorginzulo,Geological transport,0.05683527741067925,NA,4
+4class,Heip evenness only,135,Txispiri,Cannibalism,0.30925990852991225,NA,4
+4class,Heip evenness only,135,Txispiri,Carnivore,0.06886780128128009,NA,4
+4class,Heip evenness only,135,Txispiri,Funerary Context,0.5685469327286653,NA,4
+4class,Heip evenness only,135,Txispiri,Geological transport,0.05332535746014234,NA,4
+4class,Heip evenness only,136,Txomen Koba Erdikua,Cannibalism,0.3944322745492601,NA,4
+4class,Heip evenness only,136,Txomen Koba Erdikua,Carnivore,0.2661519926689412,NA,4
+4class,Heip evenness only,136,Txomen Koba Erdikua,Funerary Context,0.26958962671040504,NA,4
+4class,Heip evenness only,136,Txomen Koba Erdikua,Geological transport,0.0698261060713937,NA,4
+4class,Heip evenness only,137,Txotxinkoba Cave,Cannibalism,0.13958410056349257,NA,4
+4class,Heip evenness only,137,Txotxinkoba Cave,Carnivore,0.06495678671404675,NA,4
+4class,Heip evenness only,137,Txotxinkoba Cave,Funerary Context,0.7437897670350684,NA,4
+4class,Heip evenness only,137,Txotxinkoba Cave,Geological transport,0.05166934568739235,NA,4
+4class,Heip evenness only,138,Urdabide II,Cannibalism,0.5545313892817243,NA,4
+4class,Heip evenness only,138,Urdabide II,Carnivore,0.17570442557418806,NA,4
+4class,Heip evenness only,138,Urdabide II,Funerary Context,0.2100547691884914,NA,4
+4class,Heip evenness only,138,Urdabide II,Geological transport,0.059709415955596305,NA,4
+4class,Heip evenness only,139,Urtiaga,Cannibalism,0.5346717817045736,NA,4
+4class,Heip evenness only,139,Urtiaga,Carnivore,0.13669377060548493,NA,4
+4class,Heip evenness only,139,Urtiaga,Funerary Context,0.2678175324213292,NA,4
+4class,Heip evenness only,139,Urtiaga,Geological transport,0.060816915268612284,NA,4
+4class,Heip evenness only,140,Uxar,Cannibalism,0.3268257653632305,NA,4
+4class,Heip evenness only,140,Uxar,Carnivore,0.44342301481029817,NA,4
+4class,Heip evenness only,140,Uxar,Funerary Context,0.16315073089758023,NA,4
+4class,Heip evenness only,140,Uxar,Geological transport,0.06660048892889109,NA,4
+4class,Heip evenness only,151,Zelaibizkar I,Cannibalism,0.40267436409353874,NA,4
+4class,Heip evenness only,151,Zelaibizkar I,Carnivore,0.14617211367275287,NA,4
+4class,Heip evenness only,151,Zelaibizkar I,Funerary Context,0.39177351903000257,NA,4
+4class,Heip evenness only,151,Zelaibizkar I,Geological transport,0.05938000320370586,NA,4
+4class,ReMNAU raw,2,Aie Zelai,Cannibalism,0.23556718366163681,NA,4
+4class,ReMNAU raw,2,Aie Zelai,Carnivore,0.09350773070691276,NA,4
+4class,ReMNAU raw,2,Aie Zelai,Funerary Context,0.635528842647946,NA,4
+4class,ReMNAU raw,2,Aie Zelai,Geological transport,0.035396242983504474,NA,4
+4class,ReMNAU raw,3,Aitzgaizto,Cannibalism,0.4969158260389669,NA,4
+4class,ReMNAU raw,3,Aitzgaizto,Carnivore,0.09694145342729169,NA,4
+4class,ReMNAU raw,3,Aitzgaizto,Funerary Context,0.3516118822299425,NA,4
+4class,ReMNAU raw,3,Aitzgaizto,Geological transport,0.05453083830379895,NA,4
+4class,ReMNAU raw,4,Allekoaitze,Cannibalism,0.5021433071363367,NA,4
+4class,ReMNAU raw,4,Allekoaitze,Carnivore,0.11453347894215296,NA,4
+4class,ReMNAU raw,4,Allekoaitze,Funerary Context,0.33353209270596734,NA,4
+4class,ReMNAU raw,4,Allekoaitze,Geological transport,0.049791121215542994,NA,4
+4class,ReMNAU raw,7,Arbelaitz,Cannibalism,0.4550467155212638,NA,4
+4class,ReMNAU raw,7,Arbelaitz,Carnivore,0.1908523000383737,NA,4
+4class,ReMNAU raw,7,Arbelaitz,Funerary Context,0.2645837743760037,NA,4
+4class,ReMNAU raw,7,Arbelaitz,Geological transport,0.08951721006435874,NA,4
+4class,ReMNAU raw,11,Belako Arkaitza 1,Cannibalism,0.6612875583449438,NA,4
+4class,ReMNAU raw,11,Belako Arkaitza 1,Carnivore,0.041659273847833835,NA,4
+4class,ReMNAU raw,11,Belako Arkaitza 1,Funerary Context,0.26277241493823245,NA,4
+4class,ReMNAU raw,11,Belako Arkaitza 1,Geological transport,0.03428075286898991,NA,4
+4class,ReMNAU raw,12,Beondegi II,Cannibalism,0.6069475583695855,NA,4
+4class,ReMNAU raw,12,Beondegi II,Carnivore,0.1287980689137474,NA,4
+4class,ReMNAU raw,12,Beondegi II,Funerary Context,0.2010300734627372,NA,4
+4class,ReMNAU raw,12,Beondegi II,Geological transport,0.06322429925392986,NA,4
+4class,ReMNAU raw,37,Erlaitz,Cannibalism,0.4976010827192859,NA,4
+4class,ReMNAU raw,37,Erlaitz,Carnivore,0.10344014553767736,NA,4
+4class,ReMNAU raw,37,Erlaitz,Funerary Context,0.3373964022880779,NA,4
+4class,ReMNAU raw,37,Erlaitz,Geological transport,0.061562369454958965,NA,4
+4class,ReMNAU raw,38,Errtxorta,Cannibalism,0.4429366871146284,NA,4
+4class,ReMNAU raw,38,Errtxorta,Carnivore,0.08950308093309886,NA,4
+4class,ReMNAU raw,38,Errtxorta,Funerary Context,0.4159293587594044,NA,4
+4class,ReMNAU raw,38,Errtxorta,Geological transport,0.051630873192868285,NA,4
+4class,ReMNAU raw,62,Koba Lotx,Cannibalism,0.38771839694090376,NA,4
+4class,ReMNAU raw,62,Koba Lotx,Carnivore,0.3254007267789395,NA,4
+4class,ReMNAU raw,62,Koba Lotx,Funerary Context,0.1734662370203669,NA,4
+4class,ReMNAU raw,62,Koba Lotx,Geological transport,0.1134146392597898,NA,4
+4class,ReMNAU raw,63,Koba Zarra,Cannibalism,0.4243817889011237,NA,4
+4class,ReMNAU raw,63,Koba Zarra,Carnivore,0.06331978527113104,NA,4
+4class,ReMNAU raw,63,Koba Zarra,Funerary Context,0.47069591066258787,NA,4
+4class,ReMNAU raw,63,Koba Zarra,Geological transport,0.041602515165157394,NA,4
+4class,ReMNAU raw,64,Kobazar,Cannibalism,0.4435776319306438,NA,4
+4class,ReMNAU raw,64,Kobazar,Carnivore,0.23922563088305157,NA,4
+4class,ReMNAU raw,64,Kobazar,Funerary Context,0.19135850588606668,NA,4
+4class,ReMNAU raw,64,Kobazar,Geological transport,0.12583823130023797,NA,4
+4class,ReMNAU raw,72,Larrabiel,Cannibalism,0.5836921537560745,NA,4
+4class,ReMNAU raw,72,Larrabiel,Carnivore,0.21994974697791794,NA,4
+4class,ReMNAU raw,72,Larrabiel,Funerary Context,0.12255716094185032,NA,4
+4class,ReMNAU raw,72,Larrabiel,Geological transport,0.07380093832415721,NA,4
+4class,ReMNAU raw,84,Marizulo I,Cannibalism,0.18568428059976322,NA,4
+4class,ReMNAU raw,84,Marizulo I,Carnivore,0.030048131490073696,NA,4
+4class,ReMNAU raw,84,Marizulo I,Funerary Context,0.760336243392631,NA,4
+4class,ReMNAU raw,84,Marizulo I,Geological transport,0.023931344517532083,NA,4
+4class,ReMNAU raw,93,Naparraitz I,Cannibalism,0.5724334013218078,NA,4
+4class,ReMNAU raw,93,Naparraitz I,Carnivore,0.18577201539231586,NA,4
+4class,ReMNAU raw,93,Naparraitz I,Funerary Context,0.16155906524952837,NA,4
+4class,ReMNAU raw,93,Naparraitz I,Geological transport,0.08023551803634807,NA,4
+4class,ReMNAU raw,100,Olatzazpi,Cannibalism,0.15828946558354956,NA,4
+4class,ReMNAU raw,100,Olatzazpi,Carnivore,0.461606204779749,NA,4
+4class,ReMNAU raw,100,Olatzazpi,Funerary Context,0.07410042102890667,NA,4
+4class,ReMNAU raw,100,Olatzazpi,Geological transport,0.30600390860779475,NA,4
+4class,ReMNAU raw,101,Otalora,Cannibalism,0.5742776562739705,NA,4
+4class,ReMNAU raw,101,Otalora,Carnivore,0.2101542021101458,NA,4
+4class,ReMNAU raw,101,Otalora,Funerary Context,0.13631953119269075,NA,4
+4class,ReMNAU raw,101,Otalora,Geological transport,0.07924861042319292,NA,4
+4class,ReMNAU raw,105,Pikandita,Cannibalism,0.2956268322409725,NA,4
+4class,ReMNAU raw,105,Pikandita,Carnivore,0.06055213405329623,NA,4
+4class,ReMNAU raw,105,Pikandita,Funerary Context,0.6034128821403464,NA,4
+4class,ReMNAU raw,105,Pikandita,Geological transport,0.0404081515653849,NA,4
+4class,ReMNAU raw,127,Sorginzulo,Cannibalism,0.41725930783638043,NA,4
+4class,ReMNAU raw,127,Sorginzulo,Carnivore,0.06846623333670662,NA,4
+4class,ReMNAU raw,127,Sorginzulo,Funerary Context,0.4903833990775444,NA,4
+4class,ReMNAU raw,127,Sorginzulo,Geological transport,0.023891059749368525,NA,4
+4class,ReMNAU raw,135,Txispiri,Cannibalism,0.24425588974402218,NA,4
+4class,ReMNAU raw,135,Txispiri,Carnivore,0.04296759324712767,NA,4
+4class,ReMNAU raw,135,Txispiri,Funerary Context,0.6776132824407664,NA,4
+4class,ReMNAU raw,135,Txispiri,Geological transport,0.035163234568083755,NA,4
+4class,ReMNAU raw,136,Txomen Koba Erdikua,Cannibalism,0.3715897017091227,NA,4
+4class,ReMNAU raw,136,Txomen Koba Erdikua,Carnivore,0.13995987988666758,NA,4
+4class,ReMNAU raw,136,Txomen Koba Erdikua,Funerary Context,0.4294849367421753,NA,4
+4class,ReMNAU raw,136,Txomen Koba Erdikua,Geological transport,0.05896548166203442,NA,4
+4class,ReMNAU raw,137,Txotxinkoba Cave,Cannibalism,0.16355104714971014,NA,4
+4class,ReMNAU raw,137,Txotxinkoba Cave,Carnivore,0.037310180062890386,NA,4
+4class,ReMNAU raw,137,Txotxinkoba Cave,Funerary Context,0.7715809115141975,NA,4
+4class,ReMNAU raw,137,Txotxinkoba Cave,Geological transport,0.02755786127320201,NA,4
+4class,ReMNAU raw,138,Urdabide II,Cannibalism,0.2454169102256079,NA,4
+4class,ReMNAU raw,138,Urdabide II,Carnivore,0.11110844938079723,NA,4
+4class,ReMNAU raw,138,Urdabide II,Funerary Context,0.5726839887747842,NA,4
+4class,ReMNAU raw,138,Urdabide II,Geological transport,0.07079065161881068,NA,4
+4class,ReMNAU raw,139,Urtiaga,Cannibalism,0.3123078408219452,NA,4
+4class,ReMNAU raw,139,Urtiaga,Carnivore,0.1253763972674933,NA,4
+4class,ReMNAU raw,139,Urtiaga,Funerary Context,0.5114131171535166,NA,4
+4class,ReMNAU raw,139,Urtiaga,Geological transport,0.05090264475704502,NA,4
+4class,ReMNAU raw,140,Uxar,Cannibalism,0.2927378226447737,NA,4
+4class,ReMNAU raw,140,Uxar,Carnivore,0.1282674197332518,NA,4
+4class,ReMNAU raw,140,Uxar,Funerary Context,0.5354191013943621,NA,4
+4class,ReMNAU raw,140,Uxar,Geological transport,0.04357565622761239,NA,4
+4class,ReMNAU raw,151,Zelaibizkar I,Cannibalism,0.20249488049925246,NA,4
+4class,ReMNAU raw,151,Zelaibizkar I,Carnivore,0.09750282554285668,NA,4
+4class,ReMNAU raw,151,Zelaibizkar I,Funerary Context,0.6755701486551464,NA,4
+4class,ReMNAU raw,151,Zelaibizkar I,Geological transport,0.024432145302744526,NA,4
+cannibalism_vs_fc,%MNAU raw,2,Aie Zelai,Cannibalism,0.7325180705802514,NA,4
+cannibalism_vs_fc,%MNAU raw,2,Aie Zelai,Funerary Context,0.26748192941974863,NA,4
+cannibalism_vs_fc,%MNAU raw,3,Aitzgaizto,Cannibalism,0.5884331649040062,NA,4
+cannibalism_vs_fc,%MNAU raw,3,Aitzgaizto,Funerary Context,0.4115668350959938,NA,4
+cannibalism_vs_fc,%MNAU raw,4,Allekoaitze,Cannibalism,0.8206313858368781,NA,4
+cannibalism_vs_fc,%MNAU raw,4,Allekoaitze,Funerary Context,0.17936861416312194,NA,4
+cannibalism_vs_fc,%MNAU raw,7,Arbelaitz,Cannibalism,0.8414726888922484,NA,4
+cannibalism_vs_fc,%MNAU raw,7,Arbelaitz,Funerary Context,0.15852731110775165,NA,4
+cannibalism_vs_fc,%MNAU raw,11,Belako Arkaitza 1,Cannibalism,0.7297258235519924,NA,4
+cannibalism_vs_fc,%MNAU raw,11,Belako Arkaitza 1,Funerary Context,0.2702741764480076,NA,4
+cannibalism_vs_fc,%MNAU raw,12,Beondegi II,Cannibalism,0.8055541527161132,NA,4
+cannibalism_vs_fc,%MNAU raw,12,Beondegi II,Funerary Context,0.19444584728388678,NA,4
+cannibalism_vs_fc,%MNAU raw,37,Erlaitz,Cannibalism,0.8429804494334971,NA,4
+cannibalism_vs_fc,%MNAU raw,37,Erlaitz,Funerary Context,0.15701955056650282,NA,4
+cannibalism_vs_fc,%MNAU raw,38,Errtxorta,Cannibalism,0.7274456568507192,NA,4
+cannibalism_vs_fc,%MNAU raw,38,Errtxorta,Funerary Context,0.2725543431492809,NA,4
+cannibalism_vs_fc,%MNAU raw,62,Koba Lotx,Cannibalism,0.7590583860618636,NA,4
+cannibalism_vs_fc,%MNAU raw,62,Koba Lotx,Funerary Context,0.2409416139381364,NA,4
+cannibalism_vs_fc,%MNAU raw,63,Koba Zarra,Cannibalism,0.786069264186182,NA,4
+cannibalism_vs_fc,%MNAU raw,63,Koba Zarra,Funerary Context,0.213930735813818,NA,4
+cannibalism_vs_fc,%MNAU raw,64,Kobazar,Cannibalism,0.808194251357531,NA,4
+cannibalism_vs_fc,%MNAU raw,64,Kobazar,Funerary Context,0.19180574864246905,NA,4
+cannibalism_vs_fc,%MNAU raw,72,Larrabiel,Cannibalism,0.8214260625289797,NA,4
+cannibalism_vs_fc,%MNAU raw,72,Larrabiel,Funerary Context,0.17857393747102035,NA,4
+cannibalism_vs_fc,%MNAU raw,84,Marizulo I,Cannibalism,0.316263186338604,NA,4
+cannibalism_vs_fc,%MNAU raw,84,Marizulo I,Funerary Context,0.6837368136613959,NA,4
+cannibalism_vs_fc,%MNAU raw,93,Naparraitz I,Cannibalism,0.71305940804514,NA,4
+cannibalism_vs_fc,%MNAU raw,93,Naparraitz I,Funerary Context,0.2869405919548601,NA,4
+cannibalism_vs_fc,%MNAU raw,100,Olatzazpi,Cannibalism,0.8257232204714863,NA,4
+cannibalism_vs_fc,%MNAU raw,100,Olatzazpi,Funerary Context,0.1742767795285137,NA,4
+cannibalism_vs_fc,%MNAU raw,101,Otalora,Cannibalism,0.8312877605520904,NA,4
+cannibalism_vs_fc,%MNAU raw,101,Otalora,Funerary Context,0.1687122394479096,NA,4
+cannibalism_vs_fc,%MNAU raw,105,Pikandita,Cannibalism,0.6346256350296361,NA,4
+cannibalism_vs_fc,%MNAU raw,105,Pikandita,Funerary Context,0.3653743649703639,NA,4
+cannibalism_vs_fc,%MNAU raw,127,Sorginzulo,Cannibalism,0.7849648071225288,NA,4
+cannibalism_vs_fc,%MNAU raw,127,Sorginzulo,Funerary Context,0.21503519287747117,NA,4
+cannibalism_vs_fc,%MNAU raw,135,Txispiri,Cannibalism,0.33314808620600356,NA,4
+cannibalism_vs_fc,%MNAU raw,135,Txispiri,Funerary Context,0.6668519137939964,NA,4
+cannibalism_vs_fc,%MNAU raw,136,Txomen Koba Erdikua,Cannibalism,0.7683126281159633,NA,4
+cannibalism_vs_fc,%MNAU raw,136,Txomen Koba Erdikua,Funerary Context,0.23168737188403665,NA,4
+cannibalism_vs_fc,%MNAU raw,137,Txotxinkoba Cave,Cannibalism,0.5191183651788429,NA,4
+cannibalism_vs_fc,%MNAU raw,137,Txotxinkoba Cave,Funerary Context,0.4808816348211571,NA,4
+cannibalism_vs_fc,%MNAU raw,138,Urdabide II,Cannibalism,0.2948156595801119,NA,4
+cannibalism_vs_fc,%MNAU raw,138,Urdabide II,Funerary Context,0.7051843404198881,NA,4
+cannibalism_vs_fc,%MNAU raw,139,Urtiaga,Cannibalism,0.5816161707511609,NA,4
+cannibalism_vs_fc,%MNAU raw,139,Urtiaga,Funerary Context,0.4183838292488391,NA,4
+cannibalism_vs_fc,%MNAU raw,140,Uxar,Cannibalism,0.4944942640815446,NA,4
+cannibalism_vs_fc,%MNAU raw,140,Uxar,Funerary Context,0.5055057359184554,NA,4
+cannibalism_vs_fc,%MNAU raw,151,Zelaibizkar I,Cannibalism,0.4675801390473837,NA,4
+cannibalism_vs_fc,%MNAU raw,151,Zelaibizkar I,Funerary Context,0.5324198609526163,NA,4
+cannibalism_vs_fc,C + Heip evenness,2,Aie Zelai,Cannibalism,0.8044320165747152,NA,4
+cannibalism_vs_fc,C + Heip evenness,2,Aie Zelai,Funerary Context,0.19556798342528478,NA,4
+cannibalism_vs_fc,C + Heip evenness,3,Aitzgaizto,Cannibalism,0.4928774545646711,NA,4
+cannibalism_vs_fc,C + Heip evenness,3,Aitzgaizto,Funerary Context,0.5071225454353289,NA,4
+cannibalism_vs_fc,C + Heip evenness,4,Allekoaitze,Cannibalism,0.8123661332626284,NA,4
+cannibalism_vs_fc,C + Heip evenness,4,Allekoaitze,Funerary Context,0.18763386673737165,NA,4
+cannibalism_vs_fc,C + Heip evenness,7,Arbelaitz,Cannibalism,0.8125244787278552,NA,4
+cannibalism_vs_fc,C + Heip evenness,7,Arbelaitz,Funerary Context,0.1874755212721449,NA,4
+cannibalism_vs_fc,C + Heip evenness,11,Belako Arkaitza 1,Cannibalism,0.6520169112232738,NA,4
+cannibalism_vs_fc,C + Heip evenness,11,Belako Arkaitza 1,Funerary Context,0.34798308877672623,NA,4
+cannibalism_vs_fc,C + Heip evenness,12,Beondegi II,Cannibalism,0.8195255554060225,NA,4
+cannibalism_vs_fc,C + Heip evenness,12,Beondegi II,Funerary Context,0.18047444459397757,NA,4
+cannibalism_vs_fc,C + Heip evenness,37,Erlaitz,Cannibalism,0.8234833141430101,NA,4
+cannibalism_vs_fc,C + Heip evenness,37,Erlaitz,Funerary Context,0.1765166858569899,NA,4
+cannibalism_vs_fc,C + Heip evenness,38,Errtxorta,Cannibalism,0.5709478099455396,NA,4
+cannibalism_vs_fc,C + Heip evenness,38,Errtxorta,Funerary Context,0.4290521900544604,NA,4
+cannibalism_vs_fc,C + Heip evenness,62,Koba Lotx,Cannibalism,0.8131448877026218,NA,4
+cannibalism_vs_fc,C + Heip evenness,62,Koba Lotx,Funerary Context,0.18685511229737822,NA,4
+cannibalism_vs_fc,C + Heip evenness,63,Koba Zarra,Cannibalism,0.7321960909640467,NA,4
+cannibalism_vs_fc,C + Heip evenness,63,Koba Zarra,Funerary Context,0.2678039090359533,NA,4
+cannibalism_vs_fc,C + Heip evenness,64,Kobazar,Cannibalism,0.7377173396665198,NA,4
+cannibalism_vs_fc,C + Heip evenness,64,Kobazar,Funerary Context,0.2622826603334803,NA,4
+cannibalism_vs_fc,C + Heip evenness,72,Larrabiel,Cannibalism,0.807179730328544,NA,4
+cannibalism_vs_fc,C + Heip evenness,72,Larrabiel,Funerary Context,0.19282026967145596,NA,4
+cannibalism_vs_fc,C + Heip evenness,84,Marizulo I,Cannibalism,0.2738344590486462,NA,4
+cannibalism_vs_fc,C + Heip evenness,84,Marizulo I,Funerary Context,0.7261655409513539,NA,4
+cannibalism_vs_fc,C + Heip evenness,93,Naparraitz I,Cannibalism,0.6590568396275623,NA,4
+cannibalism_vs_fc,C + Heip evenness,93,Naparraitz I,Funerary Context,0.3409431603724376,NA,4
+cannibalism_vs_fc,C + Heip evenness,100,Olatzazpi,Cannibalism,0.8020319647926583,NA,4
+cannibalism_vs_fc,C + Heip evenness,100,Olatzazpi,Funerary Context,0.19796803520734177,NA,4
+cannibalism_vs_fc,C + Heip evenness,101,Otalora,Cannibalism,0.8162069055382544,NA,4
+cannibalism_vs_fc,C + Heip evenness,101,Otalora,Funerary Context,0.18379309446174555,NA,4
+cannibalism_vs_fc,C + Heip evenness,105,Pikandita,Cannibalism,0.6167775502604339,NA,4
+cannibalism_vs_fc,C + Heip evenness,105,Pikandita,Funerary Context,0.3832224497395661,NA,4
+cannibalism_vs_fc,C + Heip evenness,127,Sorginzulo,Cannibalism,0.696145431156725,NA,4
+cannibalism_vs_fc,C + Heip evenness,127,Sorginzulo,Funerary Context,0.30385456884327505,NA,4
+cannibalism_vs_fc,C + Heip evenness,135,Txispiri,Cannibalism,0.3805755123196571,NA,4
+cannibalism_vs_fc,C + Heip evenness,135,Txispiri,Funerary Context,0.619424487680343,NA,4
+cannibalism_vs_fc,C + Heip evenness,136,Txomen Koba Erdikua,Cannibalism,0.8229627354575693,NA,4
+cannibalism_vs_fc,C + Heip evenness,136,Txomen Koba Erdikua,Funerary Context,0.17703726454243077,NA,4
+cannibalism_vs_fc,C + Heip evenness,137,Txotxinkoba Cave,Cannibalism,0.4528093036846162,NA,4
+cannibalism_vs_fc,C + Heip evenness,137,Txotxinkoba Cave,Funerary Context,0.5471906963153839,NA,4
+cannibalism_vs_fc,C + Heip evenness,138,Urdabide II,Cannibalism,0.3394475124601949,NA,4
+cannibalism_vs_fc,C + Heip evenness,138,Urdabide II,Funerary Context,0.6605524875398051,NA,4
+cannibalism_vs_fc,C + Heip evenness,139,Urtiaga,Cannibalism,0.6365583447121446,NA,4
+cannibalism_vs_fc,C + Heip evenness,139,Urtiaga,Funerary Context,0.36344165528785544,NA,4
+cannibalism_vs_fc,C + Heip evenness,140,Uxar,Cannibalism,0.5417771504400417,NA,4
+cannibalism_vs_fc,C + Heip evenness,140,Uxar,Funerary Context,0.4582228495599583,NA,4
+cannibalism_vs_fc,C + Heip evenness,151,Zelaibizkar I,Cannibalism,0.6042969898362517,NA,4
+cannibalism_vs_fc,C + Heip evenness,151,Zelaibizkar I,Funerary Context,0.39570301016374837,NA,4
+cannibalism_vs_fc,C only,2,Aie Zelai,Cannibalism,0.8375935439070964,NA,4
+cannibalism_vs_fc,C only,2,Aie Zelai,Funerary Context,0.1624064560929036,NA,4
+cannibalism_vs_fc,C only,3,Aitzgaizto,Cannibalism,0.45022723700543,NA,4
+cannibalism_vs_fc,C only,3,Aitzgaizto,Funerary Context,0.54977276299457,NA,4
+cannibalism_vs_fc,C only,4,Allekoaitze,Cannibalism,0.8391085048735831,NA,4
+cannibalism_vs_fc,C only,4,Allekoaitze,Funerary Context,0.1608914951264169,NA,4
+cannibalism_vs_fc,C only,7,Arbelaitz,Cannibalism,0.8390967117943651,NA,4
+cannibalism_vs_fc,C only,7,Arbelaitz,Funerary Context,0.16090328820563488,NA,4
+cannibalism_vs_fc,C only,11,Belako Arkaitza 1,Cannibalism,0.46829687406684445,NA,4
+cannibalism_vs_fc,C only,11,Belako Arkaitza 1,Funerary Context,0.5317031259331555,NA,4
+cannibalism_vs_fc,C only,12,Beondegi II,Cannibalism,0.8336986610140935,NA,4
+cannibalism_vs_fc,C only,12,Beondegi II,Funerary Context,0.16630133898590654,NA,4
+cannibalism_vs_fc,C only,37,Erlaitz,Cannibalism,0.8349594774348646,NA,4
+cannibalism_vs_fc,C only,37,Erlaitz,Funerary Context,0.16504052256513532,NA,4
+cannibalism_vs_fc,C only,38,Errtxorta,Cannibalism,0.422399295521119,NA,4
+cannibalism_vs_fc,C only,38,Errtxorta,Funerary Context,0.577600704478881,NA,4
+cannibalism_vs_fc,C only,62,Koba Lotx,Cannibalism,0.8406578073195969,NA,4
+cannibalism_vs_fc,C only,62,Koba Lotx,Funerary Context,0.15934219268040303,NA,4
+cannibalism_vs_fc,C only,63,Koba Zarra,Cannibalism,0.7250662355125632,NA,4
+cannibalism_vs_fc,C only,63,Koba Zarra,Funerary Context,0.2749337644874369,NA,4
+cannibalism_vs_fc,C only,64,Kobazar,Cannibalism,0.7100327153253669,NA,4
+cannibalism_vs_fc,C only,64,Kobazar,Funerary Context,0.2899672846746331,NA,4
+cannibalism_vs_fc,C only,72,Larrabiel,Cannibalism,0.8393098493055408,NA,4
+cannibalism_vs_fc,C only,72,Larrabiel,Funerary Context,0.16069015069445924,NA,4
+cannibalism_vs_fc,C only,84,Marizulo I,Cannibalism,0.320345717033353,NA,4
+cannibalism_vs_fc,C only,84,Marizulo I,Funerary Context,0.679654282966647,NA,4
+cannibalism_vs_fc,C only,93,Naparraitz I,Cannibalism,0.5804234767246035,NA,4
+cannibalism_vs_fc,C only,93,Naparraitz I,Funerary Context,0.4195765232753965,NA,4
+cannibalism_vs_fc,C only,100,Olatzazpi,Cannibalism,0.81825130036985,NA,4
+cannibalism_vs_fc,C only,100,Olatzazpi,Funerary Context,0.18174869963014995,NA,4
+cannibalism_vs_fc,C only,101,Otalora,Cannibalism,0.8379820128309031,NA,4
+cannibalism_vs_fc,C only,101,Otalora,Funerary Context,0.16201798716909688,NA,4
+cannibalism_vs_fc,C only,105,Pikandita,Cannibalism,0.4316711429246328,NA,4
+cannibalism_vs_fc,C only,105,Pikandita,Funerary Context,0.5683288570753672,NA,4
+cannibalism_vs_fc,C only,127,Sorginzulo,Cannibalism,0.4395473969743438,NA,4
+cannibalism_vs_fc,C only,127,Sorginzulo,Funerary Context,0.5604526030256562,NA,4
+cannibalism_vs_fc,C only,135,Txispiri,Cannibalism,0.32031758406741634,NA,4
+cannibalism_vs_fc,C only,135,Txispiri,Funerary Context,0.6796824159325836,NA,4
+cannibalism_vs_fc,C only,136,Txomen Koba Erdikua,Cannibalism,0.8300034869959595,NA,4
+cannibalism_vs_fc,C only,136,Txomen Koba Erdikua,Funerary Context,0.16999651300404056,NA,4
+cannibalism_vs_fc,C only,137,Txotxinkoba Cave,Cannibalism,0.46619631311404963,NA,4
+cannibalism_vs_fc,C only,137,Txotxinkoba Cave,Funerary Context,0.5338036868859504,NA,4
+cannibalism_vs_fc,C only,138,Urdabide II,Cannibalism,0.25751682272001286,NA,4
+cannibalism_vs_fc,C only,138,Urdabide II,Funerary Context,0.7424831772799871,NA,4
+cannibalism_vs_fc,C only,139,Urtiaga,Cannibalism,0.5077129343860616,NA,4
+cannibalism_vs_fc,C only,139,Urtiaga,Funerary Context,0.4922870656139384,NA,4
+cannibalism_vs_fc,C only,140,Uxar,Cannibalism,0.3858196344680769,NA,4
+cannibalism_vs_fc,C only,140,Uxar,Funerary Context,0.6141803655319231,NA,4
+cannibalism_vs_fc,C only,151,Zelaibizkar I,Cannibalism,0.4194166344632614,NA,4
+cannibalism_vs_fc,C only,151,Zelaibizkar I,Funerary Context,0.5805833655367386,NA,4
+cannibalism_vs_fc,Combined,2,Aie Zelai,Cannibalism,0.5128602450450418,NA,4
+cannibalism_vs_fc,Combined,2,Aie Zelai,Funerary Context,0.4871397549549582,NA,4
+cannibalism_vs_fc,Combined,3,Aitzgaizto,Cannibalism,0.6446654246365303,NA,4
+cannibalism_vs_fc,Combined,3,Aitzgaizto,Funerary Context,0.3553345753634697,NA,4
+cannibalism_vs_fc,Combined,4,Allekoaitze,Cannibalism,0.7527330029669935,NA,4
+cannibalism_vs_fc,Combined,4,Allekoaitze,Funerary Context,0.24726699703300647,NA,4
+cannibalism_vs_fc,Combined,7,Arbelaitz,Cannibalism,0.7218358461879549,NA,4
+cannibalism_vs_fc,Combined,7,Arbelaitz,Funerary Context,0.278164153812045,NA,4
+cannibalism_vs_fc,Combined,11,Belako Arkaitza 1,Cannibalism,0.797509407714618,NA,4
+cannibalism_vs_fc,Combined,11,Belako Arkaitza 1,Funerary Context,0.20249059228538208,NA,4
+cannibalism_vs_fc,Combined,12,Beondegi II,Cannibalism,0.8599986898841296,NA,4
+cannibalism_vs_fc,Combined,12,Beondegi II,Funerary Context,0.1400013101158703,NA,4
+cannibalism_vs_fc,Combined,37,Erlaitz,Cannibalism,0.6964156905603247,NA,4
+cannibalism_vs_fc,Combined,37,Erlaitz,Funerary Context,0.3035843094396753,NA,4
+cannibalism_vs_fc,Combined,38,Errtxorta,Cannibalism,0.7385350201007093,NA,4
+cannibalism_vs_fc,Combined,38,Errtxorta,Funerary Context,0.2614649798992908,NA,4
+cannibalism_vs_fc,Combined,62,Koba Lotx,Cannibalism,0.6003624376550145,NA,4
+cannibalism_vs_fc,Combined,62,Koba Lotx,Funerary Context,0.39963756234498543,NA,4
+cannibalism_vs_fc,Combined,63,Koba Zarra,Cannibalism,0.6996432578536282,NA,4
+cannibalism_vs_fc,Combined,63,Koba Zarra,Funerary Context,0.30035674214637165,NA,4
+cannibalism_vs_fc,Combined,64,Kobazar,Cannibalism,0.7856286303226873,NA,4
+cannibalism_vs_fc,Combined,64,Kobazar,Funerary Context,0.21437136967731277,NA,4
+cannibalism_vs_fc,Combined,72,Larrabiel,Cannibalism,0.8289590340959809,NA,4
+cannibalism_vs_fc,Combined,72,Larrabiel,Funerary Context,0.17104096590401902,NA,4
+cannibalism_vs_fc,Combined,84,Marizulo I,Cannibalism,0.24181068405126244,NA,4
+cannibalism_vs_fc,Combined,84,Marizulo I,Funerary Context,0.7581893159487375,NA,4
+cannibalism_vs_fc,Combined,93,Naparraitz I,Cannibalism,0.66255467255971,NA,4
+cannibalism_vs_fc,Combined,93,Naparraitz I,Funerary Context,0.33744532744029,NA,4
+cannibalism_vs_fc,Combined,100,Olatzazpi,Cannibalism,0.7455905658577617,NA,4
+cannibalism_vs_fc,Combined,100,Olatzazpi,Funerary Context,0.25440943414223827,NA,4
+cannibalism_vs_fc,Combined,101,Otalora,Cannibalism,0.681730797909953,NA,4
+cannibalism_vs_fc,Combined,101,Otalora,Funerary Context,0.31826920209004705,NA,4
+cannibalism_vs_fc,Combined,105,Pikandita,Cannibalism,0.6315716027733674,NA,4
+cannibalism_vs_fc,Combined,105,Pikandita,Funerary Context,0.36842839722663256,NA,4
+cannibalism_vs_fc,Combined,127,Sorginzulo,Cannibalism,0.6629137094701062,NA,4
+cannibalism_vs_fc,Combined,127,Sorginzulo,Funerary Context,0.3370862905298938,NA,4
+cannibalism_vs_fc,Combined,135,Txispiri,Cannibalism,0.33919266334234527,NA,4
+cannibalism_vs_fc,Combined,135,Txispiri,Funerary Context,0.6608073366576548,NA,4
+cannibalism_vs_fc,Combined,136,Txomen Koba Erdikua,Cannibalism,0.6420464217180122,NA,4
+cannibalism_vs_fc,Combined,136,Txomen Koba Erdikua,Funerary Context,0.3579535782819878,NA,4
+cannibalism_vs_fc,Combined,137,Txotxinkoba Cave,Cannibalism,0.34987396230688983,NA,4
+cannibalism_vs_fc,Combined,137,Txotxinkoba Cave,Funerary Context,0.6501260376931102,NA,4
+cannibalism_vs_fc,Combined,138,Urdabide II,Cannibalism,0.33001336273478526,NA,4
+cannibalism_vs_fc,Combined,138,Urdabide II,Funerary Context,0.6699866372652147,NA,4
+cannibalism_vs_fc,Combined,139,Urtiaga,Cannibalism,0.5038811268313789,NA,4
+cannibalism_vs_fc,Combined,139,Urtiaga,Funerary Context,0.4961188731686211,NA,4
+cannibalism_vs_fc,Combined,140,Uxar,Cannibalism,0.48707957347212605,NA,4
+cannibalism_vs_fc,Combined,140,Uxar,Funerary Context,0.512920426527874,NA,4
+cannibalism_vs_fc,Combined,151,Zelaibizkar I,Cannibalism,0.4246974191691595,NA,4
+cannibalism_vs_fc,Combined,151,Zelaibizkar I,Funerary Context,0.5753025808308405,NA,4
+cannibalism_vs_fc,Engineered,2,Aie Zelai,Cannibalism,0.5849643564934175,NA,4
+cannibalism_vs_fc,Engineered,2,Aie Zelai,Funerary Context,0.4150356435065825,NA,4
+cannibalism_vs_fc,Engineered,3,Aitzgaizto,Cannibalism,0.7013481002241825,NA,4
+cannibalism_vs_fc,Engineered,3,Aitzgaizto,Funerary Context,0.29865189977581746,NA,4
+cannibalism_vs_fc,Engineered,4,Allekoaitze,Cannibalism,0.7931785404081206,NA,4
+cannibalism_vs_fc,Engineered,4,Allekoaitze,Funerary Context,0.2068214595918793,NA,4
+cannibalism_vs_fc,Engineered,7,Arbelaitz,Cannibalism,0.7133149721682683,NA,4
+cannibalism_vs_fc,Engineered,7,Arbelaitz,Funerary Context,0.28668502783173166,NA,4
+cannibalism_vs_fc,Engineered,11,Belako Arkaitza 1,Cannibalism,0.7579428352850037,NA,4
+cannibalism_vs_fc,Engineered,11,Belako Arkaitza 1,Funerary Context,0.24205716471499633,NA,4
+cannibalism_vs_fc,Engineered,12,Beondegi II,Cannibalism,0.8591454495290115,NA,4
+cannibalism_vs_fc,Engineered,12,Beondegi II,Funerary Context,0.14085455047098847,NA,4
+cannibalism_vs_fc,Engineered,37,Erlaitz,Cannibalism,0.6461247532910658,NA,4
+cannibalism_vs_fc,Engineered,37,Erlaitz,Funerary Context,0.3538752467089342,NA,4
+cannibalism_vs_fc,Engineered,38,Errtxorta,Cannibalism,0.7236231041980898,NA,4
+cannibalism_vs_fc,Engineered,38,Errtxorta,Funerary Context,0.27637689580191016,NA,4
+cannibalism_vs_fc,Engineered,62,Koba Lotx,Cannibalism,0.7178154389534201,NA,4
+cannibalism_vs_fc,Engineered,62,Koba Lotx,Funerary Context,0.28218456104657985,NA,4
+cannibalism_vs_fc,Engineered,63,Koba Zarra,Cannibalism,0.7065601168250254,NA,4
+cannibalism_vs_fc,Engineered,63,Koba Zarra,Funerary Context,0.29343988317497466,NA,4
+cannibalism_vs_fc,Engineered,64,Kobazar,Cannibalism,0.7311030051580983,NA,4
+cannibalism_vs_fc,Engineered,64,Kobazar,Funerary Context,0.26889699484190166,NA,4
+cannibalism_vs_fc,Engineered,72,Larrabiel,Cannibalism,0.7669507452983254,NA,4
+cannibalism_vs_fc,Engineered,72,Larrabiel,Funerary Context,0.2330492547016746,NA,4
+cannibalism_vs_fc,Engineered,84,Marizulo I,Cannibalism,0.2221705922675715,NA,4
+cannibalism_vs_fc,Engineered,84,Marizulo I,Funerary Context,0.7778294077324285,NA,4
+cannibalism_vs_fc,Engineered,93,Naparraitz I,Cannibalism,0.7459366933485782,NA,4
+cannibalism_vs_fc,Engineered,93,Naparraitz I,Funerary Context,0.2540633066514218,NA,4
+cannibalism_vs_fc,Engineered,100,Olatzazpi,Cannibalism,0.7291865149820878,NA,4
+cannibalism_vs_fc,Engineered,100,Olatzazpi,Funerary Context,0.27081348501791225,NA,4
+cannibalism_vs_fc,Engineered,101,Otalora,Cannibalism,0.6205106135005157,NA,4
+cannibalism_vs_fc,Engineered,101,Otalora,Funerary Context,0.37948938649948427,NA,4
+cannibalism_vs_fc,Engineered,105,Pikandita,Cannibalism,0.6980742837263675,NA,4
+cannibalism_vs_fc,Engineered,105,Pikandita,Funerary Context,0.3019257162736325,NA,4
+cannibalism_vs_fc,Engineered,127,Sorginzulo,Cannibalism,0.6772468002966245,NA,4
+cannibalism_vs_fc,Engineered,127,Sorginzulo,Funerary Context,0.3227531997033755,NA,4
+cannibalism_vs_fc,Engineered,135,Txispiri,Cannibalism,0.4221232918561676,NA,4
+cannibalism_vs_fc,Engineered,135,Txispiri,Funerary Context,0.5778767081438324,NA,4
+cannibalism_vs_fc,Engineered,136,Txomen Koba Erdikua,Cannibalism,0.6515314770380594,NA,4
+cannibalism_vs_fc,Engineered,136,Txomen Koba Erdikua,Funerary Context,0.3484685229619406,NA,4
+cannibalism_vs_fc,Engineered,137,Txotxinkoba Cave,Cannibalism,0.4310430128461291,NA,4
+cannibalism_vs_fc,Engineered,137,Txotxinkoba Cave,Funerary Context,0.5689569871538709,NA,4
+cannibalism_vs_fc,Engineered,138,Urdabide II,Cannibalism,0.4356551785098505,NA,4
+cannibalism_vs_fc,Engineered,138,Urdabide II,Funerary Context,0.5643448214901495,NA,4
+cannibalism_vs_fc,Engineered,139,Urtiaga,Cannibalism,0.5356635049155266,NA,4
+cannibalism_vs_fc,Engineered,139,Urtiaga,Funerary Context,0.46433649508447344,NA,4
+cannibalism_vs_fc,Engineered,140,Uxar,Cannibalism,0.5072706207901244,NA,4
+cannibalism_vs_fc,Engineered,140,Uxar,Funerary Context,0.4927293792098756,NA,4
+cannibalism_vs_fc,Engineered,151,Zelaibizkar I,Cannibalism,0.6817552710356837,NA,4
+cannibalism_vs_fc,Engineered,151,Zelaibizkar I,Funerary Context,0.3182447289643163,NA,4
+cannibalism_vs_fc,Heip evenness only,2,Aie Zelai,Cannibalism,0.47126165764878003,NA,4
+cannibalism_vs_fc,Heip evenness only,2,Aie Zelai,Funerary Context,0.52873834235122,NA,4
+cannibalism_vs_fc,Heip evenness only,3,Aitzgaizto,Cannibalism,0.5109475703834383,NA,4
+cannibalism_vs_fc,Heip evenness only,3,Aitzgaizto,Funerary Context,0.4890524296165617,NA,4
+cannibalism_vs_fc,Heip evenness only,4,Allekoaitze,Cannibalism,0.7072871615904919,NA,4
+cannibalism_vs_fc,Heip evenness only,4,Allekoaitze,Funerary Context,0.2927128384095082,NA,4
+cannibalism_vs_fc,Heip evenness only,7,Arbelaitz,Cannibalism,0.7466125400998421,NA,4
+cannibalism_vs_fc,Heip evenness only,7,Arbelaitz,Funerary Context,0.2533874599001578,NA,4
+cannibalism_vs_fc,Heip evenness only,11,Belako Arkaitza 1,Cannibalism,0.7668641669420406,NA,4
+cannibalism_vs_fc,Heip evenness only,11,Belako Arkaitza 1,Funerary Context,0.23313583305795949,NA,4
+cannibalism_vs_fc,Heip evenness only,12,Beondegi II,Cannibalism,0.6387125328971834,NA,4
+cannibalism_vs_fc,Heip evenness only,12,Beondegi II,Funerary Context,0.36128746710281656,NA,4
+cannibalism_vs_fc,Heip evenness only,37,Erlaitz,Cannibalism,0.5874569931372883,NA,4
+cannibalism_vs_fc,Heip evenness only,37,Erlaitz,Funerary Context,0.4125430068627117,NA,4
+cannibalism_vs_fc,Heip evenness only,38,Errtxorta,Cannibalism,0.7007563860550095,NA,4
+cannibalism_vs_fc,Heip evenness only,38,Errtxorta,Funerary Context,0.2992436139449905,NA,4
+cannibalism_vs_fc,Heip evenness only,62,Koba Lotx,Cannibalism,0.6090645828453853,NA,4
+cannibalism_vs_fc,Heip evenness only,62,Koba Lotx,Funerary Context,0.3909354171546147,NA,4
+cannibalism_vs_fc,Heip evenness only,63,Koba Zarra,Cannibalism,0.4939774395967684,NA,4
+cannibalism_vs_fc,Heip evenness only,63,Koba Zarra,Funerary Context,0.5060225604032317,NA,4
+cannibalism_vs_fc,Heip evenness only,64,Kobazar,Cannibalism,0.718453797958285,NA,4
+cannibalism_vs_fc,Heip evenness only,64,Kobazar,Funerary Context,0.28154620204171493,NA,4
+cannibalism_vs_fc,Heip evenness only,72,Larrabiel,Cannibalism,0.7081069302020316,NA,4
+cannibalism_vs_fc,Heip evenness only,72,Larrabiel,Funerary Context,0.29189306979796836,NA,4
+cannibalism_vs_fc,Heip evenness only,84,Marizulo I,Cannibalism,0.17036151064588684,NA,4
+cannibalism_vs_fc,Heip evenness only,84,Marizulo I,Funerary Context,0.8296384893541132,NA,4
+cannibalism_vs_fc,Heip evenness only,93,Naparraitz I,Cannibalism,0.6060803025404314,NA,4
+cannibalism_vs_fc,Heip evenness only,93,Naparraitz I,Funerary Context,0.3939196974595686,NA,4
+cannibalism_vs_fc,Heip evenness only,100,Olatzazpi,Cannibalism,0.763931459164698,NA,4
+cannibalism_vs_fc,Heip evenness only,100,Olatzazpi,Funerary Context,0.236068540835302,NA,4
+cannibalism_vs_fc,Heip evenness only,101,Otalora,Cannibalism,0.716971612997826,NA,4
+cannibalism_vs_fc,Heip evenness only,101,Otalora,Funerary Context,0.28302838700217403,NA,4
+cannibalism_vs_fc,Heip evenness only,105,Pikandita,Cannibalism,0.6762888418443013,NA,4
+cannibalism_vs_fc,Heip evenness only,105,Pikandita,Funerary Context,0.32371115815569873,NA,4
+cannibalism_vs_fc,Heip evenness only,127,Sorginzulo,Cannibalism,0.5164792708753767,NA,4
+cannibalism_vs_fc,Heip evenness only,127,Sorginzulo,Funerary Context,0.4835207291246233,NA,4
+cannibalism_vs_fc,Heip evenness only,135,Txispiri,Cannibalism,0.37104552063814633,NA,4
+cannibalism_vs_fc,Heip evenness only,135,Txispiri,Funerary Context,0.6289544793618536,NA,4
+cannibalism_vs_fc,Heip evenness only,136,Txomen Koba Erdikua,Cannibalism,0.6149864351759803,NA,4
+cannibalism_vs_fc,Heip evenness only,136,Txomen Koba Erdikua,Funerary Context,0.38501356482401966,NA,4
+cannibalism_vs_fc,Heip evenness only,137,Txotxinkoba Cave,Cannibalism,0.18306688236038976,NA,4
+cannibalism_vs_fc,Heip evenness only,137,Txotxinkoba Cave,Funerary Context,0.8169331176396102,NA,4
+cannibalism_vs_fc,Heip evenness only,138,Urdabide II,Cannibalism,0.7108635934784098,NA,4
+cannibalism_vs_fc,Heip evenness only,138,Urdabide II,Funerary Context,0.2891364065215903,NA,4
+cannibalism_vs_fc,Heip evenness only,139,Urtiaga,Cannibalism,0.6587049440872939,NA,4
+cannibalism_vs_fc,Heip evenness only,139,Urtiaga,Funerary Context,0.34129505591270615,NA,4
+cannibalism_vs_fc,Heip evenness only,140,Uxar,Cannibalism,0.7001595005941703,NA,4
+cannibalism_vs_fc,Heip evenness only,140,Uxar,Funerary Context,0.2998404994058297,NA,4
+cannibalism_vs_fc,Heip evenness only,151,Zelaibizkar I,Cannibalism,0.5407234987997183,NA,4
+cannibalism_vs_fc,Heip evenness only,151,Zelaibizkar I,Funerary Context,0.4592765012002817,NA,4
+cannibalism_vs_fc,ReMNAU raw,2,Aie Zelai,Cannibalism,0.2557872162172257,NA,4
+cannibalism_vs_fc,ReMNAU raw,2,Aie Zelai,Funerary Context,0.7442127837827743,NA,4
+cannibalism_vs_fc,ReMNAU raw,3,Aitzgaizto,Cannibalism,0.5113552462562765,NA,4
+cannibalism_vs_fc,ReMNAU raw,3,Aitzgaizto,Funerary Context,0.4886447537437235,NA,4
+cannibalism_vs_fc,ReMNAU raw,4,Allekoaitze,Cannibalism,0.5562935894791572,NA,4
+cannibalism_vs_fc,ReMNAU raw,4,Allekoaitze,Funerary Context,0.4437064105208428,NA,4
+cannibalism_vs_fc,ReMNAU raw,7,Arbelaitz,Cannibalism,0.6625136628551954,NA,4
+cannibalism_vs_fc,ReMNAU raw,7,Arbelaitz,Funerary Context,0.3374863371448046,NA,4
+cannibalism_vs_fc,ReMNAU raw,11,Belako Arkaitza 1,Cannibalism,0.7167529206052687,NA,4
+cannibalism_vs_fc,ReMNAU raw,11,Belako Arkaitza 1,Funerary Context,0.28324707939473137,NA,4
+cannibalism_vs_fc,ReMNAU raw,12,Beondegi II,Cannibalism,0.7358800816963534,NA,4
+cannibalism_vs_fc,ReMNAU raw,12,Beondegi II,Funerary Context,0.26411991830364656,NA,4
+cannibalism_vs_fc,ReMNAU raw,37,Erlaitz,Cannibalism,0.6434533174622304,NA,4
+cannibalism_vs_fc,ReMNAU raw,37,Erlaitz,Funerary Context,0.35654668253776955,NA,4
+cannibalism_vs_fc,ReMNAU raw,38,Errtxorta,Cannibalism,0.5942933746785568,NA,4
+cannibalism_vs_fc,ReMNAU raw,38,Errtxorta,Funerary Context,0.40570662532144314,NA,4
+cannibalism_vs_fc,ReMNAU raw,62,Koba Lotx,Cannibalism,0.5806560582832868,NA,4
+cannibalism_vs_fc,ReMNAU raw,62,Koba Lotx,Funerary Context,0.4193439417167132,NA,4
+cannibalism_vs_fc,ReMNAU raw,63,Koba Zarra,Cannibalism,0.3831071063424927,NA,4
+cannibalism_vs_fc,ReMNAU raw,63,Koba Zarra,Funerary Context,0.6168928936575073,NA,4
+cannibalism_vs_fc,ReMNAU raw,64,Kobazar,Cannibalism,0.752815075157146,NA,4
+cannibalism_vs_fc,ReMNAU raw,64,Kobazar,Funerary Context,0.24718492484285406,NA,4
+cannibalism_vs_fc,ReMNAU raw,72,Larrabiel,Cannibalism,0.8191280301367191,NA,4
+cannibalism_vs_fc,ReMNAU raw,72,Larrabiel,Funerary Context,0.1808719698632809,NA,4
+cannibalism_vs_fc,ReMNAU raw,84,Marizulo I,Cannibalism,0.19514586649571242,NA,4
+cannibalism_vs_fc,ReMNAU raw,84,Marizulo I,Funerary Context,0.8048541335042876,NA,4
+cannibalism_vs_fc,ReMNAU raw,93,Naparraitz I,Cannibalism,0.6491239754312063,NA,4
+cannibalism_vs_fc,ReMNAU raw,93,Naparraitz I,Funerary Context,0.35087602456879374,NA,4
+cannibalism_vs_fc,ReMNAU raw,100,Olatzazpi,Cannibalism,0.7598496955514822,NA,4
+cannibalism_vs_fc,ReMNAU raw,100,Olatzazpi,Funerary Context,0.24015030444851787,NA,4
+cannibalism_vs_fc,ReMNAU raw,101,Otalora,Cannibalism,0.6973396352752242,NA,4
+cannibalism_vs_fc,ReMNAU raw,101,Otalora,Funerary Context,0.30266036472477575,NA,4
+cannibalism_vs_fc,ReMNAU raw,105,Pikandita,Cannibalism,0.3026071907059566,NA,4
+cannibalism_vs_fc,ReMNAU raw,105,Pikandita,Funerary Context,0.6973928092940433,NA,4
+cannibalism_vs_fc,ReMNAU raw,127,Sorginzulo,Cannibalism,0.4367752199379563,NA,4
+cannibalism_vs_fc,ReMNAU raw,127,Sorginzulo,Funerary Context,0.5632247800620436,NA,4
+cannibalism_vs_fc,ReMNAU raw,135,Txispiri,Cannibalism,0.28911314429099855,NA,4
+cannibalism_vs_fc,ReMNAU raw,135,Txispiri,Funerary Context,0.7108868557090015,NA,4
+cannibalism_vs_fc,ReMNAU raw,136,Txomen Koba Erdikua,Cannibalism,0.462637324734869,NA,4
+cannibalism_vs_fc,ReMNAU raw,136,Txomen Koba Erdikua,Funerary Context,0.537362675265131,NA,4
+cannibalism_vs_fc,ReMNAU raw,137,Txotxinkoba Cave,Cannibalism,0.1749979356232736,NA,4
+cannibalism_vs_fc,ReMNAU raw,137,Txotxinkoba Cave,Funerary Context,0.8250020643767264,NA,4
+cannibalism_vs_fc,ReMNAU raw,138,Urdabide II,Cannibalism,0.321047837245654,NA,4
+cannibalism_vs_fc,ReMNAU raw,138,Urdabide II,Funerary Context,0.678952162754346,NA,4
+cannibalism_vs_fc,ReMNAU raw,139,Urtiaga,Cannibalism,0.37141691175445146,NA,4
+cannibalism_vs_fc,ReMNAU raw,139,Urtiaga,Funerary Context,0.6285830882455485,NA,4
+cannibalism_vs_fc,ReMNAU raw,140,Uxar,Cannibalism,0.3334819566333068,NA,4
+cannibalism_vs_fc,ReMNAU raw,140,Uxar,Funerary Context,0.6665180433666932,NA,4
+cannibalism_vs_fc,ReMNAU raw,151,Zelaibizkar I,Cannibalism,0.2373170533777118,NA,4
+cannibalism_vs_fc,ReMNAU raw,151,Zelaibizkar I,Funerary Context,0.7626829466222882,NA,4
+fc_vs_rest,%MNAU raw,2,Aie Zelai,Funerary Context,0.26069283815960664,NA,4
+fc_vs_rest,%MNAU raw,2,Aie Zelai,Rest,0.7393071618403934,NA,4
+fc_vs_rest,%MNAU raw,3,Aitzgaizto,Funerary Context,0.44631537470377,NA,4
+fc_vs_rest,%MNAU raw,3,Aitzgaizto,Rest,0.55368462529623,NA,4
+fc_vs_rest,%MNAU raw,4,Allekoaitze,Funerary Context,0.1775593028676812,NA,4
+fc_vs_rest,%MNAU raw,4,Allekoaitze,Rest,0.8224406971323188,NA,4
+fc_vs_rest,%MNAU raw,7,Arbelaitz,Funerary Context,0.12742159708868925,NA,4
+fc_vs_rest,%MNAU raw,7,Arbelaitz,Rest,0.8725784029113107,NA,4
+fc_vs_rest,%MNAU raw,11,Belako Arkaitza 1,Funerary Context,0.3269303848561001,NA,4
+fc_vs_rest,%MNAU raw,11,Belako Arkaitza 1,Rest,0.6730696151438998,NA,4
+fc_vs_rest,%MNAU raw,12,Beondegi II,Funerary Context,0.21364565062408103,NA,4
+fc_vs_rest,%MNAU raw,12,Beondegi II,Rest,0.786354349375919,NA,4
+fc_vs_rest,%MNAU raw,37,Erlaitz,Funerary Context,0.20424605776515534,NA,4
+fc_vs_rest,%MNAU raw,37,Erlaitz,Rest,0.7957539422348447,NA,4
+fc_vs_rest,%MNAU raw,38,Errtxorta,Funerary Context,0.3079744456232886,NA,4
+fc_vs_rest,%MNAU raw,38,Errtxorta,Rest,0.6920255543767114,NA,4
+fc_vs_rest,%MNAU raw,62,Koba Lotx,Funerary Context,0.2271736608892851,NA,4
+fc_vs_rest,%MNAU raw,62,Koba Lotx,Rest,0.7728263391107149,NA,4
+fc_vs_rest,%MNAU raw,63,Koba Zarra,Funerary Context,0.24271593382480317,NA,4
+fc_vs_rest,%MNAU raw,63,Koba Zarra,Rest,0.7572840661751968,NA,4
+fc_vs_rest,%MNAU raw,64,Kobazar,Funerary Context,0.18778117251691917,NA,4
+fc_vs_rest,%MNAU raw,64,Kobazar,Rest,0.8122188274830808,NA,4
+fc_vs_rest,%MNAU raw,72,Larrabiel,Funerary Context,0.18008285123886056,NA,4
+fc_vs_rest,%MNAU raw,72,Larrabiel,Rest,0.8199171487611394,NA,4
+fc_vs_rest,%MNAU raw,84,Marizulo I,Funerary Context,0.7563283050358345,NA,4
+fc_vs_rest,%MNAU raw,84,Marizulo I,Rest,0.24367169496416552,NA,4
+fc_vs_rest,%MNAU raw,93,Naparraitz I,Funerary Context,0.2656415004017049,NA,4
+fc_vs_rest,%MNAU raw,93,Naparraitz I,Rest,0.734358499598295,NA,4
+fc_vs_rest,%MNAU raw,100,Olatzazpi,Funerary Context,0.1522014679181623,NA,4
+fc_vs_rest,%MNAU raw,100,Olatzazpi,Rest,0.8477985320818378,NA,4
+fc_vs_rest,%MNAU raw,101,Otalora,Funerary Context,0.16067352022291356,NA,4
+fc_vs_rest,%MNAU raw,101,Otalora,Rest,0.8393264797770864,NA,4
+fc_vs_rest,%MNAU raw,105,Pikandita,Funerary Context,0.4196632828503478,NA,4
+fc_vs_rest,%MNAU raw,105,Pikandita,Rest,0.5803367171496522,NA,4
+fc_vs_rest,%MNAU raw,127,Sorginzulo,Funerary Context,0.29726813013299436,NA,4
+fc_vs_rest,%MNAU raw,127,Sorginzulo,Rest,0.7027318698670056,NA,4
+fc_vs_rest,%MNAU raw,135,Txispiri,Funerary Context,0.7369739094594276,NA,4
+fc_vs_rest,%MNAU raw,135,Txispiri,Rest,0.26302609054057235,NA,4
+fc_vs_rest,%MNAU raw,136,Txomen Koba Erdikua,Funerary Context,0.2569278823414524,NA,4
+fc_vs_rest,%MNAU raw,136,Txomen Koba Erdikua,Rest,0.7430721176585475,NA,4
+fc_vs_rest,%MNAU raw,137,Txotxinkoba Cave,Funerary Context,0.5795216972952528,NA,4
+fc_vs_rest,%MNAU raw,137,Txotxinkoba Cave,Rest,0.4204783027047472,NA,4
+fc_vs_rest,%MNAU raw,138,Urdabide II,Funerary Context,0.7012089925759163,NA,4
+fc_vs_rest,%MNAU raw,138,Urdabide II,Rest,0.29879100742408365,NA,4
+fc_vs_rest,%MNAU raw,139,Urtiaga,Funerary Context,0.48088735991036596,NA,4
+fc_vs_rest,%MNAU raw,139,Urtiaga,Rest,0.5191126400896341,NA,4
+fc_vs_rest,%MNAU raw,140,Uxar,Funerary Context,0.5220584286094527,NA,4
+fc_vs_rest,%MNAU raw,140,Uxar,Rest,0.4779415713905472,NA,4
+fc_vs_rest,%MNAU raw,151,Zelaibizkar I,Funerary Context,0.5728371021647672,NA,4
+fc_vs_rest,%MNAU raw,151,Zelaibizkar I,Rest,0.42716289783523276,NA,4
+fc_vs_rest,C + Heip evenness,2,Aie Zelai,Funerary Context,0.21073602541232658,NA,4
+fc_vs_rest,C + Heip evenness,2,Aie Zelai,Rest,0.7892639745876735,NA,4
+fc_vs_rest,C + Heip evenness,3,Aitzgaizto,Funerary Context,0.5409450342025719,NA,4
+fc_vs_rest,C + Heip evenness,3,Aitzgaizto,Rest,0.45905496579742805,NA,4
+fc_vs_rest,C + Heip evenness,4,Allekoaitze,Funerary Context,0.19453747058627874,NA,4
+fc_vs_rest,C + Heip evenness,4,Allekoaitze,Rest,0.8054625294137212,NA,4
+fc_vs_rest,C + Heip evenness,7,Arbelaitz,Funerary Context,0.16919284066540902,NA,4
+fc_vs_rest,C + Heip evenness,7,Arbelaitz,Rest,0.8308071593345909,NA,4
+fc_vs_rest,C + Heip evenness,11,Belako Arkaitza 1,Funerary Context,0.448746613121227,NA,4
+fc_vs_rest,C + Heip evenness,11,Belako Arkaitza 1,Rest,0.551253386878773,NA,4
+fc_vs_rest,C + Heip evenness,12,Beondegi II,Funerary Context,0.1990478041033564,NA,4
+fc_vs_rest,C + Heip evenness,12,Beondegi II,Rest,0.8009521958966436,NA,4
+fc_vs_rest,C + Heip evenness,37,Erlaitz,Funerary Context,0.20713080210891535,NA,4
+fc_vs_rest,C + Heip evenness,37,Erlaitz,Rest,0.7928691978910847,NA,4
+fc_vs_rest,C + Heip evenness,38,Errtxorta,Funerary Context,0.4042227217006499,NA,4
+fc_vs_rest,C + Heip evenness,38,Errtxorta,Rest,0.5957772782993502,NA,4
+fc_vs_rest,C + Heip evenness,62,Koba Lotx,Funerary Context,0.192727323046665,NA,4
+fc_vs_rest,C + Heip evenness,62,Koba Lotx,Rest,0.807272676953335,NA,4
+fc_vs_rest,C + Heip evenness,63,Koba Zarra,Funerary Context,0.35982472888018024,NA,4
+fc_vs_rest,C + Heip evenness,63,Koba Zarra,Rest,0.6401752711198196,NA,4
+fc_vs_rest,C + Heip evenness,64,Kobazar,Funerary Context,0.28730466965322027,NA,4
+fc_vs_rest,C + Heip evenness,64,Kobazar,Rest,0.7126953303467797,NA,4
+fc_vs_rest,C + Heip evenness,72,Larrabiel,Funerary Context,0.19716430754159794,NA,4
+fc_vs_rest,C + Heip evenness,72,Larrabiel,Rest,0.802835692458402,NA,4
+fc_vs_rest,C + Heip evenness,84,Marizulo I,Funerary Context,0.787577341782545,NA,4
+fc_vs_rest,C + Heip evenness,84,Marizulo I,Rest,0.21242265821745498,NA,4
+fc_vs_rest,C + Heip evenness,93,Naparraitz I,Funerary Context,0.3488710754337173,NA,4
+fc_vs_rest,C + Heip evenness,93,Naparraitz I,Rest,0.6511289245662827,NA,4
+fc_vs_rest,C + Heip evenness,100,Olatzazpi,Funerary Context,0.15973789720414738,NA,4
+fc_vs_rest,C + Heip evenness,100,Olatzazpi,Rest,0.8402621027958526,NA,4
+fc_vs_rest,C + Heip evenness,101,Otalora,Funerary Context,0.19471165995987744,NA,4
+fc_vs_rest,C + Heip evenness,101,Otalora,Rest,0.8052883400401225,NA,4
+fc_vs_rest,C + Heip evenness,105,Pikandita,Funerary Context,0.407229291573755,NA,4
+fc_vs_rest,C + Heip evenness,105,Pikandita,Rest,0.592770708426245,NA,4
+fc_vs_rest,C + Heip evenness,127,Sorginzulo,Funerary Context,0.3595783012276284,NA,4
+fc_vs_rest,C + Heip evenness,127,Sorginzulo,Rest,0.6404216987723717,NA,4
+fc_vs_rest,C + Heip evenness,135,Txispiri,Funerary Context,0.7092332387124487,NA,4
+fc_vs_rest,C + Heip evenness,135,Txispiri,Rest,0.2907667612875513,NA,4
+fc_vs_rest,C + Heip evenness,136,Txomen Koba Erdikua,Funerary Context,0.21419331071282957,NA,4
+fc_vs_rest,C + Heip evenness,136,Txomen Koba Erdikua,Rest,0.7858066892871705,NA,4
+fc_vs_rest,C + Heip evenness,137,Txotxinkoba Cave,Funerary Context,0.6480367765587796,NA,4
+fc_vs_rest,C + Heip evenness,137,Txotxinkoba Cave,Rest,0.35196322344122044,NA,4
+fc_vs_rest,C + Heip evenness,138,Urdabide II,Funerary Context,0.7236751437915581,NA,4
+fc_vs_rest,C + Heip evenness,138,Urdabide II,Rest,0.27632485620844205,NA,4
+fc_vs_rest,C + Heip evenness,139,Urtiaga,Funerary Context,0.3780857520170467,NA,4
+fc_vs_rest,C + Heip evenness,139,Urtiaga,Rest,0.62191424798295325,NA,4
+fc_vs_rest,C + Heip evenness,140,Uxar,Funerary Context,0.44182323530867657,NA,4
+fc_vs_rest,C + Heip evenness,140,Uxar,Rest,0.5581767646913235,NA,4
+fc_vs_rest,C + Heip evenness,151,Zelaibizkar I,Funerary Context,0.45625651223972996,NA,4
+fc_vs_rest,C + Heip evenness,151,Zelaibizkar I,Rest,0.54374348776027,NA,4
+fc_vs_rest,C only,2,Aie Zelai,Funerary Context,0.1680269357099919,NA,4
+fc_vs_rest,C only,2,Aie Zelai,Rest,0.8319730642900082,NA,4
+fc_vs_rest,C only,3,Aitzgaizto,Funerary Context,0.630087617821949,NA,4
+fc_vs_rest,C only,3,Aitzgaizto,Rest,0.369912382178051,NA,4
+fc_vs_rest,C only,4,Allekoaitze,Funerary Context,0.16740560888011402,NA,4
+fc_vs_rest,C only,4,Allekoaitze,Rest,0.832594391119886,NA,4
+fc_vs_rest,C only,7,Arbelaitz,Funerary Context,0.16274630259655978,NA,4
+fc_vs_rest,C only,7,Arbelaitz,Rest,0.8372536974034402,NA,4
+fc_vs_rest,C only,11,Belako Arkaitza 1,Funerary Context,0.6224302810074815,NA,4
+fc_vs_rest,C only,11,Belako Arkaitza 1,Rest,0.3775697189925185,NA,4
+fc_vs_rest,C only,12,Beondegi II,Funerary Context,0.17991387714163729,NA,4
+fc_vs_rest,C only,12,Beondegi II,Rest,0.8200861228583627,NA,4
+fc_vs_rest,C only,37,Erlaitz,Funerary Context,0.17437792376352948,NA,4
+fc_vs_rest,C only,37,Erlaitz,Rest,0.8256220762364705,NA,4
+fc_vs_rest,C only,38,Errtxorta,Funerary Context,0.5913005365350266,NA,4
+fc_vs_rest,C only,38,Errtxorta,Rest,0.4086994634649734,NA,4
+fc_vs_rest,C only,62,Koba Lotx,Funerary Context,0.16066434849409467,NA,4
+fc_vs_rest,C only,62,Koba Lotx,Rest,0.8393356515059054,NA,4
+fc_vs_rest,C only,63,Koba Zarra,Funerary Context,0.3245104922822482,NA,4
+fc_vs_rest,C only,63,Koba Zarra,Rest,0.6754895077177518,NA,4
+fc_vs_rest,C only,64,Kobazar,Funerary Context,0.33877317375543275,NA,4
+fc_vs_rest,C only,64,Kobazar,Rest,0.6612268262445672,NA,4
+fc_vs_rest,C only,72,Larrabiel,Funerary Context,0.16371886537550218,NA,4
+fc_vs_rest,C only,72,Larrabiel,Rest,0.8362811346244978,NA,4
+fc_vs_rest,C only,84,Marizulo I,Funerary Context,0.7368604967726932,NA,4
+fc_vs_rest,C only,84,Marizulo I,Rest,0.2631395032273069,NA,4
+fc_vs_rest,C only,93,Naparraitz I,Funerary Context,0.4561705250379399,NA,4
+fc_vs_rest,C only,93,Naparraitz I,Rest,0.5438294749620601,NA,4
+fc_vs_rest,C only,100,Olatzazpi,Funerary Context,0.14946854372702104,NA,4
+fc_vs_rest,C only,100,Olatzazpi,Rest,0.850531456272979,NA,4
+fc_vs_rest,C only,101,Otalora,Funerary Context,0.16742045177931078,NA,4
+fc_vs_rest,C only,101,Otalora,Rest,0.8325795482206892,NA,4
+fc_vs_rest,C only,105,Pikandita,Funerary Context,0.5809483961559765,NA,4
+fc_vs_rest,C only,105,Pikandita,Rest,0.4190516038440235,NA,4
+fc_vs_rest,C only,127,Sorginzulo,Funerary Context,0.4064081911553245,NA,4
+fc_vs_rest,C only,127,Sorginzulo,Rest,0.5935918088446754,NA,4
+fc_vs_rest,C only,135,Txispiri,Funerary Context,0.7367690676261942,NA,4
+fc_vs_rest,C only,135,Txispiri,Rest,0.2632309323738058,NA,4
+fc_vs_rest,C only,136,Txomen Koba Erdikua,Funerary Context,0.18673680263323097,NA,4
+fc_vs_rest,C only,136,Txomen Koba Erdikua,Rest,0.813263197366769,NA,4
+fc_vs_rest,C only,137,Txotxinkoba Cave,Funerary Context,0.6235729992849057,NA,4
+fc_vs_rest,C only,137,Txotxinkoba Cave,Rest,0.3764270007150943,NA,4
+fc_vs_rest,C only,138,Urdabide II,Funerary Context,0.7886757395565276,NA,4
+fc_vs_rest,C only,138,Urdabide II,Rest,0.21132426044347233,NA,4
+fc_vs_rest,C only,139,Urtiaga,Funerary Context,0.47859888209937174,NA,4
+fc_vs_rest,C only,139,Urtiaga,Rest,0.5214011179006283,NA,4
+fc_vs_rest,C only,140,Uxar,Funerary Context,0.6642271903692669,NA,4
+fc_vs_rest,C only,140,Uxar,Rest,0.335772809630733,NA,4
+fc_vs_rest,C only,151,Zelaibizkar I,Funerary Context,0.6532063183360092,NA,4
+fc_vs_rest,C only,151,Zelaibizkar I,Rest,0.3467936816639908,NA,4
+fc_vs_rest,Combined,2,Aie Zelai,Funerary Context,0.3769025494343944,NA,4
+fc_vs_rest,Combined,2,Aie Zelai,Rest,0.6230974505656056,NA,4
+fc_vs_rest,Combined,3,Aitzgaizto,Funerary Context,0.3459739017114872,NA,4
+fc_vs_rest,Combined,3,Aitzgaizto,Rest,0.6540260982885129,NA,4
+fc_vs_rest,Combined,4,Allekoaitze,Funerary Context,0.1706864014715584,NA,4
+fc_vs_rest,Combined,4,Allekoaitze,Rest,0.8293135985284417,NA,4
+fc_vs_rest,Combined,7,Arbelaitz,Funerary Context,0.16160073832352803,NA,4
+fc_vs_rest,Combined,7,Arbelaitz,Rest,0.8383992616764719,NA,4
+fc_vs_rest,Combined,11,Belako Arkaitza 1,Funerary Context,0.30379702828983224,NA,4
+fc_vs_rest,Combined,11,Belako Arkaitza 1,Rest,0.6962029717101678,NA,4
+fc_vs_rest,Combined,12,Beondegi II,Funerary Context,0.15316464608434793,NA,4
+fc_vs_rest,Combined,12,Beondegi II,Rest,0.846835353915652,NA,4
+fc_vs_rest,Combined,37,Erlaitz,Funerary Context,0.21721929257438755,NA,4
+fc_vs_rest,Combined,37,Erlaitz,Rest,0.7827807074256125,NA,4
+fc_vs_rest,Combined,38,Errtxorta,Funerary Context,0.3418090881471585,NA,4
+fc_vs_rest,Combined,38,Errtxorta,Rest,0.6581909118528415,NA,4
+fc_vs_rest,Combined,62,Koba Lotx,Funerary Context,0.19591705058560127,NA,4
+fc_vs_rest,Combined,62,Koba Lotx,Rest,0.8040829494143987,NA,4
+fc_vs_rest,Combined,63,Koba Zarra,Funerary Context,0.3314632544616796,NA,4
+fc_vs_rest,Combined,63,Koba Zarra,Rest,0.6685367455383204,NA,4
+fc_vs_rest,Combined,64,Kobazar,Funerary Context,0.18018868750794786,NA,4
+fc_vs_rest,Combined,64,Kobazar,Rest,0.8198113124920521,NA,4
+fc_vs_rest,Combined,72,Larrabiel,Funerary Context,0.1797123379425228,NA,4
+fc_vs_rest,Combined,72,Larrabiel,Rest,0.8202876620574772,NA,4
+fc_vs_rest,Combined,84,Marizulo I,Funerary Context,0.8197630267200774,NA,4
+fc_vs_rest,Combined,84,Marizulo I,Rest,0.18023697327992258,NA,4
+fc_vs_rest,Combined,93,Naparraitz I,Funerary Context,0.24707180215675187,NA,4
+fc_vs_rest,Combined,93,Naparraitz I,Rest,0.752928197843248,NA,4
+fc_vs_rest,Combined,100,Olatzazpi,Funerary Context,0.1250975456888609,NA,4
+fc_vs_rest,Combined,100,Olatzazpi,Rest,0.8749024543111391,NA,4
+fc_vs_rest,Combined,101,Otalora,Funerary Context,0.15467049155072468,NA,4
+fc_vs_rest,Combined,101,Otalora,Rest,0.8453295084492753,NA,4
+fc_vs_rest,Combined,105,Pikandita,Funerary Context,0.4236946643281685,NA,4
+fc_vs_rest,Combined,105,Pikandita,Rest,0.5763053356718315,NA,4
+fc_vs_rest,Combined,127,Sorginzulo,Funerary Context,0.38104761691457173,NA,4
+fc_vs_rest,Combined,127,Sorginzulo,Rest,0.6189523830854282,NA,4
+fc_vs_rest,Combined,135,Txispiri,Funerary Context,0.7499269217135212,NA,4
+fc_vs_rest,Combined,135,Txispiri,Rest,0.2500730782864789,NA,4
+fc_vs_rest,Combined,136,Txomen Koba Erdikua,Funerary Context,0.2517887017579509,NA,4
+fc_vs_rest,Combined,136,Txomen Koba Erdikua,Rest,0.7482112982420491,NA,4
+fc_vs_rest,Combined,137,Txotxinkoba Cave,Funerary Context,0.7411312348520226,NA,4
+fc_vs_rest,Combined,137,Txotxinkoba Cave,Rest,0.25886876514797746,NA,4
+fc_vs_rest,Combined,138,Urdabide II,Funerary Context,0.7064218619171827,NA,4
+fc_vs_rest,Combined,138,Urdabide II,Rest,0.29357813808281735,NA,4
+fc_vs_rest,Combined,139,Urtiaga,Funerary Context,0.522516512280144,NA,4
+fc_vs_rest,Combined,139,Urtiaga,Rest,0.4774834877198561,NA,4
+fc_vs_rest,Combined,140,Uxar,Funerary Context,0.49552663481076736,NA,4
+fc_vs_rest,Combined,140,Uxar,Rest,0.5044733651892326,NA,4
+fc_vs_rest,Combined,151,Zelaibizkar I,Funerary Context,0.6435979532802385,NA,4
+fc_vs_rest,Combined,151,Zelaibizkar I,Rest,0.3564020467197614,NA,4
+fc_vs_rest,Engineered,2,Aie Zelai,Funerary Context,0.25963068679396956,NA,4
+fc_vs_rest,Engineered,2,Aie Zelai,Rest,0.7403693132060305,NA,4
+fc_vs_rest,Engineered,3,Aitzgaizto,Funerary Context,0.38418817196401944,NA,4
+fc_vs_rest,Engineered,3,Aitzgaizto,Rest,0.6158118280359806,NA,4
+fc_vs_rest,Engineered,4,Allekoaitze,Funerary Context,0.20925988258019268,NA,4
+fc_vs_rest,Engineered,4,Allekoaitze,Rest,0.7907401174198073,NA,4
+fc_vs_rest,Engineered,7,Arbelaitz,Funerary Context,0.1888605176679019,NA,4
+fc_vs_rest,Engineered,7,Arbelaitz,Rest,0.8111394823320981,NA,4
+fc_vs_rest,Engineered,11,Belako Arkaitza 1,Funerary Context,0.3323970909504616,NA,4
+fc_vs_rest,Engineered,11,Belako Arkaitza 1,Rest,0.6676029090495383,NA,4
+fc_vs_rest,Engineered,12,Beondegi II,Funerary Context,0.18640532271970858,NA,4
+fc_vs_rest,Engineered,12,Beondegi II,Rest,0.8135946772802914,NA,4
+fc_vs_rest,Engineered,37,Erlaitz,Funerary Context,0.29135437961155286,NA,4
+fc_vs_rest,Engineered,37,Erlaitz,Rest,0.7086456203884471,NA,4
+fc_vs_rest,Engineered,38,Errtxorta,Funerary Context,0.3344230609102818,NA,4
+fc_vs_rest,Engineered,38,Errtxorta,Rest,0.6655769390897182,NA,4
+fc_vs_rest,Engineered,62,Koba Lotx,Funerary Context,0.2123058594768022,NA,4
+fc_vs_rest,Engineered,62,Koba Lotx,Rest,0.7876941405231979,NA,4
+fc_vs_rest,Engineered,63,Koba Zarra,Funerary Context,0.34736597042011624,NA,4
+fc_vs_rest,Engineered,63,Koba Zarra,Rest,0.6526340295798837,NA,4
+fc_vs_rest,Engineered,64,Kobazar,Funerary Context,0.2522432582687442,NA,4
+fc_vs_rest,Engineered,64,Kobazar,Rest,0.7477567417312557,NA,4
+fc_vs_rest,Engineered,72,Larrabiel,Funerary Context,0.24384799361140405,NA,4
+fc_vs_rest,Engineered,72,Larrabiel,Rest,0.756152006388596,NA,4
+fc_vs_rest,Engineered,84,Marizulo I,Funerary Context,0.8141747256492449,NA,4
+fc_vs_rest,Engineered,84,Marizulo I,Rest,0.18582527435075508,NA,4
+fc_vs_rest,Engineered,93,Naparraitz I,Funerary Context,0.2876674335590619,NA,4
+fc_vs_rest,Engineered,93,Naparraitz I,Rest,0.7123325664409381,NA,4
+fc_vs_rest,Engineered,100,Olatzazpi,Funerary Context,0.16556897181252334,NA,4
+fc_vs_rest,Engineered,100,Olatzazpi,Rest,0.8344310281874767,NA,4
+fc_vs_rest,Engineered,101,Otalora,Funerary Context,0.26494520695417456,NA,4
+fc_vs_rest,Engineered,101,Otalora,Rest,0.7350547930458254,NA,4
+fc_vs_rest,Engineered,105,Pikandita,Funerary Context,0.4128088350592373,NA,4
+fc_vs_rest,Engineered,105,Pikandita,Rest,0.5871911649407626,NA,4
+fc_vs_rest,Engineered,127,Sorginzulo,Funerary Context,0.37088380553581335,NA,4
+fc_vs_rest,Engineered,127,Sorginzulo,Rest,0.6291161944641867,NA,4
+fc_vs_rest,Engineered,135,Txispiri,Funerary Context,0.6850567239735957,NA,4
+fc_vs_rest,Engineered,135,Txispiri,Rest,0.31494327602640426,NA,4
+fc_vs_rest,Engineered,136,Txomen Koba Erdikua,Funerary Context,0.2830359150183531,NA,4
+fc_vs_rest,Engineered,136,Txomen Koba Erdikua,Rest,0.7169640849816469,NA,4
+fc_vs_rest,Engineered,137,Txotxinkoba Cave,Funerary Context,0.648413958674547,NA,4
+fc_vs_rest,Engineered,137,Txotxinkoba Cave,Rest,0.351586041325453,NA,4
+fc_vs_rest,Engineered,138,Urdabide II,Funerary Context,0.6092795421993659,NA,4
+fc_vs_rest,Engineered,138,Urdabide II,Rest,0.39072045780063414,NA,4
+fc_vs_rest,Engineered,139,Urtiaga,Funerary Context,0.5230552432463285,NA,4
+fc_vs_rest,Engineered,139,Urtiaga,Rest,0.47694475675367154,NA,4
+fc_vs_rest,Engineered,140,Uxar,Funerary Context,0.5264229660132045,NA,4
+fc_vs_rest,Engineered,140,Uxar,Rest,0.47357703398679557,NA,4
+fc_vs_rest,Engineered,151,Zelaibizkar I,Funerary Context,0.393636853663762,NA,4
+fc_vs_rest,Engineered,151,Zelaibizkar I,Rest,0.606363146336238,NA,4
+fc_vs_rest,Heip evenness only,2,Aie Zelai,Funerary Context,0.563843319573596,NA,4
+fc_vs_rest,Heip evenness only,2,Aie Zelai,Rest,0.436156680426404,NA,4
+fc_vs_rest,Heip evenness only,3,Aitzgaizto,Funerary Context,0.5324244016946794,NA,4
+fc_vs_rest,Heip evenness only,3,Aitzgaizto,Rest,0.46757559830532064,NA,4
+fc_vs_rest,Heip evenness only,4,Allekoaitze,Funerary Context,0.28252727058946253,NA,4
+fc_vs_rest,Heip evenness only,4,Allekoaitze,Rest,0.7174727294105374,NA,4
+fc_vs_rest,Heip evenness only,7,Arbelaitz,Funerary Context,0.16279330672299913,NA,4
+fc_vs_rest,Heip evenness only,7,Arbelaitz,Rest,0.8372066932770008,NA,4
+fc_vs_rest,Heip evenness only,11,Belako Arkaitza 1,Funerary Context,0.32730132315120697,NA,4
+fc_vs_rest,Heip evenness only,11,Belako Arkaitza 1,Rest,0.672698676848793,NA,4
+fc_vs_rest,Heip evenness only,12,Beondegi II,Funerary Context,0.3659054665131793,NA,4
+fc_vs_rest,Heip evenness only,12,Beondegi II,Rest,0.6340945334868207,NA,4
+fc_vs_rest,Heip evenness only,37,Erlaitz,Funerary Context,0.42875314542980664,NA,4
+fc_vs_rest,Heip evenness only,37,Erlaitz,Rest,0.5712468545701933,NA,4
+fc_vs_rest,Heip evenness only,38,Errtxorta,Funerary Context,0.3115397846411131,NA,4
+fc_vs_rest,Heip evenness only,38,Errtxorta,Rest,0.6884602153588868,NA,4
+fc_vs_rest,Heip evenness only,62,Koba Lotx,Funerary Context,0.36639586325788726,NA,4
+fc_vs_rest,Heip evenness only,62,Koba Lotx,Rest,0.6336041367421128,NA,4
+fc_vs_rest,Heip evenness only,63,Koba Zarra,Funerary Context,0.6222764664881383,NA,4
+fc_vs_rest,Heip evenness only,63,Koba Zarra,Rest,0.3777235335118617,NA,4
+fc_vs_rest,Heip evenness only,64,Kobazar,Funerary Context,0.28066191218811803,NA,4
+fc_vs_rest,Heip evenness only,64,Kobazar,Rest,0.719338087811882,NA,4
+fc_vs_rest,Heip evenness only,72,Larrabiel,Funerary Context,0.2751363657711092,NA,4
+fc_vs_rest,Heip evenness only,72,Larrabiel,Rest,0.7248636342288908,NA,4
+fc_vs_rest,Heip evenness only,84,Marizulo I,Funerary Context,0.845059356612879,NA,4
+fc_vs_rest,Heip evenness only,84,Marizulo I,Rest,0.1549406433871209,NA,4
+fc_vs_rest,Heip evenness only,93,Naparraitz I,Funerary Context,0.4447567608444227,NA,4
+fc_vs_rest,Heip evenness only,93,Naparraitz I,Rest,0.5552432391555773,NA,4
+fc_vs_rest,Heip evenness only,100,Olatzazpi,Funerary Context,0.16806524284189683,NA,4
+fc_vs_rest,Heip evenness only,100,Olatzazpi,Rest,0.8319347571581032,NA,4
+fc_vs_rest,Heip evenness only,101,Otalora,Funerary Context,0.26760765842978257,NA,4
+fc_vs_rest,Heip evenness only,101,Otalora,Rest,0.7323923415702175,NA,4
+fc_vs_rest,Heip evenness only,105,Pikandita,Funerary Context,0.3745540343698217,NA,4
+fc_vs_rest,Heip evenness only,105,Pikandita,Rest,0.6254459656301783,NA,4
+fc_vs_rest,Heip evenness only,127,Sorginzulo,Funerary Context,0.6043015233084899,NA,4
+fc_vs_rest,Heip evenness only,127,Sorginzulo,Rest,0.39569847669151015,NA,4
+fc_vs_rest,Heip evenness only,135,Txispiri,Funerary Context,0.7194788798397493,NA,4
+fc_vs_rest,Heip evenness only,135,Txispiri,Rest,0.2805211201602506,NA,4
+fc_vs_rest,Heip evenness only,136,Txomen Koba Erdikua,Funerary Context,0.4020605217895939,NA,4
+fc_vs_rest,Heip evenness only,136,Txomen Koba Erdikua,Rest,0.5979394782104062,NA,4
+fc_vs_rest,Heip evenness only,137,Txotxinkoba Cave,Funerary Context,0.845037558633754,NA,4
+fc_vs_rest,Heip evenness only,137,Txotxinkoba Cave,Rest,0.154962441366246,NA,4
+fc_vs_rest,Heip evenness only,138,Urdabide II,Funerary Context,0.3342073362288184,NA,4
+fc_vs_rest,Heip evenness only,138,Urdabide II,Rest,0.6657926637711816,NA,4
+fc_vs_rest,Heip evenness only,139,Urtiaga,Funerary Context,0.4147443088992582,NA,4
+fc_vs_rest,Heip evenness only,139,Urtiaga,Rest,0.5852556911007418,NA,4
+fc_vs_rest,Heip evenness only,140,Uxar,Funerary Context,0.26103425222549814,NA,4
+fc_vs_rest,Heip evenness only,140,Uxar,Rest,0.7389657477745019,NA,4
+fc_vs_rest,Heip evenness only,151,Zelaibizkar I,Funerary Context,0.4694919473269987,NA,4
+fc_vs_rest,Heip evenness only,151,Zelaibizkar I,Rest,0.5305080526730013,NA,4
+fc_vs_rest,ReMNAU raw,2,Aie Zelai,Funerary Context,0.6948103388164202,NA,4
+fc_vs_rest,ReMNAU raw,2,Aie Zelai,Rest,0.3051896611835798,NA,4
+fc_vs_rest,ReMNAU raw,3,Aitzgaizto,Funerary Context,0.42478753256080704,NA,4
+fc_vs_rest,ReMNAU raw,3,Aitzgaizto,Rest,0.575212467439193,NA,4
+fc_vs_rest,ReMNAU raw,4,Allekoaitze,Funerary Context,0.405870315197687,NA,4
+fc_vs_rest,ReMNAU raw,4,Allekoaitze,Rest,0.594129684802313,NA,4
+fc_vs_rest,ReMNAU raw,7,Arbelaitz,Funerary Context,0.3033374897519713,NA,4
+fc_vs_rest,ReMNAU raw,7,Arbelaitz,Rest,0.6966625102480288,NA,4
+fc_vs_rest,ReMNAU raw,11,Belako Arkaitza 1,Funerary Context,0.4043626611657777,NA,4
+fc_vs_rest,ReMNAU raw,11,Belako Arkaitza 1,Rest,0.5956373388342223,NA,4
+fc_vs_rest,ReMNAU raw,12,Beondegi II,Funerary Context,0.261650790696913,NA,4
+fc_vs_rest,ReMNAU raw,12,Beondegi II,Rest,0.738349209303087,NA,4
+fc_vs_rest,ReMNAU raw,37,Erlaitz,Funerary Context,0.40810635129644146,NA,4
+fc_vs_rest,ReMNAU raw,37,Erlaitz,Rest,0.5918936487035585,NA,4
+fc_vs_rest,ReMNAU raw,38,Errtxorta,Funerary Context,0.4704374199715565,NA,4
+fc_vs_rest,ReMNAU raw,38,Errtxorta,Rest,0.5295625800284435,NA,4
+fc_vs_rest,ReMNAU raw,62,Koba Lotx,Funerary Context,0.21302043698120288,NA,4
+fc_vs_rest,ReMNAU raw,62,Koba Lotx,Rest,0.7869795630187971,NA,4
+fc_vs_rest,ReMNAU raw,63,Koba Zarra,Funerary Context,0.5498556031584202,NA,4
+fc_vs_rest,ReMNAU raw,63,Koba Zarra,Rest,0.45014439684157975,NA,4
+fc_vs_rest,ReMNAU raw,64,Kobazar,Funerary Context,0.2696120227437364,NA,4
+fc_vs_rest,ReMNAU raw,64,Kobazar,Rest,0.7303879772562636,NA,4
+fc_vs_rest,ReMNAU raw,72,Larrabiel,Funerary Context,0.16181164271705992,NA,4
+fc_vs_rest,ReMNAU raw,72,Larrabiel,Rest,0.83818835728294006,NA,4
+fc_vs_rest,ReMNAU raw,84,Marizulo I,Funerary Context,0.8336919265258214,NA,4
+fc_vs_rest,ReMNAU raw,84,Marizulo I,Rest,0.16630807347417864,NA,4
+fc_vs_rest,ReMNAU raw,93,Naparraitz I,Funerary Context,0.1973628955642769,NA,4
+fc_vs_rest,ReMNAU raw,93,Naparraitz I,Rest,0.8026371044357231,NA,4
+fc_vs_rest,ReMNAU raw,100,Olatzazpi,Funerary Context,0.14736519458799802,NA,4
+fc_vs_rest,ReMNAU raw,100,Olatzazpi,Rest,0.852634805412002,NA,4
+fc_vs_rest,ReMNAU raw,101,Otalora,Funerary Context,0.20016312713261827,NA,4
+fc_vs_rest,ReMNAU raw,101,Otalora,Rest,0.7998368728673817,NA,4
+fc_vs_rest,ReMNAU raw,105,Pikandita,Funerary Context,0.6686215290015928,NA,4
+fc_vs_rest,ReMNAU raw,105,Pikandita,Rest,0.3313784709984072,NA,4
+fc_vs_rest,ReMNAU raw,127,Sorginzulo,Funerary Context,0.5551515069525892,NA,4
+fc_vs_rest,ReMNAU raw,127,Sorginzulo,Rest,0.44484849304741075,NA,4
+fc_vs_rest,ReMNAU raw,135,Txispiri,Funerary Context,0.7284992732821978,NA,4
+fc_vs_rest,ReMNAU raw,135,Txispiri,Rest,0.2715007267178022,NA,4
+fc_vs_rest,ReMNAU raw,136,Txomen Koba Erdikua,Funerary Context,0.4901227463860153,NA,4
+fc_vs_rest,ReMNAU raw,136,Txomen Koba Erdikua,Rest,0.5098772536139847,NA,4
+fc_vs_rest,ReMNAU raw,137,Txotxinkoba Cave,Funerary Context,0.8242122818372397,NA,4
+fc_vs_rest,ReMNAU raw,137,Txotxinkoba Cave,Rest,0.17578771816276034,NA,4
+fc_vs_rest,ReMNAU raw,138,Urdabide II,Funerary Context,0.6435510200849929,NA,4
+fc_vs_rest,ReMNAU raw,138,Urdabide II,Rest,0.3564489799150071,NA,4
+fc_vs_rest,ReMNAU raw,139,Urtiaga,Funerary Context,0.5676033701917051,NA,4
+fc_vs_rest,ReMNAU raw,139,Urtiaga,Rest,0.43239662980829496,NA,4
+fc_vs_rest,ReMNAU raw,140,Uxar,Funerary Context,0.5838480056574644,NA,4
+fc_vs_rest,ReMNAU raw,140,Uxar,Rest,0.4161519943425355,NA,4
+fc_vs_rest,ReMNAU raw,151,Zelaibizkar I,Funerary Context,0.7002881737517298,NA,4
+fc_vs_rest,ReMNAU raw,151,Zelaibizkar I,Rest,0.2997118262482702,NA,4

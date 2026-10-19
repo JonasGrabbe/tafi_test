@@ -1,0 +1,12 @@
+metric,value
+SUM rows,152
+SUM unique site_name,148
+IND rows,411
+IND count_type TRUE,113
+IND count_type FALSE,298
+IND unique site_name,149
+IND subdivision unique site_name,40
+SUM MNI median,2
+SUM MNI Q1,1
+SUM MNI Q3,8
+SUM MNI maximum,725

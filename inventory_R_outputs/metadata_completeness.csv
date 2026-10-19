@@ -1,0 +1,29 @@
+field,dataset,percent_nonmissing
+layer_name,SUM,54.60526315789473
+layer_name,IND subdivisions,53.02013422818792
+cultural_period,SUM,87.5
+cultural_period,IND subdivisions,96.64429530201343
+culture_period_2,SUM,65.13157894736842
+culture_period_2,IND subdivisions,91.2751677852349
+start_date_cal_bp,SUM,95.39473684210526
+start_date_cal_bp,IND subdivisions,95.63758389261746
+end_date_cal_bp,SUM,95.39473684210526
+end_date_cal_bp,IND subdivisions,95.63758389261746
+karstic_system,SUM,81.57894736842105
+karstic_system,IND subdivisions,75.16778523489933
+open_air_site,SUM,17.105263157894736
+open_air_site,IND subdivisions,24.832214765100673
+mni,SUM,100
+mni,IND subdivisions,100
+age_category,SUM,100
+age_category,IND subdivisions,100
+gender,SUM,99.3421052631579
+gender,IND subdivisions,100
+funerary_context,SUM,41.44736842105263
+funerary_context,IND subdivisions,73.8255033557047
+discovery_context,SUM,66.44736842105263
+discovery_context,IND subdivisions,94.63087248322147
+degree_of_excavation,SUM,29.605263157894733
+degree_of_excavation,IND subdivisions,60.06711409395973
+hominin_species,SUM,100
+hominin_species,IND subdivisions,100

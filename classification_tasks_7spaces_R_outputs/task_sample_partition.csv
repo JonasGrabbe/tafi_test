@@ -1,0 +1,9 @@
+Task,Task_label,n
+4class,Cannibalism,25
+4class,Carnivore,17
+4class,Funerary Context,49
+4class,Geological transport,12
+cannibalism_vs_fc,Cannibalism,25
+cannibalism_vs_fc,Funerary Context,49
+fc_vs_rest,Funerary Context,49
+fc_vs_rest,Rest,54

@@ -1,0 +1,10 @@
+Table: Classification report for BEST hyperparameter combo (KNN, fc_vs_rest, ProportionalRep_MNIbased L5_1_1_2_2_3_2_2_2_3_1)
+Best .config = pre0_mod1_post0
+
+|      Class       |   Precision   |    Recall     |      F1       | Support |
+|:----------------:|:-------------:|:-------------:|:-------------:|:-------:|
+| Funerary Context | 0.944 (0.049) | 0.688 (0.062) | 0.794 (0.047) |   16    |
+|       rest       | 0.755 (0.038) | 0.958 (0.036) | 0.844 (0.029) |   16    |
+|     accuracy     |               |               | 0.823 (0.036) |   32    |
+|    macro_avg     | 0.850 (0.043) | 0.823 (0.049) | 0.819 (0.038) |   32    |
+|   weighted_avg   | 0.850 (0.043) | 0.823 (0.049) | 0.819 (0.038) |   32    |

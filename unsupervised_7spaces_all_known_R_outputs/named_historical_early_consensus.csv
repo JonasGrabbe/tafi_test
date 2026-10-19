@@ -1,0 +1,28 @@
+site_id,site_name,named_panel,class4,binary_label,Feature_spaces,F_enriched_spaces,NF_enriched_spaces,Posthoc_binary_matches,Posthoc_class4_matches,Median_cluster_F_percent,Median_distance_percentile,Max_distance_percentile
+67,La Ferrassie,Both panels,Funerary,F,7,6,1,6,6,90.625,20,94.44444444444444
+23,Cova Gran de Santa Linya,Early,Funerary,F,7,7,0,7,7,93.54838709677419,66.66666666666666,84.375
+35,El Sidrón J1,Early,Cannibalism,NF,7,7,0,0,0,93.54838709677419,51.28205128205128,71.875
+40,Grotte de Fontbrégoua,Early,Cannibalism,NF,7,0,7,7,5,12.727272727272727,14.545454545454545,92.6829268292683
+41,Grotte de Fontbrégoua,Early,Cannibalism,NF,7,1,6,6,6,22.058823529411764,83.63636363636363,100
+60,Kebara Cave,Early,Funerary,F,7,7,0,7,7,93.54838709677419,94.87179487179486,100
+81,Mancos 5MT-10010 Feature 3,Early,Cannibalism,NF,7,4,3,3,3,75,64.1025641025641,97.22222222222221
+91,Mugharet es-Skhul,Early,Funerary,F,7,7,0,7,7,93.54838709677419,16.666666666666664,90.32258064516128
+107,Qafzeh Cave,Early,Funerary,F,7,6,1,6,6,90.625,33.33333333333333,100
+121,Sima de las Palomas,Early,Funerary,F,7,7,0,7,7,93.54838709677419,37.142857142857146,60.71428571428571
+131,Tabun Cave (Mugharet et-Tabun),Early,Funerary,F,7,7,0,7,7,93.54838709677419,58.333333333333336,78.125
+82,Yellow Jacket 5MT-3,Early,Cannibalism,NF,7,3,4,4,4,27.77777777777778,79.41176470588235,87.5
+16,Brno II,Historical,Funerary,F,7,0,7,0,0,18.75,84.375,100
+24,Cro-Magnon I,Historical,Funerary,F,7,1,6,1,1,18.75,91.17647058823529,100
+25,Crow Creek,Historical,Funerary,F,7,2,5,2,2,27.77777777777778,82.8125,97.67441860465115
+134,Cueva de los Torrejones,Historical,Funerary,F,7,1,6,1,1,22.058823529411764,22.058823529411764,70.9090909090909
+102,Goat’s Hole (Paviland Cave),Historical,Funerary,F,7,6,1,6,6,90.625,85.71428571428571,96.875
+52,Grotta Guattari,Historical,Carnivore-related,NF,7,0,7,7,2,12.727272727272727,30.23255813953488,90.9090909090909
+65,Krapina,Historical,Cannibalism,NF,7,2,5,5,5,27.77777777777778,65.625,100
+66,La Chapelle-aux-Saints,Historical,Funerary,F,7,7,0,7,7,93.54838709677419,28.205128205128204,56.25
+69,La Quina,Historical,Funerary,F,7,0,7,0,0,12.727272727272727,9.75609756097561,48.61111111111111
+87,Mladeč Caves,Historical,Funerary,F,7,2,5,2,2,27.77777777777778,69.6969696969697,100
+90,Moula-Guercy,Historical,Cannibalism,NF,7,0,7,7,5,12.727272727272727,51.470588235294116,83.33333333333334
+108,Regourdou,Historical,Funerary,F,7,7,0,7,7,93.54838709677419,41.02564102564102,74.19354838709677
+111,Roc de Marsal,Historical,Funerary,F,7,7,0,7,7,93.54838709677419,53.84615384615385,81.25
+120,Shanidar Cave,Historical,Funerary,F,7,7,0,7,7,93.54838709677419,27.77777777777778,93.75
+133,Teshik-Tash Cave,Historical,Funerary,F,7,1,6,1,1,27.77777777777778,86.11111111111111,100

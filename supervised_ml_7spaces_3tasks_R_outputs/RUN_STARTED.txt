@@ -1,0 +1,4 @@
+Run started: 2026-09-10 16:59:50.432016
+Working directory: C:/Users/jonas.grabbe/tafi_test-2
+Input: final/tapho_db_sum.csv
+Output: C:/Users/jonas.grabbe/tafi_test-2/supervised_ml_7spaces_3tasks_R_outputs

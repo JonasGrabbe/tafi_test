@@ -1,0 +1,6 @@
+PERMANOVA (adonis2, 9999 permutations)
+pseudo-F = 0.880
+R2       = 0.021
+p-value  = 0.46050
+PERMDISP dispersion p = 0.8869
+Variance explained: PC1 61.2%  PC2 8.7%  PC3 6.4%  (cum 76.3%)

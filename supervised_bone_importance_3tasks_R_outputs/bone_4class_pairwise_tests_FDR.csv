@@ -1,0 +1,205 @@
+task,feature_space,bone,class_A,class_B,comparison,n_A,n_B,median_A,median_B,cliffs_delta_A_vs_B,wilcoxon_p,q_BH_within_comparison,q_BH_all_pairwise
+4class,%MNAU raw,humerus,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.5361111111111111,-0.9240196078431373,1.0126640087209076e-8,7.926813503799546e-8,4.544706408845073e-7
+4class,%MNAU raw,radius,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.5,-0.9166666666666666,1.0569084671732728e-8,7.926813503799546e-8,4.544706408845073e-7
+4class,%MNAU raw,clavicle,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.5,-0.8958333333333334,2.5387558272168862e-8,1.269377913608443e-7,7.277766704688407e-7
+4class,%MNAU raw,ulna,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.5,-0.8823529411764706,3.854329980465851e-8,1.4453737426746942e-7,8.28680945800158e-7
+4class,%MNAU raw,vertebrae,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.31671940928270037,-0.8676470588235294,8.522300906469732e-8,2.5566902719409197e-7,1.4658357559127938e-6
+4class,%MNAU raw,legs,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.5,-0.8651960784313726,1.3109091070429406e-7,3.2772727676073517e-7,1.8789697200948817e-6
+4class,%MNAU raw,scapula,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.33095238095238094,-0.8333333333333334,1.6627447209048627e-7,3.563024401938991e-7,2.0428006571116884e-6
+4class,%MNAU raw,legs,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.5,0,0.953125,3.790003342557555e-7,3.337859857592854e-6,3.5514272128817884e-6
+4class,%MNAU raw,hands,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.22325102880658437,-0.8235294117647058,3.4927733994985327e-7,6.548950124059748e-7,3.5514272128817884e-6
+4class,%MNAU raw,ribs,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.1764705882352941,-0.8112745098039216,4.129566526606731e-7,6.882610877677885e-7,3.5514272128817884e-6
+4class,%MNAU raw,humerus,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.5361111111111111,0,0.9288194444444444,5.073326695227872e-7,3.337859857592854e-6,3.635884131579975e-6
+4class,%MNAU raw,foot,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.14963549522373054,-0.8125,4.998390789237072e-7,7.497586183855607e-7,3.635884131579975e-6
+4class,%MNAU raw,radius,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.5,0,0.9166666666666667,6.675719715185708e-7,3.337859857592854e-6,4.416245350045929e-6
+4class,%MNAU raw,pelvic,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.8405311491685282,-0.7806372549019608,8.254226791742667e-7,1.1255763806921817e-6,5.070453600641924e-6
+4class,%MNAU raw,ulna,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.5,0,0.8958333333333333,1.1953807050309574e-6,3.6941161760221683e-6,6.853516042177489e-6
+4class,%MNAU raw,vertebrae,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.31671940928270037,0,0.8958333333333333,1.4776464704088673e-6,3.6941161760221683e-6,7.4751527326566226e-6
+4class,%MNAU raw,pelvic,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.8405311491685282,0,0.875,1.4365451575303694e-6,3.6941161760221683e-6,7.4751527326566226e-6
+4class,%MNAU raw,foot,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.012179487179487174,0,0.9545454545454546,3.256001776877588e-6,4.884002665316382e-5,1.5556452933970696e-5
+4class,%MNAU raw,foot,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.14963549522373054,0,0.8541666666666667,4.011653094194413e-6,7.5218495516145245e-6,1.7250108305035976e-5
+4class,%MNAU raw,hands,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.22325102880658437,0,0.8541666666666667,4.011653094194413e-6,7.5218495516145245e-6,1.7250108305035976e-5
+4class,%MNAU raw,scapula,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.33095238095238094,0,0.8333333333333333,5.987616933505771e-6,9.979361555842952e-6,2.2971529439025685e-5
+4class,%MNAU raw,humerus,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.14735772357723576,0,0.8262032085561497,6.1435485709022175e-6,4.607661428176663e-5,2.2971529439025685e-5
+4class,%MNAU raw,ribs,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.054292929292929296,0,0.8074866310160427,5.830129979813131e-6,4.607661428176663e-5,2.2971529439025685e-5
+4class,%MNAU raw,humerus,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.14735772357723576,0.5361111111111111,-0.6676136363636364,6.949222372285932e-6,6.905082156199638e-5,2.4901380167357922e-5
+4class,%MNAU raw,legs,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.13125,0.5,-0.665719696969697,8.796234454731322e-6,6.905082156199638e-5,3.0259046524275747e-5
+4class,%MNAU raw,foot,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.012179487179487174,0,0.8128342245989304,9.948319011705829e-6,4.974159505852914e-5,3.290597826948851e-5
+4class,%MNAU raw,ribs,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.1764705882352941,0,0.8107638888888888,1.206611218875484e-5,1.809916828313226e-5,3.8432801786404306e-5
+4class,%MNAU raw,clavicle,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.08287139689578714,0.5,-0.6439393939393939,1.4764670018961626e-5,6.905082156199638e-5,4.534862934395357e-5
+4class,%MNAU raw,radius,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.05,0,0.7272727272727273,1.6693378225177233e-5,6.260016834441462e-5,4.948642211943074e-5
+4class,%MNAU raw,radius,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.05,0.5,-0.6382575757575757,1.7262705390499096e-5,6.905082156199638e-5,4.948642211943074e-5
+4class,%MNAU raw,hands,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.01913956639566395,0,0.8636363636363635,1.8884088849388127e-5,1.4163066637041096e-4,5.238811745314126e-5
+4class,%MNAU raw,hands,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.01913956639566395,0,0.7700534759358288,2.1804841846021052e-5,6.541452553806315e-5,5.860051246118158e-5
+4class,%MNAU raw,clavicle,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.5,0,0.7795138888888888,2.4773156788776205e-5,3.378157743924028e-5,6.456034799499253e-5
+4class,%MNAU raw,ulna,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.0625,0.5,-0.6183712121212122,3.117779730310945e-5,9.976895136995024e-5,7.886148729610037e-5
+4class,%MNAU raw,scapula,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.07575757575757575,0,0.6818181818181819,4.007489494768356e-5,1.0018723736920889e-4,9.846974187145103e-5
+4class,%MNAU raw,vertebrae,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.029979674796747964,0,0.8181818181818181,4.261879662409363e-5,2.0341444922041815e-4,1.0181156971311256e-4
+4class,%MNAU raw,vertebrae,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.029979674796747964,0,0.7219251336898396,5.1035468932155275e-5,1.0936171914033273e-4,1.1862298184230684e-4
+4class,%MNAU raw,humerus,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.14735772357723576,0,0.8333333333333333,5.4243853125444836e-5,2.0341444922041815e-4,1.2276240444179622e-4
+4class,%MNAU raw,ribs,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.054292929292929296,0,0.8068181818181819,7.471308219818038e-5,2.2413924659454114e-4,1.6475192484726958e-4
+4class,%MNAU raw,pelvic,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.16097560975609757,0,0.7727272727272727,9.204503902043232e-5,2.3011259755108078e-4,1.9789683389392947e-4
+4class,%MNAU raw,legs,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.13125,0,0.8068181818181819,1.089861922181435e-4,2.3354184046745036e-4,2.2860518367708152e-4
+4class,%MNAU raw,pelvic,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.16097560975609757,0.8405311491685282,-0.5672348484848485,1.1726279153160484e-4,2.7649149645396525e-4,2.4010952551709562e-4
+4class,%MNAU raw,vertebrae,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.029979674796747964,0.31671940928270037,-0.5757575757575757,1.209650296986098e-4,2.7649149645396525e-4,2.419300593972196e-4
+4class,%MNAU raw,radius,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.05,0,0.7272727272727273,1.9123564209055837e-4,3.5856682891979695e-4,3.7377875499518227e-4
+4class,%MNAU raw,clavicle,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.08287139689578714,0,0.6096256684491979,3.1194549809291635e-4,5.848978089242182e-4,5.961625074664624e-4
+4class,%MNAU raw,ulna,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.0625,0,0.5935828877005347,3.5261974043419066e-4,5.876995673903178e-4,6.59245601681313e-4
+4class,%MNAU raw,foot,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.012179487179487174,0.14963549522373054,-0.5331439393939394,3.7405926936755863e-4,6.684410347291139e-4,6.844488758640434e-4
+4class,%MNAU raw,scapula,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.07575757575757575,0,0.6818181818181819,3.853907301138306e-4,6.42317883523051e-4,6.904917247872799e-4
+4class,%MNAU raw,scapula,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.07575757575757575,0.33095238095238094,-0.5265151515151515,4.041289141125306e-4,6.684410347291139e-4,7.092874819117883e-4
+4class,%MNAU raw,hands,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.01913956639566395,0.22325102880658437,-0.5284090909090908,4.1777564670569616e-4,6.684410347291139e-4,7.185741123337974e-4
+4class,%MNAU raw,pelvic,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.16097560975609757,0,0.6149732620320856,4.888323205793102e-4,7.332484808689652e-4,8.243054817611898e-4
+4class,%MNAU raw,ulna,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.0625,0,0.6363636363636365,7.478688399798691e-4,0.0011218032599698037,0.0012368600045820912
+4class,%MNAU raw,legs,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.13125,0,0.5748663101604279,0.002216676193909762,0.0030227402644224023,0.0035817764066810114
+4class,%MNAU raw,cranium,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,1,-0.47549019607843135,0.002249022394892728,0.00281127799361591,0.0035817764066810114
+4class,%MNAU raw,sternum,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0,-0.375,0.0038913467886816057,0.004490015525401852,0.0060846513423021475
+4class,%MNAU raw,clavicle,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.08287139689578714,0,0.5454545454545454,0.005236607286399785,0.0071408281178178875,0.00804193261839967
+4class,%MNAU raw,cranium,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,1,-0.5588235294117647,0.006568069188989396,0.06568069188989396,0.009909718425492774
+4class,%MNAU raw,sternum,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0,0,0.375,0.01423144298916286,0.017789303736453575,0.021101794777034586
+4class,%MNAU raw,cranium,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.5,0,0.44919786096256686,0.016349952290443857,0.020437440363054823,0.023832133847087655
+4class,%MNAU raw,ribs,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.054292929292929296,0.1764705882352941,-0.35416666666666663,0.018066094113850562,0.026277955074691727,0.02589473489651914
+4class,%MNAU raw,sternum,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0,0,-0.24715909090909094,0.0424053627752983,0.05654048370039773,0.05978460981435498
+4class,%MNAU raw,hyoid,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0,-0.20833333333333337,0.04452573222905816,0.047706141673990884,0.06176149954353229
+4class,%MNAU raw,cranium,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.5,1,-0.4015151515151515,0.04974172600048628,0.062177157500607844,0.06790140374669555
+4class,%MNAU raw,hyoid,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0,0,-0.16856060606060608,0.07712481248649612,0.094922846137226,0.10363646677872916
+4class,%MNAU raw,cranium,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.5,1,-0.2452651515151515,0.0890222080544353,0.10173966634792604,0.11757491983205519
+4class,%MNAU raw,hyoid,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0,0,0.20833333333333326,0.09023191521994933,0.10411374833071076,0.11757491983205519
+4class,%MNAU raw,sternum,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0,0,0.13636363636363646,0.1254847325588589,0.14479007602945254,0.16106995522480394
+4class,%MNAU raw,foot,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.17647058823529416,0.14275490841956465,0.41087942246123427,0.1779264075953994
+4class,%MNAU raw,hands,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.17647058823529416,0.1425788813358863,0.41087942246123427,0.1779264075953994
+4class,%MNAU raw,arms,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0,0,0.045454545454545414,0.14808606158507112,0.15795846569074254,0.1819343042330874
+4class,%MNAU raw,cranium,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,1,1,-0.22395833333333337,0.1908308949221288,0.20446167313085226,0.23114728117328276
+4class,%MNAU raw,sternum,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0,0,0.13636363636363646,0.200003321894017,0.23077306372386577,0.23889285670674254
+4class,%MNAU raw,legs,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.2450980392156863,0.2129217589129017,0.41087942246123427,0.250839332417939
+4class,%MNAU raw,pelvic,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.11764705882352944,0.24652765347674055,0.41087942246123427,0.28268504265332917
+4class,%MNAU raw,vertebrae,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.11764705882352944,0.24652765347674055,0.41087942246123427,0.28268504265332917
+4class,%MNAU raw,arms,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0,0,0.045454545454545414,0.40804420568711997,0.40804420568711997,0.4557376842739262
+4class,%MNAU raw,hyoid,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0,0,0.045454545454545414,0.40804420568711997,0.40804420568711997,0.4557376842739262
+4class,%MNAU raw,ulna,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.05882352941176472,0.44120851950587764,0.6302978850083967,0.4864606753526344
+4class,%MNAU raw,arms,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0,0,0.045454545454545414,0.4984039238004653,0.4984039238004653,0.5357842180855001
+4class,%MNAU raw,hyoid,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0,0,0.045454545454545414,0.4984039238004653,0.4984039238004653,0.5357842180855001
+4class,%MNAU raw,thorax,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0,0,-0.02083333333333337,0.5181302014501532,0.5181302014501532,0.5501135472186812
+4class,%MNAU raw,thorax,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0,-0.02083333333333337,0.5754030229127536,0.5754030229127536,0.6034714630548391
+4class,%MNAU raw,thorax,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0,0,0.02083333333333326,0.6467129796159001,0.6467129796159001,0.6700881475538243
+4class,%MNAU raw,humerus,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.03431372549019618,0.8016229843589997,0.879856566275123,0.8110538429985173
+4class,%MNAU raw,clavicle,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,-0.02941176470588236,0.8011041295055952,0.879856566275123,0.8110538429985173
+4class,%MNAU raw,ribs,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,-0.019607843137254943,0.879856566275123,0.879856566275123,0.879856566275123
+4class,%MNAU raw,arms,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0,0,NA,NA,NA
+4class,%MNAU raw,arms,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,%MNAU raw,arms,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0,0,0,NA,NA,NA
+4class,%MNAU raw,hyoid,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,%MNAU raw,radius,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,%MNAU raw,scapula,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,%MNAU raw,shoulder,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0,0,0,NA,NA,NA
+4class,%MNAU raw,shoulder,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0,0,0,NA,NA,NA
+4class,%MNAU raw,shoulder,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0,0,0,NA,NA,NA
+4class,%MNAU raw,shoulder,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0,0,NA,NA,NA
+4class,%MNAU raw,shoulder,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,%MNAU raw,shoulder,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0,0,0,NA,NA,NA
+4class,%MNAU raw,sternum,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,%MNAU raw,thorax,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0,0,0,NA,NA,NA
+4class,%MNAU raw,thorax,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0,0,0,NA,NA,NA
+4class,%MNAU raw,thorax,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,radius,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.06232558933566147,-0.9166666666666666,1.4155384954091155e-8,2.1233077431136732e-7,1.2173631060518395e-6
+4class,ReMNAU raw,scapula,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.04398262044328935,-0.8333333333333334,1.8072980659283978e-7,1.3554735494462983e-6,7.771381683492111e-6
+4class,ReMNAU raw,radius,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.06232558933566147,0,0.9166666666666667,8.820147309189407e-7,7.411051976993525e-6,1.1061043951017394e-5
+4class,ReMNAU raw,vertebrae,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.03632196704310729,-0.8125,5.323932682394895e-7,2.6267498509890685e-6,1.1061043951017394e-5
+4class,ReMNAU raw,clavicle,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.054215127232535354,-0.803921568627451,7.004666269304182e-7,2.6267498509890685e-6,1.1061043951017394e-5
+4class,ReMNAU raw,ulna,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.0668426191481088,-0.7941176470588236,9.003175308967646e-7,2.7009525926902938e-6,1.1061043951017394e-5
+4class,ReMNAU raw,cranium,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.27684076784852574,0.08774707057050982,0.7386363636363635,8.305512711431277e-7,1.3288820338290043e-5,1.1061043951017394e-5
+4class,ReMNAU raw,ribs,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.028637232729964907,-0.7794117647058824,1.1554669606402527e-6,2.8886674016006317e-6,1.2421269826882717e-5
+4class,ReMNAU raw,ulna,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.0668426191481088,0,0.8958333333333333,1.482210395398705e-6,7.411051976993525e-6,1.2747009400428862e-5
+4class,ReMNAU raw,vertebrae,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.03632196704310729,0,0.8958333333333333,1.482210395398705e-6,7.411051976993525e-6,1.2747009400428862e-5
+4class,ReMNAU raw,pelvic,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.0762851749103843,0,0.875,2.4563955276902953e-6,9.211483228838607e-6,1.92045468528514e-5
+4class,ReMNAU raw,foot,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.0055736442923496905,0,0.9545454545454546,3.256001776877588e-6,4.884002665316382e-5,2.3334679400956047e-5
+4class,ReMNAU raw,foot,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.02190173929498853,0,0.8541666666666667,4.01548503421042e-6,1.0038712585526052e-5,2.466655092443544e-5
+4class,ReMNAU raw,hands,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.03091686240470557,0,0.8541666666666667,4.01548503421042e-6,1.0038712585526052e-5,2.466655092443544e-5
+4class,ReMNAU raw,ribs,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.02700193021232782,0,0.8128342245989304,5.0656137814398025e-6,7.598420672159704e-5,2.8300133136821544e-5
+4class,ReMNAU raw,humerus,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.07145659447382308,-0.7401960784313726,5.594212364255422e-6,1.0489148182978916e-5,2.8300133136821544e-5
+4class,ReMNAU raw,hands,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.03091686240470557,-0.7352941176470589,5.420237709626009e-6,1.0489148182978916e-5,2.8300133136821544e-5
+4class,ReMNAU raw,scapula,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.04398262044328935,0,0.8333333333333333,6.4763918660063615e-6,1.3877982570013631e-5,3.094276113758595e-5
+4class,ReMNAU raw,cranium,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.08774707057050982,1,-0.8333333333333334,9.314831589212296e-6,1.7465309229773054e-5,4.216186929853986e-5
+4class,ReMNAU raw,radius,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.030557863567145776,0,0.7272727272727273,1.6797008152754695e-5,1.259775611456602e-4,7.222713505684518e-5
+4class,ReMNAU raw,ribs,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.028637232729964907,0,0.7951388888888888,1.7761968077201442e-5,2.9603280128669072e-5,7.273948831615828e-5
+4class,ReMNAU raw,hands,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.007843957304765524,0,0.8636363636363635,1.891442106280639e-5,1.4185815797104791e-4,7.393819142733406e-5
+4class,ReMNAU raw,humerus,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.07145659447382308,0,0.7951388888888888,2.192578581620613e-5,3.288867872430919e-5,8.198337305190118e-5
+4class,ReMNAU raw,legs,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.0630677973436967,0,0.7847222222222223,2.9887102584091338e-5,4.075513988739728e-5,1.070954509263273e-4
+4class,ReMNAU raw,vertebrae,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.012066426498768715,0,0.8181818181818181,4.268299862295433e-5,2.0491234347678005e-4,1.360524035929281e-4
+4class,ReMNAU raw,scapula,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.02986213443087068,0,0.6818181818181819,4.0168977246721377e-5,1.9181026622271927e-4,1.360524035929281e-4
+4class,ReMNAU raw,pelvic,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.0762851749103843,-0.6617647058823529,4.271412670940766e-5,7.119021118234611e-5,1.360524035929281e-4
+4class,ReMNAU raw,clavicle,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0.054215127232535354,0,0.7569444444444444,5.096499918288654e-5,6.370624897860817e-5,1.5168444041520788e-4
+4class,ReMNAU raw,humerus,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.07071955647060585,0,0.7406417112299466,5.114940432605847e-5,1.9181026622271927e-4,1.5168444041520788e-4
+4class,ReMNAU raw,ribs,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.02700193021232782,0,0.821969696969697,5.464329159380801e-5,2.0491234347678005e-4,1.566441025689163e-4
+4class,ReMNAU raw,pelvic,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.08288935516722237,0,0.7727272727272727,9.243609857895115e-5,2.7730829573685344e-4,2.564356283158e-4
+4class,ReMNAU raw,humerus,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.07071955647060585,0,0.7916666666666667,1.2681044982582835e-4,3.170261245645709e-4,3.3047571772791627e-4
+4class,ReMNAU raw,foot,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.02190173929498853,-0.6200980392156863,1.260015115459347e-4,1.8900226731890206e-4,3.3047571772791627e-4
+4class,ReMNAU raw,radius,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.030557863567145776,0,0.7272727272727273,1.9250940312832168e-4,3.7684262623322837e-4,4.869355490892842e-4
+4class,ReMNAU raw,cranium,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.27684076784852574,1,-0.7803030303030303,2.0098273399105513e-4,3.7684262623322837e-4,4.93843289235164e-4
+4class,ReMNAU raw,vertebrae,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.012066426498768715,0,0.6470588235294117,2.850035614479661e-4,8.550106843438984e-4,6.808418412368079e-4
+4class,ReMNAU raw,scapula,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.02986213443087068,0,0.6818181818181819,3.863533967956883e-4,6.439223279928139e-4,8.980105979575457e-4
+4class,ReMNAU raw,legs,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.06766454516341897,0,0.731060606060606,4.5823845085346835e-4,6.873576762802025e-4,0.001010739574888288
+4class,ReMNAU raw,hands,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.007843957304765524,0,0.6363636363636365,4.5835864442608413e-4,0.0011458966110652103,0.001010739574888288
+4class,ReMNAU raw,clavicle,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.03386618773295351,0,0.5828877005347595,5.686659840050638e-4,0.0011469846639584674,0.0012226318656108873
+4class,ReMNAU raw,foot,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.0055736442923496905,0,0.6310160427807487,6.117251541111826e-4,0.0011469846639584674,0.0012831308110624806
+4class,ReMNAU raw,ulna,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.032234363066181076,0,0.6363636363636365,7.487469584637228e-4,0.0010210185797232582,0.0015331485339971464
+4class,ReMNAU raw,pelvic,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.08288935516722237,0,0.5802139037433156,0.0010086877309702638,0.001546263145516846,0.0020148277350674052
+4class,ReMNAU raw,ulna,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.032234363066181076,0,0.5454545454545454,0.0010308420970112306,0.001546263145516846,0.0020148277350674052
+4class,ReMNAU raw,vertebrae,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.012066426498768715,0.03632196704310729,-0.47537878787878785,0.0015116305240994619,0.008706080335971547,0.002888893890501194
+4class,ReMNAU raw,radius,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.030557863567145776,0.06232558933566147,-0.4696969696969697,0.0017145303910879154,0.008706080335971547,0.003205426383338277
+4class,ReMNAU raw,ulna,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.032234363066181076,0.0668426191481088,-0.45833333333333337,0.002176520083992887,0.008706080335971547,0.00398256866432741
+4class,ReMNAU raw,cranium,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,1,-0.6225490196078431,0.0033659760426477006,0.033659760426477,0.006030707076410464
+4class,ReMNAU raw,sternum,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0,-0.375,0.003898251604241992,0.00531579764214817,0.006841829346220639
+4class,ReMNAU raw,clavicle,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0.03386618773295351,0,0.5416666666666667,0.005569861458725053,0.006962326823406317,0.009580161709007091
+4class,ReMNAU raw,foot,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.0055736442923496905,0.02190173929498853,-0.4100378787878788,0.006244560401787674,0.019982593285720558,0.010530043030465489
+4class,ReMNAU raw,hands,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.007843957304765524,0.03091686240470557,-0.36837121212121215,0.013976354341882633,0.037270278245020355,0.023114739873113584
+4class,ReMNAU raw,sternum,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0,0,0.375,0.014254004612200546,0.016446928398692936,0.023129139559419757
+4class,ReMNAU raw,sternum,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0,0,-0.25,0.040137014785466586,0.08905830343803049,0.06392191243611345
+4class,ReMNAU raw,clavicle,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.03386618773295351,0.054215127232535354,-0.30113636363636365,0.044529151719015246,0.08905830343803049,0.0684150816825137
+4class,ReMNAU raw,hyoid,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0,-0.20833333333333337,0.04454935551419496,0.05568669439274371,0.0684150816825137
+4class,ReMNAU raw,hyoid,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0,0,-0.16666666666666663,0.08055196956591343,0.14320350145051275,0.12153455057313255
+4class,ReMNAU raw,hyoid,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0,0,0.20833333333333326,0.0902743707396292,0.09672254007817414,0.13385510144151916
+4class,ReMNAU raw,sternum,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0,0,0.13636363636363646,0.1254847325588589,0.17111554439844393,0.1829099491535909
+4class,ReMNAU raw,legs,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.0630677973436967,-0.25,0.12920336036196797,0.14908080041765534,0.18519148318548742
+4class,ReMNAU raw,legs,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.2892156862745099,0.14045180733168675,0.3568872710489116,0.1948717797473422
+4class,ReMNAU raw,foot,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.17647058823529416,0.14275490841956465,0.3568872710489116,0.1948717797473422
+4class,ReMNAU raw,hands,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.17647058823529416,0.14275490841956465,0.3568872710489116,0.1948717797473422
+4class,ReMNAU raw,arms,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0,0,0.045454545454545414,0.14808606158507112,0.2369376985361138,0.1989906452549393
+4class,ReMNAU raw,sternum,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0,0,0.13636363636363646,0.200003321894017,0.23077306372386577,0.2646197797366994
+4class,ReMNAU raw,legs,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.06766454516341897,0,0.2272727272727273,0.2300603912881863,0.2875754891102329,0.2997756613755155
+4class,ReMNAU raw,pelvic,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.11764705882352944,0.24652765347674055,0.41087942246123427,0.31178497351470125
+4class,ReMNAU raw,vertebrae,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.11764705882352944,0.24652765347674055,0.41087942246123427,0.31178497351470125
+4class,ReMNAU raw,scapula,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.02986213443087068,0.04398262044328935,-0.16666666666666663,0.2659500835769027,0.3868364852027676,0.33147401721179176
+4class,ReMNAU raw,arms,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0,0,0.045454545454545414,0.40804420568711997,0.4371902203790571,0.4942507280153847
+4class,ReMNAU raw,hyoid,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0,0,0.045454545454545414,0.40804420568711997,0.4371902203790571,0.4942507280153847
+4class,ReMNAU raw,ulna,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.05882352941176472,0.44120851950587764,0.6302978850083967,0.5269990649653539
+4class,ReMNAU raw,arms,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0,0,0.045454545454545414,0.4984039238004653,0.4984039238004653,0.5792261817140542
+4class,ReMNAU raw,hyoid,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0,0,0.045454545454545414,0.4984039238004653,0.4984039238004653,0.5792261817140542
+4class,ReMNAU raw,cranium,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0.27684076784852574,0,0.12299465240641716,0.5213386464639482,0.5213386464639482,0.589935836788152
+4class,ReMNAU raw,thorax,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0,0,-0.02083333333333337,0.5181302014501532,0.6908402686002042,0.589935836788152
+4class,ReMNAU raw,thorax,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0,-0.02083333333333337,0.5754030229127536,0.6165032388350931,0.6426579216947637
+4class,ReMNAU raw,humerus,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.07071955647060585,0.07145659447382308,-0.08143939393939392,0.5907896670251332,0.7271257440309332,0.6513834790277111
+4class,ReMNAU raw,thorax,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0,0,0.02083333333333326,0.6467129796159001,0.6467129796159001,0.7040166613540179
+4class,ReMNAU raw,legs,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.06766454516341897,0.0630677973436967,0.045454545454545414,0.7662362051540236,0.8756985201760269,0.8237039205405753
+4class,ReMNAU raw,humerus,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0.03431372549019618,0.8016229843589997,0.879856566275123,0.8511058846280738
+4class,ReMNAU raw,pelvic,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.08288935516722237,0.0762851749103843,0.032196969696969724,0.834333768538905,0.889956019774832,0.875032976760315
+4class,ReMNAU raw,clavicle,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,-0.019607843137254943,0.879856566275123,0.879856566275123,0.9008055321388163
+4class,ReMNAU raw,ribs,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,-0.019607843137254943,0.879856566275123,0.879856566275123,0.9008055321388163
+4class,ReMNAU raw,cranium,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0.08774707057050982,-0.01715686274509809,0.9223942598356423,0.9223942598356423,0.9332459570101792
+4class,ReMNAU raw,ribs,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0.02700193021232782,0.028637232729964907,0.009469696969697017,0.9545133380304958,0.9545133380304958,0.9545133380304958
+4class,ReMNAU raw,arms,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0,0,NA,NA,NA
+4class,ReMNAU raw,arms,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,arms,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,hyoid,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,radius,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,scapula,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,shoulder,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0,0,0,NA,NA,NA
+4class,ReMNAU raw,shoulder,Cannibalism,Funerary Context,Cannibalism vs Funerary Context,22,48,0,0,0,NA,NA,NA
+4class,ReMNAU raw,shoulder,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,shoulder,Carnivore,Funerary Context,Carnivore vs Funerary Context,17,48,0,0,0,NA,NA,NA
+4class,ReMNAU raw,shoulder,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,shoulder,Funerary Context,Geological transport,Funerary Context vs Geological transport,48,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,sternum,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,thorax,Cannibalism,Carnivore,Cannibalism vs Carnivore,22,17,0,0,0,NA,NA,NA
+4class,ReMNAU raw,thorax,Cannibalism,Geological transport,Cannibalism vs Geological transport,22,12,0,0,0,NA,NA,NA
+4class,ReMNAU raw,thorax,Carnivore,Geological transport,Carnivore vs Geological transport,17,12,0,0,0,NA,NA,NA

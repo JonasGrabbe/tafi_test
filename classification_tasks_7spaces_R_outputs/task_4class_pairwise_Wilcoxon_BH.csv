@@ -1,0 +1,85 @@
+Task,Feature_space,Variable,Group1,Group2,p_BH
+4class,C only,Mean_part_abundance,Carnivore,Cannibalism,4.848354673503007e-5
+4class,C only,Mean_part_abundance,Funerary Context,Cannibalism,1.4821545332714225e-6
+4class,C only,Mean_part_abundance,Geological transport,Cannibalism,0.01914011056153891
+4class,C only,Mean_part_abundance,Funerary Context,Carnivore,2.9219112058074605e-8
+4class,C only,Mean_part_abundance,Geological transport,Carnivore,0.01366304216255724
+4class,C only,Mean_part_abundance,Geological transport,Funerary Context,2.1566228989533983e-6
+4class,C only,mnau_heip_evenness,Carnivore,Cannibalism,8.625030974303914e-5
+4class,C only,mnau_heip_evenness,Funerary Context,Cannibalism,1.2036463420966731e-5
+4class,C only,mnau_heip_evenness,Geological transport,Cannibalism,3.822595715446233e-5
+4class,C only,mnau_heip_evenness,Funerary Context,Carnivore,8.904669544078795e-8
+4class,C only,mnau_heip_evenness,Geological transport,Carnivore,0.26114203212561193
+4class,C only,mnau_heip_evenness,Geological transport,Funerary Context,3.5796651544296433e-7
+4class,Heip evenness only,Mean_part_abundance,Carnivore,Cannibalism,4.848354673503007e-5
+4class,Heip evenness only,Mean_part_abundance,Funerary Context,Cannibalism,1.4821545332714225e-6
+4class,Heip evenness only,Mean_part_abundance,Geological transport,Cannibalism,0.01914011056153891
+4class,Heip evenness only,Mean_part_abundance,Funerary Context,Carnivore,2.9219112058074605e-8
+4class,Heip evenness only,Mean_part_abundance,Geological transport,Carnivore,0.01366304216255724
+4class,Heip evenness only,Mean_part_abundance,Geological transport,Funerary Context,2.1566228989533983e-6
+4class,Heip evenness only,mnau_heip_evenness,Carnivore,Cannibalism,8.625030974303914e-5
+4class,Heip evenness only,mnau_heip_evenness,Funerary Context,Cannibalism,1.2036463420966731e-5
+4class,Heip evenness only,mnau_heip_evenness,Geological transport,Cannibalism,3.822595715446233e-5
+4class,Heip evenness only,mnau_heip_evenness,Funerary Context,Carnivore,8.904669544078795e-8
+4class,Heip evenness only,mnau_heip_evenness,Geological transport,Carnivore,0.26114203212561193
+4class,Heip evenness only,mnau_heip_evenness,Geological transport,Funerary Context,3.5796651544296433e-7
+4class,C + Heip evenness,Mean_part_abundance,Carnivore,Cannibalism,4.848354673503007e-5
+4class,C + Heip evenness,Mean_part_abundance,Funerary Context,Cannibalism,1.4821545332714225e-6
+4class,C + Heip evenness,Mean_part_abundance,Geological transport,Cannibalism,0.01914011056153891
+4class,C + Heip evenness,Mean_part_abundance,Funerary Context,Carnivore,2.9219112058074605e-8
+4class,C + Heip evenness,Mean_part_abundance,Geological transport,Carnivore,0.01366304216255724
+4class,C + Heip evenness,Mean_part_abundance,Geological transport,Funerary Context,2.1566228989533983e-6
+4class,C + Heip evenness,mnau_heip_evenness,Carnivore,Cannibalism,8.625030974303914e-5
+4class,C + Heip evenness,mnau_heip_evenness,Funerary Context,Cannibalism,1.2036463420966731e-5
+4class,C + Heip evenness,mnau_heip_evenness,Geological transport,Cannibalism,3.822595715446233e-5
+4class,C + Heip evenness,mnau_heip_evenness,Funerary Context,Carnivore,8.904669544078795e-8
+4class,C + Heip evenness,mnau_heip_evenness,Geological transport,Carnivore,0.26114203212561193
+4class,C + Heip evenness,mnau_heip_evenness,Geological transport,Funerary Context,3.5796651544296433e-7
+4class,%MNAU raw,Mean_part_abundance,Carnivore,Cannibalism,4.848354673503007e-5
+4class,%MNAU raw,Mean_part_abundance,Funerary Context,Cannibalism,1.4821545332714225e-6
+4class,%MNAU raw,Mean_part_abundance,Geological transport,Cannibalism,0.01914011056153891
+4class,%MNAU raw,Mean_part_abundance,Funerary Context,Carnivore,2.9219112058074605e-8
+4class,%MNAU raw,Mean_part_abundance,Geological transport,Carnivore,0.01366304216255724
+4class,%MNAU raw,Mean_part_abundance,Geological transport,Funerary Context,2.1566228989533983e-6
+4class,%MNAU raw,mnau_heip_evenness,Carnivore,Cannibalism,8.625030974303914e-5
+4class,%MNAU raw,mnau_heip_evenness,Funerary Context,Cannibalism,1.2036463420966731e-5
+4class,%MNAU raw,mnau_heip_evenness,Geological transport,Cannibalism,3.822595715446233e-5
+4class,%MNAU raw,mnau_heip_evenness,Funerary Context,Carnivore,8.904669544078795e-8
+4class,%MNAU raw,mnau_heip_evenness,Geological transport,Carnivore,0.26114203212561193
+4class,%MNAU raw,mnau_heip_evenness,Geological transport,Funerary Context,3.5796651544296433e-7
+4class,ReMNAU raw,Mean_part_abundance,Carnivore,Cannibalism,4.848354673503007e-5
+4class,ReMNAU raw,Mean_part_abundance,Funerary Context,Cannibalism,1.4821545332714225e-6
+4class,ReMNAU raw,Mean_part_abundance,Geological transport,Cannibalism,0.01914011056153891
+4class,ReMNAU raw,Mean_part_abundance,Funerary Context,Carnivore,2.9219112058074605e-8
+4class,ReMNAU raw,Mean_part_abundance,Geological transport,Carnivore,0.01366304216255724
+4class,ReMNAU raw,Mean_part_abundance,Geological transport,Funerary Context,2.1566228989533983e-6
+4class,ReMNAU raw,mnau_heip_evenness,Carnivore,Cannibalism,8.625030974303914e-5
+4class,ReMNAU raw,mnau_heip_evenness,Funerary Context,Cannibalism,1.2036463420966731e-5
+4class,ReMNAU raw,mnau_heip_evenness,Geological transport,Cannibalism,3.822595715446233e-5
+4class,ReMNAU raw,mnau_heip_evenness,Funerary Context,Carnivore,8.904669544078795e-8
+4class,ReMNAU raw,mnau_heip_evenness,Geological transport,Carnivore,0.26114203212561193
+4class,ReMNAU raw,mnau_heip_evenness,Geological transport,Funerary Context,3.5796651544296433e-7
+4class,Engineered,Mean_part_abundance,Carnivore,Cannibalism,4.848354673503007e-5
+4class,Engineered,Mean_part_abundance,Funerary Context,Cannibalism,1.4821545332714225e-6
+4class,Engineered,Mean_part_abundance,Geological transport,Cannibalism,0.01914011056153891
+4class,Engineered,Mean_part_abundance,Funerary Context,Carnivore,2.9219112058074605e-8
+4class,Engineered,Mean_part_abundance,Geological transport,Carnivore,0.01366304216255724
+4class,Engineered,Mean_part_abundance,Geological transport,Funerary Context,2.1566228989533983e-6
+4class,Engineered,mnau_heip_evenness,Carnivore,Cannibalism,8.625030974303914e-5
+4class,Engineered,mnau_heip_evenness,Funerary Context,Cannibalism,1.2036463420966731e-5
+4class,Engineered,mnau_heip_evenness,Geological transport,Cannibalism,3.822595715446233e-5
+4class,Engineered,mnau_heip_evenness,Funerary Context,Carnivore,8.904669544078795e-8
+4class,Engineered,mnau_heip_evenness,Geological transport,Carnivore,0.26114203212561193
+4class,Engineered,mnau_heip_evenness,Geological transport,Funerary Context,3.5796651544296433e-7
+4class,Combined,Mean_part_abundance,Carnivore,Cannibalism,4.848354673503007e-5
+4class,Combined,Mean_part_abundance,Funerary Context,Cannibalism,1.4821545332714225e-6
+4class,Combined,Mean_part_abundance,Geological transport,Cannibalism,0.01914011056153891
+4class,Combined,Mean_part_abundance,Funerary Context,Carnivore,2.9219112058074605e-8
+4class,Combined,Mean_part_abundance,Geological transport,Carnivore,0.01366304216255724
+4class,Combined,Mean_part_abundance,Geological transport,Funerary Context,2.1566228989533983e-6
+4class,Combined,mnau_heip_evenness,Carnivore,Cannibalism,8.625030974303914e-5
+4class,Combined,mnau_heip_evenness,Funerary Context,Cannibalism,1.2036463420966731e-5
+4class,Combined,mnau_heip_evenness,Geological transport,Cannibalism,3.822595715446233e-5
+4class,Combined,mnau_heip_evenness,Funerary Context,Carnivore,8.904669544078795e-8
+4class,Combined,mnau_heip_evenness,Geological transport,Carnivore,0.26114203212561193
+4class,Combined,mnau_heip_evenness,Geological transport,Funerary Context,3.5796651544296433e-7

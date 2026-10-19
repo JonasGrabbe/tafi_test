@@ -1,0 +1,103 @@
+site_id,site_name,C_group,C_description,G_group,G_description,taphonomic_context,funerary_context
+8,Archi,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+45,Cova del Gegant,C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,Carnivore den(transport)
+28,Dali Tianshuigou,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+52,Grotta Guattari,C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,Carnivore den(transport)
+49,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,NA
+50,Grotte du Bison (Arcy-sur-Cure),C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore den(transport),NA
+51,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,NA
+53,Hahnöfersand,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+54,Hathnora,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+56,Hohlenstein-Stadel,C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,Carnivore Scavenge (in situ)
+57,Jarama VI rockshelter,C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,Carnivore Scavenge (in situ)
+58,Kajiado,C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,Carnivore den(transport)
+59,Kalamakia,C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,Carnivore Scavenge (in situ)
+76,Les Pradelles (Marillac-le-Franc),C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,NA
+77,Les Rochers-de-Villeneuve,C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore Scavenge (in situ),NA
+89,Los Moros de Gabasa,C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,Carnivore den(transport)
+86,Mauer,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+88,Mojokerto,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+94,Netankheri,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+95,Ngandong,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+96,Ngawi,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+42,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,Carnivore Scavenge (in situ)
+109,Reilingen,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+113,Saccopastore,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+116,Sambungmacan,C1,Low C / low evenness,G0,Natural / non-human accumulation,Geological transport,NA
+142,Valdegoba Cave,C1,Low C / low evenness,G0,Natural / non-human accumulation,Carnivore,Carnivore den (transport)
+6,Arago,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+21,Combe Grenal,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+118,Coves de Santa Maira,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+33,El Mirador,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+46,Gough's Cave,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+40,Grotte de Fontbrégoua,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+75,Le Placard,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+83,Manot Cave,C1,Low C / low evenness,G1,Human non-funerary processing,Disarticulated within occupation layers,No inhumation
+85,Maszycka Cave,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+90,Moula-Guercy,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+144,Vindija,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+145,Vindija,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+146,Vindija,C1,Low C / low evenness,G1,Human non-funerary processing,Cannibalism,NA
+69,La Quina,C1,Low C / low evenness,G2,"Structured mortuary placement, no formal interment",Funerary Context,No inhumation
+24,Cro-Magnon I,C1,Low C / low evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+16,Brno II,C1,Low C / low evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+143,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",C2,Low C / intermediate evenness,G0,Natural / non-human accumulation,Carnivore Scavenge (in situ),NA
+150,Boquete de Zafarraya,C2,Low C / intermediate evenness,G1,Human non-funerary processing,Cannibalism,NA
+15,Brillenhöhle,C2,Low C / intermediate evenness,G1,Human non-funerary processing,Cannibalism,NA
+48,Gran Dolina,C2,Low C / intermediate evenness,G1,Human non-funerary processing,Cannibalism,NA
+41,Grotte de Fontbrégoua,C2,Low C / intermediate evenness,G1,Human non-funerary processing,Cannibalism,NA
+104,Grotte des Perrats,C2,Low C / intermediate evenness,G1,Human non-funerary processing,Cannibalism,NA
+55,Herxheim,C2,Low C / intermediate evenness,G1,Human non-funerary processing,Cannibalism,NA
+65,Krapina,C2,Low C / intermediate evenness,G1,Human non-funerary processing,Cannibalism,NA
+47,Troisième caverne of Goyet,C2,Low C / intermediate evenness,G1,Human non-funerary processing,Cannibalism,NA
+147,Vunda Locus,C2,Low C / intermediate evenness,G1,Human non-funerary processing,Cannibalism,NA
+9,Atxuri-I Cave,C2,Low C / intermediate evenness,G2,"Structured mortuary placement, no formal interment",Funerary Context,Possible burial
+87,Mladeč Caves,C2,Low C / intermediate evenness,G2,"Structured mortuary placement, no formal interment",Funerary Context,Funerary caching
+1,Abri Pataud,C2,Low C / intermediate evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial (Secondary deposit)
+25,Crow Creek,C2,Low C / intermediate evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+134,Cueva de los Torrejones,C2,Low C / intermediate evenness,G3,Collective / secondary funerary deposition,Funerary Context,"Collective burial (The paper refers to ""funerary purposes"" in the plural, implying more than one individual, and the context of other regional sites suggests collective use of caves for burial.)"
+133,Teshik-Tash Cave,C2,Low C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+81,Mancos 5MT-10010 Feature 3,C3,Intermediate C / high evenness,G1,Human non-funerary processing,Cannibalism,No inhumation
+82,Yellow Jacket 5MT-3,C3,Intermediate C / high evenness,G1,Human non-funerary processing,Cannibalism,No inhumation
+44,Cova Foradada,C3,Intermediate C / high evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+32,El Espinoso Cave,C3,Intermediate C / high evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+112,Roc de les Orenetes,C3,Intermediate C / high evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+149,Xemxija tombs,C3,Intermediate C / high evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+43,Cova Foradada,C3,Intermediate C / high evenness,G4,Formal non-single / mixed funerary treatment,Funerary Context,Cremation
+34,El Mirón Cave,C3,Intermediate C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+79,Cueva de Malalmuerzo,C4,High C / intermediate evenness,G1,Human non-funerary processing,Cannibalism,NA
+70,La Tolita Cama de Huesos,C4,High C / intermediate evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+106,Předmostí,C4,High C / intermediate evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+117,San Juan ante Portam Latinam,C4,High C / intermediate evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+67,La Ferrassie,C4,High C / intermediate evenness,G4,Formal non-single / mixed funerary treatment,Funerary Context,Inhumation single; Collective burial
+107,Qafzeh Cave,C4,High C / intermediate evenness,G4,Formal non-single / mixed funerary treatment,Funerary Context,Inhumation single; Inhumation multiple
+120,Shanidar Cave,C4,High C / intermediate evenness,G4,Formal non-single / mixed funerary treatment,Funerary Context,Inhumation multiple
+130,Sunghir,C4,High C / intermediate evenness,G4,Formal non-single / mixed funerary treatment,Funerary Context,Inhumation multiple
+5,Amud Cave,C4,High C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+10,Baousso da Torre (Bausu da Ture),C4,High C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+23,Cova Gran de Santa Linya,C4,High C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+102,Goat’s Hole (Paviland Cave),C4,High C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+61,Kiik-Koba,C4,High C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+73,Le Moustier I,C4,High C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+91,Mugharet es-Skhul,C4,High C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+103,Pavlov I,C4,High C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+108,Regourdou,C4,High C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+115,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),C4,High C / intermediate evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+35,El Sidrón J1,C5,Very high C / high evenness,G1,Human non-funerary processing,Cannibalism,NA
+99,Ojo Guareña,C5,Very high C / high evenness,G2,"Structured mortuary placement, no formal interment",Funerary Context,No inhumation
+110,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",C5,Very high C / high evenness,G2,"Structured mortuary placement, no formal interment",Funerary Context,No inhumation
+121,Sima de las Palomas,C5,Very high C / high evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+132,Tepecik-Çiftlik,C5,Very high C / high evenness,G3,Collective / secondary funerary deposition,Funerary Context,Collective burial
+30,Dolní Věstonice II,C5,Very high C / high evenness,G4,Formal non-single / mixed funerary treatment,Funerary Context,Inhumation single; Inhumation multiple (Triple burial)
+97,Oberkassel,C5,Very high C / high evenness,G4,Formal non-single / mixed funerary treatment,Funerary Context,Inhumation multiple
+20,Abri de Raymonden (Chancelade),C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+71,Abrigo do Lagar Velho,C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+29,Dame du Cavillon,C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+31,Dolní Věstonice I,C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+78,Grotte des Hoteaux,C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+60,Kebara Cave,C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+66,La Chapelle-aux-Saints,C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+74,Le Moustier II,C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+111,Roc de Marsal,C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+131,Tabun Cave (Mugharet et-Tabun),C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single
+141,Vado all'Arancio,C5,Very high C / high evenness,G5,Formal single inhumation,Funerary Context,Inhumation single

@@ -1,0 +1,2 @@
+task,representation,n_sites,n_retained_features,n_to_p_ratio,matrix_rank,transform
+G0_G5,%MNAU,97,14,6.928571428571429,14,raw %MNAU -> prevalence filter -> z-standardization

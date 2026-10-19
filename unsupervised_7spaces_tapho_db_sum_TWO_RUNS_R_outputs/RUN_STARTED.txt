@@ -1,0 +1,5 @@
+Run started: 2026-09-08 19:05:14.628211
+Working directory: C:/Users/jonas.grabbe/tafi_test-2
+Input file: C:/Users/jonas.grabbe/tafi_test-2/final/tapho_db_sum.csv
+Run A output: C:/Users/jonas.grabbe/tafi_test-2/unsupervised_7spaces_tapho_db_sum_TWO_RUNS_R_outputs/run_A_reference_fit_projection
+Run B output: C:/Users/jonas.grabbe/tafi_test-2/unsupervised_7spaces_tapho_db_sum_TWO_RUNS_R_outputs/run_B_all_contexts_in_kmeans_fit

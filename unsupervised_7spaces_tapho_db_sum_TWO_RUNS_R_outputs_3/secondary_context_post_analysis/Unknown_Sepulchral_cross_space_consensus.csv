@@ -1,0 +1,95 @@
+Run,record_id,site_name,special_type,Feature_spaces,F_enriched_spaces,NF_enriched_spaces,Median_assigned_cluster_F_percent,Mean_assigned_cluster_F_percent,Median_distance_to_centroid
+Run A: known-reference fit,2,Aie Zelai,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,1.5710018877914342
+Run A: known-reference fit,3,Aitzgaizto,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,2.406064036982202
+Run A: known-reference fit,4,Allekoaitze,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,1.4776368159285291
+Run A: known-reference fit,7,Arbelaitz,Sepulchral,7,1,6,15.789473684210526,25.938591810993405,1.6508333620916975
+Run A: known-reference fit,11,Belako Arkaitza 1,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,1.623424065183675
+Run A: known-reference fit,12,Beondegi II,Sepulchral,7,1,6,15.789473684210526,25.938591810993405,1.1413576902391411
+Run A: known-reference fit,13,Bilzingsleben,Unknown,7,0,7,14.285714285714286,15.543322592194773,0.6679360487801853
+Run A: known-reference fit,14,Bolomor Cave,Unknown,7,0,7,14.285714285714286,15.543322592194773,0.7073000043516096
+Run A: known-reference fit,17,Cueva de la Carigüela,Unknown,7,0,7,14.285714285714286,15.543322592194773,0.6679360487801853
+Run A: known-reference fit,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Unknown,7,0,7,14.285714285714286,15.543322592194773,0.6909825664668698
+Run A: known-reference fit,19,Ceprano,Unknown,7,0,7,14.285714285714286,15.543322592194773,0.6679360487801853
+Run A: known-reference fit,22,Cova del Parpalló (Parpalló Cave),Unknown,7,0,7,14.285714285714286,16.44279349166567,1.3167087795978407
+Run A: known-reference fit,36,Engis / Schmerling Cave,Unknown,7,0,7,14.285714285714286,15.543322592194773,0.6679360487801853
+Run A: known-reference fit,37,Erlaitz,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,1.1018683052834717
+Run A: known-reference fit,38,Errtxorta,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,2.036111056464747
+Run A: known-reference fit,39,Kleine Feldhofer Grotte,Unknown,7,4,3,76.47058823529412,62.648872129795485,2.613356037069216
+Run A: known-reference fit,62,Koba Lotx,Sepulchral,7,0,7,15.789473684210526,18.585650634522814,2.448057775779558
+Run A: known-reference fit,63,Koba Zarra,Sepulchral,7,2,5,26.38888888888889,36.953629404978365,1.475828106862362
+Run A: known-reference fit,64,Kobazar,Sepulchral,7,0,7,15.789473684210526,18.585650634522814,1.527445838397101
+Run A: known-reference fit,68,Trou de la Naulette,Unknown,7,1,6,15.789473684210526,25.938591810993405,1.6252426900949786
+Run A: known-reference fit,72,Larrabiel,Sepulchral,7,0,7,15.789473684210526,22.172116799936347,1.1198130794954813
+Run A: known-reference fit,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Unknown,7,0,7,14.285714285714286,15.543322592194773,0.6679360487801853
+Run A: known-reference fit,84,Marizulo I,Sepulchral,7,5,2,85,67.93458641550977,1.7790739314344248
+Run A: known-reference fit,92,Peștera Muierii,Unknown,7,0,7,14.285714285714286,15.543322592194773,1.2075662852184088
+Run A: known-reference fit,93,Naparraitz I,Sepulchral,7,0,7,15.789473684210526,22.172116799936347,2.5147859119629965
+Run A: known-reference fit,98,"Ochoz 1, Ochoz 2",Unknown,7,0,7,14.285714285714286,15.543322592194773,0.6679360487801853
+Run A: known-reference fit,100,Olatzazpi,Sepulchral,7,0,7,14.285714285714286,15.543322592194773,1.0977167554872278
+Run A: known-reference fit,101,Otalora,Sepulchral,7,0,7,15.789473684210526,22.172116799936347,1.3324250868765732
+Run A: known-reference fit,105,Pikandita,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,1.7368420634513362
+Run A: known-reference fit,114,Saint-Césaire,Unknown,7,1,6,15.789473684210526,25.938591810993405,4.2265739236123805
+Run A: known-reference fit,119,Scladina Cave,Unknown,7,0,7,14.285714285714286,15.543322592194773,0.6679360487801853
+Run A: known-reference fit,122,Sima de los Huesos 89,Unknown,7,1,6,26.38888888888889,31.66791511926408,0.908199140499972
+Run A: known-reference fit,123,Sima de los Huesos 90,Unknown,7,0,7,15.789473684210526,21.27264590046545,0.5940048692013968
+Run A: known-reference fit,124,Sima de los Huesos 95,Unknown,7,5,2,85,67.93458641550977,2.1697442797046835
+Run A: known-reference fit,125,Sima de los Huesos 15,Unknown,7,5,2,85,67.93458641550977,2.4090828305908825
+Run A: known-reference fit,126,Sima de los Huesos 24,Unknown,7,5,2,85,67.93458641550977,2.365546122276874
+Run A: known-reference fit,127,Sorginzulo,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,3.571315310899507
+Run A: known-reference fit,128,Spy cave,Unknown,7,5,2,86.95652173913044,71.70667087653433,3.689045524702242
+Run A: known-reference fit,129,Steinheim an der Murr,Unknown,7,0,7,14.285714285714286,15.543322592194773,0.6679360487801853
+Run A: known-reference fit,135,Txispiri,Sepulchral,7,5,2,85,67.93458641550977,2.7233844211736673
+Run A: known-reference fit,136,Txomen Koba Erdikua,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,1.3482550851610946
+Run A: known-reference fit,137,Txotxinkoba Cave,Sepulchral,7,5,2,85,67.93458641550977,1.798288211301473
+Run A: known-reference fit,138,Urdabide II,Sepulchral,7,4,3,85.71428571428571,66.01021666761062,5.241452515830808
+Run A: known-reference fit,139,Urtiaga,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,2.168247300845477
+Run A: known-reference fit,140,Uxar,Sepulchral,7,1,6,26.38888888888889,31.66791511926408,4.175592131110062
+Run A: known-reference fit,148,Weimar-Ehringsdorf,Unknown,7,1,6,15.789473684210526,25.938591810993405,1.007565559452981
+Run A: known-reference fit,151,Zelaibizkar I,Sepulchral,7,2,5,27.77777777777778,45.45044940957595,4.252047396187522
+Run B: all contexts in fit,2,Aie Zelai,Sepulchral,7,1,6,26.38888888888889,31.062722761480526,1.7428949525187851
+Run B: all contexts in fit,3,Aitzgaizto,Sepulchral,7,0,7,20,22.77700847576624,2.272632396399354
+Run B: all contexts in fit,4,Allekoaitze,Sepulchral,7,0,7,20,22.77700847576624,1.6955781153158098
+Run B: all contexts in fit,7,Arbelaitz,Sepulchral,7,0,7,14.285714285714286,15.38595559272251,1.8467800551097575
+Run B: all contexts in fit,11,Belako Arkaitza 1,Sepulchral,7,0,7,20,22.77700847576624,1.6994701365036458
+Run B: all contexts in fit,12,Beondegi II,Sepulchral,7,0,7,20,22.77700847576624,1.2264391591094967
+Run B: all contexts in fit,13,Bilzingsleben,Unknown,7,0,7,14.285714285714286,15.38595559272251,0.6106288266883513
+Run B: all contexts in fit,14,Bolomor Cave,Unknown,7,0,7,14.285714285714286,15.38595559272251,0.7076915122557805
+Run B: all contexts in fit,17,Cueva de la Carigüela,Unknown,7,0,7,14.285714285714286,15.38595559272251,0.6106288266883513
+Run B: all contexts in fit,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Unknown,7,0,7,14.285714285714286,15.38595559272251,0.5890527025237929
+Run B: all contexts in fit,19,Ceprano,Unknown,7,0,7,14.285714285714286,15.38595559272251,0.6106288266883513
+Run B: all contexts in fit,22,Cova del Parpalló (Parpalló Cave),Unknown,7,0,7,14.545454545454545,20.46931616807393,1.4481759011803246
+Run B: all contexts in fit,36,Engis / Schmerling Cave,Unknown,7,0,7,14.285714285714286,15.38595559272251,0.6106288266883513
+Run B: all contexts in fit,37,Erlaitz,Sepulchral,7,1,6,26.38888888888889,31.062722761480526,1.1958572224618331
+Run B: all contexts in fit,38,Errtxorta,Sepulchral,7,0,7,20,22.77700847576624,1.8511059329016333
+Run B: all contexts in fit,39,Kleine Feldhofer Grotte,Unknown,7,4,3,78,62.00141749576797,2.3512062117718835
+Run B: all contexts in fit,62,Koba Lotx,Sepulchral,7,0,7,14.545454545454545,17.693647900414817,2.612624932829827
+Run B: all contexts in fit,63,Koba Zarra,Sepulchral,7,1,6,20,28.81072631072631,1.5909376337577643
+Run B: all contexts in fit,64,Kobazar,Sepulchral,7,0,7,14.545454545454545,17.693647900414817,1.6520402912905796
+Run B: all contexts in fit,68,Trou de la Naulette,Unknown,7,1,6,14.545454545454545,25.979362186129105,1.8688718646441589
+Run B: all contexts in fit,72,Larrabiel,Sepulchral,7,0,7,20,22.77700847576624,1.2030460324795735
+Run B: all contexts in fit,80,"Cova de les Malladetes (Barx, Valencia, Spain)",Unknown,7,0,7,14.285714285714286,15.38595559272251,0.6106288266883513
+Run B: all contexts in fit,84,Marizulo I,Sepulchral,7,5,2,85.41666666666667,68.03513533072804,1.375302548371783
+Run B: all contexts in fit,92,Peștera Muierii,Unknown,7,0,7,14.285714285714286,15.38595559272251,1.3798708334100465
+Run B: all contexts in fit,93,Naparraitz I,Sepulchral,7,0,7,20,22.77700847576624,2.6592027224156065
+Run B: all contexts in fit,98,"Ochoz 1, Ochoz 2",Unknown,7,0,7,14.285714285714286,15.38595559272251,0.6106288266883513
+Run B: all contexts in fit,100,Olatzazpi,Sepulchral,7,0,7,14.285714285714286,15.38595559272251,1.2738897559701072
+Run B: all contexts in fit,101,Otalora,Sepulchral,7,0,7,20,22.77700847576624,1.4827163332999154
+Run B: all contexts in fit,105,Pikandita,Sepulchral,7,1,6,26.38888888888889,31.062722761480526,1.855377105775918
+Run B: all contexts in fit,114,Saint-Césaire,Unknown,7,1,6,14.545454545454545,25.979362186129105,3.831316788266946
+Run B: all contexts in fit,119,Scladina Cave,Unknown,7,0,7,14.285714285714286,15.38595559272251,0.6106288266883513
+Run B: all contexts in fit,122,Sima de los Huesos 89,Unknown,7,1,6,26.38888888888889,31.062722761480526,1.0736948184039488
+Run B: all contexts in fit,123,Sima de los Huesos 90,Unknown,7,0,7,20,22.77700847576624,0.6649402653571376
+Run B: all contexts in fit,124,Sima de los Huesos 95,Unknown,7,5,2,85.41666666666667,68.03513533072804,1.9167099435684023
+Run B: all contexts in fit,125,Sima de los Huesos 15,Unknown,7,5,2,85.41666666666667,68.03513533072804,2.354897824153354
+Run B: all contexts in fit,126,Sima de los Huesos 24,Unknown,7,5,2,85.41666666666667,68.03513533072804,2.3013937433635316
+Run B: all contexts in fit,127,Sorginzulo,Sepulchral,7,1,6,26.38888888888889,31.062722761480526,3.926614221712534
+Run B: all contexts in fit,128,Spy cave,Unknown,7,5,2,85.41666666666667,71.0592162425068,3.078522360797386
+Run B: all contexts in fit,129,Steinheim an der Murr,Unknown,7,0,7,14.285714285714286,15.38595559272251,0.6106288266883513
+Run B: all contexts in fit,135,Txispiri,Sepulchral,7,5,2,85.41666666666667,68.03513533072804,2.1783837807719175
+Run B: all contexts in fit,136,Txomen Koba Erdikua,Sepulchral,7,1,6,26.38888888888889,31.062722761480526,1.4475802548836696
+Run B: all contexts in fit,137,Txotxinkoba Cave,Sepulchral,7,5,2,85.41666666666667,68.03513533072804,1.8883530065775551
+Run B: all contexts in fit,138,Urdabide II,Sepulchral,7,4,3,85.41666666666667,65.1442746386251,5.200421384932706
+Run B: all contexts in fit,139,Urtiaga,Sepulchral,7,1,6,26.38888888888889,31.062722761480526,2.3944125728234185
+Run B: all contexts in fit,140,Uxar,Sepulchral,7,1,6,26.38888888888889,31.062722761480526,4.4435969496878265
+Run B: all contexts in fit,148,Weimar-Ehringsdorf,Unknown,7,1,6,14.545454545454545,25.979362186129105,1.1587937996250903
+Run B: all contexts in fit,151,Zelaibizkar I,Sepulchral,7,2,5,27.77777777777778,44.62676965683441,4.602608841248998

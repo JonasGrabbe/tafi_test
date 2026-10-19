@@ -1,0 +1,24 @@
+Dataset,Feature_space,site_name,Cluster_raw,Cluster_zero_based,Cluster_F_percent,Cluster_dominant_class4,Distance_to_centroid,Distance_percentile,PC1,PC2
+Unknown projection,ReMNAU,Cova del Parpalló (Parpalló Cave),2,1,0,Cannibalism,3.7393079443792434,50,1.919776205290431,0.9389365598378849
+Unknown projection,ReMNAU,Sima de los Huesos 90,2,1,0,Cannibalism,2.8546921127189506,37.5,0.2711882491337706,-0.17497524235300588
+Unknown projection,ReMNAU,Bilzingsleben,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Unknown projection,ReMNAU,Bolomor Cave,4,3,0,Geological transport,0.5890348109017802,62.5,3.078346046161155,-0.05315784365026293
+Unknown projection,ReMNAU,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",4,3,0,Geological transport,0.5629973750467345,62.5,3.0578442973710405,0.07539516953257841
+Unknown projection,ReMNAU,Ceprano,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Unknown projection,ReMNAU,"Cova de les Malladetes (Barx, Valencia, Spain)",4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Unknown projection,ReMNAU,Cueva de la Carigüela,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Unknown projection,ReMNAU,Engis / Schmerling Cave,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Unknown projection,ReMNAU,"Ochoz 1, Ochoz 2",4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Unknown projection,ReMNAU,Peștera Muierii,4,3,0,Geological transport,3.846217437644751,100,1.4637536784054366,-0.3237954176948721
+Unknown projection,ReMNAU,Scladina Cave,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Unknown projection,ReMNAU,Steinheim an der Murr,4,3,0,Geological transport,0.5353895756826563,62.5,3.130148923463276,-0.04095448505987159
+Unknown projection,ReMNAU,Kleine Feldhofer Grotte,5,4,78.125,Funerary,3.3930675727368445,71.875,-2.4450620283033415,-0.7187514437221472
+Unknown projection,ReMNAU,Saint-Césaire,5,4,78.125,Funerary,8.741722672979616,100,-2.464746568630702,-3.230113005272233
+Unknown projection,ReMNAU,Sima de los Huesos 15,5,4,78.125,Funerary,2.780216648777375,53.125,-2.1370576117508935,1.7966078414447517
+Unknown projection,ReMNAU,Sima de los Huesos 24,5,4,78.125,Funerary,2.732504973243606,50,-2.0198828345928175,1.7550484110852407
+Unknown projection,ReMNAU,Sima de los Huesos 89,5,4,78.125,Funerary,2.8444405950974643,53.125,-0.8664129533635273,-1.6837987944959307
+Unknown projection,ReMNAU,Sima de los Huesos 95,5,4,78.125,Funerary,2.5117368697232854,43.75,-0.9892050951713455,0.4577005171334873
+Unknown projection,ReMNAU,Sima de los Huesos PNAS,5,4,78.125,Funerary,3.3838065397995853,71.875,-1.867254725673466,2.0423933223716366
+Unknown projection,ReMNAU,Spy cave,5,4,78.125,Funerary,3.7816455869474246,78.125,-2.705608041221749,-2.6369562110412654
+Unknown projection,ReMNAU,Trou de la Naulette,5,4,78.125,Funerary,16.91705336978039,100,-6.564908852374566,-5.559245674540931
+Unknown projection,ReMNAU,Weimar-Ehringsdorf,5,4,78.125,Funerary,3.760353539808251,78.125,-0.3071327930646126,-0.8679340788707809

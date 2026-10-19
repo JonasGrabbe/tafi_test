@@ -1,0 +1,45 @@
+RIGOROUS INTERPRETATION OF BONE IMPORTANCE
+
+1. Statistical association
+The formal group-comparison tables use one row per site_name so repeated
+records from a site are not treated as statistically independent.
+For binary tasks, effect size is Cliff's delta:
+  positive = higher bone representation in Funerary Context.
+P-values are obtained by label permutation and controlled across bones by BH/FDR.
+For 4class, the omnibus statistic is Kruskal-Wallis H with epsilon-squared
+effect size and a label-permutation p-value. Pairwise Wilcoxon/Cliff tests
+localize the class contrasts after the omnibus analysis.
+
+2. Predictive importance
+For each task x anatomical feature space, the best classifier is selected
+from the previously saved pooled out-of-fold balanced accuracy.
+That classifier is then refitted inside the SAME saved grouped-CV folds.
+A bone is perturbed only in the held-out fold; left/right sides are perturbed
+together. Importance is the decrease in site-level held-out balanced accuracy
+and the increase in held-out log loss.
+This is the primary evidence that a skeletal element contributes to prediction.
+
+3. SHAP
+SHAP is calculated only after model validation for the selected full-reference
+refit. Mean |SHAP| describes how strongly the fitted model uses the bone.
+For binary tasks, positive SHAP toward 'Funerary Context' raises P(F), while
+negative SHAP lowers it. For 4class, SHAP is calculated separately for each class.
+SHAP is NOT statistical significance and should not be interpreted causally.
+
+4. Correlation with numeric class codes is deliberately NOT used.
+The targets are categorical; the 4class target has no meaningful numeric order.
+Coding classes 1,2,3,4 and correlating bones with that number would create an
+arbitrary result. Group effect sizes + permutation inference are appropriate.
+
+5. Strongest evidence
+The most defensible anatomical result is a bone that:
+  a) has an FDR-supported group difference with a substantial effect size, AND
+  b) causes reproducible held-out performance loss when permuted.
+SHAP can then show how the selected model uses that feature.
+
+6. Correlated predictors
+Anatomical variables are correlated and models can substitute one predictor
+for another. Therefore absence of large permutation or SHAP importance does
+not prove biological irrelevance. Left/right grouping reduces one obvious
+source of importance dilution. %MNAU and ReMNAU should be interpreted as
+related representations rather than independent replications.

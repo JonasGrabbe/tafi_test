@@ -1,0 +1,883 @@
+Dataset,Feature_space,site_name,Archaeological_class,Binary_label,Cluster_raw,Cluster_zero_based,Cluster_F_percent,Cluster_dominant_class4
+Held-out labelled test,%MNAU,Brno II,Funerary,F,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Cro-Magnon I,Funerary,F,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Crow Creek,Funerary,F,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Cueva de los Torrejones,Funerary,F,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Grotta Guattari,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Grotte de Fontbrégoua,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Grotte de Fontbrégoua,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Krapina,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,La Ferrassie,Funerary,F,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,La Quina,Funerary,F,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Mancos 5MT-10010 Feature 3,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Mladeč Caves,Funerary,F,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Moula-Guercy,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Qafzeh Cave,Funerary,F,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Teshik-Tash Cave,Funerary,F,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Yellow Jacket 5MT-3,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Held-out labelled test,%MNAU,Cova Gran de Santa Linya,Funerary,F,2,1,100,Funerary
+Held-out labelled test,%MNAU,El Sidrón J1,Cannibalism,NF,2,1,100,Funerary
+Held-out labelled test,%MNAU,Goat’s Hole (Paviland Cave),Funerary,F,2,1,100,Funerary
+Held-out labelled test,%MNAU,Kebara Cave,Funerary,F,2,1,100,Funerary
+Held-out labelled test,%MNAU,La Chapelle-aux-Saints,Funerary,F,2,1,100,Funerary
+Held-out labelled test,%MNAU,Mugharet es-Skhul,Funerary,F,2,1,100,Funerary
+Held-out labelled test,%MNAU,Regourdou,Funerary,F,2,1,100,Funerary
+Held-out labelled test,%MNAU,Roc de Marsal,Funerary,F,2,1,100,Funerary
+Held-out labelled test,%MNAU,Shanidar Cave,Funerary,F,2,1,100,Funerary
+Held-out labelled test,%MNAU,Sima de las Palomas,Funerary,F,2,1,100,Funerary
+Held-out labelled test,%MNAU,Tabun Cave (Mugharet et-Tabun),Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Abri Pataud,Funerary,F,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Arago,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Archi,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Atxuri-I Cave,Funerary,F,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Boquete de Zafarraya,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Brillenhöhle,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Combe Grenal,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Cova Foradada,Funerary,F,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Cova Foradada,Funerary,F,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Cova del Gegant,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Coves de Santa Maira,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Cueva de Malalmuerzo,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Cueva de la Buena Pinta,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Cueva del Camino,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Dali Tianshuigou,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,El Espinoso Cave,Funerary,F,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,El Mirador,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Gough's Cave,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Gran Dolina,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Grotte des Perrats,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Grotte du Bison (Arcy-sur-Cure),Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Hahnöfersand,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Hathnora,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Herxheim,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Hohlenstein-Stadel,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Jarama VI rockshelter,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Kajiado,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Kalamakia,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,La Tolita Cama de Huesos,Funerary,F,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Le Placard,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Les Pradelles (Marillac-le-Franc),Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Les Rochers-de-Villeneuve,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Los Moros de Gabasa,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Maszycka Cave,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Mauer,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Mojokerto,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Netankheri,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Ngandong,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Ngawi,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Předmostí,Funerary,F,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Reilingen,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Roc de les Orenetes,Funerary,F,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Saccopastore,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Sambungmacan,Geological transport,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Troisième caverne of Goyet,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Valdegoba Cave,Carnivore-related,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Vindija,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Vindija,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Vindija,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Vunda Locus,Cannibalism,NF,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Xemxija tombs,Funerary,F,1,0,16.363636363636363,Cannibalism
+Reference fit,%MNAU,Abri de Raymonden (Chancelade),Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Abrigo do Lagar Velho,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Amud Cave,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Baousso da Torre (Bausu da Ture),Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Dame du Cavillon,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Dolní Věstonice I,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Dolní Věstonice II,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,El Mirón Cave,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Grotte des Hoteaux,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Kiik-Koba,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Le Moustier I,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Le Moustier II,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Oberkassel,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Ojo Guareña,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Pavlov I,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,San Juan ante Portam Latinam,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Sunghir,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Tepecik-Çiftlik,Funerary,F,2,1,100,Funerary
+Reference fit,%MNAU,Vado all'Arancio,Funerary,F,2,1,100,Funerary
+Unknown projection,%MNAU,Bilzingsleben,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Bolomor Cave,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Ceprano,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,"Cova de les Malladetes (Barx, Valencia, Spain)",NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Cova del Parpalló (Parpalló Cave),NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Cueva de la Carigüela,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Engis / Schmerling Cave,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Kleine Feldhofer Grotte,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,"Ochoz 1, Ochoz 2",NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Peștera Muierii,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Saint-Césaire,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Scladina Cave,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Sima de los Huesos 15,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Sima de los Huesos 24,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Sima de los Huesos 89,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Sima de los Huesos 90,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Sima de los Huesos 95,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Sima de los Huesos PNAS,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Steinheim an der Murr,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Trou de la Naulette,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Weimar-Ehringsdorf,NA,NA,1,0,16.363636363636363,Cannibalism
+Unknown projection,%MNAU,Spy cave,NA,NA,2,1,100,Funerary
+Held-out labelled test,C + evenness,Grotta Guattari,Carnivore-related,NF,1,0,0,Carnivore-related
+Held-out labelled test,C + evenness,La Quina,Funerary,F,1,0,0,Carnivore-related
+Held-out labelled test,C + evenness,Brno II,Funerary,F,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Cro-Magnon I,Funerary,F,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Crow Creek,Funerary,F,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Cueva de los Torrejones,Funerary,F,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Goat’s Hole (Paviland Cave),Funerary,F,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Grotte de Fontbrégoua,Cannibalism,NF,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Grotte de Fontbrégoua,Cannibalism,NF,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Krapina,Cannibalism,NF,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,La Ferrassie,Funerary,F,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Mancos 5MT-10010 Feature 3,Cannibalism,NF,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Mladeč Caves,Funerary,F,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Moula-Guercy,Cannibalism,NF,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Qafzeh Cave,Funerary,F,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Teshik-Tash Cave,Funerary,F,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Yellow Jacket 5MT-3,Cannibalism,NF,2,1,40,Cannibalism
+Held-out labelled test,C + evenness,Cova Gran de Santa Linya,Funerary,F,3,2,95.23809523809523,Funerary
+Held-out labelled test,C + evenness,El Sidrón J1,Cannibalism,NF,3,2,95.23809523809523,Funerary
+Held-out labelled test,C + evenness,Kebara Cave,Funerary,F,3,2,95.23809523809523,Funerary
+Held-out labelled test,C + evenness,La Chapelle-aux-Saints,Funerary,F,3,2,95.23809523809523,Funerary
+Held-out labelled test,C + evenness,Mugharet es-Skhul,Funerary,F,3,2,95.23809523809523,Funerary
+Held-out labelled test,C + evenness,Regourdou,Funerary,F,3,2,95.23809523809523,Funerary
+Held-out labelled test,C + evenness,Roc de Marsal,Funerary,F,3,2,95.23809523809523,Funerary
+Held-out labelled test,C + evenness,Shanidar Cave,Funerary,F,3,2,95.23809523809523,Funerary
+Held-out labelled test,C + evenness,Sima de las Palomas,Funerary,F,3,2,95.23809523809523,Funerary
+Held-out labelled test,C + evenness,Tabun Cave (Mugharet et-Tabun),Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Archi,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Combe Grenal,Cannibalism,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Cova del Gegant,Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Dali Tianshuigou,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Grotte du Bison (Arcy-sur-Cure),Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Hahnöfersand,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Hathnora,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Hohlenstein-Stadel,Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Jarama VI rockshelter,Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Kajiado,Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Kalamakia,Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Le Placard,Cannibalism,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Les Pradelles (Marillac-le-Franc),Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Les Rochers-de-Villeneuve,Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Los Moros de Gabasa,Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Mauer,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Mojokerto,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Netankheri,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Ngandong,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Ngawi,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Reilingen,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Saccopastore,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Sambungmacan,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Valdegoba Cave,Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Vindija,Cannibalism,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Vindija,Cannibalism,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Vindija,Cannibalism,NF,1,0,0,Carnivore-related
+Reference fit,C + evenness,Abri Pataud,Funerary,F,2,1,40,Cannibalism
+Reference fit,C + evenness,Arago,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Atxuri-I Cave,Funerary,F,2,1,40,Cannibalism
+Reference fit,C + evenness,Boquete de Zafarraya,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Brillenhöhle,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Cova Foradada,Funerary,F,2,1,40,Cannibalism
+Reference fit,C + evenness,Cova Foradada,Funerary,F,2,1,40,Cannibalism
+Reference fit,C + evenness,Coves de Santa Maira,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Cueva de la Buena Pinta,Carnivore-related,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Cueva del Camino,Carnivore-related,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,El Espinoso Cave,Funerary,F,2,1,40,Cannibalism
+Reference fit,C + evenness,El Mirador,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Gough's Cave,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Gran Dolina,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Grotte des Perrats,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Herxheim,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Kiik-Koba,Funerary,F,2,1,40,Cannibalism
+Reference fit,C + evenness,La Tolita Cama de Huesos,Funerary,F,2,1,40,Cannibalism
+Reference fit,C + evenness,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Carnivore-related,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Maszycka Cave,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Předmostí,Funerary,F,2,1,40,Cannibalism
+Reference fit,C + evenness,Roc de les Orenetes,Funerary,F,2,1,40,Cannibalism
+Reference fit,C + evenness,Troisième caverne of Goyet,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Vunda Locus,Cannibalism,NF,2,1,40,Cannibalism
+Reference fit,C + evenness,Xemxija tombs,Funerary,F,2,1,40,Cannibalism
+Reference fit,C + evenness,Abri de Raymonden (Chancelade),Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Abrigo do Lagar Velho,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Amud Cave,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Baousso da Torre (Bausu da Ture),Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Cueva de Malalmuerzo,Cannibalism,NF,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Dame du Cavillon,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Dolní Věstonice I,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Dolní Věstonice II,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,El Mirón Cave,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Grotte des Hoteaux,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Le Moustier I,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Le Moustier II,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Oberkassel,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Ojo Guareña,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Pavlov I,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,San Juan ante Portam Latinam,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Sunghir,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Tepecik-Çiftlik,Funerary,F,3,2,95.23809523809523,Funerary
+Reference fit,C + evenness,Vado all'Arancio,Funerary,F,3,2,95.23809523809523,Funerary
+Unknown projection,C + evenness,Bilzingsleben,NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,Bolomor Cave,NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,Ceprano,NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,"Cova de les Malladetes (Barx, Valencia, Spain)",NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,Cova del Parpalló (Parpalló Cave),NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,Cueva de la Carigüela,NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,Engis / Schmerling Cave,NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,"Ochoz 1, Ochoz 2",NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,Peștera Muierii,NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,Scladina Cave,NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,Steinheim an der Murr,NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,Trou de la Naulette,NA,NA,1,0,0,Carnivore-related
+Unknown projection,C + evenness,Kleine Feldhofer Grotte,NA,NA,2,1,40,Cannibalism
+Unknown projection,C + evenness,Saint-Césaire,NA,NA,2,1,40,Cannibalism
+Unknown projection,C + evenness,Sima de los Huesos 15,NA,NA,2,1,40,Cannibalism
+Unknown projection,C + evenness,Sima de los Huesos 24,NA,NA,2,1,40,Cannibalism
+Unknown projection,C + evenness,Sima de los Huesos 89,NA,NA,2,1,40,Cannibalism
+Unknown projection,C + evenness,Sima de los Huesos 90,NA,NA,2,1,40,Cannibalism
+Unknown projection,C + evenness,Sima de los Huesos 95,NA,NA,2,1,40,Cannibalism
+Unknown projection,C + evenness,Sima de los Huesos PNAS,NA,NA,2,1,40,Cannibalism
+Unknown projection,C + evenness,Weimar-Ehringsdorf,NA,NA,2,1,40,Cannibalism
+Unknown projection,C + evenness,Spy cave,NA,NA,3,2,95.23809523809523,Funerary
+Held-out labelled test,C only,Brno II,Funerary,F,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Cro-Magnon I,Funerary,F,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Crow Creek,Funerary,F,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Cueva de los Torrejones,Funerary,F,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Goat’s Hole (Paviland Cave),Funerary,F,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Grotta Guattari,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Grotte de Fontbrégoua,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Grotte de Fontbrégoua,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Krapina,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,La Ferrassie,Funerary,F,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,La Quina,Funerary,F,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Mancos 5MT-10010 Feature 3,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Mladeč Caves,Funerary,F,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Moula-Guercy,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Qafzeh Cave,Funerary,F,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Teshik-Tash Cave,Funerary,F,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Yellow Jacket 5MT-3,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Held-out labelled test,C only,Cova Gran de Santa Linya,Funerary,F,2,1,95.23809523809523,Funerary
+Held-out labelled test,C only,El Sidrón J1,Cannibalism,NF,2,1,95.23809523809523,Funerary
+Held-out labelled test,C only,Kebara Cave,Funerary,F,2,1,95.23809523809523,Funerary
+Held-out labelled test,C only,La Chapelle-aux-Saints,Funerary,F,2,1,95.23809523809523,Funerary
+Held-out labelled test,C only,Mugharet es-Skhul,Funerary,F,2,1,95.23809523809523,Funerary
+Held-out labelled test,C only,Regourdou,Funerary,F,2,1,95.23809523809523,Funerary
+Held-out labelled test,C only,Roc de Marsal,Funerary,F,2,1,95.23809523809523,Funerary
+Held-out labelled test,C only,Shanidar Cave,Funerary,F,2,1,95.23809523809523,Funerary
+Held-out labelled test,C only,Sima de las Palomas,Funerary,F,2,1,95.23809523809523,Funerary
+Held-out labelled test,C only,Tabun Cave (Mugharet et-Tabun),Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Abri Pataud,Funerary,F,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Arago,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Archi,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Atxuri-I Cave,Funerary,F,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Boquete de Zafarraya,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Brillenhöhle,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Combe Grenal,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Cova Foradada,Funerary,F,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Cova Foradada,Funerary,F,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Cova del Gegant,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Coves de Santa Maira,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Cueva de la Buena Pinta,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Cueva del Camino,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Dali Tianshuigou,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,El Espinoso Cave,Funerary,F,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,El Mirador,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Gough's Cave,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Gran Dolina,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Grotte des Perrats,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Grotte du Bison (Arcy-sur-Cure),Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Hahnöfersand,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Hathnora,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Herxheim,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Hohlenstein-Stadel,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Jarama VI rockshelter,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Kajiado,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Kalamakia,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Kiik-Koba,Funerary,F,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,La Tolita Cama de Huesos,Funerary,F,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Le Placard,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Les Pradelles (Marillac-le-Franc),Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Les Rochers-de-Villeneuve,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Los Moros de Gabasa,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Maszycka Cave,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Mauer,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Mojokerto,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Netankheri,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Ngandong,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Ngawi,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Předmostí,Funerary,F,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Reilingen,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Roc de les Orenetes,Funerary,F,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Saccopastore,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Sambungmacan,Geological transport,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Troisième caverne of Goyet,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Valdegoba Cave,Carnivore-related,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Vindija,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Vindija,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Vindija,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Vunda Locus,Cannibalism,NF,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Xemxija tombs,Funerary,F,1,0,18.181818181818183,Cannibalism
+Reference fit,C only,Abri de Raymonden (Chancelade),Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Abrigo do Lagar Velho,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Amud Cave,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Baousso da Torre (Bausu da Ture),Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Cueva de Malalmuerzo,Cannibalism,NF,2,1,95.23809523809523,Funerary
+Reference fit,C only,Dame du Cavillon,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Dolní Věstonice I,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Dolní Věstonice II,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,El Mirón Cave,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Grotte des Hoteaux,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Le Moustier I,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Le Moustier II,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Oberkassel,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Ojo Guareña,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Pavlov I,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,San Juan ante Portam Latinam,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Sunghir,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Tepecik-Çiftlik,Funerary,F,2,1,95.23809523809523,Funerary
+Reference fit,C only,Vado all'Arancio,Funerary,F,2,1,95.23809523809523,Funerary
+Unknown projection,C only,Bilzingsleben,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Bolomor Cave,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Ceprano,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,"Cova de les Malladetes (Barx, Valencia, Spain)",NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Cova del Parpalló (Parpalló Cave),NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Cueva de la Carigüela,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Engis / Schmerling Cave,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Kleine Feldhofer Grotte,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,"Ochoz 1, Ochoz 2",NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Peștera Muierii,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Saint-Césaire,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Scladina Cave,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Sima de los Huesos 15,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Sima de los Huesos 24,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Sima de los Huesos 89,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Sima de los Huesos 90,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Sima de los Huesos 95,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Sima de los Huesos PNAS,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Steinheim an der Murr,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Trou de la Naulette,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Weimar-Ehringsdorf,NA,NA,1,0,18.181818181818183,Cannibalism
+Unknown projection,C only,Spy cave,NA,NA,2,1,95.23809523809523,Funerary
+Held-out labelled test,Combined,Brno II,Funerary,F,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,Cro-Magnon I,Funerary,F,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,Cueva de los Torrejones,Funerary,F,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,Grotta Guattari,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,Grotte de Fontbrégoua,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,Grotte de Fontbrégoua,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,Krapina,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,La Quina,Funerary,F,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,Mladeč Caves,Funerary,F,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,Moula-Guercy,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,Teshik-Tash Cave,Funerary,F,1,0,2.3255813953488373,Carnivore-related
+Held-out labelled test,Combined,Cova Gran de Santa Linya,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Crow Creek,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,El Sidrón J1,Cannibalism,NF,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Goat’s Hole (Paviland Cave),Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Kebara Cave,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,La Chapelle-aux-Saints,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,La Ferrassie,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Mancos 5MT-10010 Feature 3,Cannibalism,NF,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Mugharet es-Skhul,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Qafzeh Cave,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Regourdou,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Roc de Marsal,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Shanidar Cave,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Sima de las Palomas,Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Tabun Cave (Mugharet et-Tabun),Funerary,F,2,1,87.87878787878788,Funerary
+Held-out labelled test,Combined,Yellow Jacket 5MT-3,Cannibalism,NF,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Arago,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Archi,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Atxuri-I Cave,Funerary,F,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Boquete de Zafarraya,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Brillenhöhle,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Combe Grenal,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Cova del Gegant,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Coves de Santa Maira,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Cueva de la Buena Pinta,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Cueva del Camino,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Dali Tianshuigou,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,El Mirador,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Gran Dolina,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Grotte du Bison (Arcy-sur-Cure),Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Hahnöfersand,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Hathnora,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Hohlenstein-Stadel,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Jarama VI rockshelter,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Kajiado,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Kalamakia,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Le Placard,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Les Pradelles (Marillac-le-Franc),Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Les Rochers-de-Villeneuve,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Los Moros de Gabasa,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Maszycka Cave,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Mauer,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Mojokerto,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Netankheri,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Ngandong,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Ngawi,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Reilingen,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Saccopastore,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Sambungmacan,Geological transport,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Troisième caverne of Goyet,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Valdegoba Cave,Carnivore-related,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Vindija,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Vindija,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Vindija,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Vunda Locus,Cannibalism,NF,1,0,2.3255813953488373,Carnivore-related
+Reference fit,Combined,Abri Pataud,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Abri de Raymonden (Chancelade),Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Abrigo do Lagar Velho,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Amud Cave,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Baousso da Torre (Bausu da Ture),Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Cova Foradada,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Cova Foradada,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Cueva de Malalmuerzo,Cannibalism,NF,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Dame du Cavillon,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Dolní Věstonice I,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Dolní Věstonice II,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,El Espinoso Cave,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,El Mirón Cave,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Gough's Cave,Cannibalism,NF,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Grotte des Hoteaux,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Grotte des Perrats,Cannibalism,NF,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Herxheim,Cannibalism,NF,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Kiik-Koba,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,La Tolita Cama de Huesos,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Le Moustier I,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Le Moustier II,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Oberkassel,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Ojo Guareña,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Pavlov I,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Předmostí,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Roc de les Orenetes,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,San Juan ante Portam Latinam,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Sunghir,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Tepecik-Çiftlik,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Vado all'Arancio,Funerary,F,2,1,87.87878787878788,Funerary
+Reference fit,Combined,Xemxija tombs,Funerary,F,2,1,87.87878787878788,Funerary
+Unknown projection,Combined,Bilzingsleben,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Bolomor Cave,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Ceprano,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,"Cova de les Malladetes (Barx, Valencia, Spain)",NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Cova del Parpalló (Parpalló Cave),NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Cueva de la Carigüela,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Engis / Schmerling Cave,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,"Ochoz 1, Ochoz 2",NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Peștera Muierii,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Saint-Césaire,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Scladina Cave,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Sima de los Huesos 89,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Sima de los Huesos 90,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Steinheim an der Murr,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Trou de la Naulette,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Weimar-Ehringsdorf,NA,NA,1,0,2.3255813953488373,Carnivore-related
+Unknown projection,Combined,Kleine Feldhofer Grotte,NA,NA,2,1,87.87878787878788,Funerary
+Unknown projection,Combined,Sima de los Huesos 15,NA,NA,2,1,87.87878787878788,Funerary
+Unknown projection,Combined,Sima de los Huesos 24,NA,NA,2,1,87.87878787878788,Funerary
+Unknown projection,Combined,Sima de los Huesos 95,NA,NA,2,1,87.87878787878788,Funerary
+Unknown projection,Combined,Sima de los Huesos PNAS,NA,NA,2,1,87.87878787878788,Funerary
+Unknown projection,Combined,Spy cave,NA,NA,2,1,87.87878787878788,Funerary
+Held-out labelled test,Engineered,Brno II,Funerary,F,1,0,4.545454545454546,Cannibalism
+Held-out labelled test,Engineered,Cueva de los Torrejones,Funerary,F,1,0,4.545454545454546,Cannibalism
+Held-out labelled test,Engineered,Grotta Guattari,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Held-out labelled test,Engineered,Grotte de Fontbrégoua,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Held-out labelled test,Engineered,Grotte de Fontbrégoua,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Held-out labelled test,Engineered,Krapina,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Held-out labelled test,Engineered,La Quina,Funerary,F,1,0,4.545454545454546,Cannibalism
+Held-out labelled test,Engineered,Mladeč Caves,Funerary,F,1,0,4.545454545454546,Cannibalism
+Held-out labelled test,Engineered,Moula-Guercy,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Held-out labelled test,Engineered,Teshik-Tash Cave,Funerary,F,1,0,4.545454545454546,Cannibalism
+Held-out labelled test,Engineered,Cova Gran de Santa Linya,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Cro-Magnon I,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Crow Creek,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,El Sidrón J1,Cannibalism,NF,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Goat’s Hole (Paviland Cave),Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Kebara Cave,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,La Chapelle-aux-Saints,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,La Ferrassie,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Mancos 5MT-10010 Feature 3,Cannibalism,NF,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Mugharet es-Skhul,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Qafzeh Cave,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Regourdou,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Roc de Marsal,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Shanidar Cave,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Sima de las Palomas,Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Tabun Cave (Mugharet et-Tabun),Funerary,F,2,1,87.5,Funerary
+Held-out labelled test,Engineered,Yellow Jacket 5MT-3,Cannibalism,NF,2,1,87.5,Funerary
+Reference fit,Engineered,Abri Pataud,Funerary,F,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Arago,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Archi,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Atxuri-I Cave,Funerary,F,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Boquete de Zafarraya,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Brillenhöhle,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Combe Grenal,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Cova del Gegant,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Coves de Santa Maira,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Cueva de la Buena Pinta,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Cueva del Camino,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Dali Tianshuigou,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,El Mirador,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Gough's Cave,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Gran Dolina,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Grotte du Bison (Arcy-sur-Cure),Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Hahnöfersand,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Hathnora,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Hohlenstein-Stadel,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Jarama VI rockshelter,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Kajiado,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Kalamakia,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Le Placard,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Les Pradelles (Marillac-le-Franc),Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Les Rochers-de-Villeneuve,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Los Moros de Gabasa,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Maszycka Cave,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Mauer,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Mojokerto,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Netankheri,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Ngandong,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Ngawi,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Reilingen,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Saccopastore,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Sambungmacan,Geological transport,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Troisième caverne of Goyet,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Valdegoba Cave,Carnivore-related,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Vindija,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Vindija,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Vindija,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Vunda Locus,Cannibalism,NF,1,0,4.545454545454546,Cannibalism
+Reference fit,Engineered,Abri de Raymonden (Chancelade),Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Abrigo do Lagar Velho,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Amud Cave,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Baousso da Torre (Bausu da Ture),Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Cova Foradada,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Cova Foradada,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Cueva de Malalmuerzo,Cannibalism,NF,2,1,87.5,Funerary
+Reference fit,Engineered,Dame du Cavillon,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Dolní Věstonice I,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Dolní Věstonice II,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,El Espinoso Cave,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,El Mirón Cave,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Grotte des Hoteaux,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Grotte des Perrats,Cannibalism,NF,2,1,87.5,Funerary
+Reference fit,Engineered,Herxheim,Cannibalism,NF,2,1,87.5,Funerary
+Reference fit,Engineered,Kiik-Koba,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,La Tolita Cama de Huesos,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Le Moustier I,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Le Moustier II,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Carnivore-related,NF,2,1,87.5,Funerary
+Reference fit,Engineered,Oberkassel,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Ojo Guareña,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Pavlov I,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Předmostí,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Roc de les Orenetes,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,San Juan ante Portam Latinam,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Sunghir,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Tepecik-Çiftlik,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Vado all'Arancio,Funerary,F,2,1,87.5,Funerary
+Reference fit,Engineered,Xemxija tombs,Funerary,F,2,1,87.5,Funerary
+Unknown projection,Engineered,Bilzingsleben,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Bolomor Cave,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Ceprano,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,"Cova de les Malladetes (Barx, Valencia, Spain)",NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Cova del Parpalló (Parpalló Cave),NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Cueva de la Carigüela,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Engis / Schmerling Cave,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,"Ochoz 1, Ochoz 2",NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Peștera Muierii,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Saint-Césaire,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Scladina Cave,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Sima de los Huesos 89,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Sima de los Huesos 90,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Spy cave,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Steinheim an der Murr,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Trou de la Naulette,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Weimar-Ehringsdorf,NA,NA,1,0,4.545454545454546,Cannibalism
+Unknown projection,Engineered,Kleine Feldhofer Grotte,NA,NA,2,1,87.5,Funerary
+Unknown projection,Engineered,Sima de los Huesos 15,NA,NA,2,1,87.5,Funerary
+Unknown projection,Engineered,Sima de los Huesos 24,NA,NA,2,1,87.5,Funerary
+Unknown projection,Engineered,Sima de los Huesos 95,NA,NA,2,1,87.5,Funerary
+Unknown projection,Engineered,Sima de los Huesos PNAS,NA,NA,2,1,87.5,Funerary
+Held-out labelled test,Evenness only,Brno II,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Cova Gran de Santa Linya,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Crow Creek,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Cueva de los Torrejones,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,El Sidrón J1,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Goat’s Hole (Paviland Cave),Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Grotte de Fontbrégoua,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Grotte de Fontbrégoua,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Kebara Cave,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Krapina,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,La Chapelle-aux-Saints,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,La Ferrassie,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Mancos 5MT-10010 Feature 3,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Mladeč Caves,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Moula-Guercy,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Mugharet es-Skhul,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Qafzeh Cave,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Regourdou,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Roc de Marsal,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Shanidar Cave,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Sima de las Palomas,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Tabun Cave (Mugharet et-Tabun),Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Teshik-Tash Cave,Funerary,F,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Yellow Jacket 5MT-3,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Held-out labelled test,Evenness only,Cro-Magnon I,Funerary,F,2,1,0,Carnivore-related
+Held-out labelled test,Evenness only,Grotta Guattari,Carnivore-related,NF,2,1,0,Carnivore-related
+Held-out labelled test,Evenness only,La Quina,Funerary,F,2,1,0,Carnivore-related
+Reference fit,Evenness only,Abri Pataud,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Abri de Raymonden (Chancelade),Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Abrigo do Lagar Velho,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Amud Cave,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Arago,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Atxuri-I Cave,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Baousso da Torre (Bausu da Ture),Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Boquete de Zafarraya,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Brillenhöhle,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Cova Foradada,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Cova Foradada,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Coves de Santa Maira,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Cueva de Malalmuerzo,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Cueva de la Buena Pinta,Carnivore-related,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Cueva del Camino,Carnivore-related,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Dame du Cavillon,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Dolní Věstonice I,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Dolní Věstonice II,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,El Espinoso Cave,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,El Mirador,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,El Mirón Cave,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Gough's Cave,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Gran Dolina,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Grotte des Hoteaux,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Grotte des Perrats,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Herxheim,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Kiik-Koba,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,La Tolita Cama de Huesos,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Le Moustier I,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Le Moustier II,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Maszycka Cave,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Oberkassel,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Ojo Guareña,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Pavlov I,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Předmostí,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Roc de les Orenetes,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,San Juan ante Portam Latinam,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Sunghir,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Tepecik-Çiftlik,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Troisième caverne of Goyet,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Vado all'Arancio,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Vunda Locus,Cannibalism,NF,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Xemxija tombs,Funerary,F,1,0,66.66666666666666,Funerary
+Reference fit,Evenness only,Archi,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Combe Grenal,Cannibalism,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Cova del Gegant,Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Dali Tianshuigou,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Grotte du Bison (Arcy-sur-Cure),Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Hahnöfersand,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Hathnora,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Hohlenstein-Stadel,Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Jarama VI rockshelter,Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Kajiado,Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Kalamakia,Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Le Placard,Cannibalism,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Les Pradelles (Marillac-le-Franc),Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Les Rochers-de-Villeneuve,Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Los Moros de Gabasa,Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Mauer,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Mojokerto,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Netankheri,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Ngandong,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Ngawi,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Reilingen,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Saccopastore,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Sambungmacan,Geological transport,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Valdegoba Cave,Carnivore-related,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Vindija,Cannibalism,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Vindija,Cannibalism,NF,2,1,0,Carnivore-related
+Reference fit,Evenness only,Vindija,Cannibalism,NF,2,1,0,Carnivore-related
+Unknown projection,Evenness only,Kleine Feldhofer Grotte,NA,NA,1,0,66.66666666666666,Funerary
+Unknown projection,Evenness only,Saint-Césaire,NA,NA,1,0,66.66666666666666,Funerary
+Unknown projection,Evenness only,Sima de los Huesos 15,NA,NA,1,0,66.66666666666666,Funerary
+Unknown projection,Evenness only,Sima de los Huesos 24,NA,NA,1,0,66.66666666666666,Funerary
+Unknown projection,Evenness only,Sima de los Huesos 89,NA,NA,1,0,66.66666666666666,Funerary
+Unknown projection,Evenness only,Sima de los Huesos 90,NA,NA,1,0,66.66666666666666,Funerary
+Unknown projection,Evenness only,Sima de los Huesos 95,NA,NA,1,0,66.66666666666666,Funerary
+Unknown projection,Evenness only,Sima de los Huesos PNAS,NA,NA,1,0,66.66666666666666,Funerary
+Unknown projection,Evenness only,Spy cave,NA,NA,1,0,66.66666666666666,Funerary
+Unknown projection,Evenness only,Weimar-Ehringsdorf,NA,NA,1,0,66.66666666666666,Funerary
+Unknown projection,Evenness only,Bilzingsleben,NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,Bolomor Cave,NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,Ceprano,NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,"Cova de les Malladetes (Barx, Valencia, Spain)",NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,Cova del Parpalló (Parpalló Cave),NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,Cueva de la Carigüela,NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,Engis / Schmerling Cave,NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,"Ochoz 1, Ochoz 2",NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,Peștera Muierii,NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,Scladina Cave,NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,Steinheim an der Murr,NA,NA,2,1,0,Carnivore-related
+Unknown projection,Evenness only,Trou de la Naulette,NA,NA,2,1,0,Carnivore-related
+Held-out labelled test,ReMNAU,Teshik-Tash Cave,Funerary,F,1,0,0,Carnivore-related
+Held-out labelled test,ReMNAU,Cro-Magnon I,Funerary,F,2,1,0,Cannibalism
+Held-out labelled test,ReMNAU,Crow Creek,Funerary,F,2,1,0,Cannibalism
+Held-out labelled test,ReMNAU,Cueva de los Torrejones,Funerary,F,2,1,0,Cannibalism
+Held-out labelled test,ReMNAU,Grotte de Fontbrégoua,Cannibalism,NF,2,1,0,Cannibalism
+Held-out labelled test,ReMNAU,Grotta Guattari,Carnivore-related,NF,4,3,0,Geological transport
+Held-out labelled test,ReMNAU,Grotte de Fontbrégoua,Cannibalism,NF,4,3,0,Geological transport
+Held-out labelled test,ReMNAU,La Quina,Funerary,F,4,3,0,Geological transport
+Held-out labelled test,ReMNAU,Brno II,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Cova Gran de Santa Linya,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,El Sidrón J1,Cannibalism,NF,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Goat’s Hole (Paviland Cave),Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Krapina,Cannibalism,NF,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,La Chapelle-aux-Saints,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,La Ferrassie,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Mancos 5MT-10010 Feature 3,Cannibalism,NF,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Mladeč Caves,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Moula-Guercy,Cannibalism,NF,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Mugharet es-Skhul,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Qafzeh Cave,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Regourdou,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Roc de Marsal,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Shanidar Cave,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Sima de las Palomas,Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Tabun Cave (Mugharet et-Tabun),Funerary,F,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Yellow Jacket 5MT-3,Cannibalism,NF,5,4,78.125,Funerary
+Held-out labelled test,ReMNAU,Kebara Cave,Funerary,F,7,6,100,Funerary
+Reference fit,ReMNAU,Hathnora,Geological transport,NF,1,0,0,Carnivore-related
+Reference fit,ReMNAU,Los Moros de Gabasa,Carnivore-related,NF,1,0,0,Carnivore-related
+Reference fit,ReMNAU,Arago,Cannibalism,NF,2,1,0,Cannibalism
+Reference fit,ReMNAU,Boquete de Zafarraya,Cannibalism,NF,2,1,0,Cannibalism
+Reference fit,ReMNAU,Coves de Santa Maira,Cannibalism,NF,2,1,0,Cannibalism
+Reference fit,ReMNAU,"Gruta da OliveiraGruta da Oliveira (Torres Novas), Portuga",Carnivore-related,NF,2,1,0,Cannibalism
+Reference fit,ReMNAU,"Les Garennes cave system (Grotte de Vilhonneur), Vilhonneur, Charente, France",Carnivore-related,NF,2,1,0,Cannibalism
+Reference fit,ReMNAU,Maszycka Cave,Cannibalism,NF,2,1,0,Cannibalism
+Reference fit,ReMNAU,Netankheri,Geological transport,NF,2,1,0,Cannibalism
+Reference fit,ReMNAU,Troisième caverne of Goyet,Cannibalism,NF,2,1,0,Cannibalism
+Reference fit,ReMNAU,San Juan ante Portam Latinam,Funerary,F,3,2,100,Funerary
+Reference fit,ReMNAU,Archi,Geological transport,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Combe Grenal,Cannibalism,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Cova del Gegant,Carnivore-related,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Cueva de Malalmuerzo,Cannibalism,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Cueva de la Buena Pinta,Carnivore-related,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Cueva del Camino,Carnivore-related,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Dali Tianshuigou,Geological transport,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Grotte du Bison (Arcy-sur-Cure),Carnivore-related,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Hahnöfersand,Geological transport,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Kajiado,Carnivore-related,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Kalamakia,Carnivore-related,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Le Placard,Cannibalism,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Les Pradelles (Marillac-le-Franc),Carnivore-related,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Mauer,Geological transport,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Mojokerto,Geological transport,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Ngandong,Geological transport,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Ngawi,Geological transport,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Reilingen,Geological transport,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Saccopastore,Geological transport,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Sambungmacan,Geological transport,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Valdegoba Cave,Carnivore-related,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Vindija,Cannibalism,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Vindija,Cannibalism,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Vindija,Cannibalism,NF,4,3,0,Geological transport
+Reference fit,ReMNAU,Abri Pataud,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Abri de Raymonden (Chancelade),Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Abrigo do Lagar Velho,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Amud Cave,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Atxuri-I Cave,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Baousso da Torre (Bausu da Ture),Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Brillenhöhle,Cannibalism,NF,5,4,78.125,Funerary
+Reference fit,ReMNAU,Dame du Cavillon,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Dolní Věstonice I,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Dolní Věstonice II,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,El Espinoso Cave,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,El Mirador,Cannibalism,NF,5,4,78.125,Funerary
+Reference fit,ReMNAU,El Mirón Cave,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Gough's Cave,Cannibalism,NF,5,4,78.125,Funerary
+Reference fit,ReMNAU,Gran Dolina,Cannibalism,NF,5,4,78.125,Funerary
+Reference fit,ReMNAU,Grotte des Hoteaux,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Grotte des Perrats,Cannibalism,NF,5,4,78.125,Funerary
+Reference fit,ReMNAU,Herxheim,Cannibalism,NF,5,4,78.125,Funerary
+Reference fit,ReMNAU,Kiik-Koba,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,La Tolita Cama de Huesos,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Le Moustier I,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Oberkassel,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Pavlov I,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Předmostí,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Roc de les Orenetes,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,"Roc-de-Cave (Saint-Cirq-Madelon, Lot)",Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Saint-Germain-la-Rivière (Magdalenian burial “Dame de Saint-Germain-la-Rivière”),Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Sunghir,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Tepecik-Çiftlik,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Vado all'Arancio,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,Vunda Locus,Cannibalism,NF,5,4,78.125,Funerary
+Reference fit,ReMNAU,Xemxija tombs,Funerary,F,5,4,78.125,Funerary
+Reference fit,ReMNAU,"Grotte de la Tour (La Chaise-de-Vouthon, Charente, France)",Carnivore-related,NF,6,5,0,Carnivore-related
+Reference fit,ReMNAU,Hohlenstein-Stadel,Carnivore-related,NF,6,5,0,Carnivore-related
+Reference fit,ReMNAU,Les Rochers-de-Villeneuve,Carnivore-related,NF,6,5,0,Carnivore-related
+Reference fit,ReMNAU,Première Caverne du Bay-Bonnet (Fonds-de-Forêt),Carnivore-related,NF,6,5,0,Carnivore-related
+Reference fit,ReMNAU,Cova Foradada,Funerary,F,7,6,100,Funerary
+Reference fit,ReMNAU,Cova Foradada,Funerary,F,7,6,100,Funerary
+Reference fit,ReMNAU,Le Moustier II,Funerary,F,7,6,100,Funerary
+Reference fit,ReMNAU,Ojo Guareña,Funerary,F,7,6,100,Funerary
+Reference fit,ReMNAU,Jarama VI rockshelter,Carnivore-related,NF,8,7,0,Carnivore-related
+Unknown projection,ReMNAU,Cova del Parpalló (Parpalló Cave),NA,NA,2,1,0,Cannibalism
+Unknown projection,ReMNAU,Sima de los Huesos 90,NA,NA,2,1,0,Cannibalism
+Unknown projection,ReMNAU,Bilzingsleben,NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,Bolomor Cave,NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,Ceprano,NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,"Cova de les Malladetes (Barx, Valencia, Spain)",NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,Cueva de la Carigüela,NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,Engis / Schmerling Cave,NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,"Ochoz 1, Ochoz 2",NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,Peștera Muierii,NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,Scladina Cave,NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,Steinheim an der Murr,NA,NA,4,3,0,Geological transport
+Unknown projection,ReMNAU,Kleine Feldhofer Grotte,NA,NA,5,4,78.125,Funerary
+Unknown projection,ReMNAU,Saint-Césaire,NA,NA,5,4,78.125,Funerary
+Unknown projection,ReMNAU,Sima de los Huesos 15,NA,NA,5,4,78.125,Funerary
+Unknown projection,ReMNAU,Sima de los Huesos 24,NA,NA,5,4,78.125,Funerary
+Unknown projection,ReMNAU,Sima de los Huesos 89,NA,NA,5,4,78.125,Funerary
+Unknown projection,ReMNAU,Sima de los Huesos 95,NA,NA,5,4,78.125,Funerary
+Unknown projection,ReMNAU,Sima de los Huesos PNAS,NA,NA,5,4,78.125,Funerary
+Unknown projection,ReMNAU,Spy cave,NA,NA,5,4,78.125,Funerary
+Unknown projection,ReMNAU,Trou de la Naulette,NA,NA,5,4,78.125,Funerary
+Unknown projection,ReMNAU,Weimar-Ehringsdorf,NA,NA,5,4,78.125,Funerary

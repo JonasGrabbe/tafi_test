@@ -1,0 +1,10 @@
+Table: Classification report for BEST hyperparameter combo (RandomForest, cannibalism_vs_fc, ProportionalRep_MNIbased L2_1_1_2_4_2_3_4_1_2_5)
+Best .config = pre0_mod1_post0
+
+|      Class       |   Precision   |    Recall     |      F1       | Support |
+|:----------------:|:-------------:|:-------------:|:-------------:|:-------:|
+|   Cannibalism    | 0.678 (0.016) | 0.864 (0.064) | 0.760 (0.035) |   22    |
+| Funerary Context | 0.929 (0.031) | 0.812 (0.000) | 0.867 (0.014) |   48    |
+|     accuracy     |               |               | 0.829 (0.112) |   70    |
+|    macro_avg     | 0.804 (0.024) | 0.838 (0.032) | 0.813 (0.024) |   70    |
+|   weighted_avg   | 0.850 (0.027) | 0.829 (0.020) | 0.833 (0.020) |   70    |

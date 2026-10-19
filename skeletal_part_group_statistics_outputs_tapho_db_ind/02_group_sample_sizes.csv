@@ -1,0 +1,39 @@
+task,representation,analysis_group,n_site_group_observations
+four_class,%MNAU,Geological transport,12
+four_class,%MNAU,Carnivore,17
+four_class,%MNAU,Cannibalism,22
+four_class,%MNAU,Funerary Context,48
+four_class,ReMNAU,Geological transport,12
+four_class,ReMNAU,Carnivore,17
+four_class,ReMNAU,Cannibalism,22
+four_class,ReMNAU,Funerary Context,48
+Funerary_vs_Cannibalism,%MNAU,Cannibalism,22
+Funerary_vs_Cannibalism,%MNAU,Funerary Context,48
+Funerary_vs_Cannibalism,ReMNAU,Cannibalism,22
+Funerary_vs_Cannibalism,ReMNAU,Funerary Context,48
+F_vs_NF,%MNAU,NF,51
+F_vs_NF,%MNAU,F,48
+F_vs_NF,ReMNAU,NF,51
+F_vs_NF,ReMNAU,F,48
+C1_C5,%MNAU,C1,40
+C1_C5,%MNAU,C2,16
+C1_C5,%MNAU,C3,7
+C1_C5,%MNAU,C4,18
+C1_C5,%MNAU,C5,18
+C1_C5,ReMNAU,C1,40
+C1_C5,ReMNAU,C2,16
+C1_C5,ReMNAU,C3,7
+C1_C5,ReMNAU,C4,18
+C1_C5,ReMNAU,C5,18
+G0_G5,%MNAU,G0,27
+G0_G5,%MNAU,G1,23
+G0_G5,%MNAU,G2,5
+G0_G5,%MNAU,G3,13
+G0_G5,%MNAU,G4,7
+G0_G5,%MNAU,G5,24
+G0_G5,ReMNAU,G0,27
+G0_G5,ReMNAU,G1,23
+G0_G5,ReMNAU,G2,5
+G0_G5,ReMNAU,G3,13
+G0_G5,ReMNAU,G4,7
+G0_G5,ReMNAU,G5,24

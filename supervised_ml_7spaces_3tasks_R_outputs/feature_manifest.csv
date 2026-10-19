@@ -1,0 +1,149 @@
+feature_space,n_features_requested,variable
+C only,1,Mean_part_abundance
+Heip evenness only,1,mnau_heip_evenness
+C + Heip evenness,2,Mean_part_abundance
+C + Heip evenness,2,mnau_heip_evenness
+%MNAU raw,22,ProportionalRep_MNIbased_cranium
+%MNAU raw,22,ProportionalRep_MNIbased_hyoid
+%MNAU raw,22,ProportionalRep_MNIbased_vertebrae
+%MNAU raw,22,ProportionalRep_MNIbased_thorax_indet
+%MNAU raw,22,ProportionalRep_MNIbased_sternum
+%MNAU raw,22,ProportionalRep_MNIbased_ribs
+%MNAU raw,22,ProportionalRep_MNIbased_shoulder_indet
+%MNAU raw,22,ProportionalRep_MNIbased_clavicle_right
+%MNAU raw,22,ProportionalRep_MNIbased_clavicle_left
+%MNAU raw,22,ProportionalRep_MNIbased_scapula_right
+%MNAU raw,22,ProportionalRep_MNIbased_scapula_left
+%MNAU raw,22,ProportionalRep_MNIbased_arms_indet
+%MNAU raw,22,ProportionalRep_MNIbased_humerus_right
+%MNAU raw,22,ProportionalRep_MNIbased_humerus_left
+%MNAU raw,22,ProportionalRep_MNIbased_radius_right
+%MNAU raw,22,ProportionalRep_MNIbased_radius_left
+%MNAU raw,22,ProportionalRep_MNIbased_ulna_right
+%MNAU raw,22,ProportionalRep_MNIbased_ulna_left
+%MNAU raw,22,ProportionalRep_MNIbased_hands
+%MNAU raw,22,ProportionalRep_MNIbased_pelvic
+%MNAU raw,22,ProportionalRep_MNIbased_legs
+%MNAU raw,22,ProportionalRep_MNIbased_foot
+ReMNAU raw,22,ReMNAU_cranium
+ReMNAU raw,22,ReMNAU_hyoid
+ReMNAU raw,22,ReMNAU_vertebrae
+ReMNAU raw,22,ReMNAU_thorax_indet
+ReMNAU raw,22,ReMNAU_sternum
+ReMNAU raw,22,ReMNAU_ribs
+ReMNAU raw,22,ReMNAU_shoulder_indet
+ReMNAU raw,22,ReMNAU_clavicle_right
+ReMNAU raw,22,ReMNAU_clavicle_left
+ReMNAU raw,22,ReMNAU_scapula_right
+ReMNAU raw,22,ReMNAU_scapula_left
+ReMNAU raw,22,ReMNAU_arms_indet
+ReMNAU raw,22,ReMNAU_humerus_right
+ReMNAU raw,22,ReMNAU_humerus_left
+ReMNAU raw,22,ReMNAU_radius_right
+ReMNAU raw,22,ReMNAU_radius_left
+ReMNAU raw,22,ReMNAU_ulna_right
+ReMNAU raw,22,ReMNAU_ulna_left
+ReMNAU raw,22,ReMNAU_hands
+ReMNAU raw,22,ReMNAU_pelvic
+ReMNAU raw,22,ReMNAU_legs
+ReMNAU raw,22,ReMNAU_foot
+Engineered,28,mnau_proximal_appendicular_mean
+Engineered,28,mnau_lower_appendicular_mean
+Engineered,28,mnau_distal_appendicular_mean
+Engineered,28,mnau_appendicular_mean
+Engineered,28,mnau_postcranial_total_mean
+Engineered,28,mnau_top2_share_mcnaughton
+Engineered,28,mnau_upper_appendicular_mean
+Engineered,28,low_density_survival_index
+Engineered,28,mnau_vertebrae_to_thorax_ratio
+Engineered,28,all_sections_dominance
+Engineered,28,mnau_lower_upper_appendicular_diff
+Engineered,28,mnau_heip_evenness
+Engineered,28,mnau_girdle_appendicular_logratio
+Engineered,28,postcranial_continuity_hm
+Engineered,28,mnau_girdle_to_appendicular_ratio
+Engineered,28,mnau_gini
+Engineered,28,density_representation_r2
+Engineered,28,mnau_cv
+Engineered,28,mnau_girdle_appendicular_diff
+Engineered,28,mnau_full_axial_mean
+Engineered,28,mnau_arms
+Engineered,28,dominance_gap_all
+Engineered,28,mnau_girdle_share_of_appendicular
+Engineered,28,section_completeness_025_all
+Engineered,28,whole_body_continuity_hm
+Engineered,28,density_representation_slope
+Engineered,28,mnau_limb_shaft_proxy_mean
+Engineered,28,density_residual_sd
+Combined,72,ProportionalRep_MNIbased_cranium
+Combined,72,ProportionalRep_MNIbased_hyoid
+Combined,72,ProportionalRep_MNIbased_vertebrae
+Combined,72,ProportionalRep_MNIbased_thorax_indet
+Combined,72,ProportionalRep_MNIbased_sternum
+Combined,72,ProportionalRep_MNIbased_ribs
+Combined,72,ProportionalRep_MNIbased_shoulder_indet
+Combined,72,ProportionalRep_MNIbased_clavicle_right
+Combined,72,ProportionalRep_MNIbased_clavicle_left
+Combined,72,ProportionalRep_MNIbased_scapula_right
+Combined,72,ProportionalRep_MNIbased_scapula_left
+Combined,72,ProportionalRep_MNIbased_arms_indet
+Combined,72,ProportionalRep_MNIbased_humerus_right
+Combined,72,ProportionalRep_MNIbased_humerus_left
+Combined,72,ProportionalRep_MNIbased_radius_right
+Combined,72,ProportionalRep_MNIbased_radius_left
+Combined,72,ProportionalRep_MNIbased_ulna_right
+Combined,72,ProportionalRep_MNIbased_ulna_left
+Combined,72,ProportionalRep_MNIbased_hands
+Combined,72,ProportionalRep_MNIbased_pelvic
+Combined,72,ProportionalRep_MNIbased_legs
+Combined,72,ProportionalRep_MNIbased_foot
+Combined,72,ReMNAU_cranium
+Combined,72,ReMNAU_hyoid
+Combined,72,ReMNAU_vertebrae
+Combined,72,ReMNAU_thorax_indet
+Combined,72,ReMNAU_sternum
+Combined,72,ReMNAU_ribs
+Combined,72,ReMNAU_shoulder_indet
+Combined,72,ReMNAU_clavicle_right
+Combined,72,ReMNAU_clavicle_left
+Combined,72,ReMNAU_scapula_right
+Combined,72,ReMNAU_scapula_left
+Combined,72,ReMNAU_arms_indet
+Combined,72,ReMNAU_humerus_right
+Combined,72,ReMNAU_humerus_left
+Combined,72,ReMNAU_radius_right
+Combined,72,ReMNAU_radius_left
+Combined,72,ReMNAU_ulna_right
+Combined,72,ReMNAU_ulna_left
+Combined,72,ReMNAU_hands
+Combined,72,ReMNAU_pelvic
+Combined,72,ReMNAU_legs
+Combined,72,ReMNAU_foot
+Combined,72,mnau_proximal_appendicular_mean
+Combined,72,mnau_lower_appendicular_mean
+Combined,72,mnau_distal_appendicular_mean
+Combined,72,mnau_appendicular_mean
+Combined,72,mnau_postcranial_total_mean
+Combined,72,mnau_top2_share_mcnaughton
+Combined,72,mnau_upper_appendicular_mean
+Combined,72,low_density_survival_index
+Combined,72,mnau_vertebrae_to_thorax_ratio
+Combined,72,all_sections_dominance
+Combined,72,mnau_lower_upper_appendicular_diff
+Combined,72,mnau_heip_evenness
+Combined,72,mnau_girdle_appendicular_logratio
+Combined,72,postcranial_continuity_hm
+Combined,72,mnau_girdle_to_appendicular_ratio
+Combined,72,mnau_gini
+Combined,72,density_representation_r2
+Combined,72,mnau_cv
+Combined,72,mnau_girdle_appendicular_diff
+Combined,72,mnau_full_axial_mean
+Combined,72,mnau_arms
+Combined,72,dominance_gap_all
+Combined,72,mnau_girdle_share_of_appendicular
+Combined,72,section_completeness_025_all
+Combined,72,whole_body_continuity_hm
+Combined,72,density_representation_slope
+Combined,72,mnau_limb_shaft_proxy_mean
+Combined,72,density_residual_sd

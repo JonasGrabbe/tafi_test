@@ -1,0 +1,16 @@
+Feature_space,Cluster,Collective burial,Multiple inhumation,No inhumation,Single inhumation
+C only,1,9,0,1,4
+C only,2,3,3,2,20
+Heip evenness only,1,1,0,1,1
+Heip evenness only,2,2,0,0,6
+Heip evenness only,3,9,3,2,17
+C + Heip evenness,1,3,0,1,2
+C + Heip evenness,2,9,3,2,22
+%MNAU raw,1,8,0,1,2
+%MNAU raw,2,4,3,2,22
+ReMNAU raw,1,6,0,1,0
+ReMNAU raw,2,6,3,2,24
+Engineered,1,1,0,1,2
+Engineered,2,11,3,2,22
+Combined,1,3,0,1,2
+Combined,2,9,3,2,22

@@ -1,0 +1,729 @@
+outer_holdout_group,site_name,assigned_dataset_label,feature_space,model,Mean_P_F,SD_P_F,F_decisions_percent,n_fold_models
+1,Crow Creek,Funerary Context,%MNAU raw,KNN,0.5645845699419044,0.07841659889962338,80,15
+1,Crow Creek,Funerary Context,%MNAU raw,Logistic regression,0.48210121198087075,0.023631210780226664,20,15
+1,Crow Creek,Funerary Context,%MNAU raw,RBF-SVM,0.6992521995184063,0.12282005854152746,93.33333333333333,15
+1,Crow Creek,Funerary Context,%MNAU raw,Random forest,0.46568055555555554,0.10075306927789021,40,15
+1,Crow Creek,Funerary Context,C + Heip evenness,KNN,0.4469038679831945,0.16594393783780909,53.333333333333336,15
+1,Crow Creek,Funerary Context,C + Heip evenness,Logistic regression,0.49287229182740866,0.006644624978223109,20,15
+1,Crow Creek,Funerary Context,C + Heip evenness,RBF-SVM,0.4957136021971325,0.09511384084119459,53.333333333333336,15
+1,Crow Creek,Funerary Context,C + Heip evenness,Random forest,0.7241666666666666,0.13318863055652988,100,15
+1,Crow Creek,Funerary Context,C only,KNN,0.8725754374340557,0.09829758471526988,100,15
+1,Crow Creek,Funerary Context,C only,Logistic regression,0.49330426925805454,0.005568172860085868,13.333333333333334,15
+1,Crow Creek,Funerary Context,C only,RBF-SVM,0.7511085704513623,0.08564484556968217,100,15
+1,Crow Creek,Funerary Context,C only,Random forest,0.88875,0.10193988950076692,100,15
+1,Crow Creek,Funerary Context,Combined,KNN,0.560127586511591,0.09614751334572524,80,15
+1,Crow Creek,Funerary Context,Combined,Logistic regression,0.6084287882737104,0.09175094935455168,86.66666666666667,15
+1,Crow Creek,Funerary Context,Combined,RBF-SVM,0.6738520514977263,0.1507945302926751,80,15
+1,Crow Creek,Funerary Context,Combined,Random forest,0.5595833333333333,0.10708356494323665,73.33333333333333,15
+1,Crow Creek,Funerary Context,Engineered,KNN,0.8485799888406255,0.09419275954370643,100,15
+1,Crow Creek,Funerary Context,Engineered,Logistic regression,0.6809186706876467,0.061230309957699895,100,15
+1,Crow Creek,Funerary Context,Engineered,RBF-SVM,0.8222595784685108,0.11073892957195777,100,15
+1,Crow Creek,Funerary Context,Engineered,Random forest,0.6608333333333333,0.11071164551383451,100,15
+1,Crow Creek,Funerary Context,Heip evenness only,KNN,0.2931410387060798,0.09680417727601193,0,15
+1,Crow Creek,Funerary Context,Heip evenness only,Logistic regression,0.49841645792075506,0.0025843965742791924,13.333333333333334,15
+1,Crow Creek,Funerary Context,Heip evenness only,RBF-SVM,0.3766507020932521,0.09496614168459155,13.333333333333334,15
+1,Crow Creek,Funerary Context,Heip evenness only,Random forest,0.09083333333333334,0.09360786182599687,0,15
+1,Crow Creek,Funerary Context,ReMNAU raw,KNN,0.39654568276632907,0.11575059193643382,20,15
+1,Crow Creek,Funerary Context,ReMNAU raw,Logistic regression,0.5641409718916093,0.028482767987191154,100,15
+1,Crow Creek,Funerary Context,ReMNAU raw,RBF-SVM,0.44496468844484716,0.057889906524962016,13.333333333333334,15
+1,Crow Creek,Funerary Context,ReMNAU raw,Random forest,0.49654166666666666,0.09451027044844436,46.666666666666664,15
+1,Krapina,Rest,%MNAU raw,KNN,0.19024847496557112,0.11789808213921786,0,15
+1,Krapina,Rest,%MNAU raw,Logistic regression,0.33386259471110785,0.02059861507818035,0,15
+1,Krapina,Rest,%MNAU raw,RBF-SVM,0.15721676191627512,0.03426081473025389,0,15
+1,Krapina,Rest,%MNAU raw,Random forest,0.25922222222222224,0.0710156733389775,0,15
+1,Krapina,Rest,C + Heip evenness,KNN,0.38449267362550393,0.1789099025296561,26.666666666666668,15
+1,Krapina,Rest,C + Heip evenness,Logistic regression,0.49870501508335946,0.007308345291880202,46.666666666666664,15
+1,Krapina,Rest,C + Heip evenness,RBF-SVM,0.47224035574198187,0.10077768305352794,53.333333333333336,15
+1,Krapina,Rest,C + Heip evenness,Random forest,0.39125,0.15350808494296692,20,15
+1,Krapina,Rest,C only,KNN,0.03657709518200151,0.04339287670713323,0,15
+1,Krapina,Rest,C only,Logistic regression,0.4513546107820542,0.006981078111640404,0,15
+1,Krapina,Rest,C only,RBF-SVM,0.17577622444769012,0.040477485208915844,0,15
+1,Krapina,Rest,C only,Random forest,0.00375,0.009966461615982731,0,15
+1,Krapina,Rest,Combined,KNN,0.15156282311000244,0.10993131346480338,0,15
+1,Krapina,Rest,Combined,Logistic regression,0.4287204741530082,0.03400909734170863,0,15
+1,Krapina,Rest,Combined,RBF-SVM,0.20921074070094492,0.059009709127347855,0,15
+1,Krapina,Rest,Combined,Random forest,0.3566666666666667,0.10888196700140589,13.333333333333334,15
+1,Krapina,Rest,Engineered,KNN,0.12085575017711908,0.09199149078227808,0,15
+1,Krapina,Rest,Engineered,Logistic regression,0.4279138812453447,0.037584872454576264,0,15
+1,Krapina,Rest,Engineered,RBF-SVM,0.252668014515702,0.07767624911631095,0,15
+1,Krapina,Rest,Engineered,Random forest,0.36541666666666667,0.07580912748161538,6.666666666666667,15
+1,Krapina,Rest,Heip evenness only,KNN,0.49624888100622827,0.31953137908089574,33.33333333333333,15
+1,Krapina,Rest,Heip evenness only,Logistic regression,0.5465520930856574,0.0022184442604069638,100,15
+1,Krapina,Rest,Heip evenness only,RBF-SVM,0.8159989155641529,0.028993437559213867,100,15
+1,Krapina,Rest,Heip evenness only,Random forest,0.57625,0.29670060667278725,33.33333333333333,15
+1,Krapina,Rest,ReMNAU raw,KNN,0.7648245979193877,0.10353018255331589,100,15
+1,Krapina,Rest,ReMNAU raw,Logistic regression,0.63049302777514,0.025289224346368912,100,15
+1,Krapina,Rest,ReMNAU raw,RBF-SVM,0.7399189010795699,0.06053307307020715,100,15
+1,Krapina,Rest,ReMNAU raw,Random forest,0.8099999999999999,0.08253787009609588,100,15
+1,La Chapelle-aux-Saints,Funerary Context,%MNAU raw,KNN,1,0,100,15
+1,La Chapelle-aux-Saints,Funerary Context,%MNAU raw,Logistic regression,0.8568486908579892,0.02076882759901396,100,15
+1,La Chapelle-aux-Saints,Funerary Context,%MNAU raw,RBF-SVM,0.9112065227858794,0.013425157351804436,100,15
+1,La Chapelle-aux-Saints,Funerary Context,%MNAU raw,Random forest,0.9191448412698413,0.05290555137514054,100,15
+1,La Chapelle-aux-Saints,Funerary Context,C + Heip evenness,KNN,0.9773555664094591,0.03362086735359769,100,15
+1,La Chapelle-aux-Saints,Funerary Context,C + Heip evenness,Logistic regression,0.6388028379019133,0.006819729498638501,100,15
+1,La Chapelle-aux-Saints,Funerary Context,C + Heip evenness,RBF-SVM,0.9104466451951142,0.02214834303531444,100,15
+1,La Chapelle-aux-Saints,Funerary Context,C + Heip evenness,Random forest,0.9966666666666667,0.007420210496308293,100,15
+1,La Chapelle-aux-Saints,Funerary Context,C only,KNN,0.9921161560687897,0.013821457437735614,100,15
+1,La Chapelle-aux-Saints,Funerary Context,C only,Logistic regression,0.593233770176157,0.0061375540897354005,100,15
+1,La Chapelle-aux-Saints,Funerary Context,C only,RBF-SVM,0.8886819176614695,0.026459681078887038,100,15
+1,La Chapelle-aux-Saints,Funerary Context,C only,Random forest,0.9991666666666666,0.003227486121839503,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Combined,KNN,1,0,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Combined,Logistic regression,0.9199105987636148,0.016076919925818313,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Combined,RBF-SVM,0.9248789388439288,0.022455397734117307,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Combined,Random forest,0.9500000000000001,0.034958521340092676,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Engineered,KNN,0.8760351301324657,0.074219943564049,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Engineered,Logistic regression,0.8781625441046462,0.016136080112189696,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Engineered,RBF-SVM,0.9121257415929598,0.026469616506327086,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Engineered,Random forest,0.97375,0.02674699582596682,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Heip evenness only,KNN,0.9553144798623664,0.05729780903001199,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Heip evenness only,Logistic regression,0.5674531916549819,0.00263537833017324,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Heip evenness only,RBF-SVM,0.861722891114215,0.030513283448911764,100,15
+1,La Chapelle-aux-Saints,Funerary Context,Heip evenness only,Random forest,0.9966666666666667,0.007420210496308293,100,15
+1,La Chapelle-aux-Saints,Funerary Context,ReMNAU raw,KNN,0.8279998599926307,0.08384237754282392,100,15
+1,La Chapelle-aux-Saints,Funerary Context,ReMNAU raw,Logistic regression,0.7007456275690458,0.026254317866636345,100,15
+1,La Chapelle-aux-Saints,Funerary Context,ReMNAU raw,RBF-SVM,0.8172790305362632,0.07083476595664916,100,15
+1,La Chapelle-aux-Saints,Funerary Context,ReMNAU raw,Random forest,0.8475,0.04554971773473778,100,15
+1,Mugharet es-Skhul,Funerary Context,%MNAU raw,KNN,0.9520143137763019,0.060869976997315445,100,15
+1,Mugharet es-Skhul,Funerary Context,%MNAU raw,Logistic regression,0.672788508679107,0.030229535335911745,100,15
+1,Mugharet es-Skhul,Funerary Context,%MNAU raw,RBF-SVM,0.9538670822995545,0.013250501721832928,100,15
+1,Mugharet es-Skhul,Funerary Context,%MNAU raw,Random forest,0.9170833333333334,0.045895520582337986,100,15
+1,Mugharet es-Skhul,Funerary Context,C + Heip evenness,KNN,0.9740750787110107,0.045091973208626374,100,15
+1,Mugharet es-Skhul,Funerary Context,C + Heip evenness,Logistic regression,0.5880996717508258,0.00659766567681427,100,15
+1,Mugharet es-Skhul,Funerary Context,C + Heip evenness,RBF-SVM,0.9086770691035672,0.025213928592602766,100,15
+1,Mugharet es-Skhul,Funerary Context,C + Heip evenness,Random forest,0.9916666666666667,0.009929063879531113,100,15
+1,Mugharet es-Skhul,Funerary Context,C only,KNN,0.9927575716806596,0.019695757246827202,100,15
+1,Mugharet es-Skhul,Funerary Context,C only,Logistic regression,0.5372741716912124,0.005041879497504951,100,15
+1,Mugharet es-Skhul,Funerary Context,C only,RBF-SVM,0.9132964957576445,0.029480810274963895,100,15
+1,Mugharet es-Skhul,Funerary Context,C only,Random forest,0.99625,0.012895528017772018,100,15
+1,Mugharet es-Skhul,Funerary Context,Combined,KNN,0.8643496568230049,0.09021189053046481,100,15
+1,Mugharet es-Skhul,Funerary Context,Combined,Logistic regression,0.7797623049436888,0.031199641792308937,100,15
+1,Mugharet es-Skhul,Funerary Context,Combined,RBF-SVM,0.9286940186257369,0.024835197088956644,100,15
+1,Mugharet es-Skhul,Funerary Context,Combined,Random forest,0.9491666666666667,0.03033174708044991,100,15
+1,Mugharet es-Skhul,Funerary Context,Engineered,KNN,0.8200008474289683,0.08531859850663762,100,15
+1,Mugharet es-Skhul,Funerary Context,Engineered,Logistic regression,0.7249891181062217,0.02203356525191194,100,15
+1,Mugharet es-Skhul,Funerary Context,Engineered,RBF-SVM,0.8680023383907998,0.03030468644100121,100,15
+1,Mugharet es-Skhul,Funerary Context,Engineered,Random forest,0.9525,0.03167567227835448,100,15
+1,Mugharet es-Skhul,Funerary Context,Heip evenness only,KNN,0.9534410737798106,0.042549868025165576,100,15
+1,Mugharet es-Skhul,Funerary Context,Heip evenness only,Logistic regression,0.5633450643576043,0.002533546468891953,100,15
+1,Mugharet es-Skhul,Funerary Context,Heip evenness only,RBF-SVM,0.8577748741306852,0.028910636120430544,100,15
+1,Mugharet es-Skhul,Funerary Context,Heip evenness only,Random forest,0.9979166666666667,0.005623346317765236,100,15
+1,Mugharet es-Skhul,Funerary Context,ReMNAU raw,KNN,0.8685999058811639,0.07318748594172875,100,15
+1,Mugharet es-Skhul,Funerary Context,ReMNAU raw,Logistic regression,0.6703065689059332,0.017943461453604533,100,15
+1,Mugharet es-Skhul,Funerary Context,ReMNAU raw,RBF-SVM,0.8878395551842161,0.037207441518439084,100,15
+1,Mugharet es-Skhul,Funerary Context,ReMNAU raw,Random forest,0.8672685185185185,0.05586894906322964,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,%MNAU raw,KNN,0.9167083874882309,0.07050058299017252,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,%MNAU raw,Logistic regression,0.9106586399194273,0.02064057483276346,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,%MNAU raw,RBF-SVM,0.8731337383115539,0.016034703885205316,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,%MNAU raw,Random forest,0.9383333333333334,0.03139401340034359,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,C + Heip evenness,KNN,0.8482369641481172,0.11330850575305527,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,C + Heip evenness,Logistic regression,0.6719708029222353,0.007124740309150635,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,C + Heip evenness,RBF-SVM,0.8959350395556075,0.023071801154156597,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,C + Heip evenness,Random forest,0.8908333333333334,0.09059779969471561,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,C only,KNN,0.8887084530586008,0.08408697885062422,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,C only,Logistic regression,0.6181883564993,0.007022357062049336,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,C only,RBF-SVM,0.8885074412736125,0.026018537339601185,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,C only,Random forest,0.86875,0.16970628513489333,93.33333333333333,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Combined,KNN,0.9090561428959014,0.06665605519073475,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Combined,Logistic regression,0.9469945665219011,0.015810724633695792,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Combined,RBF-SVM,0.8973769832671655,0.025970584857349294,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Combined,Random forest,0.9183333333333333,0.049690260854714015,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Engineered,KNN,0.9921206803013629,0.030516473972265517,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Engineered,Logistic regression,0.9062990096049677,0.012172598118647798,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Engineered,RBF-SVM,0.9017344673509995,0.027827156408872063,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Engineered,Random forest,0.9820833333333333,0.017497874020523045,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Heip evenness only,KNN,0.9126499043520017,0.0631416211533987,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Heip evenness only,Logistic regression,0.582824899333574,0.003074432821201082,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Heip evenness only,RBF-SVM,0.8631914957986407,0.034945916165315095,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,Heip evenness only,Random forest,0.9554166666666667,0.06596919374836654,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,ReMNAU raw,KNN,0.9068431759948984,0.06853649792541956,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,ReMNAU raw,Logistic regression,0.7026100306997918,0.024351714587160428,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,ReMNAU raw,RBF-SVM,0.8514082130940752,0.041117099237745376,100,15
+1,Tabun Cave (Mugharet et-Tabun),Funerary Context,ReMNAU raw,Random forest,0.854375,0.05701121835092759,100,15
+1,Yellow Jacket 5MT-3,Rest,%MNAU raw,KNN,0.7179173390031868,0.12995035484277323,93.33333333333333,15
+1,Yellow Jacket 5MT-3,Rest,%MNAU raw,Logistic regression,0.517138825442505,0.025924120642395184,73.33333333333333,15
+1,Yellow Jacket 5MT-3,Rest,%MNAU raw,RBF-SVM,0.8030584172580613,0.06995945981327402,100,15
+1,Yellow Jacket 5MT-3,Rest,%MNAU raw,Random forest,0.8166666666666667,0.09202783287576384,100,15
+1,Yellow Jacket 5MT-3,Rest,C + Heip evenness,KNN,0.678944091008216,0.10854476875841719,86.66666666666667,15
+1,Yellow Jacket 5MT-3,Rest,C + Heip evenness,Logistic regression,0.5416362587739691,0.00667884381966934,100,15
+1,Yellow Jacket 5MT-3,Rest,C + Heip evenness,RBF-SVM,0.7904787272492646,0.0520477871506379,100,15
+1,Yellow Jacket 5MT-3,Rest,C + Heip evenness,Random forest,0.7325,0.15389656196846727,93.33333333333333,15
+1,Yellow Jacket 5MT-3,Rest,C only,KNN,0.7441221377651068,0.10527603840442697,100,15
+1,Yellow Jacket 5MT-3,Rest,C only,Logistic regression,0.49815241924108133,0.005451421519129186,40,15
+1,Yellow Jacket 5MT-3,Rest,C only,RBF-SVM,0.7993075309913932,0.06953818551073067,100,15
+1,Yellow Jacket 5MT-3,Rest,C only,Random forest,0.7279166666666667,0.23109148363694368,73.33333333333333,15
+1,Yellow Jacket 5MT-3,Rest,Combined,KNN,0.7166941604868167,0.084050847569358475,100,15
+1,Yellow Jacket 5MT-3,Rest,Combined,Logistic regression,0.6554004242887262,0.03691136161415465,100,15
+1,Yellow Jacket 5MT-3,Rest,Combined,RBF-SVM,0.7374592490066362,0.09204081031033942,100,15
+1,Yellow Jacket 5MT-3,Rest,Combined,Random forest,0.8279166666666666,0.06939095161954956,100,15
+1,Yellow Jacket 5MT-3,Rest,Engineered,KNN,0.7589827545342964,0.0796589628964275,100,15
+1,Yellow Jacket 5MT-3,Rest,Engineered,Logistic regression,0.6783693468075146,0.02601415369641148,100,15
+1,Yellow Jacket 5MT-3,Rest,Engineered,RBF-SVM,0.810114740363062,0.05430217021008539,100,15
+1,Yellow Jacket 5MT-3,Rest,Engineered,Random forest,0.80125,0.08820506747671264,100,15
+1,Yellow Jacket 5MT-3,Rest,Heip evenness only,KNN,0.7644570723550511,0.19160888651159022,86.66666666666667,15
+1,Yellow Jacket 5MT-3,Rest,Heip evenness only,Logistic regression,0.5487738963289956,0.0022490693647462417,100,15
+1,Yellow Jacket 5MT-3,Rest,Heip evenness only,RBF-SVM,0.8245223385823216,0.027534829961982917,100,15
+1,Yellow Jacket 5MT-3,Rest,Heip evenness only,Random forest,0.7833333333333333,0.24036879526697147,86.66666666666667,15
+1,Yellow Jacket 5MT-3,Rest,ReMNAU raw,KNN,0.6703352769715302,0.16525512227370212,86.66666666666667,15
+1,Yellow Jacket 5MT-3,Rest,ReMNAU raw,Logistic regression,0.5676129914186032,0.025744261366671704,100,15
+1,Yellow Jacket 5MT-3,Rest,ReMNAU raw,RBF-SVM,0.5726064668878534,0.102000162866551,66.66666666666666,15
+1,Yellow Jacket 5MT-3,Rest,ReMNAU raw,Random forest,0.7479166666666667,0.0680018819767582,100,15
+2,Grotta Guattari,Rest,%MNAU raw,KNN,0,0,0,15
+2,Grotta Guattari,Rest,%MNAU raw,Logistic regression,0.26228352708764663,0.01793227989061853,0,15
+2,Grotta Guattari,Rest,%MNAU raw,RBF-SVM,0.0842913837569401,0.03018639363943518,0,15
+2,Grotta Guattari,Rest,%MNAU raw,Random forest,0.017092089197352354,0.012484491666800386,0,15
+2,Grotta Guattari,Rest,C + Heip evenness,KNN,0.0843913044351982,0.07694452080994538,0,15
+2,Grotta Guattari,Rest,C + Heip evenness,Logistic regression,0.38895382199535344,0.00862820862401084,0,15
+2,Grotta Guattari,Rest,C + Heip evenness,RBF-SVM,0.11707912165894113,0.03242239107788606,0,15
+2,Grotta Guattari,Rest,C + Heip evenness,Random forest,0.06458333333333333,0.060071881545203425,0,15
+2,Grotta Guattari,Rest,C only,KNN,0.23071323793837015,0.19501698340371945,13.333333333333334,15
+2,Grotta Guattari,Rest,C only,Logistic regression,0.44460279291229987,0.005627415851066352,0,15
+2,Grotta Guattari,Rest,C only,RBF-SVM,0.14004342518378862,0.04015498375303654,0,15
+2,Grotta Guattari,Rest,C only,Random forest,0.46458333333333335,0.3545122613568972,66.66666666666666,15
+2,Grotta Guattari,Rest,Combined,KNN,0.01869322838462422,0.049353384469794453,0,15
+2,Grotta Guattari,Rest,Combined,Logistic regression,0.1447585123947281,0.025493649596314515,0,15
+2,Grotta Guattari,Rest,Combined,RBF-SVM,0.06645029169936466,0.03226039168181521,0,15
+2,Grotta Guattari,Rest,Combined,Random forest,0.07041666666666667,0.029264292397456145,0,15
+2,Grotta Guattari,Rest,Engineered,KNN,0.12844191906178887,0.09010316178109877,0,15
+2,Grotta Guattari,Rest,Engineered,Logistic regression,0.238643298536686,0.029624274584164417,0,15
+2,Grotta Guattari,Rest,Engineered,RBF-SVM,0.14236919550333033,0.03594230231703171,0,15
+2,Grotta Guattari,Rest,Engineered,Random forest,0.09166666666666667,0.02947330309344535,0,15
+2,Grotta Guattari,Rest,Heip evenness only,KNN,0.06719766123449118,0.05291443741636384,0,15
+2,Grotta Guattari,Rest,Heip evenness only,Logistic regression,0.42639294968422,0.004606063219642524,0,15
+2,Grotta Guattari,Rest,Heip evenness only,RBF-SVM,0.13467170133170175,0.05433126502414072,0,15
+2,Grotta Guattari,Rest,Heip evenness only,Random forest,0.0125,0.024435593184650016,0,15
+2,Grotta Guattari,Rest,ReMNAU raw,KNN,0,0,0,15
+2,Grotta Guattari,Rest,ReMNAU raw,Logistic regression,0.2292068618176588,0.01695029375097368,0,15
+2,Grotta Guattari,Rest,ReMNAU raw,RBF-SVM,0.03431392528806979,0.018385993895773115,0,15
+2,Grotta Guattari,Rest,ReMNAU raw,Random forest,0.04432043650793651,0.028561512674566945,0,15
+2,La Quina,Funerary Context,%MNAU raw,KNN,0,0,0,15
+2,La Quina,Funerary Context,%MNAU raw,Logistic regression,0.25873996050795206,0.01706175461622237,0,15
+2,La Quina,Funerary Context,%MNAU raw,RBF-SVM,0.069354932657145,0.02141382736922028,0,15
+2,La Quina,Funerary Context,%MNAU raw,Random forest,0.09046052631578948,0.06855669932947558,0,15
+2,La Quina,Funerary Context,C + Heip evenness,KNN,0,0,0,15
+2,La Quina,Funerary Context,C + Heip evenness,Logistic regression,0.3734485661557052,0.009420287084136388,0,15
+2,La Quina,Funerary Context,C + Heip evenness,RBF-SVM,0.12088806719744485,0.025417740668131187,0,15
+2,La Quina,Funerary Context,C + Heip evenness,Random forest,0,0,0,15
+2,La Quina,Funerary Context,C only,KNN,0,0,0,15
+2,La Quina,Funerary Context,C only,Logistic regression,0.43976755025378284,0.005923812422830672,0,15
+2,La Quina,Funerary Context,C only,RBF-SVM,0.12305990884513208,0.03601514220361244,0,15
+2,La Quina,Funerary Context,C only,Random forest,0,0,0,15
+2,La Quina,Funerary Context,Combined,KNN,0,0,0,15
+2,La Quina,Funerary Context,Combined,Logistic regression,0.10996615231045714,0.01566840249454557,0,15
+2,La Quina,Funerary Context,Combined,RBF-SVM,0.040281796186550645,0.02224923795898479,0,15
+2,La Quina,Funerary Context,Combined,Random forest,0.01625,0.019015970731391624,0,15
+2,La Quina,Funerary Context,Engineered,KNN,0,0,0,15
+2,La Quina,Funerary Context,Engineered,Logistic regression,0.1428046157122368,0.021210633440574667,0,15
+2,La Quina,Funerary Context,Engineered,RBF-SVM,0.11828077637004121,0.03276468464872913,0,15
+2,La Quina,Funerary Context,Engineered,Random forest,0.017083333333333332,0.03190970333090965,0,15
+2,La Quina,Funerary Context,Heip evenness only,KNN,0,0,0,15
+2,La Quina,Funerary Context,Heip evenness only,Logistic regression,0.41290199424585355,0.0052583894775045026,0,15
+2,La Quina,Funerary Context,Heip evenness only,RBF-SVM,0.13653666726280592,0.049964421678478886,0,15
+2,La Quina,Funerary Context,Heip evenness only,Random forest,0,0,0,15
+2,La Quina,Funerary Context,ReMNAU raw,KNN,0,0,0,15
+2,La Quina,Funerary Context,ReMNAU raw,Logistic regression,0.2928233554864262,0.013110747841602531,0,15
+2,La Quina,Funerary Context,ReMNAU raw,RBF-SVM,0.06618018863812465,0.033692954655590045,0,15
+2,La Quina,Funerary Context,ReMNAU raw,Random forest,0.09850845410628019,0.04660495996791313,0,15
+2,Moula-Guercy,Rest,%MNAU raw,KNN,0.06952997867023833,0.06735524939601592,0,15
+2,Moula-Guercy,Rest,%MNAU raw,Logistic regression,0.3249292524559057,0.016785311004569748,0,15
+2,Moula-Guercy,Rest,%MNAU raw,RBF-SVM,0.16895847309851772,0.05252343596897109,0,15
+2,Moula-Guercy,Rest,%MNAU raw,Random forest,0.3104327485380117,0.13290571098582854,6.666666666666667,15
+2,Moula-Guercy,Rest,C + Heip evenness,KNN,0.22877577070830588,0.14836636803221467,0,15
+2,Moula-Guercy,Rest,C + Heip evenness,Logistic regression,0.44305820106587684,0.006246389209132122,0,15
+2,Moula-Guercy,Rest,C + Heip evenness,RBF-SVM,0.15318161175183215,0.05855722541431584,0,15
+2,Moula-Guercy,Rest,C + Heip evenness,Random forest,0.21708333333333332,0.1423743702691036,0,15
+2,Moula-Guercy,Rest,C only,KNN,0.048729372293549386,0.06268794248857089,0,15
+2,Moula-Guercy,Rest,C only,Logistic regression,0.4533654334360514,0.005116110893932277,0,15
+2,Moula-Guercy,Rest,C only,RBF-SVM,0.19512333247742406,0.05810810481442858,0,15
+2,Moula-Guercy,Rest,C only,Random forest,0.005416666666666667,0.007787161289737163,0,15
+2,Moula-Guercy,Rest,Combined,KNN,0.11952066397622063,0.09572704253485896,0,15
+2,Moula-Guercy,Rest,Combined,Logistic regression,0.3558368906941366,0.05395021458229672,0,15
+2,Moula-Guercy,Rest,Combined,RBF-SVM,0.1880589860908527,0.10494958093796276,0,15
+2,Moula-Guercy,Rest,Combined,Random forest,0.2425,0.13072172597872606,0,15
+2,Moula-Guercy,Rest,Engineered,KNN,0.23171710659804695,0.16574892017948029,6.666666666666667,15
+2,Moula-Guercy,Rest,Engineered,Logistic regression,0.37327910632059785,0.034879465989316606,0,15
+2,Moula-Guercy,Rest,Engineered,RBF-SVM,0.14730987183815494,0.05704649952729783,0,15
+2,Moula-Guercy,Rest,Engineered,Random forest,0.18333333333333335,0.08168382351365247,0,15
+2,Moula-Guercy,Rest,Heip evenness only,KNN,0.6561056734431454,0.23134930909872709,66.66666666666666,15
+2,Moula-Guercy,Rest,Heip evenness only,Logistic regression,0.48055274154676153,0.003394483066302024,0,15
+2,Moula-Guercy,Rest,Heip evenness only,RBF-SVM,0.31985168078338805,0.11000553422559746,6.666666666666667,15
+2,Moula-Guercy,Rest,Heip evenness only,Random forest,0.633531746031746,0.31683133063657115,66.66666666666666,15
+2,Moula-Guercy,Rest,ReMNAU raw,KNN,0.4752217056472171,0.1418904514148065,40,15
+2,Moula-Guercy,Rest,ReMNAU raw,Logistic regression,0.5278228604254391,0.027096078619746323,80,15
+2,Moula-Guercy,Rest,ReMNAU raw,RBF-SVM,0.5052494518160878,0.1086707753507842,46.666666666666664,15
+2,Moula-Guercy,Rest,ReMNAU raw,Random forest,0.42375,0.09195301595302431,20,15
+2,Qafzeh Cave,Funerary Context,%MNAU raw,KNN,0.7925299169220711,0.11476315048827672,100,15
+2,Qafzeh Cave,Funerary Context,%MNAU raw,Logistic regression,0.5952826436356,0.02387679521292114,100,15
+2,Qafzeh Cave,Funerary Context,%MNAU raw,RBF-SVM,0.9057332354244345,0.0577921271327806,100,15
+2,Qafzeh Cave,Funerary Context,%MNAU raw,Random forest,0.8808333333333334,0.07494293463950388,100,15
+2,Qafzeh Cave,Funerary Context,C + Heip evenness,KNN,0.8827397999696024,0.10135782665216297,100,15
+2,Qafzeh Cave,Funerary Context,C + Heip evenness,Logistic regression,0.5830093786916346,0.008951590236110064,100,15
+2,Qafzeh Cave,Funerary Context,C + Heip evenness,RBF-SVM,0.8915899064309705,0.033645835508130266,100,15
+2,Qafzeh Cave,Funerary Context,C + Heip evenness,Random forest,0.7958333333333333,0.12321644235517705,100,15
+2,Qafzeh Cave,Funerary Context,C only,KNN,0.8709126937053527,0.14152172840289393,100,15
+2,Qafzeh Cave,Funerary Context,C only,Logistic regression,0.5184851591774244,0.003966170222467327,100,15
+2,Qafzeh Cave,Funerary Context,C only,RBF-SVM,0.891570816133043,0.033865531508858855,100,15
+2,Qafzeh Cave,Funerary Context,C only,Random forest,0.7866666666666666,0.2558889733198105,80,15
+2,Qafzeh Cave,Funerary Context,Combined,KNN,0.7991756315021222,0.10693696656075749,100,15
+2,Qafzeh Cave,Funerary Context,Combined,Logistic regression,0.7132682746997429,0.045049736878646114,100,15
+2,Qafzeh Cave,Funerary Context,Combined,RBF-SVM,0.8958552123131678,0.058584954277177276,100,15
+2,Qafzeh Cave,Funerary Context,Combined,Random forest,0.82375,0.09103815918927309,100,15
+2,Qafzeh Cave,Funerary Context,Engineered,KNN,0.8325482321882227,0.11556871626888442,100,15
+2,Qafzeh Cave,Funerary Context,Engineered,Logistic regression,0.658157472849686,0.031112011138947827,100,15
+2,Qafzeh Cave,Funerary Context,Engineered,RBF-SVM,0.8629795607408899,0.055811610306564514,100,15
+2,Qafzeh Cave,Funerary Context,Engineered,Random forest,0.7775,0.10663794721258604,100,15
+2,Qafzeh Cave,Funerary Context,Heip evenness only,KNN,0.8170517887775811,0.1334265656356999,100,15
+2,Qafzeh Cave,Funerary Context,Heip evenness only,Logistic regression,0.5755554787374029,0.00766511881467749,100,15
+2,Qafzeh Cave,Funerary Context,Heip evenness only,RBF-SVM,0.8191196877186476,0.05859408966275485,100,15
+2,Qafzeh Cave,Funerary Context,Heip evenness only,Random forest,0.7333333333333334,0.27412265350872894,73.33333333333333,15
+2,Qafzeh Cave,Funerary Context,ReMNAU raw,KNN,0.8276239936337556,0.10849490487772767,100,15
+2,Qafzeh Cave,Funerary Context,ReMNAU raw,Logistic regression,0.6815711645365136,0.02324185967395329,100,15
+2,Qafzeh Cave,Funerary Context,ReMNAU raw,RBF-SVM,0.9114057252749544,0.036527065671815837,100,15
+2,Qafzeh Cave,Funerary Context,ReMNAU raw,Random forest,0.8729166666666667,0.08367489525083431,100,15
+2,Regourdou,Funerary Context,%MNAU raw,KNN,0.9175614103790458,0.07668749639577416,100,15
+2,Regourdou,Funerary Context,%MNAU raw,Logistic regression,0.7147038875672267,0.03459168167740812,100,15
+2,Regourdou,Funerary Context,%MNAU raw,RBF-SVM,0.9514946456996006,0.02353631192232974,100,15
+2,Regourdou,Funerary Context,%MNAU raw,Random forest,0.9555555555555555,0.025873464732205427,100,15
+2,Regourdou,Funerary Context,C + Heip evenness,KNN,0.9333448709903477,0.055474892008066184,100,15
+2,Regourdou,Funerary Context,C + Heip evenness,Logistic regression,0.6197643203995227,0.010734793671729755,100,15
+2,Regourdou,Funerary Context,C + Heip evenness,RBF-SVM,0.9021271794412461,0.03328427167200095,100,15
+2,Regourdou,Funerary Context,C + Heip evenness,Random forest,0.9695833333333334,0.05417124522773875,100,15
+2,Regourdou,Funerary Context,C only,KNN,0.9820696972630661,0.034249495078929396,100,15
+2,Regourdou,Funerary Context,C only,Logistic regression,0.5404573485725965,0.004949083417038703,100,15
+2,Regourdou,Funerary Context,C only,RBF-SVM,0.9052755806125086,0.032063131454206174,100,15
+2,Regourdou,Funerary Context,C only,Random forest,0.98375,0.04000557996794233,100,15
+2,Regourdou,Funerary Context,Combined,KNN,0.8492793192480795,0.09918451186280314,100,15
+2,Regourdou,Funerary Context,Combined,Logistic regression,0.8388419450372405,0.040514377980349396,100,15
+2,Regourdou,Funerary Context,Combined,RBF-SVM,0.9492083054074041,0.025388716986826126,100,15
+2,Regourdou,Funerary Context,Combined,Random forest,0.9458333333333333,0.03387762465671042,100,15
+2,Regourdou,Funerary Context,Engineered,KNN,0.9147090789215887,0.07545940471515739,100,15
+2,Regourdou,Funerary Context,Engineered,Logistic regression,0.7923398431509431,0.027054241815115718,100,15
+2,Regourdou,Funerary Context,Engineered,RBF-SVM,0.9236412393467467,0.02857388089533525,100,15
+2,Regourdou,Funerary Context,Engineered,Random forest,0.9229166666666666,0.048335385834909025,100,15
+2,Regourdou,Funerary Context,Heip evenness only,KNN,1,0,100,15
+2,Regourdou,Funerary Context,Heip evenness only,Logistic regression,0.5966506372848249,0.008869355589900091,100,15
+2,Regourdou,Funerary Context,Heip evenness only,RBF-SVM,0.8151131785624264,0.05955258898005975,100,15
+2,Regourdou,Funerary Context,Heip evenness only,Random forest,1,0,100,15
+2,Regourdou,Funerary Context,ReMNAU raw,KNN,0.8406880288317126,0.07296552498972725,100,15
+2,Regourdou,Funerary Context,ReMNAU raw,Logistic regression,0.7277936130116507,0.025338483724371308,100,15
+2,Regourdou,Funerary Context,ReMNAU raw,RBF-SVM,0.8785623714193961,0.06081924365703899,100,15
+2,Regourdou,Funerary Context,ReMNAU raw,Random forest,0.9020833333333333,0.04448782605013048,100,15
+2,Roc de Marsal,Funerary Context,%MNAU raw,KNN,0.8620938354809811,0.09045648490688017,100,15
+2,Roc de Marsal,Funerary Context,%MNAU raw,Logistic regression,0.8230667954107656,0.033675101640965426,100,15
+2,Roc de Marsal,Funerary Context,%MNAU raw,RBF-SVM,0.8713605263482271,0.043017577287553184,100,15
+2,Roc de Marsal,Funerary Context,%MNAU raw,Random forest,0.7650486111111111,0.10821955496834339,100,15
+2,Roc de Marsal,Funerary Context,C + Heip evenness,KNN,0.9766140641515892,0.04022087316440389,100,15
+2,Roc de Marsal,Funerary Context,C + Heip evenness,Logistic regression,0.6362031616987918,0.01111425579700627,100,15
+2,Roc de Marsal,Funerary Context,C + Heip evenness,RBF-SVM,0.9023189292891749,0.028785834980705412,100,15
+2,Roc de Marsal,Funerary Context,C + Heip evenness,Random forest,0.9454166666666667,0.07305768676353018,100,15
+2,Roc de Marsal,Funerary Context,C only,KNN,1,0,100,15
+2,Roc de Marsal,Funerary Context,C only,Logistic regression,0.5887989727842914,0.007998309773076927,100,15
+2,Roc de Marsal,Funerary Context,C only,RBF-SVM,0.8839167475717441,0.027640269015639245,100,15
+2,Roc de Marsal,Funerary Context,C only,Random forest,1,0,100,15
+2,Roc de Marsal,Funerary Context,Combined,KNN,0.8165426973563501,0.10123481773433297,100,15
+2,Roc de Marsal,Funerary Context,Combined,Logistic regression,0.8728476614723497,0.041161623363239176,100,15
+2,Roc de Marsal,Funerary Context,Combined,RBF-SVM,0.8368928233487379,0.07127445332457535,100,15
+2,Roc de Marsal,Funerary Context,Combined,Random forest,0.7254166666666667,0.1104340732012069,100,15
+2,Roc de Marsal,Funerary Context,Engineered,KNN,0.7206485137751261,0.14145423851544567,100,15
+2,Roc de Marsal,Funerary Context,Engineered,Logistic regression,0.8298772015867841,0.03383858264782322,100,15
+2,Roc de Marsal,Funerary Context,Engineered,RBF-SVM,0.8426121199370585,0.06385629677067184,100,15
+2,Roc de Marsal,Funerary Context,Engineered,Random forest,0.7020833333333333,0.14048438737182894,93.33333333333333,15
+2,Roc de Marsal,Funerary Context,Heip evenness only,KNN,0.8995962808658424,0.07770794645162503,100,15
+2,Roc de Marsal,Funerary Context,Heip evenness only,Logistic regression,0.5685082143290588,0.007261699076176375,100,15
+2,Roc de Marsal,Funerary Context,Heip evenness only,RBF-SVM,0.8164873475832886,0.057201118717485594,100,15
+2,Roc de Marsal,Funerary Context,Heip evenness only,Random forest,0.8908333333333334,0.1841647812874836,93.33333333333333,15
+2,Roc de Marsal,Funerary Context,ReMNAU raw,KNN,0.7941907699398064,0.1275281325075363,100,15
+2,Roc de Marsal,Funerary Context,ReMNAU raw,Logistic regression,0.67889541249982,0.045699327690243,100,15
+2,Roc de Marsal,Funerary Context,ReMNAU raw,RBF-SVM,0.7297396240833287,0.11068035563600004,100,15
+2,Roc de Marsal,Funerary Context,ReMNAU raw,Random forest,0.7156018518518519,0.07913048579150175,100,15
+3,Cova Gran de Santa Linya,Funerary Context,%MNAU raw,KNN,0.9202457475836774,0.06743484827080647,100,15
+3,Cova Gran de Santa Linya,Funerary Context,%MNAU raw,Logistic regression,0.7382495188608178,0.019933555482382858,100,15
+3,Cova Gran de Santa Linya,Funerary Context,%MNAU raw,RBF-SVM,0.9191570926397546,0.0221872011282512,100,15
+3,Cova Gran de Santa Linya,Funerary Context,%MNAU raw,Random forest,0.7950833333333334,0.05187223888234118,100,15
+3,Cova Gran de Santa Linya,Funerary Context,C + Heip evenness,KNN,0.9156193094736819,0.06270009049198239,100,15
+3,Cova Gran de Santa Linya,Funerary Context,C + Heip evenness,Logistic regression,0.5532800879891087,0.0077725370775331894,100,15
+3,Cova Gran de Santa Linya,Funerary Context,C + Heip evenness,RBF-SVM,0.8460353637857653,0.08519804512228768,100,15
+3,Cova Gran de Santa Linya,Funerary Context,C + Heip evenness,Random forest,0.7158333333333333,0.18033739873069143,86.66666666666667,15
+3,Cova Gran de Santa Linya,Funerary Context,C only,KNN,0.9122904860772584,0.06820225439481359,100,15
+3,Cova Gran de Santa Linya,Funerary Context,C only,Logistic regression,0.5524090538416856,0.0067996856387224245,100,15
+3,Cova Gran de Santa Linya,Funerary Context,C only,RBF-SVM,0.9266558240319052,0.032699626631290286,100,15
+3,Cova Gran de Santa Linya,Funerary Context,C only,Random forest,0.9695833333333334,0.05712936968803683,100,15
+3,Cova Gran de Santa Linya,Funerary Context,Combined,KNN,0.8723138221620391,0.0938250164420142,100,15
+3,Cova Gran de Santa Linya,Funerary Context,Combined,Logistic regression,0.8086592642731113,0.028655590094412004,100,15
+3,Cova Gran de Santa Linya,Funerary Context,Combined,RBF-SVM,0.8671467512089029,0.03894852474809037,100,15
+3,Cova Gran de Santa Linya,Funerary Context,Combined,Random forest,0.78875,0.0909154827298409,100,15
+3,Cova Gran de Santa Linya,Funerary Context,Engineered,KNN,0.8885432793567275,0.07144910889454843,100,15
+3,Cova Gran de Santa Linya,Funerary Context,Engineered,Logistic regression,0.7816615683840947,0.030257432958640616,100,15
+3,Cova Gran de Santa Linya,Funerary Context,Engineered,RBF-SVM,0.9081760977698063,0.03723559028990699,100,15
+3,Cova Gran de Santa Linya,Funerary Context,Engineered,Random forest,0.78625,0.07867485076475929,100,15
+3,Cova Gran de Santa Linya,Funerary Context,Heip evenness only,KNN,0.15729167626459528,0.2177018423738848,6.666666666666667,15
+3,Cova Gran de Santa Linya,Funerary Context,Heip evenness only,Logistic regression,0.5083175922746932,0.004940423487923454,100,15
+3,Cova Gran de Santa Linya,Funerary Context,Heip evenness only,RBF-SVM,0.4051421416498207,0.1522130554243079,20,15
+3,Cova Gran de Santa Linya,Funerary Context,Heip evenness only,Random forest,0.11583333333333333,0.2498422121107259,6.666666666666667,15
+3,Cova Gran de Santa Linya,Funerary Context,ReMNAU raw,KNN,0.6720445994951387,0.12514832043543428,93.33333333333333,15
+3,Cova Gran de Santa Linya,Funerary Context,ReMNAU raw,Logistic regression,0.5744585453993918,0.03475808889760486,100,15
+3,Cova Gran de Santa Linya,Funerary Context,ReMNAU raw,RBF-SVM,0.5006786582697459,0.09689687303647103,53.333333333333336,15
+3,Cova Gran de Santa Linya,Funerary Context,ReMNAU raw,Random forest,0.49833333333333335,0.07818628548598046,40,15
+3,Cro-Magnon I,Funerary Context,%MNAU raw,KNN,0.3412752409571677,0.1276870467629388,6.666666666666667,15
+3,Cro-Magnon I,Funerary Context,%MNAU raw,Logistic regression,0.37233084669763133,0.021576573015166436,0,15
+3,Cro-Magnon I,Funerary Context,%MNAU raw,RBF-SVM,0.5361122061923034,0.14806442865650898,60,15
+3,Cro-Magnon I,Funerary Context,%MNAU raw,Random forest,0.23038825757575757,0.07368440704107741,0,15
+3,Cro-Magnon I,Funerary Context,C + Heip evenness,KNN,0.08639783007666513,0.04888297846801308,0,15
+3,Cro-Magnon I,Funerary Context,C + Heip evenness,Logistic regression,0.3994300989513634,0.006550832557536822,0,15
+3,Cro-Magnon I,Funerary Context,C + Heip evenness,RBF-SVM,0.1101873602829246,0.02818631520839716,0,15
+3,Cro-Magnon I,Funerary Context,C + Heip evenness,Random forest,0.012916666666666667,0.017273190071266376,0,15
+3,Cro-Magnon I,Funerary Context,C only,KNN,0.07678793320735941,0.08112068584914181,0,15
+3,Cro-Magnon I,Funerary Context,C only,Logistic regression,0.45727734742231646,0.005928715462110686,0,15
+3,Cro-Magnon I,Funerary Context,C only,RBF-SVM,0.21606182751671849,0.040761707727903884,0,15
+3,Cro-Magnon I,Funerary Context,C only,Random forest,0.09458333333333332,0.17252501543944562,6.666666666666667,15
+3,Cro-Magnon I,Funerary Context,Combined,KNN,0.21901521736238327,0.1287290183857822,0,15
+3,Cro-Magnon I,Funerary Context,Combined,Logistic regression,0.2916634687737782,0.0783326406762657,0,15
+3,Cro-Magnon I,Funerary Context,Combined,RBF-SVM,0.5290506200869023,0.18562873726302395,53.333333333333336,15
+3,Cro-Magnon I,Funerary Context,Combined,Random forest,0.27416666666666667,0.09332841717494705,0,15
+3,Cro-Magnon I,Funerary Context,Engineered,KNN,0.5061645903148279,0.12490190862027799,46.666666666666664,15
+3,Cro-Magnon I,Funerary Context,Engineered,Logistic regression,0.40899493102689655,0.044975944455970356,0,15
+3,Cro-Magnon I,Funerary Context,Engineered,RBF-SVM,0.6946500256876441,0.147398612381947,86.66666666666667,15
+3,Cro-Magnon I,Funerary Context,Engineered,Random forest,0.315,0.0947800555421415,0,15
+3,Cro-Magnon I,Funerary Context,Heip evenness only,KNN,0.07336602094645726,0.0553261824900954,0,15
+3,Cro-Magnon I,Funerary Context,Heip evenness only,Logistic regression,0.42774840622051824,0.004825175313524488,0,15
+3,Cro-Magnon I,Funerary Context,Heip evenness only,RBF-SVM,0.13400455047226836,0.03482478700370479,0,15
+3,Cro-Magnon I,Funerary Context,Heip evenness only,Random forest,0.02125,0.035418417323679015,0,15
+3,Cro-Magnon I,Funerary Context,ReMNAU raw,KNN,0.21184840978066696,0.09437458271780373,0,15
+3,Cro-Magnon I,Funerary Context,ReMNAU raw,Logistic regression,0.37638695587898297,0.052015198522596555,0,15
+3,Cro-Magnon I,Funerary Context,ReMNAU raw,RBF-SVM,0.30774790465592783,0.10160677326219278,0,15
+3,Cro-Magnon I,Funerary Context,ReMNAU raw,Random forest,0.25040914786967416,0.084852696768668,0,15
+3,Cueva de los Torrejones,Funerary Context,%MNAU raw,KNN,0.025773981242018955,0.05337188841556395,0,15
+3,Cueva de los Torrejones,Funerary Context,%MNAU raw,Logistic regression,0.33409411726323707,0.020903751826133667,0,15
+3,Cueva de los Torrejones,Funerary Context,%MNAU raw,RBF-SVM,0.14936544347647857,0.0415446242809872,0,15
+3,Cueva de los Torrejones,Funerary Context,%MNAU raw,Random forest,0.2679166666666667,0.11409745468969353,6.666666666666667,15
+3,Cueva de los Torrejones,Funerary Context,C + Heip evenness,KNN,0.13366448582767856,0.05411421305959365,0,15
+3,Cueva de los Torrejones,Funerary Context,C + Heip evenness,Logistic regression,0.45494753712598046,0.006671980364474682,0,15
+3,Cueva de los Torrejones,Funerary Context,C + Heip evenness,RBF-SVM,0.16397428033093145,0.06923155634681315,0,15
+3,Cueva de los Torrejones,Funerary Context,C + Heip evenness,Random forest,0.14883333333333335,0.09257172251570028,0,15
+3,Cueva de los Torrejones,Funerary Context,C only,KNN,0.3767544127187057,0.19927054341702813,26.666666666666668,15
+3,Cueva de los Torrejones,Funerary Context,C only,Logistic regression,0.4633452012737971,0.005864288407838353,0,15
+3,Cueva de los Torrejones,Funerary Context,C only,RBF-SVM,0.2837541583854554,0.06278916024317596,0,15
+3,Cueva de los Torrejones,Funerary Context,C only,Random forest,0.30541666666666667,0.20691001897535302,33.33333333333333,15
+3,Cueva de los Torrejones,Funerary Context,Combined,KNN,0,0,0,15
+3,Cueva de los Torrejones,Funerary Context,Combined,Logistic regression,0.3067523741741535,0.04199500793101402,0,15
+3,Cueva de los Torrejones,Funerary Context,Combined,RBF-SVM,0.05773341327442875,0.03564406513492912,0,15
+3,Cueva de los Torrejones,Funerary Context,Combined,Random forest,0.25166666666666665,0.12961280479438236,6.666666666666667,15
+3,Cueva de los Torrejones,Funerary Context,Engineered,KNN,0.08169557221579128,0.11915189740810721,0,15
+3,Cueva de los Torrejones,Funerary Context,Engineered,Logistic regression,0.3731583476877924,0.029756637891295235,0,15
+3,Cueva de los Torrejones,Funerary Context,Engineered,RBF-SVM,0.14771791322642566,0.07616112430015594,0,15
+3,Cueva de los Torrejones,Funerary Context,Engineered,Random forest,0.27958333333333335,0.1256782195965251,6.666666666666667,15
+3,Cueva de los Torrejones,Funerary Context,Heip evenness only,KNN,0.331040581798691,0.10298292753295472,6.666666666666667,15
+3,Cueva de los Torrejones,Funerary Context,Heip evenness only,Logistic regression,0.4853963910485606,0.004684522234821942,0,15
+3,Cueva de los Torrejones,Funerary Context,Heip evenness only,RBF-SVM,0.22020586900571762,0.11711649891407112,6.666666666666667,15
+3,Cueva de los Torrejones,Funerary Context,Heip evenness only,Random forest,0.25477876984126985,0.2744865059021285,13.333333333333334,15
+3,Cueva de los Torrejones,Funerary Context,ReMNAU raw,KNN,0.2602892027931076,0.1573986466957839,13.333333333333334,15
+3,Cueva de los Torrejones,Funerary Context,ReMNAU raw,Logistic regression,0.47310680199858896,0.019735679000834176,6.666666666666667,15
+3,Cueva de los Torrejones,Funerary Context,ReMNAU raw,RBF-SVM,0.1873701096856013,0.07048012518903862,0,15
+3,Cueva de los Torrejones,Funerary Context,ReMNAU raw,Random forest,0.33375,0.09418944625442006,0,15
+3,El Sidrón J1,Rest,%MNAU raw,KNN,1,0,100,15
+3,El Sidrón J1,Rest,%MNAU raw,Logistic regression,0.9274993365297042,0.012583820905586645,100,15
+3,El Sidrón J1,Rest,%MNAU raw,RBF-SVM,0.9073360657272758,0.029161569376658925,100,15
+3,El Sidrón J1,Rest,%MNAU raw,Random forest,0.9925,0.013194966572793695,100,15
+3,El Sidrón J1,Rest,C + Heip evenness,KNN,1,0,100,15
+3,El Sidrón J1,Rest,C + Heip evenness,Logistic regression,0.6808792737608165,0.009832159061772958,100,15
+3,El Sidrón J1,Rest,C + Heip evenness,RBF-SVM,0.9247276499845906,0.017096749386111446,100,15
+3,El Sidrón J1,Rest,C + Heip evenness,Random forest,1,0,100,15
+3,El Sidrón J1,Rest,C only,KNN,1,0,100,15
+3,El Sidrón J1,Rest,C only,Logistic regression,0.6365455465407096,0.00952061457149244,100,15
+3,El Sidrón J1,Rest,C only,RBF-SVM,0.9127522813404922,0.020617977825707172,100,15
+3,El Sidrón J1,Rest,C only,Random forest,1,0,100,15
+3,El Sidrón J1,Rest,Combined,KNN,1,0,100,15
+3,El Sidrón J1,Rest,Combined,Logistic regression,0.9546652853832108,0.009775976903921615,100,15
+3,El Sidrón J1,Rest,Combined,RBF-SVM,0.9483014373363903,0.01701219147589822,100,15
+3,El Sidrón J1,Rest,Combined,Random forest,0.9579166666666666,0.050137459857399855,100,15
+3,El Sidrón J1,Rest,Engineered,KNN,0.9018398782309786,0.07323744530383595,100,15
+3,El Sidrón J1,Rest,Engineered,Logistic regression,0.8609903640469795,0.020484116993907366,100,15
+3,El Sidrón J1,Rest,Engineered,RBF-SVM,0.9329701864961031,0.026270462164175164,100,15
+3,El Sidrón J1,Rest,Engineered,Random forest,0.8433333333333334,0.11015580145974198,100,15
+3,El Sidrón J1,Rest,Heip evenness only,KNN,1,0,100,15
+3,El Sidrón J1,Rest,Heip evenness only,Logistic regression,0.5747030633300888,0.006358690711024466,100,15
+3,El Sidrón J1,Rest,Heip evenness only,RBF-SVM,0.8918823564605841,0.03855558512589224,100,15
+3,El Sidrón J1,Rest,Heip evenness only,Random forest,1,0,100,15
+3,El Sidrón J1,Rest,ReMNAU raw,KNN,0.991821139351655,0.03167659108199142,100,15
+3,El Sidrón J1,Rest,ReMNAU raw,Logistic regression,0.7736358273543632,0.013731582570850102,100,15
+3,El Sidrón J1,Rest,ReMNAU raw,RBF-SVM,0.9272423409318388,0.020410712747065046,100,15
+3,El Sidrón J1,Rest,ReMNAU raw,Random forest,0.95,0.03945782106068635,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,%MNAU raw,KNN,0.8044849343754027,0.14626576172772718,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,%MNAU raw,Logistic regression,0.6469803982765618,0.024266279517530475,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,%MNAU raw,RBF-SVM,0.876591180249173,0.0417704168553387,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,%MNAU raw,Random forest,0.5925757575757575,0.07040427703284728,93.33333333333333,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,C + Heip evenness,KNN,0.5906716270867584,0.16959227056218223,73.33333333333333,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,C + Heip evenness,Logistic regression,0.5022614318615615,0.007007724420972262,53.333333333333336,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,C + Heip evenness,RBF-SVM,0.570302432792335,0.1850979424396828,46.666666666666664,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,C + Heip evenness,Random forest,0.6870833333333334,0.15371999320037652,86.66666666666667,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,C only,KNN,0.8157522416104642,0.12112773108071159,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,C only,Logistic regression,0.515735938233302,0.0060170047108882,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,C only,RBF-SVM,0.8948704190475002,0.04775432964324282,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,C only,Random forest,0.925,0.08781829861383429,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Combined,KNN,0.6446941844616026,0.12756328817484458,86.66666666666667,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Combined,Logistic regression,0.6884411633640596,0.06414015270543895,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Combined,RBF-SVM,0.6954196028569092,0.08938788609650304,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Combined,Random forest,0.4970833333333333,0.07164624570631405,46.666666666666664,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Engineered,KNN,0.7850152869940835,0.09487191844903027,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Engineered,Logistic regression,0.6427097840340881,0.03167028509984493,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Engineered,RBF-SVM,0.7516175879235456,0.0890343700534017,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Engineered,Random forest,0.46875,0.11014398044637495,40,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Heip evenness only,KNN,0.3366616542471721,0.08524760691836601,0,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Heip evenness only,Logistic regression,0.48697683052218926,0.004696798676031918,0,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Heip evenness only,RBF-SVM,0.22868826966139139,0.12092387613413026,6.666666666666667,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,Heip evenness only,Random forest,0.2851954365079365,0.19962978999820852,20,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,ReMNAU raw,KNN,0.650510912433304,0.11633083942408161,86.66666666666667,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,ReMNAU raw,Logistic regression,0.6644471118339166,0.04910117167988021,100,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,ReMNAU raw,RBF-SVM,0.4554548432263611,0.11021200565035644,40,15
+3,Goat’s Hole (Paviland Cave),Funerary Context,ReMNAU raw,Random forest,0.44342105263157894,0.09208025304908163,26.666666666666668,15
+4,Grotte de Fontbrégoua,Rest,%MNAU raw,KNN,0.03375509200423859,0.0536251745025818,0,15
+4,Grotte de Fontbrégoua,Rest,%MNAU raw,Logistic regression,0.32674704193189336,0.02021346494257356,0,15
+4,Grotte de Fontbrégoua,Rest,%MNAU raw,RBF-SVM,0.13443182455740077,0.037413828303975875,0,15
+4,Grotte de Fontbrégoua,Rest,%MNAU raw,Random forest,0.2322718253968254,0.08572077866170405,0,15
+4,Grotte de Fontbrégoua,Rest,C + Heip evenness,KNN,0.180430218944489,0.0593356919802559,0,15
+4,Grotte de Fontbrégoua,Rest,C + Heip evenness,Logistic regression,0.43524219026323596,0.007990004529554638,0,15
+4,Grotte de Fontbrégoua,Rest,C + Heip evenness,RBF-SVM,0.1595993253372094,0.04929286773064636,0,15
+4,Grotte de Fontbrégoua,Rest,C + Heip evenness,Random forest,0.09354166666666666,0.05803788915338799,0,15
+4,Grotte de Fontbrégoua,Rest,C only,KNN,0.08749545164579417,0.0485133141489405,0,15
+4,Grotte de Fontbrégoua,Rest,C only,Logistic regression,0.4557745679335029,0.006461830640384211,0,15
+4,Grotte de Fontbrégoua,Rest,C only,RBF-SVM,0.22095258944970095,0.05600482344075592,0,15
+4,Grotte de Fontbrégoua,Rest,C only,Random forest,0.04708333333333333,0.044578674100109905,0,15
+4,Grotte de Fontbrégoua,Rest,Combined,KNN,0.08411281163618312,0.057470872495486804,0,15
+4,Grotte de Fontbrégoua,Rest,Combined,Logistic regression,0.30452188546159376,0.02909028041593649,0,15
+4,Grotte de Fontbrégoua,Rest,Combined,RBF-SVM,0.13301028182430075,0.04729229247705871,0,15
+4,Grotte de Fontbrégoua,Rest,Combined,Random forest,0.3445833333333333,0.1115814851459728,6.666666666666667,15
+4,Grotte de Fontbrégoua,Rest,Engineered,KNN,0.2208551969850028,0.10219424399176973,0,15
+4,Grotte de Fontbrégoua,Rest,Engineered,Logistic regression,0.3504856736554031,0.021891898524949,0,15
+4,Grotte de Fontbrégoua,Rest,Engineered,RBF-SVM,0.22377485083730664,0.06736616944836625,0,15
+4,Grotte de Fontbrégoua,Rest,Engineered,Random forest,0.37854166666666667,0.09778423161420738,13.333333333333334,15
+4,Grotte de Fontbrégoua,Rest,Heip evenness only,KNN,0.2999332975255341,0.13520259182680813,13.333333333333334,15
+4,Grotte de Fontbrégoua,Rest,Heip evenness only,Logistic regression,0.4717635226880909,0.00496978255505651,0,15
+4,Grotte de Fontbrégoua,Rest,Heip evenness only,RBF-SVM,0.3068732344604231,0.07610840944644578,0,15
+4,Grotte de Fontbrégoua,Rest,Heip evenness only,Random forest,0.3565912698412699,0.12464071102905587,20,15
+4,Grotte de Fontbrégoua,Rest,ReMNAU raw,KNN,0.32962273958363,0.08463960443064812,0,15
+4,Grotte de Fontbrégoua,Rest,ReMNAU raw,Logistic regression,0.4573573974056271,0.03145062559334954,6.666666666666667,15
+4,Grotte de Fontbrégoua,Rest,ReMNAU raw,RBF-SVM,0.22943030330628508,0.07229449493573742,0,15
+4,Grotte de Fontbrégoua,Rest,ReMNAU raw,Random forest,0.378639333607006,0.05881257728366309,0,15
+4,Kebara Cave,Funerary Context,%MNAU raw,KNN,0.9079957703076853,0.06814504443129868,100,15
+4,Kebara Cave,Funerary Context,%MNAU raw,Logistic regression,0.9483441087031499,0.020865240601229455,100,15
+4,Kebara Cave,Funerary Context,%MNAU raw,RBF-SVM,0.8726904829548235,0.03172180356220051,100,15
+4,Kebara Cave,Funerary Context,%MNAU raw,Random forest,0.7658247863247863,0.12446435916157444,100,15
+4,Kebara Cave,Funerary Context,C + Heip evenness,KNN,0.9156527757292189,0.06638744414560328,100,15
+4,Kebara Cave,Funerary Context,C + Heip evenness,Logistic regression,0.713874152642054,0.013265330377321674,100,15
+4,Kebara Cave,Funerary Context,C + Heip evenness,RBF-SVM,0.8551296459276228,0.03945899605471927,100,15
+4,Kebara Cave,Funerary Context,C + Heip evenness,Random forest,0.9683333333333334,0.04697707140824382,100,15
+4,Kebara Cave,Funerary Context,C only,KNN,0.9357920928586388,0.06602171861243648,100,15
+4,Kebara Cave,Funerary Context,C only,Logistic regression,0.6640433741631423,0.013159892057892277,100,15
+4,Kebara Cave,Funerary Context,C only,RBF-SVM,0.8602674266680111,0.030821221949394413,100,15
+4,Kebara Cave,Funerary Context,C only,Random forest,0.9720833333333333,0.06639079827233661,100,15
+4,Kebara Cave,Funerary Context,Combined,KNN,0.8785720170638353,0.08363711059008565,100,15
+4,Kebara Cave,Funerary Context,Combined,Logistic regression,0.9585314716770934,0.018274025800263022,100,15
+4,Kebara Cave,Funerary Context,Combined,RBF-SVM,0.7873665640527767,0.04416974511384618,100,15
+4,Kebara Cave,Funerary Context,Combined,Random forest,0.7654166666666666,0.11562781528104155,100,15
+4,Kebara Cave,Funerary Context,Engineered,KNN,0.8352541742118488,0.08943538072910624,100,15
+4,Kebara Cave,Funerary Context,Engineered,Logistic regression,0.9031590291044854,0.019352377209145982,100,15
+4,Kebara Cave,Funerary Context,Engineered,RBF-SVM,0.7733645158240755,0.03534394225391617,100,15
+4,Kebara Cave,Funerary Context,Engineered,Random forest,0.79375,0.10458250331675945,100,15
+4,Kebara Cave,Funerary Context,Heip evenness only,KNN,0.985071121353288,0.03584102714786459,100,15
+4,Kebara Cave,Funerary Context,Heip evenness only,Logistic regression,0.5865420590440332,0.005244507196150343,100,15
+4,Kebara Cave,Funerary Context,Heip evenness only,RBF-SVM,0.8232716071713412,0.040970836941282056,100,15
+4,Kebara Cave,Funerary Context,Heip evenness only,Random forest,0.9991666666666666,0.002199161095465607,100,15
+4,Kebara Cave,Funerary Context,ReMNAU raw,KNN,0.93119755106029245,0.08163285982794562,100,15
+4,Kebara Cave,Funerary Context,ReMNAU raw,Logistic regression,0.796154989854449,0.0333773913244637,100,15
+4,Kebara Cave,Funerary Context,ReMNAU raw,RBF-SVM,0.9037122252488643,0.03075069707771236,100,15
+4,Kebara Cave,Funerary Context,ReMNAU raw,Random forest,0.7446212121212121,0.07687207134718953,100,15
+4,Mladeč Caves,Funerary Context,%MNAU raw,KNN,0,0,0,15
+4,Mladeč Caves,Funerary Context,%MNAU raw,Logistic regression,0.26635684052910724,0.019586100947851546,0,15
+4,Mladeč Caves,Funerary Context,%MNAU raw,RBF-SVM,0.0840115559973591,0.026668897823346385,0,15
+4,Mladeč Caves,Funerary Context,%MNAU raw,Random forest,0.11587121212121212,0.0817729251938919,0,15
+4,Mladeč Caves,Funerary Context,C + Heip evenness,KNN,0,0,0,15
+4,Mladeč Caves,Funerary Context,C + Heip evenness,Logistic regression,0.420999659869604,0.008350206624625338,0,15
+4,Mladeč Caves,Funerary Context,C + Heip evenness,RBF-SVM,0.07440790965505308,0.015766392426345945,0,15
+4,Mladeč Caves,Funerary Context,C + Heip evenness,Random forest,0.030416666666666668,0.03666226975801585,0,15
+4,Mladeč Caves,Funerary Context,C only,KNN,0,0,0,15
+4,Mladeč Caves,Funerary Context,C only,Logistic regression,0.4307180466369299,0.007885593551500755,0,15
+4,Mladeč Caves,Funerary Context,C only,RBF-SVM,0.0922113207791654,0.024734986862938894,0,15
+4,Mladeč Caves,Funerary Context,C only,Random forest,0,0,0,15
+4,Mladeč Caves,Funerary Context,Combined,KNN,0.1380512657432828,0.10357982083785046,0,15
+4,Mladeč Caves,Funerary Context,Combined,Logistic regression,0.3002700406721452,0.03749249123401909,0,15
+4,Mladeč Caves,Funerary Context,Combined,RBF-SVM,0.37289839689208326,0.0684140190888322,6.666666666666667,15
+4,Mladeč Caves,Funerary Context,Combined,Random forest,0.12708333333333333,0.07049991556901394,0,15
+4,Mladeč Caves,Funerary Context,Engineered,KNN,0.013649333767276907,0.05286364236749,0,15
+4,Mladeč Caves,Funerary Context,Engineered,Logistic regression,0.2729321912306617,0.021055370143405923,0,15
+4,Mladeč Caves,Funerary Context,Engineered,RBF-SVM,0.07819904236626996,0.025190650677745837,0,15
+4,Mladeč Caves,Funerary Context,Engineered,Random forest,0.04833333333333333,0.03243009882075307,0,15
+4,Mladeč Caves,Funerary Context,Heip evenness only,KNN,0.2607467598356617,0.18234178448419805,20,15
+4,Mladeč Caves,Funerary Context,Heip evenness only,Logistic regression,0.48100553682456765,0.004733747472564838,0,15
+4,Mladeč Caves,Funerary Context,Heip evenness only,RBF-SVM,0.29681982126303375,0.11167674027626777,6.666666666666667,15
+4,Mladeč Caves,Funerary Context,Heip evenness only,Random forest,0.24583333333333335,0.23605843833577272,13.333333333333334,15
+4,Mladeč Caves,Funerary Context,ReMNAU raw,KNN,0.84688864192076585,0.1004801554635086,100,15
+4,Mladeč Caves,Funerary Context,ReMNAU raw,Logistic regression,0.7627296923364243,0.03583440756350606,100,15
+4,Mladeč Caves,Funerary Context,ReMNAU raw,RBF-SVM,0.5876712798712643,0.08495765871414393,86.66666666666667,15
+4,Mladeč Caves,Funerary Context,ReMNAU raw,Random forest,0.5865378787878788,0.0831980821454913,86.66666666666667,15
+4,Shanidar Cave,Funerary Context,%MNAU raw,KNN,0.8999720711615108,0.07944502732954123,100,15
+4,Shanidar Cave,Funerary Context,%MNAU raw,Logistic regression,0.7080188432793414,0.02521715303282007,100,15
+4,Shanidar Cave,Funerary Context,%MNAU raw,RBF-SVM,0.9552043165987755,0.018693706456902208,100,15
+4,Shanidar Cave,Funerary Context,%MNAU raw,Random forest,0.9495833333333333,0.035627871647001846,100,15
+4,Shanidar Cave,Funerary Context,C + Heip evenness,KNN,0.9324411158519065,0.054351239612883163,100,15
+4,Shanidar Cave,Funerary Context,C + Heip evenness,Logistic regression,0.6055414138469537,0.008690495010799125,100,15
+4,Shanidar Cave,Funerary Context,C + Heip evenness,RBF-SVM,0.9061394102382492,0.02387318959812561,100,15
+4,Shanidar Cave,Funerary Context,C + Heip evenness,Random forest,0.9075,0.09508572260259236,100,15
+4,Shanidar Cave,Funerary Context,C only,KNN,0.9810797255528998,0.03203507269239931,100,15
+4,Shanidar Cave,Funerary Context,C only,Logistic regression,0.541091957514998,0.005816278961658164,100,15
+4,Shanidar Cave,Funerary Context,C only,RBF-SVM,0.9003319067654673,0.026869776354224023,100,15
+4,Shanidar Cave,Funerary Context,C only,Random forest,0.9966666666666667,0.008796644381862468,100,15
+4,Shanidar Cave,Funerary Context,Combined,KNN,0.8654734995395656,0.08588730555540233,100,15
+4,Shanidar Cave,Funerary Context,Combined,Logistic regression,0.8114591866114511,0.021528525165301862,100,15
+4,Shanidar Cave,Funerary Context,Combined,RBF-SVM,0.94663075275894,0.018256695621012578,100,15
+4,Shanidar Cave,Funerary Context,Combined,Random forest,0.9558333333333333,0.03554947089553347,100,15
+4,Shanidar Cave,Funerary Context,Engineered,KNN,0.8466925848228486,0.09348058329984597,100,15
+4,Shanidar Cave,Funerary Context,Engineered,Logistic regression,0.7594583406722732,0.02114914168191953,100,15
+4,Shanidar Cave,Funerary Context,Engineered,RBF-SVM,0.9207669799510254,0.030157392826484948,100,15
+4,Shanidar Cave,Funerary Context,Engineered,Random forest,0.9754166666666667,0.022715567873366576,100,15
+4,Shanidar Cave,Funerary Context,Heip evenness only,KNN,0.8916334225270338,0.08848088731250275,100,15
+4,Shanidar Cave,Funerary Context,Heip evenness only,Logistic regression,0.5796274001584425,0.005035109643669176,100,15
+4,Shanidar Cave,Funerary Context,Heip evenness only,RBF-SVM,0.8251070659175771,0.04158111877006789,100,15
+4,Shanidar Cave,Funerary Context,Heip evenness only,Random forest,0.8658333333333333,0.18661796505415115,93.33333333333333,15
+4,Shanidar Cave,Funerary Context,ReMNAU raw,KNN,0.8339324679754202,0.09493767822511917,100,15
+4,Shanidar Cave,Funerary Context,ReMNAU raw,Logistic regression,0.7095171123725266,0.02169963135942401,100,15
+4,Shanidar Cave,Funerary Context,ReMNAU raw,RBF-SVM,0.9000388389852538,0.021833029664133224,100,15
+4,Shanidar Cave,Funerary Context,ReMNAU raw,Random forest,0.8441666666666666,0.06569794698539093,100,15
+4,Sima de las Palomas,Funerary Context,%MNAU raw,KNN,0.9821206076072515,0.04718553158537418,100,15
+4,Sima de las Palomas,Funerary Context,%MNAU raw,Logistic regression,0.8507821269635903,0.025909914773447142,100,15
+4,Sima de las Palomas,Funerary Context,%MNAU raw,RBF-SVM,0.9116718184172838,0.02785644462845149,100,15
+4,Sima de las Palomas,Funerary Context,%MNAU raw,Random forest,0.8430261752136752,0.07473889718685404,100,15
+4,Sima de las Palomas,Funerary Context,C + Heip evenness,KNN,0.977689228989479,0.046187785602139285,100,15
+4,Sima de las Palomas,Funerary Context,C + Heip evenness,Logistic regression,0.6355310094561412,0.010809260908183222,100,15
+4,Sima de las Palomas,Funerary Context,C + Heip evenness,RBF-SVM,0.9036466199493868,0.02313192730328391,100,15
+4,Sima de las Palomas,Funerary Context,C + Heip evenness,Random forest,0.9541666666666667,0.04651148731637112,100,15
+4,Sima de las Palomas,Funerary Context,C only,KNN,0.9933466163003448,0.025768444264692488,100,15
+4,Sima de las Palomas,Funerary Context,C only,Logistic regression,0.6000894383360611,0.009120426759001368,100,15
+4,Sima de las Palomas,Funerary Context,C only,RBF-SVM,0.8808654125682741,0.021269350520411835,100,15
+4,Sima de las Palomas,Funerary Context,C only,Random forest,0.9991666666666666,0.003227486121839503,100,15
+4,Sima de las Palomas,Funerary Context,Combined,KNN,0.9013392071611778,0.09548966915084976,100,15
+4,Sima de las Palomas,Funerary Context,Combined,Logistic regression,0.8952491087085166,0.02410213842750527,100,15
+4,Sima de las Palomas,Funerary Context,Combined,RBF-SVM,0.9244889780806305,0.025706728842627275,100,15
+4,Sima de las Palomas,Funerary Context,Combined,Random forest,0.8825,0.06863626956646172,100,15
+4,Sima de las Palomas,Funerary Context,Engineered,KNN,0.7982642342484583,0.1109268671907874,100,15
+4,Sima de las Palomas,Funerary Context,Engineered,Logistic regression,0.8325580385712343,0.020877049302019713,100,15
+4,Sima de las Palomas,Funerary Context,Engineered,RBF-SVM,0.9133927972331422,0.024683507886351853,100,15
+4,Sima de las Palomas,Funerary Context,Engineered,Random forest,0.90875,0.05609104524915591,100,15
+4,Sima de las Palomas,Funerary Context,Heip evenness only,KNN,0.7835310183175745,0.17112097718071706,100,15
+4,Sima de las Palomas,Funerary Context,Heip evenness only,Logistic regression,0.5553612214712151,0.004438071439372273,100,15
+4,Sima de las Palomas,Funerary Context,Heip evenness only,RBF-SVM,0.8056369513561394,0.034875006748675004,100,15
+4,Sima de las Palomas,Funerary Context,Heip evenness only,Random forest,0.7166666666666667,0.26687120132235714,66.66666666666666,15
+4,Sima de las Palomas,Funerary Context,ReMNAU raw,KNN,0.9099753105496176,0.10907422505696959,100,15
+4,Sima de las Palomas,Funerary Context,ReMNAU raw,Logistic regression,0.7199670131490936,0.022883404503475376,100,15
+4,Sima de las Palomas,Funerary Context,ReMNAU raw,RBF-SVM,0.8896848275794489,0.030776483930788967,100,15
+4,Sima de las Palomas,Funerary Context,ReMNAU raw,Random forest,0.83375,0.08480544962273524,100,15
+5,Brno II,Funerary Context,%MNAU raw,KNN,0.3497908678188352,0.17749367364231108,13.333333333333334,15
+5,Brno II,Funerary Context,%MNAU raw,Logistic regression,0.3964735055871002,0.017621644868419023,0,15
+5,Brno II,Funerary Context,%MNAU raw,RBF-SVM,0.5422644300327124,0.0869112017018435,60,15
+5,Brno II,Funerary Context,%MNAU raw,Random forest,0.24969951923076922,0.047629144350035686,0,15
+5,Brno II,Funerary Context,C + Heip evenness,KNN,0.1906233462355856,0.10495353717190918,0,15
+5,Brno II,Funerary Context,C + Heip evenness,Logistic regression,0.4357117207334064,0.008649038516799165,0,15
+5,Brno II,Funerary Context,C + Heip evenness,RBF-SVM,0.21186569990095916,0.06763008464047235,0,15
+5,Brno II,Funerary Context,C + Heip evenness,Random forest,0.35000000000000003,0.1558745489167491,20,15
+5,Brno II,Funerary Context,C only,KNN,0.66168874791544,0.14873855915252468,86.66666666666667,15
+5,Brno II,Funerary Context,C only,Logistic regression,0.4872209876788,0.004924129149849436,0,15
+5,Brno II,Funerary Context,C only,RBF-SVM,0.6468593995527281,0.08936966947846722,100,15
+5,Brno II,Funerary Context,C only,Random forest,0.7375,0.22512397378206653,80,15
+5,Brno II,Funerary Context,Combined,KNN,0.09239677731941243,0.08543982095145726,0,15
+5,Brno II,Funerary Context,Combined,Logistic regression,0.26290255039139193,0.03012891362352632,0,15
+5,Brno II,Funerary Context,Combined,RBF-SVM,0.38029083859105606,0.06053819740189366,6.666666666666667,15
+5,Brno II,Funerary Context,Combined,Random forest,0.1425,0.050289341387045994,0,15
+5,Brno II,Funerary Context,Engineered,KNN,0,0,0,15
+5,Brno II,Funerary Context,Engineered,Logistic regression,0.2404561859167525,0.031403630674400475,0,15
+5,Brno II,Funerary Context,Engineered,RBF-SVM,0.07397695554616181,0.036727591673599125,0,15
+5,Brno II,Funerary Context,Engineered,Random forest,0.11416666666666667,0.07743324698148231,0,15
+5,Brno II,Funerary Context,Heip evenness only,KNN,0.04333190711145377,0.0690519365959933,0,15
+5,Brno II,Funerary Context,Heip evenness only,Logistic regression,0.4401001945362332,0.006774760052717409,0,15
+5,Brno II,Funerary Context,Heip evenness only,RBF-SVM,0.12633100828620505,0.03353852113322728,0,15
+5,Brno II,Funerary Context,Heip evenness only,Random forest,0.06,0.14565507813225834,6.666666666666667,15
+5,Brno II,Funerary Context,ReMNAU raw,KNN,0.6005652916371846,0.10922133015229676,86.66666666666667,15
+5,Brno II,Funerary Context,ReMNAU raw,Logistic regression,0.49092821614616633,0.03924949133606262,33.33333333333333,15
+5,Brno II,Funerary Context,ReMNAU raw,RBF-SVM,0.4323228260019536,0.070240123573372365,13.333333333333334,15
+5,Brno II,Funerary Context,ReMNAU raw,Random forest,0.14916666666666667,0.054530599753934574,0,15
+5,La Ferrassie,Funerary Context,%MNAU raw,KNN,0.8152833683261177,0.12584215070241445,100,15
+5,La Ferrassie,Funerary Context,%MNAU raw,Logistic regression,0.6128741323189522,0.019689796032055378,100,15
+5,La Ferrassie,Funerary Context,%MNAU raw,RBF-SVM,0.9019349523362541,0.042709649964527203,100,15
+5,La Ferrassie,Funerary Context,%MNAU raw,Random forest,0.96,0.01987685301334912,100,15
+5,La Ferrassie,Funerary Context,C + Heip evenness,KNN,0.9841667354432159,0.05953680255587505,100,15
+5,La Ferrassie,Funerary Context,C + Heip evenness,Logistic regression,0.5865720738395624,0.007345115535459544,100,15
+5,La Ferrassie,Funerary Context,C + Heip evenness,RBF-SVM,0.9179369551807061,0.028892195193379006,100,15
+5,La Ferrassie,Funerary Context,C + Heip evenness,Random forest,0.9941666666666666,0.011443442705426582,100,15
+5,La Ferrassie,Funerary Context,C only,KNN,0.988052446561681,0.01906128974565633,100,15
+5,La Ferrassie,Funerary Context,C only,Logistic regression,0.5176355233255929,0.004006514036355456,100,15
+5,La Ferrassie,Funerary Context,C only,RBF-SVM,0.9013456481036987,0.0408665045762481,100,15
+5,La Ferrassie,Funerary Context,C only,Random forest,0.9866666666666667,0.024873190290714522,100,15
+5,La Ferrassie,Funerary Context,Combined,KNN,0.7878457739007584,0.0953266132848407,100,15
+5,La Ferrassie,Funerary Context,Combined,Logistic regression,0.739661754781742,0.032358584050362064,100,15
+5,La Ferrassie,Funerary Context,Combined,RBF-SVM,0.8658949422421003,0.045697761987720006,100,15
+5,La Ferrassie,Funerary Context,Combined,Random forest,0.9658333333333333,0.020978659791956823,100,15
+5,La Ferrassie,Funerary Context,Engineered,KNN,0.8535383226184434,0.08484158251744824,100,15
+5,La Ferrassie,Funerary Context,Engineered,Logistic regression,0.6897736310750815,0.024776653293705483,100,15
+5,La Ferrassie,Funerary Context,Engineered,RBF-SVM,0.882358473392277,0.021508319846402568,100,15
+5,La Ferrassie,Funerary Context,Engineered,Random forest,0.9495833333333333,0.029168792439539768,100,15
+5,La Ferrassie,Funerary Context,Heip evenness only,KNN,0.955570973788044,0.04784437464747153,100,15
+5,La Ferrassie,Funerary Context,Heip evenness only,Logistic regression,0.5807162019035669,0.0065550333529434575,100,15
+5,La Ferrassie,Funerary Context,Heip evenness only,RBF-SVM,0.870484344026751,0.05510325908192233,100,15
+5,La Ferrassie,Funerary Context,Heip evenness only,Random forest,0.9833333333333334,0.024397501823713322,100,15
+5,La Ferrassie,Funerary Context,ReMNAU raw,KNN,0.8087680289667571,0.14431807188279508,100,15
+5,La Ferrassie,Funerary Context,ReMNAU raw,Logistic regression,0.6913594377181985,0.022216747640723986,100,15
+5,La Ferrassie,Funerary Context,ReMNAU raw,RBF-SVM,0.87677815946173,0.04979549272184088,100,15
+5,La Ferrassie,Funerary Context,ReMNAU raw,Random forest,0.9470833333333334,0.0340583358092441,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,%MNAU raw,KNN,0.7656457926949071,0.11252676417157183,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,%MNAU raw,Logistic regression,0.6183131124648648,0.016398454535450517,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,%MNAU raw,RBF-SVM,0.9116437763877822,0.041468394047057426,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,%MNAU raw,Random forest,0.8441666666666667,0.07445736235943232,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,C + Heip evenness,KNN,0.9929153987294052,0.02743854273553358,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,C + Heip evenness,Logistic regression,0.5913720229596311,0.0074135074677545475,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,C + Heip evenness,RBF-SVM,0.9212802163050108,0.02982363795546425,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,C + Heip evenness,Random forest,1,0,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,C only,KNN,0.9891606174377026,0.019187649822864146,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,C only,Logistic regression,0.5181460632734808,0.0040026247349592165,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,C only,RBF-SVM,0.9026975706308187,0.040532923274247255,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,C only,Random forest,0.9870833333333333,0.023440971965058677,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Combined,KNN,0.8023838397985998,0.11118085855456983,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Combined,Logistic regression,0.8026434477870854,0.027562433354673226,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Combined,RBF-SVM,0.9008068523639003,0.04716361714534763,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Combined,Random forest,0.9429166666666666,0.02607795091278307,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Engineered,KNN,0.8488534734685595,0.08711179158624102,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Engineered,Logistic regression,0.7969366537823095,0.019636798938808528,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Engineered,RBF-SVM,0.9313986393461766,0.027229586786996888,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Engineered,Random forest,0.9266666666666666,0.05831845048238736,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Heip evenness only,KNN,0.9948576199947092,0.01991635212036136,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Heip evenness only,Logistic regression,0.585665864968395,0.006737816949622247,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Heip evenness only,RBF-SVM,0.8709059567562429,0.05477687173238175,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,Heip evenness only,Random forest,1,0,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,ReMNAU raw,KNN,0.7927803407129708,0.1117830534429858,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,ReMNAU raw,Logistic regression,0.7001640134621339,0.02806447763889519,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,ReMNAU raw,RBF-SVM,0.8408486336298484,0.08445349893717397,100,15
+5,Mancos 5MT-10010 Feature 3,Rest,ReMNAU raw,Random forest,0.915,0.04367340233401299,100,15
+5,Teshik-Tash Cave,Funerary Context,%MNAU raw,KNN,0.23964015267945482,0.11736726681960284,6.666666666666667,15
+5,Teshik-Tash Cave,Funerary Context,%MNAU raw,Logistic regression,0.41174061768312276,0.013840115654107676,0,15
+5,Teshik-Tash Cave,Funerary Context,%MNAU raw,RBF-SVM,0.4774183645394289,0.11904084914061662,46.666666666666664,15
+5,Teshik-Tash Cave,Funerary Context,%MNAU raw,Random forest,0.22548076923076923,0.06059076072159861,0,15
+5,Teshik-Tash Cave,Funerary Context,C + Heip evenness,KNN,0.4628352081607361,0.1665186358876812,40,15
+5,Teshik-Tash Cave,Funerary Context,C + Heip evenness,Logistic regression,0.4594895081616008,0.008076313006368182,0,15
+5,Teshik-Tash Cave,Funerary Context,C + Heip evenness,RBF-SVM,0.2881078254722152,0.10131432632375896,0,15
+5,Teshik-Tash Cave,Funerary Context,C + Heip evenness,Random forest,0.3754166666666667,0.16794561371666325,20,15
+5,Teshik-Tash Cave,Funerary Context,C only,KNN,0.8003260597113276,0.13860828316201404,100,15
+5,Teshik-Tash Cave,Funerary Context,C only,Logistic regression,0.4919394789666538,0.004707655038965065,0,15
+5,Teshik-Tash Cave,Funerary Context,C only,RBF-SVM,0.7157286746603146,0.07834533788768491,100,15
+5,Teshik-Tash Cave,Funerary Context,C only,Random forest,0.7787499999999999,0.1493811639493318,100,15
+5,Teshik-Tash Cave,Funerary Context,Combined,KNN,0.10770120287381657,0.07689478803839722,0,15
+5,Teshik-Tash Cave,Funerary Context,Combined,Logistic regression,0.27325189981565595,0.029699745045028085,0,15
+5,Teshik-Tash Cave,Funerary Context,Combined,RBF-SVM,0.26860193960559586,0.12269188616833124,6.666666666666667,15
+5,Teshik-Tash Cave,Funerary Context,Combined,Random forest,0.1675,0.06988510979764266,0,15
+5,Teshik-Tash Cave,Funerary Context,Engineered,KNN,0.08719543006232701,0.08638320424639759,0,15
+5,Teshik-Tash Cave,Funerary Context,Engineered,Logistic regression,0.324976763642138,0.03423230879660884,0,15
+5,Teshik-Tash Cave,Funerary Context,Engineered,RBF-SVM,0.09840694923954038,0.053634656840692685,0,15
+5,Teshik-Tash Cave,Funerary Context,Engineered,Random forest,0.19541666666666666,0.12108758144810879,0,15
+5,Teshik-Tash Cave,Funerary Context,Heip evenness only,KNN,0.12688040893854075,0.06456952358402142,0,15
+5,Teshik-Tash Cave,Funerary Context,Heip evenness only,Logistic regression,0.4623618352711883,0.005996550969864903,0,15
+5,Teshik-Tash Cave,Funerary Context,Heip evenness only,RBF-SVM,0.1699506454666928,0.07700277953534965,0,15
+5,Teshik-Tash Cave,Funerary Context,Heip evenness only,Random forest,0.0525,0.06579696855804658,0,15
+5,Teshik-Tash Cave,Funerary Context,ReMNAU raw,KNN,0.25701574786510234,0.14569619544232432,13.333333333333334,15
+5,Teshik-Tash Cave,Funerary Context,ReMNAU raw,Logistic regression,0.40333179636098265,0.07582325056420489,13.333333333333334,15
+5,Teshik-Tash Cave,Funerary Context,ReMNAU raw,RBF-SVM,0.24313237424849457,0.11962130841080544,0,15
+5,Teshik-Tash Cave,Funerary Context,ReMNAU raw,Random forest,0.14416666666666667,0.058842379245218276,0,15

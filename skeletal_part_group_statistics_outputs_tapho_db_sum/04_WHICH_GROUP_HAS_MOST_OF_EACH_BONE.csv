@@ -1,0 +1,341 @@
+task,representation,measure,bone,group_with_highest_mean,highest_mean,median_in_that_group,n_unique_sites
+C1_C5,%MNAU,abundance,arms_indet,C2,0.017857142857142856,0,14
+C1_C5,%MNAU,abundance,clavicle,C5,0.8432539682539683,1,18
+C1_C5,%MNAU,abundance,cranium,C4,1.0111582232517948,0.857843137254902,18
+C1_C5,%MNAU,abundance,foot,C3,0.2605808669621695,0.2115384615384615,7
+C1_C5,%MNAU,abundance,hands,C5,0.43475651577503427,0.3726851851851852,18
+C1_C5,%MNAU,abundance,humerus,C5,0.9338624338624338,1,18
+C1_C5,%MNAU,abundance,hyoid,C5,0.16666666666666666,0,18
+C1_C5,%MNAU,abundance,legs,C5,0.6882440476190477,0.75,18
+C1_C5,%MNAU,abundance,pelvic,C5,0.9722222222222222,1,18
+C1_C5,%MNAU,abundance,radius,C5,0.8948412698412699,1,18
+C1_C5,%MNAU,abundance,ribs,C5,0.513558201058201,0.5520833333333334,18
+C1_C5,%MNAU,abundance,scapula,C5,0.6441798941798942,0.625,18
+C1_C5,%MNAU,abundance,shoulder_indet,C1,0,0,37
+C1_C5,%MNAU,abundance,sternum,C5,0.3055555555555556,0,18
+C1_C5,%MNAU,abundance,thorax_indet,C4,5.625879043600556e-5,0,18
+C1_C5,%MNAU,abundance,ulna,C5,0.8389550264550265,1,18
+C1_C5,%MNAU,abundance,vertebrae,C5,0.6596119929453262,0.7083333333333333,18
+C1_C5,%MNAU,presence,arms_indet,C2,0.07142857142857142,0,14
+C1_C5,%MNAU,presence,clavicle,C3,1,1,7
+C1_C5,%MNAU,presence,cranium,C3,1,1,7
+C1_C5,%MNAU,presence,foot,C3,1,1,7
+C1_C5,%MNAU,presence,hands,C3,1,1,7
+C1_C5,%MNAU,presence,humerus,C4,1,1,18
+C1_C5,%MNAU,presence,hyoid,C3,0.5714285714285714,1,7
+C1_C5,%MNAU,presence,legs,C2,1,1,14
+C1_C5,%MNAU,presence,pelvic,C3,1,1,7
+C1_C5,%MNAU,presence,radius,C4,1,1,18
+C1_C5,%MNAU,presence,ribs,C3,1,1,7
+C1_C5,%MNAU,presence,scapula,C3,1,1,7
+C1_C5,%MNAU,presence,shoulder_indet,C1,0,0,37
+C1_C5,%MNAU,presence,sternum,C3,0.7142857142857143,1,7
+C1_C5,%MNAU,presence,thorax_indet,C4,0.05555555555555555,0,18
+C1_C5,%MNAU,presence,ulna,C4,1,1,18
+C1_C5,%MNAU,presence,vertebrae,C3,1,1,7
+C1_C5,ReMNAU,abundance,arms_indet,C2,0.008574604350817763,0,14
+C1_C5,ReMNAU,abundance,clavicle,C5,0.0634406413107928,0.06843329206704,18
+C1_C5,ReMNAU,abundance,cranium,C1,0.5649389347069912,0.7727554179566564,37
+C1_C5,ReMNAU,abundance,foot,C1,0.056617895638151276,0,37
+C1_C5,ReMNAU,abundance,hands,C3,0.057452584195829326,0.05104469264177971,7
+C1_C5,ReMNAU,abundance,humerus,C4,0.07438630768561752,0.07377585999462571,18
+C1_C5,ReMNAU,abundance,hyoid,C3,0.021610542010072602,0.00625530929029268,7
+C1_C5,ReMNAU,abundance,legs,C1,0.13529634181820716,0.01355212355212355,37
+C1_C5,ReMNAU,abundance,pelvic,C2,0.12617634130278832,0.08521583442913315,14
+C1_C5,ReMNAU,abundance,radius,C5,0.06858331306925226,0.07093257997467568,18
+C1_C5,ReMNAU,abundance,ribs,C3,0.04674858932098575,0.03621928235197712,7
+C1_C5,ReMNAU,abundance,scapula,C3,0.05174934779228833,0.039616958838520344,7
+C1_C5,ReMNAU,abundance,shoulder_indet,C1,0,0,37
+C1_C5,ReMNAU,abundance,sternum,C3,0.023297808321700985,0.02487680092136299,7
+C1_C5,ReMNAU,abundance,thorax_indet,C4,6.865733927371889e-6,0,18
+C1_C5,ReMNAU,abundance,ulna,C4,0.07050322274886395,0.0738417887769378,18
+C1_C5,ReMNAU,abundance,vertebrae,C5,0.04990078576002051,0.04867431154437683,18
+C1_C5,ReMNAU,presence,arms_indet,C2,0.07142857142857142,0,14
+C1_C5,ReMNAU,presence,clavicle,C3,1,1,7
+C1_C5,ReMNAU,presence,cranium,C3,1,1,7
+C1_C5,ReMNAU,presence,foot,C3,1,1,7
+C1_C5,ReMNAU,presence,hands,C3,1,1,7
+C1_C5,ReMNAU,presence,humerus,C4,1,1,18
+C1_C5,ReMNAU,presence,hyoid,C3,0.5714285714285714,1,7
+C1_C5,ReMNAU,presence,legs,C2,1,1,14
+C1_C5,ReMNAU,presence,pelvic,C3,1,1,7
+C1_C5,ReMNAU,presence,radius,C4,1,1,18
+C1_C5,ReMNAU,presence,ribs,C3,1,1,7
+C1_C5,ReMNAU,presence,scapula,C3,1,1,7
+C1_C5,ReMNAU,presence,shoulder_indet,C1,0,0,37
+C1_C5,ReMNAU,presence,sternum,C3,0.7142857142857143,1,7
+C1_C5,ReMNAU,presence,thorax_indet,C4,0.05555555555555555,0,18
+C1_C5,ReMNAU,presence,ulna,C4,1,1,18
+C1_C5,ReMNAU,presence,vertebrae,C3,1,1,7
+F_vs_NF,%MNAU,abundance,arms_indet,NF,0.0024509803921568627,0,51
+F_vs_NF,%MNAU,abundance,clavicle,F,0.5052437457232275,0.5,48
+F_vs_NF,%MNAU,abundance,cranium,F,0.7801611816381447,1,48
+F_vs_NF,%MNAU,abundance,foot,F,0.1786287004229587,0.14963549522373054,48
+F_vs_NF,%MNAU,abundance,hands,F,0.27625372404869614,0.22325102880658437,48
+F_vs_NF,%MNAU,abundance,humerus,F,0.6056692948903236,0.5361111111111111,48
+F_vs_NF,%MNAU,abundance,hyoid,F,0.07878154030599581,0,48
+F_vs_NF,%MNAU,abundance,legs,F,0.5117820206276539,0.5,48
+F_vs_NF,%MNAU,abundance,pelvic,F,0.6902905484481489,0.8405311491685282,48
+F_vs_NF,%MNAU,abundance,radius,F,0.5361845389440282,0.5,48
+F_vs_NF,%MNAU,abundance,ribs,F,0.2849282118567475,0.1764705882352941,48
+F_vs_NF,%MNAU,abundance,scapula,F,0.42152385520597246,0.33095238095238094,48
+F_vs_NF,%MNAU,abundance,shoulder_indet,NF,0,0,51
+F_vs_NF,%MNAU,abundance,sternum,F,0.1441144920369331,0,48
+F_vs_NF,%MNAU,abundance,thorax_indet,F,2.1097046413502085e-5,0,48
+F_vs_NF,%MNAU,abundance,ulna,F,0.537503738505673,0.5,48
+F_vs_NF,%MNAU,abundance,vertebrae,F,0.3578036938006947,0.31671940928270037,48
+F_vs_NF,%MNAU,presence,arms_indet,NF,0.0196078431372549,0,51
+F_vs_NF,%MNAU,presence,clavicle,F,0.9166666666666666,1,48
+F_vs_NF,%MNAU,presence,cranium,F,0.9166666666666666,1,48
+F_vs_NF,%MNAU,presence,foot,F,0.8541666666666666,1,48
+F_vs_NF,%MNAU,presence,hands,F,0.8541666666666666,1,48
+F_vs_NF,%MNAU,presence,humerus,F,0.9583333333333334,1,48
+F_vs_NF,%MNAU,presence,hyoid,F,0.20833333333333334,0,48
+F_vs_NF,%MNAU,presence,legs,F,1,1,48
+F_vs_NF,%MNAU,presence,pelvic,F,0.875,1,48
+F_vs_NF,%MNAU,presence,radius,F,0.9166666666666666,1,48
+F_vs_NF,%MNAU,presence,ribs,F,0.8333333333333334,1,48
+F_vs_NF,%MNAU,presence,scapula,F,0.8333333333333334,1,48
+F_vs_NF,%MNAU,presence,shoulder_indet,NF,0,0,51
+F_vs_NF,%MNAU,presence,sternum,F,0.375,0,48
+F_vs_NF,%MNAU,presence,thorax_indet,F,0.020833333333333332,0,48
+F_vs_NF,%MNAU,presence,ulna,F,0.8958333333333334,1,48
+F_vs_NF,%MNAU,presence,vertebrae,F,0.8958333333333334,1,48
+F_vs_NF,ReMNAU,abundance,arms_indet,NF,0.0011769064795240068,0,51
+F_vs_NF,ReMNAU,abundance,clavicle,F,0.056128357214037215,0.054215127232535354,48
+F_vs_NF,ReMNAU,abundance,cranium,NF,0.48200468124712126,0.32876712328767127,51
+F_vs_NF,ReMNAU,abundance,foot,NF,0.024483562307483185,0,51
+F_vs_NF,ReMNAU,abundance,hands,F,0.03243373953967024,0.03091686240470557,48
+F_vs_NF,ReMNAU,abundance,humerus,F,0.07020592850001765,0.07145659447382308,48
+F_vs_NF,ReMNAU,abundance,hyoid,F,0.008927728246561196,0,48
+F_vs_NF,ReMNAU,abundance,legs,NF,0.12242802278890787,0.03197886297376093,51
+F_vs_NF,ReMNAU,abundance,pelvic,F,0.0939159678097584,0.0762851749103843,48
+F_vs_NF,ReMNAU,abundance,radius,F,0.06008981573318208,0.06232558933566147,48
+F_vs_NF,ReMNAU,abundance,ribs,F,0.03063784951260663,0.028637232729964907,48
+F_vs_NF,ReMNAU,abundance,scapula,F,0.04416026435606968,0.04398262044328935,48
+F_vs_NF,ReMNAU,abundance,shoulder_indet,NF,0,0,51
+F_vs_NF,ReMNAU,abundance,sternum,F,0.015797146254281354,0,48
+F_vs_NF,ReMNAU,abundance,thorax_indet,F,2.5746502227644584e-6,0,48
+F_vs_NF,ReMNAU,abundance,ulna,F,0.059445980956493,0.0668426191481088,48
+F_vs_NF,ReMNAU,abundance,vertebrae,F,0.038357233585548926,0.03632196704310729,48
+F_vs_NF,ReMNAU,presence,arms_indet,NF,0.0196078431372549,0,51
+F_vs_NF,ReMNAU,presence,clavicle,F,0.9166666666666666,1,48
+F_vs_NF,ReMNAU,presence,cranium,F,0.9166666666666666,1,48
+F_vs_NF,ReMNAU,presence,foot,F,0.8541666666666666,1,48
+F_vs_NF,ReMNAU,presence,hands,F,0.8541666666666666,1,48
+F_vs_NF,ReMNAU,presence,humerus,F,0.9583333333333334,1,48
+F_vs_NF,ReMNAU,presence,hyoid,F,0.20833333333333334,0,48
+F_vs_NF,ReMNAU,presence,legs,F,1,1,48
+F_vs_NF,ReMNAU,presence,pelvic,F,0.875,1,48
+F_vs_NF,ReMNAU,presence,radius,F,0.9166666666666666,1,48
+F_vs_NF,ReMNAU,presence,ribs,F,0.8333333333333334,1,48
+F_vs_NF,ReMNAU,presence,scapula,F,0.8333333333333334,1,48
+F_vs_NF,ReMNAU,presence,shoulder_indet,NF,0,0,51
+F_vs_NF,ReMNAU,presence,sternum,F,0.375,0,48
+F_vs_NF,ReMNAU,presence,thorax_indet,F,0.020833333333333332,0,48
+F_vs_NF,ReMNAU,presence,ulna,F,0.8958333333333334,1,48
+F_vs_NF,ReMNAU,presence,vertebrae,F,0.8958333333333334,1,48
+Funerary_vs_Cannibalism,%MNAU,abundance,arms_indet,Cannibalism,0.005681818181818182,0,22
+Funerary_vs_Cannibalism,%MNAU,abundance,clavicle,Funerary Context,0.5052437457232275,0.5,48
+Funerary_vs_Cannibalism,%MNAU,abundance,cranium,Cannibalism,0.8176846065981321,0.5,22
+Funerary_vs_Cannibalism,%MNAU,abundance,foot,Funerary Context,0.1786287004229587,0.14963549522373054,48
+Funerary_vs_Cannibalism,%MNAU,abundance,hands,Funerary Context,0.27625372404869614,0.22325102880658437,48
+Funerary_vs_Cannibalism,%MNAU,abundance,humerus,Funerary Context,0.6056692948903236,0.5361111111111111,48
+Funerary_vs_Cannibalism,%MNAU,abundance,hyoid,Funerary Context,0.07878154030599581,0,48
+Funerary_vs_Cannibalism,%MNAU,abundance,legs,Funerary Context,0.5117820206276539,0.5,48
+Funerary_vs_Cannibalism,%MNAU,abundance,pelvic,Funerary Context,0.6902905484481489,0.8405311491685282,48
+Funerary_vs_Cannibalism,%MNAU,abundance,radius,Funerary Context,0.5361845389440282,0.5,48
+Funerary_vs_Cannibalism,%MNAU,abundance,ribs,Funerary Context,0.2849282118567475,0.1764705882352941,48
+Funerary_vs_Cannibalism,%MNAU,abundance,scapula,Funerary Context,0.42152385520597246,0.33095238095238094,48
+Funerary_vs_Cannibalism,%MNAU,abundance,shoulder_indet,Cannibalism,0,0,22
+Funerary_vs_Cannibalism,%MNAU,abundance,sternum,Funerary Context,0.1441144920369331,0,48
+Funerary_vs_Cannibalism,%MNAU,abundance,thorax_indet,Funerary Context,2.1097046413502085e-5,0,48
+Funerary_vs_Cannibalism,%MNAU,abundance,ulna,Funerary Context,0.537503738505673,0.5,48
+Funerary_vs_Cannibalism,%MNAU,abundance,vertebrae,Funerary Context,0.3578036938006947,0.31671940928270037,48
+Funerary_vs_Cannibalism,%MNAU,presence,arms_indet,Cannibalism,0.045454545454545456,0,22
+Funerary_vs_Cannibalism,%MNAU,presence,clavicle,Funerary Context,0.9166666666666666,1,48
+Funerary_vs_Cannibalism,%MNAU,presence,cranium,Cannibalism,1,1,22
+Funerary_vs_Cannibalism,%MNAU,presence,foot,Cannibalism,0.9545454545454546,1,22
+Funerary_vs_Cannibalism,%MNAU,presence,hands,Cannibalism,0.8636363636363636,1,22
+Funerary_vs_Cannibalism,%MNAU,presence,humerus,Funerary Context,0.9583333333333334,1,48
+Funerary_vs_Cannibalism,%MNAU,presence,hyoid,Funerary Context,0.20833333333333334,0,48
+Funerary_vs_Cannibalism,%MNAU,presence,legs,Funerary Context,1,1,48
+Funerary_vs_Cannibalism,%MNAU,presence,pelvic,Funerary Context,0.875,1,48
+Funerary_vs_Cannibalism,%MNAU,presence,radius,Funerary Context,0.9166666666666666,1,48
+Funerary_vs_Cannibalism,%MNAU,presence,ribs,Cannibalism,0.8636363636363636,1,22
+Funerary_vs_Cannibalism,%MNAU,presence,scapula,Funerary Context,0.8333333333333334,1,48
+Funerary_vs_Cannibalism,%MNAU,presence,shoulder_indet,Cannibalism,0,0,22
+Funerary_vs_Cannibalism,%MNAU,presence,sternum,Funerary Context,0.375,0,48
+Funerary_vs_Cannibalism,%MNAU,presence,thorax_indet,Funerary Context,0.020833333333333332,0,48
+Funerary_vs_Cannibalism,%MNAU,presence,ulna,Funerary Context,0.8958333333333334,1,48
+Funerary_vs_Cannibalism,%MNAU,presence,vertebrae,Funerary Context,0.8958333333333334,1,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,arms_indet,Cannibalism,0.0027282832025329246,0,22
+Funerary_vs_Cannibalism,ReMNAU,abundance,clavicle,Funerary Context,0.056128357214037215,0.054215127232535354,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,cranium,Cannibalism,0.3440480496024853,0.27684076784852574,22
+Funerary_vs_Cannibalism,ReMNAU,abundance,foot,Funerary Context,0.024007145149825743,0.02190173929498853,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,hands,Funerary Context,0.03243373953967024,0.03091686240470557,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,humerus,Funerary Context,0.07020592850001765,0.07145659447382308,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,hyoid,Funerary Context,0.008927728246561196,0,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,legs,Cannibalism,0.06753797702675848,0.06766454516341897,22
+Funerary_vs_Cannibalism,ReMNAU,abundance,pelvic,Funerary Context,0.0939159678097584,0.0762851749103843,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,radius,Funerary Context,0.06008981573318208,0.06232558933566147,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,ribs,Cannibalism,0.032946041412773214,0.02700193021232782,22
+Funerary_vs_Cannibalism,ReMNAU,abundance,scapula,Funerary Context,0.04416026435606968,0.04398262044328935,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,shoulder_indet,Cannibalism,0,0,22
+Funerary_vs_Cannibalism,ReMNAU,abundance,sternum,Funerary Context,0.015797146254281354,0,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,thorax_indet,Funerary Context,2.5746502227644584e-6,0,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,ulna,Funerary Context,0.059445980956493,0.0668426191481088,48
+Funerary_vs_Cannibalism,ReMNAU,abundance,vertebrae,Funerary Context,0.038357233585548926,0.03632196704310729,48
+Funerary_vs_Cannibalism,ReMNAU,presence,arms_indet,Cannibalism,0.045454545454545456,0,22
+Funerary_vs_Cannibalism,ReMNAU,presence,clavicle,Funerary Context,0.9166666666666666,1,48
+Funerary_vs_Cannibalism,ReMNAU,presence,cranium,Cannibalism,1,1,22
+Funerary_vs_Cannibalism,ReMNAU,presence,foot,Cannibalism,0.9545454545454546,1,22
+Funerary_vs_Cannibalism,ReMNAU,presence,hands,Cannibalism,0.8636363636363636,1,22
+Funerary_vs_Cannibalism,ReMNAU,presence,humerus,Funerary Context,0.9583333333333334,1,48
+Funerary_vs_Cannibalism,ReMNAU,presence,hyoid,Funerary Context,0.20833333333333334,0,48
+Funerary_vs_Cannibalism,ReMNAU,presence,legs,Funerary Context,1,1,48
+Funerary_vs_Cannibalism,ReMNAU,presence,pelvic,Funerary Context,0.875,1,48
+Funerary_vs_Cannibalism,ReMNAU,presence,radius,Funerary Context,0.9166666666666666,1,48
+Funerary_vs_Cannibalism,ReMNAU,presence,ribs,Cannibalism,0.8636363636363636,1,22
+Funerary_vs_Cannibalism,ReMNAU,presence,scapula,Funerary Context,0.8333333333333334,1,48
+Funerary_vs_Cannibalism,ReMNAU,presence,shoulder_indet,Cannibalism,0,0,22
+Funerary_vs_Cannibalism,ReMNAU,presence,sternum,Funerary Context,0.375,0,48
+Funerary_vs_Cannibalism,ReMNAU,presence,thorax_indet,Funerary Context,0.020833333333333332,0,48
+Funerary_vs_Cannibalism,ReMNAU,presence,ulna,Funerary Context,0.8958333333333334,1,48
+Funerary_vs_Cannibalism,ReMNAU,presence,vertebrae,Funerary Context,0.8958333333333334,1,48
+G0_G5,%MNAU,abundance,arms_indet,G1,0.006578947368421052,0,19
+G0_G5,%MNAU,abundance,clavicle,G5,0.6579861111111112,0.5,24
+G0_G5,%MNAU,abundance,cranium,G5,0.8777777777777778,1,24
+G0_G5,%MNAU,abundance,foot,G5,0.2205128205128205,0.18461538461538463,24
+G0_G5,%MNAU,abundance,hands,G5,0.3578703703703704,0.3055555555555556,24
+G0_G5,%MNAU,abundance,humerus,G5,0.7541666666666667,1,24
+G0_G5,%MNAU,abundance,hyoid,G2,0.2,0,5
+G0_G5,%MNAU,abundance,legs,G5,0.6541666666666667,0.625,24
+G0_G5,%MNAU,abundance,pelvic,G5,0.7652777777777777,1,24
+G0_G5,%MNAU,abundance,radius,G5,0.6840277777777778,0.75,24
+G0_G5,%MNAU,abundance,ribs,G4,0.37760270774976656,0.28703703703703703,7
+G0_G5,%MNAU,abundance,scapula,G4,0.5480392156862746,0.5,7
+G0_G5,%MNAU,abundance,shoulder_indet,G0,0,0,26
+G0_G5,%MNAU,abundance,sternum,G2,0.41333333333333333,0.06666666666666667,5
+G0_G5,%MNAU,abundance,thorax_indet,G3,7.789678675754616e-5,0,13
+G0_G5,%MNAU,abundance,ulna,G5,0.6645833333333333,0.75,24
+G0_G5,%MNAU,abundance,vertebrae,G5,0.42824074074074076,0.3680555555555556,24
+G0_G5,%MNAU,presence,arms_indet,G1,0.05263157894736842,0,19
+G0_G5,%MNAU,presence,clavicle,G3,1,1,13
+G0_G5,%MNAU,presence,cranium,G4,1,1,7
+G0_G5,%MNAU,presence,foot,G1,1,1,19
+G0_G5,%MNAU,presence,hands,G4,1,1,7
+G0_G5,%MNAU,presence,humerus,G2,1,1,5
+G0_G5,%MNAU,presence,hyoid,G3,0.46153846153846156,0,13
+G0_G5,%MNAU,presence,legs,G2,1,1,5
+G0_G5,%MNAU,presence,pelvic,G3,1,1,13
+G0_G5,%MNAU,presence,radius,G2,1,1,5
+G0_G5,%MNAU,presence,ribs,G4,1,1,7
+G0_G5,%MNAU,presence,scapula,G3,1,1,13
+G0_G5,%MNAU,presence,shoulder_indet,G0,0,0,26
+G0_G5,%MNAU,presence,sternum,G2,0.6,1,5
+G0_G5,%MNAU,presence,thorax_indet,G3,0.07692307692307693,0,13
+G0_G5,%MNAU,presence,ulna,G2,1,1,5
+G0_G5,%MNAU,presence,vertebrae,G2,1,1,5
+G0_G5,ReMNAU,abundance,arms_indet,G1,0.003159064760827597,0,19
+G0_G5,ReMNAU,abundance,clavicle,G5,0.06686473285410977,0.06294918321421211,24
+G0_G5,ReMNAU,abundance,cranium,G0,0.6179650003132175,0.9016216216216216,26
+G0_G5,ReMNAU,abundance,foot,G1,0.062071340535315996,0.00585810371013235,19
+G0_G5,ReMNAU,abundance,hands,G3,0.03997436706545979,0.03085289403234334,13
+G0_G5,ReMNAU,abundance,humerus,G5,0.07478933028504638,0.07665450591792208,24
+G0_G5,ReMNAU,abundance,hyoid,G3,0.01832711257170134,0,13
+G0_G5,ReMNAU,abundance,legs,G0,0.18299975644790825,0,26
+G0_G5,ReMNAU,abundance,pelvic,G3,0.1559854076809633,0.09895957740908538,13
+G0_G5,ReMNAU,abundance,radius,G2,0.07295745016096226,0.02766011938769479,5
+G0_G5,ReMNAU,abundance,ribs,G4,0.04121337326212886,0.04068433131650324,7
+G0_G5,ReMNAU,abundance,scapula,G4,0.05962110980506499,0.06317103760903922,7
+G0_G5,ReMNAU,abundance,shoulder_indet,G0,0,0,26
+G0_G5,ReMNAU,abundance,sternum,G2,0.0393330257887471,0.05532023877538958,5
+G0_G5,ReMNAU,abundance,thorax_indet,G3,9.506400822514924e-6,0,13
+G0_G5,ReMNAU,abundance,ulna,G5,0.0635907238155443,0.07015741168421555,24
+G0_G5,ReMNAU,abundance,vertebrae,G4,0.04604224188930742,0.04719382432714375,7
+G0_G5,ReMNAU,presence,arms_indet,G1,0.05263157894736842,0,19
+G0_G5,ReMNAU,presence,clavicle,G3,1,1,13
+G0_G5,ReMNAU,presence,cranium,G4,1,1,7
+G0_G5,ReMNAU,presence,foot,G1,1,1,19
+G0_G5,ReMNAU,presence,hands,G4,1,1,7
+G0_G5,ReMNAU,presence,humerus,G2,1,1,5
+G0_G5,ReMNAU,presence,hyoid,G3,0.46153846153846156,0,13
+G0_G5,ReMNAU,presence,legs,G2,1,1,5
+G0_G5,ReMNAU,presence,pelvic,G3,1,1,13
+G0_G5,ReMNAU,presence,radius,G2,1,1,5
+G0_G5,ReMNAU,presence,ribs,G4,1,1,7
+G0_G5,ReMNAU,presence,scapula,G3,1,1,13
+G0_G5,ReMNAU,presence,shoulder_indet,G0,0,0,26
+G0_G5,ReMNAU,presence,sternum,G2,0.6,1,5
+G0_G5,ReMNAU,presence,thorax_indet,G3,0.07692307692307693,0,13
+G0_G5,ReMNAU,presence,ulna,G2,1,1,5
+G0_G5,ReMNAU,presence,vertebrae,G2,1,1,5
+four_class,%MNAU,abundance,arms_indet,Cannibalism,0.005681818181818182,0,22
+four_class,%MNAU,abundance,clavicle,Funerary Context,0.5052437457232275,0.5,48
+four_class,%MNAU,abundance,cranium,Geological transport,0.8791666666666667,1,12
+four_class,%MNAU,abundance,foot,Funerary Context,0.1786287004229587,0.14963549522373054,48
+four_class,%MNAU,abundance,hands,Funerary Context,0.27625372404869614,0.22325102880658437,48
+four_class,%MNAU,abundance,humerus,Funerary Context,0.6056692948903236,0.5361111111111111,48
+four_class,%MNAU,abundance,hyoid,Funerary Context,0.07878154030599581,0,48
+four_class,%MNAU,abundance,legs,Funerary Context,0.5117820206276539,0.5,48
+four_class,%MNAU,abundance,pelvic,Funerary Context,0.6902905484481489,0.8405311491685282,48
+four_class,%MNAU,abundance,radius,Funerary Context,0.5361845389440282,0.5,48
+four_class,%MNAU,abundance,ribs,Funerary Context,0.2849282118567475,0.1764705882352941,48
+four_class,%MNAU,abundance,scapula,Funerary Context,0.42152385520597246,0.33095238095238094,48
+four_class,%MNAU,abundance,shoulder_indet,Geological transport,0,0,12
+four_class,%MNAU,abundance,sternum,Funerary Context,0.1441144920369331,0,48
+four_class,%MNAU,abundance,thorax_indet,Funerary Context,2.1097046413502085e-5,0,48
+four_class,%MNAU,abundance,ulna,Funerary Context,0.537503738505673,0.5,48
+four_class,%MNAU,abundance,vertebrae,Funerary Context,0.3578036938006947,0.31671940928270037,48
+four_class,%MNAU,presence,arms_indet,Cannibalism,0.045454545454545456,0,22
+four_class,%MNAU,presence,clavicle,Funerary Context,0.9166666666666666,1,48
+four_class,%MNAU,presence,cranium,Cannibalism,1,1,22
+four_class,%MNAU,presence,foot,Cannibalism,0.9545454545454546,1,22
+four_class,%MNAU,presence,hands,Cannibalism,0.8636363636363636,1,22
+four_class,%MNAU,presence,humerus,Funerary Context,0.9583333333333334,1,48
+four_class,%MNAU,presence,hyoid,Funerary Context,0.20833333333333334,0,48
+four_class,%MNAU,presence,legs,Funerary Context,1,1,48
+four_class,%MNAU,presence,pelvic,Funerary Context,0.875,1,48
+four_class,%MNAU,presence,radius,Funerary Context,0.9166666666666666,1,48
+four_class,%MNAU,presence,ribs,Cannibalism,0.8636363636363636,1,22
+four_class,%MNAU,presence,scapula,Funerary Context,0.8333333333333334,1,48
+four_class,%MNAU,presence,shoulder_indet,Geological transport,0,0,12
+four_class,%MNAU,presence,sternum,Funerary Context,0.375,0,48
+four_class,%MNAU,presence,thorax_indet,Funerary Context,0.020833333333333332,0,48
+four_class,%MNAU,presence,ulna,Funerary Context,0.8958333333333334,1,48
+four_class,%MNAU,presence,vertebrae,Funerary Context,0.8958333333333334,1,48
+four_class,ReMNAU,abundance,arms_indet,Cannibalism,0.0027282832025329246,0,22
+four_class,ReMNAU,abundance,clavicle,Funerary Context,0.056128357214037215,0.054215127232535354,48
+four_class,ReMNAU,abundance,cranium,Geological transport,0.8556965800018638,1,12
+four_class,ReMNAU,abundance,foot,Carnivore,0.061917903316349485,0,17
+four_class,ReMNAU,abundance,hands,Funerary Context,0.03243373953967024,0.03091686240470557,48
+four_class,ReMNAU,abundance,humerus,Funerary Context,0.07020592850001765,0.07145659447382308,48
+four_class,ReMNAU,abundance,hyoid,Funerary Context,0.008927728246561196,0,48
+four_class,ReMNAU,abundance,legs,Carnivore,0.2567207159439397,0,17
+four_class,ReMNAU,abundance,pelvic,Funerary Context,0.0939159678097584,0.0762851749103843,48
+four_class,ReMNAU,abundance,radius,Funerary Context,0.06008981573318208,0.06232558933566147,48
+four_class,ReMNAU,abundance,ribs,Cannibalism,0.032946041412773214,0.02700193021232782,22
+four_class,ReMNAU,abundance,scapula,Funerary Context,0.04416026435606968,0.04398262044328935,48
+four_class,ReMNAU,abundance,shoulder_indet,Geological transport,0,0,12
+four_class,ReMNAU,abundance,sternum,Funerary Context,0.015797146254281354,0,48
+four_class,ReMNAU,abundance,thorax_indet,Funerary Context,2.5746502227644584e-6,0,48
+four_class,ReMNAU,abundance,ulna,Funerary Context,0.059445980956493,0.0668426191481088,48
+four_class,ReMNAU,abundance,vertebrae,Funerary Context,0.038357233585548926,0.03632196704310729,48
+four_class,ReMNAU,presence,arms_indet,Cannibalism,0.045454545454545456,0,22
+four_class,ReMNAU,presence,clavicle,Funerary Context,0.9166666666666666,1,48
+four_class,ReMNAU,presence,cranium,Cannibalism,1,1,22
+four_class,ReMNAU,presence,foot,Cannibalism,0.9545454545454546,1,22
+four_class,ReMNAU,presence,hands,Cannibalism,0.8636363636363636,1,22
+four_class,ReMNAU,presence,humerus,Funerary Context,0.9583333333333334,1,48
+four_class,ReMNAU,presence,hyoid,Funerary Context,0.20833333333333334,0,48
+four_class,ReMNAU,presence,legs,Funerary Context,1,1,48
+four_class,ReMNAU,presence,pelvic,Funerary Context,0.875,1,48
+four_class,ReMNAU,presence,radius,Funerary Context,0.9166666666666666,1,48
+four_class,ReMNAU,presence,ribs,Cannibalism,0.8636363636363636,1,22
+four_class,ReMNAU,presence,scapula,Funerary Context,0.8333333333333334,1,48
+four_class,ReMNAU,presence,shoulder_indet,Geological transport,0,0,12
+four_class,ReMNAU,presence,sternum,Funerary Context,0.375,0,48
+four_class,ReMNAU,presence,thorax_indet,Funerary Context,0.020833333333333332,0,48
+four_class,ReMNAU,presence,ulna,Funerary Context,0.8958333333333334,1,48
+four_class,ReMNAU,presence,vertebrae,Funerary Context,0.8958333333333334,1,48

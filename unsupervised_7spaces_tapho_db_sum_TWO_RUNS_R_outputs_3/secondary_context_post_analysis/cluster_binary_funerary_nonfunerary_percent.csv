@@ -1,0 +1,75 @@
+Run,Feature_space,Cluster,Cluster_name,binary_name,n,known_cluster_n,percent_of_cluster
+Run A: known-reference fit,%MNAU raw,1,C1,Funerary,19,72,26.38888888888889
+Run A: known-reference fit,%MNAU raw,1,C1,Non-funerary,53,72,73.61111111111111
+Run A: known-reference fit,%MNAU raw,2,C2,Funerary,30,31,96.7741935483871
+Run A: known-reference fit,%MNAU raw,2,C2,Non-funerary,1,31,3.225806451612903
+Run A: known-reference fit,C + Heip evenness,1,C1,Funerary,9,57,15.789473684210526
+Run A: known-reference fit,C + Heip evenness,1,C1,Non-funerary,48,57,84.21052631578948
+Run A: known-reference fit,C + Heip evenness,2,C2,Funerary,40,46,86.95652173913044
+Run A: known-reference fit,C + Heip evenness,2,C2,Non-funerary,6,46,13.043478260869565
+Run A: known-reference fit,C only,1,C1,Funerary,20,72,27.77777777777778
+Run A: known-reference fit,C only,1,C1,Non-funerary,52,72,72.22222222222223
+Run A: known-reference fit,C only,2,C2,Funerary,29,31,93.54838709677419
+Run A: known-reference fit,C only,2,C2,Non-funerary,2,31,6.451612903225806
+Run A: known-reference fit,Combined,1,C1,Funerary,8,56,14.285714285714286
+Run A: known-reference fit,Combined,1,C1,Non-funerary,48,56,85.71428571428571
+Run A: known-reference fit,Combined,2,C2,Funerary,41,47,87.23404255319149
+Run A: known-reference fit,Combined,2,C2,Non-funerary,6,47,12.76595744680851
+Run A: known-reference fit,Engineered,1,C1,Funerary,7,54,12.962962962962964
+Run A: known-reference fit,Engineered,1,C1,Non-funerary,47,54,87.03703703703704
+Run A: known-reference fit,Engineered,2,C2,Funerary,42,49,85.71428571428571
+Run A: known-reference fit,Engineered,2,C2,Non-funerary,7,49,14.285714285714286
+Run A: known-reference fit,Heip evenness only,1,C1,Funerary,3,38,7.894736842105263
+Run A: known-reference fit,Heip evenness only,1,C1,Non-funerary,35,38,92.10526315789474
+Run A: known-reference fit,Heip evenness only,2,C2,Funerary,12,25,48
+Run A: known-reference fit,Heip evenness only,2,C2,Non-funerary,13,25,52
+Run A: known-reference fit,Heip evenness only,3,C3,Funerary,34,40,85
+Run A: known-reference fit,Heip evenness only,3,C3,Non-funerary,6,40,15
+Run A: known-reference fit,ReMNAU raw,1,C1,Funerary,1,10,10
+Run A: known-reference fit,ReMNAU raw,1,C1,Non-funerary,9,10,90
+Run A: known-reference fit,ReMNAU raw,2,C2,Funerary,1,27,3.7037037037037037
+Run A: known-reference fit,ReMNAU raw,2,C2,Non-funerary,26,27,96.29629629629629
+Run A: known-reference fit,ReMNAU raw,3,C3,Funerary,2,8,25
+Run A: known-reference fit,ReMNAU raw,3,C3,Non-funerary,6,8,75
+Run A: known-reference fit,ReMNAU raw,4,C4,Non-funerary,1,1,100
+Run A: known-reference fit,ReMNAU raw,5,C5,Funerary,39,51,76.47058823529412
+Run A: known-reference fit,ReMNAU raw,5,C5,Non-funerary,12,51,23.529411764705884
+Run A: known-reference fit,ReMNAU raw,6,C6,Funerary,1,1,100
+Run A: known-reference fit,ReMNAU raw,7,C7,Funerary,5,5,100
+Run B: all contexts in fit,%MNAU raw,1,C1,Funerary,19,72,26.38888888888889
+Run B: all contexts in fit,%MNAU raw,1,C1,Non-funerary,53,72,73.61111111111111
+Run B: all contexts in fit,%MNAU raw,2,C2,Funerary,30,31,96.7741935483871
+Run B: all contexts in fit,%MNAU raw,2,C2,Non-funerary,1,31,3.225806451612903
+Run B: all contexts in fit,C + Heip evenness,1,C1,Funerary,8,55,14.545454545454545
+Run B: all contexts in fit,C + Heip evenness,1,C1,Non-funerary,47,55,85.45454545454545
+Run B: all contexts in fit,C + Heip evenness,2,C2,Funerary,41,48,85.41666666666667
+Run B: all contexts in fit,C + Heip evenness,2,C2,Non-funerary,7,48,14.583333333333334
+Run B: all contexts in fit,C only,1,C1,Funerary,20,72,27.77777777777778
+Run B: all contexts in fit,C only,1,C1,Non-funerary,52,72,72.22222222222223
+Run B: all contexts in fit,C only,2,C2,Funerary,29,31,93.54838709677419
+Run B: all contexts in fit,C only,2,C2,Non-funerary,2,31,6.451612903225806
+Run B: all contexts in fit,Combined,1,C1,Funerary,8,56,14.285714285714286
+Run B: all contexts in fit,Combined,1,C1,Non-funerary,48,56,85.71428571428571
+Run B: all contexts in fit,Combined,2,C2,Funerary,41,47,87.23404255319149
+Run B: all contexts in fit,Combined,2,C2,Non-funerary,6,47,12.76595744680851
+Run B: all contexts in fit,Engineered,1,C1,Funerary,7,54,12.962962962962964
+Run B: all contexts in fit,Engineered,1,C1,Non-funerary,47,54,87.03703703703704
+Run B: all contexts in fit,Engineered,2,C2,Funerary,42,49,85.71428571428571
+Run B: all contexts in fit,Engineered,2,C2,Non-funerary,7,49,14.285714285714286
+Run B: all contexts in fit,Heip evenness only,1,C1,Funerary,3,38,7.894736842105263
+Run B: all contexts in fit,Heip evenness only,1,C1,Non-funerary,35,38,92.10526315789474
+Run B: all contexts in fit,Heip evenness only,2,C2,Funerary,10,23,43.47826086956522
+Run B: all contexts in fit,Heip evenness only,2,C2,Non-funerary,13,23,56.52173913043478
+Run B: all contexts in fit,Heip evenness only,3,C3,Funerary,36,42,85.71428571428571
+Run B: all contexts in fit,Heip evenness only,3,C3,Non-funerary,6,42,14.285714285714286
+Run B: all contexts in fit,ReMNAU raw,1,C1,Non-funerary,1,1,100
+Run B: all contexts in fit,ReMNAU raw,2,C2,Non-funerary,4,4,100
+Run B: all contexts in fit,ReMNAU raw,3,C3,Funerary,1,26,3.8461538461538463
+Run B: all contexts in fit,ReMNAU raw,3,C3,Non-funerary,25,26,96.15384615384616
+Run B: all contexts in fit,ReMNAU raw,4,C4,Funerary,3,15,20
+Run B: all contexts in fit,ReMNAU raw,4,C4,Non-funerary,12,15,80
+Run B: all contexts in fit,ReMNAU raw,5,C5,Non-funerary,1,1,100
+Run B: all contexts in fit,ReMNAU raw,6,C6,Funerary,39,50,78
+Run B: all contexts in fit,ReMNAU raw,6,C6,Non-funerary,11,50,22
+Run B: all contexts in fit,ReMNAU raw,7,C7,Funerary,5,5,100
+Run B: all contexts in fit,ReMNAU raw,8,C8,Funerary,1,1,100

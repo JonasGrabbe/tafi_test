@@ -1,0 +1,145 @@
+Task,Feature_space,variable
+4class,C only,Mean_part_abundance
+4class,Heip evenness only,mnau_heip_evenness
+4class,C + Heip evenness,Mean_part_abundance
+4class,C + Heip evenness,mnau_heip_evenness
+4class,%MNAU raw,ProportionalRep_MNIbased_cranium
+4class,%MNAU raw,ProportionalRep_MNIbased_hyoid
+4class,%MNAU raw,ProportionalRep_MNIbased_vertebrae
+4class,%MNAU raw,ProportionalRep_MNIbased_thorax_indet
+4class,%MNAU raw,ProportionalRep_MNIbased_sternum
+4class,%MNAU raw,ProportionalRep_MNIbased_ribs
+4class,%MNAU raw,ProportionalRep_MNIbased_clavicle_right
+4class,%MNAU raw,ProportionalRep_MNIbased_clavicle_left
+4class,%MNAU raw,ProportionalRep_MNIbased_scapula_right
+4class,%MNAU raw,ProportionalRep_MNIbased_scapula_left
+4class,%MNAU raw,ProportionalRep_MNIbased_arms_indet
+4class,%MNAU raw,ProportionalRep_MNIbased_humerus_right
+4class,%MNAU raw,ProportionalRep_MNIbased_humerus_left
+4class,%MNAU raw,ProportionalRep_MNIbased_radius_right
+4class,%MNAU raw,ProportionalRep_MNIbased_radius_left
+4class,%MNAU raw,ProportionalRep_MNIbased_ulna_right
+4class,%MNAU raw,ProportionalRep_MNIbased_ulna_left
+4class,%MNAU raw,ProportionalRep_MNIbased_hands
+4class,%MNAU raw,ProportionalRep_MNIbased_pelvic
+4class,%MNAU raw,ProportionalRep_MNIbased_legs
+4class,%MNAU raw,ProportionalRep_MNIbased_foot
+4class,ReMNAU raw,ReMNAU_cranium
+4class,ReMNAU raw,ReMNAU_hyoid
+4class,ReMNAU raw,ReMNAU_vertebrae
+4class,ReMNAU raw,ReMNAU_thorax_indet
+4class,ReMNAU raw,ReMNAU_sternum
+4class,ReMNAU raw,ReMNAU_ribs
+4class,ReMNAU raw,ReMNAU_clavicle_right
+4class,ReMNAU raw,ReMNAU_clavicle_left
+4class,ReMNAU raw,ReMNAU_scapula_right
+4class,ReMNAU raw,ReMNAU_scapula_left
+4class,ReMNAU raw,ReMNAU_arms_indet
+4class,ReMNAU raw,ReMNAU_humerus_right
+4class,ReMNAU raw,ReMNAU_humerus_left
+4class,ReMNAU raw,ReMNAU_radius_right
+4class,ReMNAU raw,ReMNAU_radius_left
+4class,ReMNAU raw,ReMNAU_ulna_right
+4class,ReMNAU raw,ReMNAU_ulna_left
+4class,ReMNAU raw,ReMNAU_hands
+4class,ReMNAU raw,ReMNAU_pelvic
+4class,ReMNAU raw,ReMNAU_legs
+4class,ReMNAU raw,ReMNAU_foot
+4class,Engineered,mnau_proximal_appendicular_mean
+4class,Engineered,mnau_lower_appendicular_mean
+4class,Engineered,mnau_distal_appendicular_mean
+4class,Engineered,mnau_appendicular_mean
+4class,Engineered,mnau_postcranial_total_mean
+4class,Engineered,mnau_top2_share_mcnaughton
+4class,Engineered,mnau_upper_appendicular_mean
+4class,Engineered,low_density_survival_index
+4class,Engineered,mnau_vertebrae_to_thorax_ratio
+4class,Engineered,all_sections_dominance
+4class,Engineered,mnau_lower_upper_appendicular_diff
+4class,Engineered,mnau_heip_evenness
+4class,Engineered,mnau_girdle_appendicular_logratio
+4class,Engineered,postcranial_continuity_hm
+4class,Engineered,mnau_girdle_to_appendicular_ratio
+4class,Engineered,mnau_gini
+4class,Engineered,density_representation_r2
+4class,Engineered,mnau_cv
+4class,Engineered,mnau_girdle_appendicular_diff
+4class,Engineered,mnau_full_axial_mean
+4class,Engineered,mnau_arms
+4class,Engineered,dominance_gap_all
+4class,Engineered,mnau_girdle_share_of_appendicular
+4class,Engineered,section_completeness_025_all
+4class,Engineered,whole_body_continuity_hm
+4class,Engineered,density_representation_slope
+4class,Engineered,mnau_limb_shaft_proxy_mean
+4class,Engineered,density_residual_sd
+4class,Combined,ProportionalRep_MNIbased_cranium
+4class,Combined,ProportionalRep_MNIbased_hyoid
+4class,Combined,ProportionalRep_MNIbased_vertebrae
+4class,Combined,ProportionalRep_MNIbased_thorax_indet
+4class,Combined,ProportionalRep_MNIbased_sternum
+4class,Combined,ProportionalRep_MNIbased_ribs
+4class,Combined,ProportionalRep_MNIbased_clavicle_right
+4class,Combined,ProportionalRep_MNIbased_clavicle_left
+4class,Combined,ProportionalRep_MNIbased_scapula_right
+4class,Combined,ProportionalRep_MNIbased_scapula_left
+4class,Combined,ProportionalRep_MNIbased_arms_indet
+4class,Combined,ProportionalRep_MNIbased_humerus_right
+4class,Combined,ProportionalRep_MNIbased_humerus_left
+4class,Combined,ProportionalRep_MNIbased_radius_right
+4class,Combined,ProportionalRep_MNIbased_radius_left
+4class,Combined,ProportionalRep_MNIbased_ulna_right
+4class,Combined,ProportionalRep_MNIbased_ulna_left
+4class,Combined,ProportionalRep_MNIbased_hands
+4class,Combined,ProportionalRep_MNIbased_pelvic
+4class,Combined,ProportionalRep_MNIbased_legs
+4class,Combined,ProportionalRep_MNIbased_foot
+4class,Combined,ReMNAU_cranium
+4class,Combined,ReMNAU_hyoid
+4class,Combined,ReMNAU_vertebrae
+4class,Combined,ReMNAU_thorax_indet
+4class,Combined,ReMNAU_sternum
+4class,Combined,ReMNAU_ribs
+4class,Combined,ReMNAU_clavicle_right
+4class,Combined,ReMNAU_clavicle_left
+4class,Combined,ReMNAU_scapula_right
+4class,Combined,ReMNAU_scapula_left
+4class,Combined,ReMNAU_arms_indet
+4class,Combined,ReMNAU_humerus_right
+4class,Combined,ReMNAU_humerus_left
+4class,Combined,ReMNAU_radius_right
+4class,Combined,ReMNAU_radius_left
+4class,Combined,ReMNAU_ulna_right
+4class,Combined,ReMNAU_ulna_left
+4class,Combined,ReMNAU_hands
+4class,Combined,ReMNAU_pelvic
+4class,Combined,ReMNAU_legs
+4class,Combined,ReMNAU_foot
+4class,Combined,mnau_proximal_appendicular_mean
+4class,Combined,mnau_lower_appendicular_mean
+4class,Combined,mnau_distal_appendicular_mean
+4class,Combined,mnau_appendicular_mean
+4class,Combined,mnau_postcranial_total_mean
+4class,Combined,mnau_top2_share_mcnaughton
+4class,Combined,mnau_upper_appendicular_mean
+4class,Combined,low_density_survival_index
+4class,Combined,mnau_vertebrae_to_thorax_ratio
+4class,Combined,all_sections_dominance
+4class,Combined,mnau_lower_upper_appendicular_diff
+4class,Combined,mnau_heip_evenness
+4class,Combined,mnau_girdle_appendicular_logratio
+4class,Combined,postcranial_continuity_hm
+4class,Combined,mnau_girdle_to_appendicular_ratio
+4class,Combined,mnau_gini
+4class,Combined,density_representation_r2
+4class,Combined,mnau_cv
+4class,Combined,mnau_girdle_appendicular_diff
+4class,Combined,mnau_full_axial_mean
+4class,Combined,mnau_arms
+4class,Combined,dominance_gap_all
+4class,Combined,mnau_girdle_share_of_appendicular
+4class,Combined,section_completeness_025_all
+4class,Combined,whole_body_continuity_hm
+4class,Combined,density_representation_slope
+4class,Combined,mnau_limb_shaft_proxy_mean
+4class,Combined,density_residual_sd

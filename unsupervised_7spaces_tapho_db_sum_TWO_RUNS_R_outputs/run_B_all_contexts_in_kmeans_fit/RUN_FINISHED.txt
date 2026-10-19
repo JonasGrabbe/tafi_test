@@ -1,0 +1,5 @@
+Run completed: 2026-09-08 19:08:21.1649
+Run label: RUN B: known + Unknown + Sepulchral included in k-selection and K-means
+Fit rows: 150
+Projection rows: 0
+Output directory: C:/Users/jonas.grabbe/tafi_test-2/unsupervised_7spaces_tapho_db_sum_TWO_RUNS_R_outputs/run_B_all_contexts_in_kmeans_fit

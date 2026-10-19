@@ -1,0 +1,2 @@
+rank,cost,.metric,.estimator,mean,n,std_err,.config
+1,1.8335724987436168,accuracy,multiclass,0.7072030791788857,3,0.06479969655942054,pre0_mod1_post0

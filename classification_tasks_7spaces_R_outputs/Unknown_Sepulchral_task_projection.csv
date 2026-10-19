@@ -1,0 +1,988 @@
+Task,Feature_space,record_id,site_name,layer_name,special_type,taphonomic_context,Nearest_task_centroid,Distance_to_nearest_centroid,Distance_ratio_nearest_to_second,PC1,PC2
+4class,C only,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,0.05315198589224246,0.3191573617185763,-0.7359210630360937,NA
+4class,C only,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.2568046701112212,0.41500087443455663,-0.17026791879187456,NA
+4class,C only,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,0.06524143544569727,0.36523645009930555,-0.7238316134826389,NA
+4class,C only,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,0.0569969484413535,0.3345216143404656,-0.7320761004869827,NA
+4class,C only,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.1878615339421613,0.3416521527277962,-0.23921105496093445,NA
+4class,C only,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,0.16878184039800848,0.8735278242005441,-0.6202912085303277,NA
+4class,C only,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Geological transport,0.024043031439909934,0.2691078603512963,-0.8131160803682461,NA
+4class,C only,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Carnivore,0.04042401086040881,0.26281694857219773,-0.9428835664007436,NA
+4class,C only,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Geological transport,0.024043031439909934,0.2691078603512963,-0.8131160803682461,NA
+4class,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Geological transport,0.022120550165354302,0.2423746052372374,-0.8111935990936905,NA
+4class,C only,19,Ceprano,NA,Unknown,Unknown,Geological transport,0.024043031439909934,0.2691078603512963,-0.8131160803682461,NA
+4class,C only,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Geological transport,0.14032911753458677,0.6330503345984088,-0.6487439313937494,NA
+4class,C only,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Geological transport,0.024043031439909934,0.2691078603512963,-0.8131160803682461,NA
+4class,C only,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,0.1612545867922487,0.8032772190793268,-0.6278184621360875,NA
+4class,C only,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.08792208430026749,0.1954160452930272,-0.33915050460282825,NA
+4class,C only,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Cannibalism,0.574457729937779,0.9958535129551457,0.14738514103468323,NA
+4class,C only,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,0.09400471297654711,0.45327238618417887,-0.6950683359517891,NA
+4class,C only,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.13040893813987886,0.5630989298668352,-0.5574815270429746,NA
+4class,C only,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.1135317707969058,0.4569258651844611,-0.5406043597000015,NA
+4class,C only,68,Trou de la Naulette,Level 3,Unknown,Unknown,Carnivore,0.010625551104798125,0.08568159661589873,-0.9130851066451329,NA
+4class,C only,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,0.11822058287719839,0.5104359419132231,-0.6708524660511378,NA
+4class,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Geological transport,0.024043031439909934,0.2691078603512963,-0.8131160803682461,NA
+4class,C only,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5603015021744615,0.9480472914657662,0.1639332683133572,NA
+4class,C only,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Geological transport,0.04084071157633873,0.2648087157123289,-0.7482323373519975,NA
+4class,C only,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.0943069580513507,0.3522945359374065,-0.5213795469544464,NA
+4class,C only,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Geological transport,0.024043031439909934,0.2691078603512963,-0.8131160803682461,NA
+4class,C only,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,0.03832377980888446,0.5105567229046433,-0.8641357757314503,NA
+4class,C only,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,0.052375599223671965,0.31596847156125596,-0.7366974497046642,NA
+4class,C only,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.0810270312674865,0.1828939125900621,-0.34604555763560924,NA
+4class,C only,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Cannibalism,0.288747435903836,0.44371628046770656,-0.1383251529992597,NA
+4class,C only,119,Scladina Cave,Layer 4A,Unknown,Unknown,Geological transport,0.024043031439909934,0.2691078603512963,-0.8131160803682461,NA
+4class,C only,122,Sima de los Huesos 89,NA,Unknown,Unknown,Geological transport,0.020452243097771383,0.2200721491125862,-0.8095252920261076,NA
+4class,C only,123,Sima de los Huesos 90,NA,Unknown,Unknown,Geological transport,0.09033932285418034,0.4434357837241145,-0.6987337260741558,NA
+4class,C only,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,0.47137195490877226,0.693259906458,0.25286281557904644,NA
+4class,C only,125,Sima de los Huesos 15,NA,Unknown,Unknown,Cannibalism,0.5697122644839654,0.979568551167226,0.14263967558086968,NA
+4class,C only,126,Sima de los Huesos 24,NA,Unknown,Unknown,Cannibalism,0.554949899391858,0.9305658713361883,0.12787731048876233,NA
+4class,C only,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.03951624172651841,0.12253697850700375,-0.46658883062961415,NA
+4class,C only,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,0.20484950282664294,0.2164380605072743,0.5193852676611758,NA
+4class,C only,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Geological transport,0.024043031439909934,0.2691078603512963,-0.8131160803682461,NA
+4class,C only,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5676808726052555,0.9726783918457428,0.15655389788256324,NA
+4class,C only,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,0.17325777116030694,0.9179575230291026,-0.6158152777680292,NA
+4class,C only,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Cannibalism,0.18368700317455486,0.33661576554728473,-0.24338558572854088,NA
+4class,C only,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.3607923108280887,0.4564015719675638,0.36344245965973,NA
+4class,C only,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.06991855777990613,0.2393799726803272,-0.49699114668300187,NA
+4class,C only,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.13221309520252722,0.26752219522104026,-0.2948594937005685,NA
+4class,C only,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Geological transport,0.13215857211772575,0.5749977661639492,-0.6569144768106104,NA
+4class,C only,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.1678529403692871,0.31679128650359556,-0.25921964853380863,NA
+4class,Heip evenness only,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.043031200283634524,0.0502559253740771,-0.13124605989529317,NA
+4class,Heip evenness only,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.023975669332406524,0.028638409079668678,-0.15030159084652117,NA
+4class,Heip evenness only,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.19437852904879455,0.31410569443796404,-0.36865578922772224,NA
+4class,Heip evenness only,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,0.0018421155783912013,0.006971370173551497,-0.989329503502852,NA
+4class,Heip evenness only,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.32184857155379654,0.5446383598048049,0.14757131137486884,NA
+4class,Heip evenness only,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.39202345118076204,0.9307593829371186,-0.5663007113596897,NA
+4class,Heip evenness only,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Geological transport,0.048172962964408095,0.1532925013455423,-1.3017425702821395,NA
+4class,Heip evenness only,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Geological transport,0.11010474857558683,0.7059016151395617,-1.1434648587421445,NA
+4class,Heip evenness only,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Geological transport,0.048172962964408095,0.1532925013455423,-1.3017425702821395,NA
+4class,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Geological transport,0.02786476809334082,0.09479521573463988,-1.2814343754110722,NA
+4class,Heip evenness only,19,Ceprano,NA,Unknown,Unknown,Geological transport,0.048172962964408095,0.1532925013455423,-1.3017425702821395,NA
+4class,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Carnivore,0.38358530029964466,0.8928378338376115,-0.6039020876248161,NA
+4class,Heip evenness only,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Geological transport,0.048172962964408095,0.1532925013455423,-1.3017425702821395,NA
+4class,Heip evenness only,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.30048763478671336,0.5860629071540414,-0.47476489496564106,NA
+4class,Heip evenness only,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.14845721400984913,0.2233269098070896,-0.3227344741887768,NA
+4class,Heip evenness only,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Cannibalism,0.2935975669781271,0.47416319505237975,0.11932030679919943,NA
+4class,Heip evenness only,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,0.10182052311740597,0.2767593479259023,-0.8856668648070548,NA
+4class,Heip evenness only,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.15204673160583548,0.19986640835383407,0.586464541598283,NA
+4class,Heip evenness only,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,0.1581478664852285,0.3727879557569205,-0.8293395214392323,NA
+4class,Heip evenness only,68,Trou de la Naulette,Level 3,Unknown,Unknown,Carnivore,0.028056494245693564,0.11787168898781177,-1.0155438821701543,NA
+4class,Heip evenness only,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.20104398072098273,0.3284140779397265,-0.3753212408999104,NA
+4class,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Geological transport,0.048172962964408095,0.1532925013455423,-1.3017425702821395,NA
+4class,Heip evenness only,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5318391069143492,0.36814961314519995,1.2703503801184677,NA
+4class,Heip evenness only,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Geological transport,0.12488269816975639,0.884441371242833,-1.128686909147975,NA
+4class,Heip evenness only,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.015659460810089565,0.019634440116839742,-0.18993672098901726,NA
+4class,Heip evenness only,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Geological transport,0.048172962964408095,0.1532925013455423,-1.3017425702821395,NA
+4class,Heip evenness only,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,0.10734566905954246,0.676250484427554,-1.0948330569840032,NA
+4class,Heip evenness only,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.23147503725410856,0.3979045463091603,-0.40575229743303626,NA
+4class,Heip evenness only,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.18780546247330218,0.2590480660984742,0.013528202294374488,NA
+4class,Heip evenness only,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Carnivore,0.15362028990779786,0.36602185239164303,-0.8338670980166629,NA
+4class,Heip evenness only,119,Scladina Cave,Layer 4A,Unknown,Unknown,Geological transport,0.048172962964408095,0.1532925013455423,-1.3017425702821395,NA
+4class,Heip evenness only,122,Sima de los Huesos 89,NA,Unknown,Unknown,Cannibalism,0.3819157246466702,0.8855105048954832,-0.5561929848255979,NA
+4class,Heip evenness only,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,0.007128911053211645,0.008843911637669045,-0.18140617123213934,NA
+4class,Heip evenness only,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,0.14590290766770542,0.1902538041857404,0.592608365536413,NA
+4class,Heip evenness only,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,0.37213549648462474,0.28961673051047965,1.1106467696887432,NA
+4class,Heip evenness only,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,0.35431399848805667,0.2796253575192916,1.0928252716921751,NA
+4class,Heip evenness only,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.4210209281714603,0.8561379881668163,0.31749034503265816,NA
+4class,Heip evenness only,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Cannibalism,0.09904352262761212,0.12171321644806869,-0.07523373755131557,NA
+4class,Heip evenness only,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Geological transport,0.048172962964408095,0.1532925013455423,-1.3017425702821395,NA
+4class,Heip evenness only,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.004075084039274701,0.004484454414334385,0.7344361891648438,NA
+4class,Heip evenness only,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.3173391524679089,0.6399631522902498,-0.4916164126468366,NA
+4class,Heip evenness only,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,0.1920975757239084,0.17386187964583513,0.9306088489280269,NA
+4class,Heip evenness only,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.1999903865735442,0.2805708565162592,0.02571312639461651,NA
+4class,Heip evenness only,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.10809922332618456,0.13433659671525394,-0.06617803685274314,NA
+4class,Heip evenness only,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.21464555569637567,0.35860050146560923,-0.38892281587530336,NA
+4class,Heip evenness only,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Carnivore,5.361310499315541e-4,0.0020189755129752128,-0.9880235189743923,NA
+4class,Heip evenness only,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.22910508420445186,0.3351040375186912,0.05482782402552417,NA
+4class,C + Heip evenness,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.31183178826433233,0.35748767973498685,-0.6131797530468123,-0.42756979513485693
+4class,C + Heip evenness,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.2579214440694493,0.23190242826016866,-0.22667687410695592,-0.014118325885553826
+4class,C + Heip evenness,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.35475192913439524,0.5507743774253843,-0.772505250817375,-0.25114723384417303
+4class,C + Heip evenness,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,0.17039341285895354,0.6303457602863308,-1.2172175757537367,0.18190562575583713
+4class,C + Heip evenness,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.3726640027508977,0.32972171217440055,-0.06479908411590345,-0.2734964340794259
+4class,C + Heip evenness,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.43705356793684713,0.8620919351274179,-0.8390471930553959,-0.03817704666899113
+4class,C + Heip evenness,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Geological transport,0.053839592509516,0.16479387332332304,-1.4954308931259193,0.34551110448549427
+4class,C + Heip evenness,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Carnivore,0.16113060558666015,0.8518309887033328,-1.47527111933641,0.14183239199376596
+4class,C + Heip evenness,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Geological transport,0.053839592509516,0.16479387332332304,-1.4954308931259193,0.34551110448549427
+4class,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Geological transport,0.035577577777493805,0.11559065832812684,-1.4797114312729873,0.3325104417244472
+4class,C + Heip evenness,19,Ceprano,NA,Unknown,Unknown,Geological transport,0.053839592509516,0.16479387332332304,-1.4954308931259193,0.34551110448549427
+4class,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Carnivore,0.45990140306598315,0.9513072635017352,-0.8857544944743607,-0.03170797180992041
+4class,C + Heip evenness,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Geological transport,0.053839592509516,0.16479387332332304,-1.4954308931259193,0.34551110448549427
+4class,C + Heip evenness,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.36137476984398015,0.6212967363005099,-0.779644168630061,-0.10822521523101336
+4class,C + Heip evenness,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.17253937898134875,0.19801872641615073,-0.46802335686905816,-0.011607886425940322
+4class,C + Heip evenness,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Cannibalism,0.6451365861743869,0.7623401263430503,0.18858923074273343,0.019844834600786954
+4class,C + Heip evenness,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,0.23103795551884235,0.6084386512721676,-1.117748579716857,0.1347735122377383
+4class,C + Heip evenness,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.7718384417208097,0.597998372249909,0.020494086131286893,-0.808892022447925
+4class,C + Heip evenness,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,0.3949049637956904,0.8032434822841614,-0.96869660819857,0.20416659083280475
+4class,C + Heip evenness,68,Trou de la Naulette,Level 3,Unknown,Unknown,Carnivore,0.03000115340514949,0.11178034845157439,-1.3637466363842436,0.0724492949658131
+4class,C + Heip evenness,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.3159862507870451,0.48277960080888604,-0.7397565224841541,-0.2089721333568012
+4class,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Geological transport,0.053839592509516,0.16479387332332304,-1.4954308931259193,0.34551110448549427
+4class,C + Heip evenness,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.772522238503469,0.49493848890710945,1.0141916939511253,-0.7823550425782282
+4class,C + Heip evenness,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Geological transport,0.1313912174546692,0.628361653164842,-1.3271823269396756,0.26902200765036
+4class,C + Heip evenness,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.09559822723127219,0.10815296109443029,-0.5029765566311304,-0.23436546981578765
+4class,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Geological transport,0.053839592509516,0.16479387332332304,-1.4954308931259193,0.34551110448549427
+4class,C + Heip evenness,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,0.11398159835991366,0.6491364097851082,-1.3852001457461927,0.1631276119749805
+4class,C + Heip evenness,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.38658536870681176,0.6390995127662292,-0.8078339633659245,-0.23401356137208257
+4class,C + Heip evenness,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.20453916869595698,0.17859571013398862,-0.23512527682400397,-0.2542570439832352
+4class,C + Heip evenness,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Cannibalism,0.7200234967831604,0.929838491679384,-0.6874437333103731,0.49182242592148667
+4class,C + Heip evenness,119,Scladina Cave,Layer 4A,Unknown,Unknown,Geological transport,0.053839592509516,0.16479387332332304,-1.4954308931259193,0.34551110448549427
+4class,C + Heip evenness,122,Sima de los Huesos 89,NA,Unknown,Unknown,Carnivore,0.4411934263782001,0.8162838110273961,-0.9657086547522475,-0.17913299231511393
+4class,C + Heip evenness,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,0.27175465924594217,0.3268532332881854,-0.6223528897781129,-0.36580582212344537
+4class,C + Heip evenness,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,0.49343609347149364,0.48144672943264855,0.597838405464541,-0.2402363822528069
+4class,C + Heip evenness,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,0.6904619338990972,0.49123582402683924,0.8862073442193261,-0.684484380480362
+4class,C + Heip evenness,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,0.6936718457751625,0.5014616986484417,0.8631670736720696,-0.6823212468590668
+4class,C + Heip evenness,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.4933527246258267,0.39060131235169315,-0.10542855023025238,-0.5544277020979509
+4class,C + Heip evenness,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,0.8391330415003835,0.881788663246444,0.31406255881506323,0.42045913080815167
+4class,C + Heip evenness,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Geological transport,0.053839592509516,0.16479387332332304,-1.4954308931259193,0.34551110448549427
+4class,C + Heip evenness,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5676954988651851,0.5256484849889458,0.6300251325212136,-0.40862448689332026
+4class,C + Heip evenness,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.3692261370610372,0.6446447531162935,-0.7830724579932329,-0.08782185974286866
+4class,C + Heip evenness,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,0.9865042485277381,0.8807672630834565,0.48594022959750405,-0.8301394258209263
+4class,C + Heip evenness,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.7989069342844212,0.9797486960927924,0.2751745538356535,0.23881070175737312
+4class,C + Heip evenness,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.12874022994288303,0.12789788333001195,-0.3982207486334167,-0.3046308713850408
+4class,C + Heip evenness,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.2520972374367447,0.2955726932492246,-0.48350710795649815,0.06651281297068998
+4class,C + Heip evenness,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Carnivore,0.24554566403194583,0.8278254563844265,-1.163146811450984,0.2341294490261927
+4class,C + Heip evenness,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.2840136426282097,0.2371225916753615,-0.14452684512889874,-0.22206509746120043
+4class,%MNAU raw,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,1.5234571646381887,0.8194708089972543,-2.0610355573235526,0.08272384508344362
+4class,%MNAU raw,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.627012981537443,0.8934990092936052,-0.7540363634450097,0.19240718759281492
+4class,%MNAU raw,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,1.4653298047342698,0.8310401327959933,-2.1632184393315064,0.3174162918073284
+4class,%MNAU raw,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,1.3965456647906538,0.8054440730239113,-2.584303920388251,-0.5701617762746108
+4class,%MNAU raw,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.4236113801401882,0.5914165362613536,-0.9402097712999942,0.3312684743672762
+4class,%MNAU raw,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.289820303278431,0.9711520807931244,-2.2100778472063687,-0.005855416739349119
+4class,%MNAU raw,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Geological transport,0.38345236843413555,0.34635509929383645,-2.9452017311402754,-0.12304325337937069
+4class,%MNAU raw,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Carnivore,0.22338376348245878,0.23686102018305746,-3.0056468260271973,-0.15332791177673086
+4class,%MNAU raw,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Geological transport,0.38345236843413555,0.34635509929383645,-2.9452017311402754,-0.12304325337937069
+4class,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Geological transport,0.38566487307580954,0.348199083609598,-2.9359949322650056,-0.12651566683727986
+4class,%MNAU raw,19,Ceprano,NA,Unknown,Unknown,Geological transport,0.38345236843413555,0.34635509929383645,-2.9452017311402754,-0.12304325337937069
+4class,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Geological transport,1.4230733706456131,0.9538726416704209,-2.4325110648566564,0.072971448881161
+4class,%MNAU raw,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Geological transport,0.38345236843413555,0.34635509929383645,-2.9452017311402754,-0.12304325337937069
+4class,%MNAU raw,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.2716743083985067,0.910165020972352,-2.090107991667023,0.29758761017349106
+4class,%MNAU raw,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.917546890706842,0.8894964655738133,-1.29653083306824,-0.1193964642972937
+4class,%MNAU raw,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,3.4941247268994227,0.9926660539073404,0.4051180047745411,0.5440146468283681
+4class,%MNAU raw,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,2.4656980527480594,0.9521512382690097,-2.2701952329783097,-0.0338853836257902
+4class,%MNAU raw,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.6412384640871722,0.9333891540865138,-1.685428379561337,-0.045677847131466276
+4class,%MNAU raw,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.5717071579058632,0.9591913410823535,-2.023601064684281,0.44724963641349097
+4class,%MNAU raw,68,Trou de la Naulette,Level 3,Unknown,Unknown,Carnivore,1.1103316075508363,0.6395223668310773,-2.721294360348333,-0.0176798406968457
+4class,%MNAU raw,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,1.331701967586654,0.9546241958819419,-2.2555237122962044,0.0365710270931383
+4class,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Geological transport,0.38345236843413555,0.34635509929383645,-2.9452017311402754,-0.12304325337937069
+4class,%MNAU raw,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.218865513241749,0.7990912836235605,0.7451038702181265,0.14665915108893307
+4class,%MNAU raw,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Geological transport,0.6445083687368868,0.5367522305521167,-2.7268974381554942,-0.051920323888555615
+4class,%MNAU raw,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.5691784587524245,0.9310255956976785,-1.7380756371183108,0.14418027725744956
+4class,%MNAU raw,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Geological transport,0.38345236843413555,0.34635509929383645,-2.9452017311402754,-0.12304325337937069
+4class,%MNAU raw,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,0.5808839283863737,0.8514214570099308,-2.897579392592116,-0.1602621751055395
+4class,%MNAU raw,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,1.377335937981152,0.8720841135732127,-2.322652099605891,0.12112066109665007
+4class,%MNAU raw,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.6687355791688874,0.7466317983492586,-1.295515178938588,0.2819879617427305
+4class,%MNAU raw,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Cannibalism,4.152868507946371,0.9017802211605391,-0.7108927398991332,1.5563132271121534
+4class,%MNAU raw,119,Scladina Cave,Layer 4A,Unknown,Unknown,Geological transport,0.38345236843413555,0.34635509929383645,-2.9452017311402754,-0.12304325337937069
+4class,%MNAU raw,122,Sima de los Huesos 89,NA,Unknown,Unknown,Carnivore,0.5192049629074625,0.5441804797444798,-2.576118257780182,-0.02885674534083567
+4class,%MNAU raw,123,Sima de los Huesos 90,NA,Unknown,Unknown,Geological transport,0.7911425446046808,0.9816762192460342,-2.3271362201522643,0.027657843121184467
+4class,%MNAU raw,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,2.9540452284928724,0.8908141746510253,0.6251050002699684,0.5956370282332822
+4class,%MNAU raw,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,2.8775603280779682,0.8525478040082206,0.6540722398582958,-0.3585364884500452
+4class,%MNAU raw,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,2.91988162797215,0.8872467999151633,0.563448266898759,-0.3311440356348398
+4class,%MNAU raw,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.471465575085758,0.9121891603524841,-1.171043725437662,-1.063006168024661
+4class,%MNAU raw,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,3.7937134852548295,0.779675335320436,1.6053987217500223,2.060328686256998
+4class,%MNAU raw,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Geological transport,0.38345236843413555,0.34635509929383645,-2.9452017311402754,-0.12304325337937069
+4class,%MNAU raw,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.695604261449945,0.9524912110338796,0.49385755187717806,0.37714241479779487
+4class,%MNAU raw,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.4837291670800097,0.9281931007247878,-2.0373316218096176,0.11538129126422608
+4class,%MNAU raw,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Cannibalism,1.7600271793526687,0.6898153489511948,-0.6772084208931641,-0.0869724377860821
+4class,%MNAU raw,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,6.113339676816905,0.9897242120244191,0.8046160068655784,-2.2822517644744806
+4class,%MNAU raw,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.28145157043563,0.922862756174085,-1.610185269250255,0.16544297515790157
+4class,%MNAU raw,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.210165794396941,0.9433075753002417,-0.7337568026418955,-0.2511414791255536
+4class,%MNAU raw,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Geological transport,0.7234804251381605,0.6028935163017891,-2.3473386453795158,-0.17465187371291574
+4class,%MNAU raw,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.146536839341688,0.9171080362307787,-0.47332436310461723,-1.1409660799865933
+4class,ReMNAU raw,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,6.956933761935214,0.9089082443121203,-2.9797215162664408,1.797748535462086
+4class,ReMNAU raw,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,6.253658115185977,0.919151733058435,0.0042812234599296575,0.9164340541579424
+4class,ReMNAU raw,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.3944678015119445,0.9068616173899559,0.04977306298581344,1.4362380032095763
+4class,ReMNAU raw,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,8.824170888013802,0.9303408825830863,0.35763454402689165,-1.7305256496411812
+4class,ReMNAU raw,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.4980502556743,0.8150092158393692,-0.7536756854600636,1.1818872674078331
+4class,ReMNAU raw,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.6649205193127674,0.8511423720319499,0.49826993539538994,0.6160823208487968
+4class,ReMNAU raw,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Geological transport,0.9493054046994397,0.38869811207102195,3.4229243281799153,-0.27450459261231164
+4class,ReMNAU raw,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Geological transport,0.9398511414363355,0.4849468479051975,3.3607949644485906,-0.21714363206619364
+4class,ReMNAU raw,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Geological transport,0.9493054046994397,0.38869811207102195,3.4229243281799153,-0.27450459261231164
+4class,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Geological transport,0.9956236670753205,0.4101609588761814,3.334778321401712,-0.4066670475829597
+4class,ReMNAU raw,19,Ceprano,NA,Unknown,Unknown,Geological transport,0.9493054046994397,0.38869811207102195,3.4229243281799153,-0.27450459261231164
+4class,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Carnivore,3.0169730624495767,0.8926621170448523,2.4025811848749554,-0.6350805421900821
+4class,ReMNAU raw,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Geological transport,0.9493054046994397,0.38869811207102195,3.4229243281799153,-0.27450459261231164
+4class,ReMNAU raw,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.425751198294969,0.8594589486652154,0.3870857784832066,1.0095138179530174
+4class,ReMNAU raw,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,8.760612351214785,0.9906842707534507,-1.2815336314342598,0.023255237493856294
+4class,ReMNAU raw,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,2.7715845910721,0.8382804223443389,-1.607078763954265,0.8650513522703178
+4class,ReMNAU raw,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,6.847847655616291,0.9682302166273989,1.7273766961863648,1.376264340706775
+4class,ReMNAU raw,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.7064118708838625,0.961965115423682,-0.4310274149363081,0.3327575318231255
+4class,ReMNAU raw,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.018008544535448,0.9547771280991413,1.212571633862173,1.5026678010707641
+4class,ReMNAU raw,68,Trou de la Naulette,Level 3,Unknown,Unknown,Funerary Context,15.268862402008802,0.9550970295842945,-5.105128916461065,4.194218364654672
+4class,ReMNAU raw,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.742224822709493,0.8679862532223942,1.3448055001154413,0.39600634874327806
+4class,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Geological transport,0.9493054046994397,0.38869811207102195,3.4229243281799153,-0.27450459261231164
+4class,ReMNAU raw,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,1.944310465702378,0.6231604437338396,-2.063468255300808,0.23429265141185368
+4class,ReMNAU raw,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Cannibalism,3.8467246510400472,0.9892516528239369,1.8628223167857723,0.11138717101109746
+4class,ReMNAU raw,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,4.7955316725551524,0.983605072343249,1.4796774851444727,0.5921249181750756
+4class,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Geological transport,0.9493054046994397,0.38869811207102195,3.4229243281799153,-0.27450459261231164
+4class,ReMNAU raw,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,2.837399101873857,0.8568710848388846,2.6772439759727007,-1.3978818935769084
+4class,ReMNAU raw,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.2775374801974175,0.944783530217455,1.097524954438621,-0.564518074549739
+4class,ReMNAU raw,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,3.5150863750859416,0.9401227850228264,-0.5458385903365272,0.10646290327708714
+4class,ReMNAU raw,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Funerary Context,8.37069338552049,0.9580270638623396,-1.9509961030975271,3.0017049908098103
+4class,ReMNAU raw,119,Scladina Cave,Layer 4A,Unknown,Unknown,Geological transport,0.9493054046994397,0.38869811207102195,3.4229243281799153,-0.27450459261231164
+4class,ReMNAU raw,122,Sima de los Huesos 89,NA,Unknown,Unknown,Cannibalism,2.713377894383763,0.9340072687777706,-0.254339783918633,1.3642642780648289
+4class,ReMNAU raw,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,1.7569218189928606,0.6396630962693721,0.6773683184633291,0.02760136476352009
+4class,ReMNAU raw,124,Sima de los Huesos 95,NA,Unknown,Unknown,Cannibalism,2.013079741597893,0.984475150296342,-0.4390308897145137,-0.3551164912089348
+4class,ReMNAU raw,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,2.128221916696449,0.6677073294506894,-1.6651372649745442,-1.6653555513422622
+4class,ReMNAU raw,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,2.0846715754749066,0.6764296515280126,-1.5518204217012892,-1.633629784297947
+4class,ReMNAU raw,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,12.465972619035872,0.9916613650105417,-4.359129164272906,-0.7502261934554249
+4class,ReMNAU raw,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,3.961546052116482,0.8873027781228345,-1.9587889893894186,2.3935365234202437
+4class,ReMNAU raw,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Geological transport,0.9493054046994397,0.38869811207102195,3.4229243281799153,-0.27450459261231164
+4class,ReMNAU raw,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.6823877526549182,0.8649717078508626,-0.9825604420130682,0.12705958265007822
+4class,ReMNAU raw,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,5.027986042422177,0.9643453169467242,-0.1345179770364312,0.7241923548904637
+4class,ReMNAU raw,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,2.700056717014866,0.7178622785249673,-1.5618361426489284,-0.7052765548613992
+4class,ReMNAU raw,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,8.123215752267896,0.96561841802009,-0.9916968704368518,-2.9380997978374075
+4class,ReMNAU raw,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,5.1463706800183,0.9794708055841701,0.13892243425269957,-1.8654371589428174
+4class,ReMNAU raw,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,7.7274303532520765,0.9521556511906953,-1.8326226159305437,-0.4707586879425927
+4class,ReMNAU raw,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Cannibalism,3.045025814387316,0.8428430975103003,0.2887627870204999,0.5166058171836466
+4class,ReMNAU raw,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,10.617615133268675,0.9292419099739374,-4.316320141358111,-3.155795816335015
+4class,Engineered,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,4.353068232830988,0.8286591852571978,-2.2356024091740347,3.5221023817148307
+4class,Engineered,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.255015385122289,0.3688453966309938,-1.3611232393612842,-0.012608838112494303
+4class,Engineered,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.4268768819539144,0.7893744626100035,-1.6278433377294552,0.576473069120077
+4class,Engineered,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,2.7781843466636524,0.8921784507532979,-4.189194679564214,1.2156588547422347
+4class,Engineered,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.722607439177094,0.4271055419944567,-0.2794551599177428,-1.330225410628853
+4class,Engineered,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.9693484795551781,0.6064112325773631,-2.2343280221768396,-1.8112231947872437
+4class,Engineered,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Geological transport,0.8227719044472499,0.29733659313420924,-4.343552157518335,-1.2663775551651064
+4class,Engineered,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Carnivore,2.4021695834715895,0.743610696330878,-4.851299960551112,1.8441656742914558
+4class,Engineered,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Geological transport,0.8227719044472499,0.29733659313420924,-4.343552157518335,-1.2663775551651064
+4class,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Geological transport,2.556393766144186,0.9042734939265364,-4.903290177059085,0.7284675619293266
+4class,Engineered,19,Ceprano,NA,Unknown,Unknown,Geological transport,0.8227719044472499,0.29733659313420924,-4.343552157518335,-1.2663775551651064
+4class,Engineered,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Cannibalism,2.598506643941396,0.5749527613131565,-0.9860468895002379,-2.4948613831150293
+4class,Engineered,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Geological transport,0.8227719044472499,0.29733659313420924,-4.343552157518335,-1.2663775551651064
+4class,Engineered,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,3.8258692032429495,0.8247375394526703,-2.905173677462929,2.3964695263884006
+4class,Engineered,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.5487781020446536,0.5264858317518044,-1.947158814118866,-0.01776383154432188
+4class,Engineered,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,4.884180686536903,0.7862552194750954,2.7977502832205836,-3.0405986874601942
+4class,Engineered,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,2.783919269193668,0.7896726570156763,-4.278756644100454,2.066812116451838
+4class,Engineered,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.8169432596136597,0.6657799976677149,-0.05732942206775743,0.3304547966902969
+4class,Engineered,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,2.6629295795127663,0.9112781130681753,-2.8501188141833844,0.3093596166083402
+4class,Engineered,68,Trou de la Naulette,Level 3,Unknown,Unknown,Carnivore,2.482624269507034,0.5962922921536263,-4.377715027174636,2.5786932472207162
+4class,Engineered,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.7528503987756308,0.5719384949875369,-0.7472857418944939,-1.8914708689039137
+4class,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Geological transport,0.8227719044472499,0.29733659313420924,-4.343552157518335,-1.2663775551651064
+4class,Engineered,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.5962198197713926,0.646876176290153,1.9862010153871028,1.2249490132434109
+4class,Engineered,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Geological transport,1.1017092688084096,0.40865355063510406,-3.775793907121951,-1.372186185321487
+4class,Engineered,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.397061974358979,0.57450783621897,-0.18172862696636702,-1.1368482357556002
+4class,Engineered,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Geological transport,0.8227719044472499,0.29733659313420924,-4.343552157518335,-1.2663775551651064
+4class,Engineered,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,2.7072424532873667,0.855553638274393,-4.685797775543235,1.635951550496596
+4class,Engineered,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,3.9969244254008514,0.8433727035211342,-2.447591943428357,2.688370951900815
+4class,Engineered,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.8190514274266147,0.4521093593582127,-1.062475557207223,0.005425417527640641
+4class,Engineered,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Carnivore,4.107553618324425,0.9288332261753386,-3.1997472686256043,1.8196321412750887
+4class,Engineered,119,Scladina Cave,Layer 4A,Unknown,Unknown,Geological transport,0.8227719044472499,0.29733659313420924,-4.343552157518335,-1.2663775551651064
+4class,Engineered,122,Sima de los Huesos 89,NA,Unknown,Unknown,Carnivore,2.3487329950140285,0.8873020543243983,-3.319276425563031,0.8486284640513873
+4class,Engineered,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,1.8523549981294667,0.6091965898125303,-2.2808458868775134,0.35871538741862347
+4class,Engineered,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,2.6583090007259704,0.48056426245779277,3.6594470908967307,-1.3509765697654124
+4class,Engineered,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,3.3855198602682566,0.5174460325464609,4.344113543063676,-0.26911875471296287
+4class,Engineered,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,3.1879405803148746,0.5043743016903304,4.197937970972489,-0.2914132448751806
+4class,Engineered,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.376227580594732,0.7984120401057768,-0.8918765724426478,1.8086060329701725
+4class,Engineered,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Cannibalism,4.42002986724365,0.7817373038436574,-0.7753605801214305,1.6261544998489743
+4class,Engineered,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Geological transport,0.8227719044472499,0.29733659313420924,-4.343552157518335,-1.2663775551651064
+4class,Engineered,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.7903714730329594,0.9441132091094947,1.0227810271219488,0.5619637176441862
+4class,Engineered,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,3.9016411465782106,0.8351088374009431,-3.3243766322000408,2.435477482649098
+4class,Engineered,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,2.9711905837478985,0.9935821096782265,1.0454520293417613,0.3920214630651527
+4class,Engineered,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,5.197597154165363,0.983675765495109,1.630299228355705,-3.668901657037235
+4class,Engineered,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.230817746139921,0.8471945891370215,-1.4384470438601427,2.112643458796389
+4class,Engineered,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.775362534181375,0.8385412610957482,0.05611571249336678,-2.683014434934374
+4class,Engineered,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Geological transport,1.060135982002854,0.4672515392906166,-3.6773442918616346,-0.7062078112848077
+4class,Engineered,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.314619816843516,0.7340584959136622,0.09363926792962046,-1.0311967642056221
+4class,Combined,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,9.467732076285893,0.9552755818898037,-1.6909590590533918,2.7317808022678927
+4class,Combined,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.337474129887355,0.8194611724384939,-1.435155744835793,-0.23809529303201968
+4class,Combined,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,5.320725699311521,0.8737457787327702,-2.514267682509895,1.2805456270647149
+4class,Combined,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,10.08017137651944,0.9979413783335123,-4.600358399985141,0.4331562532244012
+4class,Combined,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.3517608552889557,0.5357449333372022,-0.5300332224903564,0.31500946259425533
+4class,Combined,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.355871010665412,0.7522435287061134,-3.148421038459467,-0.11476710717825025
+4class,Combined,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Geological transport,1.3134572992667366,0.3408712250469549,-6.117607638496126,-1.92422168541024
+4class,Combined,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Carnivore,3.094568797032814,0.8856702917300869,-6.430860078433344,-0.3468103695939131
+4class,Combined,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Geological transport,1.3134572992667366,0.3408712250469549,-6.117607638496126,-1.92422168541024
+4class,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Geological transport,2.770406643138502,0.7126828783394902,-6.429350823082675,-1.8210743444588475
+4class,Combined,19,Ceprano,NA,Unknown,Unknown,Geological transport,1.3134572992667366,0.3408712250469549,-6.117607638496126,-1.92422168541024
+4class,Combined,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Cannibalism,4.673709915603634,0.8053331285908389,-3.0473250665238587,-0.5679330715290968
+4class,Combined,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Geological transport,1.3134572992667366,0.3408712250469549,-6.117607638496126,-1.92422168541024
+4class,Combined,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,5.841760543381006,0.9868805453517249,-3.4429582009715785,-0.2659254021581484
+4class,Combined,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,9.3626450449167,0.8733218553776249,-1.596147528092506,0.058668336839242864
+4class,Combined,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,6.6140615155393245,0.8405984381199145,2.7679555683997203,-0.0579752114037827
+4class,Combined,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,7.792489390383724,0.9304070994789442,-5.133706444493117,0.07168483915050258
+4class,Combined,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.936225479099478,0.7008285682034857,-0.8777838212803427,2.3180128291118307
+4class,Combined,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,5.210936761473436,0.9939381045244164,-3.714925663686084,-1.6707936138650368
+4class,Combined,68,Trou de la Naulette,Level 3,Unknown,Unknown,Cannibalism,16.893785559703698,0.998806569835737,-2.963194521160909,1.008598559924592
+4class,Combined,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.850614444662464,0.7352090032976473,-2.4581642928682106,1.1220448759087038
+4class,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Geological transport,1.3134572992667366,0.3408712250469549,-6.117607638496126,-1.92422168541024
+4class,Combined,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,3.929893726994048,0.6784444927541341,2.619203790490592,1.6658829602859853
+4class,Combined,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Geological transport,4.092644704651609,0.8064612776034079,-4.980097580974397,-1.3314525243847488
+4class,Combined,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,6.009720355443504,0.8252301366795064,-1.8252329331572292,1.106161772813527
+4class,Combined,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Geological transport,1.3134572992667366,0.3408712250469549,-6.117607638496126,-1.92422168541024
+4class,Combined,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Geological transport,4.289657143748355,0.9903987688529444,-5.99651797115152,-0.5235986172991031
+4class,Combined,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,5.46873227580358,0.9153181455686252,-3.4798679406178454,1.006954968041638
+4class,Combined,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.480344549358944,0.6650094639716313,-1.3567618793636718,-0.39898538284356583
+4class,Combined,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Cannibalism,10.865270321932437,0.9414458442729933,-2.0294671984526573,-2.3747574690385282
+4class,Combined,119,Scladina Cave,Layer 4A,Unknown,Unknown,Geological transport,1.3134572992667366,0.3408712250469549,-6.117607638496126,-1.92422168541024
+4class,Combined,122,Sima de los Huesos 89,NA,Unknown,Unknown,Cannibalism,4.115188082159466,0.8775544793929433,-3.82782381139881,0.2865801285845954
+4class,Combined,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,2.758642869896982,0.660592825561496,-3.2558354620776884,0.23756304824783556
+4class,Combined,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,4.469261757639326,0.6614911537699166,3.171432675486417,-0.6962002141987741
+4class,Combined,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,4.926603971571704,0.6141049575763482,4.177503091781222,2.259219284404711
+4class,Combined,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,4.799430116438894,0.6181729375013444,3.9756901392194117,2.0970742600429797
+4class,Combined,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,13.471261834471852,0.9377138665524707,0.2979993610143336,3.9127556972850672
+4class,Combined,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,7.877505049591295,0.9913252026655114,1.0699889415235364,-2.4557651386465524
+4class,Combined,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Geological transport,1.3134572992667366,0.3408712250469549,-6.117607638496126,-1.92422168541024
+4class,Combined,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,4.716742450829421,0.9186652738068154,1.3870385628553423,0.10357386921533257
+4class,Combined,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Carnivore,7.217935966062593,0.9964210956143941,-3.497153583027547,-0.06509941346346887
+4class,Combined,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Cannibalism,5.117328971615642,0.9751972644413404,0.9560395435288737,1.776021936464261
+4class,Combined,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,11.418168519470404,0.9760851646885428,2.0059521329180847,1.286568058437806
+4class,Combined,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.1212242678364195,0.9070062116104377,-1.9632204517032836,-0.004400983923313256
+4class,Combined,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,10.314772091872298,0.9483744534624461,0.23880182490925903,1.9079217283219327
+4class,Combined,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Geological transport,4.0813366538992275,0.9563969786376831,-4.1645212228240105,-0.8259789598397262
+4class,Combined,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,12.58357191935806,0.9987706245373387,1.5565836957998118,3.818340935379094
+cannibalism_vs_fc,C only,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.3112990549407565,0.21151747439698199,-1.0797001644042037,NA
+cannibalism_vs_fc,C only,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.2588423055493886,0.28709211631103726,-0.5095588039140586,NA
+cannibalism_vs_fc,C only,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.2991136807655749,0.20493468245969404,-1.067514790229022,NA
+cannibalism_vs_fc,C only,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.30742358425507177,0.20943571710051764,-1.075824693718519,NA
+cannibalism_vs_fc,C only,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.18935213502376647,0.19498920331577482,-0.5790489744396807,NA
+cannibalism_vs_fc,C only,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.19475172689703235,0.14370761342100044,-0.9631528363604795,NA
+cannibalism_vs_fc,C only,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Cannibalism,0.3891065817841174,0.2511095572296878,-1.1575076912475646,NA
+cannibalism_vs_fc,C only,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Cannibalism,0.5199037174259743,0.3094027376966743,-1.2883048268894215,NA
+cannibalism_vs_fc,C only,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Cannibalism,0.3891065817841174,0.2511095572296878,-1.1575076912475646,NA
+cannibalism_vs_fc,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Cannibalism,0.3871688464412749,0.25017188544932856,-1.1555699559047221,NA
+cannibalism_vs_fc,C only,19,Ceprano,NA,Unknown,Unknown,Cannibalism,0.3891065817841174,0.2511095572296878,-1.1575076912475646,NA
+cannibalism_vs_fc,C only,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Cannibalism,0.22343020997109886,0.16145286317032384,-0.991831319434546,NA
+cannibalism_vs_fc,C only,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Cannibalism,0.3891065817841174,0.2511095572296878,-1.1575076912475646,NA
+cannibalism_vs_fc,C only,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.20233870604708415,0.1484748295327156,-0.9707398155105313,NA
+cannibalism_vs_fc,C only,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.0886197085089323,0.08268130691651032,-0.6797814009545149,NA
+cannibalism_vs_fc,C only,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Cannibalism,0.5790158068128741,0.995853512955146,-0.1893853026505731,NA
+cannibalism_vs_fc,C only,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.27012217890535706,0.18882206755748876,-1.0385232883688043,NA
+cannibalism_vs_fc,C only,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.1314436773979012,0.10174555663457628,-0.8998447868613484,NA
+cannibalism_vs_fc,C only,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.11443259693621799,0.08975985015584312,-0.8828337063996652,NA
+cannibalism_vs_fc,C only,68,Trou de la Naulette,Level 3,Unknown,Unknown,Cannibalism,0.4898688196119182,0.2968341889265249,-1.2582699290753654,NA
+cannibalism_vs_fc,C only,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.24571416641378552,0.17474167260882595,-1.0141152758772327,NA
+cannibalism_vs_fc,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Cannibalism,0.3891065817841174,0.2511095572296878,-1.1575076912475646,NA
+cannibalism_vs_fc,C only,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5647472554249556,0.9480472914657657,-0.1727058730456458,NA
+cannibalism_vs_fc,C only,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Cannibalism,0.32370801396318905,0.21810996438491537,-1.0921091234266362,NA
+cannibalism_vs_fc,C only,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.09505524350779493,0.07571120268190226,-0.8634563529712421,NA
+cannibalism_vs_fc,C only,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Cannibalism,0.3891065817841174,0.2511095572296878,-1.1575076912475646,NA
+cannibalism_vs_fc,C only,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.44053109665185597,0.2751644997879603,-1.2089322061153032,NA
+cannibalism_vs_fc,C only,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.3120816019061349,0.2119364995323152,-1.080482711369582,NA
+cannibalism_vs_fc,C only,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.08166994617354584,0.07570636321939607,-0.6867311632899014,NA
+cannibalism_vs_fc,C only,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Cannibalism,0.29103852355353804,0.3347563781267676,-0.47736258590990915,NA
+cannibalism_vs_fc,C only,119,Scladina Cave,Layer 4A,Unknown,Unknown,Cannibalism,0.3891065817841174,0.2511095572296878,-1.1575076912475646,NA
+cannibalism_vs_fc,C only,122,Sima de los Huesos 89,NA,Unknown,Unknown,Cannibalism,0.3854873020692412,0.2493562796883291,-1.1538884115326884,NA
+cannibalism_vs_fc,C only,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,0.2738166523337432,0.19091156116767086,-1.0422177617971904,NA
+cannibalism_vs_fc,C only,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,0.4751120901620148,0.6932599064579998,-0.08307070778270494,NA
+cannibalism_vs_fc,C only,125,Sima de los Huesos 15,NA,Unknown,Unknown,Cannibalism,0.5742326881163251,0.9795685511672264,-0.1941684213471221,NA
+cannibalism_vs_fc,C only,126,Sima de los Huesos 24,NA,Unknown,Unknown,Cannibalism,0.5593531899586477,0.9305658713361888,-0.2090479195047995,NA
+cannibalism_vs_fc,C only,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.03982978623678868,0.033183959143434485,-0.8082308957002359,NA
+cannibalism_vs_fc,C only,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,0.20647489618989334,0.21643806050727413,0.1855664861894165,NA
+cannibalism_vs_fc,C only,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Cannibalism,0.3891065817841174,0.2511095572296878,-1.1575076912475646,NA
+cannibalism_vs_fc,C only,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5721851780101735,0.9726783918457425,-0.18014379563086372,NA
+cannibalism_vs_fc,C only,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.1902402815347226,0.14084749230865887,-0.9586413909981698,NA
+cannibalism_vs_fc,C only,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Cannibalism,0.18514448113645154,0.18983375245723194,-0.5832566283269957,NA
+cannibalism_vs_fc,C only,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.3636550438073728,0.45640157196756365,0.02838633857193706,NA
+cannibalism_vs_fc,C only,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.07047333169058367,0.05725276281548657,-0.8388744411540309,NA
+cannibalism_vs_fc,C only,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.13326214967672279,0.12973588395949093,-0.6351389597867244,NA
+cannibalism_vs_fc,C only,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Cannibalism,0.23166558517817848,0.16641350553323062,-1.0000666946416257,NA
+cannibalism_vs_fc,C only,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.1691847818017227,0.17067688865160915,-0.5992163276617245,NA
+cannibalism_vs_fc,Heip evenness only,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.0524127538751441,0.049474949673941025,-0.6837740948440865,NA
+cannibalism_vs_fc,Heip evenness only,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.02920278419910083,0.026974935109670705,-0.7069840645201297,NA
+cannibalism_vs_fc,Heip evenness only,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.23675644496306647,0.17556386533198626,-0.972943293682297,NA
+cannibalism_vs_fc,Heip evenness only,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.9927478746384789,0.4717172174147337,-1.7289347233577095,NA
+cannibalism_vs_fc,Heip evenness only,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.3920171841530384,0.5446383598048049,-0.3441696645661922,NA
+cannibalism_vs_fc,Heip evenness only,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.47749141377857895,0.30044439798107264,-1.2136782624978095,NA
+cannibalism_vs_fc,Heip evenness only,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Cannibalism,1.37327244909961,0.5526103105761927,-2.1094592978188405,NA
+cannibalism_vs_fc,Heip evenness only,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Cannibalism,1.1804874306900301,0.5149840011843947,-1.9166742794092606,NA
+cannibalism_vs_fc,Heip evenness only,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Cannibalism,1.37327244909961,0.5526103105761927,-2.1094592978188405,NA
+cannibalism_vs_fc,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Cannibalism,1.348536712880081,0.5481123296516298,-2.0847235615993114,NA
+cannibalism_vs_fc,Heip evenness only,19,Ceprano,NA,Unknown,Unknown,Cannibalism,1.37327244909961,0.5526103105761927,-2.1094592978188405,NA
+cannibalism_vs_fc,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Cannibalism,0.5232905471181221,0.3200391473909326,-1.2594773958373526,NA
+cannibalism_vs_fc,Heip evenness only,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Cannibalism,1.37327244909961,0.5526103105761927,-2.1094592978188405,NA
+cannibalism_vs_fc,Heip evenness only,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.36599918990848923,0.24766631264174774,-1.1021860386277198,NA
+cannibalism_vs_fc,Heip evenness only,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.18082348081392174,0.1398895725844423,-0.9170103295331523,NA
+cannibalism_vs_fc,Heip evenness only,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Cannibalism,0.3576069669201886,0.47416319505237964,-0.37857988179904195,NA
+cannibalism_vs_fc,Heip evenness only,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.8664849693000666,0.43799974151802873,-1.6026718180192971,NA
+cannibalism_vs_fc,Heip evenness only,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.18519557596927075,0.199866408353834,0.19040995909156108,NA
+cannibalism_vs_fc,Heip evenness only,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.7978772808108098,0.41780905651121975,-1.5340641295300403,NA
+cannibalism_vs_fc,Heip evenness only,68,Trou de la Naulette,Level 3,Unknown,Unknown,Cannibalism,1.024677445926819,0.4796124109402483,-1.7608642946460495,NA
+cannibalism_vs_fc,Heip evenness only,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.24487508157227889,0.1804974968635237,-0.9810619302915095,NA
+cannibalism_vs_fc,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Cannibalism,1.37327244909961,0.5526103105761927,-2.1094592978188405,NA
+cannibalism_vs_fc,Heip evenness only,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.6477893256089258,0.3681496131452,1.0233948606697576,NA
+cannibalism_vs_fc,Heip evenness only,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Cannibalism,1.1624876298535876,0.5111453395733203,-1.898674478572818,NA
+cannibalism_vs_fc,Heip evenness only,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.01907349690101101,0.016866276741432713,-0.7552603456202416,NA
+cannibalism_vs_fc,Heip evenness only,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Cannibalism,1.37327244909961,0.5526103105761927,-2.1094592978188405,NA
+cannibalism_vs_fc,Heip evenness only,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.1212530463537034,0.5021183318632874,-1.8574398950729338,NA
+cannibalism_vs_fc,Heip evenness only,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.28194064018366427,0.2022917124987361,-1.0181274889028948,NA
+cannibalism_vs_fc,Heip evenness only,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.2287503350159722,0.2590480660984743,-0.5074365137032584,NA
+cannibalism_vs_fc,Heip evenness only,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Cannibalism,0.8033919481972546,0.4194854431415481,-1.5395787969164851,NA
+cannibalism_vs_fc,Heip evenness only,119,Scladina Cave,Layer 4A,Unknown,Unknown,Cannibalism,1.37327244909961,0.5526103105761927,-2.1094592978188405,NA
+cannibalism_vs_fc,Heip evenness only,122,Sima de los Huesos 89,NA,Unknown,Unknown,Cannibalism,0.4651800262370581,0.2949829833941152,-1.2013668749562887,NA
+cannibalism_vs_fc,Heip evenness only,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,0.008683138233814947,0.007749511759264835,-0.7448699869530455,NA
+cannibalism_vs_fc,Heip evenness only,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,0.1777122910550943,0.1902538041857404,0.19789324400573752,NA
+cannibalism_vs_fc,Heip evenness only,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,0.4532675374354155,0.2896167305104796,0.8288730724962473,NA
+cannibalism_vs_fc,Heip evenness only,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,0.43156064146171114,0.2796253575192916,0.807166176522543,NA
+cannibalism_vs_fc,Heip evenness only,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5128108474568359,0.8561379881668163,-0.1372053123960041,NA
+cannibalism_vs_fc,Heip evenness only,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Cannibalism,0.1206367412526621,0.12171321644806873,-0.6155501074665685,NA
+cannibalism_vs_fc,Heip evenness only,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Cannibalism,1.37327244909961,0.5526103105761927,-2.1094592978188405,NA
+cannibalism_vs_fc,Heip evenness only,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.004963523568090322,0.0044844544143344284,0.3706420114927415,NA
+cannibalism_vs_fc,Heip evenness only,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.38652463290857775,0.25797253091526495,-1.1227114816278083,NA
+cannibalism_vs_fc,Heip evenness only,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,0.23397820395584512,0.1738618796458351,0.609583739016677,NA
+cannibalism_vs_fc,Heip evenness only,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.24359178549013388,0.2805708565162591,-0.4925950632290967,NA
+cannibalism_vs_fc,Heip evenness only,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.13166674294336,0.13433659671525403,-0.6045201057758706,NA
+cannibalism_vs_fc,Heip evenness only,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.2614420375670137,0.19038412779556735,-0.9976288862862442,NA
+cannibalism_vs_fc,Heip evenness only,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Cannibalism,0.9911571626619659,0.4713176140335371,-1.7273440113811964,NA
+cannibalism_vs_fc,Heip evenness only,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.2790539959564861,0.33510403751869117,-0.45713285276274446,NA
+cannibalism_vs_fc,C + Heip evenness,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.3156805321456877,0.17408507155196498,-1.2469646071623899,-0.27996200863449516
+cannibalism_vs_fc,C + Heip evenness,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.260484436669645,0.18489037754677962,-0.8602257118739485,0.1396007405520745
+cannibalism_vs_fc,C + Heip evenness,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.3814742563433079,0.19196754808977257,-1.4428217478606031,-0.06687214651514906
+cannibalism_vs_fc,C + Heip evenness,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.0392581983104354,0.4050305352638852,-1.9832644034114293,0.4618185308188193
+cannibalism_vs_fc,C + Heip evenness,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.43535239026487027,0.36016543397753364,-0.6528141601588682,-0.16608475277195997
+cannibalism_vs_fc,C + Heip evenness,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.5156804101007157,0.24689890708883494,-1.5392520315004599,0.17714822768135607
+cannibalism_vs_fc,C + Heip evenness,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Cannibalism,1.427333580997715,0.4873788188135446,-2.310094511881452,0.6731314363679782
+cannibalism_vs_fc,C + Heip evenness,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Cannibalism,1.2899032713387837,0.4538394657532952,-2.2662624596249987,0.4443243009672573
+cannibalism_vs_fc,C + Heip evenness,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Cannibalism,1.427333580997715,0.4873788188135446,-2.310094511881452,0.6731314363679782
+cannibalism_vs_fc,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Cannibalism,1.403014961303008,0.48269980289291226,-2.2912335192619127,0.6570108153505763
+cannibalism_vs_fc,C + Heip evenness,19,Ceprano,NA,Unknown,Unknown,Cannibalism,1.427333580997715,0.4873788188135446,-2.310094511881452,0.6731314363679782
+cannibalism_vs_fc,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Cannibalism,0.5689938975339831,0.265624124229408,-1.591915659113134,0.18925435558239778
+cannibalism_vs_fc,C + Heip evenness,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Cannibalism,1.427333580997715,0.4873788188135446,-2.310094511881452,0.6731314363679782
+cannibalism_vs_fc,C + Heip evenness,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.4182061202068649,0.2080385322679112,-1.4657799283580735,0.09294651572752433
+cannibalism_vs_fc,C + Heip evenness,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.20137175559117235,0.11992236812404203,-1.1291022607704315,0.16774618409157405
+cannibalism_vs_fc,C + Heip evenness,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Cannibalism,0.6805454043111454,0.71464234556137,-0.4016120334021911,0.13378076987961746
+cannibalism_vs_fc,C + Heip evenness,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.9076134604331929,0.37176994747540065,-1.8676069701637512,0.39891325091228413
+cannibalism_vs_fc,C + Heip evenness,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.9358734340566744,0.7170933881802211,-0.5016461775259272,-0.7709265240841188
+cannibalism_vs_fc,C + Heip evenness,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.8060415463706686,0.35104578754525634,-1.7090048492209866,0.46048944831047345
+cannibalism_vs_fc,C + Heip evenness,68,Trou de la Naulette,Level 3,Unknown,Unknown,Cannibalism,1.1357531988152547,0.4207061592464052,-2.134850282905796,0.35538788408118205
+cannibalism_vs_fc,C + Heip evenness,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.34689949142576115,0.17753981340623348,-1.4108033321507483,-0.0233722448045669
+cannibalism_vs_fc,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Cannibalism,1.427333580997715,0.4873788188135446,-2.310094511881452,0.6731314363679782
+cannibalism_vs_fc,C + Heip evenness,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.8594012292770398,0.46262032694720084,0.6015279518297283,-0.845770939792367
+cannibalism_vs_fc,C + Heip evenness,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Cannibalism,1.2067163576692759,0.44434740427209274,-2.1148033660353427,0.5703278320940018
+cannibalism_vs_fc,C + Heip evenness,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.096949974741405,0.057376570878446644,-1.144605554393939,-0.07650613049520161
+cannibalism_vs_fc,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Cannibalism,1.427333580997715,0.4873788188135446,-2.310094511881452,0.6731314363679782
+cannibalism_vs_fc,C + Heip evenness,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.204689188577181,0.43844265842735775,-2.1682525063914446,0.45856418451355774
+cannibalism_vs_fc,C + Heip evenness,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.42057752060170034,0.207434926380909,-1.4839415036799273,-0.04409180064858986
+cannibalism_vs_fc,C + Heip evenness,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.24289235450690783,0.17422884910856257,-0.8444040622756501,-0.12678046255318082
+cannibalism_vs_fc,C + Heip evenness,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Cannibalism,0.8544834958151055,0.40626201402517065,-1.4261929290523156,0.751100285889031
+cannibalism_vs_fc,C + Heip evenness,119,Scladina Cave,Layer 4A,Unknown,Unknown,Cannibalism,1.427333580997715,0.4873788188135446,-2.310094511881452,0.6731314363679782
+cannibalism_vs_fc,C + Heip evenness,122,Sima de los Huesos 89,NA,Unknown,Unknown,Cannibalism,0.6041464366083215,0.2735756102845451,-1.6654169845018205,0.03357234344714577
+cannibalism_vs_fc,C + Heip evenness,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,0.27395429543054356,0.15052059635405526,-1.263661865716693,-0.21025662796302513
+cannibalism_vs_fc,C + Heip evenness,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,0.5072604425836584,0.4378497116843729,0.08119179399634427,-0.1986715155785779
+cannibalism_vs_fc,C + Heip evenness,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,0.7410083632981126,0.4444947824172395,0.44880396287818836,-0.7233995777318623
+cannibalism_vs_fc,C + Heip evenness,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,0.7399681993831692,0.45076336691536245,0.4229334754887245,-0.7185718784382914
+cannibalism_vs_fc,C + Heip evenness,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.6003043334241399,0.4599218358126753,-0.6685243539241474,-0.47448674030408067
+cannibalism_vs_fc,C + Heip evenness,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Cannibalism,0.9615650767866767,0.9497563753835337,-0.3040443344042223,0.566474975895215
+cannibalism_vs_fc,C + Heip evenness,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Cannibalism,1.427333580997715,0.4873788188135446,-2.310094511881452,0.6731314363679782
+cannibalism_vs_fc,C + Heip evenness,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5722067060955726,0.4565083314438022,0.13470258023987242,-0.38946437919840715
+cannibalism_vs_fc,C + Heip evenness,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.4308046617244541,0.21356036545045018,-1.4717387302759297,0.11601507367410924
+cannibalism_vs_fc,C + Heip evenness,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,1.002971589634562,0.7383224685218144,0.018616078497722233,-0.8434655126217634
+cannibalism_vs_fc,C + Heip evenness,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.8331909716895711,0.88516342766915,-0.32824513709103637,0.3683894820855845
+cannibalism_vs_fc,C + Heip evenness,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.14934062299616896,0.09491179264857977,-1.0206340720618179,-0.16571353974636327
+cannibalism_vs_fc,C + Heip evenness,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.2934463145852288,0.1711159848702794,-1.1545412160615491,0.25631908513962404
+cannibalism_vs_fc,C + Heip evenness,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Cannibalism,1.017871045099558,0.40360064697189607,-1.9285706053095268,0.5142627224697076
+cannibalism_vs_fc,C + Heip evenness,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,0.3263351391630682,0.25206990274985625,-0.7469516687789939,-0.10046818859561718
+cannibalism_vs_fc,%MNAU raw,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.7565580097360023,0.3849833191444621,-3.0119062895969764,0.015220514052344609
+cannibalism_vs_fc,%MNAU raw,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.4563938321009258,0.7558773425262336,-1.791153261460751,0.056338939675407984
+cannibalism_vs_fc,%MNAU raw,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.6774865803555632,0.36504446327484646,-3.1012354505218513,0.25213470487669737
+cannibalism_vs_fc,%MNAU raw,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.6638354817523904,0.3238885448366738,-3.5649255409409557,-0.6492619705555156
+cannibalism_vs_fc,%MNAU raw,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.3517255604708074,0.38845979589422747,-1.9477858302134847,0.2282525624172061
+cannibalism_vs_fc,%MNAU raw,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.2245015037285196,0.2648853824511115,-3.1560495083068414,-0.08639810590583649
+cannibalism_vs_fc,%MNAU raw,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Cannibalism,1.5105341898775568,0.28507632291028606,-3.880049381725468,-0.18958690658479366
+cannibalism_vs_fc,%MNAU raw,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Cannibalism,1.6199067965543337,0.30627204541976594,-3.9305206992555446,-0.22495989296249158
+cannibalism_vs_fc,%MNAU raw,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Cannibalism,1.5105341898775568,0.28507632291028606,-3.880049381725468,-0.18958690658479366
+cannibalism_vs_fc,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Cannibalism,1.50595450170108,0.28464735126650037,-3.8718621653258736,-0.19341391145038694
+cannibalism_vs_fc,%MNAU raw,19,Ceprano,NA,Unknown,Unknown,Cannibalism,1.5105341898775568,0.28507632291028606,-3.880049381725468,-0.18958690658479366
+cannibalism_vs_fc,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Cannibalism,1.4274468507661997,0.2956350326855896,-3.373920898841862,-0.01322360432059963
+cannibalism_vs_fc,%MNAU raw,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Cannibalism,1.5105341898775568,0.28507632291028606,-3.880049381725468,-0.18958690658479366
+cannibalism_vs_fc,%MNAU raw,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.215117096405237,0.27123513394700166,-3.0344684316329635,0.2629956735506984
+cannibalism_vs_fc,%MNAU raw,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.7284012813269585,0.5841384212198786,-2.3183531830418773,-0.2198897242336665
+cannibalism_vs_fc,%MNAU raw,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,3.3796416493549226,0.96077872825464,-0.627305007626934,0.39791640994100813
+cannibalism_vs_fc,%MNAU raw,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.5443005117657314,0.49886031653909035,-3.195323408423402,-0.09642242493668844
+cannibalism_vs_fc,%MNAU raw,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.5417790185220035,0.36833195742443736,-2.642475683416993,-0.14286657282537918
+cannibalism_vs_fc,%MNAU raw,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.514364615292047,0.3321917185368334,-2.969062744085045,0.4262684473177877
+cannibalism_vs_fc,%MNAU raw,68,Trou de la Naulette,Level 3,Unknown,Unknown,Cannibalism,1.9347241766295367,0.3747757194015093,-3.6529204250827654,-0.08910496134990736
+cannibalism_vs_fc,%MNAU raw,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.326265209129807,0.2887631150815753,-3.192082596491742,-0.04676981643457262
+cannibalism_vs_fc,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Cannibalism,1.5105341898775568,0.28507632291028606,-3.880049381725468,-0.18958690658479366
+cannibalism_vs_fc,%MNAU raw,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.109555598089493,0.8009267390250332,-0.34584273400569754,0.10102745996852162
+cannibalism_vs_fc,%MNAU raw,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Cannibalism,1.3867711254690385,0.2709974681052195,-3.677413505022759,-0.1306073267047334
+cannibalism_vs_fc,%MNAU raw,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.5162933616863357,0.5445597893698795,-2.664184027952746,0.07947462679180303
+cannibalism_vs_fc,%MNAU raw,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Cannibalism,1.5105341898775568,0.28507632291028606,-3.880049381725468,-0.18958690658479366
+cannibalism_vs_fc,%MNAU raw,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.4803067605098652,0.2844141911042918,-3.841714929066295,-0.24185008925328944
+cannibalism_vs_fc,%MNAU raw,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.5264010267041983,0.32224364748282636,-3.266162603607506,0.08204541165743026
+cannibalism_vs_fc,%MNAU raw,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.5793189413424322,0.4041441899145335,-2.2902231484615556,0.20311534957149696
+cannibalism_vs_fc,%MNAU raw,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Cannibalism,3.977209675218831,0.7977907127075468,-1.7134661702893637,1.5991572902005682
+cannibalism_vs_fc,%MNAU raw,119,Scladina Cave,Layer 4A,Unknown,Unknown,Cannibalism,1.5105341898775568,0.28507632291028606,-3.880049381725468,-0.18958690658479366
+cannibalism_vs_fc,%MNAU raw,122,Sima de los Huesos 89,NA,Unknown,Unknown,Cannibalism,1.3248769709351478,0.2708754796034439,-3.5180474583506554,-0.10332558897426047
+cannibalism_vs_fc,%MNAU raw,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,0.9823260529039942,0.212508443077831,-3.286350426922888,-0.05414519118961832
+cannibalism_vs_fc,%MNAU raw,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,2.8258995476692768,0.8713901323438202,-0.48297156065340296,0.432919643547554
+cannibalism_vs_fc,%MNAU raw,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,2.7790865287206237,0.8564232870472909,-0.4994986724680017,-0.49137538033429207
+cannibalism_vs_fc,%MNAU raw,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,2.8150164915083233,0.8915288398073518,-0.5887360504542685,-0.466673766670012
+cannibalism_vs_fc,%MNAU raw,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.213502934394254,0.6612000844773219,-2.218970652751762,-1.1291399041927486
+cannibalism_vs_fc,%MNAU raw,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,3.6491269229617567,0.7795170625453196,0.505724075730831,2.0235769080033457
+cannibalism_vs_fc,%MNAU raw,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Cannibalism,1.5105341898775568,0.28507632291028606,-3.880049381725468,-0.18958690658479366
+cannibalism_vs_fc,%MNAU raw,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.5506650967601794,0.9461335777331904,-0.5831369218382316,0.3451814313742383
+cannibalism_vs_fc,%MNAU raw,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.418933731952106,0.3146684947895391,-2.984802295941984,0.05880170835583565
+cannibalism_vs_fc,%MNAU raw,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Cannibalism,1.623613695200637,0.5037433819642789,-1.7290567475959635,-0.15534727108031804
+cannibalism_vs_fc,%MNAU raw,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,5.646031932233778,0.9880742823732128,-0.30405917572030666,-2.06019372715738
+cannibalism_vs_fc,%MNAU raw,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.1205867789216994,0.48355780875686044,-2.6539172139975133,0.04385514075018059
+cannibalism_vs_fc,%MNAU raw,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.057357026703127,0.8280894015124278,-1.7346365265932007,-0.4140071392016205
+cannibalism_vs_fc,%MNAU raw,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Cannibalism,1.1554289888109628,0.24280809019150554,-3.295934837826211,-0.23592197679138027
+cannibalism_vs_fc,%MNAU raw,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.822517570619088,0.8078838311096673,-1.5468435993211498,-1.1484851004731673
+cannibalism_vs_fc,ReMNAU raw,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,7.705861807237556,0.9079463937415164,-1.9171903561111414,2.2349955828274473
+cannibalism_vs_fc,ReMNAU raw,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.224785307498676,0.9499636633433822,1.6296640527296133,0.1745797066129499
+cannibalism_vs_fc,ReMNAU raw,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.902811933474842,0.9499152459611311,1.3053649676897112,1.5632855850127192
+cannibalism_vs_fc,ReMNAU raw,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,9.264033731420522,0.9144347110060007,1.877409888465806,-2.64435191054196
+cannibalism_vs_fc,ReMNAU raw,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.734430817018261,0.8296834236381032,0.9780630146990805,0.6990804450181691
+cannibalism_vs_fc,ReMNAU raw,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.795638088342409,0.8604184808634946,2.2479607723855493,0.4034107445722338
+cannibalism_vs_fc,ReMNAU raw,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Cannibalism,4.869429913971476,0.7131801150976551,5.098007304797089,-1.5516003169188135
+cannibalism_vs_fc,ReMNAU raw,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Cannibalism,4.428365875139859,0.6821700253516529,4.727466605468823,-1.259394797816114
+cannibalism_vs_fc,ReMNAU raw,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Cannibalism,4.869429913971476,0.7131801150976551,5.098007304797089,-1.5516003169188135
+cannibalism_vs_fc,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Cannibalism,4.827807397743064,0.7143710374012697,4.989918605814228,-1.6532614861108805
+cannibalism_vs_fc,ReMNAU raw,19,Ceprano,NA,Unknown,Unknown,Cannibalism,4.869429913971476,0.7131801150976551,5.098007304797089,-1.5516003169188135
+cannibalism_vs_fc,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Cannibalism,4.584465766463794,0.7434898474639356,3.706872402484165,-1.6369985917647862
+cannibalism_vs_fc,ReMNAU raw,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Cannibalism,4.869429913971476,0.7131801150976551,5.098007304797089,-1.5516003169188135
+cannibalism_vs_fc,ReMNAU raw,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.632260885208829,0.8755599230462588,1.6393507762098176,1.234997632393066
+cannibalism_vs_fc,ReMNAU raw,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,8.909620562048216,0.98172234884796,0.2493569701784777,-0.4798621147648437
+cannibalism_vs_fc,ReMNAU raw,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,3.101003290434077,0.8584699854150104,-0.10433299850483527,0.8805230867304046
+cannibalism_vs_fc,ReMNAU raw,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,13.56256624947815,0.9739855552072891,3.4921964009948896,1.9408461511280741
+cannibalism_vs_fc,ReMNAU raw,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,5.571514273855378,0.9517204770146536,-0.27229721986164307,0.36536819879051474
+cannibalism_vs_fc,ReMNAU raw,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,5.201522882389273,0.8548841874992501,2.3860527360875254,1.1969774952839127
+cannibalism_vs_fc,ReMNAU raw,68,Trou de la Naulette,Level 3,Unknown,Unknown,Funerary Context,15.782254514980018,0.9575687784952573,-3.6333739341132816,5.001027624392961
+cannibalism_vs_fc,ReMNAU raw,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.389303351718165,0.7730717088810634,3.124781208602845,-0.07642090466017232
+cannibalism_vs_fc,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Cannibalism,4.869429913971476,0.7131801150976551,5.098007304797089,-1.5516003169188135
+cannibalism_vs_fc,ReMNAU raw,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.229102316470652,0.6057375110249351,-1.3553480009909513,0.502228068681347
+cannibalism_vs_fc,ReMNAU raw,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Cannibalism,4.465439427032161,0.7259900757273845,3.738726712979469,-1.2603723848045933
+cannibalism_vs_fc,ReMNAU raw,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,8.769502837925943,0.9284428715007692,3.126741885405833,1.04116504627929
+cannibalism_vs_fc,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Cannibalism,4.869429913971476,0.7131801150976551,5.098007304797089,-1.5516003169188135
+cannibalism_vs_fc,ReMNAU raw,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,5.231926037446375,0.8011137049568872,3.6662709815035437,-3.0510939039247837
+cannibalism_vs_fc,ReMNAU raw,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.915997303074962,0.9101199553025213,1.9264681914262953,-0.37949567833711445
+cannibalism_vs_fc,ReMNAU raw,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,4.2196698522289005,0.9677550838447577,0.6468277059709873,0.10663653667004809
+cannibalism_vs_fc,ReMNAU raw,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Funerary Context,9.091494025706622,0.9692434249372929,-0.4766559365476558,3.0506619349822452
+cannibalism_vs_fc,ReMNAU raw,119,Scladina Cave,Layer 4A,Unknown,Unknown,Cannibalism,4.869429913971476,0.7131801150976551,5.098007304797089,-1.5516003169188135
+cannibalism_vs_fc,ReMNAU raw,122,Sima de los Huesos 89,NA,Unknown,Unknown,Cannibalism,2.9817683005560447,0.9527752113851522,0.9328528079247812,1.0012594060591253
+cannibalism_vs_fc,ReMNAU raw,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,2.0443647335006734,0.6689553255500859,1.5752446280086954,-0.6588341072023611
+cannibalism_vs_fc,ReMNAU raw,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,2.5022299355995306,0.9237918467619732,0.287209323461769,-0.9984062691601054
+cannibalism_vs_fc,ReMNAU raw,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,2.5817309401465485,0.6852418958320379,-1.0603223432528184,-2.1174718735605182
+cannibalism_vs_fc,ReMNAU raw,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,2.6066144312405655,0.698638249132984,-0.9698542696728594,-2.161548013644333
+cannibalism_vs_fc,ReMNAU raw,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,12.514427608918169,0.991721078682914,-2.8387307149469923,0.1698555571758007
+cannibalism_vs_fc,ReMNAU raw,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,4.499109803987639,0.8979968197686622,-0.3784920747363303,2.3138254052611655
+cannibalism_vs_fc,ReMNAU raw,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Cannibalism,4.869429913971476,0.7131801150976551,5.098007304797089,-1.5516003169188135
+cannibalism_vs_fc,ReMNAU raw,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,3.0369699511867307,0.7997796093294846,-0.4489675160099903,0.07006479880923414
+cannibalism_vs_fc,ReMNAU raw,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,5.766991023488771,0.961141628092986,1.2777848454021539,0.8438494352849749
+cannibalism_vs_fc,ReMNAU raw,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,2.7104109752520578,0.6630471527309885,-1.013905261963175,-0.8250681908100709
+cannibalism_vs_fc,ReMNAU raw,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,8.2340552300406,0.9601831607661561,-0.3121821003044881,-1.821567636753039
+cannibalism_vs_fc,ReMNAU raw,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,6.009045047035411,0.9574308120111743,-0.034579449907715,-3.172446491033659
+cannibalism_vs_fc,ReMNAU raw,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,9.777999283526771,0.9407255480104962,-2.101945491309813,-0.6113948662987652
+cannibalism_vs_fc,ReMNAU raw,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Cannibalism,3.681789049439377,0.8519263137571519,1.5473102692142982,0.7481850614400759
+cannibalism_vs_fc,ReMNAU raw,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,10.525559669970896,0.9342470854185327,-2.9423627835542088,-2.3351235381017235
+cannibalism_vs_fc,Engineered,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.596950682988647,0.8476068625813058,-3.9088325633862757,3.5078231952581143
+cannibalism_vs_fc,Engineered,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.372952717330966,0.2784582934015085,-3.15677838329973,0.6614064389521034
+cannibalism_vs_fc,Engineered,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.4804153763422905,0.4634605355778836,-3.29702260851939,-0.08696964044954486
+cannibalism_vs_fc,Engineered,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,6.767518607732968,0.6916170153784751,-6.52711337828507,3.206596431655931
+cannibalism_vs_fc,Engineered,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.093285410839816,0.4954270495193767,-2.0023326479285366,-1.6988895811636013
+cannibalism_vs_fc,Engineered,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.388530065309873,0.37073813122770183,-4.268093200549103,-1.8964523992899385
+cannibalism_vs_fc,Engineered,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Cannibalism,4.503472893851906,0.5104919856805691,-6.728794212455836,-0.19800797590175245
+cannibalism_vs_fc,Engineered,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Cannibalism,7.017793115544108,0.6855163082423303,-7.214204729228195,3.168162993626292
+cannibalism_vs_fc,Engineered,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Cannibalism,4.503472893851906,0.5104919856805691,-6.728794212455836,-0.19800797590175245
+cannibalism_vs_fc,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Cannibalism,6.796594217806132,0.6630088984801011,-7.393925605152695,2.8393867058241478
+cannibalism_vs_fc,Engineered,19,Ceprano,NA,Unknown,Unknown,Cannibalism,4.503472893851906,0.5104919856805691,-6.728794212455836,-0.19800797590175245
+cannibalism_vs_fc,Engineered,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Cannibalism,2.9183143991856904,0.5169387315570245,-2.95522372153781,-2.60379331252693
+cannibalism_vs_fc,Engineered,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Cannibalism,4.503472893851906,0.5104919856805691,-6.728794212455836,-0.19800797590175245
+cannibalism_vs_fc,Engineered,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.2935081485927205,0.7838899603418824,-4.986680796410495,4.314541458331777
+cannibalism_vs_fc,Engineered,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.7185016832668345,0.30594619995743233,-3.8231985655178335,0.8539499104420781
+cannibalism_vs_fc,Engineered,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,5.071144582218456,0.8049887648808755,1.0006818037512535,-4.088241773865204
+cannibalism_vs_fc,Engineered,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.010859181670378,0.7074575400834135,-6.577553306018547,3.737667846346702
+cannibalism_vs_fc,Engineered,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.348566511169812,0.7931546164918403,-1.4551866986280093,-0.9123656026861838
+cannibalism_vs_fc,Engineered,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.4427586663390524,0.4918231499596491,-4.871361630841236,1.7924132607455696
+cannibalism_vs_fc,Engineered,68,Trou de la Naulette,Level 3,Unknown,Unknown,Cannibalism,7.09879300896124,0.7141994447088861,-6.518787190068163,2.989826755770223
+cannibalism_vs_fc,Engineered,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.3108871248328233,0.6030893186633005,-2.5068854589578655,-2.993879913297578
+cannibalism_vs_fc,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Cannibalism,4.503472893851906,0.5104919856805691,-6.728794212455836,-0.19800797590175245
+cannibalism_vs_fc,Engineered,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.6624593431670798,0.5656359446965586,0.7253212715755919,0.5318626076239736
+cannibalism_vs_fc,Engineered,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Cannibalism,3.621741185200492,0.4503125129146127,-6.058870713790275,-0.5211255645282398
+cannibalism_vs_fc,Engineered,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,2.7918953926804915,0.6414476299332469,-1.8175600028315055,-1.9707988570989377
+cannibalism_vs_fc,Engineered,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Cannibalism,4.503472893851906,0.5104919856805691,-6.728794212455836,-0.19800797590175245
+cannibalism_vs_fc,Engineered,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.211891659471355,0.6988433782299251,-7.088212301267096,3.4779957485616437
+cannibalism_vs_fc,Engineered,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.465904406231909,0.8199672374534324,-4.3724233465204545,4.081373923101021
+cannibalism_vs_fc,Engineered,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,1.887854126859369,0.3929705464452601,-2.8549494414786056,0.9581079159906978
+cannibalism_vs_fc,Engineered,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Cannibalism,7.529406864730531,0.7719419947559627,-5.45440695918716,4.389178210769985
+cannibalism_vs_fc,Engineered,119,Scladina Cave,Layer 4A,Unknown,Unknown,Cannibalism,4.503472893851906,0.5104919856805691,-6.728794212455836,-0.19800797590175245
+cannibalism_vs_fc,Engineered,122,Sima de los Huesos 89,NA,Unknown,Unknown,Cannibalism,3.0595195438737064,0.431208256453882,-5.284627080646855,1.335792379051915
+cannibalism_vs_fc,Engineered,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,1.9411238292414184,0.32947118129735997,-4.1425324228425,0.897288395825553
+cannibalism_vs_fc,Engineered,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,2.627666207578089,0.45413612751447485,2.0998269484191807,-1.043075577765185
+cannibalism_vs_fc,Engineered,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,3.168829012636597,0.4762408906913965,2.8738538053563607,-1.2518019440152541
+cannibalism_vs_fc,Engineered,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,2.9731722155533418,0.4609901925668611,2.7232283763038256,-1.1405448433510967
+cannibalism_vs_fc,Engineered,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.72029047768825,0.7218905253718009,-2.324050809472716,1.1787058753299422
+cannibalism_vs_fc,Engineered,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Cannibalism,4.7156600809648745,0.7908400461412827,-2.5012291157641204,3.6820404643838884
+cannibalism_vs_fc,Engineered,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Cannibalism,4.503472893851906,0.5104919856805691,-6.728794212455836,-0.19800797590175245
+cannibalism_vs_fc,Engineered,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.7664774824476783,0.8194866719998861,-0.4810733940862033,0.9348726648409637
+cannibalism_vs_fc,Engineered,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,7.203556144159418,0.7609459491304135,-5.492343748962504,4.214814551848269
+cannibalism_vs_fc,Engineered,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,2.9590664628766237,0.8214531146823508,-0.3521853456079778,-0.22068726357103174
+cannibalism_vs_fc,Engineered,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,5.6208627722245,0.978413111979033,-0.11602508576218828,-4.947339177002304
+cannibalism_vs_fc,Engineered,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,4.758855977341276,0.7381547161904326,-3.20275250625486,4.120630917696659
+cannibalism_vs_fc,Engineered,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,5.035965441238827,0.8071181138453751,-1.8748668955387673,-4.520555322317787
+cannibalism_vs_fc,Engineered,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Cannibalism,3.314529644209328,0.4281808162957782,-5.877253396453616,0.10816120589561458
+cannibalism_vs_fc,Engineered,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.6717977524575787,0.7682706189420069,-1.5423303200795673,-2.772303594076291
+cannibalism_vs_fc,Combined,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,11.525215069835246,0.9096411619989404,-3.9673809783673986,0.606877276313487
+cannibalism_vs_fc,Combined,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,8.125834124941301,0.8004258206019331,-3.810072032929928,0.613745935373941
+cannibalism_vs_fc,Combined,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,8.451086209614752,0.7747945018027375,-4.7231278344151875,-0.8624267420303519
+cannibalism_vs_fc,Combined,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,11.592669131535128,0.7732368537154921,-7.481541992545134,0.7635188962560926
+cannibalism_vs_fc,Combined,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,3.6994753270057217,0.579013819125931,-2.9411658960935196,-0.6919003904856972
+cannibalism_vs_fc,Combined,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,5.495691446932136,0.5670104911194352,-5.753320987927795,0.1431850981792155
+cannibalism_vs_fc,Combined,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Cannibalism,6.802523747222655,0.5508173444070266,-8.866885178593526,2.1496011632348684
+cannibalism_vs_fc,Combined,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Cannibalism,8.454817713363452,0.6392768236360755,-9.04552268612921,2.246664485302049
+cannibalism_vs_fc,Combined,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Cannibalism,6.802523747222655,0.5508173444070266,-8.866885178593526,2.1496011632348684
+cannibalism_vs_fc,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Cannibalism,8.471677295105861,0.6336483156007097,-9.230706175085613,3.3617982557175
+cannibalism_vs_fc,Combined,19,Ceprano,NA,Unknown,Unknown,Cannibalism,6.802523747222655,0.5508173444070266,-8.866885178593526,2.1496011632348684
+cannibalism_vs_fc,Combined,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Cannibalism,5.618851289021213,0.5820061315243763,-5.418899162063145,-1.2305664017711473
+cannibalism_vs_fc,Combined,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Cannibalism,6.802523747222655,0.5508173444070266,-8.866885178593526,2.1496011632348684
+cannibalism_vs_fc,Combined,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,8.725228454327164,0.7519802405573909,-5.9186627852818825,2.6594281964535647
+cannibalism_vs_fc,Combined,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,9.475165441669601,0.8132906384860006,-4.091542996644486,0.19568575330442095
+cannibalism_vs_fc,Combined,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,6.837741327302535,0.8474175561428877,0.31751969668966373,-0.9820063933772397
+cannibalism_vs_fc,Combined,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,15.478010687128597,0.867800632532472,-7.79598075019958,3.650650470786877
+cannibalism_vs_fc,Combined,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,6.91816814748769,0.8490824785353307,-2.5441518424733864,-2.27771139035817
+cannibalism_vs_fc,Combined,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,6.418857197252521,0.6211076365184679,-6.0571835680288375,2.6952475778327196
+cannibalism_vs_fc,Combined,68,Trou de la Naulette,Level 3,Unknown,Unknown,Cannibalism,18.04934285494738,0.9326570324001247,-5.868398817966548,3.5268929195392165
+cannibalism_vs_fc,Combined,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,5.655699503309577,0.6190418089696701,-4.829051383262958,-1.8785542663699195
+cannibalism_vs_fc,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Cannibalism,6.802523747222655,0.5508173444070266,-8.866885178593526,2.1496011632348684
+cannibalism_vs_fc,Combined,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,4.062980643904574,0.6222403091380058,0.7294548338883167,-1.0882297906356762
+cannibalism_vs_fc,Combined,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Cannibalism,5.914413972956699,0.5213320534902981,-7.755245007812822,1.177497400366678
+cannibalism_vs_fc,Combined,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,9.54099534588129,0.8383783519185727,-4.009756571728708,-1.0353154195923742
+cannibalism_vs_fc,Combined,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Cannibalism,6.802523747222655,0.5508173444070266,-8.866885178593526,2.1496011632348684
+cannibalism_vs_fc,Combined,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,9.031928890025267,0.6803466882286651,-8.667346551829384,2.3129378705251944
+cannibalism_vs_fc,Combined,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,10.987840643165823,0.8167392016695956,-5.7052792499244305,0.7220829467749532
+cannibalism_vs_fc,Combined,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,5.007011433059328,0.6681624774302416,-3.754609716144951,1.0639327624167123
+cannibalism_vs_fc,Combined,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Cannibalism,12.668637832344482,0.8899406318880697,-4.835068648958016,5.414914681616702
+cannibalism_vs_fc,Combined,119,Scladina Cave,Layer 4A,Unknown,Unknown,Cannibalism,6.802523747222655,0.5508173444070266,-8.866885178593526,2.1496011632348684
+cannibalism_vs_fc,Combined,122,Sima de los Huesos 89,NA,Unknown,Unknown,Cannibalism,4.47290744657883,0.4878624668983071,-6.2736245047818855,1.2708506959722536
+cannibalism_vs_fc,Combined,123,Sima de los Huesos 90,NA,Unknown,Unknown,Cannibalism,2.9853564876316008,0.3691013210909782,-5.531439431992982,0.2137231057835788
+cannibalism_vs_fc,Combined,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,4.59907518992413,0.64191099557073406,1.134769136396302,-0.775152989866665
+cannibalism_vs_fc,Combined,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,4.942684887058233,0.5950359311878288,2.1122700323140893,-3.374894403777622
+cannibalism_vs_fc,Combined,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,4.8537109168093,0.599787363212726,1.9155045109265496,-3.2652518744913808
+cannibalism_vs_fc,Combined,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,13.542664475955004,0.9417569530531961,-2.1373025700852253,-2.6696137741828796
+cannibalism_vs_fc,Combined,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,8.313464325372575,0.9989905810972065,-1.3889509189448377,4.590492259640251
+cannibalism_vs_fc,Combined,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Cannibalism,6.802523747222655,0.5508173444070266,-8.866885178593526,2.1496011632348684
+cannibalism_vs_fc,Combined,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,4.835543049248119,0.840697960271963,-0.5612725415167912,0.24386008606014492
+cannibalism_vs_fc,Combined,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,9.336100873637157,0.7727891188524308,-6.114737467035836,2.741060503173257
+cannibalism_vs_fc,Combined,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,5.146917051213823,0.9053058636856477,-1.0238509801967817,-1.8017490557245952
+cannibalism_vs_fc,Combined,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,11.457374935618617,0.9711219052556903,-0.20123347856971713,-2.930950644076
+cannibalism_vs_fc,Combined,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,8.156869381485224,0.828616683052033,-4.03687630049694,0.8324344698955203
+cannibalism_vs_fc,Combined,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,12.241752088054335,0.9722213769315885,-1.8373927711796219,-2.618026481389267
+cannibalism_vs_fc,Combined,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Cannibalism,5.086913948072922,0.5055563492768418,-6.795399226125384,1.7191743357507412
+cannibalism_vs_fc,Combined,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Cannibalism,12.450883610822766,0.9968160752794181,-0.9851385634762068,-4.242259237174378
+fc_vs_rest,C only,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.07874506759344335,0.05392922165259683,-0.7359210630360937,NA
+fc_vs_rest,C only,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.48690807665077585,0.5443338320680323,-0.17026791879187456,NA
+fc_vs_rest,C only,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.06665561803998854,0.046030775092800166,-0.7238316134826389,NA
+fc_vs_rest,C only,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.07490010504433231,0.05143139870555036,-0.7320761004869827,NA
+fc_vs_rest,C only,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.41796494048171595,0.4338229814707397,-0.23921105496093445,NA
+fc_vs_rest,C only,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.036884786912322665,0.027433301764282863,-0.6202912085303277,NA
+fc_vs_rest,C only,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Rest,0.15594008492559575,0.10143428537393492,-0.8131160803682461,NA
+fc_vs_rest,C only,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Rest,0.2857075709580932,0.17137809874452312,-0.9428835664007436,NA
+fc_vs_rest,C only,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Rest,0.15594008492559575,0.10143428537393492,-0.8131160803682461,NA
+fc_vs_rest,C only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Rest,0.1540176036510401,0.10030920797237751,-0.8111935990936905,NA
+fc_vs_rest,C only,19,Ceprano,NA,Unknown,Unknown,Rest,0.15594008492559575,0.10143428537393492,-0.8131160803682461,NA
+fc_vs_rest,C only,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Rest,0.008432064048900956,0.006141438346673128,-0.6487439313937494,NA
+fc_vs_rest,C only,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Rest,0.15594008492559575,0.10143428537393492,-0.8131160803682461,NA
+fc_vs_rest,C only,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.029357533306562877,0.021713296931060343,-0.6278184621360875,NA
+fc_vs_rest,C only,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.3180254908398221,0.29906892477207986,-0.33915050460282825,NA
+fc_vs_rest,C only,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,0.5768496294531354,0.7169742649748118,0.14738514103468323,NA
+fc_vs_rest,C only,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.0378923405091387,0.02669784934395974,-0.6950683359517891,NA
+fc_vs_rest,C only,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.09969446839967577,0.07778200885151858,-0.5574815270429746,NA
+fc_vs_rest,C only,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.11657163574264884,0.09216321108387808,-0.5406043597000015,NA
+fc_vs_rest,C only,68,Trou de la Naulette,Level 3,Unknown,Unknown,Rest,0.2559091112024825,0.15629756578207257,-0.9130851066451329,NA
+fc_vs_rest,C only,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.013676470608487423,0.009803308531742503,-0.6708524660511378,NA
+fc_vs_rest,C only,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Rest,0.15594008492559575,0.10143428537393492,-0.8131160803682461,NA
+fc_vs_rest,C only,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5603015021744615,0.6823714296090989,0.1639332683133572,NA
+fc_vs_rest,C only,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Rest,0.09105634190934708,0.06183930454170304,-0.7482323373519975,NA
+fc_vs_rest,C only,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.13579644848820394,0.10901965928510465,-0.5213795469544464,NA
+fc_vs_rest,C only,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Rest,0.15594008492559575,0.10143428537393492,-0.8131160803682461,NA
+fc_vs_rest,C only,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.2069597802887999,0.13029691389167186,-0.8641357757314503,NA
+fc_vs_rest,C only,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.07952145426201385,0.05443199428618024,-0.7366974497046642,NA
+fc_vs_rest,C only,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.31113043780704114,0.2906999499398074,-0.34604555763560924,NA
+fc_vs_rest,C only,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Rest,0.5188508424433906,0.6015244023230616,-0.1383251529992597,NA
+fc_vs_rest,C only,119,Scladina Cave,Layer 4A,Unknown,Unknown,Rest,0.15594008492559575,0.10143428537393492,-0.8131160803682461,NA
+fc_vs_rest,C only,122,Sima de los Huesos 89,NA,Unknown,Unknown,Rest,0.1523492965834572,0.09933059303535874,-0.8095252920261076,NA
+fc_vs_rest,C only,123,Sima de los Huesos 90,NA,Unknown,Unknown,Rest,0.041557730631505474,0.02920495480533325,-0.6987337260741558,NA
+fc_vs_rest,C only,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,0.47137195490877226,0.5179690681319019,0.25286281557904644,NA
+fc_vs_rest,C only,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,0.581595094906949,0.7271614147828396,0.14263967558086968,NA
+fc_vs_rest,C only,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,0.5963574599990564,0.7596394480391604,0.12787731048876233,NA
+fc_vs_rest,C only,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.19058716481303623,0.16004651287914934,-0.46658883062961415,NA
+fc_vs_rest,C only,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,0.20484950282664294,0.17410865821490665,0.5193852676611758,NA
+fc_vs_rest,C only,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Rest,0.15594008492559575,0.10143428537393492,-0.8131160803682461,NA
+fc_vs_rest,C only,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5676808726052555,0.6976281408140149,0.15655389788256324,NA
+fc_vs_rest,C only,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.04136071767462113,0.030865054427224176,-0.6158152777680292,NA
+fc_vs_rest,C only,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Rest,0.4137904097141095,0.42763714824286536,-0.24338558572854088,NA
+fc_vs_rest,C only,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.3607923108280887,0.3535036124659306,0.36344245965973,NA
+fc_vs_rest,C only,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.1601848487596485,0.13116725292789738,-0.49699114668300187,NA
+fc_vs_rest,C only,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.36231650174208185,0.35552795700467704,-0.2948594937005685,NA
+fc_vs_rest,C only,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Rest,2.6151863203993653e-4,1.893485679056591e-4,-0.6569144768106104,NA
+fc_vs_rest,C only,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.39795634690884174,0.40465154176107293,-0.25921964853380863,NA
+fc_vs_rest,Heip evenness only,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.5388845398639995,0.6195803350615798,-0.13124605989529317,NA
+fc_vs_rest,Heip evenness only,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.5198290089127715,0.584857656699211,-0.15030159084652117,NA
+fc_vs_rest,Heip evenness only,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.30147481053157044,0.2722938757493337,-0.36865578922772224,NA
+fc_vs_rest,Heip evenness only,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.3191989037435593,0.1847386102045288,-0.989329503502852,NA
+fc_vs_rest,Heip evenness only,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5909399618292497,0.7226838457667409,0.14757131137486884,NA
+fc_vs_rest,Heip evenness only,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.10382988839960294,0.07957459743467388,-0.5663007113596897,NA
+fc_vs_rest,Heip evenness only,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Rest,0.6316119705228468,0.3095751896458079,-1.3017425702821395,NA
+fc_vs_rest,Heip evenness only,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Rest,0.47333425898285186,0.2515091721664657,-1.1434648587421445,NA
+fc_vs_rest,Heip evenness only,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Rest,0.6316119705228468,0.3095751896458079,-1.3017425702821395,NA
+fc_vs_rest,Heip evenness only,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Rest,0.6113037756517795,0.3026337743646071,-1.2814343754110722,NA
+fc_vs_rest,Heip evenness only,19,Ceprano,NA,Unknown,Unknown,Rest,0.6316119705228468,0.3095751896458079,-1.3017425702821395,NA
+fc_vs_rest,Heip evenness only,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Rest,0.06622851213447656,0.04933540894853783,-0.6039020876248161,NA
+fc_vs_rest,Heip evenness only,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Rest,0.6316119705228468,0.3095751896458079,-1.3017425702821395,NA
+fc_vs_rest,Heip evenness only,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.19536570479365162,0.16102327723816,-0.47476489496564106,NA
+fc_vs_rest,Heip evenness only,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.34739612557051586,0.32734748424099225,-0.3227344741887768,NA
+fc_vs_rest,Heip evenness only,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,0.619190966404919,0.7843311867285084,0.11932030679919943,NA
+fc_vs_rest,Heip evenness only,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.21553626504776213,0.13270481851928448,-0.8856668648070548,NA
+fc_vs_rest,Heip evenness only,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.15204673160583548,0.12099898097773178,0.586464541598283,NA
+fc_vs_rest,Heip evenness only,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.1592089216799396,0.10154596484811293,-0.8293395214392323,NA
+fc_vs_rest,Heip evenness only,68,Trou de la Naulette,Level 3,Unknown,Unknown,Rest,0.34541328241086167,0.19692270300198106,-1.0155438821701543,NA
+fc_vs_rest,Heip evenness only,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.29480935885938225,0.26468015175201454,-0.3753212408999104,NA
+fc_vs_rest,Heip evenness only,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Rest,0.6316119705228468,0.3095751896458079,-1.3017425702821395,NA
+fc_vs_rest,Heip evenness only,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5318391069143492,0.2740759185116322,1.2703503801184677,NA
+fc_vs_rest,Heip evenness only,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Rest,0.4585563093886823,0.2455852376693313,-1.128686909147975,NA
+fc_vs_rest,Heip evenness only,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.4801938787702754,0.5172006205771236,-0.18993672098901726,NA
+fc_vs_rest,Heip evenness only,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Rest,0.6316119705228468,0.3095751896458079,-1.3017425702821395,NA
+fc_vs_rest,Heip evenness only,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.42470245722471056,0.23165449622937517,-1.0948330569840032,NA
+fc_vs_rest,Heip evenness only,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.2643783023262564,0.23104668287136323,-0.40575229743303626,NA
+fc_vs_rest,Heip evenness only,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.6836588020536671,0.9429996774900948,0.013528202294374488,NA
+fc_vs_rest,Heip evenness only,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Rest,0.16373649825737024,0.10413301356355252,-0.8338670980166629,NA
+fc_vs_rest,Heip evenness only,119,Scladina Cave,Layer 4A,Unknown,Unknown,Rest,0.6316119705228468,0.3095751896458079,-1.3017425702821395,NA
+fc_vs_rest,Heip evenness only,122,Sima de los Huesos 89,NA,Unknown,Unknown,Rest,0.11393761493369481,0.08800281162825965,-0.5561929848255979,NA
+fc_vs_rest,Heip evenness only,123,Sima de los Huesos 90,NA,Unknown,Unknown,Rest,0.48872442852715337,0.5312698780559082,-0.18140617123213934,NA
+fc_vs_rest,Heip evenness only,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,0.14590290766770542,0.11554478928551806,0.592608365536413,NA
+fc_vs_rest,Heip evenness only,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,0.37213549648462474,0.20897362178404744,1.1106467696887432,NA
+fc_vs_rest,Heip evenness only,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,0.35431399848805667,0.2009772361439454,1.0928252716921751,NA
+fc_vs_rest,Heip evenness only,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.4210209281714603,0.4262980958348866,0.31749034503265816,NA
+fc_vs_rest,Heip evenness only,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Rest,0.5948968622079771,0.7310605341293694,-0.07523373755131557,NA
+fc_vs_rest,Heip evenness only,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Rest,0.6316119705228468,0.3095751896458079,-1.3017425702821395,NA
+fc_vs_rest,Heip evenness only,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.004075084039274701,0.0029013102626441246,0.7344361891648438,NA
+fc_vs_rest,Heip evenness only,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.1785141871124561,0.14511842076700096,-0.4916164126468366,NA
+fc_vs_rest,Heip evenness only,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,0.1920975757239084,0.12000552362312136,0.9306088489280269,NA
+fc_vs_rest,Heip evenness only,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.6958437261539092,0.97621427506303,0.02571312639461651,NA
+fc_vs_rest,Heip evenness only,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.6039525629065495,0.7505413025355991,-0.06617803685274314,NA
+fc_vs_rest,Heip evenness only,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.2812077838839893,0.24942281469740063,-0.38892281587530336,NA
+fc_vs_rest,Heip evenness only,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Rest,0.31789291921509966,0.18412193061802598,-0.9880235189743923,NA
+fc_vs_rest,Heip evenness only,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.6836834491785942,0.9430657355621349,0.05482782402552417,NA
+fc_vs_rest,C + Heip evenness,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.5446075035975271,0.32043870155913956,-0.6131797530468123,-0.42756979513485693
+fc_vs_rest,C + Heip evenness,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.7122511310029574,0.5648299766588235,-0.22667687410695592,-0.014118325885553826
+fc_vs_rest,C + Heip evenness,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.3087556198700505,0.16938241280621202,-0.772505250817375,-0.25114723384417303
+fc_vs_rest,C + Heip evenness,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.3278688242067886,0.1450935206275971,-1.2172175757537367,0.18190562575583713
+fc_vs_rest,C + Heip evenness,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.9183306087375855,0.8125108366249008,-0.06479908411590345,-0.2734964340794259
+fc_vs_rest,C + Heip evenness,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.11018681060200196,0.05881098577192271,-0.8390471930553959,-0.03817704666899113
+fc_vs_rest,C + Heip evenness,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Rest,0.650577429207589,0.25466700613375415,-1.4954308931259193,0.34551110448549427
+fc_vs_rest,C + Heip evenness,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Rest,0.5528780487861852,0.21990363504688287,-1.47527111933641,0.14183239199376596
+fc_vs_rest,C + Heip evenness,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Rest,0.650577429207589,0.25466700613375415,-1.4954308931259193,0.34551110448549427
+fc_vs_rest,C + Heip evenness,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Rest,0.6304075890727602,0.24845936285649764,-1.4797114312729873,0.3325104417244472
+fc_vs_rest,C + Heip evenness,19,Ceprano,NA,Unknown,Unknown,Rest,0.650577429207589,0.25466700613375415,-1.4954308931259193,0.34551110448549427
+fc_vs_rest,C + Heip evenness,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Rest,0.0667631299720982,0.0347689544243717,-0.8857544944743607,-0.03170797180992041
+fc_vs_rest,C + Heip evenness,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Rest,0.650577429207589,0.25466700613375415,-1.4954308931259193,0.34551110448549427
+fc_vs_rest,C + Heip evenness,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.19755916423027858,0.10875130704506926,-0.779644168630061,-0.10822521523101336
+fc_vs_rest,C + Heip evenness,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.4709822511361924,0.31349874045154297,-0.46802335686905816,-0.011607886425940322
+fc_vs_rest,C + Heip evenness,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,0.846258204023853,0.7507697745505474,0.18858923074273343,0.019844834600786954
+fc_vs_rest,C + Heip evenness,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.21884174880492907,0.10145951372038908,-1.117748579716857,0.1347735122377383
+fc_vs_rest,C + Heip evenness,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.2605436669599985,0.9766332178420792,0.020494086131286893,-0.808892022447925
+fc_vs_rest,C + Heip evenness,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.19732315374077608,0.09795427858745415,-0.96869660819857,0.20416659083280475
+fc_vs_rest,C + Heip evenness,68,Trou de la Naulette,Level 3,Unknown,Unknown,Rest,0.42988348289075984,0.17915659917820204,-1.3637466363842436,0.0724492949658131
+fc_vs_rest,C + Heip evenness,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.29512642023272817,0.16531964612651592,-0.7397565224841541,-0.2089721333568012
+fc_vs_rest,C + Heip evenness,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Rest,0.650577429207589,0.25466700613375415,-1.4954308931259193,0.34551110448549427
+fc_vs_rest,C + Heip evenness,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.772522238503469,0.3666357590321506,1.0141916939511253,-0.7823550425782282
+fc_vs_rest,C + Heip evenness,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Rest,0.46750951464337154,0.1966029153893287,-1.3271823269396756,0.26902200765036
+fc_vs_rest,C + Heip evenness,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.499025887735748,0.32121296252883574,-0.5029765566311304,-0.23436546981578765
+fc_vs_rest,C + Heip evenness,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Rest,0.650577429207589,0.25466700613375415,-1.4954308931259193,0.34551110448549427
+fc_vs_rest,C + Heip evenness,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.47244526437450446,0.19476570861044265,-1.3852001457461927,0.1631276119749805
+fc_vs_rest,C + Heip evenness,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.27607888080919735,0.1487725894239706,-0.8078339633659245,-0.23401356137208257
+fc_vs_rest,C + Heip evenness,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.7511268248141963,0.5810479805603449,-0.23512527682400397,-0.2542570439832352
+fc_vs_rest,C + Heip evenness,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Rest,0.5440733751671755,0.303370655650971,-0.6874437333103731,0.49182242592148667
+fc_vs_rest,C + Heip evenness,119,Scladina Cave,Layer 4A,Unknown,Unknown,Rest,0.650577429207589,0.25466700613375415,-1.4954308931259193,0.34551110448549427
+fc_vs_rest,C + Heip evenness,122,Sima de los Huesos 89,NA,Unknown,Unknown,Rest,0.19024218319356281,0.09478191660399608,-0.9657086547522475,-0.17913299231511393
+fc_vs_rest,C + Heip evenness,123,Sima de los Huesos 90,NA,Unknown,Unknown,Rest,0.4904881364665545,0.28947115722728045,-0.6223528897781129,-0.36580582212344537
+fc_vs_rest,C + Heip evenness,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,0.49343609347149364,0.3170172227156376,0.597838405464541,-0.2402363822528069
+fc_vs_rest,C + Heip evenness,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,0.6904619338990972,0.35369383828922957,0.8862073442193261,-0.684484380480362
+fc_vs_rest,C + Heip evenness,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,0.6936718457751625,0.3594433482559647,0.8631670736720696,-0.6823212468590668
+fc_vs_rest,C + Heip evenness,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.0058422331475334,0.7963537580220289,-0.10542855023025238,-0.5544277020979509
+fc_vs_rest,C + Heip evenness,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,0.8391330415003835,0.6364746543655374,0.31406255881506323,0.42045913080815167
+fc_vs_rest,C + Heip evenness,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Rest,0.650577429207589,0.25466700613375415,-1.4954308931259193,0.34551110448549427
+fc_vs_rest,C + Heip evenness,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.5676954988651851,0.34972613715075984,0.6300251325212136,-0.40862448689332026
+fc_vs_rest,C + Heip evenness,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.18324307344885019,0.10073550767391665,-0.7830724579932329,-0.08782185974286866
+fc_vs_rest,C + Heip evenness,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,0.9865042485277381,0.5966674248994958,0.48594022959750405,-0.8301394258209263
+fc_vs_rest,C + Heip evenness,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,0.7989069342844212,0.6467534771415866,0.2751745538356535,0.23881070175737312
+fc_vs_rest,C + Heip evenness,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.624834285241728,0.4272359819166584,-0.3982207486334167,-0.3046308713850408
+fc_vs_rest,C + Heip evenness,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.45864045302564016,0.30178542494285443,-0.48350710795649815,0.06651281297068998
+fc_vs_rest,C + Heip evenness,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Rest,0.31789302678588716,0.14377831371004415,-1.163146811450984,0.2341294490261927
+fc_vs_rest,C + Heip evenness,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.8270030049894598,0.6904636483365001,-0.14452684512889874,-0.22206509746120043
+fc_vs_rest,%MNAU raw,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.625942876460798,0.3406472923229587,-2.0610355573235526,0.08272384508344362
+fc_vs_rest,%MNAU raw,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.826241252142723,0.8002212405824294,-0.7540363634450097,0.19240718759281492
+fc_vs_rest,%MNAU raw,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.5374019352024622,0.3181711483072688,-2.1632184393315064,0.3174162918073284
+fc_vs_rest,%MNAU raw,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.4701958943292595,0.2753796836902799,-2.584303920388251,-0.5701617762746108
+fc_vs_rest,%MNAU raw,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.8613040990986007,0.5069690732910014,-0.9402097712999942,0.3312684743672762
+fc_vs_rest,%MNAU raw,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.0662899856665091,0.22016183630777758,-2.2100778472063687,-0.005855416739349119
+fc_vs_rest,%MNAU raw,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Rest,0.966398607252983,0.17501104789450733,-2.9452017311402754,-0.12304325337937069
+fc_vs_rest,%MNAU raw,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Rest,0.9575380447924775,0.1735634638959035,-3.0056468260271973,-0.15332791177673086
+fc_vs_rest,%MNAU raw,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Rest,0.966398607252983,0.17501104789450733,-2.9452017311402754,-0.12304325337937069
+fc_vs_rest,%MNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Rest,0.9628887342635098,0.1746635753329809,-2.9359949322650056,-0.12651566683727986
+fc_vs_rest,%MNAU raw,19,Ceprano,NA,Unknown,Unknown,Rest,0.966398607252983,0.17501104789450733,-2.9452017311402754,-0.12304325337937069
+fc_vs_rest,%MNAU raw,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Rest,1.279055780850274,0.25182978355549385,-2.4325110648566564,0.072971448881161
+fc_vs_rest,%MNAU raw,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Rest,0.966398607252983,0.17501104789450733,-2.9452017311402754,-0.12304325337937069
+fc_vs_rest,%MNAU raw,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.092923996281191,0.23261674043338632,-2.090107991667023,0.29758761017349106
+fc_vs_rest,%MNAU raw,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.077337652662905,0.6291371457045316,-1.29653083306824,-0.1193964642972937
+fc_vs_rest,%MNAU raw,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,3.4941247268994227,0.8788005748276464,0.4051180047745411,0.5440146468283681
+fc_vs_rest,%MNAU raw,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Rest,2.4296150927937505,0.4568751106250492,-2.2701952329783097,-0.0338853836257902
+fc_vs_rest,%MNAU raw,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.5818641739553037,0.35952295576547066,-1.685428379561337,-0.045677847131466276
+fc_vs_rest,%MNAU raw,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.5238160759501198,0.3186388118057972,-2.023601064684281,0.44724963641349097
+fc_vs_rest,%MNAU raw,68,Trou de la Naulette,Level 3,Unknown,Unknown,Rest,1.529654424490491,0.28426694067334607,-2.721294360348333,-0.0176798406968457
+fc_vs_rest,%MNAU raw,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.1870887948774334,0.24506128598906984,-2.2555237122962044,0.0365710270931383
+fc_vs_rest,%MNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Rest,0.966398607252983,0.17501104789450733,-2.9452017311402754,-0.12304325337937069
+fc_vs_rest,%MNAU raw,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.218865513241749,0.6691111487457957,0.7451038702181265,0.14665915108893307
+fc_vs_rest,%MNAU raw,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Rest,0.9394277741536242,0.17628814090808914,-2.7268974381554942,-0.051920323888555615
+fc_vs_rest,%MNAU raw,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Rest,2.6070089491950847,0.5349631951510656,-1.7380756371183108,0.14418027725744956
+fc_vs_rest,%MNAU raw,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Rest,0.966398607252983,0.17501104789450733,-2.9452017311402754,-0.12304325337937069
+fc_vs_rest,%MNAU raw,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Rest,0.8295561803290606,0.15315825752032644,-2.897579392592116,-0.1602621751055395
+fc_vs_rest,%MNAU raw,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.3045450977780062,0.2630074304024897,-2.322652099605891,0.12112066109665007
+fc_vs_rest,%MNAU raw,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.884445355448651,0.4597856433583864,-1.295515178938588,0.2819879617427305
+fc_vs_rest,%MNAU raw,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Rest,4.3663734138108055,0.8368070687998203,-0.7108927398991332,1.5563132271121534
+fc_vs_rest,%MNAU raw,119,Scladina Cave,Layer 4A,Unknown,Unknown,Rest,0.966398607252983,0.17501104789450733,-2.9452017311402754,-0.12304325337937069
+fc_vs_rest,%MNAU raw,122,Sima de los Huesos 89,NA,Unknown,Unknown,Rest,0.7418617864420789,0.1455100040453101,-2.576118257780182,-0.02885674534083567
+fc_vs_rest,%MNAU raw,123,Sima de los Huesos 90,NA,Unknown,Unknown,Rest,0.4663581376564436,0.0966403491562276,-2.3271362201522643,0.027657843121184467
+fc_vs_rest,%MNAU raw,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,2.9540452284928724,0.7674707775357352,0.6251050002699684,0.5956370282332822
+fc_vs_rest,%MNAU raw,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,2.8775603280779682,0.7471440002502358,0.6540722398582958,-0.3585364884500452
+fc_vs_rest,%MNAU raw,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,2.91988162797215,0.7755302573598679,0.563448266898759,-0.3311440356348398
+fc_vs_rest,%MNAU raw,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.598696774371225,0.7048562295442441,-1.171043725437662,-1.063006168024661
+fc_vs_rest,%MNAU raw,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,3.7937134852548295,0.7087976924734433,1.6053987217500223,2.060328686256998
+fc_vs_rest,%MNAU raw,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Rest,0.966398607252983,0.17501104789450733,-2.9452017311402754,-0.12304325337937069
+fc_vs_rest,%MNAU raw,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.695604261449945,0.8089748664564285,0.49385755187717806,0.37714241479779487
+fc_vs_rest,%MNAU raw,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.3293366965354294,0.28183578870045467,-2.0373316218096176,0.11538129126422608
+fc_vs_rest,%MNAU raw,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Rest,2.10014252769369,0.6215241655685675,-0.6772084208931641,-0.0869724377860821
+fc_vs_rest,%MNAU raw,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,6.113339676816905,0.9436731091468051,0.8046160068655784,-2.2822517644744806
+fc_vs_rest,%MNAU raw,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Rest,2.308990280985683,0.5051463998568593,-1.610185269250255,0.16544297515790157
+fc_vs_rest,%MNAU raw,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.320498871531583,0.8449067872502867,-0.7337568026418955,-0.2511414791255536
+fc_vs_rest,%MNAU raw,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Rest,0.7784814433067623,0.15706224565361201,-2.3473386453795158,-0.17465187371291574
+fc_vs_rest,%MNAU raw,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.335331438763944,0.8632239420317519,-0.47332436310461723,-1.1409660799865933
+fc_vs_rest,ReMNAU raw,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,6.956933761935214,0.8481413430217849,-2.9797215162664408,1.797748535462086
+fc_vs_rest,ReMNAU raw,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Rest,6.601202540221843,0.9702332048470497,0.0042812234599296575,0.9164340541579424
+fc_vs_rest,ReMNAU raw,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.660705909625907,0.9618036791458756,0.04977306298581344,1.4362380032095763
+fc_vs_rest,ReMNAU raw,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,9.080637981112954,0.9504539730285982,0.35763454402689165,-1.7305256496411812
+fc_vs_rest,ReMNAU raw,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,3.0650576792577553,0.8698194859560368,-0.7536756854600636,1.1818872674078331
+fc_vs_rest,ReMNAU raw,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.7732068367994085,0.8677688679452346,0.49826993539538994,0.6160823208487968
+fc_vs_rest,ReMNAU raw,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Rest,2.329170260328775,0.43383521195736113,3.4229243281799153,-0.27450459261231164
+fc_vs_rest,ReMNAU raw,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Rest,2.058732080357906,0.39386506432389795,3.3607949644485906,-0.21714363206619364
+fc_vs_rest,ReMNAU raw,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Rest,2.329170260328775,0.43383521195736113,3.4229243281799153,-0.27450459261231164
+fc_vs_rest,ReMNAU raw,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Rest,2.2986140862309847,0.4345676575037658,3.334778321401712,-0.4066670475829597
+fc_vs_rest,ReMNAU raw,19,Ceprano,NA,Unknown,Unknown,Rest,2.329170260328775,0.43383521195736113,3.4229243281799153,-0.27450459261231164
+fc_vs_rest,ReMNAU raw,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Rest,2.9709569202753285,0.5947510120584709,2.4025811848749554,-0.6350805421900821
+fc_vs_rest,ReMNAU raw,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Rest,2.329170260328775,0.43383521195736113,3.4229243281799153,-0.27450459261231164
+fc_vs_rest,ReMNAU raw,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.53769027206084,0.8875424354932305,0.3870857784832066,1.0095138179530174
+fc_vs_rest,ReMNAU raw,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,8.842991263555671,0.9609064059519089,-1.2815336314342598,0.023255237493856294
+fc_vs_rest,ReMNAU raw,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,2.7715845910721,0.6530910298379402,-1.607078763954265,0.8650513522703178
+fc_vs_rest,ReMNAU raw,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Rest,6.835410613777899,0.873997301184509,1.7273766961863648,1.376264340706775
+fc_vs_rest,ReMNAU raw,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,3.8529587107235517,0.9425710576072363,-0.4310274149363081,0.3327575318231255
+fc_vs_rest,ReMNAU raw,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.903855074261141,0.794669196925652,1.212571633862173,1.5026678010707641
+fc_vs_rest,ReMNAU raw,68,Trou de la Naulette,Level 3,Unknown,Unknown,Funerary Context,15.268862402008802,0.9336294748855493,-5.105128916461065,4.194218364654672
+fc_vs_rest,ReMNAU raw,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.793871451921599,0.7597938406734918,1.3448055001154413,0.39600634874327806
+fc_vs_rest,ReMNAU raw,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Rest,2.329170260328775,0.43383521195736113,3.4229243281799153,-0.27450459261231164
+fc_vs_rest,ReMNAU raw,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,1.944310465702378,0.4736377280988874,-2.063468255300808,0.23429265141185368
+fc_vs_rest,ReMNAU raw,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Rest,3.646364424878606,0.7018551756738954,1.8628223167857723,0.11138717101109746
+fc_vs_rest,ReMNAU raw,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.719087551769216,0.8003975402818917,1.4796774851444727,0.5921249181750756
+fc_vs_rest,ReMNAU raw,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Rest,2.329170260328775,0.43383521195736113,3.4229243281799153,-0.27450459261231164
+fc_vs_rest,ReMNAU raw,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.204697622357709,0.6084640251986547,2.6772439759727007,-1.3978818935769084
+fc_vs_rest,ReMNAU raw,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.117075548891708,0.713298289748584,1.097524954438621,-0.564518074549739
+fc_vs_rest,ReMNAU raw,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,3.5150863750859416,0.8634354812832984,-0.5458385903365272,0.10646290327708714
+fc_vs_rest,ReMNAU raw,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Funerary Context,8.37069338552049,0.9175339063337834,-1.9509961030975271,3.0017049908098103
+fc_vs_rest,ReMNAU raw,119,Scladina Cave,Layer 4A,Unknown,Unknown,Rest,2.329170260328775,0.43383521195736113,3.4229243281799153,-0.27450459261231164
+fc_vs_rest,ReMNAU raw,122,Sima de los Huesos 89,NA,Unknown,Unknown,Funerary Context,2.9050929099668066,0.9346580163780736,-0.254339783918633,1.3642642780648289
+fc_vs_rest,ReMNAU raw,123,Sima de los Huesos 90,NA,Unknown,Unknown,Rest,1.763936026163533,0.6334822817623874,0.6773683184633291,0.02760136476352009
+fc_vs_rest,ReMNAU raw,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,2.0448253477926035,0.7586144208677256,-0.4390308897145137,-0.3551164912089348
+fc_vs_rest,ReMNAU raw,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,2.128221916696449,0.5268891066109357,-1.6651372649745442,-1.6653555513422622
+fc_vs_rest,ReMNAU raw,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,2.0846715754749066,0.5321848674886795,-1.5518204217012892,-1.633629784297947
+fc_vs_rest,ReMNAU raw,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,12.465972619035872,0.9396160153230728,-4.359129164272906,-0.7502261934554249
+fc_vs_rest,ReMNAU raw,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,3.961546052116482,0.7524441937051356,-1.9587889893894186,2.3935365234202437
+fc_vs_rest,ReMNAU raw,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Rest,2.329170260328775,0.43383521195736113,3.4229243281799153,-0.27450459261231164
+fc_vs_rest,ReMNAU raw,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.6823877526549182,0.727853511888794,-0.9825604420130682,0.12705958265007822
+fc_vs_rest,ReMNAU raw,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,5.213885476565187,0.9926751000324475,-0.1345179770364312,0.7241923548904637
+fc_vs_rest,ReMNAU raw,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,2.700056717014866,0.6217934545021412,-1.5618361426489284,-0.7052765548613992
+fc_vs_rest,ReMNAU raw,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,8.123215752267896,0.9435020655485656,-0.9916968704368518,-2.9380997978374075
+fc_vs_rest,ReMNAU raw,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,5.1463706800183,0.9908094537301358,0.13892243425269957,-1.8654371589428174
+fc_vs_rest,ReMNAU raw,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,7.7274303532520765,0.9138589059955988,-1.8326226159305437,-0.4707586879425927
+fc_vs_rest,ReMNAU raw,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Rest,3.19206758650772,0.8835432919361729,0.2887627870204999,0.5166058171836466
+fc_vs_rest,ReMNAU raw,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,10.617615133268675,0.8863828211048786,-4.316320141358111,-3.155795816335015
+fc_vs_rest,Engineered,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.892021128913406,0.7021625222579411,-2.2356024091740347,3.5221023817148307
+fc_vs_rest,Engineered,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.996046461762429,0.430040129516301,-1.3611232393612842,-0.012608838112494303
+fc_vs_rest,Engineered,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Rest,2.5589491334191052,0.4985473812941614,-1.6278433377294552,0.576473069120077
+fc_vs_rest,Engineered,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.3592501981147613,0.43046846076859385,-4.189194679564214,1.2156588547422347
+fc_vs_rest,Engineered,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.2036594465887753,0.7943195142328019,-0.2794551599177428,-1.330225410628853
+fc_vs_rest,Engineered,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Rest,2.2876358682529943,0.38849233577493186,-2.2343280221768396,-1.8112231947872437
+fc_vs_rest,Engineered,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Rest,2.3793028242544114,0.3089523162366578,-4.343552157518335,-1.2663775551651064
+fc_vs_rest,Engineered,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Rest,3.5305230661578246,0.4252745626651013,-4.851299960551112,1.8441656742914558
+fc_vs_rest,Engineered,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Rest,2.3793028242544114,0.3089523162366578,-4.343552157518335,-1.2663775551651064
+fc_vs_rest,Engineered,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Rest,3.48820692862812,0.4156201040137983,-4.903290177059085,0.7284675619293266
+fc_vs_rest,Engineered,19,Ceprano,NA,Unknown,Unknown,Rest,2.3793028242544114,0.3089523162366578,-4.343552157518335,-1.2663775551651064
+fc_vs_rest,Engineered,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Rest,3.397330489214278,0.6581547974968449,-0.9860468895002379,-2.4948613831150293
+fc_vs_rest,Engineered,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Rest,2.3793028242544114,0.3089523162366578,-4.343552157518335,-1.2663775551651064
+fc_vs_rest,Engineered,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.0443319420889665,0.57499629209787,-2.905173677462929,2.3964695263884006
+fc_vs_rest,Engineered,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Rest,1.7016274756975167,0.32581495646149994,-1.947158814118866,-0.01776383154432188
+fc_vs_rest,Engineered,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,4.884180686536903,0.6748294986354147,2.7977502832205836,-3.0405986874601942
+fc_vs_rest,Engineered,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.5414932797930825,0.44990168536321523,-4.278756644100454,2.066812116451838
+fc_vs_rest,Engineered,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.9981809065791856,0.9449636110251187,-0.05732942206775743,0.3304547966902969
+fc_vs_rest,Engineered,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Rest,2.275479008914132,0.3617319474883594,-2.8501188141833844,0.3093596166083402
+fc_vs_rest,Engineered,68,Trou de la Naulette,Level 3,Unknown,Unknown,Rest,3.8227102920889733,0.4738778055967715,-4.377715027174636,2.5786932472207162
+fc_vs_rest,Engineered,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.6972032360159055,0.7286721779192927,-0.7472857418944939,-1.8914708689039137
+fc_vs_rest,Engineered,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Rest,2.3793028242544114,0.3089523162366578,-4.343552157518335,-1.2663775551651064
+fc_vs_rest,Engineered,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.5962198197713926,0.4788514159342003,1.9862010153871028,1.2249490132434109
+fc_vs_rest,Engineered,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Rest,1.8943931089058659,0.26604475084899337,-3.775793907121951,-1.372186185321487
+fc_vs_rest,Engineered,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.584442065581024,0.8590892005201088,-0.18172862696636702,-1.1368482357556002
+fc_vs_rest,Engineered,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Rest,2.3793028242544114,0.3089523162366578,-4.343552157518335,-1.2663775551651064
+fc_vs_rest,Engineered,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.564359761159713,0.43383331048724105,-4.685797775543235,1.635951550496596
+fc_vs_rest,Engineered,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.276908737504203,0.6317037151053306,-2.447591943428357,2.688370951900815
+fc_vs_rest,Engineered,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Rest,2.7317618674115707,0.5926984909469775,-1.062475557207223,0.005425417527640641
+fc_vs_rest,Engineered,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Rest,4.232056982004635,0.5702281489951015,-3.1997472686256043,1.8196321412750887
+fc_vs_rest,Engineered,119,Scladina Cave,Layer 4A,Unknown,Unknown,Rest,2.3793028242544114,0.3089523162366578,-4.343552157518335,-1.2663775551651064
+fc_vs_rest,Engineered,122,Sima de los Huesos 89,NA,Unknown,Unknown,Rest,1.938287704488849,0.2956374614290657,-3.319276425563031,0.8486284640513873
+fc_vs_rest,Engineered,123,Sima de los Huesos 90,NA,Unknown,Unknown,Rest,1.9133193842491332,0.34295048829874303,-2.2808458868775134,0.35871538741862347
+fc_vs_rest,Engineered,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,2.6583090007259704,0.38647132654375227,3.6594470908967307,-1.3509765697654124
+fc_vs_rest,Engineered,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,3.3855198602682566,0.4364827796591428,4.344113543063676,-0.26911875471296287
+fc_vs_rest,Engineered,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,3.1879405803148746,0.42173519980087265,4.197937970972489,-0.2914132448751806
+fc_vs_rest,Engineered,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Rest,3.772951835723936,0.7558528727824019,-0.8918765724426478,1.8086060329701725
+fc_vs_rest,Engineered,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Rest,4.833732683095266,0.854905796720392,-0.7753605801214305,1.6261544998489743
+fc_vs_rest,Engineered,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Rest,2.3793028242544114,0.3089523162366578,-4.343552157518335,-1.2663775551651064
+fc_vs_rest,Engineered,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,2.7903714730329594,0.6402096847173442,1.0227810271219488,0.5619637176441862
+fc_vs_rest,Engineered,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.259048678921538,0.5715988847527753,-3.3243766322000408,2.435477482649098
+fc_vs_rest,Engineered,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,2.9711905837478985,0.6637665424746478,1.0454520293417613,0.3920214630651527
+fc_vs_rest,Engineered,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,5.197597154165363,0.8137016644888518,1.630299228355705,-3.668901657037235
+fc_vs_rest,Engineered,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.339229618408215,0.7346102688098006,-1.4384470438601427,2.112643458796389
+fc_vs_rest,Engineered,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Rest,5.397705380637492,0.9478230489319237,0.05611571249336678,-2.683014434934374
+fc_vs_rest,Engineered,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Rest,1.5056434989751284,0.21827210109267461,-3.6773442918616346,-0.7062078112848077
+fc_vs_rest,Engineered,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.327696424613547,0.9584152945926622,0.09363926792962046,-1.0311967642056221
+fc_vs_rest,Combined,2,Aie Zelai,NA,Sepulchral,Cuevas Sepulcrales,Rest,9.6880142112277,0.8854184529134504,-1.6909590590533918,2.7317808022678927
+fc_vs_rest,Combined,3,Aitzgaizto,NA,Sepulchral,Cuevas Sepulcrales,Rest,7.886710250424085,0.8281312503136056,-1.435155744835793,-0.23809529303201968
+fc_vs_rest,Combined,4,Allekoaitze,NA,Sepulchral,Cuevas Sepulcrales,Rest,5.5347994501890065,0.6470211594618605,-2.514267682509895,1.2805456270647149
+fc_vs_rest,Combined,7,Arbelaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,9.793059991916103,0.7285576761491468,-4.600358399985141,0.4331562532244012
+fc_vs_rest,Combined,11,Belako Arkaitza 1,NA,Sepulchral,Cuevas Sepulcrales,Rest,5.11321368464922,0.8172952793749076,-0.5300332224903564,0.31500946259425533
+fc_vs_rest,Combined,12,Beondegi II,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.539531036629237,0.5172011046303688,-3.148421038459467,-0.11476710717825025
+fc_vs_rest,Combined,13,Bilzingsleben,Fundschicht A,Unknown,Unknown,Rest,3.4669932649495494,0.31832197188895067,-6.117607638496126,-1.92422168541024
+fc_vs_rest,Combined,14,Bolomor Cave,Level  IV-VI,Unknown,Unknown,Rest,4.197600505835713,0.37295120795734416,-6.430860078433344,-0.3468103695939131
+fc_vs_rest,Combined,17,Cueva de la Carigüela,Units XI–VI,Unknown,Unknown,Rest,3.4669932649495494,0.31832197188895067,-6.117607638496126,-1.92422168541024
+fc_vs_rest,Combined,18,"Caverna delle Fate (Finale Ligure, Liguria, Italy)",Ensemble III supérieur (IIIb),Unknown,Unknown,Rest,4.287000001040391,0.3777306150387084,-6.429350823082675,-1.8210743444588475
+fc_vs_rest,Combined,19,Ceprano,NA,Unknown,Unknown,Rest,3.4669932649495494,0.31832197188895067,-6.117607638496126,-1.92422168541024
+fc_vs_rest,Combined,22,Cova del Parpalló (Parpalló Cave),NA,Unknown,Unkown,Rest,4.690887247163728,0.5332105090737779,-3.0473250665238587,-0.5679330715290968
+fc_vs_rest,Combined,36,Engis / Schmerling Cave,Layer 2,Unknown,Unknown,Rest,3.4669932649495494,0.31832197188895067,-6.117607638496126,-1.92422168541024
+fc_vs_rest,Combined,37,Erlaitz,NA,Sepulchral,Cuevas Sepulcrales,Rest,5.483279691980181,0.5864049936925204,-3.4429582009715785,-0.2659254021581484
+fc_vs_rest,Combined,38,Errtxorta,NA,Sepulchral,Cuevas Sepulcrales,Rest,9.851717569156813,0.8660526423716367,-1.596147528092506,0.058668336839242864
+fc_vs_rest,Combined,39,Kleine Feldhofer Grotte,NA,Unknown,Unknown,Funerary Context,6.6140615155393245,0.7123760630802545,2.7679555683997203,-0.0579752114037827
+fc_vs_rest,Combined,62,Koba Lotx,NA,Sepulchral,Cuevas Sepulcrales,Rest,8.072672569161858,0.6560555213184857,-5.133706444493117,0.07168483915050258
+fc_vs_rest,Combined,63,Koba Zarra,NA,Sepulchral,Cuevas Sepulcrales,Rest,5.932717043032447,0.8218817189301434,-0.8777838212803427,2.3180128291118307
+fc_vs_rest,Combined,64,Kobazar,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.768637603568479,0.5125084976838395,-3.714925663686084,-1.6707936138650368
+fc_vs_rest,Combined,68,Trou de la Naulette,Level 3,Unknown,Unknown,Rest,16.86464619123615,0.9323772585952788,-2.963194521160909,1.008598559924592
+fc_vs_rest,Combined,72,Larrabiel,NA,Sepulchral,Cuevas Sepulcrales,Rest,5.428807619453441,0.6304808874429616,-2.4581642928682106,1.1220448759087038
+fc_vs_rest,Combined,80,"Cova de les Malladetes (Barx, Valencia, Spain)","Sector E, level 12",Unknown,Unknown,Rest,3.4669932649495494,0.31832197188895067,-6.117607638496126,-1.92422168541024
+fc_vs_rest,Combined,84,Marizulo I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,3.929893726994048,0.5194174300677575,2.619203790490592,1.6658829602859853
+fc_vs_rest,Combined,92,Peștera Muierii,Gravettian layers,Unknown,Unknown,Rest,4.215118422172923,0.40923174458126654,-4.980097580974397,-1.3314525243847488
+fc_vs_rest,Combined,93,Naparraitz I,NA,Sepulchral,Cuevas Sepulcrales,Rest,6.474141480069244,0.7430297781889835,-1.8252329331572292,1.106161772813527
+fc_vs_rest,Combined,98,"Ochoz 1, Ochoz 2",Švédův stůl Cave,Unknown,Unknown,Rest,3.4669932649495494,0.31832197188895067,-6.117607638496126,-1.92422168541024
+fc_vs_rest,Combined,100,Olatzazpi,NA,Sepulchral,Cuevas Sepulcrales,Rest,4.864453804286954,0.4358251731063947,-5.99651797115152,-0.5235986172991031
+fc_vs_rest,Combined,101,Otalora,NA,Sepulchral,Cuevas Sepulcrales,Rest,5.450683098344185,0.5760332009083231,-3.4798679406178454,1.006954968041638
+fc_vs_rest,Combined,105,Pikandita,NA,Sepulchral,Cuevas Sepulcrales,Rest,5.252340468416163,0.7398624832446008,-1.3567618793636718,-0.39898538284356583
+fc_vs_rest,Combined,114,Saint-Césaire,Couche châtelperronien,Unknown,Unknown,Rest,10.963816837641728,0.8881837833231756,-2.0294671984526573,-2.3747574690385282
+fc_vs_rest,Combined,119,Scladina Cave,Layer 4A,Unknown,Unknown,Rest,3.4669932649495494,0.31832197188895067,-6.117607638496126,-1.92422168541024
+fc_vs_rest,Combined,122,Sima de los Huesos 89,NA,Unknown,Unknown,Rest,3.737399002875932,0.4247651587347494,-3.82782381139881,0.2865801285845954
+fc_vs_rest,Combined,123,Sima de los Huesos 90,NA,Unknown,Unknown,Rest,2.643813776176277,0.3353157238510008,-3.2558354620776884,0.23756304824783556
+fc_vs_rest,Combined,124,Sima de los Huesos 95,NA,Unknown,Unknown,Funerary Context,4.469261757639326,0.5365084884775957,3.171432675486417,-0.6962002141987741
+fc_vs_rest,Combined,125,Sima de los Huesos 15,NA,Unknown,Unknown,Funerary Context,4.926603971571704,0.5155712880987394,4.177503091781222,2.259219284404711
+fc_vs_rest,Combined,126,Sima de los Huesos 24,NA,Unknown,Unknown,Funerary Context,4.799430116438894,0.515561913763453,3.9756901392194117,2.0970742600429797
+fc_vs_rest,Combined,127,Sorginzulo,NA,Sepulchral,Cuevas Sepulcrales,Rest,14.254877349822939,0.9922601402289324,0.2979993610143336,3.9127556972850672
+fc_vs_rest,Combined,128,Spy cave,3rd Ossiferous Horizon,Unknown,Unkown,Funerary Context,7.877505049591295,0.8822133760106732,1.0699889415235364,-2.4557651386465524
+fc_vs_rest,Combined,129,Steinheim an der Murr,Antiquus-Schotter,Unknown,Unknown,Rest,3.4669932649495494,0.31832197188895067,-6.117607638496126,-1.92422168541024
+fc_vs_rest,Combined,135,Txispiri,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,4.716742450829421,0.7136630099517404,1.3870385628553423,0.10357386921533257
+fc_vs_rest,Combined,136,Txomen Koba Erdikua,NA,Sepulchral,Cuevas Sepulcrales,Rest,6.8915819136917955,0.6727064235819881,-3.497153583027547,-0.06509941346346887
+fc_vs_rest,Combined,137,Txotxinkoba Cave,NA,Sepulchral,Sepulchral Cave,Funerary Context,5.24748085152515,0.7974226552069132,0.9560395435288737,1.776021936464261
+fc_vs_rest,Combined,138,Urdabide II,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,11.418168519470404,0.9115742121104701,2.0059521329180847,1.286568058437806
+fc_vs_rest,Combined,139,Urtiaga,NA,Sepulchral,Cuevas Sepulcrales,Rest,7.151160822449178,0.7884196069389793,-1.9632204517032836,-0.004400983923313256
+fc_vs_rest,Combined,140,Uxar,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,10.876265228585414,0.9957591181851504,0.23880182490925903,1.9079217283219327
+fc_vs_rest,Combined,148,Weimar-Ehringsdorf,Lower Travertine,Unknown,Unknown,Rest,3.6141791848789495,0.3915479049151976,-4.1645212228240105,-0.8259789598397262
+fc_vs_rest,Combined,151,Zelaibizkar I,NA,Sepulchral,Cuevas Sepulcrales,Funerary Context,12.58357191935806,0.935302046329438,1.5565836957998118,3.818340935379094

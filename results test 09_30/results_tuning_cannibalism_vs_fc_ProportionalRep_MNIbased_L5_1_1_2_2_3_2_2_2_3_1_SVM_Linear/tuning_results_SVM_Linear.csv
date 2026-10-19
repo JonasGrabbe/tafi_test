@@ -1,0 +1,2 @@
+rank,cost,.metric,.estimator,mean,n,std_err,.config
+1,0.026339087031674428,accuracy,binary,0.6859903381642511,3,0.009661835748792275,pre0_mod1_post0
