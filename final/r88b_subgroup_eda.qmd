@@ -151,7 +151,7 @@ focus_sites <- c(
   "Bolomor Cave", "Cova de les Malladetes (Barx, Valencia, Spain)",
   "Cova del Parpalló (Parpalló Cave)", "Saint-Césaire",
   "Steinheim an der Murr", "Ochoz 1, Ochoz 2", "Peștera Muierii",
-  "Sima de los Huesos PNAS",
+  #"Sima de los Huesos PNAS",
  "Sima de los Huesos 89"                                                           
 , "Sima de los Huesos 90"                                                           
 , "Sima de los Huesos 95"                                                           
@@ -190,7 +190,7 @@ pr <- pca_surface_plot(tb, res, task_name = "fc_vs_rest",
 ```{r}
 source("pca_funerary_surface_color.R")
 
-focus_sites_ind <- c("Bilzingsleben", "Bolomor IV-VI", 
+focus_sites_ind <- c(#"Bilzingsleben", "Bolomor IV-VI", 
 #"Carihuela", "CdF Adult",
 #  "CdF Juvenil", "Ceprano", "Engis 2", "Feldhofer Grotte",
 #  "La Naulette", "Malladetes", 
