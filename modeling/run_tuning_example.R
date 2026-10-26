@@ -69,7 +69,7 @@ sum_setting <- TRUE # or FALSE
 tasks        <- c("fc_vs_rest", "4class", "cannibalism_vs_fc")
 variants     <- c("ProportionalRep_MNIbased")  # c("pmnau", "remnau") # other
 
-levels_vec   <- random_vectors(n = 1)
+levels_vec   <- random_vectors(n = 100)
 models_vec   <- c(
   #"SVM_RBF",
   #"SVM_Linear",
